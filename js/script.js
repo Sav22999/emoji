@@ -1,5 +1,5 @@
 var titles = ["😀", "🦊", "🅰️", "🍎", "🏳️‍🌈", "🏊", "🖱️", "👗", "🖐️", "🛎️"];
-var emojis = [0, 1, 2];
+var emojis = [];
 /*smileys*/
 emojis[0] = ["😀", "😃", "😄", "😁", "😆", "😅", "🤣", "😂", "🙂", "🙃", "😉", "😊", "😇", "🥰", "😍", "🤩", "😘", "😗", "☺️", "😚", "😙", "😋", "😛", "😜", "🤪", "😝", "🤑", "🤗", "🤭", "🤫", "🤔", "🤐", "🤨", "😐", "😑", "😶", "😏", "😒", "🙄", "😬", "🤥", "😌", "😔", "😪", "🤤", "😴", "😷", "🤒", "🤕", "🤢", "🤮", "🤧", "🥵", "🥶", "🥴", "😵", "🤯", "🤠", "🥳", "😎", "🤓", "🧐", "😕", "😟", "🙁", "☹️", "😮", "😯", "😲", "😳", "🥺", "😦", "😨", "😰", "😥", "😢", "😭", "😱", "😖", "😣", "😞", "😓", "😩", "😫", "😤", "😡", "😠", "🤬", "😈", "👿", "🤡", "👽", "👾", "🤖", "👹", "👻", "👶", "🧒", "👧", "🧑", "👱", "👨", "🧔", "👨‍🦰", "👨‍🦱", "👨‍🦳", "👨‍🦲", "👩", "👩‍🦰", "👩‍🦱", "👩‍🦳", "👩‍🦲", "👱‍♀️", "👱‍♂️", "🧓", "👴", "👵", "👼", "🎅", "🤶", "🤴", "👸", "👳", "👳‍♂️", "👳‍♀️", "👲", "🧕", "🤵", "👰", "🤰", "🤱"];
 /*animals*/
@@ -76,14 +76,17 @@ function setHeight() {
     var n_emojis = emojis[selectedTitle].length;
     var rows = parseInt(n_emojis / max_columns + "");
     if ((n_emojis % max_columns) != 0) rows += 1;
+
     document.getElementById("emojis").style.height = max_rows * 50 + 4 + "px";
     document.getElementById("popup-content").style.height = max_rows * 50 + 4 + 36 + "px"; //36 is the height of titles
 
     var widthToSet = max_columns * 50 + 4 + 10; //50 is the height of one row, 4 is the padding of emojis div, 10 is the width of scrollbar (customised), otherwise it would be 18
     if (rows > max_rows) {
         document.body.style.width = widthToSet + "px";
+        document.getElementById("emojis").style.overflowY = "auto";
     } else {
         document.body.style.width = max_columns * 50 + 4 + "px";
+        document.getElementById("emojis").style.overflowY = "hidden";
     }
     //var n_emojies_in_section = rows * max_columns - (max_columns - n_emojis % max_columns);
     document.getElementById("emojis").scrollTop = (0, 0);
