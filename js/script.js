@@ -21,6 +21,7 @@ emojis[8] = ["👋", "🤚", "✋", "🖖", "👌", "✌️", "🤞", "🤟", "�
 /*other*/
 emojis[9] = ["💩", "💋", "💅", "🤳", "🦴", "🧳", "🌂", "☂️", "🧵", "🧶", "💄", "💍", "💥", "💫", "💦", "💨", "🐾", "🕸️", "🦠", "💐", "🌍", "🌎", "🌏", "🌐", "🌑", "🌓", "🌕", "🌗", "🌙", "🌛", "🌜", "☀️", "⭐", "☁️", "⛅", "⛈️", "🌤️", "🌥️", "🌦️", "🌧️", "🌨️", "🌩️", "🌪️", "🌫️", "🌈", "❄️", "☃️", "⛄", "☄️", "🔥", "💧", "🌊", "🎄", "🌻", "🌼", "🌷", "🌹", "🌹", "🌳", "🌴", "☘️", "🔑", "🗝️", "🔨", "⛏️", "🔒", "🔓", "🔏", "🔐", "🗡️", "⚔️", "🔫", "🧰", "🧲", "⛓️", "💉", "🧬", "🧪", "🛏️", "🚪", "🚽", "🚿", "🛁", "🧴", "🧷", "🧺", "🧻", "🧼", "🧽", "🧯", "🚬", "⚰️", "⚱️", "🗿", "🛡️", "⚙️", "⚖️", "🔗", "💀", "☠️", "🦻", "🦸", "🦸‍♀️", "🦹", "🦹‍♀️", "🧙", "🧙‍♀️", "🧚", "🧚‍♀️", "🧛", "🧛‍♀️", "🧜", "🧜‍♀️", "🧝", "🧝‍♀️", "🧞‍♂️", "🧞", "🕵️", "💂", "💂‍♀️", "👮", "👮‍♀️", "👨‍🚒", "👩‍🚒", "👨‍‍✈️", "👩‍✈️", "👨‍‍💻", "👩‍💻", "👨‍‍🎤", "👩‍🎤", "👨‍‍🎨", "👩‍🎨", "👷‍♂️", "👷‍♀️", "💑", "👨‍❤️‍👨", "👩‍❤️‍👩"];
 var selectedTitle = 0;
+var char_copied_n = 0;
 
 generateTitles();
 
@@ -31,6 +32,7 @@ function copyEmoji(text) {
     copyText.select();
     document.execCommand("copy");
     document.getElementById("text_to_copy").style.display = "none";
+    showCopied()
 }
 
 function generateTitles() {
@@ -90,4 +92,21 @@ function setHeight() {
     }
     //var n_emojies_in_section = rows * max_columns - (max_columns - n_emojis % max_columns);
     document.getElementById("emojis").scrollTop = (0, 0);
+}
+
+function showCopied() {
+    let index_to_use = char_copied_n;
+    char_copied_n++;
+    let new_b_element = document.createElement("b");
+    new_b_element.className = "character-copied";
+    new_b_element.id = "character-copied-" + index_to_use;
+    new_b_element.innerHTML = "Copied ✔";
+    document.getElementById("popup-content").append(new_b_element);
+    setTimeout(function () {
+        hideCopied(index_to_use);
+    }, 1500);
+}
+
+function hideCopied(index_to_use) {
+    document.getElementById("character-copied-" + index_to_use).style.display = "none";
 }

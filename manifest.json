@@ -1,23 +1,19 @@
 {
   "manifest_version": 2,
   "name": "Emoji",
-  "version": "2.0.2",
-
+  "version": "2.1",
   "description": "It permits just with a single click to copy an emoji.",
-
   "icons": {
     "16": "./img/icon-dark-16.png",
     "24": "./img/icon-dark-24.png",
     "48": "./img/icon-dark-48.png",
     "96": "./img/icon-dark-96.png"
   },
-
   "applications": {
     "gecko": {
       "id": "emoji@saveriomorelli.com"
     }
   },
-
   "browser_action": {
     "browser_style": true,
     "default_icon": {
@@ -26,23 +22,28 @@
       "48": "./img/icon-light-48.png",
       "96": "./img/icon-light-96.png"
     },
-    "theme_icons": [{
-      "dark": "./img/icon-dark-16.png",
-      "light": "./img/icon-light-16.png",
-      "size": 16
-    },{
-      "dark": "./img/icon-dark-24.png",
-      "light": "./img/icon-light-24.png",
-      "size": 24
-    },{
-      "dark": "./img/icon-dark-48.png",
-      "light": "./img/icon-light-48.png",
-      "size": 48
-    },{
-      "dark": "./img/icon-dark-96.png",
-      "light": "./img/icon-light-96.png",
-      "size": 96
-    }],
+    "theme_icons": [
+      {
+        "dark": "./img/icon-dark-16.png",
+        "light": "./img/icon-light-16.png",
+        "size": 16
+      },
+      {
+        "dark": "./img/icon-dark-24.png",
+        "light": "./img/icon-light-24.png",
+        "size": 24
+      },
+      {
+        "dark": "./img/icon-dark-48.png",
+        "light": "./img/icon-light-48.png",
+        "size": 48
+      },
+      {
+        "dark": "./img/icon-dark-96.png",
+        "light": "./img/icon-light-96.png",
+        "size": 96
+      }
+    ],
     "default_title": "Emoji",
     "default_popup": "./popup.html"
   }
