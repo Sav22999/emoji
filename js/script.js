@@ -122,6 +122,9 @@ function searchEmoji(value) {
             }
         }
         generateTitles(true);
+        if (n_results == 0) {
+            document.getElementById("emojis").innerHTML = "<div id='no_emojis_found'>No emojis found</div>";
+        }
     } else {
         if (this.selectedTitle == 0) generateTitles(false);
     }
