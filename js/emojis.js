@@ -1,5 +1,5 @@
 // descriptions gave on Emojipedia.org
-var titles = ["🔍", "😀", "🦊", "🅰️", "🍎", "🏳️‍🌈", "🏊", "🖱️", "👗", "🖐️", "🛎️"];
+var titles = ["🔍", "😀", "🙋", "🦊", "🅰️", "🍎", "🏳️‍🌈", "🏊", "🖱️", "👗", "🖐️", "🛎️"];
 var emojis = [];
 
 /*search*/
@@ -52,6 +52,7 @@ emojis[1] = {
     "😪": ["Sleepy Face", "Side-Tear", "Snot Bubble", ],
     "🤤": ["Saliva", "Drooling Face", "Drool"],
     "😴": ["Zzz", "Sleeping Face", "Sleep Face", "Snoring", "Zzz Face"],
+    "🥱": ["Yawning Face"],
     "😷": ["Face with Medical Mask", "Coronavirus", "COVID-19", "Mask Face", "Surgical Mask"],
     "🤒": ["Face with Thermometer", "Ill", "Sick"],
     "🤕": ["Face with Head-Bandage", "Bandaged Head", "Clumsy", "Injured"],
@@ -138,8 +139,12 @@ emojis[1] = {
     "🤰": ["Pregnant Woman", "Pregnancy", "Pregnant Lady"],
     "🤱": ["Breast-Feeding", "Breastfeeding"]
 };
-/*animals*/
+/*people*/
 emojis[2] = {
+    "": []
+};
+/*animals*/
+emojis[3] = {
     "😺": [":)", "Grinning Cat", "Happy Cat", "Smiling Cat", "Happy Cat Face", "Smiling Cat Face with Open Mouth"],
     "😸": [":D", "Grinning Cat with Smiling Eyes", "Grinning Cat", "Happy Cat", "Grinning Cat Face"],
     "😹": [":')", "Cat with Tears of Joy", "Happy Tears Cat", "Laughing Cat", ],
@@ -253,66 +258,66 @@ emojis[2] = {
     "🦑": ["Squid"]
 };
 /*symbols*/
-emojis[3] = {
-    "💘": [],
-    "💝": [],
-    "💖": [],
-    "💗": [],
-    "💓": [],
-    "💞": [],
-    "💕": [],
-    "💟": [],
-    "❣️": [],
-    "💔": [],
-    "❤️": [],
-    "🧡": [],
-    "💛": [],
-    "💚": [],
-    "💙": [],
-    "💜": [],
-    "🖤": [],
-    "🤍": [],
-    "🤎": [],
-    "💯": [],
-    "💬": [],
-    "💤": [],
-    "♠️": [],
-    "♥️": [],
-    "♦️": [],
-    "♣️": [],
-    "🏧": [],
-    "🎵": [],
-    "🎶": [],
-    "🔔": [],
-    "🔕": [],
-    "🔈": [],
-    "🔉": [],
-    "🔊": [],
-    "🔇": [],
-    "⛔": [],
-    "🚫": [],
-    "🚳": [],
-    "🚭": [],
-    "🚯": [],
-    "🚱": [],
-    "🚷": [],
-    "🔞": [],
-    "☢️": [],
-    "☣️": [],
-    "⬆️": [],
-    "↗️": [],
-    "➡️": [],
-    "↘️": [],
-    "⬇️": [],
-    "↙️": [],
-    "⬅️": [],
-    "↖️": [],
-    "↕️": [],
-    "↔️": [],
-    "↩️": [],
-    "↪️": [],
-    "⤴️": [],
-    "⤵️": [],
+emojis[4] = {
+    "💘": ["Heart with Arrow", "Cupid Arrow", "Lovestruck"],
+    "💝": ["Heart with Ribbon", "Chocolate Box", "Gift Box", "Gift Heart"],
+    "💖": ["Sparkling Heart", "Sparkle Heart", "Sparkly Heart", "Stars Heart"],
+    "💗": ["Growing Heart", "Multiple Heart", "Triple Heart"],
+    "💓": ["Beating Heart", "Heart Alarm", "Heartbeat", "Wifi Heart"],
+    "💞": ["Revolving Hearts", "Two Hearts"],
+    "💕": ["Two Hearts", "Small Hearts", "Two Pink Hearts"],
+    "💟": ["Heart Decoration"],
+    "❣️": ["Heart Exclamation", "Heart Above Dot", "Red Heart As an Exclamation Mark", "Heavy Heart Exclamation Mark Ornament"],
+    "💔": ["Broken Heart", "Breaking Heart", "Brokenhearted", "Heart Broken"],
+    "❤️": ["I Love You", "Red Heart", "Heart", "Love Heart", "Red Heart"],
+    "🧡": ["Orange Heart"],
+    "💛": ["Yellow Heart", "#1 BF Snapchat", "Gold Heart"],
+    "💚": ["Green Heart", "Jealous Heart"],
+    "💙": ["Blue Heart"],
+    "💜": ["Purple Heart"],
+    "🖤": ["Black Heart", "Dark Heart"],
+    "🤍": ["White Heart"],
+    "🤎": ["Brown Heart"],
+    "💯": ["Hundred Points", "100", "%", "Keep It 100", "Perfect Score", "Hundred Points Symbol"],
+    "💬": ["Speech Balloon", "Chat Bubble", "Speech Bubble"],
+    "💤": ["Zzz", "Bedtime", "Boring", "Sleep", "Sleeping Sign", "Sleeping Symbol"],
+    "♠️": ["Spade Suit", "Spades", "Black Spade Suit"],
+    "♥️": ["Heart Suit", "Card With Heart", "Hearts", "Black Heart Suit"],
+    "♦️": ["Diamond Suit", "Diamonds", "Black Diamond Suit"],
+    "♣️": ["Club Suit", "Clubs", "Black Club Suit"],
+    "🏧": ["ATM Sign", "ATM", "Automated Telleer Machine"],
+    "🎵": ["Musical Note", "Beamed Pair Of Eighth Notes", "Beamed Pair Of Quavers", "Music Note"],
+    "🎶": ["Musical Notes", "Music", "Music Notes", "Singing", "Multiple Musical Notes"],
+    "🔔": ["Bell", "Liberty Bell", "Ringer", "Wedding Bell"],
+    "🔕": ["Bell with Slash", "Notifications", "Ringer Disabled", "Muted Bell", "Bell with Cancellation Stroke"],
+    "🔈": ["Speaker Low Volume", "Volume", "Speaker"],
+    "🔉": ["Speaker Medium Volume", "Reduce Volume", "Speaker With Medium Volume", "Speaker with One Sound Wave"],
+    "🔊": ["Speaker High Volume", "Increase Volume", "Speaker with Three Sound Waves"],
+    "🔇": ["Muted Speaker", "Mute Volume", "Speaker with Cancellation Stroke"],
+    "⛔": ["No Entry"],
+    "🚫": ["Prohibited", "Banned", "Circle Backslash", "No", "Red Circle Crossed", "Restricted", "No Entry Sign"],
+    "🚳": ["No Bicycles", "No Bikes Sign"],
+    "🚭": ["No Smoking", "No Smoking Symbol"],
+    "🚯": ["No Littering", "Do Not No Litter Symbol"],
+    "🚱": ["Non-Potable Water", "No Water", "No Drinking Water", "Non-Potable Water Symbol"],
+    "🚷": ["No Pedestrians", "No People", "No Walking"],
+    "🔞": ["No One Under Eighteen", "NSFW", "No One Under Eighteen Symbol", "18"],
+    "☢️": ["Radioactive", "International Radiation Symbol", "Nuclear", "Radioactive Sign"],
+    "☣️": ["Biohazard", "Biohazard Sign"],
+    "⬆️": ["Up Arrow", "Arrow Pointing Up", "Upwards Black Arrow"],
+    "↗️": ["Up-Right Arrow", "Diagonal Up-Right Arrow", "North East Arrow"],
+    "➡️": ["Right Arrow", "Arrow Pointing Right", "Black Rightwards Arrow"],
+    "↘️": ["Down-Right Arrow", "Diagonal Down-Right Arrow", "South East Arrow"],
+    "⬇️": ["Down Arrow", "Arrow Pointing Down", "Downwards Black Arrow"],
+    "↙️": ["Down-Left Arrow", "Diagonal Down-Left Arrow", "South West Arrow"],
+    "⬅️": ["Left Arrow", "Arrow Pointing Left", "Leftwards Black Arrow"],
+    "↖️": ["Up-Left Arrow", "Diagonal Up-Left Arrow", "North West Arrow"],
+    "↕️": ["Up-Down Arrow", "Vertical Arrows", "Up Down Arrow"],
+    "↔️": ["Left-Right Arrow", "Horizontal Arrows", "Sideways Arrows", "Left Right Arrow"],
+    "↩️": ["Right Arrow Curving Left", "Email Reply", "Left Curved Arrow", "Leftwards Arrow with Hook"],
+    "↪️": ["Left Arrow Curving Right", "Email Forward", "Right Curved Arrow", "Rightwards Arrow with Hook"],
+    "⤴️": ["Right Arrow Curving Up", "Arrow Pointing Rightwards Then Curving Upwards"],
+    "⤵️": ["Right Arrow Curving Down", "Curved Down Arrow", "Arrow Pointing Rightwards Then Curving Downwards"],
     "🔃": [],
     "🔄": [],
     "🔙": [],
@@ -427,7 +432,7 @@ emojis[3] = {
     "™️": []
 };
 /*food and drinks*/
-emojis[4] = {
+emojis[5] = {
     "🍇": [],
     "🍈": [],
     "🍉": [],
@@ -535,7 +540,7 @@ emojis[4] = {
     "🥄": []
 };
 /*flags*/
-emojis[5] = {
+emojis[6] = {
     "🏁": [],
     "🚩": [],
     "🎌": [],
@@ -600,7 +605,7 @@ emojis[5] = {
     "🇧🇷": []
 };
 /*sports*/
-emojis[6] = {
+emojis[7] = {
     "🧗": [],
     "🏇": [],
     "⛷️": [],
@@ -656,7 +661,7 @@ emojis[6] = {
     "🏹": []
 };
 /*technologies (smartphones, laptops, ect.) and office*/
-emojis[7] = {
+emojis[8] = {
     "⌚": [],
     "⏰": [],
     "⏱️": [],
@@ -727,7 +732,7 @@ emojis[7] = {
     "🔬": []
 };
 /*clothes and accessories*/
-emojis[8] = {
+emojis[9] = {
     "👣": [],
     "👓": [],
     "🕶️": [],
@@ -764,7 +769,7 @@ emojis[8] = {
     "💼": []
 };
 /*hands and parts of body*/
-emojis[9] = {
+emojis[10] = {
     "👋": [],
     "🤚": [],
     "✋": [],
@@ -808,7 +813,7 @@ emojis[9] = {
     "👄": []
 };
 /*other*/
-emojis[10] = {
+emojis[11] = {
     "💩": [],
     "💋": [],
     "💅": [],

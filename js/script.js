@@ -107,8 +107,9 @@ function hideCopied(index_to_use) {
 function searchEmoji(value) {
     emojis[0] = {};
     let n_results = 0;
-    let valueToUse = value.replace(/\s/ig, "").toLowerCase();
-    if (valueToUse.length != 0) {
+    let valueToUse = value.toLowerCase();
+    let valueToCheck = valueToUse.replace(/\s/ig, "")
+    if (valueToCheck.length != 0) {
         for (let title = 1; title < titles.length; title++) {
             for (let emoji in emojis[title]) {
                 for (let description in emojis[title][emoji]) {
