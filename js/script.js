@@ -51,38 +51,37 @@ function setTitle(newTitle) {
 }
 
 function generateEmojis(title) {
-    //emoji[title][i]
     document.getElementById("emojis").innerHTML = "";
-    var n_emojis = emojis[title].length;
-    for (var i = 0; i < n_emojis; i++) {
-        document.getElementById("emojis").innerHTML += "<input type=\"button\" class=\"emoji\" value=\"" + emojis[title][i] + "\" />";
+    let n_emojis = Object.keys(emojis[title]).length;
+    for (let i in emojis[title]) {
+        document.getElementById("emojis").innerHTML += "<input type=\"button\" class=\"emoji\" value=\"" + i + "\" />";
     }
 
-    for (var i = 0; i < n_emojis; i++) {
+    for (let i = 0; i < n_emojis; i++) {
         document.getElementsByClassName("emoji")[i].onclick = function (e) {
             copyEmoji(this.value);
         };
     }
-    console.log(emojis[title]);
+    //console.log(emojis[title]);
     setHeight();
 }
 
 function setHeight() {
     let max_columns = 9;
     let max_rows = 6;
-    let n_emojis = emojis[selectedTitle].length;
+    let n_emojis = Object.keys(emojis[selectedTitle]).length;
     let rows = parseInt(n_emojis / max_columns + "");
     if ((n_emojis % max_columns) != 0) rows += 1;
 
-    document.getElementById("emojis").style.height = max_rows * 50 + 4 + "px";
-    document.getElementById("popup-content").style.height = max_rows * 50 + 4 + 36 + "px"; //36 is the height of titles
+    document.getElementById("emojis").style.height = (max_rows * 50 + 4) + "px";
+    document.getElementById("popup-content").style.height = (max_rows * 50 + 4 + 36 + (34 + 12)) + "px"; //36 is the height of titles, 34+12 because there is the search-box (and its margin)
 
-    let widthToSet = max_columns * 50 + 4 + 10; //50 is the height of one row, 4 is the padding of emojis div, 10 is the width of scrollbar (customised), otherwise it would be 18
+    let widthToSet = (max_columns * 50 + 4 + 10); //50 is the height of one row, 4 is the padding of emojis div, 10 is the width of scrollbar (customised), otherwise it would be 18
     if (rows > max_rows) {
         document.body.style.width = widthToSet + "px";
         document.getElementById("emojis").style.overflowY = "auto";
     } else {
-        document.body.style.width = max_columns * 50 + 4 + "px";
+        document.body.style.width = (max_columns * 50 + 4) + "px";
         document.getElementById("emojis").style.overflowY = "hidden";
     }
     document.getElementById("emojis").scrollTop = (0, 0);
@@ -106,16 +105,16 @@ function hideCopied(index_to_use) {
 }
 
 function searchEmoji(value) {
-    emojis[0] = [];
+    emojis[0] = {};
     let n_results = 0;
     let valueToUse = value.replace(/\s/ig, "").toLowerCase();
     if (valueToUse.length != 0) {
-        for (let position = 1; position < titles.length; position++) {
-            for (let index = 0; index < emojis_details[position].length; index++) {
-                for (let details_index = 0; details_index < emojis_details[position][index].length; details_index++) {
-                    let tmp_str = emojis_details[position][index][details_index].toLowerCase()
+        for (let title = 1; title < titles.length; title++) {
+            for (let emoji in emojis[title]) {
+                for (let description in emojis[title][emoji]) {
+                    let tmp_str = emojis[title][emoji][description].toLowerCase()
                     if (tmp_str.includes(valueToUse) || valueToUse.includes(tmp_str)) {
-                        emojis[0][n_results] = emojis[position][index];
+                        emojis[0][emoji] = [];
                         n_results++;
                     }
                 }
@@ -123,7 +122,7 @@ function searchEmoji(value) {
         }
         generateTitles(true);
         if (n_results == 0) {
-            document.getElementById("emojis").innerHTML = "<div id='no_emojis_found'>No emojis found</div>";
+            document.getElementById("emojis").innerHTML = "<div id='no_emojis_found'>😞 No emojis found</div>";
         }
     } else {
         if (this.selectedTitle == 0) generateTitles(false);
@@ -133,3 +132,4 @@ function searchEmoji(value) {
 document.getElementById("search-bar-input").onkeyup = function (e) {
     searchEmoji(document.getElementById("search-bar-input").value);
 }
+document.getElementById("search-bar-input").focus();
