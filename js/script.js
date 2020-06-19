@@ -116,6 +116,7 @@ function searchEmoji(value) {
                     if (tmp_str.includes(valueToUse) || valueToUse.includes(tmp_str)) {
                         emojis[0][emoji] = [];
                         n_results++;
+                        break;
                     }
                 }
             }
