@@ -67,7 +67,7 @@ function generateEmojis(title) {
 }
 
 function setHeight() {
-    let max_columns = 9;
+    let max_columns = 10;
     let max_rows = 6;
     let n_emojis = Object.keys(emojis[selectedTitle]).length;
     let rows = parseInt(n_emojis / max_columns + "");
