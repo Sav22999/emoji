@@ -30,7 +30,7 @@ function generateTitles(search = false, titleToSet = 1) {
             if (!search) document.getElementsByClassName("section_title")[i].style.display = "none";
             else document.getElementsByClassName("section_title")[i].style.display = "inline-block";
         } else {
-            document.getElementsByClassName("section_title")[i].onclick = function (e) {
+            document.getElementsByClassName("section_title")[i].onclick = function(e) {
                 resetAndSetTitle(this.id.replace("title", ""));
             };
         }
@@ -58,7 +58,7 @@ function generateEmojis(title) {
     }
 
     for (let i = 0; i < n_emojis; i++) {
-        document.getElementsByClassName("emoji")[i].onclick = function (e) {
+        document.getElementsByClassName("emoji")[i].onclick = function(e) {
             copyEmoji(this.value);
         };
     }
@@ -95,7 +95,7 @@ function showCopied() {
     new_b_element.id = "character-copied-" + index_to_use;
     new_b_element.innerHTML = "Copied ✔";
     document.getElementById("popup-content").append(new_b_element);
-    setTimeout(function () {
+    setTimeout(function() {
         hideCopied(index_to_use);
     }, 1500);
 }
@@ -124,14 +124,14 @@ function searchEmoji(value) {
         }
         generateTitles(true);
         if (n_results == 0) {
-            document.getElementById("emojis").innerHTML = "<div id='no_emojis_found'>😞 No emojis found</div>";
+            document.getElementById("emojis").innerHTML = "<div id='no_emojis_found'><span style='font-family:twemoji;margin-right:10px;font-size:25px;'>😟</span> No emojis found</div>";
         }
     } else {
         if (this.selectedTitle == 0) generateTitles(false);
     }
 }
 
-document.getElementById("search-bar-input").onkeyup = function (e) {
+document.getElementById("search-bar-input").onkeyup = function(e) {
     searchEmoji(document.getElementById("search-bar-input").value);
 }
 document.getElementById("search-bar-input").focus();
