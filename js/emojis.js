@@ -27,7 +27,7 @@ emojis[1] = {
     "☺️": ["Smiling Face", "Happy Face", "Smiley Face", "Smiling", "White Smiling Face"],
     "😚": ["Kissing Face with Closed Eyes", "Kiss Face", "Kissy Face"],
     "😙": ["Kissing Face with Smiling Eyes", "Kiss Face", "Kissy", "Whistle", "Whistling"],
-    "😋": ["Face Savoring Food", "Goofy", "Hungry", "Smiling Face Licking Lips", "Face Savouring Delicious Food"],
+    "😋": ["Face Savoring Food", "Goofy", "Hungry", "Smiling Face Licking Lips", "Face Savouring Delicious Food", "Yum Yum"],
     "😛": [":P", "Face with Tongue", "Cheeky", "Tongue Face", "Tongue-Out", "Face with Stuck-Out Tongue"],
     "😜": [";P", "Winking Face with Tongue", "Crazy", "Crazy Face", "Winking Face With Stuck-Out Tongue", "Face with Stuck-Out Tongue and Winking Eye"],
     "🤪": ["Zany Face", "Crazy Eyes", "Excited", "Wild", "Goofy Face", "Grinning Face with One Large and One Small Eye"],
