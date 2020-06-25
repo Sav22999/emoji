@@ -13,13 +13,13 @@ function copyEmoji(text) {
     showCopied()
 }
 
-function generateTitles(search = false, titleToSet = 1) {
+function generateTitles(search = false, titleToSet = 1, clearSearchBox=true) {
     var widthToSet = 0;
     if (search) {
         widthToSet = 100 / titles.length;
     } else {
         widthToSet = 100 / (titles.length - 1);
-        document.getElementById("search-bar-input").value = "";
+        if(clearSearchBox) document.getElementById("search-bar-input").value = "";
     }
     for (let i = 0; i < titles.length; i++) {
         document.getElementById("titles").innerHTML += "<input type='button' class='section_title' id='title" + i + "' value='" + titles[i] + "' />";
@@ -30,7 +30,7 @@ function generateTitles(search = false, titleToSet = 1) {
             if (!search) document.getElementsByClassName("section_title")[i].style.display = "none";
             else document.getElementsByClassName("section_title")[i].style.display = "inline-block";
         } else {
-            document.getElementsByClassName("section_title")[i].onclick = function(e) {
+            document.getElementsByClassName("section_title")[i].onclick = function (e) {
                 resetAndSetTitle(this.id.replace("title", ""));
             };
         }
@@ -58,7 +58,7 @@ function generateEmojis(title) {
     }
 
     for (let i = 0; i < n_emojis; i++) {
-        document.getElementsByClassName("emoji")[i].onclick = function(e) {
+        document.getElementsByClassName("emoji")[i].onclick = function (e) {
             copyEmoji(this.value);
         };
     }
@@ -95,7 +95,7 @@ function showCopied() {
     new_b_element.id = "character-copied-" + index_to_use;
     new_b_element.innerHTML = "Copied ✔";
     document.getElementById("popup-content").append(new_b_element);
-    setTimeout(function() {
+    setTimeout(function () {
         hideCopied(index_to_use);
     }, 1500);
 }
@@ -107,15 +107,15 @@ function hideCopied(index_to_use) {
 function searchEmoji(value) {
     emojis[0] = {};
     let n_results = 0;
-    let valueToUse = value.toLowerCase();
-    let valueToCheck = valueToUse.replace(/\s/ig, "")
-    if (valueToCheck.length != 0) {
+    let valueToUse = value.toLowerCase().replace(".", "");
+    let valueToCheck = valueToUse.replace(/\s/ig, "");
+    if (valueToCheck.length > 1) {
         for (let title = 1; title < titles.length; title++) {
             for (let emoji in emojis[title]) {
                 for (let description in emojis[title][emoji]) {
-                    let tmp_str = emojis[title][emoji][description].toLowerCase()
+                    let tmp_str = emojis[title][emoji][description].toLowerCase().replace(".", "");
                     if (tmp_str.includes(valueToUse) || valueToUse.includes(tmp_str)) {
-                        emojis[0][emoji] = [];
+                        emojis[0][emoji] = []; //add emoji to the list
                         n_results++;
                         break;
                     }
@@ -127,11 +127,14 @@ function searchEmoji(value) {
             document.getElementById("emojis").innerHTML = "<div id='no_emojis_found'><span style='font-family:twemoji;margin-right:10px;font-size:25px;'>😟</span> No emojis found</div>";
         }
     } else {
-        if (this.selectedTitle == 0) generateTitles(false);
+        if (this.selectedTitle == 0) {
+            if(valueToCheck.length == 0) generateTitles(false); //clear searchbox
+            else generateTitles(false,1,false); //don't clear searchbox
+        }
     }
 }
 
-document.getElementById("search-bar-input").onkeyup = function(e) {
+document.getElementById("search-bar-input").onkeyup = function (e) {
     searchEmoji(document.getElementById("search-bar-input").value);
 }
 document.getElementById("search-bar-input").focus();
