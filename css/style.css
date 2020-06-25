@@ -49,7 +49,7 @@ body {
     color: black;
     border: 0px;
     border-radius: 3px;
-    font-size: 18px;
+    font-size: 22px;
     font-family: inherit;
     margin: 5px;
     cursor: pointer;
@@ -83,7 +83,7 @@ body {
     color: rgb(10, 132, 255);
     border: 0px;
     border-radius: 0px;
-    font-size: 14px;
+    font-size: 16px;
     /*border-top: 3px solid rgb(10, 132, 255);*/
     border-top: 3px solid transparent;;
     border-bottom: 1px solid rgb(201, 202, 203);
@@ -123,4 +123,42 @@ b.character-copied {
     width: auto;
     font-weight: bold;
     font-family: zilla-slab;
+}
+
+#search-box {
+    background: transparent;
+    margin: 6px;
+    height: 34px;
+}
+
+#search-bar-input {
+    background-color: rgb(245, 245, 245);
+    border: 1px solid rgb(225, 225, 226);
+    border-radius: 3px;
+    padding: 6px;
+    padding-right: 36px;
+    height: 32px;
+    width: 100%;
+    font: inherit;
+    font-size: 14px;
+    transition: 0.1s;
+    font-family: zilla-slab;
+}
+
+#search-bar-input:hover {
+    border-color: rgb(177, 177, 178);
+}
+
+#search-bar-input:focus {
+    border: 1px solid #0a84ff;
+    box-shadow: 0px 0px 0px 2px #0a84ff, 0px 0px 0px 5px #b1d6fc;
+}
+
+#no_emojis_found {
+    font-family: zilla-slab;
+    text-align: center;
+    padding: 50px;
+    width: auto;
+    margin: 5px;
+    font-size: 20px;
 }

@@ -1,26 +1,4 @@
-var titles = ["😀", "🦊", "🅰️", "🍎", "🏳️‍🌈", "🏊", "🖱️", "👗", "🖐️", "🛎️"];
-var emojis = [];
-/*smileys*/
-emojis[0] = ["😀", "😃", "😄", "😁", "😆", "😅", "🤣", "😂", "🙂", "🙃", "😉", "😊", "😇", "🥰", "😍", "🤩", "😘", "😗", "☺️", "😚", "😙", "😋", "😛", "😜", "🤪", "😝", "🤑", "🤗", "🤭", "🤫", "🤔", "🤐", "🤨", "😐", "😑", "😶", "😏", "😒", "🙄", "😬", "🤥", "😌", "😔", "😪", "🤤", "😴", "😷", "🤒", "🤕", "🤢", "🤮", "🤧", "🥵", "🥶", "🥴", "😵", "🤯", "🤠", "🥳", "😎", "🤓", "🧐", "😕", "😟", "🙁", "☹️", "😮", "😯", "😲", "😳", "🥺", "😦", "😨", "😰", "😥", "😢", "😭", "😱", "😖", "😣", "😞", "😓", "😩", "😫", "😤", "😡", "😠", "🤬", "😈", "👿", "🤡", "👽", "👾", "🤖", "👹", "👻", "👶", "🧒", "👧", "🧑", "👱", "👨", "🧔", "👨‍🦰", "👨‍🦱", "👨‍🦳", "👨‍🦲", "👩", "👩‍🦰", "👩‍🦱", "👩‍🦳", "👩‍🦲", "👱‍♀️", "👱‍♂️", "🧓", "👴", "👵", "👼", "🎅", "🤶", "🤴", "👸", "👳", "👳‍♂️", "👳‍♀️", "👲", "🧕", "🤵", "👰", "🤰", "🤱"];
-/*animals*/
-emojis[1] = ["😺", "😸", "😹", "😻", "😼", "😽", "🙀", "😿", "😾", "🙈", "🙉", "🙊", "🐵", "🐒", "🦍", "🐶", "🐕", "🐩", "🐺", "🦊", "🦝", "🐱", "🐈", "🦁", "🐯", "🐅", "🐆", "🐴", "🐎", "🦄", "🦓", "🦌", "🐮", "🐂", "🐃", "🐄", "🐷", "🐖", "🐗", "🐽", "🐏", "🐑", "🐐", "🐪", "🐫", "🦙", "🦒", "🐘", "🦏", "🦛", "🐭", "🐁", "🐀", "🐹", "🐰", "🐇", "🐿️", "🦔", "🦇", "🐻", "🐨", "🐼", "🦘", "🦡", "🦃", "🐔", "🐓", "🐣", "🐤", "🐥", "🐦", "🐧", "🕊️", "🦅", "🦆", "🦢", "🦉", "🦚", "🦜", "🐸", "🐊", "🐢", "🦎", "🐍", "🐲", "🐉", "🦕", "🦖", "🐳", "🐋", "🐬", "🐟", "🐠", "🐡", "🦈", "🐙", "🐚", "🐌", "🦋", "🐛", "🐜", "🐝", "🐞", "🦗", "🕷️", "🦂", "🦟", "🦀", "🦞", "🦐", "🦑"];
-/*symbols*/
-emojis[2] = ["💘", "💝", "💖", "💗", "💓", "💞", "💕", "💟", "❣️", "💔", "❤️", "🧡", "💛", "💚", "💙", "💜", "🖤", "🤍", "🤎", "💯", "💬", "💤", "♠️", "♥️", "♦️", "♣️", "🏧", "🎵", "🎶", "🔔", "🔕", "🔈", "🔉", "🔊", "🔇", "⛔", "🚫", "🚳", "🚭", "🚯", "🚱", "🚷", "🔞", "☢️", "☣️", "⬆️", "↗️", "➡️", "↘️", "⬇️", "↙️", "⬅️", "↖️", "↕️", "↔️", "↩️", "↪️", "⤴️", "⤵️", "🔃", "🔄", "🔙", "🔚", "🔛", "🔜", "🔝", "🛐", "⚛️", "🕉️", "✡️", "☸️", "☯️", "✝️", "☦️", "☪️", "☮️", "🕎", "🔯", "♈", "♉", "♊", "♋", "♌", "♍", "♎", "♏", "♐", "♑", "♒", "♓", "⛎", "🔀", "🔁", "🔂", "▶️", "◀️", "🔼", "🔽", "⏩", "⏪", "⏫", "⏬", "⏹️", "⏏️", "🎦", "📶", "✖️", "➕", "➖", "➗", "♾️", "‼️", "⁉️", "❓", "❔", "❕", "❗", "⭕", "☑️", "✔️", "❌", "✅", "❎", "#️⃣", "0️⃣", "1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣", "6️⃣", "7️⃣", "8️⃣", "9️⃣", "🔟", "🔠", "🔡", "🔢", "🔤", "🅰️", "🆎", "🅱️", "🆑", "🆒", "🆓", "ℹ️", "🆔", "🆕", "🅾️", "🆗", "🅿️", "🆘", "🆙", "🆚", "🔴", "🔵", "⚫", "⚪", "⬛", "⬜", "🔶", "🔷", "🔸", "🔹", "🔺", "🔻", "🔳", "🔲", "©️", "®️", "™️"];
-/*food and drinks*/
-emojis[3] = ["🍇", "🍈", "🍉", "🍊", "🍋", "🍌", "🍍", "🥭", "🍎", "🍏", "🍐", "🍑", "🍒", "🍓", "🥝", "🍅", "🥥", "🥑", "🍆", "🥔", "🥕", "🌽", "🌶️", "🥒", "🥬", "🥦", "🍄", "🥜", "🌰", "🍞", "🥐", "🥖", "🥨", "🥯", "🥞", "🧀", "🍖", "🍗", "🥩", "🥓", "🍔", "🍟", "🍕", "🌭", "🥪", "🌮", "🌯", "🥙", "🍳", "🥘", "🍲", "🥣", "🥗", "🍿", "🧂", "🥫", "🍱", "🍘", "🍙", "🍚", "🍛", "🍜", "🍝", "🍠", "🍢", "🍣", "🍤", "🍥", "🥮", "🍡", "🥟", "🥠", "🥡", "🍦", "🍧", "🍨", "🍩", "🍪", "🎂", "🍰", "🧁", "🥧", "🍫", "🍬", "🍭", "🍮", "🍯", "🍼", "🥛", "☕", "🍵", "🍶", "🍾", "🍷", "🍸", "🍹", "🍺", "🍻", "🥂", "🥃", "🥤", "🥢", "🍽️", "🍴", "🥄"];
-/*flags*/
-emojis[4] = ["🏁", "🚩", "🎌", "🏴", "🏳️", "🏳️‍🌈", "🏳️‍⚧️", "🏴‍☠️", "🇺🇳", "🇪🇺", "🇧🇸", "🇨🇦", "🇨🇭", "🇨🇳", "🇩🇪", "🇩🇰", "🇪🇪", "🇪🇬", "🇪🇸", "🇫🇮", "🇫🇷", "🇬🇧", "🇬🇱", "🇬🇷", "🇭🇺", "🇮🇪", "🇮🇱", "🇮🇩", "🇮🇳", "🇮🇶", "🇮🇷", "🇮🇸", "🇮🇹", "🇯🇵", "🇯🇲", "🇰🇪", "🇰🇷", "🇰🇵", "🇱🇺", "🇲🇹", "🇲🇽", "🇳🇴", "🇳🇱", "🇳🇿", "🇵🇱", "🇵🇹", "🇷🇺", "🇸🇪", "🇸🇮", "🇹🇳", "🇺🇦", "🇺🇸", "🇻🇪", "🇻🇬", "🇻🇮", "🇿🇦", "🇿🇼", "🇦🇪", "🇦🇷", "🇦🇹", "🇦🇺", "🇧🇷"];
-/*sports*/
-emojis[5] = ["🧗", "🏇", "⛷️", "🏂", "🏌️", "🏄", "🚣", "🏊", "⛹️", "🏋️", "🚴", "🚵", "🤸", "🤼", "🤽", "🤾", "🤹", "🧘", "🏆", "🏅", "🥇", "🥈", "🥉", "⚽", "⚾", "🥎", "🏀", "🏐", "🏈", "🏉", "🎾", "🥏", "🎳", "🏏", "🏑", "🏒", "🥍", "🏓", "🏸", "🥊", "🥋", "⛳", "⛸️", "🎣", "🎽", "🎿", "🛷", "🥌", "🎯", "🎱", "🎮", "♟️", "🏹"];
-/*technologies (smartphones, laptops, ect.) and office*/
-emojis[6] = ["⌚", "⏰", "⏱️", "⏲️", "🕰️", "🕹️", "🎙️", "🎚️", "🎛️", "📻", "📱", "📲", "☎️", "📞", "📟", "📠", "🔋", "🔌", "💻", "🖥️", "🖨️", "⌨️", "🖱️", "🖲️", "💽", "💾", "💿", "📀", "🎥", "🎞️", "📽️", "📺", "📷", "📸", "📹", "📼", "💳", "📧", "📨", "📩", "📤", "📥", "📮", "📁", "📂", "🗂️", "📅", "📈", "📉", "📊", "📌", "📋", "📍", "📎", "📏", "📐", "✂️", "✏️", "✒️", "🖋️", "🖊️", "🖌️", "🖍️", "📝", "🗑️", "📡", "🔭", "🔬"];
-/*clothes and accessories*/
-emojis[7] = ["👣", "👓", "🕶️", "🥽", "🥼", "👔", "👕", "👖", "🧣", "🧤", "🧥", "🧦", "👗", "👘", "👙", "👚", "👛", "👜", "👝", "🎒", "👞", "👟", "🥾", "🥿", "👠", "👡", "👢", "👑", "👒", "🎩", "🎓", "🧢", "⛑️", "💼"]
-/*hands and parts of body*/
-emojis[8] = ["👋", "🤚", "✋", "🖖", "👌", "✌️", "🤞", "🤟", "🤘", "🤙", "🤏", "👈", "👉", "👆", "👇", "☝️", "🖕", "👍", "👎", "✊", "👊", "🤛", "🤜", "👏", "🙌", "👐", "🤲", "🤝", "🙏", "✍️", "💪", "🦵", "🦶", "👂", "👃", "🧠", "🦷", "👀", "👁️", "👅", "👄"]
-/*other*/
-emojis[9] = ["💩", "💋", "💅", "🤳", "🦴", "🧳", "🌂", "☂️", "🧵", "🧶", "💄", "💍", "💥", "💫", "💦", "💨", "🐾", "🕸️", "🦠", "💐", "🌍", "🌎", "🌏", "🌐", "🌑", "🌓", "🌕", "🌗", "🌙", "🌛", "🌜", "☀️", "⭐", "☁️", "⛅", "⛈️", "🌤️", "🌥️", "🌦️", "🌧️", "🌨️", "🌩️", "🌪️", "🌫️", "🌈", "❄️", "☃️", "⛄", "☄️", "🔥", "💧", "🌊", "🎄", "🌻", "🌼", "🌷", "🌹", "🌹", "🌳", "🌴", "☘️", "🔑", "🗝️", "🔨", "⛏️", "🔒", "🔓", "🔏", "🔐", "🗡️", "⚔️", "🔫", "🧰", "🧲", "⛓️", "💉", "🧬", "🧪", "🛏️", "🚪", "🚽", "🚿", "🛁", "🧴", "🧷", "🧺", "🧻", "🧼", "🧽", "🧯", "🚬", "⚰️", "⚱️", "🗿", "🛡️", "⚙️", "⚖️", "🔗", "💀", "☠️", "🦻", "🦸", "🦸‍♀️", "🦹", "🦹‍♀️", "🧙", "🧙‍♀️", "🧚", "🧚‍♀️", "🧛", "🧛‍♀️", "🧜", "🧜‍♀️", "🧝", "🧝‍♀️", "🧞‍♂️", "🧞", "🕵️", "💂", "💂‍♀️", "👮", "👮‍♀️", "👨‍🚒", "👩‍🚒", "👨‍‍✈️", "👩‍✈️", "👨‍‍💻", "👩‍💻", "👨‍‍🎤", "👩‍🎤", "👨‍‍🎨", "👩‍🎨", "👷‍♂️", "👷‍♀️", "💑", "👨‍❤️‍👨", "👩‍❤️‍👩"];
-var selectedTitle = 0;
+var selectedTitle = 1;
 var char_copied_n = 0;
 
 generateTitles();
@@ -35,18 +13,34 @@ function copyEmoji(text) {
     showCopied()
 }
 
-function generateTitles() {
-    var widthToSet = 100 / titles.length;
-    for (var i = 0; i < titles.length; i++) {
+function generateTitles(search = false, titleToSet = 1, clearSearchBox = true) {
+    var widthToSet = 0;
+    if (search) {
+        widthToSet = 100 / titles.length;
+    } else {
+        widthToSet = 100 / (titles.length - 1);
+        if (clearSearchBox) document.getElementById("search-bar-input").value = "";
+    }
+    for (let i = 0; i < titles.length; i++) {
         document.getElementById("titles").innerHTML += "<input type='button' class='section_title' id='title" + i + "' value='" + titles[i] + "' />";
         document.getElementsByClassName("section_title")[i].style.width = widthToSet + "%";
     }
-    for (var i = 0; i < titles.length; i++) {
-        document.getElementsByClassName("section_title")[i].onclick = function (e) {
-            setTitle(this.id.replace("title", ""));
-        };
+    for (let i = 0; i < titles.length; i++) {
+        if (i == 0) {
+            if (!search) document.getElementsByClassName("section_title")[i].style.display = "none";
+            else document.getElementsByClassName("section_title")[i].style.display = "inline-block";
+        } else {
+            document.getElementsByClassName("section_title")[i].onclick = function (e) {
+                resetAndSetTitle(this.id.replace("title", ""));
+            };
+        }
     }
-    setTitle(0);
+    if (!search) setTitle(titleToSet);
+    else setTitle(0);
+}
+
+function resetAndSetTitle(newTitle) {
+    generateTitles(false, newTitle);
 }
 
 function setTitle(newTitle) {
@@ -57,40 +51,43 @@ function setTitle(newTitle) {
 }
 
 function generateEmojis(title) {
-    //emoji[title][i]
     document.getElementById("emojis").innerHTML = "";
-    var n_emojis = emojis[title].length;
-    for (var i = 0; i < n_emojis; i++) {
-        document.getElementById("emojis").innerHTML += "<input type=\"button\" class=\"emoji\" value=\"" + emojis[title][i] + "\" />";
+    let n_emojis = Object.keys(emojis[title]).length;
+    for (let i in emojis[title]) {
+        document.getElementById("emojis").innerHTML += "<input type=\"button\" class=\"emoji\" value=\"" + i + "\" />";
     }
 
-    for (var i = 0; i < n_emojis; i++) {
+    for (let i = 0; i < n_emojis; i++) {
         document.getElementsByClassName("emoji")[i].onclick = function (e) {
             copyEmoji(this.value);
         };
     }
+    //console.log(title + ": " + Object.keys(emojis[title]).length);
     setHeight();
 }
 
 function setHeight() {
-    var max_columns = 9;
-    var max_rows = 6;
-    var n_emojis = emojis[selectedTitle].length;
-    var rows = parseInt(n_emojis / max_columns + "");
+    let max_columns = 10;
+    let max_rows = 6;
+    let n_emojis = Object.keys(emojis[selectedTitle]).length;
+    let rows = parseInt(n_emojis / max_columns + "");
     if ((n_emojis % max_columns) != 0) rows += 1;
 
-    document.getElementById("emojis").style.height = max_rows * 50 + 4 + "px";
-    document.getElementById("popup-content").style.height = max_rows * 50 + 4 + 36 + "px"; //36 is the height of titles
+    document.getElementById("emojis").style.height = (max_rows * 50 + 4) + "px";
+    document.getElementById("popup-content").style.height = (max_rows * 50 + 4 + 36 + (34 + 12)) + "px"; //36 is the height of titles, 34+12 because there is the search-box (and its margin)
 
-    var widthToSet = max_columns * 50 + 4 + 10; //50 is the height of one row, 4 is the padding of emojis div, 10 is the width of scrollbar (customised), otherwise it would be 18
-    if (rows > max_rows) {
+    let widthToSet = (max_columns * 50 + 4 + 10); //50 is the height of one row, 4 is the padding of emojis div, 10 is the width of scrollbar (customised), otherwise it would be 18
+
+    /*if (rows > max_rows) {
         document.body.style.width = widthToSet + "px";
         document.getElementById("emojis").style.overflowY = "auto";
     } else {
-        document.body.style.width = max_columns * 50 + 4 + "px";
+        document.body.style.width = (max_columns * 50 + 4) + "px";
         document.getElementById("emojis").style.overflowY = "hidden";
-    }
-    //var n_emojies_in_section = rows * max_columns - (max_columns - n_emojis % max_columns);
+    }*/
+    document.body.style.width = widthToSet + "px";
+    document.getElementById("emojis").style.overflowY = "auto";
+
     document.getElementById("emojis").scrollTop = (0, 0);
 }
 
@@ -110,3 +107,38 @@ function showCopied() {
 function hideCopied(index_to_use) {
     document.getElementById("character-copied-" + index_to_use).style.display = "none";
 }
+
+function searchEmoji(value) {
+    emojis[0] = {};
+    let n_results = 0;
+    let valueToUse = value.toLowerCase().replace(".", "");
+    let valueToCheck = valueToUse.replace(/\s/ig, "");
+    if (valueToCheck.length > 1) {
+        for (let title = 1; title < titles.length; title++) {
+            for (let emoji in emojis[title]) {
+                for (let description in emojis[title][emoji]) {
+                    let tmp_str = emojis[title][emoji][description].toLowerCase().replace(".", "");
+                    if (tmp_str.includes(valueToUse) || valueToUse.includes(tmp_str)) {
+                        emojis[0][emoji] = []; //add emoji to the list
+                        n_results++;
+                        break;
+                    }
+                }
+            }
+        }
+        generateTitles(true);
+        if (n_results == 0) {
+            document.getElementById("emojis").innerHTML = "<div id='no_emojis_found'><span style='font-family:twemoji;margin-right:10px;font-size:25px;'>😟</span> No emojis found</div>";
+        }
+    } else {
+        if (this.selectedTitle == 0) {
+            if (valueToCheck.length == 0) generateTitles(false); //clear searchbox
+            else generateTitles(false, 1, false); //don't clear searchbox
+        }
+    }
+}
+
+document.getElementById("search-bar-input").onkeyup = function (e) {
+    searchEmoji(document.getElementById("search-bar-input").value);
+}
+document.getElementById("search-bar-input").focus();
