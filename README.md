@@ -8,21 +8,22 @@ Official repo of https://addons.mozilla.org/it/firefox/addon/emoji-sav/.
 
 ## Description
 
-This extension permits you to copy an emoji in the clipboard. There are many emojis, exactly 905!
+This extension permits you to copy an emoji in the clipboard. There are many emojis, exactly 1179!
 
 Emojis are divided in some sections, to help you to find the correct emoji quickly (in order):
 
-- Smileys (132 emojis)
-- People ( emojis)
+- Smileys (100 emojis)
+- People (160 emojis)
 - Animals (111 emojis)
-- Symbols (162 emojis)
+- Symbols (176 emojis)
 - Foods and drinks (105 emojis)
-- Flags (62 emojis)
-- Sports and everything related to them (53 emojis)
-- Technologies and office (68 emojis)
+- Flags (61 emojis)
+- Sports and everything related to them (57 emojis)
+- Travel and places (100 emojis)
+- Technologies and office (85 emojis)
 - Clothes and accessories (34 emojis)
-- Hands (41 emojis)
-- Other (“not categorised”) (137 emojis)
+- Hands (42 emojis)
+- Other (“not categorised”) (148 emojis)
 
 ## How to contribute
 

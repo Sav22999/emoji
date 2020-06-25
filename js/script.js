@@ -13,13 +13,13 @@ function copyEmoji(text) {
     showCopied()
 }
 
-function generateTitles(search = false, titleToSet = 1, clearSearchBox=true) {
+function generateTitles(search = false, titleToSet = 1, clearSearchBox = true) {
     var widthToSet = 0;
     if (search) {
         widthToSet = 100 / titles.length;
     } else {
         widthToSet = 100 / (titles.length - 1);
-        if(clearSearchBox) document.getElementById("search-bar-input").value = "";
+        if (clearSearchBox) document.getElementById("search-bar-input").value = "";
     }
     for (let i = 0; i < titles.length; i++) {
         document.getElementById("titles").innerHTML += "<input type='button' class='section_title' id='title" + i + "' value='" + titles[i] + "' />";
@@ -62,7 +62,7 @@ function generateEmojis(title) {
             copyEmoji(this.value);
         };
     }
-    //console.log(emojis[title]);
+    //console.log(title + ": " + Object.keys(emojis[title]).length);
     setHeight();
 }
 
@@ -77,13 +77,17 @@ function setHeight() {
     document.getElementById("popup-content").style.height = (max_rows * 50 + 4 + 36 + (34 + 12)) + "px"; //36 is the height of titles, 34+12 because there is the search-box (and its margin)
 
     let widthToSet = (max_columns * 50 + 4 + 10); //50 is the height of one row, 4 is the padding of emojis div, 10 is the width of scrollbar (customised), otherwise it would be 18
-    if (rows > max_rows) {
+
+    /*if (rows > max_rows) {
         document.body.style.width = widthToSet + "px";
         document.getElementById("emojis").style.overflowY = "auto";
     } else {
         document.body.style.width = (max_columns * 50 + 4) + "px";
         document.getElementById("emojis").style.overflowY = "hidden";
-    }
+    }*/
+    document.body.style.width = widthToSet + "px";
+    document.getElementById("emojis").style.overflowY = "auto";
+
     document.getElementById("emojis").scrollTop = (0, 0);
 }
 
@@ -128,8 +132,8 @@ function searchEmoji(value) {
         }
     } else {
         if (this.selectedTitle == 0) {
-            if(valueToCheck.length == 0) generateTitles(false); //clear searchbox
-            else generateTitles(false,1,false); //don't clear searchbox
+            if (valueToCheck.length == 0) generateTitles(false); //clear searchbox
+            else generateTitles(false, 1, false); //don't clear searchbox
         }
     }
 }
