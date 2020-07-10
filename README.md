@@ -4,7 +4,11 @@ Official repo of https://addons.mozilla.org/it/firefox/addon/emoji-sav/.
 [![GitHub release](https://img.shields.io/github/release/Sav22999/emoji.svg)](https://github.com/Sav22999/emoji/releases/) [![GitHub license](https://img.shields.io/github/license/Sav22999/emoji.svg)](https://github.com/Sav22999/emoji/blob/master/LICENSE) ![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FSav22999%2Femoji.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FSav22999%2Femoji?ref=badge_shield)
 
-[<img src="img/firefoxAddons.png" height="50px">](https://addons.mozilla.org/it/firefox/addon/emoji-sav/) [<img src="img/a-project-of.png" height="50px" />](https://saveriomorelli.com) [<img src="img/realised-by.png" height="50px" />](https://saveriomorelli.com) [<img src="img/donatePayPal.png" height="70px"></img>](https://bit.ly/3aJnnq7)
+[<img src="img/firefoxAddons.png" height="50px">](https://addons.mozilla.org/it/firefox/addon/emoji-sav/) [<img src="img/a-project-of.png" height="50px" />](https://saveriomorelli.com) [<img src="img/realised-by.png" height="50px" />](https://saveriomorelli.com) 
+
+To support me, you can do a donation :smile: with PayPal or Ko-fi:
+
+[<img src="img/donatePayPal.png" width="200px"></img>](https://bit.ly/3aJnnq7) [<img src="https://cdn.ko-fi.com/cdn/kofi1.png?v=2" width="200px"></img>](https://ko-fi.com/R5R31UQ8G)
 
 ## Description
 
