@@ -48,7 +48,6 @@ function getMostUsedEmojisLength(titleToSet) {
 
 function addToMostUsed(text) {
     let emojiToAdd = {"emoji": text, "occurrences": 1};
-    console.log("# elements: " + mostUsedEmojis.length)
     let indexToUse = -1; // -1: not in the JSON
     for (let tempIndex = 0; tempIndex < mostUsedEmojis.length && indexToUse == -1; tempIndex++) {
         if (mostUsedEmojis[tempIndex].emoji == text) {
