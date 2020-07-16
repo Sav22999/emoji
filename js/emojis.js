@@ -1,11 +1,11 @@
 // descriptions gave on Emojipedia.org
-var titles = ["🔍", "😀", "🙋", "🦊", "🅰️", "🍎", "🏳️‍🌈", "🏊", "✈️", "🖱️", "👗", "🖐️", "🛎️"];
+var titles = ["🔍", "🕒", "😀", "🙋", "🦊", "🅰️", "🍎", "🏳️‍🌈", "🏊", "✈️", "🖱️", "👗", "🖐️", "🛎️"];
 var emojis = [];
 
 /*search*/
 emojis[0] = {};
 /*smileys*/
-emojis[1] = {
+emojis[2] = {
     "😀": [":)", "Grinning Face", "Happy Face", "Smiley Face"],
     "😃": [":D", "Grinning Face with Big Eyes", "Happy Face", "Smiley Face", "Smiling Face with Open Mouth"],
     "😄": ["Grinning Face with Smiling Eyes", "Happy Face", "Smiley Face", "Grinning Face With Squinting Eyes", "Smiling Face with Open Mouth and Smiling Eyes"],
@@ -49,7 +49,7 @@ emojis[1] = {
     "🤥": ["Lying Face", "Liar", "Long Nose", "Pinocchio"],
     "😌": ["Relieved Face", "Content", "Pleased"],
     "😔": ["Sorry", "Pensive Face", "Pensive", "Sad", "Sadface", "Sorrowful", "Sad Pensive Face"],
-    "😪": ["Sleepy Face", "Side-Tear", "Snot Bubble", ],
+    "😪": ["Sleepy Face", "Side-Tear", "Snot Bubble"],
     "🤤": ["Saliva", "Drooling Face", "Drool"],
     "😴": ["Zzz", "Sleeping Face", "Sleep Face", "Snoring", "Zzz Face"],
     "🥱": ["Yawning Face"],
@@ -108,7 +108,7 @@ emojis[1] = {
     "👥": ["Busts in Silhouette", "Shadows", "Silhouettes", "Users", "Silhouette of Two People"]
 };
 /*people*/
-emojis[2] = {
+emojis[3] = {
     "👶": ["Baby", "Child", "Toddler"],
     "🧒": ["Child", "Gender Neutral Child"],
     "👧": ["Girl"],
@@ -271,10 +271,10 @@ emojis[2] = {
     "👩‍❤️‍👩": ["Two Women With Heart", "Couple with Heart: Woman, Woman"]
 };
 /*animals*/
-emojis[3] = {
+emojis[4] = {
     "😺": [":)", "Grinning Cat", "Happy Cat", "Smiling Cat", "Happy Cat Face", "Smiling Cat Face with Open Mouth"],
     "😸": [":D", "Grinning Cat with Smiling Eyes", "Grinning Cat", "Happy Cat", "Grinning Cat Face"],
-    "😹": [":')", "Cat with Tears of Joy", "Happy Tears Cat", "Laughing Cat", ],
+    "😹": [":')", "Cat with Tears of Joy", "Happy Tears Cat", "Laughing Cat"],
     "😻": ["*.*", "Smiling Cat with Heart-Eyes", "Heart Eyes Cat", "Loving Cat", "Smiling Cat Face with Heart-Shaped Eyes"],
     "😼": ["Cat with Wry Smile", "Smirking Cat", "Smirking Cat Face", "Cat Face with Wry Smile"],
     "😽": [":*", "Kissing Cat", "Kissing Cat Face", "Kissing Cat Face with Closed Eyes"],
@@ -385,7 +385,7 @@ emojis[3] = {
     "🦑": ["Squid"]
 };
 /*symbols*/
-emojis[4] = {
+emojis[5] = {
     "💘": ["Heart with Arrow", "Cupid Arrow", "Lovestruck"],
     "💝": ["Heart with Ribbon", "Chocolate Box", "Gift Box", "Gift Heart"],
     "💖": ["Sparkling Heart", "Sparkle Heart", "Sparkly Heart", "Stars Heart"],
@@ -564,7 +564,7 @@ emojis[4] = {
     "🚰": ["Potable Water Symbol", "Thirst", "Thirsty", "Water Tap", "Water Faucet"]
 };
 /*food and drinks*/
-emojis[5] = {
+emojis[6] = {
     "🍇": ["Grapes", "Grape"],
     "🍈": ["Melon", "Cantaloupe", "Honeydew", "Muskmelon"],
     "🍉": ["Watermelon"],
@@ -672,7 +672,7 @@ emojis[5] = {
     "🥄": ["Spoon"]
 };
 /*flags*/
-emojis[6] = {
+emojis[7] = {
     "🏁": ["Chequered Flag", "Checkered Flag", "Grid Girl", "Racing Flag"],
     "🚩": ["Triangular Flag", "Flag on Pole", "Red Flag", "Triangular Flag on Post"],
     "🎌": ["Crossed Flags", "Two Flags"],
@@ -736,9 +736,9 @@ emojis[6] = {
     "🇧🇷": ["BR", "Brazilian Flag", "Flag of Brazil"]
 };
 /*sports*/
-emojis[7] = {
+emojis[8] = {
     "🧗": ["Person Climbing", "Climber", "Rock Climbing", "Woman Climbing"],
-    "🏇": ["Horse Racing", "Horse Race", "Jockey", ],
+    "🏇": ["Horse Racing", "Horse Race", "Jockey"],
     "⛷️": ["Skier"],
     "🏂": ["Snowboarder"],
     "🏌️": ["Person Golfing", "Golf", "Golfer"],
@@ -796,7 +796,7 @@ emojis[7] = {
     "🏹": ["Bow and Arrow", "Arch"]
 };
 /*travel and places*/
-emojis[8] = {
+emojis[9] = {
     "🚂": ["Steam Locomotive", "Steam Train", "Railway Locomotive"],
     "🚃": ["Railway Car", "Railcar", "Railroad Car", "Railway Carriage", "Railway Wagon"],
     "🚄": ["High-Speed Train"],
@@ -899,7 +899,7 @@ emojis[8] = {
     "🗿": ["Moai", "Easter Island Statue", "Human Rock Carving", "Moyai Statue"]
 };
 /*technologies (smartphones, laptops, ect.) and office*/
-emojis[9] = {
+emojis[10] = {
     "⌚": ["Watch", "Timepiece", "Apple Watch"],
     "⏰": ["Alarm Clock"],
     "⏱️": ["Stopwatch"],
@@ -948,6 +948,8 @@ emojis[9] = {
     "📂": ["Open File Folder", "Directory"],
     "🗂️": ["Card Index Dividers"],
     "📅": ["Calendar", "July 17", "World Emoji Day"],
+    "🗓️": ["Spiral Calendar Pad"],
+    "📆": ["Tear-Off Calendar", "Day Calendar", "Desk Calendar"],
     "📈": ["Chart Increasing", "Positive Chart", "Up Pointing Graph", "Chart with Upwards Trend"],
     "📉": ["Chart Decreasing", "Negative Chart", "Down Pointing Graph", "Chart with Downwards Trend"],
     "📊": ["Bar Chart", "Bar Graph"],
@@ -987,7 +989,7 @@ emojis[9] = {
     "📚": ["Books", "Pile Of Books", "Stack Of Books"]
 };
 /*clothes and accessories*/
-emojis[10] = {
+emojis[11] = {
     "👣": ["Footprints", "Feet", "Footsteps"],
     "👓": ["Glasses", "Eveyglasses"],
     "🕶️": ["Sunglasses"],
@@ -1020,11 +1022,11 @@ emojis[10] = {
     "🎩": ["Top Hat", "Formal Wear", "Groom"],
     "🎓": ["Graduation Cap", "College", "Graduate", "Mortar Board", "University", "Square Academic Cap"],
     "🧢": ["Billed Cap", "Baseball Cap"],
-    "⛑️": ["Helmet with White Cross", "Rescue Worker’s Helmet"],
+    "⛑️": ["Helmet with White Cross", "Rescue Worker's Helmet"],
     "💼": ["Briefcase", "Suitcase"]
 };
 /*hands and parts of body*/
-emojis[11] = {
+emojis[12] = {
     "👋": ["Waving Hand Sign", "Goodbye", "Hand Wave", "Hello", "Hi"],
     "🖐️": ["Hand with Fingers Splayed", "Five Hand", "Splayed Hand", "Raised Hand with Fingers Splayed"],
     "🤚": ["Raised Back of Hand", "Backhand"],
@@ -1069,7 +1071,7 @@ emojis[11] = {
     "👄": ["Mouth", "Kissing Lips", "Lips"]
 };
 /*other*/
-emojis[12] = {
+emojis[13] = {
     "💩": ["Pile of Poo", "Dog Dirt", "Smiling Poop"],
     "💋": ["Kiss Mark", "Kissing Lips"],
     "💅": ["Nail Polish", "Fingers", "Manicure", "Nonchalant"],
@@ -1209,7 +1211,7 @@ emojis[12] = {
     "⚱️": ["Funeral Urn", "Vase"],
     "🎼": ["Musical Score", "Sheet Music", "Treble Clef"],
     "🎬": ["Clapper Board", "Cut", "Action", "Director", "Film Slate"],
-    "🎻": ["Violin", "String Quartet", "World’s Smallest Violin"],
+    "🎻": ["Violin", "String Quartet", "World's Smallest Violin"],
     "🎺": ["Trumpet", "Horn", "Jazz"],
     "🎸": ["Guitar", "Acoustic Guitar", "Bass Guitar", "Electric Guitar"],
     "🎷": ["Saxophone", "Jazz", "Sax"],
@@ -1218,5 +1220,30 @@ emojis[12] = {
     "🎲": ["Game Die", "Dice"],
     "🎭": ["Performing Arts", "Theatre", "Theater", "Drama Masks", "Greek Theatre Masks", "Tragedy and Comedy Masks", "Venice"],
     "🔍": ["Magnifying Glass Tilted Left", "Magnifier", "Search Icon", "Left-Pointing Magnifying Glass"],
-    "🔎": ["Magnifying Glass Tilted Right", "Magnifier", "Search Icon", "Right-Pointing Magnifying Glass"]
+    "🔎": ["Magnifying Glass Tilted Right", "Magnifier", "Search Icon", "Right-Pointing Magnifying Glass"],
+    "⌛": ["Hourglass Done", "Hourglass"],
+    "🕐": ["One O'Clock", "Clock Face One O'Clock"],
+    "🕜": ["Clock Face One-Thirty"],
+    "🕑": ["Two O'Clock", "Clock Face Two O'Clock"],
+    "🕝": ["Clock Face Two-Thirty"],
+    "🕒": ["Three O'Clock", "Clock Face Three O'Clock"],
+    "🕞": ["Clock Face Three-Thirty"],
+    "🕓": ["Four O'Clock", "Clock Face Four O'Clock"],
+    "🕟": ["Clock Face Four-Thirty"],
+    "🕔": ["Five O'Clock", "Clock Face Five O'Clock"],
+    "🕠": ["Clock Face Five-Thirty"],
+    "🕕": ["Six O'Clock", "Clock Face Six O'Clock"],
+    "🕡": ["Clock Face Six-Thirty"],
+    "🕖": ["Seven O'Clock", "Clock Face Seven O'Clock"],
+    "🕢": ["Clock Face Seven-Thirty"],
+    "🕗": ["Eight O'Clock", "Clock Face Eight O'Clock"],
+    "🕣": ["Clock Face Eight-Thirty"],
+    "🕘": ["Nine O'Clock", "Clock Face Nine O'Clock"],
+    "🕤": ["Clock Face Nine-Thirty"],
+    "🕙": ["Ten O'Clock", "Clock Face Ten O'Clock"],
+    "🕥": ["Clock Face Ten-Thirty"],
+    "🕚": ["Eleven O'Clock", "Clock Face Eleven O'Clock"],
+    "🕦": ["Clock Face Eleven-Thirty"],
+    "🕛": ["Twelve O'Clock", "Clock Face Twelve O'Clock"],
+    "🕧": ["Clock Face Twelve-Thirty"]
 };
