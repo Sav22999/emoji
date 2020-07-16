@@ -12,7 +12,7 @@ To support me, you can do a donation :smile: with PayPal or Ko-fi:
 
 ## Description
 
-This extension permits you to copy an emoji in the clipboard. There are many emojis, exactly 1179!
+This extension permits you to copy an emoji in the clipboard. There are many emojis, exactly 1206!
 
 Emojis are divided in some sections, to help you to find the correct emoji quickly (in order):
 
