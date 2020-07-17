@@ -25,6 +25,7 @@ function copyEmoji(text) {
             mostUsedEmojis = value[nameOfSetting];
         }
         addToMostUsed(text);
+        getMostUsedEmojisLength(selectedTitle);
     })
 }
 
