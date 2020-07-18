@@ -4,7 +4,7 @@ var char_copied_n = 0;
 const max_columns = 10;
 const max_rows = 6;
 
-var mostUsedEmojis = []
+var mostUsedEmojis = [];
 
 generateTitles();
 
@@ -142,7 +142,7 @@ function generateEmojis(title) {
             document.getElementById("emojis").innerHTML += "<input type=\"button\" class=\"emoji\" value=\"" + mostUsedEmojis[i].emoji + "\" />";
         }
         if (n_emojis == 0) {
-            document.getElementById("emojis").innerHTML = "<div id='no_most_used_emojis'><span style='font-family:twemoji;margin-right:10px;font-size:25px;'>😬</span> No most used emojis</div>";
+            document.getElementById("emojis").innerHTML = "<div id='no_most_used_emojis'><span class='font-twemoji margin-right-10 font-size-25'>😬</span> No most used emojis</div>";
         }
     } else {
         n_emojis = Object.keys(emojis[title]).length;
@@ -156,10 +156,10 @@ function generateEmojis(title) {
             copyEmoji(this.value);
         };
     }
-    setPopUpSize();
+    setPopUpUI();
 }
 
-function setPopUpSize() {
+function setPopUpUI() {
     // selectedTitle==1 means you are in mostUsedEmojis
     let n_emojis = selectedTitle == 1 ? (max_columns * max_rows) : Object.keys(emojis[selectedTitle]).length;
     let rows = parseInt(n_emojis / max_columns + "");
@@ -183,6 +183,44 @@ function setPopUpSize() {
     document.getElementById("emojis").scrollTop = (0, 0);
 }
 
+function showReviewAddonMessage() {
+    let message_element = document.createElement("div");
+    message_element.id = "review-message";
+    message_element.innerHTML = "" +
+        "<span class='font-twemoji font-size-22 margin-right-5'>🖋</span>️ If you like this addon, please review it on Firefox Add-ons." +
+        "<br><div id='review-message-buttons'></div>";
+    document.getElementById("popup-content").append(message_element);
+
+    let background_opacity = document.createElement("div");
+    background_opacity.id = "background-opacity-review";
+    document.getElementById("popup-content").append(background_opacity);
+
+    let button_review_now_element = document.createElement("button");
+    button_review_now_element.onclick = function () {
+        setReviewed(-1);
+        let url_firefox_addons = "https://addons.mozilla.org/firefox/addon/emoji-sav/";
+        browser.tabs.create({url: url_firefox_addons});
+        window.close();
+    };
+    button_review_now_element.className = "review-button";
+    button_review_now_element.id = "review-button-now";
+    button_review_now_element.innerHTML = "Review now";
+
+    let button_review_later_element = document.createElement("button");
+    button_review_later_element.onclick = function () {
+        setReviewed(0);
+        hideReviewMessage();
+    };
+    button_review_later_element.className = "review-button";
+    button_review_later_element.id = "review-button-later";
+    button_review_later_element.innerHTML = "I'll review later";
+
+    document.getElementById("review-message-buttons").append(button_review_later_element);
+    document.getElementById("review-message-buttons").append(button_review_now_element);
+
+    button_review_now_element.focus();
+}
+
 function showMessageBottom(text = "Copied ✔") {
     let index_to_use = char_copied_n;
     char_copied_n++;
@@ -192,12 +230,37 @@ function showMessageBottom(text = "Copied ✔") {
     new_b_element.innerHTML = text;
     document.getElementById("popup-content").append(new_b_element);
     setTimeout(function () {
-        hideCopied(index_to_use);
+        hideElement("character-copied-" + index_to_use);
     }, 1500);
 }
 
-function hideCopied(index_to_use) {
-    document.getElementById("character-copied-" + index_to_use).style.display = "none";
+function hideElement(id_to_use) {
+    document.getElementById(id_to_use).style.display = "none";
+}
+
+function setReviewed(value) {
+    browser.storage.sync.set({"review-addon": value});
+    if (value == -1) {
+        hideReviewMessage();
+    }
+}
+
+function checkReview() {
+    let syncResult = browser.storage.sync.get("review-addon");
+    syncResult.then(function (value) {
+        let count = 0;
+        if (value["review-addon"] != undefined) {
+            if (value["review-addon"] != -1) count = value["review-addon"] + 1;
+            else count = -1;
+        }
+        if (count >= 30) showReviewAddonMessage();
+        else if (count > -1) setReviewed(count);
+    })
+}
+
+function hideReviewMessage() {
+    hideElement("review-message");
+    hideElement("background-opacity-review");
 }
 
 function searchEmoji(value) {
@@ -220,7 +283,7 @@ function searchEmoji(value) {
         }
         generateTitles(true, 0);
         if (n_results == 0) {
-            document.getElementById("emojis").innerHTML = "<div id='no_emojis_found'><span style='font-family:twemoji;margin-right:10px;font-size:25px;'>😟</span> No emojis found</div>";
+            document.getElementById("emojis").innerHTML = "<div id='no_emojis_found'><span class='font-twemoji margin-right-10 font-size-25'>😟</span> No emojis found</div>";
         }
     } else {
         if (this.selectedTitle == 0) {
@@ -234,3 +297,5 @@ document.getElementById("search-bar-input").onkeyup = function (e) {
     searchEmoji(document.getElementById("search-bar-input").value);
 }
 document.getElementById("search-bar-input").focus();
+
+checkReview();
