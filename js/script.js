@@ -266,7 +266,7 @@ function hideReviewMessage() {
 function searchEmoji(value) {
     emojis[0] = {};
     let n_results = 0;
-    let valueToUse = value.toLowerCase().replace(".", "").replace("’", "'");
+    let valueToUse = value.toLowerCase().replace(".", "").replace("’", "'").replace("“", "\"").replace("”", "\"");
     let valueToCheck = valueToUse.replace(/\s/ig, "");
     if (valueToCheck.length > 1) {
         for (let title = 1; title < titles.length; title++) {
