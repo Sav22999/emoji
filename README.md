@@ -44,9 +44,9 @@ You can open an issue and there you must describe the feedback, the bug or the n
 
 See folder <code>screenshots</code> to see screenshots also of the older versions.
 
-<img src="screenshots/3.0/1.png" width="400px"></img>
+<img src="screenshots/3.1/1.png" width="400px"></img>
 
-<img src="screenshots/3.0/2.png" width="400px"></img>
+<img src="screenshots/3.1/2.png" width="400px"></img>
 
 ## License
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FSav22999%2Femoji.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FSav22999%2Femoji?ref=badge_large)
