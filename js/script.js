@@ -215,6 +215,16 @@ function showReviewAddonMessage() {
     button_review_later_element.id = "review-button-later";
     button_review_later_element.innerHTML = "I'll review later";
 
+    let button_dont_want_element = document.createElement("button");
+    button_dont_want_element.onclick = function () {
+        setReviewed(-1);
+        hideReviewMessage();
+    };
+    button_dont_want_element.className = "review-button";
+    button_dont_want_element.id = "no-review-button";
+    button_dont_want_element.innerHTML = "Sorry, I don't want";
+
+    document.getElementById("review-message-buttons").append(button_dont_want_element);
     document.getElementById("review-message-buttons").append(button_review_later_element);
     document.getElementById("review-message-buttons").append(button_review_now_element);
 
@@ -266,7 +276,7 @@ function hideReviewMessage() {
 function searchEmoji(value) {
     emojis[0] = {};
     let n_results = 0;
-    let valueToUse = value.toLowerCase().replace(".", "").replace("’", "'");
+    let valueToUse = value.toLowerCase().replace(".", "").replace("’", "'").replace("“", "\"").replace("”", "\"");
     let valueToCheck = valueToUse.replace(/\s/ig, "");
     if (valueToCheck.length > 1) {
         for (let title = 1; title < titles.length; title++) {

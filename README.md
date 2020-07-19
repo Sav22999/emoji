@@ -12,22 +12,22 @@ To support me, you can do a donation :smile: with PayPal or Ko-fi:
 
 ## Description
 
-This extension permits you to copy an emoji in the clipboard. There are many emojis, exactly 1206!
+This extension permits you to copy an emoji in the clipboard. There are many emojis, exactly **1702**!
 
 Emojis are divided in some sections, to help you to find the correct emoji quickly (in order):
 
-- Smileys (100 emojis)
-- People (160 emojis)
-- Animals (111 emojis)
-- Symbols (176 emojis)
-- Foods and drinks (105 emojis)
-- Flags (61 emojis)
-- Sports and everything related to them (57 emojis)
-- Travel and places (100 emojis)
-- Technologies and office (87 emojis)
-- Clothes and accessories (34 emojis)
-- Hands (42 emojis)
-- Other (“not categorised”) (173 emojis)
+- Smileys (102 emojis)
+- People (169 emojis)
+- Animals (128 emojis)
+- Symbols (280 emojis)
+- Foods and drinks (120 emojis)
+- Flags (269 emojis)
+- Sports and everything related to them (74 emojis)
+- Travel and places (107 emojis)
+- Technologies and office (91 emojis)
+- Clothes and accessories (46 emojis)
+- Hands and parts of body (46 emojis)
+- Other (“not categorised”) (270 emojis)
 
 ## Features
 
@@ -44,9 +44,9 @@ You can open an issue and there you must describe the feedback, the bug or the n
 
 See folder <code>screenshots</code> to see screenshots also of the older versions.
 
-<img src="screenshots/3.0/1.png" width="400px"></img>
+<img src="screenshots/3.1/1.png" width="400px"></img>
 
-<img src="screenshots/3.0/2.png" width="400px"></img>
+<img src="screenshots/3.1/2.png" width="400px"></img>
 
 ## License
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FSav22999%2Femoji.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FSav22999%2Femoji?ref=badge_large)
