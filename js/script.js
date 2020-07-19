@@ -215,6 +215,16 @@ function showReviewAddonMessage() {
     button_review_later_element.id = "review-button-later";
     button_review_later_element.innerHTML = "I'll review later";
 
+    let button_dont_want_element = document.createElement("button");
+    button_dont_want_element.onclick = function () {
+        setReviewed(-1);
+        hideReviewMessage();
+    };
+    button_dont_want_element.className = "review-button";
+    button_dont_want_element.id = "no-review-button";
+    button_dont_want_element.innerHTML = "Sorry, I don't want";
+
+    document.getElementById("review-message-buttons").append(button_dont_want_element);
     document.getElementById("review-message-buttons").append(button_review_later_element);
     document.getElementById("review-message-buttons").append(button_review_now_element);
 
