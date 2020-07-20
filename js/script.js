@@ -276,11 +276,15 @@ function hideReviewMessage() {
 function searchEmoji(value) {
     emojis[0] = {};
     let n_results = 0;
+    let max_results = (max_rows * max_columns) * 3;
     let valueToUse = value.toLowerCase().replace(".", "").replace("’", "'").replace("“", "\"").replace("”", "\"");
     let valueToCheck = valueToUse.replace(/\s/ig, "");
     if (valueToCheck.length > 1) {
-        for (let title = 1; title < titles.length; title++) {
+        for (let title = 1; title < titles.length && n_results <= max_results; title++) {
             for (let emoji in emojis[title]) {
+                if (n_results >= max_results) {
+                    break;
+                }
                 for (let description in emojis[title][emoji]) {
                     let tmp_str = emojis[title][emoji][description].toLowerCase().replace(".", "");
                     if (tmp_str.includes(valueToUse) || valueToUse.includes(tmp_str)) {

@@ -1615,7 +1615,7 @@ emojis[13] = {
     "⚰️": ["Coffin", "Casket", "Funeral"],
     "⚱️": ["Funeral Urn", "Vase"],
     "🛡️": ["Shield"],
-    "⚙️": ["Gear"],
+    "⚙️": ["Gear", "Settings", "Options"],
     "⚖️": ["Balance Scale", "Scales of Justice"],
     "🔗": ["Link", "Chain", "Hyperlink", "Linked Chain"],
     "💀": ["Skull", "Death", "Grey Skull", "Skeleton"],
