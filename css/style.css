@@ -351,6 +351,19 @@ div#settings-section {
     text-align: left;
 }
 
+#settings-section-content {
+    overflow: auto;
+    position: absolute;
+    top: 50px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    padding: 10px;
+    box-sizing: border-box;
+    height: auto;
+    width: auto;
+}
+
 #clear-data-settings, #save-data-settings, #reset-data-settings {
     width: auto;
     padding: 5px;
@@ -367,23 +380,13 @@ div {
 #made-in-basilicata-settings {
     width: auto;
     text-align: center;
-    font-size: 20px;
-    width: auto;
-    margin-right: 15%;
-    margin-left: 15%;
-    background-color: inherit;
-}
-
-#made-in-basilicata-hr-settings {
-    height: 1px;
-    width: 100%;
+    font-size: 16px;
     margin: 0px;
-    padding: 0px;
-    border: 0px solid transparent;
-    background-color: #0a84ff;
-    margin-bottom: -13px;
+    background-color: inherit;
+    border-top: 1px solid #0a84ff;
+    box-sizing: border-box;
+    padding: 10px;
 }
-
 
 .title-subsection-settings {
     font-size: 16px;
