@@ -9,7 +9,7 @@
 }
 
 * {
-    scrollbar-color: rgb(10, 132, 255) rgb(255, 255, 255);
+    scrollbar-color: rgb(10, 132, 255) rgba(150, 150, 150, 0);
     scrollbar-width: thin;
 }
 
@@ -41,7 +41,7 @@ body {
     overflow-y: auto;
 }
 
-.emoji, .review-button {
+.emoji, .review-button, .button {
     background-color: rgb(255, 255, 255);
     padding: 5px;
     width: 40px;
@@ -50,23 +50,55 @@ body {
     border: 0px;
     border-radius: 3px;
     font-size: 22px;
-    font-family: inherit;
+    font-family: twemoji, sans-serif;
     margin: 5px;
     cursor: pointer;
     position: relative;
     transition: 0.1s;
+    box-sizing: border-box;
 }
 
-.emoji:hover, .review-button:hover {
+.button {
+    width: auto;
+    font-family: monospace, zilla-slab, sans-serif;
+}
+
+.emoji:hover, .review-button:hover, .button:hover {
     background-color: rgb(221, 222, 223);
 }
 
-.emoji:active, .emoji:focus, .review-button:active {
+.emoji:active, .emoji:focus, .review-button:active, .button:active {
     box-shadow: 0px 0px 0px 2px #0a84ff, 0px 0px 0px 5px #b1d6fc;
 }
 
-.review-button {
-    font-family: zilla-slab, sans-serif;
+.size-emoji-button-30 {
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+}
+
+.size-emoji-button-35 {
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+}
+
+.size-emoji-button-40 {
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+}
+
+.size-emoji-button-50 {
+    width: 50px;
+    height: 50px;
+    font-size: 28px;
+}
+
+.size-emoji-button-60 {
+    width: 60px;
+    height: 60px;
+    font-size: 34px;
 }
 
 #titles {
@@ -78,7 +110,7 @@ body {
     overflow: hidden;
 }
 
-.section_title {
+.section-title {
     background-color: transparent;
     width: auto;
     height: 100%;
@@ -98,11 +130,11 @@ body {
     transition: 0.1s;
 }
 
-.section_title:hover, .letter:hover {
+.section-title:hover, .letter:hover {
     background-color: rgb(221, 222, 223);
 }
 
-.section_title:active {
+.section-title:active {
     background-color: rgb(201, 202, 203);
 }
 
@@ -130,6 +162,14 @@ b.character-copied, div#review-message {
     font-family: twemoji, sans-serif;
 }
 
+.font-zillaslab {
+    font-family: zilla-slab, sans-serif;
+}
+
+.font-size-16 {
+    font-size: 16px;
+}
+
 .font-size-22 {
     font-size: 22px;
 }
@@ -138,12 +178,44 @@ b.character-copied, div#review-message {
     font-size: 25px;
 }
 
+.font-color-red {
+    color: #FF0000;
+}
+
+.font-color-lightblue {
+    color: #0a84ff;
+}
+
+.font-color-gray {
+    color: rgb(177, 177, 178);
+}
+
+.font-color-gray {
+    color: #000000;
+}
+
+.border-1-black {
+    border: 1px solid #000000;
+}
+
+.border-1-lightblue {
+    border: 1px solid #0a84ff;
+}
+
+.border-1-gray {
+    border: 1px solid rgb(177, 177, 178);
+}
+
 .margin-right-5 {
     margin-right: 5px;
 }
 
 .margin-right-10 {
     margin-right: 10px;
+}
+
+.margin-top-20 {
+    margin-top: 20px;
 }
 
 div#review-message {
@@ -175,8 +247,9 @@ button.review-button {
     font-size: 14px;
     font-family: zilla-slab, sans-serif;
     padding: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 30px;
 }
 
 div#review-message-buttons {
@@ -186,28 +259,27 @@ div#review-message-buttons {
     margin-top: 10px;
 }
 
-#search-box {
+#top-section {
     background: transparent;
     margin: 6px;
     height: 34px;
+    position: relative;
 }
 
 #search-bar-input {
-    background-color: rgb(245, 245, 245);
-    border: 1px solid rgb(225, 225, 226);
     border-radius: 3px;
     padding: 6px;
-    padding-right: 36px;
+    padding-left: 30px;
     height: 32px;
     width: 100%;
     font: inherit;
     font-size: 14px;
     transition: 0.1s;
-    font-family: zilla-slab;
-}
-
-#search-bar-input:hover {
-    border-color: rgb(177, 177, 178);
+    font-family: zilla-slab, sans-serif;
+    background-image: url("../img/search-icon.png");
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-size: 12px auto;
 }
 
 #search-bar-input:focus {
@@ -215,11 +287,198 @@ div#review-message-buttons {
     box-shadow: 0px 0px 0px 2px #0a84ff, 0px 0px 0px 5px #b1d6fc;
 }
 
+#search-box {
+    top: 0px;
+    left: 0px;
+    right: 40px;
+    position: absolute;
+}
+
+#settings-button {
+    top: 0px;
+    right: 0px;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    font-size: 16px;
+    margin: 0px;
+}
+
 #no_emojis_found, #no_most_used_emojis {
-    font-family: zilla-slab;
+    font-family: zilla-slab, sans-serif;
     text-align: center;
     padding: 50px;
     width: auto;
     margin: 5px;
     font-size: 20px;
+}
+
+div#settings-section {
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 10px;
+    font-size: 18px;
+    z-index: 10;
+    font-weight: normal;
+    display: none;
+    position: absolute;
+    font-family: zilla-slab, sans-serif;
+}
+
+#hide-settings-button {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    padding: 0px;
+    font-weight: normal;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+}
+
+.red-button {
+    background-color: rgb(255, 214, 214);
+}
+
+.red-button:hover {
+    background-color: rgb(255, 173, 173);
+}
+
+#settings-title {
+    padding: 0px;
+    margin: 0px;
+    font-size: 25px;
+    font-weight: normal;
+    font-family: inherit;
+    text-align: left;
+}
+
+#settings-section-content {
+    overflow: auto;
+    position: absolute;
+    top: 50px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    padding: 10px;
+    box-sizing: border-box;
+    height: auto;
+    width: auto;
+}
+
+#clear-data-settings, #save-data-settings, #reset-data-settings {
+    width: auto;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: auto;
+    margin: 0px;
+}
+
+div {
+    background-color: inherit;
+}
+
+#made-in-basilicata-settings {
+    width: auto;
+    text-align: center;
+    font-size: 16px;
+    margin: 0px;
+    background-color: inherit;
+    border-top: 1px solid #0a84ff;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.title-subsection-settings {
+    font-size: 16px;
+    height: 30px;
+    font-family: zilla-slab, sans-serif;
+}
+
+.select {
+    width: 150px;
+    font-size: 16px;
+    height: 30px;
+    background-color: #F5F5F5;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 50px;
+    color: black;
+    border: 0px;
+    border-radius: 3px;
+    font-family: zilla-slab, sans-serif;
+    background-image: url("../img/arrow-select.png");
+    background-repeat: no-repeat;
+    background-position: 120px center;
+    background-size: 10px auto;
+    margin: 5px;
+    cursor: pointer;
+    position: relative;
+    transition: 0.1s;
+    -moz-appearance: textfield;
+}
+
+.title-subsection-settings {
+    display: inline-block;
+    width: 80px;
+}
+
+
+.light-settings {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.light-search-bar-input {
+    background-color: rgb(245, 245, 245);
+    border: 1px solid rgb(225, 225, 226);
+}
+
+.light-search-bar-input:hover {
+    border-color: rgb(177, 177, 178);
+}
+
+.dark, .dark-button-emoji, .dark-settings-button, .dark-settings {
+    background-color: rgb(30, 30, 30);
+    color: #EEEEEE;
+}
+
+.light-save-data-settings-button, .light-reset-data-settings-button {
+    background-color: #F5F5F5;
+}
+
+.dark-save-data-settings-button, .dark-reset-data-settings-button {
+    background-color: rgb(70, 70, 70);
+    color: #EEEEEE;
+}
+
+.dark-select {
+    background-color: rgb(70, 70, 70);
+    background-image: url("../img/arrow-select-light.png");
+    color: #EEEEEE;
+}
+
+.dark-search-bar-input {
+    background-color: rgb(50, 50, 50);
+    border: 1px solid rgb(70, 70, 70);
+    color: #EEEEEE;
+}
+
+.dark-search-bar-input:hover {
+    border: 1px solid rgb(90, 90, 90);
+}
+
+.dark-section-title {
+    border-bottom: 1px solid rgb(70, 70, 70);
+}
+
+.dark-section-title:hover, .dark-button-emoji:hover, .dark-settings-button:hover, .dark-save-data-settings-button:hover, .dark-reset-data-settings-button:hover {
+    background-color: rgb(50, 50, 50);
+}
+
+.dark-section-title:active {
+    background-color: rgb(70, 70, 70);
 }
