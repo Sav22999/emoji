@@ -20,7 +20,6 @@ body {
     height: auto;
     overflow: hidden;
     font-family: twemoji, sans-serif;
-    max-width: 800px;
 }
 
 #popup-content {
@@ -30,7 +29,6 @@ body {
     border: 0px solid transparent;
     position: relative;
     overflow: hidden;
-    max-width: 800px;
 }
 
 #emojis {
@@ -334,7 +332,7 @@ div#settings-section {
     top: 1px;
     right: 1px;
     padding: 0px;
-    font-weight: bold;
+    font-weight: normal;
     width: 32px;
     height: 32px;
     text-align: center;

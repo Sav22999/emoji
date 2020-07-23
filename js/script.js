@@ -66,7 +66,7 @@ function addToMostUsed(text) {
         mostUsedEmojis.unshift(emojiToAdd);//(unshift -> add the element at the beginning -> in this way the "remove function" won't remove the emoji just inserted
     }
     //remove elements if they are too much (max value = max_columns * max_rows)
-    max_value = max_columns * max_rows;
+    let max_value = max_columns * max_rows;
     if (mostUsedEmojis.length > max_value) {
         let removed = mostUsedEmojis.splice(max_value, (mostUsedEmojis.length - max_value));
     }
@@ -203,6 +203,9 @@ function setPopUpUI() {
     }
     document.getElementById("reset-data-settings").onclick = function () {
         resetSettings();
+    }
+    document.getElementById("emojis-size-selected").onchange = function () {
+        setColumnsRowsSettings(document.getElementById("emojis-size-selected").value.toLowerCase(), -1, -1);
     }
 }
 
@@ -346,6 +349,46 @@ function showSettings() {
     setVariablesFromSettings(true);
 }
 
+function setColumnsRowsSettings(value, selected_c = 2, selected_r = 2) {
+    let min_c = 8, max_c = 14, min_r = 4, max_r = 10;
+
+    switch (value) {
+        case "big":
+            max_c = 13;
+            max_r = 8;
+            break;
+
+        case "very big":
+            max_c = 11;
+            max_r = 7;
+            break;
+
+        default:
+        //nothing -> default value
+    }
+    if (selected_c == -1) selected_c = max_columns - min_c;
+    if (selected_r == -1) selected_r = max_rows - min_r;
+    generateColumnsSettings(min_c, max_c, selected_c);
+    generateRowsSettings(min_r, max_r, selected_r);
+}
+
+function generateColumnsSettings(min, max, selected) {
+    genereteOptionsSelectSettings(min, max, selected, document.getElementById("columns-selected"));
+}
+
+function generateRowsSettings(min, max, selected) {
+    genereteOptionsSelectSettings(min, max, selected, document.getElementById("rows-selected"));
+}
+
+function genereteOptionsSelectSettings(min, max, selected, element) {
+    element.innerHTML = "";
+    for (let i = min; i <= max; i++) {
+        let details = "";
+        if (selected == (i - min)) details = " selected";
+        element.innerHTML += "<option" + details + ">" + i + "</option>";
+    }
+}
+
 function resetSettings() {
     saveSettings(true);
 }
@@ -380,6 +423,8 @@ function setVariablesFromSettings(resize_popup_ui = false) {
         if (value[nameOfSetting] != undefined) {
             jsonSettings = value[nameOfSetting];
         }
+        setColumnsRowsSettings(emojisSizeElement.value.toLowerCase(), jsonSettings.columns, jsonSettings.rows);
+
         themeElement.selectedIndex = jsonSettings.theme;
         columnsElement.selectedIndex = jsonSettings.columns;
         rowsElement.selectedIndex = jsonSettings.rows;
