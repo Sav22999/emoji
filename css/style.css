@@ -402,15 +402,15 @@ div {
     height: 30px;
     background-color: #F5F5F5;
     padding: 5px;
-    padding-left: 10px;
-    padding-right: 30px;
+    padding-left: 15px;
+    padding-right: 50px;
     color: black;
     border: 0px;
     border-radius: 3px;
     font-family: zilla-slab, sans-serif;
     background-image: url("../img/arrow-select.png");
     background-repeat: no-repeat;
-    background-position: 130px center;
+    background-position: 120px center;
     background-size: 10px auto;
     margin: 5px;
     cursor: pointer;
