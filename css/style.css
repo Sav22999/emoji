@@ -272,12 +272,17 @@ div#review-message-buttons {
     border-radius: 3px;
     padding: 6px;
     padding-right: 36px;
+    padding-left: 30px;
     height: 32px;
     width: 100%;
     font: inherit;
     font-size: 14px;
     transition: 0.1s;
     font-family: zilla-slab, sans-serif;
+    background-image: url("../img/search-icon.png");
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-size: 12px auto;
 }
 
 #search-bar-input:focus {
