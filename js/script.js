@@ -143,6 +143,7 @@ function setTitle(newTitle) {
 
 function generateEmojis(title) {
     document.getElementById("emojis").innerHTML = "";
+    document.getElementById("emojis").scrollTo(0, 0);
     let n_emojis = 0;
     if (title == 1) {
         // it's the mostUsedEmojis section
