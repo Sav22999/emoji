@@ -1279,8 +1279,6 @@ emojis[9] = {
     "🗿": ["Moai", "Easter Island Statue", "Human Rock Carving", "Moyai Statue"],
     "🌠": ["Shooting Star", "When You Wish Upon A Star", "Meteoroid"],
     "🌌": ["Milky Way", "Galaxy", "Night Sky", "Space", "Stars", "Universe"],
-    "🌀": ["Cyclone", "Hurricane", "Spiral", "Swirl", "Tornado"],
-    "⚡": ["High Voltage Sign", "Lightning Bolt", "Thunderbolt", "High Voltage"],
     "🎑": ["Moon Viewing Ceremony", "Grass, Dumplings and Moon", "Harvest Moon", "Mid-Autumn Festival", "Tsukimi"],
     //"🛖": ["Hut"],
     "🎢": ["Roller Coaster", "Rollercoaster", "Theme Park"]
@@ -1538,6 +1536,8 @@ emojis[13] = {
     "🌫️": ["Fog"],
     "🌈": ["Rainbow", "Gay Pride", "Primary Rainbow"],
     "❄️": ["Snowflake", "Snow", "Snowing"],
+    "🌀": ["Cyclone", "Hurricane", "Spiral", "Swirl", "Tornado"],
+    "⚡": ["High Voltage Sign", "Lightning Bolt", "Thunderbolt", "High Voltage"],
     "☃️": ["Snowman", "Snowman With Snowflakes"],
     "⛄": ["Snowman Without Snow", "Frosty The Snowman", "Olaf", "Snowman"],
     "☄️": ["Comet"],
