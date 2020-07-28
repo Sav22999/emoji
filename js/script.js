@@ -6,7 +6,7 @@ var max_rows = 6;
 var theme = 0;
 var size_emojis = 40; //30, 35, 40, 50, 60
 var auto_close = "no";//yes, no
-var font_family = "twemoji"; //twemoji (Twitter), notocoloremoji (Google), openmojicolor (OpenMoji)
+var font_family = "notocoloremoji"; //twemoji (Twitter), notocoloremoji (Google), openmojicolor (OpenMoji)
 
 var mostUsedEmojis = [];
 
@@ -23,8 +23,7 @@ function copyEmoji(text) {
     showMessageBottom();
 
     let nameOfSetting = "mostUsed";
-    let syncResult = browser.storage.sync.get(nameOfSetting);
-    syncResult.then(function (value) {
+    chrome.storage.sync.get(nameOfSetting, function (value) {
         if (value[nameOfSetting] != undefined) {
             //already exist, so set the array at saved status
             mostUsedEmojis = value[nameOfSetting];
@@ -42,8 +41,7 @@ function autoCloseAfterCopied() {
 
 function generateMostUsedEmojis(generateEmojiBool = false) {
     let nameOfSetting = "mostUsed";
-    let syncResult = browser.storage.sync.get(nameOfSetting);
-    syncResult.then(function (value) {
+    chrome.storage.sync.get(nameOfSetting, function (value) {
         if (value[nameOfSetting] != undefined) {
             mostUsedEmojis = value[nameOfSetting];
         }
@@ -79,7 +77,8 @@ function addToMostUsed(text) {
         let removed = mostUsedEmojis.splice(max_value, (mostUsedEmojis.length - max_value));
     }
     sortMostUsedEmojis();
-    browser.storage.sync.set({"mostUsed": mostUsedEmojis});
+    chrome.storage.sync.set({"mostUsed": mostUsedEmojis}, function () {
+    });
     autoCloseAfterCopied();
 }
 
@@ -134,7 +133,7 @@ function generateTitles(search = false, titleToSet = 1, clearSearchBox = true) {
 }
 
 function clearAllData() {
-    browser.storage.sync.clear();
+    chrome.storage.sync.clear();
     mostUsedEmojis = [];
     setVariablesFromSettings(true);
 }
@@ -234,7 +233,7 @@ function showReviewAddonMessage() {
     button_review_now_element.onclick = function () {
         setReviewed(-1);
         let url_firefox_addons = "https://addons.mozilla.org/firefox/addon/emoji-sav/";
-        browser.tabs.create({url: url_firefox_addons});
+        chrome.tabs.create({url: url_firefox_addons});
         window.close();
     };
     button_review_now_element.className = "review-button";
@@ -294,15 +293,15 @@ function showElement(id_to_use) {
 }
 
 function setReviewed(value) {
-    browser.storage.sync.set({"review-addon": value});
+    chrome.storage.sync.set({"review-addon": value}, function () {
+    });
     if (value == -1) {
         hideReviewMessage();
     }
 }
 
 function checkReview() {
-    let syncResult = browser.storage.sync.get("review-addon");
-    syncResult.then(function (value) {
+    let syncResult = chrome.storage.sync.get("review-addon", function (value) {
         let count = 0;
         if (value["review-addon"] != undefined) {
             if (value["review-addon"] != -1) count = value["review-addon"] + 1;
@@ -421,7 +420,8 @@ function saveSettings(reset = false) {
     if (reset) {
         jsonSettings = {"theme": 0, "columns": 2, "rows": 2, "size": 2, "font": 0, "auto_close": 1};
     }
-    browser.storage.sync.set({"settings": jsonSettings});
+    chrome.storage.sync.set({"settings": jsonSettings}, function () {
+    });
 
     hideElement("settings-section");
     setVariablesFromSettings(true);
@@ -438,8 +438,7 @@ function setVariablesFromSettings(resize_popup_ui = false) {
     let jsonSettings = {"theme": 0, "columns": 2, "rows": 2, "size": 2, "font": 0, "auto_close": 1};
 
     let nameOfSetting = "settings";
-    let syncResult = browser.storage.sync.get(nameOfSetting);
-    syncResult.then(function (value) {
+    chrome.storage.sync.get(nameOfSetting, function (value) {
         if (value[nameOfSetting] != undefined) {
             jsonSettings = value[nameOfSetting];
         }
@@ -494,7 +493,17 @@ function setFontFamily() {
     document.getElementById("emojis").classList.remove("font-notocoloremoji");
     document.getElementById("emojis").classList.remove("font-openmojicolor");
 
+    document.getElementById("titles").classList.remove("font-twemoji");
+    document.getElementById("titles").classList.remove("font-notocoloremoji");
+    document.getElementById("titles").classList.remove("font-openmojicolor");
+
+    document.getElementById("top-section").classList.remove("font-twemoji");
+    document.getElementById("top-section").classList.remove("font-notocoloremoji");
+    document.getElementById("top-section").classList.remove("font-openmojicolor");
+
     document.getElementById("emojis").classList.add("font-" + font_family);
+    document.getElementById("titles").classList.add("font-" + font_family);
+    document.getElementById("top-section").classList.add("font-" + font_family);
 }
 
 function setTheme() {
