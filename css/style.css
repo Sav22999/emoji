@@ -26,6 +26,17 @@
 * {
     scrollbar-color: rgb(10, 132, 255) rgba(150, 150, 150, 0);
     scrollbar-width: thin;
+    outline: 0px solid transparent;
+}
+
+*::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background-color: #ffffff; /* or add it to the track */
+}
+
+*::-webkit-scrollbar-thumb {
+    background: #3399ff;
 }
 
 body {
@@ -35,6 +46,7 @@ body {
     height: auto;
     overflow: hidden;
     font-family: twemoji, sans-serif;
+    margin:0px;
 }
 
 #popup-content {
@@ -329,6 +341,7 @@ div#review-message-buttons {
     height: 32px;
     font-size: 16px;
     margin: 0px;
+    font-family: inherit;
 }
 
 #no_emojis_found, #no_most_used_emojis {
@@ -442,7 +455,7 @@ div {
     background-color: #F5F5F5;
     padding: 5px;
     padding-left: 15px;
-    padding-right: 50px;
+    padding-right: 15px;
     color: black;
     border: 0px;
     border-radius: 3px;
@@ -455,7 +468,10 @@ div {
     cursor: pointer;
     position: relative;
     transition: 0.1s;
-    -moz-appearance: textfield;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 0px;
+    text-overflow: '';
 }
 
 .select-small {
@@ -525,6 +541,7 @@ div {
     border-bottom: 1px solid #DDDDDD;
     padding: 5px;
 }
-.dark-subsection-settings{
+
+.dark-subsection-settings {
     border-bottom: 1px solid #555555;
 }
