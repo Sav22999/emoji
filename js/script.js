@@ -10,6 +10,9 @@ var font_family = "notocoloremoji"; //twemoji (Twitter), notocoloremoji (Google)
 
 var mostUsedEmojis = [];
 
+browserStorage = [browser.storage, chrome.storage];// 0: Firefox Addons, 1: Chrome, Edge, etc.
+browserStorageIndex = 0;
+
 setVariablesFromSettings(true);
 generateTitles();
 
@@ -23,7 +26,7 @@ function copyEmoji(text) {
     showMessageBottom();
 
     let nameOfSetting = "mostUsed";
-    chrome.storage.sync.get(nameOfSetting, function (value) {
+    browserStorage[browserStorageIndex].sync.get(nameOfSetting, function (value) {
         if (value[nameOfSetting] != undefined) {
             //already exist, so set the array at saved status
             mostUsedEmojis = value[nameOfSetting];
@@ -41,7 +44,7 @@ function autoCloseAfterCopied() {
 
 function generateMostUsedEmojis(generateEmojiBool = false) {
     let nameOfSetting = "mostUsed";
-    chrome.storage.sync.get(nameOfSetting, function (value) {
+    browserStorage[browserStorageIndex].sync.get(nameOfSetting, function (value) {
         if (value[nameOfSetting] != undefined) {
             mostUsedEmojis = value[nameOfSetting];
         }
@@ -77,7 +80,7 @@ function addToMostUsed(text) {
         let removed = mostUsedEmojis.splice(max_value, (mostUsedEmojis.length - max_value));
     }
     sortMostUsedEmojis();
-    chrome.storage.sync.set({"mostUsed": mostUsedEmojis}, function () {
+    browserStorage[browserStorageIndex].sync.set({"mostUsed": mostUsedEmojis}, function () {
     });
     autoCloseAfterCopied();
 }
@@ -133,7 +136,7 @@ function generateTitles(search = false, titleToSet = 1, clearSearchBox = true) {
 }
 
 function clearAllData() {
-    chrome.storage.sync.clear();
+    browserStorage[browserStorageIndex].sync.clear();
     mostUsedEmojis = [];
     setVariablesFromSettings(true);
 }
@@ -293,7 +296,7 @@ function showElement(id_to_use) {
 }
 
 function setReviewed(value) {
-    chrome.storage.sync.set({"review-addon": value}, function () {
+    browserStorage[browserStorageIndex].sync.set({"review-addon": value}, function () {
     });
     if (value == -1) {
         hideReviewMessage();
@@ -301,7 +304,7 @@ function setReviewed(value) {
 }
 
 function checkReview() {
-    let syncResult = chrome.storage.sync.get("review-addon", function (value) {
+    let syncResult = browserStorage[browserStorageIndex].sync.get("review-addon", function (value) {
         let count = 0;
         if (value["review-addon"] != undefined) {
             if (value["review-addon"] != -1) count = value["review-addon"] + 1;
@@ -420,7 +423,7 @@ function saveSettings(reset = false) {
     if (reset) {
         jsonSettings = {"theme": 0, "columns": 2, "rows": 2, "size": 2, "font": 0, "auto_close": 1};
     }
-    chrome.storage.sync.set({"settings": jsonSettings}, function () {
+    browserStorage[browserStorageIndex].sync.set({"settings": jsonSettings}, function () {
     });
 
     hideElement("settings-section");
@@ -438,7 +441,7 @@ function setVariablesFromSettings(resize_popup_ui = false) {
     let jsonSettings = {"theme": 0, "columns": 2, "rows": 2, "size": 2, "font": 0, "auto_close": 1};
 
     let nameOfSetting = "settings";
-    chrome.storage.sync.get(nameOfSetting, function (value) {
+    browserStorage[browserStorageIndex].sync.get(nameOfSetting, function (value) {
         if (value[nameOfSetting] != undefined) {
             jsonSettings = value[nameOfSetting];
         }
