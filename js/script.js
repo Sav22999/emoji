@@ -6,12 +6,17 @@ var max_rows = 6;
 var theme = 0;
 var size_emojis = 40; //30, 35, 40, 50, 60
 var auto_close = "no";//yes, no
-var font_family = "notocoloremoji"; //twemoji (Twitter), notocoloremoji (Google), openmojicolor (OpenMoji)
+
+var font_family = "twemoji"; //twemoji (Twitter), notocoloremoji (Google), openmojicolor (OpenMoji)
 
 var mostUsedEmojis = [];
 
 browserStorage = [browser.storage, chrome.storage];// 0: Firefox Addons, 1: Chrome, Edge, etc.
-browserStorageIndex = 0;
+browserStorageIndex = 0; //TODO change programmatically: 0: Firefox, 1: Chrome, Edge, etc.
+
+if (browserStorageIndex == 1) {
+    font_family = "notocoloremoji";
+}
 
 setVariablesFromSettings(true);
 generateTitles();
