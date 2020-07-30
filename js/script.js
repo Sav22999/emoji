@@ -11,10 +11,10 @@ var font_family = "twemoji"; //twemoji (Twitter), notocoloremoji (Google), openm
 
 var mostUsedEmojis = [];
 
-browserStorage = [browser.storage, chrome.storage];// 0: Firefox Addons, 1: Chrome, Edge, etc.
-browserStorageIndex = 0; //TODO change programmatically: 0: Firefox, 1: Chrome, Edge, etc.
+browserOrChrome = [browser, chrome];// 0: Firefox Addons, 1: Chrome, Edge, etc.
+browserOrChromeIndex = 0; //TODO change programmatically: 0: Firefox, 1: Chrome, Edge, etc.
 
-if (browserStorageIndex == 1) {
+if (browserOrChromeIndex == 1) {
     font_family = "notocoloremoji";
 }
 
@@ -31,7 +31,7 @@ function copyEmoji(text) {
     showMessageBottom();
 
     let nameOfSetting = "mostUsed";
-    browserStorage[browserStorageIndex].sync.get(nameOfSetting, function (value) {
+    browserOrChrome[browserOrChromeIndex].storage.sync.get(nameOfSetting, function (value) {
         if (value[nameOfSetting] != undefined) {
             //already exist, so set the array at saved status
             mostUsedEmojis = value[nameOfSetting];
@@ -49,7 +49,7 @@ function autoCloseAfterCopied() {
 
 function generateMostUsedEmojis(generateEmojiBool = false) {
     let nameOfSetting = "mostUsed";
-    browserStorage[browserStorageIndex].sync.get(nameOfSetting, function (value) {
+    browserOrChrome[browserOrChromeIndex].storage.sync.get(nameOfSetting, function (value) {
         if (value[nameOfSetting] != undefined) {
             mostUsedEmojis = value[nameOfSetting];
         }
@@ -85,7 +85,7 @@ function addToMostUsed(text) {
         let removed = mostUsedEmojis.splice(max_value, (mostUsedEmojis.length - max_value));
     }
     sortMostUsedEmojis();
-    browserStorage[browserStorageIndex].sync.set({"mostUsed": mostUsedEmojis}, function () {
+    browserOrChrome[browserOrChromeIndex].storage.sync.set({"mostUsed": mostUsedEmojis}, function () {
     });
     autoCloseAfterCopied();
 }
@@ -141,7 +141,7 @@ function generateTitles(search = false, titleToSet = 1, clearSearchBox = true) {
 }
 
 function clearAllData() {
-    browserStorage[browserStorageIndex].sync.clear();
+    browserOrChrome[browserOrChromeIndex].storage.sync.clear();
     mostUsedEmojis = [];
     setVariablesFromSettings(true);
 }
@@ -241,7 +241,7 @@ function showReviewAddonMessage() {
     button_review_now_element.onclick = function () {
         setReviewed(-1);
         let url_firefox_addons = "https://addons.mozilla.org/firefox/addon/emoji-sav/";
-        chrome.tabs.create({url: url_firefox_addons});
+        browserOrChrome[browserOrChromeIndex].tabs.create({url: url_firefox_addons});
         window.close();
     };
     button_review_now_element.className = "review-button";
@@ -301,7 +301,7 @@ function showElement(id_to_use) {
 }
 
 function setReviewed(value) {
-    browserStorage[browserStorageIndex].sync.set({"review-addon": value}, function () {
+    browserOrChrome[browserOrChromeIndex].storage.sync.set({"review-addon": value}, function () {
     });
     if (value == -1) {
         hideReviewMessage();
@@ -309,7 +309,7 @@ function setReviewed(value) {
 }
 
 function checkReview() {
-    let syncResult = browserStorage[browserStorageIndex].sync.get("review-addon", function (value) {
+    browserOrChrome[browserOrChromeIndex].storage.sync.get("review-addon", function (value) {
         let count = 0;
         if (value["review-addon"] != undefined) {
             if (value["review-addon"] != -1) count = value["review-addon"] + 1;
@@ -428,7 +428,7 @@ function saveSettings(reset = false) {
     if (reset) {
         jsonSettings = {"theme": 0, "columns": 2, "rows": 2, "size": 2, "font": 0, "auto_close": 1};
     }
-    browserStorage[browserStorageIndex].sync.set({"settings": jsonSettings}, function () {
+    browserOrChrome[browserOrChromeIndex].storage.sync.set({"settings": jsonSettings}, function () {
     });
 
     hideElement("settings-section");
@@ -446,7 +446,7 @@ function setVariablesFromSettings(resize_popup_ui = false) {
     let jsonSettings = {"theme": 0, "columns": 2, "rows": 2, "size": 2, "font": 0, "auto_close": 1};
 
     let nameOfSetting = "settings";
-    browserStorage[browserStorageIndex].sync.get(nameOfSetting, function (value) {
+    browserOrChrome[browserOrChromeIndex].storage.sync.get(nameOfSetting, function (value) {
         if (value[nameOfSetting] != undefined) {
             jsonSettings = value[nameOfSetting];
         }
