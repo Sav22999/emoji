@@ -468,7 +468,10 @@ div {
     cursor: pointer;
     position: relative;
     transition: 0.1s;
-    -moz-appearance: textfield;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 0px;
+    text-overflow: '';
 }
 
 .select-small {
