@@ -32,7 +32,8 @@
 *::-webkit-scrollbar {
     width: 10px;
     height: 10px;
-    background-color: #ffffff; /* or add it to the track */
+    background-color: #ffffff;
+    /* or add it to the track */
 }
 
 *::-webkit-scrollbar-thumb {
@@ -42,16 +43,19 @@
 body {
     background-color: transparent;
     color: black;
-    width: auto; /*It's set in js script*/
+    width: auto;
+    /*It's set in js script*/
     height: auto;
     overflow: hidden;
     font-family: twemoji, sans-serif;
-    margin:0px;
+    margin: 0px;
 }
 
 #popup-content {
-    width: auto; /*It's set in js script*/
-    height: auto; /*It's set in js script*/
+    width: auto;
+    /*It's set in js script*/
+    height: auto;
+    /*It's set in js script*/
     margin: 0px;
     border: 0px solid transparent;
     position: relative;
@@ -61,14 +65,17 @@ body {
 #emojis {
     position: relative;
     width: 100%;
-    height: auto; /*it's set in js script*/
+    height: auto;
+    /*it's set in js script*/
     margin: 0px;
     padding: 2px;
     overflow: hidden;
     overflow-y: auto;
 }
 
-.emoji, .review-button, .button {
+.emoji,
+.review-button,
+.button {
     background-color: rgb(255, 255, 255);
     padding: 5px;
     width: 40px;
@@ -77,7 +84,7 @@ body {
     border: 0px;
     border-radius: 3px;
     font-size: 22px;
-    font-family: inherit;
+    font-family: twemoji, sans-serif;
     margin: 5px;
     cursor: pointer;
     position: relative;
@@ -90,11 +97,16 @@ body {
     font-family: open-sans, monospace, zilla-slab, sans-serif;
 }
 
-.emoji:hover, .review-button:hover, .button:hover {
+.emoji:hover,
+.review-button:hover,
+.button:hover {
     background-color: rgb(221, 222, 223);
 }
 
-.emoji:active, .emoji:focus, .review-button:active, .button:active {
+.emoji:active,
+.emoji:focus,
+.review-button:active,
+.button:active {
     box-shadow: 0px 0px 0px 2px #0a84ff, 0px 0px 0px 5px #b1d6fc;
 }
 
@@ -147,7 +159,8 @@ body {
     border-radius: 0px;
     font-size: 16px;
     /*border-top: 3px solid rgb(10, 132, 255);*/
-    border-top: 3px solid transparent;;
+    border-top: 3px solid transparent;
+    ;
     border-bottom: 1px solid rgb(201, 202, 203);
     font-family: inherit;
     margin: 0px;
@@ -157,7 +170,8 @@ body {
     transition: 0.1s;
 }
 
-.section-title:hover, .letter:hover {
+.section-title:hover,
+.letter:hover {
     background-color: rgb(221, 222, 223);
 }
 
@@ -165,7 +179,8 @@ body {
     background-color: rgb(201, 202, 203);
 }
 
-b.character-copied, div#review-message {
+b.character-copied,
+div#review-message {
     position: fixed;
     bottom: 3px;
     right: 30%;
@@ -344,7 +359,8 @@ div#review-message-buttons {
     font-family: inherit;
 }
 
-#no_emojis_found, #no_most_used_emojis {
+#no_emojis_found,
+#no_most_used_emojis {
     font-family: zilla-slab, sans-serif;
     text-align: center;
     padding: 50px;
@@ -409,7 +425,9 @@ div#settings-section {
     width: auto;
 }
 
-#clear-data-settings, #save-data-settings, #reset-data-settings {
+#clear-data-settings,
+#save-data-settings,
+#reset-data-settings {
     width: auto;
     padding: 5px;
     padding-left: 10px;
@@ -479,6 +497,7 @@ div {
     background-position: 70px center;
 }
 
+
 /*Dark and light themes*/
 
 .light-settings {
@@ -495,16 +514,21 @@ div {
     border-color: rgb(177, 177, 178);
 }
 
-.dark, .dark-button-emoji, .dark-settings-button, .dark-settings {
+.dark,
+.dark-button-emoji,
+.dark-settings-button,
+.dark-settings {
     background-color: rgb(30, 30, 30);
     color: #EEEEEE;
 }
 
-.light-save-data-settings-button, .light-reset-data-settings-button {
+.light-save-data-settings-button,
+.light-reset-data-settings-button {
     background-color: #F5F5F5;
 }
 
-.dark-save-data-settings-button, .dark-reset-data-settings-button {
+.dark-save-data-settings-button,
+.dark-reset-data-settings-button {
     background-color: rgb(70, 70, 70);
     color: #EEEEEE;
 }
@@ -529,7 +553,11 @@ div {
     border-bottom: 1px solid rgb(70, 70, 70);
 }
 
-.dark-section-title:hover, .dark-button-emoji:hover, .dark-settings-button:hover, .dark-save-data-settings-button:hover, .dark-reset-data-settings-button:hover {
+.dark-section-title:hover,
+.dark-button-emoji:hover,
+.dark-settings-button:hover,
+.dark-save-data-settings-button:hover,
+.dark-reset-data-settings-button:hover {
     background-color: rgb(50, 50, 50);
 }
 
@@ -537,7 +565,8 @@ div {
     background-color: rgb(70, 70, 70);
 }
 
-.light-subsection-settings, .dark-subsection-settings {
+.light-subsection-settings,
+.dark-subsection-settings {
     border-bottom: 1px solid #DDDDDD;
     padding: 5px;
 }

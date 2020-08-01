@@ -5,13 +5,13 @@ var max_columns = 10;
 var max_rows = 6;
 var theme = 0;
 var size_emojis = 40; //30, 35, 40, 50, 60
-var auto_close = "no";//yes, no
+var auto_close = "no"; //yes, no
 
 var font_family = "twemoji"; //twemoji (Twitter), notocoloremoji (Google), openmojicolor (OpenMoji)
 
 var mostUsedEmojis = [];
 
-browserOrChrome = [browser, chrome];// 0: Firefox Addons, 1: Chrome, Edge, etc.
+browserOrChrome = [browser, chrome]; // 0: Firefox Addons, 1: Chrome, Edge, etc.
 browserOrChromeIndex = 0; //TODO change programmatically: 0: Firefox, 1: Chrome, Edge, etc.
 
 if (browserOrChromeIndex == 1) {
@@ -31,7 +31,7 @@ function copyEmoji(text) {
     showMessageBottom();
 
     let nameOfSetting = "mostUsed";
-    browserOrChrome[browserOrChromeIndex].storage.sync.get(nameOfSetting, function (value) {
+    browserOrChrome[browserOrChromeIndex].storage.sync.get(nameOfSetting, function(value) {
         if (value[nameOfSetting] != undefined) {
             //already exist, so set the array at saved status
             mostUsedEmojis = value[nameOfSetting];
@@ -49,7 +49,7 @@ function autoCloseAfterCopied() {
 
 function generateMostUsedEmojis(generateEmojiBool = false) {
     let nameOfSetting = "mostUsed";
-    browserOrChrome[browserOrChromeIndex].storage.sync.get(nameOfSetting, function (value) {
+    browserOrChrome[browserOrChromeIndex].storage.sync.get(nameOfSetting, function(value) {
         if (value[nameOfSetting] != undefined) {
             mostUsedEmojis = value[nameOfSetting];
         }
@@ -65,7 +65,7 @@ function getMostUsedEmojisLength(titleToSet) {
 }
 
 function addToMostUsed(text) {
-    let emojiToAdd = {"emoji": text, "occurrences": 1};
+    let emojiToAdd = { "emoji": text, "occurrences": 1 };
     let indexToUse = -1; // -1: not in the JSON
     for (let tempIndex = 0; tempIndex < mostUsedEmojis.length && indexToUse == -1; tempIndex++) {
         if (mostUsedEmojis[tempIndex].emoji == text) {
@@ -77,7 +77,7 @@ function addToMostUsed(text) {
         mostUsedEmojis[indexToUse].occurrences++;
     } else {
         // the emoji is not in the JSON, so I initialise it at "1"
-        mostUsedEmojis.unshift(emojiToAdd);//(unshift -> add the element at the beginning -> in this way the "remove function" won't remove the emoji just inserted
+        mostUsedEmojis.unshift(emojiToAdd); //(unshift -> add the element at the beginning -> in this way the "remove function" won't remove the emoji just inserted
     }
     //remove elements if they are too much (max value = max_columns * max_rows)
     let max_value = max_columns * max_rows;
@@ -85,13 +85,12 @@ function addToMostUsed(text) {
         let removed = mostUsedEmojis.splice(max_value, (mostUsedEmojis.length - max_value));
     }
     sortMostUsedEmojis();
-    browserOrChrome[browserOrChromeIndex].storage.sync.set({"mostUsed": mostUsedEmojis}, function () {
-    });
+    browserOrChrome[browserOrChromeIndex].storage.sync.set({ "mostUsed": mostUsedEmojis }, function() {});
     autoCloseAfterCopied();
 }
 
 function sortMostUsedEmojis() {
-    mostUsedEmojis.sort(function (elA, elB) {
+    mostUsedEmojis.sort(function(elA, elB) {
         // sort based on occurrences (before most used)
         return elA.occurrences < elB.occurrences;
     });
@@ -127,7 +126,7 @@ function generateTitles(search = false, titleToSet = 1, clearSearchBox = true) {
                     document.getElementsByClassName("section-title")[i].style.display = "inline-block";
                 }
             }
-            document.getElementsByClassName("section-title")[i].onclick = function (e) {
+            document.getElementsByClassName("section-title")[i].onclick = function(e) {
                 resetAndSetTitle(this.id.replace("title", ""));
             };
 
@@ -179,7 +178,7 @@ function generateEmojis(title) {
         }
     }
     for (let i = 0; i < n_emojis; i++) {
-        document.getElementsByClassName("emoji")[i].onclick = function (e) {
+        document.getElementsByClassName("emoji")[i].onclick = function(e) {
             copyEmoji(this.value);
         };
     }
@@ -202,25 +201,25 @@ function setPopUpUI() {
 
     document.getElementById("emojis").scrollTop = (0, 0);
 
-    document.getElementById("settings-button").onclick = function () {
+    document.getElementById("settings-button").onclick = function() {
         showSettings();
     }
-    document.getElementById("hide-settings-button").onclick = function () {
+    document.getElementById("hide-settings-button").onclick = function() {
         hideElement("settings-section");
     }
-    document.getElementById("clear-data-settings").onclick = function () {
+    document.getElementById("clear-data-settings").onclick = function() {
         clearAllData();
         generateTitles(false);
         generateMostUsedEmojis();
         hideElement("settings-section");
     }
-    document.getElementById("save-data-settings").onclick = function () {
+    document.getElementById("save-data-settings").onclick = function() {
         saveSettings();
     }
-    document.getElementById("reset-data-settings").onclick = function () {
+    document.getElementById("reset-data-settings").onclick = function() {
         resetSettings();
     }
-    document.getElementById("emojis-size-selected").onchange = function () {
+    document.getElementById("emojis-size-selected").onchange = function() {
         setColumnsRowsSettings(document.getElementById("emojis-size-selected").value.toLowerCase(), -1, -1);
     }
 }
@@ -238,10 +237,10 @@ function showReviewAddonMessage() {
     document.getElementById("popup-content").append(background_opacity);
 
     let button_review_now_element = document.createElement("button");
-    button_review_now_element.onclick = function () {
+    button_review_now_element.onclick = function() {
         setReviewed(-1);
         let url_firefox_addons = "https://addons.mozilla.org/firefox/addon/emoji-sav/";
-        browserOrChrome[browserOrChromeIndex].tabs.create({url: url_firefox_addons});
+        browserOrChrome[browserOrChromeIndex].tabs.create({ url: url_firefox_addons });
         window.close();
     };
     button_review_now_element.className = "review-button";
@@ -249,7 +248,7 @@ function showReviewAddonMessage() {
     button_review_now_element.innerHTML = "Review now";
 
     let button_review_later_element = document.createElement("button");
-    button_review_later_element.onclick = function () {
+    button_review_later_element.onclick = function() {
         setReviewed(0);
         hideReviewMessage();
     };
@@ -258,7 +257,7 @@ function showReviewAddonMessage() {
     button_review_later_element.innerHTML = "I'll review later";
 
     let button_dont_want_element = document.createElement("button");
-    button_dont_want_element.onclick = function () {
+    button_dont_want_element.onclick = function() {
         setReviewed(-1);
         hideReviewMessage();
     };
@@ -281,7 +280,7 @@ function showMessageBottom(text = "Copied ✔") {
     new_b_element.id = "character-copied-" + index_to_use;
     new_b_element.innerHTML = text;
     document.getElementById("popup-content").append(new_b_element);
-    setTimeout(function () {
+    setTimeout(function() {
         hideElement("character-copied-" + index_to_use);
     }, 1500);
 }
@@ -301,15 +300,14 @@ function showElement(id_to_use) {
 }
 
 function setReviewed(value) {
-    browserOrChrome[browserOrChromeIndex].storage.sync.set({"review-addon": value}, function () {
-    });
+    browserOrChrome[browserOrChromeIndex].storage.sync.set({ "review-addon": value }, function() {});
     if (value == -1) {
         hideReviewMessage();
     }
 }
 
 function checkReview() {
-    browserOrChrome[browserOrChromeIndex].storage.sync.get("review-addon", function (value) {
+    browserOrChrome[browserOrChromeIndex].storage.sync.get("review-addon", function(value) {
         let count = 0;
         if (value["review-addon"] != undefined) {
             if (value["review-addon"] != -1) count = value["review-addon"] + 1;
@@ -366,7 +364,10 @@ function showSettings() {
 }
 
 function setColumnsRowsSettings(value, selected_c = 2, selected_r = 2) {
-    let min_c = 8, max_c = 14, min_r = 4, max_r = 10;
+    let min_c = 8,
+        max_c = 14,
+        min_r = 4,
+        max_r = 10;
 
     switch (value) {
         case "big":
@@ -380,7 +381,7 @@ function setColumnsRowsSettings(value, selected_c = 2, selected_r = 2) {
             break;
 
         default:
-        //nothing -> default value
+            //nothing -> default value
     }
     if (selected_c == -1) selected_c = max_columns - min_c;
     if (selected_r == -1) selected_r = max_rows - min_r;
@@ -426,10 +427,9 @@ function saveSettings(reset = false) {
         "auto_close": autoClosePopup
     };
     if (reset) {
-        jsonSettings = {"theme": 0, "columns": 2, "rows": 2, "size": 2, "font": 0, "auto_close": 1};
+        jsonSettings = { "theme": 0, "columns": 2, "rows": 2, "size": 2, "font": 0, "auto_close": 1 };
     }
-    browserOrChrome[browserOrChromeIndex].storage.sync.set({"settings": jsonSettings}, function () {
-    });
+    browserOrChrome[browserOrChromeIndex].storage.sync.set({ "settings": jsonSettings }, function() {});
 
     hideElement("settings-section");
     setVariablesFromSettings(true);
@@ -443,10 +443,10 @@ function setVariablesFromSettings(resize_popup_ui = false) {
     let fontFamily = document.getElementById("font-family-selected");
     let autoClosePopup = document.getElementById("close-popup-after-copied-selected");
 
-    let jsonSettings = {"theme": 0, "columns": 2, "rows": 2, "size": 2, "font": 0, "auto_close": 1};
+    let jsonSettings = { "theme": 0, "columns": 2, "rows": 2, "size": 2, "font": 0, "auto_close": 1 };
 
     let nameOfSetting = "settings";
-    browserOrChrome[browserOrChromeIndex].storage.sync.get(nameOfSetting, function (value) {
+    browserOrChrome[browserOrChromeIndex].storage.sync.get(nameOfSetting, function(value) {
         if (value[nameOfSetting] != undefined) {
             jsonSettings = value[nameOfSetting];
         }
@@ -559,7 +559,7 @@ function removeThemeClassClass(class_to_use, index_to_use, details_to_use = "") 
     document.getElementsByClassName(class_to_use)[index_to_use].classList.remove("light" + details_to_use);
 }
 
-document.getElementById("search-bar-input").onkeyup = function (e) {
+document.getElementById("search-bar-input").onkeyup = function(e) {
     searchEmoji(document.getElementById("search-bar-input").value);
 }
 document.getElementById("search-bar-input").focus();
