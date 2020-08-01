@@ -540,7 +540,7 @@ function setTheme() {
     document.getElementById("close-popup-after-copied-selected").classList.add(theme + "-select");
     document.getElementById("font-family-selected").classList.add(theme + "-select");
 
-    for (let n = 0; n < 5; n++) {
+    for (let n = 0; n < 6; n++) {
         removeThemeClassClass("subsection-settings", n, "-subsection-settings");
         document.getElementsByClassName("subsection-settings")[n].classList.add(theme + "-subsection-settings");
     }
