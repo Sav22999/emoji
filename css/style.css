@@ -60,6 +60,7 @@ body {
     border: 0px solid transparent;
     position: relative;
     overflow: hidden;
+    font-family: inherit;
 }
 
 #emojis {
@@ -90,6 +91,7 @@ body {
     position: relative;
     transition: 0.1s;
     box-sizing: border-box;
+    font-family: inherit;
 }
 
 .button {
