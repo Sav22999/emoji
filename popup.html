@@ -36,30 +36,45 @@ Created by Saverio Morelli - saveriomorelli.com
             </div>
             <div class="subsection-settings">
                 <span class="title-subsection-settings">Columns</span>
-                <select class="select" id="columns-selected">
-                </select>
+                <select class="select select-small" id="columns-selected"></select>
             </div>
             <div class="subsection-settings">
                 <span class="title-subsection-settings">Rows</span>
-                <select class="select" id="rows-selected">
-                </select>
+                <select class="select select-small" id="rows-selected"></select>
             </div>
             <div class="subsection-settings">
                 <span class="title-subsection-settings">Emojis size</span>
                 <select class="select" id="emojis-size-selected">
-                    <option>Very small</option>
-                    <option>Small</option>
-                    <option>Normal</option>
-                    <option>Big</option>
-                    <option>Very big</option>
+                    <option value="very small">Very small</option>
+                    <option value="small">Small</option>
+                    <option value="normal">Normal</option>
+                    <option value="big">Big</option>
+                    <option value="very big">Very big</option>
+                </select>
+            </div>
+            <div class="subsection-settings">
+                <span class="title-subsection-settings">Close the pop-up after emoji is copied</span>
+                <select class="select select-small" id="close-popup-after-copied-selected">
+                    <option>Yes</option>
+                    <option>No</option>
+                </select>
+            </div>
+            <div class="subsection-settings">
+                <span class="title-subsection-settings">Font family</span>
+                <select class="select" id="font-family-selected">
+                    <option value="twemoji">Twitter</option>
+                    <!--<option value="notocoloremoji">Google</option>-->
+                    <!--<option value="openmojicolor">OpenMoji</option>-->
                 </select>
             </div>
             <div class="margin-top-20"></div>
-            <input type="button" value="Save" class="button font-zillaslab font-size-16" id="save-data-settings">
-            <input type="button" value="Reset settings" class="button font-zillaslab font-size-16"
-                   id="reset-data-settings">
-            <input type="button" value="Clear all data" class="button font-zillaslab font-size-16 red-button"
-                   id="clear-data-settings">
+            <div id="subsection-settings-bottom">
+                <input type="button" value="Save" class="button font-zillaslab font-size-16" id="save-data-settings">
+                <input type="button" value="Reset settings" class="button font-zillaslab font-size-16"
+                       id="reset-data-settings">
+                <input type="button" value="Clear all data" class="button font-zillaslab font-size-16 red-button"
+                       id="clear-data-settings">
+            </div>
             <div class="margin-top-20">
                 <div id="made-in-basilicata-settings" class="font-color-lightblue">
                     Made with <span class="font-twemoji">💙</span> in Basilicata, Italy

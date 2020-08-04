@@ -8,40 +8,75 @@
     src: url("../font/zillaslab.otf");
 }
 
+@font-face {
+    font-family: open-sans;
+    src: url("../font/opensans.ttf");
+}
+
+@font-face {
+    font-family: notocoloremoji;
+    src: url("../font/notocoloremoji.ttf");
+}
+
+@font-face {
+    font-family: openmoji-color;
+    src: url("../font/openmojicolor.ttf");
+}
+
 * {
     scrollbar-color: rgb(10, 132, 255) rgba(150, 150, 150, 0);
     scrollbar-width: thin;
+    outline: 0px solid transparent;
+}
+
+*::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background-color: #ffffff;
+    /* or add it to the track */
+}
+
+*::-webkit-scrollbar-thumb {
+    background: #3399ff;
 }
 
 body {
     background-color: transparent;
     color: black;
-    width: auto; /*It's set in js script*/
+    width: auto;
+    /*It's set in js script*/
     height: auto;
     overflow: hidden;
     font-family: twemoji, sans-serif;
+    margin: 0px;
 }
 
 #popup-content {
-    width: auto; /*It's set in js script*/
-    height: auto; /*It's set in js script*/
+    width: auto;
+    /*It's set in js script*/
+    height: auto;
+    /*It's set in js script*/
     margin: 0px;
     border: 0px solid transparent;
     position: relative;
     overflow: hidden;
+    font-family: inherit;
 }
 
 #emojis {
     position: relative;
     width: 100%;
-    height: auto; /*it's set in js script*/
+    height: auto;
+    /*it's set in js script*/
     margin: 0px;
     padding: 2px;
     overflow: hidden;
     overflow-y: auto;
 }
 
-.emoji, .review-button, .button {
+.emoji,
+.review-button,
+.button {
     background-color: rgb(255, 255, 255);
     padding: 5px;
     width: 40px;
@@ -56,18 +91,24 @@ body {
     position: relative;
     transition: 0.1s;
     box-sizing: border-box;
+    font-family: inherit;
 }
 
 .button {
     width: auto;
-    font-family: monospace, zilla-slab, sans-serif;
+    font-family: open-sans, monospace, zilla-slab, sans-serif;
 }
 
-.emoji:hover, .review-button:hover, .button:hover {
+.emoji:hover,
+.review-button:hover,
+.button:hover {
     background-color: rgb(221, 222, 223);
 }
 
-.emoji:active, .emoji:focus, .review-button:active, .button:active {
+.emoji:active,
+.emoji:focus,
+.review-button:active,
+.button:active {
     box-shadow: 0px 0px 0px 2px #0a84ff, 0px 0px 0px 5px #b1d6fc;
 }
 
@@ -130,7 +171,8 @@ body {
     transition: 0.1s;
 }
 
-.section-title:hover, .letter:hover {
+.section-title:hover,
+.letter:hover {
     background-color: rgb(221, 222, 223);
 }
 
@@ -138,7 +180,8 @@ body {
     background-color: rgb(201, 202, 203);
 }
 
-b.character-copied, div#review-message {
+b.character-copied,
+div#review-message {
     position: fixed;
     bottom: 3px;
     right: 30%;
@@ -160,6 +203,18 @@ b.character-copied, div#review-message {
 
 .font-twemoji {
     font-family: twemoji, sans-serif;
+}
+
+.font-openmojicolor {
+    font-family: openmoji-color, sans-serif;
+}
+
+.font-notocoloremoji {
+    font-family: notocoloremoji, sans-serif;
+}
+
+.font-opensans {
+    font-family: open-sans, sans-serif;
 }
 
 .font-zillaslab {
@@ -245,7 +300,7 @@ div#background-opacity-review {
 button.review-button {
     width: auto;
     font-size: 14px;
-    font-family: zilla-slab, sans-serif;
+    font-family: open-sans, zilla-slab, sans-serif;
     padding: 5px;
     padding-left: 10px;
     padding-right: 10px;
@@ -302,9 +357,11 @@ div#review-message-buttons {
     height: 32px;
     font-size: 16px;
     margin: 0px;
+    font-family: inherit;
 }
 
-#no_emojis_found, #no_most_used_emojis {
+#no_emojis_found,
+#no_most_used_emojis {
     font-family: zilla-slab, sans-serif;
     text-align: center;
     padding: 50px;
@@ -336,6 +393,7 @@ div#settings-section {
     width: 32px;
     height: 32px;
     text-align: center;
+    font-family: monospace;
 }
 
 .red-button {
@@ -368,13 +426,17 @@ div#settings-section {
     width: auto;
 }
 
-#clear-data-settings, #save-data-settings, #reset-data-settings {
+#clear-data-settings,
+#save-data-settings,
+#reset-data-settings {
     width: auto;
     padding: 5px;
     padding-left: 10px;
     padding-right: 10px;
     height: auto;
     margin: 0px;
+    font-size: 14px;
+    font-family: open-sans, sans-serif;
 }
 
 div {
@@ -384,48 +446,60 @@ div {
 #made-in-basilicata-settings {
     width: auto;
     text-align: center;
-    font-size: 16px;
+    font-size: 14px;
     margin: 0px;
     background-color: inherit;
     border-top: 1px solid #0a84ff;
     box-sizing: border-box;
     padding: 10px;
+    font-family: open-sans, sans-serif;
 }
 
 .title-subsection-settings {
     font-size: 16px;
     height: 30px;
     font-family: zilla-slab, sans-serif;
+    display: inline-block;
+    min-width: 60px;
+}
+
+#subsection-settings-bottom {
+    text-align: right;
 }
 
 .select {
-    width: 150px;
-    font-size: 16px;
+    width: 140px;
+    font-size: 14px;
     height: 30px;
     background-color: #F5F5F5;
     padding: 5px;
     padding-left: 15px;
-    padding-right: 50px;
+    padding-right: 15px;
     color: black;
     border: 0px;
     border-radius: 3px;
-    font-family: zilla-slab, sans-serif;
+    font-family: open-sans, sans-serif;
     background-image: url("../img/arrow-select.png");
     background-repeat: no-repeat;
-    background-position: 120px center;
+    background-position: 110px center;
     background-size: 10px auto;
     margin: 5px;
     cursor: pointer;
     position: relative;
     transition: 0.1s;
-    -moz-appearance: textfield;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 0px;
+    text-overflow: '';
 }
 
-.title-subsection-settings {
-    display: inline-block;
-    width: 80px;
+.select-small {
+    width: 100px;
+    background-position: 70px center;
 }
 
+
+/*Dark and light themes*/
 
 .light-settings {
     background-color: #FFFFFF;
@@ -441,16 +515,21 @@ div {
     border-color: rgb(177, 177, 178);
 }
 
-.dark, .dark-button-emoji, .dark-settings-button, .dark-settings {
+.dark,
+.dark-button-emoji,
+.dark-settings-button,
+.dark-settings {
     background-color: rgb(30, 30, 30);
     color: #EEEEEE;
 }
 
-.light-save-data-settings-button, .light-reset-data-settings-button {
+.light-save-data-settings-button,
+.light-reset-data-settings-button {
     background-color: #F5F5F5;
 }
 
-.dark-save-data-settings-button, .dark-reset-data-settings-button {
+.dark-save-data-settings-button,
+.dark-reset-data-settings-button {
     background-color: rgb(70, 70, 70);
     color: #EEEEEE;
 }
@@ -475,10 +554,24 @@ div {
     border-bottom: 1px solid rgb(70, 70, 70);
 }
 
-.dark-section-title:hover, .dark-button-emoji:hover, .dark-settings-button:hover, .dark-save-data-settings-button:hover, .dark-reset-data-settings-button:hover {
+.dark-section-title:hover,
+.dark-button-emoji:hover,
+.dark-settings-button:hover,
+.dark-save-data-settings-button:hover,
+.dark-reset-data-settings-button:hover {
     background-color: rgb(50, 50, 50);
 }
 
 .dark-section-title:active {
     background-color: rgb(70, 70, 70);
+}
+
+.light-subsection-settings,
+.dark-subsection-settings {
+    border-bottom: 1px solid #DDDDDD;
+    padding: 5px;
+}
+
+.dark-subsection-settings {
+    border-bottom: 1px solid #555555;
 }
