@@ -463,6 +463,16 @@ div {
     min-width: 60px;
 }
 
+.description-subsection-settings {
+    font-size: 14px;
+    height: 30px;
+    font-family: zilla-slab, sans-serif;
+    display: none;
+    color: #0a84ff;
+    font-style: italic;
+    font-weight: bold;
+}
+
 #subsection-settings-bottom {
     text-align: right;
 }
@@ -496,6 +506,11 @@ div {
 .select-small {
     width: 100px;
     background-position: 70px center;
+}
+
+.select-big {
+    width: 150px;
+    background-position: 120px center;
 }
 
 
