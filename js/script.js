@@ -532,14 +532,17 @@ function setFontFamily() {
     document.getElementById("emojis").classList.remove("font-twemoji");
     document.getElementById("emojis").classList.remove("font-notocoloremoji");
     document.getElementById("emojis").classList.remove("font-openmojicolor");
+    document.getElementById("emojis").classList.remove("font-default");
 
     document.getElementById("titles").classList.remove("font-twemoji");
     document.getElementById("titles").classList.remove("font-notocoloremoji");
     document.getElementById("titles").classList.remove("font-openmojicolor");
+    document.getElementById("titles").classList.remove("font-default");
 
     document.getElementById("top-section").classList.remove("font-twemoji");
     document.getElementById("top-section").classList.remove("font-notocoloremoji");
     document.getElementById("top-section").classList.remove("font-openmojicolor");
+    document.getElementById("top-section").classList.remove("font-default");
 
     document.getElementById("emojis").classList.add("font-" + font_family);
     document.getElementById("titles").classList.add("font-" + font_family);

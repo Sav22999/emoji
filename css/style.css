@@ -221,6 +221,10 @@ div#review-message {
     font-family: zilla-slab, sans-serif;
 }
 
+.font-default {
+    font-family: sans-serif;
+}
+
 .font-size-16 {
     font-size: 16px;
 }
@@ -512,7 +516,6 @@ div {
     width: 150px;
     background-position: 120px center;
 }
-
 
 /*Dark and light themes*/
 

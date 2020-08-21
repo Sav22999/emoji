@@ -1459,7 +1459,7 @@ emojis[12] = {
     "🙌‍[[*skin_tone*]]‍": ["Person Raising Both Hands in Celebration", "Raising Hands", "Arms In The Air", "Banzai", "Festivus Miracle", "Hallelujah", "Praise Hands", "Two Hands"],
     "👐‍[[*skin_tone*]]‍": ["Open Hands Sign", "Hug", "Jazz Hands"],
     "🤲‍[[*skin_tone*]]‍": ["Palms Up Together", "Dua"],
-    "🤝‍": ["Handshake", "Shaking Hands"],
+    "🤝‍[[*skin_tone*]]‍": ["Handshake", "Shaking Hands"],
     "🙏‍[[*skin_tone*]]‍": ["Folded Hands", "Namaste", "Please", "Prayer", "Thank You", "Person with Folded Hands"],
     "✍‍[[*skin_tone*]]‍️": ["Writing Hand"],
     "💪‍[[*skin_tone*]]‍": ["Flexed Biceps", "Flexing Arm Muscles", "Musle", "Strong"],
