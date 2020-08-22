@@ -6,7 +6,12 @@ var max_rows = 6;
 var theme = 0;
 var size_emojis = 40; //30, 35, 40, 50, 60
 var auto_close = "no"; //yes, no
+var skin_tone_selected = ""; //nothing
+var skin_tone_previous = "";
 
+var first_replacement = true;
+
+var skin_tones = ["", "🏻", "🏼", "🏽", "🏾", "🏿"]; //standard(yellow)|light|medium-light|medium|medium-dark|dark
 
 var mostUsedEmojis = [];
 
@@ -231,6 +236,16 @@ function setPopUpUI() {
     document.getElementById("emojis-size-selected").onchange = function () {
         setColumnsRowsSettings(document.getElementById("emojis-size-selected").value.toLowerCase(), -1, -1);
     }
+
+    document.getElementById("skin-tone-selected").onchange = function () {
+        if (skin_tone_selected == 0 && document.getElementById("skin-tone-selected").selectedIndex != skin_tone_selected) {
+            document.getElementById("restart-pop-up").style.display = "inline-block";
+        } else {
+            document.getElementById("restart-pop-up").style.display = "none";
+        }
+    }
+
+    setSkinToneEmojis();
 }
 
 function showReviewAddonMessage() {
@@ -400,14 +415,14 @@ function setColumnsRowsSettings(value, selected_c = 2, selected_r = 2) {
 }
 
 function generateColumnsSettings(min, max, selected) {
-    genereteOptionsSelectSettings(min, max, selected, document.getElementById("columns-selected"));
+    generateOptionsSelectSettings(min, max, selected, document.getElementById("columns-selected"));
 }
 
 function generateRowsSettings(min, max, selected) {
-    genereteOptionsSelectSettings(min, max, selected, document.getElementById("rows-selected"));
+    generateOptionsSelectSettings(min, max, selected, document.getElementById("rows-selected"));
 }
 
-function genereteOptionsSelectSettings(min, max, selected, element) {
+function generateOptionsSelectSettings(min, max, selected, element) {
     element.innerHTML = "";
     for (let i = min; i <= max; i++) {
         let details = "";
@@ -427,6 +442,7 @@ function saveSettings(reset = false) {
     let emojisSize = document.getElementById("emojis-size-selected").selectedIndex;
     let fontFamily = document.getElementById("font-family-selected").selectedIndex;
     let autoClosePopup = document.getElementById("close-popup-after-copied-selected").selectedIndex;
+    let skinTone = document.getElementById("skin-tone-selected").selectedIndex;
 
     let jsonSettings = {
         "theme": theme,
@@ -434,10 +450,11 @@ function saveSettings(reset = false) {
         "rows": rows,
         "size": emojisSize,
         "font": fontFamily,
-        "auto_close": autoClosePopup
+        "auto_close": autoClosePopup,
+        "skin_tone": skinTone,
     };
     if (reset) {
-        jsonSettings = {"theme": 0, "columns": 2, "rows": 2, "size": 2, "font": 0, "auto_close": 1};
+        jsonSettings = {"theme": 0, "columns": 2, "rows": 2, "size": 2, "font": 0, "auto_close": 1, "skin_tone": 0};
     }
     browserAgentSettings.storage.sync.set({"settings": jsonSettings}, function () {
     });
@@ -453,8 +470,9 @@ function setVariablesFromSettings(resize_popup_ui = false) {
     let emojisSizeElement = document.getElementById("emojis-size-selected");
     let fontFamily = document.getElementById("font-family-selected");
     let autoClosePopup = document.getElementById("close-popup-after-copied-selected");
+    let skinToneElement = document.getElementById("skin-tone-selected");
 
-    let jsonSettings = {"theme": 0, "columns": 2, "rows": 2, "size": 2, "font": 0, "auto_close": 1};
+    let jsonSettings = {"theme": 0, "columns": 2, "rows": 2, "size": 2, "font": 0, "auto_close": 1, "skin_tone": 0};
 
     let nameOfSetting = "settings";
     browserAgentSettings.storage.sync.get(nameOfSetting, function (value) {
@@ -469,6 +487,7 @@ function setVariablesFromSettings(resize_popup_ui = false) {
         emojisSizeElement.selectedIndex = jsonSettings.size;
         fontFamily.selectedIndex = jsonSettings.font;
         autoClosePopup.selectedIndex = jsonSettings.auto_close;
+        skinToneElement.selectedIndex = jsonSettings.skin_tone;
 
 
         theme = themeElement.value.toLowerCase();
@@ -476,6 +495,8 @@ function setVariablesFromSettings(resize_popup_ui = false) {
         max_rows = rowsElement.value;
         font_family = fontFamily.value;
         auto_close = autoClosePopup.value.toLowerCase();
+        skin_tone_previous = skin_tone_selected;
+        skin_tone_selected = skin_tones[jsonSettings.skin_tone];
         switch (emojisSizeElement.value.toLowerCase()) {
             case "very small":
                 size_emojis = 30;
@@ -511,14 +532,17 @@ function setFontFamily() {
     document.getElementById("emojis").classList.remove("font-twemoji");
     document.getElementById("emojis").classList.remove("font-notocoloremoji");
     document.getElementById("emojis").classList.remove("font-openmojicolor");
+    document.getElementById("emojis").classList.remove("font-default");
 
     document.getElementById("titles").classList.remove("font-twemoji");
     document.getElementById("titles").classList.remove("font-notocoloremoji");
     document.getElementById("titles").classList.remove("font-openmojicolor");
+    document.getElementById("titles").classList.remove("font-default");
 
     document.getElementById("top-section").classList.remove("font-twemoji");
     document.getElementById("top-section").classList.remove("font-notocoloremoji");
     document.getElementById("top-section").classList.remove("font-openmojicolor");
+    document.getElementById("top-section").classList.remove("font-default");
 
     document.getElementById("emojis").classList.add("font-" + font_family);
     document.getElementById("titles").classList.add("font-" + font_family);
@@ -551,7 +575,7 @@ function setTheme() {
     document.getElementById("close-popup-after-copied-selected").classList.add(theme + "-select");
     document.getElementById("font-family-selected").classList.add(theme + "-select");
 
-    for (let n = 0; n < 6; n++) {
+    for (let n = 0; n < 7; n++) {
         removeThemeClassClass("subsection-settings", n, "-subsection-settings");
         document.getElementsByClassName("subsection-settings")[n].classList.add(theme + "-subsection-settings");
     }
@@ -568,6 +592,22 @@ function removeThemeClassId(id_to_use, details_to_use = "") {
 function removeThemeClassClass(class_to_use, index_to_use, details_to_use = "") {
     document.getElementsByClassName(class_to_use)[index_to_use].classList.remove("dark" + details_to_use);
     document.getElementsByClassName(class_to_use)[index_to_use].classList.remove("light" + details_to_use);
+}
+
+function setSkinToneEmojis() {
+    let replacement_symbol = "[[*skin_tone*]]";
+    if (!first_replacement && skin_tone_previous != 0) {
+        replacement_symbol = skin_tone_previous;
+    }
+    let string = [];
+    string[3] = (JSON.stringify(emojis[3])).replaceAll(replacement_symbol, skin_tone_selected);
+    string[8] = (JSON.stringify(emojis[8])).replaceAll(replacement_symbol, skin_tone_selected);
+    string[12] = (JSON.stringify(emojis[12])).replaceAll(replacement_symbol, skin_tone_selected);
+
+    emojis[3] = JSON.parse(string[3]);
+    emojis[8] = JSON.parse(string[8]);
+    emojis[12] = JSON.parse(string[12]);
+    first_replacement = false;
 }
 
 document.getElementById("search-bar-input").onkeyup = function (e) {

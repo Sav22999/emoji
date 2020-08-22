@@ -221,6 +221,10 @@ div#review-message {
     font-family: zilla-slab, sans-serif;
 }
 
+.font-default {
+    font-family: sans-serif;
+}
+
 .font-size-16 {
     font-size: 16px;
 }
@@ -463,6 +467,16 @@ div {
     min-width: 60px;
 }
 
+.description-subsection-settings {
+    font-size: 14px;
+    height: 30px;
+    font-family: zilla-slab, sans-serif;
+    display: none;
+    color: #0a84ff;
+    font-style: italic;
+    font-weight: bold;
+}
+
 #subsection-settings-bottom {
     text-align: right;
 }
@@ -498,6 +512,10 @@ div {
     background-position: 70px center;
 }
 
+.select-big {
+    width: 150px;
+    background-position: 120px center;
+}
 
 /*Dark and light themes*/
 
