@@ -562,6 +562,7 @@ function setTheme() {
     removeThemeClassId("save-data-settings", "-save-data-settings-button");
     removeThemeClassId("reset-data-settings", "-reset-data-settings-button");
     removeThemeClassId("close-popup-after-copied-selected", "-select");
+    removeThemeClassId("skin-tone-selected", "-select");
     removeThemeClassId("font-family-selected", "-select");
 
     document.getElementById("popup-content").classList.add(theme);
@@ -573,6 +574,7 @@ function setTheme() {
     document.getElementById("rows-selected").classList.add(theme + "-select");
     document.getElementById("emojis-size-selected").classList.add(theme + "-select");
     document.getElementById("close-popup-after-copied-selected").classList.add(theme + "-select");
+    document.getElementById("skin-tone-selected").classList.add(theme + "-select");
     document.getElementById("font-family-selected").classList.add(theme + "-select");
 
     for (let n = 0; n < 7; n++) {
