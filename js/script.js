@@ -238,7 +238,7 @@ function setPopUpUI() {
     }
 
     document.getElementById("skin-tone-selected").onchange = function () {
-        if (skin_tone_selected == 0 && document.getElementById("skin-tone-selected").selectedIndex != skin_tone_selected) {
+        if (skin_tone_selected == "" && skin_tones[document.getElementById("skin-tone-selected").selectedIndex] != skin_tone_selected) {
             document.getElementById("restart-pop-up").style.display = "inline-block";
         } else {
             document.getElementById("restart-pop-up").style.display = "none";
@@ -496,7 +496,7 @@ function setVariablesFromSettings(resize_popup_ui = false) {
         font_family = fontFamily.value;
         auto_close = autoClosePopup.value.toLowerCase();
         skin_tone_previous = skin_tone_selected;
-        skin_tone_selected = skin_tones[jsonSettings.skin_tone];
+        skin_tone_selected = skin_tones[skinToneElement.selectedIndex];
         switch (emojisSizeElement.value.toLowerCase()) {
             case "very small":
                 size_emojis = 30;
@@ -598,9 +598,10 @@ function removeThemeClassClass(class_to_use, index_to_use, details_to_use = "") 
 
 function setSkinToneEmojis() {
     let replacement_symbol = "[[*skin_tone*]]";
-    if (!first_replacement && skin_tone_previous != 0) {
+    if (!first_replacement && skin_tone_previous != "") {
         replacement_symbol = skin_tone_previous;
     }
+    //if (skin_tone_selected === undefined) skin_tone_selected = "";
     let string = [];
     string[3] = (JSON.stringify(emojis[3])).replaceAll(replacement_symbol, skin_tone_selected);
     string[8] = (JSON.stringify(emojis[8])).replaceAll(replacement_symbol, skin_tone_selected);
