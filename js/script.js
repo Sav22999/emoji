@@ -9,6 +9,8 @@ var auto_close = "no"; //yes, no
 var skin_tone_selected = ""; //nothing
 var skin_tone_previous = "";
 
+var deleting = false;
+
 var first_replacement = true;
 
 var skin_tones = ["", "🏻", "🏼", "🏽", "🏾", "🏿"]; //standard(yellow)|light|medium-light|medium|medium-dark|dark
@@ -35,23 +37,36 @@ setVariablesFromSettings(true);
 generateTitles();
 
 function copyEmoji(text) {
-    document.getElementById("text-to-copy").style.display = "block";
-    document.getElementById("text-to-copy").value = text;
-    var copyText = document.getElementById("text-to-copy");
-    copyText.select();
-    document.execCommand("copy");
-    document.getElementById("text-to-copy").style.display = "none";
-    showMessageBottom();
-
     let nameOfSetting = "mostUsed";
-    browserAgentSettings.storage.sync.get(nameOfSetting, function (value) {
-        if (value[nameOfSetting] != undefined) {
-            //already exist, so set the array at saved status
-            mostUsedEmojis = value[nameOfSetting];
-        }
-        addToMostUsed(text);
-        getMostUsedEmojisLength(selectedTitle);
-    })
+    if (!deleting) {
+        document.getElementById("text-to-copy").style.display = "block";
+        document.getElementById("text-to-copy").value = text;
+        var copyText = document.getElementById("text-to-copy");
+        copyText.select();
+        document.execCommand("copy");
+        document.getElementById("text-to-copy").style.display = "none";
+        showMessageBottom();
+
+        browserAgentSettings.storage.sync.get(nameOfSetting, function (value) {
+            if (value[nameOfSetting] != undefined) {
+                //already exist, so set the array at saved status
+                mostUsedEmojis = value[nameOfSetting];
+            }
+            addToMostUsed(text);
+            getMostUsedEmojisLength(selectedTitle);
+        })
+    } else {
+        removeFromMostUsed(text);
+        showMessageBottom("Emoji removed correctly");
+
+        browserAgentSettings.storage.sync.get(nameOfSetting, function (value) {
+            if (value[nameOfSetting] != undefined) {
+                //already exist, so set the array at saved status
+                mostUsedEmojis = value[nameOfSetting];
+            }
+            getMostUsedEmojisLength(selectedTitle);
+        })
+    }
 }
 
 function autoCloseAfterCopied() {
@@ -101,6 +116,22 @@ function addToMostUsed(text) {
     browserAgentSettings.storage.sync.set({"mostUsed": mostUsedEmojis}, function () {
     });
     autoCloseAfterCopied();
+}
+
+function removeFromMostUsed(text) {
+    let indexToUse = -1; // -1: not in the JSON
+    for (let tempIndex = 0; tempIndex < mostUsedEmojis.length && indexToUse == -1; tempIndex++) {
+        if (mostUsedEmojis[tempIndex].emoji == text) {
+            indexToUse = tempIndex;
+        }
+    }
+    if (indexToUse != -1) {
+        // the emoji is in the list, so I remove it
+        mostUsedEmojis.splice(indexToUse, 1);
+    }
+    sortMostUsedEmojis();
+    browserAgentSettings.storage.sync.set({"mostUsed": mostUsedEmojis}, function () {
+    });
 }
 
 function sortMostUsedEmojis() {
@@ -164,10 +195,20 @@ function resetAndSetTitle(newTitle) {
 }
 
 function setTitle(newTitle) {
+    finishEditMode();
+
     document.getElementsByClassName("section-title")[selectedTitle].style.borderTopColor = "transparent";
     selectedTitle = newTitle;
     document.getElementsByClassName("section-title")[selectedTitle].style.borderTopColor = "rgb(10, 132, 255)";
     generateEmojis(newTitle);
+
+    if (selectedTitle == 1) {
+        document.getElementById("search-box").style.right = "80px";
+        document.getElementById("delete-button").style.display = "block";
+    } else {
+        document.getElementById("search-box").style.right = "40px";
+        document.getElementById("delete-button").style.display = "none";
+    }
 }
 
 function generateEmojis(title) {
@@ -217,6 +258,12 @@ function setPopUpUI() {
 
     document.getElementById("settings-button").onclick = function () {
         showSettings();
+    }
+    document.getElementById("delete-button").onclick = function () {
+        editMode();
+    }
+    document.getElementById("finish-edit-button").onclick = function () {
+        finishEditMode();
     }
     document.getElementById("hide-settings-button").onclick = function () {
         hideElement("settings-section");
@@ -495,6 +542,10 @@ function setVariablesFromSettings(resize_popup_ui = false) {
         max_rows = rowsElement.value;
         font_family = fontFamily.value;
         auto_close = autoClosePopup.value.toLowerCase();
+        /*
+        if (skin_tone_selected !== undefined) skin_tone_previous = skin_tone_selected;
+        else skin_tone_previous = "";
+        */
         skin_tone_previous = skin_tone_selected;
         skin_tone_selected = skin_tones[skinToneElement.selectedIndex];
         switch (emojisSizeElement.value.toLowerCase()) {
@@ -555,6 +606,8 @@ function setTheme() {
     removeThemeClassId("search-bar-input", "-search-bar-input");
     removeThemeClassId("settings-button", "-settings-button");
     removeThemeClassId("settings-section", "-settings");
+    removeThemeClassId("delete-button", "-delete-button");
+    removeThemeClassId("finish-edit-button", "-finish-edit-button");
     removeThemeClassId("theme-selected", "-select");
     removeThemeClassId("columns-selected", "-select");
     removeThemeClassId("rows-selected", "-select");
@@ -569,6 +622,8 @@ function setTheme() {
     document.getElementById("search-bar-input").classList.add(theme + "-search-bar-input");
     document.getElementById("settings-button").classList.add(theme + "-settings-button");
     document.getElementById("settings-section").classList.add(theme + "-settings");
+    document.getElementById("delete-button").classList.add(theme + "-delete-button");
+    document.getElementById("finish-edit-button").classList.add(theme + "-finish-edit-button");
     document.getElementById("theme-selected").classList.add(theme + "-select");
     document.getElementById("columns-selected").classList.add(theme + "-select");
     document.getElementById("rows-selected").classList.add(theme + "-select");
@@ -601,7 +656,7 @@ function setSkinToneEmojis() {
     if (!first_replacement && skin_tone_previous != "") {
         replacement_symbol = skin_tone_previous;
     }
-    //if (skin_tone_selected === undefined) skin_tone_selected = "";
+    if (skin_tone_selected === undefined) skin_tone_selected = "";
     let string = [];
     string[3] = (JSON.stringify(emojis[3])).replaceAll(replacement_symbol, skin_tone_selected);
     string[8] = (JSON.stringify(emojis[8])).replaceAll(replacement_symbol, skin_tone_selected);
@@ -619,3 +674,25 @@ document.getElementById("search-bar-input").onkeyup = function (e) {
 document.getElementById("search-bar-input").focus();
 
 checkReview();
+
+function editMode() {
+    document.getElementById("search-bar-input").style.display = "none";
+    document.getElementById("text-click-on-emoji-to-remove").style.display = "block";
+    document.getElementById("finish-edit-button").style.display = "block";
+    document.getElementById("delete-button").style.display = "none";
+    document.getElementById("search-box").style.right = "128px";
+    if (document.getElementById("search-box").offsetWidth < 370) document.getElementById("text-click-on-emoji-to-remove").style.margin = "-1px";
+    else document.getElementById("text-click-on-emoji-to-remove").style.margin = "5px";
+
+    deleting = true;
+}
+
+function finishEditMode() {
+    document.getElementById("search-bar-input").style.display = "block";
+    document.getElementById("text-click-on-emoji-to-remove").style.display = "none";
+    document.getElementById("finish-edit-button").style.display = "none";
+    document.getElementById("delete-button").style.display = "block";
+    document.getElementById("search-box").style.right = "80px";
+
+    deleting = false;
+}

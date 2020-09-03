@@ -4,11 +4,6 @@
 }
 
 @font-face {
-    font-family: zilla-slab;
-    src: url("../font/zillaslab.otf");
-}
-
-@font-face {
     font-family: open-sans;
     src: url("../font/opensans.ttf");
 }
@@ -85,7 +80,7 @@ body {
     border: 0px;
     border-radius: 3px;
     font-size: 22px;
-    font-family: twemoji, sans-serif;
+    /*font-family: twemoji, sans-serif;*/
     margin: 5px;
     cursor: pointer;
     position: relative;
@@ -96,7 +91,7 @@ body {
 
 .button {
     width: auto;
-    font-family: open-sans, monospace, zilla-slab, sans-serif;
+    font-family: open-sans, monospace, sans-serif;
 }
 
 .emoji:hover,
@@ -198,7 +193,7 @@ div#review-message {
     margin: 0px;
     border: 0px solid transparent;
     font-weight: bold;
-    font-family: zilla-slab, sans-serif;
+    font-family: open-sans, sans-serif;
 }
 
 .font-twemoji {
@@ -218,7 +213,7 @@ div#review-message {
 }
 
 .font-zillaslab {
-    font-family: zilla-slab, sans-serif;
+    font-family: open-sans, sans-serif;
 }
 
 .font-default {
@@ -304,7 +299,7 @@ div#background-opacity-review {
 button.review-button {
     width: auto;
     font-size: 14px;
-    font-family: open-sans, zilla-slab, sans-serif;
+    font-family: open-sans, sans-serif;
     padding: 5px;
     padding-left: 10px;
     padding-right: 10px;
@@ -334,11 +329,20 @@ div#review-message-buttons {
     font: inherit;
     font-size: 14px;
     transition: 0.1s;
-    font-family: zilla-slab, sans-serif;
+    font-family: open-sans, sans-serif;
     background-image: url("../img/search-icon.png");
     background-repeat: no-repeat;
     background-position: 10px center;
     background-size: 12px auto;
+}
+
+#text-click-on-emoji-to-remove {
+    height: 32px;
+    width: 100%;
+    font-family: open-sans, sans-serif;
+    font-size: 16px;
+    display: none;
+    margin: 5px;
 }
 
 #search-bar-input:focus {
@@ -349,11 +353,28 @@ div#review-message-buttons {
 #search-box {
     top: 0px;
     left: 0px;
-    right: 40px;
+    right: 80px;
     position: absolute;
+    transition: 0.2s;
 }
 
-#settings-button {
+.light-settings-button {
+    background-image: url("../img/settings-dark.png");
+}
+
+.dark-settings-button {
+    background-image: url("../img/settings-light.png");
+}
+
+.light-delete-button {
+    background-image: url("../img/delete-dark.png");
+}
+
+.dark-delete-button {
+    background-image: url("../img/delete-light.png");
+}
+
+#settings-button, #delete-button, #hide-settings-button, #finish-edit-button {
     top: 0px;
     right: 0px;
     position: absolute;
@@ -362,11 +383,33 @@ div#review-message-buttons {
     font-size: 16px;
     margin: 0px;
     font-family: inherit;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: auto 16px;
+}
+
+#delete-button {
+    right: 40px;
+    display: block;
+}
+
+#finish-edit-button {
+    right: 40px;
+    display: none;
+    width: 80px;
+
+}
+
+#hide-settings-button {
+    background-image: url("../img/close-dark.png");
+    background-size: auto 12px;
+    top: 5px;
+    right: 5px;
 }
 
 #no_emojis_found,
 #no_most_used_emojis {
-    font-family: zilla-slab, sans-serif;
+    font-family: open-sans, sans-serif;
     text-align: center;
     padding: 50px;
     width: auto;
@@ -385,19 +428,7 @@ div#settings-section {
     font-weight: normal;
     display: none;
     position: absolute;
-    font-family: zilla-slab, sans-serif;
-}
-
-#hide-settings-button {
-    position: absolute;
-    top: 1px;
-    right: 1px;
-    padding: 0px;
-    font-weight: normal;
-    width: 32px;
-    height: 32px;
-    text-align: center;
-    font-family: monospace;
+    font-family: open-sans, sans-serif;
 }
 
 .red-button {
@@ -462,7 +493,7 @@ div {
 .title-subsection-settings {
     font-size: 16px;
     height: 30px;
-    font-family: zilla-slab, sans-serif;
+    font-family: open-sans, sans-serif;
     display: inline-block;
     min-width: 60px;
 }
@@ -470,7 +501,7 @@ div {
 .description-subsection-settings {
     font-size: 14px;
     height: 30px;
-    font-family: zilla-slab, sans-serif;
+    font-family: open-sans, sans-serif;
     display: none;
     color: #0a84ff;
     font-style: italic;
@@ -536,18 +567,21 @@ div {
 .dark,
 .dark-button-emoji,
 .dark-settings-button,
+.dark-delete-button,
 .dark-settings {
     background-color: rgb(30, 30, 30);
     color: #EEEEEE;
 }
 
 .light-save-data-settings-button,
-.light-reset-data-settings-button {
+.light-reset-data-settings-button,
+.light-finish-edit-button {
     background-color: #F5F5F5;
 }
 
 .dark-save-data-settings-button,
-.dark-reset-data-settings-button {
+.dark-reset-data-settings-button,
+.dark-finish-edit-button {
     background-color: rgb(70, 70, 70);
     color: #EEEEEE;
 }
@@ -575,6 +609,8 @@ div {
 .dark-section-title:hover,
 .dark-button-emoji:hover,
 .dark-settings-button:hover,
+.dark-delete-button:hover,
+.dark-finish-edit-button:hover,
 .dark-save-data-settings-button:hover,
 .dark-reset-data-settings-button:hover {
     background-color: rgb(50, 50, 50);
