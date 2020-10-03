@@ -397,7 +397,6 @@ div#review-message-buttons {
     right: 40px;
     display: none;
     width: 80px;
-
 }
 
 #hide-settings-button {
@@ -429,6 +428,7 @@ div#settings-section {
     display: none;
     position: absolute;
     font-family: open-sans, sans-serif;
+    overflow: auto;
 }
 
 .red-button {
@@ -441,6 +441,7 @@ div#settings-section {
 
 #settings-title {
     padding: 0px;
+    padding-left: 10px;
     margin: 0px;
     font-size: 25px;
     font-weight: normal;
@@ -450,11 +451,7 @@ div#settings-section {
 
 #settings-section-content {
     overflow: auto;
-    position: absolute;
-    top: 50px;
-    bottom: 0px;
-    right: 0px;
-    left: 0px;
+    position: relative;
     padding: 10px;
     box-sizing: border-box;
     height: auto;
@@ -566,8 +563,6 @@ div {
 
 .dark,
 .dark-button-emoji,
-.dark-settings-button,
-.dark-delete-button,
 .dark-settings {
     background-color: rgb(30, 30, 30);
     color: #EEEEEE;
@@ -575,12 +570,16 @@ div {
 
 .light-save-data-settings-button,
 .light-reset-data-settings-button,
+.light-settings-button,
+.light-delete-button,
 .light-finish-edit-button {
     background-color: #F5F5F5;
 }
 
 .dark-save-data-settings-button,
 .dark-reset-data-settings-button,
+.dark-settings-button,
+.dark-delete-button,
 .dark-finish-edit-button {
     background-color: rgb(70, 70, 70);
     color: #EEEEEE;
