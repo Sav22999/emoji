@@ -18,6 +18,11 @@
     src: url("../font/openmojicolor.ttf");
 }
 
+@font-face {
+    font-family: openmoji-black;
+    src: url("../font/openmojiblack.ttf");
+}
+
 * {
     scrollbar-color: rgb(10, 132, 255) rgba(150, 150, 150, 0);
     scrollbar-width: thin;
@@ -202,6 +207,10 @@ div#review-message {
 
 .font-openmojicolor {
     font-family: openmoji-color, sans-serif;
+}
+
+.font-openmojiblack {
+    font-family: openmoji-black, sans-serif;
 }
 
 .font-notocoloremoji {

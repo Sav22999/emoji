@@ -20,7 +20,7 @@ var mostUsedEmojis = [];
 var browserOrChromeIndex = 0; //TODO: change manually: {0: Firefox, 1: Microsoft Edge}
 
 var browserAgentSettings = "";
-var font_family = ""; //twemoji (Twitter), notocoloremoji (Google), openmojicolor (OpenMoji)
+var font_family = ""; //twemoji (Twitter), notocoloremoji (Google), openmojicolor (OpenMoji), openmojiblack, default
 
 const linkReview = ["https://addons.mozilla.org/firefox/addon/emoji-sav/", "https://microsoftedge.microsoft.com/addons/detail/emoji/ejcgfbaipbelddlbokgcfajefbnnagfm"];
 const fontFamily = ["twemoji", "notocoloremoji"];
@@ -597,16 +597,19 @@ function setFontFamily() {
     document.getElementById("emojis").classList.remove("font-twemoji");
     document.getElementById("emojis").classList.remove("font-notocoloremoji");
     document.getElementById("emojis").classList.remove("font-openmojicolor");
+    document.getElementById("emojis").classList.remove("font-openmojiblack");
     document.getElementById("emojis").classList.remove("font-default");
 
     document.getElementById("titles").classList.remove("font-twemoji");
     document.getElementById("titles").classList.remove("font-notocoloremoji");
     document.getElementById("titles").classList.remove("font-openmojicolor");
+    document.getElementById("titles").classList.remove("font-openmojiblack");
     document.getElementById("titles").classList.remove("font-default");
 
     document.getElementById("top-section").classList.remove("font-twemoji");
     document.getElementById("top-section").classList.remove("font-notocoloremoji");
     document.getElementById("top-section").classList.remove("font-openmojicolor");
+    document.getElementById("top-section").classList.remove("font-openmojiblack");
     document.getElementById("top-section").classList.remove("font-default");
 
     document.getElementById("emojis").classList.add("font-" + font_family);
