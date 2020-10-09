@@ -292,7 +292,20 @@ function setPopUpUI() {
         }
     }
 
+    document.getElementById("font-family-selected").onchange = function () {
+        checkFontFamily();
+    }
+    checkFontFamily();
+
     setSkinToneEmojis();
+}
+
+function checkFontFamily() {
+    if (document.getElementById("font-family-selected").selectedIndex != 0) {
+        document.getElementById("alert-font-pop-up").style.display = "inline-block";
+    } else {
+        document.getElementById("alert-font-pop-up").style.display = "none";
+    }
 }
 
 function showReviewAddonMessage() {
@@ -541,6 +554,7 @@ function setVariablesFromSettings(resize_popup_ui = false) {
         max_columns = columnsElement.value;
         max_rows = rowsElement.value;
         font_family = fontFamily.value;
+
         auto_close = autoClosePopup.value.toLowerCase();
         /*
         if (skin_tone_selected !== undefined) skin_tone_previous = skin_tone_selected;
