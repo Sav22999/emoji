@@ -545,6 +545,11 @@ div {
     background-position: 120px center;
 }
 
+.select-extra-big {
+    width: 250px;
+    background-position: 220px center;
+}
+
 /*Dark and light themes*/
 
 .light-settings {
