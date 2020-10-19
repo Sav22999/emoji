@@ -496,6 +496,11 @@ div {
     font-family: open-sans, sans-serif;
 }
 
+.subsection-settings {
+    position: relative;
+    color: inherit;
+}
+
 .title-subsection-settings {
     font-size: 16px;
     height: 30px;
@@ -512,6 +517,7 @@ div {
     color: #0a84ff;
     font-style: italic;
     font-weight: bold;
+    position: relative;
 }
 
 #subsection-settings-bottom {
@@ -641,4 +647,101 @@ div {
 
 .dark-subsection-settings {
     border-bottom: 1px solid #555555;
+}
+
+#skin-tone-container, #auto-close-container {
+    position: relative;
+    height: 30px;
+    display: inline-block;
+    top: 0px;
+    margin-left: 10px;
+}
+
+#auto-close-container {
+    width: 100px;
+}
+
+.skin-tone-button {
+    border: 0px solid transparent;
+    background: transparent;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    opacity: .8;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.skin-tone-button:hover {
+    opacity: 1;
+}
+
+.skin-tone-button-selected {
+    border: 2px solid #3399ff;
+}
+
+#skin-standard {
+    background-color: #ffDD00;
+}
+
+#skin-light {
+    background-color: #FFDAE6;
+}
+
+#skin-mlight {
+    background-color: #d4adad;
+}
+
+#skin-medium {
+    background-color: #966a6a;
+}
+
+#skin-mdark {
+    background-color: #603a3a;
+}
+
+#skin-dark {
+    background-color: #372323;
+}
+
+#skin-tone-container {
+    position: absolute;
+    height: 30px;
+    display: inline-block;
+    top: 0px;
+    margin-left: 10px;
+}
+
+.auto-close-button {
+    border: 2px solid #3399ff;
+    background: transparent;
+    width: 50px;
+    height: 30px;
+    display: inline-block;
+    opacity: 1;
+    cursor: pointer;
+    color: inherit;
+    text-align: center;
+}
+
+.auto-close-button-selected {
+    background-color: #3399ff;
+    color: #FFFFFF;
+}
+
+.auto-close-button-left {
+    border-radius: 0px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.auto-close-button-right {
+    border-radius: 0px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    margin-left: -5px;
+}
+
+.hidden {
+    display: none;
 }

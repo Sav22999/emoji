@@ -59,14 +59,18 @@ Created by Saverio Morelli - saveriomorelli.com
             </div>
             <div class="subsection-settings">
                 <span class="title-subsection-settings">Close the pop-up after emoji is copied</span>
-                <select class="select select-small" id="close-popup-after-copied-selected">
+                <select class="select select-small hidden" id="close-popup-after-copied-selected">
                     <option>Yes</option>
                     <option>No</option>
                 </select>
+                <div id="auto-close-container">
+                    <button class="auto-close-button auto-close-button-left" id="auto-close-yes">Yes</button>
+                    <button class="auto-close-button auto-close-button-right" id="auto-close-no">No</button>
+                </div>
             </div>
             <div class="subsection-settings">
                 <span class="title-subsection-settings">Skin tone</span>
-                <select class="select select-big" id="skin-tone-selected">
+                <select class="select select-big hidden" id="skin-tone-selected">
                     <option value="nothing">Standard</option>
                     <option value="light">Light</option>
                     <option value="medium-light">Medium-Light</option>
@@ -74,6 +78,14 @@ Created by Saverio Morelli - saveriomorelli.com
                     <option value="medium-dark">Medium-Dark</option>
                     <option value="dark">Dark</option>
                 </select>
+                <div id="skin-tone-container">
+                    <button class="skin-tone-button" id="skin-standard"></button>
+                    <button class="skin-tone-button" id="skin-light"></button>
+                    <button class="skin-tone-button" id="skin-mlight"></button>
+                    <button class="skin-tone-button" id="skin-medium"></button>
+                    <button class="skin-tone-button" id="skin-mdark"></button>
+                    <button class="skin-tone-button" id="skin-dark"></button>
+                </div>
                 <span class="description-subsection-settings" id="restart-pop-up">You need to restart the pop-up</span>
             </div>
             <div class="subsection-settings">
