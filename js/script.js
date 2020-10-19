@@ -20,7 +20,7 @@ var mostUsedEmojis = [];
 var browserOrChromeIndex = 0; //TODO: change manually: {0: Firefox, 1: Microsoft Edge}
 
 var browserAgentSettings = "";
-var font_family = ""; //twemoji (Twitter), notocoloremoji (Google), openmojicolor (OpenMoji)
+var font_family = ""; //twemoji (Twitter), notocoloremoji (Google), openmojicolor (OpenMoji), openmojiblack, default
 
 const linkReview = ["https://addons.mozilla.org/firefox/addon/emoji-sav/", "https://microsoftedge.microsoft.com/addons/detail/emoji/ejcgfbaipbelddlbokgcfajefbnnagfm"];
 const fontFamily = ["twemoji", "notocoloremoji"];
@@ -285,17 +285,53 @@ function setPopUpUI() {
     }
 
     document.getElementById("skin-tone-selected").onchange = function () {
-        if (skin_tone_selected == "" && skin_tones[document.getElementById("skin-tone-selected").selectedIndex] != skin_tone_selected) {
-            document.getElementById("restart-pop-up").style.display = "inline-block";
-        } else {
-            document.getElementById("restart-pop-up").style.display = "none";
-        }
+        selectSkinToneButton(document.getElementById("skin-tone-selected").selectedIndex);
     }
+    selectSkinToneButton(document.getElementById("skin-tone-selected").selectedIndex);
 
     document.getElementById("font-family-selected").onchange = function () {
         checkFontFamily();
     }
     checkFontFamily();
+
+    document.getElementById("close-popup-after-copied-selected").onchange = function () {
+        selectYesNoAutoClose(document.getElementById("close-popup-after-copied-selected").selectedIndex);
+    }
+    selectYesNoAutoClose(document.getElementById("close-popup-after-copied-selected").selectedIndex);
+
+    document.getElementById("skin-standard").onclick = function () {
+        document.getElementById("skin-tone-selected").selectedIndex = 0;
+        selectSkinToneButton(0);
+    }
+    document.getElementById("skin-light").onclick = function () {
+        document.getElementById("skin-tone-selected").selectedIndex = 1;
+        selectSkinToneButton(1);
+    }
+    document.getElementById("skin-mlight").onclick = function () {
+        document.getElementById("skin-tone-selected").selectedIndex = 2;
+        selectSkinToneButton(2);
+    }
+    document.getElementById("skin-medium").onclick = function () {
+        document.getElementById("skin-tone-selected").selectedIndex = 3;
+        selectSkinToneButton(3);
+    }
+    document.getElementById("skin-mdark").onclick = function () {
+        document.getElementById("skin-tone-selected").selectedIndex = 4;
+        selectSkinToneButton(4);
+    }
+    document.getElementById("skin-dark").onclick = function () {
+        document.getElementById("skin-tone-selected").selectedIndex = 5;
+        selectSkinToneButton(5);
+    }
+
+    document.getElementById("auto-close-yes").onclick = function () {
+        document.getElementById("close-popup-after-copied-selected").selectedIndex = 0;
+        selectYesNoAutoClose(0);
+    }
+    document.getElementById("auto-close-no").onclick = function () {
+        document.getElementById("close-popup-after-copied-selected").selectedIndex = 1;
+        selectYesNoAutoClose(1);
+    }
 
     setSkinToneEmojis();
 }
@@ -597,16 +633,19 @@ function setFontFamily() {
     document.getElementById("emojis").classList.remove("font-twemoji");
     document.getElementById("emojis").classList.remove("font-notocoloremoji");
     document.getElementById("emojis").classList.remove("font-openmojicolor");
+    document.getElementById("emojis").classList.remove("font-openmojiblack");
     document.getElementById("emojis").classList.remove("font-default");
 
     document.getElementById("titles").classList.remove("font-twemoji");
     document.getElementById("titles").classList.remove("font-notocoloremoji");
     document.getElementById("titles").classList.remove("font-openmojicolor");
+    document.getElementById("titles").classList.remove("font-openmojiblack");
     document.getElementById("titles").classList.remove("font-default");
 
     document.getElementById("top-section").classList.remove("font-twemoji");
     document.getElementById("top-section").classList.remove("font-notocoloremoji");
     document.getElementById("top-section").classList.remove("font-openmojicolor");
+    document.getElementById("top-section").classList.remove("font-openmojiblack");
     document.getElementById("top-section").classList.remove("font-default");
 
     document.getElementById("emojis").classList.add("font-" + font_family);
@@ -709,4 +748,28 @@ function finishEditMode() {
     document.getElementById("search-box").style.right = "80px";
 
     deleting = false;
+}
+
+function selectSkinToneButton(index) {
+    document.getElementsByClassName("skin-tone-button")[0].classList.remove("skin-tone-button-selected"); //standard
+    document.getElementsByClassName("skin-tone-button")[1].classList.remove("skin-tone-button-selected"); //light
+    document.getElementsByClassName("skin-tone-button")[2].classList.remove("skin-tone-button-selected"); //medium-light
+    document.getElementsByClassName("skin-tone-button")[3].classList.remove("skin-tone-button-selected"); //medium
+    document.getElementsByClassName("skin-tone-button")[4].classList.remove("skin-tone-button-selected"); //medium-dark
+    document.getElementsByClassName("skin-tone-button")[5].classList.remove("skin-tone-button-selected"); //dark
+
+    if (skin_tone_selected == "" && skin_tones[document.getElementById("skin-tone-selected").selectedIndex] != skin_tone_selected) {
+        document.getElementById("restart-pop-up").style.display = "block";
+    } else {
+        document.getElementById("restart-pop-up").style.display = "none";
+    }
+
+    document.getElementsByClassName("skin-tone-button")[index].classList.add("skin-tone-button-selected");
+}
+
+function selectYesNoAutoClose(index) {
+    document.getElementsByClassName("auto-close-button")[0].classList.remove("auto-close-button-selected"); //yes
+    document.getElementsByClassName("auto-close-button")[1].classList.remove("auto-close-button-selected"); //no
+
+    document.getElementsByClassName("auto-close-button")[index].classList.add("auto-close-button-selected");
 }
