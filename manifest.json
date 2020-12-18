@@ -9,27 +9,6 @@
     "48": "./img/icon-dark-48.png",
     "96": "./img/icon-dark-96.png"
   },
-  "commands": {
-    "_execute_browser_action": {
-      "suggested_key": {
-        "windows": "Ctrl+Alt+A",
-        "mac": "Command+Alt+A",
-        "linux": "Ctrl+Alt+A",
-        "default": "Ctrl+Alt+A"
-      }
-    }
-  },
-  "browser_specific_settings": {
-    "gecko": {
-      "id": "emoji@saveriomorelli.com",
-      "strict_min_version": "42.0"
-    }
-  },
-  "applications": {
-    "gecko": {
-      "id": "emoji@saveriomorelli.com"
-    }
-  },
   "browser_action": {
     "browser_style": true,
     "default_icon": {

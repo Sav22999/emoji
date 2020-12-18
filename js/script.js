@@ -33,7 +33,7 @@ const skin_tones = ["", "🏻", "🏼", "🏽", "🏾", "🏿"]; //standard(yell
 
 var mostUsedEmojis = [];
 
-var browserOrChromeIndex = 0; //TODO: change manually: {0: Firefox, 1: Microsoft Edge, 2: Chrome Web Store}
+var browserOrChromeIndex = 1; //TODO: change manually: {0: Firefox, 1: Microsoft Edge, 2: Chrome Web Store}
 
 var browserAgentSettings = "";
 var font_family = ""; //twemoji (Twitter), notocoloremoji (Google), openmojicolor (OpenMoji), openmojiblack, default
@@ -166,7 +166,7 @@ function getMostUsedEmojisLength(titleToSet) {
 }
 
 function addToMostUsed(emoji, tooltip) {
-    let emojiToAdd = {"emoji": emoji, "occurrences": 1, "tooltip": tooltip};
+    let emojiToAdd = { "emoji": emoji, "occurrences": 1, "tooltip": tooltip };
     let indexToUse = -1; // -1: not in the JSON
     for (let tempIndex = 0; tempIndex < mostUsedEmojis.length && indexToUse == -1; tempIndex++) {
         if (mostUsedEmojis[tempIndex].emoji == emoji) {
@@ -193,7 +193,7 @@ function addToMostUsed(emoji, tooltip) {
         let removed = mostUsedEmojis.splice(max_value, (mostUsedEmojis.length - max_value));
     }
     sortMostUsedEmojis();
-    browserAgentSettings.storage.sync.set({"mostUsed": mostUsedEmojis}, function () {
+    browserAgentSettings.storage.sync.set({ "mostUsed": mostUsedEmojis }, function () {
     });
     autoCloseAfterCopied();
 }
@@ -210,7 +210,7 @@ function removeFromMostUsed(emoji) {
         mostUsedEmojis.splice(indexToUse, 1);
     }
     sortMostUsedEmojis();
-    browserAgentSettings.storage.sync.set({"mostUsed": mostUsedEmojis}, function () {
+    browserAgentSettings.storage.sync.set({ "mostUsed": mostUsedEmojis }, function () {
     });
 }
 
@@ -534,12 +534,12 @@ function setPopUpUI() {
 
     document.getElementById("donate-paypal-settings").onclick = function () {
         let url_to_use = linkDonate[0];
-        browserAgentSettings.tabs.create({url: url_to_use});
+        browserAgentSettings.tabs.create({ url: url_to_use });
         window.close();
     };
     document.getElementById("donate-kofi-settings").onclick = function () {
         let url_to_use = linkDonate[1];
-        browserAgentSettings.tabs.create({url: url_to_use});
+        browserAgentSettings.tabs.create({ url: url_to_use });
         window.close();
     };
     document.getElementById("donate-liberapay-settings").onclick = function () {
@@ -564,7 +564,7 @@ function setPopUpUI() {
 
     document.getElementById("need-help-settings").onclick = function () {
         let url_to_use = linkNeedHelp[0];
-        browserAgentSettings.tabs.create({url: url_to_use});
+        browserAgentSettings.tabs.create({ url: url_to_use });
         window.close();
     };
 
@@ -750,7 +750,7 @@ function showReviewAddonMessage() {
     button_review_now_element.onclick = function () {
         setReviewed(-1);
         let url_review_addons = linkReview[browserOrChromeIndex];
-        browserAgentSettings.tabs.create({url: url_review_addons});
+        browserAgentSettings.tabs.create({ url: url_review_addons });
         window.close();
     };
     button_review_now_element.className = "review-button";
@@ -797,7 +797,7 @@ function showOpenedAddonMessage(numberOpened) {
 
     let button_donate_element = document.createElement("button");
     button_donate_element.onclick = function () {
-        browserAgentSettings.tabs.create({url: linkDonate[0]});
+        browserAgentSettings.tabs.create({ url: linkDonate[0] });
         window.close();
     };
     button_donate_element.className = "message-button";
@@ -886,7 +886,7 @@ function showElement(id_to_use) {
 }
 
 function setReviewed(value) {
-    browserAgentSettings.storage.sync.set({"review-addon": value}, function () {
+    browserAgentSettings.storage.sync.set({ "review-addon": value }, function () {
     });
     if (value == -1) {
         hideReviewMessage();
@@ -912,7 +912,7 @@ function hideReviewMessage() {
 
 function incrementOpenedAddon(value) {
     value += 1;
-    browserAgentSettings.storage.sync.set({"opened-addon": value}, function () {
+    browserAgentSettings.storage.sync.set({ "opened-addon": value }, function () {
     });
 }
 
@@ -1092,7 +1092,7 @@ function saveSettings(reset = false) {
             "language": getLanguageCode(browserAgentSettings.i18n.getUILanguage().toString()),
         };
     }
-    browserAgentSettings.storage.sync.set({"settings": jsonSettings}, function () {
+    browserAgentSettings.storage.sync.set({ "settings": jsonSettings }, function () {
     });
 
     //hideElement("settings-section");
@@ -1407,7 +1407,7 @@ function showNewsInRelease(forced = false) {
 }
 
 function updateLastRelease(release) {
-    browserAgentSettings.storage.sync.set({"release_notes": release}, function () {
+    browserAgentSettings.storage.sync.set({ "release_notes": release }, function () {
     });
 }
 
