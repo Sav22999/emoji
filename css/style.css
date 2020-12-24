@@ -180,7 +180,7 @@ body {
     background-color: rgb(201, 202, 203);
 }
 
-b.character-copied,
+.character-copied,
 div#review-message {
     position: fixed;
     bottom: 3px;
@@ -649,7 +649,7 @@ div {
     border-bottom: 1px solid #555555;
 }
 
-#skin-tone-container, #auto-close-container {
+#skin-tone-container, #auto-close-container, #multi-copy-container, #theme-container {
     position: relative;
     height: 30px;
     display: inline-block;
@@ -657,8 +657,9 @@ div {
     margin-left: 10px;
 }
 
-#auto-close-container {
-    width: 100px;
+#auto-close-container, #multi-copy-container, #theme-container {
+    min-width: 100px;
+    width: auto;
 }
 
 .skin-tone-button {
@@ -712,10 +713,11 @@ div {
     margin-left: 10px;
 }
 
-.auto-close-button {
+.button-yes-no {
     border: 2px solid #3399ff;
     background: transparent;
-    width: 50px;
+    min-width: 50px;
+    width: auto;
     height: 30px;
     display: inline-block;
     opacity: 1;
@@ -724,18 +726,18 @@ div {
     text-align: center;
 }
 
-.auto-close-button-selected {
+.button-yes-no-selected {
     background-color: #3399ff;
     color: #FFFFFF;
 }
 
-.auto-close-button-left {
+.button-yes {
     border-radius: 0px;
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
 }
 
-.auto-close-button-right {
+.button-no {
     border-radius: 0px;
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
