@@ -18,19 +18,19 @@ var skin_tones = ["", "🏻", "🏼", "🏽", "🏾", "🏿"]; //standard(yellow
 
 var mostUsedEmojis = [];
 
-var browserOrChromeIndex = 0; //TODO: change manually: {0: Firefox, 1: Microsoft Edge}
+var browserOrChromeIndex = 1; //TODO: change manually: {0: Firefox, 1: Microsoft Edge, 2: Chrome Web Store}
 
 var browserAgentSettings = "";
 var font_family = ""; //twemoji (Twitter), notocoloremoji (Google), openmojicolor (OpenMoji), openmojiblack, default
 
-const linkReview = ["https://addons.mozilla.org/firefox/addon/emoji-sav/", "https://microsoftedge.microsoft.com/addons/detail/emoji/ejcgfbaipbelddlbokgcfajefbnnagfm"];
-const fontFamily = ["twemoji", "notocoloremoji"];
+const linkReview = ["https://addons.mozilla.org/firefox/addon/emoji-sav/", "https://microsoftedge.microsoft.com/addons/detail/emoji/ejcgfbaipbelddlbokgcfajefbnnagfm", "https://chrome.google.com/webstore/detail/emoji/kjepehkgbooeigeflhiogplnckadlife?hl=it&authuser=0"];
+const fontFamily = ["twemoji", "notocoloremoji", "notocoloremoji"];
 
 font_family = fontFamily[browserOrChromeIndex];
 
 if (browserOrChromeIndex == 0) {
     browserAgentSettings = browser;
-} else if (browserOrChromeIndex == 1) {
+} else if (browserOrChromeIndex == 1 || browserOrChromeIndex == 2) {
     browserAgentSettings = chrome;
 }
 
