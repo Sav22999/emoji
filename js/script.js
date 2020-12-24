@@ -8,6 +8,7 @@ var size_emojis = 40; //30, 35, 40, 50, 60
 var auto_close = "no"; //yes, no
 var skin_tone_selected = ""; //nothing
 var skin_tone_previous = "";
+var multi_copy = "no";
 
 var deleting = false;
 
@@ -33,6 +34,8 @@ if (browserOrChromeIndex == 0) {
     browserAgentSettings = chrome;
 }
 
+var copyText = "";
+
 setVariablesFromSettings(true);
 generateTitles();
 
@@ -40,12 +43,18 @@ function copyEmoji(text) {
     let nameOfSetting = "mostUsed";
     if (!deleting) {
         document.getElementById("text-to-copy").style.display = "block";
-        document.getElementById("text-to-copy").value = text;
-        var copyText = document.getElementById("text-to-copy");
-        copyText.select();
+        let copyEmojiTemp = text;
+        if (multi_copy == "no") {
+            copyText = copyEmojiTemp;
+        } else {
+            copyText = copyText + copyEmojiTemp;
+        }
+        document.getElementById("text-to-copy").value = copyText;
+        var copyTextTemp = document.getElementById("text-to-copy")
+        copyTextTemp.select();
         document.execCommand("copy");
         document.getElementById("text-to-copy").style.display = "none";
-        showMessageBottom();
+        showMessageBottom("copied ✔", copyText);
 
         browserAgentSettings.storage.sync.get(nameOfSetting, function (value) {
             if (value[nameOfSetting] != undefined) {
@@ -57,7 +66,7 @@ function copyEmoji(text) {
         })
     } else {
         removeFromMostUsed(text);
-        showMessageBottom("Emoji removed correctly");
+        showMessageBottom("removed correctly", text);
 
         browserAgentSettings.storage.sync.get(nameOfSetting, function (value) {
             if (value[nameOfSetting] != undefined) {
@@ -223,7 +232,7 @@ function generateEmojis(title) {
             document.getElementById("emojis").innerHTML += "<input type=\"button\" class=\"emoji " + theme + "-button-emoji size-emoji-button-" + size_emojis + "\" value=\"" + mostUsedEmojis[i].emoji + "\" />";
         }
         if (n_emojis == 0) {
-            document.getElementById("emojis").innerHTML = "<div id='no_most_used_emojis'><span class='font-twemoji margin-right-10 font-size-25'>😬</span> No most used emojis</div>";
+            document.getElementById("emojis").innerHTML = "<div id='no_most_used_emojis'><span class='font-" + font_family + " margin-right-10 font-size-25'>😬</span> No most used emojis</div>";
         }
     } else {
         n_emojis = Object.keys(emojis[title]).length;
@@ -296,8 +305,26 @@ function setPopUpUI() {
 
     document.getElementById("close-popup-after-copied-selected").onchange = function () {
         selectYesNoAutoClose(document.getElementById("close-popup-after-copied-selected").selectedIndex);
+        if (document.getElementById("close-popup-after-copied-selected").selectedIndex) {
+            document.getElementById("multi-copy-selected").selectedIndex = 1;
+            selectYesNoMultiCopy(1);
+        }
     }
     selectYesNoAutoClose(document.getElementById("close-popup-after-copied-selected").selectedIndex);
+
+    document.getElementById("multi-copy-selected").onchange = function () {
+        selectYesNoMultiCopy(document.getElementById("multi-copy-selected").selectedIndex);
+        if (document.getElementById("multi-copy-selected").selectedIndex == 0) {
+            document.getElementById("close-popup-after-copied-selected").selectedIndex = 1;
+            selectYesNoAutoClose(1);
+        }
+    }
+    selectYesNoMultiCopy(document.getElementById("multi-copy-selected").selectedIndex);
+
+    document.getElementById("theme-selected").onchange = function () {
+        selectYesNoTheme(document.getElementById("theme-selected").selectedIndex);
+    }
+    selectYesNoTheme(document.getElementById("theme-selected").selectedIndex);
 
     document.getElementById("skin-standard").onclick = function () {
         document.getElementById("skin-tone-selected").selectedIndex = 0;
@@ -327,10 +354,34 @@ function setPopUpUI() {
     document.getElementById("auto-close-yes").onclick = function () {
         document.getElementById("close-popup-after-copied-selected").selectedIndex = 0;
         selectYesNoAutoClose(0);
+
+        document.getElementById("multi-copy-selected").selectedIndex = 1;
+        selectYesNoMultiCopy(1);
     }
     document.getElementById("auto-close-no").onclick = function () {
         document.getElementById("close-popup-after-copied-selected").selectedIndex = 1;
         selectYesNoAutoClose(1);
+    }
+
+    document.getElementById("multi-copy-yes").onclick = function () {
+        document.getElementById("multi-copy-selected").selectedIndex = 0;
+        selectYesNoMultiCopy(0);
+
+        document.getElementById("close-popup-after-copied-selected").selectedIndex = 1;
+        selectYesNoAutoClose(1);
+    }
+    document.getElementById("multi-copy-no").onclick = function () {
+        document.getElementById("multi-copy-selected").selectedIndex = 1;
+        selectYesNoMultiCopy(1);
+    }
+
+    document.getElementById("theme-light").onclick = function () {
+        document.getElementById("theme-selected").selectedIndex = 0;
+        selectYesNoTheme(0);
+    }
+    document.getElementById("theme-dark").onclick = function () {
+        document.getElementById("theme-selected").selectedIndex = 1;
+        selectYesNoTheme(1);
     }
 
     setSkinToneEmojis();
@@ -348,7 +399,7 @@ function showReviewAddonMessage() {
     let message_element = document.createElement("div");
     message_element.id = "review-message";
     message_element.innerHTML = "" +
-        "<span class='font-twemoji font-size-22 margin-right-5'>🖋</span>️ If you like this addon, please review it on Firefox Add-ons." +
+        "<span class='font-" + font_family + " font-size-22 margin-right-5'>🖋</span>️ If you like this addon, please review it on Firefox Add-ons." +
         "<br><div id='review-message-buttons'></div>";
     document.getElementById("popup-content").append(message_element);
 
@@ -392,14 +443,18 @@ function showReviewAddonMessage() {
     button_review_now_element.focus();
 }
 
-function showMessageBottom(text = "Copied ✔") {
+function showMessageBottom(text = "Copied ✔", emoji_text = null) {
     let index_to_use = char_copied_n;
     char_copied_n++;
-    let new_b_element = document.createElement("b");
-    new_b_element.className = "character-copied";
-    new_b_element.id = "character-copied-" + index_to_use;
-    new_b_element.innerHTML = text;
-    document.getElementById("popup-content").append(new_b_element);
+    let text_message_to_show = document.createElement("div");
+    text_message_to_show.className = "character-copied";
+    text_message_to_show.id = "character-copied-" + index_to_use;
+    if (emoji_text != null) {
+        text_message_to_show.innerHTML = "<span class='font-" + font_family + " margin-right-10'>" + emoji_text + "</span>" + text;
+    } else {
+        text_message_to_show.innerHTML = text;
+    }
+    document.getElementById("popup-content").append(text_message_to_show);
     setTimeout(function () {
         hideElement("character-copied-" + index_to_use);
     }, 1500);
@@ -539,6 +594,7 @@ function saveSettings(reset = false) {
     let fontFamily = document.getElementById("font-family-selected").selectedIndex;
     let autoClosePopup = document.getElementById("close-popup-after-copied-selected").selectedIndex;
     let skinTone = document.getElementById("skin-tone-selected").selectedIndex;
+    let multiCopy = document.getElementById("multi-copy-selected").selectedIndex;
 
     let jsonSettings = {
         "theme": theme,
@@ -548,9 +604,19 @@ function saveSettings(reset = false) {
         "font": fontFamily,
         "auto_close": autoClosePopup,
         "skin_tone": skinTone,
+        "multi_copy": multiCopy
     };
     if (reset) {
-        jsonSettings = {"theme": 0, "columns": 2, "rows": 2, "size": 2, "font": 0, "auto_close": 1, "skin_tone": 0};
+        jsonSettings = {
+            "theme": 0,
+            "columns": 2,
+            "rows": 2,
+            "size": 2,
+            "font": 0,
+            "auto_close": 1,
+            "skin_tone": 0,
+            "multi_copy": 1
+        };
     }
     browserAgentSettings.storage.sync.set({"settings": jsonSettings}, function () {
     });
@@ -565,10 +631,20 @@ function setVariablesFromSettings(resize_popup_ui = false) {
     let rowsElement = document.getElementById("rows-selected");
     let emojisSizeElement = document.getElementById("emojis-size-selected");
     let fontFamily = document.getElementById("font-family-selected");
-    let autoClosePopup = document.getElementById("close-popup-after-copied-selected");
+    let autoClosePopupElement = document.getElementById("close-popup-after-copied-selected");
     let skinToneElement = document.getElementById("skin-tone-selected");
+    let multiCopyElement = document.getElementById("multi-copy-selected");
 
-    let jsonSettings = {"theme": 0, "columns": 2, "rows": 2, "size": 2, "font": 0, "auto_close": 1, "skin_tone": 0};
+    let jsonSettings = {
+        "theme": 0,
+        "columns": 2,
+        "rows": 2,
+        "size": 2,
+        "font": 0,
+        "auto_close": 1,
+        "skin_tone": 0,
+        "multi_copy": 1
+    };
 
     let nameOfSetting = "settings";
     browserAgentSettings.storage.sync.get(nameOfSetting, function (value) {
@@ -582,20 +658,21 @@ function setVariablesFromSettings(resize_popup_ui = false) {
         rowsElement.selectedIndex = jsonSettings.rows;
         emojisSizeElement.selectedIndex = jsonSettings.size;
         fontFamily.selectedIndex = jsonSettings.font;
-        autoClosePopup.selectedIndex = jsonSettings.auto_close;
+        autoClosePopupElement.selectedIndex = jsonSettings.auto_close;
         skinToneElement.selectedIndex = jsonSettings.skin_tone;
-
+        multiCopyElement.selectedIndex = jsonSettings.multi_copy;
 
         theme = themeElement.value.toLowerCase();
         max_columns = columnsElement.value;
         max_rows = rowsElement.value;
         font_family = fontFamily.value;
 
-        auto_close = autoClosePopup.value.toLowerCase();
+        auto_close = autoClosePopupElement.value.toLowerCase();
         /*
         if (skin_tone_selected !== undefined) skin_tone_previous = skin_tone_selected;
         else skin_tone_previous = "";
         */
+        multi_copy = multiCopyElement.value.toLowerCase();
         skin_tone_previous = skin_tone_selected;
         skin_tone_selected = skin_tones[skinToneElement.selectedIndex];
         switch (emojisSizeElement.value.toLowerCase()) {
@@ -668,6 +745,7 @@ function setTheme() {
     removeThemeClassId("save-data-settings", "-save-data-settings-button");
     removeThemeClassId("reset-data-settings", "-reset-data-settings-button");
     removeThemeClassId("close-popup-after-copied-selected", "-select");
+    removeThemeClassId("multi-copy-selected", "-select");
     removeThemeClassId("skin-tone-selected", "-select");
     removeThemeClassId("font-family-selected", "-select");
 
@@ -682,6 +760,7 @@ function setTheme() {
     document.getElementById("rows-selected").classList.add(theme + "-select");
     document.getElementById("emojis-size-selected").classList.add(theme + "-select");
     document.getElementById("close-popup-after-copied-selected").classList.add(theme + "-select");
+    document.getElementById("multi-copy-selected").classList.add(theme + "-select");
     document.getElementById("skin-tone-selected").classList.add(theme + "-select");
     document.getElementById("font-family-selected").classList.add(theme + "-select");
 
@@ -768,8 +847,20 @@ function selectSkinToneButton(index) {
 }
 
 function selectYesNoAutoClose(index) {
-    document.getElementsByClassName("auto-close-button")[0].classList.remove("auto-close-button-selected"); //yes
-    document.getElementsByClassName("auto-close-button")[1].classList.remove("auto-close-button-selected"); //no
+    selectYesNoButton("auto-close-button", index)
+}
 
-    document.getElementsByClassName("auto-close-button")[index].classList.add("auto-close-button-selected");
+function selectYesNoMultiCopy(index) {
+    selectYesNoButton("multi-copy-button", index)
+}
+
+function selectYesNoTheme(index) {
+    selectYesNoButton("theme-button", index)
+}
+
+function selectYesNoButton(class_name, index) {
+    document.getElementsByClassName(class_name)[0].classList.remove("button-yes-no-selected"); //yes
+    document.getElementsByClassName(class_name)[1].classList.remove("button-yes-no-selected"); //no
+
+    document.getElementsByClassName(class_name)[index].classList.add("button-yes-no-selected");
 }

@@ -34,10 +34,14 @@ Created by Saverio Morelli - saveriomorelli.com
         <div id="settings-section-content">
             <div class="subsection-settings">
                 <span class="title-subsection-settings">Theme</span>
-                <select class="select" id="theme-selected">
+                <select class="select hidden" id="theme-selected">
                     <option selected>Light</option>
                     <option>Dark</option>
                 </select>
+                <div id="theme-container">
+                    <button class="theme-button button-yes-no button-yes" id="theme-light">Light</button>
+                    <button class="theme-button button-yes-no button-no" id="theme-dark">Dark</button>
+                </div>
             </div>
             <div class="subsection-settings">
                 <span class="title-subsection-settings">Columns</span>
@@ -64,8 +68,19 @@ Created by Saverio Morelli - saveriomorelli.com
                     <option>No</option>
                 </select>
                 <div id="auto-close-container">
-                    <button class="auto-close-button auto-close-button-left" id="auto-close-yes">Yes</button>
-                    <button class="auto-close-button auto-close-button-right" id="auto-close-no">No</button>
+                    <button class="auto-close-button button-yes-no button-yes" id="auto-close-yes">Yes</button>
+                    <button class="auto-close-button button-yes-no button-no" id="auto-close-no">No</button>
+                </div>
+            </div>
+            <div class="subsection-settings">
+                <span class="title-subsection-settings">Multi-copy</span>
+                <select class="select select-small hidden" id="multi-copy-selected">
+                    <option>Yes</option>
+                    <option>No</option>
+                </select>
+                <div id="multi-copy-container">
+                    <button class="multi-copy-button button-yes-no button-yes" id="multi-copy-yes">Yes</button>
+                    <button class="multi-copy-button button-yes-no button-no" id="multi-copy-no">No</button>
                 </div>
             </div>
             <div class="subsection-settings">
