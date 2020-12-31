@@ -56,5 +56,16 @@ See folder <code>screenshots</code> to see screenshots also of the older version
 
 <img src="screenshots/3.10/1.png" width="400px"></img> <img src="screenshots/3.10/2.png" width="400px"></img> <img src="screenshots/3.10/3.png" width="400px"></img> <img src="screenshots/3.10/4.png" width="400px"></img>
 
-## License
+## Licence
+
+The "Emoji" project is open-source, under **MPL v2** licence.
+
+Font used:
+
+- Twemoji, by Twitter: https://twemoji.twitter.com/
+- Noto Color Emoji, by Google: https://www.google.com/get/noto/help/emoji/
+- OpenMoji: https://openmoji.org/
+
+For other fonts you should see the respective licences.
+
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FSav22999%2Femoji.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FSav22999%2Femoji?ref=badge_large)
