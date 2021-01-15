@@ -1552,6 +1552,7 @@ emojis[13] = {
     "🌷": ["Tulip"],
     "🌹": ["Rose Flower", "Red Rose"],
     "☘️": ["Shamrock", "Clover", "Trefoil"],
+    "🍀": ["Four Leaf Clover", "Clover", "Ireland", "Lucky"],
     "🌸": ["Cherry Blossom", "Pink Flower", "Sakura"],
     "💮": ["White Flower", "Cherry Blossom", "Paper Doily", "Well Done Stamp"],
     "🌺": ["Hibiscus"],
