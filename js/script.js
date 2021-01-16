@@ -24,6 +24,7 @@ var browserAgentSettings = "";
 var font_family = ""; //twemoji (Twitter), notocoloremoji (Google), openmojicolor (OpenMoji), openmojiblack, default
 
 const linkReview = ["https://addons.mozilla.org/firefox/addon/emoji-sav/", "https://microsoftedge.microsoft.com/addons/detail/emoji/ejcgfbaipbelddlbokgcfajefbnnagfm", "https://chrome.google.com/webstore/detail/emoji/kjepehkgbooeigeflhiogplnckadlife?hl=it&authuser=0"];
+const storeName = ["Firefox Add-ons", "Microsoft Edge Add-ons", "Google Chrome Web Store"];
 const fontFamily = ["twemoji", "notocoloremoji", "notocoloremoji"];
 
 font_family = fontFamily[browserOrChromeIndex];
@@ -399,7 +400,7 @@ function showReviewAddonMessage() {
     let message_element = document.createElement("div");
     message_element.id = "review-message";
     message_element.innerHTML = "" +
-        "<span class='font-" + font_family + " font-size-22 margin-right-5'>🖋</span>️ If you like this addon, please review it on Firefox Add-ons." +
+        "<span class='font-" + font_family + " font-size-22 margin-right-5'>🖋</span>️ If you like this addon, please review it on " + storeName + "." +
         "<br><div id='review-message-buttons'></div>";
     document.getElementById("popup-content").append(message_element);
 
