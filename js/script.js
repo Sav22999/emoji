@@ -400,7 +400,7 @@ function showReviewAddonMessage() {
     let message_element = document.createElement("div");
     message_element.id = "review-message";
     message_element.innerHTML = "" +
-        "<span class='font-" + font_family + " font-size-22 margin-right-5'>🖋</span>️ If you like this addon, please review it on " + storeName + "." +
+        "<span class='font-" + font_family + " font-size-22 margin-right-5'>🖋</span>️ If you like this addon, please review it on " + storeName[browserOrChromeIndex] + "." +
         "<br><div id='review-message-buttons'></div>";
     document.getElementById("popup-content").append(message_element);
 
