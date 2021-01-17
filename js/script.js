@@ -229,6 +229,8 @@ function resetAndSetTitle(newTitle) {
 function setTitle(newTitle) {
     finishEditMode();
 
+    if (newTitle != 0) number_of_emojis_generations = 5;
+
     document.getElementsByClassName("section-title")[selectedTitle].style.borderTopColor = "transparent";
     selectedTitle = newTitle;
     document.getElementsByClassName("section-title")[selectedTitle].style.borderTopColor = "rgb(10, 132, 255)";
