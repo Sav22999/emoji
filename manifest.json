@@ -1,13 +1,20 @@
 {
   "manifest_version": 2,
   "name": "Emoji",
-  "version": "3.8.2",
+  "version": "3.9",
   "description": "It permits just with a single click to copy an emoji.",
   "icons": {
     "16": "./img/icon-dark-16.png",
     "24": "./img/icon-dark-24.png",
     "48": "./img/icon-dark-48.png",
     "96": "./img/icon-dark-96.png"
+  },
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Ctrl+Alt+A"
+      }
+    }
   },
   "browser_specific_settings": {
     "gecko": {

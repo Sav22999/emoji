@@ -14,6 +14,8 @@ var deleting = false;
 
 var first_replacement = true;
 
+var number_of_emojis_generations = 0;
+
 var skin_tones = ["", "🏻", "🏼", "🏽", "🏾", "🏿"]; //standard(yellow)|light|medium-light|medium|medium-dark|dark
 
 var mostUsedEmojis = [];
@@ -24,6 +26,7 @@ var browserAgentSettings = "";
 var font_family = ""; //twemoji (Twitter), notocoloremoji (Google), openmojicolor (OpenMoji), openmojiblack, default
 
 const linkReview = ["https://addons.mozilla.org/firefox/addon/emoji-sav/", "https://microsoftedge.microsoft.com/addons/detail/emoji/ejcgfbaipbelddlbokgcfajefbnnagfm", "https://chrome.google.com/webstore/detail/emoji/kjepehkgbooeigeflhiogplnckadlife?hl=it&authuser=0"];
+const linkDonate = ["https://bit.ly/3aJnnq7", "https://ko-fi.com/saveriomorelli"]; //{paypal, ko-fi}
 const storeName = ["Firefox Add-ons", "Microsoft Edge Add-ons", "Google Chrome Web Store"];
 const fontFamily = ["twemoji", "notocoloremoji", "notocoloremoji"];
 
@@ -39,6 +42,25 @@ var copyText = "";
 
 setVariablesFromSettings(true);
 generateTitles();
+
+function loaded() {
+    document.getElementById("search-bar-input").onkeyup = function (e) {
+        searchEmoji(document.getElementById("search-bar-input").value, false);
+        if (e.key == "Enter") {
+            searchEmoji(document.getElementById("search-bar-input").value, true);
+        }
+        number_of_emojis_generations = 4;
+    }
+    focusSearchBox();
+
+    checkReview();
+    showNewsInRelease();
+}
+
+function focusSearchBox() {
+    number_of_emojis_generations = 0;
+    document.getElementById("search-bar-input").focus();
+}
 
 function copyEmoji(text) {
     let nameOfSetting = "mostUsed";
@@ -247,6 +269,12 @@ function generateEmojis(title) {
             copyEmoji(this.value);
         };
     }
+    if (n_emojis > 0 && number_of_emojis_generations > 4) {
+        document.getElementsByClassName("emoji")[0].focus();
+        console.log(number_of_emojis_generations + " <<<- ");
+    }
+    number_of_emojis_generations++
+    console.log(number_of_emojis_generations);
     //setPopUpUI();
 }
 
@@ -277,12 +305,14 @@ function setPopUpUI() {
     }
     document.getElementById("hide-settings-button").onclick = function () {
         hideElement("settings-section");
+        focusSearchBox();
     }
     document.getElementById("clear-data-settings").onclick = function () {
         clearAllData();
         generateTitles(false);
         generateMostUsedEmojis();
         hideElement("settings-section");
+        focusSearchBox();
     }
     document.getElementById("save-data-settings").onclick = function () {
         saveSettings();
@@ -385,6 +415,17 @@ function setPopUpUI() {
         selectYesNoTheme(1);
     }
 
+    document.getElementById("donate-paypal-settings").onclick = function () {
+        let url_to_use = linkDonate[0];
+        browserAgentSettings.tabs.create({url: url_to_use});
+        window.close();
+    };
+    document.getElementById("donate-kofi-settings").onclick = function () {
+        let url_to_use = linkDonate[1];
+        browserAgentSettings.tabs.create({url: url_to_use});
+        window.close();
+    };
+
     setSkinToneEmojis();
 }
 
@@ -444,6 +485,32 @@ function showReviewAddonMessage() {
     button_review_now_element.focus();
 }
 
+function showMessageTop(text) {
+    let message_element = document.createElement("div");
+    message_element.id = "top-message";
+    let text_to_use = text;
+    text_to_use = text_to_use.replace(/{{emoji}}/g, "<span class='font-" + font_family + " font-size-22 margin-right-5'>");
+    text_to_use = text_to_use.replace(/{{\/emoji}}/g, "</span>");
+    message_element.innerHTML = "<div id='title-release-notes'>Release notes</div>" + text_to_use + "<br><div id='top-message-buttons'></div>";
+    ;
+    document.getElementById("popup-content").append(message_element);
+
+    let background_opacity = document.createElement("div");
+    background_opacity.className = "background-opacity";
+    background_opacity.id = "background-opacity-top";
+    document.getElementById("popup-content").append(background_opacity);
+
+    let button_hide_element = document.createElement("button");
+    button_hide_element.onclick = function () {
+        hideReleaseNotesMessage();
+    };
+    button_hide_element.className = "message-button";
+    button_hide_element.id = "close-release-button";
+    button_hide_element.innerHTML = "Hide";
+
+    document.getElementById("top-message-buttons").append(button_hide_element);
+}
+
 function showMessageBottom(text = "Copied ✔", emoji_text = null) {
     let index_to_use = char_copied_n;
     char_copied_n++;
@@ -500,7 +567,7 @@ function hideReviewMessage() {
     hideElement("background-opacity-review");
 }
 
-function searchEmoji(value) {
+function searchEmoji(value, get_focus = false) {
     emojis[0] = {};
     let n_results = 0;
     let max_results = (max_rows * max_columns) * 3;
@@ -623,6 +690,8 @@ function saveSettings(reset = false) {
     });
 
     hideElement("settings-section");
+    number_of_emojis_generations = 0;
+    focusSearchBox();
     setVariablesFromSettings(true);
 }
 
@@ -743,12 +812,14 @@ function setTheme() {
     removeThemeClassId("columns-selected", "-select");
     removeThemeClassId("rows-selected", "-select");
     removeThemeClassId("emojis-size-selected", "-select");
-    removeThemeClassId("save-data-settings", "-save-data-settings-button");
-    removeThemeClassId("reset-data-settings", "-reset-data-settings-button");
+    removeThemeClassId("save-data-settings", "-btn-settings-button");
+    removeThemeClassId("reset-data-settings", "-btn-settings-button");
     removeThemeClassId("close-popup-after-copied-selected", "-select");
     removeThemeClassId("multi-copy-selected", "-select");
     removeThemeClassId("skin-tone-selected", "-select");
     removeThemeClassId("font-family-selected", "-select");
+    removeThemeClassId("donate-paypal-settings", "-btn-settings-button");
+    removeThemeClassId("donate-kofi-settings", "-btn-settings-button");
 
     document.getElementById("popup-content").classList.add(theme);
     document.getElementById("search-bar-input").classList.add(theme + "-search-bar-input");
@@ -764,6 +835,10 @@ function setTheme() {
     document.getElementById("multi-copy-selected").classList.add(theme + "-select");
     document.getElementById("skin-tone-selected").classList.add(theme + "-select");
     document.getElementById("font-family-selected").classList.add(theme + "-select");
+    document.getElementById("save-data-settings").classList.add(theme + "-btn-settings-button");
+    document.getElementById("reset-data-settings").classList.add(theme + "-btn-settings-button");
+    document.getElementById("donate-paypal-settings").classList.add(theme + "-btn-settings-button");
+    document.getElementById("donate-kofi-settings").classList.add(theme + "-btn-settings-button");
 
     for (let n = 0; n < 7; n++) {
         removeThemeClassClass("subsection-settings", n, "-subsection-settings");
@@ -800,13 +875,6 @@ function setSkinToneEmojis() {
     emojis[12] = JSON.parse(string[12]);
     first_replacement = false;
 }
-
-document.getElementById("search-bar-input").onkeyup = function (e) {
-    searchEmoji(document.getElementById("search-bar-input").value);
-}
-document.getElementById("search-bar-input").focus();
-
-checkReview();
 
 function editMode() {
     document.getElementById("search-bar-input").style.display = "none";
@@ -865,3 +933,32 @@ function selectYesNoButton(class_name, index) {
 
     document.getElementsByClassName(class_name)[index].classList.add("button-yes-no-selected");
 }
+
+function showNewsInRelease() {
+    let last_release_saved = 0;
+    let nameOfSetting = "release_notes";
+    browserAgentSettings.storage.sync.get(nameOfSetting, function (value) {
+        if (value[nameOfSetting] != undefined) {
+            last_release_saved = value[nameOfSetting];
+        }
+        let this_release = browserAgentSettings.runtime.getManifest().version;
+        if (last_release_saved != this_release) {
+            if (releaseNotes(this_release) != "") {
+                showMessageTop(releaseNotes(this_release));
+            }
+            updateLastRelease(this_release);
+        }
+    })
+}
+
+function updateLastRelease(release) {
+    browserAgentSettings.storage.sync.set({"release_notes": release}, function () {
+    });
+}
+
+function hideReleaseNotesMessage() {
+    hideElement("top-message");
+    hideElement("background-opacity-top");
+}
+
+loaded();

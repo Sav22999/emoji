@@ -76,6 +76,7 @@ body {
 
 .emoji,
 .review-button,
+.message-button,
 .button {
     background-color: rgb(255, 255, 255);
     padding: 5px;
@@ -101,6 +102,7 @@ body {
 
 .emoji:hover,
 .review-button:hover,
+.message-button:hover,
 .button:hover {
     background-color: rgb(221, 222, 223);
 }
@@ -108,8 +110,10 @@ body {
 .emoji:active,
 .emoji:focus,
 .review-button:active,
+.message-button:active,
 .button:active {
     box-shadow: 0px 0px 0px 2px #0a84ff, 0px 0px 0px 5px #b1d6fc;
+    z-index: 9;
 }
 
 .size-emoji-button-30 {
@@ -201,6 +205,48 @@ div#review-message {
     font-family: open-sans, sans-serif;
 }
 
+div#top-message {
+    position: fixed;
+    top: 3px;
+    bottom: 3px;
+    right: 3px;
+    left: 3px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    text-align: left;
+    height: auto;
+    width: auto;
+    font-size: 16px;
+    color: rgb(221, 222, 223);
+    z-index: 999;
+    background-color: #0a84ff;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 0px;
+    border: 0px solid transparent;
+    font-weight: normal;
+    font-family: open-sans, sans-serif;
+}
+
+#top-message ul {
+    list-style: none;
+    margin: 0px;
+    margin-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-indent: 0px;
+}
+
+#top-message li {
+    padding-left: 1em;
+    text-indent: -1em;
+}
+
+#top-message li:before {
+    content: "●";
+    padding-right: 5px;
+}
+
 .font-twemoji {
     font-family: twemoji, sans-serif;
 }
@@ -277,6 +323,10 @@ div#review-message {
     margin-right: 10px;
 }
 
+.margin-top-5 {
+    margin-top: 5px;
+}
+
 .margin-top-20 {
     margin-top: 20px;
 }
@@ -292,7 +342,7 @@ div#review-message {
     font-weight: bold;
 }
 
-div#background-opacity-review {
+div#background-opacity-review, div.background-opacity {
     position: fixed;
     top: 0px;
     bottom: 0px;
@@ -305,7 +355,7 @@ div#background-opacity-review {
     z-index: 9;
 }
 
-button.review-button {
+button.review-button, button.message-button {
     width: auto;
     font-size: 14px;
     font-family: open-sans, sans-serif;
@@ -315,7 +365,7 @@ button.review-button {
     height: 30px;
 }
 
-div#review-message-buttons {
+div#review-message-buttons, div#top-message-buttons {
     display: block;
     text-align: right;
     margin: 0px;
@@ -438,6 +488,7 @@ div#settings-section {
     position: absolute;
     font-family: open-sans, sans-serif;
     overflow: auto;
+    z-index: 99;
 }
 
 .red-button {
@@ -448,7 +499,7 @@ div#settings-section {
     background-color: rgb(255, 173, 173);
 }
 
-#settings-title {
+#settings-title, #title-release-notes {
     padding: 0px;
     padding-left: 10px;
     margin: 0px;
@@ -467,9 +518,7 @@ div#settings-section {
     width: auto;
 }
 
-#clear-data-settings,
-#save-data-settings,
-#reset-data-settings {
+.button-settings {
     width: auto;
     padding: 5px;
     padding-left: 10px;
@@ -588,17 +637,15 @@ div {
     color: #EEEEEE;
 }
 
-.light-save-data-settings-button,
-.light-reset-data-settings-button,
 .light-settings-button,
+.light-btn-settings-button,
 .light-delete-button,
 .light-finish-edit-button {
     background-color: #F5F5F5;
 }
 
-.dark-save-data-settings-button,
-.dark-reset-data-settings-button,
 .dark-settings-button,
+.dark-btn-settings-button,
 .dark-delete-button,
 .dark-finish-edit-button {
     background-color: rgb(70, 70, 70);
@@ -628,10 +675,9 @@ div {
 .dark-section-title:hover,
 .dark-button-emoji:hover,
 .dark-settings-button:hover,
+.dark-btn-settings-button:hover,
 .dark-delete-button:hover,
-.dark-finish-edit-button:hover,
-.dark-save-data-settings-button:hover,
-.dark-reset-data-settings-button:hover {
+.dark-finish-edit-button:hover {
     background-color: rgb(50, 50, 50);
 }
 
