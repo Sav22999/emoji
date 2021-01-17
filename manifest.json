@@ -12,6 +12,9 @@
   "commands": {
     "_execute_browser_action": {
       "suggested_key": {
+        "windows": "Ctrl+Alt+A",
+        "mac": "Command+Alt+A",
+        "linux": "Ctrl+Alt+A",
         "default": "Ctrl+Alt+A"
       }
     }
