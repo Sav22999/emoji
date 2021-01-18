@@ -6,7 +6,7 @@
 
 
 Official repo of https://addons.mozilla.org/it/firefox/addon/emoji-sav/.
-Also available on Google Chrome Web Store and Microsoft Edge Addons.
+Also available on [Google Chrome Web Store](https://chrome.google.com/webstore/detail/emoji/kjepehkgbooeigeflhiogplnckadlife) and [Microsoft Edge Addons](https://microsoftedge.microsoft.com/addons/detail/emoji/ejcgfbaipbelddlbokgcfajefbnnagfm).
 
 [![GitHub release](https://img.shields.io/github/release/Sav22999/emoji.svg)](https://github.com/Sav22999/emoji/releases/) [![GitHub license](https://img.shields.io/github/license/Sav22999/emoji.svg)](https://github.com/Sav22999/emoji/blob/master/LICENSE) ![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FSav22999%2Femoji.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FSav22999%2Femoji?ref=badge_shield)
