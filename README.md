@@ -33,8 +33,9 @@ Emojis are divided in some sections, to help you to find the correct emoji quick
 
 - Search-box: so you find easily emoji by keywords
 - Most used emojis: in the first tab you can find the emoji you use more
-- Clear and modern UI
+- Clear, modern and customisable UI
 - Simplicity: with a single click you can copy an emoji
+- Short-cut: open the add-on with `Ctrl`/`Cmd`+`Alt`+`A`
 
 ## How to contribute
 
