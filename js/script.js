@@ -51,6 +51,9 @@ function loaded() {
         }
         number_of_emojis_generations = 4;
     }
+    document.getElementById("search-bar-input").onblur = function () {
+        number_of_emojis_generations = 5;
+    }
     focusSearchBox();
 
     checkReview();
@@ -228,8 +231,6 @@ function resetAndSetTitle(newTitle) {
 
 function setTitle(newTitle) {
     finishEditMode();
-
-    if (newTitle != 0) number_of_emojis_generations = 5;
 
     document.getElementsByClassName("section-title")[selectedTitle].style.borderTopColor = "transparent";
     selectedTitle = newTitle;
