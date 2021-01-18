@@ -274,10 +274,8 @@ function generateEmojis(title) {
     }
     if (n_emojis > 0 && number_of_emojis_generations > 4) {
         document.getElementsByClassName("emoji")[0].focus();
-        console.log(number_of_emojis_generations + " <<<- ");
     }
     number_of_emojis_generations++
-    console.log(number_of_emojis_generations);
     //setPopUpUI();
 }
 
