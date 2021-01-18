@@ -45,11 +45,14 @@ generateTitles();
 
 function loaded() {
     document.getElementById("search-bar-input").onkeyup = function (e) {
-        searchEmoji(document.getElementById("search-bar-input").value, false);
+        searchEmoji(document.getElementById("search-bar-input").value);
+        number_of_emojis_generations = 0;
+
+    }
+    document.getElementById("search-bar-input").onkeydown = function (e) {
         if (e.key == "Enter") {
-            searchEmoji(document.getElementById("search-bar-input").value, true);
+            number_of_emojis_generations = 5;
         }
-        number_of_emojis_generations = 4;
     }
     document.getElementById("search-bar-input").onblur = function () {
         number_of_emojis_generations = 5;
@@ -504,6 +507,8 @@ function showMessageTop(text) {
     let button_hide_element = document.createElement("button");
     button_hide_element.onclick = function () {
         hideReleaseNotesMessage();
+        let this_release = browserAgentSettings.runtime.getManifest().version;
+        updateLastRelease(this_release);
     };
     button_hide_element.className = "message-button";
     button_hide_element.id = "close-release-button";
@@ -568,7 +573,7 @@ function hideReviewMessage() {
     hideElement("background-opacity-review");
 }
 
-function searchEmoji(value, get_focus = false) {
+function searchEmoji(value) {
     emojis[0] = {};
     let n_results = 0;
     let max_results = (max_rows * max_columns) * 3;
@@ -936,7 +941,7 @@ function selectYesNoButton(class_name, index) {
 }
 
 function showNewsInRelease() {
-    let last_release_saved = 0;
+    let last_release_saved = "";
     let nameOfSetting = "release_notes";
     browserAgentSettings.storage.sync.get(nameOfSetting, function (value) {
         if (value[nameOfSetting] != undefined) {
@@ -947,7 +952,6 @@ function showNewsInRelease() {
             if (releaseNotes(this_release) != "") {
                 showMessageTop(releaseNotes(this_release));
             }
-            updateLastRelease(this_release);
         }
     })
 }
