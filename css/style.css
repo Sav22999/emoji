@@ -184,8 +184,7 @@ body {
     background-color: rgb(201, 202, 203);
 }
 
-.character-copied,
-div#review-message {
+.character-copied, div#review-message, div#opened-addon-message {
     position: fixed;
     bottom: 3px;
     right: 30%;
@@ -201,7 +200,7 @@ div#review-message {
     padding: 5px;
     margin: 0px;
     border: 0px solid transparent;
-    font-weight: bold;
+    font-weight: normal;
     font-family: open-sans, sans-serif;
 }
 
@@ -279,6 +278,14 @@ div#top-message {
     font-size: 16px;
 }
 
+.font-size-18 {
+    font-size: 18px;
+}
+
+.font-size-20 {
+    font-size: 20px;
+}
+
 .font-size-22 {
     font-size: 22px;
 }
@@ -331,13 +338,13 @@ div#top-message {
     margin-top: 20px;
 }
 
-div#review-message {
+div#review-message, div#opened-addon-message {
     top: 5px;
     bottom: auto;
     left: 5px;
     right: 5px;
     padding: 10px;
-    font-size: 18px;
+    font-size: 16px;
     z-index: 10;
     font-weight: bold;
 }
@@ -365,7 +372,7 @@ button.review-button, button.message-button {
     height: 30px;
 }
 
-div#review-message-buttons, div#top-message-buttons {
+div#review-message-buttons, div#top-message-buttons, div.message-buttons-container {
     display: block;
     text-align: right;
     margin: 0px;
@@ -792,4 +799,28 @@ div {
 
 .hidden {
     display: none;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.padding-5 {
+    padding: 5px;
+}
+
+.padding-10 {
+    padding: 10px;
+}
+
+.font-bold {
+    font-weight: bold;
 }

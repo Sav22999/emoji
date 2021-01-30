@@ -60,6 +60,7 @@ function loaded() {
     focusSearchBox();
 
     checkReview();
+    checkOpenedAddon();
     showNewsInRelease();
 }
 
@@ -489,6 +490,44 @@ function showReviewAddonMessage() {
     button_review_now_element.focus();
 }
 
+function showOpenedAddonMessage(numberOpened) {
+    let message_element = document.createElement("div");
+    message_element.id = "opened-addon-message";
+    message_element.innerHTML = "" +
+        "<div class='text-center padding-5'><span class='font-" + font_family + " font-size-20 margin-right-5'>😍</span>" +
+        "You opened this add-on exactly <span class='font-size-20 font-bold'>" + numberOpened + "</span> times from the installation!</div>" +
+        "<div class='text-left padding-5'>If you like the add-on, please consider to buy me a coffee on PayPal to support my work.</div>" +
+        "<div id='opened-addon-message-buttons' class='message-buttons-container text-right'></div>";
+    document.getElementById("popup-content").append(message_element);
+
+    let background_opacity = document.createElement("div");
+    background_opacity.className = "background-opacity";
+    background_opacity.id = "background-opacity-opened-addon";
+    document.getElementById("popup-content").append(background_opacity);
+
+    let button_donate_element = document.createElement("button");
+    button_donate_element.onclick = function () {
+        browserAgentSettings.tabs.create({url: linkDonate[0]});
+        window.close();
+    };
+    button_donate_element.className = "message-button";
+    button_donate_element.id = "opened-addon-button-donate";
+    button_donate_element.innerHTML = "Buy me a coffee on PayPal ☕";
+
+    let button_later_element = document.createElement("button");
+    button_later_element.onclick = function () {
+        hideOpenedAddonMessage();
+    };
+    button_later_element.className = "message-button";
+    button_later_element.id = "opened-addon-button-later";
+    button_later_element.innerHTML = "Maybe another time";
+
+    document.getElementById("opened-addon-message-buttons").append(button_donate_element);
+    document.getElementById("opened-addon-message-buttons").append(button_later_element);
+
+    button_donate_element.focus();
+}
+
 function showMessageTop(text) {
     let message_element = document.createElement("div");
     message_element.id = "top-message";
@@ -571,6 +610,34 @@ function checkReview() {
 function hideReviewMessage() {
     hideElement("review-message");
     hideElement("background-opacity-review");
+}
+
+function incrementOpenedAddon(value) {
+    value += 1;
+    browserAgentSettings.storage.sync.set({"opened-addon": value}, function () {
+    });
+}
+
+function checkOpenedAddon() {
+
+    browserAgentSettings.storage.sync.get("opened-addon", function (value) {
+        let currentValue = 0;
+        if (value["opened-addon"] != undefined) {
+            currentValue = value["opened-addon"];
+        }
+        incrementOpenedAddon(currentValue);
+
+        currentValue++
+
+        if (currentValue == 1000 || currentValue == 100000 || currentValue == 1000000 || currentValue == 10000000) {
+            showOpenedAddonMessage(currentValue);
+        }
+    })
+}
+
+function hideOpenedAddonMessage() {
+    hideElement("opened-addon-message");
+    hideElement("background-opacity-opened-addon");
 }
 
 function searchEmoji(value) {
