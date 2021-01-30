@@ -495,7 +495,7 @@ function showOpenedAddonMessage(numberOpened) {
     message_element.id = "opened-addon-message";
     message_element.innerHTML = "" +
         "<div class='text-center padding-5'><span class='font-" + font_family + " font-size-20 margin-right-5'>😍</span>" +
-        "You opened this add-on exactly <span class='font-size-20 font-bold'>" + numberOpened + "</span> times from the installation!</div>" +
+        "You opened this add-on exactly <span class='font-size-20 font-bold'>" + numberOpened + "</span> times since the installation!</div>" +
         "<div class='text-left padding-5'>If you like the add-on, please consider to buy me a coffee on PayPal to support my work.</div>" +
         "<div id='opened-addon-message-buttons' class='message-buttons-container text-right'></div>";
     document.getElementById("popup-content").append(message_element);
