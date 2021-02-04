@@ -540,7 +540,7 @@ div {
     background-color: inherit;
 }
 
-#made-in-basilicata-settings {
+#made-in-basilicata-settings, .text-in-settings {
     width: auto;
     text-align: center;
     font-size: 14px;
@@ -550,6 +550,11 @@ div {
     box-sizing: border-box;
     padding: 10px;
     font-family: open-sans, sans-serif;
+}
+
+.text-in-settings {
+    padding: 5px;
+    border: 0px solid transparent;
 }
 
 .subsection-settings {

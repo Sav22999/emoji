@@ -27,8 +27,10 @@ var font_family = ""; //twemoji (Twitter), notocoloremoji (Google), openmojicolo
 
 const linkReview = ["https://addons.mozilla.org/firefox/addon/emoji-sav/", "https://microsoftedge.microsoft.com/addons/detail/emoji/ejcgfbaipbelddlbokgcfajefbnnagfm", "https://chrome.google.com/webstore/detail/emoji/kjepehkgbooeigeflhiogplnckadlife?hl=it&authuser=0"];
 const linkDonate = ["https://bit.ly/3aJnnq7", "https://ko-fi.com/saveriomorelli"]; //{paypal, ko-fi}
+const linkNeedHelp = ["https://www.saveriomorelli.com/contact-me/"];
 const storeName = ["Firefox Add-ons", "Microsoft Edge Add-ons", "Google Chrome Web Store"];
 const fontFamily = ["twemoji", "notocoloremoji", "notocoloremoji"];
+
 
 font_family = fontFamily[browserOrChromeIndex];
 
@@ -37,6 +39,9 @@ if (browserOrChromeIndex == 0) {
 } else if (browserOrChromeIndex == 1 || browserOrChromeIndex == 2) {
     browserAgentSettings = chrome;
 }
+
+const storeNameAbbr = ["MFA", "MEA", "GCWS"];//{MozillaFirefoxAddons, MicrosoftEdgeAddons, GoogleChromeWebStore}
+const releaseNumber = browserAgentSettings.runtime.getManifest().version;
 
 var copyText = "";
 
@@ -61,7 +66,7 @@ function loaded() {
 
     checkReview();
     checkOpenedAddon();
-    showNewsInRelease();
+    showNewsInRelease(false);
 }
 
 function focusSearchBox() {
@@ -265,10 +270,11 @@ function generateEmojis(title) {
             document.getElementById("emojis").innerHTML = "<div id='no_most_used_emojis'><span class='font-" + font_family + " margin-right-10 font-size-25'>😬</span> No most used emojis</div>";
         }
     } else {
+        // other sections
         n_emojis = Object.keys(emojis[title]).length;
         let tempEmojisJSON = emojis[title];
         for (let i in tempEmojisJSON) {
-            document.getElementById("emojis").innerHTML += "<input type=\"button\" class=\"emoji " + theme + "-button-emoji size-emoji-button-" + size_emojis + "\" value=\"" + i + "\" />";
+            document.getElementById("emojis").innerHTML += "<input type='button' class='emoji " + theme + "-button-emoji size-emoji-button-" + size_emojis + "' value='" + i + "' title='" + tempEmojisJSON[i][0] + "' alt='" + tempEmojisJSON[i][0] + "' />";
         }
     }
     for (let i = 0; i < n_emojis; i++) {
@@ -288,6 +294,11 @@ function setPopUpUI() {
     let n_emojis = selectedTitle == 1 ? (max_columns * max_rows) : Object.keys(emojis[selectedTitle]).length;
     let rows = parseInt(n_emojis / max_columns + "");
     if ((n_emojis % max_columns) != 0) rows += 1;
+
+    let versionNumberText = "Release #{{*{{version-number}}*}}::{{*{{store-name}}*}}";
+    versionNumberText = versionNumberText.replaceAll("{{*{{version-number}}*}}", releaseNumber);
+    versionNumberText = versionNumberText.replaceAll("{{*{{store-name}}*}}", storeNameAbbr[browserOrChromeIndex]);
+    document.getElementById("version-number").innerHTML = versionNumberText;
 
     document.getElementById("emojis").style.height = (max_rows * (size_emojis + 10) + 4) + "px";
     document.getElementById("popup-content").style.height = (max_rows * (size_emojis + 10) + 4 + 36 + (34 + 12)) + "px"; //36 is the height of titles, 34+12 because there is the search-box (and its margin)
@@ -327,15 +338,21 @@ function setPopUpUI() {
     }
     document.getElementById("emojis-size-selected").onchange = function () {
         setColumnsRowsSettings(document.getElementById("emojis-size-selected").value.toLowerCase(), -1, -1);
+
+        saveSettings();
     }
 
     document.getElementById("skin-tone-selected").onchange = function () {
         selectSkinToneButton(document.getElementById("skin-tone-selected").selectedIndex);
+
+        saveSettings();
     }
     selectSkinToneButton(document.getElementById("skin-tone-selected").selectedIndex);
 
     document.getElementById("font-family-selected").onchange = function () {
         checkFontFamily();
+
+        saveSettings();
     }
     checkFontFamily();
 
@@ -345,6 +362,8 @@ function setPopUpUI() {
             document.getElementById("multi-copy-selected").selectedIndex = 1;
             selectYesNoMultiCopy(1);
         }
+
+        saveSettings();
     }
     selectYesNoAutoClose(document.getElementById("close-popup-after-copied-selected").selectedIndex);
 
@@ -354,37 +373,53 @@ function setPopUpUI() {
             document.getElementById("close-popup-after-copied-selected").selectedIndex = 1;
             selectYesNoAutoClose(1);
         }
+
+        saveSettings();
     }
     selectYesNoMultiCopy(document.getElementById("multi-copy-selected").selectedIndex);
 
     document.getElementById("theme-selected").onchange = function () {
         selectYesNoTheme(document.getElementById("theme-selected").selectedIndex);
+
+        saveSettings();
     }
     selectYesNoTheme(document.getElementById("theme-selected").selectedIndex);
 
     document.getElementById("skin-standard").onclick = function () {
         document.getElementById("skin-tone-selected").selectedIndex = 0;
         selectSkinToneButton(0);
+
+        saveSettings();
     }
     document.getElementById("skin-light").onclick = function () {
         document.getElementById("skin-tone-selected").selectedIndex = 1;
         selectSkinToneButton(1);
+
+        saveSettings();
     }
     document.getElementById("skin-mlight").onclick = function () {
         document.getElementById("skin-tone-selected").selectedIndex = 2;
         selectSkinToneButton(2);
+
+        saveSettings();
     }
     document.getElementById("skin-medium").onclick = function () {
         document.getElementById("skin-tone-selected").selectedIndex = 3;
         selectSkinToneButton(3);
+
+        saveSettings();
     }
     document.getElementById("skin-mdark").onclick = function () {
         document.getElementById("skin-tone-selected").selectedIndex = 4;
         selectSkinToneButton(4);
+
+        saveSettings();
     }
     document.getElementById("skin-dark").onclick = function () {
         document.getElementById("skin-tone-selected").selectedIndex = 5;
         selectSkinToneButton(5);
+
+        saveSettings();
     }
 
     document.getElementById("auto-close-yes").onclick = function () {
@@ -393,10 +428,14 @@ function setPopUpUI() {
 
         document.getElementById("multi-copy-selected").selectedIndex = 1;
         selectYesNoMultiCopy(1);
+
+        saveSettings();
     }
     document.getElementById("auto-close-no").onclick = function () {
         document.getElementById("close-popup-after-copied-selected").selectedIndex = 1;
         selectYesNoAutoClose(1);
+
+        saveSettings();
     }
 
     document.getElementById("multi-copy-yes").onclick = function () {
@@ -405,19 +444,27 @@ function setPopUpUI() {
 
         document.getElementById("close-popup-after-copied-selected").selectedIndex = 1;
         selectYesNoAutoClose(1);
+
+        saveSettings();
     }
     document.getElementById("multi-copy-no").onclick = function () {
         document.getElementById("multi-copy-selected").selectedIndex = 1;
         selectYesNoMultiCopy(1);
+
+        saveSettings();
     }
 
     document.getElementById("theme-light").onclick = function () {
         document.getElementById("theme-selected").selectedIndex = 0;
         selectYesNoTheme(0);
+
+        saveSettings();
     }
     document.getElementById("theme-dark").onclick = function () {
         document.getElementById("theme-selected").selectedIndex = 1;
         selectYesNoTheme(1);
+
+        saveSettings();
     }
 
     document.getElementById("donate-paypal-settings").onclick = function () {
@@ -427,6 +474,21 @@ function setPopUpUI() {
     };
     document.getElementById("donate-kofi-settings").onclick = function () {
         let url_to_use = linkDonate[1];
+        browserAgentSettings.tabs.create({url: url_to_use});
+        window.close();
+    };
+
+    document.getElementById("columns-selected").onchange = function () {
+        saveSettings();
+    }
+
+    document.getElementById("rows-selected").onchange = function () {
+        saveSettings();
+    }
+
+
+    document.getElementById("need-help-settings").onclick = function () {
+        let url_to_use = linkNeedHelp[0];
         browserAgentSettings.tabs.create({url: url_to_use});
         window.close();
     };
@@ -655,7 +717,7 @@ function searchEmoji(value) {
                 for (let description in emojis[title][emoji]) {
                     let tmp_str = emojis[title][emoji][description].toLowerCase().replace(".", "");
                     if (tmp_str.includes(valueToUse) || valueToUse.includes(tmp_str)) {
-                        emojis[0][emoji] = []; //add emoji to the list
+                        emojis[0][emoji] = [emojis[title][emoji][0]]; //add emoji to the list
                         n_results++;
                         break;
                     }
@@ -762,7 +824,7 @@ function saveSettings(reset = false) {
     browserAgentSettings.storage.sync.set({"settings": jsonSettings}, function () {
     });
 
-    hideElement("settings-section");
+    //hideElement("settings-section");
     number_of_emojis_generations = 0;
     focusSearchBox();
     setVariablesFromSettings(true);
@@ -1007,15 +1069,15 @@ function selectYesNoButton(class_name, index) {
     document.getElementsByClassName(class_name)[index].classList.add("button-yes-no-selected");
 }
 
-function showNewsInRelease() {
+function showNewsInRelease(forced = false) {
     let last_release_saved = "";
     let nameOfSetting = "release_notes";
     browserAgentSettings.storage.sync.get(nameOfSetting, function (value) {
         if (value[nameOfSetting] != undefined) {
             last_release_saved = value[nameOfSetting];
         }
-        let this_release = browserAgentSettings.runtime.getManifest().version;
-        if (last_release_saved != this_release) {
+        let this_release = releaseNumber;
+        if (last_release_saved != this_release || forced) {
             if (releaseNotes(this_release) != "") {
                 showMessageTop(releaseNotes(this_release));
             }

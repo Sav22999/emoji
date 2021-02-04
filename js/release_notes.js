@@ -9,6 +9,15 @@ function releaseNotes(release) {
             release_notes_text += "<li>Press \"Enter\" when finish to digit the keyword to focus automatically the results</li>";
             release_notes_text += "</ul>";
             break;
+
+        case "3.10":
+            release_notes_text = "<ul>";
+            release_notes_text += "<li>Added tooltip over the emojis when you search or navigate in sections {{emoji}}😉{{/emoji}}</li>";
+            release_notes_text += "<li>Added \"I need help\" button in Settings, if you need support {{emoji}}🆘{{/emoji}}</li>";
+            release_notes_text += "<li>Added auto-save in Settings, so you don't need to press \"Save\" anymore</li>";
+            release_notes_text += "<li>Added some information about the add-on in Settings (like version number, etc.)</li>";
+            release_notes_text += "</ul>";
+            break;
     }
     return release_notes_text;
 }
