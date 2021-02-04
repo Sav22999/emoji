@@ -52,15 +52,14 @@ function loaded() {
     document.getElementById("search-bar-input").onkeyup = function (e) {
         searchEmoji(document.getElementById("search-bar-input").value);
         number_of_emojis_generations = 0;
-
     }
     document.getElementById("search-bar-input").onkeydown = function (e) {
         if (e.key == "Enter") {
             number_of_emojis_generations = 5;
         }
     }
-    document.getElementById("search-bar-input").onblur = function () {
-        number_of_emojis_generations = 5;
+    document.getElementById("search-bar-input").onfocus = function () {
+        number_of_emojis_generations = 0;
     }
     focusSearchBox();
 
@@ -216,6 +215,7 @@ function generateTitles(search = false, titleToSet = 1, clearSearchBox = true) {
                 }
             }
             document.getElementsByClassName("section-title")[i].onclick = function (e) {
+                number_of_emojis_generations = 5;
                 resetAndSetTitle(this.id.replace("title", ""));
             };
 
