@@ -36,7 +36,7 @@ Emojis are divided in some sections, to help you to find the correct emoji quick
 - Clear, modern and customisable UI
 - Simplicity: with a single click you can copy an emoji
 - Short-cut: open the add-on with `Ctrl`/`Cmd`+`Alt`+`A`
-- Tooltip: every emoji has the tooltip, so you can learn what's the name of a emoji
+- Tooltip: every emoji has the tooltip, so you can learn what's the name of an emoji
 
 ## How to contribute
 
