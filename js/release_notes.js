@@ -18,6 +18,12 @@ function releaseNotes(release) {
             release_notes_text += "<li>Added some information about the add-on in Settings (like version number, etc.)</li>";
             release_notes_text += "</ul>";
             break;
+
+        case "3.10.1":
+            release_notes_text = "<ul>";
+            release_notes_text += "<li>Added tooltip also in <i>Most used section</i> (just for emoji you'll copy since now)</li>";
+            release_notes_text += "<li>Fixed a bug with \"Auto-focus\" for the search box</li>";
+            release_notes_text += "</ul>";
     }
     return release_notes_text;
 }

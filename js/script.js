@@ -73,7 +73,7 @@ function focusSearchBox() {
     document.getElementById("search-bar-input").focus();
 }
 
-function copyEmoji(text) {
+function copyEmoji(text, tooltip) {
     let nameOfSetting = "mostUsed";
     if (!deleting) {
         document.getElementById("text-to-copy").style.display = "block";
@@ -95,7 +95,7 @@ function copyEmoji(text) {
                 //already exist, so set the array at saved status
                 mostUsedEmojis = value[nameOfSetting];
             }
-            addToMostUsed(text);
+            addToMostUsed(text, tooltip);
             getMostUsedEmojisLength(selectedTitle);
         })
     } else {
@@ -135,17 +135,24 @@ function getMostUsedEmojisLength(titleToSet) {
     return generateMostUsedEmojis(generateEmojiBool);
 }
 
-function addToMostUsed(text) {
-    let emojiToAdd = {"emoji": text, "occurrences": 1};
+function addToMostUsed(emoji, tooltip) {
+    let emojiToAdd = {"emoji": emoji, "occurrences": 1, "tooltip": tooltip};
     let indexToUse = -1; // -1: not in the JSON
     for (let tempIndex = 0; tempIndex < mostUsedEmojis.length && indexToUse == -1; tempIndex++) {
-        if (mostUsedEmojis[tempIndex].emoji == text) {
+        if (mostUsedEmojis[tempIndex].emoji == emoji) {
             indexToUse = tempIndex;
         }
     }
     if (indexToUse != -1) {
         // the emoji is already in the JSON, so I increment it
         mostUsedEmojis[indexToUse].occurrences++;
+        if (mostUsedEmojis[indexToUse].tooltip == undefined || mostUsedEmojis[indexToUse].tooltip == "") {
+            if (tooltip != "" && tooltip != undefined) {
+                mostUsedEmojis[indexToUse].tooltip = tooltip;
+            } else {
+                mostUsedEmojis[indexToUse].tooltip = searchForTooltip(emoji);
+            }
+        }
     } else {
         // the emoji is not in the JSON, so I initialise it at "1"
         mostUsedEmojis.unshift(emojiToAdd); //(unshift -> add the element at the beginning -> in this way the "remove function" won't remove the emoji just inserted
@@ -161,10 +168,10 @@ function addToMostUsed(text) {
     autoCloseAfterCopied();
 }
 
-function removeFromMostUsed(text) {
+function removeFromMostUsed(emoji) {
     let indexToUse = -1; // -1: not in the JSON
     for (let tempIndex = 0; tempIndex < mostUsedEmojis.length && indexToUse == -1; tempIndex++) {
-        if (mostUsedEmojis[tempIndex].emoji == text) {
+        if (mostUsedEmojis[tempIndex].emoji == emoji) {
             indexToUse = tempIndex;
         }
     }
@@ -264,7 +271,11 @@ function generateEmojis(title) {
         n_emojis = mostUsedEmojis.length;
         let tempEmojisJSON = mostUsedEmojis;
         for (let i = 0; i < n_emojis; i++) {
-            document.getElementById("emojis").innerHTML += "<input type=\"button\" class=\"emoji " + theme + "-button-emoji size-emoji-button-" + size_emojis + "\" value=\"" + mostUsedEmojis[i].emoji + "\" />";
+            let tooltipToUse = mostUsedEmojis[i].tooltip;
+            if (tooltipToUse == undefined) {
+                tooltipToUse = "";
+            }
+            document.getElementById("emojis").innerHTML += "<input type='button' class='emoji " + theme + "-button-emoji size-emoji-button-" + size_emojis + "' value='" + mostUsedEmojis[i].emoji + "' title='" + tooltipToUse + "' alt='" + tooltipToUse + "' />";
         }
         if (n_emojis == 0) {
             document.getElementById("emojis").innerHTML = "<div id='no_most_used_emojis'><span class='font-" + font_family + " margin-right-10 font-size-25'>😬</span> No most used emojis</div>";
@@ -274,12 +285,16 @@ function generateEmojis(title) {
         n_emojis = Object.keys(emojis[title]).length;
         let tempEmojisJSON = emojis[title];
         for (let i in tempEmojisJSON) {
-            document.getElementById("emojis").innerHTML += "<input type='button' class='emoji " + theme + "-button-emoji size-emoji-button-" + size_emojis + "' value='" + i + "' title='" + tempEmojisJSON[i][0] + "' alt='" + tempEmojisJSON[i][0] + "' />";
+            let tooltipToUse = tempEmojisJSON[i][0];
+            if (tooltipToUse == undefined) {
+                tooltipToUse = "";
+            }
+            document.getElementById("emojis").innerHTML += "<input type='button' class='emoji " + theme + "-button-emoji size-emoji-button-" + size_emojis + "' value='" + i + "' title='" + tooltipToUse + "' alt='" + tooltipToUse + "' />";
         }
     }
     for (let i = 0; i < n_emojis; i++) {
         document.getElementsByClassName("emoji")[i].onclick = function (e) {
-            copyEmoji(this.value);
+            copyEmoji(this.value, this.title);
         };
     }
     if (n_emojis > 0 && number_of_emojis_generations > 4) {
@@ -1093,6 +1108,23 @@ function updateLastRelease(release) {
 function hideReleaseNotesMessage() {
     hideElement("top-message");
     hideElement("background-opacity-top");
+}
+
+function searchForTooltip(emojiToSearch) {
+    let found = false;
+    let tooltipToReturn = "";
+    for (let title = 1; title < titles.length && !found; title++) {
+        for (let emoji in emojis[title]) {
+            if (found) {
+                break;
+            }
+            if (emoji == emojiToSearch) {
+                tooltipToReturn = emojis[title][emoji][0];
+                found = true;
+            }
+        }
+    }
+    return tooltipToReturn;
 }
 
 loaded();

@@ -12,7 +12,7 @@ To support me, you can do a donation :smile: with PayPal or Ko-fi:
 
 ## Description
 
-This extension permits you to copy an emoji in the clipboard. There are many emojis, exactly **1702**!
+This extension permits you to copy an emoji in the clipboard. There are many emojis, exactly **1703**!
 
 Emojis are divided in some sections, to help you to find the correct emoji quickly (in order):
 
@@ -23,11 +23,11 @@ Emojis are divided in some sections, to help you to find the correct emoji quick
 - Foods and drinks (120 emojis)
 - Flags (269 emojis)
 - Sports and everything related to them (74 emojis)
-- Travel and places (107 emojis)
+- Travel and places (105 emojis)
 - Technologies and office (91 emojis)
 - Clothes and accessories (46 emojis)
 - Hands and parts of body (46 emojis)
-- Other (“not categorised”) (270 emojis)
+- Other (“not categorised”) (273 emojis)
 
 ## Features
 
@@ -36,10 +36,11 @@ Emojis are divided in some sections, to help you to find the correct emoji quick
 - Clear, modern and customisable UI
 - Simplicity: with a single click you can copy an emoji
 - Short-cut: open the add-on with `Ctrl`/`Cmd`+`Alt`+`A`
+- Tooltip: every emoji has the tooltip, so you can learn what's the name of a emoji
 
 ## How to contribute
 
-You can open an issue and there you must describe the feedback, the bug or the new feature you want.
+You can open an `Issue` and there you must describe the feedback, the bug or the new feature you want.
 
 ## Screenshots
 
