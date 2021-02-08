@@ -46,7 +46,7 @@ You can open an `Issue` and there you must describe the feedback, the bug or the
 
 See folder <code>screenshots</code> to see screenshots also of the older versions.
 
-<img src="screenshots/3.7/1.png" width="400px"></img> <img src="screenshots/3.7/2.png" width="400px"></img> <img src="screenshots/3.7/3.png" width="400px"></img> <img src="screenshots/3.7/4.png" width="400px"></img>
+<img src="screenshots/3.10/1.png" width="400px"></img> <img src="screenshots/3.10/2.png" width="400px"></img> <img src="screenshots/3.10/3.png" width="400px"></img> <img src="screenshots/3.10/4.png" width="400px"></img>
 
 ## License
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FSav22999%2Femoji.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FSav22999%2Femoji?ref=badge_large)
