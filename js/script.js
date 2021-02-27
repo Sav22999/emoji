@@ -10,9 +10,9 @@ var skin_tone_selected = ""; //nothing
 var skin_tone_previous = "";
 var multi_copy = "no";
 
-var deleting = false;
+var all_emojis = [];
 
-var first_replacement = true;
+var deleting = false;
 
 var number_of_emojis_generations = 0;
 
@@ -270,27 +270,34 @@ function generateEmojis(title) {
         // it's the mostUsedEmojis section
         n_emojis = mostUsedEmojis.length;
         let tempEmojisJSON = mostUsedEmojis;
+        let tempEmojisToShow = "";
+
         for (let i = 0; i < n_emojis; i++) {
             let tooltipToUse = mostUsedEmojis[i].tooltip;
             if (tooltipToUse == undefined) {
                 tooltipToUse = "";
             }
-            document.getElementById("emojis").innerHTML += "<input type='button' class='emoji " + theme + "-button-emoji size-emoji-button-" + size_emojis + "' value='" + mostUsedEmojis[i].emoji + "' title='" + tooltipToUse + "' alt='" + tooltipToUse + "' />";
+            tempEmojisToShow += "<input type='button' class='emoji " + theme + "-button-emoji size-emoji-button-" + size_emojis + "' value='" + mostUsedEmojis[i].emoji + "' title='" + tooltipToUse + "' alt='" + tooltipToUse + "' />";
         }
         if (n_emojis == 0) {
             document.getElementById("emojis").innerHTML = "<div id='no_most_used_emojis'><span class='font-" + font_family + " margin-right-10 font-size-25'>😬</span> No most used emojis</div>";
+        } else {
+            document.getElementById("emojis").innerHTML = tempEmojisToShow;
         }
     } else {
         // other sections
-        n_emojis = Object.keys(emojis[title]).length;
-        let tempEmojisJSON = emojis[title];
+        n_emojis = Object.keys(all_emojis[title]).length;
+        let tempEmojisJSON = all_emojis[title];
+        let tempEmojisToShow = "";
+
         for (let i in tempEmojisJSON) {
             let tooltipToUse = tempEmojisJSON[i][0];
-            if (tooltipToUse == undefined) {
+            /*if (tooltipToUse == undefined) {
                 tooltipToUse = "";
-            }
-            document.getElementById("emojis").innerHTML += "<input type='button' class='emoji " + theme + "-button-emoji size-emoji-button-" + size_emojis + "' value='" + i + "' title='" + tooltipToUse + "' alt='" + tooltipToUse + "' />";
+            }*/
+            tempEmojisToShow += "<input type='button' class='emoji " + theme + "-button-emoji size-emoji-button-" + size_emojis + "' value='" + i + "' title='" + tooltipToUse + "' alt='" + tooltipToUse + "' />";
         }
+        document.getElementById("emojis").innerHTML = tempEmojisToShow;
     }
     for (let i = 0; i < n_emojis; i++) {
         document.getElementsByClassName("emoji")[i].onclick = function (e) {
@@ -305,8 +312,10 @@ function generateEmojis(title) {
 }
 
 function setPopUpUI() {
+    all_emojis = emojis.slice();
+
     // selectedTitle==1 means you are in mostUsedEmojis
-    let n_emojis = selectedTitle == 1 ? (max_columns * max_rows) : Object.keys(emojis[selectedTitle]).length;
+    let n_emojis = selectedTitle == 1 ? (max_columns * max_rows) : Object.keys(all_emojis[selectedTitle]).length;
     let rows = parseInt(n_emojis / max_columns + "");
     if ((n_emojis % max_columns) != 0) rows += 1;
 
@@ -718,21 +727,21 @@ function hideOpenedAddonMessage() {
 }
 
 function searchEmoji(value) {
-    emojis[0] = {};
+    all_emojis[0] = {};
     let n_results = 0;
     let max_results = (max_rows * max_columns) * 3;
     let valueToUse = value.toLowerCase().replace(".", "").replace("’", "'").replace("“", "\"").replace("”", "\"");
     let valueToCheck = valueToUse.replace(/\s/ig, "");
     if (valueToCheck.length > 1) {
         for (let title = 1; title < titles.length && n_results <= max_results; title++) {
-            for (let emoji in emojis[title]) {
+            for (let emoji in all_emojis[title]) {
                 if (n_results >= max_results) {
                     break;
                 }
-                for (let description in emojis[title][emoji]) {
-                    let tmp_str = emojis[title][emoji][description].toLowerCase().replace(".", "");
+                for (let description in all_emojis[title][emoji]) {
+                    let tmp_str = all_emojis[title][emoji][description].toLowerCase().replace(".", "");
                     if (tmp_str.includes(valueToUse) || valueToUse.includes(tmp_str)) {
-                        emojis[0][emoji] = [emojis[title][emoji][0]]; //add emoji to the list
+                        all_emojis[0][emoji] = [all_emojis[title][emoji][0]]; //add emoji to the list
                         n_results++;
                         break;
                     }
@@ -843,6 +852,7 @@ function saveSettings(reset = false) {
     number_of_emojis_generations = 0;
     focusSearchBox();
     setVariablesFromSettings(true);
+    setSkinToneEmojis();
 }
 
 function setVariablesFromSettings(resize_popup_ui = false) {
@@ -1011,19 +1021,16 @@ function removeThemeClassClass(class_to_use, index_to_use, details_to_use = "") 
 
 function setSkinToneEmojis() {
     let replacement_symbol = "[[*skin_tone*]]";
-    if (!first_replacement && skin_tone_previous != "") {
-        replacement_symbol = skin_tone_previous;
-    }
     if (skin_tone_selected === undefined) skin_tone_selected = "";
-    let string = [];
-    string[3] = (JSON.stringify(emojis[3])).replaceAll(replacement_symbol, skin_tone_selected);
-    string[8] = (JSON.stringify(emojis[8])).replaceAll(replacement_symbol, skin_tone_selected);
-    string[12] = (JSON.stringify(emojis[12])).replaceAll(replacement_symbol, skin_tone_selected);
+    let string = emojis.slice();
 
-    emojis[3] = JSON.parse(string[3]);
-    emojis[8] = JSON.parse(string[8]);
-    emojis[12] = JSON.parse(string[12]);
-    first_replacement = false;
+    string[3] = (JSON.stringify(string[3])).replaceAll(replacement_symbol, skin_tone_selected);
+    string[8] = (JSON.stringify(string[8])).replaceAll(replacement_symbol, skin_tone_selected);
+    string[12] = (JSON.stringify(string[12])).replaceAll(replacement_symbol, skin_tone_selected);
+
+    all_emojis[3] = JSON.parse(string[3]);
+    all_emojis[8] = JSON.parse(string[8]);
+    all_emojis[12] = JSON.parse(string[12]);
 }
 
 function editMode() {
@@ -1055,12 +1062,6 @@ function selectSkinToneButton(index) {
     document.getElementsByClassName("skin-tone-button")[3].classList.remove("skin-tone-button-selected"); //medium
     document.getElementsByClassName("skin-tone-button")[4].classList.remove("skin-tone-button-selected"); //medium-dark
     document.getElementsByClassName("skin-tone-button")[5].classList.remove("skin-tone-button-selected"); //dark
-
-    if (skin_tone_selected == "" && skin_tones[document.getElementById("skin-tone-selected").selectedIndex] != skin_tone_selected) {
-        document.getElementById("restart-pop-up").style.display = "block";
-    } else {
-        document.getElementById("restart-pop-up").style.display = "none";
-    }
 
     document.getElementsByClassName("skin-tone-button")[index].classList.add("skin-tone-button-selected");
 }
@@ -1114,12 +1115,12 @@ function searchForTooltip(emojiToSearch) {
     let found = false;
     let tooltipToReturn = "";
     for (let title = 1; title < titles.length && !found; title++) {
-        for (let emoji in emojis[title]) {
+        for (let emoji in all_emojis[title]) {
             if (found) {
                 break;
             }
             if (emoji == emojiToSearch) {
-                tooltipToReturn = emojis[title][emoji][0];
+                tooltipToReturn = all_emojis[title][emoji][0];
                 found = true;
             }
         }

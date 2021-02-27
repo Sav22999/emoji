@@ -24,6 +24,14 @@ function releaseNotes(release) {
             release_notes_text += "<li>Added tooltip also in <i>Most used section</i> (just for emoji you'll copy since now)</li>";
             release_notes_text += "<li>Fixed a bug with \"Auto-focus\" for the search box</li>";
             release_notes_text += "</ul>";
+            break;
+
+        case "3.10.2":
+            release_notes_text = "<ul>";
+            release_notes_text += "<li>Improved the speed to show emojis</li>";
+            release_notes_text += "<li>Now you can change skin-tone without restart pop-up {{emoji}}✌✌🏻✌🏼✌🏽✌🏾✌🏿{{emoji}}</li>";
+            release_notes_text += "</ul>";
+            break;
     }
     return release_notes_text;
 }
