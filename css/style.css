@@ -84,7 +84,7 @@ body {
     height: 40px;
     color: black;
     border: 0px;
-    border-radius: 3px;
+    border-radius: 5px;
     font-size: 22px;
     /*font-family: twemoji, sans-serif;*/
     margin: 5px;
@@ -196,7 +196,7 @@ body {
     color: rgb(221, 222, 223);
     z-index: 999;
     background-color: #3399ff;
-    border-radius: 3px;
+    border-radius: 5px;
     padding: 5px;
     margin: 0px;
     border: 0px solid transparent;
@@ -219,7 +219,7 @@ div#top-message {
     color: rgb(221, 222, 223);
     z-index: 999;
     background-color: #3399ff;
-    border-radius: 3px;
+    border-radius: 5px;
     padding: 5px;
     margin: 0px;
     border: 0px solid transparent;
@@ -387,7 +387,7 @@ div#review-message-buttons, div#top-message-buttons, div.message-buttons-contain
 }
 
 #search-bar-input {
-    border-radius: 3px;
+    border-radius: 5px;
     padding: 6px;
     padding-left: 30px;
     height: 32px;
@@ -468,8 +468,8 @@ div#review-message-buttons, div#top-message-buttons, div.message-buttons-contain
 #hide-settings-button {
     background-image: url("../img/close-dark.png");
     background-size: auto 12px;
-    top: 5px;
-    right: 5px;
+    top: 6px;
+    right: 6px;
 }
 
 #no_emojis_found,
@@ -595,7 +595,7 @@ div {
     padding-right: 15px;
     color: black;
     border: 0px;
-    border-radius: 3px;
+    border-radius: 5px;
     font-family: open-sans, sans-serif;
     background-image: url("../img/arrow-select.png");
     background-repeat: no-repeat;
@@ -679,13 +679,13 @@ div {
 }
 
 .dark-search-bar-input {
-    background-color: rgb(50, 50, 50);
-    border: 1px solid rgb(70, 70, 70);
+    background-color: rgb(70, 70, 70);
+    border: 1px solid rgb(90, 90, 90);
     color: #EEEEEE;
 }
 
 .dark-search-bar-input:hover {
-    border: 1px solid rgb(90, 90, 90);
+    border: 1px solid rgb(110, 110, 110);
 }
 
 .dark-section-title {
@@ -816,14 +816,14 @@ div {
 
 .button-yes {
     border-radius: 0px;
-    border-top-left-radius: 3px;
-    border-bottom-left-radius: 3px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
 .button-no {
     border-radius: 0px;
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 3px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
     margin-left: -5px;
 }
 
@@ -832,7 +832,7 @@ div {
     border: 2px solid #3399ff;
     position: relative;
     z-index: 9;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 
 .hidden {

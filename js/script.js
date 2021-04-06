@@ -324,7 +324,7 @@ function setPopUpUI() {
     versionNumberText = versionNumberText.replaceAll("{{*{{store-name}}*}}", storeNameAbbr[browserOrChromeIndex]);
     document.getElementById("version-number").innerHTML = versionNumberText;
 
-    document.getElementById("emojis").style.height = (max_rows * (size_emojis + 10) + 4) + "px";
+    document.getElementById("emojis").style.height = (max_rows * (size_emojis + 10) + 4) + "px"; //10: 5margin * 2, 4: 2margin * 2
     document.getElementById("popup-content").style.height = (max_rows * (size_emojis + 10) + 4 + 36 + (34 + 12)) + "px"; //36 is the height of titles, 34+12 because there is the search-box (and its margin)
 
     let widthToSet = (max_columns * (size_emojis + 10) + 4 + 10); //50 is the height of one row, 4 is the padding of emojis div, 10 is the width of scrollbar (customised), otherwise it would be 18
