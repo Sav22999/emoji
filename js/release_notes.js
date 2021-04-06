@@ -32,6 +32,12 @@ function releaseNotes(release) {
             release_notes_text += "<li>Now you can change skin-tone without restart pop-up {{emoji}}✌✌🏻✌🏼✌🏽✌🏾✌🏿{{emoji}}</li>";
             release_notes_text += "</ul>";
             break;
+
+        case "3.10.3":
+            release_notes_text = "<ul>";
+            release_notes_text += "<li>As many of you asked, I've added also LiberaPay to <i>Support my work</i> (to buy me a coffee) in Settings {{emoji}}☕{{/emoji}}</li>";
+            release_notes_text += "</ul>";
+            break;
     }
     return release_notes_text;
 }

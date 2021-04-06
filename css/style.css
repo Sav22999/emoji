@@ -112,7 +112,7 @@ body {
 .review-button:active,
 .message-button:active,
 .button:active {
-    box-shadow: 0px 0px 0px 2px #0a84ff, 0px 0px 0px 5px #b1d6fc;
+    box-shadow: 0px 0px 0px 2px #3399ff, 0px 0px 0px 5px #b1d6fc;
     z-index: 9;
 }
 
@@ -195,7 +195,7 @@ body {
     font-size: 16px;
     color: rgb(221, 222, 223);
     z-index: 999;
-    background-color: #0a84ff;
+    background-color: #3399ff;
     border-radius: 3px;
     padding: 5px;
     margin: 0px;
@@ -218,7 +218,7 @@ div#top-message {
     font-size: 16px;
     color: rgb(221, 222, 223);
     z-index: 999;
-    background-color: #0a84ff;
+    background-color: #3399ff;
     border-radius: 3px;
     padding: 5px;
     margin: 0px;
@@ -299,7 +299,7 @@ div#top-message {
 }
 
 .font-color-lightblue {
-    color: #0a84ff;
+    color: #3399ff;
 }
 
 .font-color-gray {
@@ -315,7 +315,7 @@ div#top-message {
 }
 
 .border-1-lightblue {
-    border: 1px solid #0a84ff;
+    border: 1px solid #3399ff;
 }
 
 .border-1-gray {
@@ -412,8 +412,8 @@ div#review-message-buttons, div#top-message-buttons, div.message-buttons-contain
 }
 
 #search-bar-input:focus {
-    border: 1px solid #0a84ff;
-    box-shadow: 0px 0px 0px 2px #0a84ff, 0px 0px 0px 5px #b1d6fc;
+    border: 1px solid #3399ff;
+    box-shadow: 0px 0px 0px 2px #3399ff, 0px 0px 0px 5px #b1d6fc;
 }
 
 #search-box {
@@ -531,7 +531,7 @@ div#settings-section {
     padding-left: 10px;
     padding-right: 10px;
     height: auto;
-    margin: 0px;
+    margin: 2px;
     font-size: 14px;
     font-family: open-sans, sans-serif;
 }
@@ -546,7 +546,7 @@ div {
     font-size: 14px;
     margin: 0px;
     background-color: inherit;
-    border-top: 1px solid #0a84ff;
+    border-top: 1px solid #3399ff;
     box-sizing: border-box;
     padding: 10px;
     font-family: open-sans, sans-serif;
@@ -575,7 +575,7 @@ div {
     height: 30px;
     font-family: open-sans, sans-serif;
     display: none;
-    color: #0a84ff;
+    color: #3399ff;
     font-style: italic;
     font-weight: bold;
     position: relative;
@@ -609,6 +609,10 @@ div {
     -moz-appearance: none;
     text-indent: 0px;
     text-overflow: '';
+}
+
+.select:hover {
+    background-color: rgb(221, 222, 223);
 }
 
 .select-small {
@@ -670,6 +674,10 @@ div {
     color: #EEEEEE;
 }
 
+.dark-select:hover {
+    background-color: rgb(50, 50, 50);
+}
+
 .dark-search-bar-input {
     background-color: rgb(50, 50, 50);
     border: 1px solid rgb(70, 70, 70);
@@ -726,13 +734,18 @@ div {
     width: 25px;
     height: 25px;
     display: inline-block;
-    opacity: .8;
+    opacity: 1;
     cursor: pointer;
     border-radius: 50%;
 }
 
 .skin-tone-button:hover {
-    opacity: 1;
+    opacity: 0.8;
+}
+
+.skin-tone-button:active, .skin-tone-button:focus {
+    box-shadow: 0px 0px 0px 1px #3399ff, 0px 0px 0px 4px #b1d6fc;
+    border: 1px solid #3399ff;
 }
 
 .skin-tone-button-selected {
@@ -782,12 +795,24 @@ div {
     cursor: pointer;
     color: inherit;
     text-align: center;
+    transition: 0.2s;
+    position: relative;
+    z-index: 8;
+}
+
+.button-yes-no:hover {
+    background-color: #3399ff44;
 }
 
 .button-yes-no-selected {
     background-color: #3399ff;
     color: #FFFFFF;
 }
+
+.button-yes-no-selected:hover {
+    background-color: #3399ff;
+}
+
 
 .button-yes {
     border-radius: 0px;
@@ -800,6 +825,14 @@ div {
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
     margin-left: -5px;
+}
+
+.button-yes-no:active, .button-yes-no:focus {
+    box-shadow: 0px 0px 0px 0px #3399ff, 0px 0px 0px 3px #b1d6fc;
+    border: 2px solid #3399ff;
+    position: relative;
+    z-index: 9;
+    border-radius: 3px;
 }
 
 .hidden {
