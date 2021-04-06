@@ -26,7 +26,7 @@ var browserAgentSettings = "";
 var font_family = ""; //twemoji (Twitter), notocoloremoji (Google), openmojicolor (OpenMoji), openmojiblack, default
 
 const linkReview = ["https://addons.mozilla.org/firefox/addon/emoji-sav/", "https://microsoftedge.microsoft.com/addons/detail/emoji/ejcgfbaipbelddlbokgcfajefbnnagfm", "https://chrome.google.com/webstore/detail/emoji/kjepehkgbooeigeflhiogplnckadlife?hl=it&authuser=0"];
-const linkDonate = ["https://bit.ly/3aJnnq7", "https://ko-fi.com/saveriomorelli"]; //{paypal, ko-fi}
+const linkDonate = ["https://www.paypal.com/pools/c/8yl6auiU6e", "https://ko-fi.com/saveriomorelli", "https://bit.ly/3eXs7Oy"]; //{paypal, ko-fi, liberapay}
 const linkNeedHelp = ["https://www.saveriomorelli.com/contact-me/"];
 const storeName = ["Firefox Add-ons", "Microsoft Edge Add-ons", "Google Chrome Web Store"];
 const fontFamily = ["twemoji", "notocoloremoji", "notocoloremoji"];
@@ -324,7 +324,7 @@ function setPopUpUI() {
     versionNumberText = versionNumberText.replaceAll("{{*{{store-name}}*}}", storeNameAbbr[browserOrChromeIndex]);
     document.getElementById("version-number").innerHTML = versionNumberText;
 
-    document.getElementById("emojis").style.height = (max_rows * (size_emojis + 10) + 4) + "px";
+    document.getElementById("emojis").style.height = (max_rows * (size_emojis + 10) + 4) + "px"; //10: 5margin * 2, 4: 2margin * 2
     document.getElementById("popup-content").style.height = (max_rows * (size_emojis + 10) + 4 + 36 + (34 + 12)) + "px"; //36 is the height of titles, 34+12 because there is the search-box (and its margin)
 
     let widthToSet = (max_columns * (size_emojis + 10) + 4 + 10); //50 is the height of one row, 4 is the padding of emojis div, 10 is the width of scrollbar (customised), otherwise it would be 18
@@ -501,6 +501,11 @@ function setPopUpUI() {
         browserAgentSettings.tabs.create({url: url_to_use});
         window.close();
     };
+    document.getElementById("donate-liberapay-settings").onclick = function () {
+        let url_to_use = linkDonate[2];
+        browserAgentSettings.tabs.create({url: url_to_use});
+        window.close();
+    };
 
     document.getElementById("columns-selected").onchange = function () {
         saveSettings();
@@ -640,6 +645,11 @@ function showMessageTop(text) {
     button_hide_element.innerHTML = "Hide";
 
     document.getElementById("top-message-buttons").append(button_hide_element);
+}
+
+function openLink(url) {
+    browserAgentSettings.tabs.create({url: url});
+    window.close();
 }
 
 function showMessageBottom(text = "Copied ✔", emoji_text = null) {
@@ -980,6 +990,7 @@ function setTheme() {
     removeThemeClassId("font-family-selected", "-select");
     removeThemeClassId("donate-paypal-settings", "-btn-settings-button");
     removeThemeClassId("donate-kofi-settings", "-btn-settings-button");
+    removeThemeClassId("donate-liberapay-settings", "-btn-settings-button");
 
     document.getElementById("popup-content").classList.add(theme);
     document.getElementById("search-bar-input").classList.add(theme + "-search-bar-input");
@@ -999,6 +1010,7 @@ function setTheme() {
     document.getElementById("reset-data-settings").classList.add(theme + "-btn-settings-button");
     document.getElementById("donate-paypal-settings").classList.add(theme + "-btn-settings-button");
     document.getElementById("donate-kofi-settings").classList.add(theme + "-btn-settings-button");
+    document.getElementById("donate-liberapay-settings").classList.add(theme + "-btn-settings-button");
 
     for (let n = 0; n < 7; n++) {
         removeThemeClassClass("subsection-settings", n, "-subsection-settings");
