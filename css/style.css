@@ -111,7 +111,7 @@ body {
 .emoji:focus,
 .review-button:active,
 .message-button:active,
-.button:active {
+.button:active, .button:focus {
     box-shadow: 0px 0px 0px 2px #3399ff, 0px 0px 0px 5px #b1d6fc;
     z-index: 9;
 }
@@ -175,14 +175,19 @@ body {
     transition: 0.1s;
 }
 
-.section-title:hover,
-.letter:hover {
+.section-title:hover, .letter:hover {
     background-color: rgb(221, 222, 223);
+}
+
+.section-title:focus {
+    background-color: rgb(231, 232, 233);
+    border-top: 3px solid rgb(201, 202, 203);
 }
 
 .section-title:active {
     background-color: rgb(201, 202, 203);
 }
+
 
 .character-copied, div#review-message, div#opened-addon-message {
     position: fixed;
@@ -615,6 +620,11 @@ div {
     background-color: rgb(221, 222, 223);
 }
 
+.select:focus, .select:active {
+    box-shadow: 0px 0px 0px 2px #3399ff, 0px 0px 0px 5px #b1d6fc;
+    z-index: 9;
+}
+
 .select-small {
     width: 100px;
     background-position: 70px center;
@@ -737,6 +747,7 @@ div {
     opacity: 1;
     cursor: pointer;
     border-radius: 50%;
+    transition: 0.1s;
 }
 
 .skin-tone-button:hover {
