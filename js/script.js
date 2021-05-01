@@ -81,7 +81,7 @@ function copyEmoji(text, tooltip) {
         if (multi_copy == "no") {
             copyText = copyEmojiTemp;
         } else {
-            copyText = copyText + copyEmojiTemp;
+            copyText = copyText + " " + copyEmojiTemp;
         }
         document.getElementById("text-to-copy").value = copyText;
         var copyTextTemp = document.getElementById("text-to-copy")
@@ -193,7 +193,7 @@ function sortMostUsedEmojis() {
 
 function generateTitles(search = false, titleToSet = 1, clearSearchBox = true) {
     let widthToSet = 0;
-    let titleLength = titles.length;
+    let titleLength = Object.keys(titles).length;
     let mostUsedLength = getMostUsedEmojisLength(titleToSet);
     if (mostUsedLength == 0) {
         titleLength -= 1;
@@ -204,11 +204,13 @@ function generateTitles(search = false, titleToSet = 1, clearSearchBox = true) {
     }
     widthToSet = 100 / titleLength;
     document.getElementById("titles").innerHTML = "";
-    for (let i = 0; i < titles.length; i++) {
-        document.getElementById("titles").innerHTML += "<input type='button' class='section-title " + theme + "' id='title" + i + "' value='" + titles[i] + "' />";
+    let i = 0;
+    for (let title in titles) {
+        document.getElementById("titles").innerHTML += "<input type='button' class='section-title " + theme + "' title='" + titles[title] + "' id='title" + i + "' value='" + title + "' />";
         document.getElementsByClassName("section-title")[i].style.width = widthToSet + "%";
+        i++;
     }
-    for (let i = 0; i < titles.length; i++) {
+    for (let i = 0; i < Object.keys(titles).length; i++) {
         if (i == 0) {
             if (!search) document.getElementsByClassName("section-title")[i].style.display = "none";
             else document.getElementsByClassName("section-title")[i].style.display = "inline-block";
@@ -743,17 +745,28 @@ function searchEmoji(value) {
     let valueToUse = value.toLowerCase().replace(".", "").replace("’", "'").replace("“", "\"").replace("”", "\"");
     let valueToCheck = valueToUse.replace(/\s/ig, "");
     if (valueToCheck.length > 1) {
-        for (let title = 1; title < titles.length && n_results <= max_results; title++) {
-            for (let emoji in all_emojis[title]) {
-                if (n_results >= max_results) {
-                    break;
-                }
-                for (let description in all_emojis[title][emoji]) {
-                    let tmp_str = all_emojis[title][emoji][description].toLowerCase().replace(".", "");
-                    if (tmp_str.includes(valueToUse) || valueToUse.includes(tmp_str)) {
-                        all_emojis[0][emoji] = [all_emojis[title][emoji][0]]; //add emoji to the list
-                        n_results++;
+        if (valueToCheck === "saverio" || valueToCheck === "sav22999") {
+            //easter egg
+            //show S A V E R I O
+            easter_egg_emojis = ["🔸", "🇸", "🇦", "🇻", "🇪", "🇷", "🇮", "🇴", "🔹"];
+            title = 5; //TODO: this index is fixed manually, and it's the "symbols" section
+            for (let index in easter_egg_emojis) {
+                all_emojis[0][easter_egg_emojis[index]] = [all_emojis[title][easter_egg_emojis[index]][0]]; //add emoji to the list
+                n_results++;
+            }
+        } else {
+            for (let title = 1; title < Object.keys(titles).length && n_results <= max_results; title++) {
+                for (let emoji in all_emojis[title]) {
+                    if (n_results >= max_results) {
                         break;
+                    }
+                    for (let description in all_emojis[title][emoji]) {
+                        let tmp_str = all_emojis[title][emoji][description].toLowerCase().replace(".", "");
+                        if (tmp_str.includes(valueToUse) || valueToUse.includes(tmp_str)) {
+                            all_emojis[0][emoji] = [all_emojis[title][emoji][0]]; //add emoji to the list
+                            n_results++;
+                            break;
+                        }
                     }
                 }
             }
@@ -1126,7 +1139,7 @@ function hideReleaseNotesMessage() {
 function searchForTooltip(emojiToSearch) {
     let found = false;
     let tooltipToReturn = "";
-    for (let title = 1; title < titles.length && !found; title++) {
+    for (let title = 1; title < Object.keys(titles).length && !found; title++) {
         for (let emoji in all_emojis[title]) {
             if (found) {
                 break;
