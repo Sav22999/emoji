@@ -81,7 +81,7 @@ function copyEmoji(text, tooltip) {
         if (multi_copy == "no") {
             copyText = copyEmojiTemp;
         } else {
-            copyText = copyText + copyEmojiTemp;
+            copyText = copyText + " " + copyEmojiTemp;
         }
         document.getElementById("text-to-copy").value = copyText;
         var copyTextTemp = document.getElementById("text-to-copy")
@@ -743,17 +743,28 @@ function searchEmoji(value) {
     let valueToUse = value.toLowerCase().replace(".", "").replace("’", "'").replace("“", "\"").replace("”", "\"");
     let valueToCheck = valueToUse.replace(/\s/ig, "");
     if (valueToCheck.length > 1) {
-        for (let title = 1; title < titles.length && n_results <= max_results; title++) {
-            for (let emoji in all_emojis[title]) {
-                if (n_results >= max_results) {
-                    break;
-                }
-                for (let description in all_emojis[title][emoji]) {
-                    let tmp_str = all_emojis[title][emoji][description].toLowerCase().replace(".", "");
-                    if (tmp_str.includes(valueToUse) || valueToUse.includes(tmp_str)) {
-                        all_emojis[0][emoji] = [all_emojis[title][emoji][0]]; //add emoji to the list
-                        n_results++;
+        if (valueToCheck === "saverio" || valueToCheck === "sav22999") {
+            //easter egg
+            //show S A V E R I O
+            easter_egg_emojis = ["🔸", "🇸", "🇦", "🇻", "🇪", "🇷", "🇮", "🇴", "🔹"];
+            title = 5; //TODO: this index is fixed manually, and it's the "symbols" section
+            for (let index in easter_egg_emojis) {
+                all_emojis[0][easter_egg_emojis[index]] = [all_emojis[title][easter_egg_emojis[index]][0]]; //add emoji to the list
+                n_results++;
+            }
+        } else {
+            for (let title = 1; title < titles.length && n_results <= max_results; title++) {
+                for (let emoji in all_emojis[title]) {
+                    if (n_results >= max_results) {
                         break;
+                    }
+                    for (let description in all_emojis[title][emoji]) {
+                        let tmp_str = all_emojis[title][emoji][description].toLowerCase().replace(".", "");
+                        if (tmp_str.includes(valueToUse) || valueToUse.includes(tmp_str)) {
+                            all_emojis[0][emoji] = [all_emojis[title][emoji][0]]; //add emoji to the list
+                            n_results++;
+                            break;
+                        }
                     }
                 }
             }

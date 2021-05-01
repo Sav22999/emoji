@@ -1,5 +1,21 @@
 // descriptions gave on Emojipedia.org
 var titles = ["🔍", "🕒", "😀", "🙋", "🦊", "🅰️", "🍎", "🏳️‍🌈", "🏊", "✈️", "🖱️", "👗", "🖐️", "🛎️"];
+var new_titles = {
+    "🔍": "Results",
+    "🕒": "Most used emojis",
+    "😀": "Smileys",
+    "🙋": "People",
+    "🦊": "Animals",
+    "🅰️": "Symbols",
+    "🍎": "Food and drinks",
+    "🏳️‍🌈": "Flags",
+    "🏊": "Sports",
+    "✈️": "Travel and places",
+    "🖱️": "Technologies and office",
+    "👗": "Clothes and accessories",
+    "🖐️": "Hands and parts of body",
+    "🛎️": "Other"
+};
 var emojis = [];
 
 /*search*/
@@ -1283,7 +1299,7 @@ emojis[9] = {
     "🛖": ["Hut"],
     "🎢": ["Roller Coaster", "Rollercoaster", "Theme Park"]
 };
-/*technologies (smartphones, laptops, ect.) and office*/
+/*technologies (smartphones, laptops, etc.) and office*/
 emojis[10] = {
     "⌚": ["Watch", "Timepiece", "Apple Watch"],
     "⏰": ["Alarm Clock"],
