@@ -193,7 +193,7 @@ function sortMostUsedEmojis() {
 
 function generateTitles(search = false, titleToSet = 1, clearSearchBox = true) {
     let widthToSet = 0;
-    let titleLength = titles.length;
+    let titleLength = Object.keys(titles).length;
     let mostUsedLength = getMostUsedEmojisLength(titleToSet);
     if (mostUsedLength == 0) {
         titleLength -= 1;
@@ -204,11 +204,13 @@ function generateTitles(search = false, titleToSet = 1, clearSearchBox = true) {
     }
     widthToSet = 100 / titleLength;
     document.getElementById("titles").innerHTML = "";
-    for (let i = 0; i < titles.length; i++) {
-        document.getElementById("titles").innerHTML += "<input type='button' class='section-title " + theme + "' id='title" + i + "' value='" + titles[i] + "' />";
+    let i = 0;
+    for (let title in titles) {
+        document.getElementById("titles").innerHTML += "<input type='button' class='section-title " + theme + "' title='" + titles[title] + "' id='title" + i + "' value='" + title + "' />";
         document.getElementsByClassName("section-title")[i].style.width = widthToSet + "%";
+        i++;
     }
-    for (let i = 0; i < titles.length; i++) {
+    for (let i = 0; i < Object.keys(titles).length; i++) {
         if (i == 0) {
             if (!search) document.getElementsByClassName("section-title")[i].style.display = "none";
             else document.getElementsByClassName("section-title")[i].style.display = "inline-block";
@@ -753,7 +755,7 @@ function searchEmoji(value) {
                 n_results++;
             }
         } else {
-            for (let title = 1; title < titles.length && n_results <= max_results; title++) {
+            for (let title = 1; title < Object.keys(titles).length && n_results <= max_results; title++) {
                 for (let emoji in all_emojis[title]) {
                     if (n_results >= max_results) {
                         break;
@@ -1137,7 +1139,7 @@ function hideReleaseNotesMessage() {
 function searchForTooltip(emojiToSearch) {
     let found = false;
     let tooltipToReturn = "";
-    for (let title = 1; title < titles.length && !found; title++) {
+    for (let title = 1; title < Object.keys(titles).length && !found; title++) {
         for (let emoji in all_emojis[title]) {
             if (found) {
                 break;

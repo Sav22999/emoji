@@ -1,6 +1,5 @@
 // descriptions gave on Emojipedia.org
-var titles = ["🔍", "🕒", "😀", "🙋", "🦊", "🅰️", "🍎", "🏳️‍🌈", "🏊", "✈️", "🖱️", "👗", "🖐️", "🛎️"];
-var new_titles = {
+var titles = {
     "🔍": "Results",
     "🕒": "Most used emojis",
     "😀": "Smileys",
