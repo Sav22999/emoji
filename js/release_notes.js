@@ -44,6 +44,7 @@ function releaseNotes(release) {
             release_notes_text += "<li>Fixed some bugs</li>";
             release_notes_text += "<li>Added an <i>Ester egg</i>: try to digit <i>Sav22999</i></li>";
             release_notes_text += "<li>Added description (tooltip) also for the section titles</li>";
+            release_notes_text += "<li>Improved the UX/UI</li>";
             release_notes_text += "</ul>";
             break;
     }
