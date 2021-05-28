@@ -1,4 +1,10 @@
-# <img src="img/icon-dark-96.png" width="40px" alt=""></img> Emoji
+<h1 align="center">
+    <br>
+    <img width="70" src="img/icon-dark-128.png" alt="Emoji icon" />
+    <br>
+</h1>
+
+
 Official repo of https://addons.mozilla.org/it/firefox/addon/emoji-sav/.
 
 [![GitHub release](https://img.shields.io/github/release/Sav22999/emoji.svg)](https://github.com/Sav22999/emoji/releases/) [![GitHub license](https://img.shields.io/github/license/Sav22999/emoji.svg)](https://github.com/Sav22999/emoji/blob/master/LICENSE) ![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
