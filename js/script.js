@@ -1,6 +1,7 @@
 var selectedTitle = 1;
 var char_copied_n = 0;
 
+var marginToUse = 10;
 var max_columns = 10;
 var max_rows = 6;
 var theme = 0;
@@ -61,6 +62,9 @@ function loaded() {
     document.getElementById("search-bar-input").onfocus = function () {
         number_of_emojis_generations = 0;
     }
+
+    setVariablesFromSettings(true);
+
     focusSearchBox();
 
     checkReview();
@@ -326,10 +330,10 @@ function setPopUpUI() {
     versionNumberText = versionNumberText.replaceAll("{{*{{store-name}}*}}", storeNameAbbr[browserOrChromeIndex]);
     document.getElementById("version-number").innerHTML = versionNumberText;
 
-    document.getElementById("emojis").style.height = (max_rows * (size_emojis + 10) + 4) + "px"; //10: 5margin * 2, 4: 2margin * 2
-    document.getElementById("popup-content").style.height = (max_rows * (size_emojis + 10) + 4 + 36 + (34 + 12)) + "px"; //36 is the height of titles, 34+12 because there is the search-box (and its margin)
+    document.getElementById("emojis").style.height = (max_rows * (size_emojis + marginToUse) + 4) + "px"; //10: 5margin * 2, 4: 2margin * 2
+    document.getElementById("popup-content").style.height = (max_rows * (size_emojis + marginToUse) + 4 + 36 + (34 + 12)) + "px"; //36 is the height of titles, 34+12 because there is the search-box (and its margin)
 
-    let widthToSet = (max_columns * (size_emojis + 10) + 4 + 10); //50 is the height of one row, 4 is the padding of emojis div, 10 is the width of scrollbar (customised), otherwise it would be 18
+    let widthToSet = (max_columns * (size_emojis + marginToUse) + 4 + 10); //50 is the height of one row, 4 is the padding of emojis div, 10 is the width of scrollbar (customised), otherwise it would be 18
 
     document.body.style.width = widthToSet + "px";
     document.getElementById("emojis").style.overflowY = "auto";
@@ -795,6 +799,8 @@ function setColumnsRowsSettings(value, selected_c = 2, selected_r = 2) {
         min_r = 4,
         max_r = 10;
 
+    marginToUse = 10;
+
     switch (value) {
         case "big":
             max_c = 13;
@@ -806,9 +812,22 @@ function setColumnsRowsSettings(value, selected_c = 2, selected_r = 2) {
             max_r = 7;
             break;
 
+        case "small":
+            min_c = 9;
+            marginToUse = 5;
+            break;
+
+        case "very small":
+            min_c = 10;
+            break;
+
         default:
+            max_c = 14;
+            max_r = 10;
+            marginToUse = 10;
         //nothing -> default value
     }
+
     if (selected_c == -1) selected_c = max_columns - min_c;
     if (selected_r == -1) selected_r = max_rows - min_r;
     generateColumnsSettings(min_c, max_c, selected_c);
