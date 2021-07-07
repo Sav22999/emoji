@@ -10,6 +10,8 @@ var auto_close = "no"; //yes, no
 var skin_tone_selected = ""; //nothing
 var skin_tone_previous = "";
 var multi_copy = "no";
+var extension_icon_selected = 0; //extension-icon-1
+var extension_icons = ["extension-icon-1", "extension-icon-2", "extension-icon-3", "extension-icon-4", "extension-icon-5", "extension-icon-6", "extension-icon-7", "extension-icon-8", "extension-icon-9", "extension-icon-10", "extension-icon-11"];
 
 var all_emojis = [];
 
@@ -63,9 +65,7 @@ function loaded() {
         number_of_emojis_generations = 0;
     }
 
-    setVariablesFromSettings(true);
-
-    focusSearchBox();
+    setVariablesFromSettings(true, true);
 
     checkReview();
     checkOpenedAddon();
@@ -379,6 +379,13 @@ function setPopUpUI() {
     }
     selectSkinToneButton(document.getElementById("skin-tone-selected").selectedIndex);
 
+    document.getElementById("extension-icon-selected").onchange = function () {
+        selectExtensionIconButton(document.getElementById("extension-icon-selected").selectedIndex);
+
+        saveSettings();
+    }
+    selectExtensionIconButton(document.getElementById("extension-icon-selected").selectedIndex);
+
     document.getElementById("font-family-selected").onchange = function () {
         checkFontFamily();
 
@@ -415,41 +422,22 @@ function setPopUpUI() {
     }
     selectYesNoTheme(document.getElementById("theme-selected").selectedIndex);
 
-    document.getElementById("skin-standard").onclick = function () {
-        document.getElementById("skin-tone-selected").selectedIndex = 0;
-        selectSkinToneButton(0);
+    for (let i = 0; i < 6; i++) {
+        document.getElementsByClassName("skin-tone-button")[i].onclick = function () {
+            document.getElementById("skin-tone-selected").selectedIndex = i;
+            selectSkinToneButton(i);
 
-        saveSettings();
+            saveSettings();
+        }
     }
-    document.getElementById("skin-light").onclick = function () {
-        document.getElementById("skin-tone-selected").selectedIndex = 1;
-        selectSkinToneButton(1);
 
-        saveSettings();
-    }
-    document.getElementById("skin-mlight").onclick = function () {
-        document.getElementById("skin-tone-selected").selectedIndex = 2;
-        selectSkinToneButton(2);
+    for (let i = 0; i < 11; i++) {
+        document.getElementsByClassName("extension-icon-button")[i].onclick = function () {
+            document.getElementById("extension-icon-selected").selectedIndex = i;
+            selectExtensionIconButton(i);
 
-        saveSettings();
-    }
-    document.getElementById("skin-medium").onclick = function () {
-        document.getElementById("skin-tone-selected").selectedIndex = 3;
-        selectSkinToneButton(3);
-
-        saveSettings();
-    }
-    document.getElementById("skin-mdark").onclick = function () {
-        document.getElementById("skin-tone-selected").selectedIndex = 4;
-        selectSkinToneButton(4);
-
-        saveSettings();
-    }
-    document.getElementById("skin-dark").onclick = function () {
-        document.getElementById("skin-tone-selected").selectedIndex = 5;
-        selectSkinToneButton(5);
-
-        saveSettings();
+            saveSettings();
+        }
     }
 
     document.getElementById("auto-close-yes").onclick = function () {
@@ -864,6 +852,7 @@ function saveSettings(reset = false) {
     let autoClosePopup = document.getElementById("close-popup-after-copied-selected").selectedIndex;
     let skinTone = document.getElementById("skin-tone-selected").selectedIndex;
     let multiCopy = document.getElementById("multi-copy-selected").selectedIndex;
+    let extensionIcon = document.getElementById("extension-icon-selected").selectedIndex;
 
     let jsonSettings = {
         "theme": theme,
@@ -873,7 +862,8 @@ function saveSettings(reset = false) {
         "font": fontFamily,
         "auto_close": autoClosePopup,
         "skin_tone": skinTone,
-        "multi_copy": multiCopy
+        "multi_copy": multiCopy,
+        "extension_icon": extensionIcon,
     };
     if (reset) {
         jsonSettings = {
@@ -884,7 +874,8 @@ function saveSettings(reset = false) {
             "font": 0,
             "auto_close": 1,
             "skin_tone": 0,
-            "multi_copy": 1
+            "multi_copy": 1,
+            "extension_icon": 0,
         };
     }
     browserAgentSettings.storage.sync.set({"settings": jsonSettings}, function () {
@@ -897,7 +888,7 @@ function saveSettings(reset = false) {
     setSkinToneEmojis();
 }
 
-function setVariablesFromSettings(resize_popup_ui = false) {
+function setVariablesFromSettings(resize_popup_ui = false, focus_search_box = false) {
     let themeElement = document.getElementById("theme-selected");
     let columnsElement = document.getElementById("columns-selected");
     let rowsElement = document.getElementById("rows-selected");
@@ -906,6 +897,7 @@ function setVariablesFromSettings(resize_popup_ui = false) {
     let autoClosePopupElement = document.getElementById("close-popup-after-copied-selected");
     let skinToneElement = document.getElementById("skin-tone-selected");
     let multiCopyElement = document.getElementById("multi-copy-selected");
+    let extensionIconElement = document.getElementById("extension-icon-selected");
 
     let jsonSettings = {
         "theme": 0,
@@ -915,7 +907,8 @@ function setVariablesFromSettings(resize_popup_ui = false) {
         "font": 0,
         "auto_close": 1,
         "skin_tone": 0,
-        "multi_copy": 1
+        "multi_copy": 1,
+        "extension_icon": 0,
     };
 
     let nameOfSetting = "settings";
@@ -933,6 +926,7 @@ function setVariablesFromSettings(resize_popup_ui = false) {
         autoClosePopupElement.selectedIndex = jsonSettings.auto_close;
         skinToneElement.selectedIndex = jsonSettings.skin_tone;
         multiCopyElement.selectedIndex = jsonSettings.multi_copy;
+        extensionIconElement.selectedIndex = jsonSettings.extension_icon;
 
         theme = themeElement.value.toLowerCase();
         max_columns = columnsElement.value;
@@ -965,6 +959,9 @@ function setVariablesFromSettings(resize_popup_ui = false) {
             default:
                 size_emojis = 40;
         }
+        extension_icon_selected = extensionIconElement.selectedIndex;
+
+        setExtensionIcon("../img/extension-icons/" + extension_icons[extension_icon_selected] + ".png");
 
         setFontFamily();
 
@@ -974,6 +971,10 @@ function setVariablesFromSettings(resize_popup_ui = false) {
             setPopUpUI();
             resetAndSetTitle();
             generateEmojis(1);
+        }
+
+        if (focus_search_box) {
+            focusSearchBox();
         }
     })
 }
@@ -1020,6 +1021,7 @@ function setTheme() {
     removeThemeClassId("multi-copy-selected", "-select");
     removeThemeClassId("skin-tone-selected", "-select");
     removeThemeClassId("font-family-selected", "-select");
+    removeThemeClassId("extension-icon-selected", "-select");
     removeThemeClassId("donate-paypal-settings", "-btn-settings-button");
     removeThemeClassId("donate-kofi-settings", "-btn-settings-button");
     removeThemeClassId("donate-liberapay-settings", "-btn-settings-button");
@@ -1038,13 +1040,14 @@ function setTheme() {
     document.getElementById("multi-copy-selected").classList.add(theme + "-select");
     document.getElementById("skin-tone-selected").classList.add(theme + "-select");
     document.getElementById("font-family-selected").classList.add(theme + "-select");
+    document.getElementById("extension-icon-selected").classList.add(theme + "-select");
     document.getElementById("save-data-settings").classList.add(theme + "-btn-settings-button");
     document.getElementById("reset-data-settings").classList.add(theme + "-btn-settings-button");
     document.getElementById("donate-paypal-settings").classList.add(theme + "-btn-settings-button");
     document.getElementById("donate-kofi-settings").classList.add(theme + "-btn-settings-button");
     document.getElementById("donate-liberapay-settings").classList.add(theme + "-btn-settings-button");
 
-    for (let n = 0; n < 7; n++) {
+    for (let n = 0; n < 8; n++) {
         removeThemeClassClass("subsection-settings", n, "-subsection-settings");
         document.getElementsByClassName("subsection-settings")[n].classList.add(theme + "-subsection-settings");
     }
@@ -1110,6 +1113,22 @@ function selectSkinToneButton(index) {
     document.getElementsByClassName("skin-tone-button")[index].classList.add("skin-tone-button-selected");
 }
 
+function selectExtensionIconButton(index) {
+    document.getElementsByClassName("extension-icon-button")[0].classList.remove("skin-tone-button-selected"); //extension-icon-1
+    document.getElementsByClassName("extension-icon-button")[1].classList.remove("skin-tone-button-selected"); //extension-icon-2
+    document.getElementsByClassName("extension-icon-button")[2].classList.remove("skin-tone-button-selected"); //extension-icon-3
+    document.getElementsByClassName("extension-icon-button")[3].classList.remove("skin-tone-button-selected"); //extension-icon-4
+    document.getElementsByClassName("extension-icon-button")[4].classList.remove("skin-tone-button-selected"); //extension-icon-5
+    document.getElementsByClassName("extension-icon-button")[5].classList.remove("skin-tone-button-selected"); //extension-icon-6
+    document.getElementsByClassName("extension-icon-button")[6].classList.remove("skin-tone-button-selected"); //extension-icon-7
+    document.getElementsByClassName("extension-icon-button")[7].classList.remove("skin-tone-button-selected"); //extension-icon-8
+    document.getElementsByClassName("extension-icon-button")[8].classList.remove("skin-tone-button-selected"); //extension-icon-9
+    document.getElementsByClassName("extension-icon-button")[9].classList.remove("skin-tone-button-selected"); //extension-icon-10
+    document.getElementsByClassName("extension-icon-button")[10].classList.remove("skin-tone-button-selected"); //extension-icon-11
+
+    document.getElementsByClassName("extension-icon-button")[index].classList.add("skin-tone-button-selected");
+}
+
 function selectYesNoAutoClose(index) {
     selectYesNoButton("auto-close-button", index)
 }
@@ -1170,6 +1189,10 @@ function searchForTooltip(emojiToSearch) {
         }
     }
     return tooltipToReturn;
+}
+
+function setExtensionIcon(url) {
+    browserAgentSettings.browserAction.setIcon({path: url});
 }
 
 loaded();

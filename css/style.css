@@ -165,7 +165,7 @@ body {
     border-radius: 0px;
     font-size: 16px;
     /*border-top: 3px solid rgb(10, 132, 255);*/
-    border-top: 3px solid transparent;;
+    border-top: 3px solid transparent;
     border-bottom: 1px solid rgb(201, 202, 203);
     font-family: inherit;
     margin: 0px;
@@ -721,11 +721,15 @@ div {
     padding: 5px;
 }
 
+.no-border-bottom {
+    border-bottom: 0px solid transparent;
+}
+
 .dark-subsection-settings {
     border-bottom: 1px solid #555555;
 }
 
-#skin-tone-container, #auto-close-container, #multi-copy-container, #theme-container {
+#skin-tone-container, #auto-close-container, #multi-copy-container, #theme-container, #extension-icon-container {
     position: relative;
     height: 30px;
     display: inline-block;
@@ -733,12 +737,24 @@ div {
     margin-left: 10px;
 }
 
+#extension-icon-section-container, #skin-tone-section-container {
+    min-height: 40px;
+}
+
+#skin-tone-section-container > .title-subsection-settings, #extension-icon-section-container > .title-subsection-settings {
+    margin-top: 3px;
+}
+
+#extension-icon-section-container > .title-subsection-settings {
+    margin-top: 6px;
+}
+
 #auto-close-container, #multi-copy-container, #theme-container {
     min-width: 100px;
     width: auto;
 }
 
-.skin-tone-button {
+.skin-tone-button, .extension-icon-button {
     border: 0px solid transparent;
     background: transparent;
     width: 25px;
@@ -750,16 +766,16 @@ div {
     transition: 0.1s;
 }
 
-.skin-tone-button:hover {
+.skin-tone-button:hover, .extension-icon-button:hover {
     opacity: 0.8;
 }
 
-.skin-tone-button:active, .skin-tone-button:focus {
+.skin-tone-button:active, .skin-tone-button:focus, .extension-icon-button:active, .extension-icon-button:focus {
     box-shadow: 0px 0px 0px 1px #3399ff, 0px 0px 0px 4px #b1d6fc;
     border: 1px solid #3399ff;
 }
 
-.skin-tone-button-selected {
+.skin-tone-button-selected, .extension-icon-button-selected {
     border: 2px solid #3399ff;
 }
 
@@ -787,7 +803,58 @@ div {
     background-color: #372323;
 }
 
-#skin-tone-container {
+.extension-icon-button {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 90% auto;
+    background-position: center center;
+}
+
+#extension-icon-1 {
+    background-image: url("../img/extension-icons/extension-icon-1.png");
+}
+
+#extension-icon-2 {
+    background-image: url("../img/extension-icons/extension-icon-2.png");
+}
+
+#extension-icon-3 {
+    background-image: url("../img/extension-icons/extension-icon-3.png");
+}
+
+#extension-icon-4 {
+    background-image: url("../img/extension-icons/extension-icon-4.png");
+}
+
+#extension-icon-5 {
+    background-image: url("../img/extension-icons/extension-icon-5.png");
+}
+
+#extension-icon-6 {
+    background-image: url("../img/extension-icons/extension-icon-6.png");
+}
+
+#extension-icon-7 {
+    background-image: url("../img/extension-icons/extension-icon-7.png");
+}
+
+#extension-icon-8 {
+    background-image: url("../img/extension-icons/extension-icon-8.png");
+}
+
+#extension-icon-9 {
+    background-image: url("../img/extension-icons/extension-icon-9.png");
+}
+
+#extension-icon-10 {
+    background-image: url("../img/extension-icons/extension-icon-10.png");
+}
+
+#extension-icon-11 {
+    background-image: url("../img/extension-icons/extension-icon-11.png");
+}
+
+#skin-tone-container, #extension-icon-container {
     position: absolute;
     height: 30px;
     display: inline-block;
