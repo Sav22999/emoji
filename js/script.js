@@ -11,7 +11,7 @@ var skin_tone_selected = ""; //nothing
 var skin_tone_previous = "";
 var multi_copy = "no";
 var extension_icon_selected = 0; //extension-icon-1
-var extension_icons = ["extension-icon-1", "extension-icon-2", "extension-icon-3", "extension-icon-4", "extension-icon-5", "extension-icon-6", "extension-icon-7", "extension-icon-8", "extension-icon-9", "extension-icon-10", "extension-icon-11"];
+const extension_icons = ["extension-icon-1", "extension-icon-2", "extension-icon-3", "extension-icon-4", "extension-icon-5", "extension-icon-6", "extension-icon-7", "extension-icon-8", "extension-icon-9", "extension-icon-10", "extension-icon-11"];
 
 var all_emojis = [];
 
@@ -19,7 +19,7 @@ var deleting = false;
 
 var number_of_emojis_generations = 0;
 
-var skin_tones = ["", "🏻", "🏼", "🏽", "🏾", "🏿"]; //standard(yellow)|light|medium-light|medium|medium-dark|dark
+const skin_tones = ["", "🏻", "🏼", "🏽", "🏾", "🏿"]; //standard(yellow)|light|medium-light|medium|medium-dark|dark
 
 var mostUsedEmojis = [];
 
@@ -48,20 +48,28 @@ const releaseNumber = browserAgentSettings.runtime.getManifest().version;
 
 var copyText = "";
 
+const titlesElement = document.getElementById("titles");
+const emojisElement = document.getElementById("emojis");
+const topSectionElement = document.getElementById("top-section");
+const searchBarInputElement = document.getElementById("search-bar-input");
+const textToCopyElement = document.getElementById("text-to-copy");
+const searchBoxElement = document.getElementById("search-box");
+const deleteButtonElement = document.getElementById("delete-button");
+
 setVariablesFromSettings(true);
 generateTitles();
 
 function loaded() {
-    document.getElementById("search-bar-input").onkeyup = function (e) {
-        searchEmoji(document.getElementById("search-bar-input").value);
+    searchBarInputElement.onkeyup = function (e) {
+        searchEmoji(searchBarInputElement.value);
         number_of_emojis_generations = 0;
     }
-    document.getElementById("search-bar-input").onkeydown = function (e) {
+    searchBarInputElement.onkeydown = function (e) {
         if (e.key == "Enter") {
             number_of_emojis_generations = 5;
         }
     }
-    document.getElementById("search-bar-input").onfocus = function () {
+    searchBarInputElement.onfocus = function () {
         number_of_emojis_generations = 0;
     }
 
@@ -74,24 +82,24 @@ function loaded() {
 
 function focusSearchBox() {
     number_of_emojis_generations = 0;
-    document.getElementById("search-bar-input").focus();
+    searchBarInputElement.focus();
 }
 
 function copyEmoji(text, tooltip) {
     let nameOfSetting = "mostUsed";
     if (!deleting) {
-        document.getElementById("text-to-copy").style.display = "block";
+        textToCopyElement.style.display = "block";
         let copyEmojiTemp = text;
         if (multi_copy == "no") {
             copyText = copyEmojiTemp;
         } else {
             copyText = copyText + " " + copyEmojiTemp;
         }
-        document.getElementById("text-to-copy").value = copyText;
-        var copyTextTemp = document.getElementById("text-to-copy")
+        textToCopyElement.value = copyText;
+        var copyTextTemp = textToCopyElement
         copyTextTemp.select();
         document.execCommand("copy");
-        document.getElementById("text-to-copy").style.display = "none";
+        textToCopyElement.style.display = "none";
         showMessageBottom("copied ✔", copyText);
 
         browserAgentSettings.storage.sync.get(nameOfSetting, function (value) {
@@ -204,13 +212,13 @@ function generateTitles(search = false, titleToSet = 1, clearSearchBox = true) {
     }
     if (!search) {
         titleLength -= 1
-        if (clearSearchBox) document.getElementById("search-bar-input").value = "";
+        if (clearSearchBox) searchBarInputElement.value = "";
     }
     widthToSet = 100 / titleLength;
-    document.getElementById("titles").innerHTML = "";
+    titlesElement.innerHTML = "";
     let i = 0;
     for (let title in titles) {
-        document.getElementById("titles").innerHTML += "<input type='button' class='section-title " + theme + "' title='" + titles[title] + "' id='title" + i + "' value='" + title + "' />";
+        titlesElement.innerHTML += "<input type='button' class='section-title " + theme + "' title='" + titles[title] + "' id='title" + i + "' value='" + title + "' />";
         document.getElementsByClassName("section-title")[i].style.width = widthToSet + "%";
         i++;
     }
@@ -260,17 +268,17 @@ function setTitle(newTitle) {
     generateEmojis(newTitle);
 
     if (selectedTitle == 1) {
-        document.getElementById("search-box").style.right = "80px";
-        document.getElementById("delete-button").style.display = "block";
+        searchBoxElement.style.right = "80px";
+        deleteButtonElement.style.display = "block";
     } else {
-        document.getElementById("search-box").style.right = "40px";
-        document.getElementById("delete-button").style.display = "none";
+        searchBoxElement.style.right = "40px";
+        deleteButtonElement.style.display = "none";
     }
 }
 
 function generateEmojis(title) {
-    document.getElementById("emojis").innerHTML = "";
-    document.getElementById("emojis").scrollTo(0, 0);
+    emojisElement.innerHTML = "";
+    emojisElement.scrollTo(0, 0);
     let n_emojis = 0;
     if (title == 1) {
         // it's the mostUsedEmojis section
@@ -286,9 +294,9 @@ function generateEmojis(title) {
             tempEmojisToShow += "<input type='button' class='emoji " + theme + "-button-emoji size-emoji-button-" + size_emojis + "' value='" + mostUsedEmojis[i].emoji + "' title='" + tooltipToUse + "' alt='" + tooltipToUse + "' />";
         }
         if (n_emojis == 0) {
-            document.getElementById("emojis").innerHTML = "<div id='no_most_used_emojis'><span class='font-" + font_family + " margin-right-10 font-size-25'>😬</span> No most used emojis</div>";
+            emojisElement.innerHTML = "<div id='no_most_used_emojis'><span class='font-" + font_family + " margin-right-10 font-size-25'>😬</span> No most used emojis</div>";
         } else {
-            document.getElementById("emojis").innerHTML = tempEmojisToShow;
+            emojisElement.innerHTML = tempEmojisToShow;
         }
     } else {
         // other sections
@@ -303,7 +311,7 @@ function generateEmojis(title) {
             }*/
             tempEmojisToShow += "<input type='button' class='emoji " + theme + "-button-emoji size-emoji-button-" + size_emojis + "' value='" + i + "' title='" + tooltipToUse + "' alt='" + tooltipToUse + "' />";
         }
-        document.getElementById("emojis").innerHTML = tempEmojisToShow;
+        emojisElement.innerHTML = tempEmojisToShow;
     }
     for (let i = 0; i < n_emojis; i++) {
         document.getElementsByClassName("emoji")[i].onclick = function (e) {
@@ -330,20 +338,20 @@ function setPopUpUI() {
     versionNumberText = versionNumberText.replaceAll("{{*{{store-name}}*}}", storeNameAbbr[browserOrChromeIndex]);
     document.getElementById("version-number").innerHTML = versionNumberText;
 
-    document.getElementById("emojis").style.height = (max_rows * (size_emojis + marginToUse) + 4) + "px"; //10: 5margin * 2, 4: 2margin * 2
+    emojisElement.style.height = (max_rows * (size_emojis + marginToUse) + 4) + "px"; //10: 5margin * 2, 4: 2margin * 2
     document.getElementById("popup-content").style.height = (max_rows * (size_emojis + marginToUse) + 4 + 36 + (34 + 12)) + "px"; //36 is the height of titles, 34+12 because there is the search-box (and its margin)
 
     let widthToSet = (max_columns * (size_emojis + marginToUse) + 4 + 10); //50 is the height of one row, 4 is the padding of emojis div, 10 is the width of scrollbar (customised), otherwise it would be 18
 
     document.body.style.width = widthToSet + "px";
-    document.getElementById("emojis").style.overflowY = "auto";
+    emojisElement.style.overflowY = "auto";
 
-    document.getElementById("emojis").scrollTop = (0, 0);
+    emojisElement.scrollTop = (0, 0);
 
     document.getElementById("settings-button").onclick = function () {
         showSettings();
     }
-    document.getElementById("delete-button").onclick = function () {
+    deleteButtonElement.onclick = function () {
         editMode();
     }
     document.getElementById("finish-edit-button").onclick = function () {
@@ -765,7 +773,7 @@ function searchEmoji(value) {
         }
         generateTitles(true, 0);
         if (n_results == 0) {
-            document.getElementById("emojis").innerHTML = "<div id='no_emojis_found'><span class='font-twemoji margin-right-10 font-size-25'>😟</span> No emojis found</div>";
+            emojisElement.innerHTML = "<div id='no_emojis_found'><span class='font-twemoji margin-right-10 font-size-25'>😟</span> No emojis found</div>";
         }
     } else {
         if (this.selectedTitle == 0) {
@@ -980,27 +988,13 @@ function setVariablesFromSettings(resize_popup_ui = false, focus_search_box = fa
 }
 
 function setFontFamily() {
-    document.getElementById("emojis").classList.remove("font-twemoji");
-    document.getElementById("emojis").classList.remove("font-notocoloremoji");
-    document.getElementById("emojis").classList.remove("font-openmojicolor");
-    document.getElementById("emojis").classList.remove("font-openmojiblack");
-    document.getElementById("emojis").classList.remove("font-default");
+    emojisElement.classList.remove("font-twemoji", "font-notocoloremoji", "font-openmojicolor", "font-openmojiblack", "font-default");
+    titlesElement.classList.remove("font-twemoji", "font-notocoloremoji", "font-openmojicolor", "font-openmojiblack", "font-default");
+    topSectionElement.classList.remove("font-twemoji", "font-notocoloremoji", "font-openmojicolor", "font-openmojiblack", "font-default");
 
-    document.getElementById("titles").classList.remove("font-twemoji");
-    document.getElementById("titles").classList.remove("font-notocoloremoji");
-    document.getElementById("titles").classList.remove("font-openmojicolor");
-    document.getElementById("titles").classList.remove("font-openmojiblack");
-    document.getElementById("titles").classList.remove("font-default");
-
-    document.getElementById("top-section").classList.remove("font-twemoji");
-    document.getElementById("top-section").classList.remove("font-notocoloremoji");
-    document.getElementById("top-section").classList.remove("font-openmojicolor");
-    document.getElementById("top-section").classList.remove("font-openmojiblack");
-    document.getElementById("top-section").classList.remove("font-default");
-
-    document.getElementById("emojis").classList.add("font-" + font_family);
-    document.getElementById("titles").classList.add("font-" + font_family);
-    document.getElementById("top-section").classList.add("font-" + font_family);
+    emojisElement.classList.add("font-" + font_family);
+    titlesElement.classList.add("font-" + font_family);
+    topSectionElement.classList.add("font-" + font_family);
 }
 
 function setTheme() {
@@ -1027,10 +1021,10 @@ function setTheme() {
     removeThemeClassId("donate-liberapay-settings", "-btn-settings-button");
 
     document.getElementById("popup-content").classList.add(theme);
-    document.getElementById("search-bar-input").classList.add(theme + "-search-bar-input");
+    searchBarInputElement.classList.add(theme + "-search-bar-input");
     document.getElementById("settings-button").classList.add(theme + "-settings-button");
     document.getElementById("settings-section").classList.add(theme + "-settings");
-    document.getElementById("delete-button").classList.add(theme + "-delete-button");
+    deleteButtonElement.classList.add(theme + "-delete-button");
     document.getElementById("finish-edit-button").classList.add(theme + "-finish-edit-button");
     document.getElementById("theme-selected").classList.add(theme + "-select");
     document.getElementById("columns-selected").classList.add(theme + "-select");
@@ -1081,52 +1075,43 @@ function setSkinToneEmojis() {
 }
 
 function editMode() {
-    document.getElementById("search-bar-input").style.display = "none";
+    searchBarInputElement.style.display = "none";
     document.getElementById("text-click-on-emoji-to-remove").style.display = "block";
     document.getElementById("finish-edit-button").style.display = "block";
-    document.getElementById("delete-button").style.display = "none";
-    document.getElementById("search-box").style.right = "128px";
-    if (document.getElementById("search-box").offsetWidth < 370) document.getElementById("text-click-on-emoji-to-remove").style.margin = "-1px";
+    deleteButtonElement.style.display = "none";
+    searchBoxElement.style.right = "128px";
+    if (searchBoxElement.offsetWidth < 370) document.getElementById("text-click-on-emoji-to-remove").style.margin = "-1px";
     else document.getElementById("text-click-on-emoji-to-remove").style.margin = "5px";
 
     deleting = true;
 }
 
 function finishEditMode() {
-    document.getElementById("search-bar-input").style.display = "block";
+    searchBarInputElement.style.display = "block";
     document.getElementById("text-click-on-emoji-to-remove").style.display = "none";
     document.getElementById("finish-edit-button").style.display = "none";
-    document.getElementById("delete-button").style.display = "block";
-    document.getElementById("search-box").style.right = "80px";
+    deleteButtonElement.style.display = "block";
+    searchBoxElement.style.right = "80px";
 
     deleting = false;
 }
 
 function selectSkinToneButton(index) {
-    document.getElementsByClassName("skin-tone-button")[0].classList.remove("skin-tone-button-selected"); //standard
-    document.getElementsByClassName("skin-tone-button")[1].classList.remove("skin-tone-button-selected"); //light
-    document.getElementsByClassName("skin-tone-button")[2].classList.remove("skin-tone-button-selected"); //medium-light
-    document.getElementsByClassName("skin-tone-button")[3].classList.remove("skin-tone-button-selected"); //medium
-    document.getElementsByClassName("skin-tone-button")[4].classList.remove("skin-tone-button-selected"); //medium-dark
-    document.getElementsByClassName("skin-tone-button")[5].classList.remove("skin-tone-button-selected"); //dark
+    //reset all buttons (skin)
+    document.querySelectorAll('.skin-tone-button').forEach((item) => {
+        item.classList.remove('skin-tone-button-selected');
+    });
 
     document.getElementsByClassName("skin-tone-button")[index].classList.add("skin-tone-button-selected");
 }
 
 function selectExtensionIconButton(index) {
-    document.getElementsByClassName("extension-icon-button")[0].classList.remove("skin-tone-button-selected"); //extension-icon-1
-    document.getElementsByClassName("extension-icon-button")[1].classList.remove("skin-tone-button-selected"); //extension-icon-2
-    document.getElementsByClassName("extension-icon-button")[2].classList.remove("skin-tone-button-selected"); //extension-icon-3
-    document.getElementsByClassName("extension-icon-button")[3].classList.remove("skin-tone-button-selected"); //extension-icon-4
-    document.getElementsByClassName("extension-icon-button")[4].classList.remove("skin-tone-button-selected"); //extension-icon-5
-    document.getElementsByClassName("extension-icon-button")[5].classList.remove("skin-tone-button-selected"); //extension-icon-6
-    document.getElementsByClassName("extension-icon-button")[6].classList.remove("skin-tone-button-selected"); //extension-icon-7
-    document.getElementsByClassName("extension-icon-button")[7].classList.remove("skin-tone-button-selected"); //extension-icon-8
-    document.getElementsByClassName("extension-icon-button")[8].classList.remove("skin-tone-button-selected"); //extension-icon-9
-    document.getElementsByClassName("extension-icon-button")[9].classList.remove("skin-tone-button-selected"); //extension-icon-10
-    document.getElementsByClassName("extension-icon-button")[10].classList.remove("skin-tone-button-selected"); //extension-icon-11
+    //reset all buttons (extension)
+    document.querySelectorAll('.extension-icon-button').forEach((item) => {
+        item.classList.remove('extension-icon-button-selected');
+    });
 
-    document.getElementsByClassName("extension-icon-button")[index].classList.add("skin-tone-button-selected");
+    document.getElementsByClassName("extension-icon-button")[index].classList.add("extension-icon-button-selected");
 }
 
 function selectYesNoAutoClose(index) {
