@@ -38,4 +38,3 @@ function setExtensionIcon(url) {
 
 loaded();
 
-console.log("<<__>>")
