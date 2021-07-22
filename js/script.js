@@ -236,6 +236,7 @@ function generateTitles(search = false, titleToSet = 1, clearSearchBox = true) {
     }
     for (let i = 0; i < Object.keys(titles).length; i++) {
         if (i == 0) {
+            //search title
             if (!search) document.getElementsByClassName("section-title")[i].style.display = "none";
             else document.getElementsByClassName("section-title")[i].style.display = "inline-block";
         } else {
@@ -274,9 +275,13 @@ function resetAndSetTitle(newTitle) {
 function setTitle(newTitle) {
     finishEditMode();
 
-    document.getElementsByClassName("section-title")[selectedTitle].style.borderTopColor = "transparent";
+    //old title
+    if (document.getElementsByClassName("section-title")[selectedTitle].classList.contains("section-title-selected")) {
+        document.getElementsByClassName("section-title")[selectedTitle].classList.remove("section-title-selected");
+    }
     selectedTitle = newTitle;
-    document.getElementsByClassName("section-title")[selectedTitle].style.borderTopColor = "rgb(10, 132, 255)";
+    //new title
+    document.getElementsByClassName("section-title")[selectedTitle].classList.add("section-title-selected");
     generateEmojis(newTitle);
 
     if (selectedTitle == 1) {

@@ -958,3 +958,18 @@ div {
 .font-bold {
     font-weight: bold;
 }
+
+.section-title-selected {
+    border-top: 3px solid rgb(10, 132, 255);
+    background-color: rgba(10, 132, 255, 0.1);
+}
+
+.section-title-selected:hover {
+    border-top: 3px solid rgb(10, 132, 255);
+    background-color: rgba(10, 132, 255, 0.2);
+}
+
+.section-title-selected:active, .section-title-selected:focus {
+    border-top: 3px solid rgb(10, 132, 255);
+    background-color: rgba(10, 132, 255, 0.3);
+}

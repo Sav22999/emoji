@@ -48,9 +48,9 @@ function releaseNotes(release) {
             release_notes_text += "</ul>";
             break;
 
-        case "3.111":
+        case "3.12":
             release_notes_text = "<ul>";
-            release_notes_text += "<li>Added a 'mini-popup' for emojis enabled to the skin-tones. Press <i>Right-click</i> on the emoji-buttons and you can choose quickly the selected emoji with a different skin-tone!</li>";
+            release_notes_text += "<li>Added quick choice of the skin-tone: press <i>Right-click</i> on an emoji and choose your needed skin-tone! (warning: the skin-tone in the emoji-picker will remain with the selected skin-tone, change it in Settings)</li>";
             release_notes_text += "<li>Added the customisation of the extension-icon, in Settings</li>";
             release_notes_text += "<li>Disabled the context-menu everywhere, except in the search-box</li>";
             release_notes_text += "<li>Fixed minor bugs</li>";
