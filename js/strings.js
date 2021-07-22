@@ -1,4 +1,4 @@
-var lang = "en";
+var lang = "en"; //use i18n language code of the browser, more details: https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/i18n/LanguageCode
 var settings_strings = {};
 settings_strings[lang] = {};
 

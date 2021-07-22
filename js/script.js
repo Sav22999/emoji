@@ -1,3 +1,10 @@
+var strings = {};
+strings["settings"] = {};
+strings["other"] = {};
+
+var titles = {};
+var emojis = [];
+
 var selectedTitle = 1;
 var char_copied_n = 0;
 
@@ -67,6 +74,7 @@ const textToCopyElement = document.getElementById("text-to-copy");
 const searchBoxElement = document.getElementById("search-box");
 const deleteButtonElement = document.getElementById("delete-button");
 
+setLanguageFile();
 setVariablesFromSettings(true);
 generateTitles();
 
@@ -1361,30 +1369,29 @@ function setExtensionIcon(url) {
     browserAgentSettings.browserAction.setIcon({path: url});
 }
 
-function setLanguageUI() {
-    var lang = browser.i18n.getUILanguage().toString();
-
-    var strings = {};
-    strings["settings"] = {};
-    strings["other"] = {};
+function setLanguageFile() {
+    var lang = browserAgentSettings.i18n.getUILanguage().toString();
 
     switch (lang) {
-        case "it":
         case "de":
         case "fr":
             //all supported languages
             strings["settings"] = settings_strings[lang];
             strings["other"] = other_strings[lang];
+            emojis = emojis_language[lang];
+            titles = titles_language[lang];
             break;
 
         default:
             //english
             strings["settings"] = settings_strings["en"];
             strings["other"] = other_strings["en"];
+            emojis = emojis_language["en"];
+            titles = titles_language["en"];
     }
+}
 
-    console.log(strings["settings"]);
-
+function setLanguageUI() {
     document.getElementById("search-bar-input").placeholder = strings["settings"]["placeholder-searchbox"];
     document.getElementById("text-click-on-emoji-to-remove").innerHTML = strings["settings"]["label-click-on-the-emojis"];
     document.getElementById("finish-edit-button").value = strings["settings"]["button-finish"];
