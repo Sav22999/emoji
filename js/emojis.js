@@ -1,4 +1,4 @@
-// descriptions gave on Emojipedia.org
+// descriptions took from Emojipedia.org
 var titles = {
     "🔍": "Results",
     "🕒": "Most used emojis",

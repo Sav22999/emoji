@@ -550,6 +550,7 @@ function setPopUpUI() {
 
     setSkinToneEmojis();
     setContextMenu();
+    setLanguageUI();
 }
 
 function setContextMenu() {
@@ -1075,15 +1076,24 @@ function setVariablesFromSettings(resize_popup_ui = false, focus_search_box = fa
         }
         setColumnsRowsSettings(emojisSizeElement.value.toLowerCase(), jsonSettings.columns, jsonSettings.rows);
 
-        themeElement.selectedIndex = jsonSettings.theme;
-        columnsElement.selectedIndex = jsonSettings.columns;
-        rowsElement.selectedIndex = jsonSettings.rows;
-        emojisSizeElement.selectedIndex = jsonSettings.size;
-        fontFamily.selectedIndex = jsonSettings.font;
-        autoClosePopupElement.selectedIndex = jsonSettings.auto_close;
-        skinToneElement.selectedIndex = jsonSettings.skin_tone;
-        multiCopyElement.selectedIndex = jsonSettings.multi_copy;
-        extensionIconElement.selectedIndex = jsonSettings.extension_icon;
+        themeElement.selectedIndex = 0;
+        if (jsonSettings.theme != undefined) themeElement.selectedIndex = jsonSettings.theme;
+        columnsElement.selectedIndex = 2;
+        if (jsonSettings.columns != undefined) columnsElement.selectedIndex = jsonSettings.columns;
+        rowsElement.selectedIndex = 2;
+        if (jsonSettings.rows != undefined) rowsElement.selectedIndex = jsonSettings.rows;
+        emojisSizeElement.selectedIndex = 2;
+        if (jsonSettings.size != undefined) emojisSizeElement.selectedIndex = jsonSettings.size;
+        fontFamily.selectedIndex = 0;
+        if (jsonSettings.font != undefined) fontFamily.selectedIndex = jsonSettings.font;
+        autoClosePopupElement.selectedIndex = 1;
+        if (jsonSettings.auto_close != undefined) autoClosePopupElement.selectedIndex = jsonSettings.auto_close;
+        skinToneElement.selectedIndex = 0;
+        if (jsonSettings.skin_tone != undefined) skinToneElement.selectedIndex = jsonSettings.skin_tone;
+        multiCopyElement.selectedIndex = 1;
+        if (jsonSettings.multi_copy != undefined) multiCopyElement.selectedIndex = jsonSettings.multi_copy;
+        extensionIconElement.selectedIndex = 0;
+        if (jsonSettings.extension_icon != undefined) extensionIconElement.selectedIndex = jsonSettings.extension_icon;
 
         theme = themeElement.value.toLowerCase();
         max_columns = columnsElement.value;
@@ -1117,6 +1127,7 @@ function setVariablesFromSettings(resize_popup_ui = false, focus_search_box = fa
                 size_emojis = 40;
         }
         extension_icon_selected = extensionIconElement.selectedIndex;
+        if (extension_icon_selected == undefined) extension_icon_selected = 0;
 
         setExtensionIcon("../img/extension-icons/" + extension_icons[extension_icon_selected] + ".png");
 
@@ -1348,6 +1359,37 @@ function searchForTooltip(emojiToSearch) {
 
 function setExtensionIcon(url) {
     browserAgentSettings.browserAction.setIcon({path: url});
+}
+
+function setLanguageUI() {
+    var lang = browser.i18n.getUILanguage().toString();
+
+    var strings = {};
+    strings["settings"] = {};
+    strings["other"] = {};
+
+    switch (lang) {
+        case "it":
+        case "de":
+        case "fr":
+            //all supported languages
+            strings["settings"] = settings_strings[lang];
+            strings["other"] = other_strings[lang];
+            break;
+
+        default:
+            //english
+            strings["settings"] = settings_strings["en"];
+            strings["other"] = other_strings["en"];
+    }
+
+    console.log(strings["settings"]);
+
+    document.getElementById("search-bar-input").placeholder = strings["settings"]["placeholder-searchbox"];
+    document.getElementById("text-click-on-emoji-to-remove").innerHTML = strings["settings"]["label-click-on-the-emojis"];
+    document.getElementById("finish-edit-button").value = strings["settings"]["button-finish"];
+    document.getElementById("delete-button").title = strings["settings"]["label-delete-emoji"];
+    document.getElementById("settings-button").title = strings["settings"]["button-open-settings"];
 }
 
 loaded();
