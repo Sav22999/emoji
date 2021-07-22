@@ -36,6 +36,11 @@ const linkNeedHelp = ["https://www.saveriomorelli.com/contact-me/"];
 const storeName = ["Firefox Add-ons", "Microsoft Edge Add-ons", "Google Chrome Web Store"];
 const fontFamily = ["twemoji", "notocoloremoji", "notocoloremoji"];
 
+const hideChooseSkinToneMiniPopUpAfterSeconds = 5 * 1000; //5 seconds
+const hideMessageBottomAfterSeconds = 1500;
+
+var set_timeout_mini_popup = null;
+
 
 font_family = fontFamily[browserOrChromeIndex];
 
@@ -88,6 +93,7 @@ function focusSearchBox() {
 }
 
 function copyEmoji(text, tooltip) {
+    hideChooseSkinToneMiniPopUp();
     let nameOfSetting = "mostUsed";
     if (!deleting) {
         textToCopyElement.style.display = "block";
@@ -559,13 +565,8 @@ function setContextMenu() {
 }
 
 function showChooseSkinToneMiniPopUp(index, position) {
-    let content_to_show = "";
-    for (emoji in emojis_supporting_skin_tones[index]["emojis"]) {
-        content_to_show += " " + emojis_supporting_skin_tones[index]["emojis"][emoji] + "(" + emojis_supporting_skin_tones[index]["tooltip"] + ")";
-    }
-    console.log(content_to_show);
-
     let miniPopupSkinToneEmojiElement = document.getElementById("emoji-skin-choose");
+    miniPopupSkinToneEmojiElement.style.display = "block";
 
     miniPopupSkinToneEmojiElement.innerHTML = "";
     miniPopupSkinToneEmojiElement.scrollTo(0, 0);
@@ -585,10 +586,38 @@ function showChooseSkinToneMiniPopUp(index, position) {
     miniPopupSkinToneEmojiElement.innerHTML = tempEmojisToShow;
     for (let i = 0; i < n_emojis; i++) {
         document.getElementsByClassName("emoji-mini-popup")[i].onclick = function (e) {
-            console.log(e.button);
             copyEmoji(this.value, this.title);
         };
     }
+
+    miniPopupSkinToneEmojiElement.addEventListener("mouseenter", function () {
+        stopTimeoutMiniPopUp();
+    });
+    miniPopupSkinToneEmojiElement.addEventListener("mouseleave", function () {
+        startTimeoutMiniPopUp();
+    });
+
+    startTimeoutMiniPopUp();
+}
+
+function startTimeoutMiniPopUp() {
+    stopTimeoutMiniPopUp();
+    set_timeout_mini_popup = setTimeout(function () {
+        hideChooseSkinToneMiniPopUp()
+    }, hideChooseSkinToneMiniPopUpAfterSeconds);
+}
+
+function stopTimeoutMiniPopUp() {
+    if (set_timeout_mini_popup != null) {
+        clearTimeout(set_timeout_mini_popup);
+        set_timeout_mini_popup = null;
+    }
+}
+
+function hideChooseSkinToneMiniPopUp() {
+    document.getElementById("emoji-skin-choose").style.display = "none";
+
+    stopTimeoutMiniPopUp();
 }
 
 function checkFontFamily() {
@@ -732,7 +761,7 @@ function showMessageBottom(text = "Copied ✔", emoji_text = null) {
     document.getElementById("popup-content").append(text_message_to_show);
     setTimeout(function () {
         hideElement("character-copied-" + index_to_use);
-    }, 1500);
+    }, hideMessageBottomAfterSeconds);
 }
 
 function toggleElement(id_to_use) {
