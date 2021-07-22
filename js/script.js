@@ -4,6 +4,10 @@ var char_copied_n = 0;
 var marginToUse = 10;
 var max_columns = 10;
 var max_rows = 6;
+
+var height_of_the_popup = 0; //generated dynamically || useful to know the popup height
+var width_of_the_popup = 0; //generated dynamically || useful to know the popup width
+
 var theme = 0;
 var size_emojis = 40; //30, 35, 40, 50, 60
 var auto_close = "no"; //yes, no
@@ -14,6 +18,8 @@ var extension_icon_selected = 0; //extension-icon-1
 const extension_icons = ["extension-icon-1", "extension-icon-2", "extension-icon-3", "extension-icon-4", "extension-icon-5", "extension-icon-6", "extension-icon-7", "extension-icon-8", "extension-icon-9", "extension-icon-10", "extension-icon-11"];
 
 var all_emojis = [];
+var emojis_supporting_skin_tones = {};
+var contextmenu_set = false;
 
 var deleting = false;
 
@@ -33,6 +39,11 @@ const linkDonate = ["https://www.paypal.com/pools/c/8yl6auiU6e", "https://ko-fi.
 const linkNeedHelp = ["https://www.saveriomorelli.com/contact-me/"];
 const storeName = ["Firefox Add-ons", "Microsoft Edge Add-ons", "Google Chrome Web Store"];
 const fontFamily = ["twemoji", "notocoloremoji", "notocoloremoji"];
+
+const hideChooseSkinToneMiniPopUpAfterSeconds = 2 * 1000; //2 seconds
+const hideMessageBottomAfterSeconds = 1500;
+
+var set_timeout_mini_popup = null;
 
 
 font_family = fontFamily[browserOrChromeIndex];
@@ -86,6 +97,7 @@ function focusSearchBox() {
 }
 
 function copyEmoji(text, tooltip) {
+    hideChooseSkinToneMiniPopUp();
     let nameOfSetting = "mostUsed";
     if (!deleting) {
         textToCopyElement.style.display = "block";
@@ -197,9 +209,9 @@ function removeFromMostUsed(emoji) {
 }
 
 function sortMostUsedEmojis() {
-    mostUsedEmojis.sort(function (elA, elB) {
+    mostUsedEmojis.sort(function (itemA, itemB) {
         // sort based on occurrences (before most used)
-        return elA.occurrences < elB.occurrences;
+        return itemA.occurrences < itemB.occurrences;
     });
 }
 
@@ -224,6 +236,7 @@ function generateTitles(search = false, titleToSet = 1, clearSearchBox = true) {
     }
     for (let i = 0; i < Object.keys(titles).length; i++) {
         if (i == 0) {
+            //search title
             if (!search) document.getElementsByClassName("section-title")[i].style.display = "none";
             else document.getElementsByClassName("section-title")[i].style.display = "inline-block";
         } else {
@@ -262,9 +275,13 @@ function resetAndSetTitle(newTitle) {
 function setTitle(newTitle) {
     finishEditMode();
 
-    document.getElementsByClassName("section-title")[selectedTitle].style.borderTopColor = "transparent";
+    //old title
+    if (document.getElementsByClassName("section-title")[selectedTitle].classList.contains("section-title-selected")) {
+        document.getElementsByClassName("section-title")[selectedTitle].classList.remove("section-title-selected");
+    }
     selectedTitle = newTitle;
-    document.getElementsByClassName("section-title")[selectedTitle].style.borderTopColor = "rgb(10, 132, 255)";
+    //new title
+    document.getElementsByClassName("section-title")[selectedTitle].classList.add("section-title-selected");
     generateEmojis(newTitle);
 
     if (selectedTitle == 1) {
@@ -277,6 +294,7 @@ function setTitle(newTitle) {
 }
 
 function generateEmojis(title) {
+    hideChooseSkinToneMiniPopUp();
     emojisElement.innerHTML = "";
     emojisElement.scrollTo(0, 0);
     let n_emojis = 0;
@@ -321,8 +339,9 @@ function generateEmojis(title) {
     if (n_emojis > 0 && number_of_emojis_generations > 4) {
         document.getElementsByClassName("emoji")[0].focus();
     }
-    number_of_emojis_generations++
+    number_of_emojis_generations++;
     //setPopUpUI();
+    setContextMenu();
 }
 
 function setPopUpUI() {
@@ -341,12 +360,15 @@ function setPopUpUI() {
     emojisElement.style.height = (max_rows * (size_emojis + marginToUse) + 4) + "px"; //10: 5margin * 2, 4: 2margin * 2
     document.getElementById("popup-content").style.height = (max_rows * (size_emojis + marginToUse) + 4 + 36 + (34 + 12)) + "px"; //36 is the height of titles, 34+12 because there is the search-box (and its margin)
 
-    let widthToSet = (max_columns * (size_emojis + marginToUse) + 4 + 10); //50 is the height of one row, 4 is the padding of emojis div, 10 is the width of scrollbar (customised), otherwise it would be 18
+    let widthToSet = (max_columns * (size_emojis + marginToUse) + 4 + 10); //4 is the padding of emojis div, 10 is the width of scrollbar (customised), otherwise it would be 18
 
     document.body.style.width = widthToSet + "px";
     emojisElement.style.overflowY = "auto";
 
     emojisElement.scrollTop = (0, 0);
+
+    height_of_the_popup = document.body.offsetHeight;
+    width_of_the_popup = document.body.offsetWidth;
 
     document.getElementById("settings-button").onclick = function () {
         showSettings();
@@ -524,7 +546,133 @@ function setPopUpUI() {
         window.close();
     };
 
+    document.getElementsByClassName("theme-button")[0].focus(); //after saveSettings get again focus of the first element in Settings
+
     setSkinToneEmojis();
+    setContextMenu();
+}
+
+function setContextMenu() {
+    if (!contextmenu_set) {
+        contextmenu_set = true;
+        document.addEventListener("contextmenu",
+            function (e) {
+                let classNames = e.target.className.split(" ");
+                if (classNames.includes("emoji") && !classNames.includes("emoji-mini-popup")) {
+                    //right-click
+                    let index_to_use = 0;
+                    for (index_to_use in emojis_supporting_skin_tones) {
+                        if (emojis_supporting_skin_tones[index_to_use]["emojis"].includes(e.target.value)) {
+                            //show "sub-popup" (choose another skin-tone for the selected emoji)
+                            showChooseSkinToneMiniPopUp(index_to_use, e.clientX, e.clientY);
+                        }
+                    }
+                }
+
+                if (!(e.target.nodeName == "INPUT" && e.target.type == "search")) {
+                    e.preventDefault();
+                    //show (default) context menu just for the "search-box"
+                }
+            }, false);
+        emojisElement.addEventListener("scroll", function () {
+            hideChooseSkinToneMiniPopUp();
+        });
+    }
+}
+
+function showChooseSkinToneMiniPopUp(index, positionX, positionY) {
+    let miniPopupSkinToneEmojiElement = document.getElementById("emoji-skin-choose");
+
+    miniPopupSkinToneEmojiElement.innerHTML = "";
+    let n_emojis = Object.keys(emojis_supporting_skin_tones[index]["emojis"]).length;
+
+    miniPopupSkinToneEmojiElement.style.width = (n_emojis * (size_emojis + marginToUse) + 4 + 4) + "px"; //4 is the padding of emojis div
+
+    let tempEmojisJSON = emojis_supporting_skin_tones[index];
+    let tempEmojisToShow = "";
+
+    for (let i in tempEmojisJSON["emojis"]) {
+        let emoji_temp = tempEmojisJSON["emojis"][i];
+        let tooltipToUse = tempEmojisJSON["tooltip"];
+        if (tooltipToUse == undefined) {
+            tooltipToUse = "";
+        }
+        tempEmojisToShow += "<input type='button' class='emoji emoji-mini-popup " + theme + "-button-emoji size-emoji-button-" + size_emojis + "' value='" + emoji_temp + "' title='" + tooltipToUse + "' alt='" + tooltipToUse + "' />";
+    }
+    miniPopupSkinToneEmojiElement.innerHTML = tempEmojisToShow;
+    for (let i = 0; i < n_emojis; i++) {
+        document.getElementsByClassName("emoji-mini-popup")[i].onclick = function (e) {
+            copyEmoji(this.value, this.title);
+        };
+    }
+
+    miniPopupSkinToneEmojiElement.style.display = "block";
+    const miniPopUpWidth = miniPopupSkinToneEmojiElement.offsetWidth;
+    const miniPopUpHeight = miniPopupSkinToneEmojiElement.offsetHeight;
+    miniPopupSkinToneEmojiElement.style.display = "none";
+
+    let topToUse = 0;
+    let leftToUse = 0;
+
+    const fixedAdditionalMargin = 2;
+
+    const marginTopTemp = emojisElement.offsetTop;
+
+    const condition1 = (positionY + miniPopUpHeight + fixedAdditionalMargin > height_of_the_popup);
+    const condition2 = (positionY - miniPopUpHeight / 2 - fixedAdditionalMargin <= (marginTopTemp));
+
+    if (condition1 && !condition2) {
+        topToUse = height_of_the_popup - miniPopUpHeight - fixedAdditionalMargin;
+    } else if (!condition1 && condition2) {
+        topToUse = marginTopTemp - fixedAdditionalMargin;
+    } else {
+        topToUse = positionY - miniPopUpHeight / 2 - fixedAdditionalMargin;
+    }
+
+    const condition3 = (positionX + miniPopUpWidth / 2 + fixedAdditionalMargin > width_of_the_popup);
+    const condition4 = (positionX - miniPopUpWidth / 2 - fixedAdditionalMargin <= (0));
+
+    if (condition3 && !condition4) {
+        leftToUse = width_of_the_popup - miniPopUpWidth - fixedAdditionalMargin;
+    } else if (!condition3 && condition4) {
+        leftToUse = fixedAdditionalMargin;
+    } else {
+        leftToUse = positionX - miniPopUpWidth / 2 - fixedAdditionalMargin;
+    }
+
+    miniPopupSkinToneEmojiElement.style.top = topToUse + "px";
+    miniPopupSkinToneEmojiElement.style.left = leftToUse + "px";
+
+    miniPopupSkinToneEmojiElement.style.display = "block";
+
+    miniPopupSkinToneEmojiElement.addEventListener("mouseenter", function () {
+        stopTimeoutMiniPopUp();
+    });
+    miniPopupSkinToneEmojiElement.addEventListener("mouseleave", function () {
+        startTimeoutMiniPopUp();
+    });
+
+    startTimeoutMiniPopUp();
+}
+
+function startTimeoutMiniPopUp() {
+    stopTimeoutMiniPopUp();
+    set_timeout_mini_popup = setTimeout(function () {
+        hideChooseSkinToneMiniPopUp()
+    }, hideChooseSkinToneMiniPopUpAfterSeconds);
+}
+
+function stopTimeoutMiniPopUp() {
+    if (set_timeout_mini_popup != null) {
+        clearTimeout(set_timeout_mini_popup);
+        set_timeout_mini_popup = null;
+    }
+}
+
+function hideChooseSkinToneMiniPopUp() {
+    document.getElementById("emoji-skin-choose").style.display = "none";
+
+    stopTimeoutMiniPopUp();
 }
 
 function checkFontFamily() {
@@ -668,7 +816,7 @@ function showMessageBottom(text = "Copied ✔", emoji_text = null) {
     document.getElementById("popup-content").append(text_message_to_show);
     setTimeout(function () {
         hideElement("character-copied-" + index_to_use);
-    }, 1500);
+    }, hideMessageBottomAfterSeconds);
 }
 
 function toggleElement(id_to_use) {
@@ -784,6 +932,7 @@ function searchEmoji(value) {
 }
 
 function showSettings() {
+    hideChooseSkinToneMiniPopUp();
     showElement("settings-section");
 
     setVariablesFromSettings(true);
@@ -991,15 +1140,18 @@ function setFontFamily() {
     emojisElement.classList.remove("font-twemoji", "font-notocoloremoji", "font-openmojicolor", "font-openmojiblack", "font-default");
     titlesElement.classList.remove("font-twemoji", "font-notocoloremoji", "font-openmojicolor", "font-openmojiblack", "font-default");
     topSectionElement.classList.remove("font-twemoji", "font-notocoloremoji", "font-openmojicolor", "font-openmojiblack", "font-default");
+    document.getElementById("emoji-skin-choose").classList.remove("font-twemoji", "font-notocoloremoji", "font-openmojicolor", "font-openmojiblack", "font-default");
 
     emojisElement.classList.add("font-" + font_family);
     titlesElement.classList.add("font-" + font_family);
     topSectionElement.classList.add("font-" + font_family);
+    document.getElementById("emoji-skin-choose").classList.add("font-" + font_family);
 }
 
 function setTheme() {
     // theme=light, theme=dark
     removeThemeClassId("popup-content");
+    removeThemeClassId("emoji-skin-choose");
     removeThemeClassId("search-bar-input", "-search-bar-input");
     removeThemeClassId("settings-button", "-settings-button");
     removeThemeClassId("settings-section", "-settings");
@@ -1021,6 +1173,7 @@ function setTheme() {
     removeThemeClassId("donate-liberapay-settings", "-btn-settings-button");
 
     document.getElementById("popup-content").classList.add(theme);
+    document.getElementById("emoji-skin-choose").classList.add(theme);
     searchBarInputElement.classList.add(theme + "-search-bar-input");
     document.getElementById("settings-button").classList.add(theme + "-settings-button");
     document.getElementById("settings-section").classList.add(theme + "-settings");
@@ -1068,6 +1221,23 @@ function setSkinToneEmojis() {
     string[3] = (JSON.stringify(string[3])).replaceAll(replacement_symbol, skin_tone_selected);
     string[8] = (JSON.stringify(string[8])).replaceAll(replacement_symbol, skin_tone_selected);
     string[12] = (JSON.stringify(string[12])).replaceAll(replacement_symbol, skin_tone_selected);
+
+    let all_emojis_temp = all_emojis;
+    emojis_supporting_skin_tones = {};
+    let emoji_index_temp = 0;
+    for (emoji_key_temp in all_emojis_temp) {
+        for (emoji_value_temp in all_emojis_temp[emoji_key_temp]) {
+            if (emoji_value_temp.includes("[[*skin_tone*]]")) {
+                emoji_index_temp++;
+                emojis_supporting_skin_tones[emoji_index_temp] = {};
+                emojis_supporting_skin_tones[emoji_index_temp]["tooltip"] = all_emojis_temp[emoji_key_temp][emoji_value_temp][0];
+                emojis_supporting_skin_tones[emoji_index_temp]["emojis"] = [];
+                for (skin_tone_temp in skin_tones) {
+                    emojis_supporting_skin_tones[emoji_index_temp]["emojis"].push(emoji_value_temp.replace("[[*skin_tone*]]", skin_tones[skin_tone_temp]));
+                }
+            }
+        }
+    }
 
     all_emojis[3] = JSON.parse(string[3]);
     all_emojis[8] = JSON.parse(string[8]);
