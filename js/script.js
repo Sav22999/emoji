@@ -328,7 +328,6 @@ function generateEmojis(title) {
     }
     for (let i = 0; i < n_emojis; i++) {
         document.getElementsByClassName("emoji")[i].onclick = function (e) {
-            console.log(e.button);
             copyEmoji(this.value, this.title);
         };
     }
@@ -356,7 +355,7 @@ function setPopUpUI() {
     emojisElement.style.height = (max_rows * (size_emojis + marginToUse) + 4) + "px"; //10: 5margin * 2, 4: 2margin * 2
     document.getElementById("popup-content").style.height = (max_rows * (size_emojis + marginToUse) + 4 + 36 + (34 + 12)) + "px"; //36 is the height of titles, 34+12 because there is the search-box (and its margin)
 
-    let widthToSet = (max_columns * (size_emojis + marginToUse) + 4 + 10); //50 is the height of one row, 4 is the padding of emojis div, 10 is the width of scrollbar (customised), otherwise it would be 18
+    let widthToSet = (max_columns * (size_emojis + marginToUse) + 4 + 10); //4 is the padding of emojis div, 10 is the width of scrollbar (customised), otherwise it would be 18
 
     document.body.style.width = widthToSet + "px";
     emojisElement.style.overflowY = "auto";
@@ -542,6 +541,8 @@ function setPopUpUI() {
         window.close();
     };
 
+    document.getElementsByClassName("theme-button")[0].focus(); //after saveSettings get again focus of the first element in Settings
+
     setSkinToneEmojis();
     setContextMenu();
 }
@@ -579,6 +580,9 @@ function showChooseSkinToneMiniPopUp(index, positionX, positionY) {
 
     miniPopupSkinToneEmojiElement.innerHTML = "";
     let n_emojis = Object.keys(emojis_supporting_skin_tones[index]["emojis"]).length;
+
+    miniPopupSkinToneEmojiElement.style.width = (n_emojis * (size_emojis + marginToUse) + 4 + 4) + "px"; //4 is the padding of emojis div
+
     let tempEmojisJSON = emojis_supporting_skin_tones[index];
     let tempEmojisToShow = "";
 
@@ -598,32 +602,38 @@ function showChooseSkinToneMiniPopUp(index, positionX, positionY) {
     }
 
     miniPopupSkinToneEmojiElement.style.display = "block";
-    let miniPopUpWidth = miniPopupSkinToneEmojiElement.offsetWidth;
-    let miniPopUpHeight = miniPopupSkinToneEmojiElement.offsetHeight;
+    const miniPopUpWidth = miniPopupSkinToneEmojiElement.offsetWidth;
+    const miniPopUpHeight = miniPopupSkinToneEmojiElement.offsetHeight;
     miniPopupSkinToneEmojiElement.style.display = "none";
-
-    console.log("X: " + positionX + " - Y: " + positionY);
-    console.log("height: " + height_of_the_popup + " | width: " + width_of_the_popup);
-    console.log("height: " + miniPopUpHeight + " | width: " + miniPopUpWidth);
 
     let topToUse = 0;
     let leftToUse = 0;
 
     const fixedAdditionalMargin = 2;
 
-    if ((height_of_the_popup - positionY - fixedAdditionalMargin) > miniPopUpHeight) {
-        topToUse = positionY;
+    const marginTopTemp = emojisElement.offsetTop;
+
+    const condition1 = (positionY + miniPopUpHeight + fixedAdditionalMargin > height_of_the_popup);
+    const condition2 = (positionY - miniPopUpHeight / 2 - fixedAdditionalMargin <= (marginTopTemp));
+
+    if (condition1 && !condition2) {
+        topToUse = height_of_the_popup - miniPopUpHeight - fixedAdditionalMargin;
+    } else if (!condition1 && condition2) {
+        topToUse = marginTopTemp - fixedAdditionalMargin;
     } else {
-        topToUse = (height_of_the_popup - miniPopUpHeight - fixedAdditionalMargin);
+        topToUse = positionY - miniPopUpHeight / 2 - fixedAdditionalMargin;
     }
 
-    if ((width_of_the_popup - positionX - fixedAdditionalMargin) > miniPopUpWidth) {
-        leftToUse = positionX;
-    } else {
-        leftToUse = (width_of_the_popup - miniPopUpWidth - fixedAdditionalMargin);
-    }
+    const condition3 = (positionX + miniPopUpWidth / 2 + fixedAdditionalMargin > width_of_the_popup);
+    const condition4 = (positionX - miniPopUpWidth / 2 - fixedAdditionalMargin <= (0));
 
-    console.log("top: " + topToUse + " | left: " + leftToUse);
+    if (condition3 && !condition4) {
+        leftToUse = width_of_the_popup - miniPopUpWidth - fixedAdditionalMargin;
+    } else if (!condition3 && condition4) {
+        leftToUse = fixedAdditionalMargin;
+    } else {
+        leftToUse = positionX - miniPopUpWidth / 2 - fixedAdditionalMargin;
+    }
 
     miniPopupSkinToneEmojiElement.style.top = topToUse + "px";
     miniPopupSkinToneEmojiElement.style.left = leftToUse + "px";
@@ -645,8 +655,6 @@ function startTimeoutMiniPopUp() {
     set_timeout_mini_popup = setTimeout(function () {
         hideChooseSkinToneMiniPopUp()
     }, hideChooseSkinToneMiniPopUpAfterSeconds);
-
-    console.log("Started timeout");
 }
 
 function stopTimeoutMiniPopUp() {
@@ -654,8 +662,6 @@ function stopTimeoutMiniPopUp() {
         clearTimeout(set_timeout_mini_popup);
         set_timeout_mini_popup = null;
     }
-
-    console.log("Stopped timeout");
 }
 
 function hideChooseSkinToneMiniPopUp() {
@@ -1129,10 +1135,12 @@ function setFontFamily() {
     emojisElement.classList.remove("font-twemoji", "font-notocoloremoji", "font-openmojicolor", "font-openmojiblack", "font-default");
     titlesElement.classList.remove("font-twemoji", "font-notocoloremoji", "font-openmojicolor", "font-openmojiblack", "font-default");
     topSectionElement.classList.remove("font-twemoji", "font-notocoloremoji", "font-openmojicolor", "font-openmojiblack", "font-default");
+    document.getElementById("emoji-skin-choose").classList.remove("font-twemoji", "font-notocoloremoji", "font-openmojicolor", "font-openmojiblack", "font-default");
 
     emojisElement.classList.add("font-" + font_family);
     titlesElement.classList.add("font-" + font_family);
     topSectionElement.classList.add("font-" + font_family);
+    document.getElementById("emoji-skin-choose").classList.add("font-" + font_family);
 }
 
 function setTheme() {

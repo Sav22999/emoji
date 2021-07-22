@@ -47,6 +47,15 @@ function releaseNotes(release) {
             release_notes_text += "<li>Improved the UX/UI</li>";
             release_notes_text += "</ul>";
             break;
+
+        case "3.111":
+            release_notes_text = "<ul>";
+            release_notes_text += "<li>Added a 'mini-popup' for emojis enabled to the skin-tones. Press <i>Right-click</i> on the emoji-buttons and you can choose quickly the selected emoji with a different skin-tone!</li>";
+            release_notes_text += "<li>Added the customisation of the extension-icon, in Settings</li>";
+            release_notes_text += "<li>Disabled the context-menu everywhere, except in the search-box</li>";
+            release_notes_text += "<li>Fixed minor bugs</li>";
+            release_notes_text += "</ul>";
+            break;
     }
     return release_notes_text;
 }

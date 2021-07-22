@@ -764,6 +764,7 @@ div {
 
 #extension-icon-section-container > .title-subsection-settings {
     margin-top: 6px;
+    margin-left: 5px;
 }
 
 #auto-close-container, #multi-copy-container, #theme-container {
