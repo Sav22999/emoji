@@ -1,0 +1,11 @@
+<span {{properties}}>😬</span> No most used emojis
+<span {{properties}}>😟</span> No emojis found
+<span {{properties}}>🖋</span>️ If you like this addon, please review it on {{store}}.
+Review now
+I'll review later
+Sorry, I don't want
+<span {{properties}>😍</span> You opened this add-on exactly <span {{properties2}}>{{times}}</span> times since the installation!</div> <div {{properties3}}>If you like the add-on, please consider to buy me a coffee on PayPal to support my work.</div>
+Buy me a coffee on PayPal ☕
+Maybe another time
+Hide
+Copied ✔

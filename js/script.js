@@ -921,7 +921,7 @@ function searchEmoji(value) {
         }
         generateTitles(true, 0);
         if (n_results == 0) {
-            emojisElement.innerHTML = "<div id='no_emojis_found'><span class='font-twemoji margin-right-10 font-size-25'>😟</span> No emojis found</div>";
+            emojisElement.innerHTML = "<div id='no_emojis_found'><span class='font-" + font_family + " font-size-22 margin-right-5'>😟</span> No emojis found</div>";
         }
     } else {
         if (this.selectedTitle == 0) {
