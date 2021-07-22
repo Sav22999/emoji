@@ -537,11 +537,12 @@ function setContextMenu() {
         contextmenu_set = true;
         document.addEventListener("contextmenu",
             function (e) {
-                if (e.target.className.split(" ").includes("emoji")) {
+                let classNames = e.target.className.split(" ");
+                if (classNames.includes("emoji") && !classNames.includes("emoji-mini-popup")) {
                     //right-click
                     let index_to_use = 0;
                     for (index_to_use in emojis_supporting_skin_tones) {
-                        if (emojis_supporting_skin_tones[index_to_use].includes(e.target.value)) {
+                        if (emojis_supporting_skin_tones[index_to_use]["emojis"].includes(e.target.value)) {
                             //show "sub-popup" (choose another skin-tone for the selected emoji)
                             console.log(index_to_use);
                             showChooseSkinToneMiniPopUp(index_to_use);
@@ -559,8 +560,8 @@ function setContextMenu() {
 
 function showChooseSkinToneMiniPopUp(index, position) {
     let content_to_show = "";
-    for (emoji in emojis_supporting_skin_tones[index]) {
-        content_to_show += " " + emojis_supporting_skin_tones[index][emoji];
+    for (emoji in emojis_supporting_skin_tones[index]["emojis"]) {
+        content_to_show += " " + emojis_supporting_skin_tones[index]["emojis"][emoji] + "(" + emojis_supporting_skin_tones[index]["tooltip"] + ")";
     }
     console.log(content_to_show);
 
@@ -569,13 +570,13 @@ function showChooseSkinToneMiniPopUp(index, position) {
     miniPopupSkinToneEmojiElement.innerHTML = "";
     miniPopupSkinToneEmojiElement.scrollTo(0, 0);
     let title = selectedTitle;
-    let n_emojis = Object.keys(emojis_supporting_skin_tones[index]).length;
+    let n_emojis = Object.keys(emojis_supporting_skin_tones[index]["emojis"]).length;
     let tempEmojisJSON = emojis_supporting_skin_tones[index];
     let tempEmojisToShow = "";
 
-    for (let i in tempEmojisJSON) {
-        let emoji_temp = emojis_supporting_skin_tones[index][i];
-        let tooltipToUse = tempEmojisJSON[i][0];
+    for (let i in tempEmojisJSON["emojis"]) {
+        let emoji_temp = tempEmojisJSON["emojis"][i];
+        let tooltipToUse = tempEmojisJSON["tooltip"];
         if (tooltipToUse == undefined) {
             tooltipToUse = "";
         }
@@ -585,7 +586,7 @@ function showChooseSkinToneMiniPopUp(index, position) {
     for (let i = 0; i < n_emojis; i++) {
         document.getElementsByClassName("emoji-mini-popup")[i].onclick = function (e) {
             console.log(e.button);
-            copyEmoji(this.value, "");
+            copyEmoji(this.value, this.title);
         };
     }
 }
@@ -1139,9 +1140,11 @@ function setSkinToneEmojis() {
         for (emoji_value_temp in all_emojis_temp[emoji_key_temp]) {
             if (emoji_value_temp.includes("[[*skin_tone*]]")) {
                 emoji_index_temp++;
-                emojis_supporting_skin_tones[emoji_index_temp] = [];
+                emojis_supporting_skin_tones[emoji_index_temp] = {};
+                emojis_supporting_skin_tones[emoji_index_temp]["tooltip"] = all_emojis_temp[emoji_key_temp][emoji_value_temp][0];
+                emojis_supporting_skin_tones[emoji_index_temp]["emojis"] = [];
                 for (skin_tone_temp in skin_tones) {
-                    emojis_supporting_skin_tones[emoji_index_temp].push(emoji_value_temp.replace("[[*skin_tone*]]", skin_tones[skin_tone_temp]));
+                    emojis_supporting_skin_tones[emoji_index_temp]["emojis"].push(emoji_value_temp.replace("[[*skin_tone*]]", skin_tones[skin_tone_temp]));
                 }
             }
         }
