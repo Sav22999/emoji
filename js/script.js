@@ -14,6 +14,8 @@ var extension_icon_selected = 0; //extension-icon-1
 const extension_icons = ["extension-icon-1", "extension-icon-2", "extension-icon-3", "extension-icon-4", "extension-icon-5", "extension-icon-6", "extension-icon-7", "extension-icon-8", "extension-icon-9", "extension-icon-10", "extension-icon-11"];
 
 var all_emojis = [];
+var emojis_supporting_skin_tones = {};
+var contextmenu_set = false;
 
 var deleting = false;
 
@@ -197,9 +199,9 @@ function removeFromMostUsed(emoji) {
 }
 
 function sortMostUsedEmojis() {
-    mostUsedEmojis.sort(function (elA, elB) {
+    mostUsedEmojis.sort(function (itemA, itemB) {
         // sort based on occurrences (before most used)
-        return elA.occurrences < elB.occurrences;
+        return itemA.occurrences < itemB.occurrences;
     });
 }
 
@@ -315,14 +317,16 @@ function generateEmojis(title) {
     }
     for (let i = 0; i < n_emojis; i++) {
         document.getElementsByClassName("emoji")[i].onclick = function (e) {
+            console.log(e.button);
             copyEmoji(this.value, this.title);
         };
     }
     if (n_emojis > 0 && number_of_emojis_generations > 4) {
         document.getElementsByClassName("emoji")[0].focus();
     }
-    number_of_emojis_generations++
+    number_of_emojis_generations++;
     //setPopUpUI();
+    setContextMenu();
 }
 
 function setPopUpUI() {
@@ -525,6 +529,65 @@ function setPopUpUI() {
     };
 
     setSkinToneEmojis();
+    setContextMenu();
+}
+
+function setContextMenu() {
+    if (!contextmenu_set) {
+        contextmenu_set = true;
+        document.addEventListener("contextmenu",
+            function (e) {
+                if (e.target.className.split(" ").includes("emoji")) {
+                    //right-click
+                    let index_to_use = 0;
+                    for (index_to_use in emojis_supporting_skin_tones) {
+                        if (emojis_supporting_skin_tones[index_to_use].includes(e.target.value)) {
+                            //show "sub-popup" (choose another skin-tone for the selected emoji)
+                            console.log(index_to_use);
+                            showChooseSkinToneMiniPopUp(index_to_use);
+                        }
+                    }
+                }
+
+                if (!(e.target.nodeName == "INPUT" && e.target.type == "search")) {
+                    e.preventDefault();
+                    //show (default) context menu just for the "search-box"
+                }
+            }, false);
+    }
+}
+
+function showChooseSkinToneMiniPopUp(index, position) {
+    let content_to_show = "";
+    for (emoji in emojis_supporting_skin_tones[index]) {
+        content_to_show += " " + emojis_supporting_skin_tones[index][emoji];
+    }
+    console.log(content_to_show);
+
+    let miniPopupSkinToneEmojiElement = document.getElementById("emoji-skin-choose");
+
+    miniPopupSkinToneEmojiElement.innerHTML = "";
+    miniPopupSkinToneEmojiElement.scrollTo(0, 0);
+    let title = selectedTitle;
+    let n_emojis = Object.keys(emojis_supporting_skin_tones[index]).length;
+    let tempEmojisJSON = emojis_supporting_skin_tones[index];
+    let tempEmojisToShow = "";
+
+    for (let i in tempEmojisJSON) {
+        let emoji_temp = emojis_supporting_skin_tones[index][i];
+        let tooltipToUse = tempEmojisJSON[i][0];
+        if (tooltipToUse == undefined) {
+            tooltipToUse = "";
+        }
+        tempEmojisToShow += "<input type='button' class='emoji emoji-mini-popup " + theme + "-button-emoji size-emoji-button-" + size_emojis + "' value='" + emoji_temp + "' title='" + tooltipToUse + "' alt='" + tooltipToUse + "' />";
+    }
+    miniPopupSkinToneEmojiElement.innerHTML = tempEmojisToShow;
+    for (let i = 0; i < n_emojis; i++) {
+        document.getElementsByClassName("emoji-mini-popup")[i].onclick = function (e) {
+            console.log(e.button);
+            copyEmoji(this.value, "");
+        };
+    }
 }
 
 function checkFontFamily() {
@@ -1068,6 +1131,21 @@ function setSkinToneEmojis() {
     string[3] = (JSON.stringify(string[3])).replaceAll(replacement_symbol, skin_tone_selected);
     string[8] = (JSON.stringify(string[8])).replaceAll(replacement_symbol, skin_tone_selected);
     string[12] = (JSON.stringify(string[12])).replaceAll(replacement_symbol, skin_tone_selected);
+
+    let all_emojis_temp = all_emojis;
+    emojis_supporting_skin_tones = {};
+    let emoji_index_temp = 0;
+    for (emoji_key_temp in all_emojis_temp) {
+        for (emoji_value_temp in all_emojis_temp[emoji_key_temp]) {
+            if (emoji_value_temp.includes("[[*skin_tone*]]")) {
+                emoji_index_temp++;
+                emojis_supporting_skin_tones[emoji_index_temp] = [];
+                for (skin_tone_temp in skin_tones) {
+                    emojis_supporting_skin_tones[emoji_index_temp].push(emoji_value_temp.replace("[[*skin_tone*]]", skin_tones[skin_tone_temp]));
+                }
+            }
+        }
+    }
 
     all_emojis[3] = JSON.parse(string[3]);
     all_emojis[8] = JSON.parse(string[8]);

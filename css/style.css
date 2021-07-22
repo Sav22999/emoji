@@ -72,6 +72,23 @@ body {
     padding: 2px;
     overflow: hidden;
     overflow-y: auto;
+    z-index: 0;
+}
+
+#emoji-skin-choose {
+    position: absolute;
+    width: auto;
+    height: auto;
+    margin: 0px;
+    padding: 2px;
+    overflow: hidden;
+    overflow-y: auto;
+    border-radius: 5px;
+    background-color: red;
+    z-index: 5;
+    display: block;
+    top: 40px;
+    left: 40px;
 }
 
 .emoji,
@@ -494,7 +511,6 @@ div#settings-section {
     right: 0px;
     padding: 10px;
     font-size: 18px;
-    z-index: 10;
     font-weight: normal;
     display: none;
     position: absolute;
