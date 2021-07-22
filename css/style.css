@@ -84,12 +84,11 @@ body {
     overflow: hidden;
     overflow-y: auto;
     border-radius: 5px;
-    background-color: #FFFFFF;
     border: 2px solid #3399ff;
     z-index: 5;
     display: none;
-    top: 40px;
-    left: 40px;
+    top: 0px;
+    left: 0px;
 }
 
 .emoji,
@@ -194,16 +193,16 @@ body {
 }
 
 .section-title:hover, .letter:hover {
-    background-color: rgb(221, 222, 223);
+    background-color: rgba(221, 222, 223, 0.3);
 }
 
 .section-title:focus {
-    background-color: rgb(231, 232, 233);
-    border-top: 3px solid rgb(201, 202, 203);
+    background-color: rgba(231, 232, 233, 0.3);
+    border-top: 3px solid rgba(201, 202, 203, 0.3);
 }
 
 .section-title:active {
-    background-color: rgb(201, 202, 203);
+    background-color: rgba(201, 202, 203, 0.3);
 }
 
 
@@ -659,6 +658,7 @@ div {
 
 /*Dark and light themes*/
 
+.light,
 .light-settings {
     background-color: #FFFFFF;
     color: #000000;

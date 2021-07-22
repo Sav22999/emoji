@@ -4,6 +4,10 @@ var char_copied_n = 0;
 var marginToUse = 10;
 var max_columns = 10;
 var max_rows = 6;
+
+var height_of_the_popup = 0; //generated dynamically || useful to know the popup height
+var width_of_the_popup = 0; //generated dynamically || useful to know the popup width
+
 var theme = 0;
 var size_emojis = 40; //30, 35, 40, 50, 60
 var auto_close = "no"; //yes, no
@@ -36,7 +40,7 @@ const linkNeedHelp = ["https://www.saveriomorelli.com/contact-me/"];
 const storeName = ["Firefox Add-ons", "Microsoft Edge Add-ons", "Google Chrome Web Store"];
 const fontFamily = ["twemoji", "notocoloremoji", "notocoloremoji"];
 
-const hideChooseSkinToneMiniPopUpAfterSeconds = 5 * 1000; //5 seconds
+const hideChooseSkinToneMiniPopUpAfterSeconds = 2 * 1000; //2 seconds
 const hideMessageBottomAfterSeconds = 1500;
 
 var set_timeout_mini_popup = null;
@@ -285,6 +289,7 @@ function setTitle(newTitle) {
 }
 
 function generateEmojis(title) {
+    hideChooseSkinToneMiniPopUp();
     emojisElement.innerHTML = "";
     emojisElement.scrollTo(0, 0);
     let n_emojis = 0;
@@ -357,6 +362,9 @@ function setPopUpUI() {
     emojisElement.style.overflowY = "auto";
 
     emojisElement.scrollTop = (0, 0);
+
+    height_of_the_popup = document.body.offsetHeight;
+    width_of_the_popup = document.body.offsetWidth;
 
     document.getElementById("settings-button").onclick = function () {
         showSettings();
@@ -550,8 +558,7 @@ function setContextMenu() {
                     for (index_to_use in emojis_supporting_skin_tones) {
                         if (emojis_supporting_skin_tones[index_to_use]["emojis"].includes(e.target.value)) {
                             //show "sub-popup" (choose another skin-tone for the selected emoji)
-                            console.log(index_to_use);
-                            showChooseSkinToneMiniPopUp(index_to_use);
+                            showChooseSkinToneMiniPopUp(index_to_use, e.clientX, e.clientY);
                         }
                     }
                 }
@@ -561,16 +568,16 @@ function setContextMenu() {
                     //show (default) context menu just for the "search-box"
                 }
             }, false);
+        emojisElement.addEventListener("scroll", function () {
+            hideChooseSkinToneMiniPopUp();
+        });
     }
 }
 
-function showChooseSkinToneMiniPopUp(index, position) {
+function showChooseSkinToneMiniPopUp(index, positionX, positionY) {
     let miniPopupSkinToneEmojiElement = document.getElementById("emoji-skin-choose");
-    miniPopupSkinToneEmojiElement.style.display = "block";
 
     miniPopupSkinToneEmojiElement.innerHTML = "";
-    miniPopupSkinToneEmojiElement.scrollTo(0, 0);
-    let title = selectedTitle;
     let n_emojis = Object.keys(emojis_supporting_skin_tones[index]["emojis"]).length;
     let tempEmojisJSON = emojis_supporting_skin_tones[index];
     let tempEmojisToShow = "";
@@ -590,6 +597,39 @@ function showChooseSkinToneMiniPopUp(index, position) {
         };
     }
 
+    miniPopupSkinToneEmojiElement.style.display = "block";
+    let miniPopUpWidth = miniPopupSkinToneEmojiElement.offsetWidth;
+    let miniPopUpHeight = miniPopupSkinToneEmojiElement.offsetHeight;
+    miniPopupSkinToneEmojiElement.style.display = "none";
+
+    console.log("X: " + positionX + " - Y: " + positionY);
+    console.log("height: " + height_of_the_popup + " | width: " + width_of_the_popup);
+    console.log("height: " + miniPopUpHeight + " | width: " + miniPopUpWidth);
+
+    let topToUse = 0;
+    let leftToUse = 0;
+
+    const fixedAdditionalMargin = 2;
+
+    if ((height_of_the_popup - positionY - fixedAdditionalMargin) > miniPopUpHeight) {
+        topToUse = positionY;
+    } else {
+        topToUse = (height_of_the_popup - miniPopUpHeight - fixedAdditionalMargin);
+    }
+
+    if ((width_of_the_popup - positionX - fixedAdditionalMargin) > miniPopUpWidth) {
+        leftToUse = positionX;
+    } else {
+        leftToUse = (width_of_the_popup - miniPopUpWidth - fixedAdditionalMargin);
+    }
+
+    console.log("top: " + topToUse + " | left: " + leftToUse);
+
+    miniPopupSkinToneEmojiElement.style.top = topToUse + "px";
+    miniPopupSkinToneEmojiElement.style.left = leftToUse + "px";
+
+    miniPopupSkinToneEmojiElement.style.display = "block";
+
     miniPopupSkinToneEmojiElement.addEventListener("mouseenter", function () {
         stopTimeoutMiniPopUp();
     });
@@ -605,6 +645,8 @@ function startTimeoutMiniPopUp() {
     set_timeout_mini_popup = setTimeout(function () {
         hideChooseSkinToneMiniPopUp()
     }, hideChooseSkinToneMiniPopUpAfterSeconds);
+
+    console.log("Started timeout");
 }
 
 function stopTimeoutMiniPopUp() {
@@ -612,6 +654,8 @@ function stopTimeoutMiniPopUp() {
         clearTimeout(set_timeout_mini_popup);
         set_timeout_mini_popup = null;
     }
+
+    console.log("Stopped timeout");
 }
 
 function hideChooseSkinToneMiniPopUp() {
@@ -877,6 +921,7 @@ function searchEmoji(value) {
 }
 
 function showSettings() {
+    hideChooseSkinToneMiniPopUp();
     showElement("settings-section");
 
     setVariablesFromSettings(true);
@@ -1093,6 +1138,7 @@ function setFontFamily() {
 function setTheme() {
     // theme=light, theme=dark
     removeThemeClassId("popup-content");
+    removeThemeClassId("emoji-skin-choose");
     removeThemeClassId("search-bar-input", "-search-bar-input");
     removeThemeClassId("settings-button", "-settings-button");
     removeThemeClassId("settings-section", "-settings");
@@ -1114,6 +1160,7 @@ function setTheme() {
     removeThemeClassId("donate-liberapay-settings", "-btn-settings-button");
 
     document.getElementById("popup-content").classList.add(theme);
+    document.getElementById("emoji-skin-choose").classList.add(theme);
     searchBarInputElement.classList.add(theme + "-search-bar-input");
     document.getElementById("settings-button").classList.add(theme + "-settings-button");
     document.getElementById("settings-section").classList.add(theme + "-settings");
