@@ -56,6 +56,12 @@ function releaseNotes(release) {
             release_notes_text += "<li>Fixed minor bugs</li>";
             release_notes_text += "</ul>";
             break;
+
+        case "3.13":
+            release_notes_text = "<ul>";
+            release_notes_text += "<li>You can now translate the add-on and the emojis easily on Crowdin.<br><small><i>You can change the language in Settings.</i></small><br><br><div class='text-center'><a href='https://crowdin.com/project/emoji-sav' class='button-release'>Translate now!</a></div></li>";
+            release_notes_text += "</ul>";
+            break;
     }
     return release_notes_text;
 }

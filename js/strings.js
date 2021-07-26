@@ -1,7 +1,6 @@
-var lang = "en"; //use i18n language code of the browser, more details: https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/i18n/LanguageCode
-var settings_strings = {};
-settings_strings[lang] = {};
+lang = "en"; //use i18n language code of the browser, more details: https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/i18n/LanguageCode
 
+settings_strings[lang] = {};
 settings_strings[lang]["placeholder-searchbox"] = "Search by keyword";
 settings_strings[lang]["label-click-on-the-emojis"] = "Click on the emoji(s) you want to remove";
 settings_strings[lang]["button-finish"] = "Finish";
@@ -57,17 +56,16 @@ settings_strings[lang]["button-paypal"] = "☕ PayPal";
 settings_strings[lang]["button-liberapay"] = "☕ LiberaPay";
 settings_strings[lang]["button-ko-fi"] = "☕ Ko-fi";
 settings_strings[lang]["label-made-with-heart-basilicata"] = "Made with <span {{properties}}>💙</span> in Basilicata, Italy";
+settings_strings[lang]["label-language"] = "Language";
 
-var other_strings = {};
 other_strings[lang] = {};
-
 other_strings[lang]["label-no-most-used-emojis"] = "<span {{properties}}>😬</span> No most used emojis";
 other_strings[lang]["label-no-emojis-found"] = "<span {{properties}}>😟</span> No emojis found";
-other_strings[lang]["label-review-the-addon"] = "<span {{properties}}>🖋</span>️ If you like this addon, please review it on {{store}}.";
+other_strings[lang]["label-review-the-addon"] = "<span {{properties}}>🖋</span> If you like this addon, please review it on {{store}}.";
 other_strings[lang]["button-review-now"] = "Review now";
 other_strings[lang]["button-review-later"] = "I'll review later";
 other_strings[lang]["button-sorry-dont-want"] = "Sorry, I don't want";
-other_strings[lang]["label-you-opened-this-addon-times"] = "<span {{properties}}>😍</span> You opened this add-on exactly <span {{properties2}}>{{times}}</span> times since the installation!</div> <div {{properties3}}>If you like the add-on, please consider to buy me a coffee on PayPal to support my work.</div>";
+other_strings[lang]["label-you-opened-this-addon-times"] = "<div {{properties1}}><span {{properties2}}>😍</span> You opened this add-on exactly <span {{properties3}}>{{times}}</span> times since the installation!<div {{properties4}}>If you like the add-on, please consider to buy me a coffee on PayPal to support my work.</div></div>";
 other_strings[lang]["button-buy-me-a-coffee"] = "Buy me a coffee on PayPal ☕";
 other_strings[lang]["button-maybe-another-time"] = "Maybe another time";
 other_strings[lang]["button-hide"] = "Hide";

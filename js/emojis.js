@@ -1,6 +1,5 @@
 // descriptions took from Emojipedia.org
-var lang = "en"; //use i18n language code of the browser, more details: https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/i18n/LanguageCode
-var titles_language = {}
+lang = "en"; //use i18n language code of the browser, more details: https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/i18n/LanguageCode
 
 titles_language[lang] = {
     "🔍": "Results",
@@ -19,7 +18,6 @@ titles_language[lang] = {
     "🛎️": "Other"
 };
 
-var emojis_language = {};
 emojis_language[lang] = [];
 
 /*search*/
