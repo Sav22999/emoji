@@ -48,6 +48,8 @@ Emojis are divided in some sections, to help you to find the correct emoji quick
 
 You can open an `Issue` and there you must describe the feedback, the bug or the new feature you want.
 
+Also, you can translate the extension (and the emojis description as well) on [Crowdin](https://crowdin.com/project/emoji-sav) easily and freely.
+
 ## Screenshots
 
 See folder <code>screenshots</code> to see screenshots also of the older versions.

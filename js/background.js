@@ -28,6 +28,7 @@ function loaded() {
             jsonSettings = value[nameOfSetting];
         }
         extension_icon_selected = jsonSettings.extension_icon;
+        if (extension_icon_selected == undefined) extension_icon_selected = 0;
         setExtensionIcon("../img/extension-icons/" + extension_icons[extension_icon_selected] + ".png");
     });
 }

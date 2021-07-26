@@ -238,7 +238,7 @@ div#top-message {
     height: auto;
     width: auto;
     font-size: 16px;
-    color: rgb(221, 222, 223);
+    color: rgb(240, 240, 240);
     z-index: 999;
     background-color: #3399ff;
     border-radius: 5px;
@@ -266,6 +266,48 @@ div#top-message {
 #top-message li:before {
     content: "●";
     padding-right: 5px;
+}
+
+#top-message a {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    transition: 0.3s;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+#top-message a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgba(177, 214, 252, 0.2);
+}
+
+#top-message a:active {
+    color: rgb(255, 255, 255);
+    background-color: rgba(177, 214, 252, 0.5);
+}
+
+#top-message a.button-release {
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    color: black;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin: 5px;
+    cursor: pointer;
+    position: relative;
+    transition: 0.1s;
+    box-sizing: border-box;
+    font-family: inherit;
+    text-decoration: none;
+}
+
+#top-message a.button-release:hover {
+    background-color: rgb(221, 222, 223);
+}
+
+#top-message a.button-release:focus {
+    box-shadow: 0px 0px 0px 2px #3399ff, 0px 0px 0px 5px #b1d6fc;
 }
 
 .font-twemoji {
@@ -972,4 +1014,8 @@ div {
 .section-title-selected:active, .section-title-selected:focus {
     border-top: 3px solid rgb(10, 132, 255);
     background-color: rgba(10, 132, 255, 0.3);
+}
+
+.margin-left-15 {
+    margin-left: 15px;
 }

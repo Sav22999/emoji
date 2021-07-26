@@ -1,5 +1,7 @@
-// descriptions gave on Emojipedia.org
-var titles = {
+// descriptions took from Emojipedia.org
+lang = "en"; //use i18n language code of the browser, more details: https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/i18n/LanguageCode
+
+titles_language[lang] = {
     "🔍": "Results",
     "🕒": "Most used emojis",
     "😀": "Smileys",
@@ -15,12 +17,13 @@ var titles = {
     "🖐️": "Hands and parts of body",
     "🛎️": "Other"
 };
-var emojis = [];
+
+emojis_language[lang] = [];
 
 /*search*/
-emojis[0] = {};
+emojis_language[lang][0] = {};
 /*smileys*/
-emojis[2] = {
+emojis_language[lang][2] = {
     "😀": ["Grinning Face", ":)", "Happy Face", "Smiley Face"],
     "😃": ["Grinning Face with Big Eyes", ":D", "Happy Face", "Smiley Face", "Smiling Face with Open Mouth"],
     "😄": ["Grinning Face with Smiling Eyes", "Happy Face", "Smiley Face", "Grinning Face With Squinting Eyes", "Smiling Face with Open Mouth and Smiling Eyes"],
@@ -126,7 +129,7 @@ emojis[2] = {
     "👥": ["Busts in Silhouette", "Shadows", "Silhouettes", "Users", "Silhouette of Two People"]
 };
 /*people*/
-emojis[3] = {
+emojis_language[lang][3] = {
     "👶[[*skin_tone*]]": ["Baby", "Child", "Toddler"],
     "🧒[[*skin_tone*]]": ["Child", "Gender Neutral Child"],
     "👧[[*skin_tone*]]": ["Girl"],
@@ -299,7 +302,7 @@ emojis[3] = {
     "🛌[[*skin_tone*]]‍": ["Sleeping Accommodation", "Person in Bed", "Person Sleeping"]
 };
 /*animals*/
-emojis[4] = {
+emojis_language[lang][4] = {
     "😺": ["Grinning Cat", ":)", "Happy Cat", "Smiling Cat", "Happy Cat Face", "Smiling Cat Face with Open Mouth"],
     "😸": ["Grinning Cat with Smiling Eyes", ":D", "Grinning Cat", "Happy Cat", "Grinning Cat Face"],
     "😹": ["Cat with Tears of Joy", ":')", "Happy Tears Cat", "Laughing Cat"],
@@ -431,7 +434,7 @@ emojis[4] = {
     "🦩": ["Flamingo"]
 };
 /*symbols*/
-emojis[5] = {
+emojis_language[lang][5] = {
     "💘": ["Heart with Arrow", "Cupid Arrow", "Lovestruck"],
     "💝": ["Heart with Ribbon", "Chocolate Box", "Gift Box", "Gift Heart"],
     "💖": ["Sparkling Heart", "Sparkle Heart", "Sparkly Heart", "Stars Heart"],
@@ -715,7 +718,7 @@ emojis[5] = {
     "♀️": ["Female Sign", "Woman Symbol", "Venus Symbol"]
 };
 /*food and drinks*/
-emojis[6] = {
+emojis_language[lang][6] = {
     "🍇": ["Grapes", "Grape"],
     "🍈": ["Melon", "Cantaloupe", "Honeydew", "Muskmelon"],
     "🍉": ["Watermelon"],
@@ -839,7 +842,7 @@ emojis[6] = {
     "🧊": ["Ice Cube"]
 };
 /*flags*/
-emojis[7] = {
+emojis_language[lang][7] = {
     "🏁": ["Chequered Flag", "Checkered Flag", "Grid Girl", "Racing Flag"],
     "🚩": ["Triangular Flag", "Flag on Pole", "Red Flag", "Triangular Flag on Post"],
     "🎌": ["Crossed Flags", "Two Flags"],
@@ -1112,7 +1115,7 @@ emojis[7] = {
     "🇿🇼": ["Flag of Zimbabwe", "ZW", "Zimbabwean Flag", "Zim Flag"],
 };
 /*sports*/
-emojis[8] = {
+emojis_language[lang][8] = {
     "🧗‍[[*skin_tone*]]‍‍♂️": ["Man Climbing", "Male Rock Climber", "Man Climber"],
     "🧗‍[[*skin_tone*]]‍‍♀️": ["Woman Climbing", "Female Rock Climber", "Woman Climber"],
     "🏇‍[[*skin_tone*]]‍": ["Horse Racing", "Horse Race", "Jockey"],
@@ -1190,7 +1193,7 @@ emojis[8] = {
     "🎴": ["Flower Playing Cards", "Deck Of Cards", "Hanafuda", "Hwatu", "Playing Cards"]
 };
 /*travel and places*/
-emojis[9] = {
+emojis_language[lang][9] = {
     "🚂": ["Steam Locomotive", "Steam Train", "Railway Locomotive"],
     "🚃": ["Railway Car", "Railcar", "Railroad Car", "Railway Carriage", "Railway Wagon"],
     "🚄": ["High-Speed Train"],
@@ -1299,7 +1302,7 @@ emojis[9] = {
     "🎢": ["Roller Coaster", "Rollercoaster", "Theme Park"]
 };
 /*technologies (smartphones, laptops, etc.) and office*/
-emojis[10] = {
+emojis_language[lang][10] = {
     "⌚": ["Watch", "Timepiece", "Apple Watch"],
     "⏰": ["Alarm Clock"],
     "⏱️": ["Stopwatch"],
@@ -1394,7 +1397,7 @@ emojis[10] = {
     "🖇️": ["Linked Paperclips"]
 };
 /*clothes and accessories*/
-emojis[11] = {
+emojis_language[lang][11] = {
     "👣": ["Footprints", "Feet", "Footsteps"],
     "👓": ["Glasses", "Eveyglasses"],
     "🕶️": ["Sunglasses"],
@@ -1444,7 +1447,7 @@ emojis[11] = {
     "🩰": ["Ballet Shoes", "Pointe Shoe"]
 };
 /*hands and parts of body*/
-emojis[12] = {
+emojis_language[lang][12] = {
     "👋[[*skin_tone*]]": ["Waving Hand Sign", "Goodbye", "Hand Wave", "Hello", "Hi"],
     "🖐️[[*skin_tone*]]": ["Hand with Fingers Splayed", "Five Hand", "Splayed Hand", "Raised Hand with Fingers Splayed"],
     "🤚‍[[*skin_tone*]]‍": ["Raised Back of Hand", "Backhand"],
@@ -1494,7 +1497,7 @@ emojis[12] = {
     "🦿": ["Mechanical Leg"]
 };
 /*other*/
-emojis[13] = {
+emojis_language[lang][13] = {
     "💩": ["Pile of Poo", "Dog Dirt", "Smiling Poop"],
     "💋": ["Kiss Mark", "Kissing Lips"],
     "💅": ["Nail Polish", "Fingers", "Manicure", "Nonchalant"],
