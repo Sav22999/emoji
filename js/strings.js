@@ -69,4 +69,5 @@ other_strings[lang]["label-you-opened-this-addon-times"] = "<div {{properties1}}
 other_strings[lang]["button-buy-me-a-coffee"] = "Buy me a coffee on PayPal ☕";
 other_strings[lang]["button-maybe-another-time"] = "Maybe another time";
 other_strings[lang]["button-hide"] = "Hide";
-other_strings[lang]["label-copied"] = "Copied ✔";
+other_strings[lang]["label-copied"] = "{{emojis}} copied ✔";
+other_strings[lang]["label-removed-correctly"] = "{{emojis}} removed correcly";

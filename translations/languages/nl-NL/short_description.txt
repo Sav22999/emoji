@@ -1,0 +1,4 @@
+﻿Het staat toe met slechts één klik om een emoji te kopiëren.
+Er is een zoekveld en de "Meest gebruikte emojis" sectie (de eerste deze).
+
+Als je feedback wilt verzenden of een bug wilt melden, ga dan naar https://github.com/Sav22999/emoji

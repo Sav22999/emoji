@@ -62,6 +62,12 @@ function releaseNotes(release) {
             release_notes_text += "<li>You can now translate the add-on and the emojis easily on Crowdin.<br><small><i>You can change the language in Settings.</i></small><br><br><div class='text-center'><a href='https://crowdin.com/project/emoji-sav' class='button-release'>Translate now!</a></div></li>";
             release_notes_text += "</ul>";
             break;
+
+        case "3.13.1":
+            release_notes_text = "<ul>";
+            release_notes_text += "<li>Added translation in Arabic (ar) 🇦🇪 🇪🇭 🇸🇦, Chinese (zh-CN) 🇨🇳, Czech (cs) 🇨🇿, Danish (da) 🇩🇰, Dutch (nl) 🇳🇱, Finnish (fi) 🇫🇮, French (fr) 🇫🇷, German (de) 🇩🇪, Greek (el) 🇬🇷, Italian (it) 🇮🇹, Japanese (jp) 🇯🇵, Norwegian (no) 🇳🇴, Polish (pl) 🇵🇱, Portuguese (pt-PT and pt-BR) 🇵🇹 🇧🇷, Romanian (ro) 🇷🇴, Russian (ru) 🇷🇺, Spanish (es-ES) 🇪🇸, Swedish (sv-SE) 🇸🇪, Ukrainian (uk) 🇺🇦.<br><br><div class='text-center'><a href='https://crowdin.com/project/emoji-sav' class='button-release'>Translate now in your language!</a></div></li>";
+            release_notes_text += "</ul>";
+            break;
     }
     return release_notes_text;
 }

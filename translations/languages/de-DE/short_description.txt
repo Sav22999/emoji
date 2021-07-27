@@ -1,0 +1,4 @@
+﻿Es erlaubt nur mit einem einzigen Klick ein Emoji zu kopieren.
+Es gibt ein Suchfeld und den Abschnitt "Meistbenutzte Emojis" (der erste).
+
+Wenn du Feedback oder Fehler melden möchtest, gehe bitte auf https://github.com/Sav22999/emoji

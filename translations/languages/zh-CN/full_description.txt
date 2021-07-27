@@ -1,0 +1,19 @@
+这是一个开放源码项目，允许您轻松复制Emoji。
+您可以用关键字搜索或使用“最常用的表情符号”。 或者只是在章节中寻找完美的表情导航。
+
+https://github.com/Sav22999/emoji
+
+您可以自定义插件，事实上您可以启用或禁用各种选项，这些选项使插件具有个人特性和独特性！
+
+您可以使用快捷键：在 Windows 和 Linux 上 Ctrl+Alt+A 在 macOS 上 Ctrl+Alt+A 和 Cmd+Alt+A。
+
+--
+
+关于应用中所使用的字体的一些信息：
+- 我认为最美丽的字体是Twitter开发的Twemoji。 您可以免费阅读更多关于它的信息 (也是开源！) 这里：https://twemoji.twitter.com/
+
+- OpenMoji，这是我第二个最喜欢的表情字体。 在这里阅读更多信息: https://openmoji.org/
+
+- 诺托，谷歌。 在这里阅读更多信息: https://www.google.com/get/noto/help/emoji/
+
+其他字体，如"OS 表情字体"，取决于您的操作系统设置，所以您应该看到它们的许可协议。
