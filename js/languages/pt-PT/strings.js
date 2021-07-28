@@ -1,4 +1,4 @@
-lang = 'pt-PT';
+lang = 'pt';
 //use i18n language code of the browser, more details: https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/i18n/LanguageCode
 settings_strings[lang] = {};
 settings_strings[lang]['placeholder-searchbox'] = 'Pesquisar por palavra-chave';

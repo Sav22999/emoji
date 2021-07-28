@@ -1293,7 +1293,7 @@ function removeThemeClassClass(class_to_use, index_to_use, details_to_use = "") 
 }
 
 function setSkinToneEmojis() {
-    let replacement_symbol = "[[*skin_tone*]]";
+    let replacement_symbol = "{{skin_tone}}";
     if (skin_tone_selected === undefined) skin_tone_selected = "";
     let string = emojis.slice();
 
@@ -1306,13 +1306,13 @@ function setSkinToneEmojis() {
     let emoji_index_temp = 0;
     for (emoji_key_temp in all_emojis_temp) {
         for (emoji_value_temp in all_emojis_temp[emoji_key_temp]) {
-            if (emoji_value_temp.includes("[[*skin_tone*]]")) {
+            if (emoji_value_temp.includes("{{skin_tone}}")) {
                 emoji_index_temp++;
                 emojis_supporting_skin_tones[emoji_index_temp] = {};
                 emojis_supporting_skin_tones[emoji_index_temp]["tooltip"] = all_emojis_temp[emoji_key_temp][emoji_value_temp][0];
                 emojis_supporting_skin_tones[emoji_index_temp]["emojis"] = [];
                 for (skin_tone_temp in skin_tones) {
-                    emojis_supporting_skin_tones[emoji_index_temp]["emojis"].push(emoji_value_temp.replace("[[*skin_tone*]]", skin_tones[skin_tone_temp]));
+                    emojis_supporting_skin_tones[emoji_index_temp]["emojis"].push(emoji_value_temp.replaceAll("{{skin_tone}}", skin_tones[skin_tone_temp]));
                 }
             }
         }
@@ -1442,6 +1442,7 @@ function setLanguageFile() {
     titles = titles_language[lang];
 
     all_emojis = emojis.slice();
+    setSkinToneEmojis();
 }
 
 function setLanguageUI() {
