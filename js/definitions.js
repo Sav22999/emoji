@@ -9,7 +9,7 @@ var settings_strings = {};
 
 var lang = "";
 var supported_languages = sortSupportedLanguages({
-    "en": "English 🇬🇧 🇺🇸",
+    "en": "English 🇬🇧 🇺🇸 🇦🇺 🇳🇿 🇿🇦",
     "it": "Italian 🇮🇹",
     "ar": "Arabic 🇦🇪 🇪🇭 🇸🇦",
     "zh-CN": "Chinese (Simplified) 🇨🇳",
@@ -23,8 +23,7 @@ var supported_languages = sortSupportedLanguages({
     "jp": "Japanese 🇯🇵",
     "no": "Norwegian 🇳🇴",
     "pl": "Polish 🇵🇱",
-    "pt-PT": "Portuguese 🇵🇹",
-    "pt-BR": "Portuguese (Brazil) 🇧🇷",
+    "pt-PT": "Portuguese 🇵🇹 🇧🇷",
     "ro": "Romanian 🇷🇴",
     "ru": "Russian 🇷🇺",
     "es": "Spanish 🇪🇸",
