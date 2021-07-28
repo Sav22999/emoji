@@ -55,6 +55,7 @@ settings_strings[lang]['button-need-help'] = 'Мені потрібна допо
 settings_strings[lang]['button-paypal'] = '☕ PayPal';
 settings_strings[lang]['button-liberapay'] = '☕ LiberaPay';
 settings_strings[lang]['button-ko-fi'] = '☕ Ко-фі';
+settings_strings[lang]['button-translate'] = '🌐 Translate';
 settings_strings[lang]['label-made-with-heart-basilicata'] = 'Зроблено з <span {{properties}}>💙</span> в Базилікаті, Італія';
 settings_strings[lang]['label-language'] = 'Мова';
 other_strings[lang] = {};

@@ -55,6 +55,7 @@ settings_strings[lang]['button-need-help'] = '我需要帮助';
 settings_strings[lang]['button-paypal'] = '☕ PayPal';
 settings_strings[lang]['button-liberapay'] = '☕ LiberaPay';
 settings_strings[lang]['button-ko-fi'] = '☕Ko-fi';
+settings_strings[lang]['button-translate'] = '🌐 Translate';
 settings_strings[lang]['label-made-with-heart-basilicata'] = '用 <span {{properties}}>:blu_heart:</span> 在意大利Basilicata制造的';
 settings_strings[lang]['label-language'] = '语言';
 other_strings[lang] = {};

@@ -55,6 +55,7 @@ settings_strings[lang]['button-need-help'] = 'Tarvitsen apua';
 settings_strings[lang]['button-paypal'] = ':hot_drinage: PayPal';
 settings_strings[lang]['button-liberapay'] = '☕ LiberaPay';
 settings_strings[lang]['button-ko-fi'] = ':hot_drinage: Ko-fi';
+settings_strings[lang]['button-translate'] = '🌐 Translate';
 settings_strings[lang]['label-made-with-heart-basilicata'] = 'Valmistettu <span {{properties}}>💙</span> Basilicata, Italia';
 settings_strings[lang]['label-language'] = 'Kieli';
 other_strings[lang] = {};

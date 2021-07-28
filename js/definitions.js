@@ -23,7 +23,7 @@ var supported_languages = sortSupportedLanguages({
     "jp": "Japanese 🇯🇵",
     "no": "Norwegian 🇳🇴",
     "pl": "Polish 🇵🇱",
-    "pt-PT": "Portuguese 🇵🇹 🇧🇷",
+    "pt": "Portuguese 🇵🇹 🇧🇷",
     "ro": "Romanian 🇷🇴",
     "ru": "Russian 🇷🇺",
     "es": "Spanish 🇪🇸",
