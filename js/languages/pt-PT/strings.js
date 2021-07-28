@@ -55,6 +55,7 @@ settings_strings[lang]['button-need-help'] = 'Eu preciso de ajuda';
 settings_strings[lang]['button-paypal'] = '☕ PayPal';
 settings_strings[lang]['button-liberapay'] = '☕ LiberaPay';
 settings_strings[lang]['button-ko-fi'] = '☕ Ko-fi';
+settings_strings[lang]['button-translate'] = '🌐 Translate';
 settings_strings[lang]['label-made-with-heart-basilicata'] = 'Feito com <span {{properties}}>💙</span> em Basilicata, Itália';
 settings_strings[lang]['label-language'] = 'IDIOMA';
 other_strings[lang] = {};

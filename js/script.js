@@ -40,6 +40,7 @@ var font_family = ""; //twemoji (Twitter), notocoloremoji (Google), openmojicolo
 
 const linkReview = ["https://addons.mozilla.org/firefox/addon/emoji-sav/", "https://microsoftedge.microsoft.com/addons/detail/emoji/ejcgfbaipbelddlbokgcfajefbnnagfm", "https://chrome.google.com/webstore/detail/emoji/kjepehkgbooeigeflhiogplnckadlife?hl=it&authuser=0"];
 const linkDonate = ["https://www.paypal.com/pools/c/8yl6auiU6e", "https://ko-fi.com/saveriomorelli", "https://bit.ly/3eXs7Oy"]; //{paypal, ko-fi, liberapay}
+const linkTranslate = "https://crowdin.com/project/emoji-sav";
 const linkNeedHelp = ["https://www.saveriomorelli.com/contact-me/"];
 const storeName = ["Firefox Add-ons", "Microsoft Edge Add-ons", "Google Chrome Web Store"];
 const fontFamily = ["twemoji", "notocoloremoji", "notocoloremoji"];
@@ -543,6 +544,11 @@ function setPopUpUI() {
     };
     document.getElementById("donate-liberapay-settings").onclick = function () {
         let url_to_use = linkDonate[2];
+        browserAgentSettings.tabs.create({url: url_to_use});
+        window.close();
+    };
+    document.getElementById("translate-settings").onclick = function () {
+        let url_to_use = linkTranslate;
         browserAgentSettings.tabs.create({url: url_to_use});
         window.close();
     };
@@ -1485,6 +1491,7 @@ function setLanguageUI() {
     document.getElementById("donate-paypal-settings").value = strings["settings"]["button-paypal"];
     document.getElementById("donate-liberapay-settings").value = strings["settings"]["button-liberapay"];
     document.getElementById("donate-kofi-settings").value = strings["settings"]["button-ko-fi"];
+    document.getElementById("translate-settings").value = strings["settings"]["button-translate"];
     document.getElementById("made-in-basilicata-settings").innerHTML = strings["settings"]["label-made-with-heart-basilicata"].replaceAll("{{properties}}", "class='font-" + font_family + " font-size-16'");
 }
 
