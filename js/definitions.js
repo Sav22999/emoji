@@ -9,16 +9,16 @@ var settings_strings = {};
 
 var lang = "";
 var supported_languages = sortSupportedLanguages({
-    "en": "English 🇬🇧 🇺🇸 🇦🇺 🇳🇿 🇿🇦",
-    "it": "Italian 🇮🇹",
+    "en": "English 🇬🇧 🇺🇸 🇦🇺 🇳🇿 🇿🇦 🇨🇦",
+    "it": "Italian 🇮🇹 🇸🇲 🇻🇦",
     "ar": "Arabic 🇦🇪 🇪🇭 🇸🇦",
     "zh-CN": "Chinese (Simplified) 🇨🇳",
     "cs": "Czech 🇨🇿",
     "da": "Danish 🇩🇰",
     "nl": "Dutch 🇳🇱",
     "fi": "Finnish 🇫🇮",
-    "fr": "French 🇫🇷",
-    "de": "German 🇩🇪",
+    "fr": "French 🇫🇷 🇨🇦",
+    "de": "German 🇩🇪 🇦🇹",
     "el": "Greek 🇬🇷",
     "jp": "Japanese 🇯🇵",
     "no": "Norwegian 🇳🇴",
@@ -26,7 +26,7 @@ var supported_languages = sortSupportedLanguages({
     "pt": "Portuguese 🇵🇹 🇧🇷",
     "ro": "Romanian 🇷🇴",
     "ru": "Russian 🇷🇺",
-    "es": "Spanish 🇪🇸",
+    "es": "Spanish 🇪🇸 🇦🇷 🇲🇽 🇨🇴 🇻🇪",
     "sv-SE": "Swedish 🇸🇪",
     "uk": "Ukrainian 🇺🇦",
 });

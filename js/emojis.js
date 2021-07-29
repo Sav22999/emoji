@@ -1035,7 +1035,7 @@ emojis_language[lang][7] = {
     "🇳🇿": ["Flag of New Zealand", "NZ", "Kiwi Flag"],
     "🇴🇲": ["Flag of Oman", "OM", "Omani Flag"],
     "🇵🇦": ["Flag of Panama", "PA", "Panamanian Flag"],
-    "🇵🇪": ["PE", "Flag of Peru", "Peruvian Flag"],
+    "🇵🇪": ["Flag of Peru", "PE", "Peruvian Flag"],
     "🇵🇫": ["Flag of French Polynesia", "PF", "French Polynesian Flag"],
     "🇵🇬": ["Flag of Papua New Guinea", "PG", "PNG Flag", "Papua New Guinean Flag"],
     "🇵🇭": ["Flag of Philippines", "PH"],
