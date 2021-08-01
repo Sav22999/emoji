@@ -1254,6 +1254,7 @@ function setTheme() {
     removeThemeClassId("donate-paypal-settings", "-btn-settings-button");
     removeThemeClassId("donate-kofi-settings", "-btn-settings-button");
     removeThemeClassId("donate-liberapay-settings", "-btn-settings-button");
+    removeThemeClassId("translate-settings", "-btn-settings-button");
     removeThemeClassId("language-selected", "-select");
 
     document.getElementById("popup-content").classList.add(theme);
@@ -1277,6 +1278,7 @@ function setTheme() {
     document.getElementById("donate-paypal-settings").classList.add(theme + "-btn-settings-button");
     document.getElementById("donate-kofi-settings").classList.add(theme + "-btn-settings-button");
     document.getElementById("donate-liberapay-settings").classList.add(theme + "-btn-settings-button");
+    document.getElementById("translate-settings").classList.add(theme + "-btn-settings-button");
     document.getElementById("language-selected").classList.add(theme + "-select");
 
     for (let n = 0; n < 9; n++) {
