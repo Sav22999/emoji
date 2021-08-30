@@ -707,15 +707,15 @@ emojis_language[lang][3] = {
         'Man Redhead',
         'Man met rode haren'
     ],
-    '👨‍{{skin_tone}}‍🦱': [
+    '👨{{skin_tone}}‍🦱': [
         'Man: Gekruld haar',
         'Man met krulhaar'
     ],
-    '👨‍{{skin_tone}}‍🦳': [
+    '👨{{skin_tone}}‍🦳': [
         'Man: Wit haar',
         'Man met grijze haren'
     ],
-    '👨‍{{skin_tone}}‍🦲': [
+    '👨{{skin_tone}}‍🦲': [
         'Man: Kaal',
         'Man met geen haar'
     ],
@@ -725,21 +725,21 @@ emojis_language[lang][3] = {
         'Vrij',
         'Gele vrouw'
     ],
-    '👩‍{{skin_tone}}‍🦰': [
+    '👩{{skin_tone}}‍🦰': [
         'Vrouwen: Rode haren',
         'Ginger vrouw',
         'Woman Redhead',
         'Vrouw met rood haar'
     ],
-    '👩‍{{skin_tone}}‍🦱': [
+    '👩{{skin_tone}}‍🦱': [
         'Vrouwen: Gekruld haar',
         'Vrouw met krullend haar'
     ],
-    '👩‍{{skin_tone}}‍🦳': [
+    '👩{{skin_tone}}‍🦳': [
         'Woman: Wit haar',
         'Vrouw met grijs haar'
     ],
-    '👩‍{{skin_tone}}‍🦲': [
+    '👩{{skin_tone}}‍🦲': [
         'Woman: Kaal',
         'Vrouwen zonder haar'
     ],
@@ -793,8 +793,8 @@ emojis_language[lang][3] = {
         'Meisje met Kroon',
         'Meisje met Tiara'
     ],
-    '👳‍{{skin_tone}}‍♂️': ['Man dragende Turban'],
-    '👳‍{{skin_tone}}‍♀️': ['Wearing Turban vrouw'],
+    '👳{{skin_tone}}‍♂️': ['Man dragende Turban'],
+    '👳{{skin_tone}}‍♀️': ['Wearing Turban vrouw'],
     '👲{{skin_tone}}‍': [
         'Persoon met skullcap',
         'Aziatische man',
@@ -817,10 +817,10 @@ emojis_language[lang][3] = {
         'Bruid',
         'Bride met Veil'
     ],
-    '👰‍{{skin_tone}}‍♂️': ['Man met Veil'],
-    '👰‍{{skin_tone}}‍♀️': ['Woman met Veil'],
-    '👩‍{{skin_tone}}‍🍼': ['Baby Vrouwelijke voeding'],
-    '👨‍{{skin_tone}}‍🍼': ['Man Voeding Baby'],
+    '👰{{skin_tone}}‍♂️': ['Man met Veil'],
+    '👰{{skin_tone}}‍♀️': ['Woman met Veil'],
+    '👩{{skin_tone}}‍🍼': ['Baby Vrouwelijke voeding'],
+    '👨{{skin_tone}}‍🍼': ['Man Voeding Baby'],
     '🥷': ['Ninja'],
     '🤰{{skin_tone}}‍': [
         'Zwanger vrouw',
@@ -831,7 +831,7 @@ emojis_language[lang][3] = {
         'Borstvoeding',
         'Borstvoeding'
     ],
-    '🦸‍{{skin_tone}}‍♂️': ['Man Superhero'],
+    '🦸{{skin_tone}}‍♂️': ['Man Superhero'],
     '🦸{{skin_tone}}‍‍♀️': ['Vrouwelijke Superhero'],
     '🦹{{skin_tone}}‍‍♂️': ['Man Superschurk'],
     '🦹{{skin_tone}}‍‍♀️': ['Superschurk vrouw'],
@@ -848,19 +848,19 @@ emojis_language[lang][3] = {
         'Vergelijking'
     ],
     '🧚{{skin_tone}}‍‍♂️': ['Man fee'],
-    '🧚‍{{skin_tone}}‍♀️': ['Vluik vrouw'],
-    '🧛‍{{skin_tone}}‍♂️': [
+    '🧚{{skin_tone}}‍♀️': ['Vluik vrouw'],
+    '🧛{{skin_tone}}‍♂️': [
         'Man Vampieren',
         'Dracula'
     ],
     '🧛{{skin_tone}}‍‍♀️': ['Vampieren vrouw'],
-    '🧜‍{{skin_tone}}‍♂️': ['Merman'],
-    '🧜‍{{skin_tone}}‍♀️': ['Zeemeermin'],
-    '🧝‍{{skin_tone}}‍♂️': ['Man Elf'],
-    '🧝‍{{skin_tone}}‍♀️': ['Vrouwelijke Elf'],
+    '🧜{{skin_tone}}‍♂️': ['Merman'],
+    '🧜{{skin_tone}}‍♀️': ['Zeemeermin'],
+    '🧝{{skin_tone}}‍♂️': ['Man Elf'],
+    '🧝{{skin_tone}}‍♀️': ['Vrouwelijke Elf'],
     '🧞‍♂️': ['Man Genie'],
     '🧞‍♀️': ['Woman Genie'],
-    '🕵️‍{{skin_tone}}‍♂️': [
+    '🕵️{{skin_tone}}‍♂️': [
         'Man Detective',
         'Privé Oog',
         'Sleuth',
@@ -870,7 +870,7 @@ emojis_language[lang][3] = {
         '007',
         'Inspecteur'
     ],
-    '🕵️‍{{skin_tone}}‍♀️': ['Detective vrouw'],
+    '🕵️{{skin_tone}}‍♀️': ['Detective vrouw'],
     '💂{{skin_tone}}‍': [
         'Bewaker',
         'Britse Bewaker',
@@ -885,23 +885,23 @@ emojis_language[lang][3] = {
         'politievrouw'
     ],
     '👮{{skin_tone}}‍‍♀️': ['Vrouwelijke politieagent'],
-    '👨‍{{skin_tone}}‍🚒': ['Brandweerman man'],
+    '👨{{skin_tone}}‍🚒': ['Brandweerman man'],
     '👩{{skin_tone}}‍‍🚒': ['Vuurman Vuurman'],
     '👨{{skin_tone}}‍‍✈️': ['Man Piloot'],
     '👩{{skin_tone}}‍‍✈️': ['Vrouwelijke Piloot'],
-    '👨‍{{skin_tone}}‍💻': [
+    '👨{{skin_tone}}‍💻': [
         'Man Technologist',
         'Man Technologist'
     ],
-    '👩‍{{skin_tone}}‍💻': ['Vrouwelijke Technologist'],
-    '👨‍{{skin_tone}}‍🎤': [
+    '👩{{skin_tone}}‍💻': ['Vrouwelijke Technologist'],
+    '👨{{skin_tone}}‍🎤': [
         'Man Singer',
         'Bowie',
         'Aladdin Sane'
     ],
-    '👩‍{{skin_tone}}‍🎤': ['Vrouwelijke singer'],
-    '👨‍{{skin_tone}}‍🎨': ['Man Kunstenaar'],
-    '👩‍{{skin_tone}}‍🎨': ['Vrouwelijke artiest'],
+    '👩{{skin_tone}}‍🎤': ['Vrouwelijke singer'],
+    '👨{{skin_tone}}‍🎨': ['Man Kunstenaar'],
+    '👩{{skin_tone}}‍🎨': ['Vrouwelijke artiest'],
     '👷{{skin_tone}}‍‍♂️': ['Man Constructie Worker'],
     '👷{{skin_tone}}‍‍♀️': ['Woman Bouwwerk'],
     '👨{{skin_tone}}‍‍🚀': [
@@ -914,17 +914,17 @@ emojis_language[lang][3] = {
     ],
     '👨{{skin_tone}}‍‍🔬': ['Man Wetenschapper'],
     '👩{{skin_tone}}‍‍🔬': ['Vrouwelijke Wetenschapper'],
-    '👨‍{{skin_tone}}‍💼': [
+    '👨{{skin_tone}}‍💼': [
         'Man Office Worker',
         'Directeur',
         'Ondernemer'
     ],
-    '👩‍{{skin_tone}}‍💼': [
+    '👩{{skin_tone}}‍💼': [
         'Vrouwelijke Office Worker',
         'Bedrijfsvrouw',
         'Directeur'
     ],
-    '👨‍{{skin_tone}}‍🏭': ['Man Fabriek Worker'],
+    '👨{{skin_tone}}‍🏭': ['Man Fabriek Worker'],
     '👩{{skin_tone}}‍‍🏭': ['Woman Fabriek Werker'],
     '👨{{skin_tone}}‍‍🔧': ['Man Mechanic'],
     '👩{{skin_tone}}‍‍🔧': ['Vrouwelijke Mechanie'],
@@ -944,93 +944,101 @@ emojis_language[lang][3] = {
     '👩{{skin_tone}}‍‍⚖️': ['Vrouwelijke rechter'],
     '👨{{skin_tone}}‍‍🏫': ['Man leraar'],
     '👩{{skin_tone}}‍‍🏫': ['Leraar vrouw'],
-    '👨‍{{skin_tone}}‍🎓': ['Man leerling'],
-    '👩‍{{skin_tone}}‍🎓': ['Leerling vrouw'],
+    '👨{{skin_tone}}‍🎓': ['Man leerling'],
+    '👩{{skin_tone}}‍🎓': ['Leerling vrouw'],
     '👨{{skin_tone}}‍‍⚕️': [
         'Man gezondheidswerker',
         'Mannelijke dokter',
         'Mannelijke Verpleegster'
     ],
-    '👩‍{{skin_tone}}‍⚕️': [
+    '👩{{skin_tone}}‍⚕️': [
         'Vrouwelijke gezondheidswerkers',
         'Vrouwelijke dokter',
         'Vrouwelijke Verpleegster'
     ],
-    '🤷‍{{skin_tone}}‍♂️': ['Mannen Spuwen'],
-    '🤷‍{{skin_tone}}‍♀️': ['Vrouw shruggen'],
-    '🤦‍{{skin_tone}}‍♂️': ['Man Facepalmmen'],
-    '🤦‍{{skin_tone}}‍♀️': ['Vrouw Facepalmmen'],
+    '🤷{{skin_tone}}‍♂️': [
+        'Mannen Spuwen',
+        'sluimer man',
+        'dunno'
+    ],
+    '🤷{{skin_tone}}‍♀️': [
+        'Vrouw shruggen',
+        'idk vrouw',
+        'dunno'
+    ],
+    '🤦{{skin_tone}}‍♂️': ['Man Facepalmmen'],
+    '🤦{{skin_tone}}‍♀️': ['Vrouw Facepalmmen'],
     '🙇{{skin_tone}}‍‍♂️': ['Man Bowing'],
     '🙇{{skin_tone}}‍‍♀️': ['Vrouwelijke bogen'],
-    '🧏‍{{skin_tone}}‍♂️': ['Devenaar man'],
+    '🧏{{skin_tone}}‍♂️': ['Devenaar man'],
     '🧏{{skin_tone}}‍‍♀️': ['Dafvaan vrouw'],
     '🙋{{skin_tone}}‍‍♂️': [
         'Manan stijgende hand',
         'Happy Man Raising One Hand'
     ],
-    '🙋‍{{skin_tone}}‍♀️': [
+    '🙋{{skin_tone}}‍♀️': [
         'Arme Raising Hand',
         'Happy Woman Raising One Hand'
     ],
-    '💁‍{{skin_tone}}‍♂️': [
+    '💁{{skin_tone}}‍♂️': [
         'Handleiding manen',
         'Informatie Bureau'
     ],
-    '💁‍{{skin_tone}}‍♀️': [
+    '💁{{skin_tone}}‍♀️': [
         'Hand van de mannelijke fooi',
         'Informatie Bureau'
     ],
-    '🙆‍{{skin_tone}}‍♂️': ['Man Gesturing OK'],
-    '🙆‍{{skin_tone}}‍♀️': ['Vrouwelijk Gebaar OK'],
-    '🙅‍{{skin_tone}}‍♂️': ['Mensen Gebaar Nee'],
-    '🙅‍{{skin_tone}}‍♀️': ['Vrouw Gebaar Nee'],
-    '🙎‍{{skin_tone}}‍♂️': ['Man Pouten'],
+    '🙆{{skin_tone}}‍♂️': ['Man Gesturing OK'],
+    '🙆{{skin_tone}}‍♀️': ['Vrouwelijk Gebaar OK'],
+    '🙅{{skin_tone}}‍♂️': ['Mensen Gebaar Nee'],
+    '🙅{{skin_tone}}‍♀️': ['Vrouw Gebaar Nee'],
+    '🙎{{skin_tone}}‍♂️': ['Man Pouten'],
     '🙎{{skin_tone}}‍‍♀️': ['Bekken van vrouw'],
     '🙍{{skin_tone}}‍‍♂️': ['Man Frowning'],
     '🙍{{skin_tone}}‍‍♀️': ['Vrouwelijke kruien'],
     '🧟‍‍♂️': ['Man Zombie'],
     '🧟‍‍♀️': ['Zombie vrouw'],
-    '🚶‍{{skin_tone}}‍♂️': ['Man wandelen'],
-    '🚶‍{{skin_tone}}‍♀️': ['Lopen vrouwen'],
+    '🚶{{skin_tone}}‍♂️': ['Man wandelen'],
+    '🚶{{skin_tone}}‍♀️': ['Lopen vrouwen'],
     '🧍{{skin_tone}}‍‍♂️': ['Man staand'],
     '🧍{{skin_tone}}‍‍♀️': ['Vrouw staand'],
-    '🧎‍{{skin_tone}}‍♂️': ['Man knieling'],
+    '🧎{{skin_tone}}‍♂️': ['Man knieling'],
     '🧎{{skin_tone}}‍‍♀️': ['Vrouwelijke knieling'],
-    '👨‍{{skin_tone}}‍🦯': ['Man met Witte Zandriet'],
-    '👩‍{{skin_tone}}‍🦯': ['Vrouwelijk met Witte Wit Cane'],
-    '👨‍{{skin_tone}}‍🦼': ['Man in Motorized rolstoel'],
-    '👩‍{{skin_tone}}‍🦼': ['Vrouwen in Motorized Wheelstoel'],
-    '👨‍{{skin_tone}}‍🦽': ['Man in handmatige rolstoel'],
-    '👩‍{{skin_tone}}‍🦽': ['Vrouw in handmatige rolstoel'],
+    '👨{{skin_tone}}‍🦯': ['Man met Witte Zandriet'],
+    '👩{{skin_tone}}‍🦯': ['Vrouwelijk met Witte Wit Cane'],
+    '👨{{skin_tone}}‍🦼': ['Man in Motorized rolstoel'],
+    '👩{{skin_tone}}‍🦼': ['Vrouwen in Motorized Wheelstoel'],
+    '👨{{skin_tone}}‍🦽': ['Man in handmatige rolstoel'],
+    '👩{{skin_tone}}‍🦽': ['Vrouw in handmatige rolstoel'],
     '👯‍♂️': ['Mannen met Konijnenoren'],
     '👯‍♀️': ['Vrouwen met Konijn Ears'],
-    '🕴️‍{{skin_tone}}‍': [
+    '🕴️{{skin_tone}}‍': [
         'Persoon in pak Levitating',
         'Zwevende man',
         'Ruwe Jongen',
         'Walt Jabsco',
         'Man in Business Suit Levitating'
     ],
-    '🧖‍‍{{skin_tone}}‍♂️': [
+    '🧖{{skin_tone}}‍♂️': [
         'Man in Steamy Room',
         'Man in Sauna'
     ],
-    '🧖‍‍{{skin_tone}}‍♀️': [
+    '🧖{{skin_tone}}‍♀️': [
         'Vrouwen in Steamy Room',
         'Vrouwelijk in Sauna'
     ],
-    '👫‍{{skin_tone}}‍': [
+    '👫{{skin_tone}}‍': [
         'Vrouwelijk en Man Handen',
         'Heteroseksuele Couple',
         'Rechte Couple',
         'Man en vrouw vasthouden Handen'
     ],
-    '👭‍{{skin_tone}}‍': [
+    '👭{{skin_tone}}‍': [
         'Lesbische Couple',
         'Vrouwen met haarden',
         'Twee vrouwen met haarden'
     ],
-    '👬‍{{skin_tone}}‍': [
+    '👬{{skin_tone}}‍': [
         'Mannen Handen',
         'Gay Couple',
         'Twee heren Handen Handen'
@@ -1150,7 +1158,7 @@ emojis_language[lang][3] = {
         'Paars met Heart: vrouw en vrouw'
     ],
     '💆{{skin_tone}}‍‍♂️': ['Man krijgen Hoofd Massage'],
-    '💆‍{{skin_tone}}‍♀️': ['Vrouwelijk Krijgshoofd Massage'],
+    '💆{{skin_tone}}‍♀️': ['Vrouwelijk Krijgshoofd Massage'],
     '💇{{skin_tone}}‍‍♂️': ['Man Getting Haircut'],
     '💇{{skin_tone}}‍‍♀️': ['Vrouwelijk Getting Haircut'],
     '🛌{{skin_tone}}‍': [
@@ -4418,8 +4426,8 @@ emojis_language[lang][7] = {
         'Panamische Vlag'
     ],
     '🇵🇪': [
-        'PE',
         'Vlag van Peru',
+        'PE',
         'Peruviaanse Vlag'
     ],
     '🇵🇫': [
@@ -4803,76 +4811,76 @@ emojis_language[lang][7] = {
 };
 /*sports*/
 emojis_language[lang][8] = {
-    '🧗‍{{skin_tone}}‍‍♂️': [
+    '🧗{{skin_tone}}‍‍♂️': [
         'Man klimmen',
         'Mannelijke Rots Klimber',
         'Man klimber'
     ],
-    '🧗‍{{skin_tone}}‍‍♀️': [
+    '🧗{{skin_tone}}‍‍♀️': [
         'Vrouwelijke klimmen',
         'Vrouwelijke rots klimber',
         'Vrouwelijke klimber'
     ],
-    '🏇‍{{skin_tone}}‍': [
+    '🏇{{skin_tone}}‍': [
         'Paarden Race',
         'Paarden Race',
         'Jockey'
     ],
-    '⛷‍{{skin_tone}}‍️': ['Skier'],
-    '🏂‍{{skin_tone}}‍': ['Snowboarder'],
-    '🏌️‍‍{{skin_tone}}‍♂️': ['Man Golfer'],
-    '🏌️‍‍{{skin_tone}}‍♀️': ['Vrouwelijke Golfer'],
-    '🏄‍‍{{skin_tone}}‍♂️': ['Man Verrader'],
-    '🏄‍‍{{skin_tone}}‍♀️': ['Woman Surfer'],
-    '🚣‍{{skin_tone}}‍‍♂️': ['Man Rebauwboot'],
-    '🚣‍{{skin_tone}}‍‍♀️': ['Vaartuig voor mannelijke resten'],
-    '🏊‍{{skin_tone}}‍‍♂️': [
+    '⛷{{skin_tone}}‍️': ['Skier'],
+    '🏂{{skin_tone}}‍': ['Snowboarder'],
+    '🏌️{{skin_tone}}‍♂️': ['Man Golfer'],
+    '🏌️{{skin_tone}}‍♀️': ['Vrouwelijke Golfer'],
+    '🏄{{skin_tone}}‍♂️': ['Man Verrader'],
+    '🏄{{skin_tone}}‍♀️': ['Woman Surfer'],
+    '🚣{{skin_tone}}‍‍♂️': ['Man Rebauwboot'],
+    '🚣{{skin_tone}}‍‍♀️': ['Vaartuig voor mannelijke resten'],
+    '🏊{{skin_tone}}‍‍♂️': [
         'Man Zwemmen',
         'Man Zwemer'
     ],
-    '🏊‍{{skin_tone}}‍‍♀️': [
+    '🏊{{skin_tone}}‍‍♀️': [
         'Vrouw Zwemmen',
         'Vwimmer vrouw'
     ],
-    '⛹‍{{skin_tone}}‍️‍♂️': [
+    '⛹{{skin_tone}}‍️‍♂️': [
         'Man stuiterende bal',
         'Man Basketbal speler'
     ],
-    '⛹️‍‍{{skin_tone}}‍♀️': [
+    '⛹️{{skin_tone}}‍♀️': [
         'Vrouwelijke stuiterende bal',
         'Vrouwelijke basketbal speler'
     ],
-    '🏋️‍‍{{skin_tone}}‍♂️': [
+    '🏋️{{skin_tone}}‍♂️': [
         'Handwerk Gewichten',
         'Man gewichtslift'
     ],
-    '🏋️‍‍{{skin_tone}}‍♀️': [
+    '🏋️{{skin_tone}}‍♀️': [
         'Vrouwenlift weghalingen',
         'Weightlifter vrouw'
     ],
-    '🚴‍‍{{skin_tone}}‍♂️': [
+    '🚴{{skin_tone}}‍♂️': [
         'Man fietsen',
         'Cyclist man',
         'Mannelijke Cyclist'
     ],
-    '🚴‍‍{{skin_tone}}‍♀️': [
+    '🚴{{skin_tone}}‍♀️': [
         'Vrouw fietsen',
         'Cyclist vrouw',
         'Vrouwelijke cyclist'
     ],
-    '🚵‍‍{{skin_tone}}‍♂️': [
+    '🚵{{skin_tone}}‍♂️': [
         'Man berg fietsen',
         'Man Berg Biker'
     ],
-    '🚵‍‍{{skin_tone}}‍♀️': [
+    '🚵{{skin_tone}}‍♀️': [
         'Vrouwelijke berg fietsen',
         'Vrouwelijke Berg Biker'
     ],
-    '🤸‍‍{{skin_tone}}‍♂️': [
+    '🤸{{skin_tone}}‍♂️': [
         'Man Kartwheeling',
         'Man Doing Kartwool'
     ],
-    '🤸‍‍{{skin_tone}}‍♀️': [
+    '🤸{{skin_tone}}‍♀️': [
         'Vrouwelijke cartwheeling',
         'Vrouwelijke Doing Cartwheel'
     ],
@@ -4881,24 +4889,24 @@ emojis_language[lang][8] = {
         'Worstelen',
         'Ronsten'
     ],
-    '🤽‍‍{{skin_tone}}‍♂️': ['Man Speelt water poo'],
-    '🤽‍‍{{skin_tone}}‍♀️': ['Woman Speelt water poo'],
-    '🤾‍‍{{skin_tone}}‍♂️': ['Man Speelt Handbal'],
-    '🤾‍‍{{skin_tone}}‍♀️': ['Vrouwelijke Handbal'],
-    '🤹‍‍{{skin_tone}}‍♂️': [
+    '🤽{{skin_tone}}‍♂️': ['Man Speelt water poo'],
+    '🤽{{skin_tone}}‍♀️': ['Woman Speelt water poo'],
+    '🤾{{skin_tone}}‍♂️': ['Man Speelt Handbal'],
+    '🤾{{skin_tone}}‍♀️': ['Vrouwelijke Handbal'],
+    '🤹{{skin_tone}}‍♂️': [
         'Man Juggling',
         'Mannelijke Juggler'
     ],
-    '🤹‍‍{{skin_tone}}‍♀️': [
+    '🤹{{skin_tone}}‍♀️': [
         'Juggling vrouw',
         'Vrouwelijke Juggler'
     ],
-    '🧘‍‍{{skin_tone}}‍♂️': ['Man in Lotus Positie'],
-    '🧘‍‍{{skin_tone}}‍♀️': ['Vrouw in Lotus Positie'],
-    '🏃‍‍{{skin_tone}}‍♂️': ['Man actief'],
-    '🏃‍‍{{skin_tone}}‍♀️': ['Lopende vrouw'],
-    '🕺‍{{skin_tone}}‍': ['Man dansende'],
-    '💃‍{{skin_tone}}‍': ['Dansende vrouw'],
+    '🧘{{skin_tone}}‍♂️': ['Man in Lotus Positie'],
+    '🧘{{skin_tone}}‍♀️': ['Vrouw in Lotus Positie'],
+    '🏃{{skin_tone}}‍♂️': ['Man actief'],
+    '🏃{{skin_tone}}‍♀️': ['Lopende vrouw'],
+    '🕺{{skin_tone}}‍': ['Man dansende'],
+    '💃{{skin_tone}}‍': ['Dansende vrouw'],
     '🤺': [
         'Persoon hekwerk',
         'Fancer'
@@ -6024,100 +6032,100 @@ emojis_language[lang][12] = {
         'Gespeelde Hand',
         'Verhoogde Hand met Vingers Gespeeld'
     ],
-    '🤚‍{{skin_tone}}‍': [
+    '🤚{{skin_tone}}‍': [
         'Opgeroepen Terug van Hand',
         'Achterhand'
     ],
-    '✋‍{{skin_tone}}‍': [
+    '✋{{skin_tone}}‍': [
         'Opgeroepen Hand',
         'Hoge vijf',
         'Stoppen'
     ],
-    '🖖‍{{skin_tone}}‍': [
+    '🖖{{skin_tone}}‍': [
         'Vulcan Salute',
         'Spock',
         'Ster Trek',
         'Opgeroepen Hand met Onderdeel tussen Midden en Ring Vingers'
     ],
-    '👌‍{{skin_tone}}‍': [
+    '👌{{skin_tone}}‍': [
         'OK Hand Teken',
         'OK',
         'Perfect',
-        'ja'
+        'Ja'
     ],
-    '✌️‍{{skin_tone}}‍': [
+    '✌️{{skin_tone}}‍': [
         'Overwinning Hand',
         'Lucht Offertes',
         'Vrede bord',
         'V Bord'
     ],
-    '🤞‍{{skin_tone}}‍': [
+    '🤞{{skin_tone}}‍': [
         'Kruisende Vingers',
         'Vingers gekruist',
         'Veel geluk',
         'Lever met Index en Midden Vingers gekruist'
     ],
-    '🤟‍{{skin_tone}}‍': [
+    '🤟{{skin_tone}}‍': [
         'LiefdeJe Gebaar',
         'Ik hou van je handgebaar'
     ],
-    '🤘‍{{skin_tone}}‍': [
+    '🤘{{skin_tone}}‍': [
         'Bord van de Hoorns',
         'Duivel Vingers',
         'Heavy metal',
         'Rots Aan'
     ],
-    '🤙‍{{skin_tone}}‍': [
+    '🤙{{skin_tone}}‍': [
         'Bel me Hand Onderteken',
         'Telefoon hand',
         'Shaka'
     ],
-    '🤏‍{{skin_tone}}‍': ['Knijpende Hand'],
-    '👈‍{{skin_tone}}‍': [
+    '🤏{{skin_tone}}‍': ['Knijpende Hand'],
+    '👈{{skin_tone}}‍': [
         'Links backhand index punt',
         'Witte linker puntige Backhand Index'
     ],
-    '👉‍{{skin_tone}}‍': [
+    '👉{{skin_tone}}‍': [
         'Backhand index punt rechts',
         'White Right Pointing Backhand Index'
     ],
-    '👆‍{{skin_tone}}‍': [
+    '👆{{skin_tone}}‍': [
         'Backhand Index omhoog plaatsen',
         'White Up Pointing Backhand Index',
         'Midden Vinger'
     ],
-    '👇‍{{skin_tone}}‍': [
+    '👇{{skin_tone}}‍': [
         'Backhand Index omlaag plaatsen',
         'White down punt backhand Index',
         'Pointing down'
     ],
-    '☝‍{{skin_tone}}‍️': [
+    '☝{{skin_tone}}‍️': [
         'Index Vinger Punten Omhoog',
         'White Up Pointing Index',
         'Geheim'
     ],
-    '🖕‍{{skin_tone}}‍': [
+    '🖕{{skin_tone}}‍': [
         'Midden Vinger',
         'De vogel omdraaien',
         'Ruwe Vinger',
         'Omgekeerde hand met middelste Finger uitgebreid'
     ],
-    '👍‍{{skin_tone}}‍': [
+    '👍{{skin_tone}}‍': [
         'Duimen Bord',
         'vind-ik-leuk',
-        'ja'
+        'Ja'
     ],
-    '👎‍{{skin_tone}}‍': [
+    '👎{{skin_tone}}‍': [
         'Duim Omlaag Teken',
         'Slecht',
         'Dislike',
         'Neen'
     ],
-    '✊‍{{skin_tone}}‍': [
+    '✊{{skin_tone}}‍': [
         'Opgevoed Fist',
         'Vuist Pomp'
     ],
-    '👊‍{{skin_tone}}‍': [
+    '👊{{skin_tone}}‍': [
         'Binnenkomende Fist',
         'Bro Fist',
         'Brofist',
@@ -6126,14 +6134,14 @@ emojis_language[lang][12] = {
         'Gesloten vuist',
         'Fisted handbord'
     ],
-    '🤛‍{{skin_tone}}‍': ['Linker Luchtkussen'],
-    '🤜‍{{skin_tone}}‍': ['Rechter Kust Bump'],
-    '🤌‍{{skin_tone}}‍': [
+    '🤛{{skin_tone}}‍': ['Linker Luchtkussen'],
+    '🤜{{skin_tone}}‍': ['Rechter Kust Bump'],
+    '🤌{{skin_tone}}‍': [
         'Vingers gekruist',
         'Ma Che Vuoi',
         'Vinger paard'
     ],
-    '👏‍{{skin_tone}}‍': [
+    '👏{{skin_tone}}‍': [
         'Klap Handen Bord',
         'Applaus',
         'Clap',
@@ -6141,7 +6149,7 @@ emojis_language[lang][12] = {
         'Ontspannen Klap',
         'Rond van Applaus'
     ],
-    '🙌‍{{skin_tone}}‍': [
+    '🙌{{skin_tone}}‍': [
         'Person Raising Beide Handen in Viering',
         'Handen verhogen',
         'Arms in de lucht',
@@ -6151,20 +6159,20 @@ emojis_language[lang][12] = {
         'Prijs Handen',
         'Twee Handen'
     ],
-    '👐‍{{skin_tone}}‍': [
+    '👐{{skin_tone}}‍': [
         'Open Handen Teken',
         'Kopshond',
         'Jazz Handen'
     ],
-    '🤲‍{{skin_tone}}‍': [
+    '🤲{{skin_tone}}‍': [
         'Palms Omhoog Samen',
         'Dua'
     ],
-    '🤝‍{{skin_tone}}‍': [
+    '🤝{{skin_tone}}‍': [
         'Handshake',
         'Schudden Handen'
     ],
-    '🙏‍{{skin_tone}}‍': [
+    '🙏{{skin_tone}}‍': [
         'Gevouwen handen',
         'Namaste',
         'Alstublieft',
@@ -6172,22 +6180,22 @@ emojis_language[lang][12] = {
         'Dank u wel',
         'Persoon met gevouwen hands'
     ],
-    '✍‍{{skin_tone}}‍️': ['Hand schrijven'],
-    '💪‍{{skin_tone}}‍': [
+    '✍{{skin_tone}}‍️': ['Hand schrijven'],
+    '💪{{skin_tone}}‍': [
         'Vaste Biceps',
         'Flexibele Arm Muskels',
         'Musle',
         'Sterk'
     ],
-    '🦵‍{{skin_tone}}‍': ['Been'],
-    '🦶‍{{skin_tone}}‍': ['Voet'],
-    '👂‍{{skin_tone}}‍': [
+    '🦵{{skin_tone}}‍': ['Been'],
+    '🦶{{skin_tone}}‍': ['Voet'],
+    '👂{{skin_tone}}‍': [
         'Oven',
         'Oren',
         'Hoortje',
         'Luisteren'
     ],
-    '👃‍{{skin_tone}}‍': [
+    '👃{{skin_tone}}‍': [
         'Neus',
         'Smellen',
         'Sniffing',
