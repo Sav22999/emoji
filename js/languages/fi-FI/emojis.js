@@ -3,19 +3,19 @@ lang = 'fi';
 //use i18n language code of the browser, more details: https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/i18n/LanguageCode
 titles_language[lang] = {
     '🔍': 'Tulokset',
-    '🕒': 'Eniten käytettyjä emojeja',
+    '🕒': 'Eniten käytetyt emojit',
     '😀': 'Hymiöt',
     '🙋': 'Ihmiset',
     '🦊': 'Eläimet',
     '🅰️': 'Symbolit',
-    '🍎': 'Ruoka ja juomat',
+    '🍎': 'Ruoka ja juoma',
     '🏳️‍🌈': 'Liput',
     '🏊': 'Urheilu',
     '✈️': 'Matkailu ja paikat',
     '🖱️': 'Teknologia ja toimisto',
     '👗': 'Vaatteet ja tarvikkeet',
     '🖐️': 'Kädet ja kehon osat',
-    '🛎️': 'Muu'
+    '🛎️': 'Muut'
 };
 emojis_language[lang] = [];
 /*search*/
