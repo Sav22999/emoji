@@ -7189,6 +7189,13 @@ emojis_language[lang][13] = {
     '🪨': ['Roccia'],
     '🪵': ['Legno'],
     '🪄': ['Bacchetta Magica'],
+    '🔮': [
+        'Crystal Ball',
+        'Clairvoyant',
+        'Fortune Teller',
+        'Psychic',
+        'Purple Crystal'
+    ],
     '🪅': ['Pin<unk> ata'],
     '🪆': [
         'Bambole Di Nesting',

@@ -7189,6 +7189,13 @@ emojis_language[lang][13] = {
     '🪨': ['rock'],
     '🪵': ['Tre'],
     '🪄': ['Magisk tryllestav'],
+    '🔮': [
+        'Crystal Ball',
+        'Clairvoyant',
+        'Fortune Teller',
+        'Psychic',
+        'Purple Crystal'
+    ],
     '🪅': ['Pinso-ata'],
     '🪆': [
         'Hengende Doller',

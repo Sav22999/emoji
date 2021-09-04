@@ -7189,6 +7189,13 @@ emojis_language[lang][13] = {
     '🪨': ['Roca'],
     '🪵': ['Madera'],
     '🪄': ['Varita mágica'],
+    '🔮': [
+        'Crystal Ball',
+        'Clairvoyant',
+        'Fortune Teller',
+        'Psychic',
+        'Purple Crystal'
+    ],
     '🪅': ['Pingrata'],
     '🪆': [
         'Anidando ollas',

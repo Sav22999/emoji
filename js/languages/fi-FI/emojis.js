@@ -7189,6 +7189,13 @@ emojis_language[lang][13] = {
     '🪨': ['Rock'],
     '🪵': ['Puu'],
     '🪄': ['Magic Wand'],
+    '🔮': [
+        'Crystal Ball',
+        'Clairvoyant',
+        'Fortune Teller',
+        'Psychic',
+        'Purple Crystal'
+    ],
     '🪅': ['Tynttiäata'],
     '🪆': [
         'Nestävät Nuket',

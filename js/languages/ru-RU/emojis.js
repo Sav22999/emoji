@@ -7189,6 +7189,13 @@ emojis_language[lang][13] = {
     '🪨': ['Камень'],
     '🪵': ['Дерево'],
     '🪄': ['Волшебная палочка'],
+    '🔮': [
+        'Crystal Ball',
+        'Clairvoyant',
+        'Fortune Teller',
+        'Psychic',
+        'Purple Crystal'
+    ],
     '🪅': ['Пиньята'],
     '🪆': [
         'Вложенные Куклы',

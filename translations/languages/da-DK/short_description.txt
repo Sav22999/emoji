@@ -1,4 +1,4 @@
-﻿Det tillader bare med et enkelt klik for at kopiere en emoji.
+Det tillader bare med et enkelt klik for at kopiere en emoji.
 Der er en søgefelt og afsnittet "Mest anvendte emojis" (den først).
 
 Hvis du ønsker at sende feedback eller rapportere fejl, så gå til https://github.com/Sav22999/emoji

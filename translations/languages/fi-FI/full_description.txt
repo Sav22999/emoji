@@ -1,19 +1,19 @@
-﻿Se on avoimen lähdekoodin projekti, jonka avulla voit kopioida helposti emoji.
-Voit etsiä avainsanoja tai käyttää "eniten käytetty emojis". Tai vain etsivät täydellinen emoji navigointi osissa.
+Se on avoimen lähdekoodin projekti, jonka avulla voit helposti kopioida emojeita.
+Voit etsiä avainsanoilla tai käyttäen "eniten käytettyjä emojeita". Tai vain etsien täydellistä emojia navigoimalla osissa.
 
 https://github.com/Sav22999/emoji
 
-Voit muokata lisäosaa, itse asiassa voit ottaa käyttöön tai poistaa käytöstä erilaisia vaihtoehtoja, jotka tekevät addon henkilökohtaisen ja ainutlaatuisen!
+Voit muokata lisäosaa, itse asiassa voit ottaa käyttöön tai poistaa käytöstä erilaisia valintoja, jotka tekevät lisäosasta henkilökohtaisen ja uniikin!
 
-Voit käyttää pikakuvaketta: Ctrl+Alt+A Windowsissa ja Linuxissa sekä Cmd+Alt+A macOS:ssa.
+Voit käyttää pikanäppäintä: Ctrl+Alt+A Windowsissa ja Linuxissa, ja Cmd+Alt+A macOS:ssa.
 
 --
 
-Joitakin tietoja sovelluksessa käytetyistä fonteista:
-- Tärkein fontti ja mielestäni kaunein on Twemoji, jonka on kehittänyt Twitter. Voit lukea lisää siitä ilmaiseksi (se on myös open-source!) täältä: https://twemoji.twitter.com/
+Tietoja sovelluksessa käytetyistä fonteista:
+- Pääfontti ja mielestäni kaunein on Twemoji, jonka on kehittänyt Twitter. Voit lukea siitä lisää ilmaiseksi (se on myös avoimen lähdekoodin!) täältä: https://twemoji.twitter.com/
 
-- OpenMoji, joka on toinen suosikkini emoji-fontti. Lue lisää täältä: https://openmoji.org/
+- OpenMoji, joka on toiseksi suosikkini emoji-fontti. Lue lisää: https://openmoji.org/
 
-- Noto sans, Google. Lue lisää täältä: https://www.google.com/get/noto/help/emoji/
+- Noto sans, Google. Lue lisää: https://www.google.com/get/noto/help/emoji/
 
 Muut fontit, kuten "OS emoji fontti" riippuu käyttöjärjestelmäsi asetuksista, joten sinun pitäisi nähdä ne lisenssejä.

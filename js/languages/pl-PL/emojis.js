@@ -7189,6 +7189,13 @@ emojis_language[lang][13] = {
     '🪨': ['Skała'],
     '🪵': ['Drewno'],
     '🪄': ['Magiczna Różdżka'],
+    '🔮': [
+        'Crystal Ball',
+        'Clairvoyant',
+        'Fortune Teller',
+        'Psychic',
+        'Purple Crystal'
+    ],
     '🪅': ['Pin<unk> ata'],
     '🪆': [
         'Lalki zagnieżdżone',

@@ -7189,6 +7189,13 @@ emojis_language[lang][13] = {
     '🪨': ['Sten'],
     '🪵': ['Trä'],
     '🪄': ['Magiskt trollstav'],
+    '🔮': [
+        'Crystal Ball',
+        'Clairvoyant',
+        'Fortune Teller',
+        'Psychic',
+        'Purple Crystal'
+    ],
     '🪅': ['Pin<unk> ata'],
     '🪆': [
         'Häckande dockor',

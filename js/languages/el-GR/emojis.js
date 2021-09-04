@@ -7189,6 +7189,13 @@ emojis_language[lang][13] = {
     '🪨': ['Ροκ'],
     '🪵': ['Ξύλο'],
     '🪄': ['Μαγικό Ραβδί'],
+    '🔮': [
+        'Crystal Ball',
+        'Clairvoyant',
+        'Fortune Teller',
+        'Psychic',
+        'Purple Crystal'
+    ],
     '🪅': ['Πινγκάτα'],
     '🪆': [
         'Εμφιαλώνοντας Κούκλες',

@@ -7189,6 +7189,13 @@ emojis_language[lang][13] = {
     '🪨': ['Pedras'],
     '🪵': ['Madeira'],
     '🪄': ['Varinha Mágica'],
+    '🔮': [
+        'Crystal Ball',
+        'Clairvoyant',
+        'Fortune Teller',
+        'Psychic',
+        'Purple Crystal'
+    ],
     '🪅': ['Pinhata'],
     '🪆': [
         'Aninhando Bonecas',

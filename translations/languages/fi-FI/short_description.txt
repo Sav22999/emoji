@@ -1,4 +1,4 @@
-﻿Se sallii vain yhdellä napsautuksella kopioida emoji.
-On haku-laatikko ja "Eniten käytetty emoji" -osio (ensimmäinen).
+Se sallii emojien kopioinnin vain yhdellä klikkauksella.
+Siinä on hakukenttä ja "Eniten käytetyt emoji"-osio (ensimmäinen).
 
 Jos haluat lähettää palautetta tai raportoida virheestä, mene osoitteeseen https://github.com/Sav22999/emoji
