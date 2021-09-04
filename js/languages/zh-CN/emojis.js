@@ -7189,6 +7189,13 @@ emojis_language[lang][13] = {
     '🪨': ['摇动'],
     '🪵': ['木头'],
     '🪄': ['魔法Wand'],
+    '🔮': [
+        'Crystal Ball',
+        'Clairvoyant',
+        'Fortune Teller',
+        'Psychic',
+        'Purple Crystal'
+    ],
     '🪅': ['皮纳塔文'],
     '🪆': [
         '嵌套Dolls',

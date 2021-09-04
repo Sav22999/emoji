@@ -7189,6 +7189,13 @@ emojis_language[lang][13] = {
     '🪨': ['Kámen'],
     '🪵': ['Dřevo'],
     '🪄': ['Kouzelná hůlka'],
+    '🔮': [
+        'Crystal Ball',
+        'Clairvoyant',
+        'Fortune Teller',
+        'Psychic',
+        'Purple Crystal'
+    ],
     '🪅': ['Pin<unk> ata'],
     '🪆': [
         'Hnací panely',

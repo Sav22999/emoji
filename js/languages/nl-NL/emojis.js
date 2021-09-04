@@ -7189,6 +7189,13 @@ emojis_language[lang][13] = {
     '🪨': ['Rots'],
     '🪵': ['Hout'],
     '🪄': ['Magische staf'],
+    '🔮': [
+        'Crystal Ball',
+        'Clairvoyant',
+        'Fortune Teller',
+        'Psychic',
+        'Purple Crystal'
+    ],
     '🪅': ['Rozeh ata'],
     '🪆': [
         'Geneste Pop',

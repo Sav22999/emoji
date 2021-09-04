@@ -1,4 +1,4 @@
-﻿Umožňuje to pouze jedním kliknutím zkopírovat emoji.
+Umožňuje to pouze jedním kliknutím zkopírovat emoji.
 Existuje vyhledávací pole a sekce "Nejpoužívanější emoje" (první z nich).
 
 Pokud chcete odeslat zpětnou vazbu nebo nahlásit chybu, přejděte na https://github.com/Sav22999/emoji

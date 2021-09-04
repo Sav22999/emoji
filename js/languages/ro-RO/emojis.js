@@ -7189,6 +7189,13 @@ emojis_language[lang][13] = {
     '🪨': ['Piatră'],
     '🪵': ['Lemn'],
     '🪄': ['Bagheta Magică'],
+    '🔮': [
+        'Crystal Ball',
+        'Clairvoyant',
+        'Fortune Teller',
+        'Psychic',
+        'Purple Crystal'
+    ],
     '🪅': ['Parametri'],
     '🪆': [
         'Papusi de încarcerare',

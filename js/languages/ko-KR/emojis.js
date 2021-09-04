@@ -7189,6 +7189,13 @@ emojis_language[lang][13] = {
     '🪨': ['Rock'],
     '🪵': ['Wood'],
     '🪄': ['Magic Wand'],
+    '🔮': [
+        'Crystal Ball',
+        'Clairvoyant',
+        'Fortune Teller',
+        'Psychic',
+        'Purple Crystal'
+    ],
     '🪅': ['Piñata'],
     '🪆': [
         'Nesting Dolls',

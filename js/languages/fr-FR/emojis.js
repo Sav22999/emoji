@@ -7189,6 +7189,13 @@ emojis_language[lang][13] = {
     '🪨': ['Roche'],
     '🪵': ['Bois'],
     '🪄': ['Baguette magique'],
+    '🔮': [
+        'Crystal Ball',
+        'Clairvoyant',
+        'Fortune Teller',
+        'Psychic',
+        'Purple Crystal'
+    ],
     '🪅': ['Épinglé'],
     '🪆': [
         'Poupées imbriquées',

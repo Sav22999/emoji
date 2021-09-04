@@ -7189,6 +7189,13 @@ emojis_language[lang][13] = {
     '🪨': ['岩'],
     '🪵': ['木材'],
     '🪄': ['魔法の杖format@@0'],
+    '🔮': [
+        'Crystal Ball',
+        'Clairvoyant',
+        'Fortune Teller',
+        'Psychic',
+        'Purple Crystal'
+    ],
     '🪅': ['Pinningerata'],
     '🪆': [
         'ネスティングドール',
