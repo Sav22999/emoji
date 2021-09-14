@@ -1027,7 +1027,7 @@ emojis_language[lang][7] = {
     "🇳🇫": ["Flag of Norfolk Island", "NF", "Norfolk Island Flag"],
     "🇳🇬": ["Flag of Nigeria", "NG", "Nigerian Flag"],
     "🇳🇮": ["Flag of Nicaragua", "NI", "Nicaraguan Flag"],
-    "🇳🇱": ["Flag of Netherlands", "NL", "Dutch Flag"],
+    "🇳🇱": ["Flag of Netherlands", "NL", "Dutch Flag", "Holland"],
     "🇳🇴": ["Flag of Norway", "NO", "Norwegian Flag"],
     "🇳🇵": ["Flag of Nepal", "NP", "Nepalese Flag"],
     "🇳🇷": ["Flag of Nauru", "NR", "Nauruan Flag"],

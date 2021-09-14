@@ -11,6 +11,7 @@ Official repo of https://addons.mozilla.org/it/firefox/addon/emoji-sav/.
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FSav22999%2Femoji.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FSav22999%2Femoji?ref=badge_shield)
 
 [<img src="img/firefoxAddons.png" height="50px">](https://addons.mozilla.org/it/firefox/addon/emoji-sav/)
+[<img src="img/chromeAddons.png" height="50px">](https://chrome.google.com/webstore/detail/emoji/kjepehkgbooeigeflhiogplnckadlife) [<img src="img/microsoftAddons.png" height="50px">](https://microsoftedge.microsoft.com/addons/detail/emoji/ejcgfbaipbelddlbokgcfajefbnnagfm)
 
 To support me, you can do a donation :smile: with **PayPal**, **LiberaPay** or **Ko-Fi**:
 
