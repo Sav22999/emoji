@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Emoji",
-  "version": "3.13.6.1",
+  "version": "3.13.6.2",
   "description": "It permits just with a single click to copy an emoji. You can also customise the add-on.",
   "icons": {
     "16": "./img/icon-dark-16.png",

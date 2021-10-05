@@ -1659,6 +1659,7 @@ emojis_language[lang][13] = {
     "⛺": ["Camping Tent"],
     "⛲": ["Fountain", "Water Feature", "Water Fountain", "Park"],
     "💰": ["Money Bag", "Moneybags", "Rich", "$"],
+    "💸": ["Money with Wings", "Flying Money", " Losing Money"],
     "🏷️": ["Label Tag"],
     "🔖": ["Bookmark", "Price Tag", "Tag"],
     "📑": ["Bookmark Tabs"],
