@@ -4388,7 +4388,8 @@ emojis_language[lang][7] = {
     '🇳🇱': [
         'Alankomaiden lippu',
         'NL',
-        'Alankomaiden Lippu'
+        'Alankomaiden Lippu',
+        'Holland'
     ],
     '🇳🇴': [
         'Norjan lippu',
@@ -6842,6 +6843,11 @@ emojis_language[lang][13] = {
         'Moneybags',
         'Rikas',
         '$'
+    ],
+    '💸': [
+        'Money with Wings',
+        'Flying Money',
+        ' Losing Money'
     ],
     '🏷️': ['Tunnisteen Tagi'],
     '🔖': [

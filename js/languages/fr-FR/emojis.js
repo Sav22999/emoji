@@ -4388,7 +4388,8 @@ emojis_language[lang][7] = {
     '🇳🇱': [
         'Drapeau des Pays-Bas',
         'NL',
-        'Drapeau néerlandais'
+        'Drapeau néerlandais',
+        'Holland'
     ],
     '🇳🇴': [
         'Drapeau de la Norvège',
@@ -6842,6 +6843,11 @@ emojis_language[lang][13] = {
         'Sacs d\'argent',
         'Riche',
         '$'
+    ],
+    '💸': [
+        'Money with Wings',
+        'Flying Money',
+        ' Losing Money'
     ],
     '🏷️': ['Étiquette'],
     '🔖': [

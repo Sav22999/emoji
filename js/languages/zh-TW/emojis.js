@@ -1,21 +1,21 @@
 // descriptions took from Emojipedia.org
-lang = 'ko';
+lang = 'en';
 //use i18n language code of the browser, more details: https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/i18n/LanguageCode
 titles_language[lang] = {
-    '🔍': '결과',
-    '🕒': '자주 쓰인 이모지',
-    '😀': '스마일리',
-    '🙋': '사람',
-    '🦊': '동물',
-    '🅰️': '기호',
-    '🍎': '식료품',
-    '🏳️‍🌈': '깃발',
-    '🏊': '스포츠',
-    '✈️': '여행과 장소',
-    '🖱️': '기술과 사무',
-    '👗': '패션',
-    '🖐️': '신체',
-    '🛎️': '기타'
+    '🔍': 'Results',
+    '🕒': 'Most used emojis',
+    '😀': 'Smileys',
+    '🙋': 'People',
+    '🦊': 'Animals',
+    '🅰️': 'Symbols',
+    '🍎': 'Food and drinks',
+    '🏳️‍🌈': 'Flags',
+    '🏊': 'Sports',
+    '✈️': 'Travel and places',
+    '🖱️': 'Technologies and office',
+    '👗': 'Clothes and accessories',
+    '🖐️': 'Hands and parts of body',
+    '🛎️': 'Other'
 };
 emojis_language[lang] = [];
 /*search*/
@@ -5320,7 +5320,7 @@ emojis_language[lang][9] = {
         'Haunted House'
     ],
     '🏠': [
-        '홈',
+        'Home',
         'House Building'
     ],
     '🏡': [
@@ -6025,7 +6025,7 @@ emojis_language[lang][12] = {
         'Goodbye',
         'Hand Wave',
         'Hello',
-        '안녕하세요'
+        'Hi'
     ],
     '🖐️{{skin_tone}}': [
         'Hand with Fingers Splayed',
@@ -6744,7 +6744,7 @@ emojis_language[lang][13] = {
     '🛡️': ['Shield'],
     '⚙️': [
         'Gear',
-        '설정',
+        'Settings',
         'Options'
     ],
     '⚖️': [

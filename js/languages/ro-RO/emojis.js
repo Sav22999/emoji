@@ -4388,7 +4388,8 @@ emojis_language[lang][7] = {
     '🇳🇱': [
         'Steagul Țărilor de Jos',
         'NL',
-        'Drapelul olandez'
+        'Drapelul olandez',
+        'Holland'
     ],
     '🇳🇴': [
         'Marcajul Norvegiei',
@@ -6842,6 +6843,11 @@ emojis_language[lang][13] = {
         'Moneybaguri',
         'Bogat',
         '$'
+    ],
+    '💸': [
+        'Money with Wings',
+        'Flying Money',
+        ' Losing Money'
     ],
     '🏷️': ['Etichetă etichetă'],
     '🔖': [

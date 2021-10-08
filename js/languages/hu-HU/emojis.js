@@ -1,21 +1,21 @@
 // descriptions took from Emojipedia.org
-lang = 'ko';
+lang = 'hu';
 //use i18n language code of the browser, more details: https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/i18n/LanguageCode
 titles_language[lang] = {
-    '🔍': '결과',
-    '🕒': '자주 쓰인 이모지',
-    '😀': '스마일리',
-    '🙋': '사람',
-    '🦊': '동물',
-    '🅰️': '기호',
-    '🍎': '식료품',
-    '🏳️‍🌈': '깃발',
-    '🏊': '스포츠',
-    '✈️': '여행과 장소',
-    '🖱️': '기술과 사무',
-    '👗': '패션',
-    '🖐️': '신체',
-    '🛎️': '기타'
+    '🔍': 'Találatok',
+    '🕒': 'Legtöbbet használt emodzsik',
+    '😀': 'Hangulatjelek',
+    '🙋': 'Emberek',
+    '🦊': 'Állatok',
+    '🅰️': 'Szimbólumok',
+    '🍎': 'Étel és Ital',
+    '🏳️‍🌈': 'Zászlók',
+    '🏊': 'Sportok',
+    '✈️': 'Utazás és helyek',
+    '🖱️': 'Technológiák és iroda',
+    '👗': 'Ruhák és kiegészítők',
+    '🖐️': 'Kezek és testrészek',
+    '🛎️': 'Egyéb'
 };
 emojis_language[lang] = [];
 /*search*/
@@ -36,11 +36,11 @@ emojis_language[lang][2] = {
         'Smiling Face with Open Mouth'
     ],
     '😄': [
-        'Grinning Face with Smiling Eyes',
-        'Happy Face',
-        'Smiley Face',
-        'Grinning Face With Squinting Eyes',
-        'Smiling Face with Open Mouth and Smiling Eyes'
+        'Nevető arc mosolygó szemmel',
+        'Boldog arc',
+        'Mosolygó arc',
+        'Mosolygó arc lehunyt szemmel',
+        'Nyitott szájjal és lehunyt szemmel mosolygó arc'
     ],
     '😁': [
         'Beaming Face with Smiling Eyes',
@@ -692,7 +692,7 @@ emojis_language[lang][3] = {
     ],
     '👨{{skin_tone}}': [
         'Man',
-        'Male',
+        'Férfi',
         'Moustache Man'
     ],
     '🧔{{skin_tone}}': [
@@ -721,7 +721,7 @@ emojis_language[lang][3] = {
     ],
     '👩{{skin_tone}}': [
         'Woman',
-        'Female',
+        'Nő',
         'Lady',
         'Yellow Woman'
     ],
@@ -2425,7 +2425,7 @@ emojis_language[lang][5] = {
     ],
     'ℹ️': [
         'Information',
-        'Info',
+        'Információ',
         'Lowercase I',
         'Tourist Information',
         'Information Source'
@@ -2471,7 +2471,7 @@ emojis_language[lang][5] = {
         'SOS',
         'SOS Sign',
         'Squared SOS',
-        'Help'
+        'Súgó'
     ],
     '🆙': [
         'Up! Button',
@@ -5320,7 +5320,7 @@ emojis_language[lang][9] = {
         'Haunted House'
     ],
     '🏠': [
-        '홈',
+        'Főoldal',
         'House Building'
     ],
     '🏡': [
@@ -5640,7 +5640,7 @@ emojis_language[lang][10] = {
     ],
     '📧': [
         'E-Mail',
-        'Email'
+        'E-mail'
     ],
     '📨': [
         'Incoming Envelope',
@@ -6025,7 +6025,7 @@ emojis_language[lang][12] = {
         'Goodbye',
         'Hand Wave',
         'Hello',
-        '안녕하세요'
+        'Üdv'
     ],
     '🖐️{{skin_tone}}': [
         'Hand with Fingers Splayed',
@@ -6052,7 +6052,7 @@ emojis_language[lang][12] = {
         'OK Hand Sign',
         'Okay',
         'Perfect',
-        'Yes'
+        'Igen'
     ],
     '✌️{{skin_tone}}‍': [
         'Victory Hand',
@@ -6114,7 +6114,7 @@ emojis_language[lang][12] = {
     '👍{{skin_tone}}‍': [
         'Thumbs Up Sign',
         'Like',
-        'Yes'
+        'Igen'
     ],
     '👎{{skin_tone}}‍': [
         'Thumbs Down Sign',
@@ -6194,7 +6194,7 @@ emojis_language[lang][12] = {
         'Ear',
         'Ears',
         'Hearing',
-        'Listening'
+        'Hallgatás'
     ],
     '👃{{skin_tone}}‍': [
         'Nose',
@@ -6744,7 +6744,7 @@ emojis_language[lang][13] = {
     '🛡️': ['Shield'],
     '⚙️': [
         'Gear',
-        '설정',
+        'Beállítások',
         'Options'
     ],
     '⚖️': [

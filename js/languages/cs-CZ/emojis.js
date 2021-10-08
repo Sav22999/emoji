@@ -4388,7 +4388,8 @@ emojis_language[lang][7] = {
     '🇳🇱': [
         'Vlajka Nizozemska',
         'NL',
-        'Holandská vlajka'
+        'Holandská vlajka',
+        'Holland'
     ],
     '🇳🇴': [
         'Vlajka Norska',
@@ -6842,6 +6843,11 @@ emojis_language[lang][13] = {
         'Moneybagy',
         'Bohatý',
         '$'
+    ],
+    '💸': [
+        'Money with Wings',
+        'Flying Money',
+        ' Losing Money'
     ],
     '🏷️': ['Štítek'],
     '🔖': [

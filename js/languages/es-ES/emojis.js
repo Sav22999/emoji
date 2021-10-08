@@ -4388,7 +4388,8 @@ emojis_language[lang][7] = {
     '🇳🇱': [
         'Bandera de Países Bajos',
         'NL',
-        'Bandera holandesa'
+        'Bandera holandesa',
+        'Holland'
     ],
     '🇳🇴': [
         'Bandera de Noruega',
@@ -6843,6 +6844,11 @@ emojis_language[lang][13] = {
         'Rico',
         '$'
     ],
+    '💸': [
+        'Money with Wings',
+        'Flying Money',
+        ' Losing Money'
+    ],
     '🏷️': ['Etiqueta'],
     '🔖': [
         'Marcador',
@@ -7190,11 +7196,11 @@ emojis_language[lang][13] = {
     '🪵': ['Madera'],
     '🪄': ['Varita mágica'],
     '🔮': [
-        'Crystal Ball',
-        'Clairvoyant',
-        'Fortune Teller',
-        'Psychic',
-        'Purple Crystal'
+        'Bola de Cristal',
+        'Clarividente',
+        'Adivino',
+        'Psíquico',
+        'Cristal Púrpuro'
     ],
     '🪅': ['Pingrata'],
     '🪆': [

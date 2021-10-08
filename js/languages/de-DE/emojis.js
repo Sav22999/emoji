@@ -4388,7 +4388,8 @@ emojis_language[lang][7] = {
     '🇳🇱': [
         'Flagge der Niederlande',
         'NL',
-        'Niederländische Flagge'
+        'Niederländische Flagge',
+        'Holland'
     ],
     '🇳🇴': [
         'norwegische Flagge',
@@ -6842,6 +6843,11 @@ emojis_language[lang][13] = {
         'Geldbeutel',
         'Reiche',
         '$'
+    ],
+    '💸': [
+        'Money with Wings',
+        'Flying Money',
+        ' Losing Money'
     ],
     '🏷️': ['Label Tag'],
     '🔖': [
