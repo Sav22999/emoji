@@ -594,6 +594,14 @@ emojis_language[lang][2] = {
         'Ernstig Gezicht met Symbolen Mouth'
     ],
     '🥲': ['Glimlachend Gezicht met Tranen'],
+    '😮‍💨': [
+        'Face Exhaling',
+        'Sigh'
+    ],
+    '😵‍💫': [
+        'Face with Spiral Eyes',
+        'Dizzy Face'
+    ],
     '🥸': ['Vermomd gezicht'],
     '😈': [
         'Glimlachend Gezicht met Hoorns',

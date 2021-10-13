@@ -594,6 +594,14 @@ emojis_language[lang][2] = {
         'Faţă gravă cu gura simbolurilor'
     ],
     '🥲': ['Față zâmbitoare cu ureche'],
+    '😮‍💨': [
+        'Face Exhaling',
+        'Sigh'
+    ],
+    '😵‍💫': [
+        'Face with Spiral Eyes',
+        'Dizzy Face'
+    ],
     '🥸': ['Față deghizată'],
     '😈': [
         'Față zâmbitoare cu cornuri',

@@ -594,6 +594,14 @@ emojis_language[lang][2] = {
         'Vakava kasvot symbolit kaareva Suun'
     ],
     '🥲': ['Hymyilevä kasvot ja repeämä'],
+    '😮‍💨': [
+        'Face Exhaling',
+        'Sigh'
+    ],
+    '😵‍💫': [
+        'Face with Spiral Eyes',
+        'Dizzy Face'
+    ],
     '🥸': ['Peitetyt Kasvot'],
     '😈': [
         'Hymyilevä kasvot sarvten kanssa',

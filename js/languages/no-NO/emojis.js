@@ -594,6 +594,14 @@ emojis_language[lang][2] = {
         'Alvorlig ansikt med symboler for dekkende mor'
     ],
     '🥲': ['Smil ansikt med tåre'],
+    '😮‍💨': [
+        'Face Exhaling',
+        'Sigh'
+    ],
+    '😵‍💫': [
+        'Face with Spiral Eyes',
+        'Dizzy Face'
+    ],
     '🥸': ['Forkledd ansikt'],
     '😈': [
         'Smilende Ansikt med horn',

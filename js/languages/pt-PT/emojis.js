@@ -594,6 +594,14 @@ emojis_language[lang][2] = {
         'Rosto sério com Símbolos Cobertura de Boca'
     ],
     '🥲': ['Sorrir o rosto com lágrima'],
+    '😮‍💨': [
+        'Face Exhaling',
+        'Sigh'
+    ],
+    '😵‍💫': [
+        'Face with Spiral Eyes',
+        'Dizzy Face'
+    ],
     '🥸': ['Cara disfarçada'],
     '😈': [
         'Cara sorridente com chifres',

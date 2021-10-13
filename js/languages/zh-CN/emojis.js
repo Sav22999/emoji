@@ -594,6 +594,14 @@ emojis_language[lang][2] = {
         '带符号覆盖鼠标的严重面'
     ],
     '🥲': ['带有泪水的微笑面'],
+    '😮‍💨': [
+        'Face Exhaling',
+        'Sigh'
+    ],
+    '😵‍💫': [
+        'Face with Spiral Eyes',
+        'Dizzy Face'
+    ],
     '🥸': ['伪装的面'],
     '😈': [
         '马上的微笑面具',

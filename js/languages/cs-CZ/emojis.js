@@ -594,6 +594,14 @@ emojis_language[lang][2] = {
         'Vážná tvář se symboly pokrytí myší'
     ],
     '🥲': ['Obličej se slzou'],
+    '😮‍💨': [
+        'Face Exhaling',
+        'Sigh'
+    ],
+    '😵‍💫': [
+        'Face with Spiral Eyes',
+        'Dizzy Face'
+    ],
     '🥸': ['Přestavěná tvář'],
     '😈': [
         'Obličej se rohy',

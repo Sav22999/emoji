@@ -594,6 +594,14 @@ emojis_language[lang][2] = {
         'Seriøs ansigt med symboler dækker Mouth'
     ],
     '🥲': ['Smilende ansigt med rive'],
+    '😮‍💨': [
+        'Face Exhaling',
+        'Sigh'
+    ],
+    '😵‍💫': [
+        'Face with Spiral Eyes',
+        'Dizzy Face'
+    ],
     '🥸': ['Forklædt Ansigt'],
     '😈': [
         'Smilende ansigt med horn',

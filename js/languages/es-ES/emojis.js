@@ -594,6 +594,14 @@ emojis_language[lang][2] = {
         'Cara seria con Symbols cubriendo la boca'
     ],
     '🥲': ['Sonriendo cara con Tear'],
+    '😮‍💨': [
+        'Face Exhaling',
+        'Sigh'
+    ],
+    '😵‍💫': [
+        'Face with Spiral Eyes',
+        'Dizzy Face'
+    ],
     '🥸': ['Cara disfrazada'],
     '😈': [
         'Sonriendo cara con cuernos',

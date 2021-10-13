@@ -594,6 +594,14 @@ emojis_language[lang][2] = {
         'Poważna twarz z symbolami pokrywającymi opadę'
     ],
     '🥲': ['Uśmiechnięcie twarzy z Łezą'],
+    '😮‍💨': [
+        'Face Exhaling',
+        'Sigh'
+    ],
+    '😵‍💫': [
+        'Face with Spiral Eyes',
+        'Dizzy Face'
+    ],
     '🥸': ['Przebrana twarz'],
     '😈': [
         'Uśmiechnięcie twarzy z rogami',

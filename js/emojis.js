@@ -114,6 +114,8 @@ emojis_language[lang][2] = {
     "😠": ["Angry Face", "Angry", "Grumpy Face"],
     "🤬": ["Swearing", "@#$%&!", "Face with Symbols on Mouth", "Cursing", "Cussing", "Grawlix", "Face With Symbols Over Mouth", "Serious Face with Symbols Covering Mouth"],
     "🥲": ["Smiling Face with Tear"],
+    "😮‍💨": ["Face Exhaling", "Sigh"],
+    "😵‍💫": ["Face with Spiral Eyes", "Dizzy Face"],
     "🥸": ["Disguised Face"],
     "😈": ["Smiling Face with Horns", "Devil", "Devil Horns", "Happy Devil", "Purple Devil", "Red Devil"],
     "👿": ["Angry Face with Horns", "Devil", "Devil Horns", "Purple Devil", "Purple Goblin", "Sad Devil", "Imp"],

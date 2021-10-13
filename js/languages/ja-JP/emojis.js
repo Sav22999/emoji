@@ -594,6 +594,14 @@ emojis_language[lang][2] = {
         '口を覆うシンボル付きの深刻な顔'
     ],
     '🥲': ['涙で顔を笑顔にする'],
+    '😮‍💨': [
+        'Face Exhaling',
+        'Sigh'
+    ],
+    '😵‍💫': [
+        'Face with Spiral Eyes',
+        'Dizzy Face'
+    ],
     '🥸': ['偽装した顔'],
     '😈': [
         '角との笑顔の顔',
