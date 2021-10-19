@@ -33,16 +33,16 @@ const skin_tones = ["", "🏻", "🏼", "🏽", "🏾", "🏿"]; //standard(yell
 
 var mostUsedEmojis = [];
 
-var browserOrChromeIndex = 0; //TODO: change manually: {0: Firefox, 1: Microsoft Edge, 2: Chrome Web Store}
+var browserOrChromeIndex = 3; //TODO: change manually: {0: Firefox, 1: Microsoft Edge, 2: Chrome Web Store, 3: Thunderbird}
 
 var browserAgentSettings = "";
 var font_family = ""; //twemoji (Twitter), notocoloremoji (Google), openmojicolor (OpenMoji), openmojiblack, default
 
-const linkReview = ["https://addons.mozilla.org/firefox/addon/emoji-sav/", "https://microsoftedge.microsoft.com/addons/detail/emoji/ejcgfbaipbelddlbokgcfajefbnnagfm", "https://chrome.google.com/webstore/detail/emoji/kjepehkgbooeigeflhiogplnckadlife?hl=it&authuser=0"];
+const linkReview = ["https://addons.mozilla.org/firefox/addon/emoji-sav/", "https://microsoftedge.microsoft.com/addons/detail/emoji/ejcgfbaipbelddlbokgcfajefbnnagfm", "https://chrome.google.com/webstore/detail/emoji/kjepehkgbooeigeflhiogplnckadlife?hl=it&authuser=0", "https://addons.thunderbird.net/thunderbird/addon/emoji-sav/"];
 const linkDonate = ["https://www.paypal.com/pools/c/8yl6auiU6e", "https://ko-fi.com/saveriomorelli", "https://bit.ly/3eXs7Oy"]; //{paypal, ko-fi, liberapay}
 const linkTranslate = "https://crowdin.com/project/emoji-sav";
 const linkNeedHelp = ["https://www.saveriomorelli.com/contact-me/"];
-const storeName = ["Firefox Add-ons", "Microsoft Edge Add-ons", "Google Chrome Web Store"];
+const storeName = ["Firefox Add-ons", "Microsoft Edge Add-ons", "Google Chrome Web Store", "Thunderbird Add-ons"];
 const fontFamily = ["twemoji", "notocoloremoji", "notocoloremoji"];
 
 const hideChooseSkinToneMiniPopUpAfterSeconds = 2 * 1000; //2 seconds
@@ -53,13 +53,13 @@ var set_timeout_mini_popup = null;
 
 font_family = fontFamily[browserOrChromeIndex];
 
-if (browserOrChromeIndex == 0) {
+if (browserOrChromeIndex == 0 || browserOrChromeIndex == 3) {
     browserAgentSettings = browser;
 } else if (browserOrChromeIndex == 1 || browserOrChromeIndex == 2) {
     browserAgentSettings = chrome;
 }
 
-const storeNameAbbr = ["MFA", "MEA", "GCWS"];//{MozillaFirefoxAddons, MicrosoftEdgeAddons, GoogleChromeWebStore}
+const storeNameAbbr = ["MFA", "MEA", "GCWS", "MTA"];//{MozillaFirefoxAddons, MicrosoftEdgeAddons, GoogleChromeWebStore, MozillaThunderbirdAddons}
 const releaseNumber = browserAgentSettings.runtime.getManifest().version;
 
 var copyText = "";
