@@ -594,6 +594,14 @@ emojis_language[lang][2] = {
         'Vážná tvář se symboly pokrytí myší'
     ],
     '🥲': ['Obličej se slzou'],
+    '😮‍💨': [
+        'Face Exhaling',
+        'Sigh'
+    ],
+    '😵‍💫': [
+        'Face with Spiral Eyes',
+        'Dizzy Face'
+    ],
     '🥸': ['Přestavěná tvář'],
     '😈': [
         'Obličej se rohy',
@@ -4388,7 +4396,8 @@ emojis_language[lang][7] = {
     '🇳🇱': [
         'Vlajka Nizozemska',
         'NL',
-        'Holandská vlajka'
+        'Holandská vlajka',
+        'Holland'
     ],
     '🇳🇴': [
         'Vlajka Norska',
@@ -6842,6 +6851,11 @@ emojis_language[lang][13] = {
         'Moneybagy',
         'Bohatý',
         '$'
+    ],
+    '💸': [
+        'Money with Wings',
+        'Flying Money',
+        ' Losing Money'
     ],
     '🏷️': ['Štítek'],
     '🔖': [

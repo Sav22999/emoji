@@ -594,6 +594,14 @@ emojis_language[lang][2] = {
         'Rosto sério com Símbolos Cobertura de Boca'
     ],
     '🥲': ['Sorrir o rosto com lágrima'],
+    '😮‍💨': [
+        'Face Exhaling',
+        'Sigh'
+    ],
+    '😵‍💫': [
+        'Face with Spiral Eyes',
+        'Dizzy Face'
+    ],
     '🥸': ['Cara disfarçada'],
     '😈': [
         'Cara sorridente com chifres',
@@ -4388,7 +4396,8 @@ emojis_language[lang][7] = {
     '🇳🇱': [
         'Bandeira da Holanda',
         'NL',
-        'Bandeira holandesa'
+        'Bandeira holandesa',
+        'Holland'
     ],
     '🇳🇴': [
         'Bandeira da Noruega',
@@ -6842,6 +6851,11 @@ emojis_language[lang][13] = {
         'Sacolas',
         'Rico',
         '$'
+    ],
+    '💸': [
+        'Money with Wings',
+        'Flying Money',
+        ' Losing Money'
     ],
     '🏷️': ['Etiqueta de Marcador'],
     '🔖': [

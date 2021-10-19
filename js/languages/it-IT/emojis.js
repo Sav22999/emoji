@@ -594,6 +594,14 @@ emojis_language[lang][2] = {
         'Faccia seria con simboli che coprono la bocca'
     ],
     '🥲': ['Faccia sorridente con lacrima'],
+    '😮‍💨': [
+        'Face Exhaling',
+        'Sigh'
+    ],
+    '😵‍💫': [
+        'Face with Spiral Eyes',
+        'Dizzy Face'
+    ],
     '🥸': ['Faccia Travestita'],
     '😈': [
         'Faccia sorridente con le corna',
@@ -4388,7 +4396,8 @@ emojis_language[lang][7] = {
     '🇳🇱': [
         'Bandiera dei Paesi Bassi',
         'NL',
-        'Bandiera Olandese'
+        'Bandiera Olandese',
+        'Olanda'
     ],
     '🇳🇴': [
         'Bandiera della Norvegia',
@@ -6843,6 +6852,11 @@ emojis_language[lang][13] = {
         'Ricco',
         '$'
     ],
+    '💸': [
+        'Soldi con le ali',
+        'Soldi In Volo',
+        ' Perdere Denaro'
+    ],
     '🏷️': ['Etichetta Etichetta'],
     '🔖': [
         'Segnalibro',
@@ -7190,11 +7204,11 @@ emojis_language[lang][13] = {
     '🪵': ['Legno'],
     '🪄': ['Bacchetta Magica'],
     '🔮': [
-        'Crystal Ball',
+        'Sfera di Cristallo',
         'Clairvoyant',
-        'Fortune Teller',
-        'Psychic',
-        'Purple Crystal'
+        'Veggente',
+        'Psico',
+        'Cristallo Viola'
     ],
     '🪅': ['Pin<unk> ata'],
     '🪆': [

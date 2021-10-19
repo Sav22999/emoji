@@ -594,6 +594,14 @@ emojis_language[lang][2] = {
         'Visage sérieux avec symboles recouvrant la bouche'
     ],
     '🥲': ['Visage souriant avec larme'],
+    '😮‍💨': [
+        'Face Exhaling',
+        'Sigh'
+    ],
+    '😵‍💫': [
+        'Face with Spiral Eyes',
+        'Dizzy Face'
+    ],
     '🥸': ['Visage déguisé'],
     '😈': [
         'Visage souriant avec des cornes',
@@ -4388,7 +4396,8 @@ emojis_language[lang][7] = {
     '🇳🇱': [
         'Drapeau des Pays-Bas',
         'NL',
-        'Drapeau néerlandais'
+        'Drapeau néerlandais',
+        'Holland'
     ],
     '🇳🇴': [
         'Drapeau de la Norvège',
@@ -6842,6 +6851,11 @@ emojis_language[lang][13] = {
         'Sacs d\'argent',
         'Riche',
         '$'
+    ],
+    '💸': [
+        'Money with Wings',
+        'Flying Money',
+        ' Losing Money'
     ],
     '🏷️': ['Étiquette'],
     '🔖': [

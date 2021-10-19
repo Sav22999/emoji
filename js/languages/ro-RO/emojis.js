@@ -594,6 +594,14 @@ emojis_language[lang][2] = {
         'Faţă gravă cu gura simbolurilor'
     ],
     '🥲': ['Față zâmbitoare cu ureche'],
+    '😮‍💨': [
+        'Face Exhaling',
+        'Sigh'
+    ],
+    '😵‍💫': [
+        'Face with Spiral Eyes',
+        'Dizzy Face'
+    ],
     '🥸': ['Față deghizată'],
     '😈': [
         'Față zâmbitoare cu cornuri',
@@ -4388,7 +4396,8 @@ emojis_language[lang][7] = {
     '🇳🇱': [
         'Steagul Țărilor de Jos',
         'NL',
-        'Drapelul olandez'
+        'Drapelul olandez',
+        'Holland'
     ],
     '🇳🇴': [
         'Marcajul Norvegiei',
@@ -6842,6 +6851,11 @@ emojis_language[lang][13] = {
         'Moneybaguri',
         'Bogat',
         '$'
+    ],
+    '💸': [
+        'Money with Wings',
+        'Flying Money',
+        ' Losing Money'
     ],
     '🏷️': ['Etichetă etichetă'],
     '🔖': [

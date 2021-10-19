@@ -594,6 +594,14 @@ emojis_language[lang][2] = {
         'Poważna twarz z symbolami pokrywającymi opadę'
     ],
     '🥲': ['Uśmiechnięcie twarzy z Łezą'],
+    '😮‍💨': [
+        'Face Exhaling',
+        'Sigh'
+    ],
+    '😵‍💫': [
+        'Face with Spiral Eyes',
+        'Dizzy Face'
+    ],
     '🥸': ['Przebrana twarz'],
     '😈': [
         'Uśmiechnięcie twarzy z rogami',
@@ -4388,7 +4396,8 @@ emojis_language[lang][7] = {
     '🇳🇱': [
         'Flaga Niderlandów',
         'NL',
-        'Flaga holenderska'
+        'Flaga holenderska',
+        'Holland'
     ],
     '🇳🇴': [
         'Flaga Norwegii',
@@ -6842,6 +6851,11 @@ emojis_language[lang][13] = {
         'Torby na pióra',
         'Bogaty',
         '$'
+    ],
+    '💸': [
+        'Money with Wings',
+        'Flying Money',
+        ' Losing Money'
     ],
     '🏷️': ['Etykieta'],
     '🔖': [
