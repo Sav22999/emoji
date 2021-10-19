@@ -594,6 +594,14 @@ emojis_language[lang][2] = {
         'Seriøs ansigt med symboler dækker Mouth'
     ],
     '🥲': ['Smilende ansigt med rive'],
+    '😮‍💨': [
+        'Face Exhaling',
+        'Sigh'
+    ],
+    '😵‍💫': [
+        'Face with Spiral Eyes',
+        'Dizzy Face'
+    ],
     '🥸': ['Forklædt Ansigt'],
     '😈': [
         'Smilende ansigt med horn',
@@ -4388,7 +4396,8 @@ emojis_language[lang][7] = {
     '🇳🇱': [
         'Nederlandenes flag',
         'NL',
-        'Hollandsk Flag'
+        'Hollandsk Flag',
+        'Holland'
     ],
     '🇳🇴': [
         'Norges flag',
@@ -6842,6 +6851,11 @@ emojis_language[lang][13] = {
         'Moneybags',
         'Rig',
         '$'
+    ],
+    '💸': [
+        'Money with Wings',
+        'Flying Money',
+        ' Losing Money'
     ],
     '🏷️': ['Etiket Mærke'],
     '🔖': [
