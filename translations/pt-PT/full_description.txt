@@ -1,0 +1,19 @@
+It's an open-source project which permits you to copy easily an emoji (it's an emoji picker, basically).
+Você pode pesquisar por palavras-chave ou usar "emojis mais usados". Ou apenas procure o emoji perfeito que navega nas seções.
+
+https://github.com/Sav22999/emoji
+
+Você pode personalizar o addon, na verdade pode ativar ou desativar várias opções, que tornam o addon pessoal e único!
+
+Você pode usar o atalho: Ctrl+Alt+A no Windows e Linux e Cmd+Alt+A no macOS.
+
+--
+
+Algumas informações sobre fontes usadas no aplicativo:
+- A fonte principal e, em minha opinião, a mais bela é Twemoji, desenvolvida pelo Twitter. Você pode ler mais sobre isso gratuitamente (ele também é de código aberto!) aqui: https://twemoji.twitter.com/
+
+- OpenMoji, que é a minha segunda fonte de emojis favorita. Leia mais aqui: https://openmoji.org/
+
+- Noto sans, da Google. Leia mais aqui: https://www.google.com/get/noto/help/emoji/
+
+Outras fontes, como "Fonte do emoji do SO" depende das configurações do SO, então você deve vê-las licenças.

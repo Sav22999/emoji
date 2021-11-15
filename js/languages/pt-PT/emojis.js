@@ -6283,6 +6283,13 @@ emojis_language[lang][13] = {
         'Anel de Diamante',
         'Anel de Compromisso'
     ],
+    '💎': [
+        'Gem stone',
+        'Diamond',
+        'Gem',
+        'Gemstone',
+        'Jewel'
+    ],
     '💥': [
         'Símbolo de Colisão',
         'Golpear',
@@ -7206,7 +7213,7 @@ emojis_language[lang][13] = {
     '🔮': [
         'Crystal Ball',
         'Clairvoyant',
-        'Fortune Teller',
+        'Telador de Fortuna',
         'Psychic',
         'Purple Crystal'
     ],

@@ -4397,7 +4397,7 @@ emojis_language[lang][7] = {
         'Alankomaiden lippu',
         'NL',
         'Alankomaiden Lippu',
-        'Holland'
+        'Hollanti'
     ],
     '🇳🇴': [
         'Norjan lippu',
@@ -6283,6 +6283,13 @@ emojis_language[lang][13] = {
         'Diamond Ring',
         'Sitoutumismekanismi'
     ],
+    '💎': [
+        'Gem stone',
+        'Diamond',
+        'Gem',
+        'Gemstone',
+        'Jewel'
+    ],
     '💥': [
         'Törmäyksen Symboli',
         'Bang',
@@ -6853,9 +6860,9 @@ emojis_language[lang][13] = {
         '$'
     ],
     '💸': [
-        'Money with Wings',
-        'Flying Money',
-        ' Losing Money'
+        'Raha siipeillä',
+        'Lentävä Raha',
+        ' Menettää Rahaa'
     ],
     '🏷️': ['Tunnisteen Tagi'],
     '🔖': [
@@ -7204,11 +7211,11 @@ emojis_language[lang][13] = {
     '🪵': ['Puu'],
     '🪄': ['Magic Wand'],
     '🔮': [
-        'Crystal Ball',
+        'Kristallin Pallo',
         'Clairvoyant',
         'Fortune Teller',
-        'Psychic',
-        'Purple Crystal'
+        'Psyykkinen',
+        'Violetti Kristalli'
     ],
     '🪅': ['Tynttiäata'],
     '🪆': [

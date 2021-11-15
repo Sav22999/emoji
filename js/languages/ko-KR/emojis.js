@@ -368,7 +368,7 @@ emojis_language[lang][2] = {
         'Bleurgh',
         'Yuk',
         'Yuck',
-        'Ew',
+        '으',
         'Spew',
         'Throwing Up',
         'Vomit',
@@ -4397,7 +4397,7 @@ emojis_language[lang][7] = {
         'Flag of Netherlands',
         'NL',
         'Dutch Flag',
-        'Holland'
+        '홀란드'
     ],
     '🇳🇴': [
         'Flag of Norway',
@@ -6283,6 +6283,13 @@ emojis_language[lang][13] = {
         'Diamond Ring',
         'Engagement Ring'
     ],
+    '💎': [
+        'Gem stone',
+        'Diamond',
+        'Gem',
+        'Gemstone',
+        'Jewel'
+    ],
     '💥': [
         'Collision Symbol',
         'Bang',
@@ -6855,7 +6862,7 @@ emojis_language[lang][13] = {
     '💸': [
         'Money with Wings',
         'Flying Money',
-        ' Losing Money'
+        '사라지는 돈'
     ],
     '🏷️': ['Label Tag'],
     '🔖': [

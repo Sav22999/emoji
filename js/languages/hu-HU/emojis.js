@@ -596,7 +596,7 @@ emojis_language[lang][2] = {
     '🥲': ['Smiling Face with Tear'],
     '😮‍💨': [
         'Face Exhaling',
-        'Sigh'
+        'Sóhaj'
     ],
     '😵‍💫': [
         'Face with Spiral Eyes',
@@ -6282,6 +6282,13 @@ emojis_language[lang][13] = {
         'Ring',
         'Diamond Ring',
         'Engagement Ring'
+    ],
+    '💎': [
+        'Gem stone',
+        'Diamond',
+        'Gem',
+        'Gemstone',
+        'Jewel'
     ],
     '💥': [
         'Collision Symbol',

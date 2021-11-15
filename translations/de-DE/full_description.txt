@@ -1,0 +1,19 @@
+Es ist ein Open-Source-Projekt, das dir erlaubt, ein Emoji einfach zu kopieren (es ist im Grunde ein Emoji Picker).
+Sie können nach Stichwörtern suchen oder die "meist verwendeten Emojis" verwenden. Oder einfach nur nach dem perfekten Emoji in den Abschnitten suchen.
+
+https://github.com/Sav22999/emoji
+
+Sie können das Addon anpassen, dazu können Sie verschiedene Optionen aktivieren oder deaktivieren, die das Addon persönlich und einzigartig machen!
+
+Sie können diese Tastenkombination verwenden: Strg+Alt+A auf Windows und Linux, und Cmd+Alt+A auf macOS.
+
+--
+
+Einige Informationen über Schriftarten und Arten von Emojis, die in der App verwendet werden:
+- Die Haupt-Emoji-Art und, meiner Meinung nach, das schönste ist Twemoji, entwickelt von Twitter. Hier können Sie mehr darüber erfahren (es ist auch Open-Source!): https://twemoji.twitter.com/
+
+- OpenMoji, das ist meine zweite Lieblings-Emoji-Art. Erfahren Sie mehr hier: https://openmoji.org/
+
+- Noto sans, von Google. Erfahren Sie mehr hier: https://www.google.com/get/noto/help/emoji/
+
+Andere Schriftarten, wie "OS Emoji-Art" hängt von Ihren Betriebssystem-Einstellungen ab, daher sollten Sie die Lizenzen nachschauen.

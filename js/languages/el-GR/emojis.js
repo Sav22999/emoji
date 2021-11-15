@@ -6283,6 +6283,13 @@ emojis_language[lang][13] = {
         'Διαμαντένιο Δαχτυλίδι',
         'Δακτύλιος Δέσμευσης'
     ],
+    '💎': [
+        'Gem stone',
+        'Diamond',
+        'Gem',
+        'Gemstone',
+        'Jewel'
+    ],
     '💥': [
         'Σύμβολο Σύγκρουσης',
         'Μπανγκ',
@@ -7208,7 +7215,7 @@ emojis_language[lang][13] = {
         'Clairvoyant',
         'Fortune Teller',
         'Psychic',
-        'Purple Crystal'
+        'Μωβ Κρύσταλλο'
     ],
     '🪅': ['Πινγκάτα'],
     '🪆': [

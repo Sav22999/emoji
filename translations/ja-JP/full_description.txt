@@ -1,0 +1,19 @@
+It's an open-source project which permits you to copy easily an emoji (it's an emoji picker, basically).
+キーワードで検索したり、「最も使用されている絵文字」を使用できます。 または、セクション内の完璧な絵文字を探しています。
+
+https://github.com/Sav22999/絵文字
+
+アドオンをカスタマイズすることができます、実際には、アドオンを個人的かつユニークにするさまざまなオプションを有効または無効にすることができます!
+
+WindowsとLinuxではCtrl+Alt+A、macOSではCmd+Alt+Aを使用できます。
+
+--
+
+アプリで使用されているフォントに関するいくつかの情報:
+- メインフォントと私の意見では、Twitterが開発したTwemojiが一番美しいフォントです。 無料で詳細を読むことができます（オープンソースでもあります）。https://twemoji.twitter.com/
+
+- 私の2番目に好きな絵文字フォントであるOpenMoji。 詳細はこちらをご覧ください: https://openmoji.org/
+
+- 能登さん、Googleによる。 詳しくはこちらをご覧ください: https://www.google.com/get/noto/help/emoji/
+
+"OS 絵文字フォント" のような他のフォントは、OS の設定によって異なりますので、ライセンスが表示されるはずです。

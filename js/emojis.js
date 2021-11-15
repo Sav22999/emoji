@@ -1513,6 +1513,7 @@ emojis_language[lang][13] = {
     "🧶": ["Ball of Yarn"],
     "💄": ["Lipstick", "Lip Gloss", "Makeup"],
     "💍": ["Ring", "Diamond Ring", "Engagement Ring"],
+    "💎": ["Gem stone","Diamond","Gem","Gemstone","Jewel"],
     "💥": ["Collision Symbol", "Bang", "Explode", "Impact", "Red Spark", "Explosion"],
     "💫": ["Dizzy Symbol", "Circle And Star"],
     "💦": ["Splashing Sweat Symbol", "Plewds", "Splashing Water", "Water Drops"],

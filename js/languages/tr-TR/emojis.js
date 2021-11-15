@@ -2,20 +2,20 @@
 lang = 'ing';
 //use i18n language code of the browser, more details: https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/i18n/LanguageCode
 titles_language[lang] = {
-    '🔍': 'Results',
-    '🕒': 'Most used emojis',
-    '😀': 'Smileys',
-    '🙋': 'People',
-    '🦊': 'Animals',
-    '🅰️': 'Symbols',
-    '🍎': 'Food and drinks',
-    '🏳️‍🌈': 'Flags',
-    '🏊': 'Sports',
-    '✈️': 'Travel and places',
-    '🖱️': 'Technologies and office',
-    '👗': 'Clothes and accessories',
-    '🖐️': 'Hands and parts of body',
-    '🛎️': 'Other'
+    '🔍': 'Sonuçlar',
+    '🕒': 'En çok kullanılan emojiler',
+    '😀': 'Yüz ifadeleri',
+    '🙋': 'İnsanlar',
+    '🦊': 'Hayvanlar',
+    '🅰️': 'Semboller',
+    '🍎': 'Yiyecek ve içecekler',
+    '🏳️‍🌈': 'Bayraklar',
+    '🏊': 'Spor dalları',
+    '✈️': 'Seyehat ve yerler',
+    '🖱️': 'Teknolojik alet ve ofis',
+    '👗': 'Giysi ve aksesuarlar',
+    '🖐️': 'Eller ve vücudun bölümleri',
+    '🛎️': 'Diğer'
 };
 emojis_language[lang] = [];
 /*search*/
@@ -23,23 +23,23 @@ emojis_language[lang][0] = {};
 /*smileys*/
 emojis_language[lang][2] = {
     '😀': [
-        'Grinning Face',
+        'Sırıtan yüz',
         ':)',
-        'Happy Face',
-        'Smiley Face'
+        'Mutlu Yüz',
+        'Gülen Yüz'
     ],
     '😃': [
-        'Grinning Face with Big Eyes',
+        'İri Gözlü Sırıtan Yüz',
         ':D',
-        'Happy Face',
-        'Smiley Face',
-        'Smiling Face with Open Mouth'
+        'Mutlu Yüz',
+        'Gülen Yüz',
+        'Ağzı Açık Gülen Yüz'
     ],
     '😄': [
-        'Grinning Face with Smiling Eyes',
-        'Happy Face',
-        'Smiley Face',
-        'Grinning Face With Squinting Eyes',
+        'Gülen Gözlerle Sırıtan Yüz',
+        'Mutlu Yüz',
+        'Gülen Yüz',
+        'Gözleri Kısık Sırıtan Yüz',
         'Smiling Face with Open Mouth and Smiling Eyes'
     ],
     '😁': [
@@ -676,7 +676,7 @@ emojis_language[lang][2] = {
 /*people*/
 emojis_language[lang][3] = {
     '👶{{skin_tone}}': [
-        'Baby',
+        'Bebek',
         'Child',
         'Toddler'
     ],
@@ -688,7 +688,7 @@ emojis_language[lang][3] = {
     '🧑{{skin_tone}}': [
         'Person',
         'Gender Neutral Adult',
-        'Adult'
+        'Yetişkin'
     ],
     '👱{{skin_tone}}': [
         'Person: Blond Hair',
@@ -700,7 +700,7 @@ emojis_language[lang][3] = {
     ],
     '👨{{skin_tone}}': [
         'Man',
-        'Male',
+        'Erkek',
         'Moustache Man'
     ],
     '🧔{{skin_tone}}': [
@@ -729,7 +729,7 @@ emojis_language[lang][3] = {
     ],
     '👩{{skin_tone}}': [
         'Woman',
-        'Female',
+        'Kadın',
         'Lady',
         'Yellow Woman'
     ],
@@ -2433,7 +2433,7 @@ emojis_language[lang][5] = {
     ],
     'ℹ️': [
         'Information',
-        'Info',
+        'Bilgi',
         'Lowercase I',
         'Tourist Information',
         'Information Source'
@@ -2460,7 +2460,7 @@ emojis_language[lang][5] = {
     ],
     '🆗': [
         'OK Button',
-        'OK',
+        'Tamam',
         'Okay',
         'Square',
         'OK Sign',
@@ -2479,7 +2479,7 @@ emojis_language[lang][5] = {
         'SOS',
         'SOS Sign',
         'Squared SOS',
-        'Help'
+        'Yardım'
     ],
     '🆙': [
         'Up! Button',
@@ -5328,7 +5328,7 @@ emojis_language[lang][9] = {
         'Haunted House'
     ],
     '🏠': [
-        'Home',
+        'Ana Sayfa',
         'House Building'
     ],
     '🏡': [
@@ -6033,7 +6033,7 @@ emojis_language[lang][12] = {
         'Goodbye',
         'Hand Wave',
         'Hello',
-        'Hi'
+        'Merhaba'
     ],
     '🖐️{{skin_tone}}': [
         'Hand with Fingers Splayed',
@@ -6060,7 +6060,7 @@ emojis_language[lang][12] = {
         'OK Hand Sign',
         'Okay',
         'Perfect',
-        'Yes'
+        'Evet'
     ],
     '✌️{{skin_tone}}‍': [
         'Victory Hand',
@@ -6122,7 +6122,7 @@ emojis_language[lang][12] = {
     '👍{{skin_tone}}‍': [
         'Thumbs Up Sign',
         'Like',
-        'Yes'
+        'Evet'
     ],
     '👎{{skin_tone}}‍': [
         'Thumbs Down Sign',
@@ -6202,7 +6202,7 @@ emojis_language[lang][12] = {
         'Ear',
         'Ears',
         'Hearing',
-        'Listening'
+        'Dinleniyor'
     ],
     '👃{{skin_tone}}‍': [
         'Nose',
@@ -6282,6 +6282,13 @@ emojis_language[lang][13] = {
         'Ring',
         'Diamond Ring',
         'Engagement Ring'
+    ],
+    '💎': [
+        'Gem stone',
+        'Diamond',
+        'Gem',
+        'Gemstone',
+        'Jewel'
     ],
     '💥': [
         'Collision Symbol',
@@ -6752,7 +6759,7 @@ emojis_language[lang][13] = {
     '🛡️': ['Shield'],
     '⚙️': [
         'Gear',
-        'Settings',
+        'Ayarlar',
         'Options'
     ],
     '⚖️': [
