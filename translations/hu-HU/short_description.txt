@@ -1,0 +1,4 @@
+Lehetővé teszi, hogy egy kattintással másoljon egy emodzsit.
+Rendelkezik egy keresőmezővel és egy „Legtöbbet használt emodzsik” lappal (az az első).
+
+Ha visszajelzést vagy hibajelentést küldene, akkor ugorjon ide: https://github.com/Sav22999/emoji

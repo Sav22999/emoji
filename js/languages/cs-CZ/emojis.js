@@ -594,6 +594,14 @@ emojis_language[lang][2] = {
         'Vážná tvář se symboly pokrytí myší'
     ],
     '🥲': ['Obličej se slzou'],
+    '😮‍💨': [
+        'Face Exhaling',
+        'Sigh'
+    ],
+    '😵‍💫': [
+        'Face with Spiral Eyes',
+        'Dizzy Face'
+    ],
     '🥸': ['Přestavěná tvář'],
     '😈': [
         'Obličej se rohy',
@@ -4388,7 +4396,8 @@ emojis_language[lang][7] = {
     '🇳🇱': [
         'Vlajka Nizozemska',
         'NL',
-        'Holandská vlajka'
+        'Holandská vlajka',
+        'Holland'
     ],
     '🇳🇴': [
         'Vlajka Norska',
@@ -6274,6 +6283,13 @@ emojis_language[lang][13] = {
         'Diamantový kruh',
         'Zapojení kruhu'
     ],
+    '💎': [
+        'Gem stone',
+        'Diamond',
+        'Gem',
+        'Gemstone',
+        'Jewel'
+    ],
     '💥': [
         'Symbol kolize',
         'Bang',
@@ -6843,6 +6859,11 @@ emojis_language[lang][13] = {
         'Bohatý',
         '$'
     ],
+    '💸': [
+        'Money with Wings',
+        'Flying Money',
+        ' Losing Money'
+    ],
     '🏷️': ['Štítek'],
     '🔖': [
         'Záložka',
@@ -7189,6 +7210,13 @@ emojis_language[lang][13] = {
     '🪨': ['Kámen'],
     '🪵': ['Dřevo'],
     '🪄': ['Kouzelná hůlka'],
+    '🔮': [
+        'Crystal Ball',
+        'Clairvoyant',
+        'Fortune Teller',
+        'Psychic',
+        'Purple Crystal'
+    ],
     '🪅': ['Pin<unk> ata'],
     '🪆': [
         'Hnací panely',

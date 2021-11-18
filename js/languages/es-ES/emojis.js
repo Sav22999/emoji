@@ -594,6 +594,14 @@ emojis_language[lang][2] = {
         'Cara seria con Symbols cubriendo la boca'
     ],
     '🥲': ['Sonriendo cara con Tear'],
+    '😮‍💨': [
+        'Face Exhaling',
+        'Sigh'
+    ],
+    '😵‍💫': [
+        'Face with Spiral Eyes',
+        'Dizzy Face'
+    ],
     '🥸': ['Cara disfrazada'],
     '😈': [
         'Sonriendo cara con cuernos',
@@ -4388,7 +4396,8 @@ emojis_language[lang][7] = {
     '🇳🇱': [
         'Bandera de Países Bajos',
         'NL',
-        'Bandera holandesa'
+        'Bandera holandesa',
+        'Holland'
     ],
     '🇳🇴': [
         'Bandera de Noruega',
@@ -6274,6 +6283,13 @@ emojis_language[lang][13] = {
         'Anillo de Diamante',
         'Anillo de compromiso'
     ],
+    '💎': [
+        'Gem stone',
+        'Diamond',
+        'Gem',
+        'Gemstone',
+        'Jewel'
+    ],
     '💥': [
         'Símbolo de colisión',
         'Bang',
@@ -6843,6 +6859,11 @@ emojis_language[lang][13] = {
         'Rico',
         '$'
     ],
+    '💸': [
+        'Money with Wings',
+        'Flying Money',
+        ' Losing Money'
+    ],
     '🏷️': ['Etiqueta'],
     '🔖': [
         'Marcador',
@@ -7189,6 +7210,13 @@ emojis_language[lang][13] = {
     '🪨': ['Roca'],
     '🪵': ['Madera'],
     '🪄': ['Varita mágica'],
+    '🔮': [
+        'Bola de Cristal',
+        'Clarividente',
+        'Adivino',
+        'Psíquico',
+        'Cristal Púrpuro'
+    ],
     '🪅': ['Pingrata'],
     '🪆': [
         'Anidando ollas',

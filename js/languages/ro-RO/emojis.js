@@ -594,6 +594,14 @@ emojis_language[lang][2] = {
         'Faţă gravă cu gura simbolurilor'
     ],
     '🥲': ['Față zâmbitoare cu ureche'],
+    '😮‍💨': [
+        'Face Exhaling',
+        'Sigh'
+    ],
+    '😵‍💫': [
+        'Face with Spiral Eyes',
+        'Dizzy Face'
+    ],
     '🥸': ['Față deghizată'],
     '😈': [
         'Față zâmbitoare cu cornuri',
@@ -4388,7 +4396,8 @@ emojis_language[lang][7] = {
     '🇳🇱': [
         'Steagul Țărilor de Jos',
         'NL',
-        'Drapelul olandez'
+        'Drapelul olandez',
+        'Holland'
     ],
     '🇳🇴': [
         'Marcajul Norvegiei',
@@ -6274,6 +6283,13 @@ emojis_language[lang][13] = {
         'Inel de diamant',
         'Angajament Inel'
     ],
+    '💎': [
+        'Gem stone',
+        'Diamond',
+        'Gem',
+        'Gemstone',
+        'Jewel'
+    ],
     '💥': [
         'Simbol de coliziune',
         'Bang',
@@ -6843,6 +6859,11 @@ emojis_language[lang][13] = {
         'Bogat',
         '$'
     ],
+    '💸': [
+        'Money with Wings',
+        'Flying Money',
+        ' Losing Money'
+    ],
     '🏷️': ['Etichetă etichetă'],
     '🔖': [
         'Marcaj',
@@ -7189,6 +7210,13 @@ emojis_language[lang][13] = {
     '🪨': ['Piatră'],
     '🪵': ['Lemn'],
     '🪄': ['Bagheta Magică'],
+    '🔮': [
+        'Crystal Ball',
+        'Clairvoyant',
+        'Fortune Teller',
+        'Psychic',
+        'Purple Crystal'
+    ],
     '🪅': ['Parametri'],
     '🪆': [
         'Papusi de încarcerare',

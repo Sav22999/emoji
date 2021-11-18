@@ -594,6 +594,14 @@ emojis_language[lang][2] = {
         'Ernstig Gezicht met Symbolen Mouth'
     ],
     '🥲': ['Glimlachend Gezicht met Tranen'],
+    '😮‍💨': [
+        'Face Exhaling',
+        'Sigh'
+    ],
+    '😵‍💫': [
+        'Face with Spiral Eyes',
+        'Dizzy Face'
+    ],
     '🥸': ['Vermomd gezicht'],
     '😈': [
         'Glimlachend Gezicht met Hoorns',
@@ -4388,7 +4396,8 @@ emojis_language[lang][7] = {
     '🇳🇱': [
         'Vlag van Nederland',
         'NL',
-        'Nederlandse vlag'
+        'Nederlandse vlag',
+        'Holland'
     ],
     '🇳🇴': [
         'Vlag van Noorwegen',
@@ -6274,6 +6283,13 @@ emojis_language[lang][13] = {
         'Diamanten Ring',
         'Betrokkenheid Ring'
     ],
+    '💎': [
+        'Gem stone',
+        'Diamond',
+        'Gem',
+        'Gemstone',
+        'Jewel'
+    ],
     '💥': [
         'Botsing Symbool',
         'Knuppel',
@@ -6843,6 +6859,11 @@ emojis_language[lang][13] = {
         'Rijke',
         '$'
     ],
+    '💸': [
+        'Money with Wings',
+        'Flying Money',
+        ' Losing Money'
+    ],
     '🏷️': ['Label tag'],
     '🔖': [
         'Bladwijzer',
@@ -7189,6 +7210,13 @@ emojis_language[lang][13] = {
     '🪨': ['Rots'],
     '🪵': ['Hout'],
     '🪄': ['Magische staf'],
+    '🔮': [
+        'Crystal Ball',
+        'Clairvoyant',
+        'Fortune Teller',
+        'Psychic',
+        'Purple Crystal'
+    ],
     '🪅': ['Rozeh ata'],
     '🪆': [
         'Geneste Pop',

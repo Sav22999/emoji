@@ -594,6 +594,14 @@ emojis_language[lang][2] = {
         'Poważna twarz z symbolami pokrywającymi opadę'
     ],
     '🥲': ['Uśmiechnięcie twarzy z Łezą'],
+    '😮‍💨': [
+        'Face Exhaling',
+        'Sigh'
+    ],
+    '😵‍💫': [
+        'Face with Spiral Eyes',
+        'Dizzy Face'
+    ],
     '🥸': ['Przebrana twarz'],
     '😈': [
         'Uśmiechnięcie twarzy z rogami',
@@ -4388,7 +4396,8 @@ emojis_language[lang][7] = {
     '🇳🇱': [
         'Flaga Niderlandów',
         'NL',
-        'Flaga holenderska'
+        'Flaga holenderska',
+        'Holland'
     ],
     '🇳🇴': [
         'Flaga Norwegii',
@@ -6274,6 +6283,13 @@ emojis_language[lang][13] = {
         'Diamentowy pierścień',
         'Pierścień Zaangażowania'
     ],
+    '💎': [
+        'Gem stone',
+        'Diamond',
+        'Gem',
+        'Gemstone',
+        'Jewel'
+    ],
     '💥': [
         'Symbol kolizji',
         'Bang',
@@ -6843,6 +6859,11 @@ emojis_language[lang][13] = {
         'Bogaty',
         '$'
     ],
+    '💸': [
+        'Money with Wings',
+        'Flying Money',
+        ' Losing Money'
+    ],
     '🏷️': ['Etykieta'],
     '🔖': [
         'Zakładka',
@@ -7189,6 +7210,13 @@ emojis_language[lang][13] = {
     '🪨': ['Skała'],
     '🪵': ['Drewno'],
     '🪄': ['Magiczna Różdżka'],
+    '🔮': [
+        'Crystal Ball',
+        'Clairvoyant',
+        'Fortune Teller',
+        'Psychic',
+        'Purple Crystal'
+    ],
     '🪅': ['Pin<unk> ata'],
     '🪆': [
         'Lalki zagnieżdżone',

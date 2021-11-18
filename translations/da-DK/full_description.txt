@@ -1,0 +1,19 @@
+It's an open-source project which permits you to copy easily an emoji (it's an emoji picker, basically).
+Du kan søge efter søgeord eller bruge den "mest anvendte emojis". Eller bare på udkig efter den perfekte emoji navigere i sektionerne.
+
+https://github.com/Sav22999/emoji
+
+Du kan tilpasse tilføjelsen, i virkeligheden kan du aktivere eller deaktivere forskellige muligheder, som gør tilføjelsen personlig og unik!
+
+Du kan bruge genvejen: Ctrl+Alt+A på Windows og Linux og Cmd+Alt+A på macOS.
+
+--
+
+Nogle oplysninger om skrifttyper, der bruges i app'en:
+- Den vigtigste skrifttype og efter min mening den smukkeste er Twemoji, udviklet af Twitter. Du kan læse mere om det gratis (det er også open source!) her: https://twemoji.twitter.com/
+
+- OpenMoji, som er min anden foretrukne emoji-skrifttype. Læs mere her: https://openmoji.org/
+
+- Noto sans, af Google. Læs mere her: https://www.google.com/get/noto/help/emoji/
+
+Andre skrifttyper, såsom "OS emoji skrifttype" afhænger af dine OS-indstillinger, så du bør se dem licenser.

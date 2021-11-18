@@ -3,19 +3,19 @@ lang = 'fi';
 //use i18n language code of the browser, more details: https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/i18n/LanguageCode
 titles_language[lang] = {
     '🔍': 'Tulokset',
-    '🕒': 'Eniten käytettyjä emojeja',
+    '🕒': 'Eniten käytetyt emojit',
     '😀': 'Hymiöt',
     '🙋': 'Ihmiset',
     '🦊': 'Eläimet',
     '🅰️': 'Symbolit',
-    '🍎': 'Ruoka ja juomat',
+    '🍎': 'Ruoka ja juoma',
     '🏳️‍🌈': 'Liput',
     '🏊': 'Urheilu',
     '✈️': 'Matkailu ja paikat',
     '🖱️': 'Teknologia ja toimisto',
     '👗': 'Vaatteet ja tarvikkeet',
     '🖐️': 'Kädet ja kehon osat',
-    '🛎️': 'Muu'
+    '🛎️': 'Muut'
 };
 emojis_language[lang] = [];
 /*search*/
@@ -594,6 +594,14 @@ emojis_language[lang][2] = {
         'Vakava kasvot symbolit kaareva Suun'
     ],
     '🥲': ['Hymyilevä kasvot ja repeämä'],
+    '😮‍💨': [
+        'Face Exhaling',
+        'Sigh'
+    ],
+    '😵‍💫': [
+        'Face with Spiral Eyes',
+        'Dizzy Face'
+    ],
     '🥸': ['Peitetyt Kasvot'],
     '😈': [
         'Hymyilevä kasvot sarvten kanssa',
@@ -4388,7 +4396,8 @@ emojis_language[lang][7] = {
     '🇳🇱': [
         'Alankomaiden lippu',
         'NL',
-        'Alankomaiden Lippu'
+        'Alankomaiden Lippu',
+        'Hollanti'
     ],
     '🇳🇴': [
         'Norjan lippu',
@@ -6274,6 +6283,13 @@ emojis_language[lang][13] = {
         'Diamond Ring',
         'Sitoutumismekanismi'
     ],
+    '💎': [
+        'Gem stone',
+        'Diamond',
+        'Gem',
+        'Gemstone',
+        'Jewel'
+    ],
     '💥': [
         'Törmäyksen Symboli',
         'Bang',
@@ -6843,6 +6859,11 @@ emojis_language[lang][13] = {
         'Rikas',
         '$'
     ],
+    '💸': [
+        'Raha siipeillä',
+        'Lentävä Raha',
+        ' Menettää Rahaa'
+    ],
     '🏷️': ['Tunnisteen Tagi'],
     '🔖': [
         'Kirjanmerkki',
@@ -7189,6 +7210,13 @@ emojis_language[lang][13] = {
     '🪨': ['Rock'],
     '🪵': ['Puu'],
     '🪄': ['Magic Wand'],
+    '🔮': [
+        'Kristallin Pallo',
+        'Clairvoyant',
+        'Fortune Teller',
+        'Psyykkinen',
+        'Violetti Kristalli'
+    ],
     '🪅': ['Tynttiäata'],
     '🪆': [
         'Nestävät Nuket',

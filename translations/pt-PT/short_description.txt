@@ -1,4 +1,4 @@
-﻿Permite apenas com um único clique para copiar um emoji.
+Permite apenas com um único clique para copiar um emoji.
 Há uma caixa de pesquisa e a seção "emojis mais usados" (o primeiro).
 
 Se você quiser enviar comentários ou relatar bug, por favor, vá para https://github.com/Sav22999/emoji

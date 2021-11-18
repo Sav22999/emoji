@@ -3,7 +3,7 @@ lang = 'de';
 //use i18n language code of the browser, more details: https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/i18n/LanguageCode
 titles_language[lang] = {
     '🔍': 'Ergebnisse',
-    '🕒': 'Am häufigsten verwendete Emojis',
+    '🕒': 'Meist verwendete Emojis',
     '😀': 'Smileys',
     '🙋': 'Personen',
     '🦊': 'Tiere',
@@ -23,7 +23,7 @@ emojis_language[lang][0] = {};
 /*smileys*/
 emojis_language[lang][2] = {
     '😀': [
-        'Grinning-Gesicht',
+        'Grinsendes Gesicht',
         ':)',
         'Glückliches Gesicht',
         'Smiley-Gesicht'
@@ -36,7 +36,7 @@ emojis_language[lang][2] = {
         'Lächelndes Gesicht mit offenem Mund'
     ],
     '😄': [
-        'Grinning-Gesicht mit lächelnden Augen',
+        'Grinsendes Gesicht mit lächelnden Augen',
         'Glückliches Gesicht',
         'Smiley-Gesicht',
         'Grinsendes Gesicht mit schrumpfenden Augen',
@@ -44,33 +44,33 @@ emojis_language[lang][2] = {
     ],
     '😁': [
         'Strahlendes Gesicht mit lächelnden Augen',
-        'Grinning-Gesicht mit lächelnden Augen'
+        'Grinsendes Gesicht mit lächelnden Augen'
     ],
     '😆': [
-        'Grinsende Schachfigur',
+        'Grinsendes blinzelndes Gesicht',
         'xD',
         '><',
-        'Großer Grin',
+        'Großes Grinsen',
         'Geschlossenes Auge Lächeln',
         'Lachend',
-        'Grinning-Gesicht mit dicht geschlossenen Augen',
-        'Lächelndes Gesicht mit offenen Augen und dicht geschlossenen Augen'
+        'Grinsendes Gesicht mit dicht geschlossenen Augen',
+        'Lächelndes Gesicht mit offenem Mund und dicht geschlossenen Augen'
     ],
     '😅': [
         'Grinnendes Gesicht mit Schweiß',
         'Übung',
         'Glücklicher Schweiß',
-        'Grining-Gesicht mit schwindelnden Augen und Schweißtropfen',
+        'Grinsendes Gesicht mit blinzelnden Augen und Schweißtropfen',
         'Lächelndes Gesicht mit offenem Mund und kaltem Schweiß'
     ],
     '🤣': [
         'ROFL',
-        'Walzen auf dem Boden Lachend'
+        'Auf dem Boden lachend rollen'
     ],
     '😂': [
-        'Gesicht mit Tränen der Freude',
-        'Lachend',
-        'Lachender Schrei',
+        'Gesicht mit Freudentränen',
+        'Lachen',
+        'Weinend lachen',
         'Lachende Tränen',
         'LOL'
     ],
@@ -78,20 +78,20 @@ emojis_language[lang][2] = {
         'Leicht lächelndes Gesicht',
         ':)',
         'Etwas glücklich',
-        'Das ist gut'
+        'Alles gut'
     ],
     '🙃': [
-        'Oberseiten-runter Gesicht',
-        'Sarcasm',
-        'Silly',
-        'Oberseite nach unten'
+        'Verkehrtes Gesicht',
+        'Sarkasmus',
+        'Albernd',
+        'Verkehrtes Gesicht'
     ],
     '😉': [
-        'Winkendes Gesicht',
+        'Zwinkerndes Gesicht',
         ';)',
-        'Winken',
-        'Winken Gesicht',
-        'Winkiges Gesicht'
+        'Zwinkern',
+        'Zwinkern Gesicht',
+        'Zwinkerndes Gesicht'
     ],
     '😊': [
         'Lächelndes Gesicht mit lächelnden Augen',
@@ -101,13 +101,13 @@ emojis_language[lang][2] = {
         'Smiley-Gesicht'
     ],
     '😇': [
-        'Lächelndes Gesicht mit Halo',
+        'Lächelndes Gesicht mit Heiligenschein',
         'Engel',
-        'Halo'
+        'Heiligenschein'
     ],
     '🥰': [
         'Lächelndes Gesicht mit Herzen',
-        'In Liebesgesicht',
+        'Verliebtes Gesicht',
         'Lächelndes Gesicht mit lächelnden Augen und drei Herzen'
     ],
     '😍': [
@@ -124,62 +124,62 @@ emojis_language[lang][2] = {
         'Sternenhimmel',
         'Wow Gesicht',
         'Gesicht mit Sternenhimmelaugen',
-        'Grinning-Gesicht mit Sternaugen'
+        'Grinsendes Gesicht mit Sternaugen'
     ],
     '😘': [
-        'Face Blowing a Kuss',
+        'Gesicht mit Luftkuss',
         ':*',
         ':-*',
-        'Schlag einen Kuss',
-        'Blasender Kuss',
+        'Einen Luftkuss geben',
+        'Luftkuss',
         'Küssen',
-        'Gesichter wirft einen Kuss'
+        'Gesicht gibt einen Kuss'
     ],
     '😗': [
-        'Küßendes Gesicht',
+        'Küssendes Gesicht',
         ':*',
         ':-*',
-        'Entenfigur',
-        'Kissy Face',
-        'Pfeife'
+        'Duck-Face',
+        'Küssendes Gesicht',
+        'Pfeifen'
     ],
     '☺️': [
         'Lächelndes Gesicht',
         'Glückliches Gesicht',
         'Smiley-Gesicht',
         'Lächeln',
-        'Weiß lächelnd'
+        'Leicht lächelndes Gesicht'
     ],
     '😚': [
-        'Küsst Gesicht mit geschlossenen Augen',
+        'Küssendes Gesicht mit geschlossenen Augen',
         'Kuss-Gesicht',
-        'Kissy Face'
+        'Küssendes Gesicht'
     ],
     '😙': [
-        'Küsst das Gesicht mit lächelnden Augen',
+        'Küssendes Gesicht mit lächelnden Augen',
         'Kuss-Gesicht',
-        'Kissy',
+        'Küssend',
         'Pfeife',
-        'Pfeife'
+        'Pfeifen'
     ],
     '😋': [
-        'Gesicht Savoring Nahrung',
-        'Lila',
+        'Gesicht genießt das Essen',
+        'Albernd',
         'Hungrig',
-        'Lächelnde Face Licking Lips',
-        'Face Savouring Delicious Food',
-        'Yum'
+        'Lächelndes Gesicht mit Zunge',
+        'Gesicht genießt leckeres Essen',
+        'Lecker'
     ],
     '😛': [
         'Gesicht mit Zunge',
         ':P',
-        'Gänzlich',
+        'Frech',
         'Zunge Gesicht',
-        'Tonausgang',
-        'Gesichter mit fester Zunge'
+        'Zunge raus',
+        'Gesichter mit rausgestreckter Zunge'
     ],
     '😜': [
-        'Winkende Fläche mit Zunge',
+        'Zwinkendes Gesicht mit Zunge',
         ';P',
         'Verrückt',
         'Verrücktes Gesicht',
@@ -594,6 +594,14 @@ emojis_language[lang][2] = {
         'Seriöses Gesicht mit Symbolen Covering Mouth'
     ],
     '🥲': ['Lächelndes Gesicht mit Tear'],
+    '😮‍💨': [
+        'Seufzendes Gesicht',
+        'Seufzen'
+    ],
+    '😵‍💫': [
+        'Gesicht mit Spiralaugen',
+        'Schwindeliges Gesicht'
+    ],
     '🥸': ['Verkleidtes Gesicht'],
     '😈': [
         'Lächelndes Gesicht mit Hörnern',
@@ -4388,7 +4396,8 @@ emojis_language[lang][7] = {
     '🇳🇱': [
         'Flagge der Niederlande',
         'NL',
-        'Niederländische Flagge'
+        'Niederländische Flagge',
+        'Holland'
     ],
     '🇳🇴': [
         'norwegische Flagge',
@@ -6274,6 +6283,13 @@ emojis_language[lang][13] = {
         'Diamantenring',
         'Engagement-Ring'
     ],
+    '💎': [
+        'Gem stone',
+        'Diamond',
+        'Gem',
+        'Gemstone',
+        'Jewel'
+    ],
     '💥': [
         'Kollisionssymbol',
         'Knall',
@@ -6843,6 +6859,11 @@ emojis_language[lang][13] = {
         'Reiche',
         '$'
     ],
+    '💸': [
+        'Geld mit Flügeln',
+        'Fliegengeld',
+        ' Verlierendes Geld'
+    ],
     '🏷️': ['Label Tag'],
     '🔖': [
         'Lesezeichen',
@@ -7189,6 +7210,13 @@ emojis_language[lang][13] = {
     '🪨': ['Felsen'],
     '🪵': ['Holz'],
     '🪄': ['Zauberstab'],
+    '🔮': [
+        'Kristallkugel',
+        'Clairvoyant',
+        'Glücksgeschenk',
+        'Psychisch',
+        'Violetter Kristall'
+    ],
     '🪅': ['Pin<unk> ata'],
     '🪆': [
         'Schachteln Puppen',

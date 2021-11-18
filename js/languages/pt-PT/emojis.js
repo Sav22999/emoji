@@ -594,6 +594,14 @@ emojis_language[lang][2] = {
         'Rosto sério com Símbolos Cobertura de Boca'
     ],
     '🥲': ['Sorrir o rosto com lágrima'],
+    '😮‍💨': [
+        'Face Exhaling',
+        'Sigh'
+    ],
+    '😵‍💫': [
+        'Face with Spiral Eyes',
+        'Dizzy Face'
+    ],
     '🥸': ['Cara disfarçada'],
     '😈': [
         'Cara sorridente com chifres',
@@ -4388,7 +4396,8 @@ emojis_language[lang][7] = {
     '🇳🇱': [
         'Bandeira da Holanda',
         'NL',
-        'Bandeira holandesa'
+        'Bandeira holandesa',
+        'Holland'
     ],
     '🇳🇴': [
         'Bandeira da Noruega',
@@ -6274,6 +6283,13 @@ emojis_language[lang][13] = {
         'Anel de Diamante',
         'Anel de Compromisso'
     ],
+    '💎': [
+        'Gem stone',
+        'Diamond',
+        'Gem',
+        'Gemstone',
+        'Jewel'
+    ],
     '💥': [
         'Símbolo de Colisão',
         'Golpear',
@@ -6843,6 +6859,11 @@ emojis_language[lang][13] = {
         'Rico',
         '$'
     ],
+    '💸': [
+        'Money with Wings',
+        'Flying Money',
+        ' Losing Money'
+    ],
     '🏷️': ['Etiqueta de Marcador'],
     '🔖': [
         'Favorito',
@@ -7189,6 +7210,13 @@ emojis_language[lang][13] = {
     '🪨': ['Pedras'],
     '🪵': ['Madeira'],
     '🪄': ['Varinha Mágica'],
+    '🔮': [
+        'Crystal Ball',
+        'Clairvoyant',
+        'Telador de Fortuna',
+        'Psychic',
+        'Purple Crystal'
+    ],
     '🪅': ['Pinhata'],
     '🪆': [
         'Aninhando Bonecas',

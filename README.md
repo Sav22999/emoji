@@ -10,11 +10,11 @@ Also available on [Firefox Add-ons](https://addons.mozilla.org/it/firefox/addon/
 [![GitHub release](https://img.shields.io/github/release/Sav22999/emoji.svg)](https://github.com/Sav22999/emoji/releases/) [![GitHub license](https://img.shields.io/github/license/Sav22999/emoji.svg)](https://github.com/Sav22999/emoji/blob/master/LICENSE) ![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FSav22999%2Femoji.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FSav22999%2Femoji?ref=badge_shield)
 
-[<img src="img/chromeAddons.png" height="50px">](https://chrome.google.com/webstore/detail/emoji/kjepehkgbooeigeflhiogplnckadlife) [<img src="img/microsoftAddons.png" height="50px">](https://microsoftedge.microsoft.com/addons/detail/emoji/ejcgfbaipbelddlbokgcfajefbnnagfm)
+[<img src="img/firefoxAddons.png" height="50px">](https://addons.mozilla.org/it/firefox/addon/emoji-sav/) [<img src="img/chromeAddons.png" height="50px">](https://chrome.google.com/webstore/detail/emoji/kjepehkgbooeigeflhiogplnckadlife) [<img src="img/microsoftAddons.png" height="50px">](https://microsoftedge.microsoft.com/addons/detail/emoji/ejcgfbaipbelddlbokgcfajefbnnagfm)
 
 To support me, you can do a donation :smile: with **PayPal**, **LiberaPay** or **Ko-Fi**:
 
-<a href="https://liberapay.com/Sav22999/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a> [<img src="img/paypal.svg" width="160px"></img>](https://paypal.me/pools/c/8yl6auiU6e) [<img src="https://cdn.ko-fi.com/cdn/kofi1.png?v=2" width="120px"></img>](https://ko-fi.com/R5R31UQ8G)
+<a href="https://liberapay.com/Sav22999/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a> [<img src="img/paypal.svg" width="160px"></img>](https://paypal.me/saveriomorelli) [<img src="https://cdn.ko-fi.com/cdn/kofi1.png?v=2" width="120px"></img>](https://ko-fi.com/R5R31UQ8G)
 
 ## Description
 

@@ -1,4 +1,4 @@
-﻿Es un proyecto de código abierto que le permite copiar fácilmente un emoji.
+Es un proyecto de código abierto que le permite copiar fácilmente un emoji.
 Puede buscar por palabras clave o utilizar los "emojis más usados". O simplemente buscando el perfecto emoji navegando en las secciones.
 
 https://github.com/Sav22999/emoji

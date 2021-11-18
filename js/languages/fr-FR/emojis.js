@@ -594,6 +594,14 @@ emojis_language[lang][2] = {
         'Visage sérieux avec symboles recouvrant la bouche'
     ],
     '🥲': ['Visage souriant avec larme'],
+    '😮‍💨': [
+        'Face Exhaling',
+        'Sigh'
+    ],
+    '😵‍💫': [
+        'Face with Spiral Eyes',
+        'Dizzy Face'
+    ],
     '🥸': ['Visage déguisé'],
     '😈': [
         'Visage souriant avec des cornes',
@@ -4388,7 +4396,8 @@ emojis_language[lang][7] = {
     '🇳🇱': [
         'Drapeau des Pays-Bas',
         'NL',
-        'Drapeau néerlandais'
+        'Drapeau néerlandais',
+        'Hollande'
     ],
     '🇳🇴': [
         'Drapeau de la Norvège',
@@ -6116,9 +6125,9 @@ emojis_language[lang][12] = {
         'Oui'
     ],
     '👎{{skin_tone}}‍': [
-        'Panneau des vignettes vers le bas',
+        'Signe de pouce vers le bas',
         'Mauvais',
-        'Dislike',
+        'Je n\'aime pas',
         'Non'
     ],
     '✊{{skin_tone}}‍': [
@@ -6273,6 +6282,13 @@ emojis_language[lang][13] = {
         'Sonnerie',
         'Bague en Diamant',
         'Bague d\'engagement'
+    ],
+    '💎': [
+        'Gem stone',
+        'Diamond',
+        'Gem',
+        'Gemstone',
+        'Jewel'
     ],
     '💥': [
         'Symbole de collision',
@@ -6843,6 +6859,11 @@ emojis_language[lang][13] = {
         'Riche',
         '$'
     ],
+    '💸': [
+        'Argent avec des Ailes',
+        'Argent Volant',
+        ' Perdre de l\'argent'
+    ],
     '🏷️': ['Étiquette'],
     '🔖': [
         'Marque-page',
@@ -7189,6 +7210,13 @@ emojis_language[lang][13] = {
     '🪨': ['Roche'],
     '🪵': ['Bois'],
     '🪄': ['Baguette magique'],
+    '🔮': [
+        'Balle de cristal',
+        'Clairvoyant',
+        'Vendeur de Fortune',
+        'Psychique',
+        'Cristal Violet'
+    ],
     '🪅': ['Épinglé'],
     '🪆': [
         'Poupées imbriquées',

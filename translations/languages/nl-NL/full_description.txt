@@ -1,4 +1,4 @@
-﻿Het is een open source project waarmee je gemakkelijk een emoji kunt kopiëren.
+Het is een open source project waarmee je gemakkelijk een emoji kunt kopiëren.
 Je kunt zoeken op trefwoorden of de "meest gebruikte emojis" gebruiken. Of gewoon op zoek naar de perfecte emoji navigeren in de secties.
 
 https://github.com/Sav22999/emoji
