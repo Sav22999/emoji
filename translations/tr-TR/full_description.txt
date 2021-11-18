@@ -1,0 +1,23 @@
+Bir emoji kolayca kopyalamanıza izin veren açık kaynaklı bir projedir.
+Ya da sadece bölümlerde gezinerek mükemmel emoji arıyorsun. Ya da sadece bölümlerde gezinerek mükemmel emoji arıyorsunuz.
+
+https://github.com/Sav22999/emoji
+
+Eklentiyi özelleştirebilirsiniz, eklentiyi kişisel ve benzersiz kılan çeşitli seçenekleri etkinleştirebilir veya devre dışı bırakabilirsiniz!
+
+Kısayolu kullanabilirsiniz;
+
+Windows'ta, Linux'ta ve macOS'ta: Cmd+Alt+A.
+
+--
+
+Uygulamada kullanılan yazı tipleri hakkında bazı bilgiler:
+- Ana yazı tipi ve bence en güzeli. Twitter tarafından geliştirilen, Twemoji. Bununla ilgili daha fazla bilgiyi ücretsiz olarak okuyabilirsiniz.(Ayrıca açık kaynaklıdır!) 
+
+"https://twemoji.twitter.com/"
+
+- İkinci favori emoji yazı tipim olan, OpenMoji. Daha fazlası burada: https://openmoji.org/
+
+- Noto sans, by Google. Daha fazlası burada: https://www.google.com/get/noto/help/emoji/
+
+"İşletim sistemi emoji yazı tipi" diğer yazı tipleri gibi, işletim sistemi ayarlarınıza bağlıdır, bu nedenle bunların lisanslarını görmelisiniz.

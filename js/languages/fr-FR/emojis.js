@@ -4397,7 +4397,7 @@ emojis_language[lang][7] = {
         'Drapeau des Pays-Bas',
         'NL',
         'Drapeau néerlandais',
-        'Holland'
+        'Hollande'
     ],
     '🇳🇴': [
         'Drapeau de la Norvège',
@@ -6125,9 +6125,9 @@ emojis_language[lang][12] = {
         'Oui'
     ],
     '👎{{skin_tone}}‍': [
-        'Panneau des vignettes vers le bas',
+        'Signe de pouce vers le bas',
         'Mauvais',
-        'Dislike',
+        'Je n\'aime pas',
         'Non'
     ],
     '✊{{skin_tone}}‍': [
@@ -6282,6 +6282,13 @@ emojis_language[lang][13] = {
         'Sonnerie',
         'Bague en Diamant',
         'Bague d\'engagement'
+    ],
+    '💎': [
+        'Gem stone',
+        'Diamond',
+        'Gem',
+        'Gemstone',
+        'Jewel'
     ],
     '💥': [
         'Symbole de collision',
@@ -6853,9 +6860,9 @@ emojis_language[lang][13] = {
         '$'
     ],
     '💸': [
-        'Money with Wings',
-        'Flying Money',
-        ' Losing Money'
+        'Argent avec des Ailes',
+        'Argent Volant',
+        ' Perdre de l\'argent'
     ],
     '🏷️': ['Étiquette'],
     '🔖': [
@@ -7204,11 +7211,11 @@ emojis_language[lang][13] = {
     '🪵': ['Bois'],
     '🪄': ['Baguette magique'],
     '🔮': [
-        'Crystal Ball',
+        'Balle de cristal',
         'Clairvoyant',
-        'Fortune Teller',
-        'Psychic',
-        'Purple Crystal'
+        'Vendeur de Fortune',
+        'Psychique',
+        'Cristal Violet'
     ],
     '🪅': ['Épinglé'],
     '🪆': [

@@ -6283,6 +6283,13 @@ emojis_language[lang][13] = {
         'Anello Di Diamante',
         'Anello Di Impegno'
     ],
+    '💎': [
+        'Gem stone',
+        'Diamond',
+        'Gem',
+        'Gemstone',
+        'Jewel'
+    ],
     '💥': [
         'Simbolo Collisione',
         'Bang',

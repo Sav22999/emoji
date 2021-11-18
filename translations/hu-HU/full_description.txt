@@ -1,0 +1,19 @@
+It's an open-source project which permits you to copy easily an emoji (it's an emoji picker, basically).
+Kereshet kulcsszó alapján, vagy használhatja a „legtöbbet használt emodzsikat”. Vagy ki is keresheti a tökéletes emodzsit a lapok közt navigálva.
+
+https://github.com/Sav22999/emoji
+
+Testreszabhatja a kiegészítőt, ki- és bekapcsolhat bizonyos funkciókat, amelyek személyessé és egyedivé teszik a kiegészítőt.
+
+A következő gyorsbillentyűt használhatja: Windowson és Linuxon Ctrl+Alt+A, macOS-en Cmd+Alt+A.
+
+--
+
+Információk az alkalmazásban használt betűkészletekről:
+– A fő betűkészlet, és szerintem a legszebb, a Twemoji, amit a Twitter fejlesztett. Itt többet olvasható róla (nyílt forráskódú!): https://twemoji.twitter.com/
+
+– OpenMoji, ez a második kedvenc emodzsi betűkészletem. További információk itt: https://openmoji.org/
+
+– Noto sans, a Google-től. További információk itt: https://www.google.com/get/noto/help/emoji/
+
+Más betűkészletek, mint az „OS emodzsi betűkészlet” az operációs rendszertől függenek.

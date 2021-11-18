@@ -1,0 +1,19 @@
+It's an open-source project which permits you to copy easily an emoji (it's an emoji picker, basically).
+Můžete hledat podle klíčových slov nebo použít "nejpoužívanější smajlíky". Nebo jen hledejte perfektní emoji navigaci v sekcích.
+
+https://github.com/Sav22999/emoji
+
+Doplněk můžete upravit, ve skutečnosti můžete povolit nebo zakázat různé možnosti, které činí doplněk osobním a jedinečným!
+
+Můžete použít zástupce: Ctrl+Alt+A na Windows a Linuxu a Cmd+Alt+A na macOS.
+
+--
+
+Některé informace o fontech používaných v aplikaci:
+- Hlavní font, a podle mého názoru nejkrásnější je Twemoji, vyvinutý Twitter. Více o tom si můžete přečíst zdarma (je to také open-source!) zde: https://twemoji.twitter.com/
+
+- OpenMoji, což je můj druhý oblíbený emoji font. Více informací najdete zde: https://openmoji.org/
+
+- Noto zpívá, od Google. Přečtěte si více zde: https://www.google.com/get/noto/help/emoji/
+
+Další písma jako "OS emoji font" závisí na nastavení operačního systému, takže byste měli vidět jejich licence.

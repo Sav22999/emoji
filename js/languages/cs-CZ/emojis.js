@@ -6283,6 +6283,13 @@ emojis_language[lang][13] = {
         'Diamantový kruh',
         'Zapojení kruhu'
     ],
+    '💎': [
+        'Gem stone',
+        'Diamond',
+        'Gem',
+        'Gemstone',
+        'Jewel'
+    ],
     '💥': [
         'Symbol kolize',
         'Bang',

@@ -6283,6 +6283,13 @@ emojis_language[lang][13] = {
         'Inel de diamant',
         'Angajament Inel'
     ],
+    '💎': [
+        'Gem stone',
+        'Diamond',
+        'Gem',
+        'Gemstone',
+        'Jewel'
+    ],
     '💥': [
         'Simbol de coliziune',
         'Bang',

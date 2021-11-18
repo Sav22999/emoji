@@ -6283,6 +6283,13 @@ emojis_language[lang][13] = {
         'Diamanten Ring',
         'Betrokkenheid Ring'
     ],
+    '💎': [
+        'Gem stone',
+        'Diamond',
+        'Gem',
+        'Gemstone',
+        'Jewel'
+    ],
     '💥': [
         'Botsing Symbool',
         'Knuppel',

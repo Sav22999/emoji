@@ -6283,6 +6283,13 @@ emojis_language[lang][13] = {
         'Diamant Ring',
         'Engagement Ring'
     ],
+    '💎': [
+        'Gem stone',
+        'Diamond',
+        'Gem',
+        'Gemstone',
+        'Jewel'
+    ],
     '💥': [
         'Kollisions-symbol',
         'Bang',

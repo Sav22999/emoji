@@ -1,5 +1,5 @@
 // descriptions took from Emojipedia.org
-lang = 'en';
+lang = 'zh-TW';
 //use i18n language code of the browser, more details: https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/i18n/LanguageCode
 titles_language[lang] = {
     '🔍': 'Results',
@@ -5328,7 +5328,7 @@ emojis_language[lang][9] = {
         'Haunted House'
     ],
     '🏠': [
-        'Home',
+        'usiter',
         'House Building'
     ],
     '🏡': [
@@ -6282,6 +6282,13 @@ emojis_language[lang][13] = {
         'Ring',
         'Diamond Ring',
         'Engagement Ring'
+    ],
+    '💎': [
+        'Gem stone',
+        'Diamond',
+        'Gem',
+        'Gemstone',
+        'Jewel'
     ],
     '💥': [
         'Collision Symbol',

@@ -39,7 +39,7 @@ var browserAgentSettings = "";
 var font_family = ""; //twemoji (Twitter), notocoloremoji (Google), openmojicolor (OpenMoji), openmojiblack, default
 
 const linkReview = ["https://addons.mozilla.org/firefox/addon/emoji-sav/", "https://microsoftedge.microsoft.com/addons/detail/emoji/ejcgfbaipbelddlbokgcfajefbnnagfm", "https://chrome.google.com/webstore/detail/emoji/kjepehkgbooeigeflhiogplnckadlife?hl=it&authuser=0", "https://addons.thunderbird.net/thunderbird/addon/emoji-sav/"];
-const linkDonate = ["https://www.paypal.com/pools/c/8yl6auiU6e", "https://ko-fi.com/saveriomorelli", "https://bit.ly/3eXs7Oy"]; //{paypal, ko-fi, liberapay}
+const linkDonate = ["https://paypal.me/saveriomorelli", "https://ko-fi.com/saveriomorelli", "https://bit.ly/3eXs7Oy"]; //{paypal, ko-fi, liberapay}
 const linkTranslate = "https://crowdin.com/project/emoji-sav";
 const linkNeedHelp = ["https://www.saveriomorelli.com/contact-me/"];
 const storeName = ["Firefox Add-ons", "Microsoft Edge Add-ons", "Google Chrome Web Store", "Thunderbird Add-ons"];
