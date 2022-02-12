@@ -48,6 +48,7 @@ settings_strings[lang]['select-extension-icon-8'] = 'Extension icon 8';
 settings_strings[lang]['select-extension-icon-9'] = 'Extension icon 9';
 settings_strings[lang]['select-extension-icon-10'] = 'Extension icon 10';
 settings_strings[lang]['select-extension-icon-11'] = 'Extension icon 11';
+settings_strings[lang]['label-space-emoji'] = 'Insert a space between emojis';
 settings_strings[lang]['button-save'] = 'Spremi';
 settings_strings[lang]['button-reset-settings'] = 'Ponovno postavi postavke';
 settings_strings[lang]['button-clear-all-data'] = 'Izbriši sve podatke';

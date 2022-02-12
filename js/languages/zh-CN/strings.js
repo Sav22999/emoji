@@ -48,6 +48,7 @@ settings_strings[lang]['select-extension-icon-8'] = '扩展图标 8';
 settings_strings[lang]['select-extension-icon-9'] = '扩展图标 9';
 settings_strings[lang]['select-extension-icon-10'] = '扩展图标 10';
 settings_strings[lang]['select-extension-icon-11'] = '扩展图标 11';
+settings_strings[lang]['label-space-emoji'] = 'Insert a space between emojis';
 settings_strings[lang]['button-save'] = '保存';
 settings_strings[lang]['button-reset-settings'] = '重置设置';
 settings_strings[lang]['button-clear-all-data'] = '清除所有数据';

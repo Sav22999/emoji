@@ -595,12 +595,12 @@ emojis_language[lang][2] = {
     ],
     '🥲': ['Sonriendo cara con Tear'],
     '😮‍💨': [
-        'Face Exhaling',
-        'Sigh'
+        'Exhalando',
+        'Suspiro'
     ],
     '😵‍💫': [
-        'Face with Spiral Eyes',
-        'Dizzy Face'
+        'Cara con ojos en espiral',
+        'Cara mareada'
     ],
     '🥸': ['Cara disfrazada'],
     '😈': [
@@ -2008,7 +2008,7 @@ emojis_language[lang][5] = {
         'Lugar de adoración',
         'Edificio religioso'
     ],
-    '⚛️': ['Símbolo Atom'],
+    '⚛️': ['Símbolo Átomo'],
     '🕉️': [
         'Símbolo Om',
         'Om',
@@ -4397,7 +4397,7 @@ emojis_language[lang][7] = {
         'Bandera de Países Bajos',
         'NL',
         'Bandera holandesa',
-        'Holland'
+        'Holanda'
     ],
     '🇳🇴': [
         'Bandera de Noruega',
@@ -6284,11 +6284,11 @@ emojis_language[lang][13] = {
         'Anillo de compromiso'
     ],
     '💎': [
-        'Gem stone',
-        'Diamond',
-        'Gem',
-        'Gemstone',
-        'Jewel'
+        'Piedra preciosa',
+        'Diamante',
+        'Gema',
+        'Piedras preciosas',
+        'Joya'
     ],
     '💥': [
         'Símbolo de colisión',
@@ -6860,9 +6860,9 @@ emojis_language[lang][13] = {
         '$'
     ],
     '💸': [
-        'Money with Wings',
-        'Flying Money',
-        ' Losing Money'
+        'Dinero con Alas',
+        'Moneda voladora',
+        ' Perdiendo dinero'
     ],
     '🏷️': ['Etiqueta'],
     '🔖': [

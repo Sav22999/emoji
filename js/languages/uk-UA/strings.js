@@ -48,6 +48,7 @@ settings_strings[lang]['select-extension-icon-8'] = 'Значок розшире
 settings_strings[lang]['select-extension-icon-9'] = 'Піктограма розширення 9';
 settings_strings[lang]['select-extension-icon-10'] = 'Піктограма розширення 10';
 settings_strings[lang]['select-extension-icon-11'] = 'Піктограма розширення 11';
+settings_strings[lang]['label-space-emoji'] = 'Insert a space between emojis';
 settings_strings[lang]['button-save'] = 'Зберегти';
 settings_strings[lang]['button-reset-settings'] = 'Скинути налаштування';
 settings_strings[lang]['button-clear-all-data'] = 'Очистити всі дані';
