@@ -48,6 +48,7 @@ settings_strings[lang]['select-extension-icon-8'] = 'エクステンションア
 settings_strings[lang]['select-extension-icon-9'] = 'エクステンションアイコン9';
 settings_strings[lang]['select-extension-icon-10'] = 'エクステンションアイコン10';
 settings_strings[lang]['select-extension-icon-11'] = 'エクステンションアイコン11';
+settings_strings[lang]['label-space-emoji'] = 'Insert a space between emojis';
 settings_strings[lang]['button-save'] = '保存';
 settings_strings[lang]['button-reset-settings'] = '設定をリセット';
 settings_strings[lang]['button-clear-all-data'] = 'すべてのデータを消去';

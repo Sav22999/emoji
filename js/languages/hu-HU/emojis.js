@@ -23,17 +23,17 @@ emojis_language[lang][0] = {};
 /*smileys*/
 emojis_language[lang][2] = {
     '😀': [
-        'Grinning Face',
+        'Nevető arc',
         ':)',
-        'Happy Face',
-        'Smiley Face'
+        'Boldog arc',
+        'Mosolygó arc'
     ],
     '😃': [
-        'Grinning Face with Big Eyes',
+        'Nevető arc nagy szemekkel',
         ':D',
-        'Happy Face',
-        'Smiley Face',
-        'Smiling Face with Open Mouth'
+        'Boldog arc',
+        'Mosolygó arc',
+        'Mosolygó arc nyitott szájjal'
     ],
     '😄': [
         'Nevető arc mosolygó szemmel',
@@ -44,7 +44,7 @@ emojis_language[lang][2] = {
     ],
     '😁': [
         'Beaming Face with Smiling Eyes',
-        'Grinning Face with Smiling Eyes'
+        'Nevető arc mosolygó szemmel'
     ],
     '😆': [
         'Grinning Squinting Face',
@@ -52,9 +52,9 @@ emojis_language[lang][2] = {
         '><',
         'Big Grin',
         'Closed-Eyes Smile',
-        'Laughing',
-        'Grinning Face With Tightly Closed Eyes',
-        'Smiling Face with Open Mouth and Tightly-Closed Eyes'
+        'Nevetés',
+        'Nevető arc becsukott szemekkel',
+        'Mosolygó arc nyitott szájjal és becsukott szemekkel'
     ],
     '😅': [
         'Grinning Face with Sweat',
@@ -69,49 +69,49 @@ emojis_language[lang][2] = {
     ],
     '😂': [
         'Face with Tears of Joy',
-        'Laughing',
-        'Laughing Crying',
-        'Laughing Tears',
+        'Nevetés',
+        'Sírva nevetés',
+        'Nevetés könnyekkel',
         'LOL'
     ],
     '🙂': [
-        'Slightly Smiling Face',
+        'Enyhén mosolygó arc',
         ':)',
-        'Slightly Happy',
-        'This Is Fine'
+        'Kicsit boldog',
+        'Minden rendben'
     ],
     '🙃': [
-        'Upside-Down Face',
-        'Sarcasm',
-        'Silly',
-        'Upside Down Face'
+        'Fejre fordított arc',
+        'Szarkazmus',
+        'Butus',
+        'Fejre fordított arc'
     ],
     '😉': [
-        'Winking Face',
+        'Kacsintó arc',
         ';)',
-        'Wink',
-        'Wink Face',
-        'Winky Face'
+        'Kacsintás',
+        'Kacsintó arc',
+        'Kacsintó arc'
     ],
     '😊': [
-        'Smiling Face with Smiling Eyes',
+        'Mosolygó arc mosolygó szemmel',
         '^^',
-        'Happy Face',
-        'Smile',
-        'Smiley Face'
+        'Boldog arc',
+        'Mosoly',
+        'Mosolygó arc'
     ],
     '😇': [
-        'Smiling Face with Halo',
-        'Angel',
-        'Halo'
+        'Mosolygó arc glóriával',
+        'Angyal',
+        'Glória'
     ],
     '🥰': [
-        'Smiling Face with Hearts',
-        'In Love Face',
-        'Smiling Face with Smiling Eyes and Three Hearts'
+        'Mosolygó arc szívekkel',
+        'Szerelmes arc',
+        'Mosolygó arc mosolygó szemekkel és három szívvel'
     ],
     '😍': [
-        'Smiling Face with Heart-Eyes',
+        'Mosolygó arc három szívvel',
         '*.*',
         'Heart Eyes',
         'Heart Face',
@@ -145,8 +145,8 @@ emojis_language[lang][2] = {
     ],
     '☺️': [
         'Smiling Face',
-        'Happy Face',
-        'Smiley Face',
+        'Boldog arc',
+        'Mosolygó arc',
         'Smiling',
         'White Smiling Face'
     ],
@@ -1814,7 +1814,7 @@ emojis_language[lang][5] = {
     ],
     '🔕': [
         'Bell with Slash',
-        'Notifications',
+        'Értesítések',
         'Ringer Disabled',
         'Muted Bell',
         'Bell with Cancellation Stroke'
@@ -1845,7 +1845,7 @@ emojis_language[lang][5] = {
         'Prohibited',
         'Banned',
         'Circle Backslash',
-        'No',
+        'Nem',
         'Red Circle Crossed',
         'Restricted',
         'No Entry Sign'
@@ -2382,7 +2382,7 @@ emojis_language[lang][5] = {
     ],
     '🔣': [
         'Input Symbol for Symbols',
-        'Symbols',
+        'Szimbólumok',
         'Symbol Input'
     ],
     '🔤': [
@@ -6128,7 +6128,7 @@ emojis_language[lang][12] = {
         'Thumbs Down Sign',
         'Bad',
         'Dislike',
-        'No'
+        'Nem'
     ],
     '✊{{skin_tone}}‍': [
         'Raised Fist',
@@ -6284,11 +6284,11 @@ emojis_language[lang][13] = {
         'Engagement Ring'
     ],
     '💎': [
-        'Gem stone',
-        'Diamond',
-        'Gem',
-        'Gemstone',
-        'Jewel'
+        'Drágakő',
+        'Gyémánt',
+        'Drágakő',
+        'Drágakő',
+        'Ékkő'
     ],
     '💥': [
         'Collision Symbol',

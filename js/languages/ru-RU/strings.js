@@ -48,6 +48,7 @@ settings_strings[lang]['select-extension-icon-8'] = 'Значок расшире
 settings_strings[lang]['select-extension-icon-9'] = 'Значок расширения 9';
 settings_strings[lang]['select-extension-icon-10'] = 'Значок расширения 10';
 settings_strings[lang]['select-extension-icon-11'] = 'Значок расширения 11';
+settings_strings[lang]['label-space-emoji'] = 'Insert a space between emojis';
 settings_strings[lang]['button-save'] = 'Сохранить';
 settings_strings[lang]['button-reset-settings'] = 'Сбросить настройки';
 settings_strings[lang]['button-clear-all-data'] = 'Очистить все данные';

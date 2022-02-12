@@ -48,6 +48,7 @@ settings_strings[lang]['select-extension-icon-8'] = 'Tillägg ikon 8';
 settings_strings[lang]['select-extension-icon-9'] = 'Tillägg ikon 9';
 settings_strings[lang]['select-extension-icon-10'] = 'Tillägg ikon 10';
 settings_strings[lang]['select-extension-icon-11'] = 'Tillägg ikon 11';
+settings_strings[lang]['label-space-emoji'] = 'Insert a space between emojis';
 settings_strings[lang]['button-save'] = 'Spara';
 settings_strings[lang]['button-reset-settings'] = 'Återställ inställningar';
 settings_strings[lang]['button-clear-all-data'] = 'Rensa all data';

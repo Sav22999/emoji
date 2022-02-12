@@ -20,6 +20,7 @@ var multi_copy = "no";
 var extension_icon_selected = 0; //extension-icon-1
 var language_to_show = "en";
 const extension_icons = ["extension-icon-1", "extension-icon-2", "extension-icon-3", "extension-icon-4", "extension-icon-5", "extension-icon-6", "extension-icon-7", "extension-icon-8", "extension-icon-9", "extension-icon-10", "extension-icon-11"];
+var space_emoji = "no";
 
 var all_emojis = [];
 var emojis_supporting_skin_tones = {};
@@ -36,7 +37,6 @@ var mostUsedEmojis = [];
 var browserOrChromeIndex = 0; //TODO: change manually: {0: Firefox, 1: Microsoft Edge, 2: Chrome Web Store}
 
 var browserAgentSettings = "";
-var font_family = ""; //twemoji (Twitter), notocoloremoji (Google), openmojicolor (OpenMoji), openmojiblack, default
 
 const linkReview = ["https://addons.mozilla.org/firefox/addon/emoji-sav/", "https://microsoftedge.microsoft.com/addons/detail/emoji/ejcgfbaipbelddlbokgcfajefbnnagfm", "https://chrome.google.com/webstore/detail/emoji/kjepehkgbooeigeflhiogplnckadlife?hl=it&authuser=0"];
 const linkDonate = ["https://www.paypal.me/saveriomorelli", "https://ko-fi.com/saveriomorelli", "https://bit.ly/3eXs7Oy"]; //{paypal, ko-fi, liberapay}
@@ -45,19 +45,32 @@ const linkNeedHelp = ["https://www.saveriomorelli.com/contact-me/"];
 const storeName = ["Firefox Add-ons", "Microsoft Edge Add-ons", "Google Chrome Web Store"];
 const fontFamily = ["twemoji", "notocoloremoji", "notocoloremoji"];
 
-const hideChooseSkinToneMiniPopUpAfterSeconds = 2 * 1000; //2 seconds
-const hideMessageBottomAfterSeconds = 1500;
-
-var set_timeout_mini_popup = null;
-
-
-font_family = fontFamily[browserOrChromeIndex];
-
 if (browserOrChromeIndex == 0) {
     browserAgentSettings = browser;
 } else if (browserOrChromeIndex == 1 || browserOrChromeIndex == 2) {
     browserAgentSettings = chrome;
 }
+
+var font_family = fontFamily[browserOrChromeIndex]; //twemoji (Twitter), notocoloremoji (Google), openmojicolor (OpenMoji), openmojiblack, default
+
+const hideChooseSkinToneMiniPopUpAfterSeconds = 2 * 1000; //2 seconds
+const hideMessageBottomAfterSeconds = 1500;
+
+var set_timeout_mini_popup = null;
+
+const jsonSettingsDefaultValue = {
+    "theme": 0,
+    "columns": 2,
+    "rows": 2,
+    "size": 2,
+    "font": 0,
+    "auto_close": 1,
+    "skin_tone": 0,
+    "multi_copy": 1,
+    "extension_icon": 0,
+    "language": getLanguageCode(browserAgentSettings.i18n.getUILanguage().toString()),
+    "space_emoji": 0,
+};
 
 const storeNameAbbr = ["MFA", "MEA", "GCWS"];//{MozillaFirefoxAddons, MicrosoftEdgeAddons, GoogleChromeWebStore}
 const releaseNumber = browserAgentSettings.runtime.getManifest().version;
@@ -111,7 +124,9 @@ function copyEmoji(text, tooltip) {
         if (multi_copy == "no") {
             copyText = copyEmojiTemp;
         } else {
-            copyText = copyText + " " + copyEmojiTemp;
+            let spaceCharacter = " ";
+            if (space_emoji == "no") spaceCharacter = "";
+            copyText = copyText + spaceCharacter + copyEmojiTemp;
         }
         textToCopyElement.value = copyText;
         var copyTextTemp = textToCopyElement
@@ -487,6 +502,13 @@ function setPopUpUI() {
         }
     }
 
+    document.getElementById("space-emoji-selected").onchange = function () {
+        selectYesNoSpaceEmoji(document.getElementById("space-emoji-selected").selectedIndex);
+
+        saveSettings();
+    }
+    selectYesNoSpaceEmoji(document.getElementById("space-emoji-selected").selectedIndex);
+
     document.getElementById("auto-close-yes").onclick = function () {
         document.getElementById("close-popup-after-copied-selected").selectedIndex = 0;
         selectYesNoAutoClose(0);
@@ -515,6 +537,18 @@ function setPopUpUI() {
     document.getElementById("multi-copy-no").onclick = function () {
         document.getElementById("multi-copy-selected").selectedIndex = 1;
         selectYesNoMultiCopy(1);
+
+        saveSettings();
+    }
+    document.getElementById("space-emoji-no").onclick = function () {
+        document.getElementById("space-emoji-selected").selectedIndex = 1;
+        selectYesNoSpaceEmoji(1);
+
+        saveSettings();
+    }
+    document.getElementById("space-emoji-yes").onclick = function () {
+        document.getElementById("space-emoji-selected").selectedIndex = 0;
+        selectYesNoSpaceEmoji(0);
 
         saveSettings();
     }
@@ -1065,6 +1099,7 @@ function saveSettings(reset = false) {
     let multiCopy = document.getElementById("multi-copy-selected").selectedIndex;
     let extensionIcon = document.getElementById("extension-icon-selected").selectedIndex;
     let language = document.getElementById("language-selected").value;
+    let spaceEmoji = document.getElementById("space-emoji-selected").value;
 
     let jsonSettings = {
         "theme": theme,
@@ -1077,20 +1112,10 @@ function saveSettings(reset = false) {
         "multi_copy": multiCopy,
         "extension_icon": extensionIcon,
         "language": language,
+        "space_emoji": spaceEmoji,
     };
     if (reset) {
-        jsonSettings = {
-            "theme": 0,
-            "columns": 2,
-            "rows": 2,
-            "size": 2,
-            "font": 0,
-            "auto_close": 1,
-            "skin_tone": 0,
-            "multi_copy": 1,
-            "extension_icon": 0,
-            "language": getLanguageCode(browserAgentSettings.i18n.getUILanguage().toString()),
-        };
+        jsonSettings = jsonSettingsDefaultValue;
     }
     browserAgentSettings.storage.sync.set({"settings": jsonSettings}, function () {
     });
@@ -1113,19 +1138,9 @@ function setVariablesFromSettings(resize_popup_ui = false, focus_search_box = fa
     let multiCopyElement = document.getElementById("multi-copy-selected");
     let extensionIconElement = document.getElementById("extension-icon-selected");
     let languageElement = document.getElementById("language-selected");
+    let spaceEmojiElement = document.getElementById("space-emoji-selected")
 
-    let jsonSettings = {
-        "theme": 0,
-        "columns": 2,
-        "rows": 2,
-        "size": 2,
-        "font": 0,
-        "auto_close": 1,
-        "skin_tone": 0,
-        "multi_copy": 1,
-        "extension_icon": 0,
-        "language": getLanguageCode(browserAgentSettings.i18n.getUILanguage().toString()),
-    };
+    let jsonSettings = jsonSettingsDefaultValue;
 
     let nameOfSetting = "settings";
     browserAgentSettings.storage.sync.get(nameOfSetting, function (value) {
@@ -1195,6 +1210,7 @@ function setVariablesFromSettings(resize_popup_ui = false, focus_search_box = fa
         }
         extension_icon_selected = extensionIconElement.selectedIndex;
         if (extension_icon_selected == undefined) extension_icon_selected = 0;
+        space_emoji = spaceEmojiElement.value.toLowerCase();
 
         setExtensionIcon("../img/extension-icons/" + extension_icons[extension_icon_selected] + ".png");
 
@@ -1256,6 +1272,7 @@ function setTheme() {
     removeThemeClassId("donate-liberapay-settings", "-btn-settings-button");
     removeThemeClassId("translate-settings", "-btn-settings-button");
     removeThemeClassId("language-selected", "-select");
+    removeThemeClassId("space-emoji-selected", "-select");
 
     document.getElementById("popup-content").classList.add(theme);
     document.getElementById("emoji-skin-choose").classList.add(theme);
@@ -1280,8 +1297,10 @@ function setTheme() {
     document.getElementById("donate-liberapay-settings").classList.add(theme + "-btn-settings-button");
     document.getElementById("translate-settings").classList.add(theme + "-btn-settings-button");
     document.getElementById("language-selected").classList.add(theme + "-select");
+    document.getElementById("space-emoji-selected").classList.add(theme + "-select");
 
-    for (let n = 0; n < 9; n++) {
+    //TODO: change when add/remove an option in Settings
+    for (let n = 0; n < 10; n++) {
         removeThemeClassClass("subsection-settings", n, "-subsection-settings");
         document.getElementsByClassName("subsection-settings")[n].classList.add(theme + "-subsection-settings");
     }
@@ -1377,6 +1396,11 @@ function selectYesNoAutoClose(index) {
 
 function selectYesNoMultiCopy(index) {
     selectYesNoButton("multi-copy-button", index);
+    copyText = "";
+}
+
+function selectYesNoSpaceEmoji(index) {
+    selectYesNoButton("space-emoji-button", index);
 }
 
 function selectYesNoTheme(index) {
@@ -1486,6 +1510,9 @@ function setLanguageUI() {
     document.getElementById("alert-font-pop-up").textContent = strings["settings"]["label-font-family-use-twitter"];
     document.getElementById("label-extension-icon").textContent = strings["settings"]["label-extension-icon"];
     document.getElementById("label-language").textContent = strings["settings"]["label-language"];
+    document.getElementById("label-space-emoji").textContent = strings["settings"]["label-space-emoji"];
+    document.getElementById("space-emoji-yes").textContent = strings["settings"]["button-yes"];
+    document.getElementById("space-emoji-no").textContent = strings["settings"]["button-no"];
     document.getElementById("save-data-settings").value = strings["settings"]["button-save"];
     document.getElementById("reset-data-settings").value = strings["settings"]["button-reset-settings"];
     document.getElementById("clear-data-settings").value = strings["settings"]["button-clear-all-data"];

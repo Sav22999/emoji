@@ -6284,11 +6284,11 @@ emojis_language[lang][13] = {
         'Bague d\'engagement'
     ],
     '💎': [
-        'Gem stone',
-        'Diamond',
-        'Gem',
-        'Gemstone',
-        'Jewel'
+        'Gemme',
+        'Diamant',
+        'Gemme',
+        'Gemme',
+        'Joyau'
     ],
     '💥': [
         'Symbole de collision',
