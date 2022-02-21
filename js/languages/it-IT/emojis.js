@@ -595,11 +595,11 @@ emojis_language[lang][2] = {
     ],
     '🥲': ['Faccia sorridente con lacrima'],
     '😮‍💨': [
-        'Face Exhaling',
-        'Sigh'
+        'Espirazione Faccia',
+        'Sospiro'
     ],
     '😵‍💫': [
-        'Face with Spiral Eyes',
+        'Faccia con Occhi a Spirale',
         'Dizzy Face'
     ],
     '🥸': ['Faccia Travestita'],
@@ -6284,11 +6284,11 @@ emojis_language[lang][13] = {
         'Anello Di Impegno'
     ],
     '💎': [
-        'Gem stone',
-        'Diamond',
-        'Gem',
-        'Gemstone',
-        'Jewel'
+        'Pietra gemma',
+        'Diamante',
+        'Gemma',
+        'Pietra preziosa',
+        'Gioiello'
     ],
     '💥': [
         'Simbolo Collisione',

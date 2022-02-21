@@ -1099,7 +1099,7 @@ function saveSettings(reset = false) {
     let multiCopy = document.getElementById("multi-copy-selected").selectedIndex;
     let extensionIcon = document.getElementById("extension-icon-selected").selectedIndex;
     let language = document.getElementById("language-selected").value;
-    let spaceEmoji = document.getElementById("space-emoji-selected").value;
+    let spaceEmoji = document.getElementById("space-emoji-selected").selectedIndex;
 
     let jsonSettings = {
         "theme": theme,
@@ -1141,8 +1141,8 @@ function setVariablesFromSettings(resize_popup_ui = false, focus_search_box = fa
     let spaceEmojiElement = document.getElementById("space-emoji-selected")
 
     let jsonSettings = jsonSettingsDefaultValue;
-
     let nameOfSetting = "settings";
+
     browserAgentSettings.storage.sync.get(nameOfSetting, function (value) {
         if (value[nameOfSetting] != undefined) {
             jsonSettings = value[nameOfSetting];
@@ -1169,6 +1169,8 @@ function setVariablesFromSettings(resize_popup_ui = false, focus_search_box = fa
         if (jsonSettings.extension_icon != undefined) extensionIconElement.selectedIndex = jsonSettings.extension_icon;
         let languageToSet = browserAgentSettings.i18n.getUILanguage().toString();
         if (jsonSettings.language != undefined) languageToSet = getLanguageCode(jsonSettings.language);
+        spaceEmojiElement.selectedIndex = 0;
+        if (jsonSettings.space_emoji != undefined) spaceEmojiElement.selectedIndex = jsonSettings.space_emoji;
 
         let languagesTemp = [];
         for (let item in supported_languages) {

@@ -1,21 +1,21 @@
 // descriptions took from Emojipedia.org
-lang = 'en';
+lang = 'vi';
 //use i18n language code of the browser, more details: https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/i18n/LanguageCode
 titles_language[lang] = {
-    '🔍': 'Results',
-    '🕒': 'Most used emojis',
-    '😀': 'Smileys',
-    '🙋': 'People',
-    '🦊': 'Animals',
-    '🅰️': 'Symbols',
-    '🍎': 'Food and drinks',
-    '🏳️‍🌈': 'Flags',
-    '🏊': 'Sports',
-    '✈️': 'Travel and places',
-    '🖱️': 'Technologies and office',
-    '👗': 'Clothes and accessories',
-    '🖐️': 'Hands and parts of body',
-    '🛎️': 'Other'
+    '🔍': 'Kết quả',
+    '🕒': 'Thường dùng',
+    '😀': 'Mặt cười',
+    '🙋': 'Con người',
+    '🦊': 'Động vật',
+    '🅰️': 'Biểu tượng',
+    '🍎': 'Thức ăn và đồ uống',
+    '🏳️‍🌈': 'Cờ',
+    '🏊': 'Thể thao',
+    '✈️': 'Du lịch và địa điểm',
+    '🖱️': 'Công nghệ và văn phòng',
+    '👗': 'Quần áo và phụ kiện',
+    '🖐️': 'Tay và bộ phận cơ thể',
+    '🛎️': 'Khác'
 };
 emojis_language[lang] = [];
 /*search*/
@@ -23,130 +23,130 @@ emojis_language[lang][0] = {};
 /*smileys*/
 emojis_language[lang][2] = {
     '😀': [
-        'Grinning Face',
+        'Cười toe toét',
         ':)',
-        'Happy Face',
-        'Smiley Face'
+        'Vui vẻ',
+        'Mặt cười'
     ],
     '😃': [
-        'Grinning Face with Big Eyes',
+        'Cười tươi với mắt to',
         ':D',
-        'Happy Face',
-        'Smiley Face',
-        'Smiling Face with Open Mouth'
+        'Vui vẻ',
+        'Mặt cười',
+        'Mặt cười mở miệng'
     ],
     '😄': [
-        'Grinning Face with Smiling Eyes',
-        'Happy Face',
-        'Smiley Face',
-        'Grinning Face With Squinting Eyes',
-        'Smiling Face with Open Mouth and Smiling Eyes'
+        'Cười tươi với mắt cười',
+        'Vui vẻ',
+        'Mặt cười',
+        'Cười toe toét với mắt nheo',
+        'Mặt cười với miệng mở và mắt cười'
     ],
     '😁': [
-        'Beaming Face with Smiling Eyes',
-        'Grinning Face with Smiling Eyes'
+        'Mặt rạng rỡ với mắt cười',
+        'Cười toe toét với mắt cười'
     ],
     '😆': [
-        'Grinning Squinting Face',
+        'Cười tươi với mắt nheo',
         'xD',
         '><',
-        'Big Grin',
-        'Closed-Eyes Smile',
-        'Laughing',
-        'Grinning Face With Tightly Closed Eyes',
-        'Smiling Face with Open Mouth and Tightly-Closed Eyes'
+        'Cười toe toét',
+        'Cười nhắm tịt mắt',
+        'Cười',
+        'Cười tươi với mắt nhắm tịt',
+        'Mặt cười với miệng mở và mắt nhắm tịt'
     ],
     '😅': [
-        'Grinning Face with Sweat',
-        'Exercise',
-        'Happy Sweat',
-        'Grinning Face With Squinting Eyes and Sweat Drop',
-        'Smiling Face with Open Mouth and Cold Sweat'
+        'Cười tươi với mồ hôi',
+        'Tập thể dục',
+        'Cười lo lắng',
+        'Cười tươi với mắt nheo và mồ hôi',
+        'Mặt cười với miệng mở và mồ hôi lạnh'
     ],
     '🤣': [
-        'ROFL',
-        'Rolling on the Floor Laughing'
+        'Cười lăn lộn',
+        'Cười lăn lộn'
     ],
     '😂': [
-        'Face with Tears of Joy',
-        'Laughing',
-        'Laughing Crying',
-        'Laughing Tears',
+        'Khóc trong hạnh phúc',
+        'Cười',
+        'Cười chảy nước mắt',
+        'Nước mắt cười',
         'LOL'
     ],
     '🙂': [
-        'Slightly Smiling Face',
+        'Mỉm cười',
         ':)',
-        'Slightly Happy',
-        'This Is Fine'
+        'Hơi vui',
+        'Ổn'
     ],
     '🙃': [
-        'Upside-Down Face',
-        'Sarcasm',
-        'Silly',
-        'Upside Down Face'
+        'Mặt lật ngược',
+        'Mỉa mai',
+        'Ngớ ngẩn',
+        'Mặt lật ngược'
     ],
     '😉': [
-        'Winking Face',
+        'Nháy mắt',
         ';)',
-        'Wink',
-        'Wink Face',
-        'Winky Face'
+        'Nháy mắt',
+        'Nháy mắt',
+        'Nháy mắt'
     ],
     '😊': [
-        'Smiling Face with Smiling Eyes',
+        'Mặt cười với mắt cười',
         '^^',
-        'Happy Face',
-        'Smile',
-        'Smiley Face'
+        'Vui vẻ',
+        'Cười',
+        'Mặt cười'
     ],
     '😇': [
-        'Smiling Face with Halo',
-        'Angel',
-        'Halo'
+        'Mặt cười với hào quang',
+        'Thiên thần',
+        'Hào Quang'
     ],
     '🥰': [
-        'Smiling Face with Hearts',
-        'In Love Face',
-        'Smiling Face with Smiling Eyes and Three Hearts'
+        'Mặt cười với trái tim',
+        'Mặt yêu',
+        'Mặt cười với mắt cười và ba trái tim'
     ],
     '😍': [
-        'Smiling Face with Heart-Eyes',
+        'Mặt cười với mắt trái tim',
         '*.*',
-        'Heart Eyes',
-        'Heart Face',
-        'Smiling Face with Heart-Shaped Eyes'
+        'Mắt trái tim',
+        'Mặt trái tim',
+        'Mặt cười với mắt trái tim'
     ],
     '🤩': [
-        'Star-Struck',
-        'Excited',
-        'Star Eyes',
-        'Starry Eyed',
-        'Wow Face',
-        'Face With Starry Eyes',
-        'Grinning Face with Star Eyes'
+        'Sét đánh',
+        'Phấn khích',
+        'Mắt sao',
+        'Mắt sáng như sao',
+        'Mặt wow',
+        'Mặt với mắt sao',
+        'Cười tươi với mắt sao'
     ],
     '😘': [
-        'Face Blowing a Kiss',
+        'Hôn gió',
         ':*',
         ':-*',
-        'Blow A Kiss',
-        'Blowing Kiss',
-        'Kissing',
-        'Face Throwing a Kiss'
+        'Hôn gió',
+        'Hôn gió',
+        'Hôn',
+        'Hôn gió'
     ],
     '😗': [
-        'Kissing Face',
+        'Chu môi',
         ':*',
         ':-*',
-        'Duck Face',
-        'Kissy Face',
-        'Whistling'
+        'Mỏ vịt',
+        'Chu môi',
+        'Thổi sáo'
     ],
     '☺️': [
-        'Smiling Face',
-        'Happy Face',
-        'Smiley Face',
+        'Mặt cười',
+        'Vui vẻ',
+        'Mặt cười',
         'Smiling',
         'White Smiling Face'
     ],
@@ -217,64 +217,64 @@ emojis_language[lang][2] = {
     ],
     '🤭': [
         'Oops',
-        'Face with Hand Over Mouth',
-        'Smiling Face with Smiling Eyes and Hand Covering Mouth'
+        'Che miệng',
+        'Mặt cười với mắt cười và tay che miệng'
     ],
     '🤫': [
-        'Shh',
-        'Shush',
-        'Shushing Face',
-        'Hush',
-        'Quiet',
-        'Silence',
-        'Silent',
-        'Face with Finger Covering Closed Lips'
+        'Xuỵt',
+        'Xuỵt',
+        'Xuỵt',
+        'Xuỵt',
+        'Im',
+        'Im',
+        'Im',
+        'Xuỵt'
     ],
     '🤔': [
-        'What',
+        'Cái gì',
         '?',
         'Hmm',
-        'Thinking Face',
-        'Chin Thumb',
-        'Thinker',
-        'Throwing Shade'
+        'Mặt nghĩ ngợi',
+        'Mặt nghĩ ngợi',
+        'Mặt nghĩ ngợi',
+        'Mỉa mai'
     ],
     '🤐': [
-        'Zip',
-        'Zipper-Mouth Face',
-        'Lips Sealed',
-        'Sealed Lips',
-        'Zip It',
-        'Face With a Zipper Mouth'
+        'Bịt môi',
+        'Bịt môi',
+        'Bịt môi',
+        'Bịt môi',
+        'Bịt môi',
+        'Bịt môi'
     ],
     '🤨': [
-        'Face with Raised Eyebrow',
+        'Nheo mày',
         'Colbert',
         'The Rock',
-        'Face With Raised Eyebrow',
-        'Face with One Eyebrow Raised'
+        'Nheo mày',
+        'Nheo mày'
     ],
     '😐': [
-        'Neutral Face',
+        'Mặt trung tính',
         ':|',
-        'Face With Straight Mouth',
-        'Straight Faced'
+        'Mặt trung tính',
+        'Mặt trung tính'
     ],
     '😑': [
-        'Expressionless Face',
+        'Không cảm xúc',
         '-_-',
-        'Face With Straight Mouth',
-        'Straight Face'
+        'Không cảm xúc',
+        'Không cảm xúc'
     ],
     '😶': [
-        'Face Without Mouth',
-        'Blank Face',
-        'Mouthless',
-        'Silence',
-        'Silent'
+        'Không mồm',
+        'Không mồm',
+        'Không mồm',
+        'Im lặng',
+        'Im lặng'
     ],
     '😏': [
-        'Smirking Face',
+        'Cười khỉnh',
         'Flirting',
         'Sexual Face',
         'Smug Face',

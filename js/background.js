@@ -10,17 +10,7 @@ if (browserOrChromeIndex == 0) {
 }
 
 function loaded() {
-    let jsonSettings = {
-        "theme": 0,
-        "columns": 2,
-        "rows": 2,
-        "size": 2,
-        "font": 0,
-        "auto_close": 1,
-        "skin_tone": 0,
-        "multi_copy": 1,
-        "extension_icon": 0,
-    };
+    let jsonSettings = {};
 
     let nameOfSetting = "settings";
     browserAgentSettings.storage.sync.get(nameOfSetting, function (value) {

@@ -1,5 +1,5 @@
 // descriptions took from Emojipedia.org
-lang = 'ing';
+lang = 'tr';
 //use i18n language code of the browser, more details: https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/i18n/LanguageCode
 titles_language[lang] = {
     '🔍': 'Sonuçlar',
@@ -40,82 +40,82 @@ emojis_language[lang][2] = {
         'Mutlu Yüz',
         'Gülen Yüz',
         'Gözleri Kısık Sırıtan Yüz',
-        'Smiling Face with Open Mouth and Smiling Eyes'
+        'Açık Ağızla ve Gülen Gözlerle Gülümseyen Yüz'
     ],
     '😁': [
-        'Beaming Face with Smiling Eyes',
-        'Grinning Face with Smiling Eyes'
+        'Gülen Gözlerle Parlayan Yüz',
+        'Gülen Gözlerle Sırıtan Yüz'
     ],
     '😆': [
-        'Grinning Squinting Face',
+        'Gözleri Kısık Sırıtan Yüz',
         'xD',
         '><',
-        'Big Grin',
-        'Closed-Eyes Smile',
-        'Laughing',
-        'Grinning Face With Tightly Closed Eyes',
-        'Smiling Face with Open Mouth and Tightly-Closed Eyes'
+        'Kocaman Sırıtma',
+        'Gözler Kapalı Gülümseme',
+        'Gülmek',
+        'Sıkıca Kapalı Gözlerle Sırıtan Yüz',
+        'Ağzı Açık ve Sıkıca Kapalı Gözlerle Gülümseyen Yüz'
     ],
     '😅': [
-        'Grinning Face with Sweat',
-        'Exercise',
-        'Happy Sweat',
-        'Grinning Face With Squinting Eyes and Sweat Drop',
-        'Smiling Face with Open Mouth and Cold Sweat'
+        'Terli Sırıtan Yüz',
+        'Egzersiz',
+        'Mutlu Terleme',
+        'Kısık Gözlü ve Ter Damlalı Sırıtan Yüz',
+        'Ağzı Açık ve Soğuk Terli Gülümseyen Yüz'
     ],
     '🤣': [
-        'ROFL',
-        'Rolling on the Floor Laughing'
+        'Gülmekten yerlere yatmak',
+        'Gülmekten Yerlerde Yuvarlanmak'
     ],
     '😂': [
-        'Face with Tears of Joy',
-        'Laughing',
-        'Laughing Crying',
-        'Laughing Tears',
-        'LOL'
+        'Mutluluk Gözyaşlı Yüz',
+        'Gülmek',
+        'Ağlayarak Gülmek',
+        'Gözyaşlarıyla Gülmek',
+        'Gülme'
     ],
     '🙂': [
-        'Slightly Smiling Face',
+        'Hafif Gülümseyen Yüz',
         ':)',
-        'Slightly Happy',
-        'This Is Fine'
+        'Hafif Mutlu',
+        'Her Şey Yolunda'
     ],
     '🙃': [
-        'Upside-Down Face',
-        'Sarcasm',
-        'Silly',
-        'Upside Down Face'
+        'Ters Dönmüş Yüz',
+        'Alay',
+        'Şapşal',
+        'Ters Dönmüş Yüz'
     ],
     '😉': [
-        'Winking Face',
+        'Göz Kırpan Yüz',
         ';)',
-        'Wink',
-        'Wink Face',
-        'Winky Face'
+        'Göz Kırpmak',
+        'Göz Kırpma Yüzü',
+        'Gözü Kırpık Yüz'
     ],
     '😊': [
-        'Smiling Face with Smiling Eyes',
+        'Gülen Gözlerle Gülümseyen Yüz',
         '^^',
-        'Happy Face',
-        'Smile',
-        'Smiley Face'
+        'Mutlu Yüz',
+        'Gülümsemek',
+        'Gülen Yüz'
     ],
     '😇': [
-        'Smiling Face with Halo',
-        'Angel',
-        'Halo'
+        'Haleli Gülümseyen Yüz',
+        'Melek',
+        'Hale'
     ],
     '🥰': [
-        'Smiling Face with Hearts',
-        'In Love Face',
-        'Smiling Face with Smiling Eyes and Three Hearts'
+        'Kalpli Gülümseyen Yüz',
+        'Aşık Yüz',
+        'Üç Tane Kalpli ve Gülen Gözlü Gülümseyen Surat'
     ],
     '😍': [
-        'Smiling Face with Heart-Eyes',
+        'Gülen Gözlerle Gülümseyen Yüz',
         '*.*',
-        'Heart Eyes',
-        'Heart Face',
-        'Smiling Face with Heart-Shaped Eyes'
+        'Kalp gözleri',
+        'Kalpliyüz',
+        'Gülen Gözlerle Gülümseyen Yüz'
     ],
     '🤩': [
         'Star-Struck',
@@ -145,8 +145,8 @@ emojis_language[lang][2] = {
     ],
     '☺️': [
         'Smiling Face',
-        'Happy Face',
-        'Smiley Face',
+        'Mutlu Yüz',
+        'Gülen Yüz',
         'Smiling',
         'White Smiling Face'
     ],
@@ -1845,7 +1845,7 @@ emojis_language[lang][5] = {
         'Prohibited',
         'Banned',
         'Circle Backslash',
-        'No',
+        'Hayır',
         'Red Circle Crossed',
         'Restricted',
         'No Entry Sign'
@@ -2382,7 +2382,7 @@ emojis_language[lang][5] = {
     ],
     '🔣': [
         'Input Symbol for Symbols',
-        'Symbols',
+        'Semboller',
         'Symbol Input'
     ],
     '🔤': [
@@ -5647,7 +5647,7 @@ emojis_language[lang][10] = {
         'VISA Card'
     ],
     '📧': [
-        'E-Mail',
+        'E-Posta',
         'E-Posta'
     ],
     '📨': [
@@ -5802,36 +5802,36 @@ emojis_language[lang][10] = {
         'Curly Page'
     ],
     '📓': [
-        'Notebook',
-        'Black And White Book'
+        'Defter',
+        'Siyah Beyaz Defter'
     ],
-    '📔': ['Notebook with Decorative Cover'],
+    '📔': ['Desenli Kapaklı Defter'],
     '📕': [
-        'Closed Book',
-        'Red Book',
-        'Red Textbook'
+        'Kapalı Kitap',
+        'Kırmızı Kitap',
+        'Kırmızı Ders Kitabı'
     ],
     '📖': [
-        'Open Book',
-        'Book',
-        'Novel'
+        'Açık Kitap',
+        'Kitap',
+        'Roman'
     ],
     '📗': [
-        'Green Book',
-        'Green Textbook'
+        'Yeşil Kitap',
+        'Yeşil Ders Kitabı'
     ],
     '📘': [
-        'Blue Book',
-        'Blue Textbook'
+        'Mavi Kitap',
+        'Mavi Ders Kitabı'
     ],
     '📙': [
-        'Orange Book',
-        'Orange Textbook'
+        'Turuncu Kitap',
+        'Turuncu Ders Kitabı'
     ],
     '📚': [
-        'Books',
-        'Pile Of Books',
-        'Stack Of Books'
+        'Kitaplar',
+        'Kitap Yığını',
+        'Kitap Yığını'
     ],
     '🗳️': [
         'Ballot Box with Ballot',
@@ -5853,10 +5853,10 @@ emojis_language[lang][11] = {
         'Footsteps'
     ],
     '👓': [
-        'Glasses',
+        'Gözlük',
         'Eveyglasses'
     ],
-    '🕶️': ['Sunglasses'],
+    '🕶️': ['Güneş Gözlüğü'],
     '🥽': ['Goggles'],
     '🥼': ['Lab Coat'],
     '👔': [
@@ -5875,14 +5875,14 @@ emojis_language[lang][11] = {
         'Pants',
         'Trousers'
     ],
-    '🧣': ['Scarf'],
-    '🧤': ['Gloves'],
-    '🧥': ['Coat'],
-    '🧦': ['Socks'],
+    '🧣': ['Atkı'],
+    '🧤': ['Eldiven'],
+    '🧥': ['Mont'],
+    '🧦': ['Çorap'],
     '👗': [
-        'Dress',
-        'Skirt',
-        'Gown'
+        'Elbise',
+        'Etek',
+        'Cübbe'
     ],
     '👘': [
         'Kimono',
@@ -5902,10 +5902,10 @@ emojis_language[lang][11] = {
         'Blouse'
     ],
     '👛': [
-        'Purse',
-        'Wallet'
+        'Çanta',
+        'Cüzdan'
     ],
-    '👜': ['Handbag'],
+    '👜': ['El Çantası'],
     '👝': [
         'Clutch Bag',
         'Clutch',
@@ -5913,9 +5913,9 @@ emojis_language[lang][11] = {
         'Pouch'
     ],
     '🎒': [
-        'Backpack',
-        'Bag',
-        'School Bag',
+        'Sırt Çantası',
+        'Çanta',
+        'Okul Çantası',
         'School Satchel',
         'Rucksack'
     ],
@@ -5960,15 +5960,15 @@ emojis_language[lang][11] = {
         'Princess'
     ],
     '👒': [
-        'Hat',
+        'Şapka',
         'Womans Hat',
         'Hat With Bow',
         'Ladies Hat'
     ],
     '🎩': [
-        'Top Hat',
+        'Yüksek Şapka',
         'Formal Wear',
-        'Groom'
+        'Damat'
     ],
     '🎓': [
         'Graduation Cap',
@@ -6029,10 +6029,10 @@ emojis_language[lang][11] = {
 /*hands and parts of body*/
 emojis_language[lang][12] = {
     '👋{{skin_tone}}': [
-        'Waving Hand Sign',
-        'Goodbye',
-        'Hand Wave',
-        'Hello',
+        'El Sallama İşareti',
+        'Görüşürüz',
+        'El Sallama',
+        'Merhaba',
         'Merhaba'
     ],
     '🖐️{{skin_tone}}': [
@@ -6126,9 +6126,9 @@ emojis_language[lang][12] = {
     ],
     '👎{{skin_tone}}‍': [
         'Thumbs Down Sign',
-        'Bad',
+        'Kötü',
         'Dislike',
-        'No'
+        'Hayır'
     ],
     '✊{{skin_tone}}‍': [
         'Raised Fist',
@@ -6184,9 +6184,9 @@ emojis_language[lang][12] = {
     '🙏{{skin_tone}}‍': [
         'Folded Hands',
         'Namaste',
-        'Please',
-        'Prayer',
-        'Thank You',
+        'Lütfen',
+        'Dua',
+        'Teşekkürler',
         'Person with Folded Hands'
     ],
     '✍{{skin_tone}}‍️': ['Writing Hand'],
@@ -6199,22 +6199,22 @@ emojis_language[lang][12] = {
     '🦵{{skin_tone}}‍': ['Leg'],
     '🦶{{skin_tone}}‍': ['Foot'],
     '👂{{skin_tone}}‍': [
-        'Ear',
-        'Ears',
-        'Hearing',
-        'Dinleniyor'
+        'Kulak',
+        'Kulaklar',
+        'Duymak',
+        'Dinlemek'
     ],
     '👃{{skin_tone}}‍': [
-        'Nose',
-        'Smelling',
+        'Burun',
+        'Koklamak',
         'Sniffing',
-        'Stinky'
+        'Kokuşmuş'
     ],
-    '🧠': ['Brain'],
-    '🦷': ['Tooth'],
+    '🧠': ['Beyin'],
+    '🦷': ['Diş'],
     '👀': [
-        'Eyes',
-        'Eyeballs',
+        'Göz',
+        'Göz Küresi',
         'Shifty Eyes',
         'Wise Eyes'
     ],
@@ -6255,7 +6255,7 @@ emojis_language[lang][13] = {
         'Phone Camera',
         'Selfie Hand'
     ],
-    '🦴': ['Bone'],
+    '🦴': ['Kemik'],
     '🧳': [
         'Luggage',
         'Suitcase'
@@ -6285,7 +6285,7 @@ emojis_language[lang][13] = {
     ],
     '💎': [
         'Gem stone',
-        'Diamond',
+        'Elmas',
         'Gem',
         'Gemstone',
         'Jewel'
@@ -6331,21 +6331,21 @@ emojis_language[lang][13] = {
         'Puppy Paw Prints'
     ],
     '🕸️': [
-        'Spider Web',
+        'Örümcek Ağı',
         'Cobweb',
         'Web',
         'Spiderweb'
     ],
     '🦠': [
-        'Microbe',
-        'Cell',
-        'Coronavirus',
-        'COVID-19',
-        'Germ',
-        'Microorganism',
-        'Virus'
+        'Mikrop',
+        'Hücre',
+        'Koronavirüs',
+        'KOVID-19',
+        'Mikrop',
+        'Mikroorganizma',
+        'Virüs'
     ],
-    '💐': ['Bouquet Of Flowers'],
+    '💐': ['Çiçek Buketi'],
     '🌍': [
         'Globe Showing Europe-Africa',
         'Earth',
@@ -6504,29 +6504,29 @@ emojis_language[lang][13] = {
         'Sea'
     ],
     '🎄': [
-        'Christmas Tree',
-        'Christmas',
-        'Xmas Tree'
+        'Noel Ağacı',
+        'Noel',
+        'Noel Ağacı'
     ],
     '🎃': [
         'Jack-O-Lantern',
-        'Halloween',
-        'Pumpkin'
+        'Cadılar Bayramı',
+        'Balkabağı'
     ],
     '🌻': [
-        'Sunflower',
-        'Yellow Flower'
+        'Ayçiçeği',
+        'Sarı Çiçek'
     ],
     '🌼': [
-        'Blossom',
-        'Blossoming Flower',
-        'Daisy',
-        'Yellow Flower'
+        'Çiçek',
+        'Çiçek Açmak',
+        'Papatya',
+        'Sarı Çiçek'
     ],
-    '🌷': ['Tulip'],
+    '🌷': ['Lale'],
     '🌹': [
-        'Rose Flower',
-        'Red Rose'
+        'Gül',
+        'Kırmızı Gül'
     ],
     '☘️': [
         'Shamrock',
@@ -6910,324 +6910,324 @@ emojis_language[lang][13] = {
         'Jar',
         'Vase'
     ],
-    '🗺️': ['World Map'],
+    '🗺️': ['Dünya Haritası'],
     '🎼': [
-        'Musical Score',
-        'Sheet Music',
-        'Treble Clef'
+        'Müzik Notası',
+        'Nota',
+        'Sol Anahtarı'
     ],
     '🎬': [
-        'Clapper Board',
-        'Cut',
-        'Action',
-        'Director',
-        'Film Slate'
+        'Klaket Tahtası',
+        'Kes',
+        'Motor',
+        'Yönetmen',
+        'Film Tahtası'
     ],
     '🎻': [
-        'Violin',
-        'String Quartet',
-        'World\'s Smallest Violin'
+        'Keman',
+        'Yaylı Çalgılar Dörtlüsü',
+        'Dünyanın En Küçük Kemanı'
     ],
     '🎺': [
-        'Trumpet',
-        'Horn',
-        'Jazz'
+        'Trompet',
+        'Korna',
+        'Caz'
     ],
     '🎸': [
-        'Guitar',
-        'Acoustic Guitar',
-        'Bass Guitar',
-        'Electric Guitar'
+        'Gitar',
+        'Akustik Gitar',
+        'Basgitar',
+        'Elektrogitar'
     ],
     '🎷': [
-        'Saxophone',
-        'Jazz',
-        'Sax'
+        'Saksafon',
+        'Caz',
+        'Saks'
     ],
     '🥁': [
-        'Drum',
-        'Drum with Drumsticks'
+        'Davul',
+        'Davul ve Bagetler'
     ],
     '🎹': [
-        'Piano',
-        'Musical Keyboard'
+        'Piyano',
+        'Klavye'
     ],
     '🪕': ['Banjo'],
-    '🪗': ['Accordion'],
-    '🪘': ['Long Drum'],
+    '🪗': ['Akordeon'],
+    '🪘': ['Uzun Davul'],
     '🎨': [
-        'Artist Palette',
-        'Art',
-        'Painting'
+        'Sanatçı Paleti',
+        'Sanat',
+        'Ressamlık'
     ],
     '🧩': [
-        'Puzzle Piece',
-        'Jigsaw Puzzle Piece'
+        'Bulmaca Parçası',
+        'Yapboz Parçası'
     ],
     '🎲': [
-        'Game Die',
-        'Dice'
+        'Oyun Zarı',
+        'Zar'
     ],
     '🎭': [
-        'Performing Arts',
-        'Theatre',
-        'Theater',
-        'Drama Masks',
-        'Greek Theatre Masks',
-        'Tragedy and Comedy Masks',
-        'Venice'
+        'Performans Sanatları',
+        'Tiyatro',
+        'Tiyatro',
+        'Drama Maskeleri',
+        'Yunan Tiyatro Maskeleri',
+        'Trajedi ve Komedi Maskeleri',
+        'Venedik'
     ],
     '🔍': [
-        'Magnifying Glass Tilted Left',
-        'Magnifier',
-        'Search Icon',
-        'Left-Pointing Magnifying Glass',
-        'Find'
+        'Sola Eğilmiş Büyüteç',
+        'Büyüteç',
+        'Arama Sembolü',
+        'Sol Tarafa Bakan Büyüteç',
+        'Bul'
     ],
     '🔎': [
-        'Magnifying Glass Tilted Right',
-        'Magnifier',
-        'Search Icon',
-        'Right-Pointing Magnifying Glass',
-        'Find'
+        'Sağa Eğilmiş Büyüteç',
+        'Büyüteç',
+        'Arama Sembolü',
+        'Sağ Tarafa Bakan Büyüteç',
+        'Bul'
     ],
     '⌛': [
-        'Hourglass Done',
-        'Hourglass'
+        'Tamamlanmış Kum Saati',
+        'Kum Saati'
     ],
     '⏳': [
-        'Hourglass Not Done',
-        'Hourglass with Flowing Sand'
+        'Tamamlanmamış Kum Saati',
+        'Kumları Akan Kum Saati'
     ],
     '🕐': [
-        'One O\'Clock',
-        'Clock Face One O\'Clock'
+        'Saat Bir',
+        'Biri Gösteren Saat'
     ],
-    '🕜': ['Clock Face One-Thirty'],
+    '🕜': ['Bir Buçuğu Gösteren Saat'],
     '🕑': [
-        'Two O\'Clock',
-        'Clock Face Two O\'Clock'
+        'Saat İki',
+        'İkiyi Gösteren Saat'
     ],
-    '🕝': ['Clock Face Two-Thirty'],
+    '🕝': ['İki Buçuğu Gösteren Saat'],
     '🕒': [
-        'Three O\'Clock',
-        'Clock Face Three O\'Clock'
+        'Saat Üç',
+        'Üçü Gösteren Saat'
     ],
-    '🕞': ['Clock Face Three-Thirty'],
+    '🕞': ['Üç Buçuğu Gösteren Saat'],
     '🕓': [
-        'Four O\'Clock',
-        'Clock Face Four O\'Clock'
+        'Saat Dört',
+        'Dördü Gösteren Saat'
     ],
-    '🕟': ['Clock Face Four-Thirty'],
+    '🕟': ['Dört Buçuğu Gösteren Saat'],
     '🕔': [
-        'Five O\'Clock',
-        'Clock Face Five O\'Clock'
+        'Saat Beş',
+        'Beşi Gösteren Saat'
     ],
-    '🕠': ['Clock Face Five-Thirty'],
+    '🕠': ['Beş Buçuğu Gösteren Saat'],
     '🕕': [
-        'Six O\'Clock',
-        'Clock Face Six O\'Clock'
+        'Saat Altı',
+        'Altıyı Gösteren Saat'
     ],
-    '🕡': ['Clock Face Six-Thirty'],
+    '🕡': ['Altı Buçuğu Gösteren Saat'],
     '🕖': [
-        'Seven O\'Clock',
-        'Clock Face Seven O\'Clock'
+        'Saat Yedi',
+        'Yediyi Gösteren Saat'
     ],
-    '🕢': ['Clock Face Seven-Thirty'],
+    '🕢': ['Yedi Buçuğu Gösteren Saat'],
     '🕗': [
-        'Eight O\'Clock',
-        'Clock Face Eight O\'Clock'
+        'Saat Sekiz',
+        'Sekizi Gösteren Saat'
     ],
-    '🕣': ['Clock Face Eight-Thirty'],
+    '🕣': ['Sekiz Buçuğu Gösteren Saat'],
     '🕘': [
-        'Nine O\'Clock',
-        'Clock Face Nine O\'Clock'
+        'Saat Dokuz',
+        'Dokuzu Gösteren Saat'
     ],
-    '🕤': ['Clock Face Nine-Thirty'],
+    '🕤': ['Dokuz Buçuğu Gösteren Saat'],
     '🕙': [
-        'Ten O\'Clock',
-        'Clock Face Ten O\'Clock'
+        'Saat On',
+        'Onu Gösteren Saat'
     ],
-    '🕥': ['Clock Face Ten-Thirty'],
+    '🕥': ['On Buçuğu Gösteren Saat'],
     '🕚': [
-        'Eleven O\'Clock',
-        'Clock Face Eleven O\'Clock'
+        'Saat On Bir',
+        'On Biri Gösteren Saat'
     ],
-    '🕦': ['Clock Face Eleven-Thirty'],
+    '🕦': ['On Bir Buçuğu Gösteren Saat'],
     '🕛': [
-        'Twelve O\'Clock',
-        'Clock Face Twelve O\'Clock'
+        'Saat On İki',
+        'On İkiyi Gösteren Saat'
     ],
-    '🕧': ['Clock Face Twelve-Thirty'],
+    '🕧': ['On İki Buçuğu Gösteren Saat'],
     '♨️': [
-        'Hot Springs',
+        'Kaplıcalar',
         'Onsen',
-        'Steam'
+        'Buhar'
     ],
     '💈': [
-        'Barber Pole',
-        'Barber Shop',
-        'Barber\'s Stripes',
-        'Hairdresser'
+        'Berber Direği',
+        'Berber Dükkanı',
+        'Berber Çizgileri',
+        'Kuaför'
     ],
     '🎪': [
-        'Circus Tent',
-        'Big Top',
-        'Circus'
+        'Sirk Çadırı',
+        'Sirk Çadırı',
+        'Sirk'
     ],
     '💢': [
-        'Anger Symbol',
-        'Anger Sign',
-        'Vein Pop'
+        'Kızgınlık Sembolü',
+        'Kızgınlık İşareti',
+        'Damar Patlaması'
     ],
     '🗯️': [
-        'Right Anger Bubble',
-        'Zig Zag Bubble',
-        'Angry Speech Bubble'
+        'Sağ Kızgın Konuşma Balonu',
+        'Zikzaklı Balon',
+        'Kızgın Konuşma Balonu'
     ],
     '💊': [
-        'Pill',
-        'Capsule',
+        'Hap',
+        'Kapsül',
         'Tablet',
-        'Drugs'
+        'İlaç'
     ],
     '🎎': [
-        'Dolls',
+        'Oyuncak Bebekler',
         'Hinamatsuri',
         'Imperial Dolls',
-        'Japanese Dolls'
+        'Japon Oyuncak Bebekleri'
     ],
     '🎏': [
-        'Carp Streamer',
-        'Fish Flag',
+        'Sazan Flama',
+        'Balık Bayrağı',
         'Koinobori',
-        'Wind Socks'
+        'Rüzgar Tulumu'
     ],
     '🎐': [
-        'Wind Chime',
+        'Rüzgar Çanı',
         'Furin',
-        'Jellyfish',
-        'Wind Bell'
+        'Denizanası',
+        'Rüzgar Zili'
     ],
     '🎀': [
-        'Ribbon Bow',
-        'Pink Bow',
-        'Bow'
+        'Kurdele Fiyongu',
+        'Pembe Kurdele',
+        'Kurdele'
     ],
     '🎁': [
-        'Wrapped Gift',
-        'Birthday Present',
-        'Christmas Present',
-        'Gift',
-        'Gift Box',
-        'Present',
-        'Wrapped Present'
+        'Hediye Paketi',
+        'Doğum Günü Hediyesi',
+        'Noel Hediyesi',
+        'Hediye',
+        'Hediye Kutusu',
+        'Armağan',
+        'Paketlenmiş Hediye'
     ],
     '🎫': [
-        'Ticket',
-        'Ticket Stub',
-        'World Tour Ticket'
+        'Bilet',
+        'Bilet Koçanı',
+        'Dünya Turu Bileti'
     ],
     '🃏': [
         'Joker',
-        'Joker Card',
-        'Playing Card Black Joker'
+        'Joker Kartı',
+        'Siyah Joker İskambil Kartı'
     ],
     '💡': [
-        'Light Bulb',
-        'Idea',
-        'Electric Light Bulb'
+        'Ampul',
+        'Fikir',
+        'Elektrikli Ampul'
     ],
     '🔦': [
-        'Flashlight',
-        'Torch',
-        'Electric Torch'
+        'El Feneri',
+        'Fener',
+        'Elektrikli Fener'
     ],
     '🏮': [
-        'Red Paper Lantern',
-        'Asian Lantern',
-        'Japanese Lantern',
-        'Red Lantern',
-        'Izakaya Lantern'
+        'Kırmızı Kağıt Fener',
+        'Asya Feneri',
+        'Japon Feneri',
+        'Kırmızı Fener',
+        'Izakaya Feneri'
     ],
     '📦': [
-        'Package',
-        'Box',
-        'Parcel'
+        'Paket',
+        'Kutu',
+        'Koli'
     ],
     '📇': [
-        'Index Card',
-        'Rolodex',
-        'System Card',
-        'Card Index'
+        'Dizin Kartı',
+        'Rolodeks',
+        'Sistem Kartı',
+        'Kartotek'
     ],
-    '🕳️': ['Hole'],
+    '🕳️': ['Delik'],
     '👁️‍🗨️': [
-        'I Am A Witness',
-        'Eye in Speech Bubble'
+        'Görgü Tanığıyım',
+        'Konuşma Balonu İçindeki Göz'
     ],
     '⚜️': [
-        'Fleur-de-lis',
-        'Scouts',
-        'New Orleans Saints'
+        'Zambak Şeklinde Arma',
+        'İzciler',
+        'New Orleans Azizleri'
     ],
-    '⚗️': ['Alembic'],
-    '🕯️': ['Candle'],
+    '⚗️': ['İmbik'],
+    '🕯️': ['Mum'],
     '🖼️': [
-        'Framed Picture',
-        'Painting',
-        'Picture Frame',
-        'Frame with Picture'
+        'Çerçeveli Resim',
+        'Tablo',
+        'Resim Çerçevesi',
+        'Resimli Çerçeve'
     ],
-    '🛍️': ['Shopping Bags'],
-    '🎟️': ['Admission Tickets'],
-    '🛎️': ['Bellhop Bell'],
-    '🧾': ['Receipt'],
-    '🧮': ['Abacus'],
-    '🧫': ['Petri Dish'],
+    '🛍️': ['Alışveriş Çantaları'],
+    '🎟️': ['Giriş Bileti'],
+    '🛎️': ['Belboy Zili'],
+    '🧾': ['Fiş'],
+    '🧮': ['Abaküs'],
+    '🧫': ['Petri Kabı'],
     '🧹': [
-        'Broom',
-        'Brush',
-        'Sweep'
+        'Süpürge',
+        'Fırça',
+        'Süpürmek'
     ],
     '🎰': [
-        'Slot Machine',
-        'Casino',
-        'Fruit Machine',
-        'Gambling',
-        'Poker Machine'
+        'Kumar Makinesi',
+        'Kumarhane',
+        'Meyve Kumarı Makinesi',
+        'Kumar',
+        'Poker Makinesi'
     ],
-    '🦽': ['Manual Wheelchair'],
-    '🦼': ['Motorized Wheelchair'],
+    '🦽': ['Manuel Tekerlekli Sandalye'],
+    '🦼': ['Motorlu Tekerlekli Sandalye'],
     '🪔': ['Diya Lamp'],
-    '🦯': ['White Cane'],
-    '🩸': ['Drop of Blood'],
-    '🩹': ['Adhesive Bandage'],
-    '🩺': ['Stethoscope'],
-    '🪶': ['Feather'],
-    '🪤': ['Mouse Trap'],
-    '🫖': ['Teapot'],
-    '🪨': ['Rock'],
-    '🪵': ['Wood'],
-    '🪄': ['Magic Wand'],
+    '🦯': ['Beyaz Baston'],
+    '🩸': ['Kan Damlası'],
+    '🩹': ['Yara Bandı'],
+    '🩺': ['Stetoskop'],
+    '🪶': ['Tüy'],
+    '🪤': ['Fare Kapanı'],
+    '🫖': ['Demlik'],
+    '🪨': ['Taş'],
+    '🪵': ['Odun'],
+    '🪄': ['Sihirli Değnek'],
     '🔮': [
-        'Crystal Ball',
-        'Clairvoyant',
-        'Fortune Teller',
-        'Psychic',
-        'Purple Crystal'
+        'Kristal Küre',
+        'Öngörü',
+        'Falcı',
+        'Müneccim',
+        'Mor Kristal'
     ],
     '🪅': ['Piñata'],
     '🪆': [
-        'Nesting Dolls',
-        'Matryoshka'
+        'İç İçe Geçen Oyuncak Bebek',
+        'Matruşka'
     ],
-    '🪡': ['Sewing Needle'],
-    '🪢': ['Knot'],
-    '🪙': ['Coin'],
-    '🪃': ['Boomerang'],
-    '🪥': ['Toothbrush'],
-    '🪦': ['Headstone'],
-    '🪧': ['Placard'],
-    '🪒': ['Razor']
+    '🪡': ['Dikiş İğnesi'],
+    '🪢': ['Düğüm'],
+    '🪙': ['Madeni Para'],
+    '🪃': ['Bumerang'],
+    '🪥': ['Diş Fırçası'],
+    '🪦': ['Mezar Taşı'],
+    '🪧': ['Pankart'],
+    '🪒': ['Jilet']
 };

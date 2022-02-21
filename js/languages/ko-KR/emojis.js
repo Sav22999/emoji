@@ -1845,7 +1845,7 @@ emojis_language[lang][5] = {
         'Prohibited',
         'Banned',
         'Circle Backslash',
-        'No',
+        '아니오',
         'Red Circle Crossed',
         'Restricted',
         'No Entry Sign'
@@ -2382,7 +2382,7 @@ emojis_language[lang][5] = {
     ],
     '🔣': [
         'Input Symbol for Symbols',
-        'Symbols',
+        '기호',
         'Symbol Input'
     ],
     '🔤': [
@@ -6060,7 +6060,7 @@ emojis_language[lang][12] = {
         'OK Hand Sign',
         'Okay',
         'Perfect',
-        'Yes'
+        '네'
     ],
     '✌️{{skin_tone}}‍': [
         'Victory Hand',
@@ -6122,13 +6122,13 @@ emojis_language[lang][12] = {
     '👍{{skin_tone}}‍': [
         'Thumbs Up Sign',
         'Like',
-        'Yes'
+        '네'
     ],
     '👎{{skin_tone}}‍': [
         'Thumbs Down Sign',
         'Bad',
         'Dislike',
-        'No'
+        '아니오'
     ],
     '✊{{skin_tone}}‍': [
         'Raised Fist',
@@ -6860,8 +6860,8 @@ emojis_language[lang][13] = {
         '$'
     ],
     '💸': [
-        'Money with Wings',
-        'Flying Money',
+        '날개 달린 돈',
+        '날아가는 돈',
         '사라지는 돈'
     ],
     '🏷️': ['Label Tag'],

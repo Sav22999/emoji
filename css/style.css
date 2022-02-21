@@ -774,10 +774,13 @@ div {
     background-color: rgb(70, 70, 70);
 }
 
+.subsection-settings {
+    padding: 5px;
+}
+
 .light-subsection-settings,
 .dark-subsection-settings {
     border-bottom: 1px solid #DDDDDD;
-    padding: 5px;
 }
 
 .no-border-bottom {
@@ -806,7 +809,6 @@ div {
 
 #extension-icon-section-container > .title-subsection-settings {
     margin-top: 6px;
-    margin-left: 5px;
 }
 
 #auto-close-container, #multi-copy-container, #theme-container {

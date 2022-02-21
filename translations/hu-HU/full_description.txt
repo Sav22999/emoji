@@ -1,4 +1,4 @@
-It's an open-source project which permits you to copy easily an emoji (it's an emoji picker, basically).
+Ez egy nyílt forráskódú projekt, amely lehetővé teszi, hogy könnyen kimásolj egy emojit (alapvetően ez egy emoji válogató).
 Kereshet kulcsszó alapján, vagy használhatja a „legtöbbet használt emodzsikat”. Vagy ki is keresheti a tökéletes emodzsit a lapok közt navigálva.
 
 https://github.com/Sav22999/emoji
