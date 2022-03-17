@@ -75,6 +75,13 @@ function releaseNotes(release) {
             release_notes_text += "<li>Updated all languages<br><br><div class='text-center'><a href='https://crowdin.com/project/emoji-sav' class='button-release'>Translate now in your language!</a></div></li>";
             release_notes_text += "</ul>";
             break;
+
+        case "3.14":
+            release_notes_text = "<ul>";
+            release_notes_text += "<li>Added a new option in Settings: you can now enable the inserting an emoji instead of only copy it! Turn on <i>Also insert directly the emoji</i> in Settings.</li>";
+            release_notes_text += "<li><i><small>Did you know...?</small></i><br>You can open automatically the popup with the shortcut:<br><br><div class='text-center'><span class='background-lightblue'>Ctrl/Cmd + Alt + A</span></div></li>";
+            release_notes_text += "</ul>";
+            break;
     }
     return release_notes_text;
 }

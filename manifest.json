@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
   "name": "Emoji",
-  "version": "3.13.7.1",
-  "description": "It permits just with a single click to copy an emoji. You can also customise the add-on.",
+  "version": "3.14",
+  "description": "It permits just with a single click to copy and insert an emoji. You can also customise the add-on.",
   "icons": {
     "16": "./img/icon-dark-16.png",
     "24": "./img/icon-dark-24.png",
@@ -23,11 +23,6 @@
     "gecko": {
       "id": "emoji@saveriomorelli.com",
       "strict_min_version": "42.0"
-    }
-  },
-  "applications": {
-    "gecko": {
-      "id": "emoji@saveriomorelli.com"
     }
   },
   "browser_action": {
@@ -65,6 +60,18 @@
   },
   "permissions": [
     "storage"
+  ],
+  "content_scripts": [
+    {
+      "js": [
+        "./js/emoji-insert-directly.js"
+      ],
+      "matches": [
+        "https://*/*",
+        "http://*/*"
+      ],
+      "run_at": "document_idle"
+    }
   ],
   "background": {
     "scripts": [

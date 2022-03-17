@@ -49,6 +49,7 @@ settings_strings[lang]['select-extension-icon-9'] = 'Extensie pictogram 9';
 settings_strings[lang]['select-extension-icon-10'] = 'Extensie pictogram 10';
 settings_strings[lang]['select-extension-icon-11'] = 'Extensie pictogram 11';
 settings_strings[lang]['label-space-emoji'] = 'Insert a space between emojis';
+settings_strings[lang]['label-insert-emoji'] = 'Also insert directly the emoji';
 settings_strings[lang]['button-save'] = 'Opslaan';
 settings_strings[lang]['button-reset-settings'] = 'Instellingen herstellen';
 settings_strings[lang]['button-clear-all-data'] = 'Wis alle gegevens';

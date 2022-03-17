@@ -49,6 +49,7 @@ settings_strings[lang]['select-extension-icon-9'] = '확장 아이콘 9';
 settings_strings[lang]['select-extension-icon-10'] = '확장 아이콘 10';
 settings_strings[lang]['select-extension-icon-11'] = '확장 아이콘 11';
 settings_strings[lang]['label-space-emoji'] = 'Insert a space between emojis';
+settings_strings[lang]['label-insert-emoji'] = 'Also insert directly the emoji';
 settings_strings[lang]['button-save'] = '저장';
 settings_strings[lang]['button-reset-settings'] = '설정 초기화';
 settings_strings[lang]['button-clear-all-data'] = '모든 데이터 삭제';

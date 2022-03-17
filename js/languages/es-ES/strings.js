@@ -49,6 +49,7 @@ settings_strings[lang]['select-extension-icon-9'] = 'Icono de extensión 9';
 settings_strings[lang]['select-extension-icon-10'] = 'Icono de extensión 10';
 settings_strings[lang]['select-extension-icon-11'] = 'Icono de extensión 11';
 settings_strings[lang]['label-space-emoji'] = 'Insertar un espacio entre emojis';
+settings_strings[lang]['label-insert-emoji'] = 'Also insert directly the emoji';
 settings_strings[lang]['button-save'] = 'Guardar';
 settings_strings[lang]['button-reset-settings'] = 'Restablecer ajustes';
 settings_strings[lang]['button-clear-all-data'] = 'Borrar todos los datos';

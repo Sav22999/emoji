@@ -49,6 +49,7 @@ settings_strings[lang]['select-extension-icon-9'] = 'Laajennuksen kuvake 9';
 settings_strings[lang]['select-extension-icon-10'] = 'Laajennuksen kuvake 10';
 settings_strings[lang]['select-extension-icon-11'] = 'Laajennuksen kuvake 11';
 settings_strings[lang]['label-space-emoji'] = 'Insert a space between emojis';
+settings_strings[lang]['label-insert-emoji'] = 'Also insert directly the emoji';
 settings_strings[lang]['button-save'] = 'Tallenna';
 settings_strings[lang]['button-reset-settings'] = 'Nollaa asetukset';
 settings_strings[lang]['button-clear-all-data'] = 'Tyhjennä kaikki tiedot';

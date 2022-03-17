@@ -791,7 +791,7 @@ div {
     border-bottom: 1px solid #555555;
 }
 
-#skin-tone-container, #auto-close-container, #multi-copy-container, #theme-container, #extension-icon-container {
+#skin-tone-container, #auto-close-container, #multi-copy-container, #space-emoji-container, #insert-emoji-container, #theme-container, #extension-icon-container {
     position: relative;
     height: 30px;
     display: inline-block;
@@ -811,7 +811,7 @@ div {
     margin-top: 6px;
 }
 
-#auto-close-container, #multi-copy-container, #theme-container {
+#auto-close-container, #multi-copy-container, #space-emoji-container, #insert-emoji-container, #theme-container {
     min-width: 100px;
     width: auto;
 }
@@ -1020,4 +1020,14 @@ div {
 
 .margin-left-15 {
     margin-left: 15px;
+}
+
+.background-lightblue {
+    background-color: rgba(177, 214, 252, 0.5);
+    border: 0px solid transparent;
+    border-radius: 5px;
+    width: auto;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
