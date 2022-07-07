@@ -4,6 +4,8 @@ var emojis = [];
 var selectedTitle = 1;
 var char_copied_n = 0;
 
+var registered = null;
+
 var marginToUse = 10;
 var max_columns = 10;
 var max_rows = 6;
@@ -21,7 +23,7 @@ var extension_icon_selected = 0; //extension-icon-1
 var language_to_show = "en";
 const extension_icons = ["extension-icon-1", "extension-icon-2", "extension-icon-3", "extension-icon-4", "extension-icon-5", "extension-icon-6", "extension-icon-7", "extension-icon-8", "extension-icon-9", "extension-icon-10", "extension-icon-11"];
 var space_emoji = "no";
-var also_insert_emoji = "yes";
+var insert_directly_emoji = "no";
 
 var all_emojis = [];
 var emojis_supporting_skin_tones = {};
@@ -71,7 +73,7 @@ const jsonSettingsDefaultValue = {
     "extension_icon": 0,
     "language": getLanguageCode(browserAgentSettings.i18n.getUILanguage().toString()),
     "space_emoji": 0,
-    "also_insert_emoji": 1,
+    "insert_directly_emoji": 1,
 };
 
 const storeNameAbbr = ["MFA", "MEA", "GCWS"];//{MozillaFirefoxAddons, MicrosoftEdgeAddons, GoogleChromeWebStore}
@@ -137,7 +139,7 @@ function copyEmoji(text, tooltip) {
         textToCopyElement.style.display = "none";
         showMessageBottom(strings["other"]["label-copied"], copyText);
 
-        if (also_insert_emoji == "yes") {
+        if (insert_directly_emoji == "yes") {
             browserAgentSettings.tabs.query({active: true, currentWindow: true}, function (tabs) {
                 browserAgentSettings.tabs.sendMessage(tabs[0].id, {emoji: text}, function (response) {
                 });
@@ -519,11 +521,11 @@ function setPopUpUI() {
     selectYesNoSpaceEmoji(document.getElementById("space-emoji-selected").selectedIndex);
 
     document.getElementById("insert-emoji-selected").onchange = function () {
-        selectYesNoInsertEmoji(document.getElementById("insert-emoji-selected").selectedIndex);
+        selectYesNoInsertEmoji(document.getElementById("insert-emoji-selected").selectedIndex, onlyStatus = true);
 
         saveSettings();
     }
-    selectYesNoInsertEmoji(document.getElementById("insert-emoji-selected").selectedIndex);
+    selectYesNoInsertEmoji(document.getElementById("insert-emoji-selected").selectedIndex, onlyStatus = true);
 
     document.getElementById("auto-close-yes").onclick = function () {
         document.getElementById("close-popup-after-copied-selected").selectedIndex = 0;
@@ -574,12 +576,12 @@ function setPopUpUI() {
 
         saveSettings();
     }
-    document.getElementById("insert-emoji-yes").onclick = function () {
+    document.getElementById("insert-emoji-yes").addEventListener(event => function () {
         document.getElementById("insert-emoji-selected").selectedIndex = 0;
         selectYesNoInsertEmoji(0);
 
         saveSettings();
-    }
+    });
 
     document.getElementById("theme-light").onclick = function () {
         document.getElementById("theme-selected").selectedIndex = 0;
@@ -1142,7 +1144,7 @@ function saveSettings(reset = false) {
         "extension_icon": extensionIcon,
         "language": language,
         "space_emoji": spaceEmoji,
-        "also_insert_emoji": alsoInsertEmoji,
+        "insert_directly_emoji": alsoInsertEmoji,
     };
     if (reset) {
         jsonSettings = jsonSettingsDefaultValue;
@@ -1203,7 +1205,8 @@ function setVariablesFromSettings(resize_popup_ui = false, focus_search_box = fa
         spaceEmojiElement.selectedIndex = 0;
         if (jsonSettings.space_emoji != undefined) spaceEmojiElement.selectedIndex = jsonSettings.space_emoji;
         alsoInsertEmojiElement.selectedIndex = 1;
-        if (jsonSettings.also_insert_emoji != undefined) alsoInsertEmojiElement.selectedIndex = jsonSettings.also_insert_emoji;
+        if (jsonSettings.insert_directly_emoji != undefined) alsoInsertEmojiElement.selectedIndex = jsonSettings.insert_directly_emoji;
+
 
         let languagesTemp = [];
         for (let item in supported_languages) {
@@ -1246,7 +1249,7 @@ function setVariablesFromSettings(resize_popup_ui = false, focus_search_box = fa
         extension_icon_selected = extensionIconElement.selectedIndex;
         if (extension_icon_selected == undefined) extension_icon_selected = 0;
         space_emoji = spaceEmojiElement.value.toLowerCase();
-        also_insert_emoji = alsoInsertEmojiElement.value.toLowerCase();
+        insert_directly_emoji = alsoInsertEmojiElement.value.toLowerCase();
 
         setExtensionIcon("../img/extension-icons/" + extension_icons[extension_icon_selected] + ".png");
 
@@ -1441,8 +1444,61 @@ function selectYesNoSpaceEmoji(index) {
     selectYesNoButton("space-emoji-button", index);
 }
 
-function selectYesNoInsertEmoji(index) {
-    selectYesNoButton("insert-emoji-button", index);
+async function selectYesNoInsertEmoji(index, onlyStatus = false) {
+    let contestScriptMatches = ["*://*/*"];
+    let contestScriptJs = [{file: "./js/emoji-insert-directly.js"}];
+    let contestScriptRunAt = "document_idle";
+
+    if (onlyStatus) {
+        selectYesNoButton("insert-emoji-button", index);
+    } else {
+        if (index === 0) {
+            // yes
+            const permissionsToRequest = {
+                origins: contestScriptMatches
+            }
+
+            async function onResponse(response) {
+                if (response) {
+                    //Granted
+                    console.log("Granted");
+                    registered = await browserAgentSettings.contentScripts.register({
+                        matches: contestScriptMatches,
+                        js: contestScriptJs,
+                        runAt: contestScriptRunAt
+                    });
+                    if (registered) {
+                        selectYesNoButton("insert-emoji-button", index);
+                    } else {
+                        //console.log("Error");
+                        selectYesNoButton("insert-emoji-button", 1);
+                    }
+                } else {
+                    //Refused
+                    console.log("Refused");
+                    selectYesNoButton("insert-emoji-button", 1);
+                }
+                return browserAgentSettings.permissions.getAll();
+            }
+
+            console.log("Yes");
+            browserAgentSettings.permissions.request(permissionsToRequest).then(onResponse);
+        } else {
+            // no
+            registered = await browserAgentSettings.contentScripts.register({
+                matches: contestScriptMatches,
+                js: contestScriptJs,
+                runAt: contestScriptRunAt
+            })
+            if (registered) {
+                registered.unregister();
+                selectYesNoButton("insert-emoji-button", index);
+            } else {
+                //console.log("Error");
+                selectYesNoButton("insert-emoji-button", 1);
+            }
+        }
+    }
 }
 
 function selectYesNoTheme(index) {

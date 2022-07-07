@@ -1456,7 +1456,7 @@ emojis_language[lang][12] = {
     "✋{{skin_tone}}": ["Raised Hand", "High Five", "Stop"],
     "🖖{{skin_tone}}": ["Vulcan Salute", "Spock", "Star Trek", "Raised Hand with Part Between Middle and Ring Fingers"],
     "👌{{skin_tone}}": ["OK Hand Sign", "Okay", "Perfect", "Yes"],
-    "✌️{{skin_tone}}": ["Victory Hand", "Air Quotes", "Peace Sign", "V Sign"],
+    "✌{{skin_tone}}": ["Victory Hand", "Air Quotes", "Peace Sign", "V Sign"],
     "🤞{{skin_tone}}": ["Crossed Fingers", "Fingers Crossed", "Good Luck", "Hand with Index and Middle Fingers Crossed"],
     "🤟{{skin_tone}}": ["Love-You Gesture", "I Love You Hand Sign"],
     "🤘{{skin_tone}}": ["Sign of the Horns", "Devil Fingers", "Heavy Metal", "Rock On"],
