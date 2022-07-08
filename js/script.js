@@ -576,7 +576,7 @@ function setPopUpUI() {
 
         saveSettings();
     }
-    document.getElementById("insert-emoji-yes").addEventListener(event => function () {
+    document.getElementById("insert-emoji-yes").addEventListener("click", function () {
         document.getElementById("insert-emoji-selected").selectedIndex = 0;
         selectYesNoInsertEmoji(0);
 
@@ -1455,7 +1455,7 @@ async function selectYesNoInsertEmoji(index, onlyStatus = false) {
         if (index === 0) {
             // yes
             const permissionsToRequest = {
-                origins: contestScriptMatches
+                permissions: contestScriptMatches
             }
 
             async function onResponse(response) {
@@ -1485,18 +1485,7 @@ async function selectYesNoInsertEmoji(index, onlyStatus = false) {
             browserAgentSettings.permissions.request(permissionsToRequest).then(onResponse);
         } else {
             // no
-            registered = await browserAgentSettings.contentScripts.register({
-                matches: contestScriptMatches,
-                js: contestScriptJs,
-                runAt: contestScriptRunAt
-            })
-            if (registered) {
-                registered.unregister();
-                selectYesNoButton("insert-emoji-button", index);
-            } else {
-                //console.log("Error");
-                selectYesNoButton("insert-emoji-button", 1);
-            }
+            selectYesNoButton("insert-emoji-button", index);
         }
     }
 }
