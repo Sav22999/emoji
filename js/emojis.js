@@ -1148,7 +1148,7 @@ emojis_language[lang][8] = {
     "🤾{{skin_tone}}♀️": ["Woman Playing Handball"],
     "🤹{{skin_tone}}♂️": ["Man Juggling", "Male Juggler"],
     "🤹{{skin_tone}}♀️": ["Woman Juggling", "Female Juggler"],
-    "🧘{{skin_tone}}♂️": ["Man in Lotus Position", "Meditation", "Zen", "Cross legged", "Yoga"]
+    "🧘{{skin_tone}}♂️": ["Man in Lotus Position", "Meditation", "Zen", "Cross legged", "Yoga"],
     "🧘{{skin_tone}}♀️": ["Woman in Lotus Position", "Meditation", "Zen", "Cross legged", "Yoga"],
     "🏃{{skin_tone}}♂️": ["Man Running"],
     "🏃{{skin_tone}}♀️": ["Woman Running"],
@@ -1513,7 +1513,7 @@ emojis_language[lang][13] = {
     "🧶": ["Ball of Yarn"],
     "💄": ["Lipstick", "Lip Gloss", "Makeup"],
     "💍": ["Ring", "Diamond Ring", "Engagement Ring"],
-    "💎": ["Gem stone","Diamond","Gem","Gemstone","Jewel"],
+    "💎": ["Gem stone", "Diamond", "Gem", "Gemstone", "Jewel"],
     "💥": ["Collision Symbol", "Bang", "Explode", "Impact", "Red Spark", "Explosion"],
     "💫": ["Dizzy Symbol", "Circle And Star"],
     "💦": ["Splashing Sweat Symbol", "Plewds", "Splashing Water", "Water Drops"],
