@@ -139,7 +139,7 @@ function copyEmoji(text, tooltip) {
         textToCopyElement.style.display = "none";
         showMessageBottom(strings["other"]["label-copied"], copyText);
 
-        if (insert_directly_emoji == "yes") {
+        if (insert_directly_emoji === "yes") {
             browserAgentSettings.tabs.query({active: true, currentWindow: true}, function (tabs) {
                 browserAgentSettings.tabs.sendMessage(tabs[0].id, {emoji: text}, function (response) {
                 });
@@ -276,8 +276,7 @@ function generateTitles(search = false, titleToSet = 1, clearSearchBox = true) {
     for (let i = 0; i < Object.keys(titles).length; i++) {
         if (i == 0) {
             //search title
-            if (!search) document.getElementsByClassName("section-title")[i].style.display = "none";
-            else document.getElementsByClassName("section-title")[i].style.display = "inline-block";
+            if (!search) document.getElementsByClassName("section-title")[i].style.display = "none"; else document.getElementsByClassName("section-title")[i].style.display = "inline-block";
         } else {
             if (i == 1) {
                 if (mostUsedLength == 0) {
@@ -297,8 +296,7 @@ function generateTitles(search = false, titleToSet = 1, clearSearchBox = true) {
             document.getElementsByClassName("section-title")[i].classList.add(theme + "-section-title");
         }
     }
-    if (!search) setTitle(titleToSet);
-    else setTitle(0);
+    if (!search) setTitle(titleToSet); else setTitle(0);
 }
 
 function clearAllData() {
@@ -351,9 +349,7 @@ function generateEmojis(title) {
             tempEmojisToShow += "<input type='button' class='emoji " + theme + "-button-emoji size-emoji-button-" + size_emojis + "' value='" + mostUsedEmojis[i].emoji + "' title='" + tooltipToUse + "' alt='" + tooltipToUse + "' />";
         }
         if (n_emojis == 0) {
-            emojisElement.innerHTML = "<div id='no_most_used_emojis'>" +
-                strings["other"]["label-no-most-used-emojis"].replaceAll("{{properties}}", "class='font-" + font_family + " margin-right-10 font-size-25'") +
-                "</div>";
+            emojisElement.innerHTML = "<div id='no_most_used_emojis'>" + strings["other"]["label-no-most-used-emojis"].replaceAll("{{properties}}", "class='font-" + font_family + " margin-right-10 font-size-25'") + "</div>";
         } else {
             emojisElement.innerHTML = tempEmojisToShow;
         }
@@ -520,11 +516,6 @@ function setPopUpUI() {
     }
     selectYesNoSpaceEmoji(document.getElementById("space-emoji-selected").selectedIndex);
 
-    document.getElementById("insert-emoji-selected").onchange = function () {
-        selectYesNoInsertEmoji(document.getElementById("insert-emoji-selected").selectedIndex, onlyStatus = true);
-
-        saveSettings();
-    }
     selectYesNoInsertEmoji(document.getElementById("insert-emoji-selected").selectedIndex, onlyStatus = true);
 
     document.getElementById("auto-close-yes").onclick = function () {
@@ -639,7 +630,7 @@ function setPopUpUI() {
         saveSettings();
     }
 
-    document.getElementsByClassName("theme-button")[0].focus(); //after saveSettings get again focus of the first element in Settings
+    //document.getElementsByClassName("theme-button")[0].focus(); //after saveSettings get again focus of the first element in Settings
 
     setSkinToneEmojis();
     setContextMenu();
@@ -651,25 +642,24 @@ function setPopUpUI() {
 function setContextMenu() {
     if (!contextmenu_set) {
         contextmenu_set = true;
-        document.addEventListener("contextmenu",
-            function (e) {
-                let classNames = e.target.className.split(" ");
-                if (classNames.includes("emoji") && !classNames.includes("emoji-mini-popup")) {
-                    //right-click
-                    let index_to_use = 0;
-                    for (index_to_use in emojis_supporting_skin_tones) {
-                        if (emojis_supporting_skin_tones[index_to_use]["emojis"].includes(e.target.value)) {
-                            //show "sub-popup" (choose another skin-tone for the selected emoji)
-                            showChooseSkinToneMiniPopUp(index_to_use, e.clientX, e.clientY);
-                        }
+        document.addEventListener("contextmenu", function (e) {
+            let classNames = e.target.className.split(" ");
+            if (classNames.includes("emoji") && !classNames.includes("emoji-mini-popup")) {
+                //right-click
+                let index_to_use = 0;
+                for (index_to_use in emojis_supporting_skin_tones) {
+                    if (emojis_supporting_skin_tones[index_to_use]["emojis"].includes(e.target.value)) {
+                        //show "sub-popup" (choose another skin-tone for the selected emoji)
+                        showChooseSkinToneMiniPopUp(index_to_use, e.clientX, e.clientY);
                     }
                 }
+            }
 
-                if (!(e.target.nodeName == "INPUT" && e.target.type == "search")) {
-                    e.preventDefault();
-                    //show (default) context menu just for the "search-box"
-                }
-            }, false);
+            if (!(e.target.nodeName == "INPUT" && e.target.type == "search")) {
+                e.preventDefault();
+                //show (default) context menu just for the "search-box"
+            }
+        }, false);
         emojisElement.addEventListener("scroll", function () {
             hideChooseSkinToneMiniPopUp();
         });
@@ -801,9 +791,7 @@ function setLanguageSelector(selected) {
 function showReviewAddonMessage() {
     let message_element = document.createElement("div");
     message_element.id = "review-message";
-    message_element.innerHTML = "" +
-        strings["other"]["label-review-the-addon"].replaceAll("{{properties}}", "class='font-" + font_family + " font-size-22 margin-right-5'").replaceAll("{{store}}", storeName[browserOrChromeIndex]) +
-        "<br><div id='review-message-buttons'></div>";
+    message_element.innerHTML = "" + strings["other"]["label-review-the-addon"].replaceAll("{{properties}}", "class='font-" + font_family + " font-size-22 margin-right-5'").replaceAll("{{store}}", storeName[browserOrChromeIndex]) + "<br><div id='review-message-buttons'></div>";
     document.getElementById("popup-content").append(message_element);
 
     let background_opacity = document.createElement("div");
@@ -849,9 +837,7 @@ function showReviewAddonMessage() {
 function showOpenedAddonMessage(numberOpened) {
     let message_element = document.createElement("div");
     message_element.id = "opened-addon-message";
-    message_element.innerHTML = "" +
-        strings["other"]["label-you-opened-this-addon-times"].replaceAll("{{properties1}}", "class='text-center padding-5'").replaceAll("{{properties2}}", "class='font-" + font_family + " font-size-20 margin-right-5'").replaceAll("{{properties3}}", "class='font-size-20 font-bold'").replaceAll("{{times}}", numberOpened.toString()).replaceAll("{{properties4}}", "class='text-left padding-5'") +
-        "<div id='opened-addon-message-buttons' class='message-buttons-container text-right'></div>";
+    message_element.innerHTML = "" + strings["other"]["label-you-opened-this-addon-times"].replaceAll("{{properties1}}", "class='text-center padding-5'").replaceAll("{{properties2}}", "class='font-" + font_family + " font-size-20 margin-right-5'").replaceAll("{{properties3}}", "class='font-size-20 font-bold'").replaceAll("{{times}}", numberOpened.toString()).replaceAll("{{properties4}}", "class='text-left padding-5'") + "<div id='opened-addon-message-buttons' class='message-buttons-container text-right'></div>";
     document.getElementById("popup-content").append(message_element);
 
     let background_opacity = document.createElement("div");
@@ -889,8 +875,7 @@ function showMessageTop(text) {
     text_to_use = text_to_use.replace(/{{emoji}}/g, "<span class='font-" + font_family + " font-size-22 margin-right-5'>");
     text_to_use = text_to_use.replace(/{{\/emoji}}/g, "</span>");
     message_element.innerHTML = "<div id='title-release-notes'>Release notes</div>" + text_to_use + "<br><div id='top-message-buttons'></div>";
-    ;
-    document.getElementById("popup-content").append(message_element);
+    ;document.getElementById("popup-content").append(message_element);
 
     let background_opacity = document.createElement("div");
     background_opacity.className = "background-opacity";
@@ -937,8 +922,7 @@ function showMessageBottom(text = "", emoji_text = null) {
 
 function toggleElement(id_to_use) {
     let display_attribute = document.getElementById(id_to_use).style.display;
-    if (display_attribute == "block") hideElement(id_to_use);
-    else showElement(id_to_use);
+    if (display_attribute == "block") hideElement(id_to_use); else showElement(id_to_use);
 }
 
 function hideElement(id_to_use) {
@@ -961,11 +945,9 @@ function checkReview() {
     browserAgentSettings.storage.sync.get("review-addon", function (value) {
         let count = 0;
         if (value["review-addon"] != undefined) {
-            if (value["review-addon"] != -1) count = value["review-addon"] + 1;
-            else count = -1;
+            if (value["review-addon"] != -1) count = value["review-addon"] + 1; else count = -1;
         }
-        if (count >= 30) showReviewAddonMessage();
-        else if (count > -1) setReviewed(count);
+        if (count >= 30) showReviewAddonMessage(); else if (count > -1) setReviewed(count);
     });
 }
 
@@ -1037,9 +1019,7 @@ function searchEmoji(value) {
         }
         generateTitles(true, 0);
         if (n_results == 0) {
-            emojisElement.innerHTML = "<div id='no_emojis_found'>" +
-                strings["other"]["label-no-emojis-found"].replaceAll("{{properties}}", "class='font-" + font_family + " margin-right-10 font-size-25'") +
-                "</div>";
+            emojisElement.innerHTML = "<div id='no_emojis_found'>" + strings["other"]["label-no-emojis-found"].replaceAll("{{properties}}", "class='font-" + font_family + " margin-right-10 font-size-25'") + "</div>";
         }
     } else {
         if (this.selectedTitle == 0) {
@@ -1057,10 +1037,7 @@ function showSettings() {
 }
 
 function setColumnsRowsSettings(value, selected_c = 2, selected_r = 2) {
-    let min_c = 8,
-        max_c = 14,
-        min_r = 4,
-        max_r = 10;
+    let min_c = 8, max_c = 14, min_r = 4, max_r = 10;
 
     marginToUse = 10;
 
@@ -1150,13 +1127,12 @@ function saveSettings(reset = false) {
         jsonSettings = jsonSettingsDefaultValue;
     }
     browserAgentSettings.storage.sync.set({"settings": jsonSettings}, function () {
+        //hideElement("settings-section");
+        number_of_emojis_generations = 0;
+        focusSearchBox();
+        setVariablesFromSettings(true);
+        setSkinToneEmojis();
     });
-
-    //hideElement("settings-section");
-    number_of_emojis_generations = 0;
-    focusSearchBox();
-    setVariablesFromSettings(true);
-    setSkinToneEmojis();
 }
 
 function setVariablesFromSettings(resize_popup_ui = false, focus_search_box = false) {
@@ -1270,8 +1246,7 @@ function setVariablesFromSettings(resize_popup_ui = false, focus_search_box = fa
 }
 
 function getLanguageCode(language) {
-    if (supported_languages[language] != undefined) return language;
-    else return "en";
+    if (supported_languages[language] != undefined) return language; else return "en";
 }
 
 function setFontFamily() {
@@ -1397,8 +1372,7 @@ function editMode() {
     document.getElementById("finish-edit-button").style.display = "block";
     deleteButtonElement.style.display = "none";
     searchBoxElement.style.right = "128px";
-    if (searchBoxElement.offsetWidth < 370) document.getElementById("text-click-on-emoji-to-remove").style.margin = "-1px";
-    else document.getElementById("text-click-on-emoji-to-remove").style.margin = "5px";
+    if (searchBoxElement.offsetWidth < 370) document.getElementById("text-click-on-emoji-to-remove").style.margin = "-1px"; else document.getElementById("text-click-on-emoji-to-remove").style.margin = "5px";
 
     deleting = true;
 }
@@ -1444,48 +1418,72 @@ function selectYesNoSpaceEmoji(index) {
     selectYesNoButton("space-emoji-button", index);
 }
 
-async function selectYesNoInsertEmoji(index, onlyStatus = false) {
+async function register(matches, js, runAt) {
+    console.log("Registring");
+    console.log(js);
+    return await browserAgentSettings.contentScripts.register({
+        matches: matches, js: js, runAt: runAt
+    });
+}
+
+let insertEmojiStatus = 0;
+
+function selectYesNoInsertEmoji(index, onlyStatus = false) {
     let contestScriptMatches = ["*://*/*"];
     let contestScriptJs = [{file: "./js/emoji-insert-directly.js"}];
     let contestScriptRunAt = "document_idle";
-
     if (onlyStatus) {
         selectYesNoButton("insert-emoji-button", index);
+        browserAgentSettings.permissions.getAll().then((result) => {
+            //check permissions and in case force to "No"
+            if (index === 0 && !result.origins.includes("*://*/*")) {
+                selectYesNoButton("insert-emoji-button", 1);
+                insert_directly_emoji = "no";
+            }
+        });
     } else {
+        insertEmojiStatus++;
         if (index === 0) {
             // yes
-            const permissionsToRequest = {
-                permissions: contestScriptMatches
-            }
-
-            async function onResponse(response) {
-                if (response) {
-                    //Granted
-                    console.log("Granted");
-                    registered = await browserAgentSettings.contentScripts.register({
-                        matches: contestScriptMatches,
-                        js: contestScriptJs,
-                        runAt: contestScriptRunAt
-                    });
-                    if (registered) {
-                        selectYesNoButton("insert-emoji-button", index);
-                    } else {
-                        //console.log("Error");
-                        selectYesNoButton("insert-emoji-button", 1);
-                    }
-                } else {
-                    //Refused
-                    console.log("Refused");
-                    selectYesNoButton("insert-emoji-button", 1);
+            if (insertEmojiStatus === 1) {
+                const permissionsToRequest = {
+                    origins: ["*://*/*"]
                 }
-                return browserAgentSettings.permissions.getAll();
-            }
 
-            console.log("Yes");
-            browserAgentSettings.permissions.request(permissionsToRequest).then(onResponse);
+                async function onResponse(response) {
+                    if (response) {
+                        //Granted
+                        registered = register(contestScriptMatches, contestScriptJs, contestScriptRunAt)
+                            .then((result) => {
+                                console.log("Registered");
+                                if (result) {
+                                    selectYesNoButton("insert-emoji-button", index);
+                                    saveSettings();
+                                } else {
+                                    //console.log("Error");
+                                    selectYesNoButton("insert-emoji-button", 1);
+                                    saveSettings();
+                                }
+                                console.log(result);
+                            })
+                            .catch((e) => {
+                                console.log(e)
+                            });
+                    } else {
+                        //Refused
+                        selectYesNoButton("insert-emoji-button", 1);
+                        saveSettings();
+                    }
+                    return browserAgentSettings.permissions.getAll();
+                }
+
+                browserAgentSettings.permissions.request(permissionsToRequest).then(onResponse);
+            }
         } else {
+            insertEmojiStatus = 0;
             // no
-            selectYesNoButton("insert-emoji-button", index);
+            selectYesNoButton("insert-emoji-button", 1);
+            saveSettings();
         }
     }
 }
