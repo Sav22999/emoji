@@ -1148,8 +1148,8 @@ emojis_language[lang][8] = {
     "🤾{{skin_tone}}♀️": ["Woman Playing Handball"],
     "🤹{{skin_tone}}♂️": ["Man Juggling", "Male Juggler"],
     "🤹{{skin_tone}}♀️": ["Woman Juggling", "Female Juggler"],
-    "🧘{{skin_tone}}♂️": ["Man in Lotus Position"],
-    "🧘{{skin_tone}}♀️": ["Woman in Lotus Position"],
+    "🧘{{skin_tone}}♂️": ["Man in Lotus Position", "Meditation", "Zen", "Cross legged", "Yoga"]
+    "🧘{{skin_tone}}♀️": ["Woman in Lotus Position", "Meditation", "Zen", "Cross legged", "Yoga"],
     "🏃{{skin_tone}}♂️": ["Man Running"],
     "🏃{{skin_tone}}♀️": ["Woman Running"],
     "🕺{{skin_tone}}": ["Man Dancing"],
