@@ -637,6 +637,8 @@ function setPopUpUI() {
 
     setLanguageFile();
     setLanguageUI();
+
+    sendMessageForInjection();
 }
 
 function setContextMenu() {
@@ -1418,25 +1420,20 @@ function selectYesNoSpaceEmoji(index) {
     selectYesNoButton("space-emoji-button", index);
 }
 
-async function register(matches, js, runAt) {
-    console.log("Registring");
-    console.log(js);
-    return await browserAgentSettings.contentScripts.register({
-        matches: matches, js: js, runAt: runAt
-    });
+function sendMessageForInjection(forced = false) {
+    browserAgentSettings.runtime.sendMessage({file: contestScriptJs[0].file, forced: forced});
 }
 
 let insertEmojiStatus = 0;
+let contestScriptMatches = ["<all_urls>"];
+let contestScriptJs = [{file: "./js/emoji-insert-directly.js"}];
 
 function selectYesNoInsertEmoji(index, onlyStatus = false) {
-    let contestScriptMatches = ["*://*/*"];
-    let contestScriptJs = [{file: "./js/emoji-insert-directly.js"}];
-    let contestScriptRunAt = "document_idle";
     if (onlyStatus) {
         selectYesNoButton("insert-emoji-button", index);
         browserAgentSettings.permissions.getAll().then((result) => {
             //check permissions and in case force to "No"
-            if (index === 0 && !result.origins.includes("*://*/*")) {
+            if (index === 0 && !result.origins.includes(contestScriptMatches[0])) {
                 selectYesNoButton("insert-emoji-button", 1);
                 insert_directly_emoji = "no";
             }
@@ -1447,28 +1444,16 @@ function selectYesNoInsertEmoji(index, onlyStatus = false) {
             // yes
             if (insertEmojiStatus === 1) {
                 const permissionsToRequest = {
-                    origins: ["*://*/*"]
+                    permissions: ["tabs"],
+                    origins: contestScriptMatches
                 }
 
                 async function onResponse(response) {
                     if (response) {
                         //Granted
-                        registered = register(contestScriptMatches, contestScriptJs, contestScriptRunAt)
-                            .then((result) => {
-                                console.log("Registered");
-                                if (result) {
-                                    selectYesNoButton("insert-emoji-button", index);
-                                    saveSettings();
-                                } else {
-                                    //console.log("Error");
-                                    selectYesNoButton("insert-emoji-button", 1);
-                                    saveSettings();
-                                }
-                                console.log(result);
-                            })
-                            .catch((e) => {
-                                console.log(e)
-                            });
+                        selectYesNoButton("insert-emoji-button", index);
+                        saveSettings();
+                        sendMessageForInjection(true); //forced the injection the first time
                     } else {
                         //Refused
                         selectYesNoButton("insert-emoji-button", 1);

@@ -62,7 +62,8 @@
     "storage"
   ],
   "optional_permissions": [
-    "*://*/*"
+    "<all_urls>",
+    "tabs"
   ],
   "background": {
     "scripts": [
