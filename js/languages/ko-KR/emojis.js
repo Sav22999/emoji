@@ -9,7 +9,7 @@ titles_language[lang] = {
     '🦊': '동물',
     '🅰️': '기호',
     '🍎': '식료품',
-    '🏳️‍🌈': '깃발',
+    '🏳️‍🌈': 'Flags',
     '🏊': '스포츠',
     '✈️': '여행과 장소',
     '🖱️': '기술과 사무',
@@ -4910,8 +4910,20 @@ emojis_language[lang][8] = {
         'Woman Juggling',
         'Female Juggler'
     ],
-    '🧘{{skin_tone}}‍♂️': ['Man in Lotus Position'],
-    '🧘{{skin_tone}}‍♀️': ['Woman in Lotus Position'],
+    '🧘{{skin_tone}}‍♂️': [
+        'Man in Lotus Position',
+        'Meditation',
+        'Zen',
+        'Cross legged',
+        'Yoga'
+    ],
+    '🧘{{skin_tone}}‍♀️': [
+        'Woman in Lotus Position',
+        'Meditation',
+        'Zen',
+        'Cross legged',
+        'Yoga'
+    ],
     '🏃{{skin_tone}}‍♂️': ['Man Running'],
     '🏃{{skin_tone}}‍♀️': ['Woman Running'],
     '🕺{{skin_tone}}‍': ['Man Dancing'],
@@ -6041,100 +6053,100 @@ emojis_language[lang][12] = {
         'Splayed Hand',
         'Raised Hand with Fingers Splayed'
     ],
-    '🤚{{skin_tone}}‍': [
+    '🤚{{skin_tone}}': [
         'Raised Back of Hand',
         'Backhand'
     ],
-    '✋{{skin_tone}}‍': [
+    '✋{{skin_tone}}': [
         'Raised Hand',
         'High Five',
         'Stop'
     ],
-    '🖖{{skin_tone}}‍': [
+    '🖖{{skin_tone}}': [
         'Vulcan Salute',
         'Spock',
         'Star Trek',
         'Raised Hand with Part Between Middle and Ring Fingers'
     ],
-    '👌{{skin_tone}}‍': [
+    '👌{{skin_tone}}': [
         'OK Hand Sign',
         'Okay',
         'Perfect',
-        '네'
+        'Yes'
     ],
-    '✌️{{skin_tone}}‍': [
+    '✌️{{skin_tone}}': [
         'Victory Hand',
         'Air Quotes',
         'Peace Sign',
         'V Sign'
     ],
-    '🤞{{skin_tone}}‍': [
+    '🤞{{skin_tone}}': [
         'Crossed Fingers',
         'Fingers Crossed',
         'Good Luck',
         'Hand with Index and Middle Fingers Crossed'
     ],
-    '🤟{{skin_tone}}‍': [
+    '🤟{{skin_tone}}': [
         'Love-You Gesture',
         'I Love You Hand Sign'
     ],
-    '🤘{{skin_tone}}‍': [
+    '🤘{{skin_tone}}': [
         'Sign of the Horns',
         'Devil Fingers',
         'Heavy Metal',
         'Rock On'
     ],
-    '🤙{{skin_tone}}‍': [
+    '🤙{{skin_tone}}': [
         'Call Me Hand Sign',
         'Phone Hand',
         'Shaka'
     ],
-    '🤏{{skin_tone}}‍': ['Pinching Hand'],
-    '👈{{skin_tone}}‍': [
+    '🤏{{skin_tone}}': ['Pinching Hand'],
+    '👈{{skin_tone}}': [
         'Backhand Index Pointing Left',
         'White Left Pointing Backhand Index'
     ],
-    '👉{{skin_tone}}‍': [
+    '👉{{skin_tone}}': [
         'Backhand Index Pointing Right',
         'White Right Pointing Backhand Index'
     ],
-    '👆{{skin_tone}}‍': [
+    '👆{{skin_tone}}': [
         'Backhand Index Pointing Up',
         'White Up Pointing Backhand Index',
         'Middle Finger'
     ],
-    '👇{{skin_tone}}‍': [
+    '👇{{skin_tone}}': [
         'Backhand Index Pointing Down',
         'White Down Pointing Backhand Index',
         'Pointing Down'
     ],
-    '☝{{skin_tone}}‍️': [
+    '☝{{skin_tone}}': [
         'Index Finger Pointing Up',
         'White Up Pointing Index',
         'Secret'
     ],
-    '🖕{{skin_tone}}‍': [
+    '🖕{{skin_tone}}': [
         'Middle Finger',
         'Flipping The Bird',
         'Rude Finger',
         'Reversed Hand with Middle Finger Extended'
     ],
-    '👍{{skin_tone}}‍': [
+    '👍{{skin_tone}}': [
         'Thumbs Up Sign',
         'Like',
-        '네'
+        'Yes'
     ],
-    '👎{{skin_tone}}‍': [
+    '👎{{skin_tone}}': [
         'Thumbs Down Sign',
         'Bad',
         'Dislike',
-        '아니오'
+        'No'
     ],
-    '✊{{skin_tone}}‍': [
+    '✊{{skin_tone}}': [
         'Raised Fist',
         'Fist Pump'
     ],
-    '👊{{skin_tone}}‍': [
+    '👊{{skin_tone}}': [
         'Oncoming Fist',
         'Bro Fist',
         'Brofist',
@@ -6143,14 +6155,14 @@ emojis_language[lang][12] = {
         'Closed Fist',
         'Fisted Hand Sign'
     ],
-    '🤛{{skin_tone}}‍': ['Left Fist Bump'],
-    '🤜{{skin_tone}}‍': ['Right Fist Bump'],
-    '🤌{{skin_tone}}‍': [
+    '🤛{{skin_tone}}': ['Left Fist Bump'],
+    '🤜{{skin_tone}}': ['Right Fist Bump'],
+    '🤌{{skin_tone}}': [
         'Pinched Fingers',
         'Ma Che Vuoi',
         'Finger Purse'
     ],
-    '👏{{skin_tone}}‍': [
+    '👏{{skin_tone}}': [
         'Clapping Hands Sign',
         'Applause',
         'Clap',
@@ -6158,7 +6170,7 @@ emojis_language[lang][12] = {
         'Golf Clap',
         'Round Of Applause'
     ],
-    '🙌{{skin_tone}}‍': [
+    '🙌{{skin_tone}}': [
         'Person Raising Both Hands in Celebration',
         'Raising Hands',
         'Arms In The Air',
@@ -6168,20 +6180,20 @@ emojis_language[lang][12] = {
         'Praise Hands',
         'Two Hands'
     ],
-    '👐{{skin_tone}}‍': [
+    '👐{{skin_tone}}': [
         'Open Hands Sign',
         'Hug',
         'Jazz Hands'
     ],
-    '🤲{{skin_tone}}‍': [
+    '🤲{{skin_tone}}': [
         'Palms Up Together',
         'Dua'
     ],
-    '🤝{{skin_tone}}‍': [
+    '🤝{{skin_tone}}': [
         'Handshake',
         'Shaking Hands'
     ],
-    '🙏{{skin_tone}}‍': [
+    '🙏{{skin_tone}}': [
         'Folded Hands',
         'Namaste',
         'Please',
@@ -6189,22 +6201,22 @@ emojis_language[lang][12] = {
         'Thank You',
         'Person with Folded Hands'
     ],
-    '✍{{skin_tone}}‍️': ['Writing Hand'],
-    '💪{{skin_tone}}‍': [
+    '✍{{skin_tone}}': ['Writing Hand'],
+    '💪{{skin_tone}}': [
         'Flexed Biceps',
         'Flexing Arm Muscles',
         'Musle',
         'Strong'
     ],
-    '🦵{{skin_tone}}‍': ['Leg'],
-    '🦶{{skin_tone}}‍': ['Foot'],
-    '👂{{skin_tone}}‍': [
+    '🦵{{skin_tone}}': ['Leg'],
+    '🦶{{skin_tone}}': ['Foot'],
+    '👂{{skin_tone}}': [
         'Ear',
         'Ears',
         'Hearing',
         'Listening'
     ],
-    '👃{{skin_tone}}‍': [
+    '👃{{skin_tone}}': [
         'Nose',
         'Smelling',
         'Sniffing',

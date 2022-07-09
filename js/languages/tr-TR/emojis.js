@@ -9,7 +9,7 @@ titles_language[lang] = {
     '🦊': 'Hayvanlar',
     '🅰️': 'Semboller',
     '🍎': 'Yiyecek ve içecekler',
-    '🏳️‍🌈': 'Bayraklar',
+    '🏳️‍🌈': 'Flags',
     '🏊': 'Spor dalları',
     '✈️': 'Seyehat ve yerler',
     '🖱️': 'Teknolojik alet ve ofis',
@@ -339,8 +339,8 @@ emojis_language[lang][2] = {
     '🥱': ['Yawning Face'],
     '😷': [
         'Face with Medical Mask',
-        'Coronavirus',
-        'COVID-19',
+        'Koronavirüs',
+        'KOVID-19',
         'Mask Face',
         'Surgical Mask'
     ],
@@ -418,7 +418,7 @@ emojis_language[lang][2] = {
         'Smiling Face with Sunglasses',
         'Cool',
         'Mutual Best Friends (Snapchat)',
-        'Sunglasses'
+        'Güneş Gözlüğü'
     ],
     '🤓': [
         'Nerd Face',
@@ -648,7 +648,7 @@ emojis_language[lang][2] = {
     ],
     '👻': [
         'Ghost',
-        'Halloween'
+        'Cadılar Bayramı'
     ],
     '🗣️': [
         'Speaking Head',
@@ -1656,7 +1656,7 @@ emojis_language[lang][5] = {
     '💝': [
         'Heart with Ribbon',
         'Chocolate Box',
-        'Gift Box',
+        'Hediye Kutusu',
         'Gift Heart'
     ],
     '💖': [
@@ -1814,7 +1814,7 @@ emojis_language[lang][5] = {
     ],
     '🔕': [
         'Bell with Slash',
-        'Notifications',
+        'Bildirimler',
         'Ringer Disabled',
         'Muted Bell',
         'Bell with Cancellation Stroke'
@@ -4910,8 +4910,20 @@ emojis_language[lang][8] = {
         'Woman Juggling',
         'Female Juggler'
     ],
-    '🧘{{skin_tone}}‍♂️': ['Man in Lotus Position'],
-    '🧘{{skin_tone}}‍♀️': ['Woman in Lotus Position'],
+    '🧘{{skin_tone}}‍♂️': [
+        'Man in Lotus Position',
+        'Meditation',
+        'Zen',
+        'Cross legged',
+        'Yoga'
+    ],
+    '🧘{{skin_tone}}‍♀️': [
+        'Woman in Lotus Position',
+        'Meditation',
+        'Zen',
+        'Cross legged',
+        'Yoga'
+    ],
     '🏃{{skin_tone}}‍♂️': ['Man Running'],
     '🏃{{skin_tone}}‍♀️': ['Woman Running'],
     '🕺{{skin_tone}}‍': ['Man Dancing'],
@@ -5570,7 +5582,7 @@ emojis_language[lang][10] = {
     ],
     '💻': [
         'Laptop',
-        'Notebook',
+        'Defter',
         'Personal Computer',
         'PC',
         'MacBook',
@@ -5746,7 +5758,7 @@ emojis_language[lang][10] = {
     ],
     '🖌️': [
         'Paintbrush',
-        'Brush',
+        'Fırça',
         'Lower Left Paintbrush'
     ],
     '🖍️': [
@@ -6041,100 +6053,100 @@ emojis_language[lang][12] = {
         'Splayed Hand',
         'Raised Hand with Fingers Splayed'
     ],
-    '🤚{{skin_tone}}‍': [
+    '🤚{{skin_tone}}': [
         'Raised Back of Hand',
         'Backhand'
     ],
-    '✋{{skin_tone}}‍': [
+    '✋{{skin_tone}}': [
         'Raised Hand',
         'High Five',
         'Stop'
     ],
-    '🖖{{skin_tone}}‍': [
+    '🖖{{skin_tone}}': [
         'Vulcan Salute',
         'Spock',
         'Star Trek',
         'Raised Hand with Part Between Middle and Ring Fingers'
     ],
-    '👌{{skin_tone}}‍': [
+    '👌{{skin_tone}}': [
         'OK Hand Sign',
         'Okay',
         'Perfect',
         'Evet'
     ],
-    '✌️{{skin_tone}}‍': [
+    '✌️{{skin_tone}}': [
         'Victory Hand',
         'Air Quotes',
         'Peace Sign',
         'V Sign'
     ],
-    '🤞{{skin_tone}}‍': [
+    '🤞{{skin_tone}}': [
         'Crossed Fingers',
         'Fingers Crossed',
         'Good Luck',
         'Hand with Index and Middle Fingers Crossed'
     ],
-    '🤟{{skin_tone}}‍': [
+    '🤟{{skin_tone}}': [
         'Love-You Gesture',
         'I Love You Hand Sign'
     ],
-    '🤘{{skin_tone}}‍': [
+    '🤘{{skin_tone}}': [
         'Sign of the Horns',
         'Devil Fingers',
         'Heavy Metal',
         'Rock On'
     ],
-    '🤙{{skin_tone}}‍': [
+    '🤙{{skin_tone}}': [
         'Call Me Hand Sign',
         'Phone Hand',
         'Shaka'
     ],
-    '🤏{{skin_tone}}‍': ['Pinching Hand'],
-    '👈{{skin_tone}}‍': [
+    '🤏{{skin_tone}}': ['Pinching Hand'],
+    '👈{{skin_tone}}': [
         'Backhand Index Pointing Left',
         'White Left Pointing Backhand Index'
     ],
-    '👉{{skin_tone}}‍': [
+    '👉{{skin_tone}}': [
         'Backhand Index Pointing Right',
         'White Right Pointing Backhand Index'
     ],
-    '👆{{skin_tone}}‍': [
+    '👆{{skin_tone}}': [
         'Backhand Index Pointing Up',
         'White Up Pointing Backhand Index',
         'Middle Finger'
     ],
-    '👇{{skin_tone}}‍': [
+    '👇{{skin_tone}}': [
         'Backhand Index Pointing Down',
         'White Down Pointing Backhand Index',
         'Pointing Down'
     ],
-    '☝{{skin_tone}}‍️': [
+    '☝{{skin_tone}}': [
         'Index Finger Pointing Up',
         'White Up Pointing Index',
         'Secret'
     ],
-    '🖕{{skin_tone}}‍': [
+    '🖕{{skin_tone}}': [
         'Middle Finger',
         'Flipping The Bird',
         'Rude Finger',
         'Reversed Hand with Middle Finger Extended'
     ],
-    '👍{{skin_tone}}‍': [
+    '👍{{skin_tone}}': [
         'Thumbs Up Sign',
         'Like',
         'Evet'
     ],
-    '👎{{skin_tone}}‍': [
+    '👎{{skin_tone}}': [
         'Thumbs Down Sign',
         'Kötü',
         'Dislike',
         'Hayır'
     ],
-    '✊{{skin_tone}}‍': [
+    '✊{{skin_tone}}': [
         'Raised Fist',
         'Fist Pump'
     ],
-    '👊{{skin_tone}}‍': [
+    '👊{{skin_tone}}': [
         'Oncoming Fist',
         'Bro Fist',
         'Brofist',
@@ -6143,14 +6155,14 @@ emojis_language[lang][12] = {
         'Closed Fist',
         'Fisted Hand Sign'
     ],
-    '🤛{{skin_tone}}‍': ['Left Fist Bump'],
-    '🤜{{skin_tone}}‍': ['Right Fist Bump'],
-    '🤌{{skin_tone}}‍': [
+    '🤛{{skin_tone}}': ['Left Fist Bump'],
+    '🤜{{skin_tone}}': ['Right Fist Bump'],
+    '🤌{{skin_tone}}': [
         'Pinched Fingers',
         'Ma Che Vuoi',
         'Finger Purse'
     ],
-    '👏{{skin_tone}}‍': [
+    '👏{{skin_tone}}': [
         'Clapping Hands Sign',
         'Applause',
         'Clap',
@@ -6158,7 +6170,7 @@ emojis_language[lang][12] = {
         'Golf Clap',
         'Round Of Applause'
     ],
-    '🙌{{skin_tone}}‍': [
+    '🙌{{skin_tone}}': [
         'Person Raising Both Hands in Celebration',
         'Raising Hands',
         'Arms In The Air',
@@ -6168,20 +6180,20 @@ emojis_language[lang][12] = {
         'Praise Hands',
         'Two Hands'
     ],
-    '👐{{skin_tone}}‍': [
+    '👐{{skin_tone}}': [
         'Open Hands Sign',
         'Hug',
         'Jazz Hands'
     ],
-    '🤲{{skin_tone}}‍': [
+    '🤲{{skin_tone}}': [
         'Palms Up Together',
         'Dua'
     ],
-    '🤝{{skin_tone}}‍': [
+    '🤝{{skin_tone}}': [
         'Handshake',
         'Shaking Hands'
     ],
-    '🙏{{skin_tone}}‍': [
+    '🙏{{skin_tone}}': [
         'Folded Hands',
         'Namaste',
         'Lütfen',
@@ -6189,28 +6201,28 @@ emojis_language[lang][12] = {
         'Teşekkürler',
         'Person with Folded Hands'
     ],
-    '✍{{skin_tone}}‍️': ['Writing Hand'],
-    '💪{{skin_tone}}‍': [
+    '✍{{skin_tone}}': ['Writing Hand'],
+    '💪{{skin_tone}}': [
         'Flexed Biceps',
         'Flexing Arm Muscles',
         'Musle',
         'Strong'
     ],
-    '🦵{{skin_tone}}‍': ['Leg'],
-    '🦶{{skin_tone}}‍': ['Foot'],
-    '👂{{skin_tone}}‍': [
+    '🦵{{skin_tone}}': ['Leg'],
+    '🦶{{skin_tone}}': ['Foot'],
+    '👂{{skin_tone}}': [
         'Kulak',
         'Kulaklar',
         'Duymak',
         'Dinlemek'
     ],
-    '👃{{skin_tone}}‍': [
+    '👃{{skin_tone}}': [
         'Burun',
         'Koklamak',
         'Sniffing',
         'Kokuşmuş'
     ],
-    '🧠': ['Beyin'],
+    '🧠': ['Brain'],
     '🦷': ['Diş'],
     '👀': [
         'Göz',
@@ -6311,7 +6323,7 @@ emojis_language[lang][13] = {
     '💨': [
         'Dashing Away',
         'Fast',
-        'Steam',
+        'Buhar',
         'Vaping',
         'Wind',
         'Dash Symbol',
@@ -7163,8 +7175,8 @@ emojis_language[lang][13] = {
     ],
     '🕳️': ['Delik'],
     '👁️‍🗨️': [
-        'Görgü Tanığıyım',
-        'Konuşma Balonu İçindeki Göz'
+        'I Am A Witness',
+        'Eye in Speech Bubble'
     ],
     '⚜️': [
         'Zambak Şeklinde Arma',
