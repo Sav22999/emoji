@@ -9,7 +9,7 @@ titles_language[lang] = {
     '🦊': 'Állatok',
     '🅰️': 'Szimbólumok',
     '🍎': 'Étel és Ital',
-    '🏳️‍🌈': 'Zászlók',
+    '🏳️🌈': 'Zászlók',
     '🏊': 'Sportok',
     '✈️': 'Utazás és helyek',
     '🖱️': 'Technológiák és iroda',
@@ -206,7 +206,7 @@ emojis_language[lang][2] = {
         ':$',
         'Dollar Sign Eyes',
         'Money Face',
-        'Rich'
+        'Gazdag'
     ],
     '🤗': [
         'Hugging Face',
@@ -339,7 +339,7 @@ emojis_language[lang][2] = {
     '🥱': ['Yawning Face'],
     '😷': [
         'Face with Medical Mask',
-        'Coronavirus',
+        'Koronavírus',
         'COVID-19',
         'Mask Face',
         'Surgical Mask'
@@ -418,7 +418,7 @@ emojis_language[lang][2] = {
         'Smiling Face with Sunglasses',
         'Cool',
         'Mutual Best Friends (Snapchat)',
-        'Sunglasses'
+        'Napszemüveg'
     ],
     '🤓': [
         'Nerd Face',
@@ -594,11 +594,11 @@ emojis_language[lang][2] = {
         'Serious Face with Symbols Covering Mouth'
     ],
     '🥲': ['Smiling Face with Tear'],
-    '😮‍💨': [
+    '😮💨': [
         'Face Exhaling',
         'Sóhaj'
     ],
-    '😵‍💫': [
+    '😵💫': [
         'Face with Spiral Eyes',
         'Dizzy Face'
     ],
@@ -709,21 +709,21 @@ emojis_language[lang][3] = {
         'Bearded Man',
         'Bearded Person'
     ],
-    '👨{{skin_tone}}‍🦰': [
+    '👨{{skin_tone}}🦰': [
         'Man: Red Hair',
         'Ginger Man',
         'Man Redhead',
         'Man With Red Hair'
     ],
-    '👨{{skin_tone}}‍🦱': [
+    '👨{{skin_tone}}🦱': [
         'Man: Curly Hair',
         'Man With Curly Hair'
     ],
-    '👨{{skin_tone}}‍🦳': [
+    '👨{{skin_tone}}🦳': [
         'Man: White Hair',
         'Man With Gray Hair'
     ],
-    '👨{{skin_tone}}‍🦲': [
+    '👨{{skin_tone}}🦲': [
         'Man: Bald',
         'Man With No Hair'
     ],
@@ -733,43 +733,43 @@ emojis_language[lang][3] = {
         'Lady',
         'Yellow Woman'
     ],
-    '👩{{skin_tone}}‍🦰': [
+    '👩{{skin_tone}}🦰': [
         'Woman: Red Hair',
         'Ginger Woman',
         'Woman Redhead',
         'Woman With Red Hair'
     ],
-    '👩{{skin_tone}}‍🦱': [
+    '👩{{skin_tone}}🦱': [
         'Woman: Curly Hair',
         'Woman With Curly Hair'
     ],
-    '👩{{skin_tone}}‍🦳': [
+    '👩{{skin_tone}}🦳': [
         'Woman: White Hair',
         'Woman With Gray Hair'
     ],
-    '👩{{skin_tone}}‍🦲': [
+    '👩{{skin_tone}}🦲': [
         'Woman: Bald',
         'Woman With No Hair'
     ],
-    '👱{{skin_tone}}‍♀️': [
+    '👱{{skin_tone}}♀️': [
         'Woman: Blond Hair',
         'Woman With Blonde Hair'
     ],
-    '👱{{skin_tone}}‍♂️': [
+    '👱{{skin_tone}}♂️': [
         'Man: Blond Hair',
         'Man With Blonde Hair'
     ],
-    '🧓{{skin_tone}}‍': [
+    '🧓{{skin_tone}}': [
         'Older Person',
         'Gender Neutral Older Adult'
     ],
-    '👴{{skin_tone}}‍': [
+    '👴{{skin_tone}}': [
         'Old Man',
         'Elderly Man',
         'Grandpa',
         'Older Man'
     ],
-    '👵{{skin_tone}}‍': [
+    '👵{{skin_tone}}': [
         'Old Woman',
         'Elderly Woman',
         'Grandma',
@@ -777,98 +777,98 @@ emojis_language[lang][3] = {
         'Old Lady',
         'Older Woman'
     ],
-    '👼{{skin_tone}}‍': [
+    '👼{{skin_tone}}': [
         'Baby Angel',
-        'Angel',
+        'Angyal',
         'Cherub',
         'Cupid',
         'Putto'
     ],
-    '🎅{{skin_tone}}‍': [
+    '🎅{{skin_tone}}': [
         'Santa Claus',
         'Saint Nicholas',
         'Sinterklaas',
         'Father Christmas'
     ],
-    '🤶{{skin_tone}}‍': [
+    '🤶{{skin_tone}}': [
         'Mrs Claus',
         'Mother Christmas'
     ],
-    '🤴{{skin_tone}}‍': ['Prince'],
-    '👸{{skin_tone}}‍': [
-        'Princess',
+    '🤴{{skin_tone}}': ['Herceg'],
+    '👸{{skin_tone}}': [
+        'Hercegnő',
         'Blonde Girl',
         'Girl With Crown',
         'Girl With Tiara'
     ],
-    '👳{{skin_tone}}‍♂️': ['Man Wearing Turban'],
-    '👳{{skin_tone}}‍♀️': ['Woman Wearing Turban'],
-    '👲{{skin_tone}}‍': [
+    '👳{{skin_tone}}♂️': ['Man Wearing Turban'],
+    '👳{{skin_tone}}♀️': ['Woman Wearing Turban'],
+    '👲{{skin_tone}}': [
         'Person With Skullcap',
         'Asian Man',
         'Man With Chinese Cap',
         'Man with Gua Pi Mao'
     ],
-    '🧕{{skin_tone}}‍': [
+    '🧕{{skin_tone}}': [
         'Woman with Headscarf',
         'Hijab',
         'Person with Headscarf'
     ],
-    '🤵{{skin_tone}}‍': [
+    '🤵{{skin_tone}}': [
         'Person in Tuxedo',
         'Groom',
         'Man In Suit',
         'Man in Tuxedo'
     ],
-    '👰{{skin_tone}}‍': [
+    '👰{{skin_tone}}': [
         'Person With Veil',
         'Bride',
         'Bride with Veil'
     ],
-    '👰{{skin_tone}}‍♂️': ['Man with Veil'],
-    '👰{{skin_tone}}‍♀️': ['Woman with Veil'],
-    '👩{{skin_tone}}‍🍼': ['Woman Feeding Baby'],
-    '👨{{skin_tone}}‍🍼': ['Man Feeding Baby'],
+    '👰{{skin_tone}}♂️': ['Man with Veil'],
+    '👰{{skin_tone}}♀️': ['Woman with Veil'],
+    '👩{{skin_tone}}🍼': ['Woman Feeding Baby'],
+    '👨{{skin_tone}}🍼': ['Man Feeding Baby'],
     '🥷': ['Ninja'],
-    '🤰{{skin_tone}}‍': [
+    '🤰{{skin_tone}}': [
         'Pregnant Woman',
         'Pregnancy',
         'Pregnant Lady'
     ],
-    '🤱{{skin_tone}}‍': [
+    '🤱{{skin_tone}}': [
         'Breast-Feeding',
         'Breastfeeding'
     ],
-    '🦸{{skin_tone}}‍♂️': ['Man Superhero'],
-    '🦸{{skin_tone}}‍‍♀️': ['Woman Superhero'],
-    '🦹{{skin_tone}}‍‍♂️': ['Man Supervillain'],
-    '🦹{{skin_tone}}‍‍♀️': ['Woman Supervillain'],
-    '🧙{{skin_tone}}‍': [
+    '🦸{{skin_tone}}♂️': ['Man Superhero'],
+    '🦸{{skin_tone}}♀️': ['Woman Superhero'],
+    '🦹{{skin_tone}}♂️': ['Man Supervillain'],
+    '🦹{{skin_tone}}♀️': ['Woman Supervillain'],
+    '🧙{{skin_tone}}': [
         'Mage',
         'Sorcerer',
         'Sorceress',
         'Witch',
         'Wizard'
     ],
-    '🧙{{skin_tone}}‍‍♀️': [
+    '🧙{{skin_tone}}♀️': [
         'Woman Mage',
         'Witch',
         'Sorceress'
     ],
-    '🧚{{skin_tone}}‍‍♂️': ['Man Fairy'],
-    '🧚{{skin_tone}}‍♀️': ['Woman Fairy'],
-    '🧛{{skin_tone}}‍♂️': [
+    '🧚{{skin_tone}}♂️': ['Man Fairy'],
+    '🧚{{skin_tone}}♀️': ['Woman Fairy'],
+    '🧛{{skin_tone}}♂️': [
         'Man Vampire',
         'Dracula'
     ],
-    '🧛{{skin_tone}}‍‍♀️': ['Woman Vampire'],
-    '🧜{{skin_tone}}‍♂️': ['Merman'],
-    '🧜{{skin_tone}}‍♀️': ['Mermaid'],
-    '🧝{{skin_tone}}‍♂️': ['Man Elf'],
-    '🧝{{skin_tone}}‍♀️': ['Woman Elf'],
-    '🧞‍♂️': ['Man Genie'],
-    '🧞‍♀️': ['Woman Genie'],
-    '🕵️{{skin_tone}}‍♂️': [
+    '🧛{{skin_tone}}♀️': ['Woman Vampire'],
+    '🧜{{skin_tone}}♂️': ['Merman'],
+    '🧜{{skin_tone}}♀️': ['Mermaid'],
+    '🧝{{skin_tone}}♂️': ['Man Elf'],
+    '🧝{{skin_tone}}♀️': ['Woman Elf'],
+    '🧞♂️': ['Man Genie'],
+    '🧞♀️': ['Woman Genie'],
+    '🕵️{{skin_tone}}♂️': [
         'Man Detective',
         'Private Eye',
         'Sleuth',
@@ -878,276 +878,276 @@ emojis_language[lang][3] = {
         '007',
         'Inspector'
     ],
-    '🕵️{{skin_tone}}‍♀️': ['Woman Detective'],
-    '💂{{skin_tone}}‍': [
+    '🕵️{{skin_tone}}♀️': ['Woman Detective'],
+    '💂{{skin_tone}}': [
         'Guard',
         'British Guardsman',
         'Foot Guard'
     ],
-    '💂{{skin_tone}}‍‍♀️': ['Woman Guard'],
-    '👮{{skin_tone}}‍': [
+    '💂{{skin_tone}}♀️': ['Woman Guard'],
+    '👮{{skin_tone}}': [
         'Police Officer',
         'Cop',
         'Police',
         'Policeman',
         'Policewoman'
     ],
-    '👮{{skin_tone}}‍‍♀️': ['Woman Police Officer'],
-    '👨{{skin_tone}}‍🚒': ['Man Firefighter'],
-    '👩{{skin_tone}}‍‍🚒': ['Woman Firefighter'],
-    '👨{{skin_tone}}‍‍✈️': ['Man Pilot'],
-    '👩{{skin_tone}}‍‍✈️': ['Woman Pilot'],
-    '👨{{skin_tone}}‍💻': [
+    '👮{{skin_tone}}♀️': ['Woman Police Officer'],
+    '👨{{skin_tone}}🚒': ['Man Firefighter'],
+    '👩{{skin_tone}}🚒': ['Woman Firefighter'],
+    '👨{{skin_tone}}✈️': ['Man Pilot'],
+    '👩{{skin_tone}}✈️': ['Woman Pilot'],
+    '👨{{skin_tone}}💻': [
         'Man Technologist',
         'Man Technologist'
     ],
-    '👩{{skin_tone}}‍💻': ['Woman Technologist'],
-    '👨{{skin_tone}}‍🎤': [
+    '👩{{skin_tone}}💻': ['Woman Technologist'],
+    '👨{{skin_tone}}🎤': [
         'Man Singer',
         'Bowie',
         'Aladdin Sane'
     ],
-    '👩{{skin_tone}}‍🎤': ['Woman Singer'],
-    '👨{{skin_tone}}‍🎨': ['Man Artist'],
-    '👩{{skin_tone}}‍🎨': ['Woman Artist'],
-    '👷{{skin_tone}}‍‍♂️': ['Man Construction Worker'],
-    '👷{{skin_tone}}‍‍♀️': ['Woman Construction Worker'],
-    '👨{{skin_tone}}‍‍🚀': [
+    '👩{{skin_tone}}🎤': ['Woman Singer'],
+    '👨{{skin_tone}}🎨': ['Man Artist'],
+    '👩{{skin_tone}}🎨': ['Woman Artist'],
+    '👷{{skin_tone}}♂️': ['Man Construction Worker'],
+    '👷{{skin_tone}}♀️': ['Woman Construction Worker'],
+    '👨{{skin_tone}}🚀': [
         'Man Astronaut',
         'Man Cosmonaut'
     ],
-    '👩{{skin_tone}}‍‍🚀': [
+    '👩{{skin_tone}}🚀': [
         'Woman Astronaut',
         'Woman Cosmonaut'
     ],
-    '👨{{skin_tone}}‍‍🔬': ['Man Scientist'],
-    '👩{{skin_tone}}‍‍🔬': ['Woman Scientist'],
-    '👨{{skin_tone}}‍💼': [
+    '👨{{skin_tone}}🔬': ['Man Scientist'],
+    '👩{{skin_tone}}🔬': ['Woman Scientist'],
+    '👨{{skin_tone}}💼': [
         'Man Office Worker',
         'CEO',
         'Businessman'
     ],
-    '👩{{skin_tone}}‍💼': [
+    '👩{{skin_tone}}💼': [
         'Woman Office Worker',
         'Businesswoman',
         'CEO'
     ],
-    '👨{{skin_tone}}‍🏭': ['Man Factory Worker'],
-    '👩{{skin_tone}}‍‍🏭': ['Woman Factory Worker'],
-    '👨{{skin_tone}}‍‍🔧': ['Man Mechanic'],
-    '👩{{skin_tone}}‍‍🔧': ['Woman Mechanic'],
-    '👨{{skin_tone}}‍‍🍳': [
+    '👨{{skin_tone}}🏭': ['Man Factory Worker'],
+    '👩{{skin_tone}}🏭': ['Woman Factory Worker'],
+    '👨{{skin_tone}}🔧': ['Man Mechanic'],
+    '👩{{skin_tone}}🔧': ['Woman Mechanic'],
+    '👨{{skin_tone}}🍳': [
         'Man Cook',
         'Man Chef',
         'Male Chef'
     ],
-    '👩{{skin_tone}}‍‍🍳': [
+    '👩{{skin_tone}}🍳': [
         'Woman Cook',
         'Woman Chef',
         'Female Chef'
     ],
-    '👨{{skin_tone}}‍‍🌾': ['Man Farmer'],
-    '👩{{skin_tone}}‍‍🌾': ['Woman Farmer'],
-    '👨{{skin_tone}}‍‍⚖️': ['Man Judge'],
-    '👩{{skin_tone}}‍‍⚖️': ['Woman Judge'],
-    '👨{{skin_tone}}‍‍🏫': ['Man Teacher'],
-    '👩{{skin_tone}}‍‍🏫': ['Woman Teacher'],
-    '👨{{skin_tone}}‍🎓': ['Man Student'],
-    '👩{{skin_tone}}‍🎓': ['Woman Student'],
-    '👨{{skin_tone}}‍‍⚕️': [
+    '👨{{skin_tone}}🌾': ['Man Farmer'],
+    '👩{{skin_tone}}🌾': ['Woman Farmer'],
+    '👨{{skin_tone}}⚖️': ['Man Judge'],
+    '👩{{skin_tone}}⚖️': ['Woman Judge'],
+    '👨{{skin_tone}}🏫': ['Man Teacher'],
+    '👩{{skin_tone}}🏫': ['Woman Teacher'],
+    '👨{{skin_tone}}🎓': ['Man Student'],
+    '👩{{skin_tone}}🎓': ['Woman Student'],
+    '👨{{skin_tone}}⚕️': [
         'Man Health Worker',
         'Male Doctor',
         'Male Nurse'
     ],
-    '👩{{skin_tone}}‍⚕️': [
+    '👩{{skin_tone}}⚕️': [
         'Woman Health Worker',
         'Female Doctor',
         'Female Nurse'
     ],
-    '🤷{{skin_tone}}‍♂️': [
+    '🤷{{skin_tone}}♂️': [
         'Man Shrugging',
         'idk man',
         'dunno'
     ],
-    '🤷{{skin_tone}}‍♀️': [
+    '🤷{{skin_tone}}♀️': [
         'Woman Shrugging',
         'idk woman',
         'dunno'
     ],
-    '🤦{{skin_tone}}‍♂️': ['Man Facepalming'],
-    '🤦{{skin_tone}}‍♀️': ['Woman Facepalming'],
-    '🙇{{skin_tone}}‍‍♂️': ['Man Bowing'],
-    '🙇{{skin_tone}}‍‍♀️': ['Woman Bowing'],
-    '🧏{{skin_tone}}‍♂️': ['Deaf Man'],
-    '🧏{{skin_tone}}‍‍♀️': ['Deaf Woman'],
-    '🙋{{skin_tone}}‍‍♂️': [
+    '🤦{{skin_tone}}♂️': ['Man Facepalming'],
+    '🤦{{skin_tone}}♀️': ['Woman Facepalming'],
+    '🙇{{skin_tone}}♂️': ['Man Bowing'],
+    '🙇{{skin_tone}}♀️': ['Woman Bowing'],
+    '🧏{{skin_tone}}♂️': ['Deaf Man'],
+    '🧏{{skin_tone}}♀️': ['Deaf Woman'],
+    '🙋{{skin_tone}}♂️': [
         'Man Raising Hand',
         'Happy Man Raising One Hand'
     ],
-    '🙋{{skin_tone}}‍♀️': [
+    '🙋{{skin_tone}}♀️': [
         'Woman Raising Hand',
         'Happy Woman Raising One Hand'
     ],
-    '💁{{skin_tone}}‍♂️': [
+    '💁{{skin_tone}}♂️': [
         'Man Tipping Hand',
         'Information Desk Man'
     ],
-    '💁{{skin_tone}}‍♀️': [
+    '💁{{skin_tone}}♀️': [
         'Woman Tipping Hand',
         'Information Desk Woman'
     ],
-    '🙆{{skin_tone}}‍♂️': ['Man Gesturing OK'],
-    '🙆{{skin_tone}}‍♀️': ['Woman Gesturing OK'],
-    '🙅{{skin_tone}}‍♂️': ['Man Gesturing No'],
-    '🙅{{skin_tone}}‍♀️': ['Woman Gesturing No'],
-    '🙎{{skin_tone}}‍♂️': ['Man Pouting'],
-    '🙎{{skin_tone}}‍‍♀️': ['Woman Pouting'],
-    '🙍{{skin_tone}}‍‍♂️': ['Man Frowning'],
-    '🙍{{skin_tone}}‍‍♀️': ['Woman Frowning'],
-    '🧟‍‍♂️': ['Man Zombie'],
-    '🧟‍‍♀️': ['Woman Zombie'],
-    '🚶{{skin_tone}}‍♂️': ['Man Walking'],
-    '🚶{{skin_tone}}‍♀️': ['Woman Walking'],
-    '🧍{{skin_tone}}‍‍♂️': ['Man Standing'],
-    '🧍{{skin_tone}}‍‍♀️': ['Woman Standing'],
-    '🧎{{skin_tone}}‍♂️': ['Man Kneeling'],
-    '🧎{{skin_tone}}‍‍♀️': ['Woman Kneeling'],
-    '👨{{skin_tone}}‍🦯': ['Man with White Cane'],
-    '👩{{skin_tone}}‍🦯': ['Woman with White Cane'],
-    '👨{{skin_tone}}‍🦼': ['Man in Motorized Wheelchair'],
-    '👩{{skin_tone}}‍🦼': ['Woman in Motorized Wheelchair'],
-    '👨{{skin_tone}}‍🦽': ['Man in Manual Wheelchair'],
-    '👩{{skin_tone}}‍🦽': ['Woman in Manual Wheelchair'],
-    '👯‍♂️': ['Men with Bunny Ears'],
-    '👯‍♀️': ['Women with Bunny Ears'],
-    '🕴️{{skin_tone}}‍': [
+    '🙆{{skin_tone}}♂️': ['Man Gesturing OK'],
+    '🙆{{skin_tone}}♀️': ['Woman Gesturing OK'],
+    '🙅{{skin_tone}}♂️': ['Man Gesturing No'],
+    '🙅{{skin_tone}}♀️': ['Woman Gesturing No'],
+    '🙎{{skin_tone}}♂️': ['Man Pouting'],
+    '🙎{{skin_tone}}♀️': ['Woman Pouting'],
+    '🙍{{skin_tone}}♂️': ['Man Frowning'],
+    '🙍{{skin_tone}}♀️': ['Woman Frowning'],
+    '🧟♂️': ['Man Zombie'],
+    '🧟♀️': ['Woman Zombie'],
+    '🚶{{skin_tone}}♂️': ['Man Walking'],
+    '🚶{{skin_tone}}♀️': ['Woman Walking'],
+    '🧍{{skin_tone}}♂️': ['Man Standing'],
+    '🧍{{skin_tone}}♀️': ['Woman Standing'],
+    '🧎{{skin_tone}}♂️': ['Man Kneeling'],
+    '🧎{{skin_tone}}♀️': ['Woman Kneeling'],
+    '👨{{skin_tone}}🦯': ['Man with White Cane'],
+    '👩{{skin_tone}}🦯': ['Woman with White Cane'],
+    '👨{{skin_tone}}🦼': ['Man in Motorized Wheelchair'],
+    '👩{{skin_tone}}🦼': ['Woman in Motorized Wheelchair'],
+    '👨{{skin_tone}}🦽': ['Man in Manual Wheelchair'],
+    '👩{{skin_tone}}🦽': ['Woman in Manual Wheelchair'],
+    '👯♂️': ['Men with Bunny Ears'],
+    '👯♀️': ['Women with Bunny Ears'],
+    '🕴️{{skin_tone}}': [
         'Person in Suit Levitating',
         'Hovering Man',
         'Rude Boy',
         'Walt Jabsco',
         'Man in Business Suit Levitating'
     ],
-    '🧖{{skin_tone}}‍♂️': [
+    '🧖{{skin_tone}}♂️': [
         'Man in Steamy Room',
         'Man in Sauna'
     ],
-    '🧖{{skin_tone}}‍♀️': [
+    '🧖{{skin_tone}}♀️': [
         'Woman in Steamy Room',
         'Woman in Sauna'
     ],
-    '👫{{skin_tone}}‍': [
+    '👫{{skin_tone}}': [
         'Woman and Man Holding Hands',
         'Heterosexual Couple',
         'Straight Couple',
         'Man and Woman Holding Hands'
     ],
-    '👭{{skin_tone}}‍': [
+    '👭{{skin_tone}}': [
         'Lesbian Couple',
         'Women Holding Hands',
         'Two Women Holding Hands'
     ],
-    '👬{{skin_tone}}‍': [
+    '👬{{skin_tone}}': [
         'Men Holding Hands',
         'Gay Couple',
         'Two Men Holding Hands'
     ],
-    '👨‍👩‍👦': [
+    '👨👩👦': [
         'Family With Mother, Father and Son',
         'Family: Man, Woman, Boy'
     ],
-    '👨‍👩‍👧': [
+    '👨👩👧': [
         'Family With Mother, Father and Daughter',
         'Family: Man, Woman, Girl'
     ],
-    '👨‍👩‍👧‍👦': [
+    '👨👩👧👦': [
         'Family With Mother, Father, Son and Daughter',
         'Family: Man, Woman, Girl, Boy'
     ],
-    '👨‍👩‍👦‍👦': [
+    '👨👩👦👦': [
         'Family With Mother, Father and Two Sons',
         'Family: Man, Woman, Boy, Boy'
     ],
-    '👨‍👩‍👧‍👧': [
+    '👨👩👧👧': [
         'Family With Mother, Father and Two Daughters',
         'Family: Man, Woman, Girl, Girl'
     ],
-    '👨‍👨‍👦': [
+    '👨👨👦': [
         'Family With Two Fathers and Son',
         'Family: Man, Man, Boy'
     ],
-    '👨‍👨‍👧': [
+    '👨👨👧': [
         'Family With Two Fathers and Daughter',
         'Family: Man, Man, Girl'
     ],
-    '👨‍👨‍👧‍👦': [
+    '👨👨👧👦': [
         'Family With Two Fathers, Son and Daughter',
         'Family: Man, Man, Girl, Boy'
     ],
-    '👨‍👨‍👦‍👦': [
+    '👨👨👦👦': [
         'Family With Two Fathers and Two Sons',
         'Family: Man, Man, Boy, Boy'
     ],
-    '👨‍👨‍👧‍👧': [
+    '👨👨👧👧': [
         'Family With Two Fathers and Two Daughters',
         'Family: Man, Man, Girl, Girl'
     ],
-    '👩‍👩‍👦': [
+    '👩👩👦': [
         'Family With Two Mothers and Son',
         'Family: Woman, Woman, Boy'
     ],
-    '👩‍👩‍👧': [
+    '👩👩👧': [
         'Family With Two Mothers and Daughter',
         'Family: Woman, Woman, Girl'
     ],
-    '👩‍👩‍👧‍👦': [
+    '👩👩👧👦': [
         'Family With Two Mothers, Son and Daughter',
         'Family: Woman, Woman, Girl, Boy'
     ],
-    '👩‍👩‍👦‍👦': [
+    '👩👩👦👦': [
         'Family With Two Mothers and Two Sons',
         'Family: Woman, Woman, Boy, Boy'
     ],
-    '👩‍👩‍👧‍👧': [
+    '👩👩👧👧': [
         'Family With Two Mothers and Two Daughters',
         'Family: Woman, Woman, Girl, Girl'
     ],
-    '👨‍👦': [
+    '👨👦': [
         'Family With Father and Son',
         'Family: Man, Boy'
     ],
-    '👨‍👦‍👦': [
+    '👨👦👦': [
         'Family: Man, Boy, Boy',
         'Family With Father and Two Sons'
     ],
-    '👨‍👧': [
+    '👨👧': [
         'Family With Father and Daughter',
         'Family: Man, Girl'
     ],
-    '👨‍👧‍👦': [
+    '👨👧👦': [
         'Family With Father, Son and Daughter',
         'Family: Man, Girl, Boy'
     ],
-    '👨‍👧‍👧': [
+    '👨👧👧': [
         'Family With Father and Two Daughters',
         'Family: Man, Girl, Girl'
     ],
-    '👩‍👦': [
+    '👩👦': [
         'Family With Mother and Son',
         'Family: Woman, Boy'
     ],
-    '👩‍👦‍👦': [
+    '👩👦👦': [
         'Family With Mother and Two Sons',
         'Family: Woman, Boy, Boy'
     ],
-    '👩‍👧': [
+    '👩👧': [
         'Family With Mother and Daughter',
         'Family: Woman, Girl'
     ],
-    '👩‍👧‍👦': [
+    '👩👧👦': [
         'Family With Mother, Son and Daughter',
         'Family: Woman, Girl, Boy'
     ],
-    '👩‍👧‍👧': [
+    '👩👧👧': [
         'Family With Mother and Two Daughters',
         'Family: Woman, Girl, Girl'
     ],
@@ -1157,19 +1157,19 @@ emojis_language[lang][3] = {
         'Loving Couple',
         'Man and Woman With Heart'
     ],
-    '👨‍❤️‍👨': [
+    '👨❤️👨': [
         'Two Men With Heart',
         'Couple with Heart: Man, Man'
     ],
-    '👩‍❤️‍👩': [
+    '👩❤️👩': [
         'Two Women With Heart',
         'Couple with Heart: Woman, Woman'
     ],
-    '💆{{skin_tone}}‍‍♂️': ['Man Getting Head Massage'],
-    '💆{{skin_tone}}‍♀️': ['Woman Getting Head Massage'],
-    '💇{{skin_tone}}‍‍♂️': ['Man Getting Haircut'],
-    '💇{{skin_tone}}‍‍♀️': ['Woman Getting Haircut'],
-    '🛌{{skin_tone}}‍': [
+    '💆{{skin_tone}}♂️': ['Man Getting Head Massage'],
+    '💆{{skin_tone}}♀️': ['Woman Getting Head Massage'],
+    '💇{{skin_tone}}♂️': ['Man Getting Haircut'],
+    '💇{{skin_tone}}♀️': ['Woman Getting Haircut'],
+    '🛌{{skin_tone}}': [
         'Sleeping Accommodation',
         'Person in Bed',
         'Person Sleeping'
@@ -1279,7 +1279,7 @@ emojis_language[lang][4] = {
         'Vakvezető kutya',
         'Vezető kutya'
     ],
-    '🐕‍🦺': ['Szolgálati kutya'],
+    '🐕🦺': ['Szolgálati kutya'],
     '🐩': [
         'Uszkár',
         'Kutya',
@@ -1308,7 +1308,7 @@ emojis_language[lang][4] = {
         'Cica',
         'Házi macska'
     ],
-    '🐈‍⬛': ['Fekete macska'],
+    '🐈⬛': ['Fekete macska'],
     '🦁': [
         'Oroszlán',
         'Oroszlánfej'
@@ -1637,7 +1637,7 @@ emojis_language[lang][4] = {
     '🦬': ['Bölény'],
     '🦣': ['Mammut'],
     '🦫': ['Hód'],
-    '🐻‍❄️': ['Jegesmedve'],
+    '🐻❄️': ['Jegesmedve'],
     '🦤': ['Dodó'],
     '🦭': ['Fóka'],
     '🪲': ['Bogár'],
@@ -1656,7 +1656,7 @@ emojis_language[lang][5] = {
     '💝': [
         'Heart with Ribbon',
         'Chocolate Box',
-        'Gift Box',
+        'Ajándék doboz',
         'Gift Heart'
     ],
     '💖': [
@@ -1800,16 +1800,16 @@ emojis_language[lang][5] = {
         'Music Note'
     ],
     '🎶': [
-        'Musical Notes',
-        'Music',
-        'Music Notes',
-        'Singing',
-        'Multiple Musical Notes'
+        'Hangjegyek',
+        'Zene',
+        'Zenei hangok',
+        'Éneklés',
+        'Több hangjegy'
     ],
     '🔔': [
-        'Bell',
+        'Harang',
         'Liberty Bell',
-        'Ringer',
+        'Csengő',
         'Wedding Bell'
     ],
     '🔕': [
@@ -2282,7 +2282,7 @@ emojis_language[lang][5] = {
     ],
     '❌': [
         'Cross Mark',
-        'Cross',
+        'Kereszt',
         'X'
     ],
     '✅': [
@@ -2295,7 +2295,7 @@ emojis_language[lang][5] = {
     ],
     '❎': [
         'Cross Mark Button',
-        'Cross',
+        'Kereszt',
         'X',
         'X Mark',
         'Negative Squared Cross Mark'
@@ -2396,7 +2396,7 @@ emojis_language[lang][5] = {
     '🅰️': [
         'A Button (Blood Type)',
         'Blood Type A',
-        'Letter A',
+        'A betű',
         'Negative Squared Latin Capital Letter A'
     ],
     '🆎': [
@@ -2407,7 +2407,7 @@ emojis_language[lang][5] = {
     ],
     '🅱️': [
         'B Button (Blood Type)',
-        'Letter B',
+        'B betű',
         'Blood Type B',
         'Negative Squared Latin Capital Letter B'
     ],
@@ -2456,7 +2456,7 @@ emojis_language[lang][5] = {
         'Blood Type O',
         '0',
         'Negative Squared Latin Capital Letter',
-        'Letter O'
+        'O betű'
     ],
     '🆗': [
         'OK Button',
@@ -2470,7 +2470,7 @@ emojis_language[lang][5] = {
         'P Button',
         'Parking Sign',
         'Negative Squared Latin Capital Letter',
-        'Letter P'
+        'P betű'
     ],
     '🆘': [
         'SOS Button',
@@ -2758,7 +2758,7 @@ emojis_language[lang][5] = {
         'Famale WC'
     ],
     '🚻': [
-        'Restroom',
+        'Mosdó',
         'Bathroom Sign',
         'Toilet Sign',
         'WC Sign'
@@ -2784,14 +2784,14 @@ emojis_language[lang][5] = {
         'School Crossing'
     ],
     '🔅': [
-        'Low Brightness Symbol',
-        'Dim Button',
-        'Decrease Brightness'
+        'Alacsony fényerő szimbólum',
+        'Sötétítés gomb',
+        'Fényerő csökkentése'
     ],
     '🔆': [
-        'High Brightness Symbol',
-        'Increase Brightness',
-        'Bright Button'
+        'Nagy fényerősség szimbólum',
+        'Fényerő növelése',
+        'Fényerő gomb'
     ],
     '📳': [
         'Vibration Mode',
@@ -2855,7 +2855,7 @@ emojis_language[lang][5] = {
     'Ⓜ️': [
         'Circled Latin Capital Letter M',
         'Circled M',
-        'Metro',
+        'Metró',
         'Circled M'
     ],
     '🈁': [
@@ -2919,7 +2919,7 @@ emojis_language[lang][5] = {
         'Squared CJK Unified Ideograph-7533',
         'Japanese Sign Meaning Application',
         'Application Form',
-        'Monkey',
+        'Majom',
         'Request',
         '申'
     ],
@@ -2956,17 +2956,17 @@ emojis_language[lang][5] = {
         'Full',
         '満'
     ],
-    '🔘': ['Radio Button'],
+    '🔘': ['Rádiógomb'],
     '🛑': [
-        'Stop Sign',
-        'Octagonal Sign'
+        'Stop tábla',
+        'Nyolcszögletű jel'
     ],
     '⚕️': [
-        'Medical Symbol',
+        'Orvosi szimbólum',
         'Aesculapius',
-        'Asklepios',
-        'Rod of Asclepius',
-        'Staff of Aesculapius'
+        'Aszklépiosz',
+        'Aszklépiosz botja',
+        'Aszklépiosz pálcája'
     ],
     '🛗': [
         'Felvonó',
@@ -3483,52 +3483,52 @@ emojis_language[lang][6] = {
 /*flags*/
 emojis_language[lang][7] = {
     '🏁': [
-        'Chequered Flag',
-        'Checkered Flag',
-        'Grid Girl',
-        'Racing Flag'
+        'Kockás zászló',
+        'Fekete fehér zászló',
+        'Rajt zászló',
+        'Verseny zászló'
     ],
     '🚩': [
-        'Triangular Flag',
-        'Flag on Pole',
-        'Red Flag',
-        'Triangular Flag on Post'
+        'Háromszögletű zászló',
+        'Zászló rúdon',
+        'Vörös zászló',
+        'Háromszög alakú zászló rúdon'
     ],
     '🎌': [
-        'Crossed Flags',
-        'Two Flags'
+        'Keresztbe rakott zászlók',
+        'Két zászló'
     ],
     '🏴': [
-        'Black Flag',
-        'Waving Black Flag'
+        'Fekete zászló',
+        'Lobogó fekete zászló'
     ],
     '🏳️': [
-        'White Flag',
-        'Waving White Flag'
+        'Fehér zászló',
+        'Lobogó fehér zászló'
     ],
-    '🏳️‍🌈': [
-        'Rainbow Flag',
-        'Pride Flag'
+    '🏳️🌈': [
+        'Szivárványos zászló',
+        'Pride zászló'
     ],
-    '🏳️‍⚧️': [
-        'Transgender Flag',
-        'Blue, Pink, and White Flag',
-        'Trans Flag'
+    '🏳️⚧️': [
+        'Transzgender zászló',
+        'Kék, rózsaszín és fehér zászló',
+        'Transz zászló'
     ],
-    '🏴‍☠️': [
-        'Pirate Flag',
-        'Jolly Roger'
+    '🏴☠️': [
+        'Kalóz zászló',
+        'Halálfejes zászló'
     ],
     '🇺🇳': [
-        'Flag of United Nations',
-        'UN',
-        'Flag: United Nations'
+        'Egyesült Nemzetek zászlója',
+        'ENSZ',
+        'Zászló: Egyesült Nemzetek'
     ],
     '🇪🇺': [
-        'Flag of European Union',
+        'Európai Unió zászlója',
         'EU',
-        'Flag: European Union',
-        'EU Flag'
+        'Zászló: Európai Unió',
+        'EU-s zászló'
     ],
     '🇦🇨': [
         'Szent Ilona-sziget zászlója',
@@ -4638,258 +4638,258 @@ emojis_language[lang][7] = {
         'TC'
     ],
     '🇹🇩': [
-        'Flag of Chad',
+        'Csád zászlója',
         'TD',
-        'Chadian Flag'
+        'Csádi zászló'
     ],
     '🇹🇫': [
-        'Flag of French Southern Territories',
+        'Francia déli területek zászlója',
         'TF',
-        'French Southern Lands Flag'
+        'Francia déli területeki zászló'
     ],
     '🇹🇬': [
-        'Flag of Togo',
+        'Togo zászlója',
         'TG',
-        'Togolese Flag'
+        'Togoi zászló'
     ],
     '🇹🇭': [
-        'Flag of Thailand',
+        'Thaiföld zászlója',
         'TH',
-        'Thai Flag'
+        'Thai zászló'
     ],
     '🇹🇯': [
-        'Flag of Tajikistan',
+        'Tádzsikisztán zászlója',
         'TJ',
-        'Tajik Flag'
+        'Tádzsik zászló'
     ],
     '🇹🇰': [
-        'Flag of Tokelau',
+        'Tokelau-szigetek zászlója',
         'TK',
-        'Tokelauan Flag'
+        'Tokelaui zászló'
     ],
     '🇹🇱': [
-        'Flag of Timor-Leste',
+        'Kelet-Timor zászlója',
         'TL',
-        'Timor-Leste Flag',
-        'East Timorese Flag'
+        'Timor-Lestei zászló',
+        'Kelet-Timori zászló'
     ],
     '🇹🇲': [
-        'Flag of Turkmenistan',
+        'Türkmenisztán zászlója',
         'TM',
-        'Turkmen Flag'
+        'Türkmén zászló'
     ],
     '🇹🇳': [
-        'Flag of Tunisia',
+        'Tunézia zászlója',
         'TN',
-        'Tunisian Flag'
+        'Tunéziai zászló'
     ],
     '🇹🇴': [
-        'Flag of Tonga',
+        'Tonga zászlója',
         'TO',
-        'Tongan Flag'
+        'Tongai zászló'
     ],
     '🇹🇷': [
-        'Flag of Turkey',
+        'Törökország zászlója',
         'TR',
-        'Turkish Flag'
+        'Török zászló'
     ],
     '🇹🇹': [
-        'Flag of Trinidad & Tobago',
+        'Trinidad és Tobago zászlója',
         'TT'
     ],
     '🇹🇻': [
-        'Flag of Tuvalu',
+        'Tuvalu zászlója',
         'TV',
-        'Tuvaluan Flag'
+        'Tuvalui zászló'
     ],
     '🇹🇼': [
-        'Flag of Taiwan',
+        'Tajvan zászlója',
         'TW',
-        'Taiwanese Flag'
+        'Tajvani zászló'
     ],
     '🇹🇿': [
-        'Flag of Tanzania',
+        'Tanzánia zászlója',
         'TZ',
-        'Tanzanian Flag'
+        'Tanzániai zászló'
     ],
     '🇺🇦': [
-        'Flag of Ukraine',
+        'Ukrajna zászlója',
         'UA',
-        'Ukrainian Flag'
+        'Ukrajnai zászló'
     ],
     '🇺🇬': [
-        'Flag of Uganda',
+        'Uganda zászlója',
         'UG',
-        'Ugandan Flag'
+        'Ugandai zászló'
     ],
     '🇺🇲': [
-        'Flag: U.S. Outlying Islands',
+        'Baker-sziget zászlója',
         'UM'
     ],
     '🇺🇸': [
-        'Flag of United States',
+        'Egyesült Államok zászlója',
         'US',
-        'American Flag',
-        'USA Flag'
+        'Amerikai zászló',
+        'USA zászlója'
     ],
     '🇺🇾': [
-        'Flag of Uruguay',
+        'Uruguay zászlója',
         'UY',
-        'Uruguayan Flag'
+        'Uruguayi zászló'
     ],
     '🇺🇿': [
-        'Flag of Uzbekistan',
+        'Üzbegisztán zászlója',
         'UZ',
-        'Uzbekistani Flag',
-        'Uzbek Flag'
+        'Üzbegisztáni zászló',
+        'Üzbég zászló'
     ],
     '🇻🇦': [
-        'Flag of Holy See',
+        'Apostoli Szentszék zászlója',
         'VA',
-        'Vanticanien Flag'
+        'Vatikáni zászló'
     ],
     '🇻🇨': [
-        'Flag of Saint Vincent & Grenadines',
+        'Saint Vincent és Grenadina-szigetek zászlója',
         'VC'
     ],
     '🇻🇪': [
-        'Flag of Venezuela',
+        'Venezuela zászlója',
         'VE',
-        'Venezuelan Flag'
+        'Venezuelai zászló'
     ],
     '🇻🇬': [
-        'Flag of British Virgin Islands',
+        'Brit Virgin-szigetek zászlója',
         'VG',
-        'British Virgin Islander Flag'
+        'Brit Virgin-szigeteki zászló'
     ],
     '🇻🇮': [
-        'Flag of US Virgin Islands',
+        'Amerikai Virgin-szigetek zászlója',
         'VI',
-        'US Virgin Islander Flag'
+        'Amerikai Virgin-szigeteki zászló'
     ],
     '🇻🇳': [
-        'Flag of Vietnam',
+        'Vietnám zászlója',
         'VN',
-        'Vietnamese Flag'
+        'Vietnámi zászló'
     ],
     '🇻🇺': [
-        'Flag of Vanuatu',
+        'Vanuatu zászlója',
         'VU',
-        'Ni-Vanuatu Flag'
+        'Ni-Vanuatui zászló'
     ],
     '🇼🇫': [
-        'Flag of Wallis & Futuna',
+        'Wallis és Futuna zászlója',
         'WF'
     ],
     '🇼🇸': [
-        'Flag of Samoa',
+        'Szamoa zászlója',
         'WS',
-        'Samoan Flag'
+        'Szamoai zászló'
     ],
     '🇽🇰': [
-        'Flag of Kosovo',
+        'Koszovó zászlója',
         'XK',
-        'Kosovar Flag'
+        'Koszovói zászló'
     ],
     '🇾🇪': [
-        'Flag of Yemen',
+        'Jemen zászlója',
         'YE',
-        'Yemeni Flag'
+        'Jemeni zászló'
     ],
     '🇾🇹': [
-        'Flag of Mayotte',
+        'Mayotte zászlója',
         'YT',
-        'Mayotte Flag'
+        'Mayottei zászló'
     ],
     '🇿🇦': [
-        'Flag of South Africa',
+        'Dél-Afrikai Köztársaság zászlója',
         'ZA',
-        'South African Flag'
+        'Dél-Afrikai zászló'
     ],
     '🇿🇲': [
-        'Flag of Zambia',
+        'Zambia zászlója',
         'ZM',
-        'Zambian Flag'
+        'Zambiai zászló'
     ],
     '🇿🇼': [
-        'Flag of Zimbabwe',
+        'Zimbabwe zászlója',
         'ZW',
-        'Zimbabwean Flag',
-        'Zim Flag'
+        'Zimbabwei zászló',
+        'Zim zászló'
     ]
 };
 /*sports*/
 emojis_language[lang][8] = {
-    '🧗{{skin_tone}}‍‍♂️': [
+    '🧗{{skin_tone}}♂️': [
         'Man Climbing',
         'Male Rock Climber',
         'Man Climber'
     ],
-    '🧗{{skin_tone}}‍‍♀️': [
+    '🧗{{skin_tone}}♀️': [
         'Woman Climbing',
         'Female Rock Climber',
         'Woman Climber'
     ],
-    '🏇{{skin_tone}}‍': [
+    '🏇{{skin_tone}}': [
         'Horse Racing',
         'Horse Race',
         'Jockey'
     ],
-    '⛷{{skin_tone}}‍️': ['Skier'],
-    '🏂{{skin_tone}}‍': ['Snowboarder'],
-    '🏌️{{skin_tone}}‍♂️': ['Man Golfer'],
-    '🏌️{{skin_tone}}‍♀️': ['Woman Golfer'],
-    '🏄{{skin_tone}}‍♂️': ['Man Surfer'],
-    '🏄{{skin_tone}}‍♀️': ['Woman Surfer'],
-    '🚣{{skin_tone}}‍‍♂️': ['Man Rowing Boat'],
-    '🚣{{skin_tone}}‍‍♀️': ['Woman Rowing Boat'],
-    '🏊{{skin_tone}}‍‍♂️': [
+    '⛷{{skin_tone}}️': ['Skier'],
+    '🏂{{skin_tone}}': ['Snowboarder'],
+    '🏌️{{skin_tone}}♂️': ['Man Golfer'],
+    '🏌️{{skin_tone}}♀️': ['Woman Golfer'],
+    '🏄{{skin_tone}}♂️': ['Man Surfer'],
+    '🏄{{skin_tone}}♀️': ['Woman Surfer'],
+    '🚣{{skin_tone}}♂️': ['Man Rowing Boat'],
+    '🚣{{skin_tone}}♀️': ['Woman Rowing Boat'],
+    '🏊{{skin_tone}}♂️': [
         'Man Swimming',
         'Man Swimmer'
     ],
-    '🏊{{skin_tone}}‍‍♀️': [
+    '🏊{{skin_tone}}♀️': [
         'Woman Swimming',
         'Woman Swimmer'
     ],
-    '⛹{{skin_tone}}‍️‍♂️': [
+    '⛹{{skin_tone}}️♂️': [
         'Man Bouncing Ball',
         'Man Basketball Player'
     ],
-    '⛹️{{skin_tone}}‍♀️': [
+    '⛹️{{skin_tone}}♀️': [
         'Woman Bouncing Ball',
         'Woman Basketball Player'
     ],
-    '🏋️{{skin_tone}}‍♂️': [
+    '🏋️{{skin_tone}}♂️': [
         'Man Lifting Weights',
         'Man Weightlifter'
     ],
-    '🏋️{{skin_tone}}‍♀️': [
+    '🏋️{{skin_tone}}♀️': [
         'Woman Lifting Weights',
         'Woman Weightlifter'
     ],
-    '🚴{{skin_tone}}‍♂️': [
+    '🚴{{skin_tone}}♂️': [
         'Man Biking',
         'Man Cyclist',
         'Male Cyclist'
     ],
-    '🚴{{skin_tone}}‍♀️': [
+    '🚴{{skin_tone}}♀️': [
         'Woman Biking',
         'Woman Cyclist',
         'Female Cyclist'
     ],
-    '🚵{{skin_tone}}‍♂️': [
+    '🚵{{skin_tone}}♂️': [
         'Man Mountain Biking',
         'Man Mountain Biker'
     ],
-    '🚵{{skin_tone}}‍♀️': [
+    '🚵{{skin_tone}}♀️': [
         'Woman Mountain Biking',
         'Woman Mountain Biker'
     ],
-    '🤸{{skin_tone}}‍♂️': [
+    '🤸{{skin_tone}}♂️': [
         'Man Cartwheeling',
         'Man Doing Cartwheel'
     ],
-    '🤸{{skin_tone}}‍♀️': [
+    '🤸{{skin_tone}}♀️': [
         'Woman Cartwheeling',
         'Woman Doing Cartwheel'
     ],
@@ -4898,24 +4898,36 @@ emojis_language[lang][8] = {
         'Wrestling',
         'Wrestlers'
     ],
-    '🤽{{skin_tone}}‍♂️': ['Man Playing Water Polo'],
-    '🤽{{skin_tone}}‍♀️': ['Woman Playing Water Polo'],
-    '🤾{{skin_tone}}‍♂️': ['Man Playing Handball'],
-    '🤾{{skin_tone}}‍♀️': ['Woman Playing Handball'],
-    '🤹{{skin_tone}}‍♂️': [
+    '🤽{{skin_tone}}♂️': ['Man Playing Water Polo'],
+    '🤽{{skin_tone}}♀️': ['Woman Playing Water Polo'],
+    '🤾{{skin_tone}}♂️': ['Man Playing Handball'],
+    '🤾{{skin_tone}}♀️': ['Woman Playing Handball'],
+    '🤹{{skin_tone}}♂️': [
         'Man Juggling',
         'Male Juggler'
     ],
-    '🤹{{skin_tone}}‍♀️': [
+    '🤹{{skin_tone}}♀️': [
         'Woman Juggling',
         'Female Juggler'
     ],
-    '🧘{{skin_tone}}‍♂️': ['Man in Lotus Position'],
-    '🧘{{skin_tone}}‍♀️': ['Woman in Lotus Position'],
-    '🏃{{skin_tone}}‍♂️': ['Man Running'],
-    '🏃{{skin_tone}}‍♀️': ['Woman Running'],
-    '🕺{{skin_tone}}‍': ['Man Dancing'],
-    '💃{{skin_tone}}‍': ['Woman Dancing'],
+    '🧘{{skin_tone}}♂️': [
+        'Man in Lotus Position',
+        'Meditation',
+        'Zen',
+        'Cross legged',
+        'Yoga'
+    ],
+    '🧘{{skin_tone}}♀️': [
+        'Woman in Lotus Position',
+        'Meditation',
+        'Zen',
+        'Cross legged',
+        'Yoga'
+    ],
+    '🏃{{skin_tone}}♂️': ['Man Running'],
+    '🏃{{skin_tone}}♀️': ['Woman Running'],
+    '🕺{{skin_tone}}': ['Man Dancing'],
+    '💃{{skin_tone}}': ['Woman Dancing'],
     '🤺': [
         'Person Fencing',
         'Fancer'
@@ -4956,19 +4968,19 @@ emojis_language[lang][8] = {
     ],
     '🏀': [
         'Basketball',
-        'Orange',
+        'Narancs',
         'Basketball and Hoop'
     ],
     '🏐': ['Röplabda'],
     '🏈': [
         'American Football',
-        'Football',
+        'Focilabda',
         'Gridiron',
         'Superbowl'
     ],
     '🏉': [
         'Rugby Football',
-        'Football',
+        'Focilabda',
         'League',
         'Rugby',
         'Union'
@@ -4990,8 +5002,8 @@ emojis_language[lang][8] = {
         'Ten Pin Bowling'
     ],
     '🏏': [
-        'Cricket',
-        'Bat',
+        'Tücsök',
+        'Denevér',
         'Ball'
     ],
     '🏑': [
@@ -5038,7 +5050,7 @@ emojis_language[lang][8] = {
     '🎣': [
         'Fishing',
         'Pole',
-        'Fish',
+        'Hal',
         'Fishing Rod'
     ],
     '🎽': [
@@ -5122,12 +5134,12 @@ emojis_language[lang][9] = {
     ],
     '🚈': [
         'Light Rail',
-        'Train'
+        'Vonat'
     ],
     '🚊': ['Villamos'],
     '🚝': [
         'Monorail',
-        'Train'
+        'Vonat'
     ],
     '🚞': [
         'Mountain Railway',
@@ -5136,8 +5148,8 @@ emojis_language[lang][9] = {
     ],
     '🚋': ['Tram Car'],
     '🚌': [
-        'Bus',
-        'Coach'
+        'Busz',
+        'Turistabusz'
     ],
     '🚍': [
         'Oncoming Bus',
@@ -5152,7 +5164,7 @@ emojis_language[lang][9] = {
         'Minivan',
         'People-Mover'
     ],
-    '🚑': ['Ambulance'],
+    '🚑': ['Mentőautó'],
     '🚒': [
         'Fire Engine',
         'Fire Department',
@@ -5227,13 +5239,13 @@ emojis_language[lang][9] = {
     ],
     '🛴': ['Roller'],
     '⛵': [
-        'Sailboat',
-        'Dinghy',
-        'Yacht'
+        'Vitorláshajó',
+        'Dingi',
+        'Jacht'
     ],
     '🚤': [
-        'Speedboat',
-        'Motorboat',
+        'Motorcsónak',
+        'Versenycsónak',
         'Powerboat'
     ],
     '🛳️': ['Utasszállító hajó'],
@@ -5248,7 +5260,7 @@ emojis_language[lang][9] = {
         'Small Airplane',
         'Small Aeroplane'
     ],
-    '🚁': ['Helicopter'],
+    '🚁': ['Helikopter'],
     '🚟': ['Suspension Railway'],
     '🚠': ['Mountain Cableway'],
     '🚡': [
@@ -5349,12 +5361,12 @@ emojis_language[lang][9] = {
         'Európai postahivatal'
     ],
     '🏥': [
-        'Hospital',
+        'Kórház',
         'ER',
         'A&E',
         'Emergency Room',
         'Accident And Emergency',
-        'Red Cross',
+        'Vöröskereszt',
         'Medical'
     ],
     '🏦': [
@@ -5366,7 +5378,7 @@ emojis_language[lang][9] = {
     ],
     '🏨': [
         'Hotel',
-        'Accommodation',
+        'Szálláshely',
         'H Building'
     ],
     '🏩': [
@@ -5381,9 +5393,9 @@ emojis_language[lang][9] = {
         'Kwik-E-Mart'
     ],
     '🏫': [
-        'School',
-        'Clock Tower',
-        'Elementary High Middle'
+        'Iskola',
+        'Toronyóra',
+        'Általános közép gimnázium'
     ],
     '🏬': [
         'Bevásárló központ',
@@ -5553,7 +5565,7 @@ emojis_language[lang][10] = {
         'Csipogó'
     ],
     '📠': [
-        'Fax Machine',
+        'Fax gép',
         'Facsimile',
         'Fax'
     ],
@@ -5570,7 +5582,7 @@ emojis_language[lang][10] = {
     ],
     '💻': [
         'Laptop',
-        'Notebook',
+        'Notesz',
         'Personal Computer',
         'PC',
         'MacBook',
@@ -5631,20 +5643,20 @@ emojis_language[lang][10] = {
         'Videokamera'
     ],
     '📼': [
-        'Videocassette',
+        'Videokazetta',
         'VHS',
         'VCR',
-        'Video Tape',
-        'Videocassette'
+        'Video szalag',
+        'Videokazetta'
     ],
     '💳': [
-        'Credit Card',
-        'Debit Card',
+        'Bankkártya',
+        'Hitelkártya',
         'AMEX',
         'Diners Club',
         'American Express',
         'Mastercard',
-        'VISA Card'
+        'Visa kártya'
     ],
     '📧': [
         'E-Mail',
@@ -5662,22 +5674,22 @@ emojis_language[lang][10] = {
     ],
     '📤': ['Outbox Tray'],
     '📥': ['Inbox Tray'],
-    '📮': ['Postbox'],
+    '📮': ['Postaláda'],
     '📁': [
-        'File Folder',
-        'Folder',
-        'Directory',
-        'Closed File Folder'
+        'Fájl mappa',
+        'Mappa',
+        'Könyvtár',
+        'Csukott fájl mappa'
     ],
     '📂': [
-        'Open File Folder',
-        'Directory'
+        'Nyitott fájl mappa',
+        'Könyvtár'
     ],
     '🗂️': ['Card Index Dividers'],
     '📅': [
-        'Calendar',
-        'July 17',
-        'World Emoji Day'
+        'Naptár',
+        'Július 17',
+        'Emoji világnap'
     ],
     '🗓️': ['Spiral Calendar Pad'],
     '📆': [
@@ -5698,14 +5710,14 @@ emojis_language[lang][10] = {
         'Chart with Downwards Trend'
     ],
     '📊': [
-        'Bar Chart',
-        'Bar Graph'
+        'Oszlopdiagram',
+        'Sávos diagram'
     ],
     '📌': [
-        'Pushpin',
-        'Thumb Tack'
+        'Térképtű',
+        'Rajzszög'
     ],
-    '📋': ['Clipboard'],
+    '📋': ['Vágólap'],
     '📍': [
         'Round Pushpin',
         'Dropped Pin',
@@ -5733,24 +5745,24 @@ emojis_language[lang][10] = {
     '✒️': [
         'Black Nib',
         'Pen Nib',
-        'Fountain Pen'
+        'Töltőtoll'
     ],
     '🖋️': [
-        'Fountain Pen',
+        'Töltőtoll',
         'Lower Left Fountain Pen'
     ],
     '🖊️': [
-        'Pen',
+        'Toll',
         'Lower Left Ballpoint Pen',
-        'Ballpoint Pen'
+        'Golyóstoll'
     ],
     '🖌️': [
         'Paintbrush',
-        'Brush',
+        'Ecset',
         'Lower Left Paintbrush'
     ],
     '🖍️': [
-        'Crayon',
+        'Zsírkréta',
         'Lower Left Crayon'
     ],
     '📝': [
@@ -5848,32 +5860,32 @@ emojis_language[lang][10] = {
 /*clothes and accessories*/
 emojis_language[lang][11] = {
     '👣': [
-        'Footprints',
-        'Feet',
+        'Lábnyomok',
+        'Lábak',
         'Footsteps'
     ],
     '👓': [
-        'Glasses',
+        'Szemüveg',
         'Eveyglasses'
     ],
-    '🕶️': ['Sunglasses'],
-    '🥽': ['Goggles'],
-    '🥼': ['Lab Coat'],
+    '🕶️': ['Napszemüveg'],
+    '🥽': ['Védőszemüveg'],
+    '🥼': ['Laboratóriumi köpeny'],
     '👔': [
-        'Necktie',
+        'Nyakkendő',
         'Business Shirt',
-        'Shirt And Tie'
+        'Ing és nyakkendő'
     ],
     '👕': [
-        'T-Shirt',
-        'Tee Shirt',
-        'Polo Shirt'
+        'Póló',
+        'Rövidujjú póló',
+        'Pólóing'
     ],
     '👖': [
-        'Jeans',
+        'Farmer',
         'Denim',
-        'Pants',
-        'Trousers'
+        'Gatya',
+        'Nadrág'
     ],
     '🧣': ['Sál'],
     '🧤': ['Kesztyű'],
@@ -5891,8 +5903,8 @@ emojis_language[lang][11] = {
     ],
     '👙': [
         'Bikini',
-        'Bathers',
-        'Swimsuit'
+        'Úszóruha',
+        'Fürdőruha'
     ],
     '🩱': ['Egyrészes fürdőruha'],
     '👚': [
@@ -5960,10 +5972,10 @@ emojis_language[lang][11] = {
         'Hercegnő'
     ],
     '👒': [
-        'Hat',
-        'Womans Hat',
-        'Hat With Bow',
-        'Ladies Hat'
+        'Kalap',
+        'Női kalap',
+        'Kalap masnival',
+        'Női kalap'
     ],
     '🎩': [
         'Top Hat',
@@ -6010,10 +6022,10 @@ emojis_language[lang][11] = {
         'Shari'
     ],
     '🩲': ['Briefs'],
-    '🩳': ['Shorts'],
+    '🩳': ['Rövidnadrág'],
     '🛼': [
-        'Roller Skate',
-        'Inline Skate',
+        'Görkorcsolya',
+        'Egysoros görkorcsolya',
         'Roller Derby'
     ],
     '🩴': [
@@ -6041,100 +6053,100 @@ emojis_language[lang][12] = {
         'Splayed Hand',
         'Raised Hand with Fingers Splayed'
     ],
-    '🤚{{skin_tone}}‍': [
+    '🤚{{skin_tone}}': [
         'Raised Back of Hand',
         'Backhand'
     ],
-    '✋{{skin_tone}}‍': [
+    '✋{{skin_tone}}': [
         'Raised Hand',
         'High Five',
         'Stop'
     ],
-    '🖖{{skin_tone}}‍': [
+    '🖖{{skin_tone}}': [
         'Vulcan Salute',
         'Spock',
         'Star Trek',
         'Raised Hand with Part Between Middle and Ring Fingers'
     ],
-    '👌{{skin_tone}}‍': [
+    '👌{{skin_tone}}': [
         'OK Hand Sign',
         'Okay',
         'Perfect',
         'Igen'
     ],
-    '✌️{{skin_tone}}‍': [
+    '✌️{{skin_tone}}': [
         'Victory Hand',
         'Air Quotes',
         'Peace Sign',
         'V Sign'
     ],
-    '🤞{{skin_tone}}‍': [
+    '🤞{{skin_tone}}': [
         'Crossed Fingers',
         'Fingers Crossed',
         'Good Luck',
         'Hand with Index and Middle Fingers Crossed'
     ],
-    '🤟{{skin_tone}}‍': [
+    '🤟{{skin_tone}}': [
         'Love-You Gesture',
         'I Love You Hand Sign'
     ],
-    '🤘{{skin_tone}}‍': [
+    '🤘{{skin_tone}}': [
         'Sign of the Horns',
         'Devil Fingers',
         'Heavy Metal',
         'Rock On'
     ],
-    '🤙{{skin_tone}}‍': [
+    '🤙{{skin_tone}}': [
         'Call Me Hand Sign',
         'Phone Hand',
         'Shaka'
     ],
-    '🤏{{skin_tone}}‍': ['Pinching Hand'],
-    '👈{{skin_tone}}‍': [
+    '🤏{{skin_tone}}': ['Pinching Hand'],
+    '👈{{skin_tone}}': [
         'Backhand Index Pointing Left',
         'White Left Pointing Backhand Index'
     ],
-    '👉{{skin_tone}}‍': [
+    '👉{{skin_tone}}': [
         'Backhand Index Pointing Right',
         'White Right Pointing Backhand Index'
     ],
-    '👆{{skin_tone}}‍': [
+    '👆{{skin_tone}}': [
         'Backhand Index Pointing Up',
         'White Up Pointing Backhand Index',
         'Middle Finger'
     ],
-    '👇{{skin_tone}}‍': [
+    '👇{{skin_tone}}': [
         'Backhand Index Pointing Down',
         'White Down Pointing Backhand Index',
         'Pointing Down'
     ],
-    '☝{{skin_tone}}‍️': [
+    '☝{{skin_tone}}️': [
         'Index Finger Pointing Up',
         'White Up Pointing Index',
         'Secret'
     ],
-    '🖕{{skin_tone}}‍': [
+    '🖕{{skin_tone}}': [
         'Middle Finger',
         'Flipping The Bird',
         'Rude Finger',
         'Reversed Hand with Middle Finger Extended'
     ],
-    '👍{{skin_tone}}‍': [
+    '👍{{skin_tone}}': [
         'Thumbs Up Sign',
         'Like',
         'Igen'
     ],
-    '👎{{skin_tone}}‍': [
+    '👎{{skin_tone}}': [
         'Thumbs Down Sign',
         'Bad',
         'Dislike',
         'Nem'
     ],
-    '✊{{skin_tone}}‍': [
+    '✊{{skin_tone}}': [
         'Raised Fist',
         'Fist Pump'
     ],
-    '👊{{skin_tone}}‍': [
+    '👊{{skin_tone}}': [
         'Oncoming Fist',
         'Bro Fist',
         'Brofist',
@@ -6143,14 +6155,14 @@ emojis_language[lang][12] = {
         'Closed Fist',
         'Fisted Hand Sign'
     ],
-    '🤛{{skin_tone}}‍': ['Left Fist Bump'],
-    '🤜{{skin_tone}}‍': ['Right Fist Bump'],
-    '🤌{{skin_tone}}‍': [
+    '🤛{{skin_tone}}': ['Left Fist Bump'],
+    '🤜{{skin_tone}}': ['Right Fist Bump'],
+    '🤌{{skin_tone}}': [
         'Pinched Fingers',
         'Ma Che Vuoi',
         'Finger Purse'
     ],
-    '👏{{skin_tone}}‍': [
+    '👏{{skin_tone}}': [
         'Clapping Hands Sign',
         'Applause',
         'Clap',
@@ -6158,7 +6170,7 @@ emojis_language[lang][12] = {
         'Golf Clap',
         'Round Of Applause'
     ],
-    '🙌{{skin_tone}}‍': [
+    '🙌{{skin_tone}}': [
         'Person Raising Both Hands in Celebration',
         'Raising Hands',
         'Arms In The Air',
@@ -6168,20 +6180,20 @@ emojis_language[lang][12] = {
         'Praise Hands',
         'Two Hands'
     ],
-    '👐{{skin_tone}}‍': [
+    '👐{{skin_tone}}': [
         'Open Hands Sign',
         'Hug',
         'Jazz Hands'
     ],
-    '🤲{{skin_tone}}‍': [
+    '🤲{{skin_tone}}': [
         'Palms Up Together',
         'Dua'
     ],
-    '🤝{{skin_tone}}‍': [
+    '🤝{{skin_tone}}': [
         'Handshake',
         'Shaking Hands'
     ],
-    '🙏{{skin_tone}}‍': [
+    '🙏{{skin_tone}}': [
         'Folded Hands',
         'Namaste',
         'Please',
@@ -6189,28 +6201,28 @@ emojis_language[lang][12] = {
         'Thank You',
         'Person with Folded Hands'
     ],
-    '✍{{skin_tone}}‍️': ['Writing Hand'],
-    '💪{{skin_tone}}‍': [
+    '✍{{skin_tone}}️': ['Writing Hand'],
+    '💪{{skin_tone}}': [
         'Flexed Biceps',
         'Flexing Arm Muscles',
         'Musle',
         'Strong'
     ],
-    '🦵{{skin_tone}}‍': ['Leg'],
-    '🦶{{skin_tone}}‍': ['Foot'],
-    '👂{{skin_tone}}‍': [
+    '🦵{{skin_tone}}': ['Leg'],
+    '🦶{{skin_tone}}': ['Foot'],
+    '👂{{skin_tone}}': [
         'Ear',
         'Ears',
         'Hearing',
         'Hallgatás'
     ],
-    '👃{{skin_tone}}‍': [
+    '👃{{skin_tone}}': [
         'Nose',
         'Smelling',
         'Sniffing',
         'Stinky'
     ],
-    '🧠': ['Brain'],
+    '': ['Brain'],
     '🦷': ['Tooth'],
     '👀': [
         'Eyes',
@@ -6225,13 +6237,13 @@ emojis_language[lang][12] = {
     '👅': ['Tongue Out'],
     '👄': [
         'Mouth',
-        'Kissing Lips',
+        'Csókoló ajkak',
         'Lips'
     ],
-    '🫀': ['Anatomical Heart'],
-    '🫁': ['Lungs'],
-    '🦾': ['Mechanical Arm'],
-    '🦿': ['Mechanical Leg']
+    '🫀': ['Anatómiai szív'],
+    '🫁': ['Tüdő'],
+    '🦾': ['Mechanikus kar'],
+    '🦿': ['Mechanikus láb']
 };
 /*other*/
 emojis_language[lang][13] = {
@@ -6296,7 +6308,7 @@ emojis_language[lang][13] = {
         'Explode',
         'Impact',
         'Red Spark',
-        'Explosion'
+        'Robbanás'
     ],
     '💫': [
         'Dizzy Symbol',
@@ -6311,7 +6323,7 @@ emojis_language[lang][13] = {
     '💨': [
         'Dashing Away',
         'Fast',
-        'Steam',
+        'Gőz',
         'Vaping',
         'Wind',
         'Dash Symbol',
@@ -6331,19 +6343,19 @@ emojis_language[lang][13] = {
         'Puppy Paw Prints'
     ],
     '🕸️': [
-        'Spider Web',
-        'Cobweb',
-        'Web',
-        'Spiderweb'
+        'Pókháló',
+        'Pókháló',
+        'Háló',
+        'Pókháló'
     ],
     '🦠': [
-        'Microbe',
-        'Cell',
-        'Coronavirus',
+        'Mikroba',
+        'Sejt',
+        'Koronavírus',
         'COVID-19',
-        'Germ',
-        'Microorganism',
-        'Virus'
+        'Amőba',
+        'Mikroorganizmus',
+        'Vírus'
     ],
     '💐': ['Virágcsokor'],
     '🌍': [
@@ -6441,49 +6453,49 @@ emojis_language[lang][13] = {
     '🌨️': ['Cloud with Snow'],
     '🌩️': ['Cloud with Lightning'],
     '🌪️': [
-        'Tornado',
-        'Cloud with Tornado'
+        'Tornádó',
+        'Tornádó felhővel'
     ],
-    '🌫️': ['Fog'],
+    '🌫️': ['Köd'],
     '🌈': [
-        'Rainbow',
+        'Szivárvány',
         'Gay Pride',
         'Primary Rainbow'
     ],
     '❄️': [
-        'Snowflake',
-        'Snow',
-        'Snowing'
+        'Hópihe',
+        'Hó',
+        'Havazás'
     ],
     '🌀': [
-        'Cyclone',
-        'Hurricane',
-        'Spiral',
-        'Swirl',
-        'Tornado'
+        'Ciklon',
+        'Hurrikán',
+        'Spirál',
+        'Örvény',
+        'Tornádó'
     ],
     '⚡': [
         'High Voltage Sign',
         'Lightning Bolt',
-        'Thunderbolt',
-        'High Voltage'
+        'Villám',
+        'Nagyfeszültség'
     ],
     '☃️': [
-        'Snowman',
+        'Hóember',
         'Snowman With Snowflakes'
     ],
     '⛄': [
         'Snowman Without Snow',
         'Frosty The Snowman',
         'Olaf',
-        'Snowman'
+        'Hóember'
     ],
-    '☄️': ['Comet'],
+    '☄️': ['Üstökös'],
     '🔥': [
-        'Fire',
-        'Flame',
-        'Hot',
-        'Lit',
+        'Tűz',
+        'Láng',
+        'Forró',
+        'Meggyullad',
         'Snapstreak'
     ],
     '💧': [
@@ -6504,29 +6516,29 @@ emojis_language[lang][13] = {
         'Sea'
     ],
     '🎄': [
-        'Christmas Tree',
-        'Christmas',
-        'Xmas Tree'
+        'Karácsonyfa',
+        'Karácsony',
+        'Fenyőfa'
     ],
     '🎃': [
-        'Jack-O-Lantern',
+        'Töklámpás',
         'Halloween',
-        'Pumpkin'
+        'Sütőtök'
     ],
     '🌻': [
-        'Sunflower',
-        'Yellow Flower'
+        'Napraforgó',
+        'Sárga virág'
     ],
     '🌼': [
         'Blossom',
         'Blossoming Flower',
         'Daisy',
-        'Yellow Flower'
+        'Sárga virág'
     ],
-    '🌷': ['Tulip'],
+    '🌷': ['Tulipán'],
     '🌹': [
-        'Rose Flower',
-        'Red Rose'
+        'Rózsa virág',
+        'Vörös rózsa'
     ],
     '☘️': [
         'Shamrock',
@@ -6555,7 +6567,7 @@ emojis_language[lang][13] = {
     '🏵️': ['Rosette'],
     '🌱': [
         'Seedling',
-        'Spring',
+        'Tavasz',
         'Sprout',
         'Sprouting'
     ],
@@ -6569,8 +6581,8 @@ emojis_language[lang][13] = {
         'Rounded Tree'
     ],
     '🌴': [
-        'Palm Tree',
-        'Coconut Tree'
+        'Pálmafa',
+        'Kókuszpálma'
     ],
     '🎋': [
         'Tanabata Tree',
@@ -6584,8 +6596,8 @@ emojis_language[lang][13] = {
         'New Year Decoration'
     ],
     '🌵': [
-        'Cactus',
-        'Desert'
+        'Kaktusz',
+        'Sivatag'
     ],
     '🌾': [
         'Sheaf of Rice',
@@ -6614,9 +6626,9 @@ emojis_language[lang][13] = {
         'Fallen Leaves'
     ],
     '🍃': [
-        'Leaf Fluttering in Wind',
-        'Green Leaves',
-        'Spring'
+        'Szél fújta levél',
+        'Zöld levelek',
+        'Tavasz'
     ],
     '🪴': ['Cserepes növény'],
     '🔑': [
@@ -6646,20 +6658,20 @@ emojis_language[lang][13] = {
         'Screw'
     ],
     '🗜️': [
-        'Clamp',
-        'Table Vice',
+        'Szorító',
+        'Asztalos szorító',
         'WinZip',
-        'Compression'
+        'Tömörítés'
     ],
     '🔒': [
-        'Locked',
-        'Closed Lock',
-        'Padlock'
+        'Zárt',
+        'Zárt lakat',
+        'Lakat'
     ],
     '🔓': [
-        'Unlocked',
-        'Open Padlock',
-        'Open Lock'
+        'Nyitott',
+        'Nyitott lakat',
+        'Nyitott zár'
     ],
     '🔏': [
         'Locked with Pen',
@@ -6668,21 +6680,21 @@ emojis_language[lang][13] = {
         'Lock with Ink Pen'
     ],
     '🔐': [
-        'Locked with Key',
-        'Closed Lock with Key'
+        'Kulccsal zárva',
+        'Zárt lakat kulccsal'
     ],
     '🗡️': [
-        'Dagger',
-        'Knife Weapon'
+        'Tőr',
+        'Kés fegyver'
     ],
-    '⚔️': ['Crossed Swords'],
+    '⚔️': ['Keresztbe tett kardok'],
     '🔫': [
-        'Pistol',
-        'Gun',
+        'Pisztoly',
+        'Stukker',
         'Revolver',
-        'Squirt Gun',
-        'Water Gun',
-        'Water Pistol'
+        'Vízipisztoly',
+        'Vízipisztoly',
+        'Vízipisztoly'
     ],
     '🧰': ['Szerszámos láda'],
     '🧲': ['Mágnes'],
@@ -6779,18 +6791,18 @@ emojis_language[lang][13] = {
         'Csontváz'
     ],
     '☠️': ['Koponya és csontok'],
-    '🦻': ['Ear with Hearing Aid'],
+    '🦻': ['Fül hallókészülékkel'],
     '🎡': [
-        'Ferris Wheel',
+        'Óriás kerék',
         'Big Wheel',
         'Fairgroundl',
         'Observation Wheel'
     ],
     '⛽': [
-        'Fuel Pump',
-        'Oil',
-        'Petrol',
-        'Gas'
+        'Benzinkút',
+        'Olaj',
+        'Dízel',
+        'Benzin'
     ],
     '🚨': [
         'Police Cars Revolving Light',
@@ -6801,70 +6813,70 @@ emojis_language[lang][13] = {
     '🚥': ['Horizontal Traffic Light'],
     '🚦': ['Vertical Traffic Light'],
     '⚓': [
-        'Admiralty Pattern Anchor',
-        'Fisherman'
+        'Tengerészeti minta horgony',
+        'Halász'
     ],
     '🚧': [
-        'Construction Sign',
-        'Black And Yellow Striped Sign'
+        'Építkezés jelzés',
+        'Fekete és sárga csíkos jelzés'
     ],
-    '🪂': ['Parachute'],
+    '🪂': ['Ejtőernyő'],
     '💺': [
-        'Seat',
-        'Bus Airplane Train Aeroplane'
+        'Ülés',
+        'Busz repülőgép vonat repülő'
     ],
-    '🪐': ['Saturn'],
+    '🪐': ['Szaturnusz'],
     '🎆': [
-        'Fireworks',
-        'Explosion'
+        'Tűzijáték',
+        'Robbanás'
     ],
     '🎇': [
         'Senko Hanabi',
-        'Firework Sparkler'
+        'Csillagszóró'
     ],
     '💷': [
-        'Pound Banknote',
-        '£20 Note',
-        'Twenty Quid Note',
-        'Banknote with Pound Sign'
+        'Font bankjegyek',
+        '20£ font címlet',
+        'Húsz font bankjegy',
+        'Bankjegy 20 fontos felirattal'
     ],
     '💶': [
-        'Euro Banknote',
-        '€100 Note',
-        'Banknote with Euro Sign'
+        'Euro bankjegy',
+        '100€ címlet',
+        'Bankjegy Euro felirattal'
     ],
     '💵': [
-        'Dollar Banknote',
-        '$1 Note',
-        'Banknote with Dollar Sign',
-        'Dollar Bill',
-        'American Dollar'
+        'Dollár bankjegy',
+        '1$ címlet',
+        'Bankjegy dollár felirattal',
+        'Dollár papírpénz',
+        'Amerikai Dollár'
     ],
     '💴': [
-        'Yen Banknote',
-        '¥1000 Note',
-        'Yen Note',
-        'Banknote with Yen Sign'
+        'Yen bankjegy',
+        '1000¥ címlet',
+        'Yen papírpénz',
+        'Bankjegy Yen felirattal'
     ],
-    '⛺': ['Camping Tent'],
+    '⛺': ['Kemping sátor'],
     '⛲': [
-        'Fountain',
+        'Szökőkút',
         'Water Feature',
         'Water Fountain',
         'Park'
     ],
     '💰': [
-        'Money Bag',
-        'Moneybags',
-        'Rich',
+        'Pénzes zsák',
+        'Pénzes zsákok',
+        'Gazdag',
         '$'
     ],
     '💸': [
-        'Money with Wings',
-        'Flying Money',
-        ' Losing Money'
+        'Pénz szárnyakkal',
+        'Repülő pénz',
+        ' Pénzvesztés'
     ],
-    '🏷️': ['Label Tag'],
+    '🏷️': ['Cédula'],
     '🔖': [
         'Könyvjelző',
         'Árcédula',
@@ -6872,9 +6884,9 @@ emojis_language[lang][13] = {
     ],
     '📑': ['Bookmark Tabs'],
     '📯': [
-        'Postal Horn',
-        'Bugle',
-        'French Horn'
+        'Postakürt',
+        'Kürt',
+        'Francia kürt'
     ],
     '🪁': ['Sárkány'],
     '🪀': ['Jojó'],
@@ -6884,7 +6896,7 @@ emojis_language[lang][13] = {
     ],
     '🎉': [
         'Party Popper',
-        'Celebration',
+        'Ünneplés',
         'Party Hat'
     ],
     '🎈': [
@@ -6914,19 +6926,19 @@ emojis_language[lang][13] = {
     '🎼': [
         'Musical Score',
         'Sheet Music',
-        'Treble Clef'
+        'Violinkulcs'
     ],
     '🎬': [
-        'Clapper Board',
+        'Csapó',
         'Cut',
         'Action',
         'Director',
         'Film Slate'
     ],
     '🎻': [
-        'Violin',
-        'String Quartet',
-        'World\'s Smallest Violin'
+        'Hegedű',
+        'Vonósnégyes',
+        'Világ legkisebb hegedűje'
     ],
     '🎺': [
         'Trombita',
@@ -7162,7 +7174,7 @@ emojis_language[lang][13] = {
         'Kartotékjegyzék'
     ],
     '🕳️': ['Lyuk'],
-    '👁️‍🗨️': [
+    '👁️🗨️': [
         'Tanú vagyok',
         'Szem egy szövegbuborékban'
     ],

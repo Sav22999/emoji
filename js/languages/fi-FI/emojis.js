@@ -9,7 +9,7 @@ titles_language[lang] = {
     '🦊': 'Eläimet',
     '🅰️': 'Symbolit',
     '🍎': 'Ruoka ja juoma',
-    '🏳️‍🌈': 'Liput',
+    '🏳️🌈': 'Liput',
     '🏊': 'Urheilu',
     '✈️': 'Matkailu ja paikat',
     '🖱️': 'Teknologia ja toimisto',
@@ -594,11 +594,11 @@ emojis_language[lang][2] = {
         'Vakava kasvot symbolit kaareva Suun'
     ],
     '🥲': ['Hymyilevä kasvot ja repeämä'],
-    '😮‍💨': [
+    '😮💨': [
         'Face Exhaling',
         'Sigh'
     ],
-    '😵‍💫': [
+    '😵💫': [
         'Face with Spiral Eyes',
         'Dizzy Face'
     ],
@@ -709,21 +709,21 @@ emojis_language[lang][3] = {
         'Suunta Mies',
         'Suunta Henkilö'
     ],
-    '👨{{skin_tone}}‍🦰': [
+    '👨{{skin_tone}}🦰': [
         'Mies: Punainen Hiukset',
         'Inkivääri Mies',
         'Man Redhead',
         'Mies Punaisella Hiudella'
     ],
-    '👨{{skin_tone}}‍🦱': [
+    '👨{{skin_tone}}🦱': [
         'Mies: Curly Hiukset',
         'Mies Curly Hiusten Kanssa'
     ],
-    '👨{{skin_tone}}‍🦳': [
+    '👨{{skin_tone}}🦳': [
         'Mies: Valkoiset Hiukset',
         'Mies Harmaan Hiusten Kanssa'
     ],
-    '👨{{skin_tone}}‍🦲': [
+    '👨{{skin_tone}}🦲': [
         'Miehet: Kalju',
         'Mies Ei Hiuksia'
     ],
@@ -733,43 +733,43 @@ emojis_language[lang][3] = {
         'Lady',
         'Keltainen Nainen'
     ],
-    '👩{{skin_tone}}‍🦰': [
+    '👩{{skin_tone}}🦰': [
         'Nainen: Punainen Hius',
         'Inkivääri Nainen',
         'Woman Redhead',
         'Nainen Punaisella Hiudella'
     ],
-    '👩{{skin_tone}}‍🦱': [
+    '👩{{skin_tone}}🦱': [
         'Nainen: kihara Hiukset',
         'Nainen Curly Hair'
     ],
-    '👩{{skin_tone}}‍🦳': [
+    '👩{{skin_tone}}🦳': [
         'Nainen: Valkoinen Hiukset',
         'Nainen Harmaa Hiukset'
     ],
-    '👩{{skin_tone}}‍🦲': [
+    '👩{{skin_tone}}🦲': [
         'Nainen: Kalju',
         'Nainen Ei Hiuksia'
     ],
-    '👱{{skin_tone}}‍♀️': [
+    '👱{{skin_tone}}♀️': [
         'Nainen: Blond Hair',
         'Nainen Blondi Hiukset'
     ],
-    '👱{{skin_tone}}‍♂️': [
+    '👱{{skin_tone}}♂️': [
         'Mies: Blond Hair',
         'Mies Kanssa Blondi Hiukset'
     ],
-    '🧓{{skin_tone}}‍': [
+    '🧓{{skin_tone}}': [
         'Vanhempi Henkilö',
         'Sukupuolen Neutraali Vanhemmat Aikuiset'
     ],
-    '👴{{skin_tone}}‍': [
+    '👴{{skin_tone}}': [
         'Vanha Mies',
         'Iäkkäät Mies',
         'Grandpa',
         'Vanhempi Mies'
     ],
-    '👵{{skin_tone}}‍': [
+    '👵{{skin_tone}}': [
         'Vanha Nainen',
         'Iäkkäät Nainen',
         'Isoäiti',
@@ -777,98 +777,98 @@ emojis_language[lang][3] = {
         'Vanha Lady',
         'Vanhempi Nainen'
     ],
-    '👼{{skin_tone}}‍': [
+    '👼{{skin_tone}}': [
         'Vauvan Enkeli',
         'Enkeli',
         'Cherub',
         'Cupid',
         'Putto'
     ],
-    '🎅{{skin_tone}}‍': [
+    '🎅{{skin_tone}}': [
         'Santa Claus',
         'Saint Nicholas',
         'Sinterklaas',
         'Isä Joulu'
     ],
-    '🤶{{skin_tone}}‍': [
+    '🤶{{skin_tone}}': [
         'Claus',
         'Äiti Joulu'
     ],
-    '🤴{{skin_tone}}‍': ['Prinssi'],
-    '👸{{skin_tone}}‍': [
+    '🤴{{skin_tone}}': ['Prinssi'],
+    '👸{{skin_tone}}': [
         'Prinsessa',
         'Blondi Tyttö',
         'Tyttö Crown',
         'Tyttö Tiaran Kanssa'
     ],
-    '👳{{skin_tone}}‍♂️': ['Mies Käyttää Turbania'],
-    '👳{{skin_tone}}‍♀️': ['Nainen Käyttää Turbania'],
-    '👲{{skin_tone}}‍': [
+    '👳{{skin_tone}}♂️': ['Mies Käyttää Turbania'],
+    '👳{{skin_tone}}♀️': ['Nainen Käyttää Turbania'],
+    '👲{{skin_tone}}': [
         'Henkilö Skullcapin Kanssa',
         'Aasialainen Mies',
         'Mies Kiinalaisen Suojan Kanssa',
         'Man with Gua Pi Mao'
     ],
-    '🧕{{skin_tone}}‍': [
+    '🧕{{skin_tone}}': [
         'Naiset, joilla on huivi',
         'Hijab',
         'Henkilö jolla on huivi'
     ],
-    '🤵{{skin_tone}}‍': [
+    '🤵{{skin_tone}}': [
         'Tuxedossa oleva henkilö',
         'Groom',
         'Mies Maassa',
         'Tuxedon mies'
     ],
-    '👰{{skin_tone}}‍': [
+    '👰{{skin_tone}}': [
         'Henkilö Veilin Kanssa',
         'Morsian',
         'Morsian Veilin kanssa'
     ],
-    '👰{{skin_tone}}‍♂️': ['Miehen kanssa Veilissä'],
-    '👰{{skin_tone}}‍♀️': ['Nainen kanssa Veilin'],
-    '👩{{skin_tone}}‍🍼': ['Naisen Ruokinta Vauva'],
-    '👨{{skin_tone}}‍🍼': ['Ihmisen Ruokinta Vauva'],
+    '👰{{skin_tone}}♂️': ['Miehen kanssa Veilissä'],
+    '👰{{skin_tone}}♀️': ['Nainen kanssa Veilin'],
+    '👩{{skin_tone}}🍼': ['Naisen Ruokinta Vauva'],
+    '👨{{skin_tone}}🍼': ['Ihmisen Ruokinta Vauva'],
     '🥷': ['Ninja'],
-    '🤰{{skin_tone}}‍': [
+    '🤰{{skin_tone}}': [
         'Raskaana Oleva Nainen',
         'Raskaus',
         'Raskaana Oleva Nainen'
     ],
-    '🤱{{skin_tone}}‍': [
+    '🤱{{skin_tone}}': [
         'Rintojen Ruokinta',
         'Imetys'
     ],
-    '🦸{{skin_tone}}‍♂️': ['Man Supersankari'],
-    '🦸{{skin_tone}}‍‍♀️': ['Nainen Supersankari'],
-    '🦹{{skin_tone}}‍‍♂️': ['Mies Supervillain'],
-    '🦹{{skin_tone}}‍‍♀️': ['Nainen Supervillain'],
-    '🧙{{skin_tone}}‍': [
+    '🦸{{skin_tone}}♂️': ['Man Supersankari'],
+    '🦸{{skin_tone}}♀️': ['Nainen Supersankari'],
+    '🦹{{skin_tone}}♂️': ['Mies Supervillain'],
+    '🦹{{skin_tone}}♀️': ['Nainen Supervillain'],
+    '🧙{{skin_tone}}': [
         'Saldo',
         'Sorcerer',
         'Surullisuus',
         'Noita',
         'Velho'
     ],
-    '🧙{{skin_tone}}‍‍♀️': [
+    '🧙{{skin_tone}}♀️': [
         'Nainen Mage',
         'Noita',
         'Surullisuus'
     ],
-    '🧚{{skin_tone}}‍‍♂️': ['Mies Fairy'],
-    '🧚{{skin_tone}}‍♀️': ['Nainen Fairy'],
-    '🧛{{skin_tone}}‍♂️': [
+    '🧚{{skin_tone}}♂️': ['Mies Fairy'],
+    '🧚{{skin_tone}}♀️': ['Nainen Fairy'],
+    '🧛{{skin_tone}}♂️': [
         'Man Vampyyri',
         'Dracula'
     ],
-    '🧛{{skin_tone}}‍‍♀️': ['Nainen Vampyyri'],
-    '🧜{{skin_tone}}‍♂️': ['Merman'],
-    '🧜{{skin_tone}}‍♀️': ['Merenneito'],
-    '🧝{{skin_tone}}‍♂️': ['Miehen Elf'],
-    '🧝{{skin_tone}}‍♀️': ['Nainen Härkä'],
-    '🧞‍♂️': ['Man Genie'],
-    '🧞‍♀️': ['Woman Genie'],
-    '🕵️{{skin_tone}}‍♂️': [
+    '🧛{{skin_tone}}♀️': ['Nainen Vampyyri'],
+    '🧜{{skin_tone}}♂️': ['Merman'],
+    '🧜{{skin_tone}}♀️': ['Merenneito'],
+    '🧝{{skin_tone}}♂️': ['Miehen Elf'],
+    '🧝{{skin_tone}}♀️': ['Nainen Härkä'],
+    '🧞♂️': ['Man Genie'],
+    '🧞♀️': ['Woman Genie'],
+    '🕵️{{skin_tone}}♂️': [
         'Man Detective',
         'Yksityinen Silmä',
         'Sleuth',
@@ -878,276 +878,276 @@ emojis_language[lang][3] = {
         '007',
         'Tarkastaja'
     ],
-    '🕵️{{skin_tone}}‍♀️': ['Nainen Havaitseva'],
-    '💂{{skin_tone}}‍': [
+    '🕵️{{skin_tone}}♀️': ['Nainen Havaitseva'],
+    '💂{{skin_tone}}': [
         'Suojaus',
         'Brittiläinen Guardsman',
         'Jalkojen Suojaus'
     ],
-    '💂{{skin_tone}}‍‍♀️': ['Naisen Vartija'],
-    '👮{{skin_tone}}‍': [
+    '💂{{skin_tone}}♀️': ['Naisen Vartija'],
+    '👮{{skin_tone}}': [
         'Poliisin Päällikkö',
         'Cop',
         'Poliisi',
         'Poliisi',
         'Poliisi'
     ],
-    '👮{{skin_tone}}‍‍♀️': ['Naisen Poliisin Toimittaja'],
-    '👨{{skin_tone}}‍🚒': ['Mies Palomiehen'],
-    '👩{{skin_tone}}‍‍🚒': ['Nainen Palomiehen'],
-    '👨{{skin_tone}}‍‍✈️': ['Miehen Pilotti'],
-    '👩{{skin_tone}}‍‍✈️': ['Nainen Pilot'],
-    '👨{{skin_tone}}‍💻': [
+    '👮{{skin_tone}}♀️': ['Naisen Poliisin Toimittaja'],
+    '👨{{skin_tone}}🚒': ['Mies Palomiehen'],
+    '👩{{skin_tone}}🚒': ['Nainen Palomiehen'],
+    '👨{{skin_tone}}✈️': ['Miehen Pilotti'],
+    '👩{{skin_tone}}✈️': ['Nainen Pilot'],
+    '👨{{skin_tone}}💻': [
         'Man Technologist',
         'Man Technologist'
     ],
-    '👩{{skin_tone}}‍💻': ['Naisen Teknologia'],
-    '👨{{skin_tone}}‍🎤': [
+    '👩{{skin_tone}}💻': ['Naisen Teknologia'],
+    '👨{{skin_tone}}🎤': [
         'Miehen Laulaja',
         'Bowie',
         'Aladdin Sane'
     ],
-    '👩{{skin_tone}}‍🎤': ['Nainen Laulaja'],
-    '👨{{skin_tone}}‍🎨': ['Man Artisti'],
-    '👩{{skin_tone}}‍🎨': ['Nainen Esittäjä'],
-    '👷{{skin_tone}}‍‍♂️': ['Man Construction Worker'],
-    '👷{{skin_tone}}‍‍♀️': ['Naisen Rakennustyöntekijä'],
-    '👨{{skin_tone}}‍‍🚀': [
+    '👩{{skin_tone}}🎤': ['Nainen Laulaja'],
+    '👨{{skin_tone}}🎨': ['Man Artisti'],
+    '👩{{skin_tone}}🎨': ['Nainen Esittäjä'],
+    '👷{{skin_tone}}♂️': ['Man Construction Worker'],
+    '👷{{skin_tone}}♀️': ['Naisen Rakennustyöntekijä'],
+    '👨{{skin_tone}}🚀': [
         'Mies Astronaut',
         'Man Cosmonaut'
     ],
-    '👩{{skin_tone}}‍‍🚀': [
+    '👩{{skin_tone}}🚀': [
         'Nainen Astronaut',
         'Nainen Cosmonaut'
     ],
-    '👨{{skin_tone}}‍‍🔬': ['Miehen Tutkija'],
-    '👩{{skin_tone}}‍‍🔬': ['Naisen Tutkija'],
-    '👨{{skin_tone}}‍💼': [
+    '👨{{skin_tone}}🔬': ['Miehen Tutkija'],
+    '👩{{skin_tone}}🔬': ['Naisen Tutkija'],
+    '👨{{skin_tone}}💼': [
         'Man Office Worker',
         'Toimitusjohtaja',
         'Liikemies'
     ],
-    '👩{{skin_tone}}‍💼': [
+    '👩{{skin_tone}}💼': [
         'Naisen Toimistotyöntekijä',
         'Yrittäjä',
         'Toimitusjohtaja'
     ],
-    '👨{{skin_tone}}‍🏭': ['Man Factory Worker'],
-    '👩{{skin_tone}}‍‍🏭': ['Naisen Tehdastyöntekijä'],
-    '👨{{skin_tone}}‍‍🔧': ['Man Mekaniikka'],
-    '👩{{skin_tone}}‍‍🔧': ['Nainen Mekaaninen'],
-    '👨{{skin_tone}}‍‍🍳': [
+    '👨{{skin_tone}}🏭': ['Man Factory Worker'],
+    '👩{{skin_tone}}🏭': ['Naisen Tehdastyöntekijä'],
+    '👨{{skin_tone}}🔧': ['Man Mekaniikka'],
+    '👩{{skin_tone}}🔧': ['Nainen Mekaaninen'],
+    '👨{{skin_tone}}🍳': [
         'Mies Cook',
         'Miehen Kokki',
         'Miehen Kokki'
     ],
-    '👩{{skin_tone}}‍‍🍳': [
+    '👩{{skin_tone}}🍳': [
         'Nainen Kypsä',
         'Nainen Kokki',
         'Naisen Kokki'
     ],
-    '👨{{skin_tone}}‍‍🌾': ['Mies Viljelijä'],
-    '👩{{skin_tone}}‍‍🌾': ['Nainen Maanviljelijä'],
-    '👨{{skin_tone}}‍‍⚖️': ['Miehen Tuomari'],
-    '👩{{skin_tone}}‍‍⚖️': ['Naisen Tuomari'],
-    '👨{{skin_tone}}‍‍🏫': ['Miehen Opettaja'],
-    '👩{{skin_tone}}‍‍🏫': ['Nainen Opettaja'],
-    '👨{{skin_tone}}‍🎓': ['Ihmisen Opiskelija'],
-    '👩{{skin_tone}}‍🎓': ['Nainen Opiskelija'],
-    '👨{{skin_tone}}‍‍⚕️': [
+    '👨{{skin_tone}}🌾': ['Mies Viljelijä'],
+    '👩{{skin_tone}}🌾': ['Nainen Maanviljelijä'],
+    '👨{{skin_tone}}⚖️': ['Miehen Tuomari'],
+    '👩{{skin_tone}}⚖️': ['Naisen Tuomari'],
+    '👨{{skin_tone}}🏫': ['Miehen Opettaja'],
+    '👩{{skin_tone}}🏫': ['Nainen Opettaja'],
+    '👨{{skin_tone}}🎓': ['Ihmisen Opiskelija'],
+    '👩{{skin_tone}}🎓': ['Nainen Opiskelija'],
+    '👨{{skin_tone}}⚕️': [
         'Miehen Terveystyöntekijä',
         'Miehen Lääkäri',
         'Mies Sairaanhoitaja'
     ],
-    '👩{{skin_tone}}‍⚕️': [
+    '👩{{skin_tone}}⚕️': [
         'Nainen Terveydenhuollon Työntekijä',
         'Naisen Lääkäri',
         'Naisen Sairaanhoitaja'
     ],
-    '🤷{{skin_tone}}‍♂️': [
+    '🤷{{skin_tone}}♂️': [
         'Mies Kuivuminen',
         'idk mies',
         'dunno'
     ],
-    '🤷{{skin_tone}}‍♀️': [
+    '🤷{{skin_tone}}♀️': [
         'Nainen Kuivuminen',
         'idk nainen',
         'dunno'
     ],
-    '🤦{{skin_tone}}‍♂️': ['Ihmisen Kasvopalmulointi'],
-    '🤦{{skin_tone}}‍♀️': ['Nainen Facepalming'],
-    '🙇{{skin_tone}}‍‍♂️': ['Mies Niittäminen'],
-    '🙇{{skin_tone}}‍‍♀️': ['Nainen Leivonta'],
-    '🧏{{skin_tone}}‍♂️': ['Deaf Man'],
-    '🧏{{skin_tone}}‍‍♀️': ['Deaf Nainen'],
-    '🙋{{skin_tone}}‍‍♂️': [
+    '🤦{{skin_tone}}♂️': ['Ihmisen Kasvopalmulointi'],
+    '🤦{{skin_tone}}♀️': ['Nainen Facepalming'],
+    '🙇{{skin_tone}}♂️': ['Mies Niittäminen'],
+    '🙇{{skin_tone}}♀️': ['Nainen Leivonta'],
+    '🧏{{skin_tone}}♂️': ['Deaf Man'],
+    '🧏{{skin_tone}}♀️': ['Deaf Nainen'],
+    '🙋{{skin_tone}}♂️': [
         'Ihminen Käsien Ylösnostaminen',
         'Iloinen Mies Nousu Yhtä Kättä'
     ],
-    '🙋{{skin_tone}}‍♀️': [
+    '🙋{{skin_tone}}♀️': [
         'Nainen Nousu Käsi',
         'Onnellinen Nainen Nousu Yksi Käsi'
     ],
-    '💁{{skin_tone}}‍♂️': [
+    '💁{{skin_tone}}♂️': [
         'Miehen Tippaus Käsi',
         'Information Desk Man'
     ],
-    '💁{{skin_tone}}‍♀️': [
+    '💁{{skin_tone}}♀️': [
         'Naisen Tippaus Käsi',
         'Information Desk Nainen'
     ],
-    '🙆{{skin_tone}}‍♂️': ['Man Gesturing OK'],
-    '🙆{{skin_tone}}‍♀️': ['Nainen Eletään OK'],
-    '🙅{{skin_tone}}‍♂️': ['Miehen Ele Ei'],
-    '🙅{{skin_tone}}‍♀️': ['Naisen Eleen Ei'],
-    '🙎{{skin_tone}}‍♂️': ['Miehen Kiinnitys'],
-    '🙎{{skin_tone}}‍‍♀️': ['Naisen Kiinnitys'],
-    '🙍{{skin_tone}}‍‍♂️': ['Man Frowning'],
-    '🙍{{skin_tone}}‍‍♀️': ['Nainen Frowning'],
-    '🧟‍‍♂️': ['Man Zombi'],
-    '🧟‍‍♀️': ['Nainen Zombi'],
-    '🚶{{skin_tone}}‍♂️': ['Miehen Kävely'],
-    '🚶{{skin_tone}}‍♀️': ['Nainen Kävely'],
-    '🧍{{skin_tone}}‍‍♂️': ['Mies Seisoo'],
-    '🧍{{skin_tone}}‍‍♀️': ['Nainen Seisoo'],
-    '🧎{{skin_tone}}‍♂️': ['Mies Kneeling'],
-    '🧎{{skin_tone}}‍‍♀️': ['Nainen Kneeling'],
-    '👨{{skin_tone}}‍🦯': ['Mies valkoisella ruokalajilla'],
-    '👩{{skin_tone}}‍🦯': ['Nainen kanssa White Cane'],
-    '👨{{skin_tone}}‍🦼': ['Mies moottoroidussa pyörätuolissa'],
-    '👩{{skin_tone}}‍🦼': ['Nainen moottoroidussa pyörätuolissa'],
-    '👨{{skin_tone}}‍🦽': ['Miehen käsikäyttöinen pyörätuoli'],
-    '👩{{skin_tone}}‍🦽': ['Nainen käsikirjassa pyörätuoli'],
-    '👯‍♂️': ['Miehet, joilla on pupu korva'],
-    '👯‍♀️': ['Naiset Bunny Ears'],
-    '🕴️{{skin_tone}}‍': [
+    '🙆{{skin_tone}}♂️': ['Man Gesturing OK'],
+    '🙆{{skin_tone}}♀️': ['Nainen Eletään OK'],
+    '🙅{{skin_tone}}♂️': ['Miehen Ele Ei'],
+    '🙅{{skin_tone}}♀️': ['Naisen Eleen Ei'],
+    '🙎{{skin_tone}}♂️': ['Miehen Kiinnitys'],
+    '🙎{{skin_tone}}♀️': ['Naisen Kiinnitys'],
+    '🙍{{skin_tone}}♂️': ['Man Frowning'],
+    '🙍{{skin_tone}}♀️': ['Nainen Frowning'],
+    '🧟♂️': ['Man Zombi'],
+    '🧟♀️': ['Nainen Zombi'],
+    '🚶{{skin_tone}}♂️': ['Miehen Kävely'],
+    '🚶{{skin_tone}}♀️': ['Nainen Kävely'],
+    '🧍{{skin_tone}}♂️': ['Mies Seisoo'],
+    '🧍{{skin_tone}}♀️': ['Nainen Seisoo'],
+    '🧎{{skin_tone}}♂️': ['Mies Kneeling'],
+    '🧎{{skin_tone}}♀️': ['Nainen Kneeling'],
+    '👨{{skin_tone}}🦯': ['Mies valkoisella ruokalajilla'],
+    '👩{{skin_tone}}🦯': ['Nainen kanssa White Cane'],
+    '👨{{skin_tone}}🦼': ['Mies moottoroidussa pyörätuolissa'],
+    '👩{{skin_tone}}🦼': ['Nainen moottoroidussa pyörätuolissa'],
+    '👨{{skin_tone}}🦽': ['Miehen käsikäyttöinen pyörätuoli'],
+    '👩{{skin_tone}}🦽': ['Nainen käsikirjassa pyörätuoli'],
+    '👯♂️': ['Miehet, joilla on pupu korva'],
+    '👯♀️': ['Naiset Bunny Ears'],
+    '🕴️{{skin_tone}}': [
         'Suvun asukas Levitating',
         'Ihmisten Suojaaminen',
         'Rude Boy',
         'Walt Jabsco',
         'Man in Business Suit Levitating'
     ],
-    '🧖{{skin_tone}}‍♂️': [
+    '🧖{{skin_tone}}♂️': [
         'Mies höyryssä huoneessa',
         'Saunan mies'
     ],
-    '🧖{{skin_tone}}‍♀️': [
+    '🧖{{skin_tone}}♀️': [
         'Nainen höyryssä huoneessa',
         'Nainen saunassa'
     ],
-    '👫{{skin_tone}}‍': [
+    '👫{{skin_tone}}': [
         'Nainen ja mies kädet',
         'Heteroseksuaalinen Pari',
         'Suora Pari',
         'Mies ja nainen Holding kädet'
     ],
-    '👭{{skin_tone}}‍': [
+    '👭{{skin_tone}}': [
         'Lesbian Pariskunta',
         'Naiset Kädet Pidossa',
         'Kaksi Naista Kädet'
     ],
-    '👬{{skin_tone}}‍': [
+    '👬{{skin_tone}}': [
         'Miehet Pidossa Kädet',
         'Gay Pari',
         'Kaksi Miehtä Holding Kädet'
     ],
-    '👨‍👩‍👦': [
+    '👨👩👦': [
         'Perhe Äitillä, Isällä ja Pojalla',
         'Perhe: Mies, Nainen, Poika'
     ],
-    '👨‍👩‍👧': [
+    '👨👩👧': [
         'Perhe Äidin, Isän ja Tyttären kanssa',
         'Perhe: Mies, Nainen, Tyttö'
     ],
-    '👨‍👩‍👧‍👦': [
+    '👨👩👧👦': [
         'Perhe Äitien, Isän, Pojan ja Tyttären kanssa',
         'Perhe: Mies, Nainen, Tyttö, Poika'
     ],
-    '👨‍👩‍👦‍👦': [
+    '👨👩👦👦': [
         'Perhe Äitien, Isän ja kahden Pojan kanssa',
         'Perhe: Mies, Nainen, Poja, Poika'
     ],
-    '👨‍👩‍👧‍👧': [
+    '👨👩👧👧': [
         'Perhe Äidin, Isän ja kahden Tyttären kanssa',
         'Perhe: Mies, Nainen, Tyttö, Tyttö'
     ],
-    '👨‍👨‍👦': [
+    '👨👨👦': [
         'Perhe kahden Isän ja Pojan kanssa',
         'Perhe: Mies, Mies, Poika'
     ],
-    '👨‍👨‍👧': [
+    '👨👨👧': [
         'Perhe kahden Isän ja Tyttären kanssa',
         'Perhe: Mies, Mies, Tyttö'
     ],
-    '👨‍👨‍👧‍👦': [
+    '👨👨👧👦': [
         'Perhe kahden Isän, Pojan ja Tyttären kanssa',
         'Perhe: Mies, Mies, Tyttö, Poika'
     ],
-    '👨‍👨‍👦‍👦': [
+    '👨👨👦👦': [
         'Perhe kahden Isän ja kahden Pojan kanssa',
         'Perhe: Mies, Mies, poika, Poika'
     ],
-    '👨‍👨‍👧‍👧': [
+    '👨👨👧👧': [
         'Perhe kahden Isän ja kahden Tyttären kanssa',
         'Perhe: Mies, Mies, Tyttö, Tyttö'
     ],
-    '👩‍👩‍👦': [
+    '👩👩👦': [
         'Perhe kaksi äitiä ja poika',
         'Perhe: Nainen, Nainen, Poika'
     ],
-    '👩‍👩‍👧': [
+    '👩👩👧': [
         'Perhe kahden äidin ja tyttären kanssa',
         'Perhe: Nainen, Nainen, Tyttö'
     ],
-    '👩‍👩‍👧‍👦': [
+    '👩👩👧👦': [
         'Perhe kahden äidin kanssa, poika ja tytär',
         'Perhe: Nainen, Nainen, Tyttö, Poika'
     ],
-    '👩‍👩‍👦‍👦': [
+    '👩👩👦👦': [
         'Perhe kaksi äitiä ja kaksi poikaa',
         'Perhe: Nainen, Nainen, Poja, Poika'
     ],
-    '👩‍👩‍👧‍👧': [
+    '👩👩👧👧': [
         'Perhe kahden äidin ja kahden tyttären kanssa',
         'Perhe: Nainen, Nainen, Tyttö, Tyttö'
     ],
-    '👨‍👦': [
+    '👨👦': [
         'Perhe Isän ja Pojan kanssa',
         'Perhe: Mies, Poika'
     ],
-    '👨‍👦‍👦': [
+    '👨👦👦': [
         'Perhe: Mies, poika, Poika',
         'Perhe Isän ja kahden Pojan kanssa'
     ],
-    '👨‍👧': [
+    '👨👧': [
         'Perhe Isän ja tyttären kanssa',
         'Perhe: Mies, Tyttö'
     ],
-    '👨‍👧‍👦': [
+    '👨👧👦': [
         'Perhe Isän, Pojan ja Tyttären kanssa',
         'Perhe: Mies, Tyttö, Poika'
     ],
-    '👨‍👧‍👧': [
+    '👨👧👧': [
         'Perhe Isän ja kahden Tyttären kanssa',
         'Perhe: Mies, Tyttö, Tyttö'
     ],
-    '👩‍👦': [
+    '👩👦': [
         'Perhe Äidin ja Pojan kanssa',
         'Perhe: Nainen, Poika'
     ],
-    '👩‍👦‍👦': [
+    '👩👦👦': [
         'Perhe Äiti ja kaksi poikaa',
         'Perhe: Nainen, Poja, Poika'
     ],
-    '👩‍👧': [
+    '👩👧': [
         'Perhe Äiti ja tytär',
         'Perhe: Nainen, Tyttö'
     ],
-    '👩‍👧‍👦': [
+    '👩👧👦': [
         'Perhe Äidin, Pojan ja Tyttären kanssa',
         'Perhe: Nainen, Tyttö, Poika'
     ],
-    '👩‍👧‍👧': [
+    '👩👧👧': [
         'Perhe Äiti ja kaksi tytärtä',
         'Perhe: Nainen, Tyttö, Tyttö'
     ],
@@ -1157,19 +1157,19 @@ emojis_language[lang][3] = {
         'Rakastava Pariskunta',
         'Ihminen ja nainen sydämen kanssa'
     ],
-    '👨‍❤️‍👨': [
+    '👨❤️👨': [
         'Kaksi Miehtä Sydämellä',
         'Pariskunta sydämen kanssa: mies, mies'
     ],
-    '👩‍❤️‍👩': [
+    '👩❤️👩': [
         'Kaksi Naiset Sydämessä',
         'Pari sydämen kanssa: Nainen, Nainen'
     ],
-    '💆{{skin_tone}}‍‍♂️': ['Miehen Pään Hieronta'],
-    '💆{{skin_tone}}‍♀️': ['Nainen Päähieronta'],
-    '💇{{skin_tone}}‍‍♂️': ['Mies Hiusleikkuu'],
-    '💇{{skin_tone}}‍‍♀️': ['Nainen Saada Hiusleikkauksia'],
-    '🛌{{skin_tone}}‍': [
+    '💆{{skin_tone}}♂️': ['Miehen Pään Hieronta'],
+    '💆{{skin_tone}}♀️': ['Nainen Päähieronta'],
+    '💇{{skin_tone}}♂️': ['Mies Hiusleikkuu'],
+    '💇{{skin_tone}}♀️': ['Nainen Saada Hiusleikkauksia'],
+    '🛌{{skin_tone}}': [
         'Nukkuva Majoitus',
         'Henkilö sängyssä',
         'Henkilö Nukkuminen'
@@ -1279,7 +1279,7 @@ emojis_language[lang][4] = {
         'Silmien Koiran Seeing',
         'Opas Koira'
     ],
-    '🐕‍🦺': ['Palvelun Koira'],
+    '🐕🦺': ['Palvelun Koira'],
     '🐩': [
         'Poodle',
         'Koira',
@@ -1308,7 +1308,7 @@ emojis_language[lang][4] = {
         'Kenttä',
         'Talo'
     ],
-    '🐈‍⬛': ['Musta Kissa'],
+    '🐈⬛': ['Musta Kissa'],
     '🦁': [
         'Leijona',
         'Lion Face'
@@ -1637,7 +1637,7 @@ emojis_language[lang][4] = {
     '🦬': ['Bison'],
     '🦣': ['Mammutti'],
     '🦫': ['Majakka'],
-    '🐻‍❄️': ['Polar Karhu'],
+    '🐻❄️': ['Polar Karhu'],
     '🦤': ['Dodo'],
     '🦭': ['Sinetti'],
     '🪲': ['Kuoriainen'],
@@ -3506,16 +3506,16 @@ emojis_language[lang][7] = {
         'Valkoinen Lippu',
         'Aaltoileva Valkoinen Lippu'
     ],
-    '🏳️‍🌈': [
+    '🏳️🌈': [
         'Sateenkaaren Lippu',
         'Pride Flag'
     ],
-    '🏳️‍⚧️': [
+    '🏳️⚧️': [
         'Transsukupuolinen Lippu',
         'Sininen, vaaleanpunainen, valkoinen lippu',
         'Trans Lippu'
     ],
-    '🏴‍☠️': [
+    '🏴☠️': [
         'Merirosvo Lippu',
         'Jolly Roger'
     ],
@@ -4820,76 +4820,76 @@ emojis_language[lang][7] = {
 };
 /*sports*/
 emojis_language[lang][8] = {
-    '🧗{{skin_tone}}‍‍♂️': [
+    '🧗{{skin_tone}}♂️': [
         'Mies Kiipeily',
         'Mies Rock Climber',
         'Mies Kiipeilijä'
     ],
-    '🧗{{skin_tone}}‍‍♀️': [
+    '🧗{{skin_tone}}♀️': [
         'Nainen Kiipeily',
         'Nainen Rock Climber',
         'Nainen Kiipeilijä'
     ],
-    '🏇{{skin_tone}}‍': [
+    '🏇{{skin_tone}}': [
         'Hevonen Racing',
         'Hevosen Rotu',
         'Pitsi'
     ],
-    '⛷{{skin_tone}}‍️': ['Hiihtäjä'],
-    '🏂{{skin_tone}}‍': ['Snowboarder'],
-    '🏌️{{skin_tone}}‍♂️': ['Man Golfer'],
-    '🏌️{{skin_tone}}‍♀️': ['Nainen Golfer'],
-    '🏄{{skin_tone}}‍♂️': ['Ihmisen Surferi'],
-    '🏄{{skin_tone}}‍♀️': ['Nainen Surfer'],
-    '🚣{{skin_tone}}‍‍♂️': ['Miehen Soutuvene'],
-    '🚣{{skin_tone}}‍‍♀️': ['Nainen Soutuvene'],
-    '🏊{{skin_tone}}‍‍♂️': [
+    '⛷{{skin_tone}}️': ['Hiihtäjä'],
+    '🏂{{skin_tone}}': ['Snowboarder'],
+    '🏌️{{skin_tone}}♂️': ['Man Golfer'],
+    '🏌️{{skin_tone}}♀️': ['Nainen Golfer'],
+    '🏄{{skin_tone}}♂️': ['Ihmisen Surferi'],
+    '🏄{{skin_tone}}♀️': ['Nainen Surfer'],
+    '🚣{{skin_tone}}♂️': ['Miehen Soutuvene'],
+    '🚣{{skin_tone}}♀️': ['Nainen Soutuvene'],
+    '🏊{{skin_tone}}♂️': [
         'Miehen Uinti',
         'Mies Uima'
     ],
-    '🏊{{skin_tone}}‍‍♀️': [
+    '🏊{{skin_tone}}♀️': [
         'Nainen Uinti',
         'Nainen Uima'
     ],
-    '⛹{{skin_tone}}‍️‍♂️': [
+    '⛹{{skin_tone}}️♂️': [
         'Miehen Pallo',
         'Man Koripallo Pelaaja'
     ],
-    '⛹️{{skin_tone}}‍♀️': [
+    '⛹️{{skin_tone}}♀️': [
         'Nainen Bouncing Ball',
         'Nainen Koripallo Pelaaja'
     ],
-    '🏋️{{skin_tone}}‍♂️': [
+    '🏋️{{skin_tone}}♂️': [
         'Mies Nostopainot',
         'Miehen Painonnostin'
     ],
-    '🏋️{{skin_tone}}‍♀️': [
+    '🏋️{{skin_tone}}♀️': [
         'Naisen Nostopainot',
         'Naisen Painonnostaja'
     ],
-    '🚴{{skin_tone}}‍♂️': [
+    '🚴{{skin_tone}}♂️': [
         'Miehen Pyöräily',
         'Man Cyclist',
         'Miehen Pyöräily'
     ],
-    '🚴{{skin_tone}}‍♀️': [
+    '🚴{{skin_tone}}♀️': [
         'Nainen Pyöräily',
         'Nainen Syklisti',
         'Naisen Syklisti'
     ],
-    '🚵{{skin_tone}}‍♂️': [
+    '🚵{{skin_tone}}♂️': [
         'Miehen Vuorten Pyöräily',
         'Man Mountain Biker'
     ],
-    '🚵{{skin_tone}}‍♀️': [
+    '🚵{{skin_tone}}♀️': [
         'Naisen Vuorten Pyöräily',
         'Nainen Vuorikiipeilijä'
     ],
-    '🤸{{skin_tone}}‍♂️': [
+    '🤸{{skin_tone}}♂️': [
         'Man Cartwheeling',
         'Man Doing Cartwheel'
     ],
-    '🤸{{skin_tone}}‍♀️': [
+    '🤸{{skin_tone}}♀️': [
         'Naisen Rintapyöräily',
         'Nainen Ajopyörä'
     ],
@@ -4898,24 +4898,36 @@ emojis_language[lang][8] = {
         'Paini',
         'Painit'
     ],
-    '🤽{{skin_tone}}‍♂️': ['Mies Playing Water Polo'],
-    '🤽{{skin_tone}}‍♀️': ['Nainen Leikkii Vesi Polo'],
-    '🤾{{skin_tone}}‍♂️': ['Mies Soi Käsipallo'],
-    '🤾{{skin_tone}}‍♀️': ['Nainen Pelaa Käsipalloa'],
-    '🤹{{skin_tone}}‍♂️': [
+    '🤽{{skin_tone}}♂️': ['Mies Playing Water Polo'],
+    '🤽{{skin_tone}}♀️': ['Nainen Leikkii Vesi Polo'],
+    '🤾{{skin_tone}}♂️': ['Mies Soi Käsipallo'],
+    '🤾{{skin_tone}}♀️': ['Nainen Pelaa Käsipalloa'],
+    '🤹{{skin_tone}}♂️': [
         'Mies Juggling',
         'Mies Juggler'
     ],
-    '🤹{{skin_tone}}‍♀️': [
+    '🤹{{skin_tone}}♀️': [
         'Nainen Juggling',
         'Nainen Juggler'
     ],
-    '🧘{{skin_tone}}‍♂️': ['Mies Lotussijainnissa'],
-    '🧘{{skin_tone}}‍♀️': ['Nainen Lotus-asennossa'],
-    '🏃{{skin_tone}}‍♂️': ['Mies Käynnissä'],
-    '🏃{{skin_tone}}‍♀️': ['Nainen Käynnissä'],
-    '🕺{{skin_tone}}‍': ['Mies Tanssi'],
-    '💃{{skin_tone}}‍': ['Nainen Tanssi'],
+    '🧘{{skin_tone}}♂️': [
+        'Mies Lotussijainnissa',
+        'Meditation',
+        'Zen',
+        'Cross legged',
+        'Yoga'
+    ],
+    '🧘{{skin_tone}}♀️': [
+        'Nainen Lotus-asennossa',
+        'Meditation',
+        'Zen',
+        'Cross legged',
+        'Yoga'
+    ],
+    '🏃{{skin_tone}}♂️': ['Mies Käynnissä'],
+    '🏃{{skin_tone}}♀️': ['Nainen Käynnissä'],
+    '🕺{{skin_tone}}': ['Mies Tanssi'],
+    '💃{{skin_tone}}': ['Nainen Tanssi'],
     '🤺': [
         'Henkilö Miekkailu',
         'Fancer'
@@ -6041,100 +6053,100 @@ emojis_language[lang][12] = {
         'Pelattu Käsi',
         'Raised käsi kanssa Fingers Splayed'
     ],
-    '🤚{{skin_tone}}‍': [
+    '🤚{{skin_tone}}': [
         'Raised Back of Hand',
         'Tausta'
     ],
-    '✋{{skin_tone}}‍': [
+    '✋{{skin_tone}}': [
         'Nostettu Käsi',
         'Korkea Viisi',
         'Pysäytä'
     ],
-    '🖖{{skin_tone}}‍': [
+    '🖖{{skin_tone}}': [
         'Vulcan Salute',
         'Spock',
         'Tähti Trek',
         'Raised Hand kanssa Osa Välillä keski-ja rengas Fingers'
     ],
-    '👌{{skin_tone}}‍': [
+    '👌{{skin_tone}}': [
         'Ok Käsi Allekirjoitus',
         'Okei',
         'Täydellinen',
         'Kyllä'
     ],
-    '✌️{{skin_tone}}‍': [
+    '✌️{{skin_tone}}': [
         'Voitto Käsi',
         'Ilmaa Koskevat Lainaukset',
         'Rauhan Allekirjoitus',
         'V Allekirjoitus'
     ],
-    '🤞{{skin_tone}}‍': [
+    '🤞{{skin_tone}}': [
         'Risteytetyt Sormet',
         'Sormien Risteytys',
         'Onnea',
         'Käsi indeksin ja Middle Fingers Crossed'
     ],
-    '🤟{{skin_tone}}‍': [
+    '🤟{{skin_tone}}': [
         'Love-You Eleet',
         'Rakastan Sinua Käsi Allekirjoitus'
     ],
-    '🤘{{skin_tone}}‍': [
+    '🤘{{skin_tone}}': [
         'Sarvten merkki',
         'Devil Fingers',
         'Raskas Metalli',
         'Rock Päällä'
     ],
-    '🤙{{skin_tone}}‍': [
+    '🤙{{skin_tone}}': [
         'Soita Minulle Käsi Allekirjoitus',
         'Puhelimen Käsi',
         'Shaka'
     ],
-    '🤏{{skin_tone}}‍': ['Puristava Käsi'],
-    '👈{{skin_tone}}‍': [
+    '🤏{{skin_tone}}': ['Puristava Käsi'],
+    '👈{{skin_tone}}': [
         'Taustahakemisto Osoittaa Vasemmalle',
         'Valkoinen Vasemmalle Osoittaen Taustan Indeksi'
     ],
-    '👉{{skin_tone}}‍': [
+    '👉{{skin_tone}}': [
         'Taustahakemisto Osoittaa Oikealle',
         'Valkoinen Oikea Osoittaa Taustan Indeksi'
     ],
-    '👆{{skin_tone}}‍': [
+    '👆{{skin_tone}}': [
         'Taustaindeksin Pisteytys Ylös',
         'Valkoinen Ylös Pointing Backhand Indeksi',
         'Keski Sormi'
     ],
-    '👇{{skin_tone}}‍': [
+    '👇{{skin_tone}}': [
         'Taustan Indeksi Pointing Alas',
         'Valkoinen Alas Pisteytys Backhand Indeksi',
         'Pisteytys Alas'
     ],
-    '☝{{skin_tone}}‍️': [
-        'Indeksoi Sormen Pisteytys Ylös',
-        'Valkoinen Ylös Pisteytys Indeksi',
-        'Salainen'
+    '☝{{skin_tone}}️': [
+        'Index Finger Pointing Up',
+        'White Up Pointing Index',
+        'Secret'
     ],
-    '🖕{{skin_tone}}‍': [
+    '🖕{{skin_tone}}': [
         'Keski Sormi',
         'Flipping The Bird',
         'Rude Sormi',
         'Käänteinen käsi keski-sormella laajennettu'
     ],
-    '👍{{skin_tone}}‍': [
+    '👍{{skin_tone}}': [
         'Peukalot Ylös Kirjaudu',
         'Tykkää',
         'Kyllä'
     ],
-    '👎{{skin_tone}}‍': [
+    '👎{{skin_tone}}': [
         'Peukalot Alas Allekirjoitus',
         'Huono',
         'Dislike',
         'Ei'
     ],
-    '✊{{skin_tone}}‍': [
+    '✊{{skin_tone}}': [
         'Nostettu Fist',
         'Fist Pumppu'
     ],
-    '👊{{skin_tone}}‍': [
+    '👊{{skin_tone}}': [
         'Saapuva Fist',
         'Bro Fist',
         'Brofist',
@@ -6143,14 +6155,14 @@ emojis_language[lang][12] = {
         'Suljettu Fist',
         'Nyrkkeilyn Käsi Allekirjoitus'
     ],
-    '🤛{{skin_tone}}‍': ['Vasen Nyrkki Pumppu'],
-    '🤜{{skin_tone}}‍': ['Oikea Fist Bump'],
-    '🤌{{skin_tone}}‍': [
+    '🤛{{skin_tone}}': ['Vasen Nyrkki Pumppu'],
+    '🤜{{skin_tone}}': ['Oikea Fist Bump'],
+    '🤌{{skin_tone}}': [
         'Puristetut Sormet',
         'Ma Che Vuoi',
         'Sormen Kukkaro'
     ],
-    '👏{{skin_tone}}‍': [
+    '👏{{skin_tone}}': [
         'Papimisen Käsien Kyltti',
         'Suosionosoituksia',
         'Clap',
@@ -6158,7 +6170,7 @@ emojis_language[lang][12] = {
         'Golf Clap',
         'Pyöreä Suosionosoituksia'
     ],
-    '🙌{{skin_tone}}‍': [
+    '🙌{{skin_tone}}': [
         'Henkilö nostaa molemmat kädet juhlissa',
         'Käsien nostaminen',
         'Aseet Ilmassa',
@@ -6168,20 +6180,20 @@ emojis_language[lang][12] = {
         'Kehua Kädet',
         'Kaksi Kättä'
     ],
-    '👐{{skin_tone}}‍': [
+    '👐{{skin_tone}}': [
         'Avaa Käsien Allekirjoitus',
         'Halaus',
         'Jazz Kädet'
     ],
-    '🤲{{skin_tone}}‍': [
+    '🤲{{skin_tone}}': [
         'Palmut Ylös Yhdessä',
         'Dua'
     ],
-    '🤝{{skin_tone}}‍': [
+    '🤝{{skin_tone}}': [
         'Handshake',
         'Ravistus Kädet'
     ],
-    '🙏{{skin_tone}}‍': [
+    '🙏{{skin_tone}}': [
         'Taitettu Kädet',
         'Namaste',
         'Ole hyvä',
@@ -6189,28 +6201,28 @@ emojis_language[lang][12] = {
         'Kiitos Olet',
         'Henkilö, jolla on taitettu kädet'
     ],
-    '✍{{skin_tone}}‍️': ['Kirjoitetaan Käsi'],
-    '💪{{skin_tone}}‍': [
+    '✍{{skin_tone}}️': ['Kirjoitetaan Käsi'],
+    '💪{{skin_tone}}': [
         'Flexed Biceps',
         'Taipuisat Varren Lihakset',
         'Musle',
         'Vahva'
     ],
-    '🦵{{skin_tone}}‍': ['Jalka'],
-    '🦶{{skin_tone}}‍': ['Jalka'],
-    '👂{{skin_tone}}‍': [
+    '🦵{{skin_tone}}': ['Jalka'],
+    '🦶{{skin_tone}}': ['Jalka'],
+    '👂{{skin_tone}}': [
         'Korva',
         'Korvat',
         'Kuulemistilaisuus',
-        'Kuunteleminen'
+        'Kuunnellaan'
     ],
-    '👃{{skin_tone}}‍': [
+    '👃{{skin_tone}}': [
         'Nenä',
         'Hajuvesi',
         'Nuuskinta',
         'Stinky'
     ],
-    '🧠': ['Aivot'],
+    '': ['Brain'],
     '🦷': ['Hammas'],
     '👀': [
         'Silmät',
@@ -7162,7 +7174,7 @@ emojis_language[lang][13] = {
         'Kortin Indeksi'
     ],
     '🕳️': ['Reikä'],
-    '👁️‍🗨️': [
+    '👁️🗨️': [
         'MINÄ OLEN Todistus',
         'Silmä puhetta Bubble'
     ],

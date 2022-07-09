@@ -9,7 +9,7 @@ titles_language[lang] = {
     '🦊': 'Dyr',
     '🅰️': 'Symboler',
     '🍎': 'Mat og drikke',
-    '🏳️‍🌈': 'Flagg',
+    '🏳️🌈': 'Flagg',
     '🏊': 'Sport',
     '✈️': 'Reise og steder',
     '🖱️': 'Teknologi og kontor',
@@ -594,11 +594,11 @@ emojis_language[lang][2] = {
         'Alvorlig ansikt med symboler for dekkende mor'
     ],
     '🥲': ['Smil ansikt med tåre'],
-    '😮‍💨': [
+    '😮💨': [
         'Face Exhaling',
         'Sigh'
     ],
-    '😵‍💫': [
+    '😵💫': [
         'Face with Spiral Eyes',
         'Dizzy Face'
     ],
@@ -709,21 +709,21 @@ emojis_language[lang][3] = {
         'Berget mann',
         'Bearded Person'
     ],
-    '👨{{skin_tone}}‍🦰': [
+    '👨{{skin_tone}}🦰': [
         'Man: Rød hår',
         'Sanger Mann',
         'Man Redhead',
         'Mann med rødt hår'
     ],
-    '👨{{skin_tone}}‍🦱': [
+    '👨{{skin_tone}}🦱': [
         'Man: Krølllhår',
         'Mann med krølle hår'
     ],
-    '👨{{skin_tone}}‍🦳': [
+    '👨{{skin_tone}}🦳': [
         'Man: Hvit hår',
         'Mann med grå hår'
     ],
-    '👨{{skin_tone}}‍🦲': [
+    '👨{{skin_tone}}🦲': [
         'Man: Bald',
         'Mann med Intet Hår'
     ],
@@ -733,43 +733,43 @@ emojis_language[lang][3] = {
         'Dame',
         'Gul dame'
     ],
-    '👩{{skin_tone}}‍🦰': [
+    '👩{{skin_tone}}🦰': [
         'Kvinner: Rød Hår',
         'Finger dame',
         'Woman Redhead',
         'Kvinne med rødt hår'
     ],
-    '👩{{skin_tone}}‍🦱': [
+    '👩{{skin_tone}}🦱': [
         'Kvinner: Krølllhår',
         'Kvinne med kaffe hår'
     ],
-    '👩{{skin_tone}}‍🦳': [
+    '👩{{skin_tone}}🦳': [
         'Kvinner: Hvit hår',
         'Kvinne med grå hår'
     ],
-    '👩{{skin_tone}}‍🦲': [
+    '👩{{skin_tone}}🦲': [
         'Kvinner: Bald',
         'Kvinne i Intet Hår'
     ],
-    '👱{{skin_tone}}‍♀️': [
+    '👱{{skin_tone}}♀️': [
         'Kvinner: Blond hår',
         'Kvinne med Blonde Hår'
     ],
-    '👱{{skin_tone}}‍♂️': [
+    '👱{{skin_tone}}♂️': [
         'Man: ond hår',
         'Mennesket med Blonde Hår'
     ],
-    '🧓{{skin_tone}}‍': [
+    '🧓{{skin_tone}}': [
         'Eldre person',
         'Kjønn nøytral eldre voksne'
     ],
-    '👴{{skin_tone}}‍': [
+    '👴{{skin_tone}}': [
         'Gammel mann',
         'Gammel mann',
         'Grandpa',
         'Eldre mann'
     ],
-    '👵{{skin_tone}}‍': [
+    '👵{{skin_tone}}': [
         'Gammel dame',
         'Eldre dame',
         'Bestemor',
@@ -777,98 +777,98 @@ emojis_language[lang][3] = {
         'Gammel dame',
         'Eldre dame'
     ],
-    '👼{{skin_tone}}‍': [
+    '👼{{skin_tone}}': [
         'Baby Engel',
         'Engel',
         'Cherub',
         'Hemmelig',
         'Putto'
     ],
-    '🎅{{skin_tone}}‍': [
+    '🎅{{skin_tone}}': [
         'Julenisse',
         'Saint Nicholas',
         'Sinterklaas',
         'Far Julen'
     ],
-    '🤶{{skin_tone}}‍': [
+    '🤶{{skin_tone}}': [
         'Fru julenisse',
         'Mor Julaften'
     ],
-    '🤴{{skin_tone}}‍': ['Prins'],
-    '👸{{skin_tone}}‍': [
+    '🤴{{skin_tone}}': ['Prins'],
+    '👸{{skin_tone}}': [
         'Prinsesse',
         'Blonde jente',
         'Jente med krone',
         'Jente Med Tiara'
     ],
-    '👳{{skin_tone}}‍♂️': ['Mann jente Turban'],
-    '👳{{skin_tone}}‍♀️': ['Kvinne fryktelig Turban'],
-    '👲{{skin_tone}}‍': [
+    '👳{{skin_tone}}♂️': ['Mann jente Turban'],
+    '👳{{skin_tone}}♀️': ['Kvinne fryktelig Turban'],
+    '👲{{skin_tone}}': [
         'Person med hodeskall',
         'Asiatisk mann',
         'Mann med kinesisk hatt',
         'Mann med Gua Pi Mao'
     ],
-    '🧕{{skin_tone}}‍': [
+    '🧕{{skin_tone}}': [
         'Kvinne med hoskarf',
         'Hijab',
         'Person med hodebunn'
     ],
-    '🤵{{skin_tone}}‍': [
+    '🤵{{skin_tone}}': [
         'Person i Tuxedo',
         'Groom',
         'Mann i Drakt',
         'Mann i Tuxedo'
     ],
-    '👰{{skin_tone}}‍': [
+    '👰{{skin_tone}}': [
         'Person med Veil',
         'Bro',
         'Bro med Veil'
     ],
-    '👰{{skin_tone}}‍♂️': ['Mann med Veil'],
-    '👰{{skin_tone}}‍♀️': ['Kvinne med Veil'],
-    '👩{{skin_tone}}‍🍼': ['Kvinne mating Baby'],
-    '👨{{skin_tone}}‍🍼': ['Menneskemat Baby'],
+    '👰{{skin_tone}}♂️': ['Mann med Veil'],
+    '👰{{skin_tone}}♀️': ['Kvinne med Veil'],
+    '👩{{skin_tone}}🍼': ['Kvinne mating Baby'],
+    '👨{{skin_tone}}🍼': ['Menneskemat Baby'],
     '🥷': ['Ninja'],
-    '🤰{{skin_tone}}‍': [
+    '🤰{{skin_tone}}': [
         'Gravide dame',
         'Graviditet',
         'Gravid kvinne'
     ],
-    '🤱{{skin_tone}}‍': [
+    '🤱{{skin_tone}}': [
         'Amming',
         'Amming.'
     ],
-    '🦸{{skin_tone}}‍♂️': ['Mann Superhelt'],
-    '🦸{{skin_tone}}‍‍♀️': ['Kvinne Superhelt'],
-    '🦹{{skin_tone}}‍‍♂️': ['Mann Supervillin'],
-    '🦹{{skin_tone}}‍‍♀️': ['Kvinnisk Supervillberg'],
-    '🧙{{skin_tone}}‍': [
+    '🦸{{skin_tone}}♂️': ['Mann Superhelt'],
+    '🦸{{skin_tone}}♀️': ['Kvinne Superhelt'],
+    '🦹{{skin_tone}}♂️': ['Mann Supervillin'],
+    '🦹{{skin_tone}}♀️': ['Kvinnisk Supervillberg'],
+    '🧙{{skin_tone}}': [
         'Magiker',
         'Sorcerer',
         'Ørhet',
         'Heks',
         'Veiviser'
     ],
-    '🧙{{skin_tone}}‍‍♀️': [
+    '🧙{{skin_tone}}♀️': [
         'Kvinne Magiker',
         'Heks',
         'Ørhet'
     ],
-    '🧚{{skin_tone}}‍‍♂️': ['Mann Fe'],
-    '🧚{{skin_tone}}‍♀️': ['Kvinne Fe'],
-    '🧛{{skin_tone}}‍♂️': [
+    '🧚{{skin_tone}}♂️': ['Mann Fe'],
+    '🧚{{skin_tone}}♀️': ['Kvinne Fe'],
+    '🧛{{skin_tone}}♂️': [
         'Mannlig Vampyr',
         'Drakula'
     ],
-    '🧛{{skin_tone}}‍‍♀️': ['Kvinne Vampyr'],
-    '🧜{{skin_tone}}‍♂️': ['Merman'],
-    '🧜{{skin_tone}}‍♀️': ['Havfrue'],
-    '🧝{{skin_tone}}‍♂️': ['Mann alv'],
-    '🧝{{skin_tone}}‍♀️': ['Kvinne alv'],
-    '🧞‍♂️': ['Man Genie'],
-    '🧞‍♀️': ['Woman Genie'],
-    '🕵️{{skin_tone}}‍♂️': [
+    '🧛{{skin_tone}}♀️': ['Kvinne Vampyr'],
+    '🧜{{skin_tone}}♂️': ['Merman'],
+    '🧜{{skin_tone}}♀️': ['Havfrue'],
+    '🧝{{skin_tone}}♂️': ['Mann alv'],
+    '🧝{{skin_tone}}♀️': ['Kvinne alv'],
+    '🧞♂️': ['Man Genie'],
+    '🧞♀️': ['Woman Genie'],
+    '🕵️{{skin_tone}}♂️': [
         'Mann Detektiv',
         'Privat øye',
         'Sleuth',
@@ -878,276 +878,276 @@ emojis_language[lang][3] = {
         '007',
         'Inspektør'
     ],
-    '🕵️{{skin_tone}}‍♀️': ['Kvinne detektiv'],
-    '💂{{skin_tone}}‍': [
+    '🕵️{{skin_tone}}♀️': ['Kvinne detektiv'],
+    '💂{{skin_tone}}': [
         'Vakt',
         'Britisk Guardsman',
         'Fot vakt'
     ],
-    '💂{{skin_tone}}‍‍♀️': ['Kvinne vakt'],
-    '👮{{skin_tone}}‍': [
+    '💂{{skin_tone}}♀️': ['Kvinne vakt'],
+    '👮{{skin_tone}}': [
         'Politipolitisk offiser',
         'Kopp',
         'Politi',
         'Politisk',
         'Policewomansk'
     ],
-    '👮{{skin_tone}}‍‍♀️': ['Kvinne politimyndighet'],
-    '👨{{skin_tone}}‍🚒': ['Mannlig Brannmann'],
-    '👩{{skin_tone}}‍‍🚒': ['Kvinne i Brannmann'],
-    '👨{{skin_tone}}‍‍✈️': ['Mann Pilot'],
-    '👩{{skin_tone}}‍‍✈️': ['Kvinne Pilot'],
-    '👨{{skin_tone}}‍💻': [
+    '👮{{skin_tone}}♀️': ['Kvinne politimyndighet'],
+    '👨{{skin_tone}}🚒': ['Mannlig Brannmann'],
+    '👩{{skin_tone}}🚒': ['Kvinne i Brannmann'],
+    '👨{{skin_tone}}✈️': ['Mann Pilot'],
+    '👩{{skin_tone}}✈️': ['Kvinne Pilot'],
+    '👨{{skin_tone}}💻': [
         'Mannlig teknologi',
         'Mannlig teknologi'
     ],
-    '👩{{skin_tone}}‍💻': ['Kvinne teknologist'],
-    '👨{{skin_tone}}‍🎤': [
+    '👩{{skin_tone}}💻': ['Kvinne teknologist'],
+    '👨{{skin_tone}}🎤': [
         'Mann sanger',
         'Bowie',
         'Aladdin Sane'
     ],
-    '👩{{skin_tone}}‍🎤': ['Kvinnesanger'],
-    '👨{{skin_tone}}‍🎨': ['Mann artist'],
-    '👩{{skin_tone}}‍🎨': ['Kvinne Artist'],
-    '👷{{skin_tone}}‍‍♂️': ['Mann byggearbeider'],
-    '👷{{skin_tone}}‍‍♀️': ['Kvinne byggearbeider'],
-    '👨{{skin_tone}}‍‍🚀': [
+    '👩{{skin_tone}}🎤': ['Kvinnesanger'],
+    '👨{{skin_tone}}🎨': ['Mann artist'],
+    '👩{{skin_tone}}🎨': ['Kvinne Artist'],
+    '👷{{skin_tone}}♂️': ['Mann byggearbeider'],
+    '👷{{skin_tone}}♀️': ['Kvinne byggearbeider'],
+    '👨{{skin_tone}}🚀': [
         'Mann Astronaut',
         'Mann Kosmonaut'
     ],
-    '👩{{skin_tone}}‍‍🚀': [
+    '👩{{skin_tone}}🚀': [
         'Kvinne Astronaut',
         'Kvinne monmonaut'
     ],
-    '👨{{skin_tone}}‍‍🔬': ['Mann Forsker'],
-    '👩{{skin_tone}}‍‍🔬': ['Kvinne forsker'],
-    '👨{{skin_tone}}‍💼': [
+    '👨{{skin_tone}}🔬': ['Mann Forsker'],
+    '👩{{skin_tone}}🔬': ['Kvinne forsker'],
+    '👨{{skin_tone}}💼': [
         'Mannlig kontorarbeider',
         'Administrerende direktør',
         'Forretningsmann'
     ],
-    '👩{{skin_tone}}‍💼': [
+    '👩{{skin_tone}}💼': [
         'Kvinne i kontorarbeider',
         'Bedøvende kvinne',
         'Administrerende direktør'
     ],
-    '👨{{skin_tone}}‍🏭': ['Manisk fabrikkarbeider'],
-    '👩{{skin_tone}}‍‍🏭': ['Kvinnelig fabrikkarbeider'],
-    '👨{{skin_tone}}‍‍🔧': ['Mann Mekanisk'],
-    '👩{{skin_tone}}‍‍🔧': ['Kvinne Mekanisk'],
-    '👨{{skin_tone}}‍‍🍳': [
+    '👨{{skin_tone}}🏭': ['Manisk fabrikkarbeider'],
+    '👩{{skin_tone}}🏭': ['Kvinnelig fabrikkarbeider'],
+    '👨{{skin_tone}}🔧': ['Mann Mekanisk'],
+    '👩{{skin_tone}}🔧': ['Kvinne Mekanisk'],
+    '👨{{skin_tone}}🍳': [
         'Mann kokk',
         'Mann kokk',
         'Mann kokk'
     ],
-    '👩{{skin_tone}}‍‍🍳': [
+    '👩{{skin_tone}}🍳': [
         'Kvinnesoken',
         'Kul kokk',
         'Kvinnelig kokk'
     ],
-    '👨{{skin_tone}}‍‍🌾': ['Mann Dyrker'],
-    '👩{{skin_tone}}‍‍🌾': ['Kvinne bonde'],
-    '👨{{skin_tone}}‍‍⚖️': ['Mann dommere'],
-    '👩{{skin_tone}}‍‍⚖️': ['Kvinne dommer'],
-    '👨{{skin_tone}}‍‍🏫': ['Mann lærer'],
-    '👩{{skin_tone}}‍‍🏫': ['Kvinne lærer'],
-    '👨{{skin_tone}}‍🎓': ['Mann student'],
-    '👩{{skin_tone}}‍🎓': ['Kvinne student'],
-    '👨{{skin_tone}}‍‍⚕️': [
+    '👨{{skin_tone}}🌾': ['Mann Dyrker'],
+    '👩{{skin_tone}}🌾': ['Kvinne bonde'],
+    '👨{{skin_tone}}⚖️': ['Mann dommere'],
+    '👩{{skin_tone}}⚖️': ['Kvinne dommer'],
+    '👨{{skin_tone}}🏫': ['Mann lærer'],
+    '👩{{skin_tone}}🏫': ['Kvinne lærer'],
+    '👨{{skin_tone}}🎓': ['Mann student'],
+    '👩{{skin_tone}}🎓': ['Kvinne student'],
+    '👨{{skin_tone}}⚕️': [
         'Mannlig helsearbeider',
         'Mannlig doktor',
         'Mannlig sykepleie'
     ],
-    '👩{{skin_tone}}‍⚕️': [
+    '👩{{skin_tone}}⚕️': [
         'Kvinne helsearbeider',
         'Kvinnelig doktor',
         'Kvinnelig nakke'
     ],
-    '🤷{{skin_tone}}‍♂️': [
+    '🤷{{skin_tone}}♂️': [
         'Menns krymping',
         'huk mann',
         'dunno'
     ],
-    '🤷{{skin_tone}}‍♀️': [
+    '🤷{{skin_tone}}♀️': [
         'Kvinne Brygging',
         'huk kvinne',
         'dunno'
     ],
-    '🤦{{skin_tone}}‍♂️': ['Mann ansiktslam'],
-    '🤦{{skin_tone}}‍♀️': ['Kvinne Facepalming'],
-    '🙇{{skin_tone}}‍‍♂️': ['Mann bøie'],
-    '🙇{{skin_tone}}‍‍♀️': ['Kvinne bue'],
-    '🧏{{skin_tone}}‍♂️': ['Deaf Mann'],
-    '🧏{{skin_tone}}‍‍♀️': ['Deaf dame'],
-    '🙋{{skin_tone}}‍‍♂️': [
+    '🤦{{skin_tone}}♂️': ['Mann ansiktslam'],
+    '🤦{{skin_tone}}♀️': ['Kvinne Facepalming'],
+    '🙇{{skin_tone}}♂️': ['Mann bøie'],
+    '🙇{{skin_tone}}♀️': ['Kvinne bue'],
+    '🧏{{skin_tone}}♂️': ['Deaf Mann'],
+    '🧏{{skin_tone}}♀️': ['Deaf dame'],
+    '🙋{{skin_tone}}♂️': [
         'Mann Raising Hand',
         'Glad Mann Raising One Hand'
     ],
-    '🙋{{skin_tone}}‍♀️': [
+    '🙋{{skin_tone}}♀️': [
         'Kvinne Raising Hand',
         'Glad dame Raising One Hand'
     ],
-    '💁{{skin_tone}}‍♂️': [
+    '💁{{skin_tone}}♂️': [
         'Menneskehetens Tipping Hand',
         'Information Desk Mann'
     ],
-    '💁{{skin_tone}}‍♀️': [
+    '💁{{skin_tone}}♀️': [
         'Kvinne Tipping Hand',
         'Information Desk dame'
     ],
-    '🙆{{skin_tone}}‍♂️': ['Man Gesturing OK'],
-    '🙆{{skin_tone}}‍♀️': ['Kvinnene Gest OK'],
-    '🙅{{skin_tone}}‍♂️': ['Mann flytter nei'],
-    '🙅{{skin_tone}}‍♀️': ['Kvinne Gest Nei'],
-    '🙎{{skin_tone}}‍♂️': ['Mann Pouting'],
-    '🙎{{skin_tone}}‍‍♀️': ['Kvinne posing'],
-    '🙍{{skin_tone}}‍‍♂️': ['Man Frowning'],
-    '🙍{{skin_tone}}‍‍♀️': ['Kvinne Frowning'],
-    '🧟‍‍♂️': ['Mann Zombie'],
-    '🧟‍‍♀️': ['Kvinne Zombie'],
-    '🚶{{skin_tone}}‍♂️': ['Mann går'],
-    '🚶{{skin_tone}}‍♀️': ['Kvinne gåing'],
-    '🧍{{skin_tone}}‍‍♂️': ['Mann reiser'],
-    '🧍{{skin_tone}}‍‍♀️': ['Kvinne i stand'],
-    '🧎{{skin_tone}}‍♂️': ['Mann Kneeling'],
-    '🧎{{skin_tone}}‍‍♀️': ['Kvinne Nesten'],
-    '👨{{skin_tone}}‍🦯': ['Mann med hvit stang'],
-    '👩{{skin_tone}}‍🦯': ['Kvinne med hvit stang'],
-    '👨{{skin_tone}}‍🦼': ['Mann i motorisert rullestol'],
-    '👩{{skin_tone}}‍🦼': ['Kvinne i motorisert rullestol'],
-    '👨{{skin_tone}}‍🦽': ['Mann i håndbok rullestol'],
-    '👩{{skin_tone}}‍🦽': ['Kvinne i Manuell rullestol'],
-    '👯‍♂️': ['Menn med Bunny ører'],
-    '👯‍♀️': ['Kvinner med Bunny ører'],
-    '🕴️{{skin_tone}}‍': [
+    '🙆{{skin_tone}}♂️': ['Man Gesturing OK'],
+    '🙆{{skin_tone}}♀️': ['Kvinnene Gest OK'],
+    '🙅{{skin_tone}}♂️': ['Mann flytter nei'],
+    '🙅{{skin_tone}}♀️': ['Kvinne Gest Nei'],
+    '🙎{{skin_tone}}♂️': ['Mann Pouting'],
+    '🙎{{skin_tone}}♀️': ['Kvinne posing'],
+    '🙍{{skin_tone}}♂️': ['Man Frowning'],
+    '🙍{{skin_tone}}♀️': ['Kvinne Frowning'],
+    '🧟♂️': ['Mann Zombie'],
+    '🧟♀️': ['Kvinne Zombie'],
+    '🚶{{skin_tone}}♂️': ['Mann går'],
+    '🚶{{skin_tone}}♀️': ['Kvinne gåing'],
+    '🧍{{skin_tone}}♂️': ['Mann reiser'],
+    '🧍{{skin_tone}}♀️': ['Kvinne i stand'],
+    '🧎{{skin_tone}}♂️': ['Mann Kneeling'],
+    '🧎{{skin_tone}}♀️': ['Kvinne Nesten'],
+    '👨{{skin_tone}}🦯': ['Mann med hvit stang'],
+    '👩{{skin_tone}}🦯': ['Kvinne med hvit stang'],
+    '👨{{skin_tone}}🦼': ['Mann i motorisert rullestol'],
+    '👩{{skin_tone}}🦼': ['Kvinne i motorisert rullestol'],
+    '👨{{skin_tone}}🦽': ['Mann i håndbok rullestol'],
+    '👩{{skin_tone}}🦽': ['Kvinne i Manuell rullestol'],
+    '👯♂️': ['Menn med Bunny ører'],
+    '👯♀️': ['Kvinner med Bunny ører'],
+    '🕴️{{skin_tone}}': [
         'Person i Drakt Levitating',
         'Svevende mann',
         'Rude gutt',
         'Walt Jabsco',
         'Mann i Business Drakt Levitating'
     ],
-    '🧖{{skin_tone}}‍♂️': [
+    '🧖{{skin_tone}}♂️': [
         'Mann i Steamy Room',
         'Mann i Sauna'
     ],
-    '🧖{{skin_tone}}‍♀️': [
+    '🧖{{skin_tone}}♀️': [
         'Kvinne i Steamy Room',
         'Kvinne i Sauna'
     ],
-    '👫{{skin_tone}}‍': [
+    '👫{{skin_tone}}': [
         'Kvinne og mann Holding Hands',
         'Heteroseksuelt Couple',
         'Rett Couple',
         'Mann og kvinners Holding Hands'
     ],
-    '👭{{skin_tone}}‍': [
+    '👭{{skin_tone}}': [
         'Lesbiisk Couple',
         'Kvinner som Holding Hands',
         'To kvinner Holding Hands'
     ],
-    '👬{{skin_tone}}‍': [
+    '👬{{skin_tone}}': [
         'Menn Holding Hånd',
         'Si Couple',
         'To menn Holding Hands'
     ],
-    '👨‍👩‍👦': [
+    '👨👩👦': [
         'Familie med mor, Far og Sønn',
         'Familie: Menn, Kvinner, Gutt'
     ],
-    '👨‍👩‍👧': [
+    '👨👩👧': [
         'Familie med mor, Far og døre',
         'Familie: Menn, Kvinner, Jente'
     ],
-    '👨‍👩‍👧‍👦': [
+    '👨👩👧👦': [
         'Familie med mor, Fader, Sønn og latter',
         'Familie: Menn, Kvinner, Jenter, Gutt'
     ],
-    '👨‍👩‍👦‍👦': [
+    '👨👩👦👦': [
         'Familie med mor, Fader og to sanger',
         'Familie: Menn, Kvinner, Gutt, Gutt'
     ],
-    '👨‍👩‍👧‍👧': [
+    '👨👩👧👧': [
         'Familie med mor, Fader og to latter',
         'Familie: Menn, Kvinner, jenter, jente'
     ],
-    '👨‍👨‍👦': [
+    '👨👨👦': [
         'Familie med to Fadere og Sønn',
         'Familie: Menn, Gutt'
     ],
-    '👨‍👨‍👧': [
+    '👨👨👧': [
         'Familie med to fly og latter',
         'Familie: Menn, Jente'
     ],
-    '👨‍👨‍👧‍👦': [
+    '👨👨👧👦': [
         'Familie med to farer, Sønn og drakt',
         'Familie: Menn, Menn, Jenter, Gutt'
     ],
-    '👨‍👨‍👦‍👦': [
+    '👨👨👦👦': [
         'Familie med to flaggermus og to sanger',
         'Familie: Menn, Menn, Gutt, Gutt'
     ],
-    '👨‍👨‍👧‍👧': [
+    '👨👨👧👧': [
         'Familie med to fly og to latter',
         'Familie: Menn, Menn, Jenter, Jente'
     ],
-    '👩‍👩‍👦': [
+    '👩👩👦': [
         'Familie med to mødre og Sønn',
         'Familie: Kvinner, Kvinner, Gutt'
     ],
-    '👩‍👩‍👧': [
+    '👩👩👧': [
         'Familie med to mødre og drakt',
         'Familie: Kvinner, jenter, jente'
     ],
-    '👩‍👩‍👧‍👦': [
+    '👩👩👧👦': [
         'Familie med to mor, Sønn og drakt',
         'Familie: Kvinner, jenter, gutt'
     ],
-    '👩‍👩‍👦‍👦': [
+    '👩👩👦👦': [
         'Familie med to mødre og to sanger',
         'Familie: Kvinner, Gutt, Gutt'
     ],
-    '👩‍👩‍👧‍👧': [
+    '👩👩👧👧': [
         'Familie med to mødre og to latter',
         'Familie: Kvinner, jenter, jente'
     ],
-    '👨‍👦': [
+    '👨👦': [
         'Familie med Far og Sønn',
         'Familie: Menn, Gutt'
     ],
-    '👨‍👦‍👦': [
+    '👨👦👦': [
         'Familie: Menn, Gutt',
         'Familie med Fader og to sanger'
     ],
-    '👨‍👧': [
+    '👨👧': [
         'Familie med Far og Morter',
         'Familie: Menn, Jente'
     ],
-    '👨‍👧‍👦': [
+    '👨👧👦': [
         'Familie med Fader, Sønn og latter',
         'Familie: Menn, Jenter, Gutt'
     ],
-    '👨‍👧‍👧': [
+    '👨👧👧': [
         'Familie med Fader og to angrep',
         'Familie: Menn, jenter, jente'
     ],
-    '👩‍👦': [
+    '👩👦': [
         'Familie med mor og Sønn',
         'Familie: Kvinner, Gutt'
     ],
-    '👩‍👦‍👦': [
+    '👩👦👦': [
         'Familie med mor og to sanger',
         'Familie: Kvinner, Gutt'
     ],
-    '👩‍👧': [
+    '👩👧': [
         'Familie med mor og latter',
         'Familie: Kvinner, jente'
     ],
-    '👩‍👧‍👦': [
+    '👩👧👦': [
         'Familie Med mor, Sønn og latter',
         'Familie: Kvinner, jenter, gutt'
     ],
-    '👩‍👧‍👧': [
+    '👩👧👧': [
         'Familie med mor og to latter',
         'Familie: Kvinner, jenter, jente'
     ],
@@ -1157,19 +1157,19 @@ emojis_language[lang][3] = {
         'Elsker Couple',
         'Mennesk og dame i hjerte'
     ],
-    '👨‍❤️‍👨': [
+    '👨❤️👨': [
         'To menn med hjerte',
         'Couple with Heart: Man, Mann'
     ],
-    '👩‍❤️‍👩': [
+    '👩❤️👩': [
         'To kvinner med hjerte',
         'Couple with Heart: Woman, Woman'
     ],
-    '💆{{skin_tone}}‍‍♂️': ['Mann kjære sjef, massasje'],
-    '💆{{skin_tone}}‍♀️': ['Kvinne hovedmassasje'],
-    '💇{{skin_tone}}‍‍♂️': ['Mann Henter Hårklipp'],
-    '💇{{skin_tone}}‍‍♀️': ['Kvinne man Haircut'],
-    '🛌{{skin_tone}}‍': [
+    '💆{{skin_tone}}♂️': ['Mann kjære sjef, massasje'],
+    '💆{{skin_tone}}♀️': ['Kvinne hovedmassasje'],
+    '💇{{skin_tone}}♂️': ['Mann Henter Hårklipp'],
+    '💇{{skin_tone}}♀️': ['Kvinne man Haircut'],
+    '🛌{{skin_tone}}': [
         'Sover bolig',
         'Person i sengen',
         'Person sove'
@@ -1279,7 +1279,7 @@ emojis_language[lang][4] = {
         'Se øyepund',
         'Guide hund'
     ],
-    '🐕‍🦺': ['Service Hund'],
+    '🐕🦺': ['Service Hund'],
     '🐩': [
         'Giftele',
         'Hund',
@@ -1308,7 +1308,7 @@ emojis_language[lang][4] = {
         'Tidslinje',
         'Hus'
     ],
-    '🐈‍⬛': ['Svart katt'],
+    '🐈⬛': ['Svart katt'],
     '🦁': [
         'Løve',
         'Løve Ansikt'
@@ -1637,7 +1637,7 @@ emojis_language[lang][4] = {
     '🦬': ['Gift'],
     '🦣': ['Mammut'],
     '🦫': ['Bever'],
-    '🐻‍❄️': ['Isbjørn'],
+    '🐻❄️': ['Isbjørn'],
     '🦤': ['Dodo'],
     '🦭': ['Seler'],
     '🪲': ['Bille'],
@@ -3506,16 +3506,16 @@ emojis_language[lang][7] = {
         'Hvit flagg',
         'Bølgende hvit flagg'
     ],
-    '🏳️‍🌈': [
+    '🏳️🌈': [
         'Regnbue flagg',
         'Pride Flag'
     ],
-    '🏳️‍⚧️': [
+    '🏳️⚧️': [
         'Transgender Flag',
         'Blå, rosa og hvit flagg',
         'Trans flagg'
     ],
-    '🏴‍☠️': [
+    '🏴☠️': [
         'Pirat Flagg',
         'Jolly Roger'
     ],
@@ -4820,76 +4820,76 @@ emojis_language[lang][7] = {
 };
 /*sports*/
 emojis_language[lang][8] = {
-    '🧗{{skin_tone}}‍‍♂️': [
+    '🧗{{skin_tone}}♂️': [
         'Mann Klatring',
         'Mannlig Stein Klimber',
         'Mann Klimber'
     ],
-    '🧗{{skin_tone}}‍‍♀️': [
+    '🧗{{skin_tone}}♀️': [
         'Klatring av dame',
         'Kvinnelig Stein Klimber',
         'Ku Klatre'
     ],
-    '🏇{{skin_tone}}‍': [
+    '🏇{{skin_tone}}': [
         'Hest Racing',
         'Hest Race',
         'Smie'
     ],
-    '⛷{{skin_tone}}‍️': ['Skiker'],
-    '🏂{{skin_tone}}‍': ['Snowboarder'],
-    '🏌️{{skin_tone}}‍♂️': ['Man Golfer'],
-    '🏌️{{skin_tone}}‍♀️': ['Kvinne Golfer'],
-    '🏄{{skin_tone}}‍♂️': ['Man Surfer'],
-    '🏄{{skin_tone}}‍♀️': ['Kvinne Surfer'],
-    '🚣{{skin_tone}}‍‍♂️': ['Mann rar båt'],
-    '🚣{{skin_tone}}‍‍♀️': ['Kvinnisk roterende båt'],
-    '🏊{{skin_tone}}‍‍♂️': [
+    '⛷{{skin_tone}}️': ['Skiker'],
+    '🏂{{skin_tone}}': ['Snowboarder'],
+    '🏌️{{skin_tone}}♂️': ['Man Golfer'],
+    '🏌️{{skin_tone}}♀️': ['Kvinne Golfer'],
+    '🏄{{skin_tone}}♂️': ['Man Surfer'],
+    '🏄{{skin_tone}}♀️': ['Kvinne Surfer'],
+    '🚣{{skin_tone}}♂️': ['Mann rar båt'],
+    '🚣{{skin_tone}}♀️': ['Kvinnisk roterende båt'],
+    '🏊{{skin_tone}}♂️': [
         'Mann svømming',
         'Mannlig svømmer'
     ],
-    '🏊{{skin_tone}}‍‍♀️': [
+    '🏊{{skin_tone}}♀️': [
         'Kvinne svømming',
         'Kvinne Swimmer'
     ],
-    '⛹{{skin_tone}}‍️‍♂️': [
+    '⛹{{skin_tone}}️♂️': [
         'Man Bouncing Ball',
         'Man Basketball spiller'
     ],
-    '⛹️{{skin_tone}}‍♀️': [
+    '⛹️{{skin_tone}}♀️': [
         'Kvinne Bouncing Ball',
         'Kvinne basketball spiller'
     ],
-    '🏋️{{skin_tone}}‍♂️': [
+    '🏋️{{skin_tone}}♂️': [
         'Mann Levende Vekter',
         'Mann Vektløfter'
     ],
-    '🏋️{{skin_tone}}‍♀️': [
+    '🏋️{{skin_tone}}♀️': [
         'Kvinniske Levevekter',
         'Kvinne vekter'
     ],
-    '🚴{{skin_tone}}‍♂️': [
+    '🚴{{skin_tone}}♂️': [
         'Mann sykling',
         'Mann sykkel',
         'Mannlig sykkel'
     ],
-    '🚴{{skin_tone}}‍♀️': [
+    '🚴{{skin_tone}}♀️': [
         'Kvinne sykling',
         'Kvinne sykler',
         'Kvinnelig syklist'
     ],
-    '🚵{{skin_tone}}‍♂️': [
+    '🚵{{skin_tone}}♂️': [
         'Mann Fjell Sykling',
         'Mann Fjell Sykler'
     ],
-    '🚵{{skin_tone}}‍♀️': [
+    '🚵{{skin_tone}}♀️': [
         'Kvinne ved fotturer',
         'Kvinne ved Fjellsykler'
     ],
-    '🤸{{skin_tone}}‍♂️': [
+    '🤸{{skin_tone}}♂️': [
         'Mannlig Eske med',
         'Mann som gjÃ¸r karthjul'
     ],
-    '🤸{{skin_tone}}‍♀️': [
+    '🤸{{skin_tone}}♀️': [
         'Kvinnelige karthjul',
         'Kvinne begers tegnehjul'
     ],
@@ -4898,24 +4898,36 @@ emojis_language[lang][8] = {
         'Bryting',
         'Bransjer'
     ],
-    '🤽{{skin_tone}}‍♂️': ['Mann leker vann polo'],
-    '🤽{{skin_tone}}‍♀️': ['Kvinne Lekende Vann Polo'],
-    '🤾{{skin_tone}}‍♂️': ['Mann Spillehåndball'],
-    '🤾{{skin_tone}}‍♀️': ['Kvinne spiller håndball'],
-    '🤹{{skin_tone}}‍♂️': [
+    '🤽{{skin_tone}}♂️': ['Mann leker vann polo'],
+    '🤽{{skin_tone}}♀️': ['Kvinne Lekende Vann Polo'],
+    '🤾{{skin_tone}}♂️': ['Mann Spillehåndball'],
+    '🤾{{skin_tone}}♀️': ['Kvinne spiller håndball'],
+    '🤹{{skin_tone}}♂️': [
         'Man Jugger',
         'Mannlig Juggler'
     ],
-    '🤹{{skin_tone}}‍♀️': [
+    '🤹{{skin_tone}}♀️': [
         'Kvinne pip',
         'Kvinnelig Juggler'
     ],
-    '🧘{{skin_tone}}‍♂️': ['Mann i Lotus posisjon'],
-    '🧘{{skin_tone}}‍♀️': ['Kvinne i Lotusposisjon'],
-    '🏃{{skin_tone}}‍♂️': ['Mann løper'],
-    '🏃{{skin_tone}}‍♀️': ['Kvinne kjørende'],
-    '🕺{{skin_tone}}‍': ['Mannlig Dancing'],
-    '💃{{skin_tone}}‍': ['Dans for dans'],
+    '🧘{{skin_tone}}♂️': [
+        'Mann i Lotus posisjon',
+        'Meditation',
+        'Zen',
+        'Cross legged',
+        'Yoga'
+    ],
+    '🧘{{skin_tone}}♀️': [
+        'Kvinne i Lotusposisjon',
+        'Meditation',
+        'Zen',
+        'Cross legged',
+        'Yoga'
+    ],
+    '🏃{{skin_tone}}♂️': ['Mann løper'],
+    '🏃{{skin_tone}}♀️': ['Kvinne kjørende'],
+    '🕺{{skin_tone}}': ['Mannlig Dancing'],
+    '💃{{skin_tone}}': ['Dans for dans'],
     '🤺': [
         'Person gjerde',
         'Fanser'
@@ -6041,100 +6053,100 @@ emojis_language[lang][12] = {
         'Sspilt Hånd',
         'Hånd med hengseler sittet'
     ],
-    '🤚{{skin_tone}}‍': [
+    '🤚{{skin_tone}}': [
         'Hevet bakside av Hånd',
         'Bakhånd'
     ],
-    '✋{{skin_tone}}‍': [
+    '✋{{skin_tone}}': [
         'Hevet Hånd',
         'Høy fem',
         'Stopp'
     ],
-    '🖖{{skin_tone}}‍': [
+    '🖖{{skin_tone}}': [
         'Vulcan Salute',
         'Spock',
         'Stjerne tren',
         'Hendelse med del mellom midterste og ringfrukter'
     ],
-    '👌{{skin_tone}}‍': [
+    '👌{{skin_tone}}': [
         'OK hånd-signering',
         'Ok',
         'Perfekt',
         'Ja'
     ],
-    '✌️{{skin_tone}}‍': [
+    '✌️{{skin_tone}}': [
         'Seier Hand',
         'Lufthavn Tilbud',
         'Fred skilt',
         'V Skilt'
     ],
-    '🤞{{skin_tone}}‍': [
+    '🤞{{skin_tone}}': [
         'Krysset fingere',
         'Fingere krysset',
         'God Lykke',
         'Hånd med indeks og mellomfingere krysset'
     ],
-    '🤟{{skin_tone}}‍': [
+    '🤟{{skin_tone}}': [
         'Lov-Deg Gest',
         'Jeg Elsker Deg Hånd Skilt'
     ],
-    '🤘{{skin_tone}}‍': [
+    '🤘{{skin_tone}}': [
         'Tegn på hornene',
         'Onde fingre',
         'heavy metal',
         'rock på'
     ],
-    '🤙{{skin_tone}}‍': [
+    '🤙{{skin_tone}}': [
         'Ring meg manuelt skilt',
         'Telefon Hånd',
         'Shaka'
     ],
-    '🤏{{skin_tone}}‍': ['Rosa side'],
-    '👈{{skin_tone}}‍': [
+    '🤏{{skin_tone}}': ['Rosa side'],
+    '👈{{skin_tone}}': [
         'Backhand Indeks Eleksimer Venstre',
         'Hvitt venstre Eleksir Bakgrunnsindeks'
     ],
-    '👉{{skin_tone}}‍': [
+    '👉{{skin_tone}}': [
         'Backhand Indeks Eleksir Høyre',
         'Hvitt høyre Eleksir Bakgrunnsindeks'
     ],
-    '👆{{skin_tone}}‍': [
+    '👆{{skin_tone}}': [
         'Backhand Indeks Eleksir Opp',
         'Hvit opp Elektrikkeri Bakgrunnsindeks',
         'Midtre Finger'
     ],
-    '👇{{skin_tone}}‍': [
+    '👇{{skin_tone}}': [
         'Bakoverdepot pot ned',
         'Hvit Ned Pointing Backhand Index',
         'Poeng ned'
     ],
-    '☝{{skin_tone}}‍️': [
-        'Indeks Finger Pointing Opp',
-        'Hvit Opp Pointing Index',
-        'Hemmelig'
+    '☝{{skin_tone}}️': [
+        'Index Finger Pointing Up',
+        'White Up Pointing Index',
+        'Secret'
     ],
-    '🖕{{skin_tone}}‍': [
+    '🖕{{skin_tone}}': [
         'Midtre Finger',
         'Flipping The Bird',
         'Fasde Finger',
         'Reversert Hand med Midt-Finger Utvidet'
     ],
-    '👍{{skin_tone}}‍': [
+    '👍{{skin_tone}}': [
         'Miniatyrbilder opp skilt',
         'Lik',
         'Ja'
     ],
-    '👎{{skin_tone}}‍': [
+    '👎{{skin_tone}}': [
         'Tommel Ned skilt',
         'Dårlig',
         'Dislike',
         'Nei'
     ],
-    '✊{{skin_tone}}‍': [
+    '✊{{skin_tone}}': [
         'Hevet Fist',
         'Fist Pumpe'
     ],
-    '👊{{skin_tone}}‍': [
+    '👊{{skin_tone}}': [
         'Kommende Fist',
         'Bro Fist',
         'Brofist',
@@ -6143,14 +6155,14 @@ emojis_language[lang][12] = {
         'Lukket Fist',
         'Stengt håndskilt'
     ],
-    '🤛{{skin_tone}}‍': ['Venstre fjerne pumpe'],
-    '🤜{{skin_tone}}‍': ['Høyre fjerne pumpe'],
-    '🤌{{skin_tone}}‍': [
+    '🤛{{skin_tone}}': ['Venstre fjerne pumpe'],
+    '🤜{{skin_tone}}': ['Høyre fjerne pumpe'],
+    '🤌{{skin_tone}}': [
         'Hengende fingre',
         'Ma Che Vuoi',
         'Finger rens'
     ],
-    '👏{{skin_tone}}‍': [
+    '👏{{skin_tone}}': [
         'Klappe Hånd skilt',
         'Brukur',
         'Clap',
@@ -6158,7 +6170,7 @@ emojis_language[lang][12] = {
         'Golf Klapp',
         'Runde av Applause'
     ],
-    '🙌{{skin_tone}}‍': [
+    '🙌{{skin_tone}}': [
         'Person Raising Both Hands in Celebration',
         'Raising Hands',
         'Armer i Luft',
@@ -6168,20 +6180,20 @@ emojis_language[lang][12] = {
         'Hyll hengslene',
         'To Hender'
     ],
-    '👐{{skin_tone}}‍': [
+    '👐{{skin_tone}}': [
         'Åpne Hands skilt',
         'Gigantisk',
         'Jazz sand'
     ],
-    '🤲{{skin_tone}}‍': [
+    '🤲{{skin_tone}}': [
         'Palmer opp sammen',
         'Dua'
     ],
-    '🤝{{skin_tone}}‍': [
+    '🤝{{skin_tone}}': [
         'Handshake',
         'Riste Hender'
     ],
-    '🙏{{skin_tone}}‍': [
+    '🙏{{skin_tone}}': [
         'Mengder',
         'Namaste',
         'Vennligst',
@@ -6189,28 +6201,28 @@ emojis_language[lang][12] = {
         'Tusen takk',
         'Person med Fulgte Hånd'
     ],
-    '✍{{skin_tone}}‍️': ['Skriving av hånd'],
-    '💪{{skin_tone}}‍': [
+    '✍{{skin_tone}}️': ['Skriving av hånd'],
+    '💪{{skin_tone}}': [
         'Fleksede sokler',
         'Fleksibel Arm Muskler',
         'Musle',
         'Sterk'
     ],
-    '🦵{{skin_tone}}‍': ['Legg'],
-    '🦶{{skin_tone}}‍': ['Fot'],
-    '👂{{skin_tone}}‍': [
+    '🦵{{skin_tone}}': ['Legg'],
+    '🦶{{skin_tone}}': ['Fot'],
+    '👂{{skin_tone}}': [
         'Øre',
         'Ører',
         'Høring',
         'Hører'
     ],
-    '👃{{skin_tone}}‍': [
+    '👃{{skin_tone}}': [
         'Rosa',
         'Smelling',
         'Undersøkelser',
         'Stinky'
     ],
-    '🧠': ['Hjerne'],
+    '': ['Brain'],
     '🦷': ['Tannvann'],
     '👀': [
         'Øyner',
@@ -6860,9 +6872,9 @@ emojis_language[lang][13] = {
         '$'
     ],
     '💸': [
-        'Money with Wings',
-        'Flying Money',
-        ' Losing Money'
+        'Penger med vinger',
+        'Flyvende Penger',
+        ' Taper penger'
     ],
     '🏷️': ['Etikett'],
     '🔖': [
@@ -7162,7 +7174,7 @@ emojis_language[lang][13] = {
         'Kort indeks'
     ],
     '🕳️': ['Hull'],
-    '👁️‍🗨️': [
+    '👁️🗨️': [
         'I Am A Witness',
         'Øye i talekobble'
     ],
@@ -7211,11 +7223,11 @@ emojis_language[lang][13] = {
     '🪵': ['Tre'],
     '🪄': ['Magisk tryllestav'],
     '🔮': [
-        'Crystal Ball',
+        'Krystall Ball',
         'Clairvoyant',
-        'Fortune Teller',
-        'Psychic',
-        'Purple Crystal'
+        'Lykke Teller',
+        'Psykisk',
+        'Lilla krystall'
     ],
     '🪅': ['Pinso-ata'],
     '🪆': [
