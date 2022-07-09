@@ -82,6 +82,13 @@ function releaseNotes(release) {
             release_notes_text += "<li><i><small>Did you know...?</small></i><br>You can open automatically the popup with the shortcut:<br><br><div class='text-center'><span class='background-lightblue'>Ctrl/Cmd + Alt + A</span></div></li>";
             release_notes_text += "</ul>";
             break;
+
+        case "3.14.2":
+            release_notes_text = "<ul>";
+            release_notes_text += "<li>Optional permissions for the feature <i>Also insert directly the emoji</i>. You need to (re)turn on it in Settings. (Thank you @<b>minxaa</b>)</li>";
+            release_notes_text += "<li>Fixed issues with some emojis.</li>";
+            release_notes_text += "</ul>";
+            break;
     }
     return release_notes_text;
 }

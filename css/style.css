@@ -112,6 +112,10 @@ body {
     font-family: inherit;
 }
 
+.emoji {
+    padding: 5px;
+}
+
 .button {
     width: auto;
     font-family: open-sans, monospace, sans-serif;
