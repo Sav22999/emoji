@@ -9,7 +9,7 @@ titles_language[lang] = {
     '🦊': '动物',
     '🅰️': '符号',
     '🍎': '食物和饮料',
-    '🏳️🌈': '旗帜',
+    '🏳️‍🌈': 'Flags',
     '🏊': '运动',
     '✈️': '旅行和地点',
     '🖱️': '技术和办公',
@@ -594,12 +594,12 @@ emojis_language[lang][2] = {
         '带符号覆盖鼠标的严重面'
     ],
     '🥲': ['带有泪水的微笑面'],
-    '😮💨': [
-        '人脸Exhaling',
-        '叹气'
+    '😮‍💨': [
+        'Face Exhaling',
+        'Sigh'
     ],
-    '😵💫': [
-        '晕',
+    '😵‍💫': [
+        'Face with Spiral Eyes',
         'Dizzy Face'
     ],
     '🥸': ['伪装的面'],
@@ -709,23 +709,23 @@ emojis_language[lang][3] = {
         '束缚的人',
         '戴着手的人'
     ],
-    '👨{{skin_tone}}🦰': [
-        '人类：红头发子',
+    '👨{{skin_tone}}‍🦰': [
+        'Man: Red Hair',
         'Ginger Man',
         'Man Redhead',
-        '带红头发的人'
+        'Man With Red Hair'
     ],
-    '👨{{skin_tone}}🦱': [
-        '人: 草头发人',
-        '带有草原头发的人'
+    '👨{{skin_tone}}‍🦱': [
+        'Man: Curly Hair',
+        'Man With Curly Hair'
     ],
-    '👨{{skin_tone}}🦳': [
-        '人类：白头发子',
-        '带灰色头发的人'
+    '👨{{skin_tone}}‍🦳': [
+        'Man: White Hair',
+        'Man With Gray Hair'
     ],
-    '👨{{skin_tone}}🦲': [
-        '男人: 气球',
-        '没有头发的人'
+    '👨{{skin_tone}}‍🦲': [
+        'Man: Bald',
+        'Man With No Hair'
     ],
     '👩{{skin_tone}}': [
         '妇女',
@@ -733,423 +733,423 @@ emojis_language[lang][3] = {
         '女士们：',
         '黄色妇女'
     ],
-    '👩{{skin_tone}}🦰': [
-        '妇女：红色头发',
-        'Ginger 妇女',
+    '👩{{skin_tone}}‍🦰': [
+        'Woman: Red Hair',
+        'Ginger Woman',
         'Woman Redhead',
-        '带红海的妇女'
+        'Woman With Red Hair'
     ],
-    '👩{{skin_tone}}🦱': [
-        '妇女：曲线头发',
-        '带有曲线头发的妇女'
+    '👩{{skin_tone}}‍🦱': [
+        'Woman: Curly Hair',
+        'Woman With Curly Hair'
     ],
-    '👩{{skin_tone}}🦳': [
-        '妇女：白头发子',
-        '带灰色头发的妇女'
+    '👩{{skin_tone}}‍🦳': [
+        'Woman: White Hair',
+        'Woman With Gray Hair'
     ],
-    '👩{{skin_tone}}🦲': [
-        '妇女： 气球',
-        '没有头发的妇女'
+    '👩{{skin_tone}}‍🦲': [
+        'Woman: Bald',
+        'Woman With No Hair'
     ],
-    '👱{{skin_tone}}♀️': [
-        '妇女： Blond Hair',
-        'Blonde Hair 的妇女'
+    '👱{{skin_tone}}‍♀️': [
+        'Woman: Blond Hair',
+        'Woman With Blonde Hair'
     ],
-    '👱{{skin_tone}}♂️': [
-        '人类：Blond Hair',
-        '布伦德海尔人'
+    '👱{{skin_tone}}‍♂️': [
+        'Man: Blond Hair',
+        'Man With Blonde Hair'
     ],
-    '🧓{{skin_tone}}': [
-        '老人',
-        '性别中立的成年人'
+    '🧓{{skin_tone}}‍': [
+        'Older Person',
+        'Gender Neutral Older Adult'
     ],
-    '👴{{skin_tone}}': [
-        '老人',
-        '老年人',
+    '👴{{skin_tone}}‍': [
+        'Old Man',
+        'Elderly Man',
         'Grandpa',
-        '更老的人'
+        'Older Man'
     ],
-    '👵{{skin_tone}}': [
-        '老妇女',
-        '老年妇女',
-        '格朗德马',
-        '纳纳',
-        '老女士',
-        '老年妇女'
+    '👵{{skin_tone}}‍': [
+        'Old Woman',
+        'Elderly Woman',
+        'Grandma',
+        'Nanna',
+        'Old Lady',
+        'Older Woman'
     ],
-    '👼{{skin_tone}}': [
-        '婴儿天线',
-        '天线',
+    '👼{{skin_tone}}‍': [
+        'Baby Angel',
+        'Angel',
         'Cherub',
-        '杯子',
-        '普托文'
+        'Cupid',
+        'Putto'
     ],
-    '🎅{{skin_tone}}': [
-        '圣克劳斯',
-        '圣尼古拉斯',
+    '🎅{{skin_tone}}‍': [
+        'Santa Claus',
+        'Saint Nicholas',
         'Sinterklaas',
-        '圣诞神器'
+        'Father Christmas'
     ],
-    '🤶{{skin_tone}}': [
-        '克劳斯女士',
-        '圣诞节'
+    '🤶{{skin_tone}}‍': [
+        'Mrs Claus',
+        'Mother Christmas'
     ],
-    '🤴{{skin_tone}}': ['亲王座'],
-    '👸{{skin_tone}}': [
-        '公主',
+    '🤴{{skin_tone}}‍': ['Prince'],
+    '👸{{skin_tone}}‍': [
+        'Princess',
         'Blonde Girl',
-        '女王之手',
-        '女孩与Tiara'
+        'Girl With Crown',
+        'Girl With Tiara'
     ],
-    '👳{{skin_tone}}♂️': ['人类穿甲弹头'],
-    '👳{{skin_tone}}♀️': ['妇女问题听力炮塔'],
-    '👲{{skin_tone}}': [
-        'Skullcap的人',
-        '亚洲人',
-        '华人帽子',
-        '与Gua Pi Mao 有联系的人'
+    '👳{{skin_tone}}‍♂️': ['Man Wearing Turban'],
+    '👳{{skin_tone}}‍♀️': ['Woman Wearing Turban'],
+    '👲{{skin_tone}}‍': [
+        'Person With Skullcap',
+        'Asian Man',
+        'Man With Chinese Cap',
+        'Man with Gua Pi Mao'
     ],
-    '🧕{{skin_tone}}': [
-        '带头巾的妇女',
+    '🧕{{skin_tone}}‍': [
+        'Woman with Headscarf',
         'Hijab',
-        '头巾人'
+        'Person with Headscarf'
     ],
-    '🤵{{skin_tone}}': [
-        'Tuxedo的人',
+    '🤵{{skin_tone}}‍': [
+        'Person in Tuxedo',
         'Groom',
-        '在套装中',
-        'Tuxedo中的人'
+        'Man In Suit',
+        'Man in Tuxedo'
     ],
-    '👰{{skin_tone}}': [
-        '有韦尔的人',
-        '新增功能',
-        '带着Veil彩礼。'
+    '👰{{skin_tone}}‍': [
+        'Person With Veil',
+        'Bride',
+        'Bride with Veil'
     ],
-    '👰{{skin_tone}}♂️': ['有韦尔的人'],
-    '👰{{skin_tone}}♀️': ['Woman with Veil'],
-    '👩{{skin_tone}}🍼': ['妇女喂养婴儿问题'],
-    '👨{{skin_tone}}🍼': ['男人喂养婴儿数'],
+    '👰{{skin_tone}}‍♂️': ['Man with Veil'],
+    '👰{{skin_tone}}‍♀️': ['Woman with Veil'],
+    '👩{{skin_tone}}‍🍼': ['Woman Feeding Baby'],
+    '👨{{skin_tone}}‍🍼': ['Man Feeding Baby'],
     '🥷': ['宁加'],
-    '🤰{{skin_tone}}': [
-        '怀孕妇女',
-        '怀孕情况',
-        '怀孕女士'
+    '🤰{{skin_tone}}‍': [
+        'Pregnant Woman',
+        'Pregnancy',
+        'Pregnant Lady'
     ],
-    '🤱{{skin_tone}}': [
-        '母乳喂养中',
-        '母乳喂养问题'
+    '🤱{{skin_tone}}‍': [
+        'Breast-Feeding',
+        'Breastfeeding'
     ],
-    '🦸{{skin_tone}}♂️': ['Man Superhero'],
-    '🦸{{skin_tone}}♀️': ['妇女超级英雄'],
-    '🦹{{skin_tone}}♂️': ['Man Supervillain'],
-    '🦹{{skin_tone}}♀️': ['妇女超级维利'],
-    '🧙{{skin_tone}}': [
-        '魔方',
+    '🦸{{skin_tone}}‍♂️': ['Man Superhero'],
+    '🦸{{skin_tone}}‍‍♀️': ['Woman Superhero'],
+    '🦹{{skin_tone}}‍‍♂️': ['Man Supervillain'],
+    '🦹{{skin_tone}}‍‍♀️': ['Woman Supervillain'],
+    '🧙{{skin_tone}}‍': [
+        'Mage',
         'Sorcerer',
-        '联谊会',
-        '巫师',
-        '向导'
+        'Sorceress',
+        'Witch',
+        'Wizard'
     ],
-    '🧙{{skin_tone}}♀️': [
-        '妇女魔法',
-        '巫师',
-        '联谊会'
+    '🧙{{skin_tone}}‍‍♀️': [
+        'Woman Mage',
+        'Witch',
+        'Sorceress'
     ],
-    '🧚{{skin_tone}}♂️': ['Man Fairy'],
-    '🧚{{skin_tone}}♀️': ['妇女节奏：'],
-    '🧛{{skin_tone}}♂️': [
-        '男子吸血鬼的',
-        '德拉库拉'
+    '🧚{{skin_tone}}‍‍♂️': ['Man Fairy'],
+    '🧚{{skin_tone}}‍♀️': ['Woman Fairy'],
+    '🧛{{skin_tone}}‍♂️': [
+        'Man Vampire',
+        'Dracula'
     ],
-    '🧛{{skin_tone}}♀️': ['妇女吸血鬼。'],
-    '🧜{{skin_tone}}♂️': ['梅尔曼'],
-    '🧜{{skin_tone}}♀️': ['美人鱼座'],
-    '🧝{{skin_tone}}♂️': ['Man Elf'],
-    '🧝{{skin_tone}}♀️': ['妇女精灵省'],
-    '🧞♂️': ['Man Genie'],
-    '🧞♀️': ['Woman Genie'],
-    '🕵️{{skin_tone}}♂️': [
-        '人检测',
-        '私人眼镜',
+    '🧛{{skin_tone}}‍‍♀️': ['Woman Vampire'],
+    '🧜{{skin_tone}}‍♂️': ['Merman'],
+    '🧜{{skin_tone}}‍♀️': ['Mermaid'],
+    '🧝{{skin_tone}}‍♂️': ['Man Elf'],
+    '🧝{{skin_tone}}‍♀️': ['Woman Elf'],
+    '🧞‍♂️': ['Man Genie'],
+    '🧞‍♀️': ['Woman Genie'],
+    '🕵️{{skin_tone}}‍♂️': [
+        'Man Detective',
+        'Private Eye',
         'Sleuth',
-        '间谍活动',
+        'Spy',
         'Man Sleuth',
-        '休闲或间谍活动',
+        'Sleuth or Spy',
         '007',
-        '检查员'
+        'Inspector'
     ],
-    '🕵️{{skin_tone}}♀️': ['妇女检测'],
-    '💂{{skin_tone}}': [
-        '守卫者',
-        '英军卫士',
-        '英尺护卫器'
+    '🕵️{{skin_tone}}‍♀️': ['Woman Detective'],
+    '💂{{skin_tone}}‍': [
+        'Guard',
+        'British Guardsman',
+        'Foot Guard'
     ],
-    '💂{{skin_tone}}♀️': ['妇女卫士'],
-    '👮{{skin_tone}}': [
-        '警务干事',
-        '编译',
-        '警察',
-        '警察',
-        '女警察'
+    '💂{{skin_tone}}‍‍♀️': ['Woman Guard'],
+    '👮{{skin_tone}}‍': [
+        'Police Officer',
+        'Cop',
+        'Police',
+        'Policeman',
+        'Policewoman'
     ],
-    '👮{{skin_tone}}♀️': ['妇女警察'],
-    '👨{{skin_tone}}🚒': ['Man 消防员'],
-    '👩{{skin_tone}}🚒': ['妇女消防员'],
-    '👨{{skin_tone}}✈️': ['人驾驶员'],
-    '👩{{skin_tone}}✈️': ['妇女飞行员'],
-    '👨{{skin_tone}}💻': [
-        '人技术师',
-        '人技术师'
+    '👮{{skin_tone}}‍‍♀️': ['Woman Police Officer'],
+    '👨{{skin_tone}}‍🚒': ['Man Firefighter'],
+    '👩{{skin_tone}}‍‍🚒': ['Woman Firefighter'],
+    '👨{{skin_tone}}‍‍✈️': ['Man Pilot'],
+    '👩{{skin_tone}}‍‍✈️': ['Woman Pilot'],
+    '👨{{skin_tone}}‍💻': [
+        'Man Technologist',
+        'Man Technologist'
     ],
-    '👩{{skin_tone}}💻': ['妇女技术师'],
-    '👨{{skin_tone}}🎤': [
+    '👩{{skin_tone}}‍💻': ['Woman Technologist'],
+    '👨{{skin_tone}}‍🎤': [
         'Man Singer',
         'Bowie',
         'Aladdin Sane'
     ],
-    '👩{{skin_tone}}🎤': ['妇女歌手'],
-    '👨{{skin_tone}}🎨': ['男艺人'],
-    '👩{{skin_tone}}🎨': ['女艺人'],
-    '👷{{skin_tone}}♂️': ['男建筑工'],
-    '👷{{skin_tone}}♀️': ['妇女建筑工'],
-    '👨{{skin_tone}}🚀': [
-        '人类宇航员',
+    '👩{{skin_tone}}‍🎤': ['Woman Singer'],
+    '👨{{skin_tone}}‍🎨': ['Man Artist'],
+    '👩{{skin_tone}}‍🎨': ['Woman Artist'],
+    '👷{{skin_tone}}‍‍♂️': ['Man Construction Worker'],
+    '👷{{skin_tone}}‍‍♀️': ['Woman Construction Worker'],
+    '👨{{skin_tone}}‍‍🚀': [
+        'Man Astronaut',
         'Man Cosmonaut'
     ],
-    '👩{{skin_tone}}🚀': [
-        '女宇航员',
-        '妇女宇航员'
+    '👩{{skin_tone}}‍‍🚀': [
+        'Woman Astronaut',
+        'Woman Cosmonaut'
     ],
-    '👨{{skin_tone}}🔬': ['Man Scientist'],
-    '👩{{skin_tone}}🔬': ['女性科学家：'],
-    '👨{{skin_tone}}💼': [
-        'Man Office Workers',
+    '👨{{skin_tone}}‍‍🔬': ['Man Scientist'],
+    '👩{{skin_tone}}‍‍🔬': ['Woman Scientist'],
+    '👨{{skin_tone}}‍💼': [
+        'Man Office Worker',
         'CEO',
-        '商人'
+        'Businessman'
     ],
-    '👩{{skin_tone}}💼': [
-        '妇女办公室工人',
-        '商界妇女',
+    '👩{{skin_tone}}‍💼': [
+        'Woman Office Worker',
+        'Businesswoman',
         'CEO'
     ],
-    '👨{{skin_tone}}🏭': ['男工厂工人'],
-    '👩{{skin_tone}}🏭': ['妇女工厂工人'],
-    '👨{{skin_tone}}🔧': ['Man Mechanic'],
-    '👩{{skin_tone}}🔧': ['妇女机械师'],
-    '👨{{skin_tone}}🍳': [
+    '👨{{skin_tone}}‍🏭': ['Man Factory Worker'],
+    '👩{{skin_tone}}‍‍🏭': ['Woman Factory Worker'],
+    '👨{{skin_tone}}‍‍🔧': ['Man Mechanic'],
+    '👩{{skin_tone}}‍‍🔧': ['Woman Mechanic'],
+    '👨{{skin_tone}}‍‍🍳': [
         'Man Cook',
         'Man Chef',
-        '男性Chef'
+        'Male Chef'
     ],
-    '👩{{skin_tone}}🍳': [
-        '妇女库克岛',
-        '妇女Chef',
-        '女厨师'
+    '👩{{skin_tone}}‍‍🍳': [
+        'Woman Cook',
+        'Woman Chef',
+        'Female Chef'
     ],
-    '👨{{skin_tone}}🌾': ['男农民：'],
-    '👩{{skin_tone}}🌾': ['妇女农民组织'],
-    '👨{{skin_tone}}⚖️': ['Man Judge'],
-    '👩{{skin_tone}}⚖️': ['女法官'],
-    '👨{{skin_tone}}🏫': ['男教师'],
-    '👩{{skin_tone}}🏫': ['女教师'],
-    '👨{{skin_tone}}🎓': ['男学生'],
-    '👩{{skin_tone}}🎓': ['女学生'],
-    '👨{{skin_tone}}⚕️': [
-        '男保健工人',
-        '男性博士',
-        '男性Nurse'
+    '👨{{skin_tone}}‍‍🌾': ['Man Farmer'],
+    '👩{{skin_tone}}‍‍🌾': ['Woman Farmer'],
+    '👨{{skin_tone}}‍‍⚖️': ['Man Judge'],
+    '👩{{skin_tone}}‍‍⚖️': ['Woman Judge'],
+    '👨{{skin_tone}}‍‍🏫': ['Man Teacher'],
+    '👩{{skin_tone}}‍‍🏫': ['Woman Teacher'],
+    '👨{{skin_tone}}‍🎓': ['Man Student'],
+    '👩{{skin_tone}}‍🎓': ['Woman Student'],
+    '👨{{skin_tone}}‍‍⚕️': [
+        'Man Health Worker',
+        'Male Doctor',
+        'Male Nurse'
     ],
-    '👩{{skin_tone}}⚕️': [
-        '妇女保健工人',
-        '女博士',
-        '女护士：'
+    '👩{{skin_tone}}‍⚕️': [
+        'Woman Health Worker',
+        'Female Doctor',
+        'Female Nurse'
     ],
-    '🤷{{skin_tone}}♂️': [
-        '男人收缩中',
-        'idk 人',
+    '🤷{{skin_tone}}‍♂️': [
+        'Man Shrugging',
+        'idk man',
         'dunno'
     ],
-    '🤷{{skin_tone}}♀️': [
-        '妇女破裂中',
-        'idk 妇女',
+    '🤷{{skin_tone}}‍♀️': [
+        'Woman Shrugging',
+        'idk woman',
         'dunno'
     ],
-    '🤦{{skin_tone}}♂️': ['人脸道化'],
-    '🤦{{skin_tone}}♀️': ['妇女脸谱化'],
-    '🙇{{skin_tone}}♂️': ['Man Bbown'],
-    '🙇{{skin_tone}}♀️': ['女人Bdown'],
-    '🧏{{skin_tone}}♂️': ['死亡人'],
-    '🧏{{skin_tone}}♀️': ['Deaf 妇女'],
-    '🙋{{skin_tone}}♂️': [
-        '男人提升手',
-        '快乐的男人举一手'
+    '🤦{{skin_tone}}‍♂️': ['Man Facepalming'],
+    '🤦{{skin_tone}}‍♀️': ['Woman Facepalming'],
+    '🙇{{skin_tone}}‍‍♂️': ['Man Bowing'],
+    '🙇{{skin_tone}}‍‍♀️': ['Woman Bowing'],
+    '🧏{{skin_tone}}‍♂️': ['Deaf Man'],
+    '🧏{{skin_tone}}‍‍♀️': ['Deaf Woman'],
+    '🙋{{skin_tone}}‍‍♂️': [
+        'Man Raising Hand',
+        'Happy Man Raising One Hand'
     ],
-    '🙋{{skin_tone}}♀️': [
-        '妇女提升手',
-        '快乐的妇女举手'
+    '🙋{{skin_tone}}‍♀️': [
+        'Woman Raising Hand',
+        'Happy Woman Raising One Hand'
     ],
-    '💁{{skin_tone}}♂️': [
-        'Man Tiping Hand',
-        '问讯处人员'
+    '💁{{skin_tone}}‍♂️': [
+        'Man Tipping Hand',
+        'Information Desk Man'
     ],
-    '💁{{skin_tone}}♀️': [
-        '妇女装配手',
-        '问讯处妇女'
+    '💁{{skin_tone}}‍♀️': [
+        'Woman Tipping Hand',
+        'Information Desk Woman'
     ],
-    '🙆{{skin_tone}}♂️': ['Man Gesturing OK'],
-    '🙆{{skin_tone}}♀️': ['妇女正在寻找OK'],
-    '🙅{{skin_tone}}♂️': ['Man Gesting 否'],
-    '🙅{{skin_tone}}♀️': ['妇女测试中 否'],
-    '🙎{{skin_tone}}♂️': ['Man Pouting'],
-    '🙎{{skin_tone}}♀️': ['妇女Pouting'],
-    '🙍{{skin_tone}}♂️': ['Man Frowning'],
-    '🙍{{skin_tone}}♀️': ['妇女衰退。'],
-    '🧟♂️': ['人僵尸'],
-    '🧟♀️': ['妇女僵尸'],
-    '🚶{{skin_tone}}♂️': ['人步行'],
-    '🚶{{skin_tone}}♀️': ['妇女步行'],
-    '🧍{{skin_tone}}♂️': ['Man Standard'],
-    '🧍{{skin_tone}}♀️': ['妇女常驻代表'],
-    '🧎{{skin_tone}}♂️': ['Man Kneeling'],
-    '🧎{{skin_tone}}♀️': ['女人的膝关卡'],
-    '👨{{skin_tone}}🦯': ['带白色冠军的人'],
-    '👩{{skin_tone}}🦯': ['带白冠军的妇女'],
-    '👨{{skin_tone}}🦼': ['摩托化轮椅中的人'],
-    '👩{{skin_tone}}🦼': ['摩托化轮椅中的妇女'],
-    '👨{{skin_tone}}🦽': ['手工轮椅中的人'],
-    '👩{{skin_tone}}🦽': ['手工轮椅中的妇女'],
-    '👯♂️': ['Bunny Ears 的男人'],
-    '👯♀️': ['Bunny Ears 的妇女'],
-    '🕴️{{skin_tone}}': [
-        '在套装中的人 Leviting',
-        '悬停人',
-        '粗暴的男孩组织',
+    '🙆{{skin_tone}}‍♂️': ['Man Gesturing OK'],
+    '🙆{{skin_tone}}‍♀️': ['Woman Gesturing OK'],
+    '🙅{{skin_tone}}‍♂️': ['Man Gesturing No'],
+    '🙅{{skin_tone}}‍♀️': ['Woman Gesturing No'],
+    '🙎{{skin_tone}}‍♂️': ['Man Pouting'],
+    '🙎{{skin_tone}}‍‍♀️': ['Woman Pouting'],
+    '🙍{{skin_tone}}‍‍♂️': ['Man Frowning'],
+    '🙍{{skin_tone}}‍‍♀️': ['Woman Frowning'],
+    '🧟‍‍♂️': ['Man Zombie'],
+    '🧟‍‍♀️': ['Woman Zombie'],
+    '🚶{{skin_tone}}‍♂️': ['Man Walking'],
+    '🚶{{skin_tone}}‍♀️': ['Woman Walking'],
+    '🧍{{skin_tone}}‍‍♂️': ['Man Standing'],
+    '🧍{{skin_tone}}‍‍♀️': ['Woman Standing'],
+    '🧎{{skin_tone}}‍♂️': ['Man Kneeling'],
+    '🧎{{skin_tone}}‍‍♀️': ['Woman Kneeling'],
+    '👨{{skin_tone}}‍🦯': ['Man with White Cane'],
+    '👩{{skin_tone}}‍🦯': ['Woman with White Cane'],
+    '👨{{skin_tone}}‍🦼': ['Man in Motorized Wheelchair'],
+    '👩{{skin_tone}}‍🦼': ['Woman in Motorized Wheelchair'],
+    '👨{{skin_tone}}‍🦽': ['Man in Manual Wheelchair'],
+    '👩{{skin_tone}}‍🦽': ['Woman in Manual Wheelchair'],
+    '👯‍♂️': ['Men with Bunny Ears'],
+    '👯‍♀️': ['Women with Bunny Ears'],
+    '🕴️{{skin_tone}}‍': [
+        'Person in Suit Levitating',
+        'Hovering Man',
+        'Rude Boy',
         'Walt Jabsco',
-        '男人参与商业套装'
+        'Man in Business Suit Levitating'
     ],
-    '🧖{{skin_tone}}♂️': [
-        '人在Steamy Room',
-        '桑纳人'
+    '🧖{{skin_tone}}‍♂️': [
+        'Man in Steamy Room',
+        'Man in Sauna'
     ],
-    '🧖{{skin_tone}}♀️': [
-        'Steamy房间中的妇女',
-        'Sauna地区的妇女'
+    '🧖{{skin_tone}}‍♀️': [
+        'Woman in Steamy Room',
+        'Woman in Sauna'
     ],
-    '👫{{skin_tone}}': [
-        '女人和男人持手',
-        '异性伴侣：',
-        '直流双手',
-        '男人和女人持手'
+    '👫{{skin_tone}}‍': [
+        'Woman and Man Holding Hands',
+        'Heterosexual Couple',
+        'Straight Couple',
+        'Man and Woman Holding Hands'
     ],
-    '👭{{skin_tone}}': [
-        'Lesbian couple',
-        '女持手',
-        '两名女持手'
+    '👭{{skin_tone}}‍': [
+        'Lesbian Couple',
+        'Women Holding Hands',
+        'Two Women Holding Hands'
     ],
-    '👬{{skin_tone}}': [
-        '男人持手',
+    '👬{{skin_tone}}‍': [
+        'Men Holding Hands',
         'Gay Couple',
-        '两名男子持手'
+        'Two Men Holding Hands'
     ],
-    '👨👩👦': [
-        '与母亲、父亲和松族的家庭',
-        '家庭：男性、女性、男孩。'
+    '👨‍👩‍👦': [
+        'Family With Mother, Father and Son',
+        'Family: Man, Woman, Boy'
     ],
-    '👨👩👧': [
-        '与母亲、父亲和女儿共同生活的家庭',
-        '家庭： 男性、女性、女童'
+    '👨‍👩‍👧': [
+        'Family With Mother, Father and Daughter',
+        'Family: Man, Woman, Girl'
     ],
-    '👨👩👧👦': [
-        '带有母亲、父亲、松子和女儿的家庭',
-        '家庭： 男人、女人、女童'
+    '👨‍👩‍👧‍👦': [
+        'Family With Mother, Father, Son and Daughter',
+        'Family: Man, Woman, Girl, Boy'
     ],
-    '👨👩👦👦': [
-        '带着母亲、父亲和两个儿子的家庭',
-        '家庭： 男人、女人、男人、男人和男人'
+    '👨‍👩‍👦‍👦': [
+        'Family With Mother, Father and Two Sons',
+        'Family: Man, Woman, Boy, Boy'
     ],
-    '👨👩👧👧': [
-        '与母亲、父亲和两名女儿的家庭',
-        '家庭： 男人、女人、女童'
+    '👨‍👩‍👧‍👧': [
+        'Family With Mother, Father and Two Daughters',
+        'Family: Man, Woman, Girl, Girl'
     ],
-    '👨👨👦': [
-        '有两名父亲和男人的家庭',
-        '家庭： 男性，男性，男生：'
+    '👨‍👨‍👦': [
+        'Family With Two Fathers and Son',
+        'Family: Man, Man, Boy'
     ],
-    '👨👨👧': [
-        '有两个父亲和女儿的家庭',
-        '家庭： 男性，男性，女童'
+    '👨‍👨‍👧': [
+        'Family With Two Fathers and Daughter',
+        'Family: Man, Man, Girl'
     ],
-    '👨👨👧👦': [
-        '有两个父亲、僧侣和女儿的家庭',
-        '家庭： 男人，男人，女孩，男人'
+    '👨‍👨‍👧‍👦': [
+        'Family With Two Fathers, Son and Daughter',
+        'Family: Man, Man, Girl, Boy'
     ],
-    '👨👨👦👦': [
-        '有两个父亲和两个儿子的家庭',
-        '家庭：男人，男人，男人，男人，男孩子，男人'
+    '👨‍👨‍👦‍👦': [
+        'Family With Two Fathers and Two Sons',
+        'Family: Man, Man, Boy, Boy'
     ],
-    '👨👨👧👧': [
-        '有两名父亲和两名女儿的家庭',
-        '家庭：男人，男人，女人，女童'
+    '👨‍👨‍👧‍👧': [
+        'Family With Two Fathers and Two Daughters',
+        'Family: Man, Man, Girl, Girl'
     ],
-    '👩👩👦': [
-        '有两个母亲和子女的家庭',
-        '家庭： 妇女、妇女'
+    '👩‍👩‍👦': [
+        'Family With Two Mothers and Son',
+        'Family: Woman, Woman, Boy'
     ],
-    '👩👩👧': [
-        '有两个母亲和女儿的家庭',
-        '家庭： 妇女、妇女'
+    '👩‍👩‍👧': [
+        'Family With Two Mothers and Daughter',
+        'Family: Woman, Woman, Girl'
     ],
-    '👩👩👧👦': [
-        '有两名母亲、松子和女儿的家庭',
-        '家庭： 妇女、妇女、女孩、男孩；'
+    '👩‍👩‍👧‍👦': [
+        'Family With Two Mothers, Son and Daughter',
+        'Family: Woman, Woman, Girl, Boy'
     ],
-    '👩👩👦👦': [
-        '有两个孩子的家庭',
-        '家庭： 妇女、妇女、男童、男童。'
+    '👩‍👩‍👦‍👦': [
+        'Family With Two Mothers and Two Sons',
+        'Family: Woman, Woman, Boy, Boy'
     ],
-    '👩👩👧👧': [
-        '有两名母亲和两名女儿的家庭',
-        '家庭： 妇女、妇女、女童'
+    '👩‍👩‍👧‍👧': [
+        'Family With Two Mothers and Two Daughters',
+        'Family: Woman, Woman, Girl, Girl'
     ],
-    '👨👦': [
-        '与神父和神父的家庭',
-        '家庭：男性，男人'
+    '👨‍👦': [
+        'Family With Father and Son',
+        'Family: Man, Boy'
     ],
-    '👨👦👦': [
-        '家庭：男人，男孩，男人',
-        '有父亲和两个儿子的家庭'
+    '👨‍👦‍👦': [
+        'Family: Man, Boy, Boy',
+        'Family With Father and Two Sons'
     ],
-    '👨👧': [
-        '与父亲和女儿共同生活的家庭',
-        '家庭：男性，女童'
+    '👨‍👧': [
+        'Family With Father and Daughter',
+        'Family: Man, Girl'
     ],
-    '👨👧👦': [
-        '与父亲、松子和女儿共同生活的家庭',
-        '家庭： 男性，女孩，男孩：'
+    '👨‍👧‍👦': [
+        'Family With Father, Son and Daughter',
+        'Family: Man, Girl, Boy'
     ],
-    '👨👧👧': [
-        '有父亲和两名女儿的家庭',
-        '家庭： 男性，女孩，'
+    '👨‍👧‍👧': [
+        'Family With Father and Two Daughters',
+        'Family: Man, Girl, Girl'
     ],
-    '👩👦': [
-        '与母子和女子的家庭',
-        '家庭： 妇女、男孩；'
+    '👩‍👦': [
+        'Family With Mother and Son',
+        'Family: Woman, Boy'
     ],
-    '👩👦👦': [
-        '与母亲和两个儿子的家庭',
-        '家庭： 妇女、男童、男童。'
+    '👩‍👦‍👦': [
+        'Family With Mother and Two Sons',
+        'Family: Woman, Boy, Boy'
     ],
-    '👩👧': [
-        '与母亲和女儿的家庭',
-        '家庭： 妇女、女童'
+    '👩‍👧': [
+        'Family With Mother and Daughter',
+        'Family: Woman, Girl'
     ],
-    '👩👧👦': [
-        '带有母亲、松子和女儿的家庭',
-        '家庭： 妇女、女孩、男孩；'
+    '👩‍👧‍👦': [
+        'Family With Mother, Son and Daughter',
+        'Family: Woman, Girl, Boy'
     ],
-    '👩👧👧': [
-        '与母亲和两名女儿的家庭',
-        '家庭： 妇女、女童'
+    '👩‍👧‍👧': [
+        'Family With Mother and Two Daughters',
+        'Family: Woman, Girl, Girl'
     ],
     '💑': [
         '与心结伴随的',
@@ -1157,22 +1157,22 @@ emojis_language[lang][3] = {
         '喜爱的双手',
         '爱心的男人和女人'
     ],
-    '👨❤️👨': [
-        '有心的两名男人',
-        '与心同义：男，男人，男人'
+    '👨‍❤️‍👨': [
+        'Two Men With Heart',
+        'Couple with Heart: Man, Man'
     ],
-    '👩❤️👩': [
-        '两名有心的妇女',
-        '与心协力：妇女、妇女'
+    '👩‍❤️‍👩': [
+        'Two Women With Heart',
+        'Couple with Heart: Woman, Woman'
     ],
-    '💆{{skin_tone}}♂️': ['Man Getting Head Massage'],
-    '💆{{skin_tone}}♀️': ['妇女获取头部的分布情况'],
-    '💇{{skin_tone}}♂️': ['男人正在获得快车'],
-    '💇{{skin_tone}}♀️': ['女人正在做出休闲动作'],
-    '🛌{{skin_tone}}': [
-        '睡眠住宿',
-        '床上的人',
-        '人员睡眠'
+    '💆{{skin_tone}}‍‍♂️': ['Man Getting Head Massage'],
+    '💆{{skin_tone}}‍♀️': ['Woman Getting Head Massage'],
+    '💇{{skin_tone}}‍‍♂️': ['Man Getting Haircut'],
+    '💇{{skin_tone}}‍‍♀️': ['Woman Getting Haircut'],
+    '🛌{{skin_tone}}‍': [
+        'Sleeping Accommodation',
+        'Person in Bed',
+        'Person Sleeping'
     ]
 };
 /*animals*/
@@ -1279,7 +1279,7 @@ emojis_language[lang][4] = {
         '看到眼门',
         '导星门'
     ],
-    '🐕🦺': ['服务门'],
+    '🐕‍🦺': ['Service Dog'],
     '🐩': [
         '水果',
         '门',
@@ -1308,7 +1308,7 @@ emojis_language[lang][4] = {
         '通道：',
         '休塞亚特'
     ],
-    '🐈⬛': ['黑色笼子'],
+    '🐈‍⬛': ['Black Cat'],
     '🦁': [
         '狮子',
         '狮子面'
@@ -1637,7 +1637,7 @@ emojis_language[lang][4] = {
     '🦬': ['比森语'],
     '🦣': ['曼莫斯'],
     '🦫': ['海浪者'],
-    '🐻❄️': ['极熊熊座'],
+    '🐻‍❄️': ['Polar Bear'],
     '🦤': ['Dodo'],
     '🦭': ['密碼'],
     '🪲': ['节点数'],
@@ -3506,17 +3506,17 @@ emojis_language[lang][7] = {
         '白标志',
         '擦除白色标志'
     ],
-    '🏳️🌈': [
-        '彩虹标志',
+    '🏳️‍🌈': [
+        'Rainbow Flag',
         'Pride Flag'
     ],
-    '🏳️⚧️': [
-        '转发标志',
-        '蓝色、粉红色和白旗。',
-        'Trans 标志'
+    '🏳️‍⚧️': [
+        'Transgender Flag',
+        'Blue, Pink, and White Flag',
+        'Trans Flag'
     ],
-    '🏴☠️': [
-        '海盗标志',
+    '🏴‍☠️': [
+        'Pirate Flag',
         'Jolly Roger'
     ],
     '🇺🇳': [
@@ -4820,114 +4820,114 @@ emojis_language[lang][7] = {
 };
 /*sports*/
 emojis_language[lang][8] = {
-    '🧗{{skin_tone}}♂️': [
-        '男人爬上',
-        '男性岩石爬行',
-        '人类爬行者'
+    '🧗{{skin_tone}}‍‍♂️': [
+        'Man Climbing',
+        'Male Rock Climber',
+        'Man Climber'
     ],
-    '🧗{{skin_tone}}♀️': [
-        '妇女爬上',
-        '女岩石爬行者',
-        '妇女爬行'
+    '🧗{{skin_tone}}‍‍♀️': [
+        'Woman Climbing',
+        'Female Rock Climber',
+        'Woman Climber'
     ],
-    '🏇{{skin_tone}}': [
-        '马赛克',
-        '马比赛',
+    '🏇{{skin_tone}}‍': [
+        'Horse Racing',
+        'Horse Race',
         'Jockey'
     ],
-    '⛷{{skin_tone}}️': ['斯基尔'],
-    '🏂{{skin_tone}}': ['Snowboarder'],
-    '🏌️{{skin_tone}}♂️': ['Man Golfer'],
-    '🏌️{{skin_tone}}♀️': ['妇女戈尔夫'],
-    '🏄{{skin_tone}}♂️': ['Man Surfer'],
-    '🏄{{skin_tone}}♀️': ['妇女冲浪者'],
-    '🚣{{skin_tone}}♂️': ['男人降落船'],
-    '🚣{{skin_tone}}♀️': ['妇女发波船'],
-    '🏊{{skin_tone}}♂️': [
-        '人游泳中',
-        '人游泳者'
+    '⛷{{skin_tone}}‍️': ['Skier'],
+    '🏂{{skin_tone}}‍': ['Snowboarder'],
+    '🏌️{{skin_tone}}‍♂️': ['Man Golfer'],
+    '🏌️{{skin_tone}}‍♀️': ['Woman Golfer'],
+    '🏄{{skin_tone}}‍♂️': ['Man Surfer'],
+    '🏄{{skin_tone}}‍♀️': ['Woman Surfer'],
+    '🚣{{skin_tone}}‍‍♂️': ['Man Rowing Boat'],
+    '🚣{{skin_tone}}‍‍♀️': ['Woman Rowing Boat'],
+    '🏊{{skin_tone}}‍‍♂️': [
+        'Man Swimming',
+        'Man Swimmer'
     ],
-    '🏊{{skin_tone}}♀️': [
-        '妇女游泳。',
-        '妇女游泳者'
+    '🏊{{skin_tone}}‍‍♀️': [
+        'Woman Swimming',
+        'Woman Swimmer'
     ],
-    '⛹{{skin_tone}}️♂️': [
-        '男人弹出球',
-        'Man 篮球玩家'
+    '⛹{{skin_tone}}‍️‍♂️': [
+        'Man Bouncing Ball',
+        'Man Basketball Player'
     ],
-    '⛹️{{skin_tone}}♀️': [
-        '妇女弹出球',
-        '妇女篮球玩家'
+    '⛹️{{skin_tone}}‍♀️': [
+        'Woman Bouncing Ball',
+        'Woman Basketball Player'
     ],
-    '🏋️{{skin_tone}}♂️': [
-        '人提升权重',
-        '重量器'
+    '🏋️{{skin_tone}}‍♂️': [
+        'Man Lifting Weights',
+        'Man Weightlifter'
     ],
-    '🏋️{{skin_tone}}♀️': [
-        '妇女提升权重',
-        '妇女重力'
+    '🏋️{{skin_tone}}‍♀️': [
+        'Woman Lifting Weights',
+        'Woman Weightlifter'
     ],
-    '🚴{{skin_tone}}♂️': [
-        '人自行车',
-        '摩托车手',
-        '男性骑士'
+    '🚴{{skin_tone}}‍♂️': [
+        'Man Biking',
+        'Man Cyclist',
+        'Male Cyclist'
     ],
-    '🚴{{skin_tone}}♀️': [
-        '妇女自行车',
-        '妇女骑自行车者',
-        '女骑士'
+    '🚴{{skin_tone}}‍♀️': [
+        'Woman Biking',
+        'Woman Cyclist',
+        'Female Cyclist'
     ],
-    '🚵{{skin_tone}}♂️': [
-        '人山地自行车',
+    '🚵{{skin_tone}}‍♂️': [
+        'Man Mountain Biking',
         'Man Mountain Biker'
     ],
-    '🚵{{skin_tone}}♀️': [
-        '妇女山地自行车',
-        '妇女山地比克'
+    '🚵{{skin_tone}}‍♀️': [
+        'Woman Mountain Biking',
+        'Woman Mountain Biker'
     ],
-    '🤸{{skin_tone}}♂️': [
+    '🤸{{skin_tone}}‍♂️': [
         'Man Cartwheeling',
-        '人做购物车车'
+        'Man Doing Cartwheel'
     ],
-    '🤸{{skin_tone}}♀️': [
-        '妇女购物车中',
-        '妇女做购物车车'
+    '🤸{{skin_tone}}‍♀️': [
+        'Woman Cartwheeling',
+        'Woman Doing Cartwheel'
     ],
     '🤼': [
         '人的衣服',
         '衣服',
         '勇士座'
     ],
-    '🤽{{skin_tone}}♂️': ['人类正在玩水极管'],
-    '🤽{{skin_tone}}♀️': ['妇女正在玩水Polo'],
-    '🤾{{skin_tone}}♂️': ['人类正在玩手球'],
-    '🤾{{skin_tone}}♀️': ['妇女玩手球'],
-    '🤹{{skin_tone}}♂️': [
-        '男人拼凑的',
-        '男Juggler'
+    '🤽{{skin_tone}}‍♂️': ['Man Playing Water Polo'],
+    '🤽{{skin_tone}}‍♀️': ['Woman Playing Water Polo'],
+    '🤾{{skin_tone}}‍♂️': ['Man Playing Handball'],
+    '🤾{{skin_tone}}‍♀️': ['Woman Playing Handball'],
+    '🤹{{skin_tone}}‍♂️': [
+        'Man Juggling',
+        'Male Juggler'
     ],
-    '🤹{{skin_tone}}♀️': [
-        '妇女拼凑的工作',
-        '女玩具'
+    '🤹{{skin_tone}}‍♀️': [
+        'Woman Juggling',
+        'Female Juggler'
     ],
-    '🧘{{skin_tone}}♂️': [
-        'Lotus 位置中的人',
+    '🧘{{skin_tone}}‍♂️': [
+        'Man in Lotus Position',
         'Meditation',
         'Zen',
         'Cross legged',
         'Yoga'
     ],
-    '🧘{{skin_tone}}♀️': [
-        'Lotus 位置上的妇女',
+    '🧘{{skin_tone}}‍♀️': [
+        'Woman in Lotus Position',
         'Meditation',
         'Zen',
         'Cross legged',
         'Yoga'
     ],
-    '🏃{{skin_tone}}♂️': ['男人正在运行'],
-    '🏃{{skin_tone}}♀️': ['妇女正在运行'],
-    '🕺{{skin_tone}}': ['人舞蹈组织'],
-    '💃{{skin_tone}}': ['妇女舞蹈组织'],
+    '🏃{{skin_tone}}‍♂️': ['Man Running'],
+    '🏃{{skin_tone}}‍♀️': ['Woman Running'],
+    '🕺{{skin_tone}}‍': ['Man Dancing'],
+    '💃{{skin_tone}}‍': ['Woman Dancing'],
     '🤺': [
         '人员栅栏',
         '花园师'
@@ -6120,7 +6120,7 @@ emojis_language[lang][12] = {
         '白下指针背手索引',
         '向下点数'
     ],
-    '☝{{skin_tone}}️': [
+    '☝{{skin_tone}}': [
         'Index Finger Pointing Up',
         'White Up Pointing Index',
         'Secret'
@@ -6201,7 +6201,7 @@ emojis_language[lang][12] = {
         '谢谢您！',
         '被折叠的人'
     ],
-    '✍{{skin_tone}}️': ['写入手'],
+    '✍{{skin_tone}}': ['Writing Hand'],
     '💪{{skin_tone}}': [
         '弹性的 Biceps',
         '弹性臂骨',
@@ -6222,7 +6222,7 @@ emojis_language[lang][12] = {
         '狙击手',
         'Stinky'
     ],
-    '': ['Brain'],
+    '🧠': ['Brain'],
     '🦷': ['牙色'],
     '👀': [
         '眼镜',
@@ -7174,9 +7174,9 @@ emojis_language[lang][13] = {
         '卡片索引'
     ],
     '🕳️': ['孔子'],
-    '👁️🗨️': [
-        '我是一名证人',
-        '语音中的眼镜'
+    '👁️‍🗨️': [
+        'I Am A Witness',
+        'Eye in Speech Bubble'
     ],
     '⚜️': [
         'Fleur-de-lis',

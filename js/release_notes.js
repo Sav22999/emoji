@@ -87,6 +87,7 @@ function releaseNotes(release) {
             release_notes_text = "<ul>";
             release_notes_text += "<li>Optional permissions for the feature <i>Also insert directly the emoji</i>. You need to (re)turn on it in Settings. (Thank you @<b>minxaa</b>)</li>";
             release_notes_text += "<li>Fixed issues with some emojis.</li>";
+            release_notes_text += "<li>Updated languages.</li>";
             release_notes_text += "</ul>";
             break;
     }
