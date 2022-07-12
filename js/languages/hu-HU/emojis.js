@@ -9,7 +9,7 @@ titles_language[lang] = {
     '🦊': 'Állatok',
     '🅰️': 'Szimbólumok',
     '🍎': 'Étel és Ital',
-    '🏳️‍🌈': 'Zászlók',
+    '🏳️‍🌈': 'Flags',
     '🏊': 'Sportok',
     '✈️': 'Utazás és helyek',
     '🖱️': 'Technológiák és iroda',
@@ -23,17 +23,17 @@ emojis_language[lang][0] = {};
 /*smileys*/
 emojis_language[lang][2] = {
     '😀': [
-        'Grinning Face',
+        'Nevető arc',
         ':)',
-        'Happy Face',
-        'Smiley Face'
+        'Boldog arc',
+        'Mosolygó arc'
     ],
     '😃': [
-        'Grinning Face with Big Eyes',
+        'Nevető arc nagy szemekkel',
         ':D',
-        'Happy Face',
-        'Smiley Face',
-        'Smiling Face with Open Mouth'
+        'Boldog arc',
+        'Mosolygó arc',
+        'Mosolygó arc nyitott szájjal'
     ],
     '😄': [
         'Nevető arc mosolygó szemmel',
@@ -43,18 +43,18 @@ emojis_language[lang][2] = {
         'Nyitott szájjal és lehunyt szemmel mosolygó arc'
     ],
     '😁': [
-        'Beaming Face with Smiling Eyes',
-        'Grinning Face with Smiling Eyes'
+        'Ragyogó arc mosolygó szemmel',
+        'Nevető arc mosolygó szemmel'
     ],
     '😆': [
-        'Grinning Squinting Face',
+        'Vigyorgó hunyorító arc',
         'xD',
         '><',
-        'Big Grin',
-        'Closed-Eyes Smile',
-        'Laughing',
-        'Grinning Face With Tightly Closed Eyes',
-        'Smiling Face with Open Mouth and Tightly-Closed Eyes'
+        'Széles vigyor',
+        'Mosoly csukott szemekkel',
+        'Nevetés',
+        'Nevető arc becsukott szemekkel',
+        'Mosolygó arc nyitott szájjal és becsukott szemekkel'
     ],
     '😅': [
         'Grinning Face with Sweat',
@@ -65,57 +65,57 @@ emojis_language[lang][2] = {
     ],
     '🤣': [
         'ROFL',
-        'Rolling on the Floor Laughing'
+        'Földön fetrengve röhög'
     ],
     '😂': [
-        'Face with Tears of Joy',
-        'Laughing',
-        'Laughing Crying',
-        'Laughing Tears',
+        'Arc örömkönnyekkel',
+        'Nevetés',
+        'Sírva nevetés',
+        'Nevetés könnyekkel',
         'LOL'
     ],
     '🙂': [
-        'Slightly Smiling Face',
+        'Enyhén mosolygó arc',
         ':)',
-        'Slightly Happy',
-        'This Is Fine'
+        'Kicsit boldog',
+        'Minden rendben'
     ],
     '🙃': [
-        'Upside-Down Face',
-        'Sarcasm',
-        'Silly',
-        'Upside Down Face'
+        'Fejre fordított arc',
+        'Szarkazmus',
+        'Butus',
+        'Fejre fordított arc'
     ],
     '😉': [
-        'Winking Face',
+        'Kacsintó arc',
         ';)',
-        'Wink',
-        'Wink Face',
-        'Winky Face'
+        'Kacsintás',
+        'Kacsintó arc',
+        'Kacsintó arc'
     ],
     '😊': [
-        'Smiling Face with Smiling Eyes',
+        'Mosolygó arc mosolygó szemmel',
         '^^',
-        'Happy Face',
-        'Smile',
-        'Smiley Face'
+        'Boldog arc',
+        'Mosoly',
+        'Mosolygó arc'
     ],
     '😇': [
-        'Smiling Face with Halo',
-        'Angel',
-        'Halo'
+        'Mosolygó arc glóriával',
+        'Angyal',
+        'Glória'
     ],
     '🥰': [
-        'Smiling Face with Hearts',
-        'In Love Face',
-        'Smiling Face with Smiling Eyes and Three Hearts'
+        'Mosolygó arc szívekkel',
+        'Szerelmes arc',
+        'Mosolygó arc mosolygó szemekkel és három szívvel'
     ],
     '😍': [
-        'Smiling Face with Heart-Eyes',
+        'Mosolygó arc három szívvel',
         '*.*',
-        'Heart Eyes',
-        'Heart Face',
-        'Smiling Face with Heart-Shaped Eyes'
+        'Szív alakú szemek',
+        'Szívecskés arc',
+        'Mosolygó arc szív alakú szemekkel'
     ],
     '🤩': [
         'Star-Struck',
@@ -145,8 +145,8 @@ emojis_language[lang][2] = {
     ],
     '☺️': [
         'Smiling Face',
-        'Happy Face',
-        'Smiley Face',
+        'Boldog arc',
+        'Mosolygó arc',
         'Smiling',
         'White Smiling Face'
     ],
@@ -206,7 +206,7 @@ emojis_language[lang][2] = {
         ':$',
         'Dollar Sign Eyes',
         'Money Face',
-        'Rich'
+        'Gazdag'
     ],
     '🤗': [
         'Hugging Face',
@@ -231,12 +231,12 @@ emojis_language[lang][2] = {
         'Face with Finger Covering Closed Lips'
     ],
     '🤔': [
-        'What',
+        'Micsoda',
         '?',
         'Hmm',
-        'Thinking Face',
+        'Gondolkodó fej',
         'Chin Thumb',
-        'Thinker',
+        'Gondolkodó',
         'Throwing Shade'
     ],
     '🤐': [
@@ -339,7 +339,7 @@ emojis_language[lang][2] = {
     '🥱': ['Yawning Face'],
     '😷': [
         'Face with Medical Mask',
-        'Coronavirus',
+        'Koronavírus',
         'COVID-19',
         'Mask Face',
         'Surgical Mask'
@@ -418,7 +418,7 @@ emojis_language[lang][2] = {
         'Smiling Face with Sunglasses',
         'Cool',
         'Mutual Best Friends (Snapchat)',
-        'Sunglasses'
+        'Napszemüveg'
     ],
     '🤓': [
         'Nerd Face',
@@ -596,7 +596,7 @@ emojis_language[lang][2] = {
     '🥲': ['Smiling Face with Tear'],
     '😮‍💨': [
         'Face Exhaling',
-        'Sóhaj'
+        'Sigh'
     ],
     '😵‍💫': [
         'Face with Spiral Eyes',
@@ -1178,473 +1178,473 @@ emojis_language[lang][3] = {
 /*animals*/
 emojis_language[lang][4] = {
     '😺': [
-        'Grinning Cat',
+        'Vigyorgó macska',
         ':)',
-        'Happy Cat',
-        'Smiling Cat',
-        'Happy Cat Face',
-        'Smiling Cat Face with Open Mouth'
+        'Boldog macska',
+        'Mosolygó macska',
+        'Vidám macskafej',
+        'Nyitott szájjal nevető macska'
     ],
     '😸': [
-        'Grinning Cat with Smiling Eyes',
+        'Vigyorgó macska mosolygós szemekkel',
         ':D',
-        'Grinning Cat',
-        'Happy Cat',
-        'Grinning Cat Face'
+        'Vigyorgó macska',
+        'Boldog macska',
+        'Vigyorgó macskafej'
     ],
     '😹': [
-        'Cat with Tears of Joy',
+        'Macska örömkönnyekkel',
         ':\')',
-        'Happy Tears Cat',
-        'Laughing Cat'
+        'Boldog könnyező macska',
+        'Nevető macska'
     ],
     '😻': [
-        'Smiling Cat with Heart-Eyes',
+        'Mosolygó macska szív alakú szemekkel',
         '*.*',
-        'Heart Eyes Cat',
-        'Loving Cat',
-        'Smiling Cat Face with Heart-Shaped Eyes'
+        'Macska szív alakú szemekkel',
+        'Szerelmes macska',
+        'Mosolygó macskafej szív alakú szemekkel'
     ],
     '😼': [
-        'Cat with Wry Smile',
-        'Smirking Cat',
-        'Smirking Cat Face',
-        'Cat Face with Wry Smile'
+        'Fanyar mosolyú macska',
+        'Fanyargó macska',
+        'Fanyargó macskafej',
+        'Macskafej fanyar mosollyal'
     ],
     '😽': [
-        'Kissing Cat',
+        'Csókoló macska',
         ':*',
-        'Kissing Cat Face',
-        'Kissing Cat Face with Closed Eyes'
+        'Csókoló macskafej',
+        'Csukott szemű csókoló macskafej'
     ],
     '🙀': [
-        'Weary Cat',
+        'Ijedt macska',
         ':O',
-        'Scared Cat',
-        'Screaming Cat',
-        'Cat Face Screaming in Fear',
-        'Weary Cat Face'
+        'Ijedt macska',
+        'Sikoltó macska',
+        'Félelemtől sikoltó macskafej',
+        'Ijedt macskafej'
     ],
     '😿': [
-        'Crying Cat',
+        'Síró macska',
         ':\'(',
-        'Sad Cat',
-        'Crying Cat Face'
+        'Szomorú macska',
+        'Síró macskafej'
     ],
     '😾': [
-        'Pouting Cat',
-        'Grumpy Cat',
-        'Pouting Cat Face'
+        'Duzzogó macska',
+        'Morcos macska',
+        'Duzzogó macskafej'
     ],
     '🙈': [
-        'Monkey',
-        'See-No-Evil Monkey',
+        'Majom',
+        'Nem látó majom',
         'Mizaru',
-        'Monkey Covering Eyes'
+        'Szemét takaró majom'
     ],
     '🙉': [
-        'Monkey',
-        'Hear-No-Evil Monkey',
+        'Majom',
+        'Nem halló majom',
         'Kikazaru',
-        'Monkey Covering Ears'
+        'Fülét befogó majom'
     ],
     '🙊': [
-        'Monkey',
-        'Speak-No-Evil Monkey',
+        'Majom',
+        'Nem beszélő majom',
         'Iwazaru',
-        'Monkey Covering Mouth',
-        'No Speaking'
+        'Száját befogó majom',
+        'Nem beszél'
     ],
     '🐵': [
-        'Monkey',
-        'Monkey Face',
-        'Monkey Head'
+        'Majom',
+        'Majom arc',
+        'Majomfej'
     ],
     '🐒': [
-        'Monkey',
-        'Cheeky Monkey'
+        'Majom',
+        'Pimasz majom'
     ],
     '🦍': ['Gorilla'],
     '🐶': [
-        'Dog Face',
-        'Dog',
-        'Puppy'
+        'Kutyafej',
+        'Kutya',
+        'Kölyökkutya'
     ],
     '🐕': [
-        'Dog',
-        'Doggo',
+        'Kutya',
+        'Kutyus',
         'Akita Inu'
     ],
     '🦮': [
-        'Seeing Eye Dog',
-        'Guide Dog'
+        'Vakvezető kutya',
+        'Vezető kutya'
     ],
     '🐕‍🦺': ['Service Dog'],
     '🐩': [
-        'Poodle',
-        'Dog',
-        'Miniature Poodle',
-        'Standard Poodle',
-        'Toy Poodle'
+        'Uszkár',
+        'Kutya',
+        'Törpe uszkár',
+        'Normál uszkár',
+        'Toy uszkár'
     ],
     '🐺': [
-        'Wolf',
-        'Wolf Face'
+        'Farkas',
+        'Farkasfej'
     ],
     '🦊': [
-        'Fox',
-        'Fox Face'
+        'Róka',
+        'Rókafej'
     ],
-    '🦝': ['Raccoon'],
+    '🦝': ['Mosómedve'],
     '🐱': [
-        'Cat Face',
+        'Macskafej',
         ':3',
-        'Kitten',
-        'Kitty'
+        'Cica',
+        'Cicus'
     ],
     '🐈': [
-        'Cat',
-        'Domestic Cat',
-        'Feline',
-        'Housecat'
+        'Macska',
+        'Házi macska',
+        'Cica',
+        'Házi macska'
     ],
     '🐈‍⬛': ['Black Cat'],
     '🦁': [
-        'Lion',
-        'Lion Face'
+        'Oroszlán',
+        'Oroszlánfej'
     ],
     '🐯': [
-        'Tiger Face',
-        'Cute Tiger'
+        'Tigrisfej',
+        'Aranyos tigris'
     ],
     '🐅': [
-        'Tiger',
-        'Bengal Tiger'
+        'Tigris',
+        'Bengáli tigris'
     ],
     '🐆': [
-        'Leopard',
-        'African Leopard',
-        'Jaguar'
+        'Leopárd',
+        'Afrikai leopárd',
+        'Jaguár'
     ],
     '🐴': [
-        'Horse Face',
-        'Horse Head'
+        'Lófej',
+        'Lófej'
     ],
     '🐎': [
-        'Horse',
-        'Galloping Horse',
-        'Racehorse'
+        'Ló',
+        'Vágtató ló',
+        'Versenyló'
     ],
     '🦄': [
-        'Unicorn',
-        'Unicorn Face'
+        'Unikornis',
+        'Unikornisfej'
     ],
     '🦓': [
         'Zebra',
-        'Zebra Face'
+        'Zebrafej'
     ],
     '🦌': [
-        'Deer',
-        'Buck',
-        'Reindeer',
-        'Stag'
+        'Szarvas',
+        'Őz',
+        'Jávorszarvas',
+        'Szarvas'
     ],
     '🐮': [
-        'Cow Face',
-        'Cow',
-        'Happy Cow'
+        'Tehénfej',
+        'Tehén',
+        'Boldog tehén'
     ],
     '🐂': [
-        'Ox',
-        'Bull',
-        'Bullock',
-        'Oxen',
-        'Steer'
+        'Ökör',
+        'Bika',
+        'Bika',
+        'Marha',
+        'Bivaly'
     ],
     '🐃': [
-        'Water Buffalo',
-        'Buffalo',
-        'Domestic Water Buffalo'
+        'Vízibivaly',
+        'Bölény',
+        'Háziasított vízibivaly'
     ],
     '🐄': [
-        'Cow',
-        'Dairy Cow'
+        'Tehén',
+        'Fejőstehén'
     ],
     '🐷': [
-        'Pig Face',
-        'Pig',
-        'Pig Head'
+        'Malacfej',
+        'Malac',
+        'Malacfej'
     ],
     '🐖': [
-        'Pig',
-        'Hog',
-        'Sow'
+        'Disznó',
+        'Sertés',
+        'Koca'
     ],
     '🐗': [
-        'Boar',
-        'Warthog',
-        'Wild Boar',
-        'Wild Pig'
+        'Vaddisznó',
+        'Varacskosdisznó',
+        'Vadkan',
+        'Vaddisznó'
     ],
-    '🐽': ['Pig Nose'],
+    '🐽': ['Malac orr'],
     '🐏': [
-        'Ram',
-        'Sheep'
+        'Kos',
+        'Bárány'
     ],
     '🐑': [
-        'Ewe',
-        'Lamb',
-        'Sheep'
+        'Anyajuh',
+        'Bárány',
+        'Birka'
     ],
-    '🐐': ['Goat'],
+    '🐐': ['Kecske'],
     '🐪': [
-        'Camel',
-        'Arabian Camel',
-        'Dromedary Camel',
-        'One-Bump Camel'
+        'Teve',
+        'Arab teve',
+        'Dromedár',
+        'Egypúpú teve'
     ],
     '🐫': [
-        'Two-Hump Camel',
-        'Asian Camel',
-        'Bactrian Camel'
+        'Kétpúpú teve',
+        'Ázsiai teve',
+        'Baktriai teve'
     ],
     '🦙': [
-        'Llama',
-        'Alpaca'
+        'Láma',
+        'Alpaka'
     ],
     '🦒': [
-        'Giraffe',
-        'Giraffe Face'
+        'Zsiráf',
+        'Zsiráffej'
     ],
-    '🐘': ['Elephant'],
+    '🐘': ['Elefánt'],
     '🦏': [
-        'Rhinoceros',
-        'Rhino'
+        'Orrszarvú',
+        'Rinocérosz'
     ],
     '🦛': [
-        'Hippopotamus',
-        'Hippo'
+        'Víziló',
+        'Víziló'
     ],
     '🐭': [
-        'Mouse Face',
-        'Mouse'
+        'Egérfej',
+        'Egér'
     ],
     '🐁': [
-        'Mouse',
-        'Dormouse',
-        'Rodent',
-        'Mice'
+        'Egér',
+        'Házi egér',
+        'Rágcsáló',
+        'Egerek'
     ],
     '🐀': [
-        'Rat',
-        'Rodent'
+        'Patkány',
+        'Rágcsáló'
     ],
     '🐹': [
-        'Hamster',
-        'Hamster Face'
+        'Hörcsög',
+        'Hörcsögfej'
     ],
     '🐰': [
-        'Rabbit Face',
-        'Easter Bunny'
+        'Nyúlfej',
+        'Húsvéti nyúl'
     ],
     '🐇': [
-        'Rabbit',
-        'Bunny',
-        'Bunny Rabbit'
+        'Nyúl',
+        'Nyuszi',
+        'Tapsi füles'
     ],
     '🐿️': [
-        'Chipmunk',
-        'Squirrel'
+        'Mókus',
+        'Mókus'
     ],
-    '🦔': ['Hedgehog'],
+    '🦔': ['Sündisznó'],
     '🦇': [
-        'Bat',
+        'Denevér',
         'Batman'
     ],
     '🐻': [
-        'Bear',
-        'Bear Face',
-        'Teddy Bear'
+        'Medve',
+        'Medvefej',
+        'Plüssmackó'
     ],
     '🐨': [
         'Koala',
-        'Koala Face'
+        'Koalafej'
     ],
     '🐼': [
         'Panda',
-        'Panda Face'
+        'Pandafej'
     ],
     '🦘': [
-        'Kangaroo',
-        'Roo'
+        'Kenguru',
+        'Kenguru'
     ],
-    '🦡': ['Badger'],
+    '🦡': ['Borz'],
     '🦃': [
-        'Turkey',
-        'Thanksgiving Turkey',
-        'Wild Turkey'
+        'Pulyka',
+        'Hálaadás napi pulyka',
+        'Vad pulyka'
     ],
     '🐔': [
-        'Chicken',
-        'Hen'
+        'Csirke',
+        'Tyúk'
     ],
     '🐓': [
-        'Cock',
-        'Rooster',
-        'Cockerel'
+        'Kakas',
+        'Kakas',
+        'Kakas'
     ],
     '🐣': [
-        'Hatching Chick',
-        'Baby Chicken',
-        'Chick Hatching'
+        'Kikelő csibe',
+        'Csibe',
+        'Kikelő csibe'
     ],
     '🐤': [
-        'Baby Chick',
-        'Yellow Bird'
+        'Csibe',
+        'Sárga madár'
     ],
     '🐥': [
-        'Front-Facing Baby Chick',
-        'Baby Chick',
-        'Standing Chick'
+        'Szembe néző csibe',
+        'Csibe',
+        'Álló csibe'
     ],
-    '🐦': ['Bird'],
-    '🐧': ['Penguin'],
+    '🐦': ['Madár'],
+    '🐧': ['Pingvin'],
     '🕊️': [
-        'Dove',
-        'Dove of Peace'
+        'Galamb',
+        'Békegalamb'
     ],
     '🦅': [
-        'Eagle',
-        'Bald Eagle'
+        'Sas',
+        'Kopasz sas'
     ],
-    '🦆': ['Duck'],
-    '🦢': ['Swan'],
-    '🦉': ['Owl'],
-    '🦚': ['Peacock'],
-    '🦜': ['Parrot'],
+    '🦆': ['Kacsa'],
+    '🦢': ['Hattyú'],
+    '🦉': ['Bagoly'],
+    '🦚': ['Páva'],
+    '🦜': ['Papagáj'],
     '🐸': [
-        'Frog',
-        'Toad',
-        'Frog Face'
+        'Béka',
+        'Varangy',
+        'Békafej'
     ],
     '🐊': [
-        'Crocodile',
-        'Alligator',
-        'Croc'
+        'Krokodil',
+        'Alligátor',
+        'Kroki'
     ],
     '🐢': [
-        'Turtle',
-        'Tortoise'
+        'Teknős',
+        'Teknősbéka'
     ],
     '🦎': [
-        'Lizard',
-        'Gecko'
+        'Gyík',
+        'Gekkó'
     ],
     '🐍': [
-        'Snake',
-        'Serpent'
+        'Kígyó',
+        'Kígyó'
     ],
     '🐲': [
-        'Dragon Face',
-        'Dragon Head'
+        'Sárkányfej',
+        'Sárkányfej'
     ],
-    '🐉': ['Dragon'],
+    '🐉': ['Sárkány'],
     '🦕': [
-        'Sauropod',
-        'Brachiosaurus',
-        'Brontosaurus',
-        'Dinosaur'
+        'Szauropoda',
+        'Brachioszaurusz',
+        'Brontoszaurusz',
+        'Dinoszaurusz'
     ],
     '🦖': [
-        'T-Rex',
-        'Tyrannosaurus Rex'
+        'T-rex',
+        'Tyrannoszaurusz Rex'
     ],
     '🐳': [
-        'Spouting Whale',
-        'Cute Whale'
+        'Fröcskölő bálna',
+        'Cuki bálna'
     ],
-    '🐋': ['Whale'],
-    '🐬': ['Dolphin'],
+    '🐋': ['Bálna'],
+    '🐬': ['Delfin'],
     '🐟': [
-        'Fish',
-        'Freshwater Fish'
+        'Hal',
+        'Édesvízi hal'
     ],
     '🐠': [
-        'Tropical Fish',
-        'Fish',
-        'Yellow-Blue Fish'
+        'Trópusi hal',
+        'Hal',
+        'Sárga-kék hal'
     ],
     '🐡': [
-        'Blowfish',
+        'Gömbhal',
         'Fugu',
-        'Pufferfish'
+        'Gömbhal'
     ],
     '🦈': [
-        'Shark',
-        'Great White Shark'
+        'Cápa',
+        'Nagy fehér cápa'
     ],
-    '🐙': ['Octopus'],
+    '🐙': ['Polip'],
     '🐚': [
-        'Spiral Shell',
-        'Seashell',
-        'Shell'
+        'Csigahéj',
+        'Kagylóhéj',
+        'Kagyló'
     ],
     '🐌': [
-        'Snail',
-        'Slug',
-        'Garden Snail'
+        'Csiga',
+        'Csiga',
+        'Éti csiga'
     ],
-    '🦋': ['Butterfly'],
+    '🦋': ['Lepke'],
     '🐛': [
-        'Bug',
-        'Caterpillar',
-        'Insect'
+        'Bogár',
+        'Hernyó',
+        'Rovar'
     ],
     '🐜': [
-        'Ant',
-        'Bug',
-        'Insect'
+        'Hangya',
+        'Bogár',
+        'Rovar'
     ],
     '🐝': [
-        'Honeybee',
-        'Bee',
-        'Bumblebee'
+        'Háziméh',
+        'Méh',
+        'Poszméh'
     ],
     '🐞': [
-        'Lady Beetle',
-        'Ladybird',
-        'Ladybug',
-        'Bug'
+        'Katicabogár',
+        'Katica',
+        'Katicabogár',
+        'Bogár'
     ],
     '🦗': [
-        'Cricket',
-        'Grasshopper'
+        'Tücsök',
+        'Szöcske'
     ],
-    '🕷️': ['Spider'],
-    '🦂': ['Scorpion'],
-    '🦟': ['Mosquito'],
-    '🦀': ['Crab'],
-    '🦞': ['Lobster'],
+    '🕷️': ['Pók'],
+    '🦂': ['Skorpió'],
+    '🦟': ['Szúnyog'],
+    '🦀': ['Rák'],
+    '🦞': ['Homár'],
     '🦐': [
-        'Shrimp',
-        'Prawn'
+        'Garnélarák',
+        'Garnélarák'
     ],
-    '🦑': ['Squid'],
-    '🦧': ['Orangutan'],
-    '🦥': ['Sloth'],
-    '🦦': ['Otter'],
-    '🦨': ['Skunk'],
-    '🦬': ['Bison'],
-    '🦣': ['Mammoth'],
-    '🦫': ['Beaver'],
+    '🦑': ['Tintahal'],
+    '🦧': ['Orángután'],
+    '🦥': ['Lajhár'],
+    '🦦': ['Vidra'],
+    '🦨': ['Borz'],
+    '🦬': ['Bölény'],
+    '🦣': ['Mammut'],
+    '🦫': ['Hód'],
     '🐻‍❄️': ['Polar Bear'],
-    '🦤': ['Dodo'],
-    '🦭': ['Seal'],
-    '🪲': ['Beetle'],
-    '🪳': ['Cockroach'],
-    '🪰': ['Fly'],
-    '🪱': ['Worm'],
-    '🦩': ['Flamingo']
+    '🦤': ['Dodó'],
+    '🦭': ['Fóka'],
+    '🪲': ['Bogár'],
+    '🪳': ['Csótány'],
+    '🪰': ['Légy'],
+    '🪱': ['Giliszta'],
+    '🦩': ['Flamingó']
 };
 /*symbols*/
 emojis_language[lang][5] = {
@@ -1656,7 +1656,7 @@ emojis_language[lang][5] = {
     '💝': [
         'Heart with Ribbon',
         'Chocolate Box',
-        'Gift Box',
+        'Ajándék doboz',
         'Gift Heart'
     ],
     '💖': [
@@ -1800,21 +1800,21 @@ emojis_language[lang][5] = {
         'Music Note'
     ],
     '🎶': [
-        'Musical Notes',
-        'Music',
-        'Music Notes',
-        'Singing',
-        'Multiple Musical Notes'
+        'Hangjegyek',
+        'Zene',
+        'Zenei hangok',
+        'Éneklés',
+        'Több hangjegy'
     ],
     '🔔': [
-        'Bell',
+        'Harang',
         'Liberty Bell',
-        'Ringer',
+        'Csengő',
         'Wedding Bell'
     ],
     '🔕': [
         'Bell with Slash',
-        'Notifications',
+        'Értesítések',
         'Ringer Disabled',
         'Muted Bell',
         'Bell with Cancellation Stroke'
@@ -1845,7 +1845,7 @@ emojis_language[lang][5] = {
         'Prohibited',
         'Banned',
         'Circle Backslash',
-        'No',
+        'Nem',
         'Red Circle Crossed',
         'Restricted',
         'No Entry Sign'
@@ -2048,57 +2048,57 @@ emojis_language[lang][5] = {
         'Six Pointed Star with Middle Dot'
     ],
     '♈': [
-        'Aries',
-        'Zodiac'
+        'Kos',
+        'Horoszkóp'
     ],
     '♉': [
-        'Taurus',
-        'Zodiac'
+        'Bika',
+        'Horoszkóp'
     ],
     '♊': [
-        'Gemini',
-        'Zodiac'
+        'Ikrek',
+        'Horoszkóp'
     ],
     '♋': [
-        'Cancer',
-        'Zodiac'
+        'Rák',
+        'Horoszkóp'
     ],
     '♌': [
-        'Leo',
-        'Zodiac'
+        'Oroszlán',
+        'Horoszkóp'
     ],
     '♍': [
-        'Virgo',
-        'Zodiac'
+        'Szűz',
+        'Horoszkóp'
     ],
     '♎': [
-        'Libra',
-        'Zodiac'
+        'Mérleg',
+        'Horoszkóp'
     ],
     '♏': [
-        'Scorpio',
-        'Scorpius',
-        'Zodiac'
+        'Skorpió',
+        'Skorpió',
+        'Horoszkóp'
     ],
     '♐': [
-        'Sagittarius',
-        'Zodiac'
+        'Nyilas',
+        'Horoszkóp'
     ],
     '♑': [
-        'Capricorn',
-        'Zodiac'
+        'Bak',
+        'Horoszkóp'
     ],
     '♒': [
-        'Aquarius',
-        'Zodiac'
+        'Vízöntő',
+        'Horoszkóp'
     ],
     '♓': [
-        'Pisces',
-        'Zodiac'
+        'Halak',
+        'Horoszkóp'
     ],
     '⛎': [
-        'Ophiuchus',
-        'Zodiac'
+        'Kígyótartó',
+        'Horoszkóp'
     ],
     '⏭️': [
         'Black Right-Pointing Double Triangle with Vertical Bar',
@@ -2282,7 +2282,7 @@ emojis_language[lang][5] = {
     ],
     '❌': [
         'Cross Mark',
-        'Cross',
+        'Kereszt',
         'X'
     ],
     '✅': [
@@ -2295,7 +2295,7 @@ emojis_language[lang][5] = {
     ],
     '❎': [
         'Cross Mark Button',
-        'Cross',
+        'Kereszt',
         'X',
         'X Mark',
         'Negative Squared Cross Mark'
@@ -2382,7 +2382,7 @@ emojis_language[lang][5] = {
     ],
     '🔣': [
         'Input Symbol for Symbols',
-        'Symbols',
+        'Szimbólumok',
         'Symbol Input'
     ],
     '🔤': [
@@ -2396,7 +2396,7 @@ emojis_language[lang][5] = {
     '🅰️': [
         'A Button (Blood Type)',
         'Blood Type A',
-        'Letter A',
+        'A betű',
         'Negative Squared Latin Capital Letter A'
     ],
     '🆎': [
@@ -2407,7 +2407,7 @@ emojis_language[lang][5] = {
     ],
     '🅱️': [
         'B Button (Blood Type)',
-        'Letter B',
+        'B betű',
         'Blood Type B',
         'Negative Squared Latin Capital Letter B'
     ],
@@ -2456,7 +2456,7 @@ emojis_language[lang][5] = {
         'Blood Type O',
         '0',
         'Negative Squared Latin Capital Letter',
-        'Letter O'
+        'O betű'
     ],
     '🆗': [
         'OK Button',
@@ -2470,7 +2470,7 @@ emojis_language[lang][5] = {
         'P Button',
         'Parking Sign',
         'Negative Squared Latin Capital Letter',
-        'Letter P'
+        'P betű'
     ],
     '🆘': [
         'SOS Button',
@@ -2625,113 +2625,113 @@ emojis_language[lang][5] = {
         'Water Faucet'
     ],
     '🇦': [
-        'Letter A',
-        'Regional Indicator Symbol Letter A'
+        'A betű',
+        'A betű szimbóluma'
     ],
     '🇧': [
-        'Letter B',
-        'Regional Indicator Symbol Letter B'
+        'B betű',
+        'B betű szimbóluma'
     ],
     '🇨': [
-        'Letter C',
-        'Regional Indicator Symbol Letter C'
+        'C betű',
+        'C betű szimbóluma'
     ],
     '🇩': [
-        'Letter D',
-        'Regional Indicator Symbol Letter D'
+        'D betű',
+        'D betű szimbóluma'
     ],
     '🇪': [
-        'Letter E',
-        'Regional Indicator Symbol Letter E'
+        'E betű',
+        'E betű szimbóluma'
     ],
     '🇫': [
-        'Letter F',
-        'Regional Indicator Symbol Letter F'
+        'F betű',
+        'F betű szimbóluma'
     ],
     '🇬': [
-        'Letter G',
-        'Regional Indicator Symbol Letter G'
+        'G betű',
+        'G betű szimbóluma'
     ],
     '🇭': [
-        'Letter H',
-        'Regional Indicator Symbol Letter H'
+        'H betű',
+        'H betű szimbóluma'
     ],
     '🇮': [
-        'Letter I',
-        'Regional Indicator Symbol Letter I'
+        'I betű',
+        'I betű szimbóluma'
     ],
     '🇯': [
-        'Letter J',
-        'Regional Indicator Symbol Letter J'
+        'J betű',
+        'J betű szimbóluma'
     ],
     '🇰': [
-        'Letter K',
-        'Regional Indicator Symbol Letter K'
+        'K betű',
+        'K betű szimbóluma'
     ],
     '🇱': [
-        'Letter L',
-        'Regional Indicator Symbol Letter L'
+        'L betű',
+        'L betű szimbóluma'
     ],
     '🇲': [
-        'Letter M',
-        'Regional Indicator Symbol Letter M'
+        'M betű',
+        'M betű szimbóluma'
     ],
     '🇳': [
-        'Letter N',
-        'Regional Indicator Symbol Letter N'
+        'N betű',
+        'N betű szimbóluma'
     ],
     '🇴': [
-        'Letter O',
-        'Regional Indicator Symbol Letter O'
+        'O betű',
+        'O betű szimbóluma'
     ],
     '🇵': [
-        'Letter P',
-        'Regional Indicator Symbol Letter P'
+        'P betű',
+        'P betű szimbóluma'
     ],
     '🇶': [
-        'Letter Q',
-        'Regional Indicator Symbol Letter Q'
+        'Q betű',
+        'Q betű szimbóluma'
     ],
     '🇷': [
-        'Letter R',
-        'Regional Indicator Symbol Letter R'
+        'R betű',
+        'R betű szimbóluma'
     ],
     '🇸': [
-        'Letter S',
-        'Regional Indicator Symbol Letter S'
+        'S betű',
+        'S betű szimbóluma'
     ],
     '🇹': [
-        'Letter T',
-        'Regional Indicator Symbol Letter T'
+        'T betű',
+        'T betű szimbóluma'
     ],
     '🇺': [
-        'Letter U',
-        'Regional Indicator Symbol Letter U'
+        'U betű',
+        'U betű szimbóluma'
     ],
     '🇻': [
-        'Letter V',
-        'Regional Indicator Symbol Letter V'
+        'V betű',
+        'V betű szimbóluma'
     ],
     '🇼': [
-        'Letter W',
-        'Regional Indicator Symbol Letter W'
+        'W betű',
+        'W betű szimbóluma'
     ],
     '🇽': [
-        'Letter X',
-        'Regional Indicator Symbol Letter X'
+        'X betű',
+        'X betű szimbóluma'
     ],
     '🇾': [
-        'Letter Y',
-        'Regional Indicator Symbol Letter Y'
+        'Y betű',
+        'Y betű szimbóluma'
     ],
     '🇿': [
-        'Letter Z',
-        'Regional Indicator Symbol Letter Z'
+        'Z betű',
+        'Z betű szimbóluma'
     ],
     '💌': [
-        'Love Letter',
-        'Heart Envelope',
-        'Love Note'
+        'Szerelmes levél',
+        'Levél szívecskével',
+        'Szerelmes üzenet'
     ],
     '🚮': [
         'Put Litter in Its Place Symbol',
@@ -2758,7 +2758,7 @@ emojis_language[lang][5] = {
         'Famale WC'
     ],
     '🚻': [
-        'Restroom',
+        'Mosdó',
         'Bathroom Sign',
         'Toilet Sign',
         'WC Sign'
@@ -2784,14 +2784,14 @@ emojis_language[lang][5] = {
         'School Crossing'
     ],
     '🔅': [
-        'Low Brightness Symbol',
-        'Dim Button',
-        'Decrease Brightness'
+        'Alacsony fényerő szimbólum',
+        'Sötétítés gomb',
+        'Fényerő csökkentése'
     ],
     '🔆': [
-        'High Brightness Symbol',
-        'Increase Brightness',
-        'Bright Button'
+        'Nagy fényerősség szimbólum',
+        'Fényerő növelése',
+        'Fényerő gomb'
     ],
     '📳': [
         'Vibration Mode',
@@ -2855,7 +2855,7 @@ emojis_language[lang][5] = {
     'Ⓜ️': [
         'Circled Latin Capital Letter M',
         'Circled M',
-        'Metro',
+        'Metró',
         'Circled M'
     ],
     '🈁': [
@@ -2919,7 +2919,7 @@ emojis_language[lang][5] = {
         'Squared CJK Unified Ideograph-7533',
         'Japanese Sign Meaning Application',
         'Application Form',
-        'Monkey',
+        'Majom',
         'Request',
         '申'
     ],
@@ -2956,187 +2956,187 @@ emojis_language[lang][5] = {
         'Full',
         '満'
     ],
-    '🔘': ['Radio Button'],
+    '🔘': ['Rádiógomb'],
     '🛑': [
-        'Stop Sign',
-        'Octagonal Sign'
+        'Stop tábla',
+        'Nyolcszögletű jel'
     ],
     '⚕️': [
-        'Medical Symbol',
+        'Orvosi szimbólum',
         'Aesculapius',
-        'Asklepios',
-        'Rod of Asclepius',
-        'Staff of Aesculapius'
+        'Aszklépiosz',
+        'Aszklépiosz botja',
+        'Aszklépiosz pálcája'
     ],
     '🛗': [
-        'Elevator',
+        'Felvonó',
         'Lift'
     ],
-    '⚧️': ['Transgender Symbol'],
+    '⚧️': ['Transzgender szimbólum'],
     '♂️': [
-        'Male Sign',
-        'Man Symbol',
-        'Mars Symbol'
+        'Férfi jel',
+        'Férfi szimbólum',
+        'Mars szimbólum'
     ],
     '♀️': [
-        'Female Sign',
-        'Woman Symbol',
-        'Venus Symbol'
+        'Nő jel',
+        'Nő szimbólum',
+        'Vénusz szimbólum'
     ]
 };
 /*food and drinks*/
 emojis_language[lang][6] = {
     '🍇': [
-        'Grapes',
-        'Grape'
+        'Szőlőszemek',
+        'Szőlő'
     ],
     '🍈': [
-        'Melon',
-        'Cantaloupe',
-        'Honeydew',
-        'Muskmelon'
+        'Dinnye',
+        'Sárgadinnye',
+        'Mézdinnye',
+        'Muskotály sárgadinnye'
     ],
-    '🍉': ['Watermelon'],
+    '🍉': ['Görögdinnye'],
     '🍊': [
-        'Tangerine',
         'Mandarin',
-        'Orange'
+        'Mandarin',
+        'Narancs'
     ],
     '🍋': [
-        'Lemon',
-        'Lemonade'
+        'Citrom',
+        'Limonádé'
     ],
     '🍌': [
-        'Banana',
-        'Plantain'
+        'Banán',
+        'Főzőbanán'
     ],
-    '🍍': ['Pineapple'],
-    '🥭': ['Mango'],
+    '🍍': ['Ananász'],
+    '🥭': ['Mangó'],
     '🍎': [
-        'Red Apple',
-        'Red Delicious Apple'
+        'Piros alma',
+        'Ízletes piros alma'
     ],
     '🍏': [
-        'Green Apple',
-        'Golden Delicious Apple',
-        'Granny Smith Apple'
+        'Zöldalma',
+        'Golden Delicious alma',
+        'Granny Smith alma'
     ],
-    '🍐': ['Pear'],
+    '🍐': ['Körte'],
     '🍑': [
-        'Peach',
-        'Bottom',
-        'Butt'
+        'Barack',
+        'Fenék',
+        'Popsi'
     ],
     '🍒': [
-        'Cherries',
-        'Cherry',
-        'Wild Cherry'
+        'Cseresznye',
+        'Meggy',
+        'Vad cseresznye'
     ],
-    '🍓': ['Strawberry'],
+    '🍓': ['Eper'],
     '🥝': [
-        'Kiwi Fruit',
-        'Chinese Gooseberry',
+        'Kiwi gyümölcs',
         'Kiwi',
-        'Kiwifruit'
+        'Kiwi',
+        'Kiwi'
     ],
-    '🍅': ['Tomato'],
+    '🍅': ['Paradicsom'],
     '🥥': [
-        'Coconut',
-        'Cocoanut'
+        'Kókusz',
+        'Kókuszdió'
     ],
-    '🥑': ['Avocado'],
+    '🥑': ['Avokádó'],
     '🍆': [
-        'Eggplant',
+        'Padlizsán',
         'Aubergine',
         'Phallic',
         'Purple Vegetable'
     ],
     '🥔': [
-        'Potato',
-        'Baked Potato',
-        'Idaho Potato'
+        'Burgonya',
+        'Főtt krumpli',
+        'Idaho burgonya'
     ],
-    '🥕': ['Carrot'],
+    '🥕': ['Répa'],
     '🌽': [
-        'Ear of Corn',
-        'Corn',
-        'Corn On The Cob',
-        'Maize',
-        'Ear of Maize'
+        'Kukoricacső',
+        'Kukorica',
+        'Csöves kukorica',
+        'Csemegekukorica',
+        'Héjas kukorica'
     ],
     '🌶️': [
-        'Hot Pepper',
-        'Chili Pepper',
-        'Spicy'
+        'Csípős paprika',
+        'Chili paprika',
+        'Csípős'
     ],
     '🥒': [
-        'Cucumber',
-        'Gherkin',
-        'Pickle'
+        'Uborka',
+        'Ubi',
+        'Savanyúság'
     ],
     '🥬': [
-        'Leafy Green',
-        'Bok Choy',
-        'Chinese Cabbage',
-        'Cos Lettuce',
-        'Romaine Lettuce',
-        'Leafy Greens'
+        'Bordáskel',
+        'Bok choy',
+        'Pak choi',
+        'Bordáskel',
+        'Bordáskel',
+        'Bordáskel'
     ],
-    '🥦': ['Broccoli'],
+    '🥦': ['Brokkoli'],
     '🍄': [
-        'Mushroom',
-        'Shroom',
-        'Toadstool'
+        'Gomba',
+        'Bolondgomba',
+        'Vargánya'
     ],
     '🥜': [
-        'Peanuts',
-        'Nuts'
+        'Mogyoró',
+        'Mogyi'
     ],
     '🌰': [
-        'Chestnut',
-        'Acorn',
-        'Nut'
+        'Gesztenye',
+        'Makk',
+        'Dió'
     ],
     '🍞': [
-        'Bread',
-        'Loaf Of Bread'
+        'Kenyér',
+        'Szelet kenyér'
     ],
     '🥐': ['Croissant'],
     '🥖': [
-        'Baguette Bread',
-        'French Bread',
+        'Bagett',
+        'Francia kenyér',
         'Baguette'
     ],
-    '🥨': ['Pretzel'],
+    '🥨': ['Perec'],
     '🥯': ['Bagel'],
     '🥞': [
-        'Pancakes',
-        'Crêpes',
-        'Hotcakes'
+        'Palacsinták',
+        'Palacsinta',
+        'Palacsinták'
     ],
     '🧀': [
-        'Cheese Wedge',
-        'Cheese'
+        'Sajtdarab',
+        'Sajt'
     ],
     '🍖': [
-        'Meat on Bone',
+        'Csontos hús',
         'BBQ',
         'Barbecue',
-        'Manga Meat'
+        'Manga hús'
     ],
     '🍗': [
-        'Poultry Leg',
-        'Drumstick',
-        'Turkey Leg'
+        'Szárnyas comb',
+        'Dobverő',
+        'Pulykacomb'
     ],
     '🥩': [
-        'Cut of Meat',
-        'Meat',
+        'Szelet hús',
+        'Hús',
         'Steak'
     ],
     '🥓': [
         'Bacon',
-        'Rashers'
+        'Szalonna'
     ],
     '🍔': [
         'Hamburger',
@@ -3144,367 +3144,367 @@ emojis_language[lang][6] = {
         'Cheeseburger'
     ],
     '🍟': [
-        'French Fries',
+        'Sült krumpli',
         'Chips',
-        'Fries',
-        'McDonald\'s Fries'
+        'Hasábburgonya',
+        'McDonald\'s-féle sült krumpli'
     ],
     '🍕': [
         'Pizza',
-        'Pepperoni Pizza',
-        'Slice of Pizza'
+        'Pepperonis pizza',
+        'Pizzaszelet'
     ],
     '🌭': [
         'Hot Dog',
         'Hotdog',
-        'Sausage'
+        'Kolbász'
     ],
-    '🥪': ['Sandwich'],
+    '🥪': ['Szendvics'],
     '🌮': ['Taco'],
     '🌯': [
         'Burrito',
-        'Wrap'
+        'Tekercs'
     ],
     '🥙': [
-        'Stuffed Flatbread',
-        'Doner Kebab',
-        'Gyro',
+        'Pita',
+        'Döner kebab',
+        'Gyros',
         'Shawarma',
-        'Pita Sandwich'
+        'Kebab'
     ],
     '🍳': [
-        'Cooking',
-        'Breakfast',
-        'Fried Egg',
-        'Frying Pan'
+        'Főzés',
+        'Reggeli',
+        'Tükörtojás',
+        'Serpenyő'
     ],
     '🥘': [
-        'Shallow Pan of Food',
+        'Serpenyős étel',
         'Paella',
-        'Pan of Food'
+        'Serpenyős étel'
     ],
     '🍲': [
-        'Pot of Food',
-        'Bowl Of Food',
-        'Soup',
-        'Stew'
+        'Egy tál étel',
+        'Egy fazék étel',
+        'Leves',
+        'Ragu'
     ],
     '🥣': [
-        'Bowl with Spoon',
-        'Cereal Bowl'
+        'Tál kanállal',
+        'Müzlis tál'
     ],
     '🥗': [
-        'Green Salad',
-        'Salad'
+        'Zöld saláta',
+        'Saláta'
     ],
     '🍿': [
         'Popcorn',
-        'Popping Corn'
+        'Pattogatott kukorica'
     ],
     '🧂': [
-        'Salt',
-        'Salt Shaker'
+        'Só',
+        'Sótartó'
     ],
     '🥫': [
-        'Canned Food',
-        'Can of Food',
-        'Tin Can',
-        'Tinned Food'
+        'Konzerv',
+        'Konzervhús',
+        'Konzervdoboz',
+        'Konzerv készétel'
     ],
     '🍱': [
-        'Bento Box',
-        'Lunch Box'
+        'Bentó doboz',
+        'Uzsonnásdoboz'
     ],
     '🍘': [
-        'Rice Cracker',
-        'Cracker'
+        'Rizskeksz',
+        'Keksz'
     ],
     '🍙': [
-        'Rice Ball',
+        'Rizsgolyó',
         'Onigiri'
     ],
     '🍚': [
-        'Cooked Rice',
-        'Boiled Rice',
-        'Rice',
-        'Bowl Of Rice',
-        'Steamed Rice'
+        'Főtt rizs',
+        'Főzött rizs',
+        'Rizs',
+        'Egy tál rizs',
+        'Gőzölt rizs'
     ],
     '🍛': [
-        'Curry Rice',
+        'Currrys rizs',
         'Curry',
-        'Indian Food',
-        'Curry and Rice'
+        'Indiai étel',
+        'Curry és rizs'
     ],
     '🍜': [
-        'Steaming Bowl',
-        'Noodles',
-        'Noodles With Chopsticks',
+        'Gőzölgő tál',
+        'Tészta',
+        'Evőpálcikás tészta',
         'Ramen'
     ],
     '🍝': [
-        'Spaghetti',
-        'Pasta'
+        'Spagetti',
+        'Tésztaétel'
     ],
     '🍠': [
-        'Roasted Sweet Potato',
-        'Sweet Potato',
+        'Sült édesburgonya',
+        'Édesburgonya',
         'Yam'
     ],
     '🍢': [
         'Oden',
         'Kebab',
-        'Skewer'
+        'Nyárs'
     ],
     '🍣': [
         'Sushi',
         'Sashimi',
-        'Seafood'
+        'Tenger gyümölcsei'
     ],
     '🍤': [
-        'Fried Shrimp',
-        'Fried Prawn',
-        'Shrimp Tempura'
+        'Sült garnélarák',
+        'Sült rák',
+        'Garnélarák tempura'
     ],
     '🍥': [
-        'Fish Cake with Swirl',
-        'Fishcake',
-        'Pink Swirl'
+        'Csavart haltorta',
+        'Haltorta',
+        'Rózsaszín örvény'
     ],
     '🥮': [
-        'Moon Cake',
-        'Mooncake'
+        'Holdsütemény',
+        'Holdsüti'
     ],
     '🍡': [
         'Dango',
-        'Dessert Stick',
-        'Pink White Green Balls'
+        'Pálcikás desszert',
+        'Rózsaszín fehér zöld golyók'
     ],
     '🥟': [
-        'Dumpling',
-        'Empanada',
-        'Pierogi'
+        'Gombóc',
+        'Tésztabatyu',
+        'Pirog'
     ],
-    '🥠': ['Fortune Cookie'],
+    '🥠': ['Szerencsesüti'],
     '🥡': [
-        'Takeout Box',
-        'Chinese Food Box',
-        'Oyster Pail'
+        'Elviteles doboz',
+        'Kínai kaja doboz',
+        'Papírdoboz'
     ],
     '🍦': [
-        'Soft Ice Cream',
-        'Mr Whippy',
-        'Soft Serve'
+        'Lágy jégkrém',
+        'Fagylalt',
+        'Fagyi'
     ],
     '🍧': [
-        'Shaved Ice',
-        'Snow Cone'
+        'Fagylalt öntettel',
+        'Jégkása'
     ],
     '🍨': [
-        'Ice Cream',
-        'Bowl Of Ice Cream',
-        'Dessert'
+        'Jégkrém',
+        'Fagylalt kehely',
+        'Desszert'
     ],
     '🍩': [
-        'Doughnut',
-        'Donut'
+        'Fánk',
+        'Fánk'
     ],
     '🍪': [
-        'Cookie',
-        'Biscuit',
-        'Chocolate Chip Cookie'
+        'Süti',
+        'Keksz',
+        'Csokis keksz'
     ],
     '🎂': [
-        'Birthday Cake',
-        'Birthday',
-        'Cake',
-        'Cake With Candles'
+        'Születésnapi torta',
+        'Szülinap',
+        'Torta',
+        'Torta gyertyákkal'
     ],
     '🍰': [
-        'Shortcake',
-        'Cake',
-        'Piece Of Cake',
-        'Strawberry Shortcake'
+        'Tortaszelet',
+        'Torta',
+        'Egy szelet torta',
+        'Epres torta'
     ],
     '🧁': [
         'Cupcake',
-        'Fairy Cake'
+        'Muffin'
     ],
-    '🥧': ['Pie'],
+    '🥧': ['Pite'],
     '🍫': [
-        'Chocolate Bar',
-        'Candy Bar',
-        'Chocolate'
+        'Táblás csoki',
+        'Csoki szelet',
+        'Csokoládé'
     ],
     '🍬': [
-        'Candy',
-        'Lolly',
-        'Sweet'
+        'Cukorka',
+        'Cukorka',
+        'Édesség'
     ],
     '🍭': [
-        'Lollipop',
-        'Sucker'
+        'Nyalóka',
+        'Cukorka'
     ],
     '🍮': [
-        'Custard',
-        'Creme Caramel',
-        'Dessert',
-        'Flan',
-        'Pudding'
+        'Puding',
+        'Karamellás puding',
+        'Desszert',
+        'Puding',
+        'Puding'
     ],
     '🍯': [
-        'Honey Pot',
-        'Honey',
-        'Pot'
+        'Mézes csupor',
+        'Méz',
+        'Csupor'
     ],
     '🍼': [
-        'Baby Bottle',
-        'Bottle Feeding'
+        'Cumisüveg',
+        'Etetőcumi'
     ],
     '🥛': [
-        'Glass of Milk',
-        'Milk'
+        'Egy pohár tej',
+        'Tej'
     ],
     '☕': [
-        'Hot Beverage',
-        'Coffee',
-        'Espresso',
-        'Hot Chocolate',
+        'Forró ital',
+        'Kávé',
+        'Eszpresszó',
+        'Forrócsoki',
         'Tea'
     ],
     '🍵': [
-        'Teacup Without Handle',
-        'Green Tea',
+        'Fül nélküli teáscsésze',
+        'Zöld tea',
         'Matcha',
-        'Matcha Green Tea'
+        'Matcha zöld tea'
     ],
     '🍶': [
-        'Sake',
-        'Bottle',
-        'Rice Wine',
-        'Sake Bottle and Cup'
+        'Szaké',
+        'Palack',
+        'Rizsbor',
+        'Szakés palack pohárral'
     ],
     '🍾': [
-        'Bottle with Popping Cork',
-        'Celebration',
-        'Champagne',
-        'Sparkling Wine'
+        'Palack kiugró dugóval',
+        'Ünneplés',
+        'Pezsgő',
+        'Gyöngyözőbor'
     ],
     '🍷': [
-        'Wine Glass',
-        'Alcohol',
-        'Red Wine',
-        'Wine'
+        'Borospohár',
+        'Alkohol',
+        'Vörösbor',
+        'Bor'
     ],
     '🍸': [
-        'Cocktail Glass',
-        'Cocktail',
+        'Koktélos pohár',
+        'Koktél',
         'Martini'
     ],
     '🍹': [
-        'Tropical Drink',
-        'Fruit Punch',
-        'Tiki Drink'
+        'Trópusi ital',
+        'Gyümölcs ital',
+        'Tiki koktél'
     ],
     '🍺': [
-        'Beer Mug',
-        'Beer',
-        'Beer Stein'
+        'Sörös korsó',
+        'Sör',
+        'Korsó'
     ],
     '🍻': [
-        'Clinking Beer Mugs',
-        'Beers',
-        'Cheers'
+        'Összekoccanó söröskorsók',
+        'Sörök',
+        'Egészségedre'
     ],
     '🥂': [
-        'Clinking Glasses',
-        'Celebration',
-        'Champagne Glasses',
-        'Cheers'
+        'Koccintó poharak',
+        'Ünneplés',
+        'Pezsgős poharak',
+        'Egészségedre'
     ],
     '🥃': [
-        'Tumbler Glass',
+        'Feles pohár',
         'Bourbon',
-        'Liquor',
+        'Likőr',
         'Rum',
         'Whiskey',
         'Whisky'
     ],
     '🥤': [
-        'Cup with Straw',
-        'Milkshake',
+        'Pohár szívószállal',
+        'Shake',
         'Smoothie',
-        'Soda Pop',
-        'Soft Drink'
+        'Üditőital',
+        'Üditőital'
     ],
-    '🥢': ['Chopsticks'],
+    '🥢': ['Evőpálcika'],
     '🍽️': [
-        'Fork and Knife with Plate',
-        'Dinner'
+        'Kés villa tányérral',
+        'Vacsora'
     ],
     '🍴': [
-        'Fork and Knife',
-        'Cutlery',
-        'Knife And Fork',
-        'Silverware'
+        'Villa és kés',
+        'Evőeszközök',
+        'Kés és villa',
+        'Evőeszközök'
     ],
-    '🥄': ['Spoon'],
-    '🧄': ['Garlic'],
-    '🧅': ['Onion'],
-    '🧇': ['Waffle'],
+    '🥄': ['Kanál'],
+    '🧄': ['Fokhagyma'],
+    '🧅': ['Hagyma'],
+    '🧇': ['Goffri'],
     '🧆': ['Falafel'],
-    '🧈': ['Butter'],
-    '🦪': ['Oyster'],
+    '🧈': ['Vaj'],
+    '🦪': ['Osztriga'],
     '🧃': [
-        'Beverage Box',
-        'Juice Box'
+        'Üditős doboz',
+        'Dobozos üditő'
     ],
     '🧉': [
-        'Mate Drink',
-        'Chimarrão',
-        'Cimarrón',
-        'Yerba Mate'
+        'Mate tea',
+        'Chimarrao',
+        'Cimarron',
+        'Yerba Mate tea'
     ],
-    '🫒': ['Olive'],
-    '🫐': ['Blueberries'],
-    '🫑': ['Bell Pepper'],
-    '🫓': ['Flatbread'],
+    '🫒': ['Oliva'],
+    '🫐': ['Áfonya'],
+    '🫑': ['Kaliforniai paprika'],
+    '🫓': ['Lepény'],
     '🫔': [
         'Tamale',
         'Tamal'
     ],
-    '🫕': ['Fondue'],
+    '🫕': ['Fondü'],
     '🧋': [
-        'Bubble Tea',
+        'Bubble tea',
         'Boba'
     ],
-    '🧊': ['Ice Cube']
+    '🧊': ['Jégkocka']
 };
 /*flags*/
 emojis_language[lang][7] = {
     '🏁': [
-        'Chequered Flag',
-        'Checkered Flag',
-        'Grid Girl',
-        'Racing Flag'
+        'Kockás zászló',
+        'Fekete fehér zászló',
+        'Rajt zászló',
+        'Verseny zászló'
     ],
     '🚩': [
-        'Triangular Flag',
-        'Flag on Pole',
-        'Red Flag',
-        'Triangular Flag on Post'
+        'Háromszögletű zászló',
+        'Zászló rúdon',
+        'Vörös zászló',
+        'Háromszög alakú zászló rúdon'
     ],
     '🎌': [
-        'Crossed Flags',
-        'Two Flags'
+        'Keresztbe rakott zászlók',
+        'Két zászló'
     ],
     '🏴': [
-        'Black Flag',
-        'Waving Black Flag'
+        'Fekete zászló',
+        'Lobogó fekete zászló'
     ],
     '🏳️': [
-        'White Flag',
-        'Waving White Flag'
+        'Fehér zászló',
+        'Lobogó fehér zászló'
     ],
     '🏳️‍🌈': [
         'Rainbow Flag',
@@ -3520,424 +3520,424 @@ emojis_language[lang][7] = {
         'Jolly Roger'
     ],
     '🇺🇳': [
-        'Flag of United Nations',
-        'UN',
-        'Flag: United Nations'
+        'Egyesült Nemzetek zászlója',
+        'ENSZ',
+        'Zászló: Egyesült Nemzetek'
     ],
     '🇪🇺': [
-        'Flag of European Union',
+        'Európai Unió zászlója',
         'EU',
-        'Flag: European Union',
-        'EU Flag'
+        'Zászló: Európai Unió',
+        'EU-s zászló'
     ],
     '🇦🇨': [
-        'Flag of Ascension Island',
+        'Szent Ilona-sziget zászlója',
         'AC'
     ],
     '🇦🇩': [
-        'Flag of Andorra',
+        'Andorra zászlója',
         'AD',
-        'Andorran Flag'
+        'Andorrai zászló'
     ],
     '🇦🇪': [
-        'Flag of United Arab Emirates',
+        'Egyesült Arab Emírségek zászlója',
         'AE',
-        'Emirati Flag',
-        'UAE Flag'
+        'Emirátus zászlója',
+        'UAE zászló'
     ],
     '🇦🇫': [
-        'Flag of Afghanistan',
+        'Afganisztán zászlója',
         'AF',
-        'Afghan Flag'
+        'Afgán zászló'
     ],
     '🇦🇬': [
-        'Flag of Antigua & Barbuda',
+        'Antigua és Barbuda zászlója',
         'AG'
     ],
     '🇦🇮': [
-        'Flag of Anguilla',
+        'Anguilla zászlója',
         'AI',
-        'Anguillan Flag'
+        'Anguillai zászló'
     ],
     '🇦🇱': [
-        'Flag of Albania',
+        'Albánia zászlója',
         'AL',
-        'Albanian Flag'
+        'Albán zászló'
     ],
     '🇦🇲': [
-        'Flag of Armenia',
+        'Örményország szálója',
         'AM',
         '🇦🇲'
     ],
     '🇦🇴': [
-        'Flag of Angola',
+        'Angola zászlója',
         'AO',
-        'Angolan Flag'
+        'Angolai zászló'
     ],
     '🇦🇶': [
-        'Flag of Antarctica',
+        'Antarktisz zászlója',
         'AQ',
-        'Antarctic Flag'
+        'Antarktiszi zászló'
     ],
     '🇦🇷': [
-        'Flag of Argentina',
+        'Argentína zászlója',
         'AR',
-        'Argentinian Flag'
+        'Argentínai zászló'
     ],
     '🇦🇸': [
-        'Flag of American Samoa',
+        'Amerikai Szamoa zászlója',
         'AS',
-        'American Samoan Flag'
+        'Amerakai Szamoai zászló'
     ],
     '🇦🇹': [
-        'Flag of Austria',
+        'Ausztria zászlója',
         'AT',
-        'Austrian Flag'
+        'Osztrák zászló'
     ],
     '🇦🇺': [
-        'Flag of Australia',
+        'Ausztrália zászlója',
         'AU',
-        'Aussie Flag',
-        'Australian Flag'
+        'Ausztrál zászló',
+        'Ausztráliai zászló'
     ],
     '🇦🇼': [
-        'Flag of Aruba',
+        'Aruba zászlója',
         'AW',
-        'Aruban Flag'
+        'Arubai zászló'
     ],
     '🇦🇽': [
-        'Flag of Åland Islands',
+        'Åland-szigetek zászlója',
         'AX',
-        'Åland Flag'
+        'Åland-szigeteki zászló'
     ],
     '🇦🇿': [
-        'Flag of Azerbaijan',
+        'Azerbajdzsán zászlója',
         'AZ',
-        'Azerbaijani Flag'
+        'Azerbajdzsáni zászló'
     ],
     '🇧🇦': [
-        'Flag of Bosnia & Herzegovina',
+        'Bosznia-Hercegovina zászlója',
         'BA'
     ],
     '🇧🇧': [
-        'Flag of Barbados',
+        'Barbados zászlója',
         'BB',
-        'Barbadian Flag',
-        'Bajan Flag'
+        'Barbadosi zászló',
+        'Bajan zászló'
     ],
     '🇧🇩': [
-        'Flag of Bangladesh',
+        'Banglades zászlója',
         'BD',
-        'Bangladeshi Flag'
+        'Bangladesi zászló'
     ],
     '🇧🇪': [
-        'Flag of Belgium',
+        'Belgium zászlója',
         'BE',
-        'Belgian Flag'
+        'Belga zászló'
     ],
     '🇧🇫': [
-        'Flag of Burkina Faso',
+        'Burkina Faso zászlója',
         'BF',
-        'Burkinabe Flag'
+        'Burkinai zászló'
     ],
     '🇧🇬': [
-        'Flag of Bulgaria',
+        'Bulgária zászlója',
         'BG',
-        'Bulgarian Flag'
+        'Bolgár zászló'
     ],
     '🇧🇭': [
-        'Flag of Bahrain',
+        'Bahrein zászlója',
         'BH',
-        'Bahrani Flag',
-        'Bahrainian Flag'
+        'Bahreini zászló',
+        'Bahreini zászló'
     ],
     '🇧🇮': [
-        'Flag of Burundi',
+        'Burundi zászlója',
         'BI',
-        'Burundian Flag'
+        'Burundi zászló'
     ],
     '🇧🇯': [
-        'Flag of Benin',
+        'Benin zászlója',
         'BJ',
-        'Beninese Flag'
+        'Benini zászló'
     ],
     '🇧🇱': [
-        'Flag of Saint Barthélemy',
+        'Saint Barthélemy zászlója',
         'BL',
-        'Flag: St. Barthélemy'
+        'Saint Barthélemy zászló'
     ],
     '🇧🇲': [
-        'Flag of Bermuda',
+        'Bermuda zászlója',
         'BM',
-        'Bermudan Flag'
+        'Bermudai zászló'
     ],
     '🇧🇳': [
-        'Flag of Brunei',
+        'Brunei zászlója',
         'BN',
-        'Bruneian Flag'
+        'Brunei zászló'
     ],
     '🇧🇴': [
-        'Flag of Bolivia',
+        'Bolívia zászlója',
         'BO',
-        'Bolivian Flag'
+        'Bolíviai zászló'
     ],
     '🇧🇶': [
-        'Flag of Caribbean Netherlands',
+        'Karibi Hollandia zászlója',
         'BQ',
         'Bonaire'
     ],
     '🇧🇷': [
-        'Flag of Brazil',
+        'Brazília zászlója',
         'BR',
-        'Brazilian Flag'
+        'Brazil zászló'
     ],
     '🇧🇸': [
-        'Flag of Bahamas',
-        'Bahamian Flag',
+        'Bahama-szigetek zászlója',
+        'Bahamai zászló',
         'BS'
     ],
     '🇧🇹': [
-        'Flag of Bhutan',
+        'Bután zászlója',
         'BT',
-        'Bhutanese Flag'
+        'Butáni zászló'
     ],
     '🇧🇻': [
-        'Flag of Bouvet Island',
+        'Bouvet-sziget zászlója',
         'BV',
-        'Flag: Bouvet Island'
+        'Bouvet-szigeti zászló'
     ],
     '🇧🇼': [
-        'Flag of Botswana',
+        'Botswna zászlója',
         'BW',
-        'Batswana Flag'
+        'Botswanai zászló'
     ],
     '🇧🇾': [
-        'Flag of Belarus',
+        'Fehéroroszország zászlója',
         'BY',
-        'Belarusian Flag'
+        'Fehérorosz zászló'
     ],
     '🇧🇿': [
-        'Flag of Belize',
+        'Belize zászlója',
         'BZ',
-        'Belizean Flag'
+        'Belizei zászló'
     ],
     '🇨🇦': [
-        'Flag of Canada',
-        'Canadian Flag',
+        'Kanada zászlója',
+        'Kanadai zászló',
         'CA'
     ],
     '🇨🇨': [
-        'Flag of Cocos (Keeling) Islands',
+        'Kókusz (Keeling)-szigetek zászlója',
         'CC'
     ],
     '🇨🇩': [
-        'Flag of Congo - Kinshasa',
+        'Kongói Demokratikus Köztársaság zászlója',
         'CD'
     ],
     '🇨🇫': [
-        'Flag of Central African Republic',
+        'Közép-Afrika zászlója',
         'CF',
-        'Central African Flag'
+        'Közép-Afrikai zászló'
     ],
     '🇨🇬': [
-        'Flag of Congo - Brazzaville',
+        'Kongói Köztársaság zászlója',
         'CG'
     ],
     '🇨🇭': [
-        'Flag of Switzerland',
+        'Svájc zászlója',
         'CH',
-        'Red Cross',
-        'Swiss Flag'
+        'Vöröskereszt',
+        'Svájci zászló'
     ],
     '🇨🇮': [
-        'Flag of Ivory Coast',
+        'Elefántcsontpart zászlója',
         'CI',
-        'Flag: Côte d’Ivoire'
+        'Elefántcsontparti zászló'
     ],
     '🇨🇰': [
-        'Flag of Cook Islands',
+        'Cook-szigetek zászlója',
         'CK',
-        'Cook Islander Flag'
+        'Cook-szigeteki zászló'
     ],
     '🇨🇱': [
-        'Flag of Chile',
+        'Chile zászlója',
         'CL',
-        'Chilean Flag'
+        'Chilei zászló'
     ],
     '🇨🇲': [
-        'Flag of Cameroon',
+        'Kamerun zászlója',
         'CM',
-        'Cameroonian Flag'
+        'Kameruni zászló'
     ],
     '🇨🇳': [
-        'Flag of China',
+        'Kína zászlója',
         'CN',
-        'Chinese Flag'
+        'Kínai zászló'
     ],
     '🇨🇴': [
-        'Flag of Colombia',
+        'Kolumbia zászlója',
         'CO',
-        'Colombian Flag'
+        'Kolumbiai zászló'
     ],
     '🇨🇵': [
-        'Flag of Clipperton Island',
+        'Clipperton-sziget zászlója',
         'CP',
-        'Flag: Clipperton Island'
+        'Clipperton-szigeti zászló'
     ],
     '🇨🇷': [
-        'Flag of Costa Rica',
+        'Costa Rica zászlója',
         'CR',
-        'Costa Rican Flag'
+        'Costa Ricai zászló'
     ],
     '🇨🇺': [
-        'Flag of Cuba',
+        'Kuba zászlója',
         'CU',
-        'Cuban Flag'
+        'Kubai zászló'
     ],
     '🇨🇻': [
-        'Flag of Cape Verde',
+        'Zöld-foki Köztársaság zászlója',
         'CV',
-        'Cape Verdian Flag'
+        'Zöld-foki Köztársasági zászló'
     ],
     '🇨🇼': [
-        'Flag of Curaçao',
+        'Curacao zászlója',
         'CW',
-        'Curaçaoan Flag'
+        'Curacaoi zászló'
     ],
     '🇨🇽': [
-        'Flag of Christmas Island',
+        'Karácsony-sziget zászlója',
         'CX',
-        'Christmas Island Flag'
+        'Karácsony-szigeti zászló'
     ],
     '🇨🇾': [
-        'Flag of Cyprus',
+        'Ciprus zászlója',
         'CY',
-        'Cypriot Flag'
+        'Ciprusi zászló'
     ],
     '🇨🇿': [
-        'Flag of Czechia',
+        'Csehország zászlója',
         'CZ',
-        'Czech Flag'
+        'Cseh zászló'
     ],
     '🇩🇪': [
-        'Flag of Germany',
+        'Németország zászlója',
         'DE',
-        'Deutsch Flag',
-        'German Flag'
+        'Német zászló',
+        'Német zászló'
     ],
     '🇩🇬': [
-        'Flag of Diego Garcia',
+        'Diego Garcia zászlója',
         'DG',
-        'Flag: Diego Garcia'
+        'Diego Garciai zászló'
     ],
     '🇩🇯': [
-        'Flag of Djibouti',
+        'Dzsibuti zászlója',
         'DJ',
-        'Djibouti Flag',
-        'Djiboutian Flag'
+        'Dzsibuti zászló',
+        'Dzsibuti zászló'
     ],
     '🇩🇰': [
-        'Flag of Denmark',
+        'Dánia zászlója',
         'DK',
-        'Danish Flag'
+        'Dán zászló'
     ],
     '🇩🇲': [
-        'Flag of Dominica',
+        'Dominikai Közösség zászlója',
         'DM'
     ],
     '🇩🇴': [
-        'Flag of Dominican Republic',
+        'Dominikai Köztársaság zászlója',
         'DO',
-        'Dom Rep Flag',
-        'Dominican Flag'
+        'Dominikai Közt. zászlója',
+        'Dominikai zászló'
     ],
     '🇩🇿': [
-        'Flag of Algeria',
+        'Algéria zászlója',
         'DZ',
-        'Algerian Flag'
+        'Algériai zászló'
     ],
     '🇪🇦': [
-        'Flag of Ceuta & Melilla',
-        'Flag of Melilla',
-        'Flag of Ceuta',
+        'Ceuta és Melilla zászlója',
+        'Mellila zászlója',
+        'Ceuta zászlója',
         'EA',
-        'Flag: Ceuta & Melilla'
+        'Ceuta és Melillai zászló'
     ],
     '🇪🇨': [
-        'Flag of Ecuador',
+        'Ecuador zászlója',
         'EC',
-        'Ecuadorian Flag'
+        'Ecuadori zászló'
     ],
     '🇪🇪': [
-        'Flag of Estonia',
+        'Észtország zászlója',
         'EE',
-        'Estonian Flag'
+        'Észt zászló'
     ],
     '🇪🇬': [
-        'Flag of Egypt',
+        'Egyiptom zászlója',
         'EG',
-        'Egyptian Flag'
+        'Egyiptomi zászló'
     ],
     '🇪🇭': [
-        'Flag of Western Sahara',
+        'Nyugat-Szahara zászlója',
         'EH',
-        'Western Saharan Flag'
+        'Nyugat-Szaharai zászló'
     ],
     '🇪🇷': [
-        'Flag of Eritrea',
+        'Eritrea zászlója',
         'ER',
-        'Eritrean Flag'
+        'Eritreai zászló'
     ],
     '🇪🇹': [
-        'Flag of Ethiopia',
+        'Etiópia zászlója',
         'ET',
-        'Ethiopian Flag'
+        'Etióp zászló'
     ],
     '🇪🇸': [
-        'Flag of Spain',
+        'Spanyolország zászlója',
         'ES',
-        'Spanish Flag'
+        'Spanyol zászló'
     ],
     '🇫🇮': [
-        'Flag of Finland',
+        'Finnország zászlója',
         'FI',
-        'Finnish Flag'
+        'Finn zászló'
     ],
     '🇫🇯': [
-        'Flag of Fiji',
+        'Fidzsi zászlója',
         'FJ',
-        'Fijian Flag'
+        'Fidzsi zászló'
     ],
     '🇫🇰': [
-        'Flag of Falkland Islands',
+        'Falkland-szigetek zászlója',
         'FK',
-        'Falklander Flag'
+        'Falkland zászló'
     ],
     '🇫🇲': [
-        'Flag of Micronesia',
+        'Mikronézia zászlója',
         'FM',
-        'Micronesian Flag'
+        'Mikronéz zászló'
     ],
     '🇫🇴': [
-        'Flag of Faroe Islands',
+        'Feröer zászlója',
         'FO',
-        'Faroe Islander Flag'
+        'Feröer zászló'
     ],
     '🇫🇷': [
-        'Flag of France',
+        'Franciaország zászlója',
         'FR',
-        'French Flag'
+        'Francia zászló'
     ],
     '🇬🇦': [
-        'Flag of Gabon',
+        'Gabon zászlója',
         'GA',
-        'Gabonese Flag'
+        'Gabon zászló'
     ],
     '🇬🇧': [
-        'Flag of Great Britain',
+        'Nagy-Britannia zászlója',
         'GB',
-        'British Flag',
-        'United Kingdom',
+        'Brit zászló',
+        'Egyesült Királyság',
         'Union Jack',
         'UK'
     ],
@@ -3946,876 +3946,876 @@ emojis_language[lang][7] = {
     //"🏴󠁧󠁢󠁳󠁣󠁴󠁿": ["Flag of Scotland", "Scottish Flag", "St Andrew's Cross", "Saltire"],
     //"🏴󠁧󠁢󠁮󠁩󠁲󠁿": ["Flag of Northern Ireland"],
     '🇬🇩': [
-        'Flag of Grenada',
+        'Grenada zászlója',
         'GD',
-        'Grenadian Flag'
+        'Grenadai zászló'
     ],
     '🇬🇪': [
-        'Flag of Georgia',
+        'Grúzia zászlója',
         'GE',
-        'Georgian Flag'
+        'Grúz zászló'
     ],
     '🇬🇫': [
-        'Flag of French Guiana',
+        'Francia Guyana zászlója',
         'GF',
-        'French Guinean Flag'
+        'Francia Guyanai zászló'
     ],
     '🇬🇬': [
-        'Flag of Guernsey',
+        'Guernsey Bailiffség zászlója',
         'GG',
-        'Guernsey Flag'
+        'Guernsey Bailiffségi zászló'
     ],
     '🇬🇭': [
-        'Flag of Ghana',
+        'Gána zászlója',
         'GH',
-        'Ghanaian Flag'
+        'Gánai zászló'
     ],
     '🇬🇮': [
-        'Flag of Gibraltar',
+        'Gibraltár zászlója',
         'GI',
-        'Gibraltarian Flag'
+        'Gibraltári zászló'
     ],
     '🇬🇱': [
-        'Flag of Greenland',
+        'Grönland zászlója',
         'GL',
-        'Greenlandic Flag'
+        'Grönlandi zászló'
     ],
     '🇬🇲': [
-        'Flag of Gambia',
+        'Gambia zászlója',
         'GM',
-        'Gambian Flag'
+        'Gambiai zászló'
     ],
     '🇬🇳': [
-        'Flag of Guinea',
+        'Guinea zászlója',
         'GN',
-        'Guinean Flag'
+        'Guineai zászló'
     ],
     '🇬🇵': [
-        'Flag of Guadeloupe',
+        'Guadeloupe zászlója',
         'GP',
-        'Guadeloupean Flag'
+        'Guadeloupei zászló'
     ],
     '🇬🇶': [
-        'Flag of Equatorial Guinea',
+        'Egyenlítői-Guinea zászlója',
         'GQ',
-        'Equatorial Guinean Flag',
-        'Equatoguinean Flag'
+        'Egyenlítői-Guineai zászló',
+        'Equatoguineai zászló'
     ],
     '🇬🇷': [
-        'Flag of Greece',
+        'Görögország zászlója',
         'GR',
-        'Greek Flag'
+        'Görög zászló'
     ],
     '🇬🇸': [
-        'Flag of South Georgia & the South Sandwich Islands',
+        'Déli-Georgia és Déli-Sandwich-szigetek zászlója',
         'GS'
     ],
     '🇬🇹': [
-        'Flag of Guatemala',
+        'Guatemala zászlója',
         'GT',
-        'Guatemalan Flag'
+        'Guatemalai zászló'
     ],
     '🇬🇺': [
-        'Flag of Guam',
+        'Guam zászlója',
         'GU',
-        'Guamanian Flag',
-        'Chamorro Flag'
+        'Guami zászló',
+        'Chamorro zászló'
     ],
     '🇬🇼': [
-        'Flag of Guinea-Bissau',
+        'Bissau-Guinea zászlója',
         'GW',
-        'Guinea-Bissau Flag'
+        'Bissau-Guineai zászló'
     ],
     '🇬🇾': [
-        'Flag of Guyana',
+        'Guyana zászlója',
         'GY',
-        'Guyanese Flag'
+        'Guayanai zászló'
     ],
     '🇭🇰': [
-        'Flag of Hong Kong SAR China',
+        'Hongkong zászló',
         'HK',
-        'Hong Kong Flag'
+        'Hongkongi zászló'
     ],
     '🇭🇲': [
-        'Flag of Heard & McDonald Islands',
+        'Heard-sziget és McDonald-szigetek zászlója',
         'HM',
-        'Flag: Heard & McDonald Islands'
+        'Heard-sziget és McDonald-szigeteki zászló'
     ],
     '🇭🇳': [
-        'Flag of Honduras',
+        'Honduras zászlója',
         'HN',
-        'Honduran Flag'
+        'Hondurasi zászló'
     ],
     '🇭🇷': [
-        'Flag of Croatia',
+        'Horvátország zászlója',
         'HR',
-        'Croatian Flag'
+        'Horvát zászló'
     ],
     '🇭🇹': [
-        'Flag of Haiti',
+        'Haiti zászlója',
         'HT',
-        'Haitian Flag'
+        'Haiti zászló'
     ],
     '🇭🇺': [
-        'Flag of Hungary',
+        'Magyarország zászlója',
         'HU',
-        'Hungarian Flag'
+        'Magyar zászló'
     ],
     '🇮🇨': [
-        'Flag of Canary Islands',
+        'Kanári-szigetek zászlója',
         'IC'
     ],
     '🇮🇩': [
-        'Flag of Indonesia',
+        'Indonézia zászlója',
         'ID',
-        'Indonesian Flag'
+        'Indonéz zászló'
     ],
     '🇮🇪': [
-        'Flag of Ireland',
+        'Írország zászlója',
         'IE',
-        'Irish Flag'
+        'Ír zászló'
     ],
     '🇮🇱': [
-        'Flag of Israel',
+        'Izrael zászlója',
         'IL',
-        'Israeli Flag'
+        'Izraeli zászló'
     ],
     '🇮🇲': [
-        'Flag of Isle of Man',
+        'Man-sziget zászlója',
         'IM',
-        'Manx Flag'
+        'Man-szigeti zászló'
     ],
     '🇮🇳': [
-        'Flag of India',
+        'India zászlója',
         'IN',
-        'Indian Flag'
+        'Indiai zászló'
     ],
     '🇮🇴': [
-        'Flag of British Indian Ocean Territory',
+        'Brit Indiai-óceáni Terület zászlója',
         'IO',
-        'British Indian Ocean Territory Flag'
+        'Brit Indiai-óceáni Területi zászló'
     ],
     '🇮🇶': [
-        'Flag of Iraq',
+        'Irak zászlója',
         'IQ',
-        'Iraqi Flag'
+        'Iraki zászló'
     ],
     '🇮🇷': [
-        'Flag of Iran',
+        'Irán zászlója',
         'IR',
-        'Iranian Flag'
+        'Iráni zászló'
     ],
     '🇮🇸': [
-        'Flag of Iceland',
+        'Izland zászlója',
         'IS',
-        'Icelandic Flag'
+        'Izlandi zászlója'
     ],
     '🇮🇹': [
-        'Flag of Italy',
+        'Olaszország zászlója',
         'IT',
-        'Italian Flag'
+        'Olasz zászló'
     ],
     '🇯🇪': [
-        'Flag of Jersey',
+        'Jersey zászlója',
         'JE',
-        'Jersey Flag'
+        'Jersey-i zászló'
     ],
     '🇯🇲': [
-        'Flag of Jamaica',
+        'Jamaica zászlója',
         'JM',
-        'Jamaican Flag'
+        'Jamaicai zászló'
     ],
     '🇯🇴': [
-        'Flag of Jordan',
+        'Jordánia zászlója',
         'JO',
-        'Jordanian Flag'
+        'Jordániai zászló'
     ],
     '🇯🇵': [
-        'Flag of Japan',
+        'Japán zászlója',
         'JP',
-        'Japanese Flag'
+        'Japán zászló'
     ],
     '🇰🇪': [
-        'Flag of Kenya',
+        'Kenya zászlója',
         'KE',
-        'Kenyan Flag'
+        'Kenyai zászló'
     ],
     '🇰🇬': [
-        'Flag of Kyrgyzstan',
+        'Kirgizisztán zászlója',
         'KG',
-        'Kyrgyzstani Flag'
+        'Kirgizisztáni zászló'
     ],
     '🇰🇭': [
-        'Flag of Cambodia',
+        'Kambodzsa zászlója',
         'KH',
-        'Cambodian Flag'
+        'Kambodzsai zászló'
     ],
     '🇰🇮': [
-        'Flag of Kiribati',
+        'Kiribati zászlója',
         'KI',
-        'I-Kiribati Flag'
+        'Kiribati-i zászló'
     ],
     '🇰🇲': [
-        'Flag of Comoros',
+        'Comore-szigetek zászlója',
         'KM',
-        'Comoran Flag'
+        'Comorei zászló'
     ],
     '🇰🇳': [
-        'Flag of Saint Kitts & Nevis',
+        'Saint Kitts és Nevis zászlója',
         'KN'
     ],
     '🇰🇵': [
-        'Flag of North Korea',
+        'Észak-Korea zászlója',
         'KP',
-        'North Korean Flag'
+        'Észak-Koreai zászló'
     ],
     '🇰🇷': [
-        'Flag of South Korea',
+        'Dél-Korea zászlója',
         'KR',
-        'South Korean Flag'
+        'Dél-Koreai zászló'
     ],
     '🇰🇼': [
-        'Flag of Kuwait',
+        'Kuvait zászlója',
         'KW',
-        'Kuwaiti Flag'
+        'Kuvaiti zászló'
     ],
     '🇰🇾': [
-        'Flag of Cayman Islands',
+        'Kajmán-szigetek zászlója',
         'KY',
-        'Caymanian Flag'
+        'Kajmán-szigeteki zászló'
     ],
     '🇰🇿': [
-        'Flag of Kazakhstan',
+        'Kazahsztán zászlója',
         'KZ',
-        'Kazakhstani Flag',
-        'Kazakh Flag'
+        'Kazahsztáni zászló',
+        'Kazah zászló'
     ],
     '🇱🇦': [
-        'Flag of Laos',
+        'Laosz zászlója',
         'LA',
-        'Laotian Flag',
-        'Lao Flag'
+        'Laoszi zászló',
+        'Lao zászló'
     ],
     '🇱🇧': [
-        'Flag of Lebanon',
+        'Libanon zászlója',
         'LB',
-        'Lebanese Flag'
+        'Libanoni zászló'
     ],
     '🇱🇨': [
-        'Flag of Saint Lucia',
+        'Saint Luca zászlója',
         'LC'
     ],
     '🇱🇮': [
-        'Flag of Liechtenstein',
+        'Liechtenstein zászlója',
         'LI',
-        'Liechtensteiner Flag'
+        'Liechtensteini zászló'
     ],
     '🇱🇰': [
-        'Flag of Sri Lanka',
+        'Sri Lanka zászlója',
         'LK',
-        'Sri Lankan Flag'
+        'Sri Lankai zászló'
     ],
     '🇱🇷': [
-        'Flag of Liberia',
+        'Libéria zászlója',
         'LR',
-        'Liberian Flag'
+        'Libériai zászló'
     ],
     '🇱🇸': [
-        'Flag of Lesotho',
+        'Lesotho zászlója',
         'LS',
-        'Basotho Flag'
+        'Lesothoi zászló'
     ],
     '🇱🇹': [
-        'Flag of Lithuania',
+        'Litvánia zászlója',
         'LT',
-        'Lithuanian Flag'
+        'Litván zászló'
     ],
     '🇱🇺': [
-        'Flag of Luxembourg',
+        'Luxembourg zászlója',
         'LU',
-        'Luxembourger Flag'
+        'Luxembourgi zászló'
     ],
     '🇱🇻': [
-        'Flag of Latvia',
+        'Lettország zászlója',
         'LV',
-        'Latvian Flag'
+        'Lett zászló'
     ],
     '🇱🇾': [
-        'Flag of Libya',
+        'Líbia zászlója',
         'LY',
-        'Libyan Flag'
+        'Líbiai zászló'
     ],
     '🇲🇦': [
-        'Flag of Morocco',
+        'Marokkó zászlója',
         'MA',
-        'Moroccan Flag'
+        'Marokkói zászló'
     ],
     '🇲🇨': [
-        'Flag of Monaco',
+        'Monaco zászlója',
         'MC',
-        'Monégasque Flag'
+        'Monacoi zászló'
     ],
     '🇲🇩': [
-        'Flag of Moldova',
+        'Moldova zászlója',
         'MD',
-        'Moldovan Flag'
+        'Moldáv zászló'
     ],
     '🇲🇪': [
-        'Flag of Montenegro',
+        'Montenegro zászlója',
         'ME',
-        'Montenegrin Flag'
+        'Montenegroi zászló'
     ],
     '🇲🇫': [
-        'Flag of Saint Martin',
+        'Saint Martin zászlója',
         'MF',
-        'Flag: St. Martin'
+        'Saint Martini zászló'
     ],
     '🇲🇬': [
-        'Flag of Madagascar',
+        'Madagszkár zászlója',
         'MG',
-        'Madagascan Flag'
+        'Madagaszkári zászló'
     ],
     '🇲🇭': [
-        'Flag of Marshall Islands',
+        'Marshall-szigetek zászlója',
         'MH',
-        'Marshallese Flag'
+        'Marshall-szigeteki zászló'
     ],
     '🇲🇰': [
-        'Flag of Macedonia',
+        'Macedónia zászlója',
         'MK',
-        'Macedonian Flag'
+        'Macedóniai zászló'
     ],
     '🇲🇱': [
-        'Flag of Mali',
+        'Mali zászlója',
         'ML',
-        'Malian Flag'
+        'Mali-i zászló'
     ],
     '🇲🇲': [
-        'Flag of Myanmar (Burma)',
+        'Mianmar (Burma) zászlója',
         'MM',
-        'Myanmarese Flag',
-        'Flag For Burma',
-        'Burmese Flag'
+        'Mianmari zászló',
+        'Burma zászlója',
+        'Burmai zászló'
     ],
     '🇲🇳': [
-        'Flag of Mongolia',
+        'Mongólia zászlója',
         'MN',
-        'Mongolian Flag'
+        'Mongol zászló'
     ],
     '🇲🇴': [
-        'Flag of Macau Sar China',
+        'Makaó zászlója',
         'MO',
-        'Macanese Flag'
+        'Makaói zászló'
     ],
     '🇲🇵': [
-        'Flag of Northern Mariana Islands',
+        'Északi-Mariana-szigetek zászlója',
         'MP',
-        'Micronesian Flag'
+        'Mikronéziai zászló'
     ],
     '🇲🇶': [
-        'Flag of Martinique',
+        'Martinique zászlója',
         'MQ',
-        'Snake Flag of Martinique',
-        'Martiniquais Flag'
+        'Martinique kígyós zászlója',
+        'Martiniquei zászló'
     ],
     '🇲🇷': [
-        'Flag of Mauritania',
+        'Mauritánia zászlója',
         'MR',
-        'Mauritanian Flag'
+        'Mauritániai zászló'
     ],
     '🇲🇸': [
-        'Flag of Montserrat',
+        'Montserrat zászlója',
         'MS',
-        'Montserratian Flag'
+        'Montserrati zászló'
     ],
     '🇲🇹': [
-        'Flag of Malta',
+        'Málta zászlója',
         'MT',
-        'Maltese Flag'
+        'Máltai zászló'
     ],
     '🇲🇺': [
-        'Flag of Mauritius',
+        'Mauritius zászlója',
         'MU',
-        'Mauritian Flag'
+        'Mauritiusi zászló'
     ],
     '🇲🇻': [
-        'Flag of Maldives',
+        'Maldív-szigetek zászlója',
         'MV',
-        'Maldivian Flag'
+        'Maldív zászló'
     ],
     '🇲🇼': [
-        'Flag of Malawi',
+        'Malawi zászlója',
         'MW',
-        'Malawian Flag'
+        'Malawi-i zászló'
     ],
     '🇲🇽': [
-        'Flag of Mexico',
+        'Mexikó zászlója',
         'MX',
-        'Mexican Flag'
+        'Mexikói zászló'
     ],
     '🇲🇾': [
-        'Flag of Malaysia',
+        'Malajzia zászlója',
         'MY',
-        'Malaysian Flag'
+        'Malajziai zászló'
     ],
     '🇲🇿': [
-        'Flag of Mozambique',
+        'Mozambik zászlója',
         'MZ',
-        'Mozambican Flag'
+        'Mozambiki zászló'
     ],
     '🇳🇦': [
-        'Flag of Namibia',
+        'Namíbia zászlója',
         'NA',
-        'Namibian Flag'
+        'Namíb zászló'
     ],
     '🇳🇨': [
-        'Flag of New Caledonia',
+        'Új-Kaledónia zászlója',
         'NC',
-        'New Caledonian Flag'
+        'Új-Kaledóniai zászló'
     ],
     '🇳🇪': [
-        'Flag of Niger',
+        'Niger zászlója',
         'NE',
-        'Nigerien Flag'
+        'Nigeri zászló'
     ],
     '🇳🇫': [
-        'Flag of Norfolk Island',
+        'Norfolk-sziget zászlója',
         'NF',
-        'Norfolk Island Flag'
+        'Norfolk-szigeti zászló'
     ],
     '🇳🇬': [
-        'Flag of Nigeria',
+        'Nigéria zászlója',
         'NG',
-        'Nigerian Flag'
+        'Nigériai zászló'
     ],
     '🇳🇮': [
-        'Flag of Nicaragua',
+        'Nicaragua zászlója',
         'NI',
-        'Nicaraguan Flag'
+        'Nicaraguai zászló'
     ],
     '🇳🇱': [
-        'Flag of Netherlands',
+        'Hollandia zászlója',
         'NL',
-        'Dutch Flag',
+        'Holland zászló',
         'Holland'
     ],
     '🇳🇴': [
-        'Flag of Norway',
+        'Norvégia zászlója',
         'NO',
-        'Norwegian Flag'
+        'Norvég zászló'
     ],
     '🇳🇵': [
-        'Flag of Nepal',
+        'Nepál zászlója',
         'NP',
-        'Nepalese Flag'
+        'Nepáli zászló'
     ],
     '🇳🇷': [
-        'Flag of Nauru',
+        'Nauru zászlója',
         'NR',
-        'Nauruan Flag'
+        'Naurui zászló'
     ],
     '🇳🇺': [
-        'Flag of Niue',
+        'Niue zászlója',
         'NU',
-        'Niuean Flag'
+        'Niuei zászló'
     ],
     '🇳🇿': [
-        'Flag of New Zealand',
+        'Új-Zéland zászlója',
         'NZ',
-        'Kiwi Flag'
+        'Kiwi zászló'
     ],
     '🇴🇲': [
-        'Flag of Oman',
+        'Omán zászlója',
         'OM',
-        'Omani Flag'
+        'Ománi zászló'
     ],
     '🇵🇦': [
-        'Flag of Panama',
+        'Panama zászlója',
         'PA',
-        'Panamanian Flag'
+        'Panamai zászló'
     ],
     '🇵🇪': [
-        'Flag of Peru',
+        'Peru zászlója',
         'PE',
-        'Peruvian Flag'
+        'Perui zászló'
     ],
     '🇵🇫': [
-        'Flag of French Polynesia',
+        'Francia Polinézia zászlója',
         'PF',
-        'French Polynesian Flag'
+        'Francia Polinéziai zászló'
     ],
     '🇵🇬': [
-        'Flag of Papua New Guinea',
+        'Pápua Új-Guinea zászlója',
         'PG',
-        'PNG Flag',
-        'Papua New Guinean Flag'
+        'PNG zászló',
+        'Pápua Új-Guineai zászló'
     ],
     '🇵🇭': [
-        'Flag of Philippines',
+        'Fülöp-szigetek zászlója',
         'PH'
     ],
     '🇵🇰': [
-        'Flag of Pakistan',
+        'Pakisztán zászlója',
         'PK',
-        'Pakistani Flag'
+        'Pakisztáni zászló'
     ],
     '🇵🇱': [
-        'Flag of Poland',
+        'Lengyelország zászlója',
         'PL',
-        'Polish Flag'
+        'Lengyel zászló'
     ],
     '🇵🇲': [
-        'Flag of Saint Pierre & Miquelon',
+        'Saint Pierre és Miquelon zászlója',
         'PM'
     ],
     '🇵🇳': [
-        'Flag of Pitcairn',
+        'Pitcairn-szigetek zászlója',
         'PN'
     ],
     '🇵🇷': [
-        'Flag of Puerto Rico',
+        'Puerto Rico zászlója',
         'PR',
-        'Puerto Rican Flag'
+        'Puerto Ricoi zászló'
     ],
     '🇵🇸': [
-        'Flag of Palestinian Territories',
+        'Palesztin Területek zászlója',
         'PS',
-        'Palestine'
+        'Palesztina'
     ],
     '🇵🇹': [
-        'Flag of Portugal',
+        'Portugália zászlója',
         'PT',
-        'Portugese Flag'
+        'Portugál zászló'
     ],
     '🇵🇼': [
-        'Flag of Palau',
+        'Palau zászlója',
         'PW',
-        'Palauan Flag'
+        'Palaui zászló'
     ],
     '🇵🇾': [
-        'Flag of Paraguay',
+        'Paraguay zászlója',
         'PY',
-        'Paraguayan Flag'
+        'Paraguayi zászló'
     ],
     '🇶🇦': [
-        'Flag of Qatar',
+        'Katar zászlója',
         'QA',
-        'Qatari Flag'
+        'Katari zászló'
     ],
     '🇷🇪': [
-        'Flag of Réunion',
+        'Réunion zászlója',
         'RE',
-        'Réunionnais Flag'
+        'Réunioni zászló'
     ],
     '🇷🇴': [
-        'Flag of Romania',
+        'Románia zászlója',
         'RO',
-        'Romanian Flag'
+        'Román zászló'
     ],
     '🇷🇸': [
-        'Flag of Serbia',
+        'Szerbia zászlója',
         'RS',
-        'Serbian Flag'
+        'Szerb zászló'
     ],
     '🇷🇺': [
-        'Flag of Russia',
+        'Oroszország zászlója',
         'RU',
-        'Russian Flag'
+        'Orosz zászló'
     ],
     '🇷🇼': [
-        'Flag of Rwanda',
+        'Ruanda zászlója',
         'RW',
-        'Rwandan Flag'
+        'Ruandai zászló'
     ],
     '🇸🇦': [
-        'Flag of Saudi Arabia',
+        'Szaúd-Arábia zászlója',
         'SA',
-        'Saudi Arabian Flag'
+        'Szaúd-Arábiai zászló'
     ],
     '🇸🇧': [
-        'Flag of Solomon Islands',
+        'Salamon-szigetek zászlója',
         'SB',
-        'Solomon Islander Flag'
+        'Salamon-szigeteki zászló'
     ],
     '🇸🇨': [
-        'Flag of Seychelles',
+        'Seychelle-szigetek zászlója',
         'SC',
-        'Seychellois Flag'
+        'Seychellei zászló'
     ],
     '🇸🇩': [
-        'Flag of Sudan',
+        'Szudán zászlója',
         'SD',
-        'Sudanese Flag'
+        'Szudáni zászló'
     ],
     '🇸🇪': [
-        'Flag of Sweden',
+        'Svédország zászlója',
         'SE',
-        'Swedish Flag'
+        'Svéd zászló'
     ],
     '🇸🇬': [
-        'Flag of Singapore',
+        'Szingapúr zászlója',
         'SG',
-        'Singaporean Flag'
+        'Szingapúri zászló'
     ],
     '🇸🇭': [
-        'Flag of Saint Helena',
+        'Szent Ilona zászlója',
         'SH'
     ],
     '🇸🇮': [
-        'Flag of Slovenia',
+        'Szlovénia zászlója',
         'SI',
-        'Slovenian Flag'
+        'Szlovén zászló'
     ],
     '🇸🇯': [
-        'Flag of Svalbard & Jan Mayen',
+        'Svalbars és Jan Mayen zászlója',
         'SJ'
     ],
     '🇸🇰': [
-        'Flag of Slovakia',
+        'Szlovákia zászlója',
         'SK',
-        'Slovak Flag',
-        'Slovakian Flag'
+        'Szlovák zászló',
+        'Szlovákiai zászló'
     ],
     '🇸🇱': [
-        'Flag of Sierra Leone',
+        'Sierra Leone zászlója',
         'SL',
-        'Sierra Leonean Flag'
+        'Sierra Leonei zászló'
     ],
     '🇸🇲': [
-        'Flag of San Marino',
+        'San Marino zászlója',
         'SM',
-        'Sammarinese Flag'
+        'San Marinoi zászló'
     ],
     '🇸🇳': [
-        'Flag of Senegal',
+        'Szengál zászlója',
         'SN',
-        'Sengalese Flag'
+        'Szenegáli zászló'
     ],
     '🇸🇴': [
-        'Flag of Somalia',
+        'Szomália zászlója',
         'SO',
-        'Somalian Flag'
+        'Szomáliai zászló'
     ],
     '🇸🇷': [
-        'Flag of Suriname',
+        'Suriname zászlója',
         'SR',
-        'Surinamer Flag'
+        'Surinamei zászló'
     ],
     '🇸🇸': [
-        'Flag of South Sudan',
+        'Dél-Szudán zászlója',
         'SS',
-        'South Sudanese Flag'
+        'Dél-Szudáni zászló'
     ],
     '🇸🇹': [
-        'Flag of São Tomé & Príncipe',
+        'São Tomé és Príncipe zászlója',
         'ST'
     ],
     '🇸🇻': [
-        'Flag of El Salvador',
+        'El Salvador zászlója',
         'SV',
-        'El Salvadoran Flag'
+        'El Salvadori zászló'
     ],
     '🇸🇽': [
-        'Flag of Sint Maarten',
+        'Sint Maarten zászlója',
         'SX'
     ],
     '🇸🇾': [
-        'Flag of Syria',
+        'Szíria zászlója',
         'SY',
-        'Syrian Flag'
+        'Szíriai zászló'
     ],
     '🇸🇿': [
-        'Flag of Swaziland',
+        'Szváziföld zászlója',
         'SZ',
-        'Eswatini Flag'
+        'Szváziföldi zászló'
     ],
     '🇹🇦': [
-        'Flag of Tristan Da Cunha',
+        'Tristan Da Cunha zászlója',
         'TA'
     ],
     '🇹🇨': [
-        'Flag of Turks & Caicos Islands',
+        'Turks- és Caicos-szigetek zászlója',
         'TC'
     ],
     '🇹🇩': [
-        'Flag of Chad',
+        'Csád zászlója',
         'TD',
-        'Chadian Flag'
+        'Csádi zászló'
     ],
     '🇹🇫': [
-        'Flag of French Southern Territories',
+        'Francia déli területek zászlója',
         'TF',
-        'French Southern Lands Flag'
+        'Francia déli területeki zászló'
     ],
     '🇹🇬': [
-        'Flag of Togo',
+        'Togo zászlója',
         'TG',
-        'Togolese Flag'
+        'Togoi zászló'
     ],
     '🇹🇭': [
-        'Flag of Thailand',
+        'Thaiföld zászlója',
         'TH',
-        'Thai Flag'
+        'Thai zászló'
     ],
     '🇹🇯': [
-        'Flag of Tajikistan',
+        'Tádzsikisztán zászlója',
         'TJ',
-        'Tajik Flag'
+        'Tádzsik zászló'
     ],
     '🇹🇰': [
-        'Flag of Tokelau',
+        'Tokelau-szigetek zászlója',
         'TK',
-        'Tokelauan Flag'
+        'Tokelaui zászló'
     ],
     '🇹🇱': [
-        'Flag of Timor-Leste',
+        'Kelet-Timor zászlója',
         'TL',
-        'Timor-Leste Flag',
-        'East Timorese Flag'
+        'Timor-Lestei zászló',
+        'Kelet-Timori zászló'
     ],
     '🇹🇲': [
-        'Flag of Turkmenistan',
+        'Türkmenisztán zászlója',
         'TM',
-        'Turkmen Flag'
+        'Türkmén zászló'
     ],
     '🇹🇳': [
-        'Flag of Tunisia',
+        'Tunézia zászlója',
         'TN',
-        'Tunisian Flag'
+        'Tunéziai zászló'
     ],
     '🇹🇴': [
-        'Flag of Tonga',
+        'Tonga zászlója',
         'TO',
-        'Tongan Flag'
+        'Tongai zászló'
     ],
     '🇹🇷': [
-        'Flag of Turkey',
+        'Törökország zászlója',
         'TR',
-        'Turkish Flag'
+        'Török zászló'
     ],
     '🇹🇹': [
-        'Flag of Trinidad & Tobago',
+        'Trinidad és Tobago zászlója',
         'TT'
     ],
     '🇹🇻': [
-        'Flag of Tuvalu',
+        'Tuvalu zászlója',
         'TV',
-        'Tuvaluan Flag'
+        'Tuvalui zászló'
     ],
     '🇹🇼': [
-        'Flag of Taiwan',
+        'Tajvan zászlója',
         'TW',
-        'Taiwanese Flag'
+        'Tajvani zászló'
     ],
     '🇹🇿': [
-        'Flag of Tanzania',
+        'Tanzánia zászlója',
         'TZ',
-        'Tanzanian Flag'
+        'Tanzániai zászló'
     ],
     '🇺🇦': [
-        'Flag of Ukraine',
+        'Ukrajna zászlója',
         'UA',
-        'Ukrainian Flag'
+        'Ukrajnai zászló'
     ],
     '🇺🇬': [
-        'Flag of Uganda',
+        'Uganda zászlója',
         'UG',
-        'Ugandan Flag'
+        'Ugandai zászló'
     ],
     '🇺🇲': [
-        'Flag: U.S. Outlying Islands',
+        'Baker-sziget zászlója',
         'UM'
     ],
     '🇺🇸': [
-        'Flag of United States',
+        'Egyesült Államok zászlója',
         'US',
-        'American Flag',
-        'USA Flag'
+        'Amerikai zászló',
+        'USA zászlója'
     ],
     '🇺🇾': [
-        'Flag of Uruguay',
+        'Uruguay zászlója',
         'UY',
-        'Uruguayan Flag'
+        'Uruguayi zászló'
     ],
     '🇺🇿': [
-        'Flag of Uzbekistan',
+        'Üzbegisztán zászlója',
         'UZ',
-        'Uzbekistani Flag',
-        'Uzbek Flag'
+        'Üzbegisztáni zászló',
+        'Üzbég zászló'
     ],
     '🇻🇦': [
-        'Flag of Holy See',
+        'Apostoli Szentszék zászlója',
         'VA',
-        'Vanticanien Flag'
+        'Vatikáni zászló'
     ],
     '🇻🇨': [
-        'Flag of Saint Vincent & Grenadines',
+        'Saint Vincent és Grenadina-szigetek zászlója',
         'VC'
     ],
     '🇻🇪': [
-        'Flag of Venezuela',
+        'Venezuela zászlója',
         'VE',
-        'Venezuelan Flag'
+        'Venezuelai zászló'
     ],
     '🇻🇬': [
-        'Flag of British Virgin Islands',
+        'Brit Virgin-szigetek zászlója',
         'VG',
-        'British Virgin Islander Flag'
+        'Brit Virgin-szigeteki zászló'
     ],
     '🇻🇮': [
-        'Flag of US Virgin Islands',
+        'Amerikai Virgin-szigetek zászlója',
         'VI',
-        'US Virgin Islander Flag'
+        'Amerikai Virgin-szigeteki zászló'
     ],
     '🇻🇳': [
-        'Flag of Vietnam',
+        'Vietnám zászlója',
         'VN',
-        'Vietnamese Flag'
+        'Vietnámi zászló'
     ],
     '🇻🇺': [
-        'Flag of Vanuatu',
+        'Vanuatu zászlója',
         'VU',
-        'Ni-Vanuatu Flag'
+        'Ni-Vanuatui zászló'
     ],
     '🇼🇫': [
-        'Flag of Wallis & Futuna',
+        'Wallis és Futuna zászlója',
         'WF'
     ],
     '🇼🇸': [
-        'Flag of Samoa',
+        'Szamoa zászlója',
         'WS',
-        'Samoan Flag'
+        'Szamoai zászló'
     ],
     '🇽🇰': [
-        'Flag of Kosovo',
+        'Koszovó zászlója',
         'XK',
-        'Kosovar Flag'
+        'Koszovói zászló'
     ],
     '🇾🇪': [
-        'Flag of Yemen',
+        'Jemen zászlója',
         'YE',
-        'Yemeni Flag'
+        'Jemeni zászló'
     ],
     '🇾🇹': [
-        'Flag of Mayotte',
+        'Mayotte zászlója',
         'YT',
-        'Mayotte Flag'
+        'Mayottei zászló'
     ],
     '🇿🇦': [
-        'Flag of South Africa',
+        'Dél-Afrikai Köztársaság zászlója',
         'ZA',
-        'South African Flag'
+        'Dél-Afrikai zászló'
     ],
     '🇿🇲': [
-        'Flag of Zambia',
+        'Zambia zászlója',
         'ZM',
-        'Zambian Flag'
+        'Zambiai zászló'
     ],
     '🇿🇼': [
-        'Flag of Zimbabwe',
+        'Zimbabwe zászlója',
         'ZW',
-        'Zimbabwean Flag',
-        'Zim Flag'
+        'Zimbabwei zászló',
+        'Zim zászló'
     ]
 };
 /*sports*/
@@ -4910,8 +4910,20 @@ emojis_language[lang][8] = {
         'Woman Juggling',
         'Female Juggler'
     ],
-    '🧘{{skin_tone}}‍♂️': ['Man in Lotus Position'],
-    '🧘{{skin_tone}}‍♀️': ['Woman in Lotus Position'],
+    '🧘{{skin_tone}}‍♂️': [
+        'Man in Lotus Position',
+        'Meditation',
+        'Zen',
+        'Cross legged',
+        'Yoga'
+    ],
+    '🧘{{skin_tone}}‍♀️': [
+        'Woman in Lotus Position',
+        'Meditation',
+        'Zen',
+        'Cross legged',
+        'Yoga'
+    ],
     '🏃{{skin_tone}}‍♂️': ['Man Running'],
     '🏃{{skin_tone}}‍♀️': ['Woman Running'],
     '🕺{{skin_tone}}‍': ['Man Dancing'],
@@ -4921,11 +4933,11 @@ emojis_language[lang][8] = {
         'Fancer'
     ],
     '🏆': [
-        'Trophy',
-        'Championship',
-        'Winner'
+        'Trófea',
+        'Bajnokság',
+        'Győztes'
     ],
-    '🏅': ['Sports Medal'],
+    '🏅': ['Sport érem'],
     '🥇': [
         '1st Place Medal',
         'First Place Medal',
@@ -4942,8 +4954,8 @@ emojis_language[lang][8] = {
         'Bronze Medal'
     ],
     '⚽': [
-        'Soccer',
-        'Football'
+        'Foci',
+        'Focilabda'
     ],
     '⚾': [
         'Baseball',
@@ -4956,19 +4968,19 @@ emojis_language[lang][8] = {
     ],
     '🏀': [
         'Basketball',
-        'Orange',
+        'Narancs',
         'Basketball and Hoop'
     ],
-    '🏐': ['Volleyball'],
+    '🏐': ['Röplabda'],
     '🏈': [
         'American Football',
-        'Football',
+        'Focilabda',
         'Gridiron',
         'Superbowl'
     ],
     '🏉': [
         'Rugby Football',
-        'Football',
+        'Focilabda',
         'League',
         'Rugby',
         'Union'
@@ -4990,8 +5002,8 @@ emojis_language[lang][8] = {
         'Ten Pin Bowling'
     ],
     '🏏': [
-        'Cricket',
-        'Bat',
+        'Tücsök',
+        'Denevér',
         'Ball'
     ],
     '🏑': [
@@ -5020,7 +5032,7 @@ emojis_language[lang][8] = {
         'Shuttlecock',
         'Racquet'
     ],
-    '🥊': ['Boxing Glove'],
+    '🥊': ['Boxkesztyű'],
     '🥋': [
         'Martial Arts Uniform',
         'Judo',
@@ -5028,17 +5040,17 @@ emojis_language[lang][8] = {
         'Kung fu'
     ],
     '⛳': [
-        'Flag in Hole',
-        'Golf Flag'
+        'Zászló lyukban',
+        'Golf zászló'
     ],
     '⛸️': [
-        'Ice Skate',
-        'Skating'
+        'Jégkorcsolya',
+        'Korcsolyázás'
     ],
     '🎣': [
         'Fishing',
         'Pole',
-        'Fish',
+        'Hal',
         'Fishing Rod'
     ],
     '🎽': [
@@ -5047,16 +5059,16 @@ emojis_language[lang][8] = {
         'Sash'
     ],
     '🎿': [
-        'Skis',
-        'Skiing',
-        'Boot'
+        'Sílécek',
+        'Síelés',
+        'Síbakancs'
     ],
-    '🛷': ['Sled'],
-    '🥌': ['Curling Stone'],
+    '🛷': ['Szánkó'],
+    '🥌': ['Curling kő'],
     '🎯': [
-        'Direct Hit',
-        'Archery',
-        'Bullseye',
+        'Telitalálat',
+        'Íjászat',
+        'Bikaszeme',
         'Darts'
     ],
     '🎱': [
@@ -5072,10 +5084,10 @@ emojis_language[lang][8] = {
         'Gamepad',
         'Wii U'
     ],
-    '♟️': ['Black Chess Pawn'],
+    '♟️': ['Sötét gyalog'],
     '🏹': [
-        'Bow and Arrow',
-        'Arch'
+        'Íj és nyíl',
+        'Íjászat'
     ],
     '🥅': ['Goal Net'],
     '🀄': [
@@ -5096,9 +5108,9 @@ emojis_language[lang][8] = {
 /*travel and places*/
 emojis_language[lang][9] = {
     '🚂': [
-        'Steam Locomotive',
-        'Steam Train',
-        'Railway Locomotive'
+        'Gőzmozdony',
+        'Gőzös',
+        'Lokomotív'
     ],
     '🚃': [
         'Railway Car',
@@ -5113,21 +5125,21 @@ emojis_language[lang][9] = {
         'Shinkansen',
         'High-Speed Train with Bullet Nose'
     ],
-    '🚆': ['Train'],
+    '🚆': ['Vonat'],
     '🚇': [
-        'Underground',
-        'Tube',
-        'Metro',
-        'Subway'
+        'Földalatti',
+        'Metró',
+        'Metró',
+        'Metró'
     ],
     '🚈': [
         'Light Rail',
-        'Train'
+        'Vonat'
     ],
-    '🚊': ['Tram'],
+    '🚊': ['Villamos'],
     '🚝': [
         'Monorail',
-        'Train'
+        'Vonat'
     ],
     '🚞': [
         'Mountain Railway',
@@ -5136,8 +5148,8 @@ emojis_language[lang][9] = {
     ],
     '🚋': ['Tram Car'],
     '🚌': [
-        'Bus',
-        'Coach'
+        'Busz',
+        'Turistabusz'
     ],
     '🚍': [
         'Oncoming Bus',
@@ -5152,7 +5164,7 @@ emojis_language[lang][9] = {
         'Minivan',
         'People-Mover'
     ],
-    '🚑': ['Ambulance'],
+    '🚑': ['Mentőautó'],
     '🚒': [
         'Fire Engine',
         'Fire Department',
@@ -5170,13 +5182,13 @@ emojis_language[lang][9] = {
     ],
     '🚕': [
         'Taxi',
-        'New York Taxi',
-        'Side Of Taxi'
+        'New Yorki taxi',
+        'Taxi oldala'
     ],
     '🚖': [
         'Taxi',
-        'Oncoming Taxi',
-        'Front of Taxi'
+        'Érkező taxi',
+        'Taxi eleje'
     ],
     '🚗': [
         'Automobile',
@@ -5197,58 +5209,58 @@ emojis_language[lang][9] = {
         'Green Truck'
     ],
     '🚜': [
-        'Tractor',
+        'Traktor',
         'Farm'
     ],
     '🛻': ['Pickup Truck'],
     '🏎️': [
-        'Racing Car',
+        'Versenyautó',
         'F1',
-        'Formula One',
-        'Race Car'
+        'Forma egy',
+        'Versenyautó'
     ],
     '🏍️': [
-        'Motorbike',
-        'Motorcycle'
+        'Motor',
+        'Motorkerékpár'
     ],
     '🛵': [
-        'Motor Scooter',
+        'Robogó',
         'Vespa',
-        'Motor Bike',
-        'Motor Bike'
+        'Motorkerékpár',
+        'Motor'
     ],
     '🛺': [
-        'Auto Rickshaw',
-        'Tuk Tuk'
+        'Motoros riksa',
+        'Tuk tuk'
     ],
     '🚲': [
-        'Bicycle',
-        'Bike'
+        'Bicikli',
+        'Kerékpár'
     ],
-    '🛴': ['Kick Scooter'],
+    '🛴': ['Roller'],
     '⛵': [
-        'Sailboat',
-        'Dinghy',
-        'Yacht'
+        'Vitorláshajó',
+        'Dingi',
+        'Jacht'
     ],
     '🚤': [
-        'Speedboat',
-        'Motorboat',
+        'Motorcsónak',
+        'Versenycsónak',
         'Powerboat'
     ],
-    '🛳️': ['Passenger Ship'],
-    '⛴️': ['Ferry'],
-    '🛥️': ['Motor Boat'],
-    '🚢': ['Cruise Ship'],
+    '🛳️': ['Utasszállító hajó'],
+    '⛴️': ['Komp'],
+    '🛥️': ['Motorcsónak'],
+    '🚢': ['Óceánjáró hajó'],
     '✈️': [
-        'Airplane',
-        'Aeroplane'
+        'Repülő',
+        'Repülőgép'
     ],
     '🛩️': [
         'Small Airplane',
         'Small Aeroplane'
     ],
-    '🚁': ['Helicopter'],
+    '🚁': ['Helikopter'],
     '🚟': ['Suspension Railway'],
     '🚠': ['Mountain Cableway'],
     '🚡': [
@@ -5257,69 +5269,69 @@ emojis_language[lang][9] = {
         'Gondola',
         'Ropeway'
     ],
-    '🛰️': ['Satellite'],
+    '🛰️': ['Műhold'],
     '🚀': [
-        'Rocket',
-        'Space Shuttle'
+        'Rakéta',
+        'Űrhajó'
     ],
     '🛸': [
-        'Flying Saucer',
+        'Repülő csészealj',
         'UFO'
     ],
     '🚉': [
-        'Train Station',
-        'Train Platform'
+        'Vasútállomás',
+        'Vasúti megállóhely'
     ],
-    '🚏': ['Bus Stop'],
+    '🚏': ['Buszmegálló'],
     '🛣️': [
-        'Motorway',
-        'Road',
-        'Highway',
-        'Interstate'
+        'Autópálya',
+        'Út',
+        'Főút',
+        'Gyorsforgalmi út'
     ],
-    '🛤️': ['Railway Track'],
+    '🛤️': ['Vasúti sínek'],
     '🛫': [
-        'Airplane Departure',
-        'Taking Off'
+        'Repülőgép indulás',
+        'Felszállás'
     ],
     '🛬': [
-        'Airplane Arrival',
-        'Airplane Arriving',
-        'Landing'
+        'Repülőgép érkezés',
+        'Érkező repülőgép',
+        'Leszállás'
     ],
-    '🗾': ['Map of Japan'],
-    '⛰️': ['Mountain'],
-    '🏔️': ['Snow Capped Mountain'],
-    '🌋': ['Volcano'],
+    '🗾': ['Japán térképe'],
+    '⛰️': ['Hegy'],
+    '🏔️': ['Hófödte hegycsúcs'],
+    '🌋': ['Vulkán'],
     '🗻': [
-        'Mount Fuji',
+        'Fuji hegy',
         'Fuji-san'
     ],
     '🏕️': [
-        'Camping',
-        'Campsite'
+        'Kemping',
+        'Táborhely'
     ],
-    '🏖️': ['Beach With Umbrella'],
-    '🏜️': ['Desert'],
-    '🏝️': ['Desert Island'],
-    '🏞️': ['National Park'],
+    '🏖️': ['Tengerpart napernyővel'],
+    '🏜️': ['Sivatag'],
+    '🏝️': ['Trópusi sziget'],
+    '🏞️': ['Nemzeti park'],
     '🏟️': [
-        'Stadium',
-        'Grandstand',
-        'Sport Stadium'
+        'Stadion',
+        'Aréna',
+        'Sport stadion'
     ],
     '🏛️': [
-        'Classical Building',
-        'Greek',
-        'Rome'
+        'Ókori épület',
+        'Görög',
+        'Római'
     ],
     '🏗️': [
-        'Building Construction',
-        'Crane'
+        'Építkezés',
+        'Daru'
     ],
     '🏘️': [
-        'Houses Buildings',
-        'Group of Houses'
+        'Házak épületek',
+        'Házak'
     ],
     '🏚️': [
         'Derelict House Building',
@@ -5329,11 +5341,11 @@ emojis_language[lang][9] = {
     ],
     '🏠': [
         'Főoldal',
-        'House Building'
+        'Ház épület'
     ],
     '🏡': [
-        'House With Garden',
-        'House And Tree'
+        'Kertes ház',
+        'Ház és fa'
     ],
     '🏢': [
         'Office Building',
@@ -5345,16 +5357,16 @@ emojis_language[lang][9] = {
         'Japanese Postal Mark'
     ],
     '🏤': [
-        'Post Office',
-        'European Post Office'
+        'Postahivatal',
+        'Európai postahivatal'
     ],
     '🏥': [
-        'Hospital',
+        'Kórház',
         'ER',
         'A&E',
         'Emergency Room',
         'Accident And Emergency',
-        'Red Cross',
+        'Vöröskereszt',
         'Medical'
     ],
     '🏦': [
@@ -5366,7 +5378,7 @@ emojis_language[lang][9] = {
     ],
     '🏨': [
         'Hotel',
-        'Accommodation',
+        'Szálláshely',
         'H Building'
     ],
     '🏩': [
@@ -5381,95 +5393,95 @@ emojis_language[lang][9] = {
         'Kwik-E-Mart'
     ],
     '🏫': [
-        'School',
-        'Clock Tower',
-        'Elementary High Middle'
+        'Iskola',
+        'Toronyóra',
+        'Általános közép gimnázium'
     ],
     '🏬': [
-        'Department Store',
-        'Shopping Center',
-        'Shop'
+        'Bevásárló központ',
+        'Pláza',
+        'Bolt'
     ],
     '🏭': [
-        'Factory',
-        'Industrial',
-        'Industry',
-        'Pollution',
-        'Smog'
+        'Gyár',
+        'Ipari',
+        'Ipar',
+        'Légszennyezés',
+        'Szmog'
     ],
     '🏯': [
-        'Japanese Castle',
-        'Fortress'
+        'Japán kastély',
+        'Erőd'
     ],
     '🏰': [
-        'European Castle',
-        'Turrets'
+        'Európai kastély',
+        'Tornyok'
     ],
     '💒': [
-        'Church Heart',
-        'Church Wedding',
-        'Marriage'
+        'Templom szívekkel',
+        'Templomi esküvő',
+        'Házasság'
     ],
     '🗼': [
-        'Tokyo Tower',
-        'Eiffel Tower',
-        'Red Tower'
+        'Tokyo torony',
+        'Eiffel torony',
+        'Vörös torony'
     ],
     '🗽': [
-        'Statue of Liberty',
+        'Szabadság-szobor',
         'New York'
     ],
     '⛪': [
-        'Church Building',
-        'Cross'
+        'Templom',
+        'Kereszt'
     ],
     '🕌': [
-        'Mosque',
-        'Domed Roof',
+        'Mecset',
+        'Kupola tető',
         'Minaret'
     ],
-    '🛕': ['Hindu Temple'],
+    '🛕': ['Hindu templom'],
     '🕍': [
-        'Synagogue',
-        'Jewish',
-        'Synagog',
-        'Temple'
+        'Zsinagóga',
+        'Zsidó',
+        'Zsinagóga',
+        'Templom'
     ],
     '⛩️': [
-        'Shinto Shrine',
+        'Sintó szentély',
         'Kami-no-michi'
     ],
     '🕋': [
-        'Kaaba',
-        'Mecca'
+        'Kába kő',
+        'Mekka'
     ],
-    '🏙️': ['Cityscape'],
+    '🏙️': ['Városi látkép'],
     '⛱️': [
-        'Umbrella on Ground',
-        'Beach Umbrella'
+        'Napernyő a földben',
+        'Strandnapernyő'
     ],
     '🌄': [
-        'Sunrise Over Mountains',
-        'Morning',
-        'Sunrise'
+        'Napkelte a hegyek fölött',
+        'Reggel',
+        'Napkelte'
     ],
     '🌅': [
-        'Sunrise',
-        'Sunset'
+        'Napkelte',
+        'Napnyugta'
     ],
     '🌆': [
-        'Cityscape at Dusk',
-        'Orange Sky City',
-        'Dusk City'
+        'Városi látkép alkonyatkor',
+        'Narancsszínű városi égbolt',
+        'Város alkonyatkor'
     ],
     '🌇': [
-        'Sunset Over Buildings',
-        'City Sunset'
+        'Naplemente épületek mögött',
+        'Városi naplemente'
     ],
     '🌃': [
-        'Night with Stars',
-        'City At Night',
-        'Starry Night'
+        'Csillagos este',
+        'Város éjjel',
+        'Csillagfényes este'
     ],
     '🗿': [
         'Moai',
@@ -5478,17 +5490,17 @@ emojis_language[lang][9] = {
         'Moyai Statue'
     ],
     '🌠': [
-        'Shooting Star',
-        'When You Wish Upon A Star',
-        'Meteoroid'
+        'Hullócsillag',
+        'Kívánság csillag',
+        'Meteor'
     ],
     '🌌': [
-        'Milky Way',
-        'Galaxy',
-        'Night Sky',
-        'Space',
-        'Stars',
-        'Universe'
+        'Tejút',
+        'Galaxis',
+        'Esti égbolt',
+        'Űr',
+        'Csillagok',
+        'Univerzum'
     ],
     '🎑': [
         'Moon Viewing Ceremony',
@@ -5497,39 +5509,39 @@ emojis_language[lang][9] = {
         'Mid-Autumn Festival',
         'Tsukimi'
     ],
-    '🛖': ['Hut'],
+    '🛖': ['Kunyhó'],
     '🎢': [
-        'Roller Coaster',
-        'Rollercoaster',
-        'Theme Park'
+        'Hullámvasút',
+        'Hullámvasút',
+        'Vidámpark'
     ]
 };
 /*technologies (smartphones, laptops, etc.) and office*/
 emojis_language[lang][10] = {
     '⌚': [
-        'Watch',
-        'Timepiece',
+        'Karóra',
+        'Óra',
         'Apple Watch'
     ],
-    '⏰': ['Alarm Clock'],
-    '⏱️': ['Stopwatch'],
-    '⏲️': ['Timer Clock'],
+    '⏰': ['Ébresztőóra'],
+    '⏱️': ['Stopperóra'],
+    '⏲️': ['Időzítő'],
     '🕰️': ['Mantelpiece Clock'],
-    '🧭': ['Compass'],
+    '🧭': ['Iránytű'],
     '🕹️': ['Joystick'],
-    '🎙️': ['Studio Microphone'],
+    '🎙️': ['Stúdió mikrofon'],
     '🎚️': ['Level Slider'],
     '🎛️': ['Control Knobs'],
     '📻': [
-        'Radio',
-        'Digital Radio',
-        'Wireless'
+        'Rádió',
+        'Digitális rádió',
+        'Vezetéknélküli'
     ],
     '📱': [
-        'Mobile Phone',
-        'Smartphone',
+        'Mobiltelefon',
+        'Okostelefon',
         'iPhone',
-        'Cell Phone'
+        'Mobil'
     ],
     '📲': [
         'Mobile Phone with Rightwards Arrow at Left',
@@ -5548,19 +5560,19 @@ emojis_language[lang][10] = {
         'Black'
     ],
     '📟': [
-        'Pager',
-        'Beeper',
-        'Bleeper'
+        'Személyhívó',
+        'Csipogó',
+        'Csipogó'
     ],
     '📠': [
-        'Fax Machine',
+        'Fax gép',
         'Facsimile',
         'Fax'
     ],
     '🔋': [
-        'Battery',
-        'AA Battery',
-        'Phone Battery'
+        'Elem',
+        'AA elem',
+        'Telefon akkumulátor'
     ],
     '🔌': [
         'Electric Plug',
@@ -5570,26 +5582,26 @@ emojis_language[lang][10] = {
     ],
     '💻': [
         'Laptop',
-        'Notebook',
+        'Notesz',
         'Personal Computer',
         'PC',
         'MacBook',
         'Surface'
     ],
     '🖥️': [
-        'Desktop Computer',
+        'Asztali számítógép',
         'iMac',
         'PC'
     ],
-    '🖨️': ['Printer'],
-    '⌨️': ['Keyboard'],
+    '🖨️': ['Nyomtató'],
+    '⌨️': ['Billentyűzet'],
     '🖱️': [
-        'Computer Mouse',
-        'Three Button Mouse'
+        'Számítógépes egér',
+        'Három gombos egér'
     ],
     '🖲️': ['Trackball'],
     '💽': [
-        'Computer Disk',
+        'Számítógépes lemez',
         'Minidisc',
         'CD',
         'DVD',
@@ -5597,20 +5609,20 @@ emojis_language[lang][10] = {
         'BD'
     ],
     '💾': [
-        'Floppy Disk',
-        '3.5″ Disk',
-        'Disk'
+        'Floppy lemez',
+        '3,5" lemez',
+        'Lemez'
     ],
     '💿': [
-        'Optical Disk',
+        'Optikai lemez',
         'CD',
         'CD-ROM',
-        'Compact Disc'
+        'Kompakt lemez'
     ],
     '📀': [
         'DVD',
         'DVD-ROM',
-        'DVD Video'
+        'DVD videó'
     ],
     '🎥': [
         'Movie Camera',
@@ -5618,33 +5630,33 @@ emojis_language[lang][10] = {
         'Hollywood',
         'Movie'
     ],
-    '🎞️': ['Film Frames'],
-    '📽️': ['Film Projector'],
+    '🎞️': ['Filmszalag'],
+    '📽️': ['Vetítőgép'],
     '📺': [
-        'Television',
+        'Televízió',
         'TV'
     ],
-    '📷': ['Digital Camera'],
-    '📸': ['Camera with Flash'],
+    '📷': ['Digitális fényképezőgép'],
+    '📸': ['Fényképezőgép vakuval'],
     '📹': [
-        'Video Camera',
-        'Camcorder'
+        'Kamera',
+        'Videokamera'
     ],
     '📼': [
-        'Videocassette',
+        'Videokazetta',
         'VHS',
         'VCR',
-        'Video Tape',
-        'Videocassette'
+        'Video szalag',
+        'Videokazetta'
     ],
     '💳': [
-        'Credit Card',
-        'Debit Card',
+        'Bankkártya',
+        'Hitelkártya',
         'AMEX',
         'Diners Club',
         'American Express',
         'Mastercard',
-        'VISA Card'
+        'Visa kártya'
     ],
     '📧': [
         'E-Mail',
@@ -5662,22 +5674,22 @@ emojis_language[lang][10] = {
     ],
     '📤': ['Outbox Tray'],
     '📥': ['Inbox Tray'],
-    '📮': ['Postbox'],
+    '📮': ['Postaláda'],
     '📁': [
-        'File Folder',
-        'Folder',
-        'Directory',
-        'Closed File Folder'
+        'Fájl mappa',
+        'Mappa',
+        'Könyvtár',
+        'Csukott fájl mappa'
     ],
     '📂': [
-        'Open File Folder',
-        'Directory'
+        'Nyitott fájl mappa',
+        'Könyvtár'
     ],
     '🗂️': ['Card Index Dividers'],
     '📅': [
-        'Calendar',
-        'July 17',
-        'World Emoji Day'
+        'Naptár',
+        'Július 17',
+        'Emoji világnap'
     ],
     '🗓️': ['Spiral Calendar Pad'],
     '📆': [
@@ -5698,14 +5710,14 @@ emojis_language[lang][10] = {
         'Chart with Downwards Trend'
     ],
     '📊': [
-        'Bar Chart',
-        'Bar Graph'
+        'Oszlopdiagram',
+        'Sávos diagram'
     ],
     '📌': [
-        'Pushpin',
-        'Thumb Tack'
+        'Térképtű',
+        'Rajzszög'
     ],
-    '📋': ['Clipboard'],
+    '📋': ['Vágólap'],
     '📍': [
         'Round Pushpin',
         'Dropped Pin',
@@ -5714,43 +5726,43 @@ emojis_language[lang][10] = {
         'Red Pin'
     ],
     '📎': [
-        'Paperclip',
-        'Clippy'
+        'Gemkapocs',
+        'Kapocs'
     ],
-    '📏': ['Straight Ruler'],
+    '📏': ['Egyenes vonalzó'],
     '📐': [
-        'Triangular Ruler',
-        'Triangle Ruler'
+        'Derékszögű vonalzó',
+        'Háromszög vonalzó'
     ],
     '✂️': [
-        'Scissors',
-        'Cutting'
+        'Olló',
+        'Vágás'
     ],
     '✏️': [
-        'Pencil',
-        'Lead Pencil'
+        'Ceruza',
+        'Grafitceruza'
     ],
     '✒️': [
         'Black Nib',
         'Pen Nib',
-        'Fountain Pen'
+        'Töltőtoll'
     ],
     '🖋️': [
-        'Fountain Pen',
+        'Töltőtoll',
         'Lower Left Fountain Pen'
     ],
     '🖊️': [
-        'Pen',
+        'Toll',
         'Lower Left Ballpoint Pen',
-        'Ballpoint Pen'
+        'Golyóstoll'
     ],
     '🖌️': [
         'Paintbrush',
-        'Brush',
+        'Ecset',
         'Lower Left Paintbrush'
     ],
     '🖍️': [
-        'Crayon',
+        'Zsírkréta',
         'Lower Left Crayon'
     ],
     '📝': [
@@ -5760,41 +5772,41 @@ emojis_language[lang][10] = {
         'Pencil And Paper'
     ],
     '🗑️': [
-        'Wastepaper Basket',
-        'Garbage Can',
-        'Rubbish Bin',
-        'Trash Can'
+        'Kuka',
+        'Szemétláda',
+        'Szemetes',
+        'Szemeteskosár'
     ],
-    '📡': ['Satellite Antenna'],
+    '📡': ['Műholdas antenna'],
     '🔭': [
-        'Telescope',
-        'Stargazing'
+        'Teleszkóp',
+        'Csillagászat'
     ],
     '🔬': [
-        'Microscope',
-        'Magnify',
-        'Science'
+        'Mikroszkóp',
+        'Nagyítás',
+        'Tudomány'
     ],
-    '📭': ['Open Mailbox with Lowered Flag'],
+    '📭': ['Nyitott postaláda fekvő zászlóval'],
     '📬': [
-        'Open Mailbox with Raised Flag',
-        'Open Mailbox'
+        'Nyitott postaláda álló zászlóval',
+        'Nyitott postaláda'
     ],
-    '📪': ['Closed Mailbox with Lowered Flag'],
-    '📫': ['Closed Mailbox with Raised Flag'],
-    '📰': ['Newspaper'],
+    '📪': ['Csukott postaláda fekvő zászlóval'],
+    '📫': ['Csukott postaláda álló zászlóval'],
+    '📰': ['Újság'],
     '🗞️': [
-        'Rolled-Up Newspaper',
-        'Newspaper Delivery'
+        'Újság tekercs',
+        'Újság kihordás'
     ],
     '📄': [
-        'Page Facing Up',
-        'Printed Page'
+        'Álló lap',
+        'Nyomtatott lap'
     ],
     '📜': [
-        'Scroll',
-        'Degree',
-        'Parchment'
+        'Tekercs',
+        'Diploma',
+        'Pergamen'
     ],
     '📃': [
         'Page with Curl',
@@ -5802,8 +5814,8 @@ emojis_language[lang][10] = {
         'Curly Page'
     ],
     '📓': [
-        'Notebook',
-        'Black And White Book'
+        'Notesz',
+        'Fekete fehér könyv'
     ],
     '📔': ['Notebook with Decorative Cover'],
     '📕': [
@@ -5812,12 +5824,12 @@ emojis_language[lang][10] = {
         'Red Textbook'
     ],
     '📖': [
-        'Open Book',
-        'Book',
-        'Novel'
+        'Nyitott könyv',
+        'Könyv',
+        'Regény'
     ],
     '📗': [
-        'Green Book',
+        'Zöld könyv',
         'Green Textbook'
     ],
     '📘': [
@@ -5842,43 +5854,43 @@ emojis_language[lang][10] = {
         'File Cabinet',
         'Filing Cabinet'
     ],
-    '🗃️': ['Card File Box'],
-    '🖇️': ['Linked Paperclips']
+    '🗃️': ['Kartoték doboz'],
+    '🖇️': ['Összefűzött gemkapcsok']
 };
 /*clothes and accessories*/
 emojis_language[lang][11] = {
     '👣': [
-        'Footprints',
-        'Feet',
+        'Lábnyomok',
+        'Lábak',
         'Footsteps'
     ],
     '👓': [
-        'Glasses',
+        'Szemüveg',
         'Eveyglasses'
     ],
-    '🕶️': ['Sunglasses'],
-    '🥽': ['Goggles'],
-    '🥼': ['Lab Coat'],
+    '🕶️': ['Napszemüveg'],
+    '🥽': ['Védőszemüveg'],
+    '🥼': ['Laboratóriumi köpeny'],
     '👔': [
-        'Necktie',
+        'Nyakkendő',
         'Business Shirt',
-        'Shirt And Tie'
+        'Ing és nyakkendő'
     ],
     '👕': [
-        'T-Shirt',
-        'Tee Shirt',
-        'Polo Shirt'
+        'Póló',
+        'Rövidujjú póló',
+        'Pólóing'
     ],
     '👖': [
-        'Jeans',
+        'Farmer',
         'Denim',
-        'Pants',
-        'Trousers'
+        'Gatya',
+        'Nadrág'
     ],
-    '🧣': ['Scarf'],
-    '🧤': ['Gloves'],
-    '🧥': ['Coat'],
-    '🧦': ['Socks'],
+    '🧣': ['Sál'],
+    '🧤': ['Kesztyű'],
+    '🧥': ['Kabát'],
+    '🧦': ['Zokni'],
     '👗': [
         'Dress',
         'Skirt',
@@ -5891,10 +5903,10 @@ emojis_language[lang][11] = {
     ],
     '👙': [
         'Bikini',
-        'Bathers',
-        'Swimsuit'
+        'Úszóruha',
+        'Fürdőruha'
     ],
-    '🩱': ['One-Piece Swimsuit'],
+    '🩱': ['Egyrészes fürdőruha'],
     '👚': [
         'Womans Clothes',
         'Blouse',
@@ -5952,18 +5964,18 @@ emojis_language[lang][11] = {
         'Heeled Boots'
     ],
     '👑': [
-        'Crown',
-        'King',
-        'Queen',
-        'Prince',
-        'Royal',
-        'Princess'
+        'Korona',
+        'Király',
+        'Királynő',
+        'Herceg',
+        'Királyi',
+        'Hercegnő'
     ],
     '👒': [
-        'Hat',
-        'Womans Hat',
-        'Hat With Bow',
-        'Ladies Hat'
+        'Kalap',
+        'Női kalap',
+        'Kalap masnival',
+        'Női kalap'
     ],
     '🎩': [
         'Top Hat',
@@ -5988,13 +6000,13 @@ emojis_language[lang][11] = {
     ],
     '💼': [
         'Briefcase',
-        'Suitcase'
+        'Aktatáska'
     ],
     '🎖️': [
-        'Military Medal',
-        'Medal',
-        'Medallion',
-        'Military Decoration'
+        'Katonai érem',
+        'Medál',
+        'Kitüntetés',
+        'Katonai kitüntetés'
     ],
     '📿': [
         'Prayer Beads',
@@ -6010,20 +6022,20 @@ emojis_language[lang][11] = {
         'Shari'
     ],
     '🩲': ['Briefs'],
-    '🩳': ['Shorts'],
+    '🩳': ['Rövidnadrág'],
     '🛼': [
-        'Roller Skate',
-        'Inline Skate',
+        'Görkorcsolya',
+        'Egysoros görkorcsolya',
         'Roller Derby'
     ],
     '🩴': [
-        'Flip Flop',
-        'Thong Sandal'
+        'Flip flop',
+        'Papucs'
     ],
-    '🪖': ['Military Helmet'],
+    '🪖': ['Katonai sisak'],
     '🩰': [
-        'Ballet Shoes',
-        'Pointe Shoe'
+        'Balettcipő',
+        'Balerina cipő'
     ]
 };
 /*hands and parts of body*/
@@ -6041,100 +6053,100 @@ emojis_language[lang][12] = {
         'Splayed Hand',
         'Raised Hand with Fingers Splayed'
     ],
-    '🤚{{skin_tone}}‍': [
+    '🤚{{skin_tone}}': [
         'Raised Back of Hand',
         'Backhand'
     ],
-    '✋{{skin_tone}}‍': [
+    '✋{{skin_tone}}': [
         'Raised Hand',
         'High Five',
         'Stop'
     ],
-    '🖖{{skin_tone}}‍': [
+    '🖖{{skin_tone}}': [
         'Vulcan Salute',
         'Spock',
         'Star Trek',
         'Raised Hand with Part Between Middle and Ring Fingers'
     ],
-    '👌{{skin_tone}}‍': [
+    '👌{{skin_tone}}': [
         'OK Hand Sign',
         'Okay',
         'Perfect',
         'Igen'
     ],
-    '✌️{{skin_tone}}‍': [
+    '✌️{{skin_tone}}': [
         'Victory Hand',
         'Air Quotes',
         'Peace Sign',
         'V Sign'
     ],
-    '🤞{{skin_tone}}‍': [
+    '🤞{{skin_tone}}': [
         'Crossed Fingers',
         'Fingers Crossed',
         'Good Luck',
         'Hand with Index and Middle Fingers Crossed'
     ],
-    '🤟{{skin_tone}}‍': [
+    '🤟{{skin_tone}}': [
         'Love-You Gesture',
         'I Love You Hand Sign'
     ],
-    '🤘{{skin_tone}}‍': [
+    '🤘{{skin_tone}}': [
         'Sign of the Horns',
         'Devil Fingers',
         'Heavy Metal',
         'Rock On'
     ],
-    '🤙{{skin_tone}}‍': [
+    '🤙{{skin_tone}}': [
         'Call Me Hand Sign',
         'Phone Hand',
         'Shaka'
     ],
-    '🤏{{skin_tone}}‍': ['Pinching Hand'],
-    '👈{{skin_tone}}‍': [
+    '🤏{{skin_tone}}': ['Pinching Hand'],
+    '👈{{skin_tone}}': [
         'Backhand Index Pointing Left',
         'White Left Pointing Backhand Index'
     ],
-    '👉{{skin_tone}}‍': [
+    '👉{{skin_tone}}': [
         'Backhand Index Pointing Right',
         'White Right Pointing Backhand Index'
     ],
-    '👆{{skin_tone}}‍': [
+    '👆{{skin_tone}}': [
         'Backhand Index Pointing Up',
         'White Up Pointing Backhand Index',
         'Middle Finger'
     ],
-    '👇{{skin_tone}}‍': [
+    '👇{{skin_tone}}': [
         'Backhand Index Pointing Down',
         'White Down Pointing Backhand Index',
         'Pointing Down'
     ],
-    '☝{{skin_tone}}‍️': [
+    '☝{{skin_tone}}': [
         'Index Finger Pointing Up',
         'White Up Pointing Index',
         'Secret'
     ],
-    '🖕{{skin_tone}}‍': [
+    '🖕{{skin_tone}}': [
         'Middle Finger',
         'Flipping The Bird',
         'Rude Finger',
         'Reversed Hand with Middle Finger Extended'
     ],
-    '👍{{skin_tone}}‍': [
+    '👍{{skin_tone}}': [
         'Thumbs Up Sign',
         'Like',
         'Igen'
     ],
-    '👎{{skin_tone}}‍': [
+    '👎{{skin_tone}}': [
         'Thumbs Down Sign',
         'Bad',
         'Dislike',
-        'No'
+        'Nem'
     ],
-    '✊{{skin_tone}}‍': [
+    '✊{{skin_tone}}': [
         'Raised Fist',
         'Fist Pump'
     ],
-    '👊{{skin_tone}}‍': [
+    '👊{{skin_tone}}': [
         'Oncoming Fist',
         'Bro Fist',
         'Brofist',
@@ -6143,14 +6155,14 @@ emojis_language[lang][12] = {
         'Closed Fist',
         'Fisted Hand Sign'
     ],
-    '🤛{{skin_tone}}‍': ['Left Fist Bump'],
-    '🤜{{skin_tone}}‍': ['Right Fist Bump'],
-    '🤌{{skin_tone}}‍': [
+    '🤛{{skin_tone}}': ['Left Fist Bump'],
+    '🤜{{skin_tone}}': ['Right Fist Bump'],
+    '🤌{{skin_tone}}': [
         'Pinched Fingers',
         'Ma Che Vuoi',
         'Finger Purse'
     ],
-    '👏{{skin_tone}}‍': [
+    '👏{{skin_tone}}': [
         'Clapping Hands Sign',
         'Applause',
         'Clap',
@@ -6158,7 +6170,7 @@ emojis_language[lang][12] = {
         'Golf Clap',
         'Round Of Applause'
     ],
-    '🙌{{skin_tone}}‍': [
+    '🙌{{skin_tone}}': [
         'Person Raising Both Hands in Celebration',
         'Raising Hands',
         'Arms In The Air',
@@ -6168,20 +6180,20 @@ emojis_language[lang][12] = {
         'Praise Hands',
         'Two Hands'
     ],
-    '👐{{skin_tone}}‍': [
+    '👐{{skin_tone}}': [
         'Open Hands Sign',
         'Hug',
         'Jazz Hands'
     ],
-    '🤲{{skin_tone}}‍': [
+    '🤲{{skin_tone}}': [
         'Palms Up Together',
         'Dua'
     ],
-    '🤝{{skin_tone}}‍': [
+    '🤝{{skin_tone}}': [
         'Handshake',
         'Shaking Hands'
     ],
-    '🙏{{skin_tone}}‍': [
+    '🙏{{skin_tone}}': [
         'Folded Hands',
         'Namaste',
         'Please',
@@ -6189,22 +6201,22 @@ emojis_language[lang][12] = {
         'Thank You',
         'Person with Folded Hands'
     ],
-    '✍{{skin_tone}}‍️': ['Writing Hand'],
-    '💪{{skin_tone}}‍': [
+    '✍{{skin_tone}}': ['Writing Hand'],
+    '💪{{skin_tone}}': [
         'Flexed Biceps',
         'Flexing Arm Muscles',
         'Musle',
         'Strong'
     ],
-    '🦵{{skin_tone}}‍': ['Leg'],
-    '🦶{{skin_tone}}‍': ['Foot'],
-    '👂{{skin_tone}}‍': [
+    '🦵{{skin_tone}}': ['Leg'],
+    '🦶{{skin_tone}}': ['Foot'],
+    '👂{{skin_tone}}': [
         'Ear',
         'Ears',
         'Hearing',
         'Hallgatás'
     ],
-    '👃{{skin_tone}}‍': [
+    '👃{{skin_tone}}': [
         'Nose',
         'Smelling',
         'Sniffing',
@@ -6225,13 +6237,13 @@ emojis_language[lang][12] = {
     '👅': ['Tongue Out'],
     '👄': [
         'Mouth',
-        'Kissing Lips',
+        'Csókoló ajkak',
         'Lips'
     ],
-    '🫀': ['Anatomical Heart'],
-    '🫁': ['Lungs'],
-    '🦾': ['Mechanical Arm'],
-    '🦿': ['Mechanical Leg']
+    '🫀': ['Anatómiai szív'],
+    '🫁': ['Tüdő'],
+    '🦾': ['Mechanikus kar'],
+    '🦿': ['Mechanikus láb']
 };
 /*other*/
 emojis_language[lang][13] = {
@@ -6241,8 +6253,8 @@ emojis_language[lang][13] = {
         'Smiling Poop'
     ],
     '💋': [
-        'Kiss Mark',
-        'Kissing Lips'
+        'Csók',
+        'Csókoló ajkak'
     ],
     '💅': [
         'Nail Polish',
@@ -6255,40 +6267,40 @@ emojis_language[lang][13] = {
         'Phone Camera',
         'Selfie Hand'
     ],
-    '🦴': ['Bone'],
+    '🦴': ['Csont'],
     '🧳': [
-        'Luggage',
-        'Suitcase'
+        'Poggyász',
+        'Bőrönd'
     ],
     '🌂': [
-        'Closed Umbrella',
-        'Collapsed Umbrella',
-        'Pink Umbrella'
+        'Csukott esernyő',
+        'Összecsukott esernyő',
+        'Lila esernyő'
     ],
-    '☂️': ['Umbrella'],
+    '☂️': ['Esernyő'],
     '☔': [
-        'Umbrella with Rain Drops',
-        'Raining',
-        'Rainy'
+        'Esernyő esőcseppekkel',
+        'Esik',
+        'Esős'
     ],
-    '🧵': ['Spool of Thread'],
-    '🧶': ['Ball of Yarn'],
+    '🧵': ['Cérnaorsó'],
+    '🧶': ['Fonal gombolyag'],
     '💄': [
-        'Lipstick',
-        'Lip Gloss',
-        'Makeup'
+        'Rúzs',
+        'Szájfény',
+        'Smink'
     ],
     '💍': [
-        'Ring',
-        'Diamond Ring',
-        'Engagement Ring'
+        'Gyűrű',
+        'Gyémánt gyűrű',
+        'Eljegyzési gyűrű'
     ],
     '💎': [
-        'Gem stone',
-        'Diamond',
-        'Gem',
-        'Gemstone',
-        'Jewel'
+        'Drágakő',
+        'Gyémánt',
+        'Drágakő',
+        'Drágakő',
+        'Ékkő'
     ],
     '💥': [
         'Collision Symbol',
@@ -6296,7 +6308,7 @@ emojis_language[lang][13] = {
         'Explode',
         'Impact',
         'Red Spark',
-        'Explosion'
+        'Robbanás'
     ],
     '💫': [
         'Dizzy Symbol',
@@ -6311,7 +6323,7 @@ emojis_language[lang][13] = {
     '💨': [
         'Dashing Away',
         'Fast',
-        'Steam',
+        'Gőz',
         'Vaping',
         'Wind',
         'Dash Symbol',
@@ -6331,21 +6343,21 @@ emojis_language[lang][13] = {
         'Puppy Paw Prints'
     ],
     '🕸️': [
-        'Spider Web',
-        'Cobweb',
-        'Web',
-        'Spiderweb'
+        'Pókháló',
+        'Pókháló',
+        'Háló',
+        'Pókháló'
     ],
     '🦠': [
-        'Microbe',
-        'Cell',
-        'Coronavirus',
+        'Mikroba',
+        'Sejt',
+        'Koronavírus',
         'COVID-19',
-        'Germ',
-        'Microorganism',
-        'Virus'
+        'Amőba',
+        'Mikroorganizmus',
+        'Vírus'
     ],
-    '💐': ['Bouquet Of Flowers'],
+    '💐': ['Virágcsokor'],
     '🌍': [
         'Globe Showing Europe-Africa',
         'Earth',
@@ -6441,55 +6453,55 @@ emojis_language[lang][13] = {
     '🌨️': ['Cloud with Snow'],
     '🌩️': ['Cloud with Lightning'],
     '🌪️': [
-        'Tornado',
-        'Cloud with Tornado'
+        'Tornádó',
+        'Tornádó felhővel'
     ],
-    '🌫️': ['Fog'],
+    '🌫️': ['Köd'],
     '🌈': [
-        'Rainbow',
+        'Szivárvány',
         'Gay Pride',
         'Primary Rainbow'
     ],
     '❄️': [
-        'Snowflake',
-        'Snow',
-        'Snowing'
+        'Hópihe',
+        'Hó',
+        'Havazás'
     ],
     '🌀': [
-        'Cyclone',
-        'Hurricane',
-        'Spiral',
-        'Swirl',
-        'Tornado'
+        'Ciklon',
+        'Hurrikán',
+        'Spirál',
+        'Örvény',
+        'Tornádó'
     ],
     '⚡': [
         'High Voltage Sign',
         'Lightning Bolt',
-        'Thunderbolt',
-        'High Voltage'
+        'Villám',
+        'Nagyfeszültség'
     ],
     '☃️': [
-        'Snowman',
+        'Hóember',
         'Snowman With Snowflakes'
     ],
     '⛄': [
         'Snowman Without Snow',
         'Frosty The Snowman',
         'Olaf',
-        'Snowman'
+        'Hóember'
     ],
-    '☄️': ['Comet'],
+    '☄️': ['Üstökös'],
     '🔥': [
-        'Fire',
-        'Flame',
-        'Hot',
-        'Lit',
+        'Tűz',
+        'Láng',
+        'Forró',
+        'Meggyullad',
         'Snapstreak'
     ],
     '💧': [
-        'Droplet',
-        'Water',
-        'Water Drop'
+        'Csepp',
+        'Víz',
+        'Vízcsepp'
     ],
     '✨': [
         'Sparkles',
@@ -6504,29 +6516,29 @@ emojis_language[lang][13] = {
         'Sea'
     ],
     '🎄': [
-        'Christmas Tree',
-        'Christmas',
-        'Xmas Tree'
+        'Karácsonyfa',
+        'Karácsony',
+        'Fenyőfa'
     ],
     '🎃': [
-        'Jack-O-Lantern',
+        'Töklámpás',
         'Halloween',
-        'Pumpkin'
+        'Sütőtök'
     ],
     '🌻': [
-        'Sunflower',
-        'Yellow Flower'
+        'Napraforgó',
+        'Sárga virág'
     ],
     '🌼': [
         'Blossom',
         'Blossoming Flower',
         'Daisy',
-        'Yellow Flower'
+        'Sárga virág'
     ],
-    '🌷': ['Tulip'],
+    '🌷': ['Tulipán'],
     '🌹': [
-        'Rose Flower',
-        'Red Rose'
+        'Rózsa virág',
+        'Vörös rózsa'
     ],
     '☘️': [
         'Shamrock',
@@ -6555,7 +6567,7 @@ emojis_language[lang][13] = {
     '🏵️': ['Rosette'],
     '🌱': [
         'Seedling',
-        'Spring',
+        'Tavasz',
         'Sprout',
         'Sprouting'
     ],
@@ -6569,8 +6581,8 @@ emojis_language[lang][13] = {
         'Rounded Tree'
     ],
     '🌴': [
-        'Palm Tree',
-        'Coconut Tree'
+        'Pálmafa',
+        'Kókuszpálma'
     ],
     '🎋': [
         'Tanabata Tree',
@@ -6584,8 +6596,8 @@ emojis_language[lang][13] = {
         'New Year Decoration'
     ],
     '🌵': [
-        'Cactus',
-        'Desert'
+        'Kaktusz',
+        'Sivatag'
     ],
     '🌾': [
         'Sheaf of Rice',
@@ -6614,16 +6626,16 @@ emojis_language[lang][13] = {
         'Fallen Leaves'
     ],
     '🍃': [
-        'Leaf Fluttering in Wind',
-        'Green Leaves',
-        'Spring'
+        'Szél fújta levél',
+        'Zöld levelek',
+        'Tavasz'
     ],
-    '🪴': ['Potted Plant'],
+    '🪴': ['Cserepes növény'],
     '🔑': [
-        'Key',
-        'Gold Key'
+        'Kulcs',
+        'Arany kulcs'
     ],
-    '🗝️': ['Old Key'],
+    '🗝️': ['Öreg kulcs'],
     '🔨': [
         'Hammer',
         'Claw Hammer',
@@ -6634,32 +6646,32 @@ emojis_language[lang][13] = {
         'Pick',
         'Pickaxe'
     ],
-    '🪓': ['Axe'],
-    '🪚': ['Carpentry Saw'],
-    '🪛': ['Screwdriver'],
-    '🪝': ['Hook'],
-    '🪠': ['Plunger'],
-    '🪣': ['Bucket'],
+    '🪓': ['Fejsze'],
+    '🪚': ['Fűrész'],
+    '🪛': ['Csavarhúzó'],
+    '🪝': ['Horog'],
+    '🪠': ['Wc pumpa'],
+    '🪣': ['Vödör'],
     '🔩': [
         'Nut and Bolt',
         'Bolt',
         'Screw'
     ],
     '🗜️': [
-        'Clamp',
-        'Table Vice',
+        'Szorító',
+        'Asztalos szorító',
         'WinZip',
-        'Compression'
+        'Tömörítés'
     ],
     '🔒': [
-        'Locked',
-        'Closed Lock',
-        'Padlock'
+        'Zárt',
+        'Zárt lakat',
+        'Lakat'
     ],
     '🔓': [
-        'Unlocked',
-        'Open Padlock',
-        'Open Lock'
+        'Nyitott',
+        'Nyitott lakat',
+        'Nyitott zár'
     ],
     '🔏': [
         'Locked with Pen',
@@ -6668,129 +6680,129 @@ emojis_language[lang][13] = {
         'Lock with Ink Pen'
     ],
     '🔐': [
-        'Locked with Key',
-        'Closed Lock with Key'
+        'Kulccsal zárva',
+        'Zárt lakat kulccsal'
     ],
     '🗡️': [
-        'Dagger',
-        'Knife Weapon'
+        'Tőr',
+        'Kés fegyver'
     ],
-    '⚔️': ['Crossed Swords'],
+    '⚔️': ['Keresztbe tett kardok'],
     '🔫': [
-        'Pistol',
-        'Gun',
+        'Pisztoly',
+        'Stukker',
         'Revolver',
-        'Squirt Gun',
-        'Water Gun',
-        'Water Pistol'
+        'Vízipisztoly',
+        'Vízipisztoly',
+        'Vízipisztoly'
     ],
-    '🧰': ['Toolbox'],
-    '🧲': ['Magnet'],
-    '⛓️': ['Chains'],
+    '🧰': ['Szerszámos láda'],
+    '🧲': ['Mágnes'],
+    '⛓️': ['Láncok'],
     '💉': [
-        'Syringe',
-        'Blood Donation',
-        'Blood Test',
-        'Needle',
-        'Vaccination'
+        'Fecskendő',
+        'Véradás',
+        'Vérvétel',
+        'Tű',
+        'Oltás'
     ],
     '🧬': [
-        'DNA',
-        'DNA Double Helix'
+        'DNS',
+        'DNS kettőshélix'
     ],
-    '🧪': ['Test Tube'],
+    '🧪': ['Kémcső'],
     '🛏️': [
-        'Bed',
-        'Bedroom'
+        'Ágy',
+        'Hálószoba'
     ],
     '🛋️': [
-        'Couch and Lamp',
-        'Lounge',
-        'Settee',
-        'Sofa'
+        'Kanapé és lámpa',
+        'Társalgó',
+        'Ülőgarnitúra',
+        'Szófa'
     ],
-    '🪑': ['Chair'],
+    '🪑': ['Szék'],
     '🚪': [
-        'Door',
-        'Doorway',
-        'Front Door'
+        'Ajtó',
+        'Bejárat',
+        'Előszoba ajtó'
     ],
-    '🪟': ['Window'],
-    '🪜': ['Ladder'],
-    '🪞': ['Mirror'],
+    '🪟': ['Ablak'],
+    '🪜': ['Létra'],
+    '🪞': ['Tükör'],
     '🚽': [
-        'Toilet',
-        'Bathroom',
-        'Loo',
-        'Restroom',
+        'Toalett',
+        'Fürdőszoba',
+        'Budi',
+        'Mosdó',
         'WC'
     ],
     '🚿': [
-        'Shower',
-        'Shower Head'
+        'Zuhany',
+        'Zuhanyfej'
     ],
     '🛁': [
-        'Bathtub',
-        'Bubble Bath'
+        'Fürdőkád',
+        'Habfürdő'
     ],
-    '🧴': ['Lotion Bottle'],
-    '🧷': ['Safety Pin'],
-    '🧺': ['Basket'],
+    '🧴': ['Krémes flakon'],
+    '🧷': ['Biztosítótű'],
+    '🧺': ['Kosár'],
     '🧻': [
-        'Roll of Paper',
-        'Toilet Paper'
+        'Papírtekercs',
+        'Wc papír'
     ],
-    '🧼': ['Bar of Soap'],
-    '🧽': ['Sponge'],
-    '🧯': ['Fire Extinguisher'],
+    '🧼': ['Szappan'],
+    '🧽': ['Szivacs'],
+    '🧯': ['Tűzoltó készülék'],
     '🚬': [
-        'Cigarette',
-        'Smoke Symbol'
+        'Cigaretta',
+        'Dohányzás szimbólum'
     ],
     '⚰️': [
-        'Coffin',
-        'Casket',
-        'Funeral'
+        'Koporsó',
+        'Koporsó',
+        'Temetés'
     ],
     '⚱️': [
-        'Funeral Urn',
-        'Vase'
+        'Urna',
+        'Váza'
     ],
-    '🛡️': ['Shield'],
+    '🛡️': ['Pajzs'],
     '⚙️': [
-        'Gear',
+        'Fogaskerék',
         'Beállítások',
-        'Options'
+        'Opciók'
     ],
     '⚖️': [
-        'Balance Scale',
-        'Scales of Justice'
+        'Mérleg',
+        'Az igazság mérlege'
     ],
     '🔗': [
-        'Link',
-        'Chain',
-        'Hyperlink',
-        'Linked Chain'
+        'Láncszem',
+        'Lánc',
+        'Hivatkozás',
+        'Összekapcsolt lánc'
     ],
     '💀': [
-        'Skull',
-        'Death',
-        'Grey Skull',
-        'Skeleton'
+        'Koponya',
+        'Halál',
+        'Szürke koponya',
+        'Csontváz'
     ],
-    '☠️': ['Skull and Crossbones'],
-    '🦻': ['Ear with Hearing Aid'],
+    '☠️': ['Koponya és csontok'],
+    '🦻': ['Fül hallókészülékkel'],
     '🎡': [
-        'Ferris Wheel',
+        'Óriás kerék',
         'Big Wheel',
         'Fairgroundl',
         'Observation Wheel'
     ],
     '⛽': [
-        'Fuel Pump',
-        'Oil',
-        'Petrol',
-        'Gas'
+        'Benzinkút',
+        'Olaj',
+        'Dízel',
+        'Benzin'
     ],
     '🚨': [
         'Police Cars Revolving Light',
@@ -6801,433 +6813,433 @@ emojis_language[lang][13] = {
     '🚥': ['Horizontal Traffic Light'],
     '🚦': ['Vertical Traffic Light'],
     '⚓': [
-        'Admiralty Pattern Anchor',
-        'Fisherman'
+        'Tengerészeti minta horgony',
+        'Halász'
     ],
     '🚧': [
-        'Construction Sign',
-        'Black And Yellow Striped Sign'
+        'Építkezés jelzés',
+        'Fekete és sárga csíkos jelzés'
     ],
-    '🪂': ['Parachute'],
+    '🪂': ['Ejtőernyő'],
     '💺': [
-        'Seat',
-        'Bus Airplane Train Aeroplane'
+        'Ülés',
+        'Busz repülőgép vonat repülő'
     ],
-    '🪐': ['Saturn'],
+    '🪐': ['Szaturnusz'],
     '🎆': [
-        'Fireworks',
-        'Explosion'
+        'Tűzijáték',
+        'Robbanás'
     ],
     '🎇': [
         'Senko Hanabi',
-        'Firework Sparkler'
+        'Csillagszóró'
     ],
     '💷': [
-        'Pound Banknote',
-        '£20 Note',
-        'Twenty Quid Note',
-        'Banknote with Pound Sign'
+        'Font bankjegyek',
+        '20£ font címlet',
+        'Húsz font bankjegy',
+        'Bankjegy 20 fontos felirattal'
     ],
     '💶': [
-        'Euro Banknote',
-        '€100 Note',
-        'Banknote with Euro Sign'
+        'Euro bankjegy',
+        '100€ címlet',
+        'Bankjegy Euro felirattal'
     ],
     '💵': [
-        'Dollar Banknote',
-        '$1 Note',
-        'Banknote with Dollar Sign',
-        'Dollar Bill',
-        'American Dollar'
+        'Dollár bankjegy',
+        '1$ címlet',
+        'Bankjegy dollár felirattal',
+        'Dollár papírpénz',
+        'Amerikai Dollár'
     ],
     '💴': [
-        'Yen Banknote',
-        '¥1000 Note',
-        'Yen Note',
-        'Banknote with Yen Sign'
+        'Yen bankjegy',
+        '1000¥ címlet',
+        'Yen papírpénz',
+        'Bankjegy Yen felirattal'
     ],
-    '⛺': ['Camping Tent'],
+    '⛺': ['Kemping sátor'],
     '⛲': [
-        'Fountain',
+        'Szökőkút',
         'Water Feature',
         'Water Fountain',
         'Park'
     ],
     '💰': [
-        'Money Bag',
-        'Moneybags',
-        'Rich',
+        'Pénzes zsák',
+        'Pénzes zsákok',
+        'Gazdag',
         '$'
     ],
     '💸': [
-        'Money with Wings',
-        'Flying Money',
-        ' Losing Money'
+        'Pénz szárnyakkal',
+        'Repülő pénz',
+        ' Pénzvesztés'
     ],
-    '🏷️': ['Label Tag'],
+    '🏷️': ['Cédula'],
     '🔖': [
-        'Bookmark',
-        'Price Tag',
-        'Tag'
+        'Könyvjelző',
+        'Árcédula',
+        'Címke'
     ],
     '📑': ['Bookmark Tabs'],
     '📯': [
-        'Postal Horn',
-        'Bugle',
-        'French Horn'
+        'Postakürt',
+        'Kürt',
+        'Francia kürt'
     ],
-    '🪁': ['Kite'],
-    '🪀': ['Yo-Yo'],
+    '🪁': ['Sárkány'],
+    '🪀': ['Jojó'],
     '🎊': [
         'Confetti Ball',
         'Confetti'
     ],
     '🎉': [
         'Party Popper',
-        'Celebration',
+        'Ünneplés',
         'Party Hat'
     ],
     '🎈': [
-        'Balloon',
+        'Lufi',
         'Party',
-        'Red Balloon'
+        'Piros léggömb'
     ],
     '🌡️': [
-        'Thermometer',
-        'Hot Weather',
-        'Temperature'
+        'Hőmérő',
+        'Meleg idő',
+        'Hőmérséklet'
     ],
-    '🛢️': ['Oil Drum'],
-    '💣': ['Bomb'],
+    '🛢️': ['Olajos hordó'],
+    '💣': ['Bomba'],
     '🔪': [
-        'Kitchen Knife',
-        'Knife',
-        'Butchers Knife',
-        'Hocho'
+        'Konyhakés',
+        'Kés',
+        'Hentes kés',
+        'Hocho kés'
     ],
     '🏺': [
-        'Amphora',
-        'Jar',
-        'Vase'
+        'Amfóra',
+        'Köcsög',
+        'Váza'
     ],
-    '🗺️': ['World Map'],
+    '🗺️': ['Világtérkép'],
     '🎼': [
         'Musical Score',
         'Sheet Music',
-        'Treble Clef'
+        'Violinkulcs'
     ],
     '🎬': [
-        'Clapper Board',
+        'Csapó',
         'Cut',
         'Action',
         'Director',
         'Film Slate'
     ],
     '🎻': [
-        'Violin',
-        'String Quartet',
-        'World\'s Smallest Violin'
+        'Hegedű',
+        'Vonósnégyes',
+        'Világ legkisebb hegedűje'
     ],
     '🎺': [
-        'Trumpet',
-        'Horn',
+        'Trombita',
+        'Duda',
         'Jazz'
     ],
     '🎸': [
-        'Guitar',
-        'Acoustic Guitar',
-        'Bass Guitar',
-        'Electric Guitar'
+        'Gitár',
+        'Akusztikus gitár',
+        'Basszus gitár',
+        'Elektromos gitár'
     ],
     '🎷': [
-        'Saxophone',
+        'Szaxofon',
         'Jazz',
-        'Sax'
+        'Szaxi'
     ],
     '🥁': [
-        'Drum',
-        'Drum with Drumsticks'
+        'Dob',
+        'Dob dobverőkkel'
     ],
     '🎹': [
-        'Piano',
-        'Musical Keyboard'
+        'Zongora',
+        'Billentyűs hangszer'
     ],
-    '🪕': ['Banjo'],
-    '🪗': ['Accordion'],
-    '🪘': ['Long Drum'],
+    '🪕': ['Bendzsó'],
+    '🪗': ['Harmonika'],
+    '🪘': ['Hosszú dob'],
     '🎨': [
-        'Artist Palette',
-        'Art',
-        'Painting'
+        'Festő paletta',
+        'Művészet',
+        'Festés'
     ],
     '🧩': [
-        'Puzzle Piece',
-        'Jigsaw Puzzle Piece'
+        'Puzzle darab',
+        'Kirakós darab'
     ],
     '🎲': [
-        'Game Die',
-        'Dice'
+        'Dobókocka',
+        'Kocka'
     ],
     '🎭': [
-        'Performing Arts',
-        'Theatre',
-        'Theater',
-        'Drama Masks',
-        'Greek Theatre Masks',
-        'Tragedy and Comedy Masks',
-        'Venice'
+        'Előadóművészet',
+        'Színház',
+        'Színház',
+        'Színházi maszkok',
+        'Görög színházi maszkok',
+        'Dráma és vígjáték maszkok',
+        'Velence'
     ],
     '🔍': [
-        'Magnifying Glass Tilted Left',
-        'Magnifier',
-        'Search Icon',
-        'Left-Pointing Magnifying Glass',
-        'Find'
+        'Balra mutató nagyító',
+        'Nagyító',
+        'Keresés ikon',
+        'Balra álló nagyító',
+        'Keres'
     ],
     '🔎': [
-        'Magnifying Glass Tilted Right',
-        'Magnifier',
-        'Search Icon',
-        'Right-Pointing Magnifying Glass',
-        'Find'
+        'Jobbra mutató nagyító',
+        'Nagyító',
+        'Keresés ikon',
+        'Jobbra álló nagyító',
+        'Keres'
     ],
     '⌛': [
-        'Hourglass Done',
-        'Hourglass'
+        'Kiürült homokóra',
+        'Homokóra'
     ],
     '⏳': [
-        'Hourglass Not Done',
-        'Hourglass with Flowing Sand'
+        'Fogyó homokóra',
+        'Homokóra futó homokkal'
     ],
     '🕐': [
-        'One O\'Clock',
-        'Clock Face One O\'Clock'
+        'Egy óra',
+        'Egy órát mutató számlap'
     ],
-    '🕜': ['Clock Face One-Thirty'],
+    '🕜': ['Fél kettő'],
     '🕑': [
-        'Two O\'Clock',
-        'Clock Face Two O\'Clock'
+        'Kettő óra',
+        'Kettő órát mutató számlap'
     ],
-    '🕝': ['Clock Face Two-Thirty'],
+    '🕝': ['Fél három'],
     '🕒': [
-        'Three O\'Clock',
-        'Clock Face Three O\'Clock'
+        'Három óra',
+        'Három órát mutató számlap'
     ],
-    '🕞': ['Clock Face Three-Thirty'],
+    '🕞': ['Fél négyet mutató számlap'],
     '🕓': [
-        'Four O\'Clock',
-        'Clock Face Four O\'Clock'
+        'Négy óra',
+        'Négy órát mutató számlap'
     ],
-    '🕟': ['Clock Face Four-Thirty'],
+    '🕟': ['Fél ötöt mutató számlap'],
     '🕔': [
-        'Five O\'Clock',
-        'Clock Face Five O\'Clock'
+        'Öt óra',
+        'Öt órát mutató számlap'
     ],
-    '🕠': ['Clock Face Five-Thirty'],
+    '🕠': ['Fél hatot mutató számlap'],
     '🕕': [
-        'Six O\'Clock',
-        'Clock Face Six O\'Clock'
+        'Hat óra',
+        'Hat órát mutató számlap'
     ],
-    '🕡': ['Clock Face Six-Thirty'],
+    '🕡': ['Fél hetet mutató számlap'],
     '🕖': [
-        'Seven O\'Clock',
-        'Clock Face Seven O\'Clock'
+        'Hét óra',
+        'Hét órát mutató számlap'
     ],
-    '🕢': ['Clock Face Seven-Thirty'],
+    '🕢': ['Fél nyolcat mutató számlap'],
     '🕗': [
-        'Eight O\'Clock',
-        'Clock Face Eight O\'Clock'
+        'Nyolc óra',
+        'Nyolc órát mutató számlap'
     ],
-    '🕣': ['Clock Face Eight-Thirty'],
+    '🕣': ['Fél kilencet mutató számlap'],
     '🕘': [
-        'Nine O\'Clock',
-        'Clock Face Nine O\'Clock'
+        'Kilenc óra',
+        'Kilenc órát mutató számlap'
     ],
-    '🕤': ['Clock Face Nine-Thirty'],
+    '🕤': ['Fél tízet mutató számlap'],
     '🕙': [
-        'Ten O\'Clock',
-        'Clock Face Ten O\'Clock'
+        'Tíz óra',
+        'Tíz órát mutató számlap'
     ],
-    '🕥': ['Clock Face Ten-Thirty'],
+    '🕥': ['Fél tizenegyet mutató számlap'],
     '🕚': [
-        'Eleven O\'Clock',
-        'Clock Face Eleven O\'Clock'
+        'Tizenegy óra',
+        'Tizenegy órát mutató számlap'
     ],
-    '🕦': ['Clock Face Eleven-Thirty'],
+    '🕦': ['Fél tizenkettőt mutató számlap'],
     '🕛': [
-        'Twelve O\'Clock',
-        'Clock Face Twelve O\'Clock'
+        'Tizenkét óra',
+        'Tizenkét órát mutató számlap'
     ],
-    '🕧': ['Clock Face Twelve-Thirty'],
+    '🕧': ['Fél egyet mutató számlap'],
     '♨️': [
-        'Hot Springs',
-        'Onsen',
-        'Steam'
+        'Termálforrás',
+        'Onszen',
+        'Gőz'
     ],
     '💈': [
-        'Barber Pole',
-        'Barber Shop',
-        'Barber\'s Stripes',
-        'Hairdresser'
+        'Borbély oszlop',
+        'Borbély',
+        'Borbély csíkok',
+        'Fodrász'
     ],
     '🎪': [
-        'Circus Tent',
-        'Big Top',
-        'Circus'
+        'Cirkusz sátor',
+        'Nagy sátor',
+        'Cirkusz'
     ],
     '💢': [
-        'Anger Symbol',
-        'Anger Sign',
-        'Vein Pop'
+        'Düh szimbólum',
+        'Düh jel',
+        'Agyérgörcs'
     ],
     '🗯️': [
-        'Right Anger Bubble',
-        'Zig Zag Bubble',
-        'Angry Speech Bubble'
+        'Jobboldali dühös szövegbuborék',
+        'Cikkcakkos szövegbuborék',
+        'Dühös szövegbuborék'
     ],
     '💊': [
-        'Pill',
-        'Capsule',
-        'Tablet',
-        'Drugs'
+        'Pirula',
+        'Kapszula',
+        'Tabletta',
+        'Gyógyszerek'
     ],
     '🎎': [
-        'Dolls',
+        'Babák',
         'Hinamatsuri',
-        'Imperial Dolls',
-        'Japanese Dolls'
+        'Császári babák',
+        'Japán babák'
     ],
     '🎏': [
-        'Carp Streamer',
-        'Fish Flag',
+        'Rizspapír pontyok',
+        'Halas zászló',
         'Koinobori',
-        'Wind Socks'
+        'Szélzsák'
     ],
     '🎐': [
-        'Wind Chime',
-        'Furin',
-        'Jellyfish',
-        'Wind Bell'
+        'Szélhárfa',
+        'Furin szélcsengő',
+        'Medúza szélcsengő',
+        'Szélharang'
     ],
     '🎀': [
-        'Ribbon Bow',
-        'Pink Bow',
-        'Bow'
+        'Szalag masni',
+        'Rózsaszín masni',
+        'Masni'
     ],
     '🎁': [
-        'Wrapped Gift',
-        'Birthday Present',
-        'Christmas Present',
-        'Gift',
-        'Gift Box',
-        'Present',
-        'Wrapped Present'
+        'Becsomagolt ajándék',
+        'Születésnapi ajándék',
+        'Karácsonyi ajándék',
+        'Ajándék',
+        'Ajándék doboz',
+        'Meglepetés',
+        'Becsomagolt ajándék'
     ],
     '🎫': [
-        'Ticket',
-        'Ticket Stub',
-        'World Tour Ticket'
+        'Jegy',
+        'Jegyszelvény',
+        'Világkörüli turné jegy'
     ],
     '🃏': [
         'Joker',
-        'Joker Card',
-        'Playing Card Black Joker'
+        'Joker kártya',
+        'Fekete Joker kártya'
     ],
     '💡': [
-        'Light Bulb',
-        'Idea',
-        'Electric Light Bulb'
+        'Izzó',
+        'Ötlet',
+        'Villanykörte'
     ],
     '🔦': [
-        'Flashlight',
-        'Torch',
-        'Electric Torch'
+        'Zseblámpa',
+        'Lámpa',
+        'Elemlámpa'
     ],
     '🏮': [
-        'Red Paper Lantern',
-        'Asian Lantern',
-        'Japanese Lantern',
-        'Red Lantern',
-        'Izakaya Lantern'
+        'Vörös papírlampion',
+        'Ázsiai lampion',
+        'Japán lampion',
+        'Vörös lampion',
+        'Izakaya lampion'
     ],
     '📦': [
-        'Package',
-        'Box',
-        'Parcel'
+        'Csomag',
+        'Doboz',
+        'Csomag'
     ],
     '📇': [
-        'Index Card',
-        'Rolodex',
-        'System Card',
-        'Card Index'
+        'Kartoték',
+        'Névjegykártya tartó',
+        'Rendszerkártya',
+        'Kartotékjegyzék'
     ],
-    '🕳️': ['Hole'],
+    '🕳️': ['Lyuk'],
     '👁️‍🗨️': [
         'I Am A Witness',
         'Eye in Speech Bubble'
     ],
     '⚜️': [
-        'Fleur-de-lis',
-        'Scouts',
+        'Bourbon-liliom',
+        'Cserkészek',
         'New Orleans Saints'
     ],
-    '⚗️': ['Alembic'],
-    '🕯️': ['Candle'],
+    '⚗️': ['Lombik'],
+    '🕯️': ['Gyertya'],
     '🖼️': [
-        'Framed Picture',
-        'Painting',
-        'Picture Frame',
-        'Frame with Picture'
+        'Keretezett kép',
+        'Festmény',
+        'Képkeret',
+        'Keret képpel'
     ],
-    '🛍️': ['Shopping Bags'],
-    '🎟️': ['Admission Tickets'],
-    '🛎️': ['Bellhop Bell'],
-    '🧾': ['Receipt'],
-    '🧮': ['Abacus'],
-    '🧫': ['Petri Dish'],
+    '🛍️': ['Bevásárlószatyrok'],
+    '🎟️': ['Belépőjegyek'],
+    '🛎️': ['Londiner csengő'],
+    '🧾': ['Nyugta'],
+    '🧮': ['Abakusz'],
+    '🧫': ['Petri csésze'],
     '🧹': [
-        'Broom',
-        'Brush',
-        'Sweep'
+        'Seprű',
+        'Kefe',
+        'Söprés'
     ],
     '🎰': [
-        'Slot Machine',
-        'Casino',
-        'Fruit Machine',
-        'Gambling',
-        'Poker Machine'
+        'Félkarú rabló',
+        'Kaszinó',
+        'Játékgép',
+        'Szerencsejáték',
+        'Poker gép'
     ],
-    '🦽': ['Manual Wheelchair'],
-    '🦼': ['Motorized Wheelchair'],
-    '🪔': ['Diya Lamp'],
-    '🦯': ['White Cane'],
-    '🩸': ['Drop of Blood'],
-    '🩹': ['Adhesive Bandage'],
-    '🩺': ['Stethoscope'],
-    '🪶': ['Feather'],
-    '🪤': ['Mouse Trap'],
-    '🫖': ['Teapot'],
-    '🪨': ['Rock'],
-    '🪵': ['Wood'],
-    '🪄': ['Magic Wand'],
+    '🦽': ['Kerekesszék'],
+    '🦼': ['Elektromos kerekesszék'],
+    '🪔': ['Diya lámpa'],
+    '🦯': ['Fehér bot'],
+    '🩸': ['Vércsepp'],
+    '🩹': ['Sebtapasz'],
+    '🩺': ['Sztetoszkóp'],
+    '🪶': ['Toll'],
+    '🪤': ['Egércsapda'],
+    '🫖': ['Teáskanna'],
+    '🪨': ['Szikla'],
+    '🪵': ['Fa'],
+    '🪄': ['Varázspálca'],
     '🔮': [
-        'Crystal Ball',
-        'Clairvoyant',
-        'Fortune Teller',
-        'Psychic',
-        'Purple Crystal'
+        'Kristálygömb',
+        'Látnok',
+        'Jós',
+        'Médium',
+        'Lila kristály'
     ],
     '🪅': ['Piñata'],
     '🪆': [
-        'Nesting Dolls',
-        'Matryoshka'
+        'Kiszedhető babák',
+        'Matrjoska'
     ],
-    '🪡': ['Sewing Needle'],
-    '🪢': ['Knot'],
-    '🪙': ['Coin'],
-    '🪃': ['Boomerang'],
-    '🪥': ['Toothbrush'],
-    '🪦': ['Headstone'],
-    '🪧': ['Placard'],
-    '🪒': ['Razor']
+    '🪡': ['Varrótű'],
+    '🪢': ['Csomó'],
+    '🪙': ['Érme'],
+    '🪃': ['Bumeráng'],
+    '🪥': ['Fogkefe'],
+    '🪦': ['Sírkő'],
+    '🪧': ['Transzparens'],
+    '🪒': ['Borotva']
 };

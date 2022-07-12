@@ -1,4 +1,4 @@
-lang = 'de';
+lang = 'de-ch';
 //use i18n language code of the browser, more details: https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/i18n/LanguageCode
 settings_strings[lang] = {};
 settings_strings[lang]['placeholder-searchbox'] = 'Suche nach Stichwort';
@@ -12,7 +12,7 @@ settings_strings[lang]['button-light'] = 'Hell';
 settings_strings[lang]['button-dark'] = 'Dunkel';
 settings_strings[lang]['label-columns'] = 'Spalten';
 settings_strings[lang]['label-rows'] = 'Zeilen';
-settings_strings[lang]['label-emoji-size'] = 'Emoji-Größe';
+settings_strings[lang]['label-emoji-size'] = 'Emoji-Grösse';
 settings_strings[lang]['select-very-small'] = 'Sehr klein';
 settings_strings[lang]['select-small'] = 'Klein';
 settings_strings[lang]['select-normal'] = 'Normal';

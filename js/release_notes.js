@@ -68,6 +68,28 @@ function releaseNotes(release) {
             release_notes_text += "<li>Added translation in Arabic (ar) 🇦🇪 🇪🇭 🇸🇦, Chinese (zh-CN) 🇨🇳, Czech (cs) 🇨🇿, Danish (da) 🇩🇰, Dutch (nl) 🇳🇱, Finnish (fi) 🇫🇮, French (fr) 🇫🇷, German (de) 🇩🇪, Greek (el) 🇬🇷, Italian (it) 🇮🇹, Japanese (jp) 🇯🇵, Norwegian (no) 🇳🇴, Polish (pl) 🇵🇱, Portuguese (pt-PT and pt-BR) 🇵🇹 🇧🇷, Romanian (ro) 🇷🇴, Russian (ru) 🇷🇺, Spanish (es-ES) 🇪🇸, Swedish (sv-SE) 🇸🇪, Ukrainian (uk) 🇺🇦.<br><br><div class='text-center'><a href='https://crowdin.com/project/emoji-sav' class='button-release'>Translate now in your language!</a></div></li>";
             release_notes_text += "</ul>";
             break;
+
+        case "3.13.7":
+            release_notes_text = "<ul>";
+            release_notes_text += "<li>Added a new option in Settings: when <i>Multi-copy</i> is enabled, you can choose to insert a space between emojis or not.</li>";
+            release_notes_text += "<li>Updated all languages<br><br><div class='text-center'><a href='https://crowdin.com/project/emoji-sav' class='button-release'>Translate now in your language!</a></div></li>";
+            release_notes_text += "</ul>";
+            break;
+
+        case "3.14":
+            release_notes_text = "<ul>";
+            release_notes_text += "<li>Added a new option in Settings: you can now enable the inserting an emoji instead of only copy it! Turn on <i>Also insert directly the emoji</i> in Settings.</li>";
+            release_notes_text += "<li><i><small>Did you know...?</small></i><br>You can open automatically the popup with the shortcut:<br><br><div class='text-center'><span class='background-lightblue'>Ctrl/Cmd + Alt + A</span></div></li>";
+            release_notes_text += "</ul>";
+            break;
+
+        case "3.14.2":
+            release_notes_text = "<ul>";
+            release_notes_text += "<li>Optional permissions for the feature <i>Also insert directly the emoji</i>. You need to (re)turn on it in Settings. (Thank you @<b>minxaa</b>)</li>";
+            release_notes_text += "<li>Fixed issues with some emojis.</li>";
+            release_notes_text += "<li>Updated languages.</li>";
+            release_notes_text += "</ul>";
+            break;
     }
     return release_notes_text;
 }

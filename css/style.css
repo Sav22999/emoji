@@ -112,6 +112,10 @@ body {
     font-family: inherit;
 }
 
+.emoji {
+    padding: 5px;
+}
+
 .button {
     width: auto;
     font-family: open-sans, monospace, sans-serif;
@@ -774,10 +778,13 @@ div {
     background-color: rgb(70, 70, 70);
 }
 
+.subsection-settings {
+    padding: 5px;
+}
+
 .light-subsection-settings,
 .dark-subsection-settings {
     border-bottom: 1px solid #DDDDDD;
-    padding: 5px;
 }
 
 .no-border-bottom {
@@ -788,7 +795,7 @@ div {
     border-bottom: 1px solid #555555;
 }
 
-#skin-tone-container, #auto-close-container, #multi-copy-container, #theme-container, #extension-icon-container {
+#skin-tone-container, #auto-close-container, #multi-copy-container, #space-emoji-container, #insert-emoji-container, #theme-container, #extension-icon-container {
     position: relative;
     height: 30px;
     display: inline-block;
@@ -806,10 +813,9 @@ div {
 
 #extension-icon-section-container > .title-subsection-settings {
     margin-top: 6px;
-    margin-left: 5px;
 }
 
-#auto-close-container, #multi-copy-container, #theme-container {
+#auto-close-container, #multi-copy-container, #space-emoji-container, #insert-emoji-container, #theme-container {
     min-width: 100px;
     width: auto;
 }
@@ -1018,4 +1024,14 @@ div {
 
 .margin-left-15 {
     margin-left: 15px;
+}
+
+.background-lightblue {
+    background-color: rgba(177, 214, 252, 0.5);
+    border: 0px solid transparent;
+    border-radius: 5px;
+    width: auto;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
