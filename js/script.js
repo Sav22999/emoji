@@ -1433,7 +1433,7 @@ function selectYesNoInsertEmoji(index, onlyStatus = false) {
         selectYesNoButton("insert-emoji-button", index);
         browserAgentSettings.permissions.getAll().then((result) => {
             //check permissions and in case force to "No"
-            if (index === 0 && !result.origins.includes(contestScriptMatches[0])) {
+            if (index === 0 && !result.origins.includes(contestScriptMatches[0]) && !result.permissions.includes("activeTab")) {
                 selectYesNoButton("insert-emoji-button", 1);
                 insert_directly_emoji = "no";
             }
@@ -1444,7 +1444,7 @@ function selectYesNoInsertEmoji(index, onlyStatus = false) {
             // yes
             if (insertEmojiStatus === 1) {
                 const permissionsToRequest = {
-                    permissions: ["tabs"],
+                    permissions: ["activeTab"],
                     origins: contestScriptMatches
                 }
 
