@@ -1,4 +1,4 @@
-Bir emoji kopyalamak için sadece tek bir tıklama yeterli.
+Bir emojiyi tek bir tıklama ile kopyalamayı sağlıyor.
 Bir arama kutusu ve "En çok kullanılan emojiler" bölümü (birincisi) var.
 
-Geri bildirim göndermek veya hata bildirmek istiyorsanız lütfen, https://github.com/Sav22999/ emoji adresine gidin
+Geri bildirim göndermek veya hata bildirmek istiyorsanız lütfen, https://github.com/Sav22999/emoji adresine gidin

@@ -1,5 +1,5 @@
 // descriptions took from Emojipedia.org
-lang = 'de';
+lang = 'de-ch';
 //use i18n language code of the browser, more details: https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/i18n/LanguageCode
 titles_language[lang] = {
     '🔍': 'Ergebnisse',

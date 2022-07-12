@@ -4,6 +4,8 @@ var emojis = [];
 var selectedTitle = 1;
 var char_copied_n = 0;
 
+var registered = null;
+
 var marginToUse = 10;
 var max_columns = 10;
 var max_rows = 6;
@@ -20,6 +22,8 @@ var multi_copy = "no";
 var extension_icon_selected = 0; //extension-icon-1
 var language_to_show = "en";
 const extension_icons = ["extension-icon-1", "extension-icon-2", "extension-icon-3", "extension-icon-4", "extension-icon-5", "extension-icon-6", "extension-icon-7", "extension-icon-8", "extension-icon-9", "extension-icon-10", "extension-icon-11"];
+var space_emoji = "no";
+var insert_directly_emoji = "no";
 
 var all_emojis = [];
 var emojis_supporting_skin_tones = {};
@@ -36,7 +40,6 @@ var mostUsedEmojis = [];
 var browserOrChromeIndex = 1; //TODO: change manually: {0: Firefox, 1: Microsoft Edge, 2: Chrome Web Store}
 
 var browserAgentSettings = "";
-var font_family = ""; //twemoji (Twitter), notocoloremoji (Google), openmojicolor (OpenMoji), openmojiblack, default
 
 const linkReview = ["https://addons.mozilla.org/firefox/addon/emoji-sav/", "https://microsoftedge.microsoft.com/addons/detail/emoji/ejcgfbaipbelddlbokgcfajefbnnagfm", "https://chrome.google.com/webstore/detail/emoji/kjepehkgbooeigeflhiogplnckadlife?hl=it&authuser=0"];
 const linkDonate = ["https://www.paypal.me/saveriomorelli", "https://ko-fi.com/saveriomorelli", "https://bit.ly/3eXs7Oy"]; //{paypal, ko-fi, liberapay}
@@ -45,19 +48,33 @@ const linkNeedHelp = ["https://www.saveriomorelli.com/contact-me/"];
 const storeName = ["Firefox Add-ons", "Microsoft Edge Add-ons", "Google Chrome Web Store"];
 const fontFamily = ["twemoji", "notocoloremoji", "notocoloremoji"];
 
-const hideChooseSkinToneMiniPopUpAfterSeconds = 2 * 1000; //2 seconds
-const hideMessageBottomAfterSeconds = 1500;
-
-var set_timeout_mini_popup = null;
-
-
-font_family = fontFamily[browserOrChromeIndex];
-
 if (browserOrChromeIndex == 0) {
     browserAgentSettings = browser;
 } else if (browserOrChromeIndex == 1 || browserOrChromeIndex == 2) {
     browserAgentSettings = chrome;
 }
+
+var font_family = fontFamily[browserOrChromeIndex]; //twemoji (Twitter), notocoloremoji (Google), openmojicolor (OpenMoji), openmojiblack, default
+
+const hideChooseSkinToneMiniPopUpAfterSeconds = 2 * 1000; //2 seconds
+const hideMessageBottomAfterSeconds = 1500;
+
+var set_timeout_mini_popup = null;
+
+const jsonSettingsDefaultValue = {
+    "theme": 0,
+    "columns": 2,
+    "rows": 2,
+    "size": 2,
+    "font": 0,
+    "auto_close": 1,
+    "skin_tone": 0,
+    "multi_copy": 1,
+    "extension_icon": 0,
+    "language": getLanguageCode(browserAgentSettings.i18n.getUILanguage().toString()),
+    "space_emoji": 0,
+    "insert_directly_emoji": 1,
+};
 
 const storeNameAbbr = ["MFA", "MEA", "GCWS"];//{MozillaFirefoxAddons, MicrosoftEdgeAddons, GoogleChromeWebStore}
 const releaseNumber = browserAgentSettings.runtime.getManifest().version;
@@ -111,7 +128,9 @@ function copyEmoji(text, tooltip) {
         if (multi_copy == "no") {
             copyText = copyEmojiTemp;
         } else {
-            copyText = copyText + " " + copyEmojiTemp;
+            let spaceCharacter = " ";
+            if (space_emoji == "no") spaceCharacter = "";
+            copyText = copyText + spaceCharacter + copyEmojiTemp;
         }
         textToCopyElement.value = copyText;
         var copyTextTemp = textToCopyElement
@@ -119,6 +138,13 @@ function copyEmoji(text, tooltip) {
         document.execCommand("copy");
         textToCopyElement.style.display = "none";
         showMessageBottom(strings["other"]["label-copied"], copyText);
+
+        if (insert_directly_emoji === "yes") {
+            browserAgentSettings.tabs.query({active: true, currentWindow: true}, function (tabs) {
+                browserAgentSettings.tabs.sendMessage(tabs[0].id, {emoji: text}, function (response) {
+                });
+            });
+        }
 
         browserAgentSettings.storage.sync.get(nameOfSetting, function (value) {
             if (value[nameOfSetting] != undefined) {
@@ -250,8 +276,7 @@ function generateTitles(search = false, titleToSet = 1, clearSearchBox = true) {
     for (let i = 0; i < Object.keys(titles).length; i++) {
         if (i == 0) {
             //search title
-            if (!search) document.getElementsByClassName("section-title")[i].style.display = "none";
-            else document.getElementsByClassName("section-title")[i].style.display = "inline-block";
+            if (!search) document.getElementsByClassName("section-title")[i].style.display = "none"; else document.getElementsByClassName("section-title")[i].style.display = "inline-block";
         } else {
             if (i == 1) {
                 if (mostUsedLength == 0) {
@@ -271,8 +296,7 @@ function generateTitles(search = false, titleToSet = 1, clearSearchBox = true) {
             document.getElementsByClassName("section-title")[i].classList.add(theme + "-section-title");
         }
     }
-    if (!search) setTitle(titleToSet);
-    else setTitle(0);
+    if (!search) setTitle(titleToSet); else setTitle(0);
 }
 
 function clearAllData() {
@@ -325,9 +349,7 @@ function generateEmojis(title) {
             tempEmojisToShow += "<input type='button' class='emoji " + theme + "-button-emoji size-emoji-button-" + size_emojis + "' value='" + mostUsedEmojis[i].emoji + "' title='" + tooltipToUse + "' alt='" + tooltipToUse + "' />";
         }
         if (n_emojis == 0) {
-            emojisElement.innerHTML = "<div id='no_most_used_emojis'>" +
-                strings["other"]["label-no-most-used-emojis"].replaceAll("{{properties}}", "class='font-" + font_family + " margin-right-10 font-size-25'") +
-                "</div>";
+            emojisElement.innerHTML = "<div id='no_most_used_emojis'>" + strings["other"]["label-no-most-used-emojis"].replaceAll("{{properties}}", "class='font-" + font_family + " margin-right-10 font-size-25'") + "</div>";
         } else {
             emojisElement.innerHTML = tempEmojisToShow;
         }
@@ -491,6 +513,15 @@ function setPopUpUI() {
         }
     }
 
+    document.getElementById("space-emoji-selected").onchange = function () {
+        selectYesNoSpaceEmoji(document.getElementById("space-emoji-selected").selectedIndex);
+
+        saveSettings();
+    }
+    selectYesNoSpaceEmoji(document.getElementById("space-emoji-selected").selectedIndex);
+
+    selectYesNoInsertEmoji(document.getElementById("insert-emoji-selected").selectedIndex, onlyStatus = true);
+
     document.getElementById("auto-close-yes").onclick = function () {
         document.getElementById("close-popup-after-copied-selected").selectedIndex = 0;
         selectYesNoAutoClose(0);
@@ -522,6 +553,30 @@ function setPopUpUI() {
 
         saveSettings();
     }
+    document.getElementById("space-emoji-no").onclick = function () {
+        document.getElementById("space-emoji-selected").selectedIndex = 1;
+        selectYesNoSpaceEmoji(1);
+
+        saveSettings();
+    }
+    document.getElementById("space-emoji-yes").onclick = function () {
+        document.getElementById("space-emoji-selected").selectedIndex = 0;
+        selectYesNoSpaceEmoji(0);
+
+        saveSettings();
+    }
+    document.getElementById("insert-emoji-no").onclick = function () {
+        document.getElementById("insert-emoji-selected").selectedIndex = 1;
+        selectYesNoInsertEmoji(1);
+
+        saveSettings();
+    }
+    document.getElementById("insert-emoji-yes").addEventListener("click", function () {
+        document.getElementById("insert-emoji-selected").selectedIndex = 0;
+        selectYesNoInsertEmoji(0);
+
+        saveSettings();
+    });
 
     document.getElementById("theme-light").onclick = function () {
         document.getElementById("theme-selected").selectedIndex = 0;
@@ -579,37 +634,38 @@ function setPopUpUI() {
         saveSettings();
     }
 
-    document.getElementsByClassName("theme-button")[0].focus(); //after saveSettings get again focus of the first element in Settings
+    //document.getElementsByClassName("theme-button")[0].focus(); //after saveSettings get again focus of the first element in Settings
 
     setSkinToneEmojis();
     setContextMenu();
 
     setLanguageFile();
     setLanguageUI();
+
+    sendMessageForInjection();
 }
 
 function setContextMenu() {
     if (!contextmenu_set) {
         contextmenu_set = true;
-        document.addEventListener("contextmenu",
-            function (e) {
-                let classNames = e.target.className.split(" ");
-                if (classNames.includes("emoji") && !classNames.includes("emoji-mini-popup")) {
-                    //right-click
-                    let index_to_use = 0;
-                    for (index_to_use in emojis_supporting_skin_tones) {
-                        if (emojis_supporting_skin_tones[index_to_use]["emojis"].includes(e.target.value)) {
-                            //show "sub-popup" (choose another skin-tone for the selected emoji)
-                            showChooseSkinToneMiniPopUp(index_to_use, e.clientX, e.clientY);
-                        }
+        document.addEventListener("contextmenu", function (e) {
+            let classNames = e.target.className.split(" ");
+            if (classNames.includes("emoji") && !classNames.includes("emoji-mini-popup")) {
+                //right-click
+                let index_to_use = 0;
+                for (index_to_use in emojis_supporting_skin_tones) {
+                    if (emojis_supporting_skin_tones[index_to_use]["emojis"].includes(e.target.value)) {
+                        //show "sub-popup" (choose another skin-tone for the selected emoji)
+                        showChooseSkinToneMiniPopUp(index_to_use, e.clientX, e.clientY);
                     }
                 }
+            }
 
-                if (!(e.target.nodeName == "INPUT" && e.target.type == "search")) {
-                    e.preventDefault();
-                    //show (default) context menu just for the "search-box"
-                }
-            }, false);
+            if (!(e.target.nodeName == "INPUT" && e.target.type == "search")) {
+                e.preventDefault();
+                //show (default) context menu just for the "search-box"
+            }
+        }, false);
         emojisElement.addEventListener("scroll", function () {
             hideChooseSkinToneMiniPopUp();
         });
@@ -741,9 +797,7 @@ function setLanguageSelector(selected) {
 function showReviewAddonMessage() {
     let message_element = document.createElement("div");
     message_element.id = "review-message";
-    message_element.innerHTML = "" +
-        strings["other"]["label-review-the-addon"].replaceAll("{{properties}}", "class='font-" + font_family + " font-size-22 margin-right-5'").replaceAll("{{store}}", storeName[browserOrChromeIndex]) +
-        "<br><div id='review-message-buttons'></div>";
+    message_element.innerHTML = "" + strings["other"]["label-review-the-addon"].replaceAll("{{properties}}", "class='font-" + font_family + " font-size-22 margin-right-5'").replaceAll("{{store}}", storeName[browserOrChromeIndex]) + "<br><div id='review-message-buttons'></div>";
     document.getElementById("popup-content").append(message_element);
 
     let background_opacity = document.createElement("div");
@@ -789,9 +843,7 @@ function showReviewAddonMessage() {
 function showOpenedAddonMessage(numberOpened) {
     let message_element = document.createElement("div");
     message_element.id = "opened-addon-message";
-    message_element.innerHTML = "" +
-        strings["other"]["label-you-opened-this-addon-times"].replaceAll("{{properties1}}", "class='text-center padding-5'").replaceAll("{{properties2}}", "class='font-" + font_family + " font-size-20 margin-right-5'").replaceAll("{{properties3}}", "class='font-size-20 font-bold'").replaceAll("{{times}}", numberOpened.toString()).replaceAll("{{properties4}}", "class='text-left padding-5'") +
-        "<div id='opened-addon-message-buttons' class='message-buttons-container text-right'></div>";
+    message_element.innerHTML = "" + strings["other"]["label-you-opened-this-addon-times"].replaceAll("{{properties1}}", "class='text-center padding-5'").replaceAll("{{properties2}}", "class='font-" + font_family + " font-size-20 margin-right-5'").replaceAll("{{properties3}}", "class='font-size-20 font-bold'").replaceAll("{{times}}", numberOpened.toString()).replaceAll("{{properties4}}", "class='text-left padding-5'") + "<div id='opened-addon-message-buttons' class='message-buttons-container text-right'></div>";
     document.getElementById("popup-content").append(message_element);
 
     let background_opacity = document.createElement("div");
@@ -829,8 +881,7 @@ function showMessageTop(text) {
     text_to_use = text_to_use.replace(/{{emoji}}/g, "<span class='font-" + font_family + " font-size-22 margin-right-5'>");
     text_to_use = text_to_use.replace(/{{\/emoji}}/g, "</span>");
     message_element.innerHTML = "<div id='title-release-notes'>Release notes</div>" + text_to_use + "<br><div id='top-message-buttons'></div>";
-    ;
-    document.getElementById("popup-content").append(message_element);
+    ;document.getElementById("popup-content").append(message_element);
 
     let background_opacity = document.createElement("div");
     background_opacity.className = "background-opacity";
@@ -877,8 +928,7 @@ function showMessageBottom(text = "", emoji_text = null) {
 
 function toggleElement(id_to_use) {
     let display_attribute = document.getElementById(id_to_use).style.display;
-    if (display_attribute == "block") hideElement(id_to_use);
-    else showElement(id_to_use);
+    if (display_attribute == "block") hideElement(id_to_use); else showElement(id_to_use);
 }
 
 function hideElement(id_to_use) {
@@ -901,11 +951,9 @@ function checkReview() {
     browserAgentSettings.storage.sync.get("review-addon", function (value) {
         let count = 0;
         if (value["review-addon"] != undefined) {
-            if (value["review-addon"] != -1) count = value["review-addon"] + 1;
-            else count = -1;
+            if (value["review-addon"] != -1) count = value["review-addon"] + 1; else count = -1;
         }
-        if (count >= 30) showReviewAddonMessage();
-        else if (count > -1) setReviewed(count);
+        if (count >= 30) showReviewAddonMessage(); else if (count > -1) setReviewed(count);
     });
 }
 
@@ -977,9 +1025,7 @@ function searchEmoji(value) {
         }
         generateTitles(true, 0);
         if (n_results == 0) {
-            emojisElement.innerHTML = "<div id='no_emojis_found'>" +
-                strings["other"]["label-no-emojis-found"].replaceAll("{{properties}}", "class='font-" + font_family + " margin-right-10 font-size-25'") +
-                "</div>";
+            emojisElement.innerHTML = "<div id='no_emojis_found'>" + strings["other"]["label-no-emojis-found"].replaceAll("{{properties}}", "class='font-" + font_family + " margin-right-10 font-size-25'") + "</div>";
         }
     } else {
         if (this.selectedTitle == 0) {
@@ -997,10 +1043,7 @@ function showSettings() {
 }
 
 function setColumnsRowsSettings(value, selected_c = 2, selected_r = 2) {
-    let min_c = 8,
-        max_c = 14,
-        min_r = 4,
-        max_r = 10;
+    let min_c = 8, max_c = 14, min_r = 4, max_r = 10;
 
     marginToUse = 10;
 
@@ -1069,6 +1112,8 @@ function saveSettings(reset = false) {
     let multiCopy = document.getElementById("multi-copy-selected").selectedIndex;
     let extensionIcon = document.getElementById("extension-icon-selected").selectedIndex;
     let language = document.getElementById("language-selected").value;
+    let spaceEmoji = document.getElementById("space-emoji-selected").selectedIndex;
+    let alsoInsertEmoji = document.getElementById("insert-emoji-selected").selectedIndex;
 
     let jsonSettings = {
         "theme": theme,
@@ -1081,29 +1126,19 @@ function saveSettings(reset = false) {
         "multi_copy": multiCopy,
         "extension_icon": extensionIcon,
         "language": language,
+        "space_emoji": spaceEmoji,
+        "insert_directly_emoji": alsoInsertEmoji,
     };
     if (reset) {
-        jsonSettings = {
-            "theme": 0,
-            "columns": 2,
-            "rows": 2,
-            "size": 2,
-            "font": 0,
-            "auto_close": 1,
-            "skin_tone": 0,
-            "multi_copy": 1,
-            "extension_icon": 0,
-            "language": getLanguageCode(browserAgentSettings.i18n.getUILanguage().toString()),
-        };
+        jsonSettings = jsonSettingsDefaultValue;
     }
     browserAgentSettings.storage.sync.set({"settings": jsonSettings}, function () {
+        //hideElement("settings-section");
+        number_of_emojis_generations = 0;
+        focusSearchBox();
+        setVariablesFromSettings(true);
+        setSkinToneEmojis();
     });
-
-    //hideElement("settings-section");
-    number_of_emojis_generations = 0;
-    focusSearchBox();
-    setVariablesFromSettings(true);
-    setSkinToneEmojis();
 }
 
 function setVariablesFromSettings(resize_popup_ui = false, focus_search_box = false) {
@@ -1117,21 +1152,12 @@ function setVariablesFromSettings(resize_popup_ui = false, focus_search_box = fa
     let multiCopyElement = document.getElementById("multi-copy-selected");
     let extensionIconElement = document.getElementById("extension-icon-selected");
     let languageElement = document.getElementById("language-selected");
+    let spaceEmojiElement = document.getElementById("space-emoji-selected");
+    let alsoInsertEmojiElement = document.getElementById("insert-emoji-selected");
 
-    let jsonSettings = {
-        "theme": 0,
-        "columns": 2,
-        "rows": 2,
-        "size": 2,
-        "font": 0,
-        "auto_close": 1,
-        "skin_tone": 0,
-        "multi_copy": 1,
-        "extension_icon": 0,
-        "language": getLanguageCode(browserAgentSettings.i18n.getUILanguage().toString()),
-    };
-
+    let jsonSettings = jsonSettingsDefaultValue;
     let nameOfSetting = "settings";
+
     browserAgentSettings.storage.sync.get(nameOfSetting, function (value) {
         if (value[nameOfSetting] != undefined) {
             jsonSettings = value[nameOfSetting];
@@ -1158,6 +1184,11 @@ function setVariablesFromSettings(resize_popup_ui = false, focus_search_box = fa
         if (jsonSettings.extension_icon != undefined) extensionIconElement.selectedIndex = jsonSettings.extension_icon;
         let languageToSet = browserAgentSettings.i18n.getUILanguage().toString();
         if (jsonSettings.language != undefined) languageToSet = getLanguageCode(jsonSettings.language);
+        spaceEmojiElement.selectedIndex = 0;
+        if (jsonSettings.space_emoji != undefined) spaceEmojiElement.selectedIndex = jsonSettings.space_emoji;
+        alsoInsertEmojiElement.selectedIndex = 1;
+        if (jsonSettings.insert_directly_emoji != undefined) alsoInsertEmojiElement.selectedIndex = jsonSettings.insert_directly_emoji;
+
 
         let languagesTemp = [];
         for (let item in supported_languages) {
@@ -1199,6 +1230,8 @@ function setVariablesFromSettings(resize_popup_ui = false, focus_search_box = fa
         }
         extension_icon_selected = extensionIconElement.selectedIndex;
         if (extension_icon_selected == undefined) extension_icon_selected = 0;
+        space_emoji = spaceEmojiElement.value.toLowerCase();
+        insert_directly_emoji = alsoInsertEmojiElement.value.toLowerCase();
 
         setExtensionIcon("../img/extension-icons/" + extension_icons[extension_icon_selected] + ".png");
 
@@ -1219,8 +1252,7 @@ function setVariablesFromSettings(resize_popup_ui = false, focus_search_box = fa
 }
 
 function getLanguageCode(language) {
-    if (supported_languages[language] != undefined) return language;
-    else return "en";
+    if (supported_languages[language] != undefined) return language; else return "en";
 }
 
 function setFontFamily() {
@@ -1260,6 +1292,8 @@ function setTheme() {
     removeThemeClassId("donate-liberapay-settings", "-btn-settings-button");
     removeThemeClassId("translate-settings", "-btn-settings-button");
     removeThemeClassId("language-selected", "-select");
+    removeThemeClassId("space-emoji-selected", "-select");
+    removeThemeClassId("insert-emoji-selected", "-select");
 
     document.getElementById("popup-content").classList.add(theme);
     document.getElementById("emoji-skin-choose").classList.add(theme);
@@ -1284,8 +1318,11 @@ function setTheme() {
     document.getElementById("donate-liberapay-settings").classList.add(theme + "-btn-settings-button");
     document.getElementById("translate-settings").classList.add(theme + "-btn-settings-button");
     document.getElementById("language-selected").classList.add(theme + "-select");
+    document.getElementById("space-emoji-selected").classList.add(theme + "-select");
+    document.getElementById("insert-emoji-selected").classList.add(theme + "-select");
 
-    for (let n = 0; n < 9; n++) {
+    //TODO: change when add/remove an option in Settings
+    for (let n = 0; n < 11; n++) {
         removeThemeClassClass("subsection-settings", n, "-subsection-settings");
         document.getElementsByClassName("subsection-settings")[n].classList.add(theme + "-subsection-settings");
     }
@@ -1341,8 +1378,7 @@ function editMode() {
     document.getElementById("finish-edit-button").style.display = "block";
     deleteButtonElement.style.display = "none";
     searchBoxElement.style.right = "128px";
-    if (searchBoxElement.offsetWidth < 370) document.getElementById("text-click-on-emoji-to-remove").style.margin = "-1px";
-    else document.getElementById("text-click-on-emoji-to-remove").style.margin = "5px";
+    if (searchBoxElement.offsetWidth < 370) document.getElementById("text-click-on-emoji-to-remove").style.margin = "-1px"; else document.getElementById("text-click-on-emoji-to-remove").style.margin = "5px";
 
     deleting = true;
 }
@@ -1381,6 +1417,64 @@ function selectYesNoAutoClose(index) {
 
 function selectYesNoMultiCopy(index) {
     selectYesNoButton("multi-copy-button", index);
+    copyText = "";
+}
+
+function selectYesNoSpaceEmoji(index) {
+    selectYesNoButton("space-emoji-button", index);
+}
+
+function sendMessageForInjection(forced = false) {
+    browserAgentSettings.runtime.sendMessage({file: contestScriptJs[0].file, forced: forced});
+}
+
+let insertEmojiStatus = 0;
+let contestScriptMatches = ["<all_urls>"];
+let contestScriptJs = [{file: "./js/emoji-insert-directly.js"}];
+
+function selectYesNoInsertEmoji(index, onlyStatus = false) {
+    if (onlyStatus) {
+        selectYesNoButton("insert-emoji-button", index);
+        browserAgentSettings.permissions.getAll().then((result) => {
+            //check permissions and in case force to "No"
+            if (index === 0 && !result.origins.includes(contestScriptMatches[0]) && !result.permissions.includes("activeTab")) {
+                selectYesNoButton("insert-emoji-button", 1);
+                insert_directly_emoji = "no";
+            }
+        });
+    } else {
+        insertEmojiStatus++;
+        if (index === 0) {
+            // yes
+            if (insertEmojiStatus === 1) {
+                const permissionsToRequest = {
+                    permissions: ["activeTab"],
+                    origins: contestScriptMatches
+                }
+
+                async function onResponse(response) {
+                    if (response) {
+                        //Granted
+                        selectYesNoButton("insert-emoji-button", index);
+                        saveSettings();
+                        sendMessageForInjection(true); //forced the injection the first time
+                    } else {
+                        //Refused
+                        selectYesNoButton("insert-emoji-button", 1);
+                        saveSettings();
+                    }
+                    return browserAgentSettings.permissions.getAll();
+                }
+
+                browserAgentSettings.permissions.request(permissionsToRequest).then(onResponse);
+            }
+        } else {
+            insertEmojiStatus = 0;
+            // no
+            selectYesNoButton("insert-emoji-button", 1);
+            saveSettings();
+        }
+    }
 }
 
 function selectYesNoTheme(index) {
@@ -1490,6 +1584,12 @@ function setLanguageUI() {
     document.getElementById("alert-font-pop-up").textContent = strings["settings"]["label-font-family-use-twitter"];
     document.getElementById("label-extension-icon").textContent = strings["settings"]["label-extension-icon"];
     document.getElementById("label-language").textContent = strings["settings"]["label-language"];
+    document.getElementById("label-space-emoji").textContent = strings["settings"]["label-space-emoji"];
+    document.getElementById("space-emoji-yes").textContent = strings["settings"]["button-yes"];
+    document.getElementById("space-emoji-no").textContent = strings["settings"]["button-no"];
+    document.getElementById("label-insert-emoji").textContent = strings["settings"]["label-insert-emoji"];
+    document.getElementById("insert-emoji-yes").textContent = strings["settings"]["button-yes"];
+    document.getElementById("insert-emoji-no").textContent = strings["settings"]["button-no"];
     document.getElementById("save-data-settings").value = strings["settings"]["button-save"];
     document.getElementById("reset-data-settings").value = strings["settings"]["button-reset-settings"];
     document.getElementById("clear-data-settings").value = strings["settings"]["button-clear-all-data"];
