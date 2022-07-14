@@ -1431,27 +1431,20 @@ let contestScriptJs = [{file: "./js/emoji-insert-directly.js"}];
 function selectYesNoInsertEmoji(index, onlyStatus = false) {
     if (onlyStatus) {
         selectYesNoButton("insert-emoji-button", index);
-        try {
-            if (index === 1 && browserAgentSettings.permissions.contains({origins: ['<all_urls>']}) && browserAgentSettings.permissions.contains({permissions: ['activeTab']})) {
-                selectYesNoButton("insert-emoji-button", 0);
-                insert_directly_emoji = "yes";
-            } else {
+        browserAgentSettings.permissions.getAll().then((result) => {
+            //check permissions and in case force to "No"
+            if (index === 0 && (!result.origins.includes(contestScriptMatches[0]) || !result.permissions.includes("activeTab"))) {
                 selectYesNoButton("insert-emoji-button", 1);
                 insert_directly_emoji = "no";
             }
-        } catch (e) {
-            //check permissions and in case force to "No"
-            selectYesNoButton("insert-emoji-button", 1);
-            insert_directly_emoji = "no";
-        }
+        });
     } else {
         insertEmojiStatus++;
         if (index === 0) {
             // yes
             if (insertEmojiStatus === 1) {
                 const permissionsToRequest = {
-                    permissions: ["activeTab"],
-                    origins: contestScriptMatches
+                    permissions: ["activeTab"], origins: contestScriptMatches
                 }
 
                 async function onResponse(response) {
