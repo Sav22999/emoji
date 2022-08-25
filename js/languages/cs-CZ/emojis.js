@@ -9,7 +9,7 @@ titles_language[lang] = {
     '🦊': 'Zvířata',
     '🅰️': 'Symboly',
     '🍎': 'Jídlo a nápoje',
-    '🏳️‍🌈': 'Flags',
+    '🏳️‍🌈': 'Vlajky',
     '🏊': 'Sporty',
     '✈️': 'Cestovní ruch a místa',
     '🖱️': 'Technologie a kancelář',
@@ -595,14 +595,27 @@ emojis_language[lang][2] = {
     ],
     '🥲': ['Obličej se slzou'],
     '😮‍💨': [
-        'Face Exhaling',
-        'Sigh'
+        'Ohebné tváře',
+        'Prasata'
     ],
     '😵‍💫': [
-        'Face with Spiral Eyes',
+        'Obličej se spirálovými oky',
         'Dizzy Face'
     ],
     '🥸': ['Přestavěná tvář'],
+    '🫠': ['Melting Face'],
+    '🫢': ['Face with Open Eyes and Hand Over Mouth'],
+    '🫣': ['Face with Peeking Eye'],
+    '🫡': [
+        'Saluting Face',
+        'Military',
+        'Army',
+        'RAF',
+        'Navy'
+    ],
+    '🫥': ['Dotted Line Face'],
+    '🫤': ['Face with Diagonal Mouth'],
+    '🥹': ['Face Holding Back Tears'],
     '😈': [
         'Obličej se rohy',
         'Škoda',
@@ -710,22 +723,22 @@ emojis_language[lang][3] = {
         'Bezdrátová osoba'
     ],
     '👨{{skin_tone}}‍🦰': [
-        'Man: Red Hair',
-        'Ginger Man',
+        'Man: Červené vlasy',
+        'Česnek',
         'Man Redhead',
-        'Man With Red Hair'
+        'Člověk s červenými vlasy'
     ],
     '👨{{skin_tone}}‍🦱': [
-        'Man: Curly Hair',
-        'Man With Curly Hair'
+        'Člověk: Křivky',
+        'Člověk s Curly Vlasy'
     ],
     '👨{{skin_tone}}‍🦳': [
-        'Man: White Hair',
-        'Man With Gray Hair'
+        'Muž: Bílé vlasy',
+        'Man s šedými vlasy'
     ],
     '👨{{skin_tone}}‍🦲': [
-        'Man: Bald',
-        'Man With No Hair'
+        'Člověk',
+        'Člověk bez vlasů'
     ],
     '👩{{skin_tone}}': [
         'Žena',
@@ -734,422 +747,439 @@ emojis_language[lang][3] = {
         'Žlutá žena'
     ],
     '👩{{skin_tone}}‍🦰': [
-        'Woman: Red Hair',
-        'Ginger Woman',
+        'Ženský: Červené vlasy',
+        'Ženka',
         'Woman Redhead',
-        'Woman With Red Hair'
+        'Žena s červeným vlasem'
     ],
     '👩{{skin_tone}}‍🦱': [
-        'Woman: Curly Hair',
-        'Woman With Curly Hair'
+        'Ženský: Curly Vlasy',
+        'Žena s Curly Vlasy'
     ],
     '👩{{skin_tone}}‍🦳': [
-        'Woman: White Hair',
-        'Woman With Gray Hair'
+        'Ženský: Bílé vlasy',
+        'Žena se šedými vlasy'
     ],
     '👩{{skin_tone}}‍🦲': [
-        'Woman: Bald',
-        'Woman With No Hair'
+        'Ženský: Plád',
+        'Žena bez vlasů'
     ],
     '👱{{skin_tone}}‍♀️': [
-        'Woman: Blond Hair',
-        'Woman With Blonde Hair'
+        'Ženský: Klondýnská vlasy',
+        'Žena s blondýnskými vlasy'
     ],
     '👱{{skin_tone}}‍♂️': [
-        'Man: Blond Hair',
-        'Man With Blonde Hair'
+        'Člověk: Klondýnské vlasy',
+        'Man s blondýnskými vlasy'
     ],
     '🧓{{skin_tone}}‍': [
-        'Older Person',
-        'Gender Neutral Older Adult'
+        'Starší osoba',
+        'Pohlaví neutrální starší dospělí'
     ],
     '👴{{skin_tone}}‍': [
-        'Old Man',
-        'Elderly Man',
+        'Starý muž',
+        'Starší muž',
         'Grandpa',
-        'Older Man'
+        'Starší muž'
     ],
     '👵{{skin_tone}}‍': [
-        'Old Woman',
-        'Elderly Woman',
-        'Grandma',
+        'Stará žena',
+        'Starší žena',
+        'Prach',
         'Nanna',
-        'Old Lady',
-        'Older Woman'
+        'Stará dáma',
+        'Starší žena'
     ],
     '👼{{skin_tone}}‍': [
-        'Baby Angel',
-        'Angel',
+        'Dětský anděl',
+        'Úhelník',
         'Cherub',
         'Cupid',
         'Putto'
     ],
     '🎅{{skin_tone}}‍': [
         'Santa Claus',
-        'Saint Nicholas',
+        'Svatý Kryštof',
         'Sinterklaas',
-        'Father Christmas'
+        'Otec Vánoce'
     ],
     '🤶{{skin_tone}}‍': [
-        'Mrs Claus',
-        'Mother Christmas'
+        'paní Clausová',
+        'Matka Vánoce'
     ],
     '🤴{{skin_tone}}‍': ['Prince'],
     '👸{{skin_tone}}‍': [
-        'Princess',
-        'Blonde Girl',
-        'Girl With Crown',
-        'Girl With Tiara'
+        'Princezna',
+        'Blondýnská žirla',
+        'Cívka s korunou',
+        'Dívka s Tiara'
     ],
-    '👳{{skin_tone}}‍♂️': ['Man Wearing Turban'],
-    '👳{{skin_tone}}‍♀️': ['Woman Wearing Turban'],
+    '🫅{{skin_tone}}‍': ['Person with Crown'],
+    '👳{{skin_tone}}‍♂️': ['Člověk s Turbínem'],
+    '👳{{skin_tone}}‍♀️': ['Ženská zimní Turbanština'],
     '👲{{skin_tone}}‍': [
-        'Person With Skullcap',
-        'Asian Man',
-        'Man With Chinese Cap',
-        'Man with Gua Pi Mao'
+        'Osoba s lebkou',
+        'Asijský muž',
+        'Člověk s čínskou čepicí',
+        'Man s Gua Pi Mao'
     ],
     '🧕{{skin_tone}}‍': [
-        'Woman with Headscarf',
+        'Žena se šátkem',
         'Hijab',
-        'Person with Headscarf'
+        'Osoba se šátkem'
     ],
     '🤵{{skin_tone}}‍': [
-        'Person in Tuxedo',
+        'Osoba v Tuxedu',
         'Groom',
-        'Man In Suit',
-        'Man in Tuxedo'
+        'Člověk v obleku',
+        'Člověk v Tuxedo',
+        'Wedding'
     ],
     '👰{{skin_tone}}‍': [
-        'Person With Veil',
-        'Bride',
-        'Bride with Veil'
+        'Osoba se závojem',
+        'Prostor',
+        'Ořeď se závojí',
+        'Wedding'
     ],
-    '👰{{skin_tone}}‍♂️': ['Man with Veil'],
-    '👰{{skin_tone}}‍♀️': ['Woman with Veil'],
-    '👩{{skin_tone}}‍🍼': ['Woman Feeding Baby'],
-    '👨{{skin_tone}}‍🍼': ['Man Feeding Baby'],
+    '👰{{skin_tone}}‍♂️': [
+        'Člověk se závojem',
+        'Wedding'
+    ],
+    '👰{{skin_tone}}‍♀️': [
+        'Žena se závojem',
+        'Wedding'
+    ],
+    '👩{{skin_tone}}‍🍼': ['Ženské krmné dítě'],
+    '👨{{skin_tone}}‍🍼': ['Člověk krmení dítěte'],
     '🥷': ['Ninja'],
     '🤰{{skin_tone}}‍': [
-        'Pregnant Woman',
-        'Pregnancy',
-        'Pregnant Lady'
+        'Těhotná žena',
+        'těhotenství',
+        'Březí dáma'
+    ],
+    '🫃{{skin_tone}}‍': [
+        'Pregnant Man',
+        'Pregnancy'
+    ],
+    '🫄{{skin_tone}}‍': [
+        'Pregnant Person',
+        'Pregnancy'
     ],
     '🤱{{skin_tone}}‍': [
-        'Breast-Feeding',
-        'Breastfeeding'
+        'Krmení prsu',
+        'Kojení'
     ],
     '🦸{{skin_tone}}‍♂️': ['Man Superhero'],
-    '🦸{{skin_tone}}‍‍♀️': ['Woman Superhero'],
+    '🦸{{skin_tone}}‍‍♀️': ['Žena Superhero'],
     '🦹{{skin_tone}}‍‍♂️': ['Man Supervillain'],
-    '🦹{{skin_tone}}‍‍♀️': ['Woman Supervillain'],
+    '🦹{{skin_tone}}‍‍♀️': ['Ženský dohled'],
     '🧙{{skin_tone}}‍': [
-        'Mage',
+        'Máslo',
         'Sorcerer',
-        'Sorceress',
-        'Witch',
-        'Wizard'
+        'Sorcert',
+        'Česnek',
+        'Průvodce'
     ],
     '🧙{{skin_tone}}‍‍♀️': [
-        'Woman Mage',
-        'Witch',
-        'Sorceress'
+        'Ženská matka',
+        'Česnek',
+        'Sorcert'
     ],
     '🧚{{skin_tone}}‍‍♂️': ['Man Fairy'],
-    '🧚{{skin_tone}}‍♀️': ['Woman Fairy'],
+    '🧚{{skin_tone}}‍♀️': ['Ženská žilka'],
     '🧛{{skin_tone}}‍♂️': [
-        'Man Vampire',
+        'Man upíří',
         'Dracula'
     ],
-    '🧛{{skin_tone}}‍‍♀️': ['Woman Vampire'],
+    '🧛{{skin_tone}}‍‍♀️': ['Ženský upír'],
     '🧜{{skin_tone}}‍♂️': ['Merman'],
     '🧜{{skin_tone}}‍♀️': ['Mermaid'],
     '🧝{{skin_tone}}‍♂️': ['Man Elf'],
-    '🧝{{skin_tone}}‍♀️': ['Woman Elf'],
+    '🧝{{skin_tone}}‍♀️': ['Ženský Elf'],
     '🧞‍♂️': ['Man Genie'],
     '🧞‍♀️': ['Woman Genie'],
     '🕵️{{skin_tone}}‍♂️': [
-        'Man Detective',
-        'Private Eye',
+        'Člověk detekoval',
+        'Soukromé oči',
         'Sleuth',
-        'Spy',
+        'Špionáž',
         'Man Sleuth',
-        'Sleuth or Spy',
+        'Spánek nebo Spy',
         '007',
-        'Inspector'
+        'Inspektor'
     ],
-    '🕵️{{skin_tone}}‍♀️': ['Woman Detective'],
+    '🕵️{{skin_tone}}‍♀️': ['Detekční žena'],
     '💂{{skin_tone}}‍': [
-        'Guard',
-        'British Guardsman',
-        'Foot Guard'
+        'Strážce',
+        'Britský strážce',
+        'Nozová ochrana'
     ],
-    '💂{{skin_tone}}‍‍♀️': ['Woman Guard'],
+    '💂{{skin_tone}}‍‍♀️': ['Ženská garda'],
     '👮{{skin_tone}}‍': [
-        'Police Officer',
+        'Policejní důstojník',
         'Cop',
-        'Police',
-        'Policeman',
-        'Policewoman'
+        'Policie',
+        'Politika',
+        'Politika'
     ],
-    '👮{{skin_tone}}‍‍♀️': ['Woman Police Officer'],
-    '👨{{skin_tone}}‍🚒': ['Man Firefighter'],
-    '👩{{skin_tone}}‍‍🚒': ['Woman Firefighter'],
-    '👨{{skin_tone}}‍‍✈️': ['Man Pilot'],
-    '👩{{skin_tone}}‍‍✈️': ['Woman Pilot'],
+    '👮{{skin_tone}}‍‍♀️': ['Policejní důstojník pro ženy'],
+    '👨{{skin_tone}}‍🚒': ['Člověk hasič'],
+    '👩{{skin_tone}}‍‍🚒': ['Ženský hasič'],
+    '👨{{skin_tone}}‍‍✈️': ['Mužský pilot'],
+    '👩{{skin_tone}}‍‍✈️': ['Pilotka žen'],
     '👨{{skin_tone}}‍💻': [
-        'Man Technologist',
-        'Man Technologist'
+        'Man Technologista',
+        'Man Technologista'
     ],
-    '👩{{skin_tone}}‍💻': ['Woman Technologist'],
+    '👩{{skin_tone}}‍💻': ['Ženský Technologista'],
     '👨{{skin_tone}}‍🎤': [
-        'Man Singer',
+        'Člověk nezadávající',
         'Bowie',
         'Aladdin Sane'
     ],
-    '👩{{skin_tone}}‍🎤': ['Woman Singer'],
-    '👨{{skin_tone}}‍🎨': ['Man Artist'],
-    '👩{{skin_tone}}‍🎨': ['Woman Artist'],
-    '👷{{skin_tone}}‍‍♂️': ['Man Construction Worker'],
-    '👷{{skin_tone}}‍‍♀️': ['Woman Construction Worker'],
+    '👩{{skin_tone}}‍🎤': ['Zpěvačka'],
+    '👨{{skin_tone}}‍🎨': ['Člověk interpreta'],
+    '👩{{skin_tone}}‍🎨': ['Ženský umělec'],
+    '👷{{skin_tone}}‍‍♂️': ['Man stavební pracovník'],
+    '👷{{skin_tone}}‍‍♀️': ['Ženský stavební pracovník'],
     '👨{{skin_tone}}‍‍🚀': [
         'Man Astronaut',
-        'Man Cosmonaut'
+        'Man kosmonaut'
     ],
     '👩{{skin_tone}}‍‍🚀': [
-        'Woman Astronaut',
-        'Woman Cosmonaut'
+        'Žena Astronaut',
+        'Žena kokosmonaut'
     ],
-    '👨{{skin_tone}}‍‍🔬': ['Man Scientist'],
-    '👩{{skin_tone}}‍‍🔬': ['Woman Scientist'],
+    '👨{{skin_tone}}‍‍🔬': ['Člověk'],
+    '👩{{skin_tone}}‍‍🔬': ['Ženský vědec'],
     '👨{{skin_tone}}‍💼': [
         'Man Office Worker',
-        'CEO',
-        'Businessman'
+        'generální ředitel',
+        'Podnikatel'
     ],
     '👩{{skin_tone}}‍💼': [
-        'Woman Office Worker',
-        'Businesswoman',
-        'CEO'
+        'Ženský pracovník',
+        'Podnikatelská žena',
+        'generální ředitel'
     ],
     '👨{{skin_tone}}‍🏭': ['Man Factory Worker'],
-    '👩{{skin_tone}}‍‍🏭': ['Woman Factory Worker'],
-    '👨{{skin_tone}}‍‍🔧': ['Man Mechanic'],
-    '👩{{skin_tone}}‍‍🔧': ['Woman Mechanic'],
+    '👩{{skin_tone}}‍‍🏭': ['Ženský tovární pracovník'],
+    '👨{{skin_tone}}‍‍🔧': ['Mechanismus Man'],
+    '👩{{skin_tone}}‍‍🔧': ['ženský mechanik'],
     '👨{{skin_tone}}‍‍🍳': [
-        'Man Cook',
-        'Man Chef',
-        'Male Chef'
+        'Man kuchař',
+        'Mužská šéfka',
+        'Mužská šéfka'
     ],
     '👩{{skin_tone}}‍‍🍳': [
-        'Woman Cook',
-        'Woman Chef',
-        'Female Chef'
+        'Ženský kuchař',
+        'Dámský kuchař',
+        'Ženská šéfka'
     ],
-    '👨{{skin_tone}}‍‍🌾': ['Man Farmer'],
-    '👩{{skin_tone}}‍‍🌾': ['Woman Farmer'],
-    '👨{{skin_tone}}‍‍⚖️': ['Man Judge'],
-    '👩{{skin_tone}}‍‍⚖️': ['Woman Judge'],
-    '👨{{skin_tone}}‍‍🏫': ['Man Teacher'],
-    '👩{{skin_tone}}‍‍🏫': ['Woman Teacher'],
-    '👨{{skin_tone}}‍🎓': ['Man Student'],
-    '👩{{skin_tone}}‍🎓': ['Woman Student'],
+    '👨{{skin_tone}}‍‍🌾': ['Člověk'],
+    '👩{{skin_tone}}‍‍🌾': ['Ženský farmář'],
+    '👨{{skin_tone}}‍‍⚖️': ['Man soudce'],
+    '👩{{skin_tone}}‍‍⚖️': ['Ženský soudce'],
+    '👨{{skin_tone}}‍‍🏫': ['Člověk učitel'],
+    '👩{{skin_tone}}‍‍🏫': ['Ženský učitel'],
+    '👨{{skin_tone}}‍🎓': ['Mužský student'],
+    '👩{{skin_tone}}‍🎓': ['Ženský student'],
     '👨{{skin_tone}}‍‍⚕️': [
-        'Man Health Worker',
-        'Male Doctor',
-        'Male Nurse'
+        'Člověk zdravotník',
+        'Mužský lékař',
+        'Mužský ošetřovatel'
     ],
     '👩{{skin_tone}}‍⚕️': [
-        'Woman Health Worker',
-        'Female Doctor',
-        'Female Nurse'
+        'Zdravotní pracovnice žen',
+        'Ženský lékař',
+        'Ženský ošetřovatel'
     ],
     '🤷{{skin_tone}}‍♂️': [
         'Man Shrugging',
-        'idk man',
+        'nečinný muž',
         'dunno'
     ],
     '🤷{{skin_tone}}‍♀️': [
-        'Woman Shrugging',
-        'idk woman',
+        'Ženská vlnitá',
+        'idk žena',
         'dunno'
     ],
     '🤦{{skin_tone}}‍♂️': ['Man Facepalming'],
-    '🤦{{skin_tone}}‍♀️': ['Woman Facepalming'],
-    '🙇{{skin_tone}}‍‍♂️': ['Man Bowing'],
-    '🙇{{skin_tone}}‍‍♀️': ['Woman Bowing'],
-    '🧏{{skin_tone}}‍♂️': ['Deaf Man'],
-    '🧏{{skin_tone}}‍‍♀️': ['Deaf Woman'],
+    '🤦{{skin_tone}}‍♀️': ['Facepalming žen'],
+    '🙇{{skin_tone}}‍‍♂️': ['Man bill'],
+    '🙇{{skin_tone}}‍‍♀️': ['Ženský útěk'],
+    '🧏{{skin_tone}}‍♂️': ['hluchý muž'],
+    '🧏{{skin_tone}}‍‍♀️': ['hluchá žena'],
     '🙋{{skin_tone}}‍‍♂️': [
-        'Man Raising Hand',
-        'Happy Man Raising One Hand'
+        'Člověk na pěstování ruky',
+        'Šťastný muž, který zvedá jednu ruku'
     ],
     '🙋{{skin_tone}}‍♀️': [
-        'Woman Raising Hand',
-        'Happy Woman Raising One Hand'
+        'Ženská pěstitelská ruka',
+        'Šťastná ženská výchova jedné ruky'
     ],
     '💁{{skin_tone}}‍♂️': [
-        'Man Tipping Hand',
-        'Information Desk Man'
+        'Člověk sáček',
+        'Informační oddělení Man'
     ],
     '💁{{skin_tone}}‍♀️': [
-        'Woman Tipping Hand',
-        'Information Desk Woman'
+        'Ženská toupová ruka',
+        'Informační oddělení Žena'
     ],
     '🙆{{skin_tone}}‍♂️': ['Man Gesturing OK'],
-    '🙆{{skin_tone}}‍♀️': ['Woman Gesturing OK'],
-    '🙅{{skin_tone}}‍♂️': ['Man Gesturing No'],
-    '🙅{{skin_tone}}‍♀️': ['Woman Gesturing No'],
-    '🙎{{skin_tone}}‍♂️': ['Man Pouting'],
-    '🙎{{skin_tone}}‍‍♀️': ['Woman Pouting'],
+    '🙆{{skin_tone}}‍♀️': ['Ženské gesto v pořádku'],
+    '🙅{{skin_tone}}‍♂️': ['Man Gesting č.'],
+    '🙅{{skin_tone}}‍♀️': ['Ženské gestace č.'],
+    '🙎{{skin_tone}}‍♂️': ['Mužská drůbež'],
+    '🙎{{skin_tone}}‍‍♀️': ['Ženská drůbež'],
     '🙍{{skin_tone}}‍‍♂️': ['Man Frowning'],
-    '🙍{{skin_tone}}‍‍♀️': ['Woman Frowning'],
-    '🧟‍‍♂️': ['Man Zombie'],
-    '🧟‍‍♀️': ['Woman Zombie'],
-    '🚶{{skin_tone}}‍♂️': ['Man Walking'],
-    '🚶{{skin_tone}}‍♀️': ['Woman Walking'],
-    '🧍{{skin_tone}}‍‍♂️': ['Man Standing'],
-    '🧍{{skin_tone}}‍‍♀️': ['Woman Standing'],
-    '🧎{{skin_tone}}‍♂️': ['Man Kneeling'],
-    '🧎{{skin_tone}}‍‍♀️': ['Woman Kneeling'],
-    '👨{{skin_tone}}‍🦯': ['Man with White Cane'],
-    '👩{{skin_tone}}‍🦯': ['Woman with White Cane'],
-    '👨{{skin_tone}}‍🦼': ['Man in Motorized Wheelchair'],
-    '👩{{skin_tone}}‍🦼': ['Woman in Motorized Wheelchair'],
-    '👨{{skin_tone}}‍🦽': ['Man in Manual Wheelchair'],
-    '👩{{skin_tone}}‍🦽': ['Woman in Manual Wheelchair'],
-    '👯‍♂️': ['Men with Bunny Ears'],
-    '👯‍♀️': ['Women with Bunny Ears'],
+    '🙍{{skin_tone}}‍‍♀️': ['Ženská vlna'],
+    '🧟‍‍♂️': ['Člověk zombie'],
+    '🧟‍‍♀️': ['Ženská zombie'],
+    '🚶{{skin_tone}}‍♂️': ['Chůze mužů'],
+    '🚶{{skin_tone}}‍♀️': ['Jízda žen'],
+    '🧍{{skin_tone}}‍‍♂️': ['Člověk'],
+    '🧍{{skin_tone}}‍‍♀️': ['Žena stála'],
+    '🧎{{skin_tone}}‍♂️': ['Pán krvácení'],
+    '🧎{{skin_tone}}‍‍♀️': ['Ženský krvácení'],
+    '👨{{skin_tone}}‍🦯': ['Člověk s bílou jehněčí'],
+    '👩{{skin_tone}}‍🦯': ['Žena s bílou jehněčí'],
+    '👨{{skin_tone}}‍🦼': ['Man v motocyklickém křesle'],
+    '👩{{skin_tone}}‍🦼': ['Žena v motorovým invalidním křesle'],
+    '👨{{skin_tone}}‍🦽': ['Člověk v manuálním invalidním vozíku'],
+    '👩{{skin_tone}}‍🦽': ['Žena v manuálním invalidním křesle'],
+    '👯‍♂️': ['Muži s podivnými úry'],
+    '👯‍♀️': ['Ženy s podivnými úry'],
     '🕴️{{skin_tone}}‍': [
-        'Person in Suit Levitating',
-        'Hovering Man',
-        'Rude Boy',
+        'Osoba v obleku Levitating',
+        'Člověk',
+        'Rudý chlapec',
         'Walt Jabsco',
-        'Man in Business Suit Levitating'
+        'Man v pracovním obleku'
     ],
     '🧖{{skin_tone}}‍♂️': [
-        'Man in Steamy Room',
-        'Man in Sauna'
+        'Člověk v parní místnosti',
+        'Člověk na Sauně'
     ],
     '🧖{{skin_tone}}‍♀️': [
-        'Woman in Steamy Room',
-        'Woman in Sauna'
+        'Ženy ve Steamy Room',
+        'Žena v Sauně'
     ],
     '👫{{skin_tone}}‍': [
-        'Woman and Man Holding Hands',
-        'Heterosexual Couple',
-        'Straight Couple',
-        'Man and Woman Holding Hands'
+        'Dámské a mužské holdingové spolky',
+        'Heterosexuální pár',
+        'Srovnaný pás',
+        'Člověk a ženské holdingové spolky'
     ],
     '👭{{skin_tone}}‍': [
-        'Lesbian Couple',
-        'Women Holding Hands',
-        'Two Women Holding Hands'
+        'Lesbijský pár',
+        'Ženy v podniku',
+        'Dvě ženské holdingové ruky'
     ],
     '👬{{skin_tone}}‍': [
-        'Men Holding Hands',
+        'Mužské držáky',
         'Gay Couple',
-        'Two Men Holding Hands'
+        'Dvě příručky Men Holding'
     ],
     '👨‍👩‍👦': [
-        'Family With Mother, Father and Son',
-        'Family: Man, Woman, Boy'
+        'Rodina s matkou, otcem a synem',
+        'Rodina: muž, ženský chlapec'
     ],
     '👨‍👩‍👧': [
-        'Family With Mother, Father and Daughter',
-        'Family: Man, Woman, Girl'
+        'Rodina s matkou, otcem a dcerou',
+        'Rodina: muž, žena, dívka'
     ],
     '👨‍👩‍👧‍👦': [
-        'Family With Mother, Father, Son and Daughter',
-        'Family: Man, Woman, Girl, Boy'
+        'Rodina s matkami, otcem, synem a dcerou',
+        'Rodina: Man, Woman, Girl, Boy'
     ],
     '👨‍👩‍👦‍👦': [
-        'Family With Mother, Father and Two Sons',
-        'Family: Man, Woman, Boy, Boy'
+        'Rodina s matkou, otcem a dvěma syny',
+        'Rodina: muž, Woman, Boy, Boy'
     ],
     '👨‍👩‍👧‍👧': [
-        'Family With Mother, Father and Two Daughters',
-        'Family: Man, Woman, Girl, Girl'
+        'Rodina s matkou, otcem a dvěma dcerami',
+        'Rodina: muž, žena, dívka, dívka'
     ],
     '👨‍👨‍👦': [
-        'Family With Two Fathers and Son',
-        'Family: Man, Man, Boy'
+        'Rodina se dvěma otci a synem',
+        'Rodina: Man, Man, Boy'
     ],
     '👨‍👨‍👧': [
-        'Family With Two Fathers and Daughter',
-        'Family: Man, Man, Girl'
+        'Rodina se dvěma otci a dcerou',
+        'Rodina: muž, muž, žirl'
     ],
     '👨‍👨‍👧‍👦': [
-        'Family With Two Fathers, Son and Daughter',
-        'Family: Man, Man, Girl, Boy'
+        'Rodina se dvěma otci, synem a dcerou',
+        'Rodina: Man, Man, Girl, Boy'
     ],
     '👨‍👨‍👦‍👦': [
-        'Family With Two Fathers and Two Sons',
-        'Family: Man, Man, Boy, Boy'
+        'Rodina se dvěma otci a dvěma syny',
+        'Rodina: Man, Man, Boy, Boy'
     ],
     '👨‍👨‍👧‍👧': [
-        'Family With Two Fathers and Two Daughters',
-        'Family: Man, Man, Girl, Girl'
+        'Rodina se dvěma otci a dvěma dcerami',
+        'Rodina: Man, Man, Girl, Girl'
     ],
     '👩‍👩‍👦': [
-        'Family With Two Mothers and Son',
-        'Family: Woman, Woman, Boy'
+        'Rodina se dvěma matkami a synem',
+        'Rodina: žena, žena, chlapec'
     ],
     '👩‍👩‍👧': [
-        'Family With Two Mothers and Daughter',
-        'Family: Woman, Woman, Girl'
+        'Rodina se dvěma matkami a dcerou',
+        'Rodina: žena, žena, dívka'
     ],
     '👩‍👩‍👧‍👦': [
-        'Family With Two Mothers, Son and Daughter',
-        'Family: Woman, Woman, Girl, Boy'
+        'Rodina s dvěma matkami, synem a dcerou',
+        'Rodina: Woman, Woman, Girl, Boy'
     ],
     '👩‍👩‍👦‍👦': [
-        'Family With Two Mothers and Two Sons',
-        'Family: Woman, Woman, Boy, Boy'
+        'Rodina se dvěma matkami a dvěma syny',
+        'Rodina: Woman, Woman, Boy, Boy'
     ],
     '👩‍👩‍👧‍👧': [
-        'Family With Two Mothers and Two Daughters',
-        'Family: Woman, Woman, Girl, Girl'
+        'Rodina se dvěma matkami a dvěma dcerami',
+        'Rodina: žena, žena, dívka, dívka'
     ],
     '👨‍👦': [
-        'Family With Father and Son',
-        'Family: Man, Boy'
+        'Rodina s otcem a synem',
+        'Rodina: Man, Boy'
     ],
     '👨‍👦‍👦': [
-        'Family: Man, Boy, Boy',
-        'Family With Father and Two Sons'
+        'Rodina: Man, Boy, Boy',
+        'Rodina s otcem a dvěma syny'
     ],
     '👨‍👧': [
-        'Family With Father and Daughter',
-        'Family: Man, Girl'
+        'Rodina otců a dcery',
+        'Rodina: Člověk, cívka'
     ],
     '👨‍👧‍👦': [
-        'Family With Father, Son and Daughter',
-        'Family: Man, Girl, Boy'
+        'Rodina otce, syn a dcera',
+        'Rodina: Man, Girl, Boy'
     ],
     '👨‍👧‍👧': [
-        'Family With Father and Two Daughters',
-        'Family: Man, Girl, Girl'
+        'Rodina s otcem a dvěma dcerami',
+        'Rodina: Man, drol, děrovník'
     ],
     '👩‍👦': [
-        'Family With Mother and Son',
-        'Family: Woman, Boy'
+        'Rodina s matkou a synem',
+        'Rodina: Woman, Boy'
     ],
     '👩‍👦‍👦': [
-        'Family With Mother and Two Sons',
-        'Family: Woman, Boy, Boy'
+        'Rodina s matkou a dvěma syny',
+        'Rodina: Woman, Boy, Boy'
     ],
     '👩‍👧': [
-        'Family With Mother and Daughter',
-        'Family: Woman, Girl'
+        'Rodina s matkou a dcerou',
+        'Rodina: Ženy, želva'
     ],
     '👩‍👧‍👦': [
-        'Family With Mother, Son and Daughter',
-        'Family: Woman, Girl, Boy'
+        'Rodina s matkou, synem a dcerou',
+        'Rodina: Woman, Girl, Boy'
     ],
     '👩‍👧‍👧': [
-        'Family With Mother and Two Daughters',
-        'Family: Woman, Girl, Girl'
+        'Rodina s matkou a dvěma dcerami',
+        'Rodina: Woman, Girl, Girl'
     ],
     '💑': [
         'Pár se srdcem',
@@ -1158,21 +1188,29 @@ emojis_language[lang][3] = {
         'Člověk a žena se srdcem'
     ],
     '👨‍❤️‍👨': [
-        'Two Men With Heart',
-        'Couple with Heart: Man, Man'
+        'Dva muži s srdcem',
+        'Pár se sluchem: Man, Man'
     ],
     '👩‍❤️‍👩': [
-        'Two Women With Heart',
-        'Couple with Heart: Woman, Woman'
+        'Dvě ženy se srdcem',
+        'Pár se sluchem: Ženy, Ženy'
     ],
-    '💆{{skin_tone}}‍‍♂️': ['Man Getting Head Massage'],
-    '💆{{skin_tone}}‍♀️': ['Woman Getting Head Massage'],
-    '💇{{skin_tone}}‍‍♂️': ['Man Getting Haircut'],
-    '💇{{skin_tone}}‍‍♀️': ['Woman Getting Haircut'],
+    '💆{{skin_tone}}‍‍♂️': ['Man masáž hlavy'],
+    '💆{{skin_tone}}‍♀️': ['Masáž hlavy ženami'],
+    '💇{{skin_tone}}‍‍♂️': ['Člověk na vlasy'],
+    '💇{{skin_tone}}‍‍♀️': ['Žena na vlasy'],
     '🛌{{skin_tone}}‍': [
-        'Sleeping Accommodation',
-        'Person in Bed',
-        'Person Sleeping'
+        'Spací okres',
+        'Osoba v posteli',
+        'Spánek osoby'
+    ],
+    '🧌': ['Troll'],
+    '👺': [
+        'Goblin',
+        'Long Nose Face',
+        'Red Mask',
+        'Tengu',
+        'Japanese Goblin'
     ]
 };
 /*animals*/
@@ -1279,7 +1317,7 @@ emojis_language[lang][4] = {
         'Vidím očního psa',
         'Průvodce psy'
     ],
-    '🐕‍🦺': ['Service Dog'],
+    '🐕‍🦺': ['Servisní pes'],
     '🐩': [
         'Kulička',
         'Pes',
@@ -1308,7 +1346,7 @@ emojis_language[lang][4] = {
         'Kočka',
         'Housecat'
     ],
-    '🐈‍⬛': ['Black Cat'],
+    '🐈‍⬛': ['Černá kočka'],
     '🦁': [
         'lev',
         'Lví obličej'
@@ -1637,14 +1675,24 @@ emojis_language[lang][4] = {
     '🦬': ['Bison'],
     '🦣': ['Mamuta'],
     '🦫': ['Káva'],
-    '🐻‍❄️': ['Polar Bear'],
+    '🐻‍❄️': ['Polární medvěd'],
     '🦤': ['Dodo'],
     '🦭': ['Razítko'],
     '🪲': ['Řepka'],
     '🪳': ['Kokkroach'],
     '🪰': ['Létání'],
     '🪱': ['Červ'],
-    '🦩': ['flamingo']
+    '🦩': ['flamingo'],
+    '🪹': [
+        'Empty Nest',
+        'Birds',
+        'Home'
+    ],
+    '🪺': [
+        'Nest with Eggs',
+        'Birds',
+        'Home'
+    ]
 };
 /*symbols*/
 emojis_language[lang][5] = {
@@ -2225,6 +2273,10 @@ emojis_language[lang][5] = {
         'Rozdělit',
         'Symbol divize',
         'Těžká dělení'
+    ],
+    '🟰': [
+        'Heavy Equals Sign',
+        'Result'
     ],
     '♾️': [
         'Nekonečno',
@@ -3478,7 +3530,18 @@ emojis_language[lang][6] = {
         'Čaj z bublin',
         'Boba'
     ],
-    '🧊': ['Ledová kostka']
+    '🧊': ['Ledová kostka'],
+    '🫘': [
+        'Beans',
+        'Flatulence',
+        'Coffee beans',
+        'Spill the beans'
+    ],
+    '🫗': [
+        'Pouring Liquid',
+        'Pouring Drink',
+        'Water'
+    ]
 };
 /*flags*/
 emojis_language[lang][7] = {
@@ -3507,16 +3570,23 @@ emojis_language[lang][7] = {
         'Ukládání bílé vlajky'
     ],
     '🏳️‍🌈': [
-        'Rainbow Flag',
-        'Pride Flag'
+        'Příznak duše',
+        'Pride Flag',
+        'LGBT',
+        'LGBTQIA+',
+        'Gay',
+        'Transgender',
+        'Lesbian',
+        'Asexual',
+        'Queer'
     ],
     '🏳️‍⚧️': [
-        'Transgender Flag',
-        'Blue, Pink, and White Flag',
-        'Trans Flag'
+        'Transgenová vlajka',
+        'Modrá, barva a bílá vlajka',
+        'Trans vlajka'
     ],
     '🏴‍☠️': [
-        'Pirate Flag',
+        'Pirátská vlajka',
         'Jolly Roger'
     ],
     '🇺🇳': [
@@ -3941,10 +4011,24 @@ emojis_language[lang][7] = {
         'Unijní Jack',
         'Spojené království'
     ],
-    //"🏴󠁧󠁢󠁥󠁮󠁧󠁿": ["Flag of England", "St George's Cross", "English Flag"],
-    //"🏴󠁧󠁢󠁷󠁬󠁳󠁿": ["Flag of Wales", "Welsh Flag", "Red Dragon", "Baner Cymru", "Y Ddraig Goch"],
-    //"🏴󠁧󠁢󠁳󠁣󠁴󠁿": ["Flag of Scotland", "Scottish Flag", "St Andrew's Cross", "Saltire"],
-    //"🏴󠁧󠁢󠁮󠁩󠁲󠁿": ["Flag of Northern Ireland"],
+    '🏴󠁧󠁢󠁥󠁮󠁧󠁿󠁧󠁢󠁥󠁮󠁧󠁿': [
+        'Flag of England',
+        'St George\'s Cross',
+        'English Flag'
+    ],
+    '🏴󠁧󠁢󠁷󠁬󠁳󠁿󠁧󠁢󠁷󠁬󠁳󠁿': [
+        'Flag of Wales',
+        'Welsh Flag',
+        'Red Dragon',
+        'Baner Cymru',
+        'Y Ddraig Goch'
+    ],
+    '🏴󠁧󠁢󠁳󠁣󠁴󠁿󠁧󠁢󠁳󠁣󠁴󠁿': [
+        'Flag of Scotland',
+        'Scottish Flag',
+        'St Andrew\'s Cross',
+        'Saltire'
+    ],
     '🇬🇩': [
         'Vlajka Grenady',
         'GD',
@@ -4821,113 +4905,113 @@ emojis_language[lang][7] = {
 /*sports*/
 emojis_language[lang][8] = {
     '🧗{{skin_tone}}‍‍♂️': [
-        'Man Climbing',
-        'Male Rock Climber',
-        'Man Climber'
+        'Man lezení',
+        'Mužský skalní šploutví',
+        'Man Horolezec'
     ],
     '🧗{{skin_tone}}‍‍♀️': [
-        'Woman Climbing',
-        'Female Rock Climber',
-        'Woman Climber'
+        'Horolezectví žen',
+        'Ženský skalní šploutví',
+        'Ženský Lékař'
     ],
     '🏇{{skin_tone}}‍': [
-        'Horse Racing',
-        'Horse Race',
-        'Jockey'
+        'Koňské závody',
+        'Koňský závod',
+        'Jokejka'
     ],
-    '⛷{{skin_tone}}‍️': ['Skier'],
+    '⛷{{skin_tone}}‍️': ['Lodní plachty'],
     '🏂{{skin_tone}}‍': ['Snowboarder'],
     '🏌️{{skin_tone}}‍♂️': ['Man Golfer'],
-    '🏌️{{skin_tone}}‍♀️': ['Woman Golfer'],
-    '🏄{{skin_tone}}‍♂️': ['Man Surfer'],
-    '🏄{{skin_tone}}‍♀️': ['Woman Surfer'],
-    '🚣{{skin_tone}}‍‍♂️': ['Man Rowing Boat'],
-    '🚣{{skin_tone}}‍‍♀️': ['Woman Rowing Boat'],
+    '🏌️{{skin_tone}}‍♀️': ['Ženský Golfer'],
+    '🏄{{skin_tone}}‍♂️': ['Člověk'],
+    '🏄{{skin_tone}}‍♀️': ['Žena Surfer'],
+    '🚣{{skin_tone}}‍‍♂️': ['Člověk vrhne loď'],
+    '🚣{{skin_tone}}‍‍♀️': ['Ženská loď na vrhání'],
     '🏊{{skin_tone}}‍‍♂️': [
-        'Man Swimming',
-        'Man Swimmer'
+        'Člověk plavání',
+        'Pán plavec'
     ],
     '🏊{{skin_tone}}‍‍♀️': [
-        'Woman Swimming',
-        'Woman Swimmer'
+        'Ženské plavky',
+        'Ženský plavce'
     ],
     '⛹{{skin_tone}}‍️‍♂️': [
-        'Man Bouncing Ball',
-        'Man Basketball Player'
+        'Man Bouncing koule',
+        'Man Basketbalový hráč'
     ],
     '⛹️{{skin_tone}}‍♀️': [
-        'Woman Bouncing Ball',
-        'Woman Basketball Player'
+        'Bouncing koule žen',
+        'Dámský Basketbalový hráč'
     ],
     '🏋️{{skin_tone}}‍♂️': [
-        'Man Lifting Weights',
-        'Man Weightlifter'
+        'Váhy otočných manů',
+        'Člověk na váhu'
     ],
     '🏋️{{skin_tone}}‍♀️': [
-        'Woman Lifting Weights',
-        'Woman Weightlifter'
+        'Závaží pro ženu',
+        'Závaží žen'
     ],
     '🚴{{skin_tone}}‍♂️': [
-        'Man Biking',
-        'Man Cyclist',
-        'Male Cyclist'
+        'Cyklistika člověka',
+        'Cyklista člověka',
+        'Cyklista mužů'
     ],
     '🚴{{skin_tone}}‍♀️': [
-        'Woman Biking',
-        'Woman Cyclist',
-        'Female Cyclist'
+        'Dámská cyklistika',
+        'Cyklista žen',
+        'Cyklista žen'
     ],
     '🚵{{skin_tone}}‍♂️': [
-        'Man Mountain Biking',
-        'Man Mountain Biker'
+        'Pánská horská kolo',
+        'Man horský Biker'
     ],
     '🚵{{skin_tone}}‍♀️': [
-        'Woman Mountain Biking',
-        'Woman Mountain Biker'
+        'Dámská horská cyklistika',
+        'Ženská horská biker'
     ],
     '🤸{{skin_tone}}‍♂️': [
-        'Man Cartwheeling',
-        'Man Doing Cartwheel'
+        'Člověk kolečko',
+        'Člověk na kolečko'
     ],
     '🤸{{skin_tone}}‍♀️': [
-        'Woman Cartwheeling',
-        'Woman Doing Cartwheel'
+        'Ženské kolečko',
+        'Ženský kolečko'
     ],
     '🤼': [
         'Lidé zápasí',
         'Wrestling',
         'Válečníky'
     ],
-    '🤽{{skin_tone}}‍♂️': ['Man Playing Water Polo'],
-    '🤽{{skin_tone}}‍♀️': ['Woman Playing Water Polo'],
-    '🤾{{skin_tone}}‍♂️': ['Man Playing Handball'],
-    '🤾{{skin_tone}}‍♀️': ['Woman Playing Handball'],
+    '🤽{{skin_tone}}‍♂️': ['Man Hraní voda Polo'],
+    '🤽{{skin_tone}}‍♀️': ['Ženská hrající vodu Polo'],
+    '🤾{{skin_tone}}‍♂️': ['Man Hraje rukou'],
+    '🤾{{skin_tone}}‍♀️': ['Dámská hrací koule'],
     '🤹{{skin_tone}}‍♂️': [
-        'Man Juggling',
-        'Male Juggler'
+        'Člověk',
+        'Mužský Juggler'
     ],
     '🤹{{skin_tone}}‍♀️': [
-        'Woman Juggling',
-        'Female Juggler'
+        'Ženský džugging',
+        'Žena Juggler'
     ],
     '🧘{{skin_tone}}‍♂️': [
-        'Man in Lotus Position',
-        'Meditation',
+        'Člověk v Lotus pozici',
+        'Mediace',
         'Zen',
-        'Cross legged',
-        'Yoga'
+        'Kroužková noha',
+        'Joga'
     ],
     '🧘{{skin_tone}}‍♀️': [
-        'Woman in Lotus Position',
-        'Meditation',
+        'Žena v Lotus pozici',
+        'Mediace',
         'Zen',
-        'Cross legged',
-        'Yoga'
+        'Kroužková noha',
+        'Joga'
     ],
-    '🏃{{skin_tone}}‍♂️': ['Man Running'],
-    '🏃{{skin_tone}}‍♀️': ['Woman Running'],
-    '🕺{{skin_tone}}‍': ['Man Dancing'],
-    '💃{{skin_tone}}‍': ['Woman Dancing'],
+    '🏃{{skin_tone}}‍♂️': ['Muž běží'],
+    '🏃{{skin_tone}}‍♀️': ['Ženský běh'],
+    '🕺{{skin_tone}}‍': ['Man tanec'],
+    '💃{{skin_tone}}‍': ['Tanec žen'],
     '🤺': [
         'Oplocení osoby',
         'Člověk'
@@ -5514,6 +5598,11 @@ emojis_language[lang][9] = {
         'Kolečkové pobřeží',
         'Rádiová volací značka',
         'Téma park'
+    ],
+    '🛝': [
+        'Playground Slide',
+        'Baby',
+        'Children'
     ]
 };
 /*technologies (smartphones, laptops, etc.) and office*/
@@ -6036,7 +6125,8 @@ emojis_language[lang][11] = {
     '🩰': [
         'Balletové boty',
         'Špinavá bota'
-    ]
+    ],
+    '🩼': ['Crutch']
 };
 /*hands and parts of body*/
 emojis_language[lang][12] = {
@@ -6121,9 +6211,9 @@ emojis_language[lang][12] = {
         'Citovat dolů'
     ],
     '☝{{skin_tone}}': [
-        'Index Finger Pointing Up',
-        'White Up Pointing Index',
-        'Secret'
+        'Index ukazování prstu nahoru',
+        'Index ukazování bílého nahoru',
+        'Tajný klíč'
     ],
     '🖕{{skin_tone}}': [
         'Střední prst',
@@ -6201,7 +6291,17 @@ emojis_language[lang][12] = {
         'Děkujeme',
         'Osoba se složenými rukami'
     ],
-    '✍{{skin_tone}}': ['Writing Hand'],
+    '✍{{skin_tone}}': ['Psaní ruky'],
+    '🫱{{skin_tone}}': ['Rightwards Hand'],
+    '🫲{{skin_tone}}': ['Leftwards Hand'],
+    '🫳{{skin_tone}}': ['Palm Down Hand'],
+    '🫴{{skin_tone}}': ['Palm Up Hand'],
+    '🫰{{skin_tone}}': ['Hand with Index Finger and Thumb Crossed'],
+    '🫵{{skin_tone}}': ['Index Pointing at the Viewer'],
+    '🫶{{skin_tone}}': [
+        'Heart Hands',
+        'Love'
+    ],
     '💪{{skin_tone}}': [
         'Ohebné křeče',
         'Ohnivzdorné svaly',
@@ -6222,7 +6322,8 @@ emojis_language[lang][12] = {
         'Snifování',
         'Stinky'
     ],
-    '🧠': ['Brain'],
+    '🦻{{skin_tone}}': ['Ear with Hearing Aid'],
+    '🧠': ['mozek'],
     '🦷': ['Zub'],
     '👀': [
         'Oči',
@@ -6240,10 +6341,25 @@ emojis_language[lang][12] = {
         'Lipce',
         'Lišky'
     ],
+    '🫦': [
+        'Biting Lip',
+        'Lips'
+    ],
     '🫀': ['Anatomické srdce'],
     '🫁': ['Plíce'],
     '🦾': ['Mechanická paže'],
-    '🦿': ['Mechanická noha']
+    '🦿': ['Mechanická noha'],
+    '💅{{skin_tone}}': [
+        'Nail Polish',
+        'Fingers',
+        'Manicure',
+        'Nonchalant'
+    ],
+    '🤳{{skin_tone}}': [
+        'Selfie',
+        'Phone Camera',
+        'Selfie Hand'
+    ]
 };
 /*other*/
 emojis_language[lang][13] = {
@@ -6255,17 +6371,6 @@ emojis_language[lang][13] = {
     '💋': [
         'Polilejská značka',
         'Lipce'
-    ],
-    '💅': [
-        'Polština',
-        'Opěrky',
-        'Manicure',
-        'Nonchalant'
-    ],
-    '🤳': [
-        'Selfie',
-        'Telefonní kamera',
-        'Ruka Selfie'
     ],
     '🦴': ['Kost'],
     '🧳': [
@@ -6296,11 +6401,11 @@ emojis_language[lang][13] = {
         'Zapojení kruhu'
     ],
     '💎': [
-        'Gem stone',
-        'Diamond',
+        'Kámen z drahokamů',
+        'Diamantový',
         'Gem',
         'Gemstone',
-        'Jewel'
+        'Židel'
     ],
     '💥': [
         'Symbol kolize',
@@ -6460,7 +6565,9 @@ emojis_language[lang][13] = {
     '🌈': [
         'dub',
         'Gay Prix',
-        'Primární ducha'
+        'Primární ducha',
+        'LGBTQIA+',
+        'LGBT+'
     ],
     '❄️': [
         'Sněhové vločky',
@@ -6631,6 +6738,17 @@ emojis_language[lang][13] = {
         'Jaro'
     ],
     '🪴': ['Brambora'],
+    '🪸': [
+        'Coral',
+        'Climate change'
+    ],
+    '🪷': [
+        'Lotus',
+        'Purity',
+        'Beauty',
+        'Calmness',
+        'Serenity'
+    ],
     '🔑': [
         'Klíč',
         'Zlatý klíč'
@@ -6791,7 +6909,6 @@ emojis_language[lang][13] = {
         'Kostra'
     ],
     '☠️': ['Lebka a křídy'],
-    '🦻': ['Neustále k sluchové pomoci'],
     '🎡': [
         'Ferris kolo',
         'Velký kolo',
@@ -7175,8 +7292,8 @@ emojis_language[lang][13] = {
     ],
     '🕳️': ['Otvor'],
     '👁️‍🗨️': [
-        'I Am A Witness',
-        'Eye in Speech Bubble'
+        'I Svědčí',
+        'Oči v řečovém bublině'
     ],
     '⚜️': [
         'Fleur-de-lis',
@@ -7241,5 +7358,55 @@ emojis_language[lang][13] = {
     '🪥': ['Zubní kartáč'],
     '🪦': ['Nákladní kámen'],
     '🪧': ['Placard'],
-    '🪒': ['Razor']
+    '🪒': ['Razor'],
+    '🫙': ['Jar'],
+    '🛞': [
+        'Wheel',
+        'Vehicles',
+        'Cars'
+    ],
+    '🛟': [
+        'Ring Buoy',
+        'Life Preserver',
+        'Life Ring',
+        'Boats',
+        'Safety',
+        'Water',
+        'Lifesaving'
+    ],
+    '🪬': [
+        'Hamsa',
+        'Islam',
+        'Judaism',
+        'Buddhism',
+        'Christianity',
+        'Religions',
+        'Luck',
+        'Protection',
+        'Guidance',
+        'Feminine Power',
+        'Faith'
+    ],
+    '🪩': [
+        'Mirror Ball',
+        'Disco Ball'
+    ],
+    '🪫': [
+        'Low Battery',
+        'Red',
+        'Energy'
+    ],
+    '🩻': ['X-Ray'],
+    '🫧': [
+        'Bubbles',
+        'Soap Suds',
+        'Carbonation',
+        'Effervescent Personality'
+    ],
+    '🪪': [
+        'Identification Card',
+        'Identity',
+        'Passport',
+        'ID'
+    ]
 };

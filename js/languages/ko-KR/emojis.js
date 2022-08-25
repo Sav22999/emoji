@@ -603,6 +603,19 @@ emojis_language[lang][2] = {
         'Dizzy Face'
     ],
     '🥸': ['Disguised Face'],
+    '🫠': ['Melting Face'],
+    '🫢': ['Face with Open Eyes and Hand Over Mouth'],
+    '🫣': ['Face with Peeking Eye'],
+    '🫡': [
+        'Saluting Face',
+        'Military',
+        'Army',
+        'RAF',
+        'Navy'
+    ],
+    '🫥': ['Dotted Line Face'],
+    '🫤': ['Face with Diagonal Mouth'],
+    '🥹': ['Face Holding Back Tears'],
     '😈': [
         'Smiling Face with Horns',
         'Devil',
@@ -801,6 +814,7 @@ emojis_language[lang][3] = {
         'Girl With Crown',
         'Girl With Tiara'
     ],
+    '🫅{{skin_tone}}‍': ['Person with Crown'],
     '👳{{skin_tone}}‍♂️': ['Man Wearing Turban'],
     '👳{{skin_tone}}‍♀️': ['Woman Wearing Turban'],
     '👲{{skin_tone}}‍': [
@@ -818,15 +832,23 @@ emojis_language[lang][3] = {
         'Person in Tuxedo',
         'Groom',
         'Man In Suit',
-        'Man in Tuxedo'
+        'Man in Tuxedo',
+        'Wedding'
     ],
     '👰{{skin_tone}}‍': [
         'Person With Veil',
         'Bride',
-        'Bride with Veil'
+        'Bride with Veil',
+        'Wedding'
     ],
-    '👰{{skin_tone}}‍♂️': ['Man with Veil'],
-    '👰{{skin_tone}}‍♀️': ['Woman with Veil'],
+    '👰{{skin_tone}}‍♂️': [
+        'Man with Veil',
+        'Wedding'
+    ],
+    '👰{{skin_tone}}‍♀️': [
+        'Woman with Veil',
+        'Wedding'
+    ],
     '👩{{skin_tone}}‍🍼': ['Woman Feeding Baby'],
     '👨{{skin_tone}}‍🍼': ['Man Feeding Baby'],
     '🥷': ['Ninja'],
@@ -834,6 +856,14 @@ emojis_language[lang][3] = {
         'Pregnant Woman',
         'Pregnancy',
         'Pregnant Lady'
+    ],
+    '🫃{{skin_tone}}‍': [
+        'Pregnant Man',
+        'Pregnancy'
+    ],
+    '🫄{{skin_tone}}‍': [
+        'Pregnant Person',
+        'Pregnancy'
     ],
     '🤱{{skin_tone}}‍': [
         'Breast-Feeding',
@@ -1173,6 +1203,14 @@ emojis_language[lang][3] = {
         'Sleeping Accommodation',
         'Person in Bed',
         'Person Sleeping'
+    ],
+    '🧌': ['Troll'],
+    '👺': [
+        'Goblin',
+        'Long Nose Face',
+        'Red Mask',
+        'Tengu',
+        'Japanese Goblin'
     ]
 };
 /*animals*/
@@ -1644,7 +1682,17 @@ emojis_language[lang][4] = {
     '🪳': ['Cockroach'],
     '🪰': ['Fly'],
     '🪱': ['Worm'],
-    '🦩': ['Flamingo']
+    '🦩': ['Flamingo'],
+    '🪹': [
+        'Empty Nest',
+        'Birds',
+        'Home'
+    ],
+    '🪺': [
+        'Nest with Eggs',
+        'Birds',
+        'Home'
+    ]
 };
 /*symbols*/
 emojis_language[lang][5] = {
@@ -2225,6 +2273,10 @@ emojis_language[lang][5] = {
         'Divide',
         'Division Symbol',
         'Heavy Division Sign'
+    ],
+    '🟰': [
+        'Heavy Equals Sign',
+        'Result'
     ],
     '♾️': [
         'Infinity',
@@ -3478,7 +3530,18 @@ emojis_language[lang][6] = {
         'Bubble Tea',
         'Boba'
     ],
-    '🧊': ['Ice Cube']
+    '🧊': ['Ice Cube'],
+    '🫘': [
+        'Beans',
+        'Flatulence',
+        'Coffee beans',
+        'Spill the beans'
+    ],
+    '🫗': [
+        'Pouring Liquid',
+        'Pouring Drink',
+        'Water'
+    ]
 };
 /*flags*/
 emojis_language[lang][7] = {
@@ -3508,7 +3571,14 @@ emojis_language[lang][7] = {
     ],
     '🏳️‍🌈': [
         'Rainbow Flag',
-        'Pride Flag'
+        'Pride Flag',
+        'LGBT',
+        'LGBTQIA+',
+        'Gay',
+        'Transgender',
+        'Lesbian',
+        'Asexual',
+        'Queer'
     ],
     '🏳️‍⚧️': [
         'Transgender Flag',
@@ -3941,10 +4011,24 @@ emojis_language[lang][7] = {
         'Union Jack',
         'UK'
     ],
-    //"🏴󠁧󠁢󠁥󠁮󠁧󠁿": ["Flag of England", "St George's Cross", "English Flag"],
-    //"🏴󠁧󠁢󠁷󠁬󠁳󠁿": ["Flag of Wales", "Welsh Flag", "Red Dragon", "Baner Cymru", "Y Ddraig Goch"],
-    //"🏴󠁧󠁢󠁳󠁣󠁴󠁿": ["Flag of Scotland", "Scottish Flag", "St Andrew's Cross", "Saltire"],
-    //"🏴󠁧󠁢󠁮󠁩󠁲󠁿": ["Flag of Northern Ireland"],
+    '🏴󠁧󠁢󠁥󠁮󠁧󠁿󠁧󠁢󠁥󠁮󠁧󠁿': [
+        'Flag of England',
+        'St George\'s Cross',
+        'English Flag'
+    ],
+    '🏴󠁧󠁢󠁷󠁬󠁳󠁿󠁧󠁢󠁷󠁬󠁳󠁿': [
+        'Flag of Wales',
+        'Welsh Flag',
+        'Red Dragon',
+        'Baner Cymru',
+        'Y Ddraig Goch'
+    ],
+    '🏴󠁧󠁢󠁳󠁣󠁴󠁿󠁧󠁢󠁳󠁣󠁴󠁿': [
+        'Flag of Scotland',
+        'Scottish Flag',
+        'St Andrew\'s Cross',
+        'Saltire'
+    ],
     '🇬🇩': [
         'Flag of Grenada',
         'GD',
@@ -5514,6 +5598,11 @@ emojis_language[lang][9] = {
         'Roller Coaster',
         'Rollercoaster',
         'Theme Park'
+    ],
+    '🛝': [
+        'Playground Slide',
+        'Baby',
+        'Children'
     ]
 };
 /*technologies (smartphones, laptops, etc.) and office*/
@@ -6036,7 +6125,8 @@ emojis_language[lang][11] = {
     '🩰': [
         'Ballet Shoes',
         'Pointe Shoe'
-    ]
+    ],
+    '🩼': ['Crutch']
 };
 /*hands and parts of body*/
 emojis_language[lang][12] = {
@@ -6072,7 +6162,7 @@ emojis_language[lang][12] = {
         'OK Hand Sign',
         'Okay',
         'Perfect',
-        'Yes'
+        '네'
     ],
     '✌️{{skin_tone}}': [
         'Victory Hand',
@@ -6134,13 +6224,13 @@ emojis_language[lang][12] = {
     '👍{{skin_tone}}': [
         'Thumbs Up Sign',
         'Like',
-        'Yes'
+        '네'
     ],
     '👎{{skin_tone}}': [
         'Thumbs Down Sign',
         'Bad',
         'Dislike',
-        'No'
+        '아니오'
     ],
     '✊{{skin_tone}}': [
         'Raised Fist',
@@ -6202,6 +6292,16 @@ emojis_language[lang][12] = {
         'Person with Folded Hands'
     ],
     '✍{{skin_tone}}': ['Writing Hand'],
+    '🫱{{skin_tone}}': ['Rightwards Hand'],
+    '🫲{{skin_tone}}': ['Leftwards Hand'],
+    '🫳{{skin_tone}}': ['Palm Down Hand'],
+    '🫴{{skin_tone}}': ['Palm Up Hand'],
+    '🫰{{skin_tone}}': ['Hand with Index Finger and Thumb Crossed'],
+    '🫵{{skin_tone}}': ['Index Pointing at the Viewer'],
+    '🫶{{skin_tone}}': [
+        'Heart Hands',
+        'Love'
+    ],
     '💪{{skin_tone}}': [
         'Flexed Biceps',
         'Flexing Arm Muscles',
@@ -6222,6 +6322,7 @@ emojis_language[lang][12] = {
         'Sniffing',
         'Stinky'
     ],
+    '🦻{{skin_tone}}': ['Ear with Hearing Aid'],
     '🧠': ['Brain'],
     '🦷': ['Tooth'],
     '👀': [
@@ -6240,10 +6341,25 @@ emojis_language[lang][12] = {
         'Kissing Lips',
         'Lips'
     ],
+    '🫦': [
+        'Biting Lip',
+        'Lips'
+    ],
     '🫀': ['Anatomical Heart'],
     '🫁': ['Lungs'],
     '🦾': ['Mechanical Arm'],
-    '🦿': ['Mechanical Leg']
+    '🦿': ['Mechanical Leg'],
+    '💅{{skin_tone}}': [
+        'Nail Polish',
+        'Fingers',
+        'Manicure',
+        'Nonchalant'
+    ],
+    '🤳{{skin_tone}}': [
+        'Selfie',
+        'Phone Camera',
+        'Selfie Hand'
+    ]
 };
 /*other*/
 emojis_language[lang][13] = {
@@ -6255,17 +6371,6 @@ emojis_language[lang][13] = {
     '💋': [
         'Kiss Mark',
         'Kissing Lips'
-    ],
-    '💅': [
-        'Nail Polish',
-        'Fingers',
-        'Manicure',
-        'Nonchalant'
-    ],
-    '🤳': [
-        'Selfie',
-        'Phone Camera',
-        'Selfie Hand'
     ],
     '🦴': ['Bone'],
     '🧳': [
@@ -6460,7 +6565,9 @@ emojis_language[lang][13] = {
     '🌈': [
         'Rainbow',
         'Gay Pride',
-        'Primary Rainbow'
+        'Primary Rainbow',
+        'LGBTQIA+',
+        'LGBT+'
     ],
     '❄️': [
         'Snowflake',
@@ -6631,6 +6738,17 @@ emojis_language[lang][13] = {
         'Spring'
     ],
     '🪴': ['Potted Plant'],
+    '🪸': [
+        'Coral',
+        'Climate change'
+    ],
+    '🪷': [
+        'Lotus',
+        'Purity',
+        'Beauty',
+        'Calmness',
+        'Serenity'
+    ],
     '🔑': [
         'Key',
         'Gold Key'
@@ -6791,7 +6909,6 @@ emojis_language[lang][13] = {
         'Skeleton'
     ],
     '☠️': ['Skull and Crossbones'],
-    '🦻': ['Ear with Hearing Aid'],
     '🎡': [
         'Ferris Wheel',
         'Big Wheel',
@@ -7241,5 +7358,55 @@ emojis_language[lang][13] = {
     '🪥': ['Toothbrush'],
     '🪦': ['Headstone'],
     '🪧': ['Placard'],
-    '🪒': ['Razor']
+    '🪒': ['Razor'],
+    '🫙': ['Jar'],
+    '🛞': [
+        'Wheel',
+        'Vehicles',
+        'Cars'
+    ],
+    '🛟': [
+        'Ring Buoy',
+        'Life Preserver',
+        'Life Ring',
+        'Boats',
+        'Safety',
+        'Water',
+        'Lifesaving'
+    ],
+    '🪬': [
+        'Hamsa',
+        'Islam',
+        'Judaism',
+        'Buddhism',
+        'Christianity',
+        'Religions',
+        'Luck',
+        'Protection',
+        'Guidance',
+        'Feminine Power',
+        'Faith'
+    ],
+    '🪩': [
+        'Mirror Ball',
+        'Disco Ball'
+    ],
+    '🪫': [
+        'Low Battery',
+        'Red',
+        'Energy'
+    ],
+    '🩻': ['X-Ray'],
+    '🫧': [
+        'Bubbles',
+        'Soap Suds',
+        'Carbonation',
+        'Effervescent Personality'
+    ],
+    '🪪': [
+        'Identification Card',
+        'Identity',
+        'Passport',
+        'ID'
+    ]
 };
