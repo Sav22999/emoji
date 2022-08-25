@@ -25,6 +25,8 @@ const extension_icons = ["extension-icon-1", "extension-icon-2", "extension-icon
 var space_emoji = "no";
 var insert_directly_emoji = "no";
 
+var requestNumber = 0;
+
 var all_emojis = [];
 var emojis_supporting_skin_tones = {};
 var contextmenu_set = false;
@@ -141,19 +143,21 @@ function copyEmoji(text, tooltip) {
 
         if (insert_directly_emoji === "yes") {
             browserAgentSettings.tabs.query({active: true, currentWindow: true}, function (tabs) {
-                browserAgentSettings.tabs.sendMessage(tabs[0].id, {emoji: text}, function (response) {
-                });
+                requestNumber++;
+                browserAgentSettings.runtime.sendMessage({
+                    type: "requestNumber"
+                }).then((response) => {
+                    browserAgentSettings.tabs.sendMessage(tabs[0].id, {
+                        emoji: text, requestNumber: response.requestNumber
+                    }).catch(onError);
+                    addToMostUsedCopyEmoji(nameOfSetting, text, tooltip);
+                }).catch(onError);
             });
+        } else {
+            addToMostUsedCopyEmoji(nameOfSetting, text, tooltip);
         }
 
-        browserAgentSettings.storage.sync.get(nameOfSetting, function (value) {
-            if (value[nameOfSetting] != undefined) {
-                //already exist, so set the array at saved status
-                mostUsedEmojis = value[nameOfSetting];
-            }
-            addToMostUsed(text, tooltip);
-            getMostUsedEmojisLength(selectedTitle);
-        });
+
     } else {
         removeFromMostUsed(text);
         showMessageBottom(strings["other"]["label-removed-correctly"], text);
@@ -166,6 +170,21 @@ function copyEmoji(text, tooltip) {
             getMostUsedEmojisLength(selectedTitle);
         });
     }
+}
+
+function onError(error) {
+    console.error(`Error: ${error}`);
+}
+
+function addToMostUsedCopyEmoji(nameOfSetting, text, tooltip) {
+    browserAgentSettings.storage.sync.get(nameOfSetting, function (value) {
+        if (value[nameOfSetting] != undefined) {
+            //already exist, so set the array at saved status
+            mostUsedEmojis = value[nameOfSetting];
+        }
+        addToMostUsed(text, tooltip);
+        getMostUsedEmojisLength(selectedTitle);
+    });
 }
 
 function autoCloseAfterCopied() {
@@ -1425,7 +1444,7 @@ function selectYesNoSpaceEmoji(index) {
 }
 
 function sendMessageForInjection(forced = false) {
-    browserAgentSettings.runtime.sendMessage({file: contestScriptJs[0].file, forced: forced});
+    browserAgentSettings.runtime.sendMessage({type: "inject", file: contestScriptJs[0].file, forced: forced});
 }
 
 let insertEmojiStatus = 0;
