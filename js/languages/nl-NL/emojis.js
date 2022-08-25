@@ -9,7 +9,7 @@ titles_language[lang] = {
     '🦊': 'Dieren',
     '🅰️': 'Symbolen',
     '🍎': 'Eten en drinken',
-    '🏳️‍🌈': 'Flags',
+    '🏳️‍🌈': 'Vlaggen',
     '🏊': 'Sport',
     '✈️': 'Reizen en plaatsen',
     '🖱️': 'Technologie en kantoor',
@@ -595,14 +595,27 @@ emojis_language[lang][2] = {
     ],
     '🥲': ['Glimlachend Gezicht met Tranen'],
     '😮‍💨': [
-        'Face Exhaling',
-        'Sigh'
+        'Gezicht Verboden',
+        'Ondertekenen'
     ],
     '😵‍💫': [
-        'Face with Spiral Eyes',
+        'Gezicht met Spiraal Ogen',
         'Dizzy Face'
     ],
     '🥸': ['Vermomd gezicht'],
+    '🫠': ['Melting Face'],
+    '🫢': ['Face with Open Eyes and Hand Over Mouth'],
+    '🫣': ['Face with Peeking Eye'],
+    '🫡': [
+        'Saluting Face',
+        'Military',
+        'Army',
+        'RAF',
+        'Navy'
+    ],
+    '🫥': ['Dotted Line Face'],
+    '🫤': ['Face with Diagonal Mouth'],
+    '🥹': ['Face Holding Back Tears'],
     '😈': [
         'Glimlachend Gezicht met Hoorns',
         'Duivel',
@@ -710,22 +723,22 @@ emojis_language[lang][3] = {
         'Baard persoon'
     ],
     '👨{{skin_tone}}‍🦰': [
-        'Man: Red Hair',
+        'Man: Rood haar',
         'Ginger Man',
         'Man Redhead',
-        'Man With Red Hair'
+        'Man met rode haren'
     ],
     '👨{{skin_tone}}‍🦱': [
-        'Man: Curly Hair',
-        'Man With Curly Hair'
+        'Man: Gekruld haar',
+        'Man met krulhaar'
     ],
     '👨{{skin_tone}}‍🦳': [
-        'Man: White Hair',
-        'Man With Gray Hair'
+        'Man: Wit haar',
+        'Man met grijze haren'
     ],
     '👨{{skin_tone}}‍🦲': [
-        'Man: Bald',
-        'Man With No Hair'
+        'Man: Kaal',
+        'Man met geen haar'
     ],
     '👩{{skin_tone}}': [
         'Vrouw',
@@ -734,296 +747,313 @@ emojis_language[lang][3] = {
         'Gele vrouw'
     ],
     '👩{{skin_tone}}‍🦰': [
-        'Woman: Red Hair',
-        'Ginger Woman',
+        'Vrouwen: Rode haren',
+        'Ginger vrouw',
         'Woman Redhead',
-        'Woman With Red Hair'
+        'Vrouw met rood haar'
     ],
     '👩{{skin_tone}}‍🦱': [
-        'Woman: Curly Hair',
-        'Woman With Curly Hair'
+        'Vrouwen: Gekruld haar',
+        'Vrouw met krullend haar'
     ],
     '👩{{skin_tone}}‍🦳': [
-        'Woman: White Hair',
-        'Woman With Gray Hair'
+        'Woman: Wit haar',
+        'Vrouw met grijs haar'
     ],
     '👩{{skin_tone}}‍🦲': [
-        'Woman: Bald',
-        'Woman With No Hair'
+        'Woman: Kaal',
+        'Vrouwen zonder haar'
     ],
     '👱{{skin_tone}}‍♀️': [
-        'Woman: Blond Hair',
-        'Woman With Blonde Hair'
+        'Woman: Blond haar',
+        'Vrouw met Blonde Haar'
     ],
     '👱{{skin_tone}}‍♂️': [
-        'Man: Blond Hair',
-        'Man With Blonde Hair'
+        'Man: Bland Haar',
+        'Man met Blonde Haar'
     ],
     '🧓{{skin_tone}}‍': [
-        'Older Person',
-        'Gender Neutral Older Adult'
+        'Oudere persoon',
+        'Oudere Volwassene Geslacht'
     ],
     '👴{{skin_tone}}‍': [
-        'Old Man',
-        'Elderly Man',
+        'Oude Man',
+        'Oudere man',
         'Grandpa',
-        'Older Man'
+        'Oudere man'
     ],
     '👵{{skin_tone}}‍': [
-        'Old Woman',
-        'Elderly Woman',
-        'Grandma',
+        'Oude vrouw',
+        'Oudere vrouw',
+        'Oma',
         'Nanna',
-        'Old Lady',
-        'Older Woman'
+        'Oude vrouw',
+        'Oudere vrouw'
     ],
     '👼{{skin_tone}}‍': [
-        'Baby Angel',
-        'Angel',
+        'Baby Engel',
+        'Engel',
         'Cherub',
-        'Cupid',
-        'Putto'
+        'Cupido',
+        'Aanhef'
     ],
     '🎅{{skin_tone}}‍': [
-        'Santa Claus',
-        'Saint Nicholas',
+        'Kerstman Claus',
+        'Sint Nicholas',
         'Sinterklaas',
-        'Father Christmas'
+        'Vader Kerstmis'
     ],
     '🤶{{skin_tone}}‍': [
-        'Mrs Claus',
-        'Mother Christmas'
+        'Mevrouw Claus',
+        'Moeder Kerstmis'
     ],
-    '🤴{{skin_tone}}‍': ['Prince'],
+    '🤴{{skin_tone}}‍': ['Prins'],
     '👸{{skin_tone}}‍': [
-        'Princess',
-        'Blonde Girl',
-        'Girl With Crown',
-        'Girl With Tiara'
+        'Prinses',
+        'Blond Meisje',
+        'Meisje met Kroon',
+        'Meisje met Tiara'
     ],
-    '👳{{skin_tone}}‍♂️': ['Man Wearing Turban'],
-    '👳{{skin_tone}}‍♀️': ['Woman Wearing Turban'],
+    '🫅{{skin_tone}}‍': ['Person with Crown'],
+    '👳{{skin_tone}}‍♂️': ['Man dragende Turban'],
+    '👳{{skin_tone}}‍♀️': ['Wearing Turban vrouw'],
     '👲{{skin_tone}}‍': [
-        'Person With Skullcap',
-        'Asian Man',
-        'Man With Chinese Cap',
-        'Man with Gua Pi Mao'
+        'Persoon met skullcap',
+        'Aziatische man',
+        'Man met Chinese pet',
+        'Man met Gua Pi Mao'
     ],
     '🧕{{skin_tone}}‍': [
-        'Woman with Headscarf',
+        'Vrouwelijk met Hoofddoek',
         'Hijab',
-        'Person with Headscarf'
+        'Persoon met Hoofdsjaal'
     ],
     '🤵{{skin_tone}}‍': [
-        'Person in Tuxedo',
+        'Persoon in Tuxedo',
         'Groom',
-        'Man In Suit',
-        'Man in Tuxedo'
+        'Man in pak',
+        'Man in Tuxedo',
+        'Wedding'
     ],
     '👰{{skin_tone}}‍': [
-        'Person With Veil',
-        'Bride',
-        'Bride with Veil'
+        'Persoon met Veil',
+        'Bruid',
+        'Bride met Veil',
+        'Wedding'
     ],
-    '👰{{skin_tone}}‍♂️': ['Man with Veil'],
-    '👰{{skin_tone}}‍♀️': ['Woman with Veil'],
-    '👩{{skin_tone}}‍🍼': ['Woman Feeding Baby'],
-    '👨{{skin_tone}}‍🍼': ['Man Feeding Baby'],
+    '👰{{skin_tone}}‍♂️': [
+        'Man met Veil',
+        'Wedding'
+    ],
+    '👰{{skin_tone}}‍♀️': [
+        'Woman met Veil',
+        'Wedding'
+    ],
+    '👩{{skin_tone}}‍🍼': ['Baby Vrouwelijke voeding'],
+    '👨{{skin_tone}}‍🍼': ['Man Voeding Baby'],
     '🥷': ['Ninja'],
     '🤰{{skin_tone}}‍': [
-        'Pregnant Woman',
-        'Pregnancy',
-        'Pregnant Lady'
+        'Zwanger vrouw',
+        'Zwangerschap',
+        'Zwangere vrouw'
+    ],
+    '🫃{{skin_tone}}‍': [
+        'Pregnant Man',
+        'Pregnancy'
+    ],
+    '🫄{{skin_tone}}‍': [
+        'Pregnant Person',
+        'Pregnancy'
     ],
     '🤱{{skin_tone}}‍': [
-        'Breast-Feeding',
-        'Breastfeeding'
+        'Borstvoeding',
+        'Borstvoeding'
     ],
     '🦸{{skin_tone}}‍♂️': ['Man Superhero'],
-    '🦸{{skin_tone}}‍‍♀️': ['Woman Superhero'],
-    '🦹{{skin_tone}}‍‍♂️': ['Man Supervillain'],
-    '🦹{{skin_tone}}‍‍♀️': ['Woman Supervillain'],
+    '🦸{{skin_tone}}‍‍♀️': ['Vrouwelijke Superhero'],
+    '🦹{{skin_tone}}‍‍♂️': ['Man Superschurk'],
+    '🦹{{skin_tone}}‍‍♀️': ['Superschurk vrouw'],
     '🧙{{skin_tone}}‍': [
-        'Mage',
+        'Magiër',
         'Sorcerer',
-        'Sorceress',
-        'Witch',
-        'Wizard'
+        'Vergelijking',
+        'Heks',
+        'Tovenaar'
     ],
     '🧙{{skin_tone}}‍‍♀️': [
-        'Woman Mage',
-        'Witch',
-        'Sorceress'
+        'Vrouwelijke Magiër',
+        'Heks',
+        'Vergelijking'
     ],
-    '🧚{{skin_tone}}‍‍♂️': ['Man Fairy'],
-    '🧚{{skin_tone}}‍♀️': ['Woman Fairy'],
+    '🧚{{skin_tone}}‍‍♂️': ['Man fee'],
+    '🧚{{skin_tone}}‍♀️': ['Vluik vrouw'],
     '🧛{{skin_tone}}‍♂️': [
-        'Man Vampire',
+        'Man Vampieren',
         'Dracula'
     ],
-    '🧛{{skin_tone}}‍‍♀️': ['Woman Vampire'],
+    '🧛{{skin_tone}}‍‍♀️': ['Vampieren vrouw'],
     '🧜{{skin_tone}}‍♂️': ['Merman'],
-    '🧜{{skin_tone}}‍♀️': ['Mermaid'],
+    '🧜{{skin_tone}}‍♀️': ['Zeemeermin'],
     '🧝{{skin_tone}}‍♂️': ['Man Elf'],
-    '🧝{{skin_tone}}‍♀️': ['Woman Elf'],
+    '🧝{{skin_tone}}‍♀️': ['Vrouwelijke Elf'],
     '🧞‍♂️': ['Man Genie'],
     '🧞‍♀️': ['Woman Genie'],
     '🕵️{{skin_tone}}‍♂️': [
         'Man Detective',
-        'Private Eye',
+        'Privé Oog',
         'Sleuth',
-        'Spy',
+        'spionage',
         'Man Sleuth',
-        'Sleuth or Spy',
+        'Sluik of spion',
         '007',
-        'Inspector'
+        'Inspecteur'
     ],
-    '🕵️{{skin_tone}}‍♀️': ['Woman Detective'],
+    '🕵️{{skin_tone}}‍♀️': ['Detective vrouw'],
     '💂{{skin_tone}}‍': [
-        'Guard',
-        'British Guardsman',
-        'Foot Guard'
+        'Bewaker',
+        'Britse Bewaker',
+        'Voet Bewaker'
     ],
-    '💂{{skin_tone}}‍‍♀️': ['Woman Guard'],
+    '💂{{skin_tone}}‍‍♀️': ['Vrouwelijke wachter'],
     '👮{{skin_tone}}‍': [
-        'Police Officer',
-        'Cop',
-        'Police',
-        'Policeman',
-        'Policewoman'
+        'Politie Officier',
+        'Kop',
+        'Politie',
+        'Politieagent',
+        'politievrouw'
     ],
-    '👮{{skin_tone}}‍‍♀️': ['Woman Police Officer'],
-    '👨{{skin_tone}}‍🚒': ['Man Firefighter'],
-    '👩{{skin_tone}}‍‍🚒': ['Woman Firefighter'],
-    '👨{{skin_tone}}‍‍✈️': ['Man Pilot'],
-    '👩{{skin_tone}}‍‍✈️': ['Woman Pilot'],
+    '👮{{skin_tone}}‍‍♀️': ['Vrouwelijke politieagent'],
+    '👨{{skin_tone}}‍🚒': ['Brandweerman man'],
+    '👩{{skin_tone}}‍‍🚒': ['Vuurman Vuurman'],
+    '👨{{skin_tone}}‍‍✈️': ['Man Piloot'],
+    '👩{{skin_tone}}‍‍✈️': ['Vrouwelijke Piloot'],
     '👨{{skin_tone}}‍💻': [
         'Man Technologist',
         'Man Technologist'
     ],
-    '👩{{skin_tone}}‍💻': ['Woman Technologist'],
+    '👩{{skin_tone}}‍💻': ['Vrouwelijke Technologist'],
     '👨{{skin_tone}}‍🎤': [
         'Man Singer',
         'Bowie',
         'Aladdin Sane'
     ],
-    '👩{{skin_tone}}‍🎤': ['Woman Singer'],
-    '👨{{skin_tone}}‍🎨': ['Man Artist'],
-    '👩{{skin_tone}}‍🎨': ['Woman Artist'],
-    '👷{{skin_tone}}‍‍♂️': ['Man Construction Worker'],
-    '👷{{skin_tone}}‍‍♀️': ['Woman Construction Worker'],
+    '👩{{skin_tone}}‍🎤': ['Vrouwelijke singer'],
+    '👨{{skin_tone}}‍🎨': ['Man Kunstenaar'],
+    '👩{{skin_tone}}‍🎨': ['Vrouwelijke artiest'],
+    '👷{{skin_tone}}‍‍♂️': ['Man Constructie Worker'],
+    '👷{{skin_tone}}‍‍♀️': ['Woman Bouwwerk'],
     '👨{{skin_tone}}‍‍🚀': [
         'Man Astronaut',
         'Man Cosmonaut'
     ],
     '👩{{skin_tone}}‍‍🚀': [
-        'Woman Astronaut',
+        'Astronaut vrouw',
         'Woman Cosmonaut'
     ],
-    '👨{{skin_tone}}‍‍🔬': ['Man Scientist'],
-    '👩{{skin_tone}}‍‍🔬': ['Woman Scientist'],
+    '👨{{skin_tone}}‍‍🔬': ['Man Wetenschapper'],
+    '👩{{skin_tone}}‍‍🔬': ['Vrouwelijke Wetenschapper'],
     '👨{{skin_tone}}‍💼': [
         'Man Office Worker',
-        'CEO',
-        'Businessman'
+        'Directeur',
+        'Ondernemer'
     ],
     '👩{{skin_tone}}‍💼': [
-        'Woman Office Worker',
-        'Businesswoman',
-        'CEO'
+        'Vrouwelijke Office Worker',
+        'Bedrijfsvrouw',
+        'Directeur'
     ],
-    '👨{{skin_tone}}‍🏭': ['Man Factory Worker'],
-    '👩{{skin_tone}}‍‍🏭': ['Woman Factory Worker'],
+    '👨{{skin_tone}}‍🏭': ['Man Fabriek Worker'],
+    '👩{{skin_tone}}‍‍🏭': ['Woman Fabriek Werker'],
     '👨{{skin_tone}}‍‍🔧': ['Man Mechanic'],
-    '👩{{skin_tone}}‍‍🔧': ['Woman Mechanic'],
+    '👩{{skin_tone}}‍‍🔧': ['Vrouwelijke Mechanie'],
     '👨{{skin_tone}}‍‍🍳': [
-        'Man Cook',
+        'Man kook',
         'Man Chef',
-        'Male Chef'
+        'Mannelijke Chef'
     ],
     '👩{{skin_tone}}‍‍🍳': [
-        'Woman Cook',
-        'Woman Chef',
-        'Female Chef'
+        'Vrouwelijke kok',
+        'Vrouwelijke kaas',
+        'Vrouwelijke Chef'
     ],
-    '👨{{skin_tone}}‍‍🌾': ['Man Farmer'],
-    '👩{{skin_tone}}‍‍🌾': ['Woman Farmer'],
-    '👨{{skin_tone}}‍‍⚖️': ['Man Judge'],
-    '👩{{skin_tone}}‍‍⚖️': ['Woman Judge'],
-    '👨{{skin_tone}}‍‍🏫': ['Man Teacher'],
-    '👩{{skin_tone}}‍‍🏫': ['Woman Teacher'],
-    '👨{{skin_tone}}‍🎓': ['Man Student'],
-    '👩{{skin_tone}}‍🎓': ['Woman Student'],
+    '👨{{skin_tone}}‍‍🌾': ['Man Boer'],
+    '👩{{skin_tone}}‍‍🌾': ['Boer vrouw'],
+    '👨{{skin_tone}}‍‍⚖️': ['Man Rechter'],
+    '👩{{skin_tone}}‍‍⚖️': ['Vrouwelijke rechter'],
+    '👨{{skin_tone}}‍‍🏫': ['Man leraar'],
+    '👩{{skin_tone}}‍‍🏫': ['Leraar vrouw'],
+    '👨{{skin_tone}}‍🎓': ['Man leerling'],
+    '👩{{skin_tone}}‍🎓': ['Leerling vrouw'],
     '👨{{skin_tone}}‍‍⚕️': [
-        'Man Health Worker',
-        'Male Doctor',
-        'Male Nurse'
+        'Man gezondheidswerker',
+        'Mannelijke dokter',
+        'Mannelijke Verpleegster'
     ],
     '👩{{skin_tone}}‍⚕️': [
-        'Woman Health Worker',
-        'Female Doctor',
-        'Female Nurse'
+        'Vrouwelijke gezondheidswerkers',
+        'Vrouwelijke dokter',
+        'Vrouwelijke Verpleegster'
     ],
     '🤷{{skin_tone}}‍♂️': [
-        'Man Shrugging',
-        'idk man',
+        'Mannen Spuwen',
+        'sluimer man',
         'dunno'
     ],
     '🤷{{skin_tone}}‍♀️': [
-        'Woman Shrugging',
-        'idk woman',
+        'Vrouw shruggen',
+        'idk vrouw',
         'dunno'
     ],
-    '🤦{{skin_tone}}‍♂️': ['Man Facepalming'],
-    '🤦{{skin_tone}}‍♀️': ['Woman Facepalming'],
+    '🤦{{skin_tone}}‍♂️': ['Man Facepalmmen'],
+    '🤦{{skin_tone}}‍♀️': ['Vrouw Facepalmmen'],
     '🙇{{skin_tone}}‍‍♂️': ['Man Bowing'],
-    '🙇{{skin_tone}}‍‍♀️': ['Woman Bowing'],
-    '🧏{{skin_tone}}‍♂️': ['Deaf Man'],
-    '🧏{{skin_tone}}‍‍♀️': ['Deaf Woman'],
+    '🙇{{skin_tone}}‍‍♀️': ['Vrouwelijke bogen'],
+    '🧏{{skin_tone}}‍♂️': ['Devenaar man'],
+    '🧏{{skin_tone}}‍‍♀️': ['Dafvaan vrouw'],
     '🙋{{skin_tone}}‍‍♂️': [
-        'Man Raising Hand',
+        'Manan stijgende hand',
         'Happy Man Raising One Hand'
     ],
     '🙋{{skin_tone}}‍♀️': [
-        'Woman Raising Hand',
+        'Arme Raising Hand',
         'Happy Woman Raising One Hand'
     ],
     '💁{{skin_tone}}‍♂️': [
-        'Man Tipping Hand',
-        'Information Desk Man'
+        'Handleiding manen',
+        'Informatie Bureau'
     ],
     '💁{{skin_tone}}‍♀️': [
-        'Woman Tipping Hand',
-        'Information Desk Woman'
+        'Hand van de mannelijke fooi',
+        'Informatie Bureau'
     ],
     '🙆{{skin_tone}}‍♂️': ['Man Gesturing OK'],
-    '🙆{{skin_tone}}‍♀️': ['Woman Gesturing OK'],
-    '🙅{{skin_tone}}‍♂️': ['Man Gesturing No'],
-    '🙅{{skin_tone}}‍♀️': ['Woman Gesturing No'],
-    '🙎{{skin_tone}}‍♂️': ['Man Pouting'],
-    '🙎{{skin_tone}}‍‍♀️': ['Woman Pouting'],
+    '🙆{{skin_tone}}‍♀️': ['Vrouwelijk Gebaar OK'],
+    '🙅{{skin_tone}}‍♂️': ['Mensen Gebaar Nee'],
+    '🙅{{skin_tone}}‍♀️': ['Vrouw Gebaar Nee'],
+    '🙎{{skin_tone}}‍♂️': ['Man Pouten'],
+    '🙎{{skin_tone}}‍‍♀️': ['Bekken van vrouw'],
     '🙍{{skin_tone}}‍‍♂️': ['Man Frowning'],
-    '🙍{{skin_tone}}‍‍♀️': ['Woman Frowning'],
+    '🙍{{skin_tone}}‍‍♀️': ['Vrouwelijke kruien'],
     '🧟‍‍♂️': ['Man Zombie'],
-    '🧟‍‍♀️': ['Woman Zombie'],
-    '🚶{{skin_tone}}‍♂️': ['Man Walking'],
-    '🚶{{skin_tone}}‍♀️': ['Woman Walking'],
-    '🧍{{skin_tone}}‍‍♂️': ['Man Standing'],
-    '🧍{{skin_tone}}‍‍♀️': ['Woman Standing'],
-    '🧎{{skin_tone}}‍♂️': ['Man Kneeling'],
-    '🧎{{skin_tone}}‍‍♀️': ['Woman Kneeling'],
-    '👨{{skin_tone}}‍🦯': ['Man with White Cane'],
-    '👩{{skin_tone}}‍🦯': ['Woman with White Cane'],
-    '👨{{skin_tone}}‍🦼': ['Man in Motorized Wheelchair'],
-    '👩{{skin_tone}}‍🦼': ['Woman in Motorized Wheelchair'],
-    '👨{{skin_tone}}‍🦽': ['Man in Manual Wheelchair'],
-    '👩{{skin_tone}}‍🦽': ['Woman in Manual Wheelchair'],
-    '👯‍♂️': ['Men with Bunny Ears'],
-    '👯‍♀️': ['Women with Bunny Ears'],
+    '🧟‍‍♀️': ['Zombie vrouw'],
+    '🚶{{skin_tone}}‍♂️': ['Man wandelen'],
+    '🚶{{skin_tone}}‍♀️': ['Lopen vrouwen'],
+    '🧍{{skin_tone}}‍‍♂️': ['Man staand'],
+    '🧍{{skin_tone}}‍‍♀️': ['Vrouw staand'],
+    '🧎{{skin_tone}}‍♂️': ['Man knieling'],
+    '🧎{{skin_tone}}‍‍♀️': ['Vrouwelijke knieling'],
+    '👨{{skin_tone}}‍🦯': ['Man met Witte Zandriet'],
+    '👩{{skin_tone}}‍🦯': ['Vrouwelijk met Witte Wit Cane'],
+    '👨{{skin_tone}}‍🦼': ['Man in Motorized rolstoel'],
+    '👩{{skin_tone}}‍🦼': ['Vrouwen in Motorized Wheelstoel'],
+    '👨{{skin_tone}}‍🦽': ['Man in handmatige rolstoel'],
+    '👩{{skin_tone}}‍🦽': ['Vrouw in handmatige rolstoel'],
+    '👯‍♂️': ['Mannen met Konijnenoren'],
+    '👯‍♀️': ['Vrouwen met Konijn Ears'],
     '🕴️{{skin_tone}}‍': [
-        'Person in Suit Levitating',
-        'Hovering Man',
-        'Rude Boy',
+        'Persoon in pak Levitating',
+        'Zwevende man',
+        'Ruwe Jongen',
         'Walt Jabsco',
         'Man in Business Suit Levitating'
     ],
@@ -1032,124 +1062,124 @@ emojis_language[lang][3] = {
         'Man in Sauna'
     ],
     '🧖{{skin_tone}}‍♀️': [
-        'Woman in Steamy Room',
-        'Woman in Sauna'
+        'Vrouwen in Steamy Room',
+        'Vrouwelijk in Sauna'
     ],
     '👫{{skin_tone}}‍': [
-        'Woman and Man Holding Hands',
-        'Heterosexual Couple',
-        'Straight Couple',
-        'Man and Woman Holding Hands'
+        'Vrouwelijk en Man Handen',
+        'Heteroseksuele Couple',
+        'Rechte Couple',
+        'Man en vrouw vasthouden Handen'
     ],
     '👭{{skin_tone}}‍': [
-        'Lesbian Couple',
-        'Women Holding Hands',
-        'Two Women Holding Hands'
+        'Lesbische Couple',
+        'Vrouwen met haarden',
+        'Twee vrouwen met haarden'
     ],
     '👬{{skin_tone}}‍': [
-        'Men Holding Hands',
+        'Mannen Handen',
         'Gay Couple',
-        'Two Men Holding Hands'
+        'Twee heren Handen Handen'
     ],
     '👨‍👩‍👦': [
-        'Family With Mother, Father and Son',
-        'Family: Man, Woman, Boy'
+        'Familie Met Moeder, Vader en Zon',
+        'Familie: Man, vrouw, Jongen'
     ],
     '👨‍👩‍👧': [
-        'Family With Mother, Father and Daughter',
-        'Family: Man, Woman, Girl'
+        'Familie met moeder, vader en Daughter',
+        'Family: Man, Vrouwen, Meisje'
     ],
     '👨‍👩‍👧‍👦': [
-        'Family With Mother, Father, Son and Daughter',
-        'Family: Man, Woman, Girl, Boy'
+        'Familie met moeder, vader, zoon en Daughter',
+        'Family: Man, Woman, Meisje, Jongen'
     ],
     '👨‍👩‍👦‍👦': [
-        'Family With Mother, Father and Two Sons',
-        'Family: Man, Woman, Boy, Boy'
+        'Familie Met Moeder, Vader en Twee zonen',
+        'Family: Man, Woman, Jongens, Jongen'
     ],
     '👨‍👩‍👧‍👧': [
-        'Family With Mother, Father and Two Daughters',
-        'Family: Man, Woman, Girl, Girl'
+        'Familie met moeder, vader en twee Daughters',
+        'Family: Man, Vrouwen, Meis, Meisje'
     ],
     '👨‍👨‍👦': [
-        'Family With Two Fathers and Son',
-        'Family: Man, Man, Boy'
+        'Familie met twee vaders en zonen',
+        'Familie: Man, Man, Man, Jongen'
     ],
     '👨‍👨‍👧': [
-        'Family With Two Fathers and Daughter',
-        'Family: Man, Man, Girl'
+        'Familie met twee vaders en Daughter',
+        'Familie: Man, Man, Man, Meis, Meisje'
     ],
     '👨‍👨‍👧‍👦': [
-        'Family With Two Fathers, Son and Daughter',
-        'Family: Man, Man, Girl, Boy'
+        'Familie met twee vaders, zoon en Daughter',
+        'Familie: Man, Man, Man, Meisje, Jongen'
     ],
     '👨‍👨‍👦‍👦': [
-        'Family With Two Fathers and Two Sons',
-        'Family: Man, Man, Boy, Boy'
+        'Familie met twee vaders en twee zonen',
+        'Familie: Man, Man, Jongena, Jongen'
     ],
     '👨‍👨‍👧‍👧': [
-        'Family With Two Fathers and Two Daughters',
-        'Family: Man, Man, Girl, Girl'
+        'Familie met twee vaders en twee Daughters',
+        'Familie: Man, Man, Man, Meis, Meis, Meisje'
     ],
     '👩‍👩‍👦': [
-        'Family With Two Mothers and Son',
-        'Family: Woman, Woman, Boy'
+        'Familie met twee moeders en zonen',
+        'Family: Vrouwen, vrouw, Jonge'
     ],
     '👩‍👩‍👧': [
-        'Family With Two Mothers and Daughter',
-        'Family: Woman, Woman, Girl'
+        'Familie met twee moeders en Daughter',
+        'Family: vrouw en vrouw, meisje'
     ],
     '👩‍👩‍👧‍👦': [
-        'Family With Two Mothers, Son and Daughter',
-        'Family: Woman, Woman, Girl, Boy'
+        'Familie met twee moeders, zoon en Daughter',
+        'Family: vrouw en vrouw, meisje, jongen'
     ],
     '👩‍👩‍👦‍👦': [
-        'Family With Two Mothers and Two Sons',
+        'Familie met twee moeders en twee zonen',
         'Family: Woman, Woman, Boy, Boy'
     ],
     '👩‍👩‍👧‍👧': [
-        'Family With Two Mothers and Two Daughters',
-        'Family: Woman, Woman, Girl, Girl'
+        'Familie met twee moeders en twee Daughters',
+        'Family: vrouw en vrouw, meisje, meisje'
     ],
     '👨‍👦': [
-        'Family With Father and Son',
-        'Family: Man, Boy'
+        'Familie met vader en zoon',
+        'Familie: Man, Jongen'
     ],
     '👨‍👦‍👦': [
-        'Family: Man, Boy, Boy',
-        'Family With Father and Two Sons'
+        'Familie: Man, Jongena, Jongen',
+        'Familie met vader en twee zonen'
     ],
     '👨‍👧': [
-        'Family With Father and Daughter',
-        'Family: Man, Girl'
+        'Familie met vader en Daughter',
+        'Familie: Man, Meisje'
     ],
     '👨‍👧‍👦': [
-        'Family With Father, Son and Daughter',
-        'Family: Man, Girl, Boy'
+        'Familie Met vader, zonen en Daughter',
+        'Familie: Man, meisje, Jongen'
     ],
     '👨‍👧‍👧': [
-        'Family With Father and Two Daughters',
-        'Family: Man, Girl, Girl'
+        'Familie met vader en twee Daughters',
+        'Familie: Man, Meid, Meis, Meisje'
     ],
     '👩‍👦': [
-        'Family With Mother and Son',
-        'Family: Woman, Boy'
+        'Familie met moeder en zon',
+        'Family: Vrouwen, Jongen'
     ],
     '👩‍👦‍👦': [
-        'Family With Mother and Two Sons',
-        'Family: Woman, Boy, Boy'
+        'Familie met moeder en twee zonen',
+        'Family: Vrouwen, jongen, jongen'
     ],
     '👩‍👧': [
-        'Family With Mother and Daughter',
-        'Family: Woman, Girl'
+        'Familie met Moeder en Daughter',
+        'Family: vrouw en meisje'
     ],
     '👩‍👧‍👦': [
-        'Family With Mother, Son and Daughter',
-        'Family: Woman, Girl, Boy'
+        'Familie met Moeder, Zoon en Daughter',
+        'Family: vrouw en meisje, jongen'
     ],
     '👩‍👧‍👧': [
-        'Family With Mother and Two Daughters',
-        'Family: Woman, Girl, Girl'
+        'Familie met Moeder en Twee Daughters',
+        'Family: Vrouwen, Meis, Meisje'
     ],
     '💑': [
         'Paars met hart',
@@ -1158,21 +1188,29 @@ emojis_language[lang][3] = {
         'Man en vrouw met hart'
     ],
     '👨‍❤️‍👨': [
-        'Two Men With Heart',
-        'Couple with Heart: Man, Man'
+        'Twee mannen met hart',
+        'Paars met Hart: Man, Man'
     ],
     '👩‍❤️‍👩': [
-        'Two Women With Heart',
-        'Couple with Heart: Woman, Woman'
+        'Twee vrouwen met hart',
+        'Paars met Heart: vrouw en vrouw'
     ],
-    '💆{{skin_tone}}‍‍♂️': ['Man Getting Head Massage'],
-    '💆{{skin_tone}}‍♀️': ['Woman Getting Head Massage'],
+    '💆{{skin_tone}}‍‍♂️': ['Man krijgen Hoofd Massage'],
+    '💆{{skin_tone}}‍♀️': ['Vrouwelijk Krijgshoofd Massage'],
     '💇{{skin_tone}}‍‍♂️': ['Man Getting Haircut'],
-    '💇{{skin_tone}}‍‍♀️': ['Woman Getting Haircut'],
+    '💇{{skin_tone}}‍‍♀️': ['Vrouwelijk Getting Haircut'],
     '🛌{{skin_tone}}‍': [
-        'Sleeping Accommodation',
-        'Person in Bed',
-        'Person Sleeping'
+        'Slaapplaats Accommodatie',
+        'Persoon in bed',
+        'Persoon Slapen'
+    ],
+    '🧌': ['Troll'],
+    '👺': [
+        'Goblin',
+        'Long Nose Face',
+        'Red Mask',
+        'Tengu',
+        'Japanese Goblin'
     ]
 };
 /*animals*/
@@ -1279,7 +1317,7 @@ emojis_language[lang][4] = {
         'Oog Hond zien',
         'Handleiding Hond'
     ],
-    '🐕‍🦺': ['Service Dog'],
+    '🐕‍🦺': ['Service Hond'],
     '🐩': [
         'Pool',
         'Hond',
@@ -1308,7 +1346,7 @@ emojis_language[lang][4] = {
         'Kluis',
         'Housecat'
     ],
-    '🐈‍⬛': ['Black Cat'],
+    '🐈‍⬛': ['Zwarte Kat'],
     '🦁': [
         'Leeuw',
         'Leeuwen Gezicht'
@@ -1637,14 +1675,24 @@ emojis_language[lang][4] = {
     '🦬': ['Bizon'],
     '🦣': ['Mammoet'],
     '🦫': ['Bever'],
-    '🐻‍❄️': ['Polar Bear'],
+    '🐻‍❄️': ['IJsbeer'],
     '🦤': ['Dodo'],
     '🦭': ['Zeehond'],
     '🪲': ['Kever'],
     '🪳': ['Kakkerlak'],
     '🪰': ['Vliegen'],
     '🪱': ['Worm'],
-    '🦩': ['Vlamingo']
+    '🦩': ['Vlamingo'],
+    '🪹': [
+        'Empty Nest',
+        'Birds',
+        'Home'
+    ],
+    '🪺': [
+        'Nest with Eggs',
+        'Birds',
+        'Home'
+    ]
 };
 /*symbols*/
 emojis_language[lang][5] = {
@@ -2225,6 +2273,10 @@ emojis_language[lang][5] = {
         'Verdeel',
         'Divisie Symbool',
         'Teken van Zware Divisie'
+    ],
+    '🟰': [
+        'Heavy Equals Sign',
+        'Result'
     ],
     '♾️': [
         'Oneindigheid',
@@ -3478,7 +3530,18 @@ emojis_language[lang][6] = {
         'Bubbel thee',
         'Boba'
     ],
-    '🧊': ['IJs Kubus']
+    '🧊': ['IJs Kubus'],
+    '🫘': [
+        'Beans',
+        'Flatulence',
+        'Coffee beans',
+        'Spill the beans'
+    ],
+    '🫗': [
+        'Pouring Liquid',
+        'Pouring Drink',
+        'Water'
+    ]
 };
 /*flags*/
 emojis_language[lang][7] = {
@@ -3507,17 +3570,24 @@ emojis_language[lang][7] = {
         'Witte vlag Zwaaien'
     ],
     '🏳️‍🌈': [
-        'Rainbow Flag',
-        'Pride Flag'
+        'Regenboog vlag',
+        'Pride Flag',
+        'LGBT',
+        'LGBTQIA+',
+        'Gay',
+        'Transgender',
+        'Lesbian',
+        'Asexual',
+        'Queer'
     ],
     '🏳️‍⚧️': [
-        'Transgender Flag',
-        'Blue, Pink, and White Flag',
-        'Trans Flag'
+        'Transgender Vlag',
+        'Blauw, roze en witte vlag',
+        'Trans Vlag'
     ],
     '🏴‍☠️': [
-        'Pirate Flag',
-        'Jolly Roger'
+        'Piraten vlag',
+        'Witte Roger'
     ],
     '🇺🇳': [
         'Vlag van de Verenigde Naties',
@@ -3941,10 +4011,24 @@ emojis_language[lang][7] = {
         'Union Jack',
         'VK'
     ],
-    //"🏴󠁧󠁢󠁥󠁮󠁧󠁿": ["Flag of England", "St George's Cross", "English Flag"],
-    //"🏴󠁧󠁢󠁷󠁬󠁳󠁿": ["Flag of Wales", "Welsh Flag", "Red Dragon", "Baner Cymru", "Y Ddraig Goch"],
-    //"🏴󠁧󠁢󠁳󠁣󠁴󠁿": ["Flag of Scotland", "Scottish Flag", "St Andrew's Cross", "Saltire"],
-    //"🏴󠁧󠁢󠁮󠁩󠁲󠁿": ["Flag of Northern Ireland"],
+    '🏴󠁧󠁢󠁥󠁮󠁧󠁿󠁧󠁢󠁥󠁮󠁧󠁿': [
+        'Flag of England',
+        'St George\'s Cross',
+        'English Flag'
+    ],
+    '🏴󠁧󠁢󠁷󠁬󠁳󠁿󠁧󠁢󠁷󠁬󠁳󠁿': [
+        'Flag of Wales',
+        'Welsh Flag',
+        'Red Dragon',
+        'Baner Cymru',
+        'Y Ddraig Goch'
+    ],
+    '🏴󠁧󠁢󠁳󠁣󠁴󠁿󠁧󠁢󠁳󠁣󠁴󠁿': [
+        'Flag of Scotland',
+        'Scottish Flag',
+        'St Andrew\'s Cross',
+        'Saltire'
+    ],
     '🇬🇩': [
         'Vlag van Grenada',
         'GD',
@@ -4821,113 +4905,113 @@ emojis_language[lang][7] = {
 /*sports*/
 emojis_language[lang][8] = {
     '🧗{{skin_tone}}‍‍♂️': [
-        'Man Climbing',
-        'Male Rock Climber',
-        'Man Climber'
+        'Man klimmen',
+        'Mannelijke Rots Klimber',
+        'Man klimber'
     ],
     '🧗{{skin_tone}}‍‍♀️': [
-        'Woman Climbing',
-        'Female Rock Climber',
-        'Woman Climber'
+        'Vrouwelijke klimmen',
+        'Vrouwelijke rots klimber',
+        'Vrouwelijke klimber'
     ],
     '🏇{{skin_tone}}‍': [
-        'Horse Racing',
-        'Horse Race',
+        'Paarden Race',
+        'Paarden Race',
         'Jockey'
     ],
     '⛷{{skin_tone}}‍️': ['Skier'],
     '🏂{{skin_tone}}‍': ['Snowboarder'],
     '🏌️{{skin_tone}}‍♂️': ['Man Golfer'],
-    '🏌️{{skin_tone}}‍♀️': ['Woman Golfer'],
-    '🏄{{skin_tone}}‍♂️': ['Man Surfer'],
+    '🏌️{{skin_tone}}‍♀️': ['Vrouwelijke Golfer'],
+    '🏄{{skin_tone}}‍♂️': ['Man Verrader'],
     '🏄{{skin_tone}}‍♀️': ['Woman Surfer'],
-    '🚣{{skin_tone}}‍‍♂️': ['Man Rowing Boat'],
-    '🚣{{skin_tone}}‍‍♀️': ['Woman Rowing Boat'],
+    '🚣{{skin_tone}}‍‍♂️': ['Man Rebauwboot'],
+    '🚣{{skin_tone}}‍‍♀️': ['Vaartuig voor mannelijke resten'],
     '🏊{{skin_tone}}‍‍♂️': [
-        'Man Swimming',
-        'Man Swimmer'
+        'Man Zwemmen',
+        'Man Zwemer'
     ],
     '🏊{{skin_tone}}‍‍♀️': [
-        'Woman Swimming',
-        'Woman Swimmer'
+        'Vrouw Zwemmen',
+        'Vwimmer vrouw'
     ],
     '⛹{{skin_tone}}‍️‍♂️': [
-        'Man Bouncing Ball',
-        'Man Basketball Player'
+        'Man stuiterende bal',
+        'Man Basketbal speler'
     ],
     '⛹️{{skin_tone}}‍♀️': [
-        'Woman Bouncing Ball',
-        'Woman Basketball Player'
+        'Vrouwelijke stuiterende bal',
+        'Vrouwelijke basketbal speler'
     ],
     '🏋️{{skin_tone}}‍♂️': [
-        'Man Lifting Weights',
-        'Man Weightlifter'
+        'Handwerk Gewichten',
+        'Man gewichtslift'
     ],
     '🏋️{{skin_tone}}‍♀️': [
-        'Woman Lifting Weights',
-        'Woman Weightlifter'
+        'Vrouwenlift weghalingen',
+        'Weightlifter vrouw'
     ],
     '🚴{{skin_tone}}‍♂️': [
-        'Man Biking',
-        'Man Cyclist',
-        'Male Cyclist'
+        'Man fietsen',
+        'Cyclist man',
+        'Mannelijke Cyclist'
     ],
     '🚴{{skin_tone}}‍♀️': [
-        'Woman Biking',
-        'Woman Cyclist',
-        'Female Cyclist'
+        'Vrouw fietsen',
+        'Cyclist vrouw',
+        'Vrouwelijke cyclist'
     ],
     '🚵{{skin_tone}}‍♂️': [
-        'Man Mountain Biking',
-        'Man Mountain Biker'
+        'Man berg fietsen',
+        'Man Berg Biker'
     ],
     '🚵{{skin_tone}}‍♀️': [
-        'Woman Mountain Biking',
-        'Woman Mountain Biker'
+        'Vrouwelijke berg fietsen',
+        'Vrouwelijke Berg Biker'
     ],
     '🤸{{skin_tone}}‍♂️': [
-        'Man Cartwheeling',
-        'Man Doing Cartwheel'
+        'Man Kartwheeling',
+        'Man Doing Kartwool'
     ],
     '🤸{{skin_tone}}‍♀️': [
-        'Woman Cartwheeling',
-        'Woman Doing Cartwheel'
+        'Vrouwelijke cartwheeling',
+        'Vrouwelijke Doing Cartwheel'
     ],
     '🤼': [
         'Mensen Worsten',
         'Worstelen',
         'Ronsten'
     ],
-    '🤽{{skin_tone}}‍♂️': ['Man Playing Water Polo'],
-    '🤽{{skin_tone}}‍♀️': ['Woman Playing Water Polo'],
-    '🤾{{skin_tone}}‍♂️': ['Man Playing Handball'],
-    '🤾{{skin_tone}}‍♀️': ['Woman Playing Handball'],
+    '🤽{{skin_tone}}‍♂️': ['Man Speelt water poo'],
+    '🤽{{skin_tone}}‍♀️': ['Woman Speelt water poo'],
+    '🤾{{skin_tone}}‍♂️': ['Man Speelt Handbal'],
+    '🤾{{skin_tone}}‍♀️': ['Vrouwelijke Handbal'],
     '🤹{{skin_tone}}‍♂️': [
         'Man Juggling',
-        'Male Juggler'
+        'Mannelijke Juggler'
     ],
     '🤹{{skin_tone}}‍♀️': [
-        'Woman Juggling',
-        'Female Juggler'
+        'Juggling vrouw',
+        'Vrouwelijke Juggler'
     ],
     '🧘{{skin_tone}}‍♂️': [
-        'Man in Lotus Position',
-        'Meditation',
+        'Man in Lotus Positie',
+        'Meditatie',
         'Zen',
-        'Cross legged',
+        'Kruis broek',
         'Yoga'
     ],
     '🧘{{skin_tone}}‍♀️': [
-        'Woman in Lotus Position',
-        'Meditation',
+        'Vrouw in Lotus Positie',
+        'Meditatie',
         'Zen',
-        'Cross legged',
+        'Kruis broek',
         'Yoga'
     ],
-    '🏃{{skin_tone}}‍♂️': ['Man Running'],
-    '🏃{{skin_tone}}‍♀️': ['Woman Running'],
-    '🕺{{skin_tone}}‍': ['Man Dancing'],
-    '💃{{skin_tone}}‍': ['Woman Dancing'],
+    '🏃{{skin_tone}}‍♂️': ['Man actief'],
+    '🏃{{skin_tone}}‍♀️': ['Lopende vrouw'],
+    '🕺{{skin_tone}}‍': ['Man dansende'],
+    '💃{{skin_tone}}‍': ['Dansende vrouw'],
     '🤺': [
         'Persoon hekwerk',
         'Fancer'
@@ -5514,6 +5598,11 @@ emojis_language[lang][9] = {
         'Achtbaan zuiger',
         'Achtbaan',
         'Thema park'
+    ],
+    '🛝': [
+        'Playground Slide',
+        'Baby',
+        'Children'
     ]
 };
 /*technologies (smartphones, laptops, etc.) and office*/
@@ -6036,7 +6125,8 @@ emojis_language[lang][11] = {
     '🩰': [
         'Ballet Schoenen',
         'Puntige schoffel'
-    ]
+    ],
+    '🩼': ['Crutch']
 };
 /*hands and parts of body*/
 emojis_language[lang][12] = {
@@ -6121,9 +6211,9 @@ emojis_language[lang][12] = {
         'Pointing down'
     ],
     '☝{{skin_tone}}': [
-        'Index Finger Pointing Up',
+        'Index Vinger Punten Omhoog',
         'White Up Pointing Index',
-        'Secret'
+        'Geheim'
     ],
     '🖕{{skin_tone}}': [
         'Midden Vinger',
@@ -6201,7 +6291,17 @@ emojis_language[lang][12] = {
         'Dank u wel',
         'Persoon met gevouwen hands'
     ],
-    '✍{{skin_tone}}': ['Writing Hand'],
+    '✍{{skin_tone}}': ['Hand schrijven'],
+    '🫱{{skin_tone}}': ['Rightwards Hand'],
+    '🫲{{skin_tone}}': ['Leftwards Hand'],
+    '🫳{{skin_tone}}': ['Palm Down Hand'],
+    '🫴{{skin_tone}}': ['Palm Up Hand'],
+    '🫰{{skin_tone}}': ['Hand with Index Finger and Thumb Crossed'],
+    '🫵{{skin_tone}}': ['Index Pointing at the Viewer'],
+    '🫶{{skin_tone}}': [
+        'Heart Hands',
+        'Love'
+    ],
     '💪{{skin_tone}}': [
         'Vaste Biceps',
         'Flexibele Arm Muskels',
@@ -6222,7 +6322,8 @@ emojis_language[lang][12] = {
         'Sniffing',
         'Stinky'
     ],
-    '🧠': ['Brain'],
+    '🦻{{skin_tone}}': ['Ear with Hearing Aid'],
+    '🧠': ['Hersenen'],
     '🦷': ['Tand'],
     '👀': [
         'Ogen',
@@ -6240,10 +6341,25 @@ emojis_language[lang][12] = {
         'Kissende Lippen',
         'Lippen'
     ],
+    '🫦': [
+        'Biting Lip',
+        'Lips'
+    ],
     '🫀': ['Anatomisch Hart'],
     '🫁': ['Longen'],
     '🦾': ['Mechanische arm'],
-    '🦿': ['Mechanisch Been']
+    '🦿': ['Mechanisch Been'],
+    '💅{{skin_tone}}': [
+        'Nail Polish',
+        'Fingers',
+        'Manicure',
+        'Nonchalant'
+    ],
+    '🤳{{skin_tone}}': [
+        'Selfie',
+        'Phone Camera',
+        'Selfie Hand'
+    ]
 };
 /*other*/
 emojis_language[lang][13] = {
@@ -6255,17 +6371,6 @@ emojis_language[lang][13] = {
     '💋': [
         'Kus markering',
         'Kissende Lippen'
-    ],
-    '💅': [
-        'Nagel Pools',
-        'Vingers',
-        'Manicure',
-        'Nonchalant'
-    ],
-    '🤳': [
-        'Selfie',
-        'Telefoon Camera',
-        'Selfie Hand'
     ],
     '🦴': ['Botten'],
     '🧳': [
@@ -6296,11 +6401,11 @@ emojis_language[lang][13] = {
         'Betrokkenheid Ring'
     ],
     '💎': [
-        'Gem stone',
-        'Diamond',
-        'Gem',
-        'Gemstone',
-        'Jewel'
+        'Edelsteen steen',
+        'Diamant',
+        'Edelsteen',
+        'Edelsteen',
+        'Juweel'
     ],
     '💥': [
         'Botsing Symbool',
@@ -6460,7 +6565,9 @@ emojis_language[lang][13] = {
     '🌈': [
         'Regenboog',
         'Gay Pride',
-        'Primaire Regenboog'
+        'Primaire Regenboog',
+        'LGBTQIA+',
+        'LGBT+'
     ],
     '❄️': [
         'Sneeuwvlok',
@@ -6631,6 +6738,17 @@ emojis_language[lang][13] = {
         'Lente'
     ],
     '🪴': ['Verpotte plant'],
+    '🪸': [
+        'Coral',
+        'Climate change'
+    ],
+    '🪷': [
+        'Lotus',
+        'Purity',
+        'Beauty',
+        'Calmness',
+        'Serenity'
+    ],
     '🔑': [
         'Sleutel',
         'Gouden Sleutel'
@@ -6791,7 +6909,6 @@ emojis_language[lang][13] = {
         'Skelet'
     ],
     '☠️': ['Schedel en Crossbotten'],
-    '🦻': ['Oven met hoornhulp'],
     '🎡': [
         'Reuzenwiel',
         'Groot wiel',
@@ -7175,8 +7292,8 @@ emojis_language[lang][13] = {
     ],
     '🕳️': ['Gat'],
     '👁️‍🗨️': [
-        'I Am A Witness',
-        'Eye in Speech Bubble'
+        'Ik ben A Witness',
+        'Oog in spraak bubbel'
     ],
     '⚜️': [
         'Fleur-de-lis',
@@ -7241,5 +7358,55 @@ emojis_language[lang][13] = {
     '🪥': ['Tandenborstel'],
     '🪦': ['Hoofdsteen'],
     '🪧': ['Placard'],
-    '🪒': ['Scheermes']
+    '🪒': ['Scheermes'],
+    '🫙': ['Jar'],
+    '🛞': [
+        'Wheel',
+        'Vehicles',
+        'Cars'
+    ],
+    '🛟': [
+        'Ring Buoy',
+        'Life Preserver',
+        'Life Ring',
+        'Boats',
+        'Safety',
+        'Water',
+        'Lifesaving'
+    ],
+    '🪬': [
+        'Hamsa',
+        'Islam',
+        'Judaism',
+        'Buddhism',
+        'Christianity',
+        'Religions',
+        'Luck',
+        'Protection',
+        'Guidance',
+        'Feminine Power',
+        'Faith'
+    ],
+    '🪩': [
+        'Mirror Ball',
+        'Disco Ball'
+    ],
+    '🪫': [
+        'Low Battery',
+        'Red',
+        'Energy'
+    ],
+    '🩻': ['X-Ray'],
+    '🫧': [
+        'Bubbles',
+        'Soap Suds',
+        'Carbonation',
+        'Effervescent Personality'
+    ],
+    '🪪': [
+        'Identification Card',
+        'Identity',
+        'Passport',
+        'ID'
+    ]
 };
