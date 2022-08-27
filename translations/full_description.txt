@@ -1,4 +1,4 @@
-It's an open-source project which permits you to copy easily an emoji.
+It's an open-source project which permits you to copy and insert easily an emoji (it's an emoji picker, basically).
 You can search by keywords or use the "most used emojis". Or just looking for the perfect emoji navigating in the sections.
 
 https://github.com/Sav22999/emoji
