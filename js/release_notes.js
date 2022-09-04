@@ -90,6 +90,12 @@ function releaseNotes(release) {
             release_notes_text += "<li>Updated languages.</li>";
             release_notes_text += "</ul>";
             break;
+
+        case "3.14.4.1":
+            release_notes_text = "<ul>";
+            release_notes_text += "<li><b>Important for macOS users:</b><br><br>If you see an empty screen after the update, and you want to use \"Twemoji\", please don't use \"Twemoji (Recommended)\", instead use the font <small><span class='background-lightblue'>Twemoji (temporary fix)</span></small> (you will not be able to see the new emojis in Unicode 14) or another font-family</li>";
+            release_notes_text += "</ul>";
+            break;
     }
     return release_notes_text;
 }
