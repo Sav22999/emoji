@@ -4,6 +4,11 @@
 }
 
 @font-face {
+    font-family: twemoji-fix-macos;
+    src: url("../font/twemoji-fix-macos.ttf");
+}
+
+@font-face {
     font-family: open-sans;
     src: url("../font/opensans.ttf");
 }
@@ -316,6 +321,10 @@ div#top-message {
 
 .font-twemoji {
     font-family: twemoji, sans-serif;
+}
+
+.font-twemoji-fix-macos {
+    font-family: twemoji-fix-macos, sans-serif;
 }
 
 .font-openmojicolor {
