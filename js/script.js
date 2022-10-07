@@ -48,7 +48,7 @@ const linkDonate = ["https://www.paypal.me/saveriomorelli", "https://ko-fi.com/s
 const linkTranslate = "https://crowdin.com/project/emoji-sav";
 const linkNeedHelp = ["https://www.saveriomorelli.com/contact-me/"];
 const storeName = ["Firefox Add-ons", "Microsoft Edge Add-ons", "Google Chrome Web Store"];
-const fontFamily = ["twemoji", "notocoloremoji", "notocoloremoji", "twemoji-fix-macos"];
+const fontFamily = ["twemoji", "notocoloremoji", "notocoloremoji", "twemoji-fix-macos", "joypixels"];
 
 if (browserOrChromeIndex == 0) {
     browserAgentSettings = browser;
@@ -896,7 +896,7 @@ function showMessageTop(text) {
     text_to_use = text_to_use.replace(/{{emoji}}/g, "<span class='font-" + font_family + " font-size-22 margin-right-5'>");
     text_to_use = text_to_use.replace(/{{\/emoji}}/g, "</span>");
     message_element.innerHTML = "<div id='title-release-notes'>Release notes</div>" + text_to_use + "<br><div id='top-message-buttons'></div>";
-    ;document.getElementById("popup-content").append(message_element);
+    document.getElementById("popup-content").append(message_element);
 
     let background_opacity = document.createElement("div");
     background_opacity.className = "background-opacity";
@@ -1188,7 +1188,7 @@ function setVariablesFromSettings(resize_popup_ui = false, focus_search_box = fa
         emojisSizeElement.selectedIndex = 2;
         if (jsonSettings.size != undefined) emojisSizeElement.selectedIndex = jsonSettings.size;
         fontFamily.selectedIndex = 0;
-        if (jsonSettings.font != undefined) fontFamily.selectedIndex = jsonSettings.font;
+        if (jsonSettings.font != undefined || jsonSettings.font < fontFamily.length) fontFamily.selectedIndex = jsonSettings.font;
         autoClosePopupElement.selectedIndex = 1;
         if (jsonSettings.auto_close != undefined) autoClosePopupElement.selectedIndex = jsonSettings.auto_close;
         skinToneElement.selectedIndex = 0;
@@ -1271,10 +1271,10 @@ function getLanguageCode(language) {
 }
 
 function setFontFamily() {
-    emojisElement.classList.remove("font-twemoji", "font-notocoloremoji", "font-openmojicolor", "font-openmojiblack", "font-default", "font-twemoji-fix-macos");
-    titlesElement.classList.remove("font-twemoji", "font-notocoloremoji", "font-openmojicolor", "font-openmojiblack", "font-default", "font-twemoji-fix-macos");
-    topSectionElement.classList.remove("font-twemoji", "font-notocoloremoji", "font-openmojicolor", "font-openmojiblack", "font-default", "font-twemoji-fix-macos");
-    document.getElementById("emoji-skin-choose").classList.remove("font-twemoji", "font-notocoloremoji", "font-openmojicolor", "font-openmojiblack", "font-default", "font-twemoji-fix-macos");
+    emojisElement.classList.remove("font-twemoji", "font-notocoloremoji", "font-openmojicolor", "font-openmojiblack", "font-default", "font-twemoji-fix-macos", "font-joypixels");
+    titlesElement.classList.remove("font-twemoji", "font-notocoloremoji", "font-openmojicolor", "font-openmojiblack", "font-default", "font-twemoji-fix-macos", "font-joypixels");
+    topSectionElement.classList.remove("font-twemoji", "font-notocoloremoji", "font-openmojicolor", "font-openmojiblack", "font-default", "font-twemoji-fix-macos", "font-joypixels");
+    document.getElementById("emoji-skin-choose").classList.remove("font-twemoji", "font-notocoloremoji", "font-openmojicolor", "font-openmojiblack", "font-default", "font-twemoji-fix-macos", "font-joypixels");
 
     emojisElement.classList.add("font-" + font_family);
     titlesElement.classList.add("font-" + font_family);

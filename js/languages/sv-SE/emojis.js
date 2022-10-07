@@ -1841,6 +1841,12 @@ emojis_language[lang][5] = {
         'Bankomat',
         'Automatiserad Telleer-maskin'
     ],
+    '🎧': [
+        'Headphone',
+        'Earphone',
+        'iPod',
+        'Headphones'
+    ],
     '🎵': [
         'Musikalisk anteckning',
         'Beamed par av åttonde anteckningar',
@@ -1887,6 +1893,13 @@ emojis_language[lang][5] = {
         'Tystad högtalare',
         'Tysta volym',
         'Högtalare med avbokningsstation'
+    ],
+    '📢': [
+        'Loudspeaker',
+        'Announcement',
+        'PA System',
+        'Public Address Loudspeaker',
+        ''
     ],
     '⛔': ['Ingen post'],
     '🚫': [

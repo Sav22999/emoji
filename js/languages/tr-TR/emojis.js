@@ -1841,6 +1841,12 @@ emojis_language[lang][5] = {
         'ATM',
         'Automated Telleer Machine'
     ],
+    '🎧': [
+        'Headphone',
+        'Earphone',
+        'iPod',
+        'Headphones'
+    ],
     '🎵': [
         'Musical Note',
         'Beamed Pair Of Eighth Notes',
@@ -1887,6 +1893,13 @@ emojis_language[lang][5] = {
         'Muted Speaker',
         'Mute Volume',
         'Speaker with Cancellation Stroke'
+    ],
+    '📢': [
+        'Loudspeaker',
+        'Announcement',
+        'PA System',
+        'Public Address Loudspeaker',
+        ''
     ],
     '⛔': ['No Entry'],
     '🚫': [

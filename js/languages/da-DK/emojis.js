@@ -1841,6 +1841,12 @@ emojis_language[lang][5] = {
         'ATM',
         'Automatiseret Telleer Machine'
     ],
+    '🎧': [
+        'Headphone',
+        'Earphone',
+        'iPod',
+        'Headphones'
+    ],
     '🎵': [
         'Musikalsk Note',
         'Beamed Par Af Ottende Noter',
@@ -1887,6 +1893,13 @@ emojis_language[lang][5] = {
         'Lydløs Højttaler',
         'Lydløs Lydstyrke',
         'Højttaler med afbestillingsstop'
+    ],
+    '📢': [
+        'Loudspeaker',
+        'Announcement',
+        'PA System',
+        'Public Address Loudspeaker',
+        ''
     ],
     '⛔': ['Ingen Indgang'],
     '🚫': [

@@ -1,4 +1,4 @@
-It's an open-source project which permits you to copy easily an emoji (it's an emoji picker, basically).
+Je to open-source projekt, který vám umožňuje jednoduše kopírovat emoji (v podstatě je to emoji selektor).
 Můžete hledat podle klíčových slov nebo použít "nejpoužívanější smajlíky". Nebo jen hledejte perfektní emoji navigaci v sekcích.
 
 https://github.com/Sav22999/emoji

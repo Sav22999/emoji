@@ -1841,6 +1841,12 @@ emojis_language[lang][5] = {
         'Bankomat',
         'Automat Telleer'
     ],
+    '🎧': [
+        'Headphone',
+        'Earphone',
+        'iPod',
+        'Headphones'
+    ],
     '🎵': [
         'Muzyczna Notatka',
         'Para ósmej notatki',
@@ -1887,6 +1893,13 @@ emojis_language[lang][5] = {
         'Wyciszony głośnik',
         'Wycisz głośność',
         'Głośnik z uderzeniem anulowania'
+    ],
+    '📢': [
+        'Loudspeaker',
+        'Announcement',
+        'PA System',
+        'Public Address Loudspeaker',
+        ''
     ],
     '⛔': ['Brak wpisu'],
     '🚫': [

@@ -608,14 +608,14 @@ emojis_language[lang][2] = {
     '🫣': ['Face with Peeking Eye'],
     '🫡': [
         'Saluting Face',
-        'Military',
-        'Army',
+        'Militär',
+        'Armee',
         'RAF',
         'Navy'
     ],
     '🫥': ['Dotted Line Face'],
     '🫤': ['Face with Diagonal Mouth'],
-    '🥹': ['Face Holding Back Tears'],
+    '🥹': ['Gesicht, welches die Tränen zurückhält'],
     '😈': [
         'Lächelndes Gesicht mit Hörnern',
         'Teufel',
@@ -814,7 +814,7 @@ emojis_language[lang][3] = {
         'Mädchen mit Krone',
         'Mädchen mit Tiara'
     ],
-    '🫅{{skin_tone}}‍': ['Person with Crown'],
+    '🫅{{skin_tone}}‍': ['Person mit Krone'],
     '👳{{skin_tone}}‍♂️': ['Mann trägt Turban'],
     '👳{{skin_tone}}‍♀️': ['Frauen tragen Turban'],
     '👲{{skin_tone}}‍': [
@@ -833,21 +833,21 @@ emojis_language[lang][3] = {
         'Groom',
         'Mann im Anzug',
         'Mann in Tuxedo',
-        'Wedding'
+        'Hochzeit'
     ],
     '👰{{skin_tone}}‍': [
         'Person mit Schleier',
         'Braut',
         'Braut mit Schleier',
-        'Wedding'
+        'Hochzeit'
     ],
     '👰{{skin_tone}}‍♂️': [
         'Mann mit Schleier',
-        'Wedding'
+        'Hochzeit'
     ],
     '👰{{skin_tone}}‍♀️': [
         'Frau mit Schleier',
-        'Wedding'
+        'Hochzeit'
     ],
     '👩{{skin_tone}}‍🍼': ['Frauen ernähren Baby'],
     '👨{{skin_tone}}‍🍼': ['Mann ernährt Baby'],
@@ -858,12 +858,12 @@ emojis_language[lang][3] = {
         'Schwangere Lady'
     ],
     '🫃{{skin_tone}}‍': [
-        'Pregnant Man',
-        'Pregnancy'
+        'Schwangerer Mann',
+        'Schwangerschaft'
     ],
     '🫄{{skin_tone}}‍': [
-        'Pregnant Person',
-        'Pregnancy'
+        'Schwangere Person',
+        'Schwangerschaft'
     ],
     '🤱{{skin_tone}}‍': [
         'Stillen',
@@ -1208,7 +1208,7 @@ emojis_language[lang][3] = {
     '👺': [
         'Goblin',
         'Long Nose Face',
-        'Red Mask',
+        'Rote Maske',
         'Tengu',
         'Japanese Goblin'
     ]
@@ -1684,14 +1684,14 @@ emojis_language[lang][4] = {
     '🪱': ['Wurm'],
     '🦩': ['Flamingo'],
     '🪹': [
-        'Empty Nest',
-        'Birds',
-        'Home'
+        'Leeres Nest',
+        'Vögel',
+        'Zuhause'
     ],
     '🪺': [
-        'Nest with Eggs',
-        'Birds',
-        'Home'
+        'Nest mit Eiern',
+        'Vögel',
+        'Zuhause'
     ]
 };
 /*symbols*/
@@ -1841,6 +1841,12 @@ emojis_language[lang][5] = {
         'Geldautomat',
         'Automatisierte Telleer Maschine'
     ],
+    '🎧': [
+        'Headphone',
+        'Earphone',
+        'iPod',
+        'Headphones'
+    ],
     '🎵': [
         'Musiknotiz',
         'Belichtetes Paar achter Notizen',
@@ -1887,6 +1893,13 @@ emojis_language[lang][5] = {
         'Lautsprecher stumm',
         'Lautstärke stumm',
         'Lautsprecher mit Abbruch Strich'
+    ],
+    '📢': [
+        'Loudspeaker',
+        'Announcement',
+        'PA System',
+        'Public Address Loudspeaker',
+        ''
     ],
     '⛔': ['Kein Eintrag'],
     '🚫': [
@@ -2276,7 +2289,7 @@ emojis_language[lang][5] = {
     ],
     '🟰': [
         'Heavy Equals Sign',
-        'Result'
+        'Ergebnis'
     ],
     '♾️': [
         'Unendlichkeit',
@@ -3532,15 +3545,15 @@ emojis_language[lang][6] = {
     ],
     '🧊': ['Eiswürfel'],
     '🫘': [
-        'Beans',
-        'Flatulence',
-        'Coffee beans',
+        'Bohnen',
+        'Blähungen',
+        'Kaffebohnen',
         'Spill the beans'
     ],
     '🫗': [
         'Pouring Liquid',
         'Pouring Drink',
-        'Water'
+        'Wasser'
     ]
 };
 /*flags*/

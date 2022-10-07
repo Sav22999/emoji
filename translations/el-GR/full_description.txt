@@ -1,4 +1,4 @@
-It's an open-source project which permits you to copy easily an emoji (it's an emoji picker, basically).
+Είναι ένα έργο ανοιχτού κώδικα που σας επιτρέπει να αντιγράφετε εύκολα ένα emoji (είναι ένας επιλογέας emoji, βασικά).
 Μπορείτε να αναζητήσετε με λέξεις-κλειδιά ή να χρησιμοποιήσετε το "τα πιο χρησιμοποιούμενα emojis". Ή απλά ψάχνει για το τέλειο emoji πλοήγηση στις ενότητες.
 
 https://github.com/Sav22999/emoji

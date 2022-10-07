@@ -1,4 +1,4 @@
-It's an open-source project which permits you to copy easily an emoji (it's an emoji picker, basically).
+絵文字を簡単にコピーできるオープンソースのプロジェクトです(基本的には絵文字ピッカーです)。
 キーワードで検索したり、「最も使用されている絵文字」を使用できます。 または、セクション内の完璧な絵文字を探しています。
 
 https://github.com/Sav22999/絵文字
