@@ -1841,6 +1841,12 @@ emojis_language[lang][5] = {
         'Minibank',
         'Automatisert Telleer Maskin'
     ],
+    '🎧': [
+        'Headphone',
+        'Earphone',
+        'iPod',
+        'Headphones'
+    ],
     '🎵': [
         'Musikalsk notat',
         'Kjente Par Of Eighth Notes',
@@ -1887,6 +1893,13 @@ emojis_language[lang][5] = {
         'Dempet taler',
         'Demp volum',
         'Høytaler med Kansellering Stroke'
+    ],
+    '📢': [
+        'Loudspeaker',
+        'Announcement',
+        'PA System',
+        'Public Address Loudspeaker',
+        ''
     ],
     '⛔': ['Ingen oppføring'],
     '🚫': [

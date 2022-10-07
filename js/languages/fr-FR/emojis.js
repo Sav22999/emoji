@@ -859,11 +859,11 @@ emojis_language[lang][3] = {
     ],
     '🫃{{skin_tone}}‍': [
         'Pregnant Man',
-        'Pregnancy'
+        'Grossesse'
     ],
     '🫄{{skin_tone}}‍': [
-        'Pregnant Person',
-        'Pregnancy'
+        'Personne enceinte',
+        'Grossesse'
     ],
     '🤱{{skin_tone}}‍': [
         'Nourriture maternelle',
@@ -1841,6 +1841,12 @@ emojis_language[lang][5] = {
         'DAB',
         'Telleer automatique'
     ],
+    '🎧': [
+        'Headphone',
+        'Earphone',
+        'iPod',
+        'Headphones'
+    ],
     '🎵': [
         'Note musicale',
         'Paire de huitième Notes à faisceau',
@@ -1887,6 +1893,13 @@ emojis_language[lang][5] = {
         'Haut-parleur muet',
         'Couper le volume',
         'Haut-parleur avec trait d\'annulation'
+    ],
+    '📢': [
+        'Loudspeaker',
+        'Announcement',
+        'PA System',
+        'Public Address Loudspeaker',
+        ''
     ],
     '⛔': ['Aucune entrée'],
     '🚫': [
@@ -4012,8 +4025,8 @@ emojis_language[lang][7] = {
         'RU'
     ],
     '🏴󠁧󠁢󠁥󠁮󠁧󠁿󠁧󠁢󠁥󠁮󠁧󠁿': [
-        'Flag of England',
-        'St George\'s Cross',
+        'Drapeau d\'Angleterre',
+        'Croix de Saint-Georges',
         'English Flag'
     ],
     '🏴󠁧󠁢󠁷󠁬󠁳󠁿󠁧󠁢󠁷󠁬󠁳󠁿': [
@@ -4024,9 +4037,9 @@ emojis_language[lang][7] = {
         'Y Ddraig Goch'
     ],
     '🏴󠁧󠁢󠁳󠁣󠁴󠁿󠁧󠁢󠁳󠁣󠁴󠁿': [
-        'Flag of Scotland',
-        'Scottish Flag',
-        'St Andrew\'s Cross',
+        'Drapeau d\'Ecosse',
+        'Drapeau écossais',
+        'Croix de St Andrew',
         'Saltire'
     ],
     '🇬🇩': [
@@ -6343,7 +6356,7 @@ emojis_language[lang][12] = {
     ],
     '🫦': [
         'Biting Lip',
-        'Lips'
+        'Lèvres'
     ],
     '🫀': ['Cœur anatomique'],
     '🫁': ['Poumons'],

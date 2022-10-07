@@ -1841,6 +1841,12 @@ emojis_language[lang][5] = {
         'Bancomat',
         'Macchina Automatica Telleer'
     ],
+    '🎧': [
+        'Headphone',
+        'Earphone',
+        'iPod',
+        'Headphones'
+    ],
     '🎵': [
         'Nota Musicale',
         'Beamed Coppia Di Ottava Note',
@@ -1887,6 +1893,13 @@ emojis_language[lang][5] = {
         'Altoparlante Silenziato',
         'Silenzia Volume',
         'Altoparlante con Cancellazione'
+    ],
+    '📢': [
+        'Loudspeaker',
+        'Announcement',
+        'PA System',
+        'Public Address Loudspeaker',
+        ''
     ],
     '⛔': ['Nessuna Voce'],
     '🚫': [

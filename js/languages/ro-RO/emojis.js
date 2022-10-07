@@ -1841,6 +1841,12 @@ emojis_language[lang][5] = {
         'ATM',
         'Mașina Automată a Telleer'
     ],
+    '🎧': [
+        'Headphone',
+        'Earphone',
+        'iPod',
+        'Headphones'
+    ],
     '🎵': [
         'Notă Muzică',
         'Pereche îngemănată din Note optime',
@@ -1887,6 +1893,13 @@ emojis_language[lang][5] = {
         'Amuțit difuzorul',
         'Volum mut',
         'Difuzor cu anulare'
+    ],
+    '📢': [
+        'Loudspeaker',
+        'Announcement',
+        'PA System',
+        'Public Address Loudspeaker',
+        ''
     ],
     '⛔': ['Nici o intrare'],
     '🚫': [

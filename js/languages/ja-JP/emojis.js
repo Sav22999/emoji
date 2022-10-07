@@ -1841,6 +1841,12 @@ emojis_language[lang][5] = {
         'ATM',
         '自動Telleer Machine'
     ],
+    '🎧': [
+        'Headphone',
+        'Earphone',
+        'iPod',
+        'Headphones'
+    ],
     '🎵': [
         '音楽メモ',
         '8番目の音符のビーム',
@@ -1887,6 +1893,13 @@ emojis_language[lang][5] = {
         'ミュートされたスピーカー',
         'ボリュームをミュート',
         'Strokeをキャンセルしたスピーカー'
+    ],
+    '📢': [
+        'Loudspeaker',
+        'Announcement',
+        'PA System',
+        'Public Address Loudspeaker',
+        ''
     ],
     '⛔': ['エントリなし'],
     '🚫': [

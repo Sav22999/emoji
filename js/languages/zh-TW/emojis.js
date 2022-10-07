@@ -5,17 +5,17 @@ titles_language[lang] = {
     '🔍': 'Results',
     '🕒': 'Most used emojis',
     '😀': 'Smileys',
-    '🙋': 'People',
-    '🦊': 'Animals',
-    '🅰️': 'Symbols',
-    '🍎': 'Food and drinks',
-    '🏳️‍🌈': 'Flags',
-    '🏊': 'Sports',
+    '🙋': '人類',
+    '🦊': '動物',
+    '🅰️': '符號',
+    '🍎': '飲食',
+    '🏳️‍🌈': '旗幟',
+    '🏊': '運動',
     '✈️': 'Travel and places',
     '🖱️': 'Technologies and office',
     '👗': 'Clothes and accessories',
     '🖐️': 'Hands and parts of body',
-    '🛎️': 'Other'
+    '🛎️': '其他'
 };
 emojis_language[lang] = [];
 /*search*/
@@ -1841,6 +1841,12 @@ emojis_language[lang][5] = {
         'ATM',
         'Automated Telleer Machine'
     ],
+    '🎧': [
+        'Headphone',
+        'Earphone',
+        'iPod',
+        'Headphones'
+    ],
     '🎵': [
         'Musical Note',
         'Beamed Pair Of Eighth Notes',
@@ -1887,6 +1893,13 @@ emojis_language[lang][5] = {
         'Muted Speaker',
         'Mute Volume',
         'Speaker with Cancellation Stroke'
+    ],
+    '📢': [
+        'Loudspeaker',
+        'Announcement',
+        'PA System',
+        'Public Address Loudspeaker',
+        ''
     ],
     '⛔': ['No Entry'],
     '🚫': [

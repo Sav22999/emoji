@@ -1841,6 +1841,12 @@ emojis_language[lang][5] = {
         'Geldautomaat',
         'Geautomatiseerde Telleer Machine'
     ],
+    '🎧': [
+        'Headphone',
+        'Earphone',
+        'iPod',
+        'Headphones'
+    ],
     '🎵': [
         'Muziek Opmerking',
         'Beamed Pair Van Achtste Notities',
@@ -1887,6 +1893,13 @@ emojis_language[lang][5] = {
         'Gedempte spreker',
         'Demp Volume',
         'Spreker met annuleringstoot'
+    ],
+    '📢': [
+        'Loudspeaker',
+        'Announcement',
+        'PA System',
+        'Public Address Loudspeaker',
+        ''
     ],
     '⛔': ['Geen Invoer'],
     '🚫': [

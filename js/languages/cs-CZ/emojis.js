@@ -1841,6 +1841,12 @@ emojis_language[lang][5] = {
         'ATM',
         'Automatický telefon'
     ],
+    '🎧': [
+        'Headphone',
+        'Earphone',
+        'iPod',
+        'Headphones'
+    ],
     '🎵': [
         'Hudební nota',
         'Řezání osmé poznámky',
@@ -1887,6 +1893,13 @@ emojis_language[lang][5] = {
         'Ztlumený reproduktor',
         'Ztlumit hlasitost',
         'Reproduktor s zrušovacím tahem'
+    ],
+    '📢': [
+        'Loudspeaker',
+        'Announcement',
+        'PA System',
+        'Public Address Loudspeaker',
+        ''
     ],
     '⛔': ['Žádný záznam'],
     '🚫': [

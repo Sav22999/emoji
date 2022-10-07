@@ -1841,6 +1841,12 @@ emojis_language[lang][5] = {
         'caixa',
         'Máquina de telemóvel automatizada'
     ],
+    '🎧': [
+        'Headphone',
+        'Earphone',
+        'iPod',
+        'Headphones'
+    ],
     '🎵': [
         'Nota Musical',
         'Par de oitavas notas Beamed',
@@ -1887,6 +1893,13 @@ emojis_language[lang][5] = {
         'Alto-falante silenciado',
         'Volume do Mudo',
         'Alto-falante com Golpe de Cancelamento'
+    ],
+    '📢': [
+        'Loudspeaker',
+        'Announcement',
+        'PA System',
+        'Public Address Loudspeaker',
+        ''
     ],
     '⛔': ['Nenhuma entrada'],
     '🚫': [

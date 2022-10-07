@@ -1841,6 +1841,12 @@ emojis_language[lang][5] = {
         'ATM',
         'Automatisoitu Telleer Machine'
     ],
+    '🎧': [
+        'Headphone',
+        'Earphone',
+        'iPod',
+        'Headphones'
+    ],
     '🎵': [
         'Musiikillinen Muistiinpano',
         'Kahdeksannen Huomautuksen Parametrit',
@@ -1887,6 +1893,13 @@ emojis_language[lang][5] = {
         'Mykistetty Kaiutin',
         'Mykistä Äänenvoimakkuus',
         'Kaiutin peruutus Stroke'
+    ],
+    '📢': [
+        'Loudspeaker',
+        'Announcement',
+        'PA System',
+        'Public Address Loudspeaker',
+        ''
     ],
     '⛔': ['Ei Merkintää'],
     '🚫': [
