@@ -703,23 +703,43 @@ emojis_language[lang][3] = {
         'Geschlechtsneutrale Erwachsene',
         'Erwachsene'
     ],
+    '🧑{{skin_tone}}': [
+        'Person: Beard',
+        'Beard',
+        'Bearded Person',
+        'Bearded Person'
+    ],
+    '🧑{{skin_tone}}‍🦰': [
+        'Person: Red Hair',
+        'Ginger Person',
+        'Person Redhead',
+        'Person With Red Hair'
+    ],
+    '🧑{{skin_tone}}‍🦱': [
+        'Person: Curly Hair',
+        'Person With Curly Hair'
+    ],
+    '🧑{{skin_tone}}‍🦳': [
+        'Person: White Hair',
+        'Person With Gray Hair'
+    ],
+    '🧑{{skin_tone}}‍🦲': [
+        'Person: Bald',
+        'Person With No Hair'
+    ],
     '👱{{skin_tone}}': [
         'Person: Blond Haar',
-        'Blonde',
-        'Blonde',
-        'Blonde Mann',
-        'Person mit Blond Haar',
-        'Mann mit Blondenhaar'
+        'Person With Blonde Hair'
     ],
     '👨{{skin_tone}}': [
         'Mann',
         'Mann',
         'Moustache Mann'
     ],
-    '🧔{{skin_tone}}': [
-        'Man: Bart',
-        'Bart',
-        'Bearteter Mann',
+    '🧔{{skin_tone}}‍♂️': [
+        'Man: Beard',
+        'Beard',
+        'Bearded Man',
         'Bearded Person'
     ],
     '👨{{skin_tone}}‍🦰': [
@@ -740,11 +760,20 @@ emojis_language[lang][3] = {
         'Mann: Kahle',
         'Mann ohne Haar'
     ],
+    '👱{{skin_tone}}‍♂️': [
+        'Man: Blond Haar',
+        'Mann mit Blondenhaar'
+    ],
     '👩{{skin_tone}}': [
         'Frau',
         'Weiblich',
         'Dame',
         'Gelbe Frau'
+    ],
+    '🧔{{skin_tone}}‍♀️': [
+        'Woman: Beard',
+        'Beard',
+        'Bearded Woman'
     ],
     '👩{{skin_tone}}‍🦰': [
         'Frau: Rotes Haar',
@@ -768,136 +797,188 @@ emojis_language[lang][3] = {
         'Frau: Blond Haar',
         'Frau mit Blonde Haar'
     ],
-    '👱{{skin_tone}}‍♂️': [
-        'Man: Blond Haar',
-        'Mann mit Blondenhaar'
+    '🧓{{skin_tone}}': [
+        'Older Person',
+        'Gender Neutral Older Adult'
     ],
-    '🧓{{skin_tone}}‍': [
-        'Ältere Person',
-        'Geschlechtsneutrale Ältere Erwachsene'
-    ],
-    '👴{{skin_tone}}‍': [
-        'Alter Mann',
-        'Älterer Mann',
+    '👴{{skin_tone}}': [
+        'Old Man',
+        'Elderly Man',
         'Grandpa',
-        'Älterer Mann'
+        'Older Man'
     ],
-    '👵{{skin_tone}}‍': [
-        'Alte Frau',
-        'Ältere Frau',
-        'Oma',
-        'Nina',
-        'Alte Frau',
-        'Ältere Frau'
+    '👵{{skin_tone}}': [
+        'Old Woman',
+        'Elderly Woman',
+        'Grandma',
+        'Nanna',
+        'Old Lady',
+        'Older Woman'
     ],
-    '👼{{skin_tone}}‍': [
-        'Baby-Engel',
-        'Engel',
+    '👼{{skin_tone}}': [
+        'Baby Angel',
+        'Angel',
         'Cherub',
-        'Amor',
-        'Lila'
+        'Cupid',
+        'Putto'
     ],
-    '🎅{{skin_tone}}‍': [
-        'Weihnachtsmann',
-        'Sankt Nikolaus',
+    '👨{{skin_tone}}‍🎄': [
+        'Santa Claus',
+        'Saint Nicholas',
         'Sinterklaas',
-        'Vater Weihnachten'
+        'Father Christmas'
     ],
-    '🤶{{skin_tone}}‍': [
-        'Frau Claus',
-        'Mutter Weihnachten'
+    '👩{{skin_tone}}‍🎄': [
+        'Mrs Claus',
+        'Mother Christmas'
     ],
-    '🤴{{skin_tone}}‍': ['Prinz'],
-    '👸{{skin_tone}}‍': [
-        'Prinzessin',
-        'Blonde Mädchen',
-        'Mädchen mit Krone',
-        'Mädchen mit Tiara'
+    '🧑{{skin_tone}}‍🎄': [
+        'Mx Claus',
+        'Person Christmas'
     ],
-    '🫅{{skin_tone}}‍': ['Person mit Krone'],
-    '👳{{skin_tone}}‍♂️': ['Mann trägt Turban'],
-    '👳{{skin_tone}}‍♀️': ['Frauen tragen Turban'],
-    '👲{{skin_tone}}‍': [
-        'Person mit Schädelkappe',
-        'Asiatischer Mann',
-        'Mann mit chinesischer Kappe',
-        'Mann mit Gua Pi Mao'
+    '🤴{{skin_tone}}': ['Prince'],
+    '👸{{skin_tone}}': [
+        'Princess',
+        'Blonde Girl',
+        'Girl With Crown',
+        'Girl With Tiara'
     ],
-    '🧕{{skin_tone}}‍': [
-        'Frau mit Kopftuch',
+    '🫅{{skin_tone}}': ['Person with Crown'],
+    '👳{{skin_tone}}‍♂️': [
+        'Mann trägt Turban',
+        'Arab',
+        'Muslim',
+        'Sikh',
+        'Turban'
+    ],
+    '👳{{skin_tone}}‍♀️': [
+        'Frauen tragen Turban',
+        'Arab',
+        'Muslim',
+        'Sikh',
+        'Turban'
+    ],
+    '👳{{skin_tone}}': [
+        'Person Wearing Turban',
+        'Arab',
+        'Muslim',
+        'Sikh',
+        'Turban'
+    ],
+    '👲{{skin_tone}}': [
+        'Person With Skullcap',
+        'Asian Man',
+        'Man With Chinese Cap',
+        'Man with Gua Pi Mao'
+    ],
+    '🧕{{skin_tone}}': [
+        'Woman with Headscarf',
         'Hijab',
-        'Person mit Kopftuch'
+        'Person with Headscarf'
     ],
-    '🤵{{skin_tone}}‍': [
+    '🤵{{skin_tone}}‍♀️': [
+        'Man in Tuxedo',
+        'Groom',
+        'Man In Suit',
+        'Wedding'
+    ],
+    '🤵{{skin_tone}}‍♂️': [
+        'Woman in Tuxedo',
+        'Groom',
+        'Woman In Suit',
+        'Wedding'
+    ],
+    '🤵{{skin_tone}}': [
         'Person in Tuxedo',
         'Groom',
-        'Mann im Anzug',
-        'Mann in Tuxedo',
-        'Hochzeit'
-    ],
-    '👰{{skin_tone}}‍': [
-        'Person mit Schleier',
-        'Braut',
-        'Braut mit Schleier',
-        'Hochzeit'
+        'Person In Suit',
+        'Wedding'
     ],
     '👰{{skin_tone}}‍♂️': [
         'Mann mit Schleier',
-        'Hochzeit'
+        'Hochzeit',
+        'Bridegroom',
+        'Marriage'
     ],
     '👰{{skin_tone}}‍♀️': [
         'Frau mit Schleier',
-        'Hochzeit'
+        'Hochzeit',
+        'Bride',
+        'Bride with Veil',
+        'Marriage'
+    ],
+    '👰{{skin_tone}}': [
+        'Person With Veil',
+        'Wedding',
+        'Marriage'
     ],
     '👩{{skin_tone}}‍🍼': ['Frauen ernähren Baby'],
     '👨{{skin_tone}}‍🍼': ['Mann ernährt Baby'],
+    '🧑{{skin_tone}}‍🍼': ['Person Feeding Baby'],
     '🥷': ['Ninja'],
-    '🤰{{skin_tone}}‍': [
-        'Schwangere Frau',
-        'Schwangerschaft',
-        'Schwangere Lady'
+    '🤰{{skin_tone}}': [
+        'Pregnant Woman',
+        'Pregnancy',
+        'Pregnant Lady'
     ],
-    '🫃{{skin_tone}}‍': [
-        'Schwangerer Mann',
-        'Schwangerschaft'
+    '🫃{{skin_tone}}': [
+        'Pregnant Man',
+        'Pregnancy'
     ],
-    '🫄{{skin_tone}}‍': [
-        'Schwangere Person',
-        'Schwangerschaft'
+    '🫄{{skin_tone}}': [
+        'Pregnant Person',
+        'Pregnancy'
     ],
     '🤱{{skin_tone}}‍': [
         'Stillen',
         'Stillen'
     ],
     '🦸{{skin_tone}}‍♂️': ['Mann Superheld'],
-    '🦸{{skin_tone}}‍‍♀️': ['Frauen-Superheld'],
-    '🦹{{skin_tone}}‍‍♂️': ['Mann Superbösartig'],
-    '🦹{{skin_tone}}‍‍♀️': ['Frauen-Supervillain'],
-    '🧙{{skin_tone}}‍': [
-        'Magier',
+    '🦸{{skin_tone}}‍♀️': ['Woman Superhero'],
+    '🦸{{skin_tone}}': ['Person Superhero'],
+    '🦹{{skin_tone}}‍♂️': ['Man Supervillain'],
+    '🦹{{skin_tone}}‍♀️': ['Woman Supervillain'],
+    '🦹{{skin_tone}}': ['Person Supervillain'],
+    '🧙{{skin_tone}}‍♂️': [
+        'Man Mage',
         'Sorcerer',
-        'Hexerei',
-        'Hexe',
-        'Assistent'
+        'Wizard'
     ],
-    '🧙{{skin_tone}}‍‍♀️': [
-        'Frauen-Magier',
-        'Hexe',
-        'Hexerei'
+    '🧙{{skin_tone}}‍♀️': [
+        'Woman Mage',
+        'Witch',
+        'Sorceress',
+        'Wizard'
     ],
-    '🧚{{skin_tone}}‍‍♂️': ['Mannfee'],
+    '🧙{{skin_tone}}': [
+        'Person Mage',
+        'Wizard',
+        ':mage:'
+    ],
+    '🧚{{skin_tone}}‍♂️': ['Man Fairy'],
     '🧚{{skin_tone}}‍♀️': ['Frauen-Fee'],
+    '🧚{{skin_tone}}': ['Person Fairy'],
     '🧛{{skin_tone}}‍♂️': [
         'Mann Vampir',
         'Gabriel'
     ],
-    '🧛{{skin_tone}}‍‍♀️': ['Frauen-Vampir'],
-    '🧜{{skin_tone}}‍♂️': ['Merman'],
-    '🧜{{skin_tone}}‍♀️': ['Meerjungfrau'],
+    '🧛{{skin_tone}}‍♀️': ['Woman Vampire'],
+    '🧛{{skin_tone}}': ['Person Vampire'],
+    '🧜{{skin_tone}}‍♂️': [
+        'Merman',
+        'Merboy'
+    ],
+    '🧜{{skin_tone}}‍♀️': [
+        'Meerjungfrau',
+        'Mergirl'
+    ],
+    '🧜{{skin_tone}}': ['Merperson'],
     '🧝{{skin_tone}}‍♂️': ['Mensch-Elf'],
     '🧝{{skin_tone}}‍♀️': ['Frauen-Elf'],
+    '🧝{{skin_tone}}': ['Person Elf'],
     '🧞‍♂️': ['Man Genie'],
     '🧞‍♀️': ['Woman Genie'],
+    '🧞': ['Person Genie'],
     '🕵️{{skin_tone}}‍♂️': [
         'Mensch Detektiv',
         'Privates Auge',
@@ -908,50 +989,98 @@ emojis_language[lang][3] = {
         '007',
         'Inspektor'
     ],
-    '🕵️{{skin_tone}}‍♀️': ['Frauen-Detektiv'],
-    '💂{{skin_tone}}‍': [
-        'Wächter',
-        'Britischer Wachmann',
-        'Fußwächter'
+    '🕵️{{skin_tone}}‍♀️': [
+        'Frauen-Detektiv',
+        'Private Eye',
+        'Sleuth',
+        'Spy',
+        'Woman Sleuth',
+        'Sleuth or Spy',
+        '007',
+        'Inspector'
     ],
-    '💂{{skin_tone}}‍‍♀️': ['Frauen-Wache'],
-    '👮{{skin_tone}}‍': [
-        'Polizeibeamter',
-        'Bulle',
-        'Polizei',
-        'Polizist',
-        'Polizist'
+    '🕵{{skin_tone}}': [
+        'Person Detective',
+        'Private Eye',
+        'Sleuth',
+        'Spy',
+        'Person Sleuth',
+        'Sleuth or Spy',
+        '007',
+        'Inspector'
     ],
-    '👮{{skin_tone}}‍‍♀️': ['Frauenpolizei Offizier'],
+    '💂{{skin_tone}}‍♂️': [
+        'Man: Guard',
+        'British Guardsman',
+        'Foot Guard'
+    ],
+    '💂{{skin_tone}}‍♀️': [
+        'Woman: Guard',
+        'British Guardsman',
+        'Foot Guard'
+    ],
+    '💂{{skin_tone}}': [
+        'Person: Guard',
+        'British Guardsman',
+        'Foot Guard'
+    ],
+    '👮{{skin_tone}}‍♂️': [
+        'Police Officer',
+        'Cop',
+        'Police',
+        'Policeman'
+    ],
+    '👮{{skin_tone}}‍♀️': [
+        'Woman Police Officer',
+        'Cop',
+        'Police',
+        'Policewoman'
+    ],
+    '👮{{skin_tone}}': [
+        'Police Officer',
+        'Cop',
+        'Police'
+    ],
     '👨{{skin_tone}}‍🚒': ['Feuerwehrmann'],
-    '👩{{skin_tone}}‍‍🚒': ['Frauen-Feuerwehrmann'],
-    '👨{{skin_tone}}‍‍✈️': ['Mann-Pilot'],
-    '👩{{skin_tone}}‍‍✈️': ['Frauen-Pilot'],
+    '👩{{skin_tone}}‍🚒': ['Woman Firefighter'],
+    '🧑{{skin_tone}}‍🚒': ['Person Firefighter'],
+    '👨{{skin_tone}}‍✈️': ['Man Pilot'],
+    '👩{{skin_tone}}‍✈️': ['Woman Pilot'],
+    '🧑{{skin_tone}}‍✈️': ['Person Pilot'],
     '👨{{skin_tone}}‍💻': [
         'Mensch-Techniker',
         'Mensch-Techniker'
     ],
     '👩{{skin_tone}}‍💻': ['Frauen-Technikerin'],
+    '🧑{{skin_tone}}‍💻': ['Person Technologist'],
     '👨{{skin_tone}}‍🎤': [
         'Mann Singer',
         'Bowie',
         'Aladdin Sane'
     ],
     '👩{{skin_tone}}‍🎤': ['Frauensängerin'],
+    '🧑{{skin_tone}}‍🎤': ['Person Singer'],
     '👨{{skin_tone}}‍🎨': ['Mensch-Künstler'],
     '👩{{skin_tone}}‍🎨': ['Frauen-Interpret'],
-    '👷{{skin_tone}}‍‍♂️': ['Bauarbeiter des Mannes'],
-    '👷{{skin_tone}}‍‍♀️': ['Damenbauarbeiter'],
-    '👨{{skin_tone}}‍‍🚀': [
-        'Mann Astronaut',
-        'Mann Kosmonaut'
+    '🧑{{skin_tone}}‍🎨': ['Person Artist'],
+    '👷{{skin_tone}}‍♂️': ['Man Construction Worker'],
+    '👷{{skin_tone}}‍♀️': ['Woman Construction Worker'],
+    '👷{{skin_tone}}': ['Person Construction Worker'],
+    '👨{{skin_tone}}‍🚀': [
+        'Man Astronaut',
+        'Man Cosmonaut'
     ],
-    '👩{{skin_tone}}‍‍🚀': [
-        'Frauen-Astronaut',
-        'Frauenkosmonaut'
+    '👩{{skin_tone}}‍🚀': [
+        'Woman Astronaut',
+        'Woman Cosmonaut'
     ],
-    '👨{{skin_tone}}‍‍🔬': ['Menschwissenschaftler'],
-    '👩{{skin_tone}}‍‍🔬': ['Frauen-Wissenschaftler'],
+    '🧑{{skin_tone}}‍🚀': [
+        'Person Astronaut',
+        'Person Cosmonaut'
+    ],
+    '👨{{skin_tone}}‍🔬': ['Man Scientist'],
+    '👩{{skin_tone}}‍🔬': ['Woman Scientist'],
+    '🧑{{skin_tone}}‍🔬': ['Person Scientist'],
     '👨{{skin_tone}}‍💼': [
         'Man-Büroarbeiter',
         'CEO',
@@ -962,37 +1091,57 @@ emojis_language[lang][3] = {
         'Geschäftsfrau',
         'CEO'
     ],
+    '🧑{{skin_tone}}‍💼': [
+        'Person Office Worker',
+        'Business',
+        'CEO'
+    ],
     '👨{{skin_tone}}‍🏭': ['Manufaktur'],
-    '👩{{skin_tone}}‍‍🏭': ['Frauen-Fabrik Arbeiter'],
-    '👨{{skin_tone}}‍‍🔧': ['Mensch-Mechanik'],
-    '👩{{skin_tone}}‍‍🔧': ['Frauen-Mechanik'],
-    '👨{{skin_tone}}‍‍🍳': [
-        'Mann Kochen',
-        'Man-Koch',
-        'Männlicher Küchenchef'
+    '👩{{skin_tone}}‍🏭': ['Woman Factory Worker'],
+    '🧑{{skin_tone}}‍🏭': ['Person Factory Worker'],
+    '👨{{skin_tone}}‍🔧': ['Man Mechanic'],
+    '👩{{skin_tone}}‍🔧': ['Woman Mechanic'],
+    '🧑{{skin_tone}}‍🔧': ['Person Mechanic'],
+    '👨{{skin_tone}}‍🍳': [
+        'Man Cook',
+        'Man Chef',
+        'Male Chef'
     ],
-    '👩{{skin_tone}}‍‍🍳': [
-        'Frauenkoch',
-        'Frauenkoch',
-        'Weiblicher Küchenchef'
+    '👩{{skin_tone}}‍🍳': [
+        'Woman Cook',
+        'Woman Chef',
+        'Female Chef'
     ],
-    '👨{{skin_tone}}‍‍🌾': ['Mann Bauer'],
-    '👩{{skin_tone}}‍‍🌾': ['Weibchen'],
+    '🧑{{skin_tone}}‍🍳': [
+        'Person Cook',
+        'Person Chef'
+    ],
+    '👨{{skin_tone}}‍🌾': ['Man Farmer'],
+    '👩{{skin_tone}}‍🌾': ['Woman Farmer'],
+    '🧑{{skin_tone}}‍🌾': ['Person Farmer'],
     '👨{{skin_tone}}‍‍⚖️': ['Mann-Richter'],
     '👩{{skin_tone}}‍‍⚖️': ['Frauen-Richter'],
+    '🧑{{skin_tone}}‍‍⚖️': ['Person Judge'],
     '👨{{skin_tone}}‍‍🏫': ['Man-Lehrer'],
     '👩{{skin_tone}}‍‍🏫': ['weibliche Lehrerin'],
+    '🧑‍{{skin_tone}}‍‍🏫': ['Person Teacher'],
     '👨{{skin_tone}}‍🎓': ['Man-Student'],
     '👩{{skin_tone}}‍🎓': ['weibliche Schülerin'],
-    '👨{{skin_tone}}‍‍⚕️': [
-        'Mann Gesundheitsarbeiter',
-        'Männlicher Arzt',
-        'Männliche Krankenschwester'
+    '🧑{{skin_tone}}‍🎓': ['Person Student'],
+    '👨{{skin_tone}}‍⚕️': [
+        'Man Health Worker',
+        'Male Doctor',
+        'Male Nurse'
     ],
     '👩{{skin_tone}}‍⚕️': [
         'Frauen Gesundheitsarbeiter',
         'Weiblicher Arzt',
         'Weibliche Krankenschwester'
+    ],
+    '🧑‍{{skin_tone}}‍⚕️': [
+        'Person Health Worker',
+        'Person Doctor',
+        'Person Nurse'
     ],
     '🤷{{skin_tone}}‍♂️': [
         'Mann Scheuklappen',
@@ -1004,12 +1153,20 @@ emojis_language[lang][3] = {
         'idk Frau',
         'dunno'
     ],
+    '🤷{{skin_tone}}': [
+        'Person Shrugging',
+        'idk person',
+        'dunno'
+    ],
     '🤦{{skin_tone}}‍♂️': ['Gesichtsbemalung'],
     '🤦{{skin_tone}}‍♀️': ['Frauengesichtsalzen'],
+    '🤦{{skin_tone}}': ['Person Facepalming'],
     '🙇{{skin_tone}}‍‍♂️': ['Mann Bowing'],
     '🙇{{skin_tone}}‍‍♀️': ['Frauen Bowing'],
+    '🙇{{skin_tone}}': ['Person Bowing'],
     '🧏{{skin_tone}}‍♂️': ['Gehörloser Mann'],
     '🧏{{skin_tone}}‍‍♀️': ['Gehörlose Frau'],
+    '🧏{{skin_tone}}': ['Deaf Person'],
     '🙋{{skin_tone}}‍‍♂️': [
         'Mensch, der die Hand hebt',
         'Ein glücklicher Mann erhebt eine Hand'
@@ -1017,6 +1174,10 @@ emojis_language[lang][3] = {
     '🙋{{skin_tone}}‍♀️': [
         'Frauenerziehende Hand',
         'Glückliche Frau erheben eine Hand'
+    ],
+    '🙋{{skin_tone}}': [
+        'Person Raising Hand',
+        'Happy Person Raising One Hand'
     ],
     '💁{{skin_tone}}‍♂️': [
         'Hand Trinkgelder',
@@ -1026,36 +1187,52 @@ emojis_language[lang][3] = {
         'Frau-Tipping-Hand',
         'Informationsschalter Frau'
     ],
+    '💁{{skin_tone}}': [
+        'Person Tipping Hand',
+        'Information Desk Person'
+    ],
     '🙆{{skin_tone}}‍♂️': ['Man Gesturing OK'],
     '🙆{{skin_tone}}‍♀️': ['Frau Geste OK'],
+    '🙆{{skin_tone}}': ['Person Gesturing OK'],
     '🙅{{skin_tone}}‍♂️': ['Nein'],
     '🙅{{skin_tone}}‍♀️': ['Frauen-Geste Nein'],
+    '🙅{{skin_tone}}': ['Person Gesturing No'],
     '🙎{{skin_tone}}‍♂️': ['Mann Pausen'],
     '🙎{{skin_tone}}‍‍♀️': ['Frauen-Pausen'],
-    '🙍{{skin_tone}}‍‍♂️': ['Man Frowning'],
-    '🙍{{skin_tone}}‍‍♀️': ['Frau Frowning'],
+    '🙎{{skin_tone}}': ['Person Pouting'],
+    '🙍{{skin_tone}}‍♂️': ['Man Frowning'],
+    '🙍{{skin_tone}}‍♀️': ['Woman Frowning'],
+    '🙍{{skin_tone}}': ['Person Frowning'],
     '🧟‍‍♂️': ['Mann Zombie'],
     '🧟‍‍♀️': ['Frauenzombie'],
+    '🧟': ['Person Zombie'],
     '🚶{{skin_tone}}‍♂️': ['Mann wandern'],
     '🚶{{skin_tone}}‍♀️': ['Frauen wandern'],
-    '🧍{{skin_tone}}‍‍♂️': ['Mann Stehen'],
-    '🧍{{skin_tone}}‍‍♀️': ['Stehende Frau'],
+    '🚶{{skin_tone}}': ['Person Walking'],
+    '🧍{{skin_tone}}‍♂️': ['Man Standing'],
+    '🧍{{skin_tone}}‍♀️': ['Woman Standing'],
+    '🧍{{skin_tone}}': ['Person Standing'],
     '🧎{{skin_tone}}‍♂️': ['Mann Knieten'],
-    '🧎{{skin_tone}}‍‍♀️': ['Frauenkneelung'],
+    '🧎{{skin_tone}}‍♀️': ['Woman Kneeling'],
+    '🧎{{skin_tone}}': ['Person Kneelink'],
     '👨{{skin_tone}}‍🦯': ['Mann mit weißem Rohr'],
     '👩{{skin_tone}}‍🦯': ['Frau mit weißem Cane'],
+    '🧑{{skin_tone}}‍🦯': ['Person with White Cane'],
     '👨{{skin_tone}}‍🦼': ['Mann im motorisierten Rollstuhl'],
     '👩{{skin_tone}}‍🦼': ['Frau im motorisierten Rollstuhl'],
+    '🧑{{skin_tone}}‍🦼': ['Person in Motorized Wheelchair'],
     '👨{{skin_tone}}‍🦽': ['Mann im manuellen Rollstuhl'],
     '👩{{skin_tone}}‍🦽': ['Frau im manuellen Rollstuhl'],
+    '🧑{{skin_tone}}‍🦽': ['Person in Manual Wheelchair'],
     '👯‍♂️': ['Männer mit Hasen Ohren'],
     '👯‍♀️': ['Frauen mit Hasen-Ohren'],
-    '🕴️{{skin_tone}}‍': [
-        'Levitative Person im Anzug',
-        'Schwebender Mann',
-        'Rude Junge',
+    '👯': ['People with Bunny Ears'],
+    '🕴️{{skin_tone}}': [
+        'Person in Suit Levitating',
+        'Hovering Man',
+        'Rude Boy',
         'Walt Jabsco',
-        'Mann in Business Anzug Levitating'
+        'Man in Business Suit Levitating'
     ],
     '🧖{{skin_tone}}‍♂️': [
         'Mann im Dampfbad',
@@ -1065,21 +1242,32 @@ emojis_language[lang][3] = {
         'Frau im Dampfbad',
         'Frau in Sauna'
     ],
-    '👫{{skin_tone}}‍': [
-        'Frauen und Mann halten Hände',
-        'Heterosexuelles Paar',
-        'Geradliniges Paar',
-        'Männer und Frauen halten Hände'
+    '🧖{{skin_tone}}': [
+        'Person in Steamy Room',
+        'Person in Sauna'
     ],
-    '👭{{skin_tone}}‍': [
-        'Lesbisches Paar',
-        'Frauen, die Hände halten',
-        'Zwei Frauen, die Hände halten'
+    '👫{{skin_tone}}': [
+        'Woman and Man Holding Hands',
+        'Heterosexual Couple',
+        'Straight Couple',
+        'Man and Woman Holding Hands'
     ],
-    '👬{{skin_tone}}‍': [
-        'Männer halten Hände',
-        'Schwulen-Paar',
-        'Zwei Männer Haltehands'
+    '👭{{skin_tone}}': [
+        'Lesbian Couple',
+        'Women Holding Hands',
+        'Two Women Holding Hands'
+    ],
+    '👬{{skin_tone}}': [
+        'Men Holding Hands',
+        'Gay Couple',
+        'Two Men Holding Hands'
+    ],
+    '🧑‍🤝‍🧑': [
+        'People Holding Hands',
+        'Two People Holding Hands',
+        'Gender Inclusive Couple',
+        'Gender Neutral Couple',
+        'Gender Nonconforming Couple'
     ],
     '👨‍👩‍👦': [
         'Familie mit Mutter, Vater und Sohn',
@@ -1145,13 +1333,13 @@ emojis_language[lang][3] = {
         'Familie mit Vater und Sohn',
         'Familie: Man, Junge'
     ],
-    '👨‍👦‍👦': [
-        'Familie: Man, Jung, Junge',
-        'Familie mit Vater und zwei Söhne'
-    ],
     '👨‍👧': [
         'Familie mit Vater und Tochter',
         'Familie: Mensch, Mädchen,'
+    ],
+    '👨‍👦‍👦': [
+        'Family With Father and Two Sons',
+        'Family: Man, Boy, Boy'
     ],
     '👨‍👧‍👦': [
         'Familie mit Vater, Sohn und Tochter',
@@ -1165,13 +1353,13 @@ emojis_language[lang][3] = {
         'Familie mit Mutter und Sohn',
         'Familie: Frau, Junge'
     ],
-    '👩‍👦‍👦': [
-        'Familie mit Mutter und zwei Söhne',
-        'Familie: Frau, Jung, Junge'
-    ],
     '👩‍👧': [
         'Familie mit Mutter und Tochter',
         'Familie: Frau, Mädchen'
+    ],
+    '👩‍👦‍👦': [
+        'Familie mit Mutter und zwei Söhne',
+        'Familie: Frau, Jung, Junge'
     ],
     '👩‍👧‍👦': [
         'Familie mit Mutter, Sohn und Tochter',
@@ -1181,11 +1369,17 @@ emojis_language[lang][3] = {
         'Familie mit Mutter und zwei Töchter',
         'Familie: Frau, Mädchen, Mädchen'
     ],
-    '💑': [
-        'Paar mit Herz',
-        'Paar in Liebe',
-        'Liebevolles Paar',
-        'Mann und Frau mit Herz'
+    '💑{{skin_tone}}': [
+        'Couple with Heart',
+        'Couple In Love',
+        'Loving Couple',
+        'Gender Neutral Couple'
+    ],
+    '👩‍❤️‍👨': [
+        'Man and Woman With Heart',
+        'Couple In Love',
+        'Loving Couple',
+        'Couple With Heart'
     ],
     '👨‍❤️‍👨': [
         'Zwei Männer mit Herz',
@@ -1195,14 +1389,30 @@ emojis_language[lang][3] = {
         'Zwei Frauen mit Herz',
         'Paar mit Herz: Frau, Frau'
     ],
-    '💆{{skin_tone}}‍‍♂️': ['Man bekomme Kopfmassage'],
+    '💏{{skin_tone}}': [
+        'Couple Kissing',
+        'Kiss',
+        'Gender Neutral Couple Kissing'
+    ],
+    '👩‍❤️‍💋‍👨': ['Man and Woman Kissing'],
+    '👨‍❤️‍💋‍👨': [
+        'Two Men Kissing',
+        'Man and Man Kissing'
+    ],
+    '👩‍❤️‍💋‍👩': [
+        'Two Women Kissing',
+        'Woman and Woman Kissing'
+    ],
+    '💆{{skin_tone}}‍♂️': ['Man Getting Head Massage'],
     '💆{{skin_tone}}‍♀️': ['Frauen bekommen Kopfmassage'],
-    '💇{{skin_tone}}‍‍♂️': ['Mann Haircut'],
-    '💇{{skin_tone}}‍‍♀️': ['Frauen bekommen Haarschnitt'],
-    '🛌{{skin_tone}}‍': [
-        'Schlafende Unterkunft',
-        'Person im Bett',
-        'Person schlafen'
+    '💆{{skin_tone}}': ['Person Getting Head Massage'],
+    '💇{{skin_tone}}‍♂️': ['Man Getting Haircut'],
+    '💇{{skin_tone}}‍♀️': ['Woman Getting Haircut'],
+    '💇{{skin_tone}}': ['Person Getting Haircut'],
+    '🛌{{skin_tone}}': [
+        'Sleeping Accommodation',
+        'Person in Bed',
+        'Person Sleeping'
     ],
     '🧌': ['Troll'],
     '👺': [
@@ -1815,26 +2025,26 @@ emojis_language[lang][5] = {
         'Schlafschild',
         'Schlafsymbol'
     ],
-    '♠️': [
-        'Spade-Anzug',
+    '♠': [
+        'Spade Suit',
         'Spades',
         'Black Spade Suit'
     ],
-    '♥️': [
-        'Herz-Anzug',
-        'Karte mit Herz',
-        'Herzen',
-        'Schwarzes Herz Anzug'
+    '♥': [
+        'Heart Suit',
+        'Card With Heart',
+        'Hearts',
+        'Black Heart Suit'
     ],
-    '♦️': [
-        'Diamant-Anzug',
-        'Diamanten',
-        'Schwarzer Diamant-Anzug'
+    '♦': [
+        'Diamond Suit',
+        'Diamonds',
+        'Black Diamond Suit'
     ],
-    '♣️': [
-        'Klub-Anzug',
-        'Vereine',
-        'Schwarzclub-Anzug'
+    '♣': [
+        'Club Suit',
+        'Clubs',
+        'Black Club Suit'
     ],
     '🏧': [
         'Geldautomaten-Schild',
@@ -4917,36 +5127,48 @@ emojis_language[lang][7] = {
 };
 /*sports*/
 emojis_language[lang][8] = {
-    '🧗{{skin_tone}}‍‍♂️': [
-        'Mann Klettern',
-        'Männlicher Felskletterer',
-        'Mann Kletterer'
+    '🧗{{skin_tone}}‍♂️': [
+        'Man Climbing',
+        'Male Rock Climber',
+        'Man Climber'
     ],
-    '🧗{{skin_tone}}‍‍♀️': [
-        'Frauen Klettern',
-        'Weiblicher Felskletterer',
-        'Frauenkletterin'
+    '🧗{{skin_tone}}‍♀️': [
+        'Woman Climbing',
+        'Female Rock Climber',
+        'Woman Climber'
     ],
-    '🏇{{skin_tone}}‍': [
-        'Pferderennen',
-        'Pferderennen',
-        'Joachim'
+    '🧗{{skin_tone}}': [
+        'Person Climbing',
+        'Person Rock Climber',
+        'Person Climber'
+    ],
+    '🏇{{skin_tone}}': [
+        'Horse Racing',
+        'Horse Race',
+        'Jockey'
     ],
     '⛷{{skin_tone}}‍️': ['Skifahrer'],
     '🏂{{skin_tone}}‍': ['Snowboarder'],
     '🏌️{{skin_tone}}‍♂️': ['Man Golfer'],
     '🏌️{{skin_tone}}‍♀️': ['Frauen-Golfer'],
+    '🏌️{{skin_tone}}': ['Person Golfer'],
     '🏄{{skin_tone}}‍♂️': ['Mann Surfer'],
     '🏄{{skin_tone}}‍♀️': ['Frauen-Surfer'],
-    '🚣{{skin_tone}}‍‍♂️': ['Manövrierboot'],
-    '🚣{{skin_tone}}‍‍♀️': ['Damenrührenboot'],
-    '🏊{{skin_tone}}‍‍♂️': [
-        'Mann Schwimmen',
-        'Mann Schwimmer'
+    '🏄{{skin_tone}}': ['Person Surfer'],
+    '🚣{{skin_tone}}‍♂️': ['Man Rowing Boat'],
+    '🚣{{skin_tone}}‍♀️': ['Woman Rowing Boat'],
+    '🚣{{skin_tone}}': ['Person Rowing Boat'],
+    '🏊{{skin_tone}}‍♂️': [
+        'Man Swimming',
+        'Man Swimmer'
     ],
-    '🏊{{skin_tone}}‍‍♀️': [
-        'Frauen Schwimmen',
-        'Frauen-Schwimmer'
+    '🏊{{skin_tone}}‍♀️': [
+        'Woman Swimming',
+        'Woman Swimmer'
+    ],
+    '🏊{{skin_tone}}': [
+        'Woman Swimming',
+        'Person Swimmer'
     ],
     '⛹{{skin_tone}}‍️‍♂️': [
         'Mann springende Kugel',
@@ -4956,6 +5178,10 @@ emojis_language[lang][8] = {
         'Frauen springender Ball',
         'Damen-Basketball Spieler'
     ],
+    '⛹️{{skin_tone}}': [
+        'Person Bouncing Ball',
+        'Person Basketball Player'
+    ],
     '🏋️{{skin_tone}}‍♂️': [
         'Mann heben Gewichtungen',
         'Mann Gewichtslifter'
@@ -4963,6 +5189,10 @@ emojis_language[lang][8] = {
     '🏋️{{skin_tone}}‍♀️': [
         'Gewichtung der Frau',
         'Frauen-Gewichtslifter'
+    ],
+    '🏋️{{skin_tone}}': [
+        'Person Lifting Weights',
+        'Person Weightlifter'
     ],
     '🚴{{skin_tone}}‍♂️': [
         'Mann Radfahren',
@@ -4974,6 +5204,11 @@ emojis_language[lang][8] = {
         'Frauen-Radfahrer',
         'Weiblicher Zyklist'
     ],
+    '🚴{{skin_tone}}': [
+        'Person Biking',
+        'Person Cyclist',
+        'Person Cyclist'
+    ],
     '🚵{{skin_tone}}‍♂️': [
         'Mann Mountainbiken',
         'Mann Bergfahrer'
@@ -4981,6 +5216,10 @@ emojis_language[lang][8] = {
     '🚵{{skin_tone}}‍♀️': [
         'Frauen Mountainbiken',
         'Frau Mountainbiker'
+    ],
+    '🚵{{skin_tone}}': [
+        'Person Mountain Biking',
+        'Person Mountain Biker'
     ],
     '🤸{{skin_tone}}‍♂️': [
         'Mann Kartradfahren',
@@ -4990,6 +5229,20 @@ emojis_language[lang][8] = {
         'Weibchen',
         'Frauen-Doing-Wagenrad'
     ],
+    '🤸{{skin_tone}}': [
+        'Person Cartwheeling',
+        'Person Doing Cartwheel'
+    ],
+    '🤼‍♂️': [
+        'Men Wrestling',
+        'Wrestling',
+        'Wrestlers'
+    ],
+    '🤼‍♀️': [
+        'Women Wrestling',
+        'Wrestling',
+        'Wrestlers'
+    ],
     '🤼': [
         'Leute ringen',
         'Ringen',
@@ -4997,8 +5250,10 @@ emojis_language[lang][8] = {
     ],
     '🤽{{skin_tone}}‍♂️': ['Mann spielt Wasser-Polo'],
     '🤽{{skin_tone}}‍♀️': ['Frauen-Wasser-Polo'],
+    '🤽{{skin_tone}}': ['Person Playing Water Polo'],
     '🤾{{skin_tone}}‍♂️': ['Mann spielt Handball'],
     '🤾{{skin_tone}}‍♀️': ['Frauen-Spielhandball'],
+    '🤾{{skin_tone}}': ['Person Playing Handball'],
     '🤹{{skin_tone}}‍♂️': [
         'Mangelschmiede',
         'Männlicher Juggler'
@@ -5006,6 +5261,10 @@ emojis_language[lang][8] = {
     '🤹{{skin_tone}}‍♀️': [
         'Frauen-Jugging',
         'Weiblicher Juggler'
+    ],
+    '🤹{{skin_tone}}': [
+        'Person Juggling',
+        'Person Juggler'
     ],
     '🧘{{skin_tone}}‍♂️': [
         'Mann in Lotus Position',
@@ -5021,10 +5280,18 @@ emojis_language[lang][8] = {
         'Kreuz Bein',
         'Yoga'
     ],
+    '🧘{{skin_tone}}': [
+        'Person in Lotus Position',
+        'Meditation',
+        'Zen',
+        'Cross legged',
+        'Yoga'
+    ],
     '🏃{{skin_tone}}‍♂️': ['Mann läuft'],
     '🏃{{skin_tone}}‍♀️': ['Frau läuft'],
-    '🕺{{skin_tone}}‍': ['Mensch-Tanz'],
-    '💃{{skin_tone}}‍': ['Frauentanz'],
+    '🏃{{skin_tone}}': ['Person Running'],
+    '🕺{{skin_tone}}': ['Man Dancing'],
+    '💃{{skin_tone}}': ['Woman Dancing'],
     '🤺': [
         'Personenzaunen',
         'Fänger'
@@ -6335,7 +6602,7 @@ emojis_language[lang][12] = {
         'Schnippen',
         'Stinky'
     ],
-    '🦻{{skin_tone}}': ['Ear with Hearing Aid'],
+    '🦻{{skin_tone}}': ['Ohr mit Hörhilfe'],
     '🧠': ['Hirn'],
     '🦷': ['Zahn'],
     '👀': [
@@ -6356,21 +6623,21 @@ emojis_language[lang][12] = {
     ],
     '🫦': [
         'Biting Lip',
-        'Lips'
+        'Lippen'
     ],
     '🫀': ['Anatomisches Herz'],
     '🫁': ['Lungen'],
     '🦾': ['Mechanischer Arm'],
     '🦿': ['Mechanisches Bein'],
     '💅{{skin_tone}}': [
-        'Nail Polish',
-        'Fingers',
+        'Nagelpolnisch',
+        'Finger',
         'Manicure',
         'Nonchalant'
     ],
     '🤳{{skin_tone}}': [
         'Selfie',
-        'Phone Camera',
+        'Telefonkamera',
         'Selfie Hand'
     ]
 };
@@ -7372,7 +7639,7 @@ emojis_language[lang][13] = {
     '🪦': ['Kopfstein'],
     '🪧': ['Placard'],
     '🪒': ['Razor'],
-    '🫙': ['Jar'],
+    '🫙': ['Narr'],
     '🛞': [
         'Wheel',
         'Vehicles',
@@ -7384,7 +7651,7 @@ emojis_language[lang][13] = {
         'Life Ring',
         'Boats',
         'Safety',
-        'Water',
+        'Wasser',
         'Lifesaving'
     ],
     '🪬': [
@@ -7406,7 +7673,7 @@ emojis_language[lang][13] = {
     ],
     '🪫': [
         'Low Battery',
-        'Red',
+        'Rot',
         'Energy'
     ],
     '🩻': ['X-Ray'],
@@ -7421,5 +7688,9 @@ emojis_language[lang][13] = {
         'Identity',
         'Passport',
         'ID'
+    ],
+    '🧿': [
+        'Nazar Amulet',
+        'Evil Eye'
     ]
 };

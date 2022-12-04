@@ -703,24 +703,44 @@ emojis_language[lang][3] = {
         'بزرگسال جنسیت خنثی',
         'بزرگسال'
     ],
+    '🧑{{skin_tone}}': [
+        'Person: Beard',
+        'Beard',
+        'Bearded Person',
+        'Bearded Person'
+    ],
+    '🧑{{skin_tone}}‍🦰': [
+        'Person: Red Hair',
+        'Ginger Person',
+        'Person Redhead',
+        'Person With Red Hair'
+    ],
+    '🧑{{skin_tone}}‍🦱': [
+        'Person: Curly Hair',
+        'Person With Curly Hair'
+    ],
+    '🧑{{skin_tone}}‍🦳': [
+        'Person: White Hair',
+        'Person With Gray Hair'
+    ],
+    '🧑{{skin_tone}}‍🦲': [
+        'Person: Bald',
+        'Person With No Hair'
+    ],
     '👱{{skin_tone}}': [
         'شخص: موهای بلوند',
-        'بلوند',
-        'طلایی',
-        'مرد بلوند',
-        'فردی با موهای بلوند',
-        'مردی با موهای بلوند'
+        'Person With Blonde Hair'
     ],
     '👨{{skin_tone}}': [
         'مرد',
         'آقا',
         'مرد سبیل'
     ],
-    '🧔{{skin_tone}}': [
-        'مرد: ریش',
-        'ریش',
-        'مرد ریشو',
-        'شخص ریشو'
+    '🧔{{skin_tone}}‍♂️': [
+        'Man: Beard',
+        'Beard',
+        'Bearded Man',
+        'Bearded Person'
     ],
     '👨{{skin_tone}}‍🦰': [
         'مرد: موهای قرمز',
@@ -740,11 +760,20 @@ emojis_language[lang][3] = {
         'مرد: کچل',
         'مرد بدون مو'
     ],
+    '👱{{skin_tone}}‍♂️': [
+        'مرد: موهای بلوند',
+        'مردی با موهای بلوند'
+    ],
     '👩{{skin_tone}}': [
         'زن',
         'زن',
         'خانم',
         'زن زرد'
+    ],
+    '🧔{{skin_tone}}‍♀️': [
+        'Woman: Beard',
+        'Beard',
+        'Bearded Woman'
     ],
     '👩{{skin_tone}}‍🦰': [
         'زن: موهای قرمز',
@@ -768,136 +797,188 @@ emojis_language[lang][3] = {
         'زن: موهای بلوند',
         'زن با موهای بلوند'
     ],
-    '👱{{skin_tone}}‍♂️': [
-        'مرد: موهای بلوند',
-        'مردی با موهای بلوند'
+    '🧓{{skin_tone}}': [
+        'Older Person',
+        'Gender Neutral Older Adult'
     ],
-    '🧓{{skin_tone}}‍': [
-        'مسن تر',
-        'بزرگسال پیر جنسیت خنثی'
+    '👴{{skin_tone}}': [
+        'Old Man',
+        'Elderly Man',
+        'Grandpa',
+        'Older Man'
     ],
-    '👴{{skin_tone}}‍': [
-        'پیرمرد',
-        'مرد مسن',
-        'پدربزرگ',
-        'مرد مسن تر'
+    '👵{{skin_tone}}': [
+        'Old Woman',
+        'Elderly Woman',
+        'Grandma',
+        'Nanna',
+        'Old Lady',
+        'Older Woman'
     ],
-    '👵{{skin_tone}}‍': [
-        'پیرزن',
-        'زن مسن',
-        'مادربزرگ',
-        'مادربزرگ',
-        'خانم پیر',
-        'زن مسن تر'
+    '👼{{skin_tone}}': [
+        'Baby Angel',
+        'Angel',
+        'Cherub',
+        'Cupid',
+        'Putto'
     ],
-    '👼{{skin_tone}}‍': [
-        'بچه فرشته',
-        'فرشته',
-        'کروب',
-        'کوپیدو',
-        'پوتو'
+    '👨{{skin_tone}}‍🎄': [
+        'Santa Claus',
+        'Saint Nicholas',
+        'Sinterklaas',
+        'Father Christmas'
     ],
-    '🎅{{skin_tone}}‍': [
-        'بابانوئل',
-        'نیکلاس مقدس',
-        'سینترکلاس',
-        'پدر کریسمس'
+    '👩{{skin_tone}}‍🎄': [
+        'Mrs Claus',
+        'Mother Christmas'
     ],
-    '🤶{{skin_tone}}‍': [
-        'خانم کلاوس',
-        'مادر کریسمس'
+    '🧑{{skin_tone}}‍🎄': [
+        'Mx Claus',
+        'Person Christmas'
     ],
-    '🤴{{skin_tone}}‍': ['شاهزاده'],
-    '👸{{skin_tone}}‍': [
-        'شاهدخت',
-        'دختر بلوند',
-        'دختر با تاج',
-        'دختر با تاج'
+    '🤴{{skin_tone}}': ['Prince'],
+    '👸{{skin_tone}}': [
+        'Princess',
+        'Blonde Girl',
+        'Girl With Crown',
+        'Girl With Tiara'
     ],
-    '🫅{{skin_tone}}‍': ['شخص با تاج'],
-    '👳{{skin_tone}}‍♂️': ['مرد عمامه پوش'],
-    '👳{{skin_tone}}‍♀️': ['زن عمامه پوش'],
-    '👲{{skin_tone}}‍': [
-        'شخص با کلاه',
-        'مرد آسیایی',
-        'مردی با کلاه چینی',
-        'مردی با گوا پی مائو'
+    '🫅{{skin_tone}}': ['Person with Crown'],
+    '👳{{skin_tone}}‍♂️': [
+        'مرد عمامه پوش',
+        'Arab',
+        'Muslim',
+        'Sikh',
+        'Turban'
     ],
-    '🧕{{skin_tone}}‍': [
-        'زنی با روسری',
-        'حجاب',
-        'فرد با روسری'
+    '👳{{skin_tone}}‍♀️': [
+        'زن عمامه پوش',
+        'Arab',
+        'Muslim',
+        'Sikh',
+        'Turban'
     ],
-    '🤵{{skin_tone}}‍': [
-        'شخصی با لباس تاکسیدو',
-        'داماد',
-        'مرد با کت و شلوار',
-        'مرد اسموکینگ پوشیده',
-        'ازدواج'
+    '👳{{skin_tone}}': [
+        'Person Wearing Turban',
+        'Arab',
+        'Muslim',
+        'Sikh',
+        'Turban'
     ],
-    '👰{{skin_tone}}‍': [
-        'شخص با پوشش عروس',
-        'عروس',
-        'عروس با پوشش',
-        'ازدواج'
+    '👲{{skin_tone}}': [
+        'Person With Skullcap',
+        'Asian Man',
+        'Man With Chinese Cap',
+        'Man with Gua Pi Mao'
+    ],
+    '🧕{{skin_tone}}': [
+        'Woman with Headscarf',
+        'Hijab',
+        'Person with Headscarf'
+    ],
+    '🤵{{skin_tone}}‍♀️': [
+        'Man in Tuxedo',
+        'Groom',
+        'Man In Suit',
+        'Wedding'
+    ],
+    '🤵{{skin_tone}}‍♂️': [
+        'Woman in Tuxedo',
+        'Groom',
+        'Woman In Suit',
+        'Wedding'
+    ],
+    '🤵{{skin_tone}}': [
+        'Person in Tuxedo',
+        'Groom',
+        'Person In Suit',
+        'Wedding'
     ],
     '👰{{skin_tone}}‍♂️': [
         'مرد با پوشش عروس',
-        'ازدواج'
+        'ازدواج',
+        'Bridegroom',
+        'Marriage'
     ],
     '👰{{skin_tone}}‍♀️': [
         'زن با پوشش عروس',
-        'ازدواج'
+        'ازدواج',
+        'Bride',
+        'Bride with Veil',
+        'Marriage'
+    ],
+    '👰{{skin_tone}}': [
+        'Person With Veil',
+        'Wedding',
+        'Marriage'
     ],
     '👩{{skin_tone}}‍🍼': ['زن در حال تغذیه نوزاد'],
     '👨{{skin_tone}}‍🍼': ['مرد در حال تغذیه کودک'],
+    '🧑{{skin_tone}}‍🍼': ['Person Feeding Baby'],
     '🥷': ['نینجا'],
-    '🤰{{skin_tone}}‍': [
-        'زن باردار',
-        'بارداری',
-        'خانم حامله'
+    '🤰{{skin_tone}}': [
+        'Pregnant Woman',
+        'Pregnancy',
+        'Pregnant Lady'
     ],
-    '🫃{{skin_tone}}‍': [
-        'مرد باردار',
-        'بارداری'
+    '🫃{{skin_tone}}': [
+        'Pregnant Man',
+        'Pregnancy'
     ],
-    '🫄{{skin_tone}}‍': [
-        'فرد باردار',
-        'بارداری'
+    '🫄{{skin_tone}}': [
+        'Pregnant Person',
+        'Pregnancy'
     ],
     '🤱{{skin_tone}}‍': [
         'شیر دادن',
         'شیردهی'
     ],
     '🦸{{skin_tone}}‍♂️': ['مرد ابرقهرمان'],
-    '🦸{{skin_tone}}‍‍♀️': ['ابرقهرمان زن'],
-    '🦹{{skin_tone}}‍‍♂️': ['مرد ابرشرور'],
-    '🦹{{skin_tone}}‍‍♀️': ['زن ابرشرور'],
-    '🧙{{skin_tone}}‍': [
-        'جادوگر',
-        'جادوگر',
-        'جادوگر',
-        'جادوگر',
-        'جادوگر'
+    '🦸{{skin_tone}}‍♀️': ['Woman Superhero'],
+    '🦸{{skin_tone}}': ['Person Superhero'],
+    '🦹{{skin_tone}}‍♂️': ['Man Supervillain'],
+    '🦹{{skin_tone}}‍♀️': ['Woman Supervillain'],
+    '🦹{{skin_tone}}': ['Person Supervillain'],
+    '🧙{{skin_tone}}‍♂️': [
+        'Man Mage',
+        'Sorcerer',
+        'Wizard'
     ],
-    '🧙{{skin_tone}}‍‍♀️': [
-        'زن جادوگر',
-        'جادوگر',
-        'جادوگر'
+    '🧙{{skin_tone}}‍♀️': [
+        'Woman Mage',
+        'Witch',
+        'Sorceress',
+        'Wizard'
     ],
-    '🧚{{skin_tone}}‍‍♂️': ['مرد پری'],
+    '🧙{{skin_tone}}': [
+        'Person Mage',
+        'Wizard',
+        ':mage:'
+    ],
+    '🧚{{skin_tone}}‍♂️': ['Man Fairy'],
     '🧚{{skin_tone}}‍♀️': ['زن پری'],
+    '🧚{{skin_tone}}': ['Person Fairy'],
     '🧛{{skin_tone}}‍♂️': [
         'مرد خون آشام',
         'دراکولا'
     ],
-    '🧛{{skin_tone}}‍‍♀️': ['زن خون آشام'],
-    '🧜{{skin_tone}}‍♂️': ['مرد دریایی'],
-    '🧜{{skin_tone}}‍♀️': ['پری دریایی'],
+    '🧛{{skin_tone}}‍♀️': ['Woman Vampire'],
+    '🧛{{skin_tone}}': ['Person Vampire'],
+    '🧜{{skin_tone}}‍♂️': [
+        'مرد دریایی',
+        'Merboy'
+    ],
+    '🧜{{skin_tone}}‍♀️': [
+        'پری دریایی',
+        'Mergirl'
+    ],
+    '🧜{{skin_tone}}': ['Merperson'],
     '🧝{{skin_tone}}‍♂️': ['مرد الف'],
     '🧝{{skin_tone}}‍♀️': ['زن الف'],
+    '🧝{{skin_tone}}': ['Person Elf'],
     '🧞‍♂️': ['مرد جن'],
     '🧞‍♀️': ['زن جن'],
+    '🧞': ['Person Genie'],
     '🕵️{{skin_tone}}‍♂️': [
         'کارآگاه مرد',
         'چشم خصوصی',
@@ -908,50 +989,98 @@ emojis_language[lang][3] = {
         '007',
         'بازرس'
     ],
-    '🕵️{{skin_tone}}‍♀️': ['کارآگاه زن'],
-    '💂{{skin_tone}}‍': [
-        'نگهبان',
-        'نگهبان بریتانیایی',
-        'نگهبان پیاده‌رو'
+    '🕵️{{skin_tone}}‍♀️': [
+        'کارآگاه زن',
+        'Private Eye',
+        'Sleuth',
+        'Spy',
+        'Woman Sleuth',
+        'Sleuth or Spy',
+        '007',
+        'Inspector'
     ],
-    '💂{{skin_tone}}‍‍♀️': ['نگهبان زن'],
-    '👮{{skin_tone}}‍': [
-        'مامور پلیس',
-        'پلیس',
-        'پلیس',
-        'مرد پلیس',
-        'زن پلیس'
+    '🕵{{skin_tone}}': [
+        'Person Detective',
+        'Private Eye',
+        'Sleuth',
+        'Spy',
+        'Person Sleuth',
+        'Sleuth or Spy',
+        '007',
+        'Inspector'
     ],
-    '👮{{skin_tone}}‍‍♀️': ['زن افسر پلیس'],
+    '💂{{skin_tone}}‍♂️': [
+        'Man: Guard',
+        'British Guardsman',
+        'Foot Guard'
+    ],
+    '💂{{skin_tone}}‍♀️': [
+        'Woman: Guard',
+        'British Guardsman',
+        'Foot Guard'
+    ],
+    '💂{{skin_tone}}': [
+        'Person: Guard',
+        'British Guardsman',
+        'Foot Guard'
+    ],
+    '👮{{skin_tone}}‍♂️': [
+        'Police Officer',
+        'Cop',
+        'Police',
+        'Policeman'
+    ],
+    '👮{{skin_tone}}‍♀️': [
+        'Woman Police Officer',
+        'Cop',
+        'Police',
+        'Policewoman'
+    ],
+    '👮{{skin_tone}}': [
+        'Police Officer',
+        'Cop',
+        'Police'
+    ],
     '👨{{skin_tone}}‍🚒': ['مرد آتش نشان'],
-    '👩{{skin_tone}}‍‍🚒': ['زن آتش نشان'],
-    '👨{{skin_tone}}‍‍✈️': ['مرد خلبان'],
-    '👩{{skin_tone}}‍‍✈️': ['زن خلبان'],
+    '👩{{skin_tone}}‍🚒': ['Woman Firefighter'],
+    '🧑{{skin_tone}}‍🚒': ['Person Firefighter'],
+    '👨{{skin_tone}}‍✈️': ['Man Pilot'],
+    '👩{{skin_tone}}‍✈️': ['Woman Pilot'],
+    '🧑{{skin_tone}}‍✈️': ['Person Pilot'],
     '👨{{skin_tone}}‍💻': [
         'مرد مختصص تکنولوژی',
         'مرد مختصص تکنولوژی'
     ],
     '👩{{skin_tone}}‍💻': ['زن مختصص تکنولوژی'],
+    '🧑{{skin_tone}}‍💻': ['Person Technologist'],
     '👨{{skin_tone}}‍🎤': [
         'مرد خواننده',
         'بووی',
         'علاءالدین صانع'
     ],
     '👩{{skin_tone}}‍🎤': ['زن خواننده'],
+    '🧑{{skin_tone}}‍🎤': ['Person Singer'],
     '👨{{skin_tone}}‍🎨': ['مرد هنرمند'],
     '👩{{skin_tone}}‍🎨': ['مرد هنرمند'],
-    '👷{{skin_tone}}‍‍♂️': ['مرد کارگر ساختمانی'],
-    '👷{{skin_tone}}‍‍♀️': ['زن کارگر ساختمانی'],
-    '👨{{skin_tone}}‍‍🚀': [
-        'مرد فضانورد',
-        'مرد فضانورد'
+    '🧑{{skin_tone}}‍🎨': ['Person Artist'],
+    '👷{{skin_tone}}‍♂️': ['Man Construction Worker'],
+    '👷{{skin_tone}}‍♀️': ['Woman Construction Worker'],
+    '👷{{skin_tone}}': ['Person Construction Worker'],
+    '👨{{skin_tone}}‍🚀': [
+        'Man Astronaut',
+        'Man Cosmonaut'
     ],
-    '👩{{skin_tone}}‍‍🚀': [
-        'زن فضانورد',
-        'زن فضانورد'
+    '👩{{skin_tone}}‍🚀': [
+        'Woman Astronaut',
+        'Woman Cosmonaut'
     ],
-    '👨{{skin_tone}}‍‍🔬': ['مرد دانشمند'],
-    '👩{{skin_tone}}‍‍🔬': ['زن دانشمند'],
+    '🧑{{skin_tone}}‍🚀': [
+        'Person Astronaut',
+        'Person Cosmonaut'
+    ],
+    '👨{{skin_tone}}‍🔬': ['Man Scientist'],
+    '👩{{skin_tone}}‍🔬': ['Woman Scientist'],
+    '🧑{{skin_tone}}‍🔬': ['Person Scientist'],
     '👨{{skin_tone}}‍💼': [
         'مرد کارمند اداری',
         'مدیر عامل',
@@ -962,37 +1091,57 @@ emojis_language[lang][3] = {
         'بازرگان زن',
         'مدیر عامل'
     ],
+    '🧑{{skin_tone}}‍💼': [
+        'Person Office Worker',
+        'Business',
+        'CEO'
+    ],
     '👨{{skin_tone}}‍🏭': ['کارگر کارخانه مرد'],
-    '👩{{skin_tone}}‍‍🏭': ['زن کارگر کارخانه'],
-    '👨{{skin_tone}}‍‍🔧': ['مرد مکانیک'],
-    '👩{{skin_tone}}‍‍🔧': ['مکانیک زن'],
-    '👨{{skin_tone}}‍‍🍳': [
-        'مرد درحال پختن غذا',
-        'مرد آشپز',
-        'سرآشپز مرد'
+    '👩{{skin_tone}}‍🏭': ['Woman Factory Worker'],
+    '🧑{{skin_tone}}‍🏭': ['Person Factory Worker'],
+    '👨{{skin_tone}}‍🔧': ['Man Mechanic'],
+    '👩{{skin_tone}}‍🔧': ['Woman Mechanic'],
+    '🧑{{skin_tone}}‍🔧': ['Person Mechanic'],
+    '👨{{skin_tone}}‍🍳': [
+        'Man Cook',
+        'Man Chef',
+        'Male Chef'
     ],
-    '👩{{skin_tone}}‍‍🍳': [
-        'زن درحال پختن غذا',
-        'زن آشپز',
-        'سرآشپز زن'
+    '👩{{skin_tone}}‍🍳': [
+        'Woman Cook',
+        'Woman Chef',
+        'Female Chef'
     ],
-    '👨{{skin_tone}}‍‍🌾': ['مرد کشاورز'],
-    '👩{{skin_tone}}‍‍🌾': ['زن کشاورز'],
+    '🧑{{skin_tone}}‍🍳': [
+        'Person Cook',
+        'Person Chef'
+    ],
+    '👨{{skin_tone}}‍🌾': ['Man Farmer'],
+    '👩{{skin_tone}}‍🌾': ['Woman Farmer'],
+    '🧑{{skin_tone}}‍🌾': ['Person Farmer'],
     '👨{{skin_tone}}‍‍⚖️': ['مرد قاضی'],
     '👩{{skin_tone}}‍‍⚖️': ['قاضی زن'],
+    '🧑{{skin_tone}}‍‍⚖️': ['Person Judge'],
     '👨{{skin_tone}}‍‍🏫': ['معلم مرد'],
     '👩{{skin_tone}}‍‍🏫': ['معلم زن'],
+    '🧑‍{{skin_tone}}‍‍🏫': ['Person Teacher'],
     '👨{{skin_tone}}‍🎓': ['دانشجوی مرد'],
     '👩{{skin_tone}}‍🎓': ['دانشجوی زن'],
-    '👨{{skin_tone}}‍‍⚕️': [
-        'کارمند بهداشت مرد',
-        'کارمند بهداشت مرد',
-        'پرستار مرد'
+    '🧑{{skin_tone}}‍🎓': ['Person Student'],
+    '👨{{skin_tone}}‍⚕️': [
+        'Man Health Worker',
+        'Male Doctor',
+        'Male Nurse'
     ],
     '👩{{skin_tone}}‍⚕️': [
         'کارمند بهداشت زن',
         'دکتر خانم',
         'پرستار زن'
+    ],
+    '🧑‍{{skin_tone}}‍⚕️': [
+        'Person Health Worker',
+        'Person Doctor',
+        'Person Nurse'
     ],
     '🤷{{skin_tone}}‍♂️': [
         'مردی که شانه بالا می اندازد',
@@ -1004,12 +1153,20 @@ emojis_language[lang][3] = {
         'زن نمیدانم',
         'نمیدانم'
     ],
+    '🤷{{skin_tone}}': [
+        'Person Shrugging',
+        'idk person',
+        'dunno'
+    ],
     '🤦{{skin_tone}}‍♂️': ['دست زدن به صورت مرد'],
     '🤦{{skin_tone}}‍♀️': ['دست زدن به صورت زن'],
+    '🤦{{skin_tone}}': ['Person Facepalming'],
     '🙇{{skin_tone}}‍‍♂️': ['مرد درحال تعظیم'],
     '🙇{{skin_tone}}‍‍♀️': ['زن درحال تعظیم'],
+    '🙇{{skin_tone}}': ['Person Bowing'],
     '🧏{{skin_tone}}‍♂️': ['مرد ناشنوا'],
     '🧏{{skin_tone}}‍‍♀️': ['زن ناشنوا'],
+    '🧏{{skin_tone}}': ['Deaf Person'],
     '🙋{{skin_tone}}‍‍♂️': [
         'مرد بالا بردن دست',
         'مرد شادی که یک دست را بالا می برد'
@@ -1017,6 +1174,10 @@ emojis_language[lang][3] = {
     '🙋{{skin_tone}}‍♀️': [
         'زن در حال بالا بردن دست',
         'زن شادی که یک دستش را بالا می برد'
+    ],
+    '🙋{{skin_tone}}': [
+        'Person Raising Hand',
+        'Happy Person Raising One Hand'
     ],
     '💁{{skin_tone}}‍♂️': [
         'مرد بالا بردن کف دست',
@@ -1026,36 +1187,52 @@ emojis_language[lang][3] = {
         'زن بالا بردن کف دست',
         'زن میز اطلاعات'
     ],
+    '💁{{skin_tone}}': [
+        'Person Tipping Hand',
+        'Information Desk Person'
+    ],
     '🙆{{skin_tone}}‍♂️': ['مرد درحال گرفتن ژست "خوبه"'],
     '🙆{{skin_tone}}‍♀️': ['زن درحال گرفتن ژست "خوبه"'],
+    '🙆{{skin_tone}}': ['Person Gesturing OK'],
     '🙅{{skin_tone}}‍♂️': ['مرد درحال گرفتن ژست "نه"'],
     '🙅{{skin_tone}}‍♀️': ['زن درحال گرفتن ژست "نه"'],
+    '🙅{{skin_tone}}': ['Person Gesturing No'],
     '🙎{{skin_tone}}‍♂️': ['مرد درحال اخم کردن'],
     '🙎{{skin_tone}}‍‍♀️': ['زن درحال اخم کردن'],
-    '🙍{{skin_tone}}‍‍♂️': ['مرد اخم کرده'],
-    '🙍{{skin_tone}}‍‍♀️': ['زن اخم کرده'],
+    '🙎{{skin_tone}}': ['Person Pouting'],
+    '🙍{{skin_tone}}‍♂️': ['Man Frowning'],
+    '🙍{{skin_tone}}‍♀️': ['Woman Frowning'],
+    '🙍{{skin_tone}}': ['Person Frowning'],
     '🧟‍‍♂️': ['مرد زامبی'],
     '🧟‍‍♀️': ['زن زامبی'],
+    '🧟': ['Person Zombie'],
     '🚶{{skin_tone}}‍♂️': ['مرد درحال راه رفتن'],
     '🚶{{skin_tone}}‍♀️': ['زن درحال راه رفتن'],
-    '🧍{{skin_tone}}‍‍♂️': ['مرد ایستاده'],
-    '🧍{{skin_tone}}‍‍♀️': ['زن ایستاده'],
+    '🚶{{skin_tone}}': ['Person Walking'],
+    '🧍{{skin_tone}}‍♂️': ['Man Standing'],
+    '🧍{{skin_tone}}‍♀️': ['Woman Standing'],
+    '🧍{{skin_tone}}': ['Person Standing'],
     '🧎{{skin_tone}}‍♂️': ['مرد زانو زده'],
-    '🧎{{skin_tone}}‍‍♀️': ['زن زانو زده'],
+    '🧎{{skin_tone}}‍♀️': ['Woman Kneeling'],
+    '🧎{{skin_tone}}': ['Person Kneelink'],
     '👨{{skin_tone}}‍🦯': ['مرد با عصای سفید'],
     '👩{{skin_tone}}‍🦯': ['زن با عصای سفید'],
+    '🧑{{skin_tone}}‍🦯': ['Person with White Cane'],
     '👨{{skin_tone}}‍🦼': ['مرد با ویلچر موتوری'],
     '👩{{skin_tone}}‍🦼': ['زن با ویلچر موتوری'],
+    '🧑{{skin_tone}}‍🦼': ['Person in Motorized Wheelchair'],
     '👨{{skin_tone}}‍🦽': ['مرد با ویلچر دستی'],
     '👩{{skin_tone}}‍🦽': ['زن با ویلچر دستی'],
+    '🧑{{skin_tone}}‍🦽': ['Person in Manual Wheelchair'],
     '👯‍♂️': ['مردان با گوش های خرگوشی'],
     '👯‍♀️': ['زنان با گوش های خرگوشی'],
-    '🕴️{{skin_tone}}‍': [
-        'فرد معلق با کت و شلوار',
-        'مرد معلق',
-        'پسر بی‌ادب',
-        'والت جابسکو',
-        'مرد معلق با کت و شلوار رسمی'
+    '👯': ['People with Bunny Ears'],
+    '🕴️{{skin_tone}}': [
+        'Person in Suit Levitating',
+        'Hovering Man',
+        'Rude Boy',
+        'Walt Jabsco',
+        'Man in Business Suit Levitating'
     ],
     '🧖{{skin_tone}}‍♂️': [
         'مردی در اتاق بخار',
@@ -1065,21 +1242,32 @@ emojis_language[lang][3] = {
         'زنی در اتاق بخار',
         'زن در سونا'
     ],
-    '👫{{skin_tone}}‍': [
-        'زن و مرد دست در دست',
-        'زوج دگرجنسگرا',
-        'زوج استریت',
-        'مرد و زن دست در دست'
+    '🧖{{skin_tone}}': [
+        'Person in Steamy Room',
+        'Person in Sauna'
     ],
-    '👭{{skin_tone}}‍': [
-        'زوج لزبین',
-        'زنان دست در دست',
-        'دو زن دست در دست'
+    '👫{{skin_tone}}': [
+        'Woman and Man Holding Hands',
+        'Heterosexual Couple',
+        'Straight Couple',
+        'Man and Woman Holding Hands'
     ],
-    '👬{{skin_tone}}‍': [
-        'مردان دست در دست',
-        'زوج مرد همجنس گرا',
-        'دو مرد دست در دست'
+    '👭{{skin_tone}}': [
+        'Lesbian Couple',
+        'Women Holding Hands',
+        'Two Women Holding Hands'
+    ],
+    '👬{{skin_tone}}': [
+        'Men Holding Hands',
+        'Gay Couple',
+        'Two Men Holding Hands'
+    ],
+    '🧑‍🤝‍🧑': [
+        'People Holding Hands',
+        'Two People Holding Hands',
+        'Gender Inclusive Couple',
+        'Gender Neutral Couple',
+        'Gender Nonconforming Couple'
     ],
     '👨‍👩‍👦': [
         'خانواده با مادر، پدر و پسر',
@@ -1145,13 +1333,13 @@ emojis_language[lang][3] = {
         'Family With Father and Son',
         'Family: Man, Boy'
     ],
-    '👨‍👦‍👦': [
-        'Family: Man, Boy, Boy',
-        'Family With Father and Two Sons'
-    ],
     '👨‍👧': [
         'Family With Father and Daughter',
         'Family: Man, Girl'
+    ],
+    '👨‍👦‍👦': [
+        'Family With Father and Two Sons',
+        'Family: Man, Boy, Boy'
     ],
     '👨‍👧‍👦': [
         'Family With Father, Son and Daughter',
@@ -1165,13 +1353,13 @@ emojis_language[lang][3] = {
         'Family With Mother and Son',
         'Family: Woman, Boy'
     ],
-    '👩‍👦‍👦': [
-        'Family With Mother and Two Sons',
-        'Family: Woman, Boy, Boy'
-    ],
     '👩‍👧': [
         'Family With Mother and Daughter',
         'Family: Woman, Girl'
+    ],
+    '👩‍👦‍👦': [
+        'Family With Mother and Two Sons',
+        'Family: Woman, Boy, Boy'
     ],
     '👩‍👧‍👦': [
         'Family With Mother, Son and Daughter',
@@ -1181,11 +1369,17 @@ emojis_language[lang][3] = {
         'Family With Mother and Two Daughters',
         'Family: Woman, Girl, Girl'
     ],
-    '💑': [
+    '💑{{skin_tone}}': [
         'Couple with Heart',
         'Couple In Love',
         'Loving Couple',
-        'Man and Woman With Heart'
+        'Gender Neutral Couple'
+    ],
+    '👩‍❤️‍👨': [
+        'Man and Woman With Heart',
+        'Couple In Love',
+        'Loving Couple',
+        'Couple With Heart'
     ],
     '👨‍❤️‍👨': [
         'Two Men With Heart',
@@ -1195,11 +1389,27 @@ emojis_language[lang][3] = {
         'Two Women With Heart',
         'Couple with Heart: Woman, Woman'
     ],
-    '💆{{skin_tone}}‍‍♂️': ['Man Getting Head Massage'],
+    '💏{{skin_tone}}': [
+        'Couple Kissing',
+        'Kiss',
+        'Gender Neutral Couple Kissing'
+    ],
+    '👩‍❤️‍💋‍👨': ['Man and Woman Kissing'],
+    '👨‍❤️‍💋‍👨': [
+        'Two Men Kissing',
+        'Man and Man Kissing'
+    ],
+    '👩‍❤️‍💋‍👩': [
+        'Two Women Kissing',
+        'Woman and Woman Kissing'
+    ],
+    '💆{{skin_tone}}‍♂️': ['Man Getting Head Massage'],
     '💆{{skin_tone}}‍♀️': ['Woman Getting Head Massage'],
-    '💇{{skin_tone}}‍‍♂️': ['Man Getting Haircut'],
-    '💇{{skin_tone}}‍‍♀️': ['Woman Getting Haircut'],
-    '🛌{{skin_tone}}‍': [
+    '💆{{skin_tone}}': ['Person Getting Head Massage'],
+    '💇{{skin_tone}}‍♂️': ['Man Getting Haircut'],
+    '💇{{skin_tone}}‍♀️': ['Woman Getting Haircut'],
+    '💇{{skin_tone}}': ['Person Getting Haircut'],
+    '🛌{{skin_tone}}': [
         'Sleeping Accommodation',
         'Person in Bed',
         'Person Sleeping'
@@ -1686,12 +1896,12 @@ emojis_language[lang][4] = {
     '🪹': [
         'Empty Nest',
         'Birds',
-        'Home'
+        'خانه'
     ],
     '🪺': [
         'Nest with Eggs',
         'Birds',
-        'Home'
+        'خانه'
     ]
 };
 /*symbols*/
@@ -1808,30 +2018,30 @@ emojis_language[lang][5] = {
         'Thought Bubble'
     ],
     '💤': [
-        'Zzz',
+        'خروپف',
         'Bedtime',
         'Boring',
         'Sleep',
         'Sleeping Sign',
         'Sleeping Symbol'
     ],
-    '♠️': [
+    '♠': [
         'Spade Suit',
         'Spades',
         'Black Spade Suit'
     ],
-    '♥️': [
+    '♥': [
         'Heart Suit',
         'Card With Heart',
         'Hearts',
         'Black Heart Suit'
     ],
-    '♦️': [
+    '♦': [
         'Diamond Suit',
         'Diamonds',
         'Black Diamond Suit'
     ],
-    '♣️': [
+    '♣': [
         'Club Suit',
         'Clubs',
         'Black Club Suit'
@@ -1868,7 +2078,7 @@ emojis_language[lang][5] = {
     ],
     '🔕': [
         'Bell with Slash',
-        'Notifications',
+        'اعلان‌ها',
         'Ringer Disabled',
         'Muted Bell',
         'Bell with Cancellation Stroke'
@@ -1906,7 +2116,7 @@ emojis_language[lang][5] = {
         'Prohibited',
         'Banned',
         'Circle Backslash',
-        'No',
+        'خیر',
         'Red Circle Crossed',
         'Restricted',
         'No Entry Sign'
@@ -2447,7 +2657,7 @@ emojis_language[lang][5] = {
     ],
     '🔣': [
         'Input Symbol for Symbols',
-        'Symbols',
+        'نمادها',
         'Symbol Input'
     ],
     '🔤': [
@@ -2498,7 +2708,7 @@ emojis_language[lang][5] = {
     ],
     'ℹ️': [
         'Information',
-        'Info',
+        'اطلاعات',
         'Lowercase I',
         'Tourist Information',
         'Information Source'
@@ -2525,7 +2735,7 @@ emojis_language[lang][5] = {
     ],
     '🆗': [
         'OK Button',
-        'OK',
+        'تأیید',
         'Okay',
         'Square',
         'OK Sign',
@@ -2544,7 +2754,7 @@ emojis_language[lang][5] = {
         'SOS',
         'SOS Sign',
         'Squared SOS',
-        'Help'
+        'راهنما'
     ],
     '🆙': [
         'Up! Button',
@@ -4917,17 +5127,22 @@ emojis_language[lang][7] = {
 };
 /*sports*/
 emojis_language[lang][8] = {
-    '🧗{{skin_tone}}‍‍♂️': [
+    '🧗{{skin_tone}}‍♂️': [
         'Man Climbing',
         'Male Rock Climber',
         'Man Climber'
     ],
-    '🧗{{skin_tone}}‍‍♀️': [
+    '🧗{{skin_tone}}‍♀️': [
         'Woman Climbing',
         'Female Rock Climber',
         'Woman Climber'
     ],
-    '🏇{{skin_tone}}‍': [
+    '🧗{{skin_tone}}': [
+        'Person Climbing',
+        'Person Rock Climber',
+        'Person Climber'
+    ],
+    '🏇{{skin_tone}}': [
         'Horse Racing',
         'Horse Race',
         'Jockey'
@@ -4936,17 +5151,24 @@ emojis_language[lang][8] = {
     '🏂{{skin_tone}}‍': ['Snowboarder'],
     '🏌️{{skin_tone}}‍♂️': ['Man Golfer'],
     '🏌️{{skin_tone}}‍♀️': ['Woman Golfer'],
+    '🏌️{{skin_tone}}': ['Person Golfer'],
     '🏄{{skin_tone}}‍♂️': ['Man Surfer'],
     '🏄{{skin_tone}}‍♀️': ['Woman Surfer'],
-    '🚣{{skin_tone}}‍‍♂️': ['Man Rowing Boat'],
-    '🚣{{skin_tone}}‍‍♀️': ['Woman Rowing Boat'],
-    '🏊{{skin_tone}}‍‍♂️': [
+    '🏄{{skin_tone}}': ['Person Surfer'],
+    '🚣{{skin_tone}}‍♂️': ['Man Rowing Boat'],
+    '🚣{{skin_tone}}‍♀️': ['Woman Rowing Boat'],
+    '🚣{{skin_tone}}': ['Person Rowing Boat'],
+    '🏊{{skin_tone}}‍♂️': [
         'Man Swimming',
         'Man Swimmer'
     ],
-    '🏊{{skin_tone}}‍‍♀️': [
+    '🏊{{skin_tone}}‍♀️': [
         'Woman Swimming',
         'Woman Swimmer'
+    ],
+    '🏊{{skin_tone}}': [
+        'Woman Swimming',
+        'Person Swimmer'
     ],
     '⛹{{skin_tone}}‍️‍♂️': [
         'Man Bouncing Ball',
@@ -4956,6 +5178,10 @@ emojis_language[lang][8] = {
         'Woman Bouncing Ball',
         'Woman Basketball Player'
     ],
+    '⛹️{{skin_tone}}': [
+        'Person Bouncing Ball',
+        'Person Basketball Player'
+    ],
     '🏋️{{skin_tone}}‍♂️': [
         'Man Lifting Weights',
         'Man Weightlifter'
@@ -4963,6 +5189,10 @@ emojis_language[lang][8] = {
     '🏋️{{skin_tone}}‍♀️': [
         'Woman Lifting Weights',
         'Woman Weightlifter'
+    ],
+    '🏋️{{skin_tone}}': [
+        'Person Lifting Weights',
+        'Person Weightlifter'
     ],
     '🚴{{skin_tone}}‍♂️': [
         'Man Biking',
@@ -4974,6 +5204,11 @@ emojis_language[lang][8] = {
         'Woman Cyclist',
         'Female Cyclist'
     ],
+    '🚴{{skin_tone}}': [
+        'Person Biking',
+        'Person Cyclist',
+        'Person Cyclist'
+    ],
     '🚵{{skin_tone}}‍♂️': [
         'Man Mountain Biking',
         'Man Mountain Biker'
@@ -4981,6 +5216,10 @@ emojis_language[lang][8] = {
     '🚵{{skin_tone}}‍♀️': [
         'Woman Mountain Biking',
         'Woman Mountain Biker'
+    ],
+    '🚵{{skin_tone}}': [
+        'Person Mountain Biking',
+        'Person Mountain Biker'
     ],
     '🤸{{skin_tone}}‍♂️': [
         'Man Cartwheeling',
@@ -4990,6 +5229,20 @@ emojis_language[lang][8] = {
         'Woman Cartwheeling',
         'Woman Doing Cartwheel'
     ],
+    '🤸{{skin_tone}}': [
+        'Person Cartwheeling',
+        'Person Doing Cartwheel'
+    ],
+    '🤼‍♂️': [
+        'Men Wrestling',
+        'Wrestling',
+        'Wrestlers'
+    ],
+    '🤼‍♀️': [
+        'Women Wrestling',
+        'Wrestling',
+        'Wrestlers'
+    ],
     '🤼': [
         'People Wrestling',
         'Wrestling',
@@ -4997,8 +5250,10 @@ emojis_language[lang][8] = {
     ],
     '🤽{{skin_tone}}‍♂️': ['Man Playing Water Polo'],
     '🤽{{skin_tone}}‍♀️': ['Woman Playing Water Polo'],
+    '🤽{{skin_tone}}': ['Person Playing Water Polo'],
     '🤾{{skin_tone}}‍♂️': ['Man Playing Handball'],
     '🤾{{skin_tone}}‍♀️': ['Woman Playing Handball'],
+    '🤾{{skin_tone}}': ['Person Playing Handball'],
     '🤹{{skin_tone}}‍♂️': [
         'Man Juggling',
         'Male Juggler'
@@ -5006,6 +5261,10 @@ emojis_language[lang][8] = {
     '🤹{{skin_tone}}‍♀️': [
         'Woman Juggling',
         'Female Juggler'
+    ],
+    '🤹{{skin_tone}}': [
+        'Person Juggling',
+        'Person Juggler'
     ],
     '🧘{{skin_tone}}‍♂️': [
         'Man in Lotus Position',
@@ -5021,10 +5280,18 @@ emojis_language[lang][8] = {
         'Cross legged',
         'Yoga'
     ],
+    '🧘{{skin_tone}}': [
+        'Person in Lotus Position',
+        'Meditation',
+        'Zen',
+        'Cross legged',
+        'Yoga'
+    ],
     '🏃{{skin_tone}}‍♂️': ['Man Running'],
     '🏃{{skin_tone}}‍♀️': ['Woman Running'],
-    '🕺{{skin_tone}}‍': ['Man Dancing'],
-    '💃{{skin_tone}}‍': ['Woman Dancing'],
+    '🏃{{skin_tone}}': ['Person Running'],
+    '🕺{{skin_tone}}': ['Man Dancing'],
+    '💃{{skin_tone}}': ['Woman Dancing'],
     '🤺': [
         'Person Fencing',
         'Fancer'
@@ -5437,7 +5704,7 @@ emojis_language[lang][9] = {
         'Haunted House'
     ],
     '🏠': [
-        'Home',
+        'خانه',
         'House Building'
     ],
     '🏡': [
@@ -5614,7 +5881,7 @@ emojis_language[lang][9] = {
     ],
     '🛝': [
         'Playground Slide',
-        'Baby',
+        'کودک',
         'Children'
     ]
 };
@@ -5762,7 +6029,7 @@ emojis_language[lang][10] = {
     ],
     '📧': [
         'E-Mail',
-        'Email'
+        'رایانامه'
     ],
     '📨': [
         'Incoming Envelope',
@@ -5970,7 +6237,7 @@ emojis_language[lang][11] = {
         'Glasses',
         'Eveyglasses'
     ],
-    '🕶️': ['Sunglasses'],
+    '🕶️': ['عینک آفتابی'],
     '🥽': ['Goggles'],
     '🥼': ['Lab Coat'],
     '👔': [
@@ -6069,9 +6336,9 @@ emojis_language[lang][11] = {
         'Crown',
         'King',
         'Queen',
-        'Prince',
+        'شاهزاده',
         'Royal',
-        'Princess'
+        'شاهدخت'
     ],
     '👒': [
         'Hat',
@@ -6082,7 +6349,7 @@ emojis_language[lang][11] = {
     '🎩': [
         'Top Hat',
         'Formal Wear',
-        'Groom'
+        'داماد'
     ],
     '🎓': [
         'Graduation Cap',
@@ -6148,7 +6415,7 @@ emojis_language[lang][12] = {
         'Goodbye',
         'Hand Wave',
         'Hello',
-        'Hi'
+        'سلام'
     ],
     '🖐️{{skin_tone}}': [
         'Hand with Fingers Splayed',
@@ -6175,7 +6442,7 @@ emojis_language[lang][12] = {
         'OK Hand Sign',
         'Okay',
         'Perfect',
-        'Yes'
+        'بله'
     ],
     '✌️{{skin_tone}}': [
         'Victory Hand',
@@ -6237,13 +6504,13 @@ emojis_language[lang][12] = {
     '👍{{skin_tone}}': [
         'Thumbs Up Sign',
         'Like',
-        'Yes'
+        'بله'
     ],
     '👎{{skin_tone}}': [
         'Thumbs Down Sign',
         'Bad',
         'Dislike',
-        'No'
+        'خیر'
     ],
     '✊{{skin_tone}}': [
         'Raised Fist',
@@ -6285,7 +6552,7 @@ emojis_language[lang][12] = {
     ],
     '👐{{skin_tone}}': [
         'Open Hands Sign',
-        'Hug',
+        'بغل',
         'Jazz Hands'
     ],
     '🤲{{skin_tone}}': [
@@ -6327,7 +6594,7 @@ emojis_language[lang][12] = {
         'Ear',
         'Ears',
         'Hearing',
-        'Listening'
+        'در حال گوش دادن'
     ],
     '👃{{skin_tone}}': [
         'Nose',
@@ -6348,7 +6615,7 @@ emojis_language[lang][12] = {
         'Eye',
         'Single Eye'
     ],
-    '👅': ['Tongue Out'],
+    '👅': ['زبان بیرون آمده'],
     '👄': [
         'Mouth',
         'Kissing Lips',
@@ -6469,7 +6736,7 @@ emojis_language[lang][13] = {
     '🦠': [
         'Microbe',
         'Cell',
-        'Coronavirus',
+        'ویروس کرونا',
         'COVID-19',
         'Germ',
         'Microorganism',
@@ -6642,7 +6909,7 @@ emojis_language[lang][13] = {
     ],
     '🎃': [
         'Jack-O-Lantern',
-        'Halloween',
+        'هالووین',
         'Pumpkin'
     ],
     '🌻': [
@@ -6902,7 +7169,7 @@ emojis_language[lang][13] = {
     '🛡️': ['Shield'],
     '⚙️': [
         'Gear',
-        'Settings',
+        'تنظیمات',
         'Options'
     ],
     '⚖️': [
@@ -6998,7 +7265,7 @@ emojis_language[lang][13] = {
     '💰': [
         'Money Bag',
         'Moneybags',
-        'Rich',
+        'پولدار',
         '$'
     ],
     '💸': [
@@ -7421,5 +7688,9 @@ emojis_language[lang][13] = {
         'Identity',
         'Passport',
         'ID'
+    ],
+    '🧿': [
+        'Nazar Amulet',
+        'Evil Eye'
     ]
 };
