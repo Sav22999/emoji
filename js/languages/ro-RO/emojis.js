@@ -703,24 +703,44 @@ emojis_language[lang][3] = {
         'Adulţi neutri din sex',
         'Adulţi'
     ],
+    '🧑{{skin_tone}}': [
+        'Person: Beard',
+        'Beard',
+        'Bearded Person',
+        'Bearded Person'
+    ],
+    '🧑{{skin_tone}}‍🦰': [
+        'Person: Red Hair',
+        'Ginger Person',
+        'Person Redhead',
+        'Person With Red Hair'
+    ],
+    '🧑{{skin_tone}}‍🦱': [
+        'Person: Curly Hair',
+        'Person With Curly Hair'
+    ],
+    '🧑{{skin_tone}}‍🦳': [
+        'Person: White Hair',
+        'Person With Gray Hair'
+    ],
+    '🧑{{skin_tone}}‍🦲': [
+        'Person: Bald',
+        'Person With No Hair'
+    ],
     '👱{{skin_tone}}': [
         'Persoană: Păr de fierar',
-        'Ieșire',
-        'Blondă',
-        'Blondă Om',
-        'Persoană cu Păr de Blond',
-        'Om cu Păr Blonde'
+        'Person With Blonde Hair'
     ],
     '👨{{skin_tone}}': [
         'Om',
         'Bărbat',
         'Om de mana'
     ],
-    '🧔{{skin_tone}}': [
-        'Bărbat: Urș',
-        'Urș',
+    '🧔{{skin_tone}}‍♂️': [
+        'Man: Beard',
+        'Beard',
         'Bearded Man',
-        'Persoană lezată'
+        'Bearded Person'
     ],
     '👨{{skin_tone}}‍🦰': [
         'Bărbat: Păr roșu',
@@ -740,11 +760,20 @@ emojis_language[lang][3] = {
         'Bărbat: Bald',
         'Om fără păr'
     ],
+    '👱{{skin_tone}}‍♂️': [
+        'Bărbat: Păr de fierbinte',
+        'Om cu Păr Blonde'
+    ],
     '👩{{skin_tone}}': [
         'Femeie',
         'Femeie',
         'Doamna',
         'Femeie galbenă'
+    ],
+    '🧔{{skin_tone}}‍♀️': [
+        'Woman: Beard',
+        'Beard',
+        'Bearded Woman'
     ],
     '👩{{skin_tone}}‍🦰': [
         'Femeia: Păr Roșu',
@@ -768,100 +797,135 @@ emojis_language[lang][3] = {
         'Femeia: Păr de fierbinte',
         'Femeie cu Păr Blonde'
     ],
-    '👱{{skin_tone}}‍♂️': [
-        'Bărbat: Păr de fierbinte',
-        'Om cu Păr Blonde'
+    '🧓{{skin_tone}}': [
+        'Older Person',
+        'Gender Neutral Older Adult'
     ],
-    '🧓{{skin_tone}}‍': [
-        'Persoana în vârstă',
-        'Sexul neutru pentru adulţi vârstnici'
-    ],
-    '👴{{skin_tone}}‍': [
-        'Om Vechi',
-        'Persoane vârstnice',
+    '👴{{skin_tone}}': [
+        'Old Man',
+        'Elderly Man',
         'Grandpa',
-        'Om mai mare'
+        'Older Man'
     ],
-    '👵{{skin_tone}}‍': [
-        'Femeie Veche',
-        'Femeia vârstnică',
-        'Bunica',
-        'Nan',
-        'Doamna veche',
-        'Femeie în vârstă'
+    '👵{{skin_tone}}': [
+        'Old Woman',
+        'Elderly Woman',
+        'Grandma',
+        'Nanna',
+        'Old Lady',
+        'Older Woman'
     ],
-    '👼{{skin_tone}}‍': [
+    '👼{{skin_tone}}': [
         'Baby Angel',
-        'Înger',
+        'Angel',
         'Cherub',
         'Cupid',
         'Putto'
     ],
-    '🎅{{skin_tone}}‍': [
-        'Moș Crăciun',
-        'Sfântul Nicholas',
+    '👨{{skin_tone}}‍🎄': [
+        'Santa Claus',
+        'Saint Nicholas',
         'Sinterklaas',
-        'Tata Crăciun'
+        'Father Christmas'
     ],
-    '🤶{{skin_tone}}‍': [
-        'dna Claus',
-        'Craciun Maica'
+    '👩{{skin_tone}}‍🎄': [
+        'Mrs Claus',
+        'Mother Christmas'
     ],
-    '🤴{{skin_tone}}‍': ['Prințul'],
-    '👸{{skin_tone}}‍': [
-        'Prințesa',
-        'Fata Blonde',
-        'Fata cu Coroana',
-        'Fata cu Tiara'
+    '🧑{{skin_tone}}‍🎄': [
+        'Mx Claus',
+        'Person Christmas'
     ],
-    '🫅{{skin_tone}}‍': ['Person with Crown'],
-    '👳{{skin_tone}}‍♂️': ['Om cu turban'],
-    '👳{{skin_tone}}‍♀️': ['Turban de îmbrăcăminte Woman'],
-    '👲{{skin_tone}}‍': [
-        'Persoană cu Skullcap',
-        'Om asiatic',
-        'Om cu Cap Chinez',
-        'Om cu Gua Pi Mao'
+    '🤴{{skin_tone}}': ['Prince'],
+    '👸{{skin_tone}}': [
+        'Princess',
+        'Blonde Girl',
+        'Girl With Crown',
+        'Girl With Tiara'
     ],
-    '🧕{{skin_tone}}‍': [
-        'Femeie cu vălul',
+    '🫅{{skin_tone}}': ['Person with Crown'],
+    '👳{{skin_tone}}‍♂️': [
+        'Om cu turban',
+        'Arab',
+        'Muslim',
+        'Sikh',
+        'Turban'
+    ],
+    '👳{{skin_tone}}‍♀️': [
+        'Turban de îmbrăcăminte Woman',
+        'Arab',
+        'Muslim',
+        'Sikh',
+        'Turban'
+    ],
+    '👳{{skin_tone}}': [
+        'Person Wearing Turban',
+        'Arab',
+        'Muslim',
+        'Sikh',
+        'Turban'
+    ],
+    '👲{{skin_tone}}': [
+        'Person With Skullcap',
+        'Asian Man',
+        'Man With Chinese Cap',
+        'Man with Gua Pi Mao'
+    ],
+    '🧕{{skin_tone}}': [
+        'Woman with Headscarf',
         'Hijab',
-        'Persoană cu văl'
+        'Person with Headscarf'
     ],
-    '🤵{{skin_tone}}‍': [
-        'Persoana din Tuxedo',
+    '🤵{{skin_tone}}‍♀️': [
+        'Man in Tuxedo',
         'Groom',
-        'Om în Suit',
-        'Man în Tuxedo',
+        'Man In Suit',
         'Wedding'
     ],
-    '👰{{skin_tone}}‍': [
-        'Persoana cu Veil',
-        'Mireasa',
-        'Mireasa cu Veil',
+    '🤵{{skin_tone}}‍♂️': [
+        'Woman in Tuxedo',
+        'Groom',
+        'Woman In Suit',
+        'Wedding'
+    ],
+    '🤵{{skin_tone}}': [
+        'Person in Tuxedo',
+        'Groom',
+        'Person In Suit',
         'Wedding'
     ],
     '👰{{skin_tone}}‍♂️': [
         'Man cu Veil',
-        'Wedding'
+        'Wedding',
+        'Bridegroom',
+        'Marriage'
     ],
     '👰{{skin_tone}}‍♀️': [
         'Femeie cu Veil',
-        'Wedding'
+        'Wedding',
+        'Bride',
+        'Bride with Veil',
+        'Marriage'
+    ],
+    '👰{{skin_tone}}': [
+        'Person With Veil',
+        'Wedding',
+        'Marriage'
     ],
     '👩{{skin_tone}}‍🍼': ['Copil de hrănire Femeie'],
     '👨{{skin_tone}}‍🍼': ['Baby Hrănire Om'],
+    '🧑{{skin_tone}}‍🍼': ['Person Feeding Baby'],
     '🥷': ['Ninja'],
-    '🤰{{skin_tone}}‍': [
-        'Femeia însărcinată',
-        'Sarcina',
-        'Doamna însărcinată'
+    '🤰{{skin_tone}}': [
+        'Pregnant Woman',
+        'Pregnancy',
+        'Pregnant Lady'
     ],
-    '🫃{{skin_tone}}‍': [
+    '🫃{{skin_tone}}': [
         'Pregnant Man',
         'Pregnancy'
     ],
-    '🫄{{skin_tone}}‍': [
+    '🫄{{skin_tone}}': [
         'Pregnant Person',
         'Pregnancy'
     ],
@@ -870,34 +934,51 @@ emojis_language[lang][3] = {
         'Alăptarea'
     ],
     '🦸{{skin_tone}}‍♂️': ['Superero Om'],
-    '🦸{{skin_tone}}‍‍♀️': ['Superero Woman'],
-    '🦹{{skin_tone}}‍‍♂️': ['Om Supervillain'],
-    '🦹{{skin_tone}}‍‍♀️': ['Supervillain Woman'],
-    '🧙{{skin_tone}}‍': [
-        'Masă',
+    '🦸{{skin_tone}}‍♀️': ['Woman Superhero'],
+    '🦸{{skin_tone}}': ['Person Superhero'],
+    '🦹{{skin_tone}}‍♂️': ['Man Supervillain'],
+    '🦹{{skin_tone}}‍♀️': ['Woman Supervillain'],
+    '🦹{{skin_tone}}': ['Person Supervillain'],
+    '🧙{{skin_tone}}‍♂️': [
+        'Man Mage',
         'Sorcerer',
-        'Scuze',
-        'Vrăjitor',
-        'Vrăjitor'
+        'Wizard'
     ],
-    '🧙{{skin_tone}}‍‍♀️': [
-        'Masă Femeie',
-        'Vrăjitor',
-        'Scuze'
+    '🧙{{skin_tone}}‍♀️': [
+        'Woman Mage',
+        'Witch',
+        'Sorceress',
+        'Wizard'
     ],
-    '🧚{{skin_tone}}‍‍♂️': ['Lapte de Mană'],
+    '🧙{{skin_tone}}': [
+        'Person Mage',
+        'Wizard',
+        ':mage:'
+    ],
+    '🧚{{skin_tone}}‍♂️': ['Man Fairy'],
     '🧚{{skin_tone}}‍♀️': ['Pastă de Femei'],
+    '🧚{{skin_tone}}': ['Person Fairy'],
     '🧛{{skin_tone}}‍♂️': [
         'Vampir om',
         'Draculă'
     ],
-    '🧛{{skin_tone}}‍‍♀️': ['Vampir Woman'],
-    '🧜{{skin_tone}}‍♂️': ['Merman'],
-    '🧜{{skin_tone}}‍♀️': ['Sirenă'],
+    '🧛{{skin_tone}}‍♀️': ['Woman Vampire'],
+    '🧛{{skin_tone}}': ['Person Vampire'],
+    '🧜{{skin_tone}}‍♂️': [
+        'Merman',
+        'Merboy'
+    ],
+    '🧜{{skin_tone}}‍♀️': [
+        'Sirenă',
+        'Mergirl'
+    ],
+    '🧜{{skin_tone}}': ['Merperson'],
     '🧝{{skin_tone}}‍♂️': ['Elf de om'],
     '🧝{{skin_tone}}‍♀️': ['Elf Femeie'],
+    '🧝{{skin_tone}}': ['Person Elf'],
     '🧞‍♂️': ['Man Genie'],
     '🧞‍♀️': ['Woman Genie'],
+    '🧞': ['Person Genie'],
     '🕵️{{skin_tone}}‍♂️': [
         'Detectivul omului',
         'Ochi privați',
@@ -908,50 +989,98 @@ emojis_language[lang][3] = {
         '007',
         'Inspector'
     ],
-    '🕵️{{skin_tone}}‍♀️': ['Detectivul Femeiei'],
-    '💂{{skin_tone}}‍': [
-        'Paznic',
-        'Gardian Britanic',
-        'Paza piciorului'
+    '🕵️{{skin_tone}}‍♀️': [
+        'Detectivul Femeiei',
+        'Private Eye',
+        'Sleuth',
+        'Spy',
+        'Woman Sleuth',
+        'Sleuth or Spy',
+        '007',
+        'Inspector'
     ],
-    '💂{{skin_tone}}‍‍♀️': ['Garda Woman'],
-    '👮{{skin_tone}}‍': [
-        'Ofițer de poliție',
+    '🕵{{skin_tone}}': [
+        'Person Detective',
+        'Private Eye',
+        'Sleuth',
+        'Spy',
+        'Person Sleuth',
+        'Sleuth or Spy',
+        '007',
+        'Inspector'
+    ],
+    '💂{{skin_tone}}‍♂️': [
+        'Man: Guard',
+        'British Guardsman',
+        'Foot Guard'
+    ],
+    '💂{{skin_tone}}‍♀️': [
+        'Woman: Guard',
+        'British Guardsman',
+        'Foot Guard'
+    ],
+    '💂{{skin_tone}}': [
+        'Person: Guard',
+        'British Guardsman',
+        'Foot Guard'
+    ],
+    '👮{{skin_tone}}‍♂️': [
+        'Police Officer',
         'Cop',
-        'Poliția',
-        'Polieman',
-        'Poliţistă'
+        'Police',
+        'Policeman'
     ],
-    '👮{{skin_tone}}‍‍♀️': ['Ofițer de poliție femei'],
+    '👮{{skin_tone}}‍♀️': [
+        'Woman Police Officer',
+        'Cop',
+        'Police',
+        'Policewoman'
+    ],
+    '👮{{skin_tone}}': [
+        'Police Officer',
+        'Cop',
+        'Police'
+    ],
     '👨{{skin_tone}}‍🚒': ['Jefuitor de pompieri'],
-    '👩{{skin_tone}}‍‍🚒': ['Pompier Woman'],
-    '👨{{skin_tone}}‍‍✈️': ['Pilot Man'],
-    '👩{{skin_tone}}‍‍✈️': ['Pilot Woman'],
+    '👩{{skin_tone}}‍🚒': ['Woman Firefighter'],
+    '🧑{{skin_tone}}‍🚒': ['Person Firefighter'],
+    '👨{{skin_tone}}‍✈️': ['Man Pilot'],
+    '👩{{skin_tone}}‍✈️': ['Woman Pilot'],
+    '🧑{{skin_tone}}‍✈️': ['Person Pilot'],
     '👨{{skin_tone}}‍💻': [
         'Man Tehnologist',
         'Man Tehnologist'
     ],
     '👩{{skin_tone}}‍💻': ['Tehnologie Woman'],
+    '🧑{{skin_tone}}‍💻': ['Person Technologist'],
     '👨{{skin_tone}}‍🎤': [
         'Cântăreață de om',
         'Bowie',
         'Aladdin Sane'
     ],
     '👩{{skin_tone}}‍🎤': ['Cântăreață de Femei'],
+    '🧑{{skin_tone}}‍🎤': ['Person Singer'],
     '👨{{skin_tone}}‍🎨': ['Artist Om'],
     '👩{{skin_tone}}‍🎨': ['Artist Femeie'],
-    '👷{{skin_tone}}‍‍♂️': ['Om Constructor'],
-    '👷{{skin_tone}}‍‍♀️': ['Lucrător de construcții femei'],
-    '👨{{skin_tone}}‍‍🚀': [
+    '🧑{{skin_tone}}‍🎨': ['Person Artist'],
+    '👷{{skin_tone}}‍♂️': ['Man Construction Worker'],
+    '👷{{skin_tone}}‍♀️': ['Woman Construction Worker'],
+    '👷{{skin_tone}}': ['Person Construction Worker'],
+    '👨{{skin_tone}}‍🚀': [
         'Man Astronaut',
-        'Om Cosmonaut'
+        'Man Cosmonaut'
     ],
-    '👩{{skin_tone}}‍‍🚀': [
-        'Astronaut Woman',
+    '👩{{skin_tone}}‍🚀': [
+        'Woman Astronaut',
         'Woman Cosmonaut'
     ],
-    '👨{{skin_tone}}‍‍🔬': ['Man Scientist'],
-    '👩{{skin_tone}}‍‍🔬': ['Woman Scientist'],
+    '🧑{{skin_tone}}‍🚀': [
+        'Person Astronaut',
+        'Person Cosmonaut'
+    ],
+    '👨{{skin_tone}}‍🔬': ['Man Scientist'],
+    '👩{{skin_tone}}‍🔬': ['Woman Scientist'],
+    '🧑{{skin_tone}}‍🔬': ['Person Scientist'],
     '👨{{skin_tone}}‍💼': [
         'Muncitor din Om',
         'CEO',
@@ -962,37 +1091,57 @@ emojis_language[lang][3] = {
         'Femeie de afaceri',
         'CEO'
     ],
+    '🧑{{skin_tone}}‍💼': [
+        'Person Office Worker',
+        'Business',
+        'CEO'
+    ],
     '👨{{skin_tone}}‍🏭': ['Man-Factory Worker'],
-    '👩{{skin_tone}}‍‍🏭': ['Lucrător Femeie'],
-    '👨{{skin_tone}}‍‍🔧': ['Mecanic de om'],
-    '👩{{skin_tone}}‍‍🔧': ['Mecanic Femei'],
-    '👨{{skin_tone}}‍‍🍳': [
-        'Om bucătar',
-        'Bărbat',
-        'Bărbat Bărbat'
+    '👩{{skin_tone}}‍🏭': ['Woman Factory Worker'],
+    '🧑{{skin_tone}}‍🏭': ['Person Factory Worker'],
+    '👨{{skin_tone}}‍🔧': ['Man Mechanic'],
+    '👩{{skin_tone}}‍🔧': ['Woman Mechanic'],
+    '🧑{{skin_tone}}‍🔧': ['Person Mechanic'],
+    '👨{{skin_tone}}‍🍳': [
+        'Man Cook',
+        'Man Chef',
+        'Male Chef'
     ],
-    '👩{{skin_tone}}‍‍🍳': [
-        'Bucătar Woman',
-        'Chef de Femei',
-        'Chef Femeie'
+    '👩{{skin_tone}}‍🍳': [
+        'Woman Cook',
+        'Woman Chef',
+        'Female Chef'
     ],
-    '👨{{skin_tone}}‍‍🌾': ['Fermier Man'],
-    '👩{{skin_tone}}‍‍🌾': ['Fermier Femeie'],
+    '🧑{{skin_tone}}‍🍳': [
+        'Person Cook',
+        'Person Chef'
+    ],
+    '👨{{skin_tone}}‍🌾': ['Man Farmer'],
+    '👩{{skin_tone}}‍🌾': ['Woman Farmer'],
+    '🧑{{skin_tone}}‍🌾': ['Person Farmer'],
     '👨{{skin_tone}}‍‍⚖️': ['Judecător bărbat'],
     '👩{{skin_tone}}‍‍⚖️': ['Judecător Woman'],
+    '🧑{{skin_tone}}‍‍⚖️': ['Person Judge'],
     '👨{{skin_tone}}‍‍🏫': ['Profesor de Oan'],
     '👩{{skin_tone}}‍‍🏫': ['Profesor de Femei'],
+    '🧑‍{{skin_tone}}‍‍🏫': ['Person Teacher'],
     '👨{{skin_tone}}‍🎓': ['Student Man'],
     '👩{{skin_tone}}‍🎓': ['Student Femeie'],
-    '👨{{skin_tone}}‍‍⚕️': [
-        'Om Health Worker',
-        'Doctor masculin',
-        'Aurse masculine'
+    '🧑{{skin_tone}}‍🎓': ['Person Student'],
+    '👨{{skin_tone}}‍⚕️': [
+        'Man Health Worker',
+        'Male Doctor',
+        'Male Nurse'
     ],
     '👩{{skin_tone}}‍⚕️': [
         'Lucrător de Sănătate Femei',
         'Doctor feminin',
         'Aurs feminin'
+    ],
+    '🧑‍{{skin_tone}}‍⚕️': [
+        'Person Health Worker',
+        'Person Doctor',
+        'Person Nurse'
     ],
     '🤷{{skin_tone}}‍♂️': [
         'Omul de bălegar',
@@ -1004,12 +1153,20 @@ emojis_language[lang][3] = {
         'femeie de dink',
         'dunno'
     ],
+    '🤷{{skin_tone}}': [
+        'Person Shrugging',
+        'idk person',
+        'dunno'
+    ],
     '🤦{{skin_tone}}‍♂️': ['Facepalming al omului'],
     '🤦{{skin_tone}}‍♀️': ['Factor Woman'],
+    '🤦{{skin_tone}}': ['Person Facepalming'],
     '🙇{{skin_tone}}‍‍♂️': ['Umflare pentru om'],
     '🙇{{skin_tone}}‍‍♀️': ['Aruncare Woman'],
+    '🙇{{skin_tone}}': ['Person Bowing'],
     '🧏{{skin_tone}}‍♂️': ['Man de mare'],
     '🧏{{skin_tone}}‍‍♀️': ['Femeie de mare'],
+    '🧏{{skin_tone}}': ['Deaf Person'],
     '🙋{{skin_tone}}‍‍♂️': [
         'Mână de Ridicare Omul',
         'Omul fericit care dăruiește o mână'
@@ -1017,6 +1174,10 @@ emojis_language[lang][3] = {
     '🙋{{skin_tone}}‍♀️': [
         'Mână de Ridicare Femeie',
         'Femeie fericită Ridică o mână'
+    ],
+    '🙋{{skin_tone}}': [
+        'Person Raising Hand',
+        'Happy Person Raising One Hand'
     ],
     '💁{{skin_tone}}‍♂️': [
         'Mână de Sfânt',
@@ -1026,36 +1187,52 @@ emojis_language[lang][3] = {
         'Mână de Sfânt Femeie',
         'Birou de informare'
     ],
+    '💁{{skin_tone}}': [
+        'Person Tipping Hand',
+        'Information Desk Person'
+    ],
     '🙆{{skin_tone}}‍♂️': ['Man Gesturing OK'],
     '🙆{{skin_tone}}‍♀️': ['Gestul Femeiei OK'],
+    '🙆{{skin_tone}}': ['Person Gesturing OK'],
     '🙅{{skin_tone}}‍♂️': ['Nr. Gesturing Om'],
     '🙅{{skin_tone}}‍♀️': ['Nr. Gesturing Femeie'],
+    '🙅{{skin_tone}}': ['Person Gesturing No'],
     '🙎{{skin_tone}}‍♂️': ['Man Pouting'],
     '🙎{{skin_tone}}‍‍♀️': ['Pouting de Femei'],
-    '🙍{{skin_tone}}‍‍♂️': ['Man Frowning'],
-    '🙍{{skin_tone}}‍‍♀️': ['Întâlnire Woman'],
+    '🙎{{skin_tone}}': ['Person Pouting'],
+    '🙍{{skin_tone}}‍♂️': ['Man Frowning'],
+    '🙍{{skin_tone}}‍♀️': ['Woman Frowning'],
+    '🙍{{skin_tone}}': ['Person Frowning'],
     '🧟‍‍♂️': ['Zombi bărbat'],
     '🧟‍‍♀️': ['Zombie Femeie'],
+    '🧟': ['Person Zombie'],
     '🚶{{skin_tone}}‍♂️': ['Mersul omului'],
     '🚶{{skin_tone}}‍♀️': ['Plimbare Woman'],
-    '🧍{{skin_tone}}‍‍♂️': ['Stare de Om'],
-    '🧍{{skin_tone}}‍‍♀️': ['Stare Femei'],
+    '🚶{{skin_tone}}': ['Person Walking'],
+    '🧍{{skin_tone}}‍♂️': ['Man Standing'],
+    '🧍{{skin_tone}}‍♀️': ['Woman Standing'],
+    '🧍{{skin_tone}}': ['Person Standing'],
     '🧎{{skin_tone}}‍♂️': ['Om îngenunchiat'],
-    '🧎{{skin_tone}}‍‍♀️': ['Cuiburi de Femei'],
+    '🧎{{skin_tone}}‍♀️': ['Woman Kneeling'],
+    '🧎{{skin_tone}}': ['Person Kneelink'],
     '👨{{skin_tone}}‍🦯': ['Bărbat cu Cane Albă'],
     '👩{{skin_tone}}‍🦯': ['Femeie cu Cane Albă'],
+    '🧑{{skin_tone}}‍🦯': ['Person with White Cane'],
     '👨{{skin_tone}}‍🦼': ['Om în scaun cu roată motorizat'],
     '👩{{skin_tone}}‍🦼': ['Femeia în scaunul cu rotile motorizat'],
+    '🧑{{skin_tone}}‍🦼': ['Person in Motorized Wheelchair'],
     '👨{{skin_tone}}‍🦽': ['Om în scaunul rulant manual'],
     '👩{{skin_tone}}‍🦽': ['Femeie în scaunul rulant manual'],
+    '🧑{{skin_tone}}‍🦽': ['Person in Manual Wheelchair'],
     '👯‍♂️': ['Bărbați cu urechi iepurii'],
     '👯‍♀️': ['Femei cu urechi Bunny'],
-    '🕴️{{skin_tone}}‍': [
-        'Persoană în Leviting Suit',
-        'Omul de plutire',
-        'Băiat rudimentar',
+    '👯': ['People with Bunny Ears'],
+    '🕴️{{skin_tone}}': [
+        'Person in Suit Levitating',
+        'Hovering Man',
+        'Rude Boy',
         'Walt Jabsco',
-        'Om în Business Suit Leviting'
+        'Man in Business Suit Levitating'
     ],
     '🧖{{skin_tone}}‍♂️': [
         'Om în Steamy Room',
@@ -1065,21 +1242,32 @@ emojis_language[lang][3] = {
         'Femeie în Steamy Room',
         'Femeie în Sauna'
     ],
-    '👫{{skin_tone}}‍': [
-        'Femei şi Man Holding Hands',
-        'Cuplu heterosexual',
-        'Cuplu Dreapta',
-        'Mâini de Bărbat și de Femei'
+    '🧖{{skin_tone}}': [
+        'Person in Steamy Room',
+        'Person in Sauna'
     ],
-    '👭{{skin_tone}}‍': [
-        'Cuplu Lesbian',
-        'Femei care deţin Mâinile',
-        'Două femei care deţin Mâinile'
+    '👫{{skin_tone}}': [
+        'Woman and Man Holding Hands',
+        'Heterosexual Couple',
+        'Straight Couple',
+        'Man and Woman Holding Hands'
     ],
-    '👬{{skin_tone}}‍': [
-        'Mânuşi de Bărbaţi',
-        'Cuplu de Gay',
-        'Două Men Holding Hands'
+    '👭{{skin_tone}}': [
+        'Lesbian Couple',
+        'Women Holding Hands',
+        'Two Women Holding Hands'
+    ],
+    '👬{{skin_tone}}': [
+        'Men Holding Hands',
+        'Gay Couple',
+        'Two Men Holding Hands'
+    ],
+    '🧑‍🤝‍🧑': [
+        'People Holding Hands',
+        'Two People Holding Hands',
+        'Gender Inclusive Couple',
+        'Gender Neutral Couple',
+        'Gender Nonconforming Couple'
     ],
     '👨‍👩‍👦': [
         'Familia cu Mamă, Tată şi fiu',
@@ -1145,13 +1333,13 @@ emojis_language[lang][3] = {
         'Familia cu părinte și fiu',
         'Familie: Man, Băiat'
     ],
-    '👨‍👦‍👦': [
-        'Familie: Man, Băiat, Băiat',
-        'Familia cu părinte şi doi fii'
-    ],
     '👨‍👧': [
         'Familie cu părinte și fiică',
         'Familie: Man, Fata'
+    ],
+    '👨‍👦‍👦': [
+        'Family With Father and Two Sons',
+        'Family: Man, Boy, Boy'
     ],
     '👨‍👧‍👦': [
         'Familie cu Tatăl, Fiul și fiica',
@@ -1165,13 +1353,13 @@ emojis_language[lang][3] = {
         'Familia cu Mama si Son',
         'Familie: Femeie, Băiat'
     ],
-    '👩‍👦‍👦': [
-        'Familia cu Mama şi Doi Soni',
-        'Familie: Femei, Băiat, Băiat'
-    ],
     '👩‍👧': [
         'Familie cu Mama şi Fiica',
         'Familie: Femei, Fata'
+    ],
+    '👩‍👦‍👦': [
+        'Familia cu Mama şi Doi Soni',
+        'Familie: Femei, Băiat, Băiat'
     ],
     '👩‍👧‍👦': [
         'Familia cu mama, Son şi fiica',
@@ -1181,11 +1369,17 @@ emojis_language[lang][3] = {
         'Familie cu Mama şi două fiice',
         'Familie: Femei, fată, fată'
     ],
-    '💑': [
-        'Cupă cu inimă',
-        'Couple in dragoste',
-        'Cuplul Iubitor',
-        'Bărbaţi şi femei cu inimă'
+    '💑{{skin_tone}}': [
+        'Couple with Heart',
+        'Couple In Love',
+        'Loving Couple',
+        'Gender Neutral Couple'
+    ],
+    '👩‍❤️‍👨': [
+        'Man and Woman With Heart',
+        'Couple In Love',
+        'Loving Couple',
+        'Couple With Heart'
     ],
     '👨‍❤️‍👨': [
         'Doi bărbaţi cu inimă',
@@ -1195,14 +1389,30 @@ emojis_language[lang][3] = {
         'Două femei cu inimă',
         'Cuplu cu inimă: Femei, Femeie'
     ],
-    '💆{{skin_tone}}‍‍♂️': ['Masaj pentru Masajul Masajului Bărbat'],
+    '💏{{skin_tone}}': [
+        'Couple Kissing',
+        'Kiss',
+        'Gender Neutral Couple Kissing'
+    ],
+    '👩‍❤️‍💋‍👨': ['Man and Woman Kissing'],
+    '👨‍❤️‍💋‍👨': [
+        'Two Men Kissing',
+        'Man and Man Kissing'
+    ],
+    '👩‍❤️‍💋‍👩': [
+        'Two Women Kissing',
+        'Woman and Woman Kissing'
+    ],
+    '💆{{skin_tone}}‍♂️': ['Man Getting Head Massage'],
     '💆{{skin_tone}}‍♀️': ['Masajul Căutării Femeiei'],
-    '💇{{skin_tone}}‍‍♂️': ['Bărbat Haircut'],
-    '💇{{skin_tone}}‍‍♀️': ['Haircut Femeie'],
-    '🛌{{skin_tone}}‍': [
-        'Cazare dormit',
-        'Persoana în pat',
-        'Dorință persoană'
+    '💆{{skin_tone}}': ['Person Getting Head Massage'],
+    '💇{{skin_tone}}‍♂️': ['Man Getting Haircut'],
+    '💇{{skin_tone}}‍♀️': ['Woman Getting Haircut'],
+    '💇{{skin_tone}}': ['Person Getting Haircut'],
+    '🛌{{skin_tone}}': [
+        'Sleeping Accommodation',
+        'Person in Bed',
+        'Person Sleeping'
     ],
     '🧌': ['Troll'],
     '👺': [
@@ -1686,12 +1896,12 @@ emojis_language[lang][4] = {
     '🪹': [
         'Empty Nest',
         'Birds',
-        'Home'
+        'Acasă'
     ],
     '🪺': [
         'Nest with Eggs',
         'Birds',
-        'Home'
+        'Acasă'
     ]
 };
 /*symbols*/
@@ -1815,26 +2025,26 @@ emojis_language[lang][5] = {
         'Semn de dormit',
         'Simbol de somn'
     ],
-    '♠️': [
-        'Costume de pânză',
+    '♠': [
+        'Spade Suit',
         'Spades',
         'Black Spade Suit'
     ],
-    '♥️': [
-        'Costuri de inimă',
-        'Card cu inimă',
-        'Inimi',
-        'Costum de inimă Neagră'
+    '♥': [
+        'Heart Suit',
+        'Card With Heart',
+        'Hearts',
+        'Black Heart Suit'
     ],
-    '♦️': [
-        'Costum de diamant',
-        'Diamante',
-        'Costum de diamant negru'
+    '♦': [
+        'Diamond Suit',
+        'Diamonds',
+        'Black Diamond Suit'
     ],
-    '♣️': [
-        'Costume de club',
-        'Cluburi',
-        'Costum de Club Negru'
+    '♣': [
+        'Club Suit',
+        'Clubs',
+        'Black Club Suit'
     ],
     '🏧': [
         'Semn ATM',
@@ -3553,7 +3763,7 @@ emojis_language[lang][6] = {
     '🫗': [
         'Pouring Liquid',
         'Pouring Drink',
-        'Water'
+        'Apă'
     ]
 };
 /*flags*/
@@ -4917,36 +5127,48 @@ emojis_language[lang][7] = {
 };
 /*sports*/
 emojis_language[lang][8] = {
-    '🧗{{skin_tone}}‍‍♂️': [
-        'Barbatul',
-        'Rock Climber Bărbat',
-        'Cântăreață de om'
+    '🧗{{skin_tone}}‍♂️': [
+        'Man Climbing',
+        'Male Rock Climber',
+        'Man Climber'
     ],
-    '🧗{{skin_tone}}‍‍♀️': [
-        'Căţărare Femeie',
-        'Rock Climber Femeie',
-        'Cântăreață Woman'
+    '🧗{{skin_tone}}‍♀️': [
+        'Woman Climbing',
+        'Female Rock Climber',
+        'Woman Climber'
     ],
-    '🏇{{skin_tone}}‍': [
-        'Curse de cal',
-        'Cursa cabalinelor',
+    '🧗{{skin_tone}}': [
+        'Person Climbing',
+        'Person Rock Climber',
+        'Person Climber'
+    ],
+    '🏇{{skin_tone}}': [
+        'Horse Racing',
+        'Horse Race',
         'Jockey'
     ],
     '⛷{{skin_tone}}‍️': ['Schiță'],
     '🏂{{skin_tone}}‍': ['Snowboarder'],
     '🏌️{{skin_tone}}‍♂️': ['Man Golfer'],
     '🏌️{{skin_tone}}‍♀️': ['Golfer Woman'],
+    '🏌️{{skin_tone}}': ['Person Golfer'],
     '🏄{{skin_tone}}‍♂️': ['Navighează Man'],
     '🏄{{skin_tone}}‍♀️': ['Navigare Femeie'],
-    '🚣{{skin_tone}}‍‍♂️': ['Barca arcașilor din Om'],
-    '🚣{{skin_tone}}‍‍♀️': ['Barca de arsură Woman'],
-    '🏊{{skin_tone}}‍‍♂️': [
-        'Înotător de om',
-        'Înotător de om'
+    '🏄{{skin_tone}}': ['Person Surfer'],
+    '🚣{{skin_tone}}‍♂️': ['Man Rowing Boat'],
+    '🚣{{skin_tone}}‍♀️': ['Woman Rowing Boat'],
+    '🚣{{skin_tone}}': ['Person Rowing Boat'],
+    '🏊{{skin_tone}}‍♂️': [
+        'Man Swimming',
+        'Man Swimmer'
     ],
-    '🏊{{skin_tone}}‍‍♀️': [
-        'Înotare Femei',
-        'Înotător de Femei'
+    '🏊{{skin_tone}}‍♀️': [
+        'Woman Swimming',
+        'Woman Swimmer'
+    ],
+    '🏊{{skin_tone}}': [
+        'Woman Swimming',
+        'Person Swimmer'
     ],
     '⛹{{skin_tone}}‍️‍♂️': [
         'Minge Bărbat',
@@ -4956,6 +5178,10 @@ emojis_language[lang][8] = {
         'Minge de salt Woman',
         'Jucător de baschet Woman'
     ],
+    '⛹️{{skin_tone}}': [
+        'Person Bouncing Ball',
+        'Person Basketball Player'
+    ],
     '🏋️{{skin_tone}}‍♂️': [
         'Greutăţile Omului Ridicat',
         'Man Haltteră'
@@ -4963,6 +5189,10 @@ emojis_language[lang][8] = {
     '🏋️{{skin_tone}}‍♀️': [
         'Greutatea Ridicării Femeiei',
         'Halteră Femeie'
+    ],
+    '🏋️{{skin_tone}}': [
+        'Person Lifting Weights',
+        'Person Weightlifter'
     ],
     '🚴{{skin_tone}}‍♂️': [
         'Biciclete pentru bărbat',
@@ -4974,6 +5204,11 @@ emojis_language[lang][8] = {
         'Ciclist Woman',
         'Ciclist feminin'
     ],
+    '🚴{{skin_tone}}': [
+        'Person Biking',
+        'Person Cyclist',
+        'Person Cyclist'
+    ],
     '🚵{{skin_tone}}‍♂️': [
         'Ciclism de munte Man',
         'Biciclist de munte Man'
@@ -4981,6 +5216,10 @@ emojis_language[lang][8] = {
     '🚵{{skin_tone}}‍♀️': [
         'Ciclism de munte Woman',
         'Ciclu de munte Woman'
+    ],
+    '🚵{{skin_tone}}': [
+        'Person Mountain Biking',
+        'Person Mountain Biker'
     ],
     '🤸{{skin_tone}}‍♂️': [
         'Bărbat cu coșul',
@@ -4990,6 +5229,20 @@ emojis_language[lang][8] = {
         'Cartografiere Woman',
         'Cartușul de Femei'
     ],
+    '🤸{{skin_tone}}': [
+        'Person Cartwheeling',
+        'Person Doing Cartwheel'
+    ],
+    '🤼‍♂️': [
+        'Men Wrestling',
+        'Wrestling',
+        'Wrestlers'
+    ],
+    '🤼‍♀️': [
+        'Women Wrestling',
+        'Wrestling',
+        'Wrestlers'
+    ],
     '🤼': [
         'Lupte cu persoane',
         'Lupte',
@@ -4997,8 +5250,10 @@ emojis_language[lang][8] = {
     ],
     '🤽{{skin_tone}}‍♂️': ['Polo de apă pentru bărbat'],
     '🤽{{skin_tone}}‍♀️': ['Polo de apă feminin'],
+    '🤽{{skin_tone}}': ['Person Playing Water Polo'],
     '🤾{{skin_tone}}‍♂️': ['Handbal Jucat Bărbat'],
     '🤾{{skin_tone}}‍♀️': ['Mingea Jucării Femei'],
+    '🤾{{skin_tone}}': ['Person Playing Handball'],
     '🤹{{skin_tone}}‍♂️': [
         'Jugăiască bărbat',
         'Juggler masculin'
@@ -5006,6 +5261,10 @@ emojis_language[lang][8] = {
     '🤹{{skin_tone}}‍♀️': [
         'Jugiliere Femeie',
         'Juggler Femeie'
+    ],
+    '🤹{{skin_tone}}': [
+        'Person Juggling',
+        'Person Juggler'
     ],
     '🧘{{skin_tone}}‍♂️': [
         'Om în poziția de Lotus',
@@ -5021,10 +5280,18 @@ emojis_language[lang][8] = {
         'Cruce cu picior',
         'Yoga'
     ],
+    '🧘{{skin_tone}}': [
+        'Person in Lotus Position',
+        'Meditation',
+        'Zen',
+        'Cross legged',
+        'Yoga'
+    ],
     '🏃{{skin_tone}}‍♂️': ['Bărbat care rulează'],
     '🏃{{skin_tone}}‍♀️': ['Femei care rulează'],
-    '🕺{{skin_tone}}‍': ['Dans pentru om'],
-    '💃{{skin_tone}}‍': ['Dans feminin'],
+    '🏃{{skin_tone}}': ['Person Running'],
+    '🕺{{skin_tone}}': ['Man Dancing'],
+    '💃{{skin_tone}}': ['Woman Dancing'],
     '🤺': [
         'Fenomenul Persoanei',
         'Fancer'
@@ -5614,7 +5881,7 @@ emojis_language[lang][9] = {
     ],
     '🛝': [
         'Playground Slide',
-        'Baby',
+        'Copil',
         'Children'
     ]
 };
@@ -6335,7 +6602,7 @@ emojis_language[lang][12] = {
         'Sniffing',
         'Stinky'
     ],
-    '🦻{{skin_tone}}': ['Ear with Hearing Aid'],
+    '🦻{{skin_tone}}': ['Uz cu ajutor pentru audiere'],
     '🧠': ['Creier'],
     '🦷': ['Dinte'],
     '👀': [
@@ -6356,22 +6623,22 @@ emojis_language[lang][12] = {
     ],
     '🫦': [
         'Biting Lip',
-        'Lips'
+        'Buze'
     ],
     '🫀': ['Inimă anatomică'],
     '🫁': ['Plămâni'],
     '🦾': ['Braţ mecanic'],
     '🦿': ['Picior mecanic'],
     '💅{{skin_tone}}': [
-        'Nail Polish',
-        'Fingers',
+        'Cale poloneză',
+        'Degete',
         'Manicure',
         'Nonchalant'
     ],
     '🤳{{skin_tone}}': [
-        'Selfie',
-        'Phone Camera',
-        'Selfie Hand'
+        'Auto-fie',
+        'Camera telefonică',
+        'Mână de Selfie'
     ]
 };
 /*other*/
@@ -7372,7 +7639,7 @@ emojis_language[lang][13] = {
     '🪦': ['Piatră căști'],
     '🪧': ['Placard'],
     '🪒': ['Razor'],
-    '🫙': ['Jar'],
+    '🫙': ['Borcan'],
     '🛞': [
         'Wheel',
         'Vehicles',
@@ -7384,7 +7651,7 @@ emojis_language[lang][13] = {
         'Life Ring',
         'Boats',
         'Safety',
-        'Water',
+        'Apă',
         'Lifesaving'
     ],
     '🪬': [
@@ -7406,7 +7673,7 @@ emojis_language[lang][13] = {
     ],
     '🪫': [
         'Low Battery',
-        'Red',
+        'Roșu',
         'Energy'
     ],
     '🩻': ['X-Ray'],
@@ -7421,5 +7688,9 @@ emojis_language[lang][13] = {
         'Identity',
         'Passport',
         'ID'
+    ],
+    '🧿': [
+        'Nazar Amulet',
+        'Evil Eye'
     ]
 };

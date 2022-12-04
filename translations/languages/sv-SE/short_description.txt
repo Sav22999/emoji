@@ -1,4 +1,0 @@
-Det tillåter bara med ett enda klick för att kopiera en emoji.
-Det finns en sökruta och avsnittet "Mest använda emojis" (den första).
-
-Om du vill skicka feedback eller rapportera fel, vänligen gå till https://github.com/Sav22999/emoji
