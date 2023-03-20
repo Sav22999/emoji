@@ -647,6 +647,12 @@ div {
     color: inherit;
 }
 
+.break-new-line {
+    position: relative;
+    display: block;
+    margin: 0px;
+}
+
 .title-subsection-settings {
     font-size: 16px;
     height: 30px;
@@ -1052,4 +1058,9 @@ div {
     padding: 5px;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.blue-selected-button, .blue-selected-button:hover {
+    background-color: #3399ff;
+    color: #ffffff;
 }

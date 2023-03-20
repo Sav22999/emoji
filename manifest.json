@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Emoji",
-  "version": "3.15",
+  "version": "3.16",
   "description": "It permits just with a single click to copy and insert an emoji. You can also customise the add-on.",
   "icons": {
     "16": "./img/icon-dark-16.png",
@@ -12,9 +12,6 @@
   "commands": {
     "_execute_browser_action": {
       "suggested_key": {
-        "windows": "Ctrl+Alt+A",
-        "mac": "Command+Alt+A",
-        "linux": "Ctrl+Alt+A",
         "default": "Ctrl+Alt+A"
       }
     }

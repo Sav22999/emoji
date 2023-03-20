@@ -1900,4 +1900,5 @@ emojis_language[lang][13] = {
     "🫧": ["Bubbles", "Soap Suds", "Carbonation", "Effervescent Personality"],
     "🪪": ["Identification Card", "Identity", "Passport", "ID"],
     "🧿": ["Nazar Amulet", "Evil Eye"],
+    "🧸": ["Teddy Bear", "Toy"],
 };

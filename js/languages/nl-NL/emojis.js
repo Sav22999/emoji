@@ -7692,5 +7692,9 @@ emojis_language[lang][13] = {
     '🧿': [
         'Nazar Amulet',
         'Evil Eye'
+    ],
+    '🧸': [
+        'Teddy Bear',
+        'Toy'
     ]
 };
