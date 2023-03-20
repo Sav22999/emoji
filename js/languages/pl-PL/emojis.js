@@ -15,7 +15,7 @@ titles_language[lang] = {
     '🖱️': 'Technologie i biuro',
     '👗': 'Ubrania i akcesoria',
     '🖐️': 'Ręce i części ciała',
-    '🛎️': 'Inna'
+    '🛎️': 'Inne'
 };
 emojis_language[lang] = [];
 /*search*/
@@ -23,38 +23,38 @@ emojis_language[lang][0] = {};
 /*smileys*/
 emojis_language[lang][2] = {
     '😀': [
-        'Uderzenie twarzy',
+        'Szeroko uśmiechnięta twarz',
         ':)',
         'Szczęśliwa twarz',
         'Uśmiechnięta twarz'
     ],
     '😃': [
-        'Grinająca twarz z dużymi oczami',
+        'Szeroko uśmiechnięta twarz z dużymi oczami',
         ':D',
         'Szczęśliwa twarz',
         'Uśmiechnięta twarz',
-        'Uśmiechająca się twarz z otwartą opą'
+        'Uśmiechnięta twarz z otwartymi ustami'
     ],
     '😄': [
-        'Grinająca twarz z uśmiechniętymi oczami',
+        'Szeroko uśmiechnięta twarz ze śmiejącymi się oczami',
         'Szczęśliwa twarz',
         'Uśmiechnięta twarz',
-        'Grinająca twarz z oczami',
-        'Uśmiechanie twarzy z otwartym usypianiem i uśmiechaniem oczu'
+        'Uśmiechnięta twarz z przymrużonymi oczami',
+        'Uśmiechnięta twarz z otwartymi ustami i śmiejącymi się oczami'
     ],
     '😁': [
-        'Powiązanie twarzy z uśmiechającymi oczami',
-        'Grinająca twarz z uśmiechniętymi oczami'
+        'Rozpromieniona twarz ze śmiejącymi się oczami',
+        'Szeroko uśmiechnięta twarz ze śmiejącymi się oczami'
     ],
     '😆': [
-        'Kwadratowa twarz',
+        'Uśmiechnięta twarz z przymrużonymi oczami',
         'xD',
         '><',
-        'Duża gra',
-        'Uśmiech zamknięte oczy',
-        'Święta',
-        'Grinająca twarz z ósme zamkniętymi oczami',
-        'Uśmiechająca się twarz z otwartym usypianiem i jasno zamkniętymi oczami'
+        'Duży uśmiech',
+        'Uśmiech z zamknietymi oczami',
+        'Śmiech',
+        'Uśmiechnięta twarz z mocno zamkniętymi oczami',
+        'Uśmiechnięta twarz z otwartymi ustami i mocno zamkniętymi oczami'
     ],
     '😅': [
         'Grywanie twarzy potem',
@@ -173,7 +173,7 @@ emojis_language[lang][2] = {
     '😛': [
         'Tongue',
         ':P',
-        'crwdns74646:0crwdne74646:0',
+        'Bezczelna',
         'Tongue Twarz',
         'Tongue-Out',
         'Tonga na twarzy'
@@ -699,9 +699,9 @@ emojis_language[lang][3] = {
     ],
     '👧{{skin_tone}}': ['Dziewczyna'],
     '🧑{{skin_tone}}': [
-        'Osoba',
-        'Płeć Neutralna Dorośli',
-        'Dorośli'
+        'Person: Beard',
+        'Beard',
+        'Bearded Person'
     ],
     '🧑{{skin_tone}}': [
         'Person: Beard',
@@ -7692,5 +7692,9 @@ emojis_language[lang][13] = {
     '🧿': [
         'Nazar Amulet',
         'Evil Eye'
+    ],
+    '🧸': [
+        'Teddy Bear',
+        'Toy'
     ]
 };

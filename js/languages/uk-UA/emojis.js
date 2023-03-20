@@ -704,10 +704,10 @@ emojis_language[lang][3] = {
         'Дорослий'
     ],
     '🧑{{skin_tone}}': [
-        'Person: Beard',
-        'Beard',
-        'Bearded Person',
-        'Bearded Person'
+        'Персона: Борода',
+        'Борода',
+        'Бородата людина',
+        'Бородата людина'
     ],
     '🧑{{skin_tone}}‍🦰': [
         'Person: Red Hair',
@@ -724,12 +724,12 @@ emojis_language[lang][3] = {
         'Person With Gray Hair'
     ],
     '🧑{{skin_tone}}‍🦲': [
-        'Person: Bald',
-        'Person With No Hair'
+        'Персона: Лиса',
+        'Персона без волосся'
     ],
     '👱{{skin_tone}}': [
         'Особисті зачіпки: Волосся',
-        'Person With Blonde Hair'
+        'Людина зі світлим волоссям'
     ],
     '👨{{skin_tone}}': [
         'Чоловік',
@@ -798,33 +798,33 @@ emojis_language[lang][3] = {
         'Жінка з блондом Хайром'
     ],
     '🧓{{skin_tone}}': [
-        'Older Person',
-        'Gender Neutral Older Adult'
+        'Старша людина',
+        'Гендерно нейтральна літня людина'
     ],
     '👴{{skin_tone}}': [
-        'Old Man',
-        'Elderly Man',
-        'Grandpa',
-        'Older Man'
+        'Старий чоловік',
+        'Людина похилого віку',
+        'Дідусь',
+        'Старша людина'
     ],
     '👵{{skin_tone}}': [
-        'Old Woman',
+        'Стара жінка',
         'Elderly Woman',
-        'Grandma',
+        'Бабуся',
         'Nanna',
         'Old Lady',
         'Older Woman'
     ],
     '👼{{skin_tone}}': [
         'Baby Angel',
-        'Angel',
+        'Ангел',
         'Cherub',
         'Cupid',
         'Putto'
     ],
     '👨{{skin_tone}}‍🎄': [
         'Santa Claus',
-        'Saint Nicholas',
+        'Святий Миколай',
         'Sinterklaas',
         'Father Christmas'
     ],
@@ -836,14 +836,14 @@ emojis_language[lang][3] = {
         'Mx Claus',
         'Person Christmas'
     ],
-    '🤴{{skin_tone}}': ['Prince'],
+    '🤴{{skin_tone}}': ['Принц'],
     '👸{{skin_tone}}': [
-        'Princess',
+        'Принцеса',
         'Blonde Girl',
         'Girl With Crown',
         'Girl With Tiara'
     ],
-    '🫅{{skin_tone}}': ['Person with Crown'],
+    '🫅{{skin_tone}}': ['Особа з короною'],
     '👳{{skin_tone}}‍♂️': [
         'Чоловіча бродяга',
         'Arab',
@@ -941,8 +941,8 @@ emojis_language[lang][3] = {
     '🦹{{skin_tone}}': ['Person Supervillain'],
     '🧙{{skin_tone}}‍♂️': [
         'Man Mage',
-        'Sorcerer',
-        'Wizard'
+        'Чародій',
+        'Чарівник'
     ],
     '🧙{{skin_tone}}‍♀️': [
         'Woman Mage',
@@ -952,7 +952,7 @@ emojis_language[lang][3] = {
     ],
     '🧙{{skin_tone}}': [
         'Person Mage',
-        'Wizard',
+        'Чарівник',
         ':mage:'
     ],
     '🧚{{skin_tone}}‍♂️': ['Man Fairy'],
@@ -962,8 +962,8 @@ emojis_language[lang][3] = {
         'Ман Вампір',
         'Дракула'
     ],
-    '🧛{{skin_tone}}‍♀️': ['Woman Vampire'],
-    '🧛{{skin_tone}}': ['Person Vampire'],
+    '🧛{{skin_tone}}‍♀️': ['Жінка вампір'],
+    '🧛{{skin_tone}}': ['Особа вампір'],
     '🧜{{skin_tone}}‍♂️': [
         'Мерман',
         'Merboy'
@@ -993,21 +993,21 @@ emojis_language[lang][3] = {
         'Жінка-детектив',
         'Private Eye',
         'Sleuth',
-        'Spy',
+        'Шпигун',
         'Woman Sleuth',
         'Sleuth or Spy',
         '007',
         'Inspector'
     ],
     '🕵{{skin_tone}}': [
-        'Person Detective',
+        'Особа детектив',
         'Private Eye',
         'Sleuth',
         'Spy',
         'Person Sleuth',
         'Sleuth or Spy',
         '007',
-        'Inspector'
+        'Інспектор'
     ],
     '💂{{skin_tone}}‍♂️': [
         'Man: Guard',
@@ -1025,21 +1025,21 @@ emojis_language[lang][3] = {
         'Foot Guard'
     ],
     '👮{{skin_tone}}‍♂️': [
-        'Police Officer',
-        'Cop',
-        'Police',
-        'Policeman'
+        'Офіцер поліції',
+        'Коп',
+        'Поліція',
+        'Поліцейський'
     ],
     '👮{{skin_tone}}‍♀️': [
-        'Woman Police Officer',
-        'Cop',
-        'Police',
-        'Policewoman'
+        'Жінка офіцер поліції',
+        'Коп',
+        'Поліція',
+        'Поліцейська'
     ],
     '👮{{skin_tone}}': [
-        'Police Officer',
-        'Cop',
-        'Police'
+        'Офіцер поліції',
+        'Коп',
+        'Поліція'
     ],
     '👨{{skin_tone}}‍🚒': ['Людина пожежника'],
     '👩{{skin_tone}}‍🚒': ['Woman Firefighter'],
@@ -1248,9 +1248,9 @@ emojis_language[lang][3] = {
     ],
     '👫{{skin_tone}}': [
         'Woman and Man Holding Hands',
-        'Heterosexual Couple',
+        'Гетеросексуальна пара',
         'Straight Couple',
-        'Man and Woman Holding Hands'
+        'Чоловік і жінка тримаються за руки'
     ],
     '👭{{skin_tone}}': [
         'Lesbian Couple',
@@ -1260,11 +1260,11 @@ emojis_language[lang][3] = {
     '👬{{skin_tone}}': [
         'Men Holding Hands',
         'Gay Couple',
-        'Two Men Holding Hands'
+        'Два чоловіки тримаються за руки'
     ],
     '🧑‍🤝‍🧑': [
-        'People Holding Hands',
-        'Two People Holding Hands',
+        'Люди тримаються за руки',
+        'Дві людини тримаються за руки',
         'Gender Inclusive Couple',
         'Gender Neutral Couple',
         'Gender Nonconforming Couple'
@@ -1391,10 +1391,10 @@ emojis_language[lang][3] = {
     ],
     '💏{{skin_tone}}': [
         'Couple Kissing',
-        'Kiss',
+        'Поцілунок',
         'Gender Neutral Couple Kissing'
     ],
-    '👩‍❤️‍💋‍👨': ['Man and Woman Kissing'],
+    '👩‍❤️‍💋‍👨': ['Чоловік і жінка цілуються'],
     '👨‍❤️‍💋‍👨': [
         'Two Men Kissing',
         'Man and Man Kissing'
@@ -5290,8 +5290,8 @@ emojis_language[lang][8] = {
     '🏃{{skin_tone}}‍♂️': ['Чоловік, що біжить'],
     '🏃{{skin_tone}}‍♀️': ['Жінка-біг'],
     '🏃{{skin_tone}}': ['Person Running'],
-    '🕺{{skin_tone}}': ['Man Dancing'],
-    '💃{{skin_tone}}': ['Woman Dancing'],
+    '🕺{{skin_tone}}': ['Чоловік танцює'],
+    '💃{{skin_tone}}': ['Жінка танцює'],
     '🤺': [
         'Персон Фехтування',
         'Фансівники'
@@ -7691,6 +7691,10 @@ emojis_language[lang][13] = {
     ],
     '🧿': [
         'Nazar Amulet',
-        'Evil Eye'
+        'Зле око'
+    ],
+    '🧸': [
+        'Teddy Bear',
+        'Toy'
     ]
 };
