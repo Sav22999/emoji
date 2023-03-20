@@ -42,6 +42,8 @@ var mostUsedEmojis = [];
 var browserOrChromeIndex = 0; //TODO: change manually: {0: Firefox, 1: Microsoft Edge, 2: Chrome Web Store}
 
 var browserAgentSettings = "";
+var currentOS = "";
+var currentShortcut = "";
 
 const linkReview = ["https://addons.mozilla.org/firefox/addon/emoji-sav/", "https://microsoftedge.microsoft.com/addons/detail/emoji/ejcgfbaipbelddlbokgcfajefbnnagfm", "https://chrome.google.com/webstore/detail/emoji/kjepehkgbooeigeflhiogplnckadlife?hl=it&authuser=0"];
 const linkDonate = ["https://www.paypal.me/saveriomorelli", "https://ko-fi.com/saveriomorelli", "https://bit.ly/3eXs7Oy"]; //{paypal, ko-fi, liberapay}
@@ -50,9 +52,9 @@ const linkNeedHelp = ["https://www.saveriomorelli.com/contact-me/"];
 const storeName = ["Firefox Add-ons", "Microsoft Edge Add-ons", "Google Chrome Web Store"];
 const fontFamily = ["twemoji", "notocoloremoji", "notocoloremoji", "twemoji-fix-macos", "joypixels"];
 
-if (browserOrChromeIndex == 0) {
+if (browserOrChromeIndex === 0) {
     browserAgentSettings = browser;
-} else if (browserOrChromeIndex == 1 || browserOrChromeIndex == 2) {
+} else if (browserOrChromeIndex === 1 || browserOrChromeIndex === 2) {
     browserAgentSettings = chrome;
 }
 
@@ -76,6 +78,7 @@ const jsonSettingsDefaultValue = {
     "language": getLanguageCode(browserAgentSettings.i18n.getUILanguage().toString()),
     "space_emoji": 0,
     "insert_directly_emoji": 1,
+    "keyboard_shortcut": "Ctrl+Alt+A",
 };
 
 const storeNameAbbr = ["MFA", "MEA", "GCWS"];//{MozillaFirefoxAddons, MicrosoftEdgeAddons, GoogleChromeWebStore}
@@ -111,9 +114,38 @@ function loaded() {
 
     setVariablesFromSettings(true, true);
 
+    checkOperatingSystem();
     checkReview();
     checkOpenedAddon();
     showNewsInRelease(false);
+
+    let shortcuts = browser.commands.getAll();
+    shortcuts.then(getCurrentShortcuts);
+}
+
+function getCurrentShortcuts(commands) {
+    commands.forEach((command) => {
+        currentShortcut = command.shortcut;
+    });
+}
+
+function updateShortcut() {
+    const commandName = '_execute_browser_action';
+    browser.commands.update({
+        name: commandName,
+        shortcut: currentShortcut
+    });
+}
+
+function checkOperatingSystem() {
+    let info = browserAgentSettings.runtime.getPlatformInfo();
+    info.then(getOperatingSystem);
+    //"mac", "win", "linux", "openbsd", "cros", ...
+    // Docs: (https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/PlatformOs)ˇ
+}
+
+function getOperatingSystem(info) {
+    currentOS = info.os;
 }
 
 function focusSearchBox() {
@@ -649,6 +681,24 @@ function setPopUpUI() {
         saveSettings();
     }
 
+    document.getElementById("key-shortcut-ctrl-alt-shift-selected").onchange = function () {
+        let ctrl_alt_shift = document.getElementById("key-shortcut-ctrl-alt-shift-selected").value;
+        let letter_number = document.getElementById("key-shortcut-selected").value;
+        currentShortcut = ctrl_alt_shift + "+" + letter_number;
+        updateShortcut()
+
+        saveSettings();
+    }
+
+    document.getElementById("key-shortcut-selected").onchange = function () {
+        let ctrl_alt_shift = document.getElementById("key-shortcut-ctrl-alt-shift-selected").value;
+        let letter_number = document.getElementById("key-shortcut-selected").value;
+        currentShortcut = ctrl_alt_shift + "+" + letter_number;
+        updateShortcut()
+
+        saveSettings();
+    }
+
     //document.getElementsByClassName("theme-button")[0].focus(); //after saveSettings get again focus of the first element in Settings
 
     setSkinToneEmojis();
@@ -1143,6 +1193,7 @@ function saveSettings(reset = false) {
         "language": language,
         "space_emoji": spaceEmoji,
         "insert_directly_emoji": alsoInsertEmoji,
+        "keyboard_shortcut": currentShortcut,
     };
     if (reset) {
         jsonSettings = jsonSettingsDefaultValue;
@@ -1169,6 +1220,8 @@ function setVariablesFromSettings(resize_popup_ui = false, focus_search_box = fa
     let languageElement = document.getElementById("language-selected");
     let spaceEmojiElement = document.getElementById("space-emoji-selected");
     let alsoInsertEmojiElement = document.getElementById("insert-emoji-selected");
+    let keyboardShortcutCtrlAltShift = document.getElementById("key-shortcut-ctrl-alt-shift-selected");
+    let keyboardShortcutLetterNumber = document.getElementById("key-shortcut-selected");
 
     let jsonSettings = jsonSettingsDefaultValue;
     let nameOfSetting = "settings";
@@ -1180,29 +1233,39 @@ function setVariablesFromSettings(resize_popup_ui = false, focus_search_box = fa
         setColumnsRowsSettings(emojisSizeElement.value.toLowerCase(), jsonSettings.columns, jsonSettings.rows);
 
         themeElement.selectedIndex = 0;
-        if (jsonSettings.theme != undefined) themeElement.selectedIndex = jsonSettings.theme;
+        if (jsonSettings.theme !== undefined) themeElement.selectedIndex = jsonSettings.theme;
         columnsElement.selectedIndex = 2;
-        if (jsonSettings.columns != undefined) columnsElement.selectedIndex = jsonSettings.columns;
+        if (jsonSettings.columns !== undefined) columnsElement.selectedIndex = jsonSettings.columns;
         rowsElement.selectedIndex = 2;
-        if (jsonSettings.rows != undefined) rowsElement.selectedIndex = jsonSettings.rows;
+        if (jsonSettings.rows !== undefined) rowsElement.selectedIndex = jsonSettings.rows;
         emojisSizeElement.selectedIndex = 2;
-        if (jsonSettings.size != undefined) emojisSizeElement.selectedIndex = jsonSettings.size;
+        if (jsonSettings.size !== undefined) emojisSizeElement.selectedIndex = jsonSettings.size;
         fontFamily.selectedIndex = 0;
-        if (jsonSettings.font != undefined || jsonSettings.font < fontFamily.length) fontFamily.selectedIndex = jsonSettings.font;
+        if (jsonSettings.font !== undefined || jsonSettings.font < fontFamily.length) fontFamily.selectedIndex = jsonSettings.font;
         autoClosePopupElement.selectedIndex = 1;
-        if (jsonSettings.auto_close != undefined) autoClosePopupElement.selectedIndex = jsonSettings.auto_close;
+        if (jsonSettings.auto_close !== undefined) autoClosePopupElement.selectedIndex = jsonSettings.auto_close;
         skinToneElement.selectedIndex = 0;
-        if (jsonSettings.skin_tone != undefined) skinToneElement.selectedIndex = jsonSettings.skin_tone;
+        if (jsonSettings.skin_tone !== undefined) skinToneElement.selectedIndex = jsonSettings.skin_tone;
         multiCopyElement.selectedIndex = 1;
-        if (jsonSettings.multi_copy != undefined) multiCopyElement.selectedIndex = jsonSettings.multi_copy;
+        if (jsonSettings.multi_copy !== undefined) multiCopyElement.selectedIndex = jsonSettings.multi_copy;
         extensionIconElement.selectedIndex = 0;
-        if (jsonSettings.extension_icon != undefined) extensionIconElement.selectedIndex = jsonSettings.extension_icon;
+        if (jsonSettings.extension_icon !== undefined) extensionIconElement.selectedIndex = jsonSettings.extension_icon;
         let languageToSet = browserAgentSettings.i18n.getUILanguage().toString();
-        if (jsonSettings.language != undefined) languageToSet = getLanguageCode(jsonSettings.language);
+        if (jsonSettings.language !== undefined) languageToSet = getLanguageCode(jsonSettings.language);
         spaceEmojiElement.selectedIndex = 0;
-        if (jsonSettings.space_emoji != undefined) spaceEmojiElement.selectedIndex = jsonSettings.space_emoji;
+        if (jsonSettings.space_emoji !== undefined) spaceEmojiElement.selectedIndex = jsonSettings.space_emoji;
         alsoInsertEmojiElement.selectedIndex = 1;
-        if (jsonSettings.insert_directly_emoji != undefined) alsoInsertEmojiElement.selectedIndex = jsonSettings.insert_directly_emoji;
+        if (jsonSettings.insert_directly_emoji !== undefined) alsoInsertEmojiElement.selectedIndex = jsonSettings.insert_directly_emoji;
+        keyboardShortcutCtrlAltShift.value = "Ctrl+Alt";
+        keyboardShortcutLetterNumber.value = "A";
+        currentShortcut = "Ctrl+Alt+A";
+        if (jsonSettings.keyboard_shortcut !== undefined) {
+            let splitKeyboardShortcut = jsonSettings.keyboard_shortcut.split("+");
+            let letterNumberShortcut = splitKeyboardShortcut[splitKeyboardShortcut.length - 1];
+            let ctrlAltShiftShortcut = jsonSettings.keyboard_shortcut.substring(0, jsonSettings.keyboard_shortcut.length - 2);
+            keyboardShortcutLetterNumber.value = letterNumberShortcut;
+            keyboardShortcutCtrlAltShift.value = ctrlAltShiftShortcut;
+        }
 
 
         let languagesTemp = [];
@@ -1309,6 +1372,8 @@ function setTheme() {
     removeThemeClassId("language-selected", "-select");
     removeThemeClassId("space-emoji-selected", "-select");
     removeThemeClassId("insert-emoji-selected", "-select");
+    removeThemeClassId("key-shortcut-selected", "-select");
+    removeThemeClassId("key-shortcut-ctrl-alt-shift-selected", "-select");
 
     document.getElementById("popup-content").classList.add(theme);
     document.getElementById("emoji-skin-choose").classList.add(theme);
@@ -1335,9 +1400,11 @@ function setTheme() {
     document.getElementById("language-selected").classList.add(theme + "-select");
     document.getElementById("space-emoji-selected").classList.add(theme + "-select");
     document.getElementById("insert-emoji-selected").classList.add(theme + "-select");
+    document.getElementById("key-shortcut-selected").classList.add(theme + "-select");
+    document.getElementById("key-shortcut-ctrl-alt-shift-selected").classList.add(theme + "-select");
 
-    //TODO: change when add/remove an option in Settings
-    for (let n = 0; n < 11; n++) {
+    //TODO: change when add/remove an option in Settings -- separators
+    for (let n = 0; n < 12; n++) {
         removeThemeClassClass("subsection-settings", n, "-subsection-settings");
         document.getElementsByClassName("subsection-settings")[n].classList.add(theme + "-subsection-settings");
     }
@@ -1613,6 +1680,11 @@ function setLanguageUI() {
     document.getElementById("donate-kofi-settings").value = strings["settings"]["button-ko-fi"];
     document.getElementById("translate-settings").value = strings["settings"]["button-translate"];
     document.getElementById("made-in-basilicata-settings").innerHTML = strings["settings"]["label-made-with-heart-basilicata"].replaceAll("{{properties}}", "class='font-" + font_family + " font-size-16'");
+    document.getElementById("select-ctrl-shortcut").textContent = strings["settings"]["label-ctrl-" + currentOS];
+    document.getElementById("select-alt-shortcut").textContent = strings["settings"]["label-alt-" + currentOS];
+    document.getElementById("select-ctrl-alt-shortcut").textContent = strings["settings"]["label-ctrl-alt-" + currentOS];
+    document.getElementById("select-ctrl-shift-shortcut").textContent = strings["settings"]["label-ctrl-shift-" + currentOS];
+    document.getElementById("select-alt-shift-shortcut").textContent = strings["settings"]["label-alt-shift-" + currentOS];
 }
 
 loaded();
