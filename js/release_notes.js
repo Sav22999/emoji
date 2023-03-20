@@ -99,6 +99,15 @@ function releaseNotes(release) {
             release_notes_text += "<li>Updated languages</li>";
             release_notes_text += "</ul>";
             break;
+
+        case "3.16.1":
+            release_notes_text = "<ul>";
+            release_notes_text += "<li>You can now customise the keybord shortcut to open the add-on! Go to <small><span class='background-lightblue'>Settings</span></small> and choose your favourite shortcut</li>";
+            release_notes_text += "<li>Improved the choosing of emoji-size in Settings, in fact now you have a preview of button</li>";
+            release_notes_text += "<li>Added some new emojis</li>";
+            release_notes_text += "<li>Updated languages</li>";
+            release_notes_text += "</ul>";
+            break;
     }
     return release_notes_text;
 }

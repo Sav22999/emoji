@@ -968,6 +968,20 @@ div {
     z-index: 8;
 }
 
+.emoji-size-button {
+    border: 2px solid #3399ff;
+    background: transparent;
+    display: inline-block;
+    opacity: 1;
+    cursor: pointer;
+    color: inherit;
+    text-align: center;
+    transition: 0.2s;
+    position: relative;
+    z-index: 8;
+    padding: 0px;
+}
+
 .button-yes-no:hover {
     background-color: #3399ff44;
 }
