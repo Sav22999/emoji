@@ -9,7 +9,6 @@ var lastRequestNumber = -1;
 browserAgentSettings.runtime.onMessage.addListener(function (request, sender, sendResponse) {
     if (request.type === "insert-emoji-by-injection" && request.requestNumber !== lastRequestNumber) {
         let active = document.activeElement;
-        console.log(active.textContent);
         if (["input", "textarea"].includes(active.tagName.toLowerCase())) {
             let pre = (active.value).substring(0, active.selectionStart);
             let post = (active.value).substring(active.selectionEnd, active.value.length);

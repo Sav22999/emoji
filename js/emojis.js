@@ -24,7 +24,7 @@ emojis_language[lang] = [];
 emojis_language[lang][0] = {};
 /*smileys*/
 emojis_language[lang][2] = {
-    "😀": ["Grinning Face", ":)", "Happy Face", "Smiley Face"],
+    "😀": ["Grinning Face", ":grinning:", ":grinning_face:", ":)", "Happy Face", "Smiley Face"],
     "😃": ["Grinning Face with Big Eyes", ":D", "Happy Face", "Smiley Face", "Smiling Face with Open Mouth"],
     "😄": ["Grinning Face with Smiling Eyes", "Happy Face", "Smiley Face", "Grinning Face With Squinting Eyes", "Smiling Face with Open Mouth and Smiling Eyes"],
     "😁": ["Beaming Face with Smiling Eyes", "Grinning Face with Smiling Eyes"],
