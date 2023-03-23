@@ -179,7 +179,7 @@ function copyEmoji(text, tooltip) {
                     type: "requestNumber"
                 }).then((response) => {
                     browserAgentSettings.tabs.sendMessage(tabs[0].id, {
-                        emoji: text, requestNumber: response.requestNumber
+                        type: "insert-emoji-by-injection", emoji: text, requestNumber: response.requestNumber
                     }).catch(onError);
                     addToMostUsedCopyEmoji(nameOfSetting, text, tooltip);
                 }).catch(onError);
