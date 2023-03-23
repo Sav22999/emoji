@@ -119,7 +119,7 @@ function loaded() {
     checkOpenedAddon();
     showNewsInRelease(false);
 
-    let shortcuts = browser.commands.getAll();
+    let shortcuts = browserAgentSettings.commands.getAll();
     shortcuts.then(getCurrentShortcuts);
 }
 
@@ -131,7 +131,7 @@ function getCurrentShortcuts(commands) {
 
 function updateShortcut() {
     const commandName = '_execute_browser_action';
-    browser.commands.update({
+    browserAgentSettings.commands.update({
         name: commandName, shortcut: currentShortcut
     });
 }
@@ -684,7 +684,7 @@ function setPopUpUI() {
         let ctrl_alt_shift = document.getElementById("key-shortcut-ctrl-alt-shift-selected").value;
         let letter_number = document.getElementById("key-shortcut-selected").value;
         currentShortcut = ctrl_alt_shift + "+" + letter_number;
-        updateShortcut()
+        updateShortcut();
 
         saveSettings();
     }
@@ -693,7 +693,7 @@ function setPopUpUI() {
         let ctrl_alt_shift = document.getElementById("key-shortcut-ctrl-alt-shift-selected").value;
         let letter_number = document.getElementById("key-shortcut-selected").value;
         currentShortcut = ctrl_alt_shift + "+" + letter_number;
-        updateShortcut()
+        updateShortcut();
 
         saveSettings();
     }

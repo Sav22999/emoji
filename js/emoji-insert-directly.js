@@ -9,7 +9,7 @@ var lastRequestNumber = -1;
 browserAgentSettings.runtime.onMessage.addListener(function (request, sender, sendResponse) {
     if (request.requestNumber !== lastRequestNumber) {
         let active = document.activeElement;
-        if (["input", "textarea"].includes(active.tagName.toLowerCase())) {
+        if (["input", "textarea", "div", "span"].includes(active.tagName.toLowerCase())) {
             let pre = (active.value).substring(0, active.selectionStart);
             let post = (active.value).substring(active.selectionEnd, active.value.length);
             active.value = pre + request.emoji + post;
