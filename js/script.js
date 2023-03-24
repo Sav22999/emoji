@@ -119,7 +119,7 @@ function loaded() {
     checkOpenedAddon();
     showNewsInRelease(false);
 
-    let shortcuts = browser.commands.getAll();
+    let shortcuts = browserAgentSettings.commands.getAll();
     shortcuts.then(getCurrentShortcuts);
 }
 
@@ -131,7 +131,7 @@ function getCurrentShortcuts(commands) {
 
 function updateShortcut() {
     const commandName = '_execute_browser_action';
-    browser.commands.update({
+    browserAgentSettings.commands.update({
         name: commandName, shortcut: currentShortcut
     });
 }
@@ -179,7 +179,7 @@ function copyEmoji(text, tooltip) {
                     type: "requestNumber"
                 }).then((response) => {
                     browserAgentSettings.tabs.sendMessage(tabs[0].id, {
-                        emoji: text, requestNumber: response.requestNumber
+                        type: "insert-emoji-by-injection", emoji: text, requestNumber: response.requestNumber
                     }).catch(onError);
                     addToMostUsedCopyEmoji(nameOfSetting, text, tooltip);
                 }).catch(onError);
@@ -642,11 +642,6 @@ function setPopUpUI() {
         browserAgentSettings.tabs.create({url: url_to_use});
         window.close();
     };
-    document.getElementById("donate-kofi-settings").onclick = function () {
-        let url_to_use = linkDonate[1];
-        browserAgentSettings.tabs.create({url: url_to_use});
-        window.close();
-    };
     document.getElementById("donate-liberapay-settings").onclick = function () {
         let url_to_use = linkDonate[2];
         browserAgentSettings.tabs.create({url: url_to_use});
@@ -684,7 +679,7 @@ function setPopUpUI() {
         let ctrl_alt_shift = document.getElementById("key-shortcut-ctrl-alt-shift-selected").value;
         let letter_number = document.getElementById("key-shortcut-selected").value;
         currentShortcut = ctrl_alt_shift + "+" + letter_number;
-        updateShortcut()
+        updateShortcut();
 
         saveSettings();
     }
@@ -693,7 +688,7 @@ function setPopUpUI() {
         let ctrl_alt_shift = document.getElementById("key-shortcut-ctrl-alt-shift-selected").value;
         let letter_number = document.getElementById("key-shortcut-selected").value;
         currentShortcut = ctrl_alt_shift + "+" + letter_number;
-        updateShortcut()
+        updateShortcut();
 
         saveSettings();
     }
@@ -1408,7 +1403,6 @@ function setTheme() {
     removeThemeClassId("font-family-selected", "-select");
     removeThemeClassId("extension-icon-selected", "-select");
     removeThemeClassId("donate-paypal-settings", "-btn-settings-button");
-    removeThemeClassId("donate-kofi-settings", "-btn-settings-button");
     removeThemeClassId("donate-liberapay-settings", "-btn-settings-button");
     removeThemeClassId("translate-settings", "-btn-settings-button");
     removeThemeClassId("language-selected", "-select");
@@ -1441,7 +1435,6 @@ function setTheme() {
     document.getElementById("save-data-settings").classList.add(theme + "-btn-settings-button");
     document.getElementById("reset-data-settings").classList.add(theme + "-btn-settings-button");
     document.getElementById("donate-paypal-settings").classList.add(theme + "-btn-settings-button");
-    document.getElementById("donate-kofi-settings").classList.add(theme + "-btn-settings-button");
     document.getElementById("donate-liberapay-settings").classList.add(theme + "-btn-settings-button");
     document.getElementById("translate-settings").classList.add(theme + "-btn-settings-button");
     document.getElementById("language-selected").classList.add(theme + "-select");
@@ -1734,7 +1727,6 @@ function setLanguageUI() {
     document.getElementById("need-help-settings").value = strings["settings"]["button-need-help"];
     document.getElementById("donate-paypal-settings").value = strings["settings"]["button-paypal"];
     document.getElementById("donate-liberapay-settings").value = strings["settings"]["button-liberapay"];
-    document.getElementById("donate-kofi-settings").value = strings["settings"]["button-ko-fi"];
     document.getElementById("translate-settings").value = strings["settings"]["button-translate"];
     document.getElementById("made-in-basilicata-settings").innerHTML = strings["settings"]["label-made-with-heart-basilicata"].replaceAll("{{properties}}", "class='font-" + font_family + " font-size-16'");
     document.getElementById("select-ctrl-shortcut").textContent = strings["settings"]["label-ctrl-" + currentOS];
