@@ -944,11 +944,25 @@ div {
     background-image: url("../img/extension-icons/extension-icon-11.png");
 }
 
+#extension-icon-12 {
+    background-image: url("../img/extension-icons/extension-icon-12.png");
+}
+
+#extension-icon-13 {
+    background-image: url("../img/extension-icons/extension-icon-13.png");
+}
+
 #skin-tone-container, #extension-icon-container {
-    position: absolute;
-    height: 30px;
+    position: relative;
+    min-height: 30px;
     display: inline-block;
     top: 0px;
+    margin: 5px;
+    margin-top: 0px;
+}
+
+#skin-tone-container {
+    position: absolute;
     margin-left: 10px;
 }
 
@@ -1077,4 +1091,12 @@ div {
 .blue-selected-button, .blue-selected-button:hover {
     background-color: #3399ff;
     color: #ffffff;
+}
+
+.forced-dark-background {
+    background-color: rgb(70, 70, 70);
+}
+
+.forced-light-background {
+    background-color: #F5F5F5;
 }

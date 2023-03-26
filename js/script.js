@@ -21,7 +21,7 @@ var skin_tone_previous = "";
 var multi_copy = "no";
 var extension_icon_selected = 0; //extension-icon-1
 var language_to_show = "en";
-const extension_icons = ["extension-icon-1", "extension-icon-2", "extension-icon-3", "extension-icon-4", "extension-icon-5", "extension-icon-6", "extension-icon-7", "extension-icon-8", "extension-icon-9", "extension-icon-10", "extension-icon-11"];
+const extension_icons = ["extension-icon-1", "extension-icon-2", "extension-icon-3", "extension-icon-4", "extension-icon-5", "extension-icon-6", "extension-icon-7", "extension-icon-8", "extension-icon-9", "extension-icon-10", "extension-icon-11", "extension-icon-12", "extension-icon-13"];
 var space_emoji = "no";
 var insert_directly_emoji = "no";
 
@@ -95,7 +95,7 @@ const searchBoxElement = document.getElementById("search-box");
 const deleteButtonElement = document.getElementById("delete-button");
 
 setLanguageFile();
-setVariablesFromSettings(true);
+loadSettings(true);
 generateTitles();
 
 function loaded() {
@@ -112,7 +112,7 @@ function loaded() {
         number_of_emojis_generations = 0;
     }
 
-    setVariablesFromSettings(true, true);
+    loadSettings(true, true);
 
     checkOperatingSystem();
     checkReview();
@@ -352,7 +352,7 @@ function generateTitles(search = false, titleToSet = 1, clearSearchBox = true) {
 function clearAllData() {
     browserAgentSettings.storage.sync.clear();
     mostUsedEmojis = [];
-    setVariablesFromSettings(true);
+    loadSettings(true);
 }
 
 function resetAndSetTitle(newTitle) {
@@ -550,7 +550,11 @@ function setPopUpUI() {
         }
     }
 
-    for (let i = 0; i < 11; i++) {
+    let number_of_extension_icon = 0;
+    document.querySelectorAll('.extension-icon-button').forEach((item) => {
+        number_of_extension_icon++;
+    });
+    for (let i = 0; i < number_of_extension_icon; i++) {
         document.getElementsByClassName("extension-icon-button")[i].onclick = function () {
             document.getElementById("extension-icon-selected").selectedIndex = i;
             selectExtensionIconButton(i);
@@ -693,10 +697,6 @@ function setPopUpUI() {
         saveSettings();
     }
 
-    document.getElementById("emoji-size-very-small").onclick = function () {
-        document.getElementById("emoji-size-very-small").classList.contains("blue-selected-button");
-    }
-
     //document.getElementsByClassName("theme-button")[0].focus(); //after saveSettings get again focus of the first element in Settings
 
     setEmojiSizeButtons();
@@ -718,6 +718,7 @@ function setEmojiSizeButtons() {
                 document.getElementById("emoji-size-" + emoji_item).classList.add("blue-selected-button");
             }
             document.getElementById("emojis-size-selected").value = emoji_item.replaceAll("-", " ");
+            setColumnsRowsSettings(document.getElementById("emojis-size-selected").value.toLowerCase(), -1, -1);
             saveSettings();
         }
         count++;
@@ -1129,7 +1130,7 @@ function showSettings() {
     hideChooseSkinToneMiniPopUp();
     showElement("settings-section");
 
-    setVariablesFromSettings(true);
+    loadSettings(true);
 }
 
 function setColumnsRowsSettings(value, selected_c = 2, selected_r = 2) {
@@ -1227,12 +1228,12 @@ function saveSettings(reset = false) {
         //hideElement("settings-section");
         number_of_emojis_generations = 0;
         focusSearchBox();
-        setVariablesFromSettings(true);
+        loadSettings(true);
         setSkinToneEmojis();
     });
 }
 
-function setVariablesFromSettings(resize_popup_ui = false, focus_search_box = false) {
+function loadSettings(resize_popup_ui = false, focus_search_box = false) {
     let themeElement = document.getElementById("theme-selected");
     let columnsElement = document.getElementById("columns-selected");
     let rowsElement = document.getElementById("rows-selected");
@@ -1255,6 +1256,7 @@ function setVariablesFromSettings(resize_popup_ui = false, focus_search_box = fa
         if (value[nameOfSetting] != undefined) {
             jsonSettings = value[nameOfSetting];
         }
+
         setColumnsRowsSettings(emojisSizeElement.value.toLowerCase(), jsonSettings.columns, jsonSettings.rows);
 
         themeElement.selectedIndex = 0;
