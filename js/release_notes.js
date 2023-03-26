@@ -109,6 +109,7 @@ function releaseNotes(release) {
             release_notes_text += "</ul>";
             break;
 
+        case "3.17.1":
         case "3.17":
             release_notes_text = "<ul>";
             release_notes_text += "<li>Improved the feature 'Insert directly the emoji' (now support also many other elements)</li>";
