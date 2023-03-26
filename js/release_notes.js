@@ -117,7 +117,13 @@ function releaseNotes(release) {
             release_notes_text += "</ul>";
             release_notes_text += "<br>Remember to buy me a coffee if you like the add-on and you want to support me<br><br><div class='text-center'><a href='https://paypal.me/saveriomorelli' class='button-release'>PayPay</a> <a href='https://liberapay.com/Sav22999/donate' class='button-release'>LiberaPay</a></div>";
             break;
-        //release_notes_text += "<li>Added shortcodes to find emojis, for example <small><span class='background-lightblue'>:grinning:</span></small></li>";
+
+        case "3.17.2":
+            release_notes_text = "<ul>";
+            release_notes_text += "<li>Added shortcodes to find emojis, for example <small><span class='background-lightblue'>:grinning:</span></small></li>";
+            release_notes_text += "</ul>";
+            //release_notes_text += "<br>Remember to buy me a coffee if you like the add-on and you want to support me<br><br><div class='text-center'><a href='https://paypal.me/saveriomorelli' class='button-release'>PayPay</a> <a href='https://liberapay.com/Sav22999/donate' class='button-release'>LiberaPay</a></div>";
+            break;
     }
     return release_notes_text;
 }
