@@ -1,4 +1,4 @@
-It's an open-source project which permits you to copy easily an emoji (it's an emoji picker, basically).
+Jest to projekt open-source, który pozwala na łatwe kopiowanie emoji (jest to w zasadzie selektor emoji).
 Możesz wyszukiwać według słów kluczowych lub użyć "najczęściej używanej emotikony". Lub po prostu szukaj idealnych emoji poruszających się w sekcjach.
 
 https://github.com/Sav22999/emoji

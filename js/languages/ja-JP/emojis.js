@@ -703,24 +703,44 @@ emojis_language[lang][3] = {
         '性別中立大人',
         '大人'
     ],
+    '🧑{{skin_tone}}': [
+        'Person: Beard',
+        'Beard',
+        'Bearded Person',
+        'Bearded Person'
+    ],
+    '🧑{{skin_tone}}‍🦰': [
+        'Person: Red Hair',
+        'Ginger Person',
+        'Person Redhead',
+        'Person With Red Hair'
+    ],
+    '🧑{{skin_tone}}‍🦱': [
+        'Person: Curly Hair',
+        'Person With Curly Hair'
+    ],
+    '🧑{{skin_tone}}‍🦳': [
+        'Person: White Hair',
+        'Person With Gray Hair'
+    ],
+    '🧑{{skin_tone}}‍🦲': [
+        'Person: Bald',
+        'Person With No Hair'
+    ],
     '👱{{skin_tone}}': [
         '人物：金髪の髪',
-        'ブロンド語',
-        'ブロンド',
-        'ブロンドマン',
-        '金髪を持つ人',
-        '金髪の男'
+        'Person With Blonde Hair'
     ],
     '👨{{skin_tone}}': [
         '男',
         '男性',
         '口ひげ男'
     ],
-    '🧔{{skin_tone}}': [
-        '男性：ひげを生やし',
-        'ひげ（ひげ）',
-        '髭の男',
-        'ひげを生やした人'
+    '🧔{{skin_tone}}‍♂️': [
+        'Man: Beard',
+        'Beard',
+        'Bearded Man',
+        'Bearded Person'
     ],
     '👨{{skin_tone}}‍🦰': [
         '男性：赤い髪',
@@ -740,11 +760,20 @@ emojis_language[lang][3] = {
         '男性：<unk>',
         '髪の無い男'
     ],
+    '👱{{skin_tone}}‍♂️': [
+        '男性：金髪。',
+        '金髪の男'
+    ],
     '👩{{skin_tone}}': [
         '女性',
         '女性',
         'レディー',
         '黄色の女性'
+    ],
+    '🧔{{skin_tone}}‍♀️': [
+        'Woman: Beard',
+        'Beard',
+        'Bearded Woman'
     ],
     '👩{{skin_tone}}‍🦰': [
         '女性：赤い髪',
@@ -768,100 +797,135 @@ emojis_language[lang][3] = {
         '女性：金髪の髪',
         '金髪の女性'
     ],
-    '👱{{skin_tone}}‍♂️': [
-        '男性：金髪。',
-        '金髪の男'
+    '🧓{{skin_tone}}': [
+        'Older Person',
+        'Gender Neutral Older Adult'
     ],
-    '🧓{{skin_tone}}‍': [
-        '古い人',
-        '性別中立年上大人'
-    ],
-    '👴{{skin_tone}}‍': [
-        'おっさん',
-        '年配の男',
+    '👴{{skin_tone}}': [
+        'Old Man',
+        'Elderly Man',
         'Grandpa',
-        '年配の男'
+        'Older Man'
     ],
-    '👵{{skin_tone}}‍': [
-        '老女',
-        '年配女性',
-        'おばあちゃん',
+    '👵{{skin_tone}}': [
+        'Old Woman',
+        'Elderly Woman',
+        'Grandma',
         'Nanna',
-        '老女',
-        '年配の女性'
+        'Old Lady',
+        'Older Woman'
     ],
-    '👼{{skin_tone}}‍': [
-        '赤ちゃんの天使',
+    '👼{{skin_tone}}': [
+        'Baby Angel',
         'Angel',
         'Cherub',
-        'キューピッド',
-        'プット'
+        'Cupid',
+        'Putto'
     ],
-    '🎅{{skin_tone}}‍': [
-        'サンタクロース語',
-        'セント・ニコラス島',
+    '👨{{skin_tone}}‍🎄': [
+        'Santa Claus',
+        'Saint Nicholas',
         'Sinterklaas',
-        '父のクリスマス'
+        'Father Christmas'
     ],
-    '🤶{{skin_tone}}‍': [
-        'Claus',
-        '母のクリスマス'
+    '👩{{skin_tone}}‍🎄': [
+        'Mrs Claus',
+        'Mother Christmas'
     ],
-    '🤴{{skin_tone}}‍': ['Prince'],
-    '👸{{skin_tone}}‍': [
+    '🧑{{skin_tone}}‍🎄': [
+        'Mx Claus',
+        'Person Christmas'
+    ],
+    '🤴{{skin_tone}}': ['Prince'],
+    '👸{{skin_tone}}': [
         'Princess',
-        'ブロンドの少女',
-        'クラウンを持つ女の子',
-        'ティアラ'
+        'Blonde Girl',
+        'Girl With Crown',
+        'Girl With Tiara'
     ],
-    '🫅{{skin_tone}}‍': ['Person with Crown'],
-    '👳{{skin_tone}}‍♂️': ['ターバンを着た男'],
-    '👳{{skin_tone}}‍♀️': ['ターバンを着た女性'],
-    '👲{{skin_tone}}‍': [
-        'Skullcapを持つ人',
-        'アジアン マン',
-        '中国の帽子をかぶった男',
-        'Guaのパイ毛を持つ男'
+    '🫅{{skin_tone}}': ['Person with Crown'],
+    '👳{{skin_tone}}‍♂️': [
+        'ターバンを着た男',
+        'Arab',
+        'Muslim',
+        'Sikh',
+        'Turban'
     ],
-    '🧕{{skin_tone}}‍': [
-        'ヘッドスカーフを持つ女性',
+    '👳{{skin_tone}}‍♀️': [
+        'ターバンを着た女性',
+        'Arab',
+        'Muslim',
+        'Sikh',
+        'Turban'
+    ],
+    '👳{{skin_tone}}': [
+        'Person Wearing Turban',
+        'Arab',
+        'Muslim',
+        'Sikh',
+        'Turban'
+    ],
+    '👲{{skin_tone}}': [
+        'Person With Skullcap',
+        'Asian Man',
+        'Man With Chinese Cap',
+        'Man with Gua Pi Mao'
+    ],
+    '🧕{{skin_tone}}': [
+        'Woman with Headscarf',
         'Hijab',
-        'ヘッドスカーフを持つ人'
+        'Person with Headscarf'
     ],
-    '🤵{{skin_tone}}‍': [
-        'タキシードにいる人',
+    '🤵{{skin_tone}}‍♀️': [
+        'Man in Tuxedo',
         'Groom',
-        'スーツを着た男',
-        'タキシードの男',
+        'Man In Suit',
         'Wedding'
     ],
-    '👰{{skin_tone}}‍': [
-        'ベールを持った人',
-        '花嫁さん',
-        'ベール付きの花嫁たち',
+    '🤵{{skin_tone}}‍♂️': [
+        'Woman in Tuxedo',
+        'Groom',
+        'Woman In Suit',
+        'Wedding'
+    ],
+    '🤵{{skin_tone}}': [
+        'Person in Tuxedo',
+        'Groom',
+        'Person In Suit',
         'Wedding'
     ],
     '👰{{skin_tone}}‍♂️': [
         'ベールを着た男',
-        'Wedding'
+        'Wedding',
+        'Bridegroom',
+        'Marriage'
     ],
     '👰{{skin_tone}}‍♀️': [
         'ヴェールを持つ女性',
-        'Wedding'
+        'Wedding',
+        'Bride',
+        'Bride with Veil',
+        'Marriage'
+    ],
+    '👰{{skin_tone}}': [
+        'Person With Veil',
+        'Wedding',
+        'Marriage'
     ],
     '👩{{skin_tone}}‍🍼': ['赤ちゃんに餌をやる女性'],
     '👨{{skin_tone}}‍🍼': ['男性の餌やりの赤ちゃん'],
+    '🧑{{skin_tone}}‍🍼': ['Person Feeding Baby'],
     '🥷': ['Ninja'],
-    '🤰{{skin_tone}}‍': [
-        '妊娠中の女性',
-        '妊娠',
-        '妊娠している女性'
+    '🤰{{skin_tone}}': [
+        'Pregnant Woman',
+        'Pregnancy',
+        'Pregnant Lady'
     ],
-    '🫃{{skin_tone}}‍': [
+    '🫃{{skin_tone}}': [
         'Pregnant Man',
         'Pregnancy'
     ],
-    '🫄{{skin_tone}}‍': [
+    '🫄{{skin_tone}}': [
         'Pregnant Person',
         'Pregnancy'
     ],
@@ -870,34 +934,51 @@ emojis_language[lang][3] = {
         '<unk>'
     ],
     '🦸{{skin_tone}}‍♂️': ['スーパーヒーロー男'],
-    '🦸{{skin_tone}}‍‍♀️': ['スーパーヒーロー女'],
-    '🦹{{skin_tone}}‍‍♂️': ['男の極悪者'],
-    '🦹{{skin_tone}}‍‍♀️': ['女の極悪者'],
-    '🧙{{skin_tone}}‍': [
-        'メイジ',
+    '🦸{{skin_tone}}‍♀️': ['Woman Superhero'],
+    '🦸{{skin_tone}}': ['Person Superhero'],
+    '🦹{{skin_tone}}‍♂️': ['Man Supervillain'],
+    '🦹{{skin_tone}}‍♀️': ['Woman Supervillain'],
+    '🦹{{skin_tone}}': ['Person Supervillain'],
+    '🧙{{skin_tone}}‍♂️': [
+        'Man Mage',
         'Sorcerer',
+        'Wizard'
+    ],
+    '🧙{{skin_tone}}‍♀️': [
+        'Woman Mage',
+        'Witch',
         'Sorceress',
-        'Witch',
-        'ウィザード'
+        'Wizard'
     ],
-    '🧙{{skin_tone}}‍‍♀️': [
-        '女のメイジ',
-        'Witch',
-        'Sorceress'
+    '🧙{{skin_tone}}': [
+        'Person Mage',
+        'Wizard',
+        ':mage:'
     ],
-    '🧚{{skin_tone}}‍‍♂️': ['Man Fairy'],
+    '🧚{{skin_tone}}‍♂️': ['Man Fairy'],
     '🧚{{skin_tone}}‍♀️': ['女性の妖精たち'],
+    '🧚{{skin_tone}}': ['Person Fairy'],
     '🧛{{skin_tone}}‍♂️': [
         '男のヴァンパイア',
         'ドラキュラ'
     ],
-    '🧛{{skin_tone}}‍‍♀️': ['女ヴァンパイア'],
-    '🧜{{skin_tone}}‍♂️': ['マーマン'],
-    '🧜{{skin_tone}}‍♀️': ['人魚語'],
+    '🧛{{skin_tone}}‍♀️': ['Woman Vampire'],
+    '🧛{{skin_tone}}': ['Person Vampire'],
+    '🧜{{skin_tone}}‍♂️': [
+        'マーマン',
+        'Merboy'
+    ],
+    '🧜{{skin_tone}}‍♀️': [
+        '人魚語',
+        'Mergirl'
+    ],
+    '🧜{{skin_tone}}': ['Merperson'],
     '🧝{{skin_tone}}‍♂️': ['男のエルフ'],
     '🧝{{skin_tone}}‍♀️': ['女妖精（へんへん）'],
+    '🧝{{skin_tone}}': ['Person Elf'],
     '🧞‍♂️': ['Man Genie'],
     '🧞‍♀️': ['Woman Genie'],
+    '🧞': ['Person Genie'],
     '🕵️{{skin_tone}}‍♂️': [
         '男のDetective',
         'プライベートアイ',
@@ -908,50 +989,98 @@ emojis_language[lang][3] = {
         '007',
         'Inspector'
     ],
-    '🕵️{{skin_tone}}‍♀️': ['女性のDetective'],
-    '💂{{skin_tone}}‍': [
-        'ガード',
-        'ブリティッシュ・ガードマン',
-        '足のガード'
+    '🕵️{{skin_tone}}‍♀️': [
+        '女性のDetective',
+        'Private Eye',
+        'Sleuth',
+        'Spy',
+        'Woman Sleuth',
+        'Sleuth or Spy',
+        '007',
+        'Inspector'
     ],
-    '💂{{skin_tone}}‍‍♀️': ['女の番人'],
-    '👮{{skin_tone}}‍': [
-        '警察官',
-        'コップ',
-        '警察',
-        '警察官',
-        '警察官語'
+    '🕵{{skin_tone}}': [
+        'Person Detective',
+        'Private Eye',
+        'Sleuth',
+        'Spy',
+        'Person Sleuth',
+        'Sleuth or Spy',
+        '007',
+        'Inspector'
     ],
-    '👮{{skin_tone}}‍‍♀️': ['女警察官'],
+    '💂{{skin_tone}}‍♂️': [
+        'Man: Guard',
+        'British Guardsman',
+        'Foot Guard'
+    ],
+    '💂{{skin_tone}}‍♀️': [
+        'Woman: Guard',
+        'British Guardsman',
+        'Foot Guard'
+    ],
+    '💂{{skin_tone}}': [
+        'Person: Guard',
+        'British Guardsman',
+        'Foot Guard'
+    ],
+    '👮{{skin_tone}}‍♂️': [
+        'Police Officer',
+        'Cop',
+        'Police',
+        'Policeman'
+    ],
+    '👮{{skin_tone}}‍♀️': [
+        'Woman Police Officer',
+        'Cop',
+        'Police',
+        'Policewoman'
+    ],
+    '👮{{skin_tone}}': [
+        'Police Officer',
+        'Cop',
+        'Police'
+    ],
     '👨{{skin_tone}}‍🚒': ['男の<unk>'],
-    '👩{{skin_tone}}‍‍🚒': ['女性の<unk>'],
-    '👨{{skin_tone}}‍‍✈️': ['男のパイロット'],
-    '👩{{skin_tone}}‍‍✈️': ['女性パイロット'],
+    '👩{{skin_tone}}‍🚒': ['Woman Firefighter'],
+    '🧑{{skin_tone}}‍🚒': ['Person Firefighter'],
+    '👨{{skin_tone}}‍✈️': ['Man Pilot'],
+    '👩{{skin_tone}}‍✈️': ['Woman Pilot'],
+    '🧑{{skin_tone}}‍✈️': ['Person Pilot'],
     '👨{{skin_tone}}‍💻': [
         '人間技術者。',
         '人間技術者。'
     ],
     '👩{{skin_tone}}‍💻': ['女性技術者'],
+    '🧑{{skin_tone}}‍💻': ['Person Technologist'],
     '👨{{skin_tone}}‍🎤': [
         'マンシンガー',
         'Bowie',
         'Aladdin Sane'
     ],
     '👩{{skin_tone}}‍🎤': ['女のシンガー'],
+    '🧑{{skin_tone}}‍🎤': ['Person Singer'],
     '👨{{skin_tone}}‍🎨': ['マンアーティスト'],
     '👩{{skin_tone}}‍🎨': ['女性アーティスト'],
-    '👷{{skin_tone}}‍‍♂️': ['男性の建設ワーカー。'],
-    '👷{{skin_tone}}‍‍♀️': ['女性建築作業員。'],
-    '👨{{skin_tone}}‍‍🚀': [
-        'マン宇宙飛行士format@@0',
-        'コスモナート'
+    '🧑{{skin_tone}}‍🎨': ['Person Artist'],
+    '👷{{skin_tone}}‍♂️': ['Man Construction Worker'],
+    '👷{{skin_tone}}‍♀️': ['Woman Construction Worker'],
+    '👷{{skin_tone}}': ['Person Construction Worker'],
+    '👨{{skin_tone}}‍🚀': [
+        'Man Astronaut',
+        'Man Cosmonaut'
     ],
-    '👩{{skin_tone}}‍‍🚀': [
-        '女宇宙飛行士format@@0',
-        '女性コスモノート'
+    '👩{{skin_tone}}‍🚀': [
+        'Woman Astronaut',
+        'Woman Cosmonaut'
     ],
-    '👨{{skin_tone}}‍‍🔬': ['人間サイエンティスト'],
-    '👩{{skin_tone}}‍‍🔬': ['女科学者。'],
+    '🧑{{skin_tone}}‍🚀': [
+        'Person Astronaut',
+        'Person Cosmonaut'
+    ],
+    '👨{{skin_tone}}‍🔬': ['Man Scientist'],
+    '👩{{skin_tone}}‍🔬': ['Woman Scientist'],
+    '🧑{{skin_tone}}‍🔬': ['Person Scientist'],
     '👨{{skin_tone}}‍💼': [
         'マンオフィスワーカー。',
         'CEO',
@@ -962,37 +1091,57 @@ emojis_language[lang][3] = {
         'ビジネスウーマン',
         'CEO'
     ],
+    '🧑{{skin_tone}}‍💼': [
+        'Person Office Worker',
+        'Business',
+        'CEO'
+    ],
     '👨{{skin_tone}}‍🏭': ['工場作業員format@@0'],
-    '👩{{skin_tone}}‍‍🏭': ['ウーマンファクトリー'],
-    '👨{{skin_tone}}‍‍🔧': ['Man Mechanic'],
-    '👩{{skin_tone}}‍‍🔧': ['Woman Mechanic'],
-    '👨{{skin_tone}}‍‍🍳': [
-        '男のクック',
-        '男シェフ。',
-        '男性シェフ'
+    '👩{{skin_tone}}‍🏭': ['Woman Factory Worker'],
+    '🧑{{skin_tone}}‍🏭': ['Person Factory Worker'],
+    '👨{{skin_tone}}‍🔧': ['Man Mechanic'],
+    '👩{{skin_tone}}‍🔧': ['Woman Mechanic'],
+    '🧑{{skin_tone}}‍🔧': ['Person Mechanic'],
+    '👨{{skin_tone}}‍🍳': [
+        'Man Cook',
+        'Man Chef',
+        'Male Chef'
     ],
-    '👩{{skin_tone}}‍‍🍳': [
-        '女の料理',
-        '女性シェフ',
-        '女性シェフ'
+    '👩{{skin_tone}}‍🍳': [
+        'Woman Cook',
+        'Woman Chef',
+        'Female Chef'
     ],
-    '👨{{skin_tone}}‍‍🌾': ['男の<unk>'],
-    '👩{{skin_tone}}‍‍🌾': ['女性の<unk>'],
+    '🧑{{skin_tone}}‍🍳': [
+        'Person Cook',
+        'Person Chef'
+    ],
+    '👨{{skin_tone}}‍🌾': ['Man Farmer'],
+    '👩{{skin_tone}}‍🌾': ['Woman Farmer'],
+    '🧑{{skin_tone}}‍🌾': ['Person Farmer'],
     '👨{{skin_tone}}‍‍⚖️': ['男性ジャッジ'],
     '👩{{skin_tone}}‍‍⚖️': ['女ジャッジ'],
+    '🧑{{skin_tone}}‍‍⚖️': ['Person Judge'],
     '👨{{skin_tone}}‍‍🏫': ['男の先生'],
     '👩{{skin_tone}}‍‍🏫': ['女性教師'],
+    '🧑‍{{skin_tone}}‍‍🏫': ['Person Teacher'],
     '👨{{skin_tone}}‍🎓': ['男性学生'],
     '👩{{skin_tone}}‍🎓': ['女子学生'],
-    '👨{{skin_tone}}‍‍⚕️': [
-        'マンヘルスワーカー',
-        '男性ドクター',
-        'ナース男性format@@0'
+    '🧑{{skin_tone}}‍🎓': ['Person Student'],
+    '👨{{skin_tone}}‍⚕️': [
+        'Man Health Worker',
+        'Male Doctor',
+        'Male Nurse'
     ],
     '👩{{skin_tone}}‍⚕️': [
         '女性ヘルスワーカー',
         '女性医師',
         '女性Nurse'
+    ],
+    '🧑‍{{skin_tone}}‍⚕️': [
+        'Person Health Worker',
+        'Person Doctor',
+        'Person Nurse'
     ],
     '🤷{{skin_tone}}‍♂️': [
         '男性の<unk>',
@@ -1004,12 +1153,20 @@ emojis_language[lang][3] = {
         'idkwomen',
         'dunno'
     ],
+    '🤷{{skin_tone}}': [
+        'Person Shrugging',
+        'idk person',
+        'dunno'
+    ],
     '🤦{{skin_tone}}‍♂️': ['男性フェイスパリング'],
     '🤦{{skin_tone}}‍♀️': ['女性のフェイスパリング'],
+    '🤦{{skin_tone}}': ['Person Facepalming'],
     '🙇{{skin_tone}}‍‍♂️': ['ボーイングマン'],
     '🙇{{skin_tone}}‍‍♀️': ['女性の<unk>'],
+    '🙇{{skin_tone}}': ['Person Bowing'],
     '🧏{{skin_tone}}‍♂️': ['ろう者の男'],
     '🧏{{skin_tone}}‍‍♀️': ['ろう者の女'],
+    '🧏{{skin_tone}}': ['Deaf Person'],
     '🙋{{skin_tone}}‍‍♂️': [
         '手を上げる男',
         '片手を上げるハッピーマン'
@@ -1017,6 +1174,10 @@ emojis_language[lang][3] = {
     '🙋{{skin_tone}}‍♀️': [
         '手を上げる女',
         '片手を上げる幸せな女性'
+    ],
+    '🙋{{skin_tone}}': [
+        'Person Raising Hand',
+        'Happy Person Raising One Hand'
     ],
     '💁{{skin_tone}}‍♂️': [
         '男性の手を傾ける手',
@@ -1026,36 +1187,52 @@ emojis_language[lang][3] = {
         '女性の手を傾ける手',
         'インフォメーションデスクの女性'
     ],
+    '💁{{skin_tone}}': [
+        'Person Tipping Hand',
+        'Information Desk Person'
+    ],
     '🙆{{skin_tone}}‍♂️': ['Man Gesturing OK'],
     '🙆{{skin_tone}}‍♀️': ['ジェスチャー中の女性'],
+    '🙆{{skin_tone}}': ['Person Gesturing OK'],
     '🙅{{skin_tone}}‍♂️': ['男のジェスチャーいいえ'],
     '🙅{{skin_tone}}‍♀️': ['ジェスチャーする女性'],
+    '🙅{{skin_tone}}': ['Person Gesturing No'],
     '🙎{{skin_tone}}‍♂️': ['男のポーティング'],
     '🙎{{skin_tone}}‍‍♀️': ['女流<unk>'],
-    '🙍{{skin_tone}}‍‍♂️': ['Man Frowning'],
-    '🙍{{skin_tone}}‍‍♀️': ['女性の眉毛'],
+    '🙎{{skin_tone}}': ['Person Pouting'],
+    '🙍{{skin_tone}}‍♂️': ['Man Frowning'],
+    '🙍{{skin_tone}}‍♀️': ['Woman Frowning'],
+    '🙍{{skin_tone}}': ['Person Frowning'],
     '🧟‍‍♂️': ['マンゾンビ'],
     '🧟‍‍♀️': ['女のゾンビ'],
+    '🧟': ['Person Zombie'],
     '🚶{{skin_tone}}‍♂️': ['男性がウォーキング中'],
     '🚶{{skin_tone}}‍♀️': ['女性の歩く'],
-    '🧍{{skin_tone}}‍‍♂️': ['立っている男'],
-    '🧍{{skin_tone}}‍‍♀️': ['立っている女性'],
+    '🚶{{skin_tone}}': ['Person Walking'],
+    '🧍{{skin_tone}}‍♂️': ['Man Standing'],
+    '🧍{{skin_tone}}‍♀️': ['Woman Standing'],
+    '🧍{{skin_tone}}': ['Person Standing'],
     '🧎{{skin_tone}}‍♂️': ['男のクネリング'],
-    '🧎{{skin_tone}}‍‍♀️': ['女の<unk>'],
+    '🧎{{skin_tone}}‍♀️': ['Woman Kneeling'],
+    '🧎{{skin_tone}}': ['Person Kneelink'],
     '👨{{skin_tone}}‍🦯': ['白杖を持った男'],
     '👩{{skin_tone}}‍🦯': ['白杖を持つ女'],
+    '🧑{{skin_tone}}‍🦯': ['Person with White Cane'],
     '👨{{skin_tone}}‍🦼': ['車椅子の男'],
     '👩{{skin_tone}}‍🦼': ['車椅子の女'],
+    '🧑{{skin_tone}}‍🦼': ['Person in Motorized Wheelchair'],
     '👨{{skin_tone}}‍🦽': ['マニュアル車椅子の男'],
     '👩{{skin_tone}}‍🦽': ['マニュアル車椅子の女'],
+    '🧑{{skin_tone}}‍🦽': ['Person in Manual Wheelchair'],
     '👯‍♂️': ['ウサギの耳を持つ男性'],
     '👯‍♀️': ['ウサギの耳を持つ女性'],
-    '🕴️{{skin_tone}}‍': [
-        'スーツのLevitating者',
-        'ホバーマン',
-        '失礼な男の子',
+    '👯': ['People with Bunny Ears'],
+    '🕴️{{skin_tone}}': [
+        'Person in Suit Levitating',
+        'Hovering Man',
+        'Rude Boy',
         'Walt Jabsco',
-        'ビジネススーツの男がLevitating'
+        'Man in Business Suit Levitating'
     ],
     '🧖{{skin_tone}}‍♂️': [
         '蒸気のある部屋にいる男',
@@ -1065,21 +1242,32 @@ emojis_language[lang][3] = {
         '温かい部屋の女性',
         'サウナの女'
     ],
-    '👫{{skin_tone}}‍': [
-        '女と男の手',
-        '異性愛のカップル',
-        'ストレートカップル',
-        '男と女の手'
+    '🧖{{skin_tone}}': [
+        'Person in Steamy Room',
+        'Person in Sauna'
     ],
-    '👭{{skin_tone}}‍': [
-        'レズビアンのカップル',
-        '手を握る女性',
-        '二人の女性の手'
+    '👫{{skin_tone}}': [
+        'Woman and Man Holding Hands',
+        'Heterosexual Couple',
+        'Straight Couple',
+        'Man and Woman Holding Hands'
     ],
-    '👬{{skin_tone}}‍': [
-        '手を握る男性たち',
-        'ゲイカップル',
-        '二人の男が手を握っている'
+    '👭{{skin_tone}}': [
+        'Lesbian Couple',
+        'Women Holding Hands',
+        'Two Women Holding Hands'
+    ],
+    '👬{{skin_tone}}': [
+        'Men Holding Hands',
+        'Gay Couple',
+        'Two Men Holding Hands'
+    ],
+    '🧑‍🤝‍🧑': [
+        'People Holding Hands',
+        'Two People Holding Hands',
+        'Gender Inclusive Couple',
+        'Gender Neutral Couple',
+        'Gender Nonconforming Couple'
     ],
     '👨‍👩‍👦': [
         '母と父と子との家族',
@@ -1145,13 +1333,13 @@ emojis_language[lang][3] = {
         '父と息子との家族',
         '家族：男、男の子'
     ],
-    '👨‍👦‍👦': [
-        '家族：男、男、男の子',
-        '父と二人の息子との家族'
-    ],
     '👨‍👧': [
         '父と娘との家族',
         '家族：男、女の子'
+    ],
+    '👨‍👦‍👦': [
+        'Family With Father and Two Sons',
+        'Family: Man, Boy, Boy'
     ],
     '👨‍👧‍👦': [
         '父と息子と娘との家族',
@@ -1165,13 +1353,13 @@ emojis_language[lang][3] = {
         '母と息子との家族',
         '家族：女、男の子'
     ],
-    '👩‍👦‍👦': [
-        '母と二人の息子との家族',
-        '家族：女性、男の子、男の子'
-    ],
     '👩‍👧': [
         '母と娘との家族',
         '家族：女性、女の子'
+    ],
+    '👩‍👦‍👦': [
+        '母と二人の息子との家族',
+        '家族：女性、男の子、男の子'
     ],
     '👩‍👧‍👦': [
         '母との家族, 息子と娘',
@@ -1181,11 +1369,17 @@ emojis_language[lang][3] = {
         '母と二人の娘との家族',
         '家族：女性、少女、女の子'
     ],
-    '💑': [
-        'ハートを持つカップル',
-        '恋をするカップル',
+    '💑{{skin_tone}}': [
+        'Couple with Heart',
+        'Couple In Love',
         'Loving Couple',
-        '心を持つ男と女'
+        'Gender Neutral Couple'
+    ],
+    '👩‍❤️‍👨': [
+        'Man and Woman With Heart',
+        'Couple In Love',
+        'Loving Couple',
+        'Couple With Heart'
     ],
     '👨‍❤️‍👨': [
         'ハートを持つ二人の男性',
@@ -1195,14 +1389,30 @@ emojis_language[lang][3] = {
         'ハートを持つ二人の女性',
         'ハートとのカップル：女性、女性'
     ],
-    '💆{{skin_tone}}‍‍♂️': ['頭マッサージを受ける男'],
+    '💏{{skin_tone}}': [
+        'Couple Kissing',
+        'Kiss',
+        'Gender Neutral Couple Kissing'
+    ],
+    '👩‍❤️‍💋‍👨': ['Man and Woman Kissing'],
+    '👨‍❤️‍💋‍👨': [
+        'Two Men Kissing',
+        'Man and Man Kissing'
+    ],
+    '👩‍❤️‍💋‍👩': [
+        'Two Women Kissing',
+        'Woman and Woman Kissing'
+    ],
+    '💆{{skin_tone}}‍♂️': ['Man Getting Head Massage'],
     '💆{{skin_tone}}‍♀️': ['頭マッサージを受ける女性'],
-    '💇{{skin_tone}}‍‍♂️': ['髪型を取得している男'],
-    '💇{{skin_tone}}‍‍♀️': ['髪を切られる女性'],
-    '🛌{{skin_tone}}‍': [
-        '眠れる宿泊施設',
-        'ベッドにいる人',
-        '眠っている人'
+    '💆{{skin_tone}}': ['Person Getting Head Massage'],
+    '💇{{skin_tone}}‍♂️': ['Man Getting Haircut'],
+    '💇{{skin_tone}}‍♀️': ['Woman Getting Haircut'],
+    '💇{{skin_tone}}': ['Person Getting Haircut'],
+    '🛌{{skin_tone}}': [
+        'Sleeping Accommodation',
+        'Person in Bed',
+        'Person Sleeping'
     ],
     '🧌': ['Troll'],
     '👺': [
@@ -1686,12 +1896,12 @@ emojis_language[lang][4] = {
     '🪹': [
         'Empty Nest',
         'Birds',
-        'Home'
+        'ホーム'
     ],
     '🪺': [
         'Nest with Eggs',
         'Birds',
-        'Home'
+        'ホーム'
     ]
 };
 /*symbols*/
@@ -1815,31 +2025,37 @@ emojis_language[lang][5] = {
         '眠れるサイン',
         '眠れるシンボル'
     ],
-    '♠️': [
-        'スペードスーツ',
+    '♠': [
+        'Spade Suit',
         'Spades',
         'Black Spade Suit'
     ],
-    '♥️': [
-        'ハートスーツ',
-        'ハート付きカード',
-        'ハート',
-        '黒いハートスーツ'
+    '♥': [
+        'Heart Suit',
+        'Card With Heart',
+        'Hearts',
+        'Black Heart Suit'
     ],
-    '♦️': [
-        'ダイヤのスーツ',
-        'Diamantes',
-        'ブラックダイヤモンドスーツ'
+    '♦': [
+        'Diamond Suit',
+        'Diamonds',
+        'Black Diamond Suit'
     ],
-    '♣️': [
-        'クラブスーツ',
-        'クラブ',
-        'ブラッククラブスーツ'
+    '♣': [
+        'Club Suit',
+        'Clubs',
+        'Black Club Suit'
     ],
     '🏧': [
         'ATMサイン',
         'ATM',
         '自動Telleer Machine'
+    ],
+    '🎧': [
+        'Headphone',
+        'Earphone',
+        'iPod',
+        'Headphones'
     ],
     '🎵': [
         '音楽メモ',
@@ -1887,6 +2103,13 @@ emojis_language[lang][5] = {
         'ミュートされたスピーカー',
         'ボリュームをミュート',
         'Strokeをキャンセルしたスピーカー'
+    ],
+    '📢': [
+        'Loudspeaker',
+        'Announcement',
+        'PA System',
+        'Public Address Loudspeaker',
+        ''
     ],
     '⛔': ['エントリなし'],
     '🚫': [
@@ -3540,7 +3763,7 @@ emojis_language[lang][6] = {
     '🫗': [
         'Pouring Liquid',
         'Pouring Drink',
-        'Water'
+        '水'
     ]
 };
 /*flags*/
@@ -4904,36 +5127,48 @@ emojis_language[lang][7] = {
 };
 /*sports*/
 emojis_language[lang][8] = {
-    '🧗{{skin_tone}}‍‍♂️': [
-        '男性クライミング中',
-        '男性ロッククライマー',
-        '男クライマー'
+    '🧗{{skin_tone}}‍♂️': [
+        'Man Climbing',
+        'Male Rock Climber',
+        'Man Climber'
     ],
-    '🧗{{skin_tone}}‍‍♀️': [
-        '女性クライミング中',
-        '女性ロッククライマー',
-        '女性登山家'
+    '🧗{{skin_tone}}‍♀️': [
+        'Woman Climbing',
+        'Female Rock Climber',
+        'Woman Climber'
     ],
-    '🏇{{skin_tone}}‍': [
-        '競馬場',
-        '競馬レース',
+    '🧗{{skin_tone}}': [
+        'Person Climbing',
+        'Person Rock Climber',
+        'Person Climber'
+    ],
+    '🏇{{skin_tone}}': [
+        'Horse Racing',
+        'Horse Race',
         'Jockey'
     ],
     '⛷{{skin_tone}}‍️': ['スキーヤー語'],
     '🏂{{skin_tone}}‍': ['Snowboarder'],
     '🏌️{{skin_tone}}‍♂️': ['Man Golfer'],
     '🏌️{{skin_tone}}‍♀️': ['女性ゴルファー'],
+    '🏌️{{skin_tone}}': ['Person Golfer'],
     '🏄{{skin_tone}}‍♂️': ['マンサーファー'],
     '🏄{{skin_tone}}‍♀️': ['ウーマンサーファー'],
-    '🚣{{skin_tone}}‍‍♂️': ['男性ボートボートを漕いで'],
-    '🚣{{skin_tone}}‍‍♀️': ['女性の漕ぎボート'],
-    '🏊{{skin_tone}}‍‍♂️': [
-        '水泳男',
-        '男の水泳家'
+    '🏄{{skin_tone}}': ['Person Surfer'],
+    '🚣{{skin_tone}}‍♂️': ['Man Rowing Boat'],
+    '🚣{{skin_tone}}‍♀️': ['Woman Rowing Boat'],
+    '🚣{{skin_tone}}': ['Person Rowing Boat'],
+    '🏊{{skin_tone}}‍♂️': [
+        'Man Swimming',
+        'Man Swimmer'
     ],
-    '🏊{{skin_tone}}‍‍♀️': [
-        '女性の<unk>',
-        '水泳家'
+    '🏊{{skin_tone}}‍♀️': [
+        'Woman Swimming',
+        'Woman Swimmer'
+    ],
+    '🏊{{skin_tone}}': [
+        'Woman Swimming',
+        'Person Swimmer'
     ],
     '⛹{{skin_tone}}‍️‍♂️': [
         '男のバウンスボール',
@@ -4943,6 +5178,10 @@ emojis_language[lang][8] = {
         '女性のバウンスボール',
         '女性バスケットボールプレイヤー'
     ],
+    '⛹️{{skin_tone}}': [
+        'Person Bouncing Ball',
+        'Person Basketball Player'
+    ],
     '🏋️{{skin_tone}}‍♂️': [
         '男の持ち上げウエイト',
         '男性重量挙げ'
@@ -4950,6 +5189,10 @@ emojis_language[lang][8] = {
     '🏋️{{skin_tone}}‍♀️': [
         '女性が持ち上げる重量',
         '女性重量挙げ'
+    ],
+    '🏋️{{skin_tone}}': [
+        'Person Lifting Weights',
+        'Person Weightlifter'
     ],
     '🚴{{skin_tone}}‍♂️': [
         '男のバイク',
@@ -4961,6 +5204,11 @@ emojis_language[lang][8] = {
         '女のサイクリスト',
         '女性のCyclist'
     ],
+    '🚴{{skin_tone}}': [
+        'Person Biking',
+        'Person Cyclist',
+        'Person Cyclist'
+    ],
     '🚵{{skin_tone}}‍♂️': [
         'マンマウンテンバイク',
         '暴走族（高級）'
@@ -4968,6 +5216,10 @@ emojis_language[lang][8] = {
     '🚵{{skin_tone}}‍♀️': [
         '女性マウンテンバイク',
         '女山暴走家'
+    ],
+    '🚵{{skin_tone}}': [
+        'Person Mountain Biking',
+        'Person Mountain Biker'
     ],
     '🤸{{skin_tone}}‍♂️': [
         '男のカートホイール',
@@ -4977,6 +5229,20 @@ emojis_language[lang][8] = {
         '女のカートホイール',
         'カートホイールをしている女性'
     ],
+    '🤸{{skin_tone}}': [
+        'Person Cartwheeling',
+        'Person Doing Cartwheel'
+    ],
+    '🤼‍♂️': [
+        'Men Wrestling',
+        'Wrestling',
+        'Wrestlers'
+    ],
+    '🤼‍♀️': [
+        'Women Wrestling',
+        'Wrestling',
+        'Wrestlers'
+    ],
     '🤼': [
         'レスリング中',
         'レッスリング',
@@ -4984,8 +5250,10 @@ emojis_language[lang][8] = {
     ],
     '🤽{{skin_tone}}‍♂️': ['水のポロを遊ぶ男'],
     '🤽{{skin_tone}}‍♀️': ['水のポロをする女性'],
+    '🤽{{skin_tone}}': ['Person Playing Water Polo'],
     '🤾{{skin_tone}}‍♂️': ['ハンドボールをしている男'],
     '🤾{{skin_tone}}‍♀️': ['ハンドボールをしている女性'],
+    '🤾{{skin_tone}}': ['Person Playing Handball'],
     '🤹{{skin_tone}}‍♂️': [
         'ジャグリング',
         '男性ジャグラー'
@@ -4993,6 +5261,10 @@ emojis_language[lang][8] = {
     '🤹{{skin_tone}}‍♀️': [
         '女性ジャグリング',
         '女性ジャグラー'
+    ],
+    '🤹{{skin_tone}}': [
+        'Person Juggling',
+        'Person Juggler'
     ],
     '🧘{{skin_tone}}‍♂️': [
         'ロータス・ポジションにいる男',
@@ -5008,10 +5280,18 @@ emojis_language[lang][8] = {
         '<unk>',
         'ヨガ（Yoga）'
     ],
+    '🧘{{skin_tone}}': [
+        'Person in Lotus Position',
+        'Meditation',
+        'Zen',
+        'Cross legged',
+        'Yoga'
+    ],
     '🏃{{skin_tone}}‍♂️': ['走っている男'],
     '🏃{{skin_tone}}‍♀️': ['走っている女性'],
-    '🕺{{skin_tone}}‍': ['男のダンス'],
-    '💃{{skin_tone}}‍': ['女のダンス'],
+    '🏃{{skin_tone}}': ['Person Running'],
+    '🕺{{skin_tone}}': ['Man Dancing'],
+    '💃{{skin_tone}}': ['Woman Dancing'],
     '🤺': [
         '人物のフェンシング',
         'ファンサー'
@@ -5601,7 +5881,7 @@ emojis_language[lang][9] = {
     ],
     '🛝': [
         'Playground Slide',
-        'Baby',
+        '赤ちゃん',
         'Children'
     ]
 };
@@ -6322,7 +6602,7 @@ emojis_language[lang][12] = {
         'Sniff',
         'Stinky'
     ],
-    '🦻{{skin_tone}}': ['Ear with Hearing Aid'],
+    '🦻{{skin_tone}}': ['耳に補聴器'],
     '🧠': ['ブレイン'],
     '🦷': ['歯'],
     '👀': [
@@ -6350,15 +6630,15 @@ emojis_language[lang][12] = {
     '🦾': ['Mechanical Arms'],
     '🦿': ['Mechanical Leg'],
     '💅{{skin_tone}}': [
-        'Nail Polish',
-        'Fingers',
+        'ネイルポーランド語',
+        'フィンガー',
         'Manicure',
         'Nonchalant'
     ],
     '🤳{{skin_tone}}': [
-        'Selfie',
-        'Phone Camera',
-        'Selfie Hand'
+        'セルフィー',
+        '携帯電話のカメラ',
+        'セルフィー手'
     ]
 };
 /*other*/
@@ -7371,7 +7651,7 @@ emojis_language[lang][13] = {
         'Life Ring',
         'Boats',
         'Safety',
-        'Water',
+        '水',
         'Lifesaving'
     ],
     '🪬': [
@@ -7393,7 +7673,7 @@ emojis_language[lang][13] = {
     ],
     '🪫': [
         'Low Battery',
-        'Red',
+        '赤',
         'Energy'
     ],
     '🩻': ['X-Ray'],
@@ -7408,5 +7688,13 @@ emojis_language[lang][13] = {
         'Identity',
         'Passport',
         'ID'
+    ],
+    '🧿': [
+        'Nazar Amulet',
+        'Evil Eye'
+    ],
+    '🧸': [
+        'Teddy Bear',
+        'Toy'
     ]
 };

@@ -12,9 +12,9 @@ Official repo of https://addons.mozilla.org/firefox/addon/emoji-sav/.
 
 [<img src="img/firefoxAddons.png" height="50px">](https://addons.mozilla.org/firefox/addon/emoji-sav/) [<img src="img/chromeAddons.png" height="50px">](https://chrome.google.com/webstore/detail/emoji/kjepehkgbooeigeflhiogplnckadlife) [<img src="img/microsoftAddons.png" height="50px">](https://microsoftedge.microsoft.com/addons/detail/emoji/ejcgfbaipbelddlbokgcfajefbnnagfm)
 
-To support me, you can do a donation :smile: with **PayPal**, **LiberaPay** or **Ko-Fi**:
+To support me, you can do a donation :smile: with **PayPal** or **LiberaPay**:
 
-<a href="https://liberapay.com/Sav22999/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a> [<img src="img/paypal.svg" width="160px"></img>](https://paypal.me/saveriomorelli) [<img src="https://cdn.ko-fi.com/cdn/kofi1.png?v=2" width="120px"></img>](https://ko-fi.com/R5R31UQ8G)
+<a href="https://liberapay.com/Sav22999/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a> [<img src="img/paypal.svg" width="160px"></img>](https://paypal.me/saveriomorelli)
 
 ## Description
 
@@ -41,7 +41,7 @@ Emojis are divided in some sections, to help you find the correct emoji quickly 
 - Most used emojis: in the first tab you can find the emoji you use more
 - Clear, modern and customisable UI
 - Simplicity: with a single click you can copy an emoji
-- Short-cut: open the add-on with `Ctrl`/`Cmd`+`Alt`+`A`
+- Shortcut: open the add-on with `Ctrl`/`Cmd`+`Alt`+`A` (you can customise this)
 - Tooltip: every emoji has the tooltip, so you can learn what's the name of an emoji
 
 ## How to contribute
@@ -54,7 +54,7 @@ Also, you can translate the extension (and the emojis description as well) on [C
 
 See folder <code>screenshots</code> to see screenshots also of the older versions.
 
-<img src="screenshots/3.10/1.png" width="400px"></img> <img src="screenshots/3.10/2.png" width="400px"></img> <img src="screenshots/3.10/3.png" width="400px"></img> <img src="screenshots/3.10/4.png" width="400px"></img>
+<img src="screenshots/3.17/1.png" width="400px"></img> <img src="screenshots/3.17/2.png" width="400px"></img> <img src="screenshots/3.17/3.png" width="400px"></img> <img src="screenshots/3.17/4.png" width="400px"></img>
 
 ## Licence
 

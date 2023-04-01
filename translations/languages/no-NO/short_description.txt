@@ -1,4 +1,0 @@
-Dette tillater bare et enkelt klikk for å kopiere emoji.
-Det finnes en søk-boks og "Mest brukt emojis"-delen (den først).
-
-Hvis du vil sende tilbakemelding eller rapportere feil, kan du gå til https://github.com/Sav22999/emoji

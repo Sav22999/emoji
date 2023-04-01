@@ -4,6 +4,16 @@
 }
 
 @font-face {
+    font-family: twemoji-fix-macos;
+    src: url("../font/twemoji-fix-macos.ttf");
+}
+
+@font-face {
+    font-family: joypixels;
+    src: url("../font/joypixels.ttf");
+}
+
+@font-face {
     font-family: open-sans;
     src: url("../font/opensans.ttf");
 }
@@ -318,6 +328,14 @@ div#top-message {
     font-family: twemoji, sans-serif;
 }
 
+.font-twemoji-fix-macos {
+    font-family: twemoji-fix-macos, sans-serif;
+}
+
+.font-joypixels {
+    font-family: joypixels, sans-serif;
+}
+
 .font-openmojicolor {
     font-family: openmoji-color, sans-serif;
 }
@@ -629,6 +647,12 @@ div {
     color: inherit;
 }
 
+.break-new-line {
+    position: relative;
+    display: block;
+    margin: 0px;
+}
+
 .title-subsection-settings {
     font-size: 16px;
     height: 30px;
@@ -920,11 +944,25 @@ div {
     background-image: url("../img/extension-icons/extension-icon-11.png");
 }
 
+#extension-icon-12 {
+    background-image: url("../img/extension-icons/extension-icon-12.png");
+}
+
+#extension-icon-13 {
+    background-image: url("../img/extension-icons/extension-icon-13.png");
+}
+
 #skin-tone-container, #extension-icon-container {
-    position: absolute;
-    height: 30px;
+    position: relative;
+    min-height: 30px;
     display: inline-block;
     top: 0px;
+    margin: 5px;
+    margin-top: 0px;
+}
+
+#skin-tone-container {
+    position: absolute;
     margin-left: 10px;
 }
 
@@ -942,6 +980,20 @@ div {
     transition: 0.2s;
     position: relative;
     z-index: 8;
+}
+
+.emoji-size-button {
+    border: 2px solid #3399ff;
+    background: transparent;
+    display: inline-block;
+    opacity: 1;
+    cursor: pointer;
+    color: inherit;
+    text-align: center;
+    transition: 0.2s;
+    position: relative;
+    z-index: 8;
+    padding: 0px;
 }
 
 .button-yes-no:hover {
@@ -1034,4 +1086,17 @@ div {
     padding: 5px;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.blue-selected-button, .blue-selected-button:hover {
+    background-color: #3399ff;
+    color: #ffffff;
+}
+
+.forced-dark-background {
+    background-color: rgb(70, 70, 70);
+}
+
+.forced-light-background {
+    background-color: #F5F5F5;
 }
