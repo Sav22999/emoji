@@ -459,6 +459,8 @@ function setPopUpUI() {
 
     if (browserOrChromeIndex == 1 || browserOrChromeIndex == 2) {
         document.getElementById("extension-icon-section-container").style.display = "none";
+        document.getElementById("key-shortcut-section-container").style.display = "none";
+        document.getElementById("insert-emoji-container").style.display = "none";
     }
 
     setLanguageSelector(language_to_show);
@@ -1604,7 +1606,7 @@ function selectYesNoInsertEmoji(index, onlyStatus = false) {
                     return browserAgentSettings.permissions.getAll();
                 }
 
-                browserAgentSettings.permissions.request(permissionsToRequest).then(onResponse);
+                browserAgentSettings.permissions.request(permissionsToRequest, onResponse);
             }
         } else {
             insertEmojiStatus = 0;
