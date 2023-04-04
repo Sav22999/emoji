@@ -1098,20 +1098,36 @@ function searchEmoji(value) {
                 n_results++;
             }
         } else {
+            let tmp_all_emojis_similar = {};
+            let tmp_all_emojis_equals = {};
+
             for (let title = 1; title < Object.keys(titles).length && n_results <= max_results; title++) {
                 for (let emoji in all_emojis[title]) {
-                    if (n_results >= max_results) {
-                        break;
-                    }
                     for (let description in all_emojis[title][emoji]) {
                         let tmp_str = all_emojis[title][emoji][description].toLowerCase().replace(".", "");
                         if (tmp_str.includes(valueToUse) || valueToUse.includes(tmp_str)) {
-                            all_emojis[0][emoji] = [all_emojis[title][emoji][0]]; //add emoji to the list
-                            n_results++;
+                            if (n_results < max_results) {
+                                tmp_all_emojis_similar[emoji] = [all_emojis[title][emoji][0]]; //add emoji to the list
+                                n_results++;
+                            }
+
+                            if (tmp_str === valueToUse) {
+                                tmp_all_emojis_equals[emoji] = [all_emojis[title][emoji][0]]; //add emoji to the list
+                                n_results++;
+                            }
                             break;
                         }
                     }
                 }
+            }
+
+            for (let item in tmp_all_emojis_equals) {
+                //Show before the exact correspondences
+                all_emojis[0][item] = tmp_all_emojis_equals[item];
+            }
+            for (let item in tmp_all_emojis_similar) {
+                //Show the emojis similar to the search
+                all_emojis[0][item] = tmp_all_emojis_similar[item];
             }
         }
         generateTitles(true, 0);
