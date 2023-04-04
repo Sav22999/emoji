@@ -46,9 +46,9 @@ var currentOS = "";
 var currentShortcut = "";
 
 const linkReview = ["https://addons.mozilla.org/firefox/addon/emoji-sav/", "https://microsoftedge.microsoft.com/addons/detail/emoji/ejcgfbaipbelddlbokgcfajefbnnagfm", "https://chrome.google.com/webstore/detail/emoji/kjepehkgbooeigeflhiogplnckadlife?hl=it&authuser=0"];
-const linkDonate = ["https://www.paypal.me/saveriomorelli", "https://ko-fi.com/saveriomorelli", "https://bit.ly/3eXs7Oy"]; //{paypal, ko-fi, liberapay}
+const linkDonate = ["https://www.paypal.me/saveriomorelli", "https://liberapay.com/Sav22999/donate"]; //{paypal, liberapay}
 const linkTranslate = "https://crowdin.com/project/emoji-sav";
-const linkNeedHelp = ["https://www.saveriomorelli.com/contact-me/"];
+const linkNeedHelp = ["https://www.emojiaddon.com/help"];
 const storeName = ["Firefox Add-ons", "Microsoft Edge Add-ons", "Google Chrome Web Store"];
 const fontFamily = ["twemoji", "notocoloremoji", "notocoloremoji", "twemoji-fix-macos", "joypixels"];
 
@@ -647,7 +647,7 @@ function setPopUpUI() {
         window.close();
     };
     document.getElementById("donate-liberapay-settings").onclick = function () {
-        let url_to_use = linkDonate[2];
+        let url_to_use = linkDonate[1];
         browserAgentSettings.tabs.create({url: url_to_use});
         window.close();
     };
