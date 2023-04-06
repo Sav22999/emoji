@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
   "name": "Emoji",
-  "version": "3.14.3",
-  "description": "It permits just with a single click to copy and insert an emoji. You can also customise the add-on.",
+  "version": "3.17.1",
+  "description": "Insert emojis using a web browser, and customise the experience and the add-on in Settings.",
   "icons": {
     "16": "./img/icon-dark-16.png",
     "24": "./img/icon-dark-24.png",
@@ -12,9 +12,6 @@
   "commands": {
     "_execute_browser_action": {
       "suggested_key": {
-        "windows": "Ctrl+Alt+A",
-        "mac": "Command+Alt+A",
-        "linux": "Ctrl+Alt+A",
         "default": "Ctrl+Alt+A"
       }
     }

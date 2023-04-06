@@ -1,19 +1,19 @@
 这是一个允许您轻松复制表情符号的开源项目（简单地说，这是一个表情符号选取器）。
-您可以用关键字搜索或使用“最常用的表情符号”。 或者只是在章节中寻找完美的表情导航。
+您可以通过关键字搜索和使用“最常用的 emoji”。 或者只是在各部分中寻找最适合的 emoji。
 
 https://github.com/Sav22999/emoji
 
-您可以自定义插件，事实上您可以启用或禁用各种选项，这些选项使插件具有个人特性和独特性！
+您可以自定义插件，事实上您可以启用或禁用各种选项，这些选项使插件具有个性和独特性！
 
-您可以使用快捷键：在 Windows 和 Linux 上 Ctrl+Alt+A 在 macOS 上 Ctrl+Alt+A 和 Cmd+Alt+A。
+您可以使用快捷键：在 Windows 和 Linux 上按下 Ctrl+Alt+A，在 macOS 上按下 Cmd+Alt+A。
 
 --
 
-关于应用中所使用的字体的一些信息：
-- 我认为最美丽的字体是Twitter开发的Twemoji。 您可以免费阅读更多关于它的信息 (也是开源！) 这里：https://twemoji.twitter.com/
+本应用中所使用字体的相关信息：
+- 默认字体，也是我认为最美丽的字体，是由 Twitter 设计的 Twemoji。 您可以免费阅读更多关于它的信息（它也是开源的！）：https://twemoji.twitter.com/
 
-- OpenMoji，这是我第二个最喜欢的表情字体。 在这里阅读更多信息: https://openmoji.org/
+- OpenMoji，这是我第二喜欢的 emoji 字体。 阅读更多信息：https://openmoji.org/
 
-- 诺托，谷歌。 在这里阅读更多信息: https://www.google.com/get/noto/help/emoji/
+- 由 Google 推出的 Noto Sans。 阅读更多信息：https://www.google.com/get/noto/help/emoji/
 
-其他字体，如"OS 表情字体"，取决于您的操作系统设置，所以您应该看到它们的许可协议。
+诸如“系统 emoji 字体”的其他字体依赖于您的操作系统设置，您需要检查其许可协议。

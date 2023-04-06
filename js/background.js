@@ -27,16 +27,27 @@ function setExtensionIcon(url) {
     browserAgentSettings.browserAction.setIcon({path: url});
 }
 
-let alreadyInjected = false;
+let requestNumber = 0;
 
-browserAgentSettings.tabs.onActivated.addListener((listener) => {
-    alreadyInjected = false;
-})
+browserAgentSettings.tabs.onActivated.addListener(listener => {
+    //nothing
+});
+
+browserAgentSettings.tabs.onUpdated.addListener(tabUpdated);
+
+function tabUpdated(tabId, changeInfo, tabInfo) {
+    //nothing
+}
 
 browserAgentSettings.runtime.onMessage.addListener((request) => {
-    if (!alreadyInjected || request.forced) {
-        alreadyInjected = true;
+    if (request.type === "inject") {
+        //inject the script
         injectContentScript(request.file);
+    } else if (request.type === "requestNumber") {
+        //return the request number for the injection
+        return Promise.resolve({requestNumber: requestNumber++});
+    } else {
+        console.error("Request unknown");
     }
 });
 

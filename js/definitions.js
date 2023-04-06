@@ -16,6 +16,7 @@ var supported_languages = sortSupportedLanguages({
     "cs": "Czech 🇨🇿",
     "da": "Danish 🇩🇰",
     "nl": "Dutch 🇳🇱",
+    "fa": "Farsi / Persian 🇮🇷",
     "fi": "Finnish 🇫🇮",
     "fr": "French 🇫🇷 🇨🇦",
     "de": "German 🇩🇪 🇦🇹",

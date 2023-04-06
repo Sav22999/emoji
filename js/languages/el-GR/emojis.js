@@ -9,7 +9,7 @@ titles_language[lang] = {
     '🦊': 'Ζώα',
     '🅰️': 'Σύμβολα',
     '🍎': 'Τρόφιμα και ποτά',
-    '🏳️‍🌈': 'Flags',
+    '🏳️‍🌈': 'Σημαίες',
     '🏊': 'Αθλητισμός',
     '✈️': 'Ταξίδια και θέσεις',
     '🖱️': 'Τεχνολογίες και γραφεία',
@@ -595,14 +595,27 @@ emojis_language[lang][2] = {
     ],
     '🥲': ['Χαμογελώντας πρόσωπο με δάκρυ'],
     '😮‍💨': [
-        'Face Exhaling',
-        'Sigh'
+        'Εκπνοή Προσώπου',
+        'Ζυγός'
     ],
     '😵‍💫': [
-        'Face with Spiral Eyes',
+        'Πρόσωπο με σπειροειδή μάτια',
         'Dizzy Face'
     ],
     '🥸': ['Μεταμφιεσμένο Πρόσωπο'],
+    '🫠': ['Melting Face'],
+    '🫢': ['Face with Open Eyes and Hand Over Mouth'],
+    '🫣': ['Face with Peeking Eye'],
+    '🫡': [
+        'Saluting Face',
+        'Military',
+        'Army',
+        'RAF',
+        'Navy'
+    ],
+    '🫥': ['Dotted Line Face'],
+    '🫤': ['Face with Diagonal Mouth'],
+    '🥹': ['Face Holding Back Tears'],
     '😈': [
         'Χαμογελώντας πρόσωπο με κέρατα',
         'Διάβολος',
@@ -690,42 +703,66 @@ emojis_language[lang][3] = {
         'Φύλο Ουδέτερο Ενήλικες',
         'Ενήλικες'
     ],
+    '🧑{{skin_tone}}': [
+        'Person: Beard',
+        'Beard',
+        'Bearded Person',
+        'Bearded Person'
+    ],
+    '🧑{{skin_tone}}‍🦰': [
+        'Person: Red Hair',
+        'Ginger Person',
+        'Person Redhead',
+        'Person With Red Hair'
+    ],
+    '🧑{{skin_tone}}‍🦱': [
+        'Person: Curly Hair',
+        'Person With Curly Hair'
+    ],
+    '🧑{{skin_tone}}‍🦳': [
+        'Person: White Hair',
+        'Person With Gray Hair'
+    ],
+    '🧑{{skin_tone}}‍🦲': [
+        'Person: Bald',
+        'Person With No Hair'
+    ],
     '👱{{skin_tone}}': [
         'Πρόσωπο: Blond Μαλλιά',
-        'Ξανθό',
-        'Ξανθιά',
-        'Ξανθός Άνθρωπος',
-        'Άτομο με ξανθά μαλλιά',
-        'Άνθρωπος Με Ξανθιά Μαλλιά'
+        'Person With Blonde Hair'
     ],
     '👨{{skin_tone}}': [
         'Άνθρωπος',
         'Άντρας',
         'Moustache Άνθρωπος'
     ],
-    '🧔{{skin_tone}}': [
-        'Άνθρωπος: Αρκούδα',
-        'Αρκούδα',
-        'Γενειοφόρος Άνθρωπος',
-        'Γενειοφόρος Άτομο'
+    '🧔{{skin_tone}}‍♂️': [
+        'Man: Beard',
+        'Beard',
+        'Bearded Man',
+        'Bearded Person'
     ],
     '👨{{skin_tone}}‍🦰': [
-        'Man: Red Hair',
-        'Ginger Man',
+        'Άνθρωπος: Κόκκινα Μαλλιά',
+        'Άνθρωπος Τζίντζερ',
         'Man Redhead',
-        'Man With Red Hair'
+        'Άνθρωπος Με Κόκκινα Μαλλιά'
     ],
     '👨{{skin_tone}}‍🦱': [
-        'Man: Curly Hair',
-        'Man With Curly Hair'
+        'Άνθρωπος: Σγουρά Μαλλιά',
+        'Άνθρωπος Με Σγουρά Μαλλιά'
     ],
     '👨{{skin_tone}}‍🦳': [
-        'Man: White Hair',
-        'Man With Gray Hair'
+        'Άνθρωπος: Λευκό Μαλλιά',
+        'Άνθρωπος Με Γκρι Μαλλιά'
     ],
     '👨{{skin_tone}}‍🦲': [
-        'Man: Bald',
-        'Man With No Hair'
+        'Άνθρωπος: Φαλακρός',
+        'Άνθρωπος Χωρίς Μαλλιά'
+    ],
+    '👱{{skin_tone}}‍♂️': [
+        'Άνθρωπος: Ξανθά Μαλλιά',
+        'Άνθρωπος Με Ξανθιά Μαλλιά'
     ],
     '👩{{skin_tone}}': [
         'Γυναίκα',
@@ -733,43 +770,44 @@ emojis_language[lang][3] = {
         'Κυρία',
         'Κίτρινη Γυναίκα'
     ],
+    '🧔{{skin_tone}}‍♀️': [
+        'Woman: Beard',
+        'Beard',
+        'Bearded Woman'
+    ],
     '👩{{skin_tone}}‍🦰': [
-        'Woman: Red Hair',
-        'Ginger Woman',
+        'Γυναίκα: Κόκκινα Μαλλιά',
+        'Γυναίκα Τζίντζερ',
         'Woman Redhead',
-        'Woman With Red Hair'
+        'Γυναίκα Με Κόκκινα Μαλλιά'
     ],
     '👩{{skin_tone}}‍🦱': [
-        'Woman: Curly Hair',
-        'Woman With Curly Hair'
+        'Γυναίκα: Σγουρά Μαλλιά',
+        'Γυναίκα Με Σγουρά Μαλλιά'
     ],
     '👩{{skin_tone}}‍🦳': [
-        'Woman: White Hair',
-        'Woman With Gray Hair'
+        'Γυναίκα: Λευκό Μαλλιά',
+        'Γυναίκα Με Γκρι Μαλλιά'
     ],
     '👩{{skin_tone}}‍🦲': [
-        'Woman: Bald',
-        'Woman With No Hair'
+        'Γυναίκα: Φαλακρός',
+        'Γυναίκα Χωρίς Μαλλιά'
     ],
     '👱{{skin_tone}}‍♀️': [
-        'Woman: Blond Hair',
-        'Woman With Blonde Hair'
+        'Γυναίκα: Ξανθά Μαλλιά',
+        'Γυναίκα Με Ξανθιά Μαλλιά'
     ],
-    '👱{{skin_tone}}‍♂️': [
-        'Man: Blond Hair',
-        'Man With Blonde Hair'
-    ],
-    '🧓{{skin_tone}}‍': [
+    '🧓{{skin_tone}}': [
         'Older Person',
         'Gender Neutral Older Adult'
     ],
-    '👴{{skin_tone}}‍': [
+    '👴{{skin_tone}}': [
         'Old Man',
         'Elderly Man',
         'Grandpa',
         'Older Man'
     ],
-    '👵{{skin_tone}}‍': [
+    '👵{{skin_tone}}': [
         'Old Woman',
         'Elderly Woman',
         'Grandma',
@@ -777,250 +815,419 @@ emojis_language[lang][3] = {
         'Old Lady',
         'Older Woman'
     ],
-    '👼{{skin_tone}}‍': [
+    '👼{{skin_tone}}': [
         'Baby Angel',
         'Angel',
         'Cherub',
         'Cupid',
         'Putto'
     ],
-    '🎅{{skin_tone}}‍': [
+    '👨{{skin_tone}}‍🎄': [
         'Santa Claus',
         'Saint Nicholas',
         'Sinterklaas',
         'Father Christmas'
     ],
-    '🤶{{skin_tone}}‍': [
+    '👩{{skin_tone}}‍🎄': [
         'Mrs Claus',
         'Mother Christmas'
     ],
-    '🤴{{skin_tone}}‍': ['Prince'],
-    '👸{{skin_tone}}‍': [
+    '🧑{{skin_tone}}‍🎄': [
+        'Mx Claus',
+        'Person Christmas'
+    ],
+    '🤴{{skin_tone}}': ['Prince'],
+    '👸{{skin_tone}}': [
         'Princess',
         'Blonde Girl',
         'Girl With Crown',
         'Girl With Tiara'
     ],
-    '👳{{skin_tone}}‍♂️': ['Man Wearing Turban'],
-    '👳{{skin_tone}}‍♀️': ['Woman Wearing Turban'],
-    '👲{{skin_tone}}‍': [
+    '🫅{{skin_tone}}': ['Person with Crown'],
+    '👳{{skin_tone}}‍♂️': [
+        'Άνθρωπος Που Φοράει Turban',
+        'Arab',
+        'Muslim',
+        'Sikh',
+        'Turban'
+    ],
+    '👳{{skin_tone}}‍♀️': [
+        'Γυναίκα Που Φοράει Turban',
+        'Arab',
+        'Muslim',
+        'Sikh',
+        'Turban'
+    ],
+    '👳{{skin_tone}}': [
+        'Person Wearing Turban',
+        'Arab',
+        'Muslim',
+        'Sikh',
+        'Turban'
+    ],
+    '👲{{skin_tone}}': [
         'Person With Skullcap',
         'Asian Man',
         'Man With Chinese Cap',
         'Man with Gua Pi Mao'
     ],
-    '🧕{{skin_tone}}‍': [
+    '🧕{{skin_tone}}': [
         'Woman with Headscarf',
         'Hijab',
         'Person with Headscarf'
     ],
-    '🤵{{skin_tone}}‍': [
-        'Person in Tuxedo',
+    '🤵{{skin_tone}}‍♀️': [
+        'Man in Tuxedo',
         'Groom',
         'Man In Suit',
-        'Man in Tuxedo'
+        'Wedding'
     ],
-    '👰{{skin_tone}}‍': [
-        'Person With Veil',
+    '🤵{{skin_tone}}‍♂️': [
+        'Woman in Tuxedo',
+        'Groom',
+        'Woman In Suit',
+        'Wedding'
+    ],
+    '🤵{{skin_tone}}': [
+        'Person in Tuxedo',
+        'Groom',
+        'Person In Suit',
+        'Wedding'
+    ],
+    '👰{{skin_tone}}‍♂️': [
+        'Άνθρωπος με Veil',
+        'Wedding',
+        'Bridegroom',
+        'Marriage'
+    ],
+    '👰{{skin_tone}}‍♀️': [
+        'Γυναίκα με λαχανικό',
+        'Wedding',
         'Bride',
-        'Bride with Veil'
+        'Bride with Veil',
+        'Marriage'
     ],
-    '👰{{skin_tone}}‍♂️': ['Man with Veil'],
-    '👰{{skin_tone}}‍♀️': ['Woman with Veil'],
-    '👩{{skin_tone}}‍🍼': ['Woman Feeding Baby'],
-    '👨{{skin_tone}}‍🍼': ['Man Feeding Baby'],
+    '👰{{skin_tone}}': [
+        'Person With Veil',
+        'Wedding',
+        'Marriage'
+    ],
+    '👩{{skin_tone}}‍🍼': ['Γυναίκα Διατροφή Μωρού'],
+    '👨{{skin_tone}}‍🍼': ['Ο Άνθρωπος Διατροφή Μωρού'],
+    '🧑{{skin_tone}}‍🍼': ['Person Feeding Baby'],
     '🥷': ['Νίντζα'],
-    '🤰{{skin_tone}}‍': [
+    '🤰{{skin_tone}}': [
         'Pregnant Woman',
         'Pregnancy',
         'Pregnant Lady'
     ],
-    '🤱{{skin_tone}}‍': [
-        'Breast-Feeding',
-        'Breastfeeding'
+    '🫃{{skin_tone}}': [
+        'Pregnant Man',
+        'Pregnancy'
     ],
-    '🦸{{skin_tone}}‍♂️': ['Man Superhero'],
-    '🦸{{skin_tone}}‍‍♀️': ['Woman Superhero'],
-    '🦹{{skin_tone}}‍‍♂️': ['Man Supervillain'],
-    '🦹{{skin_tone}}‍‍♀️': ['Woman Supervillain'],
-    '🧙{{skin_tone}}‍': [
-        'Mage',
+    '🫄{{skin_tone}}': [
+        'Pregnant Person',
+        'Pregnancy'
+    ],
+    '🤱{{skin_tone}}‍': [
+        'Θηλασμός',
+        'Θηλασμός'
+    ],
+    '🦸{{skin_tone}}‍♂️': ['Άνθρωπος Superhero'],
+    '🦸{{skin_tone}}‍♀️': ['Woman Superhero'],
+    '🦸{{skin_tone}}': ['Person Superhero'],
+    '🦹{{skin_tone}}‍♂️': ['Man Supervillain'],
+    '🦹{{skin_tone}}‍♀️': ['Woman Supervillain'],
+    '🦹{{skin_tone}}': ['Person Supervillain'],
+    '🧙{{skin_tone}}‍♂️': [
+        'Man Mage',
         'Sorcerer',
-        'Sorceress',
-        'Witch',
         'Wizard'
     ],
-    '🧙{{skin_tone}}‍‍♀️': [
+    '🧙{{skin_tone}}‍♀️': [
         'Woman Mage',
         'Witch',
-        'Sorceress'
+        'Sorceress',
+        'Wizard'
     ],
-    '🧚{{skin_tone}}‍‍♂️': ['Man Fairy'],
-    '🧚{{skin_tone}}‍♀️': ['Woman Fairy'],
+    '🧙{{skin_tone}}': [
+        'Person Mage',
+        'Wizard',
+        ':mage:'
+    ],
+    '🧚{{skin_tone}}‍♂️': ['Man Fairy'],
+    '🧚{{skin_tone}}‍♀️': ['Γαλακτοκομικά Γυναίκα'],
+    '🧚{{skin_tone}}': ['Person Fairy'],
     '🧛{{skin_tone}}‍♂️': [
-        'Man Vampire',
-        'Dracula'
+        'Άνθρωπος Βαμπίρ',
+        'Δράκουλας'
     ],
-    '🧛{{skin_tone}}‍‍♀️': ['Woman Vampire'],
-    '🧜{{skin_tone}}‍♂️': ['Merman'],
-    '🧜{{skin_tone}}‍♀️': ['Mermaid'],
-    '🧝{{skin_tone}}‍♂️': ['Man Elf'],
-    '🧝{{skin_tone}}‍♀️': ['Woman Elf'],
+    '🧛{{skin_tone}}‍♀️': ['Woman Vampire'],
+    '🧛{{skin_tone}}': ['Person Vampire'],
+    '🧜{{skin_tone}}‍♂️': [
+        'Μέρμαν',
+        'Merboy'
+    ],
+    '🧜{{skin_tone}}‍♀️': [
+        'Γοργόνα',
+        'Mergirl'
+    ],
+    '🧜{{skin_tone}}': ['Merperson'],
+    '🧝{{skin_tone}}‍♂️': ['Άνθρωπος Elf'],
+    '🧝{{skin_tone}}‍♀️': ['Elf Γυναίκας'],
+    '🧝{{skin_tone}}': ['Person Elf'],
     '🧞‍♂️': ['Man Genie'],
     '🧞‍♀️': ['Woman Genie'],
+    '🧞': ['Person Genie'],
     '🕵️{{skin_tone}}‍♂️': [
-        'Man Detective',
+        'Ανιχνευτής Ανθρώπου',
+        'Ιδιωτικό Μάτι',
+        'Sleuth',
+        'Κατασκόπων',
+        'Man Sleuth',
+        'Ύπνος ή κατάσκοπος',
+        '007',
+        'Επιθεωρητής'
+    ],
+    '🕵️{{skin_tone}}‍♀️': [
+        'Ανιχνευτής Γυναίκας',
         'Private Eye',
         'Sleuth',
         'Spy',
-        'Man Sleuth',
+        'Woman Sleuth',
         'Sleuth or Spy',
         '007',
         'Inspector'
     ],
-    '🕵️{{skin_tone}}‍♀️': ['Woman Detective'],
-    '💂{{skin_tone}}‍': [
-        'Guard',
+    '🕵{{skin_tone}}': [
+        'Person Detective',
+        'Private Eye',
+        'Sleuth',
+        'Spy',
+        'Person Sleuth',
+        'Sleuth or Spy',
+        '007',
+        'Inspector'
+    ],
+    '💂{{skin_tone}}‍♂️': [
+        'Man: Guard',
         'British Guardsman',
         'Foot Guard'
     ],
-    '💂{{skin_tone}}‍‍♀️': ['Woman Guard'],
-    '👮{{skin_tone}}‍': [
+    '💂{{skin_tone}}‍♀️': [
+        'Woman: Guard',
+        'British Guardsman',
+        'Foot Guard'
+    ],
+    '💂{{skin_tone}}': [
+        'Person: Guard',
+        'British Guardsman',
+        'Foot Guard'
+    ],
+    '👮{{skin_tone}}‍♂️': [
         'Police Officer',
         'Cop',
         'Police',
-        'Policeman',
+        'Policeman'
+    ],
+    '👮{{skin_tone}}‍♀️': [
+        'Woman Police Officer',
+        'Cop',
+        'Police',
         'Policewoman'
     ],
-    '👮{{skin_tone}}‍‍♀️': ['Woman Police Officer'],
-    '👨{{skin_tone}}‍🚒': ['Man Firefighter'],
-    '👩{{skin_tone}}‍‍🚒': ['Woman Firefighter'],
-    '👨{{skin_tone}}‍‍✈️': ['Man Pilot'],
-    '👩{{skin_tone}}‍‍✈️': ['Woman Pilot'],
-    '👨{{skin_tone}}‍💻': [
-        'Man Technologist',
-        'Man Technologist'
+    '👮{{skin_tone}}': [
+        'Police Officer',
+        'Cop',
+        'Police'
     ],
-    '👩{{skin_tone}}‍💻': ['Woman Technologist'],
+    '👨{{skin_tone}}‍🚒': ['Πυροσβέστης Του Ανθρώπου'],
+    '👩{{skin_tone}}‍🚒': ['Woman Firefighter'],
+    '🧑{{skin_tone}}‍🚒': ['Person Firefighter'],
+    '👨{{skin_tone}}‍✈️': ['Man Pilot'],
+    '👩{{skin_tone}}‍✈️': ['Woman Pilot'],
+    '🧑{{skin_tone}}‍✈️': ['Person Pilot'],
+    '👨{{skin_tone}}‍💻': [
+        'Άνθρωπος Τεχνολόγος',
+        'Άνθρωπος Τεχνολόγος'
+    ],
+    '👩{{skin_tone}}‍💻': ['Γυναίκα Τεχνολόγος'],
+    '🧑{{skin_tone}}‍💻': ['Person Technologist'],
     '👨{{skin_tone}}‍🎤': [
-        'Man Singer',
+        'Τραγουδιστής Του Ανθρώπου',
         'Bowie',
         'Aladdin Sane'
     ],
-    '👩{{skin_tone}}‍🎤': ['Woman Singer'],
-    '👨{{skin_tone}}‍🎨': ['Man Artist'],
-    '👩{{skin_tone}}‍🎨': ['Woman Artist'],
-    '👷{{skin_tone}}‍‍♂️': ['Man Construction Worker'],
-    '👷{{skin_tone}}‍‍♀️': ['Woman Construction Worker'],
-    '👨{{skin_tone}}‍‍🚀': [
+    '👩{{skin_tone}}‍🎤': ['Γυναίκα Τραγουδιστής'],
+    '🧑{{skin_tone}}‍🎤': ['Person Singer'],
+    '👨{{skin_tone}}‍🎨': ['Άνθρωπος Καλλιτέχνης'],
+    '👩{{skin_tone}}‍🎨': ['Καλλιτέχνης Γυναίκας'],
+    '🧑{{skin_tone}}‍🎨': ['Person Artist'],
+    '👷{{skin_tone}}‍♂️': ['Man Construction Worker'],
+    '👷{{skin_tone}}‍♀️': ['Woman Construction Worker'],
+    '👷{{skin_tone}}': ['Person Construction Worker'],
+    '👨{{skin_tone}}‍🚀': [
         'Man Astronaut',
         'Man Cosmonaut'
     ],
-    '👩{{skin_tone}}‍‍🚀': [
+    '👩{{skin_tone}}‍🚀': [
         'Woman Astronaut',
         'Woman Cosmonaut'
     ],
-    '👨{{skin_tone}}‍‍🔬': ['Man Scientist'],
-    '👩{{skin_tone}}‍‍🔬': ['Woman Scientist'],
+    '🧑{{skin_tone}}‍🚀': [
+        'Person Astronaut',
+        'Person Cosmonaut'
+    ],
+    '👨{{skin_tone}}‍🔬': ['Man Scientist'],
+    '👩{{skin_tone}}‍🔬': ['Woman Scientist'],
+    '🧑{{skin_tone}}‍🔬': ['Person Scientist'],
     '👨{{skin_tone}}‍💼': [
-        'Man Office Worker',
-        'CEO',
-        'Businessman'
+        'Υπάλληλος Του Man',
+        'Διευθύνων Σύμβουλος',
+        'Επιχειρηματίας'
     ],
     '👩{{skin_tone}}‍💼': [
-        'Woman Office Worker',
-        'Businesswoman',
+        'Γυναικεία Εργάτης Γραφείου',
+        'Επιχειρηματίας',
+        'Διευθύνων Σύμβουλος'
+    ],
+    '🧑{{skin_tone}}‍💼': [
+        'Person Office Worker',
+        'Business',
         'CEO'
     ],
-    '👨{{skin_tone}}‍🏭': ['Man Factory Worker'],
-    '👩{{skin_tone}}‍‍🏭': ['Woman Factory Worker'],
-    '👨{{skin_tone}}‍‍🔧': ['Man Mechanic'],
-    '👩{{skin_tone}}‍‍🔧': ['Woman Mechanic'],
-    '👨{{skin_tone}}‍‍🍳': [
+    '👨{{skin_tone}}‍🏭': ['Εργαζόμενος Εργαζόμενος Άνθρωπος'],
+    '👩{{skin_tone}}‍🏭': ['Woman Factory Worker'],
+    '🧑{{skin_tone}}‍🏭': ['Person Factory Worker'],
+    '👨{{skin_tone}}‍🔧': ['Man Mechanic'],
+    '👩{{skin_tone}}‍🔧': ['Woman Mechanic'],
+    '🧑{{skin_tone}}‍🔧': ['Person Mechanic'],
+    '👨{{skin_tone}}‍🍳': [
         'Man Cook',
         'Man Chef',
         'Male Chef'
     ],
-    '👩{{skin_tone}}‍‍🍳': [
+    '👩{{skin_tone}}‍🍳': [
         'Woman Cook',
         'Woman Chef',
         'Female Chef'
     ],
-    '👨{{skin_tone}}‍‍🌾': ['Man Farmer'],
-    '👩{{skin_tone}}‍‍🌾': ['Woman Farmer'],
-    '👨{{skin_tone}}‍‍⚖️': ['Man Judge'],
-    '👩{{skin_tone}}‍‍⚖️': ['Woman Judge'],
-    '👨{{skin_tone}}‍‍🏫': ['Man Teacher'],
-    '👩{{skin_tone}}‍‍🏫': ['Woman Teacher'],
-    '👨{{skin_tone}}‍🎓': ['Man Student'],
-    '👩{{skin_tone}}‍🎓': ['Woman Student'],
-    '👨{{skin_tone}}‍‍⚕️': [
+    '🧑{{skin_tone}}‍🍳': [
+        'Person Cook',
+        'Person Chef'
+    ],
+    '👨{{skin_tone}}‍🌾': ['Man Farmer'],
+    '👩{{skin_tone}}‍🌾': ['Woman Farmer'],
+    '🧑{{skin_tone}}‍🌾': ['Person Farmer'],
+    '👨{{skin_tone}}‍‍⚖️': ['Άνθρωπος Δικαστής'],
+    '👩{{skin_tone}}‍‍⚖️': ['Δικαστής Γυναίκας'],
+    '🧑{{skin_tone}}‍‍⚖️': ['Person Judge'],
+    '👨{{skin_tone}}‍‍🏫': ['Δάσκαλος Του Ανθρώπου'],
+    '👩{{skin_tone}}‍‍🏫': ['Δάσκαλος Γυναίκας'],
+    '🧑‍{{skin_tone}}‍‍🏫': ['Person Teacher'],
+    '👨{{skin_tone}}‍🎓': ['Μαθητής Άνθρωπος'],
+    '👩{{skin_tone}}‍🎓': ['Γυναίκα Μαθητής'],
+    '🧑{{skin_tone}}‍🎓': ['Person Student'],
+    '👨{{skin_tone}}‍⚕️': [
         'Man Health Worker',
         'Male Doctor',
         'Male Nurse'
     ],
     '👩{{skin_tone}}‍⚕️': [
-        'Woman Health Worker',
-        'Female Doctor',
-        'Female Nurse'
+        'Γυναίκα Εργαζόμενος Υγείας',
+        'Θηλυκός Γιατρός',
+        'Γυναίκα Νοσοκόμα'
+    ],
+    '🧑‍{{skin_tone}}‍⚕️': [
+        'Person Health Worker',
+        'Person Doctor',
+        'Person Nurse'
     ],
     '🤷{{skin_tone}}‍♂️': [
-        'Man Shrugging',
-        'idk man',
+        'Άνθρωπος Shrugging',
+        'idk άνθρωπος',
         'dunno'
     ],
     '🤷{{skin_tone}}‍♀️': [
-        'Woman Shrugging',
-        'idk woman',
+        'Γυναίκα Shrugging',
+        'εικονική γυναίκα',
         'dunno'
     ],
-    '🤦{{skin_tone}}‍♂️': ['Man Facepalming'],
-    '🤦{{skin_tone}}‍♀️': ['Woman Facepalming'],
-    '🙇{{skin_tone}}‍‍♂️': ['Man Bowing'],
-    '🙇{{skin_tone}}‍‍♀️': ['Woman Bowing'],
-    '🧏{{skin_tone}}‍♂️': ['Deaf Man'],
-    '🧏{{skin_tone}}‍‍♀️': ['Deaf Woman'],
+    '🤷{{skin_tone}}': [
+        'Person Shrugging',
+        'idk person',
+        'dunno'
+    ],
+    '🤦{{skin_tone}}‍♂️': ['Άνθρωπος Facepalming'],
+    '🤦{{skin_tone}}‍♀️': ['Γυναίκα Facepalming'],
+    '🤦{{skin_tone}}': ['Person Facepalming'],
+    '🙇{{skin_tone}}‍‍♂️': ['Άνθρωπος Μπόουινγκ'],
+    '🙇{{skin_tone}}‍‍♀️': ['Γυναίκα Bowing'],
+    '🙇{{skin_tone}}': ['Person Bowing'],
+    '🧏{{skin_tone}}‍♂️': ['Κωφός Άνθρωπος'],
+    '🧏{{skin_tone}}‍‍♀️': ['Κωφών Γυναίκας'],
+    '🧏{{skin_tone}}': ['Deaf Person'],
     '🙋{{skin_tone}}‍‍♂️': [
-        'Man Raising Hand',
-        'Happy Man Raising One Hand'
+        'Άνθρωπος Αύξηση Χεριών',
+        'Happy Man Raising Ένα Χέρι'
     ],
     '🙋{{skin_tone}}‍♀️': [
-        'Woman Raising Hand',
-        'Happy Woman Raising One Hand'
+        'Γυναικεία Ανύψωση Χέρι',
+        'Ευτυχισμένη Γυναίκα Αυξάνει Ένα Χέρι'
+    ],
+    '🙋{{skin_tone}}': [
+        'Person Raising Hand',
+        'Happy Person Raising One Hand'
     ],
     '💁{{skin_tone}}‍♂️': [
-        'Man Tipping Hand',
-        'Information Desk Man'
+        'Άνθρωπος Χέρι Συμβουλών',
+        'Άνθρωπος Γραφείου Πληροφοριών'
     ],
     '💁{{skin_tone}}‍♀️': [
-        'Woman Tipping Hand',
-        'Information Desk Woman'
+        'Χέρι Συμβουλής Γυναίκας',
+        'Γυναίκα Γραφείου Πληροφοριών'
+    ],
+    '💁{{skin_tone}}': [
+        'Person Tipping Hand',
+        'Information Desk Person'
     ],
     '🙆{{skin_tone}}‍♂️': ['Man Gesturing OK'],
-    '🙆{{skin_tone}}‍♀️': ['Woman Gesturing OK'],
-    '🙅{{skin_tone}}‍♂️': ['Man Gesturing No'],
-    '🙅{{skin_tone}}‍♀️': ['Woman Gesturing No'],
-    '🙎{{skin_tone}}‍♂️': ['Man Pouting'],
-    '🙎{{skin_tone}}‍‍♀️': ['Woman Pouting'],
-    '🙍{{skin_tone}}‍‍♂️': ['Man Frowning'],
-    '🙍{{skin_tone}}‍‍♀️': ['Woman Frowning'],
-    '🧟‍‍♂️': ['Man Zombie'],
-    '🧟‍‍♀️': ['Woman Zombie'],
-    '🚶{{skin_tone}}‍♂️': ['Man Walking'],
-    '🚶{{skin_tone}}‍♀️': ['Woman Walking'],
-    '🧍{{skin_tone}}‍‍♂️': ['Man Standing'],
-    '🧍{{skin_tone}}‍‍♀️': ['Woman Standing'],
-    '🧎{{skin_tone}}‍♂️': ['Man Kneeling'],
-    '🧎{{skin_tone}}‍‍♀️': ['Woman Kneeling'],
-    '👨{{skin_tone}}‍🦯': ['Man with White Cane'],
-    '👩{{skin_tone}}‍🦯': ['Woman with White Cane'],
-    '👨{{skin_tone}}‍🦼': ['Man in Motorized Wheelchair'],
-    '👩{{skin_tone}}‍🦼': ['Woman in Motorized Wheelchair'],
-    '👨{{skin_tone}}‍🦽': ['Man in Manual Wheelchair'],
-    '👩{{skin_tone}}‍🦽': ['Woman in Manual Wheelchair'],
-    '👯‍♂️': ['Men with Bunny Ears'],
-    '👯‍♀️': ['Women with Bunny Ears'],
-    '🕴️{{skin_tone}}‍': [
+    '🙆{{skin_tone}}‍♀️': ['Απαγόρευση Γυναίκας Εντάξει'],
+    '🙆{{skin_tone}}': ['Person Gesturing OK'],
+    '🙅{{skin_tone}}‍♂️': ['Αριθ. Χειρονομίας Του Ανθρώπου'],
+    '🙅{{skin_tone}}‍♀️': ['Χειρισμός Γυναίκας Αριθ.'],
+    '🙅{{skin_tone}}': ['Person Gesturing No'],
+    '🙎{{skin_tone}}‍♂️': ['Ο Άνθρωπος Pouting'],
+    '🙎{{skin_tone}}‍‍♀️': ['Pouting Γυναίκας'],
+    '🙎{{skin_tone}}': ['Person Pouting'],
+    '🙍{{skin_tone}}‍♂️': ['Man Frowning'],
+    '🙍{{skin_tone}}‍♀️': ['Woman Frowning'],
+    '🙍{{skin_tone}}': ['Person Frowning'],
+    '🧟‍‍♂️': ['Ο Άνθρωπος Ζόμπι'],
+    '🧟‍‍♀️': ['Ζόμπι Γυναίκας'],
+    '🧟': ['Person Zombie'],
+    '🚶{{skin_tone}}‍♂️': ['Άνθρωπος Περπάτημα'],
+    '🚶{{skin_tone}}‍♀️': ['Γυναίκα Περπάτημα'],
+    '🚶{{skin_tone}}': ['Person Walking'],
+    '🧍{{skin_tone}}‍♂️': ['Man Standing'],
+    '🧍{{skin_tone}}‍♀️': ['Woman Standing'],
+    '🧍{{skin_tone}}': ['Person Standing'],
+    '🧎{{skin_tone}}‍♂️': ['Άνθρωπος Γονιμοποίηση'],
+    '🧎{{skin_tone}}‍♀️': ['Woman Kneeling'],
+    '🧎{{skin_tone}}': ['Person Kneelink'],
+    '👨{{skin_tone}}‍🦯': ['Άνθρωπος με λευκό ζαχαροκάλαμο'],
+    '👩{{skin_tone}}‍🦯': ['Γυναίκα με λευκό ζαχαροκάλαμο'],
+    '🧑{{skin_tone}}‍🦯': ['Person with White Cane'],
+    '👨{{skin_tone}}‍🦼': ['Άνθρωπος σε μηχανοκίνητη αναπηρική καρέκλα'],
+    '👩{{skin_tone}}‍🦼': ['Γυναίκα σε Μηχανοκίνητη Αναπηρική Καρέκλα'],
+    '🧑{{skin_tone}}‍🦼': ['Person in Motorized Wheelchair'],
+    '👨{{skin_tone}}‍🦽': ['Ο άνθρωπος σε χειρωνακτική αναπηρική καρέκλα'],
+    '👩{{skin_tone}}‍🦽': ['Γυναίκα σε χειρωνακτική αναπηρική καρέκλα'],
+    '🧑{{skin_tone}}‍🦽': ['Person in Manual Wheelchair'],
+    '👯‍♂️': ['Άνδρες με αυτιά Bunny'],
+    '👯‍♀️': ['Γυναίκες με Bunny αυτιά'],
+    '👯': ['People with Bunny Ears'],
+    '🕴️{{skin_tone}}': [
         'Person in Suit Levitating',
         'Hovering Man',
         'Rude Boy',
@@ -1028,151 +1235,192 @@ emojis_language[lang][3] = {
         'Man in Business Suit Levitating'
     ],
     '🧖{{skin_tone}}‍♂️': [
-        'Man in Steamy Room',
-        'Man in Sauna'
+        'Άνθρωπος στο Steamy Room',
+        'Άνθρωπος στη Σάουνα'
     ],
     '🧖{{skin_tone}}‍♀️': [
-        'Woman in Steamy Room',
-        'Woman in Sauna'
+        'Γυναίκα στο Steamy Room',
+        'Γυναίκα στη Σάουνα'
     ],
-    '👫{{skin_tone}}‍': [
+    '🧖{{skin_tone}}': [
+        'Person in Steamy Room',
+        'Person in Sauna'
+    ],
+    '👫{{skin_tone}}': [
         'Woman and Man Holding Hands',
         'Heterosexual Couple',
         'Straight Couple',
         'Man and Woman Holding Hands'
     ],
-    '👭{{skin_tone}}‍': [
+    '👭{{skin_tone}}': [
         'Lesbian Couple',
         'Women Holding Hands',
         'Two Women Holding Hands'
     ],
-    '👬{{skin_tone}}‍': [
+    '👬{{skin_tone}}': [
         'Men Holding Hands',
         'Gay Couple',
         'Two Men Holding Hands'
     ],
+    '🧑‍🤝‍🧑': [
+        'People Holding Hands',
+        'Two People Holding Hands',
+        'Gender Inclusive Couple',
+        'Gender Neutral Couple',
+        'Gender Nonconforming Couple'
+    ],
     '👨‍👩‍👦': [
-        'Family With Mother, Father and Son',
-        'Family: Man, Woman, Boy'
+        'Οικογένεια με τη μητέρα, τον πατέρα και τον γιο',
+        'Οικογένεια: Άνθρωπος, Γυναίκα, Αγόρι'
     ],
     '👨‍👩‍👧': [
-        'Family With Mother, Father and Daughter',
-        'Family: Man, Woman, Girl'
+        'Οικογένεια με μητέρα, πατέρα και κόρη',
+        'Οικογένεια: Άνθρωπος, Γυναίκα, Κορίτσι'
     ],
     '👨‍👩‍👧‍👦': [
-        'Family With Mother, Father, Son and Daughter',
-        'Family: Man, Woman, Girl, Boy'
+        'Οικογένεια με τη μητέρα, τον πατέρα, τον γιο και την κόρη',
+        'Οικογένεια: Άνδρα, Γυναίκα, Κορίτσι, Αγόρι'
     ],
     '👨‍👩‍👦‍👦': [
-        'Family With Mother, Father and Two Sons',
-        'Family: Man, Woman, Boy, Boy'
+        'Οικογένεια με τη μητέρα, τον πατέρα και δύο γιους',
+        'Οικογένεια: Άνθρωπος, Γυναίκα, Αγόρι, Αγόρι'
     ],
     '👨‍👩‍👧‍👧': [
-        'Family With Mother, Father and Two Daughters',
-        'Family: Man, Woman, Girl, Girl'
+        'Οικογένεια με τη μητέρα, τον πατέρα και δύο κόρες',
+        'Οικογένεια: Άνθρωπος, Γυναίκα, Κορίτσι, Κορίτσι'
     ],
     '👨‍👨‍👦': [
-        'Family With Two Fathers and Son',
-        'Family: Man, Man, Boy'
+        'Οικογένεια με δύο πατέρες και γιο',
+        'Οικογένεια: Άνθρωπος, Άνθρωπος, Αγόρι'
     ],
     '👨‍👨‍👧': [
-        'Family With Two Fathers and Daughter',
-        'Family: Man, Man, Girl'
+        'Οικογένεια με δύο πατέρες και κόρη',
+        'Οικογένεια: Άνθρωπος, Άνθρωπος, Κορίτσι'
     ],
     '👨‍👨‍👧‍👦': [
-        'Family With Two Fathers, Son and Daughter',
-        'Family: Man, Man, Girl, Boy'
+        'Οικογένεια με δύο πατέρες, τον γιο και την κόρη',
+        'Οικογένεια: Άνθρωπος, Άνθρωπος, Κορίτσι, Αγόρι'
     ],
     '👨‍👨‍👦‍👦': [
-        'Family With Two Fathers and Two Sons',
-        'Family: Man, Man, Boy, Boy'
+        'Οικογένεια με δύο πατέρες και δύο γιους',
+        'Οικογένεια: Άνθρωπος, Άνθρωπος, Αγόρι, Αγόρι'
     ],
     '👨‍👨‍👧‍👧': [
-        'Family With Two Fathers and Two Daughters',
-        'Family: Man, Man, Girl, Girl'
+        'Οικογένεια με δύο πατέρες και δύο κόρες',
+        'Οικογένεια: Άνθρωπος, Άνθρωπος, Κορίτσι, Κορίτσι'
     ],
     '👩‍👩‍👦': [
-        'Family With Two Mothers and Son',
-        'Family: Woman, Woman, Boy'
+        'Οικογένεια με δύο μητέρες και γιο',
+        'Οικογένεια: Γυναίκα, Γυναίκα, Αγόρι'
     ],
     '👩‍👩‍👧': [
-        'Family With Two Mothers and Daughter',
-        'Family: Woman, Woman, Girl'
+        'Οικογένεια με δύο μητέρες και κόρη',
+        'Οικογένεια: Γυναίκα, Γυναίκα, Κορίτσι'
     ],
     '👩‍👩‍👧‍👦': [
-        'Family With Two Mothers, Son and Daughter',
-        'Family: Woman, Woman, Girl, Boy'
+        'Οικογένεια με δύο μητέρες, Υιός και κόρη',
+        'Οικογένεια: Γυναίκα, Γυναίκα, Κορίτσι, Αγόρι'
     ],
     '👩‍👩‍👦‍👦': [
-        'Family With Two Mothers and Two Sons',
-        'Family: Woman, Woman, Boy, Boy'
+        'Οικογένεια με δύο μητέρες και δύο γιους',
+        'Οικογένεια: Γυναίκα, Γυναίκα, Αγόρι, Αγόρι'
     ],
     '👩‍👩‍👧‍👧': [
-        'Family With Two Mothers and Two Daughters',
-        'Family: Woman, Woman, Girl, Girl'
+        'Οικογένεια με δύο μητέρες και δύο κόρες',
+        'Οικογένεια: Γυναίκα, Γυναίκα, Κορίτσι, Κορίτσι'
     ],
     '👨‍👦': [
-        'Family With Father and Son',
-        'Family: Man, Boy'
-    ],
-    '👨‍👦‍👦': [
-        'Family: Man, Boy, Boy',
-        'Family With Father and Two Sons'
+        'Οικογένεια με τον πατέρα και τον γιο',
+        'Οικογένεια: Άνθρωπος, Αγόρι'
     ],
     '👨‍👧': [
-        'Family With Father and Daughter',
-        'Family: Man, Girl'
+        'Οικογένεια με τον πατέρα και την κόρη',
+        'Οικογένεια: Άνθρωπος, Κορίτσι'
+    ],
+    '👨‍👦‍👦': [
+        'Family With Father and Two Sons',
+        'Family: Man, Boy, Boy'
     ],
     '👨‍👧‍👦': [
-        'Family With Father, Son and Daughter',
-        'Family: Man, Girl, Boy'
+        'Οικογένεια με τον πατέρα, τον γιο και την κόρη',
+        'Οικογένεια: Άνθρωπος, Κορίτσι, Αγόρι'
     ],
     '👨‍👧‍👧': [
-        'Family With Father and Two Daughters',
-        'Family: Man, Girl, Girl'
+        'Οικογένεια με τον πατέρα και δύο κόρες',
+        'Οικογένεια: Άνθρωπος, Κορίτσι, Κορίτσι'
     ],
     '👩‍👦': [
-        'Family With Mother and Son',
-        'Family: Woman, Boy'
-    ],
-    '👩‍👦‍👦': [
-        'Family With Mother and Two Sons',
-        'Family: Woman, Boy, Boy'
+        'Οικογένεια με τη μητέρα και τον γιο',
+        'Οικογένεια: Γυναίκα, Αγόρι'
     ],
     '👩‍👧': [
-        'Family With Mother and Daughter',
-        'Family: Woman, Girl'
+        'Οικογένεια με τη μητέρα και την κόρη',
+        'Οικογένεια: Γυναίκα, Κορίτσι'
+    ],
+    '👩‍👦‍👦': [
+        'Οικογένεια με τη μητέρα και δύο γιους',
+        'Οικογένεια: Γυναίκα, Αγόρι, Αγόρι'
     ],
     '👩‍👧‍👦': [
-        'Family With Mother, Son and Daughter',
-        'Family: Woman, Girl, Boy'
+        'Οικογένεια με μητέρα, Υιός και κόρη',
+        'Οικογένεια: Γυναίκα, Κορίτσι, Αγόρι'
     ],
     '👩‍👧‍👧': [
-        'Family With Mother and Two Daughters',
-        'Family: Woman, Girl, Girl'
+        'Οικογένεια με τη μητέρα και δύο κόρες',
+        'Οικογένεια: Γυναίκα, Κορίτσι, Κορίτσι'
     ],
-    '💑': [
-        'Ζευγάρι με καρδιά',
-        'Ζευγάρι Στην Αγάπη',
-        'Ζευγάρι Αγάπης',
-        'Άνθρωπος και γυναίκα με καρδιά'
+    '💑{{skin_tone}}': [
+        'Couple with Heart',
+        'Couple In Love',
+        'Loving Couple',
+        'Gender Neutral Couple'
+    ],
+    '👩‍❤️‍👨': [
+        'Man and Woman With Heart',
+        'Couple In Love',
+        'Loving Couple',
+        'Couple With Heart'
     ],
     '👨‍❤️‍👨': [
-        'Two Men With Heart',
-        'Couple with Heart: Man, Man'
+        'Δύο Άνδρες Με Καρδιά',
+        'Ζευγάρι με την καρδιά: Άνθρωπος, Άνθρωπος'
     ],
     '👩‍❤️‍👩': [
-        'Two Women With Heart',
-        'Couple with Heart: Woman, Woman'
+        'Δύο Γυναίκες Με Καρδιά',
+        'Ζευγάρι με καρδιά: Γυναίκα, Γυναίκα'
     ],
-    '💆{{skin_tone}}‍‍♂️': ['Man Getting Head Massage'],
-    '💆{{skin_tone}}‍♀️': ['Woman Getting Head Massage'],
-    '💇{{skin_tone}}‍‍♂️': ['Man Getting Haircut'],
-    '💇{{skin_tone}}‍‍♀️': ['Woman Getting Haircut'],
-    '🛌{{skin_tone}}‍': [
+    '💏{{skin_tone}}': [
+        'Couple Kissing',
+        'Kiss',
+        'Gender Neutral Couple Kissing'
+    ],
+    '👩‍❤️‍💋‍👨': ['Man and Woman Kissing'],
+    '👨‍❤️‍💋‍👨': [
+        'Two Men Kissing',
+        'Man and Man Kissing'
+    ],
+    '👩‍❤️‍💋‍👩': [
+        'Two Women Kissing',
+        'Woman and Woman Kissing'
+    ],
+    '💆{{skin_tone}}‍♂️': ['Man Getting Head Massage'],
+    '💆{{skin_tone}}‍♀️': ['Γυναίκα Να πάρει Μασάζ Κεφάλι'],
+    '💆{{skin_tone}}': ['Person Getting Head Massage'],
+    '💇{{skin_tone}}‍♂️': ['Man Getting Haircut'],
+    '💇{{skin_tone}}‍♀️': ['Woman Getting Haircut'],
+    '💇{{skin_tone}}': ['Person Getting Haircut'],
+    '🛌{{skin_tone}}': [
         'Sleeping Accommodation',
         'Person in Bed',
         'Person Sleeping'
+    ],
+    '🧌': ['Troll'],
+    '👺': [
+        'Goblin',
+        'Long Nose Face',
+        'Red Mask',
+        'Tengu',
+        'Japanese Goblin'
     ]
 };
 /*animals*/
@@ -1279,7 +1527,7 @@ emojis_language[lang][4] = {
         'Βλέποντας Τον Σκύλο Των Ματιών',
         'Οδηγός Σκύλος'
     ],
-    '🐕‍🦺': ['Service Dog'],
+    '🐕‍🦺': ['Σκύλος Υπηρεσίας'],
     '🐩': [
         'Poodle',
         'Σκύλος',
@@ -1308,7 +1556,7 @@ emojis_language[lang][4] = {
         'Αγριόχοιρος',
         'Χιούσεσατ'
     ],
-    '🐈‍⬛': ['Black Cat'],
+    '🐈‍⬛': ['Μαύρη Γάτα'],
     '🦁': [
         'Λιοντάρι',
         'Πρόσωπο Λιονταριών'
@@ -1637,14 +1885,24 @@ emojis_language[lang][4] = {
     '🦬': ['Βίσος'],
     '🦣': ['Μαμούθ'],
     '🦫': ['Κάστορας'],
-    '🐻‍❄️': ['Polar Bear'],
+    '🐻‍❄️': ['Πολική Αρκούδα'],
     '🦤': ['Dodo'],
     '🦭': ['Σφραγίδα'],
     '🪲': ['Σκαθάρι'],
     '🪳': ['Κατσαρίδα'],
     '🪰': ['Πτήση'],
     '🪱': ['Σκουλήκι'],
-    '🦩': ['Flamingo']
+    '🦩': ['Flamingo'],
+    '🪹': [
+        'Empty Nest',
+        'Birds',
+        'Αρχική'
+    ],
+    '🪺': [
+        'Nest with Eggs',
+        'Birds',
+        'Αρχική'
+    ]
 };
 /*symbols*/
 emojis_language[lang][5] = {
@@ -1767,31 +2025,37 @@ emojis_language[lang][5] = {
         'Υπογραφή Ύπνου',
         'Σύμβολο Ύπνου'
     ],
-    '♠️': [
-        'Κοστούμι Μπαστούνι',
+    '♠': [
+        'Spade Suit',
         'Spades',
         'Black Spade Suit'
     ],
-    '♥️': [
-        'Φυλή Καρδιάς',
-        'Κάρτα Με Καρδιά',
-        'Καρδιές',
-        'Μαύρη Καρδιά Κοστούμι'
+    '♥': [
+        'Heart Suit',
+        'Card With Heart',
+        'Hearts',
+        'Black Heart Suit'
     ],
-    '♦️': [
-        'Διαμάντι Κοστούμι',
-        'Διαμάντια',
-        'Μαύρο Διαμάντι Κοστούμι'
+    '♦': [
+        'Diamond Suit',
+        'Diamonds',
+        'Black Diamond Suit'
     ],
-    '♣️': [
-        'Κοστούμι Club',
-        'Κλαμπ',
-        'Μαύρο Κοστούμι Club'
+    '♣': [
+        'Club Suit',
+        'Clubs',
+        'Black Club Suit'
     ],
     '🏧': [
         'Σημάδι ATM',
         'ATM',
         'Αυτοματοποιημένη Μηχανή Τηλεειδοποίησης'
+    ],
+    '🎧': [
+        'Headphone',
+        'Earphone',
+        'iPod',
+        'Headphones'
     ],
     '🎵': [
         'Μουσική Σημείωση',
@@ -1839,6 +2103,13 @@ emojis_language[lang][5] = {
         'Ηχείο Σε Σίγαση',
         'Σίγαση Έντασης',
         'Ηχείο με ακύρωση Stroke'
+    ],
+    '📢': [
+        'Loudspeaker',
+        'Announcement',
+        'PA System',
+        'Public Address Loudspeaker',
+        ''
     ],
     '⛔': ['Καμία Καταχώρηση'],
     '🚫': [
@@ -2225,6 +2496,10 @@ emojis_language[lang][5] = {
         'Διαίρεση',
         'Σύμβολο Διαίρεσης',
         'Σημάδι Βαρέως Διαίρεσης'
+    ],
+    '🟰': [
+        'Heavy Equals Sign',
+        'Result'
     ],
     '♾️': [
         'Άπειρο',
@@ -3478,7 +3753,18 @@ emojis_language[lang][6] = {
         'Τσάι Φούσκα',
         'Boba'
     ],
-    '🧊': ['Κύβος Πάγου']
+    '🧊': ['Κύβος Πάγου'],
+    '🫘': [
+        'Beans',
+        'Flatulence',
+        'Coffee beans',
+        'Spill the beans'
+    ],
+    '🫗': [
+        'Pouring Liquid',
+        'Pouring Drink',
+        'Νερό'
+    ]
 };
 /*flags*/
 emojis_language[lang][7] = {
@@ -3507,16 +3793,23 @@ emojis_language[lang][7] = {
         'Κυματίζει Λευκή Σημαία'
     ],
     '🏳️‍🌈': [
-        'Rainbow Flag',
-        'Pride Flag'
+        'Σημαία Ουράνιο Τόξο',
+        'Pride Flag',
+        'LGBT',
+        'LGBTQIA+',
+        'Gay',
+        'Transgender',
+        'Lesbian',
+        'Asexual',
+        'Queer'
     ],
     '🏳️‍⚧️': [
-        'Transgender Flag',
-        'Blue, Pink, and White Flag',
-        'Trans Flag'
+        'Σημαία Transgender',
+        'Μπλε, ροζ, και άσπρη σημαία',
+        'Σημαία Trans'
     ],
     '🏴‍☠️': [
-        'Pirate Flag',
+        'Σημαία Πειρατών',
         'Jolly Roger'
     ],
     '🇺🇳': [
@@ -3941,10 +4234,24 @@ emojis_language[lang][7] = {
         'Union Jack',
         'UK'
     ],
-    //"🏴󠁧󠁢󠁥󠁮󠁧󠁿": ["Flag of England", "St George's Cross", "English Flag"],
-    //"🏴󠁧󠁢󠁷󠁬󠁳󠁿": ["Flag of Wales", "Welsh Flag", "Red Dragon", "Baner Cymru", "Y Ddraig Goch"],
-    //"🏴󠁧󠁢󠁳󠁣󠁴󠁿": ["Flag of Scotland", "Scottish Flag", "St Andrew's Cross", "Saltire"],
-    //"🏴󠁧󠁢󠁮󠁩󠁲󠁿": ["Flag of Northern Ireland"],
+    '🏴󠁧󠁢󠁥󠁮󠁧󠁿󠁧󠁢󠁥󠁮󠁧󠁿': [
+        'Flag of England',
+        'St George\'s Cross',
+        'English Flag'
+    ],
+    '🏴󠁧󠁢󠁷󠁬󠁳󠁿󠁧󠁢󠁷󠁬󠁳󠁿': [
+        'Flag of Wales',
+        'Welsh Flag',
+        'Red Dragon',
+        'Baner Cymru',
+        'Y Ddraig Goch'
+    ],
+    '🏴󠁧󠁢󠁳󠁣󠁴󠁿󠁧󠁢󠁳󠁣󠁴󠁿': [
+        'Flag of Scotland',
+        'Scottish Flag',
+        'St Andrew\'s Cross',
+        'Saltire'
+    ],
     '🇬🇩': [
         'Σημαία της Γρενάδας',
         'GD',
@@ -4820,114 +5127,171 @@ emojis_language[lang][7] = {
 };
 /*sports*/
 emojis_language[lang][8] = {
-    '🧗{{skin_tone}}‍‍♂️': [
+    '🧗{{skin_tone}}‍♂️': [
         'Man Climbing',
         'Male Rock Climber',
         'Man Climber'
     ],
-    '🧗{{skin_tone}}‍‍♀️': [
+    '🧗{{skin_tone}}‍♀️': [
         'Woman Climbing',
         'Female Rock Climber',
         'Woman Climber'
     ],
-    '🏇{{skin_tone}}‍': [
+    '🧗{{skin_tone}}': [
+        'Person Climbing',
+        'Person Rock Climber',
+        'Person Climber'
+    ],
+    '🏇{{skin_tone}}': [
         'Horse Racing',
         'Horse Race',
         'Jockey'
     ],
-    '⛷{{skin_tone}}‍️': ['Skier'],
+    '⛷{{skin_tone}}‍️': ['Σκιέρ'],
     '🏂{{skin_tone}}‍': ['Snowboarder'],
     '🏌️{{skin_tone}}‍♂️': ['Man Golfer'],
-    '🏌️{{skin_tone}}‍♀️': ['Woman Golfer'],
-    '🏄{{skin_tone}}‍♂️': ['Man Surfer'],
-    '🏄{{skin_tone}}‍♀️': ['Woman Surfer'],
-    '🚣{{skin_tone}}‍‍♂️': ['Man Rowing Boat'],
-    '🚣{{skin_tone}}‍‍♀️': ['Woman Rowing Boat'],
-    '🏊{{skin_tone}}‍‍♂️': [
+    '🏌️{{skin_tone}}‍♀️': ['Γκολφ Γυναίκας'],
+    '🏌️{{skin_tone}}': ['Person Golfer'],
+    '🏄{{skin_tone}}‍♂️': ['Άνθρωπος Surfer'],
+    '🏄{{skin_tone}}‍♀️': ['Surfer Γυναίκας'],
+    '🏄{{skin_tone}}': ['Person Surfer'],
+    '🚣{{skin_tone}}‍♂️': ['Man Rowing Boat'],
+    '🚣{{skin_tone}}‍♀️': ['Woman Rowing Boat'],
+    '🚣{{skin_tone}}': ['Person Rowing Boat'],
+    '🏊{{skin_tone}}‍♂️': [
         'Man Swimming',
         'Man Swimmer'
     ],
-    '🏊{{skin_tone}}‍‍♀️': [
+    '🏊{{skin_tone}}‍♀️': [
         'Woman Swimming',
         'Woman Swimmer'
     ],
+    '🏊{{skin_tone}}': [
+        'Woman Swimming',
+        'Person Swimmer'
+    ],
     '⛹{{skin_tone}}‍️‍♂️': [
-        'Man Bouncing Ball',
-        'Man Basketball Player'
+        'Άνθρωπος Αναπήδηση Μπάλα',
+        'Παίκτης Του Man Μπάσκετ'
     ],
     '⛹️{{skin_tone}}‍♀️': [
-        'Woman Bouncing Ball',
-        'Woman Basketball Player'
+        'Γυναίκα Αναπήδηση Μπάλα',
+        'Γυναίκα Παίκτης Μπάσκετ'
+    ],
+    '⛹️{{skin_tone}}': [
+        'Person Bouncing Ball',
+        'Person Basketball Player'
     ],
     '🏋️{{skin_tone}}‍♂️': [
-        'Man Lifting Weights',
-        'Man Weightlifter'
+        'Άνθρωπος Ανύψωση Βάρη',
+        'Άνθρωπος Weightlifter'
     ],
     '🏋️{{skin_tone}}‍♀️': [
-        'Woman Lifting Weights',
-        'Woman Weightlifter'
+        'Γυναίκα Ανύψωση Βάρη',
+        'Γυναίκα Weightlifter'
+    ],
+    '🏋️{{skin_tone}}': [
+        'Person Lifting Weights',
+        'Person Weightlifter'
     ],
     '🚴{{skin_tone}}‍♂️': [
-        'Man Biking',
-        'Man Cyclist',
-        'Male Cyclist'
+        'Ποδηλασία Ανθρώπου',
+        'Άνθρωπος Ποδηλάτης',
+        'Αρσενικός Ποδηλάτης'
     ],
     '🚴{{skin_tone}}‍♀️': [
-        'Woman Biking',
-        'Woman Cyclist',
-        'Female Cyclist'
+        'Γυναίκα Ποδηλασία',
+        'Γυναίκα, Κυκλαδίτης',
+        'Θηλυκός Κυκλαδίτης'
+    ],
+    '🚴{{skin_tone}}': [
+        'Person Biking',
+        'Person Cyclist',
+        'Person Cyclist'
     ],
     '🚵{{skin_tone}}‍♂️': [
         'Man Mountain Biking',
         'Man Mountain Biker'
     ],
     '🚵{{skin_tone}}‍♀️': [
-        'Woman Mountain Biking',
-        'Woman Mountain Biker'
+        'Γυναίκα Ποδηλασία Στο Βουνό',
+        'Γυναίκα Βουνό Ποδήλατο'
+    ],
+    '🚵{{skin_tone}}': [
+        'Person Mountain Biking',
+        'Person Mountain Biker'
     ],
     '🤸{{skin_tone}}‍♂️': [
-        'Man Cartwheeling',
-        'Man Doing Cartwheel'
+        'Άνθρωπος Cartwheeling',
+        'Άνθρωπος Κάνοντας Τροχός'
     ],
     '🤸{{skin_tone}}‍♀️': [
-        'Woman Cartwheeling',
-        'Woman Doing Cartwheel'
+        'Γυναίκα Cartwheeling',
+        'Γυναίκα Να Κάνει Τροχό'
+    ],
+    '🤸{{skin_tone}}': [
+        'Person Cartwheeling',
+        'Person Doing Cartwheel'
+    ],
+    '🤼‍♂️': [
+        'Men Wrestling',
+        'Wrestling',
+        'Wrestlers'
+    ],
+    '🤼‍♀️': [
+        'Women Wrestling',
+        'Wrestling',
+        'Wrestlers'
     ],
     '🤼': [
         'Άνθρωποι Πάλη',
         'Πάλη',
         'παλαιστές'
     ],
-    '🤽{{skin_tone}}‍♂️': ['Man Playing Water Polo'],
-    '🤽{{skin_tone}}‍♀️': ['Woman Playing Water Polo'],
-    '🤾{{skin_tone}}‍♂️': ['Man Playing Handball'],
-    '🤾{{skin_tone}}‍♀️': ['Woman Playing Handball'],
+    '🤽{{skin_tone}}‍♂️': ['Άνθρωπος Παίζοντας Πόλο Νερού'],
+    '🤽{{skin_tone}}‍♀️': ['Γυναίκα Που Παίζει Πόλο Νερού'],
+    '🤽{{skin_tone}}': ['Person Playing Water Polo'],
+    '🤾{{skin_tone}}‍♂️': ['Άνθρωπος Παίζοντας Χάντμπολ'],
+    '🤾{{skin_tone}}‍♀️': ['Γυναίκα Παίζοντας Χάντμπολ'],
+    '🤾{{skin_tone}}': ['Person Playing Handball'],
     '🤹{{skin_tone}}‍♂️': [
-        'Man Juggling',
-        'Male Juggler'
+        'Άνθρωπος Juggling',
+        'Αρσενικό Juggler'
     ],
     '🤹{{skin_tone}}‍♀️': [
-        'Woman Juggling',
-        'Female Juggler'
+        'Γυναίκα Juggling',
+        'Θηλυκό Juggler'
+    ],
+    '🤹{{skin_tone}}': [
+        'Person Juggling',
+        'Person Juggler'
     ],
     '🧘{{skin_tone}}‍♂️': [
-        'Man in Lotus Position',
-        'Meditation',
+        'Ο άνθρωπος στη θέση Lotus',
+        'Διαλογισμός',
         'Zen',
-        'Cross legged',
-        'Yoga'
+        'Σταυροειδής',
+        'Γιόγκα'
     ],
     '🧘{{skin_tone}}‍♀️': [
-        'Woman in Lotus Position',
+        'Γυναίκα στη θέση του Lotus',
+        'Διαλογισμός',
+        'Zen',
+        'Σταυροειδής',
+        'Γιόγκα'
+    ],
+    '🧘{{skin_tone}}': [
+        'Person in Lotus Position',
         'Meditation',
         'Zen',
         'Cross legged',
         'Yoga'
     ],
-    '🏃{{skin_tone}}‍♂️': ['Man Running'],
-    '🏃{{skin_tone}}‍♀️': ['Woman Running'],
-    '🕺{{skin_tone}}‍': ['Man Dancing'],
-    '💃{{skin_tone}}‍': ['Woman Dancing'],
+    '🏃{{skin_tone}}‍♂️': ['Ο Άνθρωπος Εκτελείται'],
+    '🏃{{skin_tone}}‍♀️': ['Γυναίκα Εκτελείται'],
+    '🏃{{skin_tone}}': ['Person Running'],
+    '🕺{{skin_tone}}': ['Man Dancing'],
+    '💃{{skin_tone}}': ['Woman Dancing'],
     '🤺': [
         'Ξιφασκία Προσώπου',
         'Τοξοβόλος'
@@ -5514,6 +5878,11 @@ emojis_language[lang][9] = {
         'Roller Coaster',
         'Rollercoaster',
         'Θεματικό Πάρκο'
+    ],
+    '🛝': [
+        'Playground Slide',
+        'Μωρό',
+        'Children'
     ]
 };
 /*technologies (smartphones, laptops, etc.) and office*/
@@ -6036,7 +6405,8 @@ emojis_language[lang][11] = {
     '🩰': [
         'Παπούτσια Μπαλέτου',
         'Παπούτσι Σημείων'
-    ]
+    ],
+    '🩼': ['Crutch']
 };
 /*hands and parts of body*/
 emojis_language[lang][12] = {
@@ -6121,9 +6491,9 @@ emojis_language[lang][12] = {
         'Βαθμολογία Κάτω'
     ],
     '☝{{skin_tone}}': [
-        'Index Finger Pointing Up',
-        'White Up Pointing Index',
-        'Secret'
+        'Δείκτης Δάχτυλου Που Εντάσσεται',
+        'Δείκτης Λευκής Ανίχνευσης',
+        'Μυστικό'
     ],
     '🖕{{skin_tone}}': [
         'Μεσαίο Δάχτυλο',
@@ -6201,7 +6571,17 @@ emojis_language[lang][12] = {
         'Σας Ευχαριστούμε',
         'Πρόσωπο με πτυσσόμενα χέρια'
     ],
-    '✍{{skin_tone}}': ['Writing Hand'],
+    '✍{{skin_tone}}': ['Χέρι Γραφής'],
+    '🫱{{skin_tone}}': ['Rightwards Hand'],
+    '🫲{{skin_tone}}': ['Leftwards Hand'],
+    '🫳{{skin_tone}}': ['Palm Down Hand'],
+    '🫴{{skin_tone}}': ['Palm Up Hand'],
+    '🫰{{skin_tone}}': ['Hand with Index Finger and Thumb Crossed'],
+    '🫵{{skin_tone}}': ['Index Pointing at the Viewer'],
+    '🫶{{skin_tone}}': [
+        'Heart Hands',
+        'Love'
+    ],
     '💪{{skin_tone}}': [
         'Flexed Biceps',
         'Διάσπαση Των Μυών Βραχίονα',
@@ -6222,7 +6602,8 @@ emojis_language[lang][12] = {
         'Sniffing',
         'Stinky'
     ],
-    '🧠': ['Brain'],
+    '🦻{{skin_tone}}': ['Αυτί με βαρηκοΐα'],
+    '🧠': ['Εγκέφαλος'],
     '🦷': ['Δόντι'],
     '👀': [
         'Μάτια',
@@ -6240,10 +6621,25 @@ emojis_language[lang][12] = {
         'Φιλιά Χείλη',
         'Χείλη'
     ],
+    '🫦': [
+        'Biting Lip',
+        'Χείλη'
+    ],
     '🫀': ['Ανατομική Καρδιά'],
     '🫁': ['πνεύμονες'],
     '🦾': ['Μηχανικός Βραχίονας'],
-    '🦿': ['Μηχανικό Πέλμα']
+    '🦿': ['Μηχανικό Πέλμα'],
+    '💅{{skin_tone}}': [
+        'Πολωνικά Νύχια',
+        'Δάχτυλα',
+        'Manicure',
+        'Nonchalant'
+    ],
+    '🤳{{skin_tone}}': [
+        'Selfie',
+        'Κάμερα Τηλεφώνου',
+        'Χέρι Selfie'
+    ]
 };
 /*other*/
 emojis_language[lang][13] = {
@@ -6255,17 +6651,6 @@ emojis_language[lang][13] = {
     '💋': [
         'Μάρκο Φιλί',
         'Φιλιά Χείλη'
-    ],
-    '💅': [
-        'Πολωνικά Νύχια',
-        'Δάχτυλα',
-        'Manicure',
-        'Nonchalant'
-    ],
-    '🤳': [
-        'Selfie',
-        'Κάμερα Τηλεφώνου',
-        'Χέρι Selfie'
     ],
     '🦴': ['Κόκαλο'],
     '🧳': [
@@ -6296,11 +6681,11 @@ emojis_language[lang][13] = {
         'Δακτύλιος Δέσμευσης'
     ],
     '💎': [
-        'Gem stone',
-        'Diamond',
-        'Gem',
-        'Gemstone',
-        'Jewel'
+        'Πέτρα πολύτιμων λίθων',
+        'Διαμάντι',
+        'Πολύτιμο',
+        'Πολύτιμος Λίθος',
+        'Κόσμημα'
     ],
     '💥': [
         'Σύμβολο Σύγκρουσης',
@@ -6460,7 +6845,9 @@ emojis_language[lang][13] = {
     '🌈': [
         'Ουράνιο Τόξο',
         'Ομοφυλοφιλική Υπερηφάνεια',
-        'Πρωτεύον Ουράνιο Τόξο'
+        'Πρωτεύον Ουράνιο Τόξο',
+        'LGBTQIA+',
+        'LGBT+'
     ],
     '❄️': [
         'Νιφάδα Χιονιού',
@@ -6631,6 +7018,17 @@ emojis_language[lang][13] = {
         'Άνοιξη'
     ],
     '🪴': ['Φυτό Potted'],
+    '🪸': [
+        'Coral',
+        'Climate change'
+    ],
+    '🪷': [
+        'Lotus',
+        'Purity',
+        'Beauty',
+        'Calmness',
+        'Serenity'
+    ],
     '🔑': [
         'Κλειδί',
         'Χρυσό Κλειδί'
@@ -6791,7 +7189,6 @@ emojis_language[lang][13] = {
         'Σκελετός'
     ],
     '☠️': ['Κρανίο και Σταυροκόκαλα'],
-    '🦻': ['Αυτί με βαρηκοΐα'],
     '🎡': [
         'Τροχός Τροχού',
         'Μεγάλος Τροχός',
@@ -7175,8 +7572,8 @@ emojis_language[lang][13] = {
     ],
     '🕳️': ['Τρύπα'],
     '👁️‍🗨️': [
-        'I Am A Witness',
-        'Eye in Speech Bubble'
+        'Είμαι Ένας Μάρτυρας',
+        'Μάτι σε ομιλία Φούσκα'
     ],
     '⚜️': [
         'Fleur-de-lis',
@@ -7241,5 +7638,63 @@ emojis_language[lang][13] = {
     '🪥': ['Οδοντόβουρτσα'],
     '🪦': ['Headstone'],
     '🪧': ['Placard'],
-    '🪒': ['Ξύρισμα']
+    '🪒': ['Ξύρισμα'],
+    '🫙': ['Βάζο'],
+    '🛞': [
+        'Wheel',
+        'Vehicles',
+        'Cars'
+    ],
+    '🛟': [
+        'Ring Buoy',
+        'Life Preserver',
+        'Life Ring',
+        'Boats',
+        'Safety',
+        'Νερό',
+        'Lifesaving'
+    ],
+    '🪬': [
+        'Hamsa',
+        'Islam',
+        'Judaism',
+        'Buddhism',
+        'Christianity',
+        'Religions',
+        'Luck',
+        'Protection',
+        'Guidance',
+        'Feminine Power',
+        'Faith'
+    ],
+    '🪩': [
+        'Mirror Ball',
+        'Disco Ball'
+    ],
+    '🪫': [
+        'Low Battery',
+        'Κόκκινο',
+        'Energy'
+    ],
+    '🩻': ['X-Ray'],
+    '🫧': [
+        'Bubbles',
+        'Soap Suds',
+        'Carbonation',
+        'Effervescent Personality'
+    ],
+    '🪪': [
+        'Identification Card',
+        'Identity',
+        'Passport',
+        'ID'
+    ],
+    '🧿': [
+        'Nazar Amulet',
+        'Evil Eye'
+    ],
+    '🧸': [
+        'Teddy Bear',
+        'Toy'
+    ]
 };
