@@ -66,12 +66,6 @@ const hideMessageBottomAfterSeconds = 1500;
 
 var set_timeout_mini_popup = null;
 
-if (browserOrChromeIndex == 0 || browserOrChromeIndex == 3) {
-    browserAgentSettings = browser;
-} else if (browserOrChromeIndex == 1 || browserOrChromeIndex == 2) {
-    browserAgentSettings = chrome;
-}
-
 const jsonSettingsDefaultValue = {
     "theme": 0,
     "columns": 2,
@@ -87,8 +81,6 @@ const jsonSettingsDefaultValue = {
     "insert_directly_emoji": 1,
     "keyboard_shortcut": "Ctrl+Alt+A",
 };
-
-font_family = fontFamily[browserOrChromeIndex];
 
 const storeNameAbbr = ["MFA", "MEA", "GCWS", "MTA"];//{MozillaFirefoxAddons, MicrosoftEdgeAddons, GoogleChromeWebStore, MozillaThunderbirdAddons}
 const releaseNumber = browserAgentSettings.runtime.getManifest().version;
