@@ -38,7 +38,7 @@ Emojis are divided in some sections, to help you to find the correct emoji quick
 
 ## Features
 
-- Search-box: so you find easily emoji by keywords, by colours (:red:, :purple:, :pink:, :transparent:, :yellow:, :gold:, :orange:, :black:, :white:, :green:, :blue:) or by gender (:man:, :woman:, :person:)
+- Search-box: so you find easily emoji by keywords, by colours (```:red:```, ```:purple:```, ```:pink:```, ```:transparent:```, ```:yellow:```, ```:gold:```, ```:orange:```, ```:black:```, ```:white:```, ```:green:```, ```:blue:```) or by gender (```:man:```, ```:woman:```, ```:person:```)
 - Most used emojis: in the first tab you can find the emoji you use more
 - Clear, modern and customisable UI
 - Simplicity: with a single click you can copy an emoji
