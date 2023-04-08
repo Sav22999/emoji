@@ -1,7 +1,7 @@
 lang = 'en';
 //use i18n language code of the browser, more details: https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/i18n/LanguageCode
 settings_strings[lang] = {};
-settings_strings[lang]['placeholder-searchbox'] = 'Search by keyword';
+settings_strings[lang]['placeholder-searchbox'] = 'Search by keyword, colour or gender';
 settings_strings[lang]['label-click-on-the-emojis'] = 'Click on the emoji(s) you want to remove';
 settings_strings[lang]['button-finish'] = 'Finish';
 settings_strings[lang]['label-delete-emoji'] = 'Delete one or more emojis from the \'Most used emojis\' section';

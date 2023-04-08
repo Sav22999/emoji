@@ -1,7 +1,7 @@
 lang = 'zh-TW';
 //use i18n language code of the browser, more details: https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/i18n/LanguageCode
 settings_strings[lang] = {};
-settings_strings[lang]['placeholder-searchbox'] = '關鍵字搜尋';
+settings_strings[lang]['placeholder-searchbox'] = 'Search by keyword, colour or gender';
 settings_strings[lang]['label-click-on-the-emojis'] = '點擊您想要移除的表情符號';
 settings_strings[lang]['button-finish'] = '完成';
 settings_strings[lang]['label-delete-emoji'] = '將表情符號從常用列表移除';

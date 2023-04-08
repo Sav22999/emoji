@@ -24,19 +24,25 @@ emojis_language[lang][0] = {};
 emojis_language[lang][2] = {
     '😀': [
         'Grinning-Kasvot',
-        ':)',
+        ':grinning:',
+        ':grinning_face:',
+        '::):',
         'Iloinen Kasvot',
         'Hymiö Kasvot'
     ],
     '😃': [
         'Grinning kasvot ja suuret silmät',
-        ':D',
+        ':smiley:',
+        ':grinning_face_with_big_eyes:',
+        '::D:',
         'Iloinen Kasvot',
         'Hymiö Kasvot',
         'Hymyilevä kasvot Open Mouth'
     ],
     '😄': [
         'Grinning kasvot hymyilevät silmät',
+        ':smile:',
+        ':grinning_face_with_smiling_eyes:',
         'Iloinen Kasvot',
         'Hymiö Kasvot',
         'Grinning Kasvot Ruiskuttamalla Silmät',
@@ -44,12 +50,15 @@ emojis_language[lang][2] = {
     ],
     '😁': [
         'Beaming Face kanssa hymyilevät silmät',
+        ':grin:',
+        ':beaming_face_with_smiling_eyes:',
         'Grinning kasvot hymyilevät silmät'
     ],
     '😆': [
         'Grinning Jyrsivä Kasvot',
-        'xD',
-        '><',
+        ':grinning_squinting_face:',
+        ':xD:',
+        ':><:',
         'Iso Grin',
         'Suljetut Silmät -hymy',
         'Nauraa',
@@ -58,6 +67,7 @@ emojis_language[lang][2] = {
     ],
     '😅': [
         'Grinning kasvot hikoilla',
+        ':happy_sweat:',
         'Liikunta',
         'Hyvää Hiki',
         'Grinning kasvot puristamalla silmät ja hikoilu Drop',
@@ -65,10 +75,12 @@ emojis_language[lang][2] = {
     ],
     '🤣': [
         'ROFL',
+        ':rofl:',
         'Rullaa lattialla nauraa'
     ],
     '😂': [
         'Face kanssa Tears of Joy',
+        ':lol:',
         'Nauraa',
         'Nauraa Itkemistä',
         'Nauraa Kynsiä',
@@ -76,49 +88,59 @@ emojis_language[lang][2] = {
     ],
     '🙂': [
         'Hieman Hymyilevät Kasvot',
-        ':)',
+        ':smile:',
+        '::):',
         'Hieman Onnellinen',
         'Tämä On Sakko'
     ],
     '🙃': [
         'Yläpuolella Alas Kasvot',
+        ':upside-down_face:',
+        ':upside_down_face:',
         'Sarcasm',
         'Silly',
         'Ylöspäin Alas Kasvot'
     ],
     '😉': [
         'Kasvojen Vetoaminen',
-        ';)',
+        ':winking:',
+        ':;):',
         'Vie',
         'Vie Kasvot',
         'Winky Face'
     ],
     '😊': [
         'Hymyilevät kasvot hymyilevien silmien kanssa',
-        '^^',
+        ':smiling_face:',
+        ':^^:',
         'Iloinen Kasvot',
         'Hymy',
         'Hymiö Kasvot'
     ],
     '😇': [
         'Hymyilevä kasvot Halon kanssa',
+        ':smiling_angel:',
         'Enkeli',
         'Halo'
     ],
     '🥰': [
         'Hymyilevä kasvot sydämen kanssa',
+        ':smiling_hearts:',
         'Rakkaudessa Kasvot',
         'Hymyilevät kasvot hymyilevillä silmillä ja kolmella sydämellä'
     ],
     '😍': [
         'Hymyilevä kasvot sydämen silmillä',
-        '*.*',
+        ':smiling_heart-eyes:',
+        ':smiling_heart_eyes:',
+        ':*.*:',
         'Sydän Silmät',
         'Sydän Kasvot',
         'Hymyilevä kasvot sydämen muotoisilla silmillä'
     ],
     '🤩': [
         'Tähtikuorma',
+        ':star_eyes:',
         'Jännitetty',
         'Tähtien Silmät',
         'Tähti Eyed',
@@ -128,8 +150,9 @@ emojis_language[lang][2] = {
     ],
     '😘': [
         'Kasvojen kyntä suudella',
-        ':*',
-        ':-*',
+        ':kissing_face:',
+        '::*:',
+        '::-*:',
         'Blow Kiss',
         'Kirjoitettava Suudelma',
         'Suudella',
@@ -137,14 +160,16 @@ emojis_language[lang][2] = {
     ],
     '😗': [
         'Suudella Kasvolla',
-        ':*',
-        ':-*',
+        ':kissing_face:',
+        '::*:',
+        '::-*:',
         'Ankan Kasvot',
         'Kissy Face',
         'Whistling'
     ],
     '☺️': [
         'Hymyilevä Kasvot',
+        ':smiling_face:',
         'Iloinen Kasvot',
         'Hymiö Kasvot',
         'Hymy',
@@ -152,11 +177,13 @@ emojis_language[lang][2] = {
     ],
     '😚': [
         'Kasvot suudella suljettujen silmien kanssa',
+        ':kissing_face:',
         'Suudella Kasvot',
         'Kissy Face'
     ],
     '😙': [
         'Suudella kasvot hymyilevien silmien kanssa',
+        ':kissing_face:',
         'Suudella Kasvot',
         'Kissy',
         'Vihellä',
@@ -164,6 +191,7 @@ emojis_language[lang][2] = {
     ],
     '😋': [
         'Kasvot Savoring Ruoka',
+        ':savoring_face:',
         'Goofy',
         'Nälkäinen',
         'Hymyilevät Kasvojen Lisenssihuulet',
@@ -172,7 +200,8 @@ emojis_language[lang][2] = {
     ],
     '😛': [
         'Kasvot kielellä',
-        ':P',
+        ':tongue_face:',
+        '::P:',
         'Cheeky',
         'Kielen Kasvot',
         'Kieli Ulos',
@@ -180,7 +209,8 @@ emojis_language[lang][2] = {
     ],
     '😜': [
         'Kasvot tuuletetaan kielellä',
-        ';P',
+        ':winking:',
+        ':;P:',
         'Hullu',
         'Hullu Kasvot',
         'Vammoi Kasvot Stuck-Out Kieli',
@@ -188,6 +218,7 @@ emojis_language[lang][2] = {
     ],
     '🤪': [
         'Zany Face',
+        ':crazy_face:',
         'Hullu Silmät',
         'Jännitetty',
         'Luonnonvaraiset',
@@ -196,20 +227,24 @@ emojis_language[lang][2] = {
     ],
     '😝': [
         'Ruiskutetaan kasvoja kielellä',
-        'xP',
+        ':tongue_face:',
+        ':xP:',
         'Kieli Ulos',
         'Kasvot Stuck Out kieli ja tiukka suljettu silmät',
         'Kasvot Stuck-Out kielellä ja tiukalla suljetuilla silmillä'
     ],
     '🤑': [
         'Raha-Mouth Face',
-        ':$',
+        ':money-mouth_face:',
+        ':money_mouth_face:',
+        '::$:',
         'Dollarin Kylmäsilmät',
         'Raha Kasvot',
         'Rikas'
     ],
     '🤗': [
         'Hyljellä Kasvoa',
+        ':hugging_face:',
         'Halaus',
         'Hyljellä',
         'Halatut',
@@ -217,11 +252,13 @@ emojis_language[lang][2] = {
     ],
     '🤭': [
         'Hups',
+        ':oops:',
         'Kasvot Hand Over Mouth',
         'Hymyilevä kasvot hymyilevien silmien ja käsikaton suuhun'
     ],
     '🤫': [
         'Shh',
+        ':shushing_face:',
         'Shush',
         'Shushing Face',
         'Hush',
@@ -232,6 +269,7 @@ emojis_language[lang][2] = {
     ],
     '🤔': [
         'Mitä',
+        ':thinking_face:',
         '?',
         'Hmm',
         'Ajatteleva Kasvot',
@@ -241,6 +279,7 @@ emojis_language[lang][2] = {
     ],
     '🤐': [
         'Postinumero',
+        ':zip_face:',
         'Zipper-Mouth Kasvot',
         'Huulet Suljettu',
         'Sinetöidyt Huulet',
@@ -249,6 +288,7 @@ emojis_language[lang][2] = {
     ],
     '🤨': [
         'Kasvot koholla kulmakarva',
+        ':face_with_raised_eyebrow:',
         'Colbert',
         'The Rock',
         'Kasvot Nousussa Kulma',
@@ -256,18 +296,21 @@ emojis_language[lang][2] = {
     ],
     '😐': [
         'Neutraali Kasvot',
+        ':neutral_face:',
         ':|',
         'Kasvot Suoraan Suun',
         'Suoraan Pinnoitettu'
     ],
     '😑': [
         'Ilmeetön Kasvot',
+        ':expressionless_face:',
         '-_-',
         'Kasvot Suoraan Suun',
         'Suora Kasvot'
     ],
     '😶': [
         'Kasvot Ilman Suun',
+        ':face_without_mouth:',
         'Tyhjä Kasvot',
         'Mouthless',
         'Hiljaisuus',
@@ -275,6 +318,7 @@ emojis_language[lang][2] = {
     ],
     '😏': [
         'Smirking Face',
+        ':smirking_face:',
         'Flirttaus',
         'Seksuaalinen Kasvot',
         'Muistin Kasvot',
@@ -282,6 +326,7 @@ emojis_language[lang][2] = {
     ],
     '😒': [
         'Huvittelematon Kasvot',
+        ':unamused_face:',
         'Lyhennetty',
         'Meh',
         'Sivusilmä',
@@ -289,10 +334,13 @@ emojis_language[lang][2] = {
     ],
     '🙄': [
         'Kasvot pyörivillä silmillä',
+        ':face_with_rolling_eye:',
+        ':eye_roll:',
         'Silmien Rullaus'
     ],
     '😬': [
         'Grimacing Face',
+        ':awkward:',
         'Awkward',
         'Eek',
         'Jalka Mounth',
@@ -301,17 +349,20 @@ emojis_language[lang][2] = {
     ],
     '🤥': [
         'Maa Kasvot',
+        ':lying_face:',
         'Valo',
         'Pitkä Nenä',
         'Pinocchio'
     ],
     '😌': [
         'Nousittu Kasvot',
+        ':relieved_face:',
         'Sisältö',
         'Miellyttävä'
     ],
     '😔': [
         'Anteeksi',
+        ':sad_face:',
         'Pensive Face',
         'Pensiivinen',
         'Surullinen',
@@ -321,24 +372,32 @@ emojis_language[lang][2] = {
     ],
     '😪': [
         'Uni Kasvot',
+        ':sleepy_face:',
         'Sivu-Revi',
         'Solmu Kupla'
     ],
     '🤤': [
         'Saliva',
+        ':saliva_face:',
         'Drooling Face',
         'Drool'
     ],
     '😴': [
         'Nukkuva Kasvot',
+        ':sleeping_face:',
+        ':zzz:',
         'Zzz',
         'Uni Kasvot',
         'Kuorsaus',
         'Zzz Face'
     ],
-    '🥱': ['Yawning Face'],
+    '🥱': [
+        'Yawning Face',
+        ':yawning_face:'
+    ],
     '😷': [
         'Kasvot lääketieteellisen naamio',
+        ':face_with_medical_mask:',
         'Koronavirus',
         'COVID-19',
         'Maskin Kasvot',
@@ -346,23 +405,31 @@ emojis_language[lang][2] = {
     ],
     '🤒': [
         'Kasvot lämpömittarin kanssa',
+        ':face_with_thermometer:',
+        ':sick:',
+        ':ill:',
         'Ill',
         'Sairas'
     ],
     '🤕': [
         'Kasvot pääsiimalla',
+        ':face_with_head-bandage:',
+        ':face_with_head_bandage:',
         'Silmukka Päätä',
         'kömpelö',
         'Injured'
     ],
     '🤢': [
         'Pahoinvoitu Kasvot',
+        ':nauseated_face:',
         'Hämmästyttää',
         'Vihreä Kasvot',
-        'Vomit'
+        'Vomit',
+        ':green:'
     ],
     '🤮': [
         'Face Oksentelu',
+        ':face_vomiting:',
         'Spew',
         'Bleah',
         'Bleurgh',
@@ -376,82 +443,102 @@ emojis_language[lang][2] = {
     ],
     '🤧': [
         'Aivastelu Kasvot',
+        ':sneezing_face:',
         'Gesundheit'
     ],
     '🥵': [
         'Kuumat Kasvot',
-        'Ylikuumentunut Kasvot'
+        ':hot_face:',
+        'Ylikuumentunut Kasvot',
+        ':red:'
     ],
     '🥶': [
         'Kylmä Kasvot',
+        ':cold_face:',
         'Viileä',
         'Maustepippuri',
-        'Jäätävää Kasvoa'
+        'Jäätävää Kasvoa',
+        ':blue:'
     ],
     '🥴': [
         'Woozy Face',
+        ':woozy_face:',
         'Pudota Kasvot',
         'Kasvot epätasainen silmät ja Wavy Mouth'
     ],
     '😵': [
         'Dizzy Face',
+        ':dizzy_face:',
         'Silmät Kasvot',
         'Spiral Silmät Kasvot'
     ],
     '🤯': [
         'Räjähtävä Päähaara',
+        ':exploding_head:',
         'Mieli Blown',
         'Shocked Face with Exploding Head'
     ],
     '🤠': [
         'Cowboy Hattu Kasvot',
+        ':cowboy_hat_face:',
         'Cowboy',
         'Cowboy Face',
         'Kasvot Cowboy Hat'
     ],
     '🥳': [
         'Juhliminen Kasvot',
+        ':partying_face:',
         'Juhlien Kasvot',
         'Kasvot puolueen sarvi ja Party Hat'
     ],
     '😎': [
         'Hymyilevä kasvot aurinkolasit',
+        ':smiling_face_with_sunglasses:',
         'Viileä',
         'Keskinäiset Parhaat Ystävät (Snapchat)',
         'Aurinkolasit'
     ],
     '🤓': [
         'Nörtti Kasvot',
+        ':nerd_face:',
         'Nerdy'
     ],
-    '🧐': ['Kasvot Monoclella'],
+    '🧐': [
+        'Kasvot Monoclella',
+        ':face_with_monocle:'
+    ],
     '😕': [
         'Hämmentynyt Kasvot',
-        ':/',
-        ':S',
+        ':confused_face:',
+        '::/:',
+        '::S:',
         'Nonplusoimaton',
         'Päihtynyt'
     ],
     '😟': [
         'Huolestunut Kasvot',
-        ':(',
+        ':worried_face:',
+        '::(:',
         'Surullinen',
         'Sadface'
     ],
     '🙁': [
         'Hieman Heittävät Kasvot',
-        ':(',
+        ':slightly_frowning_face:',
+        '::(:',
         'Hieman Surullinen'
     ],
     '☹️': [
         'Frowning Face',
-        ':(',
+        ':frowning_face:',
+        '::(:',
         'Megafrown',
         'Valkoinen Frowning Face'
     ],
     '😮': [
         'Vauva',
-        ':O',
+        ':wow:',
+        '::O:',
         'Voi minä!',
         'Kasvot Open Mouth',
         'Avaa Etelä',
@@ -459,13 +546,15 @@ emojis_language[lang][2] = {
     ],
     '😯': [
         'Husettu Kasvot',
-        ':O',
+        ':husked_face:',
+        '::O:',
         'Yllätys',
         'Yllättynyt Kasvot'
     ],
     '😲': [
         'Shocked Face',
-        ':O',
+        ':shocked_face:',
+        '::O:',
         'Vauva',
         'Kiillotettu Kasvot',
         'Pudota Kasvot',
@@ -473,7 +562,8 @@ emojis_language[lang][2] = {
     ],
     '😳': [
         'Punoitettu Kasvot',
-        ':$',
+        ':flushed_face:',
+        '::$:',
         'Punoitus Kasvot',
         'Irrotettu',
         'Häpeä',
@@ -481,7 +571,8 @@ emojis_language[lang][2] = {
     ],
     '🥺': [
         'Pleading Face',
-        ':(',
+        ':pleading_face:',
+        '::(:',
         'Begging',
         'Kiiltävät Silmät',
         'Simp',
@@ -489,17 +580,20 @@ emojis_language[lang][2] = {
     ],
     '😦': [
         'Frowning Face kanssa Open Mouth',
-        'D:',
+        ':frowning_face_with_open_mouth:',
+        ':D::',
         'Yawning'
     ],
     '😨': [
         'Pelottava',
-        'D:',
+        ':scared:',
+        ':D::',
         'Pelkkä Kasvot',
         'Yllättynyt'
     ],
     '😰': [
         'Hauska kasvot hiivalla',
+        ':anxious_face_with_sweat:',
         'Siniset Kasvot',
         'Aiheutetut Kasvot',
         'Hermostolliset Kasvot',
@@ -507,18 +601,21 @@ emojis_language[lang][2] = {
     ],
     '😥': [
         'Surullinen mutta varjellut kasvot',
-        ':\'(',
+        ':sad_but_relieved_face:',
+        '::(:',
         'Kulmakarvat',
         'Pettynyt, mutta varjellut kasvot'
     ],
     '😢': [
         'Itkeminen Kasvot',
-        ':\'(',
+        ':crying_face:',
+        '::(:',
         'Yritetään',
         'Revi'
     ],
     '😭': [
         'Loukkaava Kasvot',
+        ':loudly_crying_face:',
         'Bawling',
         'Yritetään',
         'Surulliset Kyyneleet',
@@ -526,45 +623,53 @@ emojis_language[lang][2] = {
     ],
     '😱': [
         'Kasvojen huutuminen pelossa',
+        ':face_screaming_in_fear:',
         'Koti Yksin',
         'Kierrä',
         'Näytön Kasvot'
     ],
     '😖': [
         'Kasvot Perustettu',
+        ':confounded_face:',
         'Quivering Mouth',
         'Rajoitettu Kasvot'
     ],
     '😣': [
         'Jatkuva Kasvot',
+        ':persevering_face:',
         'Helpoton Kasvot',
         'Rajoitetut Silmät'
     ],
     '😞': [
         'Pettynyt Kasvot',
-        ':(',
+        ':disappointed_face:',
+        '::(:',
         'Surullinen',
         'Sadface'
     ],
     '😓': [
         'Downcast Face with Sweat',
+        ':downcast_face_with_sweat:',
         'Kova Työ',
         'Surullinen Hiki Kasvot',
         'Kasvot kylmällä hiivalla'
     ],
     '😩': [
         'Weary Face',
+        ':weary_face:',
         'Taistele Kasvot',
         'Herätys'
     ],
     '😫': [
         'Väsyneet Kasvot',
+        ':tired_face:',
         'Exhasted',
         'Fed Ylös',
         'Taistele Kasvot'
     ],
     '😤': [
         'Kasvot Steam-kasvista nenästä',
+        ':face_with_steam_from_nose:',
         'Epäkohtien ileminen',
         'Turhautunut',
         'Hullu Kasvot',
@@ -573,861 +678,1781 @@ emojis_language[lang][2] = {
     ],
     '😡': [
         'Kiinnitä Kasvot',
+        ':pouting_face:',
         'Vihainen Kasvot',
         'Grumpy Face',
         'Hullu Kasvot',
-        'Punaiset Kasvot'
+        'Punaiset Kasvot',
+        ':red:'
     ],
     '😠': [
         'Vihainen Kasvot',
+        ':angry_face:',
         'Vihainen',
         'Grumpy Face'
     ],
     '🤬': [
         'Kierretään',
+        ':swearing:',
         '@#$%&!',
         'Kasvot ja symbolit suun',
         'Hoitotyö',
         'Nostetaan',
         'Grawlix',
         'Kasvot Symbolit Yli Suun',
-        'Vakava kasvot symbolit kaareva Suun'
+        'Vakava kasvot symbolit kaareva Suun',
+        ':red:'
     ],
-    '🥲': ['Hymyilevä kasvot ja repeämä'],
+    '🥲': [
+        'Hymyilevä kasvot ja repeämä',
+        ':smiling_face_with_tear:'
+    ],
     '😮‍💨': [
         'Kasvojen Hengittäminen',
+        ':face_exhaling:',
         'Reisi'
     ],
     '😵‍💫': [
         'Kasvot spiraalisten silmien kanssa',
+        ':face_with_spiral_eyes:',
         'Dizzy Face'
     ],
-    '🥸': ['Peitetyt Kasvot'],
-    '🫠': ['Melting Face'],
-    '🫢': ['Face with Open Eyes and Hand Over Mouth'],
-    '🫣': ['Face with Peeking Eye'],
-    '🫡': [
-        'Saluting Face',
-        'Military',
-        'Army',
-        'RAF',
-        'Navy'
+    '🥸': [
+        'Peitetyt Kasvot',
+        ':disguised_face:'
     ],
-    '🫥': ['Dotted Line Face'],
-    '🫤': ['Face with Diagonal Mouth'],
-    '🥹': ['Face Holding Back Tears'],
+    '🫠': [
+        'Sulaminen Kasvot',
+        ':melting_face:'
+    ],
+    '🫢': [
+        'Kasvot Open Eyes ja käsi yli Etelä',
+        ':face_with_open_eyes_and_hand_over_mouth:'
+    ],
+    '🫣': [
+        'Kasvot Peekingin silmän kanssa',
+        ':face_with_peeking_eye:'
+    ],
+    '🫡': [
+        'Tervehdys Kasvot',
+        ':saluting_face:',
+        'Sotilaallinen',
+        'Armeija',
+        'RAF',
+        'Laiva'
+    ],
+    '🫥': [
+        'Pisteviiva Kasvot',
+        ':dotted_line_face:',
+        ':transparent:'
+    ],
+    '🫤': [
+        'Kasvot diagonaalisen suun kanssa',
+        ':face_with_diagonal_mouth:'
+    ],
+    '🥹': [
+        'Kasvot Pidossa Taaksepäin',
+        ':face_holding_back_tears:'
+    ],
     '😈': [
         'Hymyilevä kasvot sarvten kanssa',
+        ':smiling_face_with_horns:',
         'Devil',
         'Paha Sarvet',
         'Onnellinen Paholainen',
         'Violetti Paholainen',
-        'Punainen Paholainen'
+        'Punainen Paholainen',
+        ':purple:'
     ],
     '👿': [
         'Vihainen kasvot sarvten kanssa',
+        ':angry_face_with_horns:',
         'Devil',
         'Paha Sarvet',
         'Violetti Paholainen',
         'Violetti Goblin',
         'Surullinen Paholainen',
-        'Imp'
+        'Imp',
+        ':violetti'
     ],
     '🤡': [
         'Kapina Kasvot',
+        ':clown_face:',
         'Karmea Myrkkyä',
         'Paha Kynttilä',
         'Pelottava Kapina'
     ],
     '👽': [
         'Ulkomaalainen',
+        ':alien:',
         'ET'
     ],
     '👾': [
         'Ulkomaalainen hirviö',
+        ':alien_monster:',
         'Avaruusturva',
         'Videopeli Hirviö'
     ],
     '🤖': [
         'Robot',
+        ':robot:',
         'Robottien Kasvot'
     ],
     '👹': [
         'Ogre',
+        ':ogre:',
         'Maskin Kasvot',
         'Oni',
         'Punainen hirviö',
-        'Japanilainen Ogre'
+        'Japanilainen Ogre',
+        ':red:'
     ],
     '👻': [
         'Ghost',
+        ':ghost:',
         'Halloween'
     ],
     '🗣️': [
         'Puhuva Pää',
+        ':speaking_head:',
         'Mansplaining',
         'Shout',
         'Huutaa',
-        'Puhuminen Head in Silhouette'
+        'Puhuminen Head in Silhouette',
+        ':blue:'
     ],
     '👤': [
         'Bust in Silhouette',
+        ':bust_in_silhouette:',
         'Varjo',
         'Silhouette',
         'Käyttäjä',
-        'Henkilön siluetti'
+        'Henkilön siluetti',
+        ':blue:'
     ],
-    '🫂': ['Ihmiset Halaavat'],
+    '🫂': [
+        'Ihmiset Halaavat',
+        ':people_hugging:',
+        ':blue:'
+    ],
     '👥': [
         'Busts in Silhouette',
+        ':busts_in_silhouette:',
         'Varjot',
         'Silhouettes',
         'Käyttäjät',
-        'Kahden ihmisen siluetti'
+        'Kahden ihmisen siluetti',
+        ':blue:'
     ]
 };
 /*people*/
 emojis_language[lang][3] = {
     '👶{{skin_tone}}': [
         'Vauva',
+        ':baby:',
         'Lapsi',
         'Toddler'
     ],
     '🧒{{skin_tone}}': [
         'Lapsi',
+        ':child:',
         'Sukupuoli Neutraali Lapsi'
     ],
-    '👧{{skin_tone}}': ['Tyttö'],
+    '👧{{skin_tone}}': [
+        'Tyttö',
+        ':girl:',
+        ':woman:'
+    ],
     '🧑{{skin_tone}}': [
         'Henkilö',
+        ':person:',
         'Sukupuolen Neutraali Aikuinen',
-        'Aikuinen'
+        'Aikuinen',
+        ':person:'
     ],
     '🧑{{skin_tone}}': [
-        'Person: Beard',
-        'Beard',
-        'Bearded Person',
-        'Bearded Person'
+        'Henkilö: Suunta',
+        ':person_beard:',
+        'Koru',
+        'Suunta Henkilö',
+        'Suunta Henkilö',
+        ':person:'
     ],
     '🧑{{skin_tone}}‍🦰': [
-        'Person: Red Hair',
-        'Ginger Person',
-        'Person Redhead',
-        'Person With Red Hair'
+        'Henkilö: Punainen Hiukset',
+        ':person_red_hair:',
+        'Inkivääri Henkilö',
+        'Henkilö Punapää',
+        'Henkilö Punaisella Hiudella',
+        ':person:'
     ],
     '🧑{{skin_tone}}‍🦱': [
-        'Person: Curly Hair',
-        'Person With Curly Hair'
+        'Henkilö: Hiukset',
+        ':person_curly_hair:',
+        'Henkilö Curly Hair',
+        ':person:'
     ],
     '🧑{{skin_tone}}‍🦳': [
-        'Person: White Hair',
-        'Person With Gray Hair'
+        'Henkilö: Valkoiset Hiukset',
+        ':person_white_hair:',
+        'Henkilö Harmaa Hiusten Kanssa',
+        ':person:'
     ],
     '🧑{{skin_tone}}‍🦲': [
-        'Person: Bald',
-        'Person With No Hair'
+        'Henkilö: Kalju',
+        ':person_bald:',
+        'Henkilö Ei Hiuksia',
+        ':person:'
     ],
     '👱{{skin_tone}}': [
         'Henkilö: Blond Hiukset',
-        'Person With Blonde Hair'
+        ':person_blond_hair:',
+        'Henkilö Blonden Hiusten Kanssa',
+        ':person:'
     ],
     '👨{{skin_tone}}': [
         'Mies',
+        ':man:',
         'Mies',
-        'Moustache Man'
+        'Moustache Man',
+        ':man:'
     ],
     '🧔{{skin_tone}}‍♂️': [
-        'Man: Beard',
-        'Beard',
-        'Bearded Man',
-        'Bearded Person'
+        'Mies: Karkea',
+        ':man_beard:',
+        'Koru',
+        'Suunta Mies',
+        'Suunta Henkilö',
+        ':man:'
     ],
     '👨{{skin_tone}}‍🦰': [
         'Mies: Punainen Hiukset',
+        ':man_red_hair:',
         'Inkivääri Mies',
         'Man Redhead',
-        'Mies Punaisella Hiudella'
+        'Mies Punaisella Hiudella',
+        ':man:'
     ],
     '👨{{skin_tone}}‍🦱': [
         'Mies: Curly Hiukset',
-        'Mies Curly Hiusten Kanssa'
+        ':man_curly_hair:',
+        'Mies Curly Hiusten Kanssa',
+        ':man:'
     ],
     '👨{{skin_tone}}‍🦳': [
         'Mies: Valkoiset Hiukset',
-        'Mies Harmaan Hiusten Kanssa'
+        ':man_white_hair:',
+        'Mies Harmaan Hiusten Kanssa',
+        ':man:'
     ],
     '👨{{skin_tone}}‍🦲': [
         'Miehet: Kalju',
-        'Mies Ei Hiuksia'
+        ':man_bald:',
+        'Mies Ei Hiuksia',
+        ':man:'
     ],
     '👱{{skin_tone}}‍♂️': [
         'Mies: Blond Hair',
-        'Mies Kanssa Blondi Hiukset'
+        ':man_blond_hair:',
+        'Mies Kanssa Blondi Hiukset',
+        ':man:'
     ],
     '👩{{skin_tone}}': [
         'Nainen',
+        ':woman:',
         'Nainen',
         'Lady',
-        'Keltainen Nainen'
+        'Keltainen Nainen',
+        ':woman:'
     ],
     '🧔{{skin_tone}}‍♀️': [
-        'Woman: Beard',
-        'Beard',
-        'Bearded Woman'
+        'Nainen: Suunta',
+        ':woman_beard:',
+        'Koru',
+        'Korkea Nainen',
+        ':woman:'
     ],
     '👩{{skin_tone}}‍🦰': [
         'Nainen: Punainen Hius',
+        ':woman_red_hair:',
         'Inkivääri Nainen',
         'Woman Redhead',
-        'Nainen Punaisella Hiudella'
+        'Nainen Punaisella Hiudella',
+        ':woman:'
     ],
     '👩{{skin_tone}}‍🦱': [
         'Nainen: kihara Hiukset',
-        'Nainen Curly Hair'
+        ':woman_curly_hair:',
+        'Nainen Curly Hair',
+        ':woman:'
     ],
     '👩{{skin_tone}}‍🦳': [
         'Nainen: Valkoinen Hiukset',
-        'Nainen Harmaa Hiukset'
+        ':woman_white_hair:',
+        'Nainen Harmaa Hiukset',
+        ':woman:'
     ],
     '👩{{skin_tone}}‍🦲': [
         'Nainen: Kalju',
-        'Nainen Ei Hiuksia'
+        ':woman_bald:',
+        'Nainen Ei Hiuksia',
+        ':woman:'
     ],
     '👱{{skin_tone}}‍♀️': [
         'Nainen: Blond Hair',
-        'Nainen Blondi Hiukset'
-    ],
-    '🧓{{skin_tone}}': [
-        'Older Person',
-        'Gender Neutral Older Adult'
+        ':woman_blond_hair:',
+        'Nainen Blondi Hiukset',
+        ':woman:'
     ],
     '👴{{skin_tone}}': [
-        'Old Man',
-        'Elderly Man',
+        'Vanhempi Mies',
+        ':older_man:',
+        ':older:',
+        'Iäkkäät Mies',
         'Grandpa',
-        'Older Man'
+        'Vanha Mies',
+        ':man:'
     ],
     '👵{{skin_tone}}': [
-        'Old Woman',
-        'Elderly Woman',
-        'Grandma',
+        'Vanhempi Nainen',
+        ':older_woman:',
+        ':older:',
+        'Iäkkäät Nainen',
+        'Isoäiti',
         'Nanna',
-        'Old Lady',
-        'Older Woman'
+        'Vanha Lady',
+        'Vanha Nainen',
+        ':woman:'
+    ],
+    '🧓{{skin_tone}}': [
+        'Vanhempi Henkilö',
+        ':older_person:',
+        ':older:',
+        'Sukupuolen Neutraali Vanhemmat Aikuiset',
+        ':person:'
     ],
     '👼{{skin_tone}}': [
-        'Baby Angel',
-        'Angel',
+        'Vauvan Enkeli',
+        ':baby_angel:',
+        'Enkeli',
         'Cherub',
         'Cupid',
         'Putto'
     ],
     '👨{{skin_tone}}‍🎄': [
         'Santa Claus',
+        ':santa_claus:',
         'Saint Nicholas',
         'Sinterklaas',
-        'Father Christmas'
+        'Isä Joulu',
+        ':man:'
     ],
     '👩{{skin_tone}}‍🎄': [
-        'Mrs Claus',
-        'Mother Christmas'
+        'Claus',
+        ':mrs_claus:',
+        'Äiti Joulu',
+        ':woman:'
     ],
     '🧑{{skin_tone}}‍🎄': [
         'Mx Claus',
-        'Person Christmas'
+        ':mx_clause:',
+        'Henkilö Joulu',
+        ':person:'
     ],
-    '🤴{{skin_tone}}': ['Prince'],
+    '🤴{{skin_tone}}': [
+        'Prinssi',
+        ':price:',
+        ':man:'
+    ],
     '👸{{skin_tone}}': [
-        'Princess',
-        'Blonde Girl',
-        'Girl With Crown',
-        'Girl With Tiara'
+        'Prinsessa',
+        ':pricess:',
+        'Blondi Tyttö',
+        'Tyttö Crown',
+        'Tyttö Tiaran Kanssa',
+        ':woman:'
     ],
-    '🫅{{skin_tone}}': ['Person with Crown'],
+    '🫅{{skin_tone}}': [
+        'Henkilö jolla on kruunu',
+        ':person_with_crown:',
+        ':person:'
+    ],
     '👳{{skin_tone}}‍♂️': [
         'Mies Käyttää Turbania',
-        'Arab',
-        'Muslim',
+        ':man_wearing_turban:',
+        ':wearing_turban:',
+        'Arabialainen',
+        'Muslimi',
         'Sikh',
-        'Turban'
+        'Turbaani',
+        ':man:'
     ],
     '👳{{skin_tone}}‍♀️': [
         'Nainen Käyttää Turbania',
-        'Arab',
-        'Muslim',
+        ':woman_wearing_turban:',
+        ':wearing_turban:',
+        'Arabialainen',
+        'Muslimi',
         'Sikh',
-        'Turban'
+        'Turbaani',
+        ':woman:'
     ],
     '👳{{skin_tone}}': [
-        'Person Wearing Turban',
-        'Arab',
-        'Muslim',
+        'Henkilö Käyttää Turbania',
+        ':person_wearing_turban:',
+        ':wearing_turban:',
+        'Arabialainen',
+        'Muslimi',
         'Sikh',
-        'Turban'
+        'Turbaani',
+        ':person:'
     ],
     '👲{{skin_tone}}': [
-        'Person With Skullcap',
-        'Asian Man',
-        'Man With Chinese Cap',
-        'Man with Gua Pi Mao'
+        'Henkilö Skullcapin Kanssa',
+        ':person_with_skullcap:',
+        'Aasialainen Mies',
+        'Mies Kiinalaisen Suojan Kanssa',
+        'Man with Gua Pi Mao',
+        ':person:'
     ],
     '🧕{{skin_tone}}': [
-        'Woman with Headscarf',
+        'Naiset, joilla on huivi',
+        ':woman_with_headscarf:',
         'Hijab',
-        'Person with Headscarf'
+        'Henkilö jolla on huivi',
+        ':woman:'
     ],
     '🤵{{skin_tone}}‍♀️': [
-        'Man in Tuxedo',
+        'Tuxedon mies',
+        ':man_in_tuxedo:',
+        ':tuxedo:',
         'Groom',
-        'Man In Suit',
-        'Wedding'
+        'Mies Maassa',
+        'Häät',
+        ':man:'
     ],
     '🤵{{skin_tone}}‍♂️': [
-        'Woman in Tuxedo',
+        'Nainen Tuxedossa',
+        ':woman_in_tuxedo:',
+        ':tuxedo:',
         'Groom',
-        'Woman In Suit',
-        'Wedding'
+        'Nainen Puvussa',
+        'Häät',
+        ':woman:'
     ],
     '🤵{{skin_tone}}': [
-        'Person in Tuxedo',
+        'Tuxedossa oleva henkilö',
+        ':person_in_tuxedo:',
+        ':tuxedo:',
         'Groom',
-        'Person In Suit',
-        'Wedding'
+        'Henkilö Puku',
+        'Häät',
+        ':person:'
     ],
     '👰{{skin_tone}}‍♂️': [
         'Miehen kanssa Veilissä',
-        'Wedding',
-        'Bridegroom',
-        'Marriage'
+        ':man_with_veil:',
+        ':veil:',
+        'Häät',
+        'Sulhanen',
+        'Avioliitto',
+        ':man:'
     ],
     '👰{{skin_tone}}‍♀️': [
         'Nainen kanssa Veilin',
-        'Wedding',
-        'Bride',
-        'Bride with Veil',
-        'Marriage'
+        ':woman_with_veil:',
+        ':veil:',
+        'Häät',
+        'Morsian',
+        'Morsian Veilin kanssa',
+        'Avioliitto',
+        ':woman:'
     ],
     '👰{{skin_tone}}': [
-        'Person With Veil',
-        'Wedding',
-        'Marriage'
+        'Henkilö Veilin Kanssa',
+        ':person_with_veil:',
+        ':veil:',
+        'Häät',
+        'Avioliitto',
+        ':person:'
     ],
-    '👩{{skin_tone}}‍🍼': ['Naisen Ruokinta Vauva'],
-    '👨{{skin_tone}}‍🍼': ['Ihmisen Ruokinta Vauva'],
-    '🧑{{skin_tone}}‍🍼': ['Person Feeding Baby'],
-    '🥷': ['Ninja'],
-    '🤰{{skin_tone}}': [
-        'Pregnant Woman',
-        'Pregnancy',
-        'Pregnant Lady'
+    '👨{{skin_tone}}‍🍼': [
+        'Ihmisen Ruokinta Vauva',
+        ':man_feeding_baby:',
+        ':feeding_baby:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🍼': [
+        'Naisen Ruokinta Vauva',
+        ':woman_feeding_baby:',
+        ':feeding_baby:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🍼': [
+        'Henkilön Ruokinta Vauva',
+        ':person_feeding_baby:',
+        ':feeding_baby:',
+        ':person:'
+    ],
+    '🥷': [
+        'Ninja',
+        ':ninja:'
     ],
     '🫃{{skin_tone}}': [
-        'Pregnant Man',
-        'Pregnancy'
+        'Raskaana Oleva Mies',
+        ':pregnant_man:',
+        ':pregnant:',
+        'Raskaus',
+        ':man:'
+    ],
+    '🤰{{skin_tone}}': [
+        'Raskaana Oleva Nainen',
+        ':pregnant_woman:',
+        ':pregnant:',
+        'Raskaus',
+        'Raskaana Oleva Nainen',
+        ':woman:'
     ],
     '🫄{{skin_tone}}': [
-        'Pregnant Person',
-        'Pregnancy'
+        'Raskaana Oleva Henkilö',
+        ':pregnant_person:',
+        ':pregnant:',
+        'Raskaus',
+        ':person:'
     ],
     '🤱{{skin_tone}}‍': [
         'Rintojen Ruokinta',
+        ':breast-feeding:',
+        ':breast_feeding:',
         'Imetys'
     ],
-    '🦸{{skin_tone}}‍♂️': ['Man Supersankari'],
-    '🦸{{skin_tone}}‍♀️': ['Woman Superhero'],
-    '🦸{{skin_tone}}': ['Person Superhero'],
-    '🦹{{skin_tone}}‍♂️': ['Man Supervillain'],
-    '🦹{{skin_tone}}‍♀️': ['Woman Supervillain'],
-    '🦹{{skin_tone}}': ['Person Supervillain'],
+    '🦸{{skin_tone}}‍♂️': [
+        'Man Supersankari',
+        ':man_superhero:',
+        ':superhero:',
+        ':man:'
+    ],
+    '🦸{{skin_tone}}‍♀️': [
+        'Nainen Supersankari',
+        ':woman_superhero:',
+        ':superhero:',
+        ':woman:'
+    ],
+    '🦸{{skin_tone}}': [
+        'Henkilö Supersankari',
+        ':person_superhero:',
+        ':superhero:',
+        ':person:'
+    ],
+    '🦹{{skin_tone}}‍♂️': [
+        'Mies Supervillain',
+        ':man_supervillain:',
+        ':supervillain:',
+        ':man:'
+    ],
+    '🦹{{skin_tone}}‍♀️': [
+        'Nainen Supervillain',
+        ':woman_supervillain:',
+        ':supervillain:',
+        ':woman:'
+    ],
+    '🦹{{skin_tone}}': [
+        'Henkilö Supervillain',
+        ':person_supervillain:',
+        ':supervillain:',
+        ':person:'
+    ],
     '🧙{{skin_tone}}‍♂️': [
-        'Man Mage',
+        'Miehen Mage',
+        ':man_mage:',
+        ':mage:',
         'Sorcerer',
-        'Wizard'
+        'Velho',
+        ':man:'
     ],
     '🧙{{skin_tone}}‍♀️': [
-        'Woman Mage',
-        'Witch',
-        'Sorceress',
-        'Wizard'
+        'Nainen Mage',
+        ':woman_mage:',
+        ':mage:',
+        'Noita',
+        'Surullisuus',
+        'Velho',
+        ':woman:'
     ],
     '🧙{{skin_tone}}': [
-        'Person Mage',
-        'Wizard',
-        ':mage:'
+        'Henkilö Mage',
+        ':person_mage:',
+        ':mage:',
+        'Velho',
+        ':mage:',
+        ':person:'
     ],
-    '🧚{{skin_tone}}‍♂️': ['Man Fairy'],
-    '🧚{{skin_tone}}‍♀️': ['Nainen Fairy'],
-    '🧚{{skin_tone}}': ['Person Fairy'],
+    '🧚{{skin_tone}}‍♂️': [
+        'Mies Fairy',
+        ':man_fairy:',
+        ':fairy:',
+        ':man:'
+    ],
+    '🧚{{skin_tone}}‍♀️': [
+        'Nainen Fairy',
+        ':woman_fairy:',
+        ':fairy:',
+        ':woman:'
+    ],
+    '🧚{{skin_tone}}': [
+        'Henkilö Fairy',
+        ':person_fairy:',
+        ':fairy:',
+        ':person:'
+    ],
     '🧛{{skin_tone}}‍♂️': [
         'Man Vampyyri',
-        'Dracula'
+        ':man_vampire:',
+        ':vampire:',
+        'Dracula',
+        ':man:'
     ],
-    '🧛{{skin_tone}}‍♀️': ['Woman Vampire'],
-    '🧛{{skin_tone}}': ['Person Vampire'],
+    '🧛{{skin_tone}}‍♀️': [
+        'Nainen Vampyyri',
+        ':woman_vampire:',
+        ':vampire:',
+        ':woman:'
+    ],
+    '🧛{{skin_tone}}': [
+        'Henkilö Vampyyri',
+        ':person_vampire:',
+        ':vampire:',
+        ':person:'
+    ],
     '🧜{{skin_tone}}‍♂️': [
         'Merman',
-        'Merboy'
+        ':merman:',
+        'Merboy',
+        ':man:'
     ],
     '🧜{{skin_tone}}‍♀️': [
         'Merenneito',
-        'Mergirl'
+        ':mermaid:',
+        'Mergirl',
+        ':woman:'
     ],
-    '🧜{{skin_tone}}': ['Merperson'],
-    '🧝{{skin_tone}}‍♂️': ['Miehen Elf'],
-    '🧝{{skin_tone}}‍♀️': ['Nainen Härkä'],
-    '🧝{{skin_tone}}': ['Person Elf'],
-    '🧞‍♂️': ['Man Genie'],
-    '🧞‍♀️': ['Woman Genie'],
-    '🧞': ['Person Genie'],
+    '🧜{{skin_tone}}': [
+        'Merperson',
+        ':merperson:',
+        ':person:'
+    ],
+    '🧝{{skin_tone}}‍♂️': [
+        'Miehen Elf',
+        ':man_elf:',
+        ':elf:',
+        ':man:'
+    ],
+    '🧝{{skin_tone}}‍♀️': [
+        'Nainen Härkä',
+        ':woman_elf:',
+        ':elf:',
+        ':woman:'
+    ],
+    '🧝{{skin_tone}}': [
+        'Henkilö Elf',
+        ':person_elf:',
+        ':elf:',
+        ':person:'
+    ],
+    '🧞‍♂️': [
+        'Man Genie',
+        ':man_genie:',
+        ':genie:',
+        ':man:'
+    ],
+    '🧞‍♀️': [
+        'Woman Genie',
+        ':woman_genie:',
+        ':genie:',
+        ':woman:'
+    ],
+    '🧞': [
+        'Henkilö Genie',
+        ':person_genie:',
+        ':genie:',
+        ':person:'
+    ],
     '🕵️{{skin_tone}}‍♂️': [
         'Man Detective',
+        ':man_detective:',
+        ':detective:',
         'Yksityinen Silmä',
         'Sleuth',
         'Vakooja',
         'Man Sleuth',
         'Sleuto tai vakooja',
         '007',
-        'Tarkastaja'
+        'Tarkastaja',
+        ':man:'
     ],
     '🕵️{{skin_tone}}‍♀️': [
         'Nainen Havaitseva',
-        'Private Eye',
+        ':woman_detective:',
+        ':detective:',
+        'Yksityinen Silmä',
         'Sleuth',
-        'Spy',
-        'Woman Sleuth',
-        'Sleuth or Spy',
+        'Vakooja',
+        'Naisen SleuthName',
+        'Sleuto tai vakooja',
         '007',
-        'Inspector'
+        'Tarkastaja',
+        ':woman:'
     ],
     '🕵{{skin_tone}}': [
-        'Person Detective',
-        'Private Eye',
+        'Henkilö Havaitseva',
+        ':person_detective:',
+        ':detective:',
+        'Yksityinen Silmä',
         'Sleuth',
-        'Spy',
-        'Person Sleuth',
-        'Sleuth or Spy',
+        'Vakooja',
+        'Henkilö Sleuth',
+        'Sleuto tai vakooja',
         '007',
-        'Inspector'
+        'Tarkastaja',
+        ':person:'
     ],
     '💂{{skin_tone}}‍♂️': [
-        'Man: Guard',
-        'British Guardsman',
-        'Foot Guard'
+        'Mies: Vartija',
+        ':man_guard:',
+        ':guard:',
+        'Brittiläinen Guardsman',
+        'Jalkojen Suojaus',
+        ':man:'
     ],
     '💂{{skin_tone}}‍♀️': [
-        'Woman: Guard',
-        'British Guardsman',
-        'Foot Guard'
+        'Nainen: Guard',
+        ':woman_guard:',
+        ':guard:',
+        'Brittiläinen Guardsman',
+        'Jalkojen Suojaus',
+        ':woman:'
     ],
     '💂{{skin_tone}}': [
-        'Person: Guard',
-        'British Guardsman',
-        'Foot Guard'
+        'Henkilö: Vartija',
+        ':person_guard:',
+        ':guard:',
+        'Brittiläinen Guardsman',
+        'Jalkojen Suojaus',
+        ':person:'
     ],
     '👮{{skin_tone}}‍♂️': [
-        'Police Officer',
+        'Poliisin Päällikkö',
+        ':man_police_officer:',
+        ':police_officer:',
         'Cop',
-        'Police',
-        'Policeman'
+        'Poliisi',
+        'Poliisi',
+        ':man:'
     ],
     '👮{{skin_tone}}‍♀️': [
-        'Woman Police Officer',
+        'Naisen Poliisin Toimittaja',
+        ':woman_police_officer:',
+        ':police_officer:',
         'Cop',
-        'Police',
-        'Policewoman'
+        'Poliisi',
+        'Poliisi',
+        ':woman:'
     ],
     '👮{{skin_tone}}': [
-        'Police Officer',
+        'Poliisin Päällikkö',
+        ':person_police_officer:',
+        ':police_officer:',
         'Cop',
-        'Police'
+        'Poliisi',
+        ':person:'
     ],
-    '👨{{skin_tone}}‍🚒': ['Mies Palomiehen'],
-    '👩{{skin_tone}}‍🚒': ['Woman Firefighter'],
-    '🧑{{skin_tone}}‍🚒': ['Person Firefighter'],
-    '👨{{skin_tone}}‍✈️': ['Man Pilot'],
-    '👩{{skin_tone}}‍✈️': ['Woman Pilot'],
-    '🧑{{skin_tone}}‍✈️': ['Person Pilot'],
+    '👨{{skin_tone}}‍🚒': [
+        'Mies Palomiehen',
+        ':man_firefighter:',
+        ':firefighter:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🚒': [
+        'Nainen Palomiehen',
+        ':woman_firefighter:',
+        ':firefighter:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🚒': [
+        'Henkilö Palomiehen',
+        ':person_firefighter:',
+        ':firefighter:',
+        ':person:'
+    ],
+    '👨{{skin_tone}}‍✈️': [
+        'Miehen Pilotti',
+        ':man_pilot:',
+        ':pilot:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍✈️': [
+        'Nainen Pilot',
+        ':woman_pilot:',
+        ':pilot:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍✈️': [
+        'Henkilö Pilot',
+        ':person_pilot:',
+        ':pilot:',
+        ':person:'
+    ],
     '👨{{skin_tone}}‍💻': [
         'Man Technologist',
-        'Man Technologist'
+        ':man_technologist:',
+        ':technologist:',
+        'Man Technologist',
+        ':man:'
     ],
-    '👩{{skin_tone}}‍💻': ['Naisen Teknologia'],
-    '🧑{{skin_tone}}‍💻': ['Person Technologist'],
+    '👩{{skin_tone}}‍💻': [
+        'Naisen Teknologia',
+        ':woman_technologist:',
+        ':technologist:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍💻': [
+        'Henkilön Teknologia',
+        ':person_technologist:',
+        ':technologist:',
+        ':person:'
+    ],
     '👨{{skin_tone}}‍🎤': [
         'Miehen Laulaja',
+        ':man_singer:',
+        ':singer:',
         'Bowie',
-        'Aladdin Sane'
+        'Aladdin Sane',
+        ':man:'
     ],
-    '👩{{skin_tone}}‍🎤': ['Nainen Laulaja'],
-    '🧑{{skin_tone}}‍🎤': ['Person Singer'],
-    '👨{{skin_tone}}‍🎨': ['Man Artisti'],
-    '👩{{skin_tone}}‍🎨': ['Nainen Esittäjä'],
-    '🧑{{skin_tone}}‍🎨': ['Person Artist'],
-    '👷{{skin_tone}}‍♂️': ['Man Construction Worker'],
-    '👷{{skin_tone}}‍♀️': ['Woman Construction Worker'],
-    '👷{{skin_tone}}': ['Person Construction Worker'],
+    '👩{{skin_tone}}‍🎤': [
+        'Nainen Laulaja',
+        ':woman_singer:',
+        ':singer:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🎤': [
+        'Henkilö Laulaja',
+        ':person_singer:',
+        ':singer:',
+        ':person:'
+    ],
+    '👨{{skin_tone}}‍🎨': [
+        'Man Artisti',
+        ':man_artist:',
+        ':artist:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🎨': [
+        'Nainen Esittäjä',
+        ':woman_artist:',
+        ':artist:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🎨': [
+        'Henkilön Esittäjä',
+        ':person_artist:',
+        ':artist:',
+        ':person:'
+    ],
+    '👷{{skin_tone}}‍♂️': [
+        'Man Construction Worker',
+        ':man_contruction_worker:',
+        ':contruction_worker:',
+        ':man:'
+    ],
+    '👷{{skin_tone}}‍♀️': [
+        'Naisen Rakennustyöntekijä',
+        ':woman_contruction_worker:',
+        ':contruction_worker:',
+        ':woman:'
+    ],
+    '👷{{skin_tone}}': [
+        'Henkilö Rakennustyöntekijä',
+        ':person_contruction_worker:',
+        ':contruction_worker:',
+        ':person:'
+    ],
     '👨{{skin_tone}}‍🚀': [
-        'Man Astronaut',
-        'Man Cosmonaut'
+        'Mies Astronaut',
+        ':man_astronaut:',
+        ':astronaut:',
+        'Man Cosmonaut',
+        ':man:'
     ],
     '👩{{skin_tone}}‍🚀': [
-        'Woman Astronaut',
-        'Woman Cosmonaut'
+        'Nainen Astronaut',
+        ':woman_astronaut:',
+        ':astronaut:',
+        'Nainen Cosmonaut',
+        ':woman:'
     ],
     '🧑{{skin_tone}}‍🚀': [
-        'Person Astronaut',
-        'Person Cosmonaut'
+        'Henkilö Astronaut',
+        ':person_astronaut:',
+        ':astronaut:',
+        'Henkilö Cosmonaut',
+        ':person:'
     ],
-    '👨{{skin_tone}}‍🔬': ['Man Scientist'],
-    '👩{{skin_tone}}‍🔬': ['Woman Scientist'],
-    '🧑{{skin_tone}}‍🔬': ['Person Scientist'],
+    '👨{{skin_tone}}‍🔬': [
+        'Miehen Tutkija',
+        ':man_scientist:',
+        ':scientist:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🔬': [
+        'Naisen Tutkija',
+        ':woman_scientist:',
+        ':scientist:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🔬': [
+        'Henkilö Tutkija',
+        ':person_scientist:',
+        ':scientist:',
+        ':person:'
+    ],
     '👨{{skin_tone}}‍💼': [
         'Man Office Worker',
+        ':man_office_worker:',
+        ':office_worker:',
         'Toimitusjohtaja',
-        'Liikemies'
+        'Liikemies',
+        ':man:'
     ],
     '👩{{skin_tone}}‍💼': [
         'Naisen Toimistotyöntekijä',
+        ':woman_office_worker:',
+        ':office_worker:',
         'Yrittäjä',
-        'Toimitusjohtaja'
+        'Toimitusjohtaja',
+        ':woman:'
     ],
     '🧑{{skin_tone}}‍💼': [
-        'Person Office Worker',
-        'Business',
-        'CEO'
+        'Henkilön Toimistotyöntekijä',
+        ':person_office_worker:',
+        ':office_worker:',
+        'Liiketoiminta',
+        'Toimitusjohtaja',
+        ':person:'
     ],
-    '👨{{skin_tone}}‍🏭': ['Man Factory Worker'],
-    '👩{{skin_tone}}‍🏭': ['Woman Factory Worker'],
-    '🧑{{skin_tone}}‍🏭': ['Person Factory Worker'],
-    '👨{{skin_tone}}‍🔧': ['Man Mechanic'],
-    '👩{{skin_tone}}‍🔧': ['Woman Mechanic'],
-    '🧑{{skin_tone}}‍🔧': ['Person Mechanic'],
+    '👨{{skin_tone}}‍🏭': [
+        'Man Factory Worker',
+        ':man_factory_worker:',
+        ':factory_worker:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🏭': [
+        'Naisen Tehdastyöntekijä',
+        ':woman_factory_worker:',
+        ':factory_worker:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🏭': [
+        'Henkilö Tehtaantyöntekijä',
+        ':person_factory_worker:',
+        ':factory_worker:',
+        ':person:'
+    ],
+    '👨{{skin_tone}}‍🔧': [
+        'Man Mekaniikka',
+        ':man_mechanic:',
+        ':mechanic:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🔧': [
+        'Nainen Mekaaninen',
+        ':woman_mechanic:',
+        ':mechanic:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🔧': [
+        'Henkilö Mekaaninen',
+        ':person_mechanic:',
+        ':mechanic:',
+        ':person:'
+    ],
     '👨{{skin_tone}}‍🍳': [
-        'Man Cook',
-        'Man Chef',
-        'Male Chef'
+        'Mies Cook',
+        ':man_cook:',
+        ':cook:',
+        'Miehen Kokki',
+        'Miehen Kokki',
+        ':man:'
     ],
     '👩{{skin_tone}}‍🍳': [
-        'Woman Cook',
-        'Woman Chef',
-        'Female Chef'
+        'Nainen Kypsä',
+        ':woman_cook:',
+        ':cook:',
+        'Nainen Kokki',
+        'Naisen Kokki',
+        ':woman:'
     ],
     '🧑{{skin_tone}}‍🍳': [
-        'Person Cook',
-        'Person Chef'
+        'Henkilö Cook',
+        ':person_cook:',
+        ':cook:',
+        'Henkilön Kokki',
+        ':person:'
     ],
-    '👨{{skin_tone}}‍🌾': ['Man Farmer'],
-    '👩{{skin_tone}}‍🌾': ['Woman Farmer'],
-    '🧑{{skin_tone}}‍🌾': ['Person Farmer'],
-    '👨{{skin_tone}}‍‍⚖️': ['Miehen Tuomari'],
-    '👩{{skin_tone}}‍‍⚖️': ['Naisen Tuomari'],
-    '🧑{{skin_tone}}‍‍⚖️': ['Person Judge'],
-    '👨{{skin_tone}}‍‍🏫': ['Miehen Opettaja'],
-    '👩{{skin_tone}}‍‍🏫': ['Nainen Opettaja'],
-    '🧑‍{{skin_tone}}‍‍🏫': ['Person Teacher'],
-    '👨{{skin_tone}}‍🎓': ['Ihmisen Opiskelija'],
-    '👩{{skin_tone}}‍🎓': ['Nainen Opiskelija'],
-    '🧑{{skin_tone}}‍🎓': ['Person Student'],
+    '👨{{skin_tone}}‍🌾': [
+        'Mies Viljelijä',
+        ':man_farmer:',
+        ':farmer:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🌾': [
+        'Nainen Maanviljelijä',
+        ':woman_farmer:',
+        ':farmer:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🌾': [
+        'Henkilö Maanviljelijä',
+        ':person_farmer:',
+        ':farmer:',
+        ':person:'
+    ],
+    '👨{{skin_tone}}‍‍⚖️': [
+        'Miehen Tuomari',
+        ':man_judge:',
+        ':judge:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍‍⚖️': [
+        'Naisen Tuomari',
+        ':woman_judge:',
+        ':judge:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍‍⚖️': [
+        'Henkilön Tuomari',
+        ':person_judge:',
+        ':judge:',
+        ':person:'
+    ],
+    '👨{{skin_tone}}‍‍🏫': [
+        'Miehen Opettaja',
+        ':man_teacher:',
+        ':teacher:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍‍🏫': [
+        'Nainen Opettaja',
+        ':woman_teacher:',
+        ':teacher:',
+        ':woman:'
+    ],
+    '🧑‍{{skin_tone}}‍‍🏫': [
+        'Henkilön Opettaja',
+        ':person_teacher:',
+        ':teacher:',
+        ':person:'
+    ],
+    '👨{{skin_tone}}‍🎓': [
+        'Ihmisen Opiskelija',
+        ':man_student:',
+        ':student:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🎓': [
+        'Nainen Opiskelija',
+        ':woman_student:',
+        ':student:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🎓': [
+        'Henkilö Opiskelija',
+        ':person_student:',
+        ':student:',
+        ':person:'
+    ],
     '👨{{skin_tone}}‍⚕️': [
-        'Man Health Worker',
-        'Male Doctor',
-        'Male Nurse'
+        'Miehen Terveystyöntekijä',
+        ':man_health_worker:',
+        ':health_worker:',
+        'Miehen Lääkäri',
+        'Mies Sairaanhoitaja',
+        ':man:'
     ],
     '👩{{skin_tone}}‍⚕️': [
         'Nainen Terveydenhuollon Työntekijä',
+        ':woman_health_worker:',
+        ':health_worker:',
         'Naisen Lääkäri',
-        'Naisen Sairaanhoitaja'
+        'Naisen Sairaanhoitaja',
+        ':woman:'
     ],
     '🧑‍{{skin_tone}}‍⚕️': [
-        'Person Health Worker',
-        'Person Doctor',
-        'Person Nurse'
+        'Henkilö Terveydenhuollon Työntekijä',
+        ':person_health_worker:',
+        ':health_worker:',
+        'Henkilö Tohtori',
+        'Henkilö Sairaanhoitaja',
+        ':person:'
     ],
     '🤷{{skin_tone}}‍♂️': [
         'Mies Kuivuminen',
+        ':man_shrugging:',
+        ':shrugging:',
         'idk mies',
-        'dunno'
+        'dunno',
+        ':man:'
     ],
     '🤷{{skin_tone}}‍♀️': [
         'Nainen Kuivuminen',
+        ':woman_shrugging:',
+        ':shrugging:',
         'idk nainen',
-        'dunno'
+        'dunno',
+        ':woman:'
     ],
     '🤷{{skin_tone}}': [
-        'Person Shrugging',
-        'idk person',
-        'dunno'
+        'Henkilö Kuivuminen',
+        ':person_shrugging:',
+        ':shrugging:',
+        'idk henkilö',
+        'dunno',
+        ':person:'
     ],
-    '🤦{{skin_tone}}‍♂️': ['Ihmisen Kasvopalmulointi'],
-    '🤦{{skin_tone}}‍♀️': ['Nainen Facepalming'],
-    '🤦{{skin_tone}}': ['Person Facepalming'],
-    '🙇{{skin_tone}}‍‍♂️': ['Mies Niittäminen'],
-    '🙇{{skin_tone}}‍‍♀️': ['Nainen Leivonta'],
-    '🙇{{skin_tone}}': ['Person Bowing'],
-    '🧏{{skin_tone}}‍♂️': ['Deaf Man'],
-    '🧏{{skin_tone}}‍‍♀️': ['Deaf Nainen'],
-    '🧏{{skin_tone}}': ['Deaf Person'],
+    '🤦{{skin_tone}}‍♂️': [
+        'Ihmisen Kasvopalmulointi',
+        ':man_facepalming:',
+        ':facepalming:',
+        ':man:'
+    ],
+    '🤦{{skin_tone}}‍♀️': [
+        'Nainen Facepalming',
+        ':woman_facepalming:',
+        ':facepalming:',
+        ':woman:'
+    ],
+    '🤦{{skin_tone}}': [
+        'Henkilö Kasvot',
+        ':person_facepalming:',
+        ':facepalming:',
+        ':person:'
+    ],
+    '🙇{{skin_tone}}‍‍♂️': [
+        'Mies Niittäminen',
+        ':man_bowing:',
+        ':bowing:',
+        ':man:'
+    ],
+    '🙇{{skin_tone}}‍‍♀️': [
+        'Nainen Leivonta',
+        ':woman_bowing:',
+        ':bowing:',
+        ':woman:'
+    ],
+    '🙇{{skin_tone}}': [
+        'Henkilö Soutaminen',
+        ':person_bowing:',
+        ':bowing:',
+        ':person:'
+    ],
+    '🧏{{skin_tone}}‍♂️': [
+        'Deaf Man',
+        ':deaf_man:',
+        ':deaf:',
+        ':man:'
+    ],
+    '🧏{{skin_tone}}‍‍♀️': [
+        'Deaf Nainen',
+        ':deaf_woman:',
+        ':deaf:',
+        ':woman:'
+    ],
+    '🧏{{skin_tone}}': [
+        'Deaf Henkilö',
+        ':deaf_person:',
+        ':deaf:',
+        ':person:'
+    ],
     '🙋{{skin_tone}}‍‍♂️': [
         'Ihminen Käsien Ylösnostaminen',
-        'Iloinen Mies Nousu Yhtä Kättä'
+        ':man_raising_hand:',
+        'Iloinen Mies Nousu Yhtä Kättä',
+        ':raising_hand:',
+        ':man:'
     ],
     '🙋{{skin_tone}}‍♀️': [
         'Nainen Nousu Käsi',
-        'Onnellinen Nainen Nousu Yksi Käsi'
+        ':woman_raising_hand:',
+        'Onnellinen Nainen Nousu Yksi Käsi',
+        ':raising_hand:',
+        ':woman:'
     ],
     '🙋{{skin_tone}}': [
-        'Person Raising Hand',
-        'Happy Person Raising One Hand'
+        'Henkilö Käden Nousu',
+        ':person_raising_hand:',
+        'Iloinen Henkilö Yhdelle Kädelle',
+        ':raising_hand:',
+        ':person:'
     ],
     '💁{{skin_tone}}‍♂️': [
         'Miehen Tippaus Käsi',
-        'Information Desk Man'
+        ':man_tipping_hand:',
+        'Information Desk Man',
+        ':tipping_hand:',
+        ':man:'
     ],
     '💁{{skin_tone}}‍♀️': [
         'Naisen Tippaus Käsi',
-        'Information Desk Nainen'
+        ':woman_tipping_hand:',
+        'Information Desk Nainen',
+        ':tipping_hand:',
+        ':woman:'
     ],
     '💁{{skin_tone}}': [
-        'Person Tipping Hand',
-        'Information Desk Person'
+        'Henkilö Tippaus Käsi',
+        ':person_tipping_hand:',
+        'Tietopisteen Henkilö',
+        ':tipping_hand:',
+        ':person:'
     ],
-    '🙆{{skin_tone}}‍♂️': ['Man Gesturing OK'],
-    '🙆{{skin_tone}}‍♀️': ['Nainen Eletään OK'],
-    '🙆{{skin_tone}}': ['Person Gesturing OK'],
-    '🙅{{skin_tone}}‍♂️': ['Miehen Ele Ei'],
-    '🙅{{skin_tone}}‍♀️': ['Naisen Eleen Ei'],
-    '🙅{{skin_tone}}': ['Person Gesturing No'],
-    '🙎{{skin_tone}}‍♂️': ['Miehen Kiinnitys'],
-    '🙎{{skin_tone}}‍‍♀️': ['Naisen Kiinnitys'],
-    '🙎{{skin_tone}}': ['Person Pouting'],
-    '🙍{{skin_tone}}‍♂️': ['Man Frowning'],
-    '🙍{{skin_tone}}‍♀️': ['Woman Frowning'],
-    '🙍{{skin_tone}}': ['Person Frowning'],
-    '🧟‍‍♂️': ['Man Zombi'],
-    '🧟‍‍♀️': ['Nainen Zombi'],
-    '🧟': ['Person Zombie'],
-    '🚶{{skin_tone}}‍♂️': ['Miehen Kävely'],
-    '🚶{{skin_tone}}‍♀️': ['Nainen Kävely'],
-    '🚶{{skin_tone}}': ['Person Walking'],
-    '🧍{{skin_tone}}‍♂️': ['Man Standing'],
-    '🧍{{skin_tone}}‍♀️': ['Woman Standing'],
-    '🧍{{skin_tone}}': ['Person Standing'],
-    '🧎{{skin_tone}}‍♂️': ['Mies Kneeling'],
-    '🧎{{skin_tone}}‍♀️': ['Woman Kneeling'],
-    '🧎{{skin_tone}}': ['Person Kneelink'],
-    '👨{{skin_tone}}‍🦯': ['Mies valkoisella ruokalajilla'],
-    '👩{{skin_tone}}‍🦯': ['Nainen kanssa White Cane'],
-    '🧑{{skin_tone}}‍🦯': ['Person with White Cane'],
-    '👨{{skin_tone}}‍🦼': ['Mies moottoroidussa pyörätuolissa'],
-    '👩{{skin_tone}}‍🦼': ['Nainen moottoroidussa pyörätuolissa'],
-    '🧑{{skin_tone}}‍🦼': ['Person in Motorized Wheelchair'],
-    '👨{{skin_tone}}‍🦽': ['Miehen käsikäyttöinen pyörätuoli'],
-    '👩{{skin_tone}}‍🦽': ['Nainen käsikirjassa pyörätuoli'],
-    '🧑{{skin_tone}}‍🦽': ['Person in Manual Wheelchair'],
-    '👯‍♂️': ['Miehet, joilla on pupu korva'],
-    '👯‍♀️': ['Naiset Bunny Ears'],
-    '👯': ['People with Bunny Ears'],
+    '🙆{{skin_tone}}‍♂️': [
+        'Man Gesturing OK',
+        ':man_gesturing_ok:',
+        ':gesturing_ok:',
+        ':man:'
+    ],
+    '🙆{{skin_tone}}‍♀️': [
+        'Nainen Eletään OK',
+        ':woman_gesturing_ok:',
+        ':gesturing_ok:',
+        ':woman:'
+    ],
+    '🙆{{skin_tone}}': [
+        'Henkilö Eleet OK',
+        ':person_gesturing_ok:',
+        ':gesturing_ok:',
+        ':person:'
+    ],
+    '🙅{{skin_tone}}‍♂️': [
+        'Miehen Ele Ei',
+        ':man_gesturing_no:',
+        ':gesturing_no:',
+        ':man:'
+    ],
+    '🙅{{skin_tone}}‍♀️': [
+        'Naisen Eleen Ei',
+        ':woman_gesturing_no:',
+        ':gesturing_no:',
+        ':woman:'
+    ],
+    '🙅{{skin_tone}}': [
+        'Henkilö Eleen Nro',
+        ':person_gesturing_no:',
+        ':gesturing_no:',
+        ':person:'
+    ],
+    '🙎{{skin_tone}}‍♂️': [
+        'Miehen Kiinnitys',
+        ':man_pouting:',
+        ':pouting:',
+        ':man:'
+    ],
+    '🙎{{skin_tone}}‍‍♀️': [
+        'Naisen Kiinnitys',
+        ':woman_pouting:',
+        ':pouting:',
+        ':woman:'
+    ],
+    '🙎{{skin_tone}}': [
+        'Henkilö Suunta',
+        ':person_pouting:',
+        ':pouting:',
+        ':person:'
+    ],
+    '🙍{{skin_tone}}‍♂️': [
+        'Man Frowning',
+        ':man_frowining:',
+        ':frowining:',
+        ':man:'
+    ],
+    '🙍{{skin_tone}}‍♀️': [
+        'Nainen Frowning',
+        ':woman_frowining:',
+        ':frowining:',
+        ':woman:'
+    ],
+    '🙍{{skin_tone}}': [
+        'Henkilö Frowning',
+        ':person_frowining:',
+        ':frowining:',
+        ':person:'
+    ],
+    '🧟‍‍♂️': [
+        'Man Zombi',
+        ':man_zombie:',
+        ':zombie:',
+        ':man:'
+    ],
+    '🧟‍‍♀️': [
+        'Nainen Zombi',
+        ':woman_zombie:',
+        ':zombie:',
+        ':woman:'
+    ],
+    '🧟': [
+        'Henkilö Zombi',
+        ':person_zombie:',
+        ':zombie:',
+        ':person:'
+    ],
+    '🚶{{skin_tone}}‍♂️': [
+        'Miehen Kävely',
+        ':man_walking:',
+        ':walking:',
+        ':man:'
+    ],
+    '🚶{{skin_tone}}‍♀️': [
+        'Nainen Kävely',
+        ':woman_walking:',
+        ':walking:',
+        ':woman:'
+    ],
+    '🚶{{skin_tone}}': [
+        'Henkilö Kävely',
+        ':person_walking:',
+        ':walking:',
+        ':person:'
+    ],
+    '🧍{{skin_tone}}‍♂️': [
+        'Mies Seisoo',
+        ':man_standing:',
+        ':standing:',
+        ':man:'
+    ],
+    '🧍{{skin_tone}}‍♀️': [
+        'Nainen Seisoo',
+        ':woman_standing:',
+        ':standing:',
+        ':woman:'
+    ],
+    '🧍{{skin_tone}}': [
+        'Henkilö Seisoi',
+        ':person_standing:',
+        ':standing:',
+        ':person:'
+    ],
+    '🧎{{skin_tone}}‍♂️': [
+        'Mies Kneeling',
+        ':man_kneeling:',
+        ':kneeling:',
+        ':man:'
+    ],
+    '🧎{{skin_tone}}‍♀️': [
+        'Nainen Kneeling',
+        ':woman_kneeling:',
+        ':kneeling:',
+        ':woman:'
+    ],
+    '🧎{{skin_tone}}': [
+        'Henkilö Kneelink',
+        ':person_kneeling:',
+        ':kneeling:',
+        ':person:'
+    ],
+    '👨{{skin_tone}}‍🦯': [
+        'Mies valkoisella ruokalajilla',
+        ':man_with_white_cane:',
+        ':white_cane:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🦯': [
+        'Nainen kanssa White Cane',
+        ':woman_with_white_cane:',
+        ':white_cane:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🦯': [
+        'Henkilö jolla on valkoinen ruokalaji',
+        ':person_with_white_cane:',
+        ':white_cane:',
+        ':person:'
+    ],
+    '👨{{skin_tone}}‍🦼': [
+        'Mies moottoroidussa pyörätuolissa',
+        ':man_in_motorized_wheelchair:',
+        ':motorized_wheelchair:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🦼': [
+        'Nainen moottoroidussa pyörätuolissa',
+        ':woman_in_motorized_wheelchair:',
+        ':motorized_wheelchair:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🦼': [
+        'Moottorikäyttöisessä pyörätuolissa oleva henkilö',
+        ':person_in_motorized_wheelchair:',
+        ':motorized_wheelchair:',
+        ':person:'
+    ],
+    '👨{{skin_tone}}‍🦽': [
+        'Miehen käsikäyttöinen pyörätuoli',
+        ':man_manual_wheelchair:',
+        ':manual_wheelchair:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🦽': [
+        'Nainen käsikirjassa pyörätuoli',
+        ':woman_manual_wheelchair:',
+        ':manual_wheelchair:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🦽': [
+        'Henkilö, käsikäyttöinen pyörätuoli',
+        ':person_manual_wheelchair:',
+        ':manual_wheelchair:',
+        ':person:'
+    ],
+    '👯‍♂️': [
+        'Miehet, joilla on pupu korva',
+        ':men_with_bunny_hears:',
+        ':bunny_ears:',
+        ':man:'
+    ],
+    '👯‍♀️': [
+        'Naiset Bunny Ears',
+        ':women_with_bunny_hears:',
+        ':bunny_ears:',
+        ':woman:'
+    ],
+    '👯': [
+        'Henkilöt, joilla on Bunny Ears',
+        ':people_with_bunny_hears:',
+        ':bunny_ears:',
+        ':person:'
+    ],
     '🕴️{{skin_tone}}': [
-        'Person in Suit Levitating',
-        'Hovering Man',
+        'Suvun asukas Levitating',
+        ':person_in_suit_levitating:',
+        'Ihmisten Suojaaminen',
         'Rude Boy',
         'Walt Jabsco',
-        'Man in Business Suit Levitating'
+        'Man in Business Suit Levitating',
+        ':person:'
     ],
     '🧖{{skin_tone}}‍♂️': [
         'Mies höyryssä huoneessa',
-        'Saunan mies'
+        ':man_in_steamy_room:',
+        ':steamy_room:',
+        'Saunan mies',
+        ':man:'
     ],
     '🧖{{skin_tone}}‍♀️': [
         'Nainen höyryssä huoneessa',
-        'Nainen saunassa'
+        ':woman_in_steamy_room:',
+        ':steamy_room:',
+        'Nainen saunassa',
+        ':woman:'
     ],
     '🧖{{skin_tone}}': [
-        'Person in Steamy Room',
-        'Person in Sauna'
+        'Henkilö vaimeassa huoneessa',
+        ':person_in_steamy_room:',
+        ':steamy_room:',
+        'Henkilö Saunassa',
+        ':person:'
     ],
     '👫{{skin_tone}}': [
-        'Woman and Man Holding Hands',
-        'Heterosexual Couple',
-        'Straight Couple',
-        'Man and Woman Holding Hands'
-    ],
-    '👭{{skin_tone}}': [
-        'Lesbian Couple',
-        'Women Holding Hands',
-        'Two Women Holding Hands'
+        'Nainen ja mies kädet',
+        ':woman_and_man_holding_hands:',
+        ':holding_hands:',
+        'Heteroseksuaalinen Pari',
+        'Suora Pari',
+        'Mies ja nainen Holding kädet',
+        ':woman:'
     ],
     '👬{{skin_tone}}': [
-        'Men Holding Hands',
-        'Gay Couple',
-        'Two Men Holding Hands'
+        'Miehet Pidossa Kädet',
+        ':holding_hands:',
+        ':men_holding_hands:',
+        'Gay Pari',
+        'Kaksi Miehtä Holding Kädet',
+        ':man:'
+    ],
+    '👭{{skin_tone}}': [
+        'Naiset Kädet Pidossa',
+        ':holding_hands:',
+        ':women_holding_hands:',
+        'Lesbian Pariskunta',
+        'Kaksi Naista Kädet',
+        ':woman:'
     ],
     '🧑‍🤝‍🧑': [
-        'People Holding Hands',
-        'Two People Holding Hands',
-        'Gender Inclusive Couple',
-        'Gender Neutral Couple',
-        'Gender Nonconforming Couple'
+        'Kädet Pidettävät Ihmiset',
+        ':holding_hands:',
+        ':people_holding_hands:',
+        'Kaksi Ihmiset Pitävät Kädet',
+        'Sukupuoli Inclusive Pariskunta',
+        'Sukupuoli Neutraali Pariskunta',
+        'Sukupuoli Vaatimaton Pari',
+        ':person:'
     ],
     '👨‍👩‍👦': [
         'Perhe Äitillä, Isällä ja Pojalla',
+        ':family_with_mother_father_and_son:',
         'Perhe: Mies, Nainen, Poika'
     ],
     '👨‍👩‍👧': [
         'Perhe Äidin, Isän ja Tyttären kanssa',
+        ':family_with_mother_father_and_daughter:',
         'Perhe: Mies, Nainen, Tyttö'
     ],
     '👨‍👩‍👧‍👦': [
         'Perhe Äitien, Isän, Pojan ja Tyttären kanssa',
+        ':family_with_mother_father_son_and_daughter:',
         'Perhe: Mies, Nainen, Tyttö, Poika'
     ],
     '👨‍👩‍👦‍👦': [
         'Perhe Äitien, Isän ja kahden Pojan kanssa',
+        ':family_with_mother_father_and_two_sons:',
         'Perhe: Mies, Nainen, Poja, Poika'
     ],
     '👨‍👩‍👧‍👧': [
         'Perhe Äidin, Isän ja kahden Tyttären kanssa',
+        ':family_with_mother_father_and_two_daughters:',
         'Perhe: Mies, Nainen, Tyttö, Tyttö'
     ],
     '👨‍👨‍👦': [
         'Perhe kahden Isän ja Pojan kanssa',
-        'Perhe: Mies, Mies, Poika'
+        ':family_with_two_fathers_and_son:',
+        'Perhe: Mies, Mies, Poika',
+        ':man:'
     ],
     '👨‍👨‍👧': [
         'Perhe kahden Isän ja Tyttären kanssa',
-        'Perhe: Mies, Mies, Tyttö'
+        ':family_with_two_fathers_and_daughter:',
+        'Perhe: Mies, Mies, Tyttö',
+        ':man:'
     ],
     '👨‍👨‍👧‍👦': [
         'Perhe kahden Isän, Pojan ja Tyttären kanssa',
-        'Perhe: Mies, Mies, Tyttö, Poika'
+        ':family_with_two_fathers_son_and_daughter:',
+        'Perhe: Mies, Mies, Tyttö, Poika',
+        ':man:'
     ],
     '👨‍👨‍👦‍👦': [
         'Perhe kahden Isän ja kahden Pojan kanssa',
-        'Perhe: Mies, Mies, poika, Poika'
+        ':family_with_two_fathers_and_two_sons:',
+        'Perhe: Mies, Mies, poika, Poika',
+        ':man:'
     ],
     '👨‍👨‍👧‍👧': [
         'Perhe kahden Isän ja kahden Tyttären kanssa',
-        'Perhe: Mies, Mies, Tyttö, Tyttö'
+        ':family_with_two_fathers_and_two_daughters:',
+        'Perhe: Mies, Mies, Tyttö, Tyttö',
+        ':man:'
     ],
     '👩‍👩‍👦': [
         'Perhe kaksi äitiä ja poika',
-        'Perhe: Nainen, Nainen, Poika'
+        ':family_with_two_mothers_and_son:',
+        'Perhe: Nainen, Nainen, Poika',
+        ':woman:'
     ],
     '👩‍👩‍👧': [
         'Perhe kahden äidin ja tyttären kanssa',
-        'Perhe: Nainen, Nainen, Tyttö'
+        ':family_with_two_mothers_and_daughter:',
+        'Perhe: Nainen, Nainen, Tyttö',
+        ':woman:'
     ],
     '👩‍👩‍👧‍👦': [
         'Perhe kahden äidin kanssa, poika ja tytär',
-        'Perhe: Nainen, Nainen, Tyttö, Poika'
+        ':family_with_two_mothers_son_and_daughter:',
+        'Perhe: Nainen, Nainen, Tyttö, Poika',
+        ':woman:'
     ],
     '👩‍👩‍👦‍👦': [
         'Perhe kaksi äitiä ja kaksi poikaa',
-        'Perhe: Nainen, Nainen, Poja, Poika'
+        ':family_with_two_mothers_and_two_sons:',
+        'Perhe: Nainen, Nainen, Poja, Poika',
+        ':woman:'
     ],
     '👩‍👩‍👧‍👧': [
         'Perhe kahden äidin ja kahden tyttären kanssa',
-        'Perhe: Nainen, Nainen, Tyttö, Tyttö'
+        ':family_with_two_mothers_and_two_daughters:',
+        'Perhe: Nainen, Nainen, Tyttö, Tyttö',
+        ':woman:'
     ],
     '👨‍👦': [
         'Perhe Isän ja Pojan kanssa',
-        'Perhe: Mies, Poika'
+        ':family_with_father_and_son:',
+        'Perhe: Mies, Poika',
+        ':man:'
     ],
     '👨‍👧': [
         'Perhe Isän ja tyttären kanssa',
-        'Perhe: Mies, Tyttö'
+        ':family_with_father_and_daughter:',
+        'Perhe: Mies, Tyttö',
+        ':man:'
     ],
     '👨‍👦‍👦': [
-        'Family With Father and Two Sons',
-        'Family: Man, Boy, Boy'
+        'Perhe Isän ja kahden Pojan kanssa',
+        ':family_with_father_and_two_sons:',
+        'Perhe: Mies, poika, Poika',
+        ':man:'
     ],
     '👨‍👧‍👦': [
         'Perhe Isän, Pojan ja Tyttären kanssa',
-        'Perhe: Mies, Tyttö, Poika'
+        ':family_with_father_son_and_daughter:',
+        'Perhe: Mies, Tyttö, Poika',
+        ':man:'
     ],
     '👨‍👧‍👧': [
         'Perhe Isän ja kahden Tyttären kanssa',
-        'Perhe: Mies, Tyttö, Tyttö'
+        ':family_with_father_and_two_daughters:',
+        'Perhe: Mies, Tyttö, Tyttö',
+        ':man:'
     ],
     '👩‍👦': [
         'Perhe Äidin ja Pojan kanssa',
-        'Perhe: Nainen, Poika'
+        ':family_with_mother_and_son:',
+        'Perhe: Nainen, Poika',
+        ':woman:'
     ],
     '👩‍👧': [
         'Perhe Äiti ja tytär',
-        'Perhe: Nainen, Tyttö'
+        ':family_with_mother_and_daughter:',
+        'Perhe: Nainen, Tyttö',
+        ':woman:'
     ],
     '👩‍👦‍👦': [
         'Perhe Äiti ja kaksi poikaa',
-        'Perhe: Nainen, Poja, Poika'
+        ':family_with_mother_and_two_sons:',
+        'Perhe: Nainen, Poja, Poika',
+        ':woman:'
     ],
     '👩‍👧‍👦': [
         'Perhe Äidin, Pojan ja Tyttären kanssa',
-        'Perhe: Nainen, Tyttö, Poika'
+        ':family_with_mother_son_and_daughter:',
+        'Perhe: Nainen, Tyttö, Poika',
+        ':woman:'
     ],
     '👩‍👧‍👧': [
         'Perhe Äiti ja kaksi tytärtä',
-        'Perhe: Nainen, Tyttö, Tyttö'
+        ':family_with_mother_and_two_daughters:',
+        'Perhe: Nainen, Tyttö, Tyttö',
+        ':woman:'
     ],
     '💑{{skin_tone}}': [
-        'Couple with Heart',
-        'Couple In Love',
-        'Loving Couple',
-        'Gender Neutral Couple'
+        'Pariskunta Sydämessä',
+        ':couple_with_heart:',
+        'Pari Rakkaudessa',
+        'Rakastava Pariskunta',
+        'Sukupuoli Neutraali Pariskunta',
+        ':person:'
     ],
     '👩‍❤️‍👨': [
-        'Man and Woman With Heart',
-        'Couple In Love',
-        'Loving Couple',
-        'Couple With Heart'
+        'Ihminen ja nainen sydämen kanssa',
+        ':man_and_woman_with_heart:',
+        'Pari Rakkaudessa',
+        'Rakastava Pariskunta',
+        'Pariskunta Sydämessä'
     ],
     '👨‍❤️‍👨': [
         'Kaksi Miehtä Sydämellä',
-        'Pariskunta sydämen kanssa: mies, mies'
+        ':two_men_with_heart:',
+        'Pariskunta sydämen kanssa: mies, mies',
+        ':man:'
     ],
     '👩‍❤️‍👩': [
         'Kaksi Naiset Sydämessä',
-        'Pari sydämen kanssa: Nainen, Nainen'
+        ':two_women_with_heart:',
+        'Pari sydämen kanssa: Nainen, Nainen',
+        ':woman:'
     ],
     '💏{{skin_tone}}': [
-        'Couple Kissing',
-        'Kiss',
-        'Gender Neutral Couple Kissing'
+        'Pariskunta Suudella',
+        ':couple_kissing:',
+        'Suudelma',
+        'Sukupuoli Neutraali Pariskunta Kissing',
+        ':person:'
     ],
-    '👩‍❤️‍💋‍👨': ['Man and Woman Kissing'],
+    '👩‍❤️‍💋‍👨': [
+        'Mies ja nainen Kissing',
+        ':man_and_woman_kissing:'
+    ],
     '👨‍❤️‍💋‍👨': [
-        'Two Men Kissing',
-        'Man and Man Kissing'
+        'Kaksi Miehen Kissing',
+        ':two_men_kissing:',
+        'Mies ja Man Kissing',
+        ':man:'
     ],
     '👩‍❤️‍💋‍👩': [
-        'Two Women Kissing',
-        'Woman and Woman Kissing'
+        'Kaksi Naista Kissing',
+        ':two_women_kissing:',
+        'Nainen ja nainen Kissing',
+        ':woman:'
     ],
-    '💆{{skin_tone}}‍♂️': ['Man Getting Head Massage'],
-    '💆{{skin_tone}}‍♀️': ['Nainen Päähieronta'],
-    '💆{{skin_tone}}': ['Person Getting Head Massage'],
-    '💇{{skin_tone}}‍♂️': ['Man Getting Haircut'],
-    '💇{{skin_tone}}‍♀️': ['Woman Getting Haircut'],
-    '💇{{skin_tone}}': ['Person Getting Haircut'],
+    '💆{{skin_tone}}‍♂️': [
+        'Miehen Pään Hieronta',
+        ':man_getting_head_massage:',
+        ':getting_head_massage:',
+        ':man:'
+    ],
+    '💆{{skin_tone}}‍♀️': [
+        'Nainen Päähieronta',
+        ':woman_getting_head_massage:',
+        ':getting_head_massage:',
+        ':woman:'
+    ],
+    '💆{{skin_tone}}': [
+        'Henkilö Päähieron Saaminen',
+        ':person_getting_head_massage:',
+        ':getting_head_massage:',
+        ':person:'
+    ],
+    '💇{{skin_tone}}‍♂️': [
+        'Mies Hiusleikkuu',
+        ':man_getting_haircut:',
+        ':getting_haircut:',
+        ':man:'
+    ],
+    '💇{{skin_tone}}‍♀️': [
+        'Nainen Saada Hiusleikkauksia',
+        ':woman_getting_haircut:',
+        ':getting_haircut:',
+        ':woman:'
+    ],
+    '💇{{skin_tone}}': [
+        'Henkilö Hiustenleikkuun Saaminen',
+        ':person_getting_haircut:',
+        ':getting_haircut:',
+        ':person:'
+    ],
     '🛌{{skin_tone}}': [
-        'Sleeping Accommodation',
-        'Person in Bed',
-        'Person Sleeping'
+        'Nukkuva Majoitus',
+        ':sleeping_accommodation:',
+        'Henkilö sängyssä',
+        'Henkilö Nukkuminen'
     ],
-    '🧌': ['Troll'],
+    '🧌': [
+        'Troll',
+        ':troll:'
+    ],
     '👺': [
         'Goblin',
-        'Long Nose Face',
-        'Red Mask',
+        ':goblin:',
+        'Pitkä Nenäkasvot',
+        'Punainen Maski',
         'Tengu',
-        'Japanese Goblin'
+        'Japanilainen Goblin'
     ]
 };
 /*animals*/
 emojis_language[lang][4] = {
     '😺': [
         'Grinning Kissa',
-        ':)',
+        ':happy_cat:',
+        ':smiling_cat:',
+        '::):',
         'Onnellinen Kissa',
         'Hymyilevä Kissa',
         'Onnellinen Kissa Kasvot',
@@ -1435,39 +2460,45 @@ emojis_language[lang][4] = {
     ],
     '😸': [
         'Grinning kissa kanssa hymyilevät silmät',
-        ':D',
+        ':grinning_cat:',
+        '::D:',
         'Grinning Kissa',
         'Onnellinen Kissa',
         'Grinning Kissa Kasvot'
     ],
     '😹': [
         'Kissa kanssa Tears of Joy',
-        ':\')',
+        ':laughing_cat:',
+        '::):',
         'Onnellinen Kissa',
         'Nauraa Kissa'
     ],
     '😻': [
         'Hymyilevä kissa sydämen silmin',
-        '*.*',
+        ':heart_eyes_cat:',
+        ':*.*:',
         'Sydän Silmät Kissa',
         'Rakastava Kissa',
         'Hymyilevä kissa kasvot sydämen muotoiset silmät'
     ],
     '😼': [
         'Kissa jossa Wry Smile',
+        ':cat_with_wry_smile:',
         'Smirking Kissa',
         'Kissan Kasvot',
         'Cat Face with Wry Smile'
     ],
     '😽': [
         'Suudella Kissa',
-        ':*',
+        ':kissing_cat:',
+        '::*:',
         'Kissing Cat Face',
         'Kissing Cat kasvot suljettujen silmien kanssa'
     ],
     '🙀': [
         'Weary Kissa',
-        ':O',
+        ':weary_cat:',
+        '::O:',
         'Häikäisevä Kissa',
         'Kissa Huutaa',
         'Kissan kasvojen huumaaminen pelossa',
@@ -1475,61 +2506,84 @@ emojis_language[lang][4] = {
     ],
     '😿': [
         'Kissa Yritetään',
-        ':\'(',
+        ':crying_cat:',
+        '::(:',
         'Surullinen Kissa',
         'Crying Kissa Kasvot'
     ],
     '😾': [
         'Kiinnitetään Kissa',
+        ':pouting_cat:',
         'Grumpy Cat',
         'Kiinnityskissan Kasvot'
     ],
     '🙈': [
-        'Apina',
         'Katso Ei-Evil Apina',
+        'Apina',
+        ':see-no-evil_mokey:',
+        ':see_no_evil_mokey:',
+        ':monkey:',
         'Mizaru',
         'Monkey Covering Silmät'
     ],
     '🙉': [
-        'Apina',
         'Hear-No-Evil Apina',
+        'Apina',
+        ':hear-no-evil_monkey:',
+        ':hear_no_evil_monkey:',
+        ':monkey:',
         'Kikazaru',
         'Apina Kattavat Korvat'
     ],
     '🙊': [
-        'Apina',
         'Puhu Ei Evil Apina',
+        'Apina',
+        ':speak-no-evil_monkey:',
+        ':speak_no_evil_monkey:',
+        ':monkey:',
         'Iwazaru',
         'Monkey Covering Mouth',
         'Ei Puhumista'
     ],
     '🐵': [
-        'Apina',
         'Apina Kasvot',
+        ':monkey_face:',
+        'Apina',
         'Apina Päähaara'
     ],
     '🐒': [
         'Apina',
+        ':monkey:',
         'Cheeky Apina'
     ],
-    '🦍': ['Gorilla'],
+    '🦍': [
+        'Gorilla',
+        ':gorilla:'
+    ],
     '🐶': [
         'Koiran Kasvot',
+        ':dog_face:',
         'Koira',
         'Pennu'
     ],
     '🐕': [
         'Koira',
+        ':dog:',
         'Doggo',
         'Akita Inu'
     ],
     '🦮': [
         'Silmien Koiran Seeing',
+        ':seeing_eye_dog:',
         'Opas Koira'
     ],
-    '🐕‍🦺': ['Palvelun Koira'],
+    '🐕‍🦺': [
+        'Palvelun Koira',
+        ':service_dog:'
+    ],
     '🐩': [
         'Poodle',
+        ':poodle:',
         'Koira',
         'Miniatyyri Poodle',
         'Vakio Poodle',
@@ -1537,73 +2591,100 @@ emojis_language[lang][4] = {
     ],
     '🐺': [
         'Susi',
-        'Susien Kasvot'
+        ':wolf:',
+        'Susien Kasvot',
+        ':gray:',
+        ':grey:'
     ],
     '🦊': [
         'Kettu',
-        'Kettu Kasvot'
+        ':fox:',
+        'Kettu Kasvot',
+        ':orange:'
     ],
-    '🦝': ['Rokotus'],
+    '🦝': [
+        'Rokotus',
+        ':raccoon:'
+    ],
     '🐱': [
         'Kissa Kasvot',
+        ':cat_face:',
         ':3',
         'Kitten',
         'Kitty'
     ],
     '🐈': [
         'Kissa',
+        ':cat:',
         'Kissa Kotimaa',
         'Kenttä',
         'Talo'
     ],
-    '🐈‍⬛': ['Musta Kissa'],
+    '🐈‍⬛': [
+        'Musta Kissa',
+        ':black_cat:',
+        ':black:'
+    ],
     '🦁': [
         'Leijona',
+        ':lion:',
         'Lion Face'
     ],
     '🐯': [
         'Tiikerin Kasvot',
+        ':tiger_face:',
         'Söpö Tiikeri'
     ],
     '🐅': [
         'Tiikeri',
+        ':tiger:',
         'Bengal Tiger'
     ],
     '🐆': [
         'Leopard',
+        ':leopard:',
         'Afrikan Leopardi',
         'Jaguar'
     ],
     '🐴': [
         'Hevosen Kasvot',
+        ':horse_face:',
         'Hevosen Pää'
     ],
     '🐎': [
         'Hevonen',
+        ':horse:',
         'Soiva Hevonen',
         'Racehorse'
     ],
     '🦄': [
         'Yksisarvinen',
+        ':unicorn:',
         'Yksisarvinen Kasvot'
     ],
     '🦓': [
         'Zebra',
-        'Zebra Kasvot'
+        ':zebra:',
+        'Zebra Kasvot',
+        ':white:',
+        ':black:'
     ],
     '🦌': [
         'Peura',
+        ':deer:',
         'Buck',
         'Poro',
         'Stag'
     ],
     '🐮': [
         'Lehmän Kasvot',
+        ':cow_face:',
         'Lehmä',
         'Onnellinen Lehmä'
     ],
     '🐂': [
         'Härkä',
+        ':ox:',
         'Bull',
         'Bullock',
         'Hapen',
@@ -1611,296 +2692,488 @@ emojis_language[lang][4] = {
     ],
     '🐃': [
         'Vesi Buffalo',
+        ':water_buffalo:',
         'Buffalo',
         'Kotimaan Vesi Buffalo'
     ],
     '🐄': [
         'Lehmä',
+        ':cow:',
         'Maidon Lehmä'
     ],
     '🐷': [
         'Sian Kasvot',
+        ':pig_fase:',
         'Sika',
-        'Sian Pää'
+        'Sian Pää',
+        ':pink:'
     ],
     '🐖': [
         'Sika',
+        ':pig:',
         'Hog',
-        'Sow'
+        'Sow',
+        ':pink:'
     ],
     '🐗': [
         'Karju',
+        ':boar:',
         'Warthog',
         'Villi Boar',
         'Luonnonvarainen Sika'
     ],
-    '🐽': ['Sika Nose'],
+    '🐽': [
+        'Sika Nose',
+        ':pig_nose:'
+    ],
     '🐏': [
         'Ram',
+        ':ram:',
         'Lammas'
     ],
     '🐑': [
         'Ewe',
+        ':ewe:',
         'Lamb',
         'Lammas'
     ],
-    '🐐': ['Vuohi'],
+    '🐐': [
+        'Vuohi',
+        ':goat:'
+    ],
     '🐪': [
         'Kameli',
+        ':camel:',
         'Arabian Kameli',
         'Dromedary Camel',
         'Yhden Bump Camel'
     ],
     '🐫': [
         'KaksiHump Camel',
+        ':two-hump_camel:',
+        ':two_hump_camel:',
         'Aasian Kameli',
         'Bactrian Camel'
     ],
     '🦙': [
         'Llama',
+        ':llama:',
         'Alpaca'
     ],
     '🦒': [
         'Giraffe',
+        ':giraffe:',
         'Giraffe Face'
     ],
-    '🐘': ['Norsu'],
+    '🐘': [
+        'Norsu',
+        ':elephant:'
+    ],
     '🦏': [
         'Rhinoceros',
+        ':rhinoceros:',
         'Rhino'
     ],
     '🦛': [
         'Hippopotamus',
+        ':hippopotamus:',
         'Hippo'
     ],
     '🐭': [
         'Hiiren Kasvot',
+        ':mouse_face:',
         'Hiiri'
     ],
     '🐁': [
         'Hiiri',
+        ':mouse:',
         'Dormouse',
         'Jyrkkä',
         'Hiiret'
     ],
     '🐀': [
         'Arvo',
+        ':rat:',
         'Jyrkkä'
     ],
     '🐹': [
         'hamsteri',
+        ':hamster:',
         'hamsterin Kasvot'
     ],
     '🐰': [
         'Jäniksen Kasvot',
+        ':rabbit_face:',
         'Pääsiäispupu'
     ],
     '🐇': [
         'Kani',
         'Bunny',
+        ':rabbit:',
         'Pupu Kani'
     ],
     '🐿️': [
         'Chipmunk',
+        ':chipmunk:',
         'Orava'
     ],
-    '🦔': ['Hedgehog'],
+    '🦔': [
+        'Hedgehog',
+        ':hedgehog:'
+    ],
     '🦇': [
         'Lepakko',
-        'Batman'
+        ':bat:',
+        'Batman',
+        ':black:'
     ],
     '🐻': [
         'Karhu',
+        ':bear:',
         'Karhu Kasvot',
-        'Teddy Karhu'
+        'Teddy Karhu',
+        ':brown:'
     ],
     '🐨': [
         'Koala',
+        ':koala:',
         'Koalan Kasvot'
     ],
     '🐼': [
         'Panda',
+        ':panda:',
         'Panda Kasvot'
     ],
     '🦘': [
         'Kenguru',
+        ':kangaroo:',
         'Roo'
     ],
-    '🦡': ['Badger'],
+    '🦡': [
+        'Badger',
+        ':badger:'
+    ],
     '🦃': [
         'Turkki',
+        ':turkey:',
         'Kiitospäivä Turkki',
         'Luonnonvaraiset Turkki'
     ],
     '🐔': [
         'Kana',
+        ':chicken:',
         'Hen'
     ],
     '🐓': [
         'Cock',
+        ':cock:',
         'Rooster',
         'Piparjuuret'
     ],
     '🐣': [
         'Haetaan Chickiä',
+        ':hatching_chick:',
         'Vauva Kana',
-        'Chick Hatching'
+        'Chick Hatching',
+        ':yellow:'
     ],
     '🐤': [
         'Vauvan Chick',
-        'Keltainen Lintu'
+        ':baby_chick:',
+        'Keltainen Lintu',
+        ':yellow:'
     ],
     '🐥': [
         'Etupuoli Vauva Chick',
+        ':front_baby_chick:',
         'Vauvan Chick',
-        'Seisova Chick'
+        'Seisova Chick',
+        ':yellow:'
     ],
-    '🐦': ['Lintu'],
-    '🐧': ['Penguin'],
+    '🐦': [
+        'Lintu',
+        ':bird:'
+    ],
+    '🐧': [
+        'Penguin',
+        ':penguin:'
+    ],
     '🕊️': [
         'Dove',
-        'Rauhan kyyhky'
+        ':Dove:',
+        'Rauhan kyyhky',
+        ':white:'
     ],
     '🦅': [
         'Eagle',
+        ':Eagle:',
         'Kalju Eagle'
     ],
-    '🦆': ['Ankka'],
-    '🦢': ['Joutsen'],
-    '🦉': ['Pöllö'],
-    '🦚': ['Peacock'],
-    '🦜': ['Papukaija'],
+    '🦆': [
+        'Ankka',
+        ':Duck:'
+    ],
+    '🦢': [
+        'Joutsen',
+        ':swan:',
+        ':white:'
+    ],
+    '🦉': [
+        'Pöllö',
+        ':owl:',
+        ':brown:'
+    ],
+    '🦚': [
+        'Peacock',
+        ':peacock:'
+    ],
+    '🦜': [
+        'Papukaija',
+        ':parrot:'
+    ],
     '🐸': [
         'Sammakko',
+        ':frog:',
         'Toad',
-        'Sammakko Kasvot'
+        'Sammakko Kasvot',
+        ':green:'
     ],
     '🐊': [
         'Krokotiili',
+        ':crocodile:',
         'Alligaattori',
-        'Croc'
+        'Croc',
+        ':green:'
     ],
     '🐢': [
         'Kilpikonna',
-        'Tortoise'
+        ':turtle:',
+        'Tortoise',
+        ':green:'
     ],
     '🦎': [
         'Lzard',
-        'Gecko'
+        ':lizard:',
+        'Gecko',
+        ':green:'
     ],
     '🐍': [
         'Käärme',
+        ':snake:',
         'Käärme'
     ],
     '🐲': [
         'Lohikäärmeen Kasvot',
+        ':dragon_face:',
         'Lohikäärmeen Pää'
     ],
-    '🐉': ['Lohikäärme'],
+    '🐉': [
+        'Lohikäärme',
+        ':dragon:'
+    ],
     '🦕': [
         'Sauropodi',
+        ':sauropod:',
         'Brachiosaurus',
         'Brontosaurus',
         'Dinosaur'
     ],
     '🦖': [
         'T-Rex',
+        ':t-rex:',
+        ':t_rex:',
         'Tyrannosaurus Rex'
     ],
     '🐳': [
         'Spouting Whale',
+        ':spouting_whale:',
         'Söpö Whale'
     ],
-    '🐋': ['Valas'],
-    '🐬': ['Delfiini'],
+    '🐋': [
+        'Valas',
+        ':whale:'
+    ],
+    '🐬': [
+        'Delfiini',
+        ':dolphin:'
+    ],
     '🐟': [
         'Kala',
+        ':fish:',
         'Makean veden Kala'
     ],
     '🐠': [
         'Trooppinen Kala',
+        ':tropical_fish:',
         'Kala',
         'Keltasininen Kala'
     ],
     '🐡': [
         'Blowfish',
+        ':blowfish:',
         'Fugu',
         'Pallokala'
     ],
     '🦈': [
         'Hai',
+        ':shark:',
         'Suuri Valkoinen Hai'
     ],
-    '🐙': ['Meritursaat'],
+    '🐙': [
+        'Meritursaat',
+        ':octopus:'
+    ],
     '🐚': [
         'Spiraalinen Tulkki',
+        ':spiral_shell:',
         'Seashell',
         'Kuori'
     ],
     '🐌': [
         'Etana',
+        ':snail:',
         'Slug',
         'Puutarhan Etana'
     ],
-    '🦋': ['Perhonen'],
+    '🦋': [
+        'Perhonen',
+        ':butterfly:'
+    ],
     '🐛': [
         'Bugi',
+        ':bug:',
         'Caterpillar',
         'Hyönteinen'
     ],
     '🐜': [
         'Ant',
+        ':ant:',
         'Bugi',
         'Hyönteinen'
     ],
     '🐝': [
         'Hunajamehiläinen',
+        ':honeybee:',
         'Mehiläinen',
-        'Bumblebee'
+        'Bumblebee',
+        ':yellow:',
+        ':black:'
     ],
     '🐞': [
         'Lady Punajuuri',
+        ':lady_beetle:',
         'Ladybird',
         'Ladybug',
         'Bugi'
     ],
     '🦗': [
         'Kriketti',
+        ':cricket:',
         'Grasshopper'
     ],
-    '🕷️': ['Hämähäkki'],
-    '🦂': ['Skorpioni'],
-    '🦟': ['Mosquito'],
-    '🦀': ['Taskurapu'],
-    '🦞': ['Hummeri'],
+    '🕷️': [
+        'Hämähäkki',
+        ':spider:'
+    ],
+    '🦂': [
+        'Skorpioni',
+        ':scorpion:'
+    ],
+    '🦟': [
+        'Mosquito',
+        ':mosquito:',
+        ':black:'
+    ],
+    '🦀': [
+        'Taskurapu',
+        ':crab:',
+        ':red:'
+    ],
+    '🦞': [
+        'Hummeri',
+        ':lobster:'
+    ],
     '🦐': [
         'Katkarapu',
+        ':shrimp:',
         'Prawn'
     ],
-    '🦑': ['Kalmari'],
-    '🦧': ['Orangutan'],
-    '🦥': ['Hidas'],
-    '🦦': ['Otter'],
-    '🦨': ['Iho'],
-    '🦬': ['Bison'],
-    '🦣': ['Mammutti'],
-    '🦫': ['Majakka'],
-    '🐻‍❄️': ['Polar Karhu'],
-    '🦤': ['Dodo'],
-    '🦭': ['Sinetti'],
-    '🪲': ['Kuoriainen'],
-    '🪳': ['Cockroach'],
-    '🪰': ['Lento'],
-    '🪱': ['Mato'],
-    '🦩': ['Flamingo'],
+    '🦑': [
+        'Kalmari',
+        ':squid:'
+    ],
+    '🦧': [
+        'Orangutan',
+        ':orangutan:'
+    ],
+    '🦥': [
+        'Hidas',
+        ':sloth:'
+    ],
+    '🦦': [
+        'Otter',
+        ':otter:'
+    ],
+    '🦨': [
+        'Iho',
+        ':skunk:'
+    ],
+    '🦬': [
+        'Bison',
+        ':bison:'
+    ],
+    '🦣': [
+        'Mammutti',
+        ':mammoth:',
+        ':brown:'
+    ],
+    '🦫': [
+        'Majakka',
+        ':beaver:'
+    ],
+    '🐻‍❄️': [
+        'Polar Karhu',
+        ':polar_bear:',
+        ':white:'
+    ],
+    '🦤': [
+        'Dodo',
+        ':dodo:'
+    ],
+    '🦭': [
+        'Sinetti',
+        ':seal:'
+    ],
+    '🪲': [
+        'Kuoriainen',
+        ':beetle:'
+    ],
+    '🪳': [
+        'Cockroach',
+        ':cockroach:'
+    ],
+    '🪰': [
+        'Lento',
+        ':fly:'
+    ],
+    '🪱': [
+        'Mato',
+        ':worm:'
+    ],
+    '🦩': [
+        'Flamingo',
+        ':flamingo:'
+    ],
     '🪹': [
-        'Empty Nest',
-        'Birds',
+        'Tyhjä Pesä',
+        ':empty_nest:',
+        'Linnut',
         'Koti'
     ],
     '🪺': [
-        'Nest with Eggs',
-        'Birds',
+        'Pesä munilla',
+        ':nest_with_eggs:',
+        'Linnut',
         'Koti'
     ]
 };
@@ -1908,99 +3181,140 @@ emojis_language[lang][4] = {
 emojis_language[lang][5] = {
     '💘': [
         'Sydämen kanssa nuoli',
+        ':heart_with_arrow:',
         'Nuoli Cupid',
-        'Lovestruck'
+        'Lovestruck',
+        ':pink:'
     ],
     '💝': [
         'Sydän nauhan kanssa',
+        ':heart_with_ribbon:',
         'Suklaa Laatikko',
         'Lahja Laatikko',
-        'Lahjan Sydän'
+        'Lahjan Sydän',
+        ':red:'
     ],
     '💖': [
         'Sparkling Heart',
+        ':sparkling_heart:',
         'Sparkle Sydän',
         'Sparkly Sydän',
-        'Tähdet Sydän'
+        'Tähdet Sydän',
+        ':pink:'
     ],
     '💗': [
         'Kasvava Sydän',
+        ':growing_heart:',
         'Useita Sydämiä',
-        'Kolmen Sydän'
+        'Kolmen Sydän',
+        ':pink:'
     ],
     '💓': [
         'Syö Sydän',
+        ':beating_heart:',
         'Sydän Hälytys',
         'Heartbeat',
-        'Wifi Sydän'
+        'Wifi Sydän',
+        ':pink:'
     ],
     '💞': [
         'Kehittyvät Sydämet',
-        'Kaksi Sydäntä'
+        ':revolving_hearts:',
+        'Kaksi Sydäntä',
+        ':pink:'
     ],
     '💕': [
         'Kaksi Sydäntä',
+        ':two_hearts:',
         'Pienet Sydämet',
-        'Kaksi Vaaleanpunaista Sydäntä'
+        'Kaksi Vaaleanpunaista Sydäntä',
+        ':pink:'
     ],
-    '💟': ['Sydän Koristelu'],
+    '💟': [
+        'Sydän Koristelu',
+        ':heart_decoration:',
+        ':purple:'
+    ],
     '❣️': [
         'Sydän Exklamaatio',
+        ':heart_exclamation:',
         'Sydän Yläpuolella Pisteet',
         'Punainen sydän kuin Exclamation Mark',
-        'Raskas Sydän Exclamation Mark Koriste'
+        'Raskas Sydän Exclamation Mark Koriste',
+        ':red:'
     ],
     '💔': [
         'Rikkinäinen Sydän',
+        ':broken_heart:',
         'Sydämen Murtuminen',
         'Rikkinäinen',
-        'Sydän Rikkinäinen'
+        'Sydän Rikkinäinen',
+        ':red:'
     ],
     '❤️': [
         'Rakastan Sinua',
+        ':red_heart:',
         'Punainen Sydän',
         'Sydän',
         'Rakasta Sydäntä',
-        'Punainen Sydän'
+        'Punainen Sydän',
+        ':red:'
     ],
     '🧡': [
         'Oranssi Sydän',
-        'Rakastan Sinua'
+        ':orange_heart:',
+        'Rakastan Sinua',
+        ':orange:'
     ],
     '💛': [
         'Keltainen Sydän',
+        ':yellow_heart:',
         '#1 BF Snapchat',
         'Kultainen Sydän',
-        'Rakastan Sinua'
+        'Rakastan Sinua',
+        ':yellow:'
     ],
     '💚': [
         'Vihreä Sydän',
+        ':green_heart:',
         'Mustasukkainen Sydän',
-        'Rakastan Sinua'
+        'Rakastan Sinua',
+        ':green:'
     ],
     '💙': [
         'Sininen Sydän',
-        'Rakastan Sinua'
+        ':blue_heart:',
+        'Rakastan Sinua',
+        ':blue:'
     ],
     '💜': [
         'Violetti Sydän',
-        'Rakastan Sinua'
+        ':purple_heart:',
+        'Rakastan Sinua',
+        ':purple:'
     ],
     '🖤': [
         'Musta Sydän',
+        ':black_heart:',
         'Tumma Sydän',
-        'Rakastan Sinua'
+        'Rakastan Sinua',
+        ':black:'
     ],
     '🤍': [
         'Valkoinen Sydän',
-        'Rakastan Sinua'
+        ':white_heart:',
+        'Rakastan Sinua',
+        ':white:'
     ],
     '🤎': [
         'Ruskea Sydän',
-        'Rakastan Sinua'
+        ':brown_heart:',
+        'Rakastan Sinua',
+        ':brown:'
     ],
     '💯': [
         'Saavutetut Pisteet',
+        ':hundred_points:',
         '100',
         '%',
         'Pidä 100',
@@ -2009,16 +3323,21 @@ emojis_language[lang][5] = {
     ],
     '💬': [
         'Puheen Ilmapallo',
+        ':speech_balloon:',
         'Keskustelun Kupla',
-        'Puheen Kupla'
+        'Puheen Kupla',
+        ':white:'
     ],
     '💭': [
         'Ajatus Ilmapallo',
+        ':thought_balloon:',
         'Ajatteleva Kupla',
-        'Ajatteli Kupla'
+        'Ajatteli Kupla',
+        ':white:'
     ],
     '💤': [
         'Zzz',
+        ':zzz:',
         'Nukkumaanmenoaika',
         'Kyllästys',
         'Lepotila',
@@ -2026,45 +3345,54 @@ emojis_language[lang][5] = {
         'Nukkuva Symboli'
     ],
     '♠': [
-        'Spade Suit',
+        'Spade Puku',
+        ':spade_suit:',
         'Spades',
         'Black Spade Suit'
     ],
     '♥': [
-        'Heart Suit',
-        'Card With Heart',
-        'Hearts',
-        'Black Heart Suit'
+        'Sydän Puku',
+        ':heart_suit:',
+        'Kortti Sydämessä',
+        'Sydän',
+        'Musta Sydän Puku'
     ],
     '♦': [
-        'Diamond Suit',
-        'Diamonds',
-        'Black Diamond Suit'
+        'Timantti Puku',
+        ':diamond_suit:',
+        'Timantit',
+        'Musta Timantti Puku'
     ],
     '♣': [
-        'Club Suit',
-        'Clubs',
-        'Black Club Suit'
+        'Klubin Puku',
+        ':club_suit:',
+        'Klubit',
+        'Musta Klubi Puku'
     ],
     '🏧': [
         'ATM Allekirjoitus',
+        ':atm_sign:',
         'ATM',
-        'Automatisoitu Telleer Machine'
+        'Automatisoitu Telleer Machine',
+        ':blue:'
     ],
     '🎧': [
-        'Headphone',
-        'Earphone',
+        'Kuuloke',
+        ':headphone:',
+        'Kuuloke',
         'iPod',
-        'Headphones'
+        'Kuulokkeet'
     ],
     '🎵': [
         'Musiikillinen Muistiinpano',
+        ':musical_note:',
         'Kahdeksannen Huomautuksen Parametrit',
         'Kavioparit (Beamed Parit)',
         'Musiikin Muistiinpano'
     ],
     '🎶': [
         'Musikaaliset Muistilaput',
+        ':musical_notes:',
         'Musiikki',
         'Musiikin Muistiinpanot',
         'Laulaminen',
@@ -2072,476 +3400,705 @@ emojis_language[lang][5] = {
     ],
     '🔔': [
         'Äänimerkki',
+        ':bell:',
         'Liberty Bell',
         'Ringer',
-        'Hääkello'
+        'Hääkello',
+        ':yellow:'
     ],
     '🔕': [
         'Kello ja Slash',
+        ':bell_with_slash:',
         'Ilmoitukset',
         'Soittoääni: Ei Käytössä',
         'Mykistetty Kello',
-        'Kello peruutus Stroke'
+        'Kello peruutus Stroke',
+        ':yellow:'
     ],
     '🔈': [
         'Kaiutin Matala Äänenvoimakkuus',
+        ':speaker_low_volum:',
         'Tilavuus',
         'Kaiutin'
     ],
     '🔉': [
         'Kaiutin Keskipitkä Äänenvoimakkuus',
+        ':speaker_medium_volume:',
         'Vähennä Äänenvoimakkuutta',
         'Kaiutin Keskipitkällä Äänenvoimakkuudella',
         'One Sound Wave kaiutin'
     ],
     '🔊': [
         'Kaiutin Korkea Äänenvoimakkuus',
+        ':speaker_high_volume:',
         'Lisää Äänenvoimakkuutta',
         'Kolme ääniaaltoa sisältävä kaiutin'
     ],
     '🔇': [
         'Mykistetty Kaiutin',
+        ':muted_speaker:',
         'Mykistä Äänenvoimakkuus',
         'Kaiutin peruutus Stroke'
     ],
     '📢': [
         'Loudspeaker',
-        'Announcement',
-        'PA System',
-        'Public Address Loudspeaker',
-        ''
+        ':loudspeaker:',
+        'Ilmoitus',
+        'PA Järjestelmä',
+        'Julkinen Osoite Loudkaiutin'
     ],
-    '⛔': ['Ei Merkintää'],
+    '⛔': [
+        'Ei Merkintää',
+        ':no_entry:',
+        ':red:'
+    ],
     '🚫': [
         'Kielletty',
+        ':prohibited:',
         'Estetty',
         'Ympyrän Takaisinviiva',
         'Ei',
         'Punainen Ympyrä Ristikko',
         'Rajoitettu',
-        'Ei Merkintöä'
+        'Ei Merkintöä',
+        ':red:'
     ],
     '🚳': [
         'Ei Polkupyöriä',
-        'Ei Polkupyörien Allekirjoitusta'
+        ':no_bicycles:',
+        'Ei Polkupyörien Allekirjoitusta',
+        ':red:',
+        ':black:'
     ],
     '🚭': [
         'Ei Tupakointia',
-        'Ei Tupakointitunnusta'
+        ':no_smoking:',
+        'Ei Tupakointitunnusta',
+        ':red:',
+        ':black:'
     ],
     '🚯': [
         'Ei Littering',
-        'Älä Älä Litter Symboli'
+        ':no_littering:',
+        'Älä Älä Litter Symboli',
+        ':red:',
+        ':black:'
     ],
     '🚱': [
         'Ei-Juotollinen Vesi',
+        ':non-potable_water:',
+        ':non_potable_water:',
         'Ei Vettä',
         'Ei Juomavettä',
-        'Ei-Potable Water Symboli'
+        'Ei-Potable Water Symboli',
+        ':red:',
+        ':black:'
     ],
     '🚷': [
         'Ei Jalankulkijoita',
+        ':no_pedestrians:',
         'Ei Ihmisiä',
-        'Ei Kävely'
+        'Ei Kävely',
+        ':red:',
+        ':black:'
     ],
     '🔞': [
         'Ei Alle kahdeksantoista',
+        ':no_one_under_18:',
         'NSFW',
         'Ei Yhtään Alle kahdeksantoista Symboli',
-        '18'
+        '18',
+        ':red:',
+        ':black:'
     ],
     '📵': [
         'Ei Matkapuhelimia',
+        ':no_mobile_phones:',
         'Ei Solupuhelimia',
         'Ei Puhelimia',
-        'Ei Älypuhelimia'
+        'Ei Älypuhelimia',
+        ':red:',
+        ':black:'
     ],
     '☢️': [
         'Radioactive',
+        ':radioactive:',
         'Kansainvälinen Säteilymboli',
         'Ydinvoima',
-        'Radioaktiivinen Kyltti'
+        'Radioaktiivinen Kyltti',
+        ':orange:'
     ],
     '☣️': [
         'Biovaara',
-        'Biovaaran Merkki'
+        ':biohazard:',
+        'Biovaaran Merkki',
+        ':orange:'
     ],
     '⬆️': [
-        'Nuoli Ylös',
+        'Nuolinäppäin Ylöspäin',
+        ':up_arrow_button:',
         'Nuoli Pisteytys Ylös',
-        'Musta Nuoli Ylöspäin'
+        'Musta Nuoli Ylöspäin',
+        ':blue:'
     ],
     '↗️': [
-        'Nuoli Ylösoikealle',
+        'Nuolinäppäin Oikealle',
+        ':up-right_arrow_button:',
+        ':up_right_arrow_button:',
         'Vino Oikealle Ylöspäin',
-        'Kaakkoinen Nuoli'
+        'Kaakkoinen Nuoli',
+        ':blue:'
     ],
     '➡️': [
-        'Nuoli Oikealle',
+        'Nuolinäppäin Oikealle',
+        ':right_arrow_button:',
         'Nuoli Osoittaa Oikealle',
-        'Musta Oikeakulmainen Nuoli'
+        'Musta Oikeakulmainen Nuoli',
+        ':blue:'
     ],
     '↘️': [
-        'Alaoikea Nuoli',
+        'Alaoikealla Nuolinäppäin',
+        ':down-right_arrow_button:',
+        ':down_right_arrow_button:',
         'Vino Alas Oikea Nuoli',
-        'Kaakkoinen Nuoli'
+        'Kaakkoinen Nuoli',
+        ':blue:'
     ],
     '⬇️': [
-        'Nuoli Alas',
+        'Nuolinäppäin Alas',
+        ':down_arrow_button:',
         'Nuoli Pisteytys Alas',
-        'Musta Nuoli Alaspäin'
+        'Musta Nuoli Alaspäin',
+        ':blue:'
     ],
     '↙️': [
-        'Alas Vasemmalla Nuoli',
+        'Alas Vasen Nuolinäppäin',
+        ':down-left_arrow_button:',
+        ':down_left_arrow_button:',
         'Vino Alas Vasen Nuoli',
-        'Lounainen Nuoli'
+        'Lounainen Nuoli',
+        ':blue:'
     ],
     '⬅️': [
-        'Nuoli Vasemmalle',
+        'Nuolinäppäin Vasemmalle',
+        ':left_arrow_button:',
         'Nuoli Osoittaa Vasemmalle',
-        'Vasen Musta Nuoli'
+        'Vasen Musta Nuoli',
+        ':blue:'
     ],
     '↖️': [
-        'Nuoli Ylösvasemmalle',
+        'Ylösvasen Nuolinäppäin',
+        ':up-left_arrow_button:',
+        ':up_left_arrow_button:',
         'Vino Ylösvasen Nuoli',
-        'Lounainen Nuoli'
+        'Lounainen Nuoli',
+        ':blue:'
     ],
     '↕️': [
-        'Nuoli Ylöspäin',
+        'Nuolinäppäin Ylöspäin',
+        ':up-down_arrow_button:',
+        ':up_down_arrow_button:',
         'Pystysuorat Nuolet',
-        'Nuoli Ylös Alas'
+        'Nuoli Ylös Alas',
+        ':blue:'
     ],
     '↔️': [
-        'Nuoli Vasemmalle Oikealle',
+        'Nuolinäppäin Vasen Oikealle',
+        ':left-right_arrow_button:',
+        ':left_right_arrow_button:',
         'Vaakasuorat Nuolet',
         'Sivutiet Nuolet',
-        'Nuoli Vasemmalle Oikealle'
+        'Nuoli Vasemmalle Oikealle',
+        ':blue:'
     ],
     '↩️': [
-        'Nuoli Oikealle Kaareva Vasemmalle',
+        'Oikea Nuoli Kaareva Vasen Painike',
+        ':right_arrow_curving_left_button:',
         'Lähetä Vastaus',
         'Vasen Kaareva Nuoli',
-        'Vasen nuoli koukulla'
+        'Vasen nuoli koukulla',
+        ':blue:'
     ],
     '↪️': [
-        'Nuoli Kaareu Oikealle',
+        'Nuolinäppäin Kaaree Oikealle',
+        ':left_arrow_curving_right_button:',
         'Sähköposti Eteenpäin',
         'Oikea Kaareva Nuoli',
-        'Nuoli oikealla koukulla'
+        'Nuoli oikealla koukulla',
+        ':blue:'
     ],
     '⤴️': [
-        'Nuoli Oikealle Kaareva',
-        'Nuoli Osoittaa Oikealle Sitten Kaareva Ylöspäin'
+        'Nuolinäppäin Kaaree Ylös',
+        ':right_arrow_curving_up_button:',
+        'Nuoli Osoittaa Oikealle Sitten Kaareva Ylöspäin',
+        ':blue:'
     ],
     '⤵️': [
-        'Oikea Nuoli Kaareva Alas',
+        'Oikea Nuoli Kaareva Alas Painike',
+        ':right_arrow_curving_down_button:',
         'Kaareva Nuoli',
-        'Nuoli Osoittaa Oikealle Sitten Kaareva Alaspäin'
+        'Nuoli Osoittaa Oikealle Sitten Kaareva Alaspäin',
+        ':blue:'
     ],
     '🔃': [
-        'Pystysuunnassa Olevat Nuolet',
-        'Myötäpäivään alaspäin ja ylöspäin avoimet nuolet'
+        'Pystysuora Nuolinäppäin Clockwise',
+        ':clockwise_vertical_button:',
+        'Myötäpäivään alaspäin ja ylöspäin avoimet nuolet',
+        ':blue:'
     ],
     '🔄': [
         'Vastapäivään Nuolinäppäin',
+        ':counterclockwise_button:',
         'Päivitä',
         'Kierrä',
         'Vaihda',
         'Vastapäivään Nuolet',
-        'Anticlockwise alaspäin ja ylöspäin avoimet nuolet'
+        'Anticlockwise alaspäin ja ylöspäin avoimet nuolet',
+        ':blue:'
     ],
     '🔙': [
         'Nuoli Takaisin',
+        ':back_arrow:',
         'Takaisin',
-        'Takaisin vasemmalla nuoli yläpuolella'
+        'Takaisin vasemmalla nuoli yläpuolella',
+        ':black:'
     ],
     '🔚': [
         'Nuoli Lopussa',
+        ':end_arrow:',
         'Loppu',
-        'Lopeta vasemmalla nuoli yläpuolella'
+        'Lopeta vasemmalla nuoli yläpuolella',
+        ':black:'
     ],
     '🔛': [
         'Päällä! Nuoli',
+        ':on_arrow:',
         'Päällä',
-        'On kanssa Exclamation Mark vasen oikea nuoli yläpuolella'
+        'On kanssa Exclamation Mark vasen oikea nuoli yläpuolella',
+        ':black:'
     ],
     '🔜': [
         'Pian Nuoli',
+        ':soon_arrow:',
         'Pian',
-        'Pian oikealla nuoli yläpuolella'
+        'Pian oikealla nuoli yläpuolella',
+        ':black:'
     ],
     '🔝': [
         'Nuoli Yläpuolella',
+        ':top_arrow:',
         'Ylhäällä',
-        'Ylhäällä ylös nuoli yläpuolella'
+        'Ylhäällä ylös nuoli yläpuolella',
+        ':black:'
     ],
     '🛐': [
         'Palvonnan paikka',
-        'Uskonnollinen Rakentaminen'
+        ':place_of_worship:',
+        'Uskonnollinen Rakentaminen',
+        ':purple:'
     ],
-    '⚛️': ['Atomin Symboli'],
+    '⚛️': [
+        'Atomin Symboli',
+        ':atom_symbol:',
+        ':purple:'
+    ],
     '🕉️': [
         'Om Symboli',
+        ':om_symbol:',
         'Om',
         'Aumkara',
         'Omkara',
-        'Pranava'
+        'Pranava',
+        ':purple:'
     ],
     '✡️': [
         'Daavidin tähti',
-        'Magen David'
+        ':star_of_david:',
+        'Magen David',
+        ':purple:'
     ],
     '☸️': [
         'Dharman pyörä',
-        'Helmi'
+        ':wheel_of_dharma:',
+        'Helmi',
+        ':purple:'
     ],
-    '☯️': ['Yin Yang'],
+    '☯️': [
+        'Yin Yang',
+        ':yin_yang:',
+        ':purple:'
+    ],
     '✝️': [
         'Latinalainen Risti',
-        'Kristillinen Risti'
+        ':latin_cross:',
+        'Kristillinen Risti',
+        ':purple:'
     ],
-    '☦️': ['Ortodoksinen Risti'],
-    '☪️': ['Tähti ja puolikuu'],
+    '☦️': [
+        'Ortodoksinen Risti',
+        ':orthodox_cross:',
+        ':purple:'
+    ],
+    '☪️': [
+        'Tähti ja puolikuu',
+        ':star_and_crescent:',
+        ':purple:'
+    ],
     '☮️': [
         'Rauhan Symboli',
-        'Rauhan Allekirjoitus'
+        ':peace:',
+        'Rauhan Allekirjoitus',
+        ':purple:'
     ],
     '🕎': [
         'MenoraName',
+        ':menorah:',
         'Candelabrum',
         'Kynttilät',
         'Chanukia',
         'MenoraName',
-        'Menorah yhdeksän haaran kanssa'
+        'Menorah yhdeksän haaran kanssa',
+        ':purple:'
     ],
     '🔯': [
         'Pilkullinen Kuusipisteinen Tähti',
-        'Kuusi Pointed tähti keskipisteellä'
+        ':dotted_six-pointed_star:',
+        ':dotted_six_pointed_star:',
+        'Kuusi Pointed tähti keskipisteellä',
+        ':purple:'
     ],
     '♈': [
         'Oinas',
-        'Zodiaakki'
+        ':aries:',
+        ':zodiac:',
+        'Zodiaakki',
+        ':purple:'
     ],
     '♉': [
         'Taurus',
-        'Zodiaakki'
+        ':taurus:',
+        ':zodiac:',
+        'Zodiaakki',
+        ':purple:'
     ],
     '♊': [
         'Gemini',
-        'Zodiaakki'
+        ':gemini:',
+        ':zodiac:',
+        'Zodiaakki',
+        ':purple:'
     ],
     '♋': [
         'Syöpä',
-        'Zodiaakki'
+        ':cancer:',
+        ':zodiac:',
+        'Zodiaakki',
+        ':purple:'
     ],
     '♌': [
         'Leo',
-        'Zodiaakki'
+        ':leo:',
+        ':zodiac:',
+        'Zodiaakki',
+        ':purple:'
     ],
     '♍': [
         'Neitsyt',
-        'Zodiaakki'
+        ':virgo:',
+        ':zodiac:',
+        'Zodiaakki',
+        ':purple:'
     ],
     '♎': [
         'Vaakat',
-        'Zodiaakki'
+        ':libra:',
+        ':zodiac:',
+        'Zodiaakki',
+        ':purple:'
     ],
     '♏': [
         'Skorpio',
+        ':scorpio:',
+        ':zodiac:',
         'Skorpius',
-        'Zodiaakki'
+        'Zodiaakki',
+        ':purple:'
     ],
     '♐': [
         'Sagittarius',
-        'Zodiaakki'
+        ':sagittarius:',
+        ':zodiac:',
+        'Zodiaakki',
+        ':purple:'
     ],
     '♑': [
         'Kauris',
-        'Zodiaakki'
+        ':capricorn:',
+        ':zodiac:',
+        'Zodiaakki',
+        ':purple:'
     ],
     '♒': [
         'Vesimies',
-        'Zodiaakki'
+        ':aquarius:',
+        ':zodiac:',
+        'Zodiaakki',
+        ':purple:'
     ],
     '♓': [
         'Pisces',
-        'Zodiaakki'
+        ':pisces:',
+        ':zodiac:',
+        'Zodiaakki',
+        ':purple:'
     ],
     '⛎': [
         'Ophiuchus',
-        'Zodiaakki'
+        ':ophiuchus:',
+        ':zodiac:',
+        'Zodiaakki',
+        ':purple:'
     ],
     '⏭️': [
-        'Musta Oikea-pisteinen kaksoiskolmio pystysuoralla palkilla',
         'Ohita Eteenpäin -symboli',
-        'Seuraava Kappaleen Painike'
+        'Musta Oikea-pisteinen kaksoiskolmio pystysuoralla palkilla',
+        ':skip_forward_button:',
+        'Seuraava Kappaleen Painike',
+        ':blue:'
     ],
     '⏮️': [
-        'Musta vasemmanpuoleinen kaksoiskolmio ja pystysuora palkki',
         'Ohita Taaksepäin',
+        'Musta vasemmanpuoleinen kaksoiskolmio ja pystysuora palkki',
+        ':skip_backward_button:',
         'Viimeisin Kappaleen Painike',
-        'Edellinen Kappale'
+        'Edellinen Kappale',
+        ':blue:'
     ],
     '⏯️': [
-        'Musta Oikea-pisteinen kolmio kaksinkertaisella pystysuoralla',
         'Toista tai keskeytä painike',
+        'Musta Oikea-pisteinen kolmio kaksinkertaisella pystysuoralla',
+        ':play_button:',
+        ':pause_button:',
+        ':play_or_pause_button:',
         'Pelaa Symboli',
-        'Keskeytä Symboli'
+        'Keskeytä Symboli',
+        ':blue:'
     ],
     '🔀': [
         'Sekoita Kappaleiden Painike',
-        'Kierretyt Oikeanpuoleiset Nuolet'
+        ':shuffle_tracks_button:',
+        'Kierretyt Oikeanpuoleiset Nuolet',
+        ':blue:'
     ],
     '🔁': [
         'Toista Painike',
+        ':repeat_button:',
         'Silmukan Symboli',
         'Yritä Uudelleen',
-        'Kelloittain oikeanpuoleiset ja vasen avoimet nuolet'
+        'Kelloittain oikeanpuoleiset ja vasen avoimet nuolet',
+        ':blue:'
     ],
     '🔂': [
         'Toista Yksi Painike',
+        ':repeat_single_button:',
         'Nuolet Numerolla 1',
         'Silmukka Kerran Symboli',
         'Toista Yksi Kappaleen Symboli',
-        'Kelloittain oikeanpuoleiset ja vasen avoin ympyrä nuolet Circled yksi peitto'
+        'Kelloittain oikeanpuoleiset ja vasen avoin ympyrä nuolet Circled yksi peitto',
+        ':blue:'
     ],
     '▶️': [
         'Toista Painike',
+        ':play_button:',
         'Oikea Kolmio',
         'Oikeanpuoleinen Kolmio',
-        'Musta Oikea-Pisteen Kolmio'
+        'Musta Oikea-Pisteen Kolmio',
+        ':blue:'
     ],
     '◀️': [
         'Käänteinen Painike',
+        ':reverse_button:',
         'Vasen Kolmio',
         'Vasen Pisteytys Kolmio',
-        'Musta Vasen Pisteytys Kolmio'
+        'Musta Vasen Pisteytys Kolmio',
+        ':blue:'
     ],
     '🔼': [
         'Ylöspäin Painike',
+        ':upwards_button:',
         'Ylös Kolmio',
         'Yläpisteytys Kolmio',
-        'Ylös-Pisteytys Pieni Punainen Kolmio'
+        'Ylös-Pisteytys Pieni Punainen Kolmio',
+        ':blue:'
     ],
     '🔽': [
         'Alaspäin -Painike',
+        ':downwards_button:',
         'Alas Kolmio',
         'Down Pisteytys Kolmio',
-        'Ala-Pisteytys Pieni Punainen Kolmio'
+        'Ala-Pisteytys Pieni Punainen Kolmio',
+        ':blue:'
     ],
     '⏩': [
         'Pika-Eteenpäin -Painike',
+        ':fast-forward_button:',
+        ':fast_forward_button:',
         'Nopea Eteenpäin',
         'Nopea Eteenpäin -Symboli',
-        'Musta Oikea-Pisteytys Kaksoiskolmio'
+        'Musta Oikea-Pisteytys Kaksoiskolmio',
+        ':blue:'
     ],
     '⏪': [
         'Fast Reverse Button',
+        ':fast_reverse_button:',
         'Rewind',
         'Rewind Symboli',
-        'Musta Vasemmanpuoleinen Kaksoiskolmio'
+        'Musta Vasemmanpuoleinen Kaksoiskolmio',
+        ':blue:'
     ],
     '⏫': [
         'Nopea Ylös -Painike',
+        ':fast_up_button:',
         'Kaksinkertaisen Kolmion Ylös',
-        'Musta Ylöspäin Kaksoiskolmio'
+        'Musta Ylöspäin Kaksoiskolmio',
+        ':blue:'
     ],
     '⏬': [
         'Nopea Alas Painike',
+        ':fast_down_button:',
         'Down Pisteytys Kaksoiskolmio',
-        'Musta Alas Pisteytys Kaksoiskolmio'
+        'Musta Alas Pisteytys Kaksoiskolmio',
+        ':blue:'
     ],
     '⏹️': [
         'Pysäytä Painike',
+        ':stop_button:',
         'Pysäytä',
         'Pysäytä Symboli',
-        'Musta neliö pysäyttääksesi'
+        'Musta neliö pysäyttääksesi',
+        ':blue:'
     ],
     '⏏️': [
         'Poista Painike',
-        'Eject Symbol'
+        ':eject_button:',
+        'Eject Symbol',
+        ':blue:'
     ],
     '🎦': [
         'Elokuva',
+        ':cinema_button:',
         'Elokuva Näyttö',
         'Elokuvat',
         'Elokuva',
         'Elokuvan Symboli',
-        'Nauhoitetaan'
+        'Nauhoitetaan',
+        ':blue:'
     ],
     '📶': [
         'Antennin Baarit',
+        ':antenna_bars_button:',
         'Vastaanottopalkkit',
         'Signaalin Vahvuus',
         'Stairs',
         'Signaalin Vahvuus Symboli',
-        'Antenni ja tangot'
+        'Antenni ja tangot',
+        ':blue:'
     ],
     '✖️': [
         'Kerrotaan',
+        ':multiply:',
+        'Kerrat',
         'Kerroksen Symboli',
-        'Raskas Kerros X'
+        'Raskas Kerros X',
+        ':black:'
     ],
     '➕': [
         'Plus',
+        ':plus:',
         'Plus Symboli',
-        'Raskas Plus -kyltti'
+        'Raskas Plus -kyltti',
+        ':black:'
     ],
     '➖': [
         'Minus',
+        ':minus:',
         'Minus Symbol',
-        'Raskas Minus Allekirjoitus'
+        'Raskas Minus Allekirjoitus',
+        ':black:'
     ],
     '➗': [
         'Jaa',
+        ':divide:',
         'Divisioonan Symboli',
-        'Raskas Division Allekirjoitus'
+        'Raskas Division Allekirjoitus',
+        ':black:'
     ],
     '🟰': [
-        'Heavy Equals Sign',
-        'Result'
+        'Raskas Yhtäsuuri Allekirjoitus',
+        ':heavy_equals_sign:',
+        'Yhtäsuuri',
+        'Tulos',
+        ':black:'
     ],
     '♾️': [
         'Loputon',
+        ':infinity:',
         'Pysyvä Paperimerkki'
     ],
     '‼️': [
         'Kaksinkertaisen Exklamaation Merkki',
-        'Punainen Kaksinkertainen Exklamaatio Merkki'
+        ':double_exclamation_mark:',
+        'Punainen Kaksinkertainen Exklamaatio Merkki',
+        ':red:'
     ],
     '⁉️': [
         'Exklamaation Kysymysmerkki',
-        'Punainen Exclamation Mark ja kysymysmerkki'
+        ':exclamation_question_mark:',
+        'Punainen Exclamation Mark ja kysymysmerkki',
+        ':red:'
     ],
     '❓': [
         'Kysymys Merkki',
+        ':question_mark:',
         'Punainen Kysymysmerkki',
-        'Musta Kyselymerkki Koriste'
+        'Musta Kyselymerkki Koriste',
+        ':red:'
     ],
     '❔': [
         'Valkoinen Kysymysmerkki',
+        ':white_question_mark:',
+        ':question_mark:',
         'Valkoinen Kysymysmerkki',
-        'Valkoinen Kysymys Merkitse Koriste'
+        'Valkoinen Kysymys Merkitse Koriste',
+        ':white:'
     ],
     '❗': [
         'Exklamaation Merkki',
+        ':exclamation_mark:',
         'Punaisen Exklamaation Merkki',
-        'Raskas Exclamation Mark Symboli'
+        'Raskas Exclamation Mark Symboli',
+        ':red:'
     ],
     '❕': [
         'Valkoinen Exklamaation Merkki',
-        'Valkoinen Exclamation Mark Koriste'
+        ':white_exclamation_mark:',
+        ':exclamation_mark:',
+        'Valkoinen Exclamation Mark Koriste',
+        ':white:'
     ],
     '⭕': [
         'Ontto Punainen Ympyrä',
+        ':hollow_red_circle:',
         'Ympyrä',
         'Oikea',
         'Punainen Ympyrä',
         'Ympyrän Merkki',
-        'Raskas Suuri Ympyrä'
+        'Raskas Suuri Ympyrä',
+        ':red:'
     ],
     '☑️': [
         'Tarkista laatikko tarkistetulla',
+        ':check_box_with_check:',
         'V',
         'Valintaruutu',
         'Tarkista Merkitse Kohteeseen',
@@ -2549,351 +4106,530 @@ emojis_language[lang][5] = {
     ],
     '✔️': [
         'Tarkista Merkki',
+        ':check_mark:',
         'V',
         'Tarkista',
         'Kerää',
         'Checkmark',
-        'Raskas Tarkastusmerkki'
+        'Raskas Tarkastusmerkki',
+        ':black:'
     ],
     '❌': [
         'Ristijälki',
+        ':cross_mark:',
         'Risti',
-        'X'
+        'X',
+        ':red:'
     ],
     '✅': [
         'Tarkista Merkkipainike',
+        ':check_mark_button:',
         'V',
         'Vihreä Tarkista Merkki',
         'Vihreä Tick',
         'Tarkista Merkki',
-        'Valkoinen Raskas Tarkastusmerkki'
+        'Valkoinen Raskas Tarkastusmerkki',
+        ':green:'
     ],
     '❎': [
         'Ristijäljen Painike',
+        ':cross_mark_button:',
         'Risti',
         'X',
         'X Merkki',
-        'Negatiivinen Ristimerkki'
+        'Negatiivinen Ristimerkki',
+        ':green:'
     ],
     '#️⃣': [
         'Näppäimistön Numero Allekirjoitus',
+        ':hash_key:',
         '#',
         'Hash Key',
         'Hashtag',
         'Lokakuutio',
         'Pound Key',
-        'Numero Allekirjoitus'
+        'Numero Allekirjoitus',
+        ':blue:'
     ],
     '*️⃣': [
         'Keycap Asterisk',
-        'Tähden Näppäinkorkki'
+        ':asterisk:',
+        'Tähden Näppäinkorkki',
+        ':blue:'
     ],
     '0️⃣': [
         'Numero 0',
+        ':number_0:',
         'Keycap Digit Zero'
     ],
     '1️⃣': [
         'Numero 1',
+        ':number_1:',
         'Keycap Digit One'
     ],
     '2️⃣': [
         'Numero 2',
+        ':number_2:',
         'Keycap Digit 2'
     ],
     '3️⃣': [
         'Numero 3',
+        ':number_3:',
         'Keycap Digit Kolme'
     ],
     '4️⃣': [
         'Numero 4',
+        ':number_4:',
         'Keycap Digit Neljä'
     ],
     '5️⃣': [
         'Numero 5',
+        ':number_5:',
         'Keycap Digit Five'
     ],
     '6️⃣': [
         'Numero 6',
+        ':number_6:',
         'Keycap Digit Kuusi'
     ],
     '7️⃣': [
         'Numero 7',
+        ':number_7:',
         'Keycap Digit Seven'
     ],
     '8️⃣': [
         'Numero 8',
+        ':number_8:',
         'Keycap Digit Eight'
     ],
     '9️⃣': [
-        'Numero 09',
+        'Numero 9',
+        ':number_9:',
         'Keycap Digit Yhdeksän'
     ],
     '🔟': [
         'Numero 10',
+        ':number_10:',
         'Keycap: 10',
         '10',
         'Keycap Digit Kymmenen'
     ],
     '🔠': [
         'Input Latin Uppercase',
+        ':input_latin_uppercase:',
         'ABCD',
         'Isot',
         'Sisääntulon symboli isoille kirjaimille',
-        'Sisääntulon tunnus latinalaiselle pääkirjalle'
+        'Sisääntulon tunnus latinalaiselle pääkirjalle',
+        ':blue:'
     ],
     '🔡': [
         'Input Latin Lowercase',
+        ':input_latin_lowercase:',
         'abcd',
         'Pienet Kirjaimet',
         'Sisääntulon tunnus pienikokoisille kirjaimille',
-        'Syöttötunnuksen latinalaiseen pieneen kirjaimeen'
+        'Syöttötunnuksen latinalaiseen pieneen kirjaimeen',
+        ':blue:'
     ],
     '🔢': [
         'Input Numbers',
+        ':input_numbers:',
         '1234',
         'Numerot',
         'Numeric Input',
-        'Numeroiden sisääntulon tunnus'
+        'Numeroiden sisääntulon tunnus',
+        ':blue:'
     ],
     '🔣': [
         'Sisääntulon symboli symbolit',
+        ':input_symbols:',
         'Symbolit',
-        'Symboli Sisääntulo'
+        'Symboli Sisääntulo',
+        ':blue:'
     ],
     '🔤': [
         'Input Latin Letters',
+        ':input_latin_letters:',
         'abc',
         'Aakkoset',
         'Kirjaimet',
         'Sisääntulon tunnus kirjaimille',
-        'Sisääntulon tunnus latinalaisissa kirjaimissa'
+        'Sisääntulon tunnus latinalaisissa kirjaimissa',
+        ':blue:'
     ],
     '🅰️': [
         'A Painike (loodityyppi)',
+        ':a_blood:',
         'Veren Tyyppi A',
         'Kirje A',
-        'Negatiivinen Latinalaisen Pääoman Kirje A'
+        'Negatiivinen Latinalaisen Pääoman Kirje A',
+        ':red:'
     ],
     '🆎': [
         'Ab-Painike (loodityyppi)',
+        ':ab_blood:',
         'Kirjaimet AB',
         'Verityyppi AB',
-        'Negatiivinen Squared AB'
+        'Negatiivinen Squared AB',
+        ':red:'
     ],
     '🅱️': [
         'B Painike (loodityyppi)',
+        ':b_blood:',
         'Kirje B',
         'Verityyppi B',
-        'Negatiivinen Latinalaisen Pääoman Kirje B'
+        'Negatiivinen Latinalaisen Pääoman Kirje B',
+        ':red:'
     ],
     '🆑': [
         'CL Painike',
+        ':cl_button:',
         'Tyhjennä',
         'Tyhjennä Painike',
         'CL Allekirjoitus',
         'Neliöity CL',
-        'Kirjaimet CL'
+        'Kirjaimet CL',
+        ':red:'
     ],
     '🆒': [
         'Viileä Painike',
+        ':cool_button:',
         'Kylmä Neliö',
         'Viileä Kyltti',
-        'Squared Cool'
+        'Squared Cool',
+        ':blue:'
     ],
     '🆓': [
         'Ilmainen Painike',
+        ':free_button:',
         'Ilmainen',
         'Ilmainen Allekirjoitus',
-        'Neliöity Vapaa'
+        'Neliöity Vapaa',
+        ':blue:'
     ],
     'ℹ️': [
         'Tiedot',
+        ':info_button:',
         'Tietoa',
         'Pienet Kirjaimet I',
         'Matkailun Tiedot',
-        'Tiedon Lähde'
+        'Tiedon Lähde',
+        ':blue:'
     ],
     '🆔': [
         'Tunnuksen Painike',
+        ':id_button:',
         'ID',
         'Tunnistaminen',
         'Tunniste Allekirjoitus',
-        'Neliön Tunnus'
+        'Neliön Tunnus',
+        ':purple:'
     ],
     '🆕': [
         'Uusi Painike',
+        ':new_button:',
         'Uusi',
         'Uusi Allekirjoitus',
-        'Neliöity Uusi'
+        'Neliöity Uusi',
+        ':blue:'
     ],
     '🅾️': [
         'O Painike (loodityyppi)',
+        ':0_blood:',
         'Veren Tyyppi O',
         '0',
         'Negatiivinen Latinalaisen Pääoman Kirje',
-        'Kirjain O'
+        'Kirjain O',
+        ':red:'
     ],
     '🆗': [
         'OK Painike',
+        ':ok_button:',
         'OK',
         'Okei',
         'Neliö',
         'OK Allekirjoitus',
-        'Neliöity OK'
+        'Neliöity OK',
+        ':blue:'
     ],
     '🅿️': [
         'P Painike',
+        ':p_button:',
+        ':parking_sign:',
         'Pysäköinti Allekirjoitus',
         'Negatiivinen Latinalaisen Pääoman Kirje',
-        'Kirje P'
+        'Kirje P',
+        ':blue:'
     ],
     '🆘': [
         'Sos Painike',
+        ':sos_button:',
         'Hätäsignaali',
         'Hätätila',
         'SOS',
         'Sos Allekirjoitus',
         'Neliöidyt SOS',
-        'Ohje'
+        'Ohje',
+        ':red:'
     ],
     '🆙': [
         'Ylhäältä! Painike',
+        ':up_button:',
         'Taso Ylös',
         'Ylös',
         'Ylös Allekirjoitus',
-        'Squared Up with Exclamation Mark'
+        'Squared Up with Exclamation Mark',
+        ':blue:'
     ],
     '🆚': [
         'VS -painike',
-        'Neljäs Vs'
+        ':vs_button:',
+        'Neljäs Vs',
+        ':orange:'
     ],
     '🆖': [
         'Ng Painike',
+        ':ng_button:',
         'Neliöity NG',
         'Ei Hyvä Allekirjoitus',
         'Ei Hyvä',
-        'NG',
-        'Blooper'
+        ':ng:',
+        'Blooper',
+        ':blue:'
     ],
     '🔴': [
         'Punainen Ympyrä',
-        'Suuri Punainen Ympyrä'
+        ':red_circle:',
+        'Suuri Punainen Ympyrä',
+        ':red:'
     ],
     '🟠': [
         'Oranssi Ympyrä',
-        'Suuri Oranssi Ympyrä'
+        ':orange_circle:',
+        'Suuri Oranssi Ympyrä',
+        ':orange:'
     ],
     '🟡': [
         'Keltainen Ympyrä',
-        'Suuri Keltainen Ympyrä'
+        ':yellow_circle:',
+        'Suuri Keltainen Ympyrä',
+        ':yellow:'
     ],
     '🟢': [
         'Vihreä Ympyrä',
-        'Suuri Vihreä Ympyrä'
+        ':green_circle:',
+        'Suuri Vihreä Ympyrä',
+        ':green:'
     ],
     '🔵': [
         'Sininen Ympyrä',
-        'Suuri Sininen Ympyrä'
+        ':blue_circle:',
+        'Suuri Sininen Ympyrä',
+        ':blue:'
     ],
     '🟣': [
         'Violetti Ympyrä',
-        'Suuri Violetti Ympyrä'
+        ':purple_circle:',
+        'Suuri Violetti Ympyrä',
+        ':purple:'
     ],
     '🟤': [
         'Ruskea Ympyrä',
-        'Suuri Ruskea Ympyrä'
+        ':brown_circle:',
+        'Suuri Ruskea Ympyrä',
+        ':brown:'
     ],
     '⚫': [
         'Musta Ympyrä',
-        'Keskikokoinen Musta Ympyrä'
+        ':black_circle:',
+        'Keskikokoinen Musta Ympyrä',
+        ':black:'
     ],
     '⚪': [
         'Valkoinen Ympyrä',
-        'Keskikokoinen Valkoinen Ympyrä'
+        ':white_circle:',
+        'Keskikokoinen Valkoinen Ympyrä',
+        ':white:'
     ],
     '🟥': [
         'Punainen Neliö',
-        'Suuri Punainen Neliö'
+        ':red_square:',
+        'Suuri Punainen Neliö',
+        ':red:'
     ],
     '🟧': [
         'Oranssi Neliö',
-        'Suuri Oranssi Neliö'
+        ':orange_square:',
+        'Suuri Oranssi Neliö',
+        ':orange:'
     ],
     '🟨': [
         'Keltainen Neliö',
-        'Suuri Keltainen Neliö'
+        ':yellow_square:',
+        'Suuri Keltainen Neliö',
+        ':yellow:'
     ],
     '🟩': [
         'Vihreä Neliö',
-        'Suuri Vihreä Neliö'
+        ':green_square:',
+        'Suuri Vihreä Neliö',
+        ':green:'
     ],
     '🟦': [
         'Sininen Neliö',
-        'Suuri Sininen Neliö'
+        ':blue_square:',
+        'Suuri Sininen Neliö',
+        ':blue:'
     ],
     '🟪': [
         'Violetti Neliö',
-        'Suuri Violetti Neliö'
+        ':purple_square:',
+        'Suuri Violetti Neliö',
+        ':purple:'
     ],
     '🟫': [
         'Ruskea Neliö',
-        'Suuri Ruskea Neliö'
+        ':brown_square:',
+        'Suuri Ruskea Neliö',
+        ':brown:'
     ],
-    '⬛': ['Musta Suuri Neliö'],
-    '⬜': ['Valkoinen Suuri Neliö'],
-    '◼️': ['Musta Keskikokoinen Neliö'],
-    '◻️': ['Valkoinen Keskikokoinen Neliö'],
-    '◾': ['Musta Keskikokoinen Pieni Neliö'],
-    '◽': ['Valkoinen Keskikokoinen Pieni Neliö'],
-    '▪️': ['Musta Pieni Neliö'],
-    '▫️': ['Valkoinen Pieni Neliö'],
+    '⬛': [
+        'Musta Suuri Neliö',
+        ':black_large_square:',
+        ':black:'
+    ],
+    '⬜': [
+        'Valkoinen Suuri Neliö',
+        ':white_large_square:',
+        ':white:'
+    ],
+    '◼️': [
+        'Musta Keskikokoinen Neliö',
+        ':black_medium_square:',
+        ':black:'
+    ],
+    '◻️': [
+        'Valkoinen Keskikokoinen Neliö',
+        ':white_medium_square:',
+        ':white:'
+    ],
+    '◾': [
+        'Musta Keskikokoinen Pieni Neliö',
+        ':black_medium_small_square:',
+        ':black:'
+    ],
+    '◽': [
+        'Valkoinen Keskikokoinen Pieni Neliö',
+        ':white_medium_small_square:',
+        ':white:'
+    ],
+    '▪️': [
+        'Musta Pieni Neliö',
+        ':black_small_square:',
+        ':black:'
+    ],
+    '▫️': [
+        'Valkoinen Pieni Neliö',
+        ':white_small_square:',
+        ':white:'
+    ],
     '💠': [
         'Timantti muoto, jossa Dot sisällä',
+        ':diamond_shape_with_dot:',
         'Ruoansulatus',
         'Timantti Kukka',
         'Kavaiji'
     ],
-    '🔶': ['Suuri Oranssi Timantti'],
-    '🔷': ['Suuri Sininen Timantti'],
-    '🔸': ['Pieni Oranssi Timantti'],
-    '🔹': ['Pieni Sininen Timantti'],
+    '🔶': [
+        'Suuri Oranssi Timantti',
+        ':large_orange_diamond:',
+        ':orange:'
+    ],
+    '🔷': [
+        'Suuri Sininen Timantti',
+        ':large_blue_diamond:',
+        ':blue:'
+    ],
+    '🔸': [
+        'Pieni Oranssi Timantti',
+        ':small_orange_diamond:',
+        ':orange:'
+    ],
+    '🔹': [
+        'Pieni Sininen Timantti',
+        ':small_blue_diamond:',
+        ':blue:'
+    ],
     '🔺': [
         'Punainen Kolmio Pointed Ylös',
-        'Ylös Pisteytys Punainen Kolmio'
+        ':red_triangle_pointed_up:',
+        'Ylös Pisteytys Punainen Kolmio',
+        ':red:'
     ],
     '🔻': [
         'Punainen Kolmio Pointed Alas',
-        'Down Pisteytys Punainen Kolmio'
+        ':red_triangle_pointed_down:',
+        'Down Pisteytys Punainen Kolmio',
+        ':red:'
     ],
-    '🔳': ['Valkoinen Neliön Painike'],
-    '🔲': ['Musta Neliöpainike'],
+    '🔳': [
+        'Valkoinen Neliön Painike',
+        ':white_square_button:',
+        ':white:',
+        ':black:'
+    ],
+    '🔲': [
+        'Musta Neliöpainike',
+        ':black_square_button:',
+        ':white:',
+        ':black:'
+    ],
     '©️': [
         'Tekijänoikeus',
+        ':copyright:',
+        ':c:',
         'Tekijänoikeus Allekirjoitus'
     ],
     '®️': [
         'Rekisteröity',
+        ':registered:',
+        ':r:',
         'Rekisteröity Allekirjoitus'
     ],
     '™️': [
         'Kauppanimi',
-        'TM',
+        ':trade_mark:',
+        ':tm:',
         'Tavaramerkki',
         'Tavaramerkin Allekirjoitus'
     ],
     '🛅': [
         'Vasen Matkatavarat',
+        ':left_luggage:',
         'Pussi Avain',
-        'Lukitut Matkalaukut'
+        'Lukitut Matkalaukut',
+        ':blue:'
     ],
-    '🛄': ['Matkatavaroiden Lunastaminen'],
-    '🛃': ['Tulli'],
+    '🛄': [
+        'Matkatavaroiden Lunastaminen',
+        ':baggage_claim:',
+        ':blue:'
+    ],
+    '🛃': [
+        'Tulli',
+        ':customs:',
+        ':blue:'
+    ],
     '🛂': [
         'Passin Valvonta',
-        'Reunan Ohjaus'
+        ':passport_control:',
+        'Reunan Ohjaus',
+        ':blue:'
     ],
     '🚰': [
         'Potable Water Symboli',
+        ':potable_water_symbol:',
         'Joni',
         'Juudas',
         'Vesi Napautus',
@@ -2901,343 +4637,487 @@ emojis_language[lang][5] = {
     ],
     '🇦': [
         'Kirje A',
+        ':letter_a:',
+        ':a:',
         'Alueellisen Indikaattorin Tunnuskirjain A'
     ],
     '🇧': [
         'Kirje B',
+        ':letter_b:',
+        ':b:',
         'Alueellisen Indikaattorin Merkkikirje B'
     ],
     '🇨': [
         'Kirje C',
+        ':letter_c:',
+        ':c:',
         'Alueellisen Indikaattorin Merkkikirjain C'
     ],
     '🇩': [
         'Kirje D',
+        ':letter_d:',
+        ':d:',
         'Alueellisen Indikaattorin Tunnuskirjain D'
     ],
     '🇪': [
         'Kirje E',
+        ':letter_e:',
+        ':e:',
         'Alueellisen Indikaattorin Merkkikirjain E'
     ],
     '🇫': [
         'Kirje F',
+        ':letter_f:',
+        ':f:',
         'Alueellisen Indikaattorin Merkkikirjain F'
     ],
     '🇬': [
         'Kirje G',
+        ':letter_g:',
+        ':g:',
         'Alueellisen Indikaattorin Tunnuskirjain G'
     ],
     '🇭': [
         'Kirje H',
+        ':letter_h:',
+        ':h:',
         'Alueellisen Indikaattorin Tunnuskirjain H'
     ],
     '🇮': [
         'Kirje I',
+        ':letter_i:',
+        ':i:',
         'Alueellisen Indikaattorin Merkkikirjain I'
     ],
     '🇯': [
         'Kirje J',
+        ':letter_j:',
+        ':j:',
         'Alueellinen Indikaattori Symbol Letter J'
     ],
     '🇰': [
         'Kirje K',
+        ':letter_k:',
+        ':k:',
         'Alueellinen Indikaattori Symbol Letter K'
     ],
     '🇱': [
         'Kirjain L',
+        ':letter_l:',
+        ':l:',
         'Alueellisen Indikaattorin Merkkikirjain L'
     ],
     '🇲': [
         'Kirje M',
+        ':letter_m:',
+        ':m:',
         'Alueellisen Indikaattorin Merkkikirjain M'
     ],
     '🇳': [
         'Kirje N',
+        ':letter_n:',
+        ':n:',
         'Alueellisen Indikaattorin Tunnuskirjain N'
     ],
     '🇴': [
         'Kirjain O',
+        ':letter_o:',
+        ':o:',
         'Alueellisen Indikaattorin Tunnuskirjain O'
     ],
     '🇵': [
         'Kirje P',
+        ':letter_p:',
+        ':p:',
         'Alueellisen Indikaattorin Tunnuskirjain P'
     ],
     '🇶': [
         'Kirje Q',
+        ':letter_q:',
+        ':q:',
         'Alueellinen Merkkijonokirjain Q'
     ],
     '🇷': [
         'Kirje R',
+        ':letter_r:',
+        ':r:',
         'Alueellinen Merkkijonomerkki R'
     ],
     '🇸': [
         'Kirje S',
+        ':letter_s:',
+        ':s:',
         'Alueellisen Indikaattorin Merkkikirjain S'
     ],
     '🇹': [
         'Kirje T',
+        ':letter_t:',
+        ':t:',
         'Alueellinen Merkkijonomerkki T'
     ],
     '🇺': [
         'Kirje U',
+        ':letter_u:',
+        ':u:',
         'Alueellinen Indikaattori Symbol Letter U'
     ],
     '🇻': [
         'Kirje V',
+        ':letter_v:',
+        ':v:',
         'Alueellinen Merkkijonomerkki V'
     ],
     '🇼': [
         'Kirje W',
+        ':letter_w:',
+        ':w:',
         'Alueellinen Indikaattorin Merkkikirje W'
     ],
     '🇽': [
         'Kirje X',
+        ':letter_x:',
+        ':x:',
         'Alueellisen Indikaattorin Merkkikirje X'
     ],
     '🇾': [
         'Kirje Y',
+        ':letter_y:',
+        ':y:',
         'Alueellinen Indikaattorin Merkkikirjain Y'
     ],
     '🇿': [
         'Kirje Z',
+        ':letter_z:',
+        ':z:',
         'Alueellisen Indikaattorin Symbolin Kirje Z'
     ],
     '💌': [
         'Rakkaus Kirje',
+        ':love_letter:',
         'Sydän Kirjekuori',
         'Rakasta Muistiinpano'
     ],
     '🚮': [
         'Laita pentue sen paikka symboli',
+        ':put_litter_in_bing_sign:',
         'Pehmeä Bin Kirjaudu sisään',
         'Laita Vieras Roskakoriin',
         'Henkilö Roskakorilla'
     ],
     '♿': [
         'Pyörätuolin Symboli',
+        ':wheelchair_symbol:',
         'Esteetön Kylpyhuone'
     ],
     '🚹': [
         'Miesten Symboli',
+        ':mens_symbol:',
         'Miesten Symboli',
         'Miesten WC',
         'Miehen Restroom',
-        'Miehen WC'
+        'Miehen WC',
+        ':blue:'
     ],
     '🚺': [
         'Naisten Symboli',
+        ':womens_symbol:',
         'Naisten Symboli',
         'Naisten WC',
         'Naisen Restroom',
-        'Famale WC'
+        'Famale WC',
+        ':purple:',
+        ':pink:'
     ],
     '🚻': [
         'Restroom',
+        ':restroom:',
         'Kylpyhuoneen Allekirjoitus',
         'WC:n Allekirjoitus',
-        'WC Allekirjoitus'
+        'WC Allekirjoitus',
+        ':blue:'
     ],
     '🚼': [
         'Vauvan Symboli',
+        ':baby_symbol:',
         'Vauvan Muutosasema',
         'Vauvan Muutoksen Symboli',
-        'Taimitarha'
+        'Taimitarha',
+        ':orange:'
     ],
     '🚾': [
         'Veden Suljin',
+        ':wc:',
         'WC',
-        'WC WC'
+        'WC WC',
+        ':blue:'
     ],
     '⚠️': [
         'Varoitus Merkki',
-        'Hälytyksen Symboli'
+        ':warning_sign:',
+        'Hälytyksen Symboli',
+        ':yellow:'
     ],
     '🚸': [
         'Lasten Risteys',
+        ':children_crossing:',
         'Lasten Risteys',
-        'Koulun Ristiretki'
+        'Koulun Ristiretki',
+        ':yellow:'
     ],
     '🔅': [
         'Matalan Kirkkauden Symboli',
+        ':low_brightness_symbol:',
         'Himmennä Painike',
         'Vähennä Kirkkautta'
     ],
     '🔆': [
         'Korkea Kirkkaus Symboli',
+        ':high_brightness_symbol:',
         'Lisää Kirkkautta',
         'Kirkas Painike'
     ],
     '📳': [
         'Värinä Tila',
+        ':vibration_mode:',
         'Puhelimen Sydän',
-        'Äänetön Tila'
+        'Äänetön Tila',
+        ':orange:'
     ],
-    '📴': ['Mobiilipuhelin Pois Käytöstä'],
+    '📴': [
+        'Mobiilipuhelin Pois Käytöstä',
+        ':mobile_phone_off:',
+        ':orange:'
+    ],
     '〰️': [
         'Aalto',
-        'Wavy Dash'
+        'Wavy Dash',
+        ':wave:'
     ],
-    '💱': ['Valuutan Valuutta'],
+    '💱': [
+        'Valuutan Valuutta',
+        ':currency_exchange:'
+    ],
     '💲': [
         'Raskaan Dollarin Allekirjoitus',
+        ':dollar_symbol:',
         'Dollari',
         'Dollarin Allekirjoitus'
     ],
     '♻️': [
         'Musta Universal Kierrätys Symboli',
+        ':recycling_symbol:',
         'Kierrätystunnus',
-        'Kierrätä Logo'
+        'Kierrätä Logo',
+        ':green:'
     ],
     '🔱': [
         'Trident Tunnus',
+        ':trident_emblem:',
         'Pitchfork',
         'Trident'
     ],
     '📛': [
         'Nimen Merkki',
+        ':name_badge:',
         'Tofu Tulessa',
         'Nimi Tagi',
         'Tuli Tagi'
     ],
     '🔰': [
         'Japanin tunnus aloittelijalle',
+        ':japanese_symbol_beginner:',
         'Shoshinsha Merkki',
-        'Keltainen Vihreä Kilpi'
+        'Keltainen Vihreä Kilpi',
+        ':green:',
+        ':yellow:'
     ],
     '➰': [
         'Curly Silmukka',
+        ':curly_loop:',
         'Curling Silmukka',
         'Silmukka'
     ],
     '➿': [
         'Kaksinkertainen Kiertosilmukka',
+        ':double_curly_loop:',
         'KaksoisCurling Silmukka',
         'Vastaaja'
     ],
     '〽️': [
         'Osan Vaihtoehdon Merkki',
+        ':part_alternation_mark:',
         'M',
-        'McDonaldin'
+        'McDonalds'
     ],
-    '✳️': ['Kahdeksan Poimittua Asteriskia'],
+    '✳️': [
+        'Kahdeksan Poimittua Asteriskia',
+        ':eight_spoked_asterisk:',
+        ':green:'
+    ],
     '✴️': [
         'Kahdeksan Osoitettua Musta Tähti',
+        ':eight_pointed_star:',
         'Oranssi Tähti',
-        'Kahdeksan Osoitettua Tähti'
+        'Kahdeksan Osoitettua Tähti',
+        ':orange:'
     ],
-    '❇️': ['Sparkle'],
+    '❇️': [
+        'Sparkle',
+        ':sparkle:',
+        ':green:'
+    ],
     'Ⓜ️': [
-        'Circled Latin Capital Letter M',
         'Kierretty M',
+        'Circled Latin Capital Letter M',
+        ':circled_m:',
         'Metro',
-        'Kierretty M'
+        ':blue:'
     ],
     '🈁': [
-        'Squared Katakana Koko',
         'Japanin Sana Allekirjoitus Merkitys Täällä',
+        'Squared Katakana Koko',
+        ':japanese_here:',
         'Tässä',
-        'Kohde'
+        'Kohde',
+        ':blue:'
     ],
     '🈂️': [
+        'Japanilainen viittomamerkintä Palvelu tai palvelumaksu',
         'Squared Katakana Sa',
-        'Japanilainen viittomamerkintä Palvelu tai palvelumaksu'
+        ':japanese_service:',
+        ':blue:'
     ],
     '🈷️': [
+        'Japanin Allekirjoituksen Merkitys Kuukausittainen Määrä',
         'CJK Yhtenäinen Ideograph-6708',
+        ':japanese_monthly_amouny:',
         'Radikaali 74',
         '月',
-        'Japanin Allekirjoituksen Merkitys Kuukausittainen Määrä'
+        ':orange:'
     ],
     '🈶': [
-        'CJK Yhtenäinen Ideograph-6709',
         'Japanilainen viittomamerkki, joka ei ole maksuton',
+        'CJK Yhtenäinen Ideograph-6709',
+        ':japanese_own:',
         'Oma',
-        '有'
+        '有',
+        ':orange:'
     ],
     '🈯': [
-        'CJK Yhtenäinen Ideograph-6307',
         'Japanilainen Allekirjoituksen Merkitys Varattu',
+        'CJK Yhtenäinen Ideograph-6307',
+        ':japanese_reserved:',
         'Sormen Piste',
-        '指'
+        '指',
+        ':green:'
     ],
     '🉐': [
-        'Kierretyn Ideografin Edut',
         'Japanilainen Allekirjoituksen Merkitys',
+        'Kierretyn Ideografin Edut',
+        ':japanese_acquire:',
         'Hanki',
-        '得'
+        '得',
+        ':red:'
     ],
     '🈹': [
-        'CJK Yhtenäinen Ideograph-5272',
         'Japanin Allekirjoituksen Merkitys Alennus',
+        'CJK Yhtenäinen Ideograph-5272',
+        ':japanese_discount:',
         'Bargain Myynti',
-        '割'
+        '割',
+        ':red:'
     ],
     '🈚': [
-        'Neljäs CJK Unified Ideograph-7121',
         'Japanilainen kyltti Merkitys ilmaiseksi',
+        'Neljäs CJK Unified Ideograph-7121',
+        ':japanese_lacking:',
         'Puuttuu',
-        '無'
+        '無',
+        ':orange:'
     ],
     '🈲': [
-        'Yhtenäinen CJK Unified Ideograph-7981',
         'Japanilainen Merkki Merkitys Kielletty',
+        'Yhtenäinen CJK Unified Ideograph-7981',
+        ':japanese_prohibited:',
         'Forbid',
-        '禁'
+        '禁',
+        ':red:'
     ],
     '🉑': [
-        'Kierretty Ideograph Hyväksy',
         'Japanin Allekirjoituksen Merkitys Hyväksyttävä',
-        'Hyväksy'
+        'Kierretty Ideograph Hyväksy',
+        ':japanese_accept:',
+        'Hyväksy',
+        ':orange:'
     ],
     '🈸': [
-        'CJK Yhtenäinen Ideograph-7533',
         'Japanilainen Allekirjoituksen Merkitys Sovellus',
+        'CJK Yhtenäinen Ideograph-7533',
+        ':japanese_application_form:',
         'Sovelluslomake',
         'Apina',
         'Pyyntö',
-        '申'
+        '申',
+        ':orange:'
     ],
     '🈴': [
-        'CJK Yhtenäinen Ideograph-5408',
         'Japanilainen Allekirjoituksen Merkitys Syöttäminen (Luokka)',
+        'CJK Yhtenäinen Ideograph-5408',
+        ':japanese_agreement:',
         'Sopimus',
-        '合'
+        '合',
+        ':red:'
     ],
     '🈳': [
-        'Yhtenäinen CJK Unified Ideograph-7a7A',
         'Japanilainen Merkitys Vacancy',
+        'Yhtenäinen CJK Unified Ideograph-7a7A',
+        ':japanese_available:',
         'Tyhjä ja käytettävissä',
-        '空'
+        '空',
+        ':blue:'
     ],
     '㊗️': [
+        'Onnittelut Japanilaiselle Allekirjoitukselle',
         'Kierretty Ideograph Onnittelut',
-        'Onnittelut Japanilaiselle Allekirjoitukselle'
+        ':japanese_congratulations:',
+        ':red:'
     ],
     '㊙️': [
         'Kierretty Ideograph Salaisuus',
+        ':japanese_secret:',
         'Japanilainen Allekirjoituksen Salaisuus',
-        'Salainen'
+        'Salainen',
+        ':red:'
     ],
     '🈺': [
-        'Neljäs CJK Unified Ideograph-55b6',
         'Japanilainen viittomamerkintä Open for Business',
+        'Neljäs CJK Unified Ideograph-55b6',
+        ':japanese_open_for_business:',
         'Työ',
-        '営'
+        '営',
+        ':orange:'
     ],
     '🈵': [
-        'Yhtenäinen CJK Unified Ideograph-6e80',
         'Japanilainen Merkitys Täysi; Ei Vacancy',
+        'Yhtenäinen CJK Unified Ideograph-6e80',
+        ':japanese_full:',
         'Täysi',
-        '満'
+        '満',
+        ':red:'
     ],
-    '🔘': ['Radion Painike'],
+    '🔘': [
+        'Radion Painike',
+        ':radio_button:'
+    ],
     '🛑': [
         'Pysäytä Allekirjoitus',
-        'Oktatiivinen Kyltti'
+        ':stop_sign:',
+        'Oktatiivinen Kyltti',
+        ':red:'
     ],
     '⚕️': [
         'Lääketieteellinen Symboli',
+        ':medical_symbol:',
         'Aesculapius',
         'Asklepios',
         'Asclepius-suvun sauva',
@@ -3245,16 +5125,23 @@ emojis_language[lang][5] = {
     ],
     '🛗': [
         'Hissi',
+        ':elevator:',
+        ':lift:',
         'Hissi'
     ],
-    '⚧️': ['Transsukupuolinen Symboli'],
+    '⚧️': [
+        'Transsukupuolinen Symboli',
+        ':transgender_sign:'
+    ],
     '♂️': [
         'Miehen Allekirjoitus',
+        ':male_sign:',
         'Man Symboli',
         'Mars Symboli'
     ],
     '♀️': [
         'Naisen Allekirjoitus',
+        ':female_sign:',
         'Nainen Symboli',
         'Venus Symbol'
     ]
@@ -3263,77 +5150,133 @@ emojis_language[lang][5] = {
 emojis_language[lang][6] = {
     '🍇': [
         'Rypäleet',
-        'Viinirypäleet'
+        ':grapes:',
+        'Viinirypäleet',
+        ':purple:'
     ],
     '🍈': [
         'Meloni',
+        ':melon:',
         'Cantaloupe',
         'Honeydew',
         'Muskmeloni'
     ],
-    '🍉': ['Vesimeloni'],
+    '🍉': [
+        'Vesimeloni',
+        ':watermelon:',
+        ':red:'
+    ],
     '🍊': [
         'Tangerine',
+        ':tangerine:',
         'Mandarin',
-        'Oranssi'
+        ':orange:'
     ],
     '🍋': [
         'Sitruuna',
-        'Sitruunahappo'
+        ':lemon:',
+        'Sitruunahappo',
+        ':yellow:'
     ],
     '🍌': [
         'Banaani',
-        'Plantain'
+        ':banana:',
+        'Plantain',
+        ':yellow:'
     ],
-    '🍍': ['Ananas'],
-    '🥭': ['Mango'],
+    '🍍': [
+        'Ananas',
+        ':pineapple:'
+    ],
+    '🥭': [
+        'Mango',
+        ':mango:'
+    ],
     '🍎': [
         'Punainen Apple',
-        'Red Herkullinen Omena'
+        ':red_apple:',
+        ':apple:',
+        'Red Herkullinen Omena',
+        ':red:'
     ],
     '🍏': [
         'Vihreä Osa',
+        ':green_apple:',
+        ':apple:',
         'Golden Delicious Omena',
-        'Granny Smith Apple'
+        'Granny Smith Apple',
+        ':green:'
     ],
-    '🍐': ['Päärynät'],
+    '🍐': [
+        'Päärynät',
+        ':pear:'
+    ],
     '🍑': [
         'Persikka',
+        ':peach:',
         'Alhaalla',
-        'Butt'
+        'Butt',
+        ':orange:',
+        ':pink:'
     ],
     '🍒': [
         'Kirsikat',
+        ':cherry:',
         'Kirsikka',
-        'Luonnonvaraiset Kirsikat'
+        'Luonnonvaraiset Kirsikat',
+        ':red:'
     ],
-    '🍓': ['Mansikka'],
+    '🍓': [
+        'Mansikka',
+        ':strawberry:',
+        ':red:'
+    ],
     '🥝': [
         'Kiivihedelmät',
+        ':kiwi:',
         'Kiinalainen Karviainen',
         'Kiivihedelmät',
-        'Kiivit'
+        'Kiivit',
+        ':green:'
     ],
-    '🍅': ['Tomaatti'],
+    '🍅': [
+        'Tomaatti',
+        ':tomato:',
+        ':red:'
+    ],
     '🥥': [
         'Kookospähkinä',
+        ':coconut:',
         'Cocoanut'
     ],
-    '🥑': ['Avokado'],
+    '🥑': [
+        'Avokado',
+        ':avocado:',
+        ':green:'
+    ],
     '🍆': [
         'Munakoiso',
+        ':eggplant:',
+        ':aubergine:',
         'Aubergine',
         'Phallinen',
-        'Violetti Kasvikset'
+        'Violetti Kasvikset',
+        ':purple:'
     ],
     '🥔': [
         'Peruna',
+        ':potato:',
         'Kypsän Peruna',
         'Idahon Peruna'
     ],
-    '🥕': ['Porkkana'],
+    '🥕': [
+        'Porkkana',
+        ':carrot:',
+        ':orange:'
+    ],
     '🌽': [
         'Maissin korva',
+        ':ear_of_corn:',
         'Maissi',
         'Maissi Cob',
         'Maissi',
@@ -3341,107 +5284,165 @@ emojis_language[lang][6] = {
     ],
     '🌶️': [
         'Kuuma Pippuri',
+        ':hot_pepper:',
         'Chilipippuri',
-        'Mausteena'
+        'Mausteena',
+        ':red:'
     ],
     '🥒': [
         'Kurkku',
+        ':cucumber:',
         'Pikkukurkku',
-        'Papeli'
+        'Papeli',
+        ':green:'
     ],
     '🥬': [
         'Lehtivihreä',
+        ':leafy_green:',
         'Bok Choy',
         'Kiinalainen Kaali',
         'Cos Lettuce',
         'Romaine Lettuce',
-        'Lehtivihreät'
+        'Lehtivihreät',
+        ':green:'
     ],
-    '🥦': ['Parsakaalit'],
+    '🥦': [
+        'Parsakaalit',
+        ':broccoli:',
+        ':green:'
+    ],
     '🍄': [
         'Sieni',
+        ':mushroom:',
         'Paikka',
         'Toadstool'
     ],
     '🥜': [
         'Peanuts',
-        'Pähkinät'
+        ':peanuts:',
+        'Pähkinät',
+        ':brown:'
     ],
     '🌰': [
         'Kastanja',
+        ':chestnut:',
         'Acorn',
-        'Nut'
+        'Nut',
+        ':brown:'
     ],
     '🍞': [
         'Leipä',
-        'Leipäkuori (leivät)'
+        ':bread:',
+        'Leipäkuori (leivät)',
+        ':brown:'
     ],
-    '🥐': ['Croissant'],
+    '🥐': [
+        'Croissant',
+        ':croissant:',
+        ':brown:'
+    ],
     '🥖': [
         'Baguette Leipä',
+        ':baguette_bread:',
         'Ranskalainen Leipä',
-        'Baguette'
+        'Baguette',
+        ':brown:'
     ],
-    '🥨': ['Pretzel'],
-    '🥯': ['Bagel'],
+    '🥨': [
+        'Pretzel',
+        ':pretzel:',
+        ':brown:'
+    ],
+    '🥯': [
+        'Bagel',
+        ':bagel:',
+        ':brown:'
+    ],
     '🥞': [
         'Pannukakut',
+        ':pancakes:',
         'Kreeta',
-        'Pikkukakut'
+        'Pikkukakut',
+        ':yellow:'
     ],
     '🧀': [
         'Juuston Häät',
-        'Muikku'
+        ':cheese_wedge:',
+        'Muikku',
+        ':yellow:'
     ],
     '🍖': [
         'Luun liha',
+        ':meat_on_bone:',
         'BBQ',
         'Grilli',
-        'Mangan Liha'
+        'Mangan Liha',
+        ':red:'
     ],
     '🍗': [
         'Poultry Leg',
+        ':poultry_leg:',
         'Drumstick',
-        'Turkin Jalka'
+        'Turkin Jalka',
+        ':red:'
     ],
     '🥩': [
         'Lihan leikkaus',
+        ':cut_of_meat:',
         'Liha',
-        'Pihvi'
+        'Pihvi',
+        ':red:'
     ],
     '🥓': [
         'Pekoni',
-        'Rashers'
+        ':bacon:',
+        'Rashers',
+        ':red:'
     ],
     '🍔': [
         'Hampurilainen',
+        ':hamburger:',
         'Burger',
         'Juustojäte'
     ],
     '🍟': [
         'Ranskalainen Fries',
+        ':french_fries:',
         'Sirut',
         'Omenat',
-        'McDonald\'s Fries'
+        'McDonalds Fries',
+        ':yellow:'
     ],
     '🍕': [
         'Pizza',
+        ':pizza:',
         'Pepperoni Pizza',
-        'Pizzan viipale'
+        'Pizzan viipale',
+        ':red:'
     ],
     '🌭': [
         'Kuuma Koira',
+        ':hot_dog:',
         'Potkoira',
-        'Makkara'
+        'Makkara',
+        ':red:'
     ],
-    '🥪': ['Sandwich'],
-    '🌮': ['Taco'],
+    '🥪': [
+        'Sandwich',
+        ':sandwich:'
+    ],
+    '🌮': [
+        'Taco',
+        ':taco:'
+    ],
     '🌯': [
         'Burrito',
+        ':burrito:',
         'Rivitys'
     ],
     '🥙': [
         'Täytetty Taskukakku',
+        ':stuffed_flatbread:',
         'Doner Kebab',
         'Gyro',
         'Shawarma',
@@ -3449,57 +5450,71 @@ emojis_language[lang][6] = {
     ],
     '🍳': [
         'Ruoanlaitto',
+        ':cooking:',
         'Aamiainen',
         'Paistettu Muna',
         'Panimo Pan'
     ],
     '🥘': [
         'Matala Pan of Food',
+        ':shallow_pan_of_food:',
         'Paella',
         'Ruoan pauna'
     ],
     '🍲': [
         'Ruuan laatikko',
+        ':pot_of_food:',
         'Kulho Ruoka',
         'Keitto',
         'Varsi'
     ],
     '🥣': [
         'Kulho ja lusikka',
+        ':bowl_with_spoon:',
         'Viljakulho'
     ],
     '🥗': [
         'Vihreä Salaatti',
-        'Salaatti'
+        ':green_salad:',
+        'Salaatti',
+        ':green:'
     ],
     '🍿': [
         'Popcorn',
+        ':popcorn:',
         'Popping Maissi'
     ],
     '🧂': [
         'Suola',
-        'Suola Shaker'
+        ':salt:',
+        'Suola Shaker',
+        ':white:'
     ],
     '🥫': [
         'Säilötty Ruoka',
+        ':canned_food:',
         'Voi ruokaa',
         'Tin Voi',
         'Säilötyt Ruoat'
     ],
     '🍱': [
         'Bento Box',
+        ':bento_box:',
         'Lounas Laatikko'
     ],
     '🍘': [
         'Riisin Haltija',
+        ':rice_cracker:',
         'Haltija'
     ],
     '🍙': [
         'Riisin Pallo',
+        ':rice_ball:',
         'Onigiri'
     ],
     '🍚': [
         'Kypsennetty Riisi',
+        ':cooked_rice:',
         'Keitetty Riisi',
         'Riisi',
         'Riisin Kulho',
@@ -3507,121 +5522,154 @@ emojis_language[lang][6] = {
     ],
     '🍛': [
         'Curry Riisi',
+        ':curry_rice:',
         'Curry',
         'Intialainen Ruoka',
         'Curry ja riisi'
     ],
     '🍜': [
         'Höyryttävä Kulho',
+        ':steaming_bowl:',
         'Nuudelit',
         'Nuudelit Pikkutikkuilla',
         'Ramen'
     ],
     '🍝': [
         'Spaghetti',
+        ':spaghetti:',
         'Pasta'
     ],
     '🍠': [
         'Paahdettu Makea Peruna',
+        ':roasted_sweet_potato:',
         'Herkullinen Peruna',
         'Jamssit'
     ],
     '🍢': [
         'Oden',
+        ':oden:',
         'Kebab',
         'Skewer'
     ],
     '🍣': [
         'Sushi',
+        ':sushi:',
         'Sashimi',
-        'Merenkulku'
+        'Merenkulku',
+        ':pink:'
     ],
     '🍤': [
         'Paistettu Katkarapu',
+        ':fried_shrimp:',
         'Paistettu Katkarapu',
         'Katkarapu Tempura'
     ],
     '🍥': [
         'Kalakakku ja pyörre',
+        ':fish_cake_with_swirl:',
         'Fishcake',
         'Pink Swirl'
     ],
     '🥮': [
         'Kuun Kakku',
+        ':moon_cake:',
         'Kuun Kakku'
     ],
     '🍡': [
         'Dango',
+        ':dango:',
         'Jälkiruoka Kiinni',
         'Vaaleanpunainen Valkoinen Pallot'
     ],
     '🥟': [
         'Dumpling',
+        ':dumpling:',
         'Empanada',
         'Pierogi'
     ],
-    '🥠': ['Fortune Cookie'],
+    '🥠': [
+        'Fortune Cookie',
+        ':fortune_cookie:'
+    ],
     '🥡': [
         'Yritysosto Laatikko',
+        ':takeout_box:',
         'Kiinalainen Elintarvikelaatikko',
         'Oyster Pail'
     ],
     '🍦': [
         'Pehmeä Jäätelö',
+        ':soft_ice_cream:',
         'Whippy',
         'Pehmeä Palvelin'
     ],
     '🍧': [
         'Ravistettu Jää',
+        ':shaved_ice:',
         'Lumi Cone'
     ],
     '🍨': [
         'Jäätelö',
+        ':ice_cream:',
         'Kulho Jäätelöä',
         'Jälkiruoka'
     ],
     '🍩': [
         'Doughnut',
+        ':doughnut:',
         'Donut'
     ],
     '🍪': [
         'Eväste',
+        ':cookie:',
         'Keksit',
-        'Suklaa Chip Eväste'
+        'Suklaa Chip Eväste',
+        ':brown:'
     ],
     '🎂': [
         'Syntymäpäivä Kakku',
+        ':birthday_cake:',
         'Syntymäpäivä',
         'Kakku',
         'Kakku Kynttilällä'
     ],
     '🍰': [
         'Pikanäppäin',
+        ':shortcake:',
         'Kakku',
         'Kakku Kappale',
         'Mansikan Shortcake'
     ],
     '🧁': [
         'Cupcake',
+        ':cupcake:',
         'Fairy Kakku'
     ],
-    '🥧': ['Pieni'],
+    '🥧': [
+        'Pieni',
+        ':pie:'
+    ],
     '🍫': [
         'Suklaa Pylväs',
+        ':chocolate_bar:',
         'Karkkipalkki',
-        'Suklaa'
+        'Suklaa',
+        ':brown:'
     ],
     '🍬': [
         'Karkki',
+        ':candy:',
         'Lolly',
         'Suloinen'
     ],
     '🍭': [
         'Lollipop',
+        ':lollipop:',
         'Ikäri'
     ],
     '🍮': [
         'Custard',
+        ':custard:',
         'Creme Caramel',
         'Jälkiruoka',
         'Flantti',
@@ -3629,19 +5677,25 @@ emojis_language[lang][6] = {
     ],
     '🍯': [
         'Hunaja-ruoka',
+        ':honey_pot:',
         'Hunaja',
-        'Potti'
+        'Potti',
+        ':yellow:'
     ],
     '🍼': [
         'Vauvan Pullo',
+        ':baby_bottle:',
         'Pullon Ruokinta'
     ],
     '🥛': [
         'Maidon lasia',
-        'Maito'
+        ':glass_of_milk:',
+        'Maito',
+        ':white:'
     ],
     '☕': [
         'Kuuma Juoma',
+        ':hot_beverage:',
         'Kahvi',
         'Espresso',
         'Kuuma Suklaa',
@@ -3649,56 +5703,68 @@ emojis_language[lang][6] = {
     ],
     '🍵': [
         'Opettaja Ilman Kahvaa',
+        ':green_tea:',
         'Vihreä Tee',
         'Matcha',
-        'Vihreä Matcha Tea'
+        'Vihreä Matcha Tea',
+        ':green:'
     ],
     '🍶': [
         'Sake',
+        ':sake:',
         'Pullo',
         'Riisi Viini',
         'Sake Bottle ja Cup'
     ],
     '🍾': [
         'Pullo Popping Corkin kanssa',
+        ':champagne:',
         'Juhla',
         'Champagne',
         'Kuohuviini'
     ],
     '🍷': [
         'Viini Lasi',
+        ':wine_glass:',
         'Alkoholi',
         'Punaviini',
         'Viini'
     ],
     '🍸': [
         'Cocktail Lasi',
+        ':cocktail_glass:',
         'Cocktail',
         'Martini'
     ],
     '🍹': [
         'Trooppinen Juoma',
+        ':tropical_drink:',
         'HedelmÃ¤n Punkki',
         'Tiki-juoma'
     ],
     '🍺': [
         'Oluen Muki',
+        ':beer_mug:',
         'Olut',
-        'Olut Stein'
+        'Olut Stein',
+        ':yellow:'
     ],
     '🍻': [
         'Clinking Olut Mukit',
+        ':clinking_beer_mugs:',
         'Oluet',
         'Huijaukset'
     ],
     '🥂': [
         'Ohjattavat Lasit',
+        ':clinking_glasses:',
         'Juhla',
         'Samppanjan Lasit',
         'Huijaukset'
     ],
     '🥃': [
         'Tuuletin Lasi',
+        ':tumbler_glass:',
         'Bourbon',
         'Liquor',
         'Rum',
@@ -3707,61 +5773,122 @@ emojis_language[lang][6] = {
     ],
     '🥤': [
         'Cupin kanssa olki',
+        ':cup_with_straw:',
         'Milkshake',
         'Smoothie',
         'Sooda Pop',
         'Pehmeä Juo'
     ],
-    '🥢': ['Pikkutikkuja'],
+    '🥢': [
+        'Pikkutikkuja',
+        ':chopsticks:'
+    ],
     '🍽️': [
         'Haarukka ja veitsi levyllä',
-        'Illallinen'
+        ':fork_and_knife_with_plate:',
+        'Illallinen',
+        ':white:',
+        ':gray:',
+        ':grey:'
     ],
     '🍴': [
         'Haarukka ja veitsi',
+        ':fork_and_knife:',
         'Aterimet',
         'Veitsi Ja haarukka',
-        'Hopeaohjelmisto'
+        'Hopeaohjelmisto',
+        ':gray:',
+        ':grey:'
     ],
-    '🥄': ['Lusikka'],
-    '🧄': ['Valkosipuli'],
-    '🧅': ['Kepasipuli'],
-    '🧇': ['Waffle'],
-    '🧆': ['Falafel'],
-    '🧈': ['Voi'],
-    '🦪': ['Oyster'],
+    '🥄': [
+        'Lusikka',
+        ':spoon:',
+        ':gray:',
+        ':grey:'
+    ],
+    '🧄': [
+        'Valkosipuli',
+        ':garlic:'
+    ],
+    '🧅': [
+        'Kepasipuli',
+        ':onion:'
+    ],
+    '🧇': [
+        'Waffle',
+        ':waffle:'
+    ],
+    '🧆': [
+        'Falafel',
+        ':falafel:'
+    ],
+    '🧈': [
+        'Voi',
+        ':butter:'
+    ],
+    '🦪': [
+        'Oyster',
+        ':oyster:'
+    ],
     '🧃': [
         'Juoma Laatikko',
+        ':beverage_box:',
         'Mehiläislaatikko'
     ],
     '🧉': [
         'Mate Juo',
+        ':mate_drink:',
         'Krimin niemimaa',
         'Cimarrón',
         'Yerba Mate'
     ],
-    '🫒': ['Oliivit'],
-    '🫐': ['Pensasmustikat'],
-    '🫑': ['Äänimerkki Pepperi'],
-    '🫓': ['Taskuleipä'],
+    '🫒': [
+        'Oliivit',
+        ':olive:',
+        ':green:'
+    ],
+    '🫐': [
+        'Pensasmustikat',
+        ':blueberries:',
+        ':blue:'
+    ],
+    '🫑': [
+        'Äänimerkki Pepperi',
+        ':bell_pepper:',
+        ':green:'
+    ],
+    '🫓': [
+        'Taskuleipä',
+        ':flatbread:'
+    ],
     '🫔': [
         'Tamali',
+        ':tamale:',
         'Tamaali'
     ],
-    '🫕': ['Fondue'],
+    '🫕': [
+        'Fondue',
+        ':fondue:'
+    ],
     '🧋': [
         'Kupla Tea',
+        ':boba:',
         'Boba'
     ],
-    '🧊': ['Ice Cube'],
+    '🧊': [
+        'Ice Cube',
+        ':ice_cube:'
+    ],
     '🫘': [
         'Beans',
         'Flatulence',
-        'Coffee beans',
+        ':beans:',
+        'Kahvipavut (silpimättömät)',
         'Spill the beans'
     ],
     '🫗': [
         'Pouring Liquid',
+        ':puring_liquid:',
         'Pouring Drink',
         'Vesi'
     ]
@@ -3770,1357 +5897,1374 @@ emojis_language[lang][6] = {
 emojis_language[lang][7] = {
     '🏁': [
         'Huijatut Liput',
+        ':chequered_flag:',
         'Checkered Flag',
         'Ruudukko Tyttö',
-        'Kilpailun Lippu'
+        'Kilpailun Lippu',
+        ':black:',
+        ':white:'
     ],
     '🚩': [
         'Kolmikulmainen Lippu',
+        ':triangular_flag:',
         'Liputa kyynärpää',
         'Punainen Lippu',
-        'Kolmikulmainen lippu postitse'
+        'Kolmikulmainen lippu postitse',
+        ':red:'
     ],
     '🎌': [
         'Risteytetyt Liput',
+        ':crossed_flags:',
         'Kaksi Lippua'
     ],
     '🏴': [
         'Musta Lippu',
-        'Aaltoileva Musta Lippu'
+        ':black_flag:',
+        'Aaltoileva Musta Lippu',
+        ':black:'
     ],
     '🏳️': [
         'Valkoinen Lippu',
-        'Aaltoileva Valkoinen Lippu'
+        ':white_flag:',
+        'Aaltoileva Valkoinen Lippu',
+        ':white:'
     ],
     '🏳️‍🌈': [
         'Sateenkaaren Lippu',
+        ':rainbow_flag:',
         'Pride Flag',
         'LGBT',
         'LGBTQIA+',
         'Gay',
-        'Transgender',
+        'Transsukupuolinen',
         'Lesbian',
-        'Asexual',
+        'Aseksaalinen',
         'Queer'
     ],
     '🏳️‍⚧️': [
         'Transsukupuolinen Lippu',
+        ':transgender_flag:',
         'Sininen, vaaleanpunainen, valkoinen lippu',
         'Trans Lippu'
     ],
     '🏴‍☠️': [
         'Merirosvo Lippu',
-        'Jolly Roger'
+        ':pirate_flag:',
+        'Jolly Roger',
+        ':black:'
     ],
     '🇺🇳': [
         'Yhdistyneiden Kansakuntien lippu',
-        'YK',
+        ':un:',
         'Lippu: Yhdistyneet Kansakunnat'
     ],
     '🇪🇺': [
         'Euroopan unionin lippu',
-        'EU',
+        ':eu:',
         'Lippu: Euroopan Unioni',
         'EU Flag'
     ],
     '🇦🇨': [
         'Ascension Islandin lippu',
-        'AC'
+        ':ac:'
     ],
     '🇦🇩': [
         'Andorran lippu',
-        'AD',
+        ':ad:',
         'Andorran Flag'
     ],
     '🇦🇪': [
         'Arabiemiirikuntien lippu',
-        'AE',
+        ':ae:',
         'Emirati Flag',
         'Arabiemiirikuntien Lippu'
     ],
     '🇦🇫': [
         'Afganistanin lippu',
-        'AF',
+        ':af:',
         'Afghan Flag'
     ],
     '🇦🇬': [
         'Antigua & Barbudan lippu',
-        'AG'
+        ':ag:'
     ],
     '🇦🇮': [
         'Anguillan lippu',
-        'AI',
+        ':ai:',
         'Anguillan Lippu'
     ],
     '🇦🇱': [
         'Albanian lippu',
-        'ALV',
+        ':al:',
         'Albanian Lippu'
     ],
     '🇦🇲': [
         'Armenian lippu',
-        'AM',
-        '🇦🇲'
+        ':am:',
+        'Armenian Lippu'
     ],
     '🇦🇴': [
         'Angolan lippu',
-        'AO',
+        ':ao:',
         'Angolan Lippu'
     ],
     '🇦🇶': [
         'Antarktiksen lippu',
-        'AQ',
+        ':aq:',
         'Antarktiksen Lippu'
     ],
     '🇦🇷': [
         'Argentiinan lippu',
-        'AR',
+        ':ar:',
         'Argentiinan Lippu'
     ],
     '🇦🇸': [
         'Amerikan Samoan lippu',
-        'AS',
+        ':as:',
         'American Samoan Flag'
     ],
     '🇦🇹': [
         'Itävallan lippu',
-        'AT',
+        ':at:',
         'Austrian Flag'
     ],
     '🇦🇺': [
         'Australian lippu',
-        'AU',
+        ':au:',
         'Aussie Lippu',
         'Australian Lippu'
     ],
     '🇦🇼': [
         'Aruban lippu',
-        'AW',
+        ':aw:',
         'Aruban Lippu'
     ],
     '🇦🇽': [
         'AŽanninsaarten lippu',
-        'AX',
+        ':ax:',
         'Maan Lippu'
     ],
     '🇦🇿': [
         'Azerbaidžanin lippu',
-        'AZ',
+        ':az:',
         'Azerbaidžanin Lippu'
     ],
     '🇧🇦': [
         'Bosnia ja Hertsegovinan lippu',
-        'BA'
+        ':ba:'
     ],
     '🇧🇧': [
         'Barbadosin lippu',
-        'Bt',
+        ':bb:',
         'Barbadianin Lippu',
         'Bajan Lippu'
     ],
     '🇧🇩': [
         'Bangladeshin lippu',
-        'BD',
+        ':bd:',
         'Bangladeshi Flag'
     ],
     '🇧🇪': [
         'Belgian lippu',
-        'BE',
+        ':be:',
         'Belgian Lippu'
     ],
     '🇧🇫': [
         'Burkina Fason lippu',
-        'BF',
+        ':bf:',
         'Burkinaben Lippu'
     ],
     '🇧🇬': [
         'Bulgarian lippu',
-        'VS',
+        ':bg:',
         'Bulgarian Lippu'
     ],
     '🇧🇭': [
         'Bahrainin lippu',
-        'BH',
+        ':bh:',
         'Bahraanin Lippu',
         'Bahrainin Lippu'
     ],
     '🇧🇮': [
         'Burundin lippu',
-        'BI',
+        ':bi:',
         'Burundian Flag'
     ],
     '🇧🇯': [
         'Beninin lippu',
-        'BJ',
+        ':bj:',
         'Beninin Lippu'
     ],
     '🇧🇱': [
         'Saint Barthe- lemaatin lippu',
-        'BL',
+        ':bl:',
         'Lippu: St. Barthež lemy'
     ],
     '🇧🇲': [
         'Bermudan lippu',
-        'BM',
+        ':bm:',
         'Bermudan Flag'
     ],
     '🇧🇳': [
         'Brunein lippu',
-        'BN',
+        ':bn:',
         'Brunein Lippu'
     ],
     '🇧🇴': [
         'Bolivian lippu',
-        'BO',
+        ':bo:',
         'Bolivian Flag'
     ],
     '🇧🇶': [
         'Alankomaiden Karibian lippu',
-        'BQ',
+        ':bq:',
         'Bonaire'
     ],
     '🇧🇷': [
         'Brasilian lippu',
-        'BR',
+        ':br:',
         'Brasilian Lippu'
     ],
     '🇧🇸': [
         'Bahaman lippu',
-        'Bahaman Lippu',
-        'BS'
+        ':bs:',
+        'Bahaman Lippu'
     ],
     '🇧🇹': [
         'Bhutanin lippu',
-        'BT',
+        ':bt:',
         'Bhutanilainen Lippu'
     ],
     '🇧🇻': [
         'Bouvet Islandin lippu',
-        'BV',
+        ':bv:',
         'Lippu: Bouvet Island'
     ],
     '🇧🇼': [
         'Botswanan lippu',
-        'BW',
+        ':bw:',
         'Batswana Flag'
     ],
     '🇧🇾': [
         'Valko-Venäjän lippu',
-        'BY',
+        ':by:',
         'Valkovenäjän Lippu'
     ],
     '🇧🇿': [
         'Belizen lippu',
-        'BZ',
+        ':bz:',
         'Belizean Flag'
     ],
     '🇨🇦': [
         'Kanadan lippu',
         'Kanadan Lippu',
-        'CA'
+        ':ca:'
     ],
     '🇨🇨': [
         'Cocoksen (Keeling) saarten lippu',
-        'CC'
+        ':cc:'
     ],
     '🇨🇩': [
         'Flag of Congo - Kinshasa',
-        'CD'
+        ':cd:'
     ],
     '🇨🇫': [
         'Keski-Afrikan tasavallan lippu',
-        'CF',
+        ':cf:',
         'Keski-Afrikan Lippu'
     ],
     '🇨🇬': [
         'Kongon lippu - Brazzaville',
-        'CG'
+        ':cg:'
     ],
     '🇨🇭': [
         'Sveitsin lippu',
-        'CH',
+        ':ch:',
         'Punainen Risti',
         'Sveitsin Lippu'
     ],
     '🇨🇮': [
         'Norsunluurannikon lippu',
-        'CI',
+        ':ci:',
         'Flag: Côte d’Ivoire'
     ],
     '🇨🇰': [
         'Cookinsaarten lippu',
-        'CK',
+        ':ck:',
         'Cook Islanderin Lippu'
     ],
     '🇨🇱': [
         'Chilen lippu',
-        'CL',
+        ':cl:',
         'Chilen Lippu'
     ],
     '🇨🇲': [
         'Kamerunin lippu',
-        'CM',
+        ':cm:',
         'Kamerunin Lippu'
     ],
     '🇨🇳': [
         'Kiinan lippu',
-        'YK',
+        ':cn:',
         'Kiinan Lippu'
     ],
     '🇨🇴': [
         'Kolumbian lippu',
-        'CO',
+        ':co:',
         'Kolumbian Lippu'
     ],
     '🇨🇵': [
         'Clipperton Islandin lippu',
-        'CP',
+        ':cp:',
         'Lippu: Clipperton Island'
     ],
     '🇨🇷': [
         'Costa Rican lippu',
-        'CR',
+        ':cr:',
         'Costa Rican Lippu'
     ],
     '🇨🇺': [
         'Kuuban lippu',
-        'CU',
+        ':cu:',
         'Kuuban Lippu'
     ],
     '🇨🇻': [
         'Kap Verden lippu',
-        'CV',
+        ':cv:',
         'Kap Verdian Lippu'
     ],
     '🇨🇼': [
         'Curac- aon lippu',
-        'CW',
+        ':cw:',
         'Curaçaoan Flag'
     ],
     '🇨🇽': [
         'Joulusaaren lippu',
-        'CX',
+        ':cx:',
         'Joulusaaren Lippu'
     ],
     '🇨🇾': [
         'Kyproksen lippu',
-        'CY',
+        ':cy:',
         'Kyproksen Lippu'
     ],
     '🇨🇿': [
         'Tšekin lippu',
-        'CZ',
+        ':cz:',
         'Tšekin Lippu'
     ],
     '🇩🇪': [
         'Saksan lippu',
-        'DE',
+        ':de:',
         'Deutsch Flag',
         'Saksan Lippu'
     ],
     '🇩🇬': [
         'Diego Garcian lippu',
-        'DG',
+        ':dg:',
         'Lippu: Diego Garcia'
     ],
     '🇩🇯': [
         'Djiboutin lippu',
-        'DJ',
+        ':dj:',
         'Djibouti Flag',
         'Djiboutian Flag'
     ],
     '🇩🇰': [
         'Tanskan lippu',
-        'DK',
+        ':dk:',
         'Tanskan Lippu'
     ],
     '🇩🇲': [
         'Dominican lippu',
-        'DM'
+        ':dm:'
     ],
     '🇩🇴': [
         'Dominikaanisen tasavallan lippu',
-        'DO',
+        ':do:',
         'Dom Rep -lippu',
         'Dominikaaninen Lippu'
     ],
     '🇩🇿': [
         'Algerian lippu',
-        'DZ',
+        ':dz:',
         'Algerian Flag'
     ],
     '🇪🇦': [
         'Ceutan ja Melillan lippu',
+        ':ea:',
         'Melillan lippu',
         'Ceutan lippu',
-        'EA',
         'Flag: Ceuta & Melilla'
     ],
     '🇪🇨': [
         'Ecuadorin lippu',
-        'EC',
+        ':ec:',
         'Ecuadorian Flag'
     ],
     '🇪🇪': [
         'Viron lippu',
-        'EE',
+        ':ee:',
         'Viron Lippu'
     ],
     '🇪🇬': [
         'Egyptin lippu',
-        'EG',
+        ':eg:',
         'Egyptin Lippu'
     ],
     '🇪🇭': [
         'Länsi-Saharan lippu',
-        'EH',
+        ':eh:',
         'Länsi-Saharan Lippu'
     ],
     '🇪🇷': [
         'Eritrean lippu',
-        'ER',
+        ':er:',
         'Eritrean Flag'
     ],
     '🇪🇹': [
         'Etiopian lippu',
-        'ET',
+        ':et:',
         'Ethiopian Flag'
     ],
     '🇪🇸': [
         'Espanjan lippu',
-        'ES',
+        ':es:',
         'Espanjan Lippu'
     ],
     '🇫🇮': [
         'Suomen lippu',
-        'FI',
+        ':fi:',
         'Suomen Lippu'
     ],
     '🇫🇯': [
         'Fidžin lippu',
-        'FJ',
+        ':fj:',
         'Fijian Flag'
     ],
     '🇫🇰': [
         'Falklandin saarten lippu',
-        'FK',
+        ':fk:',
         'Falklanderin Lippu'
     ],
     '🇫🇲': [
         'Mikronesian lippu',
-        'FM',
+        ':fm:',
         'Mikronesian Lippu'
     ],
     '🇫🇴': [
         'Färsaarten lippu',
-        'FO',
+        ':fo:',
         'Faroe Islander Flag'
     ],
     '🇫🇷': [
         'Ranskan lippu',
-        'FR',
+        ':fr:',
         'Ranskan Lippu'
     ],
     '🇬🇦': [
         'Gabonin lippu',
-        'GA',
+        ':ga:',
         'Gabonin Lippu'
     ],
     '🇬🇧': [
         'Ison-Britannian lippu',
-        'Gt',
+        ':gb:',
         'Britannian Lippu',
         'Yhdistynyt Kuningaskunta',
         'Union Jack',
         'Iso-Britannia'
     ],
     '🏴󠁧󠁢󠁥󠁮󠁧󠁿󠁧󠁢󠁥󠁮󠁧󠁿': [
-        'Flag of England',
-        'St George\'s Cross',
-        'English Flag'
+        'Englannin lippu',
+        ':england:',
+        'St Georges Cross',
+        'Englannin Lippu'
     ],
     '🏴󠁧󠁢󠁷󠁬󠁳󠁿󠁧󠁢󠁷󠁬󠁳󠁿': [
-        'Flag of Wales',
-        'Welsh Flag',
-        'Red Dragon',
+        'Walesin lippu',
+        ':wales:',
+        'Walesin Lippu',
+        'Punainen Lohikäärme',
         'Baner Cymru',
         'Y Ddraig Goch'
     ],
     '🏴󠁧󠁢󠁳󠁣󠁴󠁿󠁧󠁢󠁳󠁣󠁴󠁿': [
-        'Flag of Scotland',
-        'Scottish Flag',
-        'St Andrew\'s Cross',
-        'Saltire'
+        'Skotlannin lippu',
+        ':scotland:',
+        'Skotlannin Lippu',
+        'St Andrews Cross',
+        'Saltiiri'
     ],
     '🇬🇩': [
         'Grenadan lippu',
-        'GD',
+        ':gd:',
         'Grenadian Lippu'
     ],
     '🇬🇪': [
         'Georgian lippu',
-        'GE',
+        ':ge:',
         'Georgian Lippu'
     ],
     '🇬🇫': [
         'Ranskan Guyanan lippu',
-        'GF',
+        ':gf:',
         'Ranskan Guinean Lippu'
     ],
     '🇬🇬': [
         'Guernseyn lippu',
-        'GG',
+        ':gg:',
         'Guernsey Flag'
     ],
     '🇬🇭': [
         'Ghanan lippu',
-        'GH',
+        ':gh:',
         'Ghanan Lippu'
     ],
     '🇬🇮': [
         'Gibraltarin lippu',
-        'GI',
+        ':gi:',
         'Gibraltarin Lippu'
     ],
     '🇬🇱': [
         'Grönlannin lippu',
-        'GL',
+        ':gl:',
         'Greenlandic Flag'
     ],
     '🇬🇲': [
         'Gambian lippu',
-        'GM',
+        ':gm:',
         'Gambian Flag'
     ],
     '🇬🇳': [
         'Guinean lippu',
-        'GN',
+        ':gn:',
         'Guinean Flag'
     ],
     '🇬🇵': [
         'Guadeloupen lippu',
-        'GP',
+        ':gp:',
         'Guadeloupean Lippu'
     ],
     '🇬🇶': [
         'Päiväntasaajan Guinean lippu',
-        'GQ',
+        ':gq:',
         'Equatorial Guinean Flag',
         'Equatoguinean Lippu'
     ],
     '🇬🇷': [
         'Kreikan lippu',
-        'GR',
+        ':gr:',
         'Kreikan Lippu'
     ],
     '🇬🇸': [
         'Etelä-Georgian ja eteläisten Sandwichsaarten lippu',
-        'GS'
+        ':gs:'
     ],
     '🇬🇹': [
         'Guatemalan lippu',
-        'GT',
+        ':gt:',
         'Guatemalan Flag'
     ],
     '🇬🇺': [
         'Guamin lippu',
-        'GU',
+        ':gu:',
         'Guayanan Lippu',
         'Chamorron Lippu'
     ],
     '🇬🇼': [
         'Guinea-Bissaun lippu',
-        'GW',
+        ':gw:',
         'Guinea-Bissau Flag'
     ],
     '🇬🇾': [
         'Guyanan lippu',
-        'GY',
+        ':gy:',
         'Guyanan Lippu'
     ],
     '🇭🇰': [
         'Hongkongin erityishallintoalueen Kiinan lippu',
-        'HK',
+        ':hk:',
         'Hongkongin Lippu'
     ],
     '🇭🇲': [
         'Heard & McDonald saarten lippu',
-        'HM',
+        ':hm:',
         'Lippu: Heard & McDonald Saaret'
     ],
     '🇭🇳': [
         'Hondurasin lippu',
-        'HN',
+        ':hn:',
         'Hondurasin Lippu'
     ],
     '🇭🇷': [
         'Kroatian lippu',
-        'HR',
+        ':hr:',
         'Kroatian Lippu'
     ],
     '🇭🇹': [
         'Haitin lippu',
-        'HT',
+        ':ht:',
         'Haitian Flag'
     ],
     '🇭🇺': [
         'Unkarin lippu',
-        'HU',
+        ':hu:',
         'Unkarin Lippu'
     ],
     '🇮🇨': [
         'Kanariansaarten lippu',
-        'IC'
+        ':ic:'
     ],
     '🇮🇩': [
         'Indonesian lippu',
-        'ID',
+        ':id:',
         'Indonesian Lippu'
     ],
     '🇮🇪': [
         'Irlannin lippu',
-        'IE',
+        ':ie:',
         'Irlannin Lippu'
     ],
     '🇮🇱': [
         'Israelin lippu',
-        'IL',
+        ':il:',
         'Israelin Lippu'
     ],
     '🇮🇲': [
         'Mansaaren lippu',
-        'IM',
+        ':im:',
         'Manx Flag'
     ],
     '🇮🇳': [
         'Intian lippu',
-        'SISÄLLÄ',
+        ':in:',
         'Intian Lippu'
     ],
     '🇮🇴': [
         'Brittiläisen Intian valtameren alueen lippu',
-        'IO',
+        ':io:',
         'Brittiläinen Intian Valtameren Alueen Lippu'
     ],
     '🇮🇶': [
         'Irakin lippu',
-        'IQ',
+        ':iq:',
         'Iraqi Flag'
     ],
     '🇮🇷': [
         'Iranin lippu',
-        'IR',
+        ':ir:',
         'Iranin Lippu'
     ],
     '🇮🇸': [
         'Islannin lippu',
-        'IS',
+        ':is:',
         'Islannin Lippu'
     ],
     '🇮🇹': [
         'Italian lippu',
-        'IT',
+        ':it:',
         'Italian Lippu'
     ],
     '🇯🇪': [
         'Jerseyn lippu',
-        'JE',
+        ':je:',
         'Jerseyn Lippu'
     ],
     '🇯🇲': [
         'Jamaikan lippu',
-        'JM',
+        ':jm:',
         'Jamaikan Lippu'
     ],
     '🇯🇴': [
         'Jordanian lippu',
-        'JO',
+        ':jo:',
         'Jordanian Lippu'
     ],
     '🇯🇵': [
         'Japanin lippu',
-        'JP',
+        ':jp:',
         'Japanin Lippu'
     ],
     '🇰🇪': [
         'Kenian lippu',
-        'KE',
+        ':ke:',
         'Kenian Lippu'
     ],
     '🇰🇬': [
         'Kirgisian lippu',
-        'KG',
+        ':kg:',
         'Kyrgyzstani Flag'
     ],
     '🇰🇭': [
         'Kambodžan lippu',
-        'KH',
+        ':kh:',
         'Kambodžan Lippu'
     ],
     '🇰🇮': [
         'Kiribatin lippu',
-        'KI',
+        ':ki:',
         'I-Kiribatin Lippu'
     ],
     '🇰🇲': [
         'Komorien lippu',
-        'KM',
+        ':km:',
         'Komorien Lippu'
     ],
     '🇰🇳': [
         'Saint Kitts & Nevisin lippu',
-        'KN'
+        ':kn:'
     ],
     '🇰🇵': [
         'Pohjois-Korean lippu',
-        'KP',
+        ':kp:',
         'Pohjois-Korean Lippu'
     ],
     '🇰🇷': [
         'Etelä-Korean lippu',
-        'KR',
+        ':kr:',
         'Etelä-Korean Lippu'
     ],
     '🇰🇼': [
         'Kuwaitin lippu',
-        'KW',
+        ':kw:',
         'Kuwaiti Flag'
     ],
     '🇰🇾': [
         'Caymansaarten lippu',
-        'KY',
+        ':ky:',
         'Caymanian Lippu'
     ],
     '🇰🇿': [
         'Kazakstanin lippu',
-        'KZ',
+        ':kz:',
         'Kazakhstani Flag',
         'Kazakh Flag'
     ],
     '🇱🇦': [
         'Laosin lippu',
-        'LA',
+        ':la:',
         'Laotian Lippu',
         'Lao Lippu'
     ],
     '🇱🇧': [
         'Libanonin lippu',
-        'Lt',
+        ':lb:',
         'Libanonin Lippu'
     ],
     '🇱🇨': [
         'Saint Lucian lippu',
-        'LC'
+        ':lc:'
     ],
     '🇱🇮': [
         'Liechtensteinin lippu',
-        'LI',
+        ':lt:',
         'Liechtensteinin Lippu'
     ],
     '🇱🇰': [
         'Sri Lankan lippu',
-        'LK',
+        ':lk:',
         'Sri Lankan Lippu'
     ],
     '🇱🇷': [
         'Liberian lippu',
-        'LR',
+        ':lr:',
         'Liberian Lippu'
     ],
     '🇱🇸': [
         'Flag of Lesotho',
-        'LS',
+        ':ls:',
         'Basotho Flag'
     ],
     '🇱🇹': [
         'Liettuan lippu',
-        'LT',
+        ':lt:',
         'Liettuan Lippu'
     ],
     '🇱🇺': [
         'Luxemburgin lippu',
-        'LU',
+        ':lu:',
         'Luxemburgin Lippu'
     ],
     '🇱🇻': [
         'Latvian lippu',
-        'LV',
+        ':lv:',
         'Latvian Lippu'
     ],
     '🇱🇾': [
         'Libyan lippu',
-        'LY',
+        ':ly:',
         'Libyan Lippu'
     ],
     '🇲🇦': [
         'Marokon lippu',
-        'MA',
+        ':ma:',
         'Marokon Lippu'
     ],
     '🇲🇨': [
         'Monacon lippu',
-        'MC',
+        ':mc:',
         'Rahan arvon gaskin lippu'
     ],
     '🇲🇩': [
         'Moldovan lippu',
-        'MD',
+        ':md:',
         'Moldovan Lippu'
     ],
     '🇲🇪': [
         'Montenegron lippu',
-        'MINÄ',
+        ':me:',
         'Montenegron Lippu'
     ],
     '🇲🇫': [
         'Saint Martinin lippu',
-        'MF',
+        ':mf:',
         'Flag: St. Martin'
     ],
     '🇲🇬': [
         'Madagaskarin lippu',
-        'MG',
+        ':mg:',
         'Madagascan Flag'
     ],
     '🇲🇭': [
         'Marshallinsaarten lippu',
-        'MH',
+        ':mh:',
         'Marshallin Lippu'
     ],
     '🇲🇰': [
         'Makedonian lippu',
-        'MK',
+        ':mk:',
         'Makedonian Lippu'
     ],
     '🇲🇱': [
         'Malin lippu',
-        'ML',
+        ':ml:',
         'Malin Lippu'
     ],
     '🇲🇲': [
         'Myanmarin lippu (Burma)',
-        'MM',
+        ':mm:',
         'Myanmarin Lippu',
         'Lippu Burmaan',
         'Burman Lippu'
     ],
     '🇲🇳': [
         'Mongolian lippu',
-        'MN',
+        ':mn:',
         'Mongolian Lippu'
     ],
     '🇲🇴': [
         'Macau Sar Kiinan lippu',
-        'Mi',
+        ':mo:',
         'Macaon Lippu'
     ],
     '🇲🇵': [
         'Pohjoisen Marianan lippu',
-        'MP',
+        ':mp:',
         'Mikronesian Lippu'
     ],
     '🇲🇶': [
         'Martiniquen lippu',
-        'MQ',
+        ':mq:',
         'Martiniquen käärmelippu',
         'Martiniquais Lippu'
     ],
     '🇲🇷': [
         'Mauritanian lippu',
-        'MR',
+        ':mr:',
         'Mauritanian Lippu'
     ],
     '🇲🇸': [
         'Flag of Montserrat',
-        'Jäsenvaltio',
+        ':ms:',
         'Montserratian Flag'
     ],
     '🇲🇹': [
         'Maltan lippu',
-        'MT',
+        ':mt:',
         'Maltese Flag'
     ],
     '🇲🇺': [
         'Flag of Mauritius',
-        'MU',
+        ':mu:',
         'Mauritian Lippu'
     ],
     '🇲🇻': [
         'Malediivien lippu',
-        'MV',
+        ':mv:',
         'Malediivien Lippu'
     ],
     '🇲🇼': [
         'Malawin lippu',
-        'MW',
+        ':mw:',
         'Malawian Flag'
     ],
     '🇲🇽': [
         'Meksikon lippu',
-        'MX',
+        ':mx:',
         'Meksikon Lippu'
     ],
     '🇲🇾': [
         'Malesian lippu',
-        'MINUN',
+        ':my:',
         'Malaysian Flag'
     ],
     '🇲🇿': [
         'Mosambikin lippu',
-        'MZ',
+        ':mz:',
         'Mosambikin Lippu'
     ],
     '🇳🇦': [
         'Namibian lippu',
-        'NA',
+        ':na:',
         'Namibian Flag'
     ],
     '🇳🇨': [
         'Uuden-Kaledonian lippu',
-        'NC',
+        ':nc:',
         'Uusi Kaledonin Lippu'
     ],
     '🇳🇪': [
         'Nigerin lippu',
-        'NE',
+        ':ne:',
         'Nigerin Lippu'
     ],
     '🇳🇫': [
         'Norfolk Islandin lippu',
-        'NF',
+        ':nf:',
         'Norfolkin Saaren Lippu'
     ],
     '🇳🇬': [
         'Nigerian lippu',
-        'NG',
+        ':ng:',
         'Nigerian Lippu'
     ],
     '🇳🇮': [
         'Flag of Nicaragua',
-        'NI',
+        ':ni:',
         'Nicaraguan Flag'
     ],
     '🇳🇱': [
         'Alankomaiden lippu',
-        'NL',
+        ':nl:',
         'Alankomaiden Lippu',
         'Hollanti'
     ],
     '🇳🇴': [
         'Norjan lippu',
-        'EI',
+        ':no:',
         'Norjan Lippu'
     ],
     '🇳🇵': [
         'Nepalin lippu',
-        'NP',
+        ':np:',
         'Nepalin Lippu'
     ],
     '🇳🇷': [
         'Naurun lippu',
-        'NR',
+        ':nr:',
         'Nauruan Flag'
     ],
     '🇳🇺': [
         'Niuen lippu',
-        'NU',
+        ':nu:',
         'Niuean Flag'
     ],
     '🇳🇿': [
         'Uuden-Seelannin lippu',
-        'NZ',
+        ':nz:',
         'Kiivi-lippu'
     ],
     '🇴🇲': [
         'Omanin lippu',
-        'OM',
+        ':om:',
         'Omanin Lippu'
     ],
     '🇵🇦': [
         'Panaman lippu',
-        'PA',
+        ':pa:',
         'Panaman Lippu'
     ],
     '🇵🇪': [
         'Perun lippu',
-        'PE',
+        ':pe:',
         'Perun Lippu'
     ],
     '🇵🇫': [
         'Ranskan Polynesian lippu',
-        'PF',
+        ':pf:',
         'Ranskan Polynesian Lippu'
     ],
     '🇵🇬': [
         'Papua-Uuden-Guinean lippu',
-        'PG',
+        ':pg:',
         'Png Lippu',
         'Papua New Guinean Flag'
     ],
     '🇵🇭': [
         'Filippiinien lippu',
-        'PH'
+        ':ph:'
     ],
     '🇵🇰': [
         'Pakistanin lippu',
-        'PK',
+        ':pk:',
         'Pakistanin Lippu'
     ],
     '🇵🇱': [
         'Puolan lippu',
-        'PL',
+        ':pl:',
         'Puolan Lippu'
     ],
     '🇵🇲': [
         'Saint Pierre ja Miquelonin lippu',
-        'PM'
+        ':pm:'
     ],
     '🇵🇳': [
         'Pitcairnin lippu',
-        'PN'
+        ':pn:'
     ],
     '🇵🇷': [
         'Puerto Ricon lippu',
-        'PR',
+        ':pr:',
         'Puerto Rican Lippu'
     ],
     '🇵🇸': [
         'Palestiinalaisalueiden lippu',
-        'PP',
+        ':ps:',
         'Palestine'
     ],
     '🇵🇹': [
         'Portugalin lippu',
-        'PT',
+        ':pt:',
         'Portugalin Lippu'
     ],
     '🇵🇼': [
         'Palaun lippu',
-        'PW',
+        ':pw:',
         'Palauan Lippu'
     ],
     '🇵🇾': [
         'Paraguayn lippu',
-        'PY',
+        ':py:',
         'Paraguayan Flag'
     ],
     '🇶🇦': [
         'Qatarin lippu',
-        'QA',
+        ':qa:',
         'Qatarin Lippu'
     ],
     '🇷🇪': [
         'Unionin lippu',
-        'RE',
+        ':re:',
         'Unionnais lippu'
     ],
     '🇷🇴': [
         'Romanian lippu',
-        'RO',
+        ':ro:',
         'Romanian Lippu'
     ],
     '🇷🇸': [
         'Serbian lippu',
-        'RS',
+        ':rs:',
         'Serbian Lippu'
     ],
     '🇷🇺': [
         'Venäjän lippu',
-        'RU',
+        ':ru:',
         'Venäjän Lippu'
     ],
     '🇷🇼': [
         'Flag of Rwanda',
-        'RW',
+        ':rw:',
         'Rwandan Flag'
     ],
     '🇸🇦': [
         'Saudi-Arabian lippu',
-        'SA',
+        ':sa:',
         'Saudi-Arabian Lippu'
     ],
     '🇸🇧': [
         'Salomonsaarten lippu',
-        'SB',
+        ':sb:',
         'Salomonsaaren Lippu'
     ],
     '🇸🇨': [
         'Seychellien lippu',
-        'SC',
+        ':sc:',
         'Seychellois Flag'
     ],
     '🇸🇩': [
         'Sudanin lippu',
-        'SD',
+        ':sd:',
         'Sudanese Flag'
     ],
     '🇸🇪': [
         'Ruotsin lippu',
-        'Kaakko',
+        ':se:',
         'Ruotsin Lippu'
     ],
     '🇸🇬': [
         'Singaporen lippu',
-        'SG',
+        ':sg:',
         'Singaporen Lippu'
     ],
     '🇸🇭': [
         'Saint Helenan lippu',
-        'SH'
+        ':sh:'
     ],
     '🇸🇮': [
         'Slovenian lippu',
-        'SI',
+        ':si:',
         'Slovenian Lippu'
     ],
     '🇸🇯': [
         'Huippuvuorten ja Jan Mayenin lippu',
-        'SJ'
+        ':sj:'
     ],
     '🇸🇰': [
         'Slovakian lippu',
-        'SK',
+        ':sk:',
         'Slovakian Lippu',
         'Slovakian Flag'
     ],
     '🇸🇱': [
         'Sierra Leonen lippu',
-        'SL',
+        ':sl:',
         'Sierra Leonean Flag'
     ],
     '🇸🇲': [
         'San Marinon lippu',
-        'SM',
+        ':sm:',
         'Sammariinin Lippu'
     ],
     '🇸🇳': [
         'Senegalin lippu',
-        'SN',
+        ':sn:',
         'Sengalin Lippu'
     ],
     '🇸🇴': [
         'Somalian lippu',
-        'SO',
+        ':so:',
         'Somalian Flag'
     ],
     '🇸🇷': [
         'Surinamin lippu',
-        'SR',
+        ':sr:',
         'Surinameerin Lippu'
     ],
     '🇸🇸': [
         'Etelä-Sudanin lippu',
-        'SS',
+        ':ss:',
         'Etelä-Sudanin Lippu'
     ],
     '🇸🇹': [
         'Lippu on SaŽo Tome- & PriŽncipe',
-        'ST'
+        ':st:'
     ],
     '🇸🇻': [
         'El Salvadorin lippu',
-        'SV',
+        ':sv:',
         'El Salvador Lippu'
     ],
     '🇸🇽': [
         'Sint Maartenin lippu',
-        'SX'
+        ':sx:'
     ],
     '🇸🇾': [
         'Syyrian lippu',
-        'SY',
+        ':sy:',
         'Syyrian Lippu'
     ],
     '🇸🇿': [
         'Swazimaan lippu',
-        'SZ',
+        ':sz:',
         'Eswatinin Lippu'
     ],
     '🇹🇦': [
         'Flag of Tristan Da Cunha',
-        'TA'
+        ':ta:'
     ],
     '🇹🇨': [
         'Turks- ja Caicossaarten lippu',
-        'TC'
+        ':tc:'
     ],
     '🇹🇩': [
         'Tšadin lippu',
-        'TD',
+        ':td:',
         'Tšadin Lippu'
     ],
     '🇹🇫': [
         'Ranskan eteläisten alueiden lippu',
-        'TF',
+        ':tf:',
         'Ranskan Eteläisten Maiden Lippu'
     ],
     '🇹🇬': [
         'Togon lippu',
-        'TG',
+        ':tg:',
         'Togolese Flag'
     ],
     '🇹🇭': [
         'Thaimaan lippu',
-        'TH',
+        ':th:',
         'Thaimaan Lippu'
     ],
     '🇹🇯': [
         'Tadžikistanin lippu',
-        'TJ',
+        ':tj:',
         'Tadžikistanin Lippu'
     ],
     '🇹🇰': [
         'Tokelaun lippu',
-        'TK',
+        ':tk:',
         'Tokelauan Lippu'
     ],
     '🇹🇱': [
         'Itä-Timorin ja Lesteen lippu',
-        'TL',
+        ':tl:',
         'Itä-Timorin Lippu',
         'Itä-Timorin Lippu'
     ],
     '🇹🇲': [
         'Turkmenistanin lippu',
-        'TM',
+        ':tm:',
         'Turkmen Flag'
     ],
     '🇹🇳': [
         'Tunisian lippu',
-        'TN',
+        ':tn:',
         'Tunisian Lippu'
     ],
     '🇹🇴': [
         'Tongan lippu',
-        'Päättyen',
+        ':to:',
         'Tongan Flag'
     ],
     '🇹🇷': [
         'Turkin lippu',
-        'TR',
+        ':tr:',
         'Turkin Lippu'
     ],
     '🇹🇹': [
         'Trinidad ja Tobagon lippu',
-        'TT'
+        ':tt:'
     ],
     '🇹🇻': [
         'Tuvalun lippu',
-        'Televisio',
+        ':tv:',
         'Tuvaluan Lippu'
     ],
     '🇹🇼': [
         'Taiwanin lippu',
-        'TW',
+        ':tw:',
         'Taiwanin Lippu'
     ],
     '🇹🇿': [
         'Tansanian lippu',
-        'TZ',
+        ':tz:',
         'Tanzanian Flag'
     ],
     '🇺🇦': [
         'Ukrainan lippu',
-        'UA',
+        ':ua:',
         'Ukrainan Lippu'
     ],
     '🇺🇬': [
         'Ugandan lippu',
-        'UG',
+        ':ug:',
         'Ugandan Lippu'
     ],
     '🇺🇲': [
         'Lippu: Yhdysvaltain Erillissaaret',
-        'UM'
+        ':um:'
     ],
     '🇺🇸': [
         'Amerikan yhdysvaltojen lippu',
-        'US',
+        ':us:',
         'Amerikan Lippu',
         'Yhdysvaltain Lippu'
     ],
     '🇺🇾': [
         'Flag of Uruguay',
-        'UY',
+        ':uy:',
         'Uruguayan Flag'
     ],
     '🇺🇿': [
         'Flag of Uzbekistan',
-        'UZ',
+        ':uz:',
         'Uzbekistani Flag',
         'Uzbek Flag'
     ],
     '🇻🇦': [
         'Pyhän istuimen lippu',
-        'VA',
+        ':va:',
         'Vanticanien Lippu'
     ],
     '🇻🇨': [
         'Saint Vincent & Grenadiinien lippu',
-        'VC'
+        ':vc:'
     ],
     '🇻🇪': [
         'Venezuelan lippu',
-        'VE',
+        ':ve:',
         'Venezuelan Lippu'
     ],
     '🇻🇬': [
         'Brittiläisten Neitsytsaarten lippu',
-        'VG',
+        ':vg:',
         'Brittiläisen Neitsytsaaren Lippu'
     ],
     '🇻🇮': [
         'Yhdysvaltain Neitsytsaarten lippu',
-        'VI',
+        ':vi:',
         'Yhdysvaltain Neitsytsaaren Lippu'
     ],
     '🇻🇳': [
         'Vietnamin lippu',
-        'VN',
+        ':vn:',
         'Vietnamin Lippu'
     ],
     '🇻🇺': [
         'Flag of Vanuatu',
-        'VU',
+        ':vu:',
         'Ni-Vanuatu Flag'
     ],
     '🇼🇫': [
         'Wallis & Futunan lippu',
-        'WF'
+        ':wf:'
     ],
     '🇼🇸': [
         'Samoan lippu',
-        'WS',
+        ':ws:',
         'Samoan Flag'
     ],
     '🇽🇰': [
         'Kosovon lippu',
-        'XK',
+        ':xk:',
         'Kosovar Flag'
     ],
     '🇾🇪': [
         'Jemenin lippu',
-        'YE',
+        ':ye:',
         'Jemenin Lippu'
     ],
     '🇾🇹': [
         'Mayotten lippu',
-        'YT',
+        ':yt:',
         'Mayotten Lippu'
     ],
     '🇿🇦': [
         'Etelä-Afrikan lippu',
-        'ZA',
+        ':za:',
         'Etelä-Afrikan Lippu'
     ],
     '🇿🇲': [
         'Sambian lippu',
-        'ZM',
+        ':zm:',
         'Zambian Flag'
     ],
     '🇿🇼': [
         'Zimbabwen lippu',
-        'ZW',
+        ':zw:',
         'Zimbabwen Lippu',
         'Zim Lippu'
     ]
@@ -5128,222 +7272,456 @@ emojis_language[lang][7] = {
 /*sports*/
 emojis_language[lang][8] = {
     '🧗{{skin_tone}}‍♂️': [
-        'Man Climbing',
-        'Male Rock Climber',
-        'Man Climber'
+        'Mies Kiipeily',
+        ':man_climbing:',
+        ':climbing:',
+        'Mies Rock Climber',
+        'Mies Kiipeilijä',
+        ':man:'
     ],
     '🧗{{skin_tone}}‍♀️': [
-        'Woman Climbing',
-        'Female Rock Climber',
-        'Woman Climber'
+        'Nainen Kiipeily',
+        ':woman_climbing:',
+        ':climbing:',
+        'Nainen Rock Climber',
+        'Nainen Kiipeilijä',
+        ':woman:'
     ],
     '🧗{{skin_tone}}': [
-        'Person Climbing',
-        'Person Rock Climber',
-        'Person Climber'
+        'Henkilö Kiipeily',
+        ':person_climbing:',
+        ':climbing:',
+        'Henkilö Rock Climber',
+        'Henkilö Climber',
+        ':person:'
     ],
     '🏇{{skin_tone}}': [
-        'Horse Racing',
-        'Horse Race',
-        'Jockey'
+        'Hevonen Racing',
+        ':horse_racing:',
+        'Hevosen Rotu',
+        'Pitsi'
     ],
-    '⛷{{skin_tone}}‍️': ['Hiihtäjä'],
-    '🏂{{skin_tone}}‍': ['Snowboarder'],
-    '🏌️{{skin_tone}}‍♂️': ['Man Golfer'],
-    '🏌️{{skin_tone}}‍♀️': ['Nainen Golfer'],
-    '🏌️{{skin_tone}}': ['Person Golfer'],
-    '🏄{{skin_tone}}‍♂️': ['Ihmisen Surferi'],
-    '🏄{{skin_tone}}‍♀️': ['Nainen Surfer'],
-    '🏄{{skin_tone}}': ['Person Surfer'],
-    '🚣{{skin_tone}}‍♂️': ['Man Rowing Boat'],
-    '🚣{{skin_tone}}‍♀️': ['Woman Rowing Boat'],
-    '🚣{{skin_tone}}': ['Person Rowing Boat'],
+    '⛷{{skin_tone}}‍️': [
+        'Hiihtäjä',
+        ':skier:'
+    ],
+    '🏂{{skin_tone}}‍': [
+        'Snowboarder',
+        ':snowboarder:'
+    ],
+    '🏌️{{skin_tone}}‍♂️': [
+        'Man Golfer',
+        ':man_golfer:',
+        ':golfer:',
+        ':man:'
+    ],
+    '🏌️{{skin_tone}}‍♀️': [
+        'Nainen Golfer',
+        ':woman_golfer:',
+        ':golfer:',
+        ':woman:'
+    ],
+    '🏌️{{skin_tone}}': [
+        'Henkilö Golfer',
+        ':person_golfer:',
+        ':golfer:',
+        ':person:'
+    ],
+    '🏄{{skin_tone}}‍♂️': [
+        'Ihmisen Surferi',
+        ':man_surfer:',
+        ':surfer:',
+        ':man:'
+    ],
+    '🏄{{skin_tone}}‍♀️': [
+        'Nainen Surfer',
+        ':woman_surfer:',
+        ':surfer:',
+        ':woman:'
+    ],
+    '🏄{{skin_tone}}': [
+        'Henkilö Surfer',
+        ':person_surfer:',
+        ':surfer:',
+        ':person:'
+    ],
+    '🚣{{skin_tone}}‍♂️': [
+        'Miehen Soutuvene',
+        ':man_rowing_boat:',
+        ':rowing_boat:',
+        ':man:'
+    ],
+    '🚣{{skin_tone}}‍♀️': [
+        'Nainen Soutuvene',
+        ':woman_rowing_boat:',
+        ':rowing_boat:',
+        ':woman:'
+    ],
+    '🚣{{skin_tone}}': [
+        'Henkilö Soutuvene',
+        ':person_rowing_boat:',
+        ':rowing_boat:',
+        ':person:'
+    ],
     '🏊{{skin_tone}}‍♂️': [
-        'Man Swimming',
-        'Man Swimmer'
+        'Miehen Uinti',
+        ':man_swimming:',
+        ':swimming:',
+        'Mies Uima',
+        ':man:'
     ],
     '🏊{{skin_tone}}‍♀️': [
-        'Woman Swimming',
-        'Woman Swimmer'
+        'Nainen Uinti',
+        ':woman_swimming:',
+        ':swimming:',
+        'Nainen Uima',
+        ':woman:'
     ],
     '🏊{{skin_tone}}': [
-        'Woman Swimming',
-        'Person Swimmer'
+        'Henkilö Uinti',
+        ':person_swimming:',
+        ':swimming:',
+        'Henkilö Uimari',
+        ':person:'
     ],
     '⛹{{skin_tone}}‍️‍♂️': [
         'Miehen Pallo',
-        'Man Koripallo Pelaaja'
+        ':man_bouncing_ball:',
+        ':bouncing_ball:',
+        'Man Koripallo Pelaaja',
+        ':man:'
     ],
     '⛹️{{skin_tone}}‍♀️': [
         'Nainen Bouncing Ball',
-        'Nainen Koripallo Pelaaja'
+        ':woman_bouncing_ball:',
+        ':boucing_ball:',
+        'Nainen Koripallo Pelaaja',
+        ':woman:'
     ],
     '⛹️{{skin_tone}}': [
-        'Person Bouncing Ball',
-        'Person Basketball Player'
+        'Henkilö Bouncing Ball',
+        ':person_bouncing_ball:',
+        ':boucing_ball:',
+        'Henkilö Koripallo Pelaaja',
+        ':person:'
     ],
     '🏋️{{skin_tone}}‍♂️': [
         'Mies Nostopainot',
-        'Miehen Painonnostin'
+        ':man_lifting_weights:',
+        ':lifting_weights:',
+        'Miehen Painonnostin',
+        ':man:'
     ],
     '🏋️{{skin_tone}}‍♀️': [
         'Naisen Nostopainot',
-        'Naisen Painonnostaja'
+        ':woman_lifting_weights:',
+        ':lifting_weights:',
+        'Naisen Painonnostaja',
+        ':woman:'
     ],
     '🏋️{{skin_tone}}': [
-        'Person Lifting Weights',
-        'Person Weightlifter'
+        'Henkilö Nostopainot',
+        ':person_lifting_weights:',
+        ':lifting_weights:',
+        'Henkilö Painonnostaja',
+        ':person:'
     ],
     '🚴{{skin_tone}}‍♂️': [
         'Miehen Pyöräily',
+        ':man_biking:',
+        ':biking:',
         'Man Cyclist',
-        'Miehen Pyöräily'
+        'Miehen Pyöräily',
+        ':man:'
     ],
     '🚴{{skin_tone}}‍♀️': [
         'Nainen Pyöräily',
+        ':woman_biking:',
+        ':biking:',
         'Nainen Syklisti',
-        'Naisen Syklisti'
+        'Naisen Syklisti',
+        ':woman:'
     ],
     '🚴{{skin_tone}}': [
-        'Person Biking',
-        'Person Cyclist',
-        'Person Cyclist'
+        'Henkilön Pyöräily',
+        ':person_biking:',
+        ':biking:',
+        'Henkilö Pyöräilijä',
+        'Henkilö Pyöräilijä',
+        ':person:'
     ],
     '🚵{{skin_tone}}‍♂️': [
         'Miehen Vuorten Pyöräily',
-        'Man Mountain Biker'
+        ':man_mountain_bike:',
+        ':mountain_bike:',
+        'Man Mountain Biker',
+        ':man:'
     ],
     '🚵{{skin_tone}}‍♀️': [
         'Naisen Vuorten Pyöräily',
-        'Nainen Vuorikiipeilijä'
+        ':woman_mountain_bike:',
+        ':mountain_bike:',
+        'Nainen Vuorikiipeilijä',
+        ':woman:'
     ],
     '🚵{{skin_tone}}': [
-        'Person Mountain Biking',
-        'Person Mountain Biker'
+        'Henkilö Vuorten Pyöräily',
+        ':person_mountain_bike:',
+        ':mountain_bike:',
+        'Henkilö Vuorikiipeilijä',
+        ':person:'
     ],
     '🤸{{skin_tone}}‍♂️': [
         'Man Cartwheeling',
-        'Man Doing Cartwheel'
+        ':man_cartwheeling:',
+        ':cartwheeling:',
+        'Man Doing Cartwheel',
+        ':man:'
     ],
     '🤸{{skin_tone}}‍♀️': [
         'Naisen Rintapyöräily',
-        'Nainen Ajopyörä'
+        ':woman_cartwheeling:',
+        ':cartwheeling:',
+        'Nainen Ajopyörä',
+        ':woman:'
     ],
     '🤸{{skin_tone}}': [
-        'Person Cartwheeling',
-        'Person Doing Cartwheel'
+        'Henkilö Pyöräily',
+        ':person_cartwheeling:',
+        ':cartwheeling:',
+        'Henkilö Ostoskori',
+        ':person:'
     ],
     '🤼‍♂️': [
-        'Men Wrestling',
-        'Wrestling',
-        'Wrestlers'
+        'Miehet Paini',
+        ':men_wrestling:',
+        ':wrestling:',
+        'Paini',
+        'Painit',
+        ':man:'
     ],
     '🤼‍♀️': [
-        'Women Wrestling',
-        'Wrestling',
-        'Wrestlers'
+        'Naiset Paini',
+        ':women_wrestling:',
+        ':wrestling:',
+        'Paini',
+        'Painit',
+        ':woman:'
     ],
     '🤼': [
         'Ihmiset Paini',
+        ':people_wrestling:',
+        ':wrestling:',
         'Paini',
-        'Painit'
+        'Painit',
+        ':person:'
     ],
-    '🤽{{skin_tone}}‍♂️': ['Mies Playing Water Polo'],
-    '🤽{{skin_tone}}‍♀️': ['Nainen Leikkii Vesi Polo'],
-    '🤽{{skin_tone}}': ['Person Playing Water Polo'],
-    '🤾{{skin_tone}}‍♂️': ['Mies Soi Käsipallo'],
-    '🤾{{skin_tone}}‍♀️': ['Nainen Pelaa Käsipalloa'],
-    '🤾{{skin_tone}}': ['Person Playing Handball'],
+    '🤽{{skin_tone}}‍♂️': [
+        'Mies Playing Water Polo',
+        ':man_playing_water_polo:',
+        ':playing_water_polo:',
+        ':man:'
+    ],
+    '🤽{{skin_tone}}‍♀️': [
+        'Nainen Leikkii Vesi Polo',
+        ':woman_playing_water_polo:',
+        ':playing_water_polo:',
+        ':woman:'
+    ],
+    '🤽{{skin_tone}}': [
+        'Henkilö Leikkii Vesi Polo',
+        ':person_playing_water_polo:',
+        ':playing_water_polo:',
+        ':person:'
+    ],
+    '🤾{{skin_tone}}‍♂️': [
+        'Mies Soi Käsipallo',
+        ':man_playing_handball:',
+        ':playing_handball:',
+        ':man:'
+    ],
+    '🤾{{skin_tone}}‍♀️': [
+        'Nainen Pelaa Käsipalloa',
+        ':woman_playing_handball:',
+        ':playing_handball:',
+        ':woman:'
+    ],
+    '🤾{{skin_tone}}': [
+        'Henkilö Käsipallon Pelissä',
+        ':person_playing_handball:',
+        ':playing_handball:',
+        ':person:'
+    ],
     '🤹{{skin_tone}}‍♂️': [
         'Mies Juggling',
-        'Mies Juggler'
+        ':man_juggling:',
+        ':juggling:',
+        'Mies Juggler',
+        ':man:'
     ],
     '🤹{{skin_tone}}‍♀️': [
         'Nainen Juggling',
-        'Nainen Juggler'
+        ':woman_juggling:',
+        ':juggling:',
+        'Nainen Juggler',
+        ':woman:'
     ],
     '🤹{{skin_tone}}': [
-        'Person Juggling',
-        'Person Juggler'
+        'Henkilö Juggling',
+        ':person_juggling:',
+        ':juggling:',
+        'Henkilö Juggler',
+        ':person:'
     ],
     '🧘{{skin_tone}}‍♂️': [
         'Mies Lotussijainnissa',
+        ':man_lotus_position:',
+        ':lotus_position:',
         'Meditaatio',
         'Zen',
         'Ristikko jalkainen',
-        'Jooga'
+        'Jooga',
+        ':man:'
     ],
     '🧘{{skin_tone}}‍♀️': [
         'Nainen Lotus-asennossa',
+        ':woman_lotus_position:',
+        ':lotus_position:',
         'Meditaatio',
         'Zen',
         'Ristikko jalkainen',
-        'Jooga'
+        'Jooga',
+        ':woman:'
     ],
     '🧘{{skin_tone}}': [
-        'Person in Lotus Position',
-        'Meditation',
+        'Henkilö Lotus-asennossa',
+        ':person_lotus:_sijainti',
+        ':lotus_position:',
+        'Meditaatio',
         'Zen',
-        'Cross legged',
-        'Yoga'
+        'Ristikko jalkainen',
+        'Jooga',
+        ':person:'
     ],
-    '🏃{{skin_tone}}‍♂️': ['Mies Käynnissä'],
-    '🏃{{skin_tone}}‍♀️': ['Nainen Käynnissä'],
-    '🏃{{skin_tone}}': ['Person Running'],
-    '🕺{{skin_tone}}': ['Man Dancing'],
-    '💃{{skin_tone}}': ['Woman Dancing'],
+    '🏃{{skin_tone}}‍♂️': [
+        'Mies Käynnissä',
+        ':man_running:',
+        ':running:',
+        ':man:'
+    ],
+    '🏃{{skin_tone}}‍♀️': [
+        'Nainen Käynnissä',
+        ':woman_running:',
+        ':running:',
+        ':woman:'
+    ],
+    '🏃{{skin_tone}}': [
+        'Henkilö Käynnissä',
+        ':person_running:',
+        ':running:',
+        ':person:'
+    ],
+    '🕺{{skin_tone}}': [
+        'Mies Tanssi',
+        ':man_dancing:',
+        ':dancing:',
+        ':man:'
+    ],
+    '💃{{skin_tone}}': [
+        'Nainen Tanssi',
+        ':woman_dancing:',
+        ':dancing:',
+        ':woman:'
+    ],
     '🤺': [
         'Henkilö Miekkailu',
-        'Fancer'
+        ':person_fencing:',
+        'Fancer',
+        ':fencing:'
     ],
     '🏆': [
         'Palkinto',
+        ':trophy:',
         'Mestaruus',
-        'Voittaja'
+        'Voittaja',
+        ':gold:',
+        ':yellow:'
     ],
-    '🏅': ['Urheilu Mitali'],
+    '🏅': [
+        'Urheilu Mitali',
+        ':sports_medal:',
+        ':medal:',
+        ':gold:',
+        ':yellow:'
+    ],
     '🥇': [
         '1. Paikkamitali',
+        ':first_place_medal:',
+        ':gold_medal:',
         'Ensimmäisen Paikan Mitali',
-        'Kultainen Mitali'
+        'Kultainen Mitali',
+        ':yellow:',
+        ':gold:'
     ],
     '🥈': [
         '2. Paikka Mitali',
+        ':second_place_medal:',
+        ':silver_medal:',
         'Toisen Paikan Mitali',
-        'Hopea Mitaali'
+        'Hopea Mitaali',
+        ':gray:',
+        ':grey:',
+        ':silver:'
     ],
     '🥉': [
         'Kolmas Paikkamitali',
+        ':third_place_medal:',
+        ':bronze_medal:',
         'Kolmannen Paikan Mitali',
-        'Pronssimitali'
+        'Pronssimitali',
+        ':brown:',
+        ':bronze:'
     ],
     '⚽': [
         'Jalkapallo',
-        'Jalkapallo'
+        ':football:',
+        'Jalkapallo',
+        ':white:',
+        ':black:'
     ],
     '⚾': [
         'Baseball',
+        ':baseball:',
         'Pehmeäpallo',
-        'Valkoinen'
+        ':white:'
     ],
     '🥎': [
         'Pehmeäpallo',
-        'Keltainen'
+        ':softball:',
+        ':yellow:'
     ],
     '🏀': [
         'Koripallo',
-        'Oranssi',
+        ':basketball:',
+        ':orange:',
         'Koripallo ja koukku'
     ],
-    '🏐': ['Lentopallo'],
+    '🏐': [
+        'Lentopallo',
+        ':volleyball:',
+        ':white:'
+    ],
     '🏈': [
         'Amerikkalainen Jalkapallo',
+        ':american_football:',
         'Jalkapallo',
         'Gridiron',
-        'Yläkulho'
+        'Yläkulho',
+        ':brown:'
     ],
     '🏉': [
         'Rugby Jalkapallo',
+        ':rugby:',
         'Jalkapallo',
         'Liiga',
         'Rugby',
@@ -5351,111 +7729,159 @@ emojis_language[lang][8] = {
     ],
     '🎾': [
         'Tennis',
+        ':tennis:',
+        ':ball:',
         'Pallo',
         'Racket',
-        'Racquet'
+        'Racquet',
+        ':yellow:'
     ],
     '🥏': [
         'Lentävä Levy',
+        ':flying_disk:',
         'Frisbee'
     ],
     '🎳': [
         'Keilailu',
+        ':bowling:',
         'Pinssit',
         'Sarjakuvat',
         'Keilailu Kymmenen Pin-Keilausta'
     ],
     '🏏': [
         'Kriketti',
+        ':cricket:',
         'Lepakko',
         'Pallo'
     ],
     '🏑': [
         'Kenttä Jääkiekko',
+        ':field_hockey:',
         'Pallo',
         'Kiinni'
     ],
     '🏒': [
         'Jääkiekko Jääkiekko',
+        ':ice_hockey:',
         'Pallo',
         'Kiinni'
     ],
     '🥍': [
         'Lacrosse',
+        ':lacrosse:',
         'Pallo',
-        'Kiinni'
+        'Kiinni',
+        ':red:'
     ],
     '🏓': [
         'Ping Pong',
+        ':ping_pong:',
+        ':table_tennis:',
         'Taulukko Tennis',
         'Pallo',
         'Paddle'
     ],
     '🏸': [
         'Badminton',
+        ':badminton:',
         'Sulkumäki',
         'Racquet'
     ],
-    '🥊': ['Nyrkkeilyhanska'],
+    '🥊': [
+        'Nyrkkeilyhanska',
+        ':boxing_glove:',
+        ':red:'
+    ],
     '🥋': [
         'Martial Arts Uniform',
+        ':martial_arts_uniform:',
+        ':judo:',
+        ':karate:',
+        ':kung_fu:',
         'Judo',
         'Karaatti',
         'Kung fu'
     ],
     '⛳': [
         'Merkitse aukkoon',
+        ':flag_in_hole:',
+        ':golf_flag:',
         'Golf Lippu'
     ],
     '⛸️': [
         'Jään Luistelu',
+        ':ice_skate:',
         'Luistelu'
     ],
     '🎣': [
         'Kalastus',
+        ':fishing:',
         'Pole',
         'Kala',
         'Turskan Kalastustangot'
     ],
     '🎽': [
         'Juoksu Paita',
+        ':running_shirt:',
         'Singlet',
         'Jakso'
     ],
     '🎿': [
         'Sketit',
+        ':skis:',
         'Hiihto',
         'Käynnistys'
     ],
-    '🛷': ['Sled'],
-    '🥌': ['Curling Kivi'],
+    '🛷': [
+        'Sled',
+        ':sled:'
+    ],
+    '🥌': [
+        'Curling Kivi',
+        ':curling_stone:'
+    ],
     '🎯': [
         'Suora Osuma',
+        ':direct_hit:',
         'Jousiammunta',
         'Bullseye',
         'Tikka'
     ],
     '🎱': [
         'Pool 8 -pallo',
+        ':pool_8_ball:',
         'Cue Pallo',
         'Torkutin',
-        'Biljardi'
+        'Biljardi',
+        ':black:'
     ],
     '🎮': [
         'Videopeliohjain',
+        ':video_game_controller:',
+        ':playstation:',
+        ':xbox:',
         'Playstaatio',
         'Xbox',
         'Peliohjain',
         'Wii U'
     ],
-    '♟️': ['Musta Shakki Sotilas'],
+    '♟️': [
+        'Musta Shakki Sotilas',
+        ':black_chess_pawn:',
+        ':black:'
+    ],
     '🏹': [
         'Jousi ja nuoli',
+        ':arch:',
         'Kaari'
     ],
-    '🥅': ['Tavoite Netto'],
+    '🥅': [
+        'Tavoite Netto',
+        ':goal_net:'
+    ],
     '🀄': [
         'Mahjong Punainen Lohikäärme',
+        ':mahjong:',
         'Mahjong',
         'Mahjong Tile',
         '中',
@@ -5463,6 +7889,7 @@ emojis_language[lang][8] = {
     ],
     '🎴': [
         'Kukka Pelikortit',
+        ':flower_playing_cards:',
         'Korttien Paketti',
         'Hanafuda',
         'Hwatu',
@@ -5473,259 +7900,385 @@ emojis_language[lang][8] = {
 emojis_language[lang][9] = {
     '🚂': [
         'Steamin Veturi',
+        ':steam_train:',
         'Steamin Juna',
         'Rautateiden Veturi'
     ],
     '🚃': [
         'Rautateiden Autot',
+        ':railway_car:',
         'Rautatie',
         'Raideliikenteen Autot',
         'Rautateiden Kuljetus',
         'Rautatievaunu Reg.'
     ],
-    '🚄': ['Suurnopeusjuna'],
+    '🚄': [
+        'Suurnopeusjuna',
+        ':high_speed_train:'
+    ],
     '🚅': [
         'Luotien Juna',
+        ':bullet_train:',
         'Shinkansen',
         'Suurnopeusjuna Bullet Nose -laitteella'
     ],
-    '🚆': ['Juna'],
+    '🚆': [
+        'Juna',
+        ':train:'
+    ],
     '🚇': [
         'Maanalainen',
+        ':underground:',
         'Putki',
         'Metro',
         'Metro'
     ],
     '🚈': [
         'Kevyt Rautatie',
+        ':light_rail:',
         'Juna'
     ],
-    '🚊': ['Raitiovaunut'],
+    '🚊': [
+        'Raitiovaunut',
+        ':tram:'
+    ],
     '🚝': [
         'Monorail',
+        ':monorail:',
         'Juna'
     ],
     '🚞': [
         'Vuorten Rautatie',
+        ':mountain_railway:',
         'Funicular',
         'Juna Ja Vuori'
     ],
-    '🚋': ['Raitiovaunu Auto'],
+    '🚋': [
+        'Raitiovaunu Auto',
+        ':tram_car:'
+    ],
     '🚌': [
         'Bussi',
+        ':bus:',
         'Valmentaja'
     ],
     '🚍': [
         'Saapuva Väylä',
+        ':front_of_bus:',
         'Linja-autoliikenteen ETU'
     ],
     '🚎': [
         'Vaunu',
+        ':trolleybus:',
         'Elektroninen Väylä'
     ],
     '🚐': [
         'Minibus',
+        ':minibus:',
         'Minivini',
         'Ihmiset-Mover'
     ],
-    '🚑': ['Ambulanssi'],
+    '🚑': [
+        'Ambulanssi',
+        ':ambulance:'
+    ],
     '🚒': [
         'Tulimoottori',
+        ':fire_engine:',
         'Tuli Osasto',
         'Kuorma-auto Reg.'
     ],
     '🚓': [
         'Poliisi Auto',
+        ':police_car:',
         'Cop Auto',
         'Police Car Side'
     ],
     '🚔': [
         'Tuleva Poliisiauto',
+        ':front_of_police_car:',
         'Poliisiauton etuosa',
         'Cop Auto'
     ],
     '🚕': [
         'Taksi',
+        ':taxi:',
         'New York Taksi',
         'Taksin Sivu'
     ],
     '🚖': [
         'Taksi',
+        ':front_of_taxi:',
         'Saapuva Taksi',
         'Taksin etupuoli'
     ],
     '🚗': [
         'Auto',
+        ':car:',
         'Punainen Auto',
-        'Auton Sivu'
+        'Auton Sivu',
+        'Auto'
     ],
     '🚘': [
         'Saapuva Automobile',
+        ':front_of_car:',
         'Punainen Auto',
         'Auton Etupuoli'
     ],
     '🚚': [
         'Toimitus Truck',
+        ':lorry:',
         'Kuorma'
     ],
     '🚛': [
         'Nivelöity Kuorma',
+        ':articulated_lorry:',
         'Vihreä Kuorma-auto'
     ],
     '🚜': [
         'Traktori',
+        ':tractor:',
         'Maatila'
     ],
-    '🛻': ['Nouto Truck'],
+    '🛻': [
+        'Nouto Truck',
+        ':pickup_truck:'
+    ],
     '🏎️': [
         'Racing Car',
+        ':racing_car:',
         'F1',
         'Kaava 1',
         'Kilpa-auto'
     ],
     '🏍️': [
         'Moottoripyörä',
+        ':motorbike:',
         'Moottoripyörä'
     ],
     '🛵': [
         'Moottoripotkulauta',
+        ':motor_scooter:',
         'Vespa',
         'Moottoripyörä',
         'Moottoripyörä'
     ],
     '🛺': [
         'Automaattinen Rickshaw',
+        ':auto_rickshaw:',
         'Tuk Tuk'
     ],
     '🚲': [
         'Polkupyörä',
+        ':bike:',
         'Pyörä'
     ],
-    '🛴': ['Potkulauta'],
+    '🛴': [
+        'Potkulauta',
+        ':kick_scooter:'
+    ],
     '⛵': [
         'Purjevene',
+        ':sailboat:',
         'Dinghy',
         'Jahti'
     ],
     '🚤': [
         'Nopeusvene',
+        ':speedboat:',
         'Moottorivene',
         'Moottorivene'
     ],
-    '🛳️': ['Matkustajan Alus'],
-    '⛴️': ['Lautta'],
-    '🛥️': ['Moottorivene'],
-    '🚢': ['Risteilyalus'],
+    '🛳️': [
+        'Matkustajan Alus',
+        ':passenger_ship:'
+    ],
+    '⛴️': [
+        'Lautta',
+        ':ferry:'
+    ],
+    '🛥️': [
+        'Moottorivene',
+        ':motor_boat:'
+    ],
+    '🚢': [
+        'Risteilyalus',
+        ':cruise_ship:'
+    ],
     '✈️': [
         'Lentokone',
+        ':airplane:',
         'Aeroplane'
     ],
     '🛩️': [
         'Pieni Lentokone',
+        ':small_airplane:',
         'Pieni Lentokone'
     ],
-    '🚁': ['Helikopteri'],
-    '🚟': ['Keskeytys Rautatie'],
-    '🚠': ['Vuoristoköysirata'],
+    '🚁': [
+        'Helikopteri',
+        ':helicopter:'
+    ],
+    '🚟': [
+        'Keskeytys Rautatie',
+        ':suspension_railway:'
+    ],
+    '🚠': [
+        'Vuoristoköysirata',
+        ':mountain_cableway:'
+    ],
     '🚡': [
         'Aerial Tramway',
+        ':aerial_tramway:',
         'Kaapelin Auto',
         'Gondola',
         'Ropeway'
     ],
-    '🛰️': ['Satelliitti'],
+    '🛰️': [
+        'Satelliitti',
+        ':satellite:'
+    ],
     '🚀': [
         'Raketti',
+        ':rocket:',
         'Avaruussulku'
     ],
     '🛸': [
         'Lentävä Saucer',
+        ':flying_saucer:',
         'UFO'
     ],
     '🚉': [
         'Junan Asema',
+        ':train_station:',
         'Juna Alusta'
     ],
-    '🚏': ['Bussin Pysäytys'],
+    '🚏': [
+        'Bussin Pysäytys',
+        ':bus_stop:'
+    ],
     '🛣️': [
         'Moottoritie',
+        ':motorway:',
         'Tie',
         'Valtatie',
         'Interstate'
     ],
-    '🛤️': ['Rautateiden Rata'],
+    '🛤️': [
+        'Rautateiden Rata',
+        ':railway_track:'
+    ],
     '🛫': [
         'Lentokoneen Lähtö',
+        ':airplane_departure:',
         'Ota Pois'
     ],
     '🛬': [
         'Lentokoneen Saapuminen',
+        ':airplane_arrival:',
         'Lentokone Saapuminen',
         'Lasku'
     ],
-    '🗾': ['Japanin kartta'],
-    '⛰️': ['Vuori'],
-    '🏔️': ['Lumikivitetty Vuori'],
-    '🌋': ['Tulivuori'],
+    '🗾': [
+        'Japanin kartta',
+        ':map_of_japan:'
+    ],
+    '⛰️': [
+        'Vuori',
+        ':mountain:'
+    ],
+    '🏔️': [
+        'Lumikivitetty Vuori',
+        ':snow_capped_mountain:'
+    ],
+    '🌋': [
+        'Tulivuori',
+        ':volcano:'
+    ],
     '🗻': [
         'Yhdistä Fuji',
+        ':mount_fuji:',
         'Fuji-san'
     ],
     '🏕️': [
         'Telttailu',
+        ':camping:',
         'Leirintäalue'
     ],
-    '🏖️': ['Ranta Sateenvarjo'],
-    '🏜️': ['Desert'],
-    '🏝️': ['Aavikko Saari'],
-    '🏞️': ['Kansallispuisto'],
+    '🏖️': [
+        'Ranta Sateenvarjo',
+        ':beach_with_umbrella:'
+    ],
+    '🏜️': [
+        'Desert',
+        ':desert:'
+    ],
+    '🏝️': [
+        'Aavikko Saari',
+        ':desert_island:'
+    ],
+    '🏞️': [
+        'Kansallispuisto',
+        ':national_park:'
+    ],
     '🏟️': [
         'Stadium',
+        ':stadium:',
         'Isokasvi',
         'Urheilu Stadium'
     ],
     '🏛️': [
         'Klassinen Rakennus',
+        ':classical_building:',
         'Kreikka',
         'Rooma'
     ],
     '🏗️': [
         'Rakennusten Rakentaminen',
+        ':building_construction:',
         'Nosturi'
     ],
     '🏘️': [
         'Talot Rakennukset',
+        ':houses_building:',
         'Talon ryhmä'
     ],
     '🏚️': [
         'Derelict House -rakennus',
+        ':old_house:',
         'Hylätty Talo',
         'Vanha Talo',
         'Haunattu Talo'
     ],
     '🏠': [
         'Koti',
+        ':home:',
         'Talon Rakennus'
     ],
     '🏡': [
         'Talo Puutarhalla',
+        ':house_with_garden:',
         'Talo Ja Puu'
     ],
     '🏢': [
         'Toimiston Rakennus',
+        ':office_building:',
         'Kaupungin Rakennus',
         'Korkea Nousu'
     ],
     '🏣': [
         'Japanin Postitoimisto',
+        ':japanese_post_office:',
         'Japanin Postimerkki'
     ],
     '🏤': [
         'Posti Toimisto',
+        ':european_post_office:',
         'Euroopan Postitoimisto'
     ],
     '🏥': [
         'Sairaala',
+        ':hospital:',
         'ER',
         'A&E',
         'Hätätila',
@@ -5735,6 +8288,7 @@ emojis_language[lang][9] = {
     ],
     '🏦': [
         'Pankki',
+        ':bank:',
         'BK',
         'Bakkureru',
         'Pankin Sivukonttori',
@@ -5742,15 +8296,18 @@ emojis_language[lang][9] = {
     ],
     '🏨': [
         'Hotelli',
+        ':hotel:',
         'Majoitus',
         'H Rakennus'
     ],
     '🏩': [
         'Rakkaus Hotelli',
+        ':love_hotel:',
         'Love Heart Hotel'
     ],
     '🏪': [
         'Kätevä Kauppa',
+        ':convenience_store:',
         '24-Tunnin Kauppa',
         '7–11',
         'Kulma Kauppa',
@@ -5758,16 +8315,19 @@ emojis_language[lang][9] = {
     ],
     '🏫': [
         'Koulu',
+        ':school:',
         'Kellon Torni',
         'Elementary High Middle'
     ],
     '🏬': [
         'Osaston Kauppa',
+        ':department_store:',
         'Ostoskeskus (Kauppakeskus)',
         'Kauppa'
     ],
     '🏭': [
         'Tehdas',
+        ':factory:',
         'Teollisuus',
         'Teollisuus',
         'Saasteet',
@@ -5775,91 +8335,117 @@ emojis_language[lang][9] = {
     ],
     '🏯': [
         'Japanin Linna',
+        ':japanese_castle:',
         'Linnoitus'
     ],
     '🏰': [
         'Eurooppalainen Linna',
+        ':european_castle:',
         'Turrets'
     ],
     '💒': [
         'Kirkon Sydän',
+        ':church_heart:',
         'Kirkon Häät',
         'Avioliitto'
     ],
     '🗼': [
         'Tokion Torni',
+        ':tokyo_tower:',
         'Eiffel-torni',
         'Punainen Torni'
     ],
     '🗽': [
         'Vapauden patsas',
+        ':statue_of_liberty:',
         'New York'
     ],
     '⛪': [
         'Kirkon Rakennus',
+        ':church_building:',
         'Risti'
     ],
     '🕌': [
         'Moski',
+        ':mosque:',
         'Kuorittu Katto',
         'Minaret'
     ],
-    '🛕': ['Hindu Temppeli'],
+    '🛕': [
+        'Hindu Temppeli',
+        ':hindu_temple:'
+    ],
     '🕍': [
         'Synagoga',
+        ':synagogue:',
         'Juutalainen',
         'Synagog',
         'Temppeli'
     ],
     '⛩️': [
         'Shinto Shrine',
+        ':shinto_shrine:',
         'Kami-no-michi'
     ],
     '🕋': [
         'Kaaba',
+        ':kaaba:',
         'Mecca'
     ],
-    '🏙️': ['Cityscape'],
+    '🏙️': [
+        'Cityscape',
+        ':cityscape:'
+    ],
     '⛱️': [
         'Sateenvarjo maassa',
+        ':beach_umbrella:',
         'Ranta Sateenvarjo'
     ],
     '🌄': [
         'Auringonnousu Vuorten Yli',
+        ':sunrise_over_mountains:',
         'Aamu',
         'Auringonnousu'
     ],
     '🌅': [
         'Auringonnousu',
+        ':sunrise:',
+        ':sunset:',
         'Auringonlasku'
     ],
     '🌆': [
         'Cityscape at Dusk',
+        ':cityscape_at_dusk:',
         'Orange Sky City',
         'Dusk City'
     ],
     '🌇': [
         'Auringonlasku Rakennusten Yli',
+        ':sunset_over_buildings:',
         'Kaupungin Auringonlasku'
     ],
     '🌃': [
         'Yö tähtien kanssa',
+        ':night_with_stars:',
         'Kaupunki Yöllä',
         'Tähtikäs Yö'
     ],
     '🗿': [
         'Moai',
+        ':moai:',
         'Pääsiäissaaren Patsas',
         'Ihmisen Rock Veistäminen',
         'Moyain Patsas'
     ],
     '🌠': [
         'Ammunta Tähti',
+        ':shooting_star:',
         'Kun Haluat Tähtiä',
         'Meteoroidi'
     ],
     '🌌': [
         'Linnunrata',
+        ':milky_way:',
         'Galaksi',
         'Yö Taivas',
         'Tila',
@@ -5868,89 +8454,133 @@ emojis_language[lang][9] = {
     ],
     '🎑': [
         'Kuu Katselee Seremonia',
+        ':moon_viewing_ceremony:',
         'Ruohot, huopat ja kuu',
         'Kerää Kuu',
         'Syksyn Välijuhlat',
         'Tsukimi'
     ],
-    '🛖': ['Mökki'],
+    '🛖': [
+        'Mökki',
+        ':hut:'
+    ],
     '🎢': [
         'Roller Coaster',
+        ':roller_coaster:',
         'Rollercoaster',
         'Teemapuisto (teemapuisto)'
     ],
     '🛝': [
-        'Playground Slide',
+        'Leikkikenttä Liu\'uta',
+        ':playground_slide:',
         'Vauva',
-        'Children'
+        'Lapset'
     ]
 };
 /*technologies (smartphones, laptops, etc.) and office*/
 emojis_language[lang][10] = {
     '⌚': [
         'Tarkkaile',
+        ':watch:',
         'Aikaväli',
         'Omenan Kello'
     ],
-    '⏰': ['Hälytys Kello'],
-    '⏱️': ['Sekuntikello'],
-    '⏲️': ['Ajastimen Kello'],
-    '🕰️': ['Mantelpiece Kello'],
-    '🧭': ['Kompassi'],
-    '🕹️': ['PeliohjainName'],
-    '🎙️': ['Studio Mikrofoni'],
-    '🎚️': ['Tason Liukusäädin'],
-    '🎛️': ['Ohjaus Nyörät'],
+    '⏰': [
+        'Hälytys Kello',
+        ':alarm_clock:'
+    ],
+    '⏱️': [
+        'Sekuntikello',
+        ':stopwatch:'
+    ],
+    '⏲️': [
+        'Ajastimen Kello',
+        ':timer_clock:'
+    ],
+    '🕰️': [
+        'Mantelpiece Kello',
+        ':mantelpiece_clock:'
+    ],
+    '🧭': [
+        'Kompassi',
+        ':compass:'
+    ],
+    '🕹️': [
+        'PeliohjainName',
+        ':joystick:'
+    ],
+    '🎙️': [
+        'Studio Mikrofoni',
+        ':studio_microphone:'
+    ],
+    '🎚️': [
+        'Tason Liukusäädin',
+        ':level_slider:'
+    ],
+    '🎛️': [
+        'Ohjaus Nyörät',
+        ':control_knobs:'
+    ],
     '📻': [
         'Radio',
+        ':radio:',
         'Digitaalinen Radio',
         'Langaton'
     ],
     '📱': [
         'Matkapuhelin Puhelin',
+        ':mobile_phone:',
         'Älypuhelin',
         'iPhone',
         'Solun Puhelin'
     ],
     '📲': [
         'Matkapuhelin, jossa oikealla nuoli vasemmalla',
+        ':phone_call:',
         'Puhelin Puhelu',
         'Osoitetaan Puhelimeen'
     ],
     '☎️': [
         'Musta Puhelin',
+        ':rotary_phone:',
         'Pyörivä Puhelin',
-        'Punainen'
+        ':red:'
     ],
     '📞': [
         'Puhelimen Vastaanottaja',
+        ':phone:',
         'Handset',
         'Puhelin',
-        'Musta'
+        ':black:'
     ],
     '📟': [
         'Hakulaite',
+        ':pager:',
         'Piipuri',
         'Nukkuja'
     ],
     '📠': [
         'Faksi Kone',
+        ':fax_machine:',
         'Facsimile',
         'Faksi'
     ],
     '🔋': [
         'Akku',
+        ':battery:',
         'Aa Akku',
         'Puhelimen Akku'
     ],
     '🔌': [
         'Sähköpistoke',
+        ':power_cable:',
         'AC Adaptor',
         'Virtakaapeli',
         'Virtapistoke'
     ],
     '💻': [
         'Kannettava',
+        ':laptop:',
         'Muistikirja',
         'Henkilökohtainen Tietokone',
         'PC',
@@ -5959,18 +8589,30 @@ emojis_language[lang][10] = {
     ],
     '🖥️': [
         'Työpöydän Tietokone',
+        ':desktop_computer:',
         'iMac',
         'PC'
     ],
-    '🖨️': ['Tulostin'],
-    '⌨️': ['Keyboard'],
+    '🖨️': [
+        'Tulostin',
+        ':printer:'
+    ],
+    '⌨️': [
+        'Keyboard',
+        ':keyboard:'
+    ],
     '🖱️': [
         'Tietokoneen Hiiri',
+        ':computer_mouse:',
         'Kolmen Painikkeen Hiiri'
     ],
-    '🖲️': ['Trackball'],
+    '🖲️': [
+        'Trackball',
+        ':trackball:'
+    ],
     '💽': [
         'Tietokone Levy',
+        ':blu_ray:',
         'Minidisc',
         'CD',
         'DVD',
@@ -5979,11 +8621,13 @@ emojis_language[lang][10] = {
     ],
     '💾': [
         'Levyke Levy',
+        ':floppy_disk:',
         '3,5′′ Levy',
         'Levy'
     ],
     '💿': [
         'Optinen Levy',
+        ':cd:',
         'CD',
         'CD-ROM',
         'Kompakti Levy'
@@ -5991,28 +8635,45 @@ emojis_language[lang][10] = {
     '📀': [
         'DVD',
         'DVD-ROM',
+        ':dvd:',
         'Dvd-Video'
     ],
     '🎥': [
         'Elokuvan Kamera',
+        ':movie_camera:',
         'Elokuvan Kamera',
         'Hollywood',
         'Elokuva'
     ],
-    '🎞️': ['Elokuvan Kehykset'],
-    '📽️': ['Elokuvaprojektori'],
+    '🎞️': [
+        'Elokuvan Kehykset',
+        ':film_frames:'
+    ],
+    '📽️': [
+        'Elokuvaprojektori',
+        ':film_projector:'
+    ],
     '📺': [
         'Televisio',
+        ':tv:',
         'Televisio'
     ],
-    '📷': ['Digitaalinen Kamera'],
-    '📸': ['Kamera salamalla'],
+    '📷': [
+        'Digitaalinen Kamera',
+        ':digital_camera:'
+    ],
+    '📸': [
+        'Kamera salamalla',
+        ':camera_flash:'
+    ],
     '📹': [
         'Videon Kamera',
+        ':video_camera:',
         'Videokamera'
     ],
     '📼': [
         'Videokasetti',
+        ':vhs:',
         'VHS',
         'VCR',
         'Videon Nauha',
@@ -6020,6 +8681,7 @@ emojis_language[lang][10] = {
     ],
     '💳': [
         'Luottokortti',
+        ':credit_card:',
         'Debet Kortti',
         'AMEX',
         'Diners Club',
@@ -6029,254 +8691,382 @@ emojis_language[lang][10] = {
     ],
     '📧': [
         'Sähköposti',
+        ':email:',
         'Sähköposti'
     ],
     '📨': [
         'Saapuva Kirjekuori',
+        ':incoming_envelope:',
         'Kirjekuori Rivillä',
         'Nopea Kirjekuori'
     ],
     '📩': [
         'Kirjekuori alaspäin nuoli yläpuolella',
+        ':insert_in_envelope:',
         'Nuolen Kirjekuori Alas',
         'Lisää Kirjekuoreen'
     ],
-    '📤': ['Lähtevä Kaukalo'],
-    '📥': ['Saapuneet-Kansion Kaukalo'],
-    '📮': ['Postilaatikko'],
+    '📤': [
+        'Lähtevä Kaukalo',
+        ':outbox_tray:'
+    ],
+    '📥': [
+        'Saapuneet-Kansion Kaukalo',
+        ':inbox_tray:'
+    ],
+    '📮': [
+        'Postilaatikko',
+        ':postbox:'
+    ],
     '📁': [
         'Tiedosto Kansio',
+        ':file_folder:',
         'Kansio',
         'Hakemisto',
         'Suljettu Tiedostokansio'
     ],
     '📂': [
         'Avaa Tiedostokansio',
+        ':open_file_folder:',
         'Hakemisto'
     ],
-    '🗂️': ['Korttiindeksin Jakajat'],
+    '🗂️': [
+        'Korttiindeksin Jakajat',
+        ':card_index_dividers:'
+    ],
     '📅': [
         'Kalenteri',
+        ':calendar:',
         '17. Heinäkuuta',
         'Maailman Emoji-Päivä'
     ],
-    '🗓️': ['Spiral Kalenteri Pad'],
+    '🗓️': [
+        'Spiral Kalenteri Pad',
+        ':spiral_calendar_pad:'
+    ],
     '📆': [
         'Tear-Off Kalenteri',
+        ':day_calendar:',
         'Päivän Kalenteri',
         'Työpöydän Kalenteri'
     ],
     '📈': [
         'Kaavion Kasvaminen',
+        ':increasing_chart:',
         'Positiivinen Kaavio',
         'Ylös Pisteytys Kaavio',
         'Kaavio ylöspäin -suuntauksella'
     ],
     '📉': [
         'Kaavion Vähentyminen',
+        ':decreasing_chart:',
         'Negatiivinen Kaavio',
         'Alas Pisteytys Kaavio',
         'Kaavio alaspäin suuntauksella'
     ],
     '📊': [
         'Palkki Kaavio',
+        ':bar_chart:',
         'Palkin Kaavio'
     ],
     '📌': [
         'Pushpin',
-        'Thumb Tack'
+        ':pushpin:',
+        'Thumb Tack',
+        ':red:'
     ],
-    '📋': ['Leikepöytä'],
+    '📋': [
+        'Leikepöytä',
+        ':clipboard:'
+    ],
     '📍': [
         'Pyöreä Pushpin',
+        ':round_pushpin:',
         'Pudotettu PIN-koodi',
         'Kartta PIN-koodi',
         'Kiinnitä',
-        'Punainen Pin'
+        'Punainen Pin',
+        ':red:'
     ],
     '📎': [
         'Paperiliitin',
+        ':paperclip:',
         'Clippy'
     ],
-    '📏': ['Suora Rullaus'],
+    '📏': [
+        'Suora Rullaus',
+        ':straight_ruler:'
+    ],
     '📐': [
         'Kolmikulmainen Ruler',
+        ':triangular_ruler:',
         'Kolmio Ruler'
     ],
     '✂️': [
         'Sakset',
+        ':scissors:',
         'Leikkaus'
     ],
     '✏️': [
         'Kynä',
+        ':pencil:',
         'Lyijykynä'
     ],
     '✒️': [
         'Musta Nib',
+        ':black_nib:',
         'Kynä Nib',
         'Suihkulähde Kynä'
     ],
     '🖋️': [
         'Suihkulähde Kynä',
+        ':fountain_pen:',
         'Alempi Vasen Lähdekoodi Kynä'
     ],
     '🖊️': [
         'Kynä',
+        ':pen:',
         'Alempi Vasemman Ballpoint Pen',
         'Ballpoint Pen'
     ],
     '🖌️': [
         'Maalinharja',
+        ':paintbrush:',
         'Siveli',
         'Alavasen Paintbrush'
     ],
     '🖍️': [
         'Crayon',
+        ':crayon:',
         'Alempi Vasen Ripustus'
     ],
     '📝': [
         'Muistio',
+        ':memo:',
         'Memorandum',
         'Huomautus',
         'Kynsiili Ja Paperi'
     ],
     '🗑️': [
         'Jätepaperin Kori',
+        ':wastepaper_basket:',
         'Roskat Voi',
         'Rubbish Bin',
         'Roskakori Voi'
     ],
-    '📡': ['Satelliitti Antenni'],
+    '📡': [
+        'Satelliitti Antenni',
+        ':satellite_antenna:'
+    ],
     '🔭': [
         'Kaukoputki',
+        ':telescope:',
         'Tärkkelys'
     ],
     '🔬': [
         'Mikroskooppi',
+        ':microscope:',
         'Magnify',
         'Tiede'
     ],
-    '📭': ['Avaa postilaatikko alaspäin lipulla'],
+    '📭': [
+        'Avaa postilaatikko alaspäin lipulla',
+        ':open_mailbox_lowered:'
+    ],
     '📬': [
         'Avaa kansio korotetulla lipulla',
+        ':open_mailbox_raised:',
         'Avaa Postilaatikko'
     ],
-    '📪': ['Suljettu postilaatikko pienennetyllä lipulla'],
-    '📫': ['Suljettu postilaatikko lisäämällä lippu'],
-    '📰': ['Sanomalehti'],
+    '📪': [
+        'Suljettu postilaatikko pienennetyllä lipulla',
+        ':closed_mailbox_lowered:'
+    ],
+    '📫': [
+        'Suljettu postilaatikko lisäämällä lippu',
+        ':closed_mailbox_raised:'
+    ],
+    '📰': [
+        'Sanomalehti',
+        ':newspaper:'
+    ],
     '🗞️': [
         'Valssattu Sanomalehti',
+        ':rolled_up_newspaper:',
         'Sanomalehtien Toimitus'
     ],
     '📄': [
         'Sivu Ylös',
+        ':printed_page:',
         'Tulostettu Sivu'
     ],
     '📜': [
         'Vieritä',
+        ':scroll:',
         'Taso',
         'Parchment'
     ],
     '📃': [
         'Page with Curl',
+        ':curled_page:',
         'Curled Page',
         'Curly Page'
     ],
     '📓': [
         'Muistikirja',
+        ':notebook:',
         'Musta Ja Valkoinen Kirja'
     ],
-    '📔': ['Muistikirja ja koriste kansi'],
+    '📔': [
+        'Muistikirja ja koriste kansi',
+        ':notebook_decorative_cover:'
+    ],
     '📕': [
         'Suljettu Kirja',
+        ':closed_book:',
         'Punainen Kirja',
-        'Punainen Oppikirja'
+        'Punainen Oppikirja',
+        ':red:'
     ],
     '📖': [
         'Avaa Kirja',
+        ':open_book:',
         'Kirja',
         'Uusi'
     ],
     '📗': [
         'Vihreä Kirja',
-        'Vihreä Oppikirja'
+        ':green_book:',
+        'Vihreä Oppikirja',
+        ':green:'
     ],
     '📘': [
         'Sininen Kirja',
-        'Sininen Oppikirja'
+        ':blue_book:',
+        'Sininen Oppikirja',
+        ':blue:'
     ],
     '📙': [
         'Oranssi Kirja',
-        'Oranssi Oppikirja'
+        ':orange_book:',
+        'Oranssi Oppikirja',
+        ':orange:'
     ],
     '📚': [
         'Kirjat',
+        ':books:',
         'Pileä Kirjoja',
         'Kirjojen Pino'
     ],
     '🗳️': [
         'Ballot Box Ballot',
+        ':ballot_box:',
         'Ääni Laatikko',
         'Äänestys'
     ],
     '🗄️': [
         'Tiedostokaappi',
+        ':file_cabinet:',
         'Hakemuskaappi'
     ],
-    '🗃️': ['Kortin Tiedostolaatikko'],
-    '🖇️': ['Linkitetyt Paperiliittimet']
+    '🗃️': [
+        'Kortin Tiedostolaatikko',
+        ':card_file_box:'
+    ],
+    '🖇️': [
+        'Linkitetyt Paperiliittimet',
+        ':linked_paperclips:',
+        ':gray:',
+        ':grey:'
+    ]
 };
 /*clothes and accessories*/
 emojis_language[lang][11] = {
     '👣': [
         'Jalanjäljet',
+        ':footprints:',
         'Jalat',
         'Jalanaskelmat'
     ],
     '👓': [
         'Silmälasit',
+        ':glasses:',
         'Silmälasit'
     ],
-    '🕶️': ['Aurinkolasit'],
-    '🥽': ['Goggles'],
-    '🥼': ['Lab Takki'],
+    '🕶️': [
+        'Aurinkolasit',
+        ':sunglasses:'
+    ],
+    '🥽': [
+        'Goggles',
+        ':goggles:'
+    ],
+    '🥼': [
+        'Lab Takki',
+        ':lab_coat:'
+    ],
     '👔': [
         'Necktie',
+        ':necktie:',
         'Business Paita',
         'Paita Ja Solmio'
     ],
     '👕': [
         'T-Paita',
+        ':t_shirt:',
+        ':t-shirt:',
         'Tee Paita',
         'Polo Paita'
     ],
     '👖': [
         'Farkut',
+        ':jeans:',
         'Denim',
         'Housut',
         'Housut'
     ],
-    '🧣': ['Scarf'],
-    '🧤': ['Käsineet'],
-    '🧥': ['Takki'],
-    '🧦': ['Socks'],
+    '🧣': [
+        'Scarf',
+        ':scarf:'
+    ],
+    '🧤': [
+        'Käsineet',
+        ':gloves:'
+    ],
+    '🧥': [
+        'Takki',
+        ':coat:'
+    ],
+    '🧦': [
+        'Socks',
+        ':socks:'
+    ],
     '👗': [
         'Mekko',
+        ':dress:',
         'Hame',
         'Gown'
     ],
     '👘': [
         'Kimono',
+        ':kimono:',
         'Dressing Gown',
         'Japanilainen Mekko'
     ],
     '👙': [
         'Bikini',
+        ':bikini:',
         'Uimarit',
         'Uimapuku'
     ],
-    '🩱': ['Yksiosainen Uimapuku'],
+    '🩱': [
+        'Yksiosainen Uimapuku',
+        'one_piece_swimpuku',
+        'yksiosainen uimapuku'
+    ],
     '👚': [
+        'Naisten Vaatteet',
+        ':womans_clothes:',
         'Naisten Vaatteet',
         'Blouse',
         'Vaaleanpunainen Paita',
@@ -6284,17 +9074,23 @@ emojis_language[lang][11] = {
     ],
     '👛': [
         'Kukkaro',
+        ':purse:',
         'Lompakko'
     ],
-    '👜': ['Käsilaukku'],
+    '👜': [
+        'Käsilaukku',
+        ':handbag:'
+    ],
     '👝': [
         'Kytkin Pussi',
+        ':clutch_bag:',
         'Kytkin',
         'Pieni Laukku',
         'Pouch'
     ],
     '🎒': [
         'Reppu',
+        ':backpack:',
         'Pussi',
         'Koulun Laukku',
         'Koulun Satchel',
@@ -6302,31 +9098,47 @@ emojis_language[lang][11] = {
     ],
     '👞': [
         'Mans Shoe',
+        ':mans_shoe:',
+        'Mans Shoe',
         'Kenkä',
         'Ruskea Sarja',
         'Mekko Näytä'
     ],
     '👟': [
         'Athletic Shoe',
+        ':athletic_shoe:',
         'Käynnissä Oleva Kengä',
         'Sneaker',
         'Juoksija',
         'Kouluttaja',
         'Tenniskenkä'
     ],
-    '🥾': ['Vaelluksen Käynnistys'],
-    '🥿': ['Tasainen Kengä'],
+    '🥾': [
+        'Vaelluksen Käynnistys',
+        ':hiking_boot:'
+    ],
+    '🥿': [
+        'Tasainen Kengä',
+        ':flat_shoe:'
+    ],
     '👠': [
         'Korkea Kengä',
+        ':high_heeled_shoe:',
+        ':high_heel:',
         'Stiletto',
         'Korkeat Korot'
     ],
     '👡': [
         'Naiset Sandaali',
+        ':womans_sandal:',
+        'Naiset Sandaali',
         'Kallistettu Sandaali',
-        'Saldals'
+        'Sandaalit',
+        'Sandal'
     ],
     '👢': [
+        'Naisten Saappaat',
+        ':womans_boots_',
         'Naisten Saappaat',
         'Cowgirl Saappaat',
         'Polven Korkeat Saappaat',
@@ -6334,84 +9146,130 @@ emojis_language[lang][11] = {
     ],
     '👑': [
         'Kruunu',
+        ':crown:',
         'Kuningas',
         'Kuningatar',
         'Prinssi',
         'Kuninkaallinen',
-        'Prinsessa'
+        'Prinsessa',
+        ':gold:',
+        ':yellow:'
     ],
     '👒': [
         'Hattu',
+        ':hat:',
         'Naisten Hattu',
         'Hattu Jousella',
         'Naiset Hattu'
     ],
     '🎩': [
         'Ylhäällä Hattu',
+        ':top_hat:',
         'Muodollinen Kuluminen',
-        'Groom'
+        'Groom',
+        ':black:'
     ],
     '🎓': [
         'Valmistumisen Suoja',
+        ':graduation_cap:',
         'Kollegio',
         'Graduate',
         'Laastari Lauta',
         'Yliopisto',
-        'Square Akateeminen Kanta'
+        'Square Akateeminen Kanta',
+        ':black:'
     ],
     '🧢': [
         'Laskutettu Kanta',
+        ':billed_cap:',
         'Baseball Kanta'
     ],
     '⛑️': [
         'Kypärä valkoisella ristillä',
-        'Pelastustyöntekijän Kypärä'
+        ':helmet_with_white_cross:',
+        ':helmet_with_cross:',
+        ':rescue_worker_helmet:',
+        ':rescue_workers_helmet:',
+        'Pelastustyöntekijöiden Kypärä',
+        ':red:',
+        ':white:'
     ],
     '💼': [
         'Salkku',
+        ':briefcase:',
         'Matkalaukku'
     ],
     '🎖️': [
         'Sotilasmitali',
+        ':military_medal:',
+        ':medal:',
         'Mitali',
         'Keskitaso',
         'Sotilaallinen Koristelu'
     ],
     '📿': [
         'Rukous Helmet',
+        ':prayer_beads:',
         'Dhikr Helmet',
         'Rosary Helmet'
     ],
-    '🎗️': ['Muistutus Ribbo'],
-    '🤿': ['Sukellusnaamio'],
-    '🦺': ['Turvallisuus Vest'],
+    '🎗️': [
+        'Muistutus Ribbo',
+        ':reminder_ribbo:'
+    ],
+    '🤿': [
+        'Sukellusnaamio',
+        ':diving_mask:'
+    ],
+    '🦺': [
+        'Turvallisuus Vest',
+        ':safety_vest:'
+    ],
     '🥻': [
         'Sari',
+        ':sari:',
         'Saareva',
         'Shari'
     ],
-    '🩲': ['Lyhyet'],
-    '🩳': ['Shortsit'],
+    '🩲': [
+        'Lyhyet',
+        ':briefs:'
+    ],
+    '🩳': [
+        'Shortsit',
+        ':shorts:'
+    ],
     '🛼': [
         'Rullan Luistelu',
+        ':roller_skate:',
         'Inline Luistelu',
         'Roller Derby'
     ],
     '🩴': [
         'Käännä Flop',
+        ':flip_flop:',
         'Thong Sandal'
     ],
-    '🪖': ['Sotilaallinen Kypärä'],
+    '🪖': [
+        'Sotilaallinen Kypärä',
+        ':military_helmet:'
+    ],
     '🩰': [
         'Ballet Kengät',
+        ':ballet_shoes:',
         'Pointe Shoe'
     ],
-    '🩼': ['Crutch']
+    '🩼': [
+        'Crutch',
+        ':crutch:'
+    ]
 };
 /*hands and parts of body*/
 emojis_language[lang][12] = {
     '👋{{skin_tone}}': [
         'Waving Käsi -kyltti',
+        ':wave:',
+        ':waving_hand:',
         'Hyvästi',
         'Käsi Aalto',
         'Hei',
@@ -6419,105 +9277,141 @@ emojis_language[lang][12] = {
     ],
     '🖐️{{skin_tone}}': [
         'Käsi sormien kanssa Splayed',
+        ':hand_splayed:',
+        ':raised_hand_with_fingers_splayed:',
+        ':hand_with_fingers_splayed:',
         'Viisi Käsi',
         'Pelattu Käsi',
         'Raised käsi kanssa Fingers Splayed'
     ],
     '🤚{{skin_tone}}': [
         'Raised Back of Hand',
+        ':raised_back_of_hand:',
+        ':back_of_hand:',
         'Tausta'
     ],
     '✋{{skin_tone}}': [
         'Nostettu Käsi',
+        ':raised_hand:',
+        ':hand:',
         'Korkea Viisi',
         'Pysäytä'
     ],
     '🖖{{skin_tone}}': [
         'Vulcan Salute',
+        ':vulcan_salute:',
         'Spock',
         'Tähti Trek',
         'Raised Hand kanssa Osa Välillä keski-ja rengas Fingers'
     ],
     '👌{{skin_tone}}': [
         'Ok Käsi Allekirjoitus',
+        ':ok_hand:',
         'Okei',
         'Täydellinen',
         'Kyllä'
     ],
     '✌️{{skin_tone}}': [
         'Voitto Käsi',
+        ':victory_hand:',
         'Ilmaa Koskevat Lainaukset',
         'Rauhan Allekirjoitus',
         'V Allekirjoitus'
     ],
     '🤞{{skin_tone}}': [
         'Risteytetyt Sormet',
+        ':crossed_fingers:',
         'Sormien Risteytys',
         'Onnea',
         'Käsi indeksin ja Middle Fingers Crossed'
     ],
     '🤟{{skin_tone}}': [
         'Love-You Eleet',
+        ':love_you_gesture:',
+        ':i_love_you_hand_sign:',
         'Rakastan Sinua Käsi Allekirjoitus'
     ],
     '🤘{{skin_tone}}': [
         'Sarvten merkki',
+        ':the_horns:',
+        ':sign_of_the_horns:',
+        ':metal:',
         'Devil Fingers',
         'Raskas Metalli',
         'Rock Päällä'
     ],
     '🤙{{skin_tone}}': [
         'Soita Minulle Käsi Allekirjoitus',
+        ':call_me_hand:',
+        ':call_me:',
         'Puhelimen Käsi',
         'Shaka'
     ],
-    '🤏{{skin_tone}}': ['Puristava Käsi'],
+    '🤏{{skin_tone}}': [
+        'Puristava Käsi',
+        ':pinching_hand:'
+    ],
     '👈{{skin_tone}}': [
         'Taustahakemisto Osoittaa Vasemmalle',
+        ':backhand_index_pointing_left:',
+        ':point_left:',
         'Valkoinen Vasemmalle Osoittaen Taustan Indeksi'
     ],
     '👉{{skin_tone}}': [
         'Taustahakemisto Osoittaa Oikealle',
+        ':backhand_index_pointing_right:',
+        ':point_right:',
         'Valkoinen Oikea Osoittaa Taustan Indeksi'
     ],
     '👆{{skin_tone}}': [
         'Taustaindeksin Pisteytys Ylös',
+        ':point_up_2:',
+        ':backhand_index_pointing_up:',
         'Valkoinen Ylös Pointing Backhand Indeksi',
         'Keski Sormi'
     ],
     '👇{{skin_tone}}': [
         'Taustan Indeksi Pointing Alas',
+        ':point_down:',
+        ':backhand_index_pointing_down:',
         'Valkoinen Alas Pisteytys Backhand Indeksi',
         'Pisteytys Alas'
     ],
     '☝{{skin_tone}}': [
         'Indeksoi Sormen Pisteytys Ylös',
+        ':point_up:',
+        ':index_pointing_up:',
         'Valkoinen Ylös Pisteytys Indeksi',
         'Salainen'
     ],
     '🖕{{skin_tone}}': [
         'Keski Sormi',
+        ':middle_finger:',
         'Flipping The Bird',
         'Rude Sormi',
         'Käänteinen käsi keski-sormella laajennettu'
     ],
     '👍{{skin_tone}}': [
         'Peukalot Ylös Kirjaudu',
+        ':thumbs_up_sign:',
         'Tykkää',
         'Kyllä'
     ],
     '👎{{skin_tone}}': [
         'Peukalot Alas Allekirjoitus',
+        ':thumbs_down_sign:',
         'Huono',
         'Dislike',
         'Ei'
     ],
     '✊{{skin_tone}}': [
         'Nostettu Fist',
+        ':raised_fist:',
         'Fist Pumppu'
     ],
     '👊{{skin_tone}}': [
         'Saapuva Fist',
+        ':oncoming_fist:',
         'Bro Fist',
         'Brofist',
         'Fist Bump',
@@ -6525,15 +9419,24 @@ emojis_language[lang][12] = {
         'Suljettu Fist',
         'Nyrkkeilyn Käsi Allekirjoitus'
     ],
-    '🤛{{skin_tone}}': ['Vasen Nyrkki Pumppu'],
-    '🤜{{skin_tone}}': ['Oikea Fist Bump'],
+    '🤛{{skin_tone}}': [
+        'Vasen Nyrkki Pumppu',
+        ':left_fist_bump:'
+    ],
+    '🤜{{skin_tone}}': [
+        'Oikea Fist Bump',
+        ':right_fist:bump:'
+    ],
     '🤌{{skin_tone}}': [
         'Puristetut Sormet',
+        ':pinched_fingers:',
         'Ma Che Vuoi',
         'Sormen Kukkaro'
     ],
     '👏{{skin_tone}}': [
         'Papimisen Käsien Kyltti',
+        ':cap:',
+        ':clapping_hands:',
         'Suosionosoituksia',
         'Clap',
         'Taputus',
@@ -6542,6 +9445,8 @@ emojis_language[lang][12] = {
     ],
     '🙌{{skin_tone}}': [
         'Henkilö nostaa molemmat kädet juhlissa',
+        ':raised_hands:',
+        ':raising_hands:',
         'Käsien nostaminen',
         'Aseet Ilmassa',
         'Banzai',
@@ -6552,91 +9457,168 @@ emojis_language[lang][12] = {
     ],
     '👐{{skin_tone}}': [
         'Avaa Käsien Allekirjoitus',
+        ':open_hands_sign:',
         'Halaus',
         'Jazz Kädet'
     ],
     '🤲{{skin_tone}}': [
         'Palmut Ylös Yhdessä',
+        ':palms_up_together:',
         'Dua'
     ],
     '🤝{{skin_tone}}': [
         'Handshake',
+        ':handshake:',
         'Ravistus Kädet'
     ],
     '🙏{{skin_tone}}': [
         'Taitettu Kädet',
+        ':folded_hands:',
         'Namaste',
         'Ole hyvä',
         'Rukous',
         'Kiitos Olet',
         'Henkilö, jolla on taitettu kädet'
     ],
-    '✍{{skin_tone}}': ['Kirjoitetaan Käsi'],
-    '🫱{{skin_tone}}': ['Rightwards Hand'],
-    '🫲{{skin_tone}}': ['Leftwards Hand'],
-    '🫳{{skin_tone}}': ['Palm Down Hand'],
-    '🫴{{skin_tone}}': ['Palm Up Hand'],
-    '🫰{{skin_tone}}': ['Hand with Index Finger and Thumb Crossed'],
-    '🫵{{skin_tone}}': ['Index Pointing at the Viewer'],
+    '✍{{skin_tone}}': [
+        'Kirjoitetaan Käsi',
+        ':writing_hand:'
+    ],
+    '🫱{{skin_tone}}': [
+        'Oikeanpuoleinen Käsi',
+        ':rightwards_hand:'
+    ],
+    '🫲{{skin_tone}}': [
+        'Vasen Käsi',
+        ':leftwards_hand:'
+    ],
+    '🫳{{skin_tone}}': [
+        'Palm Alas Käsi',
+        ':palm_down_hand:'
+    ],
+    '🫴{{skin_tone}}': [
+        'Palm ylös Käsi',
+        ':palm_up_hand:'
+    ],
+    '🫰{{skin_tone}}': [
+        'Hand with Index Finger ja peukalo Crossed',
+        ':hand_with_index_finger_and_thumb_crossed:'
+    ],
+    '🫵{{skin_tone}}': [
+        'Hakemisto osoittaa katsojan',
+        ':index_pointing_at_the_viewer:'
+    ],
     '🫶{{skin_tone}}': [
-        'Heart Hands',
-        'Love'
+        'Sydän Kädet',
+        ':heart_hands:',
+        'Rakkaus'
     ],
     '💪{{skin_tone}}': [
         'Flexed Biceps',
+        ':flexed_biceps:',
         'Taipuisat Varren Lihakset',
         'Musle',
         'Vahva'
     ],
-    '🦵{{skin_tone}}': ['Jalka'],
-    '🦶{{skin_tone}}': ['Jalka'],
+    '🦵{{skin_tone}}': [
+        'Jalka',
+        ':leg:'
+    ],
+    '🦶{{skin_tone}}': [
+        'Jalka',
+        ':foot:'
+    ],
     '👂{{skin_tone}}': [
         'Korva',
+        ':ear:',
         'Korvat',
         'Kuulemistilaisuus',
-        'Kuunnellaan'
+        'Kuunteleminen'
     ],
     '👃{{skin_tone}}': [
         'Nenä',
+        ':nose:',
         'Hajuvesi',
         'Nuuskinta',
         'Stinky'
     ],
-    '🦻{{skin_tone}}': ['Kuulo-apua sisältävä korva'],
-    '🧠': ['Aivot'],
-    '🦷': ['Hammas'],
+    '🦻{{skin_tone}}': [
+        'Kuulo-apua sisältävä korva',
+        ':ear_with_hearing_aid:'
+    ],
+    '🧠': [
+        'Aivot',
+        ':brain:',
+        ':pink:'
+    ],
+    '🦷': [
+        'Hammas',
+        ':tooth:',
+        ':white:'
+    ],
     '👀': [
         'Silmät',
+        ':eyes:',
         'Silmämunat',
         'Shifty Silmät',
         'Viisas Silmä'
     ],
     '👁️': [
         'Silmä',
+        ':eye:',
         'Yksittäinen Silmä'
     ],
-    '👅': ['Kieli Ulos'],
+    '👅': [
+        'Kieli Ulos',
+        ':tongue_out:',
+        ':red:'
+    ],
     '👄': [
         'Suun',
+        ':mouth:',
         'Suuteltavat Huulet',
-        'Huulet'
+        'Huulet',
+        ':red:'
     ],
     '🫦': [
-        'Biting Lip',
-        'Huulet'
+        'Purentava Huuli',
+        ':biting_lip:',
+        'Huulet',
+        ':red:'
     ],
-    '🫀': ['Anatominen Sydän'],
-    '🫁': ['Keuhkot'],
-    '🦾': ['Mekaaninen Varsi'],
-    '🦿': ['Mekaaninen Jalka'],
+    '🫀': [
+        'Anatominen Sydän',
+        ':anatomical_heart:',
+        ':red:'
+    ],
+    '🫁': [
+        'Keuhkot',
+        ':lungs:',
+        ':red:'
+    ],
+    '🦾': [
+        'Mekaaninen Varsi',
+        ':mechanical_arm:',
+        'Vahva',
+        ':gray:',
+        ':grey:'
+    ],
+    '🦿': [
+        'Mekaaninen Jalka',
+        ':mechanical_leg:',
+        ':gray:',
+        ':grey:'
+    ],
     '💅{{skin_tone}}': [
         'Nail Polish',
+        ':nail_polish:',
         'Sormentimet',
         'Manicure',
         'Nonchalant'
     ],
     '🤳{{skin_tone}}': [
         'Selfie',
+        ':selfie:',
         'Puhelimen Kamera',
         'Selfie Käsi'
     ]
@@ -6645,50 +9627,79 @@ emojis_language[lang][12] = {
 emojis_language[lang][13] = {
     '💩': [
         'Poon kasvi',
+        ':pile_of_poo:',
         'Koiran Multa',
-        'Hymyilevä Katto'
+        'Hymyilevä Katto',
+        ':brown:'
     ],
     '💋': [
         'Suudelman Merkki',
-        'Suuteltavat Huulet'
+        ':kiss_mark:',
+        'Suuteltavat Huulet',
+        ':red:'
     ],
-    '🦴': ['Lu'],
+    '🦴': [
+        'Lu',
+        ':bone:'
+    ],
     '🧳': [
         'Matkatavarat',
+        ':luggage:',
         'Matkalaukku'
     ],
     '🌂': [
         'Suljettu Sateenvarjo',
+        ':closed_umbrella:',
         'Tiivistetty Sateenvarjo',
-        'Vaaleanpunainen Sateenvarjo'
+        'Vaaleanpunainen Sateenvarjo',
+        ':pink:',
+        ':purple:'
     ],
-    '☂️': ['Sateenvarjo'],
+    '☂️': [
+        'Sateenvarjo',
+        ':umbrella:',
+        ':purple:'
+    ],
     '☔': [
         'Sateenvarjo ja sadepisarat',
+        ':umbrella_with_rain_drops:',
+        ':umbrella:',
         'Saavutus',
         'Rainy'
     ],
-    '🧵': ['Säikeen poiminta'],
-    '🧶': ['Lanan pallo'],
+    '🧵': [
+        'Säikeen poiminta',
+        ':spool_of_thread:'
+    ],
+    '🧶': [
+        'Lanan pallo',
+        ':ball_of_yarn:'
+    ],
     '💄': [
         'Lipstick',
+        ':lipstick:',
         'Huule Kiilto',
-        'Meikki'
+        'Meikki',
+        ':red:'
     ],
     '💍': [
         'Soita',
+        ':ring:',
         'Diamond Ring',
         'Sitoutumismekanismi'
     ],
     '💎': [
         'Gem kivi',
+        ':gem_stone:',
         'Timantti',
         'Jalokivi',
         'Jalokivi',
-        'Korianteri'
+        'Korianteri',
+        ':blue:'
     ],
     '💥': [
         'Törmäyksen Symboli',
+        ':collision_symbol:',
         'Bang',
         'Räjäytä',
         'Vaikutus',
@@ -6697,16 +9708,22 @@ emojis_language[lang][13] = {
     ],
     '💫': [
         'Dizzy Symboli',
-        'Ympyrä Ja Tähti'
+        ':dizzy_symbol:',
+        'Ympyrä Ja Tähti',
+        ':yellow:'
     ],
     '💦': [
         'Splashing Hiki Symboli',
+        'sweat_drops',
+        'sweat_droplets',
         'Plewdit',
         'Roiskeva Vesi',
-        'Vesipisarat'
+        'Vesipisarat',
+        ':blue:'
     ],
     '💨': [
         'Viihdytys Poissa',
+        ':dashing_away:',
         'Nopea',
         'Höyry',
         'Vappaus',
@@ -6716,12 +9733,15 @@ emojis_language[lang][13] = {
     ],
     '🌬️': [
         'Tuulen Kasvot',
+        ':wind_face:',
         'Puhallettava Tuuli',
         'Luontoäiti',
-        'Tuulen Kirkastaminen Kasvot'
+        'Tuulen Kirkastaminen Kasvot',
+        ':white:'
     ],
     '🐾': [
         'Sotilaan Tulosteet',
+        ':paw_prints:',
         'Kissa Sovitustulosteet',
         'Koiran Paw Tulostaa',
         'Kitten Paw Prints',
@@ -6729,121 +9749,251 @@ emojis_language[lang][13] = {
     ],
     '🕸️': [
         'Hämähäkki Web',
+        ':spider_web:',
         'Cobweb',
         'Verkko',
         'Spiderweb'
     ],
     '🦠': [
         'Mikrobi',
+        ':microbe:',
         'Solu',
         'Koronavirus',
         'COVID-19',
         'Germ',
         'Mikro-organismi',
-        'Virus'
+        'Virus',
+        ':green:'
     ],
-    '💐': ['Kukkakimppu Kukat'],
+    '💐': [
+        'Kukkakimppu Kukat',
+        ':bouquet_of_flowers:'
+    ],
     '🌍': [
         'Globe Näyttää Euroopan Ja Afrikan',
+        ':globe_showing_europe_africa:',
+        ':earth_africa:',
         'Maa',
         'Globe',
         'Planeetta',
         'Maailma',
-        'Globe Showing Europe and Africa'
+        'Globe Showing Europe and Africa',
+        ':blue:'
     ],
     '🌎': [
         'Globe Showing Americas',
-        'Maa',
-        'Globe',
-        'Planeetta',
-        'Maailma'
-    ],
-    '🌏': [
-        'Globe Näyttää Aasia-Australia',
+        ':globe_showing_americas:',
+        ':earth_americas:',
         'Maa',
         'Globe',
         'Planeetta',
         'Maailma',
-        'Globe Showing Asia and Australia'
+        ':blue:'
+    ],
+    '🌏': [
+        'Globe Näyttää Aasia-Australia',
+        ':globe_showing_asia_australia:',
+        ':earth_asia:',
+        'Maa',
+        'Globe',
+        'Planeetta',
+        'Maailma',
+        'Globe Showing Asia and Australia',
+        ':blue:'
     ],
     '🌐': [
         'Globe ja Meridians',
+        ':globe_with_meridians:',
         'Internet',
         'Maailman Laaja Verkko',
         'WWW'
     ],
     '🌑': [
         'Uusi Kuu Symboli',
+        ':new_moon:',
         'Tumma Kuu',
         'Varjo Kuu',
-        'Solar Eclipse'
+        'Solar Eclipse',
+        ':black:'
     ],
-    '🌒': ['Kasvava Kuun Symboli'],
-    '🌓': ['Ensimmäisen Neljännen Kuun Symboli'],
-    '🌔': ['Kasvava Kuu Symboli'],
-    '🌕': ['Full Moon Symboli'],
-    '🌖': ['Haluava Gibbous Kuu Symboli'],
-    '🌗': ['Viimeinen Neljännesvuosi Kuu Symboli'],
-    '🌘': ['Haluava Kuun Symboli'],
-    '🌙': ['Kuu Crescent'],
+    '🌒': [
+        'Kasvava Kuun Symboli',
+        ':waxing_crescent_moon:',
+        ':yellow:',
+        ':black:'
+    ],
+    '🌓': [
+        'Ensimmäisen Neljännen Kuun Symboli',
+        ':first_quarter_moon:',
+        ':yellow:',
+        ':black:'
+    ],
+    '🌔': [
+        'Kasvava Kuu Symboli',
+        ':moon:',
+        ':waxing_gibbous_moon:',
+        ':yellow:',
+        ':black:'
+    ],
+    '🌕': [
+        'Full Moon Symboli',
+        ':full_moon:',
+        ':yellow:'
+    ],
+    '🌖': [
+        'Haluava Gibbous Kuu Symboli',
+        ':waning_gibbous_moon:',
+        ':yellow:',
+        ':black:'
+    ],
+    '🌗': [
+        'Viimeinen Neljännesvuosi Kuu Symboli',
+        ':last_quarter_moon:',
+        ':yellow:',
+        ':black:'
+    ],
+    '🌘': [
+        'Haluava Kuun Symboli',
+        ':waning_crescent_moon:',
+        ':yellow:',
+        ':black:'
+    ],
+    '🌙': [
+        'Kuu Crescent',
+        ':crescent_moon:',
+        ':yellow:'
+    ],
     '🌚': [
         'Uusi kuu kasvoilla',
+        ':new_moon_with_face:',
         'Hiipivä Kuu',
         'Tumma Kuu Kasvot',
-        'Nuorempi Kuu'
+        'Nuorempi Kuu',
+        ':black:',
+        ':gray:',
+        ':grey:'
     ],
     '🌝': [
         'Täysi kuu kasvoilla',
+        ':full_moon_with_face:',
         'Moonface',
         'Smiley Moon',
-        'Hymyyttävä Kuu'
+        'Hymyyttävä Kuu',
+        ':yellow:'
     ],
-    '🌛': ['Ensimmäinen neljäsosa Moon kasvoilla'],
-    '🌜': ['Viimeinen neljäsosa Moon kasvoilla'],
+    '🌛': [
+        'Ensimmäinen neljäsosa Moon kasvoilla',
+        ':first_quarter_moon_with_face:',
+        ':first_quarter_moon_face:',
+        ':yellow:'
+    ],
+    '🌜': [
+        'Viimeinen neljäsosa Moon kasvoilla',
+        ':last_quarter_moon_with_face:',
+        ':last_quarter_moon_face:',
+        ':yellow:'
+    ],
     '🌞': [
         'Aurinko kasvoilla',
+        ':sun_with_face:',
         'Hymy Su',
         'Sunface',
-        'Hymyilevä Aurinko'
+        'Hymyilevä Aurinko',
+        ':yellow:'
     ],
     '☀️': [
         'Su',
-        'Auringonpaiste'
+        ':sun:',
+        'Auringonpaiste',
+        ':yellow:'
     ],
     '⭐': [
         'Tähti',
-        'Valkoinen Keskipitkä Tähti'
+        ':star:',
+        'Valkoinen Keskipitkä Tähti',
+        ':yellow:'
     ],
     '🌟': [
         'Hehkuva Tähti',
-        'Shining Star'
+        ':glowing_star:',
+        'Shining Star',
+        ':yellow:'
     ],
     '☁️': [
         'Pilvi',
+        ':cloud:',
         'Pilvinen',
-        'Pilvistä'
+        'Pilvistä',
+        ':white:'
     ],
-    '⛅': ['Aurinko Pilven Takana'],
+    '⛅': [
+        'Aurinko Pilven Takana',
+        ':thunder_cloud_and_rain:',
+        ':thunder_cloud_rain:',
+        ':cloud_with_lightning_and_rain:',
+        ':white:'
+    ],
     '⛈️': [
         'Pilvi Lightning ja sade',
-        'Thunder Cloud ja sade'
+        ':thunder_cloud_and_rain:',
+        ':thunder_cloud_rain:',
+        ':cloud_with_lightning_and_rain:',
+        'Thunder Cloud ja sade',
+        ':white:'
     ],
-    '🌤️': ['Valkoinen aurinko, jossa pieni pilvi'],
+    '🌤️': [
+        'Valkoinen aurinko, jossa pieni pilvi',
+        ':mostly_sunny:',
+        ':sun_behind_small_cloud:',
+        ':sun_small_cloud:',
+        ':white_sun_small_cloud:',
+        ':white_sun_with_small_cloud:',
+        ':white:'
+    ],
     '🌥️': [
         'Aurinko Suuren Pilven Takana',
-        'Valkoinen Aurinko Pilven Takana'
+        ':sun_behind_large_cloud:',
+        'Valkoinen Aurinko Pilven Takana',
+        ':white:'
     ],
-    '🌦️': ['Valkoinen aurinko pilven takana sateella'],
-    '🌧️': ['Pilvi sateella'],
-    '🌨️': ['Pilvi lunta'],
-    '🌩️': ['Pilvi Lightning kanssa'],
+    '🌦️': [
+        'Valkoinen aurinko pilven takana sateella',
+        ':sun_behind_rain_cloud:',
+        ':partly_sunny_rain:',
+        ':white_sun_rain_cloud:',
+        ':white_sun_behind_cloud_with_rain:',
+        ':white:'
+    ],
+    '🌧️': [
+        'Pilvi sateella',
+        ':cloud_with_rain:',
+        ':white:'
+    ],
+    '🌨️': [
+        'Pilvi lunta',
+        ':cloud_with_snow:',
+        ':white:'
+    ],
+    '🌩️': [
+        'Pilvi Lightning kanssa',
+        ':cloud_with_lightning:',
+        ':white:'
+    ],
     '🌪️': [
         'Tornado',
+        ':tornado:',
         'Pilvi Tornadon kanssa'
     ],
-    '🌫️': ['Fog'],
+    '🌫️': [
+        'Fog',
+        ':fag:',
+        ':white:',
+        ':gray:',
+        ':grey:'
+    ],
     '🌈': [
         'Sateenkaari',
+        ':rainbow:',
         'Gay Pride',
         'Ensisijainen Sateenkaari',
         'LGBTQIA+',
@@ -6851,11 +10001,14 @@ emojis_language[lang][13] = {
     ],
     '❄️': [
         'Lumihiutale',
+        ':snowflake:',
         'Lumi',
-        'Torni'
+        'Torni',
+        ':white:'
     ],
     '🌀': [
         'Syklooni',
+        ':cyclone:',
         'Hurrikaani',
         'Spiraali',
         'Pyöritä',
@@ -6863,131 +10016,191 @@ emojis_language[lang][13] = {
     ],
     '⚡': [
         'Korkea Jännitetunnus',
+        ':high_voltage_sign:',
         'Salama Bolt',
         'Ukkospultti',
         'Korkea Jännite'
     ],
     '☃️': [
         'Lumiukko',
-        'Lumiukko Lumihiutaleilla'
+        ':snowman:',
+        'Lumiukko Lumihiutaleilla',
+        ':white:'
     ],
     '⛄': [
         'Lumiukko Ilman Lumiukkoa',
+        'lumiukko_without_snow',
+        ':snowman:',
         'Upea Lumiukko',
         'Olaf',
-        'Lumiukko'
+        'Lumiukko',
+        ':white:'
     ],
-    '☄️': ['Komeetta'],
+    '☄️': [
+        'Komeetta',
+        ':comet:'
+    ],
     '🔥': [
         'Tulipalo',
+        ':fire:',
         'Liekki',
         'Kuuma',
         'Lit',
-        'Snapstreak'
+        'Snapstreak',
+        ':red:'
     ],
     '💧': [
         'Droplet',
+        ':droplet:',
         'Vesi',
-        'Vesipisara'
+        'Vesipisara',
+        ':blue:'
     ],
     '✨': [
         'Sparkles',
+        ':sparkles:',
         'Glitter',
         'Shiny',
         'Uusi'
     ],
     '🌊': [
         'Veden Aallo',
+        ':water_wave:',
         'Ranta',
         'Valtameren Aalto',
-        'Meri'
+        'Meri',
+        ':blue:'
     ],
     '🎄': [
         'Joulukuusi',
+        'joulupuut',
         'Joulu',
-        'Xmas Puu'
+        'Xmas Puu',
+        ':green:'
     ],
     '🎃': [
         'Jack-O-Lyhty',
+        'jack_o_lyhty',
         'Halloween',
-        'Kurpitsa'
+        'Kurpitsa',
+        ':orange:'
     ],
     '🌻': [
         'Auringonkukka',
-        'Keltainen Kukka'
+        ':sunflower:',
+        'Keltainen Kukka',
+        ':yellow:'
     ],
     '🌼': [
         'Blossom',
+        ':blossom:',
         'Kukkiva Kukka',
         'Daisy',
-        'Keltainen Kukka'
+        'Keltainen Kukka',
+        ':yellow:'
     ],
-    '🌷': ['Tulip'],
+    '🌷': [
+        'Tulip',
+        ':tulip:',
+        ':pink:'
+    ],
     '🌹': [
         'Ruusu Kukka',
-        'Punainen Ruusu'
+        ':rose_flower:',
+        'Punainen Ruusu',
+        ':red:'
     ],
     '☘️': [
         'Shamrock',
+        ':shamrock:',
         'Apila',
-        'Trefoil'
+        'Trefoil',
+        ':green:'
     ],
     '🍀': [
         'Neljä Lehtisapila',
+        ':four_leaf_clover:',
         'Apila',
         'Irlanti',
         'Onnekas',
-        'Fortune'
+        'Fortune',
+        ':green:'
     ],
     '🌸': [
         'Cherry Blossom',
+        ':cherry_blossom:',
         'Vaaleanpunainen Kukka',
-        'Sakura'
+        'Sakura',
+        ':pink:'
     ],
     '💮': [
         'Valkoinen Kukka',
+        ':white_flower:',
         'Cherry Blossom',
         'Paperi Doilis',
-        'Hyvin Tehty Leima'
+        'Hyvin Tehty Leima',
+        ':white:'
     ],
-    '🌺': ['Hibiscus'],
-    '🏵️': ['Rosetti'],
+    '🌺': [
+        'Hibiscus',
+        ':hibiscus:',
+        ':red:'
+    ],
+    '🏵️': [
+        'Rosetti',
+        ':rosette:',
+        ':orange:',
+        ':yellow:'
+    ],
     '🌱': [
         'Seedling',
+        ':seedling:',
         'Kevät',
         'Sprout',
-        'Itäminen'
+        'Itäminen',
+        ':green:'
     ],
     '🌲': [
         'Evergreen Puu',
+        ':evergreen_tree:',
         'Fir Puu',
-        'Mänty Puu'
+        'Mänty Puu',
+        ':green:'
     ],
     '🌳': [
         'Lehtipuu',
-        'Pyöristetty Puu'
+        ':deciduous_tree:',
+        'Pyöristetty Puu',
+        ':green:'
     ],
     '🌴': [
         'Palm Puu',
-        'Kookospuu'
+        ':palm_tree:',
+        'Kookospuu',
+        ':green:'
     ],
     '🎋': [
         'Tanabata Puu',
+        ':tanabata_tree:',
         'Tanabata',
         'Toiveluu'
     ],
     '🎍': [
         'Mänty Koristelu',
+        ':pine_decoration:',
         'Bambu',
         'Kadomatsu',
         'Uuden Vuoden Koristelu'
     ],
     '🌵': [
         'Cactus',
-        'Desert'
+        ':cactus:',
+        'Desert',
+        ':green:'
     ],
     '🌾': [
         'Riisin Sheaf',
+        ':sheaf_of_rice:',
         'Rajaa',
         'Viljely',
         'Vehnä',
@@ -6995,110 +10208,183 @@ emojis_language[lang][13] = {
     ],
     '🌿': [
         'Yrtti',
+        ':herb:',
         'Rajaa',
-        'Kasvi'
+        'Kasvi',
+        ':green:'
     ],
     '🍁': [
         'Vaahteran Lehti',
+        ':maple_leaf:',
         'Kanada',
         'Kanadalainen',
-        'Vaahto'
+        'Vaahto',
+        ':brown:'
     ],
     '🍂': [
         'Kaasunainen Lehti',
+        ':fallen_leaf:',
         'Syksyn Lehti',
         'Syksyn Lehdet',
         'Ruskeat Lehdet',
         'Pudonta Lehdet',
-        'Kaatuneet Lehdet'
+        'Kaatuneet Lehdet',
+        ':brown:'
     ],
     '🍃': [
         'Leaf Fluttering in Wind',
+        ':leaf_fluttering_in_wind:',
+        ':leaves:',
         'Vihreät Lehdet',
-        'Kevät'
+        'Kevät',
+        ':green:'
     ],
-    '🪴': ['Pottettu Kasvi'],
+    '🪴': [
+        'Pottettu Kasvi',
+        ':potted_plant:',
+        ':green:'
+    ],
     '🪸': [
-        'Coral',
-        'Climate change'
+        'Koralli',
+        ':coral:',
+        'Ilmastonmuutos'
     ],
     '🪷': [
         'Lotus',
-        'Purity',
-        'Beauty',
-        'Calmness',
-        'Serenity'
+        ':lotus:',
+        'Puhtaus',
+        'Kauneus',
+        'Rauhallisuus',
+        'Tietoisuus'
     ],
     '🔑': [
         'Avain',
-        'Kultainen Avain'
+        ':key:',
+        'Kultainen Avain',
+        ':gold:',
+        ':yellow:'
     ],
-    '🗝️': ['Vanha Avain'],
+    '🗝️': [
+        'Vanha Avain',
+        ':old_key:',
+        ':brown:'
+    ],
     '🔨': [
         'Vasara',
+        ':hammer:',
         'Claw Vasara',
         'Handyman',
         'Työkalu'
     ],
     '⛏️': [
         'Valitse',
+        ':pick:',
         'Hakku'
     ],
-    '🪓': ['Kirves'],
-    '🪚': ['Kirvesmiehen Saha'],
-    '🪛': ['Ruuvitalvi'],
-    '🪝': ['Koukku'],
-    '🪠': ['Plunger'],
-    '🪣': ['Ämpäri'],
+    '🪓': [
+        'Kirves',
+        ':axe:'
+    ],
+    '🪚': [
+        'Kirvesmiehen Saha',
+        ':carpentry_saw:'
+    ],
+    '🪛': [
+        'Ruuvitalvi',
+        ':screwdriver:'
+    ],
+    '🪝': [
+        'Koukku',
+        ':hook:'
+    ],
+    '🪠': [
+        'Plunger',
+        ':plunger:'
+    ],
+    '🪣': [
+        'Ämpäri',
+        ':bucket:'
+    ],
     '🔩': [
         'Nut ja Bolt',
+        ':nut_and_bolt:',
         'Bolt',
-        'Ruuvi'
+        'Ruuvi',
+        ':gray:',
+        ':grey:'
     ],
     '🗜️': [
         'Klamppu',
+        ':clamp:',
         'Taulukko Vice',
         'WinZip',
-        'Pakkaus'
+        'Pakkaus',
+        ':gray:',
+        ':grey:'
     ],
     '🔒': [
         'Lukittu',
+        ':locked:',
         'Suljettu Lukitus',
         'Padlock'
     ],
     '🔓': [
         'Avattu',
+        ':unlocked:',
         'Avaa Padlock',
         'Avaa Lukitus'
     ],
     '🔏': [
         'Lukittu kynillä',
+        ':locked_with_pen:',
         'Lukitse Ja Kynä',
         'Lukitse Lähdekynä Kanssa',
         'Lukitse mustekynällä'
     ],
     '🔐': [
         'Lukittu avaimella',
+        ':locked_with_key:',
         'Suljettu lukitus avaimella'
     ],
     '🗡️': [
         'Dagger',
-        'Veitsi Aseen'
+        ':dagger:',
+        'Veitsi Aseen',
+        ':gray:',
+        ':grey:'
     ],
-    '⚔️': ['Ristetyt Miekat'],
+    '⚔️': [
+        'Ristetyt Miekat',
+        ':crossed_swords:',
+        ':gray:',
+        ':grey:'
+    ],
     '🔫': [
         'Pistol',
+        ':pistol:',
         'Gun',
         'Revolveri',
         'Squirt Gun',
         'Veden Aseet',
         'Veden Pistooli'
     ],
-    '🧰': ['Työkalupakki'],
-    '🧲': ['Magnet'],
-    '⛓️': ['Ketjut'],
+    '🧰': [
+        'Työkalupakki',
+        ':toolbox:',
+        ':red:'
+    ],
+    '🧲': [
+        'Magnet',
+        ':magnet:',
+        ':red:'
+    ],
+    '⛓️': [
+        'Ketjut',
+        ':chains:'
+    ],
     '💉': [
         'Syringe',
+        ':syringe:',
         'Veren Lahjoitus',
         'Veren Testaus',
         'Neula',
@@ -7106,30 +10392,51 @@ emojis_language[lang][13] = {
     ],
     '🧬': [
         'DNA',
+        ':dna:',
         'Dna Double Helix'
     ],
-    '🧪': ['Testaa Putki'],
+    '🧪': [
+        'Testaa Putki',
+        ':test_tube:',
+        ':green:'
+    ],
     '🛏️': [
         'Sänky',
+        ':bed:',
         'Makuuhuone'
     ],
     '🛋️': [
         'Kupongi ja lamppu',
+        ':couch_and_lamp:',
         'Lounge',
         'Settee',
         'Sohva'
     ],
-    '🪑': ['Tuoli'],
+    '🪑': [
+        'Tuoli',
+        ':chair:'
+    ],
     '🚪': [
         'Ovi',
+        ':door:',
         'Oviaukko',
         'Edessä Ovi'
     ],
-    '🪟': ['Ikkuna'],
-    '🪜': ['Tikkaat'],
-    '🪞': ['Peilaa'],
+    '🪟': [
+        'Ikkuna',
+        ':window:'
+    ],
+    '🪜': [
+        'Tikkaat',
+        ':ladder:'
+    ],
+    '🪞': [
+        'Peilaa',
+        ':mirror:'
+    ],
     '🚽': [
         'WC',
+        ':toilet:',
         'Kylpyhuone',
         'Loo',
         'Restroom',
@@ -7137,196 +10444,330 @@ emojis_language[lang][13] = {
     ],
     '🚿': [
         'Suihku',
+        ':shower:',
         'Suihkun Päähaara'
     ],
     '🛁': [
         'Kylpyamme,',
+        ':bathtub:',
         'Kupla Kylpy'
     ],
-    '🧴': ['Lotion Bottle'],
-    '🧷': ['Turvallinen PIN-koodi'],
-    '🧺': ['Kori'],
+    '🧴': [
+        'Lotion Bottle',
+        ':location_bottle:'
+    ],
+    '🧷': [
+        'Turvallinen PIN-koodi',
+        ':safety_pin:',
+        ':gray:',
+        ':grey:'
+    ],
+    '🧺': [
+        'Kori',
+        ':basket:',
+        ':brown:'
+    ],
     '🧻': [
         'Paperin asema',
-        'WC-paperi'
+        ':roll_of_paper:',
+        'WC-paperi',
+        ':white:'
     ],
-    '🧼': ['Saippuan baari'],
-    '🧽': ['Sieni'],
-    '🧯': ['Palonsammutin'],
+    '🧼': [
+        'Saippuan baari',
+        ':bar_of_soap:'
+    ],
+    '🧽': [
+        'Sieni',
+        ':sponge:',
+        ':yellow:'
+    ],
+    '🧯': [
+        'Palonsammutin',
+        ':fire_extinguisher:',
+        ':red:'
+    ],
     '🚬': [
         'Savuke',
+        ':cigarette:',
         'Savun Symboli'
     ],
     '⚰️': [
         'Kahvi',
+        ':coffin:',
         'Casket',
-        'Hautajaiset'
+        'Hautajaiset',
+        ':brown:'
     ],
     '⚱️': [
         'Hautajaiset Urn',
+        ':funeral_urn:',
         'Maljakko'
     ],
-    '🛡️': ['Kilpi'],
+    '🛡️': [
+        'Kilpi',
+        ':shield:'
+    ],
     '⚙️': [
         'Vaihde',
+        ':gear:',
         'Asetukset',
-        'Valinnat'
+        'Valinnat',
+        ':gray:',
+        ':grey:'
     ],
     '⚖️': [
         'Saldon Mittakaava',
+        ':balance_scale:',
         'Oikeusasioiden laajuus'
     ],
     '🔗': [
         'Linkki',
+        ':link:',
         'Ketju',
         'Hyperlinkki',
-        'Linkitetty Ketju'
+        'Linkitetty Ketju',
+        ':gray:',
+        ':grey:'
     ],
     '💀': [
         'Pääkallo',
+        ':skull:',
         'Kuolema',
         'Harmaa Pääkallo',
-        'Luuranko'
+        'Luuranko',
+        ':white:'
     ],
-    '☠️': ['Kallo ja ristiluut'],
+    '☠️': [
+        'Kallo ja ristiluut',
+        ':skull_and_crossbones:',
+        ':white:'
+    ],
     '🎡': [
         'Ferris Wheel',
+        ':ferris_wheel:',
         'Iso Pyörä',
         'Fairgroundl',
         'Havaintopyörä'
     ],
     '⛽': [
         'Polttoaineen Pumppu',
+        'polttoaine_pumppu:',
         'Öljy',
         'Bensiini',
-        'Kaasu'
+        'Kaasu',
+        ':red:'
     ],
     '🚨': [
         'Poliisiautot Kehittyvä Valo',
+        ':rotating_light:',
+        ':police_police_car:',
         'Hätävalo',
         'Vilkkuva Vaalea',
-        'Siren'
+        'Siren',
+        ':red:'
     ],
-    '🚥': ['Vaakasuora Liikenne Valo'],
-    '🚦': ['Pystysuora Liikennettä Koskeva Valo'],
+    '🚥': [
+        'Vaakasuora Liikenne Valo',
+        ':horizontal_traffic_light:',
+        ':green:',
+        ':red:',
+        ':yellow:',
+        ':orange:'
+    ],
+    '🚦': [
+        'Pystysuora Liikennettä Koskeva Valo',
+        ':vertical_traffic_light:',
+        ':green:',
+        ':red:',
+        ':yellow:',
+        ':orange:'
+    ],
     '⚓': [
         'Admiralty Kuvio Ankkuri',
+        ':anchor:',
         'Kalastaja'
     ],
     '🚧': [
         'Rakentamisen Allekirjoitus',
-        'Musta Ja Keltainen Raidallinen Kyltti'
+        ':construction_sign:',
+        'Musta Ja Keltainen Raidallinen Kyltti',
+        ':yellow:',
+        ':black:'
     ],
-    '🪂': ['Parachute'],
+    '🪂': [
+        'Parachute',
+        ':parachute:'
+    ],
     '💺': [
         'Istuin',
+        ':seat:',
         'Bussin Lentokone Junan Lentokone'
     ],
-    '🪐': ['Saturnus'],
+    '🪐': [
+        'Saturnus',
+        ':saturn:'
+    ],
     '🎆': [
         'Ilotulitus',
+        ':fireworks:',
         'Räjähdys'
     ],
     '🎇': [
         'Senko Hanabi',
+        ':senko_hanabi:',
         'Ilotulitus Sparkler'
     ],
     '💷': [
         'Pound Banknote',
+        ':pound:',
+        ':pound_banknote:',
         '20 £ Huomautus',
         'Kaksikymmentä Quid-muistiota',
-        'Seteli, jossa on punta'
+        'Seteli, jossa on punta',
+        ':purple:'
     ],
     '💶': [
         'Euro Banknote',
+        ':euro:',
+        ':euro_banknote:',
         '100 € Muistiinpano',
-        'Seteli, jossa on Euro Sign'
+        'Seteli, jossa on Euro Sign',
+        ':blue:'
     ],
     '💵': [
         'Dollari Banknote',
+        ':dollar:',
+        ':dollar_banknote:',
         '$1 Huomautus',
         'Seteli, jossa on dollarimerkki',
         'Dollarin Lasku',
-        'American Dollari'
+        'American Dollari',
+        ':green:'
     ],
     '💴': [
         'Yen Banknote',
+        ':yen:',
+        ':yen_banknote:',
         '¼ 1000 Huomautus',
         'Jeni Huomautus',
-        'Seteli, jossa on Yen Sign'
+        'Seteli, jossa on Yen Sign',
+        ':yellow:'
     ],
-    '⛺': ['Teltta'],
+    '⛺': [
+        'Teltta',
+        ':camping_tent:'
+    ],
     '⛲': [
         'Suihkulähde',
+        ':fountain:',
         'Veden Ominaisuus',
         'Veden Suihku',
         'Puisto'
     ],
     '💰': [
         'Raha Pussi',
+        ':money_bag:',
         'Moneybags',
         'Rikas',
         '$'
     ],
     '💸': [
         'Raha siipeillä',
+        ':money_with_wings:',
         'Lentävä Raha',
         ' Menettää Rahaa'
     ],
-    '🏷️': ['Tunnisteen Tagi'],
+    '🏷️': [
+        'Tunnisteen Tagi',
+        ':label_tag:'
+    ],
     '🔖': [
         'Kirjanmerkki',
+        ':bookmark:',
         'Hinnan Tunniste',
         'Tunniste'
     ],
-    '📑': ['Lisää Välilehdet Kirjanmerkkeihin'],
+    '📑': [
+        'Lisää Välilehdet Kirjanmerkkeihin',
+        ':bookmark_tabs:',
+        ':white:'
+    ],
     '📯': [
         'Postinumero',
+        ':postal_horn:',
         'Bugle',
         'Ranskan Sarvi'
     ],
-    '🪁': ['Kite'],
-    '🪀': ['Jo-Yo'],
+    '🪁': [
+        'Kite',
+        ':kite:',
+        ':purple:'
+    ],
+    '🪀': [
+        'Jo-Yo',
+        ':yo_yo:',
+        ':yo-yo:'
+    ],
     '🎊': [
         'Confetti Ball',
+        ':confetti_ball:',
         'Confetti'
     ],
     '🎉': [
         'Puolueen Popperi',
+        ':party_popper:',
         'Juhla',
         'Juhlahattu'
     ],
     '🎈': [
         'Ilmapallo',
+        ':balloon:',
         'Juhlat',
-        'Punainen Ilmapallo'
+        'Punainen Ilmapallo',
+        ':red:'
     ],
     '🌡️': [
         'Lämpömittari',
+        ':thermometer:',
         'Kuuma Sää',
-        'Lämpötila'
+        'Lämpötila',
+        ':red:'
     ],
-    '🛢️': ['Öljyä Rumpu'],
-    '💣': ['Pommi'],
+    '🛢️': [
+        'Öljyä Rumpu',
+        ':oil_drum:'
+    ],
+    '💣': [
+        'Pommi',
+        ':bomb:'
+    ],
     '🔪': [
         'Keittiö Veitsi',
+        ':kitchen_knife:',
         'Veitsi',
         'Butchers Veitsi',
         'Hocho'
     ],
     '🏺': [
         'Amphora',
+        ':amphora:',
         'Purkki',
         'Maljakko'
     ],
-    '🗺️': ['Maailman Kartta'],
+    '🗺️': [
+        'Maailman Kartta',
+        ':world_map:'
+    ],
     '🎼': [
         'Musikaalinen Pisteet',
+        ':musical_score:',
         'Sheet Musiikki',
         'Treble Clef'
     ],
     '🎬': [
         'Tappajan Lauta',
+        ':clapper_board:',
         'Leikkaa',
         'Toiminto',
         'Johtaja',
@@ -7334,51 +10775,74 @@ emojis_language[lang][13] = {
     ],
     '🎻': [
         'Violiini',
+        ':violin:',
         'Jousikvartetti',
-        'Maailman Pienin Violiini'
+        'Maailmat Pienin Violiini'
     ],
     '🎺': [
         'Trumpetti',
+        ':trumpet:',
         'Sarvi',
         'Jazz'
     ],
     '🎸': [
         'Kitara',
+        ':guitar:',
         'Akustinen Kitara',
         'Basso Kitara',
         'Sähkökitara'
     ],
     '🎷': [
         'Saksofoni',
+        ':saxophone:',
         'Jazz',
         'Sax'
     ],
     '🥁': [
         'Rumpu',
+        ':drum:',
         'Rumpuja ja rumpuja'
     ],
     '🎹': [
         'Piano',
-        'Musikaalinen Näppäimistö'
+        ':piano:',
+        'Musikaalinen Näppäimistö',
+        ':white:',
+        ':black:'
     ],
-    '🪕': ['Banjo'],
-    '🪗': ['Haitari'],
-    '🪘': ['Pitkä Rumpu'],
+    '🪕': [
+        'Banjo',
+        ':banjo:'
+    ],
+    '🪗': [
+        'Haitari',
+        ':accordion:'
+    ],
+    '🪘': [
+        'Pitkä Rumpu',
+        ':long_drum:'
+    ],
     '🎨': [
         'Taiteilija Paletti',
+        ':artist_palette:',
         'Taide',
         'Maalaus'
     ],
     '🧩': [
         'Pulmapala',
-        'Palapelipala Palapelipala'
+        ':puzzle_piece:',
+        'Palapelipala Palapelipala',
+        ':green:'
     ],
     '🎲': [
         'Peli Die',
-        'Dice'
+        ':game_die:',
+        'Dice',
+        ':white:'
     ],
     '🎭': [
         'Esittäminen Taide',
+        'performing_arts',
         'Teatteri',
         'Teatteri',
         'Draama Maskit',
@@ -7388,143 +10852,293 @@ emojis_language[lang][13] = {
     ],
     '🔍': [
         'Suurennuslasi Kallistettu Vasemmalle',
+        ':mag:',
+        ':magnifying_glass_tilted_left:',
         'Magnifier',
         'Etsi Kuvake',
         'Vasemmanpuoleinen Suurennuslasi',
-        'Etsi'
+        'Etsi',
+        ':transparent:'
     ],
     '🔎': [
         'Suurennuslasi Kallistettu Oikealle',
+        ':mag_right:',
+        ':magnifying_glass_tilted_right:',
         'Magnifier',
         'Etsi Kuvake',
         'Oikea-Pisteen Suurennuslasi',
-        'Etsi'
+        'Etsi',
+        ':transparent:'
     ],
     '⌛': [
         'Hourglass Valmis',
+        ':hourglass:',
+        ':hourglass_done:',
         'Hourglass'
     ],
     '⏳': [
         'Tuntilasi Ei Valmis',
+        ':hourglass_flowing_sand:',
+        ':hourglass_not_done:',
         'Hourglass kanssa virtaava hiekka'
     ],
     '🕐': [
         'Yksi Kello',
-        'Kello Kasvot Yksi O Kello'
+        ':clock1:',
+        ':one_oclock:',
+        'Kello Kasvot Yksi Kello',
+        ':gray:',
+        ':grey:'
     ],
-    '🕜': ['Kello Kasvot Kolmekymmentä'],
+    '🕜': [
+        'Kello Kasvot Kolmekymmentä',
+        ':clock130:',
+        ':one_thirty:',
+        ':gray:',
+        ':grey:'
+    ],
     '🕑': [
-        'Kaksi O\'Clock',
-        'Kello Kasvot Kaksi O\'Clock'
+        'Kaksi OKelloa',
+        ':clock2:',
+        ':two_oclock:',
+        'Kello Kasvot Kaksi OKello',
+        ':gray:',
+        ':grey:'
     ],
-    '🕝': ['Kello Kasvot Kaksi-kolmekymmentä'],
+    '🕝': [
+        'Kello Kasvot Kaksi-kolmekymmentä',
+        ':clock230:',
+        ':two_thirty:',
+        ':gray:',
+        ':grey:'
+    ],
     '🕒': [
-        'Kolme O\'Clock',
-        'Kello Kasvot Kolme O\'Clock'
+        'Kolme OClock',
+        ':clock3:',
+        ':three_oclock:',
+        'Kello Kasvot Kolme OKello',
+        ':gray:',
+        ':grey:'
     ],
-    '🕞': ['Kello Kasvot Kolme-kolmekymmentä'],
+    '🕞': [
+        'Kello Kasvot Kolme-kolmekymmentä',
+        ':clock330:',
+        ':three_thirty:',
+        ':gray:',
+        ':grey:'
+    ],
     '🕓': [
-        'Neljä O\'Clock',
-        'Kello Kasvot Neljä O Kello'
+        'Neljä OClock',
+        ':clock4:',
+        ':four_oclock:',
+        'Kello Kasvot Neljä OKello',
+        ':gray:',
+        ':grey:'
     ],
-    '🕟': ['Kello Kasvot Neljä-kolmekymmentä'],
+    '🕟': [
+        'Kello Kasvot Neljä-kolmekymmentä',
+        ':clock430:',
+        ':four_thirty:',
+        ':gray:',
+        ':grey:'
+    ],
     '🕔': [
-        'Viisi O \'Kello',
-        'Kello Kasvot Viisi O\'Kello'
+        'Viisi OKelloa',
+        ':clock5:',
+        ':five_oclock:',
+        'Kello Kasvot Viisi OKello',
+        ':gray:',
+        ':grey:'
     ],
-    '🕠': ['Kello Kasvot Viisi-kolmekymmentä'],
+    '🕠': [
+        'Kello Kasvot Viisi-kolmekymmentä',
+        ':clock530:',
+        ':five_thirty:',
+        ':gray:',
+        ':grey:'
+    ],
     '🕕': [
-        'Kuusi O\'Clock',
-        'Kello Kasvot Kuusi O\'Kello'
+        'Kuusi OKello',
+        ':clock6:',
+        ':size_oclock:',
+        'Kello Kasvot Kuusi OClock',
+        ':gray:',
+        ':grey:'
     ],
-    '🕡': ['Kello Kasvot Kuusi Kolmaskymmenes'],
+    '🕡': [
+        'Kello Kasvot Kuusi Kolmaskymmenes',
+        ':clock630:',
+        ':six_thirty:',
+        ':gray:',
+        ':grey:'
+    ],
     '🕖': [
-        'Seitsemän O\'Clock',
-        'Kello Kasvot Seitsemän O\'Clock'
+        'Seitsemän OClock',
+        ':clock7:',
+        ':seven_oclock:',
+        'Kello Kasvot Seitsemän OClock',
+        ':gray:',
+        ':grey:'
     ],
-    '🕢': ['Kello Kasvot Seitsemän-kolmekymmentä'],
+    '🕢': [
+        'Kello Kasvot Seitsemän-kolmekymmentä',
+        ':clock730:',
+        ':sever_thirty:',
+        ':gray:',
+        ':grey:'
+    ],
     '🕗': [
         'Kahdeksan Kello',
-        'Kellon Kasvot Kahdeksan Kello'
+        ':clock8:',
+        ':eight_oclock:',
+        'Kello Kasvot Kahdeksan Kello',
+        ':gray:',
+        ':grey:'
     ],
-    '🕣': ['Kello Kasvot Kahdeksan–kolmekymmentä'],
+    '🕣': [
+        'Kello Kasvot Kahdeksan–kolmekymmentä',
+        ':clock830:',
+        ':eight_thirty:',
+        ':gray:',
+        ':grey:'
+    ],
     '🕘': [
-        'Yhdeksän O\'Clock',
-        'Kello Kasvot Yhdeksän O\'Clock'
+        'Yhdeksän OClock',
+        ':clock9:',
+        ':nine_clock:',
+        'Kello Kasvot Yhdeksän OClock',
+        ':gray:',
+        ':grey:'
     ],
-    '🕤': ['Kello Kasvot Yhdeksän-kolmekymmentä'],
+    '🕤': [
+        'Kello Kasvot Yhdeksän-kolmekymmentä',
+        ':clock930:',
+        ':nine_thirty:',
+        ':gray:',
+        ':grey:'
+    ],
     '🕙': [
-        'Kymmenen O\'Clock',
-        'Kello Kymmenen Kasvoa Kello'
+        'Kymmenen OKello',
+        ':clock10:',
+        ':ten_oclock:',
+        'Kello Kymmenen Kasvoa Kello',
+        ':gray:',
+        ':grey:'
     ],
-    '🕥': ['Kello Kasvot Kymmenen Kolmekymmentä'],
+    '🕥': [
+        'Kello Kasvot Kymmenen Kolmekymmentä',
+        ':clock1030:',
+        ':ten_thirty:',
+        ':gray:',
+        ':grey:'
+    ],
     '🕚': [
-        'Yksitoista O\'Clock',
-        'Kello Kasvot Yksin O\'Clock'
+        'Eleven OClock',
+        ':click11:',
+        ':eleven_oclock:',
+        'Kello Kasvot Yksin OKello',
+        ':gray:',
+        ':grey:'
     ],
-    '🕦': ['Kello Kasvot Eleven-kolmekymmentä'],
+    '🕦': [
+        'Kello Kasvot Eleven-kolmekymmentä',
+        ':clock1130:',
+        ':eleven_thirty:',
+        ':gray:',
+        ':grey:'
+    ],
     '🕛': [
-        'Kaksitoista O\'Clock',
-        'Kello Kasvot Kaksitoista O\'Kello'
+        'Kaksitoista OKello',
+        ':clock12:',
+        ':twelve_oclock:',
+        'Kello Kasvot Kaksitoista OKello',
+        ':gray:',
+        ':grey:'
     ],
-    '🕧': ['Kello Kasvot Kaksoiskolmekymmentä'],
+    '🕧': [
+        'Kello Kasvot Kaksoiskolmekymmentä',
+        ':clock1230:',
+        ':twelve_thirty:',
+        ':gray:',
+        ':grey:'
+    ],
     '♨️': [
         'Kuumat Lähteet',
+        ':hot_springs:',
         'Onsen',
-        'Höyry'
+        'Höyry',
+        ':red:'
     ],
     '💈': [
         'Kuoripavut (silvityt)',
+        ':barber_pole:',
         'Barber Kauppa',
-        'Barberin Raidat',
-        'Kampaamo'
+        'Barbers Stripes',
+        'Kampaamo',
+        ':blue:',
+        ':red:'
     ],
     '🎪': [
         'Circus Teltta',
+        ':circus_tent:',
         'Suuri Ylhäällä',
         'Sirkus'
     ],
     '💢': [
         'Anger Symboli',
+        ':anger_symbol:',
         'Viha Allekirjoitus',
-        'Vein Pop'
+        'Vein Pop',
+        ':red:'
     ],
     '🗯️': [
         'Oikea Viha Kupla',
+        ':right_anger_bubble:',
+        ':anger_right:',
         'Zig Zag Bubble',
-        'Angry Speech Bubble'
+        'Angry Speech Bubble',
+        ':white:'
     ],
     '💊': [
         'Pill',
+        ':pill:',
         'Kapseli',
         'Tabletti',
-        'Huumausaineet'
+        'Huumausaineet',
+        ':yellow:',
+        ':red:'
     ],
     '🎎': [
         'Nuket',
+        ':dolls:',
         'Hinamatsuri',
         'Imperiaaliset Nuket',
         'Japanin Nuket'
     ],
     '🎏': [
         'Carp StreamerComment',
+        ':carp_streamer:',
         'Kalojen Lippu',
         'Koinobori',
         'Tuuli Sukat'
     ],
     '🎐': [
         'Tuulikalkki',
+        ':wind_chime:',
         'Furin',
         'Pilkkupagelli',
         'Tuulen Äänimerkki'
     ],
     '🎀': [
         'Ribbon Bow',
+        ':ribbon_bow:',
         'Vaaleanpunainen Jousi',
-        'Jousi'
+        'Jousi',
+        ':pink:'
     ],
     '🎁': [
         'Kääritty Lahja',
+        ':wrapped_gift:',
         'Syntymäpäivä Lahja',
         'Joulun Lahja',
         'Lahja',
@@ -7534,167 +11148,324 @@ emojis_language[lang][13] = {
     ],
     '🎫': [
         'Tukipyyntö',
+        ':ticket:',
         'Tukipyynnön Nuppi',
         'Maailman Kiertomatka Lippu'
     ],
     '🃏': [
         'Jokeri',
+        ':joker:',
         'Joker-kortti',
         'Pelikortin Musta Jokeri'
     ],
     '💡': [
         'Vaalea Kupu',
+        ':light_bulb:',
         'Idea',
         'Sähköinen Kevyt Kupu'
     ],
     '🔦': [
         'Taskulamppu',
+        ':flashlight:',
         'Lamppu',
         'Sähköinen Lamppu'
     ],
     '🏮': [
         'Punainen Paperi Lyhty',
+        ':izakaya_lantern:',
+        ':lantern:',
+        ':red_paper_lantern:',
         'Aasian Lyhty',
         'Japanilainen Lyhty',
         'Punainen Lyhty',
-        'Izakaja Lyhty'
+        'Izakaja Lyhty',
+        ':red:'
     ],
     '📦': [
         'Paketti',
+        ':package:',
         'Laatikko',
-        'Paketti'
+        'Paketti',
+        ':brown:'
     ],
     '📇': [
         'Indeksoi Kortti',
+        ':card_index:',
         'Rolodeksi',
         'Järjestelmän Kortti',
         'Kortin Indeksi'
     ],
-    '🕳️': ['Reikä'],
+    '🕳️': [
+        'Reikä',
+        ':hole:',
+        ':black:'
+    ],
     '👁️‍🗨️': [
         'MINÄ OLEN Todistus',
+        ':eye_in_speech_bubble:',
+        ':eye_speech_bubble:',
+        ':eye-in-speech-bubble:',
         'Silmä puhetta Bubble'
     ],
     '⚜️': [
         'Fleur-de-lis',
+        ':fleur_de_lis:',
         'Scoutit',
         'New Orleans Saints'
     ],
-    '⚗️': ['Alembic'],
-    '🕯️': ['Kynttilä'],
+    '⚗️': [
+        'Alembic',
+        ':alembic:'
+    ],
+    '🕯️': [
+        'Kynttilä',
+        ':candle:',
+        ':white:'
+    ],
     '🖼️': [
         'Kehystetty Kuva',
+        ':framed_picture:',
         'Maalaus',
         'Kuvan Kehys',
         'Kehys kuvan kanssa'
     ],
-    '🛍️': ['Ostoskassit'],
-    '🎟️': ['Pääsylippuja'],
-    '🛎️': ['Bellhop Bell'],
-    '🧾': ['Kuitti'],
-    '🧮': ['Abacus'],
-    '🧫': ['Petri Ruoka'],
+    '🛍️': [
+        'Ostoskassit',
+        ':shopping_bags:'
+    ],
+    '🎟️': [
+        'Pääsylippuja',
+        ':admission_tickets:'
+    ],
+    '🛎️': [
+        'Bellhop Bell',
+        ':bellhop_bell:',
+        ':yellow:',
+        ':gold:'
+    ],
+    '🧾': [
+        'Kuitti',
+        ':receipt:',
+        ':white:'
+    ],
+    '🧮': [
+        'Abacus',
+        ':abacus:'
+    ],
+    '🧫': [
+        'Petri Ruoka',
+        ':petri_dish:'
+    ],
     '🧹': [
         'Lumi',
+        ':broom:',
         'Siveli',
-        'Pyyhkäise'
+        'Pyyhkäise',
+        ':yellow:'
     ],
     '🎰': [
         'Paikka Kone',
+        ':slot_machine:',
         'Kasino',
         'Hedelmäkone',
         'Uhkapeli',
         'Pokeri Kone'
     ],
-    '🦽': ['Manuaalinen Pyörätuoli'],
-    '🦼': ['Moottoroitu Pyörätuoli'],
-    '🪔': ['Diya Lamppu'],
-    '🦯': ['White Cane'],
-    '🩸': ['Veren pudotus'],
-    '🩹': ['Liimaa Sandage'],
-    '🩺': ['Stetoskooppi'],
-    '🪶': ['Sulka'],
-    '🪤': ['Hiiren Ansa'],
-    '🫖': ['Teapot'],
-    '🪨': ['Rock'],
-    '🪵': ['Puu'],
-    '🪄': ['Magic Wand'],
+    '🦽': [
+        'Manuaalinen Pyörätuoli',
+        ':manual_wheelchair:',
+        ':wheelchair:'
+    ],
+    '🦼': [
+        'Moottoroitu Pyörätuoli',
+        ':motorized_wheelchair:'
+    ],
+    '🪔': [
+        'Diya Lamppu',
+        ':diya_lamp:'
+    ],
+    '🦯': [
+        'White Cane',
+        ':whie_cane:'
+    ],
+    '🩸': [
+        'Veren pudotus',
+        ':drop_of_blood:',
+        ':red:'
+    ],
+    '🩹': [
+        'Liimaa Sandage',
+        ':adhesive_bandage:'
+    ],
+    '🩺': [
+        'Stetoskooppi',
+        ':stethoscope:'
+    ],
+    '🪶': [
+        'Sulka',
+        ':feather:'
+    ],
+    '🪤': [
+        'Hiiren Ansa',
+        ':mouse_trap:'
+    ],
+    '🫖': [
+        'Teapot',
+        ':teapot:'
+    ],
+    '🪨': [
+        'Rock',
+        ':rock:',
+        ':gray:',
+        ':grey:'
+    ],
+    '🪵': [
+        'Puu',
+        ':wood:',
+        ':brown:'
+    ],
+    '🪄': [
+        'Magic Wand',
+        ':magin_wand:'
+    ],
     '🔮': [
         'Kristallin Pallo',
+        ':crystal_ball:',
         'Clairvoyant',
         'Fortune Teller',
         'Psyykkinen',
-        'Violetti Kristalli'
+        'Violetti Kristalli',
+        ':purple:'
     ],
-    '🪅': ['Tynttiäata'],
+    '🪅': [
+        'Tynttiäata',
+        ':pinata:',
+        ':piñata:'
+    ],
     '🪆': [
         'Nestävät Nuket',
+        ':nesting_dolls:',
         'Matryoshka'
     ],
-    '🪡': ['Ompelulanka'],
-    '🪢': ['Solmu'],
-    '🪙': ['Kolikko'],
-    '🪃': ['Boomerang'],
-    '🪥': ['Hammasharja'],
-    '🪦': ['Päänkivi'],
-    '🪧': ['Placard'],
-    '🪒': ['Razor'],
-    '🫙': ['Purkki'],
+    '🪡': [
+        'Ompelulanka',
+        ':swing_needle:'
+    ],
+    '🪢': [
+        'Solmu',
+        ':knot:',
+        ':red:',
+        ':blue:'
+    ],
+    '🪙': [
+        'Kolikko',
+        ':coin:'
+    ],
+    '🪃': [
+        'Boomerang',
+        ':boomerang:',
+        ':brown:'
+    ],
+    '🪥': [
+        'Hammasharja',
+        ':toothbrush:'
+    ],
+    '🪦': [
+        'Päänkivi',
+        ':headstone:',
+        ':gray:',
+        ':grey:'
+    ],
+    '🪧': [
+        'Placard',
+        ':placard:'
+    ],
+    '🪒': [
+        'Razor',
+        ':razor:'
+    ],
+    '🫙': [
+        'Purkki',
+        ':jar:',
+        ':transparent:'
+    ],
     '🛞': [
-        'Wheel',
-        'Vehicles',
-        'Cars'
+        'Pyörä',
+        ':wheel:',
+        'Ajoneuvot',
+        'Autot',
+        ':black:'
     ],
     '🛟': [
-        'Ring Buoy',
-        'Life Preserver',
-        'Life Ring',
-        'Boats',
-        'Safety',
+        'Soittoääni',
+        ':ring_buoy:',
+        'Elämänsuojelija',
+        'Elämän Rengas',
+        'Veneet',
+        'Turvallisuus',
         'Vesi',
-        'Lifesaving'
+        'Elämäntapa',
+        ':red:',
+        ':white:'
     ],
     '🪬': [
         'Hamsa',
+        ':hamsa:',
         'Islam',
-        'Judaism',
+        'Juutalaisuus',
         'Buddhism',
-        'Christianity',
-        'Religions',
-        'Luck',
-        'Protection',
-        'Guidance',
-        'Feminine Power',
-        'Faith'
+        'Kristinusko',
+        'Uskonnot',
+        'Onnea',
+        'Suojaus',
+        'Ohjeet',
+        'Feminiininen Teho',
+        'Usko',
+        ':blue:'
     ],
     '🪩': [
-        'Mirror Ball',
-        'Disco Ball'
+        'Peili Pallo',
+        ':mirror_ball:',
+        'Discon Pallo'
     ],
     '🪫': [
-        'Low Battery',
-        'Punainen',
-        'Energy'
+        'Akku Matalassa',
+        ':low_battery:',
+        ':red:',
+        'Energia',
+        'Punainen'
     ],
-    '🩻': ['X-Ray'],
+    '🩻': [
+        'X-Ray',
+        ':x_ray:',
+        ':x-ray:',
+        ':blue:'
+    ],
     '🫧': [
-        'Bubbles',
-        'Soap Suds',
-        'Carbonation',
-        'Effervescent Personality'
+        'Kuplat',
+        ':bubbles:',
+        'Saippua Suolat',
+        'Hiilto',
+        'Tarkkaileva Persoonallisuus',
+        ':transparent:'
     ],
     '🪪': [
-        'Identification Card',
-        'Identity',
-        'Passport',
+        'Tunnistuskortti',
+        ':identification_card:',
+        'Identiteetti',
+        'Passi',
         'ID'
     ],
     '🧿': [
         'Nazar Amulet',
-        'Evil Eye'
+        ':nazar_amulet:',
+        'Paha Silmä',
+        ':blue:'
     ],
     '🧸': [
-        'Teddy Bear',
-        'Toy'
+        'Teddy Karhu',
+        ':teddy_bear:',
+        'Lelu',
+        ':brown:'
     ]
 };

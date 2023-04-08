@@ -1,7 +1,7 @@
 lang = 'tr';
 //use i18n language code of the browser, more details: https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/i18n/LanguageCode
 settings_strings[lang] = {};
-settings_strings[lang]['placeholder-searchbox'] = 'Anahtar kelime ile ara';
+settings_strings[lang]['placeholder-searchbox'] = 'Search by keyword, colour or gender';
 settings_strings[lang]['label-click-on-the-emojis'] = 'Kaldırmak istediğiniz emoji(lere) tıklayın';
 settings_strings[lang]['button-finish'] = 'Bitiş';
 settings_strings[lang]['label-delete-emoji'] = '\'En çok kullanılan emojiler\' bölümünden bir veya daha fazla emojiyi sil';

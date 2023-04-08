@@ -24,19 +24,25 @@ emojis_language[lang][0] = {};
 emojis_language[lang][2] = {
     '😀': [
         'Slipat ansikte',
-        ':)',
+        ':grinning:',
+        ':grinning_face:',
+        '::):',
         'Glad Ansikte',
         'Smiley ansikte'
     ],
     '😃': [
         'Grinning Face med stora ögon',
-        ':D',
+        ':smiley:',
+        ':grinning_face_with_big_eyes:',
+        '::D:',
         'Glad Ansikte',
         'Smiley ansikte',
         'Leende ansikte med öppen mun'
     ],
     '😄': [
         'Grinning Face med Smiling Eyes',
+        ':smile:',
+        ':grinning_face_with_smiling_eyes:',
         'Glad Ansikte',
         'Smiley ansikte',
         'Grinning Face med Squinting Eyes',
@@ -44,12 +50,15 @@ emojis_language[lang][2] = {
     ],
     '😁': [
         'Beaming Face med Smiling Eyes',
+        ':grin:',
+        ':beaming_face_with_smiling_eyes:',
         'Grinning Face med Smiling Eyes'
     ],
     '😆': [
         'Grinning Squinting Face',
-        'xD',
-        '><',
+        ':grinning_squinting_face:',
+        ':xD:',
+        ':><:',
         'Stor Grin',
         'Stängda ögon leende',
         'Skrattar',
@@ -58,6 +67,7 @@ emojis_language[lang][2] = {
     ],
     '😅': [
         'Slipning Ansikte med svett',
+        ':happy_sweat:',
         'Motion',
         'Glad svett',
         'Grinning Face med Squinting Eyes och Sweat Drop',
@@ -65,10 +75,12 @@ emojis_language[lang][2] = {
     ],
     '🤣': [
         'ROFL',
+        ':rofl:',
         'Rullande på golvet Skratt'
     ],
     '😂': [
         'Ansikte med tårar av glädje',
+        ':lol:',
         'Skrattar',
         'Skrattar gråter',
         'Skrattande tårar',
@@ -76,49 +88,59 @@ emojis_language[lang][2] = {
     ],
     '🙂': [
         'Lätt leende ansikte',
-        ':)',
+        ':smile:',
+        '::):',
         'Ganska glad',
         'Det här är bra'
     ],
     '🙃': [
         'Upp-och-ner ansikte',
+        ':upside-down_face:',
+        ':upside_down_face:',
         'Sarcasm',
         'Silly',
         'Upp och ner ansikte'
     ],
     '😉': [
         'Blinkande ansikte',
-        ';)',
+        ':winking:',
+        ':;):',
         'Bänk',
         'Vinkansikte',
         'Blåsigt ansikte'
     ],
     '😊': [
         'Leende Ansikte med leende ögon',
-        '^^',
+        ':smiling_face:',
+        ':^^:',
         'Glad Ansikte',
         'Leende',
         'Smiley ansikte'
     ],
     '😇': [
         'Leende Ansikte med Halo',
+        ':smiling_angel:',
         'Ängel',
         'Halo'
     ],
     '🥰': [
         'Leende ansikte med hjärtan',
+        ':smiling_hearts:',
         'I Kärlek Ansikte',
         'Leende ansikte med leende ögon och tre hjärtan'
     ],
     '😍': [
         'Leende Ansikte med hjärt-ögon',
-        '*.*',
+        ':smiling_heart-eyes:',
+        ':smiling_heart_eyes:',
+        ':*.*:',
         'Hjärta Ögon',
         'Hjärta Ansikte',
         'Leende Ansikte med hjärtformade ögon'
     ],
     '🤩': [
         'Stjärnstöt',
+        ':star_eyes:',
         'Upphetsad',
         'Stjärna ögon',
         'Stjärnor Ögade',
@@ -128,8 +150,9 @@ emojis_language[lang][2] = {
     ],
     '😘': [
         'Ansikte blåser en kyss',
-        ':*',
-        ':-*',
+        ':kissing_face:',
+        '::*:',
+        '::-*:',
         'Blås en kyss',
         'Blåsande kyss',
         'Kyssar',
@@ -137,14 +160,16 @@ emojis_language[lang][2] = {
     ],
     '😗': [
         'Kissar ansikte',
-        ':*',
-        ':-*',
+        ':kissing_face:',
+        '::*:',
+        '::-*:',
         'Anka Ansikte',
         'Kissy Face',
         'Visslande'
     ],
     '☺️': [
         'Leende Ansikte',
+        ':smiling_face:',
         'Glad Ansikte',
         'Smiley ansikte',
         'Leende',
@@ -152,11 +177,13 @@ emojis_language[lang][2] = {
     ],
     '😚': [
         'Kyssar ansikte med stängda ögon',
+        ':kissing_face:',
         'Kyss ansikte',
         'Kissy Face'
     ],
     '😙': [
         'Kyssar ansikte med leende ögon',
+        ':kissing_face:',
         'Kyss ansikte',
         'Kissy',
         'Vissla',
@@ -164,6 +191,7 @@ emojis_language[lang][2] = {
     ],
     '😋': [
         'Ansikte Savoring Mat',
+        ':savoring_face:',
         'Göm',
         'Hungrig',
         'Leende läpparna för ansiktet',
@@ -172,7 +200,8 @@ emojis_language[lang][2] = {
     ],
     '😛': [
         'Ansikte med tunga',
-        ':P',
+        ':tongue_face:',
+        '::P:',
         'Skönt',
         'Tunga Ansikte',
         'Tunga-ut',
@@ -180,7 +209,8 @@ emojis_language[lang][2] = {
     ],
     '😜': [
         'Blinkande ansikte med tunga',
-        ';P',
+        ':winking:',
+        ':;P:',
         'Galen',
         'Galet ansikte',
         'Winking Face med Stuck-Out Tongue',
@@ -188,6 +218,7 @@ emojis_language[lang][2] = {
     ],
     '🤪': [
         'Zany Face',
+        ':crazy_face:',
         'Galen ögon',
         'Upphetsad',
         'Vild',
@@ -196,20 +227,24 @@ emojis_language[lang][2] = {
     ],
     '😝': [
         'Squinting Face med tungan',
-        'xP',
+        ':tongue_face:',
+        ':xP:',
         'Tunga ut',
         'Ansikte med Stuck Out Tongue och Tightly-Closed Eyes',
         'Ansikte med Stuck-Out Tongue och Tightly-Closed Eyes'
     ],
     '🤑': [
         'Money-Mouth Face',
-        ':$',
+        ':money-mouth_face:',
+        ':money_mouth_face:',
+        '::$:',
         'Dollar tecken Ögon',
         'Pengar ansikte',
         'Rik'
     ],
     '🤗': [
         'Huggande Ansikte',
+        ':hugging_face:',
         'Hug',
         'Kramar',
         'Kramar',
@@ -217,11 +252,13 @@ emojis_language[lang][2] = {
     ],
     '🤭': [
         'Hoppsan',
+        ':oops:',
         'Ansikte med handen över munnen',
         'Leende ansikte med Smiling Eyes och Hand Täckande Mun'
     ],
     '🤫': [
         'Shh',
+        ':shushing_face:',
         'Shush',
         'Shushing Face',
         'Tyst',
@@ -232,6 +269,7 @@ emojis_language[lang][2] = {
     ],
     '🤔': [
         'Vad',
+        ':thinking_face:',
         '?',
         'Hmm',
         'Tänker ansikte',
@@ -241,6 +279,7 @@ emojis_language[lang][2] = {
     ],
     '🤐': [
         'Postnummer',
+        ':zip_face:',
         'Blixtlås-mun-ansikte',
         'Läppar förseglade',
         'Förseglade Läppar',
@@ -249,6 +288,7 @@ emojis_language[lang][2] = {
     ],
     '🤨': [
         'Ansikte med Raised Eyebrow',
+        ':face_with_raised_eyebrow:',
         'Kolbert',
         'Stenen',
         'Face With Raised Eyebrow',
@@ -256,18 +296,21 @@ emojis_language[lang][2] = {
     ],
     '😐': [
         'Neutralt ansikte',
+        ':neutral_face:',
         ':|',
         'Ansikte med rak mun',
         'Rakt vänd mot'
     ],
     '😑': [
         'Uttryckslöst ansikte',
+        ':expressionless_face:',
         '-_-',
         'Ansikte med rak mun',
         'Rakt ansikte'
     ],
     '😶': [
         'Ansikte utan mun',
+        ':face_without_mouth:',
         'Tomt Ansikte',
         'Munlös',
         'Tystnad',
@@ -275,6 +318,7 @@ emojis_language[lang][2] = {
     ],
     '😏': [
         'Smirking ansikte',
+        ':smirking_face:',
         'Flirtar',
         'Sexuellt ansikte',
         'Mugg Ansikte',
@@ -282,6 +326,7 @@ emojis_language[lang][2] = {
     ],
     '😒': [
         'Namnlöst Ansikte',
+        ':unamused_face:',
         'Missnöjd',
         'Meh',
         'Side-Eye',
@@ -289,10 +334,13 @@ emojis_language[lang][2] = {
     ],
     '🙄': [
         'Ansikte med Rolling Eyes',
+        ':face_with_rolling_eye:',
+        ':eye_roll:',
         'Ögon rulle'
     ],
     '😬': [
         'Grimacing ansikte',
+        ':awkward:',
         'Tacksam',
         'Eek',
         'Fot i montage',
@@ -301,17 +349,20 @@ emojis_language[lang][2] = {
     ],
     '🤥': [
         'Liggande ansikte',
+        ':lying_face:',
         'Lögnare',
         'Lång näsa',
         'Pinocchio'
     ],
     '😌': [
         'Lindrat ansikte',
+        ':relieved_face:',
         'Innehåll',
         'Grattis'
     ],
     '😔': [
         'Ledsen',
+        ':sad_face:',
         'Pensivt ansikte',
         'Pentig',
         'Ledsen',
@@ -321,24 +372,32 @@ emojis_language[lang][2] = {
     ],
     '😪': [
         'Sömnigt ansikte',
+        ':sleepy_face:',
         'Side-Tear',
         'Snöbubbla'
     ],
     '🤤': [
         'Saliv',
+        ':saliva_face:',
         'Drooling Face',
         'Drool'
     ],
     '😴': [
         'Sovande Ansikte',
+        ':sleeping_face:',
+        ':zzz:',
         'Zzz',
         'Sömn ansikte',
         'Snarkning',
         'Zzz ansikte'
     ],
-    '🥱': ['Yawning ansikte'],
+    '🥱': [
+        'Yawning ansikte',
+        ':yawning_face:'
+    ],
     '😷': [
         'Ansikte med Medical Mask',
+        ':face_with_medical_mask:',
         'Coronavirus',
         'COVID-19',
         'Mask Ansikte',
@@ -346,23 +405,31 @@ emojis_language[lang][2] = {
     ],
     '🤒': [
         'Ansikte med termometer',
+        ':face_with_thermometer:',
+        ':sick:',
+        ':ill:',
         'Ill',
         'Sjuk'
     ],
     '🤕': [
         'Ansikte med Huvud-Bandage',
+        ':face_with_head-bandage:',
+        ':face_with_head_bandage:',
         'Bandat Huvud',
         'Klumpig',
         'Skadad'
     ],
     '🤢': [
         'Illamående ansikte',
+        ':nauseated_face:',
         'Avsmak',
         'Grönt ansikte',
-        'Kräkningar'
+        'Kräkningar',
+        ':green:'
     ],
     '🤮': [
         'Ansikte kräks',
+        ':face_vomiting:',
         'Speg',
         'Bleah',
         'Bleurgh',
@@ -376,82 +443,102 @@ emojis_language[lang][2] = {
     ],
     '🤧': [
         'Nysningar ansikte',
+        ':sneezing_face:',
         'Gesundheit'
     ],
     '🥵': [
         'Varmt Ansikte',
-        'Överhettat ansikte'
+        ':hot_face:',
+        'Överhettat ansikte',
+        ':red:'
     ],
     '🥶': [
         'Kallt ansikte',
+        ':cold_face:',
         'Sval',
         'Kyl',
-        'Underkylt ansikte'
+        'Underkylt ansikte',
+        ':blue:'
     ],
     '🥴': [
         'Vackert ansikte',
+        ':woozy_face:',
         'Drunkat ansikte',
         'Ansikte med Uneven Eyes och Wavy Mouth'
     ],
     '😵': [
         'Dizzy Face',
+        ':dizzy_face:',
         'Cross Eyes ansikte',
         'Spiral Ögon ansikte'
     ],
     '🤯': [
         'Exploderande huvud',
+        ':exploding_head:',
         'Sinnet blåst',
         'Chockat ansikte med exploderande huvud'
     ],
     '🤠': [
         'Cowboy Hatt ansikte',
+        ':cowboy_hat_face:',
         'Cowboy',
         'Cowboy Face',
         'Ansikte med Cowboy Hatt'
     ],
     '🥳': [
         'Festligt ansikte',
+        ':partying_face:',
         'Partyansikte',
         'Ansikte med Party Horn och Party Hat'
     ],
     '😎': [
         'Leende Ansikte med solglasögon',
+        ':smiling_face_with_sunglasses:',
         'Sval',
         'Ömsesidiga Bästa Vänner (Snapchat)',
         'Solglasögon'
     ],
     '🤓': [
         'Nörd ansikte',
+        ':nerd_face:',
         'Nerdy'
     ],
-    '🧐': ['Ansikte med Monocle'],
+    '🧐': [
+        'Ansikte med Monocle',
+        ':face_with_monocle:'
+    ],
     '😕': [
         'Förvirrat ansikte',
-        ':/',
-        ':S',
+        ':confused_face:',
+        '::/:',
+        '::S:',
         'Icke-plusad',
         'Förbryllad'
     ],
     '😟': [
         'Oroat ansikte',
-        ':(',
+        ':worried_face:',
+        '::(:',
         'Ledsen',
         'Sadface'
     ],
     '🙁': [
         'Något rynkat ansikte',
-        ':(',
+        ':slightly_frowning_face:',
+        '::(:',
         'Något ledsen'
     ],
     '☹️': [
         'Frowning Face',
-        ':(',
+        ':frowning_face:',
+        '::(:',
         'Megafrown',
         'Vitt rynkat ansikte'
     ],
     '😮': [
         'Wow',
-        ':O',
+        ':wow:',
+        '::O:',
         'Åh min!',
         'Ansikte med öppen mun',
         'Öppna munnen',
@@ -459,13 +546,15 @@ emojis_language[lang][2] = {
     ],
     '😯': [
         'Tystat ansikte',
-        ':O',
+        ':husked_face:',
+        '::O:',
         'Överraskning',
         'Förvånat ansikte'
     ],
     '😲': [
         'Chockat ansikte',
-        ':O',
+        ':shocked_face:',
+        '::O:',
         'Wow',
         'Förstansat ansikte',
         'Drunkat ansikte',
@@ -473,7 +562,8 @@ emojis_language[lang][2] = {
     ],
     '😳': [
         'Spolat ansikte',
-        ':$',
+        ':flushed_face:',
+        '::$:',
         'Blushing Face',
         'Inbarrassed',
         'Skämt',
@@ -481,7 +571,8 @@ emojis_language[lang][2] = {
     ],
     '🥺': [
         'Pleading ansikte',
-        ':(',
+        ':pleading_face:',
+        '::(:',
         'Nybörjare',
         'Glansiga ögon',
         'Simp',
@@ -489,17 +580,20 @@ emojis_language[lang][2] = {
     ],
     '😦': [
         'Frowning Face med öppen mun',
-        'D:',
+        ':frowning_face_with_open_mouth:',
+        ':D::',
         'Gryning'
     ],
     '😨': [
         'Skrämd',
-        'D:',
+        ':scared:',
+        ':D::',
         'Fruktansvärt ansikte',
         'Förvånad'
     ],
     '😰': [
         'Anxiöst ansikte med svett',
+        ':anxious_face_with_sweat:',
         'Blått ansikte',
         'Bekymrat Ansikte',
         'Nervöst ansikte',
@@ -507,18 +601,21 @@ emojis_language[lang][2] = {
     ],
     '😥': [
         'Ledsen men befriad Ansikte',
-        ':\'(',
+        ':sad_but_relieved_face:',
+        '::(:',
         'Ögonbrynssvett',
         'Besviken men befriad ansikte'
     ],
     '😢': [
         'Gråter Ansikte',
-        ':\'(',
+        ':crying_face:',
+        '::(:',
         'Gråt',
         'Riv'
     ],
     '😭': [
         'Högt gråtande ansikte',
+        ':loudly_crying_face:',
         'Bawling',
         'Gråt',
         'Ledsna tårar',
@@ -526,45 +623,53 @@ emojis_language[lang][2] = {
     ],
     '😱': [
         'Ansikte skriker i skräck',
+        ':face_screaming_in_fear:',
         'Hem ensam',
         'Skri',
         'Skrikande ansikte'
     ],
     '😖': [
         'Samtyckt ansikte',
+        ':confounded_face:',
         'Quivering Mun',
         'Krympt Ansikte'
     ],
     '😣': [
         'Ihållande ansikte',
+        ':persevering_face:',
         'Hjälplöst ansikte',
         'Skrynkade ögon'
     ],
     '😞': [
         'Sviket ansikte',
-        ':(',
+        ':disappointed_face:',
+        '::(:',
         'Ledsen',
         'Sadface'
     ],
     '😓': [
         'Downcast Ansikte med svett',
+        ':downcast_face_with_sweat:',
         'Hårt arbete',
         'Ledsen Svett Ansikte',
         'Ansikte med kall svett'
     ],
     '😩': [
         'Bärbart ansikte',
+        ':weary_face:',
         'Distraught ansikte',
         'Salighet'
     ],
     '😫': [
         'Trött ansikte',
+        ':tired_face:',
         'Utmattad',
         'Fed upp',
         'Distraught ansikte'
     ],
     '😤': [
         'Ansikte med Steam från näsan',
+        ':face_with_steam_from_nose:',
         'Airing of Grievances',
         'Frustrerad',
         'Mad ansikte',
@@ -573,861 +678,1781 @@ emojis_language[lang][2] = {
     ],
     '😡': [
         'Pouting ansikte',
+        ':pouting_face:',
         'Arg Ansikte',
         'Grumpy ansikte',
         'Mad ansikte',
-        'Rött Ansikte'
+        'Rött Ansikte',
+        ':red:'
     ],
     '😠': [
         'Arg Ansikte',
+        ':angry_face:',
         'Arg',
         'Grumpy ansikte'
     ],
     '🤬': [
         'Sväva',
+        ':swearing:',
         '@#$%&!',
         'Ansikte med symboler i munnen',
         'Förbannad',
         'Kusslar',
         'Grawlix',
         'Ansikte med symboler över munnen',
-        'Allvarligt ansikte med symboler Täckande mun'
+        'Allvarligt ansikte med symboler Täckande mun',
+        ':red:'
     ],
-    '🥲': ['Leende Ansikte med Riv'],
+    '🥲': [
+        'Leende Ansikte med Riv',
+        ':smiling_face_with_tear:'
+    ],
     '😮‍💨': [
         'Ansikte utandning',
+        ':face_exhaling:',
         'Lö'
     ],
     '😵‍💫': [
         'Ansikte med spiralögon',
+        ':face_with_spiral_eyes:',
         'Dizzy Face'
     ],
-    '🥸': ['Förklädd yta'],
-    '🫠': ['Melting Face'],
-    '🫢': ['Face with Open Eyes and Hand Over Mouth'],
-    '🫣': ['Face with Peeking Eye'],
-    '🫡': [
-        'Saluting Face',
-        'Military',
-        'Army',
-        'RAF',
-        'Navy'
+    '🥸': [
+        'Förklädd yta',
+        ':disguised_face:'
     ],
-    '🫥': ['Dotted Line Face'],
-    '🫤': ['Face with Diagonal Mouth'],
-    '🥹': ['Face Holding Back Tears'],
+    '🫠': [
+        'Smältande ansikte',
+        ':melting_face:'
+    ],
+    '🫢': [
+        'Ansikte med öppna ögon och hand över mun',
+        ':face_with_open_eyes_and_hand_over_mouth:'
+    ],
+    '🫣': [
+        'Ansikte med Peeking Eye',
+        ':face_with_peeking_eye:'
+    ],
+    '🫡': [
+        'Hälsningsfullt ansikte',
+        ':saluting_face:',
+        'Militär',
+        'Armé',
+        'RAF',
+        'Marin'
+    ],
+    '🫥': [
+        'Prickad linje ansikte',
+        ':dotted_line_face:',
+        ':transparent:'
+    ],
+    '🫤': [
+        'Ansikte med diagonal mun',
+        ':face_with_diagonal_mouth:'
+    ],
+    '🥹': [
+        'Ansikte håller tillbaka tårar',
+        ':face_holding_back_tears:'
+    ],
     '😈': [
         'Leende ansikte med horn',
+        ':smiling_face_with_horns:',
         'Djävulen',
         'Djävuls horn',
         'Glad Djävulen',
         'Lila Djävulen',
-        'Röd Djävulen'
+        'Röd Djävulen',
+        ':purple:'
     ],
     '👿': [
         'Argt ansikte med horn',
+        ':angry_face_with_horns:',
         'Djävulen',
         'Djävuls horn',
         'Lila Djävulen',
         'Lila Goblin',
         'Ledsen Djävulen',
-        'Imp'
+        'Imp',
+        ':lila'
     ],
     '🤡': [
         'Clownens ansikte',
+        ':clown_face:',
         'Läskig clown',
         'Ond clown',
         'Skrämmande Clown'
     ],
     '👽': [
         'Utomjordisk',
+        ':alien:',
         'ET'
     ],
     '👾': [
         'Främmande monster',
+        ':alien_monster:',
         'Invader i webb-ytan',
         'Videospel monster'
     ],
     '🤖': [
         'Robot',
+        ':robot:',
         'Robot ansikte'
     ],
     '👹': [
         'Ogre',
+        ':ogre:',
         'Mask Ansikte',
         'Oni',
         'Rött monster',
-        'Japanska Ogre'
+        'Japanska Ogre',
+        ':red:'
     ],
     '👻': [
         'Spöke',
+        ':ghost:',
         'Halloween'
     ],
     '🗣️': [
         'Talar huvud',
+        ':speaking_head:',
         'Mansplying',
         'Rop',
         'Skriker',
-        'Tala Huvud i Silhouette'
+        'Tala Huvud i Silhouette',
+        ':blue:'
     ],
     '👤': [
         'Byst i Silhouette',
+        ':bust_in_silhouette:',
         'Skugga',
         'Silhouette',
         'Användare',
-        'Siluett av person'
+        'Siluett av person',
+        ':blue:'
     ],
-    '🫂': ['Folk kramar'],
+    '🫂': [
+        'Folk kramar',
+        ':people_hugging:',
+        ':blue:'
+    ],
     '👥': [
         'Byst i Silhouette',
+        ':busts_in_silhouette:',
         'Skuggor',
         'Silhouettes',
         'Användare',
-        'Siluett av två personer'
+        'Siluett av två personer',
+        ':blue:'
     ]
 };
 /*people*/
 emojis_language[lang][3] = {
     '👶{{skin_tone}}': [
         'Baby',
+        ':baby:',
         'Barn',
         'Småbarn'
     ],
     '🧒{{skin_tone}}': [
         'Barn',
+        ':child:',
         'Neutralt barn kön'
     ],
-    '👧{{skin_tone}}': ['Flicka'],
+    '👧{{skin_tone}}': [
+        'Flicka',
+        ':girl:',
+        ':woman:'
+    ],
     '🧑{{skin_tone}}': [
         'Person',
+        ':person:',
         'Neutralt Könsberoende',
-        'Vuxen'
+        'Vuxen',
+        ':person:'
     ],
     '🧑{{skin_tone}}': [
-        'Person: Beard',
-        'Beard',
-        'Bearded Person',
-        'Bearded Person'
+        'Person: Skägg',
+        ':person_beard:',
+        'Skägg',
+        'Skäggig Person',
+        'Skäggig Person',
+        ':person:'
     ],
     '🧑{{skin_tone}}‍🦰': [
-        'Person: Red Hair',
-        'Ginger Person',
+        'Person: Rött hår',
+        ':person_red_hair:',
+        'Ingefära Person',
         'Person Redhead',
-        'Person With Red Hair'
+        'Person med rött hår',
+        ':person:'
     ],
     '🧑{{skin_tone}}‍🦱': [
-        'Person: Curly Hair',
-        'Person With Curly Hair'
+        'Person: Lockigt hår',
+        ':person_curly_hair:',
+        'Person med lockigt hår',
+        ':person:'
     ],
     '🧑{{skin_tone}}‍🦳': [
-        'Person: White Hair',
-        'Person With Gray Hair'
+        'Person: vitt hår',
+        ':person_white_hair:',
+        'Person med grått hår',
+        ':person:'
     ],
     '🧑{{skin_tone}}‍🦲': [
-        'Person: Bald',
-        'Person With No Hair'
+        'Person: Skallig',
+        ':person_bald:',
+        'Person med inget hår',
+        ':person:'
     ],
     '👱{{skin_tone}}': [
         'Person: Blondt hår',
-        'Person With Blonde Hair'
+        ':person_blond_hair:',
+        'Person med blont hår',
+        ':person:'
     ],
     '👨{{skin_tone}}': [
         'Människan',
+        ':man:',
         'Man',
-        'Mustasch Man'
+        'Mustasch Man',
+        ':man:'
     ],
     '🧔{{skin_tone}}‍♂️': [
-        'Man: Beard',
-        'Beard',
-        'Bearded Man',
-        'Bearded Person'
+        'Man: Skägg',
+        ':man_beard:',
+        'Skägg',
+        'Skäggad Man',
+        'Skäggig Person',
+        ':man:'
     ],
     '👨{{skin_tone}}‍🦰': [
         'Man: Rött hår',
+        ':man_red_hair:',
         'Ingefära Man',
         'Man Redhead',
-        'Man med rött hår'
+        'Man med rött hår',
+        ':man:'
     ],
     '👨{{skin_tone}}‍🦱': [
         'Man: Lockigt hår',
-        'Man med lockigt hår'
+        ':man_curly_hair:',
+        'Man med lockigt hår',
+        ':man:'
     ],
     '👨{{skin_tone}}‍🦳': [
         'Man: vitt hår',
-        'Man med grått hår'
+        ':man_white_hair:',
+        'Man med grått hår',
+        ':man:'
     ],
     '👨{{skin_tone}}‍🦲': [
         'Man: Skallig',
-        'Man med inget hår'
+        ':man_bald:',
+        'Man med inget hår',
+        ':man:'
     ],
     '👱{{skin_tone}}‍♂️': [
         'Man: Blond hår',
-        'Man med blont hår'
+        ':man_blond_hair:',
+        'Man med blont hår',
+        ':man:'
     ],
     '👩{{skin_tone}}': [
         'Kvinna',
+        ':woman:',
         'Kvinna',
         'Dam',
-        'Gul kvinna'
+        'Gul kvinna',
+        ':woman:'
     ],
     '🧔{{skin_tone}}‍♀️': [
-        'Woman: Beard',
-        'Beard',
-        'Bearded Woman'
+        'Kvinna: Skägg',
+        ':woman_beard:',
+        'Skägg',
+        'Skäggad kvinna',
+        ':woman:'
     ],
     '👩{{skin_tone}}‍🦰': [
         'Kvinna: Rött hår',
+        ':woman_red_hair:',
         'Ingefära Kvinna',
         'Woman Redhead',
-        'Kvinna med rött hår'
+        'Kvinna med rött hår',
+        ':woman:'
     ],
     '👩{{skin_tone}}‍🦱': [
         'Kvinna: Lockigt hår',
-        'Kvinna med lockigt hår'
+        ':woman_curly_hair:',
+        'Kvinna med lockigt hår',
+        ':woman:'
     ],
     '👩{{skin_tone}}‍🦳': [
         'Kvinna: Vitt hår',
-        'Kvinna med grått hår'
+        ':woman_white_hair:',
+        'Kvinna med grått hår',
+        ':woman:'
     ],
     '👩{{skin_tone}}‍🦲': [
         'Kvinna: Skallig',
-        'Kvinna med inget hår'
+        ':woman_bald:',
+        'Kvinna med inget hår',
+        ':woman:'
     ],
     '👱{{skin_tone}}‍♀️': [
         'Kvinna: Blond hår',
-        'Kvinna med blont hår'
-    ],
-    '🧓{{skin_tone}}': [
-        'Older Person',
-        'Gender Neutral Older Adult'
+        ':woman_blond_hair:',
+        'Kvinna med blont hår',
+        ':woman:'
     ],
     '👴{{skin_tone}}': [
-        'Old Man',
-        'Elderly Man',
+        'Äldre Man',
+        ':older_man:',
+        ':older:',
+        'Äldre Man',
         'Grandpa',
-        'Older Man'
+        'Gammal man',
+        ':man:'
     ],
     '👵{{skin_tone}}': [
-        'Old Woman',
-        'Elderly Woman',
-        'Grandma',
+        'Äldre kvinna',
+        ':older_woman:',
+        ':older:',
+        'Äldre kvinna',
+        'Mormor',
         'Nanna',
-        'Old Lady',
-        'Older Woman'
+        'Gammal dam',
+        'Gammal kvinna',
+        ':woman:'
+    ],
+    '🧓{{skin_tone}}': [
+        'Äldre person',
+        ':older_person:',
+        ':older:',
+        'Könsneutrala äldre vuxna',
+        ':person:'
     ],
     '👼{{skin_tone}}': [
-        'Baby Angel',
-        'Angel',
+        'Baby Ängel',
+        ':baby_angel:',
+        'Ängel',
         'Cherub',
         'Cupid',
         'Putto'
     ],
     '👨{{skin_tone}}‍🎄': [
-        'Santa Claus',
+        'Jultomten',
+        ':santa_claus:',
         'Saint Nicholas',
         'Sinterklaas',
-        'Father Christmas'
+        'Jultomten',
+        ':man:'
     ],
     '👩{{skin_tone}}‍🎄': [
-        'Mrs Claus',
-        'Mother Christmas'
+        'Fru Claus',
+        ':mrs_claus:',
+        'Mor jul',
+        ':woman:'
     ],
     '🧑{{skin_tone}}‍🎄': [
         'Mx Claus',
-        'Person Christmas'
+        ':mx_clause:',
+        'Person Jul',
+        ':person:'
     ],
-    '🤴{{skin_tone}}': ['Prince'],
+    '🤴{{skin_tone}}': [
+        'Prins',
+        ':price:',
+        ':man:'
+    ],
     '👸{{skin_tone}}': [
-        'Princess',
-        'Blonde Girl',
-        'Girl With Crown',
-        'Girl With Tiara'
+        'Prinsessan',
+        ':pricess:',
+        'Blond Flicka',
+        'Flicka med krona',
+        'Flicka med Tiara',
+        ':woman:'
     ],
-    '🫅{{skin_tone}}': ['Person with Crown'],
+    '🫅{{skin_tone}}': [
+        'Person med krona',
+        ':person_with_crown:',
+        ':person:'
+    ],
     '👳{{skin_tone}}‍♂️': [
         'Man Bär Turban',
-        'Arab',
-        'Muslim',
+        ':man_wearing_turban:',
+        ':wearing_turban:',
+        'Arabiska',
+        'Muselman',
         'Sikh',
-        'Turban'
+        'Turban',
+        ':man:'
     ],
     '👳{{skin_tone}}‍♀️': [
         'Kvinna Bär Turban',
-        'Arab',
-        'Muslim',
+        ':woman_wearing_turban:',
+        ':wearing_turban:',
+        'Arabiska',
+        'Muselman',
         'Sikh',
-        'Turban'
+        'Turban',
+        ':woman:'
     ],
     '👳{{skin_tone}}': [
-        'Person Wearing Turban',
-        'Arab',
-        'Muslim',
+        'Person Bär Turban',
+        ':person_wearing_turban:',
+        ':wearing_turban:',
+        'Arabiska',
+        'Muselman',
         'Sikh',
-        'Turban'
+        'Turban',
+        ':person:'
     ],
     '👲{{skin_tone}}': [
-        'Person With Skullcap',
-        'Asian Man',
-        'Man With Chinese Cap',
-        'Man with Gua Pi Mao'
+        'Person med Skullcap',
+        ':person_with_skullcap:',
+        'Asiatisk man',
+        'Man med kinesisk mössa',
+        'Man med Gua Pi Mao',
+        ':person:'
     ],
     '🧕{{skin_tone}}': [
-        'Woman with Headscarf',
+        'Kvinna med huvudduk',
+        ':woman_with_headscarf:',
         'Hijab',
-        'Person with Headscarf'
+        'Person med huvudduk',
+        ':woman:'
     ],
     '🤵{{skin_tone}}‍♀️': [
-        'Man in Tuxedo',
+        'Man i Tuxedo',
+        ':man_in_tuxedo:',
+        ':tuxedo:',
         'Groom',
-        'Man In Suit',
-        'Wedding'
+        'Man i kostym',
+        'Bröllop',
+        ':man:'
     ],
     '🤵{{skin_tone}}‍♂️': [
-        'Woman in Tuxedo',
+        'Kvinna i Tuxedo',
+        ':woman_in_tuxedo:',
+        ':tuxedo:',
         'Groom',
-        'Woman In Suit',
-        'Wedding'
+        'Kvinna i kostym',
+        'Bröllop',
+        ':woman:'
     ],
     '🤵{{skin_tone}}': [
-        'Person in Tuxedo',
+        'Person i Tuxedo',
+        ':person_in_tuxedo:',
+        ':tuxedo:',
         'Groom',
-        'Person In Suit',
-        'Wedding'
+        'Person i kostym',
+        'Bröllop',
+        ':person:'
     ],
     '👰{{skin_tone}}‍♂️': [
         'Man med slöja',
-        'Wedding',
-        'Bridegroom',
-        'Marriage'
+        ':man_with_veil:',
+        ':veil:',
+        'Bröllop',
+        'Brudgum',
+        'Äktenskap',
+        ':man:'
     ],
     '👰{{skin_tone}}‍♀️': [
         'Kvinna med slöja',
-        'Wedding',
-        'Bride',
-        'Bride with Veil',
-        'Marriage'
+        ':woman_with_veil:',
+        ':veil:',
+        'Bröllop',
+        'Brud',
+        'Brud med slöja',
+        'Äktenskap',
+        ':woman:'
     ],
     '👰{{skin_tone}}': [
-        'Person With Veil',
-        'Wedding',
-        'Marriage'
+        'Person med slöja',
+        ':person_with_veil:',
+        ':veil:',
+        'Bröllop',
+        'Äktenskap',
+        ':person:'
     ],
-    '👩{{skin_tone}}‍🍼': ['Kvinnans utfodring Baby'],
-    '👨{{skin_tone}}‍🍼': ['Mannen utfodring Baby'],
-    '🧑{{skin_tone}}‍🍼': ['Person Feeding Baby'],
-    '🥷': ['Ninja'],
-    '🤰{{skin_tone}}': [
-        'Pregnant Woman',
-        'Pregnancy',
-        'Pregnant Lady'
+    '👨{{skin_tone}}‍🍼': [
+        'Mannen utfodring Baby',
+        ':man_feeding_baby:',
+        ':feeding_baby:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🍼': [
+        'Kvinnans utfodring Baby',
+        ':woman_feeding_baby:',
+        ':feeding_baby:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🍼': [
+        'Person utfodring Baby',
+        ':person_feeding_baby:',
+        ':feeding_baby:',
+        ':person:'
+    ],
+    '🥷': [
+        'Ninja',
+        ':ninja:'
     ],
     '🫃{{skin_tone}}': [
-        'Pregnant Man',
-        'Pregnancy'
+        'Gravid Man',
+        ':pregnant_man:',
+        ':pregnant:',
+        'Graviditet',
+        ':man:'
+    ],
+    '🤰{{skin_tone}}': [
+        'Gravid kvinna',
+        ':pregnant_woman:',
+        ':pregnant:',
+        'Graviditet',
+        'Gravid Dam',
+        ':woman:'
     ],
     '🫄{{skin_tone}}': [
-        'Pregnant Person',
-        'Pregnancy'
+        'Gravid Person',
+        ':pregnant_person:',
+        ':pregnant:',
+        'Graviditet',
+        ':person:'
     ],
     '🤱{{skin_tone}}‍': [
         'Bröstfri',
+        ':breast-feeding:',
+        ':breast_feeding:',
         'Amning'
     ],
-    '🦸{{skin_tone}}‍♂️': ['Man Superhjälte'],
-    '🦸{{skin_tone}}‍♀️': ['Woman Superhero'],
-    '🦸{{skin_tone}}': ['Person Superhero'],
-    '🦹{{skin_tone}}‍♂️': ['Man Supervillain'],
-    '🦹{{skin_tone}}‍♀️': ['Woman Supervillain'],
-    '🦹{{skin_tone}}': ['Person Supervillain'],
+    '🦸{{skin_tone}}‍♂️': [
+        'Man Superhjälte',
+        ':man_superhero:',
+        ':superhero:',
+        ':man:'
+    ],
+    '🦸{{skin_tone}}‍♀️': [
+        'Kvinna Superhjälte',
+        ':woman_superhero:',
+        ':superhero:',
+        ':woman:'
+    ],
+    '🦸{{skin_tone}}': [
+        'Person Superhjälte',
+        ':person_superhero:',
+        ':superhero:',
+        ':person:'
+    ],
+    '🦹{{skin_tone}}‍♂️': [
+        'Mannen Superskurk',
+        ':man_supervillain:',
+        ':supervillain:',
+        ':man:'
+    ],
+    '🦹{{skin_tone}}‍♀️': [
+        'Kvinna Superskurk',
+        ':woman_supervillain:',
+        ':supervillain:',
+        ':woman:'
+    ],
+    '🦹{{skin_tone}}': [
+        'Person Superskurk',
+        ':person_supervillain:',
+        ':supervillain:',
+        ':person:'
+    ],
     '🧙{{skin_tone}}‍♂️': [
-        'Man Mage',
+        'Man magi',
+        ':man_mage:',
+        ':mage:',
         'Sorcerer',
-        'Wizard'
+        'Guide',
+        ':man:'
     ],
     '🧙{{skin_tone}}‍♀️': [
-        'Woman Mage',
-        'Witch',
-        'Sorceress',
-        'Wizard'
+        'Kvinna magi',
+        ':woman_mage:',
+        ':mage:',
+        'Häxa',
+        'Ursäkta',
+        'Guide',
+        ':woman:'
     ],
     '🧙{{skin_tone}}': [
-        'Person Mage',
-        'Wizard',
-        ':mage:'
+        'Person magi',
+        ':person_mage:',
+        ':mage:',
+        'Guide',
+        ':mage:',
+        ':person:'
     ],
-    '🧚{{skin_tone}}‍♂️': ['Man Fairy'],
-    '🧚{{skin_tone}}‍♀️': ['Kvinna älva'],
-    '🧚{{skin_tone}}': ['Person Fairy'],
+    '🧚{{skin_tone}}‍♂️': [
+        'Man älva',
+        ':man_fairy:',
+        ':fairy:',
+        ':man:'
+    ],
+    '🧚{{skin_tone}}‍♀️': [
+        'Kvinna älva',
+        ':woman_fairy:',
+        ':fairy:',
+        ':woman:'
+    ],
+    '🧚{{skin_tone}}': [
+        'Person älva',
+        ':person_fairy:',
+        ':fairy:',
+        ':person:'
+    ],
     '🧛{{skin_tone}}‍♂️': [
         'Man Vampyr',
-        'Dracula'
+        ':man_vampire:',
+        ':vampire:',
+        'Dracula',
+        ':man:'
     ],
-    '🧛{{skin_tone}}‍♀️': ['Woman Vampire'],
-    '🧛{{skin_tone}}': ['Person Vampire'],
+    '🧛{{skin_tone}}‍♀️': [
+        'Kvinna Vampyr',
+        ':woman_vampire:',
+        ':vampire:',
+        ':woman:'
+    ],
+    '🧛{{skin_tone}}': [
+        'Person Vampyr',
+        ':person_vampire:',
+        ':vampire:',
+        ':person:'
+    ],
     '🧜{{skin_tone}}‍♂️': [
         'Merman',
-        'Merboy'
+        ':merman:',
+        'Merboy',
+        ':man:'
     ],
     '🧜{{skin_tone}}‍♀️': [
         'Sjöjungfru',
-        'Mergirl'
+        ':mermaid:',
+        'Mergirl',
+        ':woman:'
     ],
-    '🧜{{skin_tone}}': ['Merperson'],
-    '🧝{{skin_tone}}‍♂️': ['Mannen Alf'],
-    '🧝{{skin_tone}}‍♀️': ['Kvinna Alf'],
-    '🧝{{skin_tone}}': ['Person Elf'],
-    '🧞‍♂️': ['Man Genie'],
-    '🧞‍♀️': ['Woman Genie'],
-    '🧞': ['Person Genie'],
+    '🧜{{skin_tone}}': [
+        'Merperson',
+        ':merperson:',
+        ':person:'
+    ],
+    '🧝{{skin_tone}}‍♂️': [
+        'Mannen Alf',
+        ':man_elf:',
+        ':elf:',
+        ':man:'
+    ],
+    '🧝{{skin_tone}}‍♀️': [
+        'Kvinna Alf',
+        ':woman_elf:',
+        ':elf:',
+        ':woman:'
+    ],
+    '🧝{{skin_tone}}': [
+        'Person Alf',
+        ':person_elf:',
+        ':elf:',
+        ':person:'
+    ],
+    '🧞‍♂️': [
+        'Man Genie',
+        ':man_genie:',
+        ':genie:',
+        ':man:'
+    ],
+    '🧞‍♀️': [
+        'Woman Genie',
+        ':woman_genie:',
+        ':genie:',
+        ':woman:'
+    ],
+    '🧞': [
+        'Person Genie',
+        ':person_genie:',
+        ':genie:',
+        ':person:'
+    ],
     '🕵️{{skin_tone}}‍♂️': [
         'Man Detektiv',
+        ':man_detective:',
+        ':detective:',
         'Privat öga',
         'Sleuth',
         'Spionera',
         'Man Sleuth',
         'Sömn eller spion',
         '007',
-        'Inspektör'
+        'Inspektör',
+        ':man:'
     ],
     '🕵️{{skin_tone}}‍♀️': [
         'Kvinna Detektiv',
-        'Private Eye',
+        ':woman_detective:',
+        ':detective:',
+        'Privat öga',
         'Sleuth',
-        'Spy',
-        'Woman Sleuth',
-        'Sleuth or Spy',
+        'Spionera',
+        'Kvinna Sömn',
+        'Sömn eller spion',
         '007',
-        'Inspector'
+        'Inspektör',
+        ':woman:'
     ],
     '🕵{{skin_tone}}': [
-        'Person Detective',
-        'Private Eye',
+        'Person Detektiv',
+        ':person_detective:',
+        ':detective:',
+        'Privat öga',
         'Sleuth',
-        'Spy',
-        'Person Sleuth',
-        'Sleuth or Spy',
+        'Spionera',
+        'Person Sömn',
+        'Sömn eller spion',
         '007',
-        'Inspector'
+        'Inspektör',
+        ':person:'
     ],
     '💂{{skin_tone}}‍♂️': [
         'Man: Guard',
-        'British Guardsman',
-        'Foot Guard'
+        ':man_guard:',
+        ':guard:',
+        'Brittisk väktare',
+        'Fot Vakt',
+        ':man:'
     ],
     '💂{{skin_tone}}‍♀️': [
-        'Woman: Guard',
-        'British Guardsman',
-        'Foot Guard'
+        'Kvinna: Vakt',
+        ':woman_guard:',
+        ':guard:',
+        'Brittisk väktare',
+        'Fot Vakt',
+        ':woman:'
     ],
     '💂{{skin_tone}}': [
-        'Person: Guard',
-        'British Guardsman',
-        'Foot Guard'
+        'Person: Vakt',
+        ':person_guard:',
+        ':guard:',
+        'Brittisk väktare',
+        'Fot Vakt',
+        ':person:'
     ],
     '👮{{skin_tone}}‍♂️': [
-        'Police Officer',
+        'Polis',
+        ':man_police_officer:',
+        ':police_officer:',
         'Cop',
-        'Police',
-        'Policeman'
+        'Polis',
+        'Polis',
+        ':man:'
     ],
     '👮{{skin_tone}}‍♀️': [
-        'Woman Police Officer',
+        'Kvinnlig polis',
+        ':woman_police_officer:',
+        ':police_officer:',
         'Cop',
-        'Police',
-        'Policewoman'
+        'Polis',
+        'Poliskvinna',
+        ':woman:'
     ],
     '👮{{skin_tone}}': [
-        'Police Officer',
+        'Polis',
+        ':person_police_officer:',
+        ':police_officer:',
         'Cop',
-        'Police'
+        'Polis',
+        ':person:'
     ],
-    '👨{{skin_tone}}‍🚒': ['Man brandman'],
-    '👩{{skin_tone}}‍🚒': ['Woman Firefighter'],
-    '🧑{{skin_tone}}‍🚒': ['Person Firefighter'],
-    '👨{{skin_tone}}‍✈️': ['Man Pilot'],
-    '👩{{skin_tone}}‍✈️': ['Woman Pilot'],
-    '🧑{{skin_tone}}‍✈️': ['Person Pilot'],
+    '👨{{skin_tone}}‍🚒': [
+        'Man brandman',
+        ':man_firefighter:',
+        ':firefighter:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🚒': [
+        'Kvinna brandman',
+        ':woman_firefighter:',
+        ':firefighter:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🚒': [
+        'Person brandman',
+        ':person_firefighter:',
+        ':firefighter:',
+        ':person:'
+    ],
+    '👨{{skin_tone}}‍✈️': [
+        'Manlig Pilot',
+        ':man_pilot:',
+        ':pilot:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍✈️': [
+        'Kvinna Pilot',
+        ':woman_pilot:',
+        ':pilot:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍✈️': [
+        'Person Pilot',
+        ':person_pilot:',
+        ':pilot:',
+        ':person:'
+    ],
     '👨{{skin_tone}}‍💻': [
         'Mannen Tekniker',
-        'Mannen Tekniker'
+        ':man_technologist:',
+        ':technologist:',
+        'Mannen Tekniker',
+        ':man:'
     ],
-    '👩{{skin_tone}}‍💻': ['Kvinna Tekniker'],
-    '🧑{{skin_tone}}‍💻': ['Person Technologist'],
+    '👩{{skin_tone}}‍💻': [
+        'Kvinna Tekniker',
+        ':woman_technologist:',
+        ':technologist:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍💻': [
+        'Person Tekniker',
+        ':person_technologist:',
+        ':technologist:',
+        ':person:'
+    ],
     '👨{{skin_tone}}‍🎤': [
         'Manlig sångare',
+        ':man_singer:',
+        ':singer:',
         'Bowie',
-        'Aladdin Sane'
+        'Aladdin Sane',
+        ':man:'
     ],
-    '👩{{skin_tone}}‍🎤': ['Kvinnlig sångare'],
-    '🧑{{skin_tone}}‍🎤': ['Person Singer'],
-    '👨{{skin_tone}}‍🎨': ['Mannen konstnär'],
-    '👩{{skin_tone}}‍🎨': ['Kvinna konstnär'],
-    '🧑{{skin_tone}}‍🎨': ['Person Artist'],
-    '👷{{skin_tone}}‍♂️': ['Man Construction Worker'],
-    '👷{{skin_tone}}‍♀️': ['Woman Construction Worker'],
-    '👷{{skin_tone}}': ['Person Construction Worker'],
+    '👩{{skin_tone}}‍🎤': [
+        'Kvinnlig sångare',
+        ':woman_singer:',
+        ':singer:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🎤': [
+        'Person sångare',
+        ':person_singer:',
+        ':singer:',
+        ':person:'
+    ],
+    '👨{{skin_tone}}‍🎨': [
+        'Mannen konstnär',
+        ':man_artist:',
+        ':artist:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🎨': [
+        'Kvinna konstnär',
+        ':woman_artist:',
+        ':artist:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🎨': [
+        'Person Artist',
+        ':person_artist:',
+        ':artist:',
+        ':person:'
+    ],
+    '👷{{skin_tone}}‍♂️': [
+        'Man Construction Worker',
+        ':man_contruction_worker:',
+        ':contruction_worker:',
+        ':man:'
+    ],
+    '👷{{skin_tone}}‍♀️': [
+        'Kvinnlig byggnadsarbetare',
+        ':woman_contruction_worker:',
+        ':contruction_worker:',
+        ':woman:'
+    ],
+    '👷{{skin_tone}}': [
+        'Person Construction Worker',
+        ':person_contruction_worker:',
+        ':contruction_worker:',
+        ':person:'
+    ],
     '👨{{skin_tone}}‍🚀': [
-        'Man Astronaut',
-        'Man Cosmonaut'
+        'Man astronauter',
+        ':man_astronaut:',
+        ':astronaut:',
+        'Man Cosmonaut',
+        ':man:'
     ],
     '👩{{skin_tone}}‍🚀': [
-        'Woman Astronaut',
-        'Woman Cosmonaut'
+        'Kvinna astronaut',
+        ':woman_astronaut:',
+        ':astronaut:',
+        'Kvinna Cosmonaut',
+        ':woman:'
     ],
     '🧑{{skin_tone}}‍🚀': [
-        'Person Astronaut',
-        'Person Cosmonaut'
+        'Person astronauter',
+        ':person_astronaut:',
+        ':astronaut:',
+        'Person Cosmonaut',
+        ':person:'
     ],
-    '👨{{skin_tone}}‍🔬': ['Man Scientist'],
-    '👩{{skin_tone}}‍🔬': ['Woman Scientist'],
-    '🧑{{skin_tone}}‍🔬': ['Person Scientist'],
+    '👨{{skin_tone}}‍🔬': [
+        'Mannen vetenskapsman',
+        ':man_scientist:',
+        ':scientist:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🔬': [
+        'Kvinna forskare',
+        ':woman_scientist:',
+        ':scientist:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🔬': [
+        'Person forskare',
+        ':person_scientist:',
+        ':scientist:',
+        ':person:'
+    ],
     '👨{{skin_tone}}‍💼': [
         'Man Office Worker',
+        ':man_office_worker:',
+        ':office_worker:',
         'VD',
-        'Affärsman'
+        'Affärsman',
+        ':man:'
     ],
     '👩{{skin_tone}}‍💼': [
         'Kvinna kontorsarbetare',
+        ':woman_office_worker:',
+        ':office_worker:',
         'Affärskvinna',
-        'VD'
+        'VD',
+        ':woman:'
     ],
     '🧑{{skin_tone}}‍💼': [
         'Person Office Worker',
-        'Business',
-        'CEO'
+        ':person_office_worker:',
+        ':office_worker:',
+        'Företag',
+        'VD',
+        ':person:'
     ],
-    '👨{{skin_tone}}‍🏭': ['Man Factory Worker'],
-    '👩{{skin_tone}}‍🏭': ['Woman Factory Worker'],
-    '🧑{{skin_tone}}‍🏭': ['Person Factory Worker'],
-    '👨{{skin_tone}}‍🔧': ['Man Mechanic'],
-    '👩{{skin_tone}}‍🔧': ['Woman Mechanic'],
-    '🧑{{skin_tone}}‍🔧': ['Person Mechanic'],
+    '👨{{skin_tone}}‍🏭': [
+        'Man Factory Worker',
+        ':man_factory_worker:',
+        ':factory_worker:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🏭': [
+        'Kvinna fabriksarbetare',
+        ':woman_factory_worker:',
+        ':factory_worker:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🏭': [
+        'Person Factory Worker',
+        ':person_factory_worker:',
+        ':factory_worker:',
+        ':person:'
+    ],
+    '👨{{skin_tone}}‍🔧': [
+        'Man Mekaniker',
+        ':man_mechanic:',
+        ':mechanic:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🔧': [
+        'Kvinna mekaniker',
+        ':woman_mechanic:',
+        ':mechanic:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🔧': [
+        'Person mekaniker',
+        ':person_mechanic:',
+        ':mechanic:',
+        ':person:'
+    ],
     '👨{{skin_tone}}‍🍳': [
         'Man Cook',
-        'Man Chef',
-        'Male Chef'
+        ':man_cook:',
+        ':cook:',
+        'Mannen kock',
+        'Manlig kock',
+        ':man:'
     ],
     '👩{{skin_tone}}‍🍳': [
-        'Woman Cook',
-        'Woman Chef',
-        'Female Chef'
+        'Kvinna Cook',
+        ':woman_cook:',
+        ':cook:',
+        'Kvinna kock',
+        'Kvinnlig kock',
+        ':woman:'
     ],
     '🧑{{skin_tone}}‍🍳': [
         'Person Cook',
-        'Person Chef'
+        ':person_cook:',
+        ':cook:',
+        'Person Kock',
+        ':person:'
     ],
-    '👨{{skin_tone}}‍🌾': ['Man Farmer'],
-    '👩{{skin_tone}}‍🌾': ['Woman Farmer'],
-    '🧑{{skin_tone}}‍🌾': ['Person Farmer'],
-    '👨{{skin_tone}}‍‍⚖️': ['Man domare'],
-    '👩{{skin_tone}}‍‍⚖️': ['Kvinna Domare'],
-    '🧑{{skin_tone}}‍‍⚖️': ['Person Judge'],
-    '👨{{skin_tone}}‍‍🏫': ['Mannen lärare'],
-    '👩{{skin_tone}}‍‍🏫': ['Kvinna Lärare'],
-    '🧑‍{{skin_tone}}‍‍🏫': ['Person Teacher'],
-    '👨{{skin_tone}}‍🎓': ['Man student'],
-    '👩{{skin_tone}}‍🎓': ['Kvinna student'],
-    '🧑{{skin_tone}}‍🎓': ['Person Student'],
+    '👨{{skin_tone}}‍🌾': [
+        'Mannen bonde',
+        ':man_farmer:',
+        ':farmer:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🌾': [
+        'Kvinna Bonde',
+        ':woman_farmer:',
+        ':farmer:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🌾': [
+        'Person Bonde',
+        ':person_farmer:',
+        ':farmer:',
+        ':person:'
+    ],
+    '👨{{skin_tone}}‍‍⚖️': [
+        'Man domare',
+        ':man_judge:',
+        ':judge:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍‍⚖️': [
+        'Kvinna Domare',
+        ':woman_judge:',
+        ':judge:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍‍⚖️': [
+        'Domare för person',
+        ':person_judge:',
+        ':judge:',
+        ':person:'
+    ],
+    '👨{{skin_tone}}‍‍🏫': [
+        'Mannen lärare',
+        ':man_teacher:',
+        ':teacher:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍‍🏫': [
+        'Kvinna Lärare',
+        ':woman_teacher:',
+        ':teacher:',
+        ':woman:'
+    ],
+    '🧑‍{{skin_tone}}‍‍🏫': [
+        'Person lärare',
+        ':person_teacher:',
+        ':teacher:',
+        ':person:'
+    ],
+    '👨{{skin_tone}}‍🎓': [
+        'Man student',
+        ':man_student:',
+        ':student:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🎓': [
+        'Kvinna student',
+        ':woman_student:',
+        ':student:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🎓': [
+        'Person student',
+        ':person_student:',
+        ':student:',
+        ':person:'
+    ],
     '👨{{skin_tone}}‍⚕️': [
-        'Man Health Worker',
-        'Male Doctor',
-        'Male Nurse'
+        'Man hälsa arbetare',
+        ':man_health_worker:',
+        ':health_worker:',
+        'Manlig läkare',
+        'Manlig sjuksköterska',
+        ':man:'
     ],
     '👩{{skin_tone}}‍⚕️': [
         'Kvinna Hälsoarbetare',
+        ':woman_health_worker:',
+        ':health_worker:',
         'Kvinnlig läkare',
-        'Kvinnlig sjuksköterska'
+        'Kvinnlig sjuksköterska',
+        ':woman:'
     ],
     '🧑‍{{skin_tone}}‍⚕️': [
-        'Person Health Worker',
-        'Person Doctor',
-        'Person Nurse'
+        'Person hälsoarbetare',
+        ':person_health_worker:',
+        ':health_worker:',
+        'Person Läkare',
+        'Person sjuksköterska',
+        ':person:'
     ],
     '🤷{{skin_tone}}‍♂️': [
         'Man Shrugging',
+        ':man_shrugging:',
+        ':shrugging:',
         'idk man',
-        'dunno'
+        'dunno',
+        ':man:'
     ],
     '🤷{{skin_tone}}‍♀️': [
         'Kvinna skakar',
+        ':woman_shrugging:',
+        ':shrugging:',
         'idk kvinna',
-        'dunno'
+        'dunno',
+        ':woman:'
     ],
     '🤷{{skin_tone}}': [
-        'Person Shrugging',
+        'Person ryckning',
+        ':person_shrugging:',
+        ':shrugging:',
         'idk person',
-        'dunno'
+        'dunno',
+        ':person:'
     ],
-    '🤦{{skin_tone}}‍♂️': ['Man Facepalming'],
-    '🤦{{skin_tone}}‍♀️': ['Kvinna Facepalming'],
-    '🤦{{skin_tone}}': ['Person Facepalming'],
-    '🙇{{skin_tone}}‍‍♂️': ['Man böja'],
-    '🙇{{skin_tone}}‍‍♀️': ['Kvinna böja'],
-    '🙇{{skin_tone}}': ['Person Bowing'],
-    '🧏{{skin_tone}}‍♂️': ['Döva man'],
-    '🧏{{skin_tone}}‍‍♀️': ['Döva kvinna'],
-    '🧏{{skin_tone}}': ['Deaf Person'],
+    '🤦{{skin_tone}}‍♂️': [
+        'Man Facepalming',
+        ':man_facepalming:',
+        ':facepalming:',
+        ':man:'
+    ],
+    '🤦{{skin_tone}}‍♀️': [
+        'Kvinna Facepalming',
+        ':woman_facepalming:',
+        ':facepalming:',
+        ':woman:'
+    ],
+    '🤦{{skin_tone}}': [
+        'Person Facepalming',
+        ':person_facepalming:',
+        ':facepalming:',
+        ':person:'
+    ],
+    '🙇{{skin_tone}}‍‍♂️': [
+        'Man böja',
+        ':man_bowing:',
+        ':bowing:',
+        ':man:'
+    ],
+    '🙇{{skin_tone}}‍‍♀️': [
+        'Kvinna böja',
+        ':woman_bowing:',
+        ':bowing:',
+        ':woman:'
+    ],
+    '🙇{{skin_tone}}': [
+        'Person böja',
+        ':person_bowing:',
+        ':bowing:',
+        ':person:'
+    ],
+    '🧏{{skin_tone}}‍♂️': [
+        'Döva man',
+        ':deaf_man:',
+        ':deaf:',
+        ':man:'
+    ],
+    '🧏{{skin_tone}}‍‍♀️': [
+        'Döva kvinna',
+        ':deaf_woman:',
+        ':deaf:',
+        ':woman:'
+    ],
+    '🧏{{skin_tone}}': [
+        'Döva person',
+        ':deaf_person:',
+        ':deaf:',
+        ':person:'
+    ],
     '🙋{{skin_tone}}‍‍♂️': [
         'Mannen höjer handen',
-        'Glad man höja en hand'
+        ':man_raising_hand:',
+        'Glad man höja en hand',
+        ':raising_hand:',
+        ':man:'
     ],
     '🙋{{skin_tone}}‍♀️': [
         'Kvinna höjer hand',
-        'Glad kvinna höja en hand'
+        ':woman_raising_hand:',
+        'Glad kvinna höja en hand',
+        ':raising_hand:',
+        ':woman:'
     ],
     '🙋{{skin_tone}}': [
-        'Person Raising Hand',
-        'Happy Person Raising One Hand'
+        'Person Uppresande Hand',
+        ':person_raising_hand:',
+        'Glad person Att höja en hand',
+        ':raising_hand:',
+        ':person:'
     ],
     '💁{{skin_tone}}‍♂️': [
         'Man tippa hand',
-        'Information Desk Man'
+        ':man_tipping_hand:',
+        'Information Desk Man',
+        ':tipping_hand:',
+        ':man:'
     ],
     '💁{{skin_tone}}‍♀️': [
         'Kvinna tippande hand',
-        'Information Desk Kvinna'
+        ':woman_tipping_hand:',
+        'Information Desk Kvinna',
+        ':tipping_hand:',
+        ':woman:'
     ],
     '💁{{skin_tone}}': [
-        'Person Tipping Hand',
-        'Information Desk Person'
+        'Person tippa hand',
+        ':person_tipping_hand:',
+        'Personen i informationsdisken',
+        ':tipping_hand:',
+        ':person:'
     ],
-    '🙆{{skin_tone}}‍♂️': ['Man Gesturing OK'],
-    '🙆{{skin_tone}}‍♀️': ['Kvinna Gest OK'],
-    '🙆{{skin_tone}}': ['Person Gesturing OK'],
-    '🙅{{skin_tone}}‍♂️': ['Man Gesturing Nej'],
-    '🙅{{skin_tone}}‍♀️': ['Kvinna Gest Nej'],
-    '🙅{{skin_tone}}': ['Person Gesturing No'],
-    '🙎{{skin_tone}}‍♂️': ['Man Pouting'],
-    '🙎{{skin_tone}}‍‍♀️': ['Kvinna Pouting'],
-    '🙎{{skin_tone}}': ['Person Pouting'],
-    '🙍{{skin_tone}}‍♂️': ['Man Frowning'],
-    '🙍{{skin_tone}}‍♀️': ['Woman Frowning'],
-    '🙍{{skin_tone}}': ['Person Frowning'],
-    '🧟‍‍♂️': ['Man zombie'],
-    '🧟‍‍♀️': ['Kvinna Zombie'],
-    '🧟': ['Person Zombie'],
-    '🚶{{skin_tone}}‍♂️': ['Man Promenader'],
-    '🚶{{skin_tone}}‍♀️': ['Kvinna Promenader'],
-    '🚶{{skin_tone}}': ['Person Walking'],
-    '🧍{{skin_tone}}‍♂️': ['Man Standing'],
-    '🧍{{skin_tone}}‍♀️': ['Woman Standing'],
-    '🧍{{skin_tone}}': ['Person Standing'],
-    '🧎{{skin_tone}}‍♂️': ['Man knä'],
-    '🧎{{skin_tone}}‍♀️': ['Woman Kneeling'],
-    '🧎{{skin_tone}}': ['Person Kneelink'],
-    '👨{{skin_tone}}‍🦯': ['Man med vit sockerrör'],
-    '👩{{skin_tone}}‍🦯': ['Kvinna med vit sockerrör'],
-    '🧑{{skin_tone}}‍🦯': ['Person with White Cane'],
-    '👨{{skin_tone}}‍🦼': ['Man i Motorized Rullstol'],
-    '👩{{skin_tone}}‍🦼': ['Kvinna i Motorized Rullstol'],
-    '🧑{{skin_tone}}‍🦼': ['Person in Motorized Wheelchair'],
-    '👨{{skin_tone}}‍🦽': ['Man i manuell rullstol'],
-    '👩{{skin_tone}}‍🦽': ['Kvinna i manuell rullstol'],
-    '🧑{{skin_tone}}‍🦽': ['Person in Manual Wheelchair'],
-    '👯‍♂️': ['Män med kaninöron'],
-    '👯‍♀️': ['Kvinnor med kaninöron'],
-    '👯': ['People with Bunny Ears'],
+    '🙆{{skin_tone}}‍♂️': [
+        'Man Gesturing OK',
+        ':man_gesturing_ok:',
+        ':gesturing_ok:',
+        ':man:'
+    ],
+    '🙆{{skin_tone}}‍♀️': [
+        'Kvinna Gest OK',
+        ':woman_gesturing_ok:',
+        ':gesturing_ok:',
+        ':woman:'
+    ],
+    '🙆{{skin_tone}}': [
+        'Person Gest OK',
+        ':person_gesturing_ok:',
+        ':gesturing_ok:',
+        ':person:'
+    ],
+    '🙅{{skin_tone}}‍♂️': [
+        'Man Gesturing Nej',
+        ':man_gesturing_no:',
+        ':gesturing_no:',
+        ':man:'
+    ],
+    '🙅{{skin_tone}}‍♀️': [
+        'Kvinna Gest Nej',
+        ':woman_gesturing_no:',
+        ':gesturing_no:',
+        ':woman:'
+    ],
+    '🙅{{skin_tone}}': [
+        'Person Gest Nej',
+        ':person_gesturing_no:',
+        ':gesturing_no:',
+        ':person:'
+    ],
+    '🙎{{skin_tone}}‍♂️': [
+        'Man Pouting',
+        ':man_pouting:',
+        ':pouting:',
+        ':man:'
+    ],
+    '🙎{{skin_tone}}‍‍♀️': [
+        'Kvinna Pouting',
+        ':woman_pouting:',
+        ':pouting:',
+        ':woman:'
+    ],
+    '🙎{{skin_tone}}': [
+        'Person Pouting',
+        ':person_pouting:',
+        ':pouting:',
+        ':person:'
+    ],
+    '🙍{{skin_tone}}‍♂️': [
+        'Man Frowning',
+        ':man_frowining:',
+        ':frowining:',
+        ':man:'
+    ],
+    '🙍{{skin_tone}}‍♀️': [
+        'Kvinna rynkar',
+        ':woman_frowining:',
+        ':frowining:',
+        ':woman:'
+    ],
+    '🙍{{skin_tone}}': [
+        'Person Frowning',
+        ':person_frowining:',
+        ':frowining:',
+        ':person:'
+    ],
+    '🧟‍‍♂️': [
+        'Man zombie',
+        ':man_zombie:',
+        ':zombie:',
+        ':man:'
+    ],
+    '🧟‍‍♀️': [
+        'Kvinna Zombie',
+        ':woman_zombie:',
+        ':zombie:',
+        ':woman:'
+    ],
+    '🧟': [
+        'Person Zombie',
+        ':person_zombie:',
+        ':zombie:',
+        ':person:'
+    ],
+    '🚶{{skin_tone}}‍♂️': [
+        'Man Promenader',
+        ':man_walking:',
+        ':walking:',
+        ':man:'
+    ],
+    '🚶{{skin_tone}}‍♀️': [
+        'Kvinna Promenader',
+        ':woman_walking:',
+        ':walking:',
+        ':woman:'
+    ],
+    '🚶{{skin_tone}}': [
+        'Person Promenader',
+        ':person_walking:',
+        ':walking:',
+        ':person:'
+    ],
+    '🧍{{skin_tone}}‍♂️': [
+        'Man stående',
+        ':man_standing:',
+        ':standing:',
+        ':man:'
+    ],
+    '🧍{{skin_tone}}‍♀️': [
+        'Kvinna stående',
+        ':woman_standing:',
+        ':standing:',
+        ':woman:'
+    ],
+    '🧍{{skin_tone}}': [
+        'Person Stående',
+        ':person_standing:',
+        ':standing:',
+        ':person:'
+    ],
+    '🧎{{skin_tone}}‍♂️': [
+        'Man knä',
+        ':man_kneeling:',
+        ':kneeling:',
+        ':man:'
+    ],
+    '🧎{{skin_tone}}‍♀️': [
+        'Knäbbning av kvinna',
+        ':woman_kneeling:',
+        ':kneeling:',
+        ':woman:'
+    ],
+    '🧎{{skin_tone}}': [
+        'Person Kneelink',
+        ':person_kneeling:',
+        ':kneeling:',
+        ':person:'
+    ],
+    '👨{{skin_tone}}‍🦯': [
+        'Man med vit sockerrör',
+        ':man_with_white_cane:',
+        ':white_cane:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🦯': [
+        'Kvinna med vit sockerrör',
+        ':woman_with_white_cane:',
+        ':white_cane:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🦯': [
+        'Person med vit sockerrör',
+        ':person_with_white_cane:',
+        ':white_cane:',
+        ':person:'
+    ],
+    '👨{{skin_tone}}‍🦼': [
+        'Man i Motorized Rullstol',
+        ':man_in_motorized_wheelchair:',
+        ':motorized_wheelchair:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🦼': [
+        'Kvinna i Motorized Rullstol',
+        ':woman_in_motorized_wheelchair:',
+        ':motorized_wheelchair:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🦼': [
+        'Person i Motorized Rullstol',
+        ':person_in_motorized_wheelchair:',
+        ':motorized_wheelchair:',
+        ':person:'
+    ],
+    '👨{{skin_tone}}‍🦽': [
+        'Man i manuell rullstol',
+        ':man_manual_wheelchair:',
+        ':manual_wheelchair:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🦽': [
+        'Kvinna i manuell rullstol',
+        ':woman_manual_wheelchair:',
+        ':manual_wheelchair:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🦽': [
+        'Person i manuell rullstol',
+        ':person_manual_wheelchair:',
+        ':manual_wheelchair:',
+        ':person:'
+    ],
+    '👯‍♂️': [
+        'Män med kaninöron',
+        ':men_with_bunny_hears:',
+        ':bunny_ears:',
+        ':man:'
+    ],
+    '👯‍♀️': [
+        'Kvinnor med kaninöron',
+        ':women_with_bunny_hears:',
+        ':bunny_ears:',
+        ':woman:'
+    ],
+    '👯': [
+        'Personer med kaninöron',
+        ':people_with_bunny_hears:',
+        ':bunny_ears:',
+        ':person:'
+    ],
     '🕴️{{skin_tone}}': [
-        'Person in Suit Levitating',
-        'Hovering Man',
-        'Rude Boy',
+        'Person i Kostym Leviterande',
+        ':person_in_suit_levitating:',
+        'Hovering av man',
+        'Ohyfsad pojke',
         'Walt Jabsco',
-        'Man in Business Suit Levitating'
+        'Man i Business Suit Levitating',
+        ':person:'
     ],
     '🧖{{skin_tone}}‍♂️': [
         'Man i Steamy Room',
-        'Man i Bastu'
+        ':man_in_steamy_room:',
+        ':steamy_room:',
+        'Man i Bastu',
+        ':man:'
     ],
     '🧖{{skin_tone}}‍♀️': [
         'Kvinna i ångande rum',
-        'Kvinna i Bastu'
+        ':woman_in_steamy_room:',
+        ':steamy_room:',
+        'Kvinna i Bastu',
+        ':woman:'
     ],
     '🧖{{skin_tone}}': [
-        'Person in Steamy Room',
-        'Person in Sauna'
+        'Person i Steamy Room',
+        ':person_in_steamy_room:',
+        ':steamy_room:',
+        'Person i Bastu',
+        ':person:'
     ],
     '👫{{skin_tone}}': [
-        'Woman and Man Holding Hands',
-        'Heterosexual Couple',
-        'Straight Couple',
-        'Man and Woman Holding Hands'
-    ],
-    '👭{{skin_tone}}': [
-        'Lesbian Couple',
-        'Women Holding Hands',
-        'Two Women Holding Hands'
+        'Kvinna och man håller händer',
+        ':woman_and_man_holding_hands:',
+        ':holding_hands:',
+        'Heterosexuell Par',
+        'Rak Par',
+        'Man och kvinna håller händer',
+        ':woman:'
     ],
     '👬{{skin_tone}}': [
-        'Men Holding Hands',
-        'Gay Couple',
-        'Two Men Holding Hands'
+        'Män som håller händer',
+        ':holding_hands:',
+        ':men_holding_hands:',
+        'Gay Par',
+        'Två Män som håller händer',
+        ':man:'
+    ],
+    '👭{{skin_tone}}': [
+        'Kvinnor som håller händer',
+        ':holding_hands:',
+        ':women_holding_hands:',
+        'Lesbiskt Par',
+        'Två kvinnor som håller händer',
+        ':woman:'
     ],
     '🧑‍🤝‍🧑': [
-        'People Holding Hands',
-        'Two People Holding Hands',
-        'Gender Inclusive Couple',
-        'Gender Neutral Couple',
-        'Gender Nonconforming Couple'
+        'Personer som håller händer',
+        ':holding_hands:',
+        ':people_holding_hands:',
+        'Två personer som håller händer',
+        'Inkluderande kön par',
+        'Neutral Könspar',
+        'Paret Nonconforming kön',
+        ':person:'
     ],
     '👨‍👩‍👦': [
         'Familj med mor, far och son',
+        ':family_with_mother_father_and_son:',
         'Familj: Man, Kvinna, Pojke'
     ],
     '👨‍👩‍👧': [
         'Familj med mamma, far och dotter',
+        ':family_with_mother_father_and_daughter:',
         'Familj: Man, Kvinna, Flicka'
     ],
     '👨‍👩‍👧‍👦': [
         'Familj med mor, fader, son och dotter',
+        ':family_with_mother_father_son_and_daughter:',
         'Familj: Man, Kvinna, Flikt, Pojke'
     ],
     '👨‍👩‍👦‍👦': [
         'Familj med mor, far och två söner',
+        ':family_with_mother_father_and_two_sons:',
         'Familj: Man, Kvinna, Pojke, Pojke'
     ],
     '👨‍👩‍👧‍👧': [
         'Familj med mamma, far och två döttrar',
+        ':family_with_mother_father_and_two_daughters:',
         'Familj: Man, Kvinna, Flicka'
     ],
     '👨‍👨‍👦': [
         'Familj med två fäder och son',
-        'Familj: Man, Man, Pojke'
+        ':family_with_two_fathers_and_son:',
+        'Familj: Man, Man, Pojke',
+        ':man:'
     ],
     '👨‍👨‍👧': [
         'Familj med två fäder och dotter',
-        'Familj: Man, Man, Flicka'
+        ':family_with_two_fathers_and_daughter:',
+        'Familj: Man, Man, Flicka',
+        ':man:'
     ],
     '👨‍👨‍👧‍👦': [
         'Familj med två fäder, Son och dotter',
-        'Familj: Man, Man, Flikt, Pojke'
+        ':family_with_two_fathers_son_and_daughter:',
+        'Familj: Man, Man, Flikt, Pojke',
+        ':man:'
     ],
     '👨‍👨‍👦‍👦': [
         'Familj med två fäder och två söner',
-        'Familj: Man, Man, Pojke, Pojke'
+        ':family_with_two_fathers_and_two_sons:',
+        'Familj: Man, Man, Pojke, Pojke',
+        ':man:'
     ],
     '👨‍👨‍👧‍👧': [
         'Familj med två fäder och två döttrar',
-        'Familj: Man, Man, Flikt, Flicka'
+        ':family_with_two_fathers_and_two_daughters:',
+        'Familj: Man, Man, Flikt, Flicka',
+        ':man:'
     ],
     '👩‍👩‍👦': [
         'Familj med två mödrar och son',
-        'Familj: Kvinna, Kvinna, Pojke'
+        ':family_with_two_mothers_and_son:',
+        'Familj: Kvinna, Kvinna, Pojke',
+        ':woman:'
     ],
     '👩‍👩‍👧': [
         'Familj med två mödrar och dotter',
-        'Familj: Kvinna, Kvinna, Flicka'
+        ':family_with_two_mothers_and_daughter:',
+        'Familj: Kvinna, Kvinna, Flicka',
+        ':woman:'
     ],
     '👩‍👩‍👧‍👦': [
         'Familj med två mödrar, son och dotter',
-        'Familj: Kvinna, Kvinna, flicka, pojke'
+        ':family_with_two_mothers_son_and_daughter:',
+        'Familj: Kvinna, Kvinna, flicka, pojke',
+        ':woman:'
     ],
     '👩‍👩‍👦‍👦': [
         'Familj med två mödrar och två söner',
-        'Familj: Kvinna, Kvinna, Pojk, Pojke'
+        ':family_with_two_mothers_and_two_sons:',
+        'Familj: Kvinna, Kvinna, Pojk, Pojke',
+        ':woman:'
     ],
     '👩‍👩‍👧‍👧': [
         'Familj med två mödrar och två döttrar',
-        'Familj: Kvinna, Kvinna, Flicka'
+        ':family_with_two_mothers_and_two_daughters:',
+        'Familj: Kvinna, Kvinna, Flicka',
+        ':woman:'
     ],
     '👨‍👦': [
         'Familj med far och son',
-        'Familj: Man, Pojke'
+        ':family_with_father_and_son:',
+        'Familj: Man, Pojke',
+        ':man:'
     ],
     '👨‍👧': [
         'Familj med far och dotter',
-        'Familj: Man, Flicka'
+        ':family_with_father_and_daughter:',
+        'Familj: Man, Flicka',
+        ':man:'
     ],
     '👨‍👦‍👦': [
-        'Family With Father and Two Sons',
-        'Family: Man, Boy, Boy'
+        'Familj med far och två söner',
+        ':family_with_father_and_two_sons:',
+        'Familj: Man, pojke, pojke',
+        ':man:'
     ],
     '👨‍👧‍👦': [
         'Familj med Fader, Son och Dotter',
-        'Familj: Man, flicka, pojke'
+        ':family_with_father_son_and_daughter:',
+        'Familj: Man, flicka, pojke',
+        ':man:'
     ],
     '👨‍👧‍👧': [
         'Familj med far och två döttrar',
-        'Familj: Man, flicka, flicka'
+        ':family_with_father_and_two_daughters:',
+        'Familj: Man, flicka, flicka',
+        ':man:'
     ],
     '👩‍👦': [
         'Familj med mor och son',
-        'Familj: Kvinna, Pojke'
+        ':family_with_mother_and_son:',
+        'Familj: Kvinna, Pojke',
+        ':woman:'
     ],
     '👩‍👧': [
         'Familj med mor och dotter',
-        'Familj: Kvinna, Flicka'
+        ':family_with_mother_and_daughter:',
+        'Familj: Kvinna, Flicka',
+        ':woman:'
     ],
     '👩‍👦‍👦': [
         'Familj med mor och två söner',
-        'Familj: Kvinna, pojke, pojke'
+        ':family_with_mother_and_two_sons:',
+        'Familj: Kvinna, pojke, pojke',
+        ':woman:'
     ],
     '👩‍👧‍👦': [
         'Familj med mor, son och dotter',
-        'Familj: Kvinna, flicka, pojke'
+        ':family_with_mother_son_and_daughter:',
+        'Familj: Kvinna, flicka, pojke',
+        ':woman:'
     ],
     '👩‍👧‍👧': [
         'Familj med mor och två döttrar',
-        'Familj: Kvinna, flicka, flicka'
+        ':family_with_mother_and_two_daughters:',
+        'Familj: Kvinna, flicka, flicka',
+        ':woman:'
     ],
     '💑{{skin_tone}}': [
-        'Couple with Heart',
-        'Couple In Love',
-        'Loving Couple',
-        'Gender Neutral Couple'
+        'Par med hjärta',
+        ':couple_with_heart:',
+        'Par i kärlek',
+        'Kärleksfullt par',
+        'Neutral Könspar',
+        ':person:'
     ],
     '👩‍❤️‍👨': [
-        'Man and Woman With Heart',
-        'Couple In Love',
-        'Loving Couple',
-        'Couple With Heart'
+        'Man och kvinna med hjärta',
+        ':man_and_woman_with_heart:',
+        'Par i kärlek',
+        'Kärleksfullt par',
+        'Par med hjärta'
     ],
     '👨‍❤️‍👨': [
         'Två män med hjärta',
-        'Par med hjärtat: Man, Man'
+        ':two_men_with_heart:',
+        'Par med hjärtat: Man, Man',
+        ':man:'
     ],
     '👩‍❤️‍👩': [
         'Två kvinnor med hjärta',
-        'Par med hjärta: Kvinna, kvinna'
+        ':two_women_with_heart:',
+        'Par med hjärta: Kvinna, kvinna',
+        ':woman:'
     ],
     '💏{{skin_tone}}': [
-        'Couple Kissing',
-        'Kiss',
-        'Gender Neutral Couple Kissing'
+        'Par kysser',
+        ':couple_kissing:',
+        'Kyss',
+        'Könsneutrala par kysser',
+        ':person:'
     ],
-    '👩‍❤️‍💋‍👨': ['Man and Woman Kissing'],
+    '👩‍❤️‍💋‍👨': [
+        'Man och kvinna kysser',
+        ':man_and_woman_kissing:'
+    ],
     '👨‍❤️‍💋‍👨': [
-        'Two Men Kissing',
-        'Man and Man Kissing'
+        'Två Män kysser',
+        ':two_men_kissing:',
+        'Man och man kysser',
+        ':man:'
     ],
     '👩‍❤️‍💋‍👩': [
-        'Two Women Kissing',
-        'Woman and Woman Kissing'
+        'Två kvinnor kysser',
+        ':two_women_kissing:',
+        'Kvinna och kvinna kysser',
+        ':woman:'
     ],
-    '💆{{skin_tone}}‍♂️': ['Man Getting Head Massage'],
-    '💆{{skin_tone}}‍♀️': ['Kvinna få huvud massage'],
-    '💆{{skin_tone}}': ['Person Getting Head Massage'],
-    '💇{{skin_tone}}‍♂️': ['Man Getting Haircut'],
-    '💇{{skin_tone}}‍♀️': ['Woman Getting Haircut'],
-    '💇{{skin_tone}}': ['Person Getting Haircut'],
+    '💆{{skin_tone}}‍♂️': [
+        'Man få huvud massage',
+        ':man_getting_head_massage:',
+        ':getting_head_massage:',
+        ':man:'
+    ],
+    '💆{{skin_tone}}‍♀️': [
+        'Kvinna få huvud massage',
+        ':woman_getting_head_massage:',
+        ':getting_head_massage:',
+        ':woman:'
+    ],
+    '💆{{skin_tone}}': [
+        'Person få huvud massage',
+        ':person_getting_head_massage:',
+        ':getting_head_massage:',
+        ':person:'
+    ],
+    '💇{{skin_tone}}‍♂️': [
+        'Man att få frisyr',
+        ':man_getting_haircut:',
+        ':getting_haircut:',
+        ':man:'
+    ],
+    '💇{{skin_tone}}‍♀️': [
+        'Kvinna få hårklippning',
+        ':woman_getting_haircut:',
+        ':getting_haircut:',
+        ':woman:'
+    ],
+    '💇{{skin_tone}}': [
+        'Person få hårklippning',
+        ':person_getting_haircut:',
+        ':getting_haircut:',
+        ':person:'
+    ],
     '🛌{{skin_tone}}': [
-        'Sleeping Accommodation',
-        'Person in Bed',
-        'Person Sleeping'
+        'Övernattning',
+        ':sleeping_accommodation:',
+        'Person i sängen',
+        'Person sovande'
     ],
-    '🧌': ['Troll'],
+    '🧌': [
+        'Troll',
+        ':troll:'
+    ],
     '👺': [
         'Goblin',
-        'Long Nose Face',
-        'Red Mask',
+        ':goblin:',
+        'Lång näsa ansikte',
+        'Röd mask',
         'Tengu',
-        'Japanese Goblin'
+        'Japanska Goblin'
     ]
 };
 /*animals*/
 emojis_language[lang][4] = {
     '😺': [
         'Grinning Katt',
-        ':)',
+        ':happy_cat:',
+        ':smiling_cat:',
+        '::):',
         'Glad katt',
         'Leende katt',
         'Glad kattansikte',
@@ -1435,39 +2460,45 @@ emojis_language[lang][4] = {
     ],
     '😸': [
         'Slipning Katt med leende ögon',
-        ':D',
+        ':grinning_cat:',
+        '::D:',
         'Grinning Katt',
         'Glad katt',
         'Grinning kattansikte'
     ],
     '😹': [
         'Katt med tårar av glädje',
-        ':\')',
+        ':laughing_cat:',
+        '::):',
         'Glada tårar Katt',
         'Skrattad katt'
     ],
     '😻': [
         'Leende katt med hjärta-ögon',
-        '*.*',
+        ':heart_eyes_cat:',
+        ':*.*:',
         'Hjärta Ögon Katt',
         'Kärleksfull katt',
         'Leende kattansikte med hjärtformade ögon'
     ],
     '😼': [
         'Katt med Wry Smile',
+        ':cat_with_wry_smile:',
         'Smirking Katt',
         'Smirking Cat Face',
         'Katt ansikte med Wry Smile'
     ],
     '😽': [
         'Kyssar katt',
-        ':*',
+        ':kissing_cat:',
+        '::*:',
         'Kissar kattansikte',
         'Kyssar Katt Ansikte med stängda ögon'
     ],
     '🙀': [
         'Bärbar katt',
-        ':O',
+        ':weary_cat:',
+        '::O:',
         'Skrämd Katt',
         'Skrikande katt',
         'Katt ansikte skriker i skräck',
@@ -1475,61 +2506,84 @@ emojis_language[lang][4] = {
     ],
     '😿': [
         'Gråter Katt',
-        ':\'(',
+        ':crying_cat:',
+        '::(:',
         'Ledsen katt',
         'Gråtande kattansikte'
     ],
     '😾': [
         'Pouting katt',
+        ':pouting_cat:',
         'Grumpy Cat',
         'Pouting kattansikte'
     ],
     '🙈': [
-        'Apa',
         'See-No-Ondska Apa',
+        'Apa',
+        ':see-no-evil_mokey:',
+        ':see_no_evil_mokey:',
+        ':monkey:',
         'Mizaru',
         'Monkey omslutande ögon'
     ],
     '🙉': [
-        'Apa',
         'Hear-No-Ond apa',
+        'Apa',
+        ':hear-no-evil_monkey:',
+        ':hear_no_evil_monkey:',
+        ':monkey:',
         'Kikazaru',
         'Apa omslutande öron'
     ],
     '🙊': [
-        'Apa',
         'Tala-Nej-Ond apa',
+        'Apa',
+        ':speak-no-evil_monkey:',
+        ':speak_no_evil_monkey:',
+        ':monkey:',
         'Iwazaru',
         'Apa Täckande Mun',
         'Inget tal'
     ],
     '🐵': [
-        'Apa',
         'Monkey ansikte',
+        ':monkey_face:',
+        'Apa',
         'Apa Huvud'
     ],
     '🐒': [
         'Apa',
+        ':monkey:',
         'Glansfull apa'
     ],
-    '🦍': ['Gorilla'],
+    '🦍': [
+        'Gorilla',
+        ':gorilla:'
+    ],
     '🐶': [
         'Hund ansikte',
+        ':dog_face:',
         'Hund',
         'Valp'
     ],
     '🐕': [
         'Hund',
+        ':dog:',
         'Doggo',
         'Akita Inu'
     ],
     '🦮': [
         'Ser Ögonhund',
+        ':seeing_eye_dog:',
         'Guide Hund'
     ],
-    '🐕‍🦺': ['Tjänstens Hund'],
+    '🐕‍🦺': [
+        'Tjänstens Hund',
+        ':service_dog:'
+    ],
     '🐩': [
         'Poodle',
+        ':poodle:',
         'Hund',
         'Miniatyr Poodle',
         'Standard Poodle',
@@ -1537,73 +2591,100 @@ emojis_language[lang][4] = {
     ],
     '🐺': [
         'Varg',
-        'Vargansikte'
+        ':wolf:',
+        'Vargansikte',
+        ':gray:',
+        ':grey:'
     ],
     '🦊': [
         'Räv',
-        'Räv ansikte'
+        ':fox:',
+        'Räv ansikte',
+        ':orange:'
     ],
-    '🦝': ['tvättbjörn'],
+    '🦝': [
+        'tvättbjörn',
+        ':raccoon:'
+    ],
     '🐱': [
         'Katt ansikte',
+        ':cat_face:',
         ':3',
         'Kattunge',
         'Kitty'
     ],
     '🐈': [
         'Katt',
+        ':cat:',
         'Inhemsk katt',
         'Feline',
         'Hus'
     ],
-    '🐈‍⬛': ['Svart katt'],
+    '🐈‍⬛': [
+        'Svart katt',
+        ':black_cat:',
+        ':black:'
+    ],
     '🦁': [
         'Lejon',
+        ':lion:',
         'Lejonansikte'
     ],
     '🐯': [
         'Tiger ansikte',
+        ':tiger_face:',
         'Söt Tiger'
     ],
     '🐅': [
         'Tiger',
+        ':tiger:',
         'Bengal Tiger'
     ],
     '🐆': [
         'Leopard',
+        ':leopard:',
         'Afrikansk Leopard',
         'Jaguar'
     ],
     '🐴': [
         'Hästens ansikte',
+        ':horse_face:',
         'Hästhuvud'
     ],
     '🐎': [
         'Häst',
+        ':horse:',
         'Gallring häst',
         'Racinghäst'
     ],
     '🦄': [
         'Enhörning',
+        ':unicorn:',
         'Enhörningsyta'
     ],
     '🦓': [
         'Zebra',
-        'Zebra Ansikte'
+        ':zebra:',
+        'Zebra Ansikte',
+        ':white:',
+        ':black:'
     ],
     '🦌': [
         'Rådjur',
+        ':deer:',
         'Buck',
         'Ren',
         'Stag'
     ],
     '🐮': [
         'Ko ansikte',
+        ':cow_face:',
         'Ko',
         'Glad Ko'
     ],
     '🐂': [
         'Ox',
+        ':ox:',
         'Tjurar',
         'Bullock',
         'Oxen',
@@ -1611,296 +2692,488 @@ emojis_language[lang][4] = {
     ],
     '🐃': [
         'Vatten Buffalo',
+        ':water_buffalo:',
         'Buffel',
         'Vatten för hushållsbruk Buffalo'
     ],
     '🐄': [
         'Ko',
+        ':cow:',
         'Mejeri Ko'
     ],
     '🐷': [
         'Gris ansikte',
+        ':pig_fase:',
         'Gris',
-        'Gris Huvud'
+        'Gris Huvud',
+        ':pink:'
     ],
     '🐖': [
         'Gris',
+        ':pig:',
         'Hund',
-        'Sow'
+        'Sow',
+        ':pink:'
     ],
     '🐗': [
         'Vildsvin',
+        ':boar:',
         'Warthog',
         'Vildsvin',
         'Vild gris'
     ],
-    '🐽': ['Gris näsa'],
+    '🐽': [
+        'Gris näsa',
+        ':pig_nose:'
+    ],
     '🐏': [
         'Ram',
+        ':ram:',
         'Får'
     ],
     '🐑': [
         'Ewe',
+        ':ewe:',
         'Lamb',
         'Får'
     ],
-    '🐐': ['Gock'],
+    '🐐': [
+        'Gock',
+        ':goat:'
+    ],
     '🐪': [
         'Kamel',
+        ':camel:',
         'Arabiska Camel',
         'Dromedary Kamel',
         'One-Bump kamel'
     ],
     '🐫': [
         'Två-hump kamel',
+        ':two-hump_camel:',
+        ':two_hump_camel:',
         'Asiatisk kamel',
         'Bactrian kamel'
     ],
     '🦙': [
         'Llama',
+        ':llama:',
         'Alpaca'
     ],
     '🦒': [
         'Giraffe',
+        ':giraffe:',
         'Giraffe Face'
     ],
-    '🐘': ['Elefant'],
+    '🐘': [
+        'Elefant',
+        ':elephant:'
+    ],
     '🦏': [
         'Rhinoceros',
+        ':rhinoceros:',
         'Rhino'
     ],
     '🦛': [
         'Hippopotamus',
+        ':hippopotamus:',
         'Hippo'
     ],
     '🐭': [
         'Mus Ansikte',
+        ':mouse_face:',
         'Mus'
     ],
     '🐁': [
         'Mus',
+        ':mouse:',
         'Drummus',
         'Gnagare',
         'Möss'
     ],
     '🐀': [
         'Råtta',
+        ':rat:',
         'Gnagare'
     ],
     '🐹': [
         'Hamster',
+        ':hamster:',
         'Hamster ansikte'
     ],
     '🐰': [
         'Kanin ansikte',
+        ':rabbit_face:',
         'Påskharen'
     ],
     '🐇': [
         'Kanin',
         'Bunny',
+        ':rabbit:',
         'Kanin Kanin'
     ],
     '🐿️': [
         'Chipmunk',
+        ':chipmunk:',
         'Ekorre'
     ],
-    '🦔': ['Igelkott'],
+    '🦔': [
+        'Igelkott',
+        ':hedgehog:'
+    ],
     '🦇': [
         'Fladdermus',
-        'Batman'
+        ':bat:',
+        'Batman',
+        ':black:'
     ],
     '🐻': [
         'Björn',
+        ':bear:',
         'Björnansikte',
-        'Nallebjörn'
+        'Nallebjörn',
+        ':brown:'
     ],
     '🐨': [
         'Koala',
+        ':koala:',
         'Koala ansikte'
     ],
     '🐼': [
         'Panda',
+        ':panda:',
         'Panda ansikte'
     ],
     '🦘': [
         'Kangaroo',
+        ':kangaroo:',
         'Roo'
     ],
-    '🦡': ['Grävling'],
+    '🦡': [
+        'Grävling',
+        ':badger:'
+    ],
     '🦃': [
         'Turkiet',
+        ':turkey:',
         'Thanksgiving Turkiet',
         'Vilda Turkiet'
     ],
     '🐔': [
         'Kyckling',
+        ':chicken:',
         'Hen'
     ],
     '🐓': [
         'Tuppen',
+        ':cock:',
         'Rooster',
         'Cockerel'
     ],
     '🐣': [
         'Hattar Chick',
+        ':hatching_chick:',
         'Baby kyckling',
-        'Kyckling Kyckling'
+        'Kyckling Kyckling',
+        ':yellow:'
     ],
     '🐤': [
         'Bäbis Chick',
-        'Gul fågel'
+        ':baby_chick:',
+        'Gul fågel',
+        ':yellow:'
     ],
     '🐥': [
         'Front-Facing Baby Chick',
+        ':front_baby_chick:',
         'Bäbis Chick',
-        'Stående Kock'
+        'Stående Kock',
+        ':yellow:'
     ],
-    '🐦': ['Fågel'],
-    '🐧': ['Penguin'],
+    '🐦': [
+        'Fågel',
+        ':bird:'
+    ],
+    '🐧': [
+        'Penguin',
+        ':penguin:'
+    ],
     '🕊️': [
         'Duva',
-        'Dove av fred'
+        ':Dove:',
+        'Dove av fred',
+        ':white:'
     ],
     '🦅': [
         'Örn',
+        ':Eagle:',
         'Skallig örn'
     ],
-    '🦆': ['Anka'],
-    '🦢': ['Svanen'],
-    '🦉': ['Uggla'],
-    '🦚': ['Påfågel'],
-    '🦜': ['Papegoja'],
+    '🦆': [
+        'Anka',
+        ':Duck:'
+    ],
+    '🦢': [
+        'Svanen',
+        ':swan:',
+        ':white:'
+    ],
+    '🦉': [
+        'Uggla',
+        ':owl:',
+        ':brown:'
+    ],
+    '🦚': [
+        'Påfågel',
+        ':peacock:'
+    ],
+    '🦜': [
+        'Papegoja',
+        ':parrot:'
+    ],
     '🐸': [
         'Groda',
+        ':frog:',
         'Padda',
-        'Groda ansikte'
+        'Groda ansikte',
+        ':green:'
     ],
     '🐊': [
         'Krokodil',
+        ':crocodile:',
         'Alligator',
-        'Krok'
+        'Krok',
+        ':green:'
     ],
     '🐢': [
         'Sköldpadda',
-        'Tortoise'
+        ':turtle:',
+        'Tortoise',
+        ':green:'
     ],
     '🦎': [
         'Ödla',
-        'Gecko'
+        ':lizard:',
+        'Gecko',
+        ':green:'
     ],
     '🐍': [
         'Orm',
+        ':snake:',
         'Orm'
     ],
     '🐲': [
         'Drak Ansikte',
+        ':dragon_face:',
         'Drake Huvud'
     ],
-    '🐉': ['Drake'],
+    '🐉': [
+        'Drake',
+        ':dragon:'
+    ],
     '🦕': [
         'Sauropod',
+        ':sauropod:',
         'Brachiosaurus',
         'Brontosaurus',
         'Dinosaur'
     ],
     '🦖': [
         'T-Rex',
+        ':t-rex:',
+        ':t_rex:',
         'Tyrannosaurus Rex'
     ],
     '🐳': [
         'Spottar val',
+        ':spouting_whale:',
         'Söt val'
     ],
-    '🐋': ['Val'],
-    '🐬': ['Delfin'],
+    '🐋': [
+        'Val',
+        ':whale:'
+    ],
+    '🐬': [
+        'Delfin',
+        ':dolphin:'
+    ],
     '🐟': [
         'Fisk',
+        ':fish:',
         'Sötvattenfisk'
     ],
     '🐠': [
         'Tropisk fisk',
+        ':tropical_fish:',
         'Fisk',
         'Gul-blå fisk'
     ],
     '🐡': [
         'Blowfish',
+        ':blowfish:',
         'Fugu',
         'Pufferfish'
     ],
     '🦈': [
         'Hajen',
+        ':shark:',
         'Stor vit haj'
     ],
-    '🐙': ['Bläckfisk'],
+    '🐙': [
+        'Bläckfisk',
+        ':octopus:'
+    ],
     '🐚': [
         'Spiral skal',
+        ':spiral_shell:',
         'Seashell',
         'Skal'
     ],
     '🐌': [
         'Snigel',
+        ':snail:',
         'Snigel',
         'Trädgård snigel'
     ],
-    '🦋': ['Fjäril'],
+    '🦋': [
+        'Fjäril',
+        ':butterfly:'
+    ],
     '🐛': [
         'Bugg',
+        ':bug:',
         'Caterpillar',
         'Insekt'
     ],
     '🐜': [
         'Ant',
+        ':ant:',
         'Bugg',
         'Insekt'
     ],
     '🐝': [
         'Honungsbin',
+        ':honeybee:',
         'Bi',
-        'Bumblebee'
+        'Bumblebee',
+        ':yellow:',
+        ':black:'
     ],
     '🐞': [
         'Lady skalbagge',
+        ':lady_beetle:',
         'Ladybird',
         'Ladybug',
         'Bugg'
     ],
     '🦗': [
         'Cricket',
+        ':cricket:',
         'Gräshoppa'
     ],
-    '🕷️': ['Spindel'],
-    '🦂': ['Skorpion'],
-    '🦟': ['Myggor'],
-    '🦀': ['Krabba'],
-    '🦞': ['Hummer'],
+    '🕷️': [
+        'Spindel',
+        ':spider:'
+    ],
+    '🦂': [
+        'Skorpion',
+        ':scorpion:'
+    ],
+    '🦟': [
+        'Myggor',
+        ':mosquito:',
+        ':black:'
+    ],
+    '🦀': [
+        'Krabba',
+        ':crab:',
+        ':red:'
+    ],
+    '🦞': [
+        'Hummer',
+        ':lobster:'
+    ],
     '🦐': [
         'Räkor',
+        ':shrimp:',
         'Prawn'
     ],
-    '🦑': ['Bläckfisk'],
-    '🦧': ['Orangutan'],
-    '🦥': ['Sakta'],
-    '🦦': ['Otter'],
-    '🦨': ['Skunk'],
-    '🦬': ['Bison'],
-    '🦣': ['Mammut'],
-    '🦫': ['Bäver'],
-    '🐻‍❄️': ['Polar björn'],
-    '🦤': ['Dodo'],
-    '🦭': ['Tätning'],
-    '🪲': ['Skalbagge'],
-    '🪳': ['Kackerlacka'],
-    '🪰': ['Flyg'],
-    '🪱': ['Masken'],
-    '🦩': ['Flamingo'],
+    '🦑': [
+        'Bläckfisk',
+        ':squid:'
+    ],
+    '🦧': [
+        'Orangutan',
+        ':orangutan:'
+    ],
+    '🦥': [
+        'Sakta',
+        ':sloth:'
+    ],
+    '🦦': [
+        'Otter',
+        ':otter:'
+    ],
+    '🦨': [
+        'Skunk',
+        ':skunk:'
+    ],
+    '🦬': [
+        'Bison',
+        ':bison:'
+    ],
+    '🦣': [
+        'Mammut',
+        ':mammoth:',
+        ':brown:'
+    ],
+    '🦫': [
+        'Bäver',
+        ':beaver:'
+    ],
+    '🐻‍❄️': [
+        'Polar björn',
+        ':polar_bear:',
+        ':white:'
+    ],
+    '🦤': [
+        'Dodo',
+        ':dodo:'
+    ],
+    '🦭': [
+        'Tätning',
+        ':seal:'
+    ],
+    '🪲': [
+        'Skalbagge',
+        ':beetle:'
+    ],
+    '🪳': [
+        'Kackerlacka',
+        ':cockroach:'
+    ],
+    '🪰': [
+        'Flyg',
+        ':fly:'
+    ],
+    '🪱': [
+        'Masken',
+        ':worm:'
+    ],
+    '🦩': [
+        'Flamingo',
+        ':flamingo:'
+    ],
     '🪹': [
-        'Empty Nest',
-        'Birds',
+        'Tomt bo',
+        ':empty_nest:',
+        'Fåglar',
         'Hem'
     ],
     '🪺': [
-        'Nest with Eggs',
-        'Birds',
+        'Bäste med ägg',
+        ':nest_with_eggs:',
+        'Fåglar',
         'Hem'
     ]
 };
@@ -1908,99 +3181,140 @@ emojis_language[lang][4] = {
 emojis_language[lang][5] = {
     '💘': [
         'Hjärta med Pil',
+        ':heart_with_arrow:',
         'Cupid pil',
-        'Lovestruck'
+        'Lovestruck',
+        ':pink:'
     ],
     '💝': [
         'Hjärta med band',
+        ':heart_with_ribbon:',
         'Choklad låda',
         'Gåva Låda',
-        'Gåva hjärta'
+        'Gåva hjärta',
+        ':red:'
     ],
     '💖': [
         'Sparkling Heart',
+        ':sparkling_heart:',
         'Gnistra Hjärta',
         'Gnistrande Hjärta',
-        'Stjärnor hjärta'
+        'Stjärnor hjärta',
+        ':pink:'
     ],
     '💗': [
         'Växande hjärta',
+        ':growing_heart:',
         'Multipla hjärtan',
-        'Trippel hjärta'
+        'Trippel hjärta',
+        ':pink:'
     ],
     '💓': [
         'Slå hjärta',
+        ':beating_heart:',
         'Hjärtlarm',
         'Heartbeat',
-        'Wifi hjärta'
+        'Wifi hjärta',
+        ':pink:'
     ],
     '💞': [
         'Roterande hjärtan',
-        'Två hjärtan'
+        ':revolving_hearts:',
+        'Två hjärtan',
+        ':pink:'
     ],
     '💕': [
         'Två hjärtan',
+        ':two_hearts:',
         'Små hjärtan',
-        'Två rosa hjärtan'
+        'Två rosa hjärtan',
+        ':pink:'
     ],
-    '💟': ['Hjärtdekoration'],
+    '💟': [
+        'Hjärtdekoration',
+        ':heart_decoration:',
+        ':purple:'
+    ],
     '❣️': [
         'Utropande av hjärta',
+        ':heart_exclamation:',
         'Hjärta ovanför punkt',
         'Rött hjärta som utropstecken',
-        'Tung hjärta utropstecken prydnad'
+        'Tung hjärta utropstecken prydnad',
+        ':red:'
     ],
     '💔': [
         'Trasigt hjärta',
+        ':broken_heart:',
         'Bryta hjärtat',
         'Brokenhearted',
-        'Hjärtat trasigt'
+        'Hjärtat trasigt',
+        ':red:'
     ],
     '❤️': [
         'Jag älskar dig',
+        ':red_heart:',
         'Rött hjärta',
         'Hjärta',
         'Kärlek Hjärta',
-        'Rött hjärta'
+        'Rött hjärta',
+        ':red:'
     ],
     '🧡': [
         'Orange hjärta',
-        'Jag älskar dig'
+        ':orange_heart:',
+        'Jag älskar dig',
+        ':orange:'
     ],
     '💛': [
         'Gul hjärta',
+        ':yellow_heart:',
         '#1 BF Snapchat',
         'Guld Hjärta',
-        'Jag älskar dig'
+        'Jag älskar dig',
+        ':yellow:'
     ],
     '💚': [
         'Grönt hjärta',
+        ':green_heart:',
         'Svartsjukt hjärta',
-        'Jag älskar dig'
+        'Jag älskar dig',
+        ':green:'
     ],
     '💙': [
         'Blått hjärta',
-        'Jag älskar dig'
+        ':blue_heart:',
+        'Jag älskar dig',
+        ':blue:'
     ],
     '💜': [
         'Lila Hjärta',
-        'Jag älskar dig'
+        ':purple_heart:',
+        'Jag älskar dig',
+        ':purple:'
     ],
     '🖤': [
         'Svart hjärta',
+        ':black_heart:',
         'Mörkt hjärta',
-        'Jag älskar dig'
+        'Jag älskar dig',
+        ':black:'
     ],
     '🤍': [
         'Vitt hjärta',
-        'Jag älskar dig'
+        ':white_heart:',
+        'Jag älskar dig',
+        ':white:'
     ],
     '🤎': [
         'Brunt hjärta',
-        'Jag älskar dig'
+        ':brown_heart:',
+        'Jag älskar dig',
+        ':brown:'
     ],
     '💯': [
         'Hundra poäng',
+        ':hundred_points:',
         '100',
         '%',
         'Behåll den 100',
@@ -2009,16 +3323,21 @@ emojis_language[lang][5] = {
     ],
     '💬': [
         'Talballong',
+        ':speech_balloon:',
         'Chatt Bubble',
-        'Talbubbla'
+        'Talbubbla',
+        ':white:'
     ],
     '💭': [
         'Tänkte ballong',
+        ':thought_balloon:',
         'Tänker bubbla',
-        'Tänkte bubbla'
+        'Tänkte bubbla',
+        ':white:'
     ],
     '💤': [
         'Zzz',
+        ':zzz:',
         'Sängtid',
         'Tråkigt',
         'Sov',
@@ -2026,45 +3345,54 @@ emojis_language[lang][5] = {
         'Sovande symbol'
     ],
     '♠': [
-        'Spade Suit',
+        'Spade Kostym',
+        ':spade_suit:',
         'Spades',
         'Black Spade Suit'
     ],
     '♥': [
-        'Heart Suit',
-        'Card With Heart',
-        'Hearts',
-        'Black Heart Suit'
+        'Hjärtdräkt',
+        ':heart_suit:',
+        'Kort med hjärta',
+        'Hjärtan',
+        'Svart Hjärtdräkt'
     ],
     '♦': [
-        'Diamond Suit',
-        'Diamonds',
-        'Black Diamond Suit'
+        'Diamant Kostym',
+        ':diamond_suit:',
+        'Diamanter',
+        'Svart Diamant Kostym'
     ],
     '♣': [
-        'Club Suit',
-        'Clubs',
-        'Black Club Suit'
+        'Klubb Kostym',
+        ':club_suit:',
+        'Klubbar',
+        'Svart Club Kostym'
     ],
     '🏧': [
         'ATM tecken',
+        ':atm_sign:',
         'Bankomat',
-        'Automatiserad Telleer-maskin'
+        'Automatiserad Telleer-maskin',
+        ':blue:'
     ],
     '🎧': [
-        'Headphone',
-        'Earphone',
+        'Hörlurar',
+        ':headphone:',
+        'Hörlurar',
         'iPod',
-        'Headphones'
+        'Hörlurar'
     ],
     '🎵': [
         'Musikalisk anteckning',
+        ':musical_note:',
         'Beamed par av åttonde anteckningar',
         'Beamed par kvavers',
         'Musik anteckning'
     ],
     '🎶': [
         'Musikaliska anteckningar',
+        ':musical_notes:',
         'Musik',
         'Musikanteckningar',
         'Sjunger',
@@ -2072,476 +3400,705 @@ emojis_language[lang][5] = {
     ],
     '🔔': [
         'Ringklocka',
+        ':bell:',
         'Frihetsklocka',
         'Ringer',
-        'Bröllopsklocka'
+        'Bröllopsklocka',
+        ':yellow:'
     ],
     '🔕': [
         'Ringklocka med Slash',
+        ':bell_with_slash:',
         'Aviseringar',
         'Ringsignal inaktiverad',
         'Tystad klocka',
-        'Klockan med avbokning Stroke'
+        'Klockan med avbokning Stroke',
+        ':yellow:'
     ],
     '🔈': [
         'Högtalare låg volym',
+        ':speaker_low_volum:',
         'Volym',
         'Högtalare'
     ],
     '🔉': [
         'Högtalare Medium Volym',
+        ':speaker_medium_volume:',
         'Minska volymen',
         'Högtalare med medium volym',
         'Högtalare med en ljudvåg'
     ],
     '🔊': [
         'Högtalare med hög volym',
+        ':speaker_high_volume:',
         'Öka volymen',
         'Högtalare med tre ljudvågor'
     ],
     '🔇': [
         'Tystad högtalare',
+        ':muted_speaker:',
         'Tysta volym',
         'Högtalare med avbokningsstation'
     ],
     '📢': [
         'Loudspeaker',
-        'Announcement',
-        'PA System',
-        'Public Address Loudspeaker',
-        ''
+        ':loudspeaker:',
+        'Meddelande',
+        'PA-system',
+        'Offentlig adress Högtalare'
     ],
-    '⛔': ['Ingen post'],
+    '⛔': [
+        'Ingen post',
+        ':no_entry:',
+        ':red:'
+    ],
     '🚫': [
         'Förbjuden',
+        ':prohibited:',
         'Bannlyst',
         'Cirkel bakåtsnedstreck',
         'Nej',
         'Röd cirkel korsade',
         'Begränsad',
-        'Ingen post skylt'
+        'Ingen post skylt',
+        ':red:'
     ],
     '🚳': [
         'Inga cyklar',
-        'Inga cyklar signera'
+        ':no_bicycles:',
+        'Inga cyklar signera',
+        ':red:',
+        ':black:'
     ],
     '🚭': [
         'Rökning förbjuden',
-        'Rökning förbjuden symbol'
+        ':no_smoking:',
+        'Rökning förbjuden symbol',
+        ':red:',
+        ':black:'
     ],
     '🚯': [
         'Ingen skräp',
-        'Ingen skräp symbol'
+        ':no_littering:',
+        'Ingen skräp symbol',
+        ':red:',
+        ':black:'
     ],
     '🚱': [
         'Icke-potentiellt vatten',
+        ':non-potable_water:',
+        ':non_potable_water:',
         'Inget vatten',
         'Inget dricksvatten',
-        'Icke möjlig vattensymbol'
+        'Icke möjlig vattensymbol',
+        ':red:',
+        ':black:'
     ],
     '🚷': [
         'Inga fotgängare',
+        ':no_pedestrians:',
         'Inga personer',
-        'Ingen vandring'
+        'Ingen vandring',
+        ':red:',
+        ':black:'
     ],
     '🔞': [
         'Ingen under arton',
+        ':no_one_under_18:',
         'NSFW',
         'Ingen under arton symbol',
-        '18'
+        '18',
+        ':red:',
+        ':black:'
     ],
     '📵': [
         'Inga mobiltelefoner',
+        ':no_mobile_phones:',
         'Inga mobiltelefoner',
         'Inga telefoner',
-        'Inga smartphones'
+        'Inga smartphones',
+        ':red:',
+        ':black:'
     ],
     '☢️': [
         'Radioactive',
+        ':radioactive:',
         'Internationell symbol för strålning',
         'Kärnkraft',
-        'Radioaktivt tecken'
+        'Radioaktivt tecken',
+        ':orange:'
     ],
     '☣️': [
         'Biorisk',
-        'Biohazard tecken'
+        ':biohazard:',
+        'Biohazard tecken',
+        ':orange:'
     ],
     '⬆️': [
-        'Upp pil',
+        'Upp pilknapp',
+        ':up_arrow_button:',
         'Pil markerar upp',
-        'Uppåt Svart Pil'
+        'Uppåt Svart Pil',
+        ':blue:'
     ],
     '↗️': [
-        'Höger Pil',
+        'Upp till höger pilknapp',
+        ':up-right_arrow_button:',
+        ':up_right_arrow_button:',
         'Diagonal upp-höger pil',
-        'Nordöstra pilen'
+        'Nordöstra pilen',
+        ':blue:'
     ],
     '➡️': [
-        'Höger Pil',
+        'Höger pilknapp',
+        ':right_arrow_button:',
         'Pil pekar höger',
-        'Svart höger pil'
+        'Svart höger pil',
+        ':blue:'
     ],
     '↘️': [
-        'Nedåtgående pil',
+        'Nedåtgående pilknapp',
+        ':down-right_arrow_button:',
+        ':down_right_arrow_button:',
         'Diagonalt nedtill till höger pil',
-        'Sydöstra pilen'
+        'Sydöstra pilen',
+        ':blue:'
     ],
     '⬇️': [
-        'Ned pil',
+        'Nedåtpilsknapp',
+        ':down_arrow_button:',
         'Pil markerar nedåt',
-        'Nedåt Svart Pil'
+        'Nedåt Svart Pil',
+        ':blue:'
     ],
     '↙️': [
-        'Nedåt-vänster pil',
+        'Nedåt-vänster pilknapp',
+        ':down-left_arrow_button:',
+        ':down_left_arrow_button:',
         'Diagonalt nedåt vänster pil',
-        'Sydväst pil'
+        'Sydväst pil',
+        ':blue:'
     ],
     '⬅️': [
-        'Vänster pil',
+        'Vänster pilknapp',
+        ':left_arrow_button:',
         'Pil pekar vänster',
-        'Vänster Svart Pil'
+        'Vänster Svart Pil',
+        ':blue:'
     ],
     '↖️': [
-        'Upp-vänster pil',
+        'Upp till vänster pilknapp',
+        ':up-left_arrow_button:',
+        ':up_left_arrow_button:',
         'Diagonal upp-vänster pil',
-        'Nordvästra pilen'
+        'Nordvästra pilen',
+        ':blue:'
     ],
     '↕️': [
-        'Upp-Ner Pil',
+        'Upp-Ner pilknapp',
+        ':up-down_arrow_button:',
+        ':up_down_arrow_button:',
         'Vertikala pilar',
-        'Upp Pil Ned'
+        'Upp Pil Ned',
+        ':blue:'
     ],
     '↔️': [
-        'Vänster-höger pil',
+        'Vänster-höger pilknapp',
+        ':left-right_arrow_button:',
+        ':left_right_arrow_button:',
         'Horisontell pilar',
         'Sidovägar Pilar',
-        'Vänster Höger Pil'
+        'Vänster Höger Pil',
+        ':blue:'
     ],
     '↩️': [
-        'Höger pilböjning Vänster',
+        'Höger pilböjda vänster knapp',
+        ':right_arrow_curving_left_button:',
         'Svar via e-post',
         'Vänster böjda pil',
-        'Vänster pil med krok'
+        'Vänster pil med krok',
+        ':blue:'
     ],
     '↪️': [
-        'Vänster pilen svänger höger',
+        'Vänster pilen svänger höger knapp',
+        ':left_arrow_curving_right_button:',
         'E-posta vidare',
         'Höger böjda pilar',
-        'Höger pil med krok'
+        'Höger pil med krok',
+        ':blue:'
     ],
     '⤴️': [
-        'Höger pil svänger upp',
-        'Pil pekar höger och svänger sedan uppåt'
+        'Höger pilen svänger upp knappen',
+        ':right_arrow_curving_up_button:',
+        'Pil pekar höger och svänger sedan uppåt',
+        ':blue:'
     ],
     '⤵️': [
-        'Höger pil svänger ner',
+        'Höger pilen svänger ner knappen',
+        ':right_arrow_curving_down_button:',
         'Böjd nedåtgående pil',
-        'Pil pekar höger och svänger sedan nedåt'
+        'Pil pekar höger och svänger sedan nedåt',
+        ':blue:'
     ],
     '🔃': [
-        'Clockwise vertikala pilar',
-        'Clockwise nedåt och uppåt öppen cirkel pilar'
+        'Clockwise vertikala pilar knapp',
+        ':clockwise_vertical_button:',
+        'Clockwise nedåt och uppåt öppen cirkel pilar',
+        ':blue:'
     ],
     '🔄': [
         'Motsols pilknapp',
+        ':counterclockwise_button:',
         'Uppdatera',
         'Rotera',
         'Växla',
         'Mot-Clockwise pilar',
-        'Moturs nedåt och uppåt öppen cirkel pilar'
+        'Moturs nedåt och uppåt öppen cirkel pilar',
+        ':blue:'
     ],
     '🔙': [
         'Bakåtpilen',
+        ':back_arrow:',
         'Tillbaka',
-        'Baksida med vänster pil ovanför'
+        'Baksida med vänster pil ovanför',
+        ':black:'
     ],
     '🔚': [
         'Avsluta pilen',
+        ':end_arrow:',
         'Slut',
-        'Avsluta med vänster pil ovanför'
+        'Avsluta med vänster pil ovanför',
+        ':black:'
     ],
     '🔛': [
         'På! Pil',
+        ':on_arrow:',
         'På',
-        'På med utropstecken med vänster högerpil ovanför'
+        'På med utropstecken med vänster högerpil ovanför',
+        ':black:'
     ],
     '🔜': [
         'Snart pil',
+        ':soon_arrow:',
         'Snart',
-        'Snart med höger pil ovanför'
+        'Snart med höger pil ovanför',
+        ':black:'
     ],
     '🔝': [
         'Översta pilen',
+        ':top_arrow:',
         'Överst',
-        'Topp med uppåtpilen ovanför'
+        'Topp med uppåtpilen ovanför',
+        ':black:'
     ],
     '🛐': [
         'Platsen för dyrkan',
-        'Religiös byggnad'
+        ':place_of_worship:',
+        'Religiös byggnad',
+        ':purple:'
     ],
-    '⚛️': ['Atom symbol'],
+    '⚛️': [
+        'Atom symbol',
+        ':atom_symbol:',
+        ':purple:'
+    ],
     '🕉️': [
         'Om Symbol',
+        ':om_symbol:',
         'Om',
         'Aumkara',
         'Omkara',
-        'Pranava'
+        'Pranava',
+        ':purple:'
     ],
     '✡️': [
         'Davids stjärna',
-        'Magen David'
+        ':star_of_david:',
+        'Magen David',
+        ':purple:'
     ],
     '☸️': [
         'Hjul av Dharma',
-        'Hjälm'
+        ':wheel_of_dharma:',
+        'Hjälm',
+        ':purple:'
     ],
-    '☯️': ['Yin Yang'],
+    '☯️': [
+        'Yin Yang',
+        ':yin_yang:',
+        ':purple:'
+    ],
     '✝️': [
         'Latinskt kors',
-        'Kristet Kors'
+        ':latin_cross:',
+        'Kristet Kors',
+        ':purple:'
     ],
-    '☦️': ['Ortodoxt kors'],
-    '☪️': ['Stjärn- och halvmåne'],
+    '☦️': [
+        'Ortodoxt kors',
+        ':orthodox_cross:',
+        ':purple:'
+    ],
+    '☪️': [
+        'Stjärn- och halvmåne',
+        ':star_and_crescent:',
+        ':purple:'
+    ],
     '☮️': [
         'Fred symbol',
-        'Fred tecken'
+        ':peace:',
+        'Fred tecken',
+        ':purple:'
     ],
     '🕎': [
         'Menorah',
+        ':menorah:',
         'Candelabrum',
         'Ljus',
         'Chanukiah',
         'Menorah',
-        'Menorah med nio grenar'
+        'Menorah med nio grenar',
+        ':purple:'
     ],
     '🔯': [
         'Prickad sex-tonad stjärna',
-        'Sex Pointed Star med Mitten Punkt'
+        ':dotted_six-pointed_star:',
+        ':dotted_six_pointed_star:',
+        'Sex Pointed Star med Mitten Punkt',
+        ':purple:'
     ],
     '♈': [
         'Aries',
-        'Zodiak'
+        ':aries:',
+        ':zodiac:',
+        'Zodiak',
+        ':purple:'
     ],
     '♉': [
         'Taurus',
-        'Zodiak'
+        ':taurus:',
+        ':zodiac:',
+        'Zodiak',
+        ':purple:'
     ],
     '♊': [
         'Gemini',
-        'Zodiak'
+        ':gemini:',
+        ':zodiac:',
+        'Zodiak',
+        ':purple:'
     ],
     '♋': [
         'Cancer',
-        'Zodiak'
+        ':cancer:',
+        ':zodiac:',
+        'Zodiak',
+        ':purple:'
     ],
     '♌': [
         'Lejon',
-        'Zodiak'
+        ':leo:',
+        ':zodiac:',
+        'Zodiak',
+        ':purple:'
     ],
     '♍': [
         'Jungfrun',
-        'Zodiak'
+        ':virgo:',
+        ':zodiac:',
+        'Zodiak',
+        ':purple:'
     ],
     '♎': [
         'Libra',
-        'Zodiak'
+        ':libra:',
+        ':zodiac:',
+        'Zodiak',
+        ':purple:'
     ],
     '♏': [
         'Skorpion',
+        ':scorpio:',
+        ':zodiac:',
         'Skorpius',
-        'Zodiak'
+        'Zodiak',
+        ':purple:'
     ],
     '♐': [
         'Sagittarius',
-        'Zodiak'
+        ':sagittarius:',
+        ':zodiac:',
+        'Zodiak',
+        ':purple:'
     ],
     '♑': [
         'Stenbock',
-        'Zodiak'
+        ':capricorn:',
+        ':zodiac:',
+        'Zodiak',
+        ':purple:'
     ],
     '♒': [
         'Vattumannen',
-        'Zodiak'
+        ':aquarius:',
+        ':zodiac:',
+        'Zodiak',
+        ':purple:'
     ],
     '♓': [
         'Pisces',
-        'Zodiak'
+        ':pisces:',
+        ':zodiac:',
+        'Zodiak',
+        ':purple:'
     ],
     '⛎': [
         'Ophiuchus',
-        'Zodiak'
+        ':ophiuchus:',
+        ':zodiac:',
+        'Zodiak',
+        ':purple:'
     ],
     '⏭️': [
-        'Svart Högerpekande Dubbel triangel med vertikal stång',
         'Hoppa över vidarebefordra symbol',
-        'Nästa spårknapp'
+        'Svart Högerpekande Dubbel triangel med vertikal stång',
+        ':skip_forward_button:',
+        'Nästa spårknapp',
+        ':blue:'
     ],
     '⏮️': [
-        'Svart Vänsterpekande Dubbel triangel med vertikal stång',
         'Hoppa över bakåtsymbol',
+        'Svart Vänsterpekande Dubbel triangel med vertikal stång',
+        ':skip_backward_button:',
         'Senaste spårknappen',
-        'Föregående spår'
+        'Föregående spår',
+        ':blue:'
     ],
     '⏯️': [
-        'Svart Höger Pointing Triangel med dubbel vertikal bar',
         'Spela eller pausa knappen',
+        'Svart Höger Pointing Triangel med dubbel vertikal bar',
+        ':play_button:',
+        ':pause_button:',
+        ':play_or_pause_button:',
         'Spela Symbol',
-        'Pausa symbol'
+        'Pausa symbol',
+        ':blue:'
     ],
     '🔀': [
         'Blanda spårningsknapp',
-        'Vridna höger pilar'
+        ':shuffle_tracks_button:',
+        'Vridna höger pilar',
+        ':blue:'
     ],
     '🔁': [
         'Upprepa knappen',
+        ':repeat_button:',
         'Loop Symbol',
         'Retweet',
-        'Clockwise Höger och Vänster Öppen Cirkel Pilar'
+        'Clockwise Höger och Vänster Öppen Cirkel Pilar',
+        ':blue:'
     ],
     '🔂': [
         'Upprepa enkelknapp',
+        ':repeat_single_button:',
         'Cirkel pilar med nummer 1',
         'Loopa en gång symbol',
         'Upprepa enda spår symbol',
-        'Clockwise Höger och Vänster Öppen Cirkel Pilar med Circled One Overlay'
+        'Clockwise Höger och Vänster Öppen Cirkel Pilar med Circled One Overlay',
+        ':blue:'
     ],
     '▶️': [
         'Spela upp knappen',
+        ':play_button:',
         'Höger triangel',
         'Högerpekande triangel',
-        'Svart Högerpekande Triangel'
+        'Svart Högerpekande Triangel',
+        ':blue:'
     ],
     '◀️': [
         'Omvänd knapp',
+        ':reverse_button:',
         'Vänster triangel',
         'Vänsterpekande triangel',
-        'Svart Triangel till vänster'
+        'Svart Triangel till vänster',
+        ':blue:'
     ],
     '🔼': [
         'Uppåt-knapp',
+        ':upwards_button:',
         'Upp Triangel',
         'Upp-Pekar Triangel',
-        'Upp-Pointing Liten Röd Triangel'
+        'Upp-Pointing Liten Röd Triangel',
+        ':blue:'
     ],
     '🔽': [
         'Knappen nedåt',
+        ':downwards_button:',
         'Ner Triangel',
         'Nedpekande triangel',
-        'Liten röd triangelformad ned'
+        'Liten röd triangelformad ned',
+        ':blue:'
     ],
     '⏩': [
         'Snabb-Vidarebefordra knapp',
+        ':fast-forward_button:',
+        ':fast_forward_button:',
         'Snabb framåt',
         'Snabb Framåtriktad symbol',
-        'Svart Högerpekande Dubbel Triangel'
+        'Svart Högerpekande Dubbel Triangel',
+        ':blue:'
     ],
     '⏪': [
         'Fast Reverse Button',
+        ':fast_reverse_button:',
         'Rewind',
         'Spola tillbaka symbol',
-        'Svart Vänsterpekande Dubbel triangel'
+        'Svart Vänsterpekande Dubbel triangel',
+        ':blue:'
     ],
     '⏫': [
         'Snabb uppåt-knapp',
+        ':fast_up_button:',
         'Upp-Pekar dubbel triangel',
-        'Svart upp-pekande dubbel triangel'
+        'Svart upp-pekande dubbel triangel',
+        ':blue:'
     ],
     '⏬': [
         'Snabb nedåt-knapp',
+        ':fast_down_button:',
         'Dubbel triangel nedpekande',
-        'Svart nedpekande dubbel triangel'
+        'Svart nedpekande dubbel triangel',
+        ':blue:'
     ],
     '⏹️': [
         'Stoppa knapp',
+        ':stop_button:',
         'Stoppa',
         'Stoppa symbol',
-        'Svart fyrkant för stopp'
+        'Svart fyrkant för stopp',
+        ':blue:'
     ],
     '⏏️': [
         'Utmatningsknapp',
-        'Eject Symbol'
+        ':eject_button:',
+        'Eject Symbol',
+        ':blue:'
     ],
     '🎦': [
         'Bio',
+        ':cinema_button:',
         'Cinema Skärm',
         'Filmer',
         'Film',
         'Biograf symbol',
-        'Inspelning'
+        'Inspelning',
+        ':blue:'
     ],
     '📶': [
         'Antennstaplar',
+        ':antenna_bars_button:',
         'Mottagningsgaller',
         'Signalstyrka',
         'Stairs',
         'Signal Styrka Symbol',
-        'Antenn med barer'
+        'Antenn med barer',
+        ':blue:'
     ],
     '✖️': [
         'Multiplicera',
+        ':multiply:',
+        'Tider',
         'Multiplikation Symbol',
-        'Kraftig multiplikation X'
+        'Kraftig multiplikation X',
+        ':black:'
     ],
     '➕': [
         'Plus',
+        ':plus:',
         'Plus symbol',
-        'Tung Plus-skylt'
+        'Tung Plus-skylt',
+        ':black:'
     ],
     '➖': [
         'Minus',
+        ':minus:',
         'Minus Symbol',
-        'Tung Minus-skylt'
+        'Tung Minus-skylt',
+        ':black:'
     ],
     '➗': [
         'Dela',
+        ':divide:',
         'Divisionssymbol',
-        'Tung Division tecken'
+        'Tung Division tecken',
+        ':black:'
     ],
     '🟰': [
-        'Heavy Equals Sign',
-        'Result'
+        'Tung Lika Tecken',
+        ':heavy_equals_sign:',
+        'Lika',
+        'Resultat',
+        ':black:'
     ],
     '♾️': [
         'Oändlighet',
+        ':infinity:',
         'Permanent papperstecken'
     ],
     '‼️': [
         'Dubbel utropsmärkning',
-        'Röd dubbel utropsmärkning'
+        ':double_exclamation_mark:',
+        'Röd dubbel utropsmärkning',
+        ':red:'
     ],
     '⁉️': [
         'Frågetecken för utropet',
-        'Röd utropsmärkning och frågemärke'
+        ':exclamation_question_mark:',
+        'Röd utropsmärkning och frågemärke',
+        ':red:'
     ],
     '❓': [
         'Frågetecken',
+        ':question_mark:',
         'Rött frågetecken',
-        'Svart frågemärke prydnad'
+        'Svart frågemärke prydnad',
+        ':red:'
     ],
     '❔': [
         'Vitt frågetecken',
+        ':white_question_mark:',
+        ':question_mark:',
         'Vitt frågetecken',
-        'Vitt frågemärke prydnad'
+        'Vitt frågemärke prydnad',
+        ':white:'
     ],
     '❗': [
         'Utropsmärkning',
+        ':exclamation_mark:',
         'Rött utropstecken',
-        'Tung utropsmärkning symbol'
+        'Tung utropsmärkning symbol',
+        ':red:'
     ],
     '❕': [
         'Vit utropsmärkning',
-        'Vit utropsmärkning prydnad'
+        ':white_exclamation_mark:',
+        ':exclamation_mark:',
+        'Vit utropsmärkning prydnad',
+        ':white:'
     ],
     '⭕': [
         'Ihålig röd cirkel',
+        ':hollow_red_circle:',
         'Cirkel',
         'Rätt',
         'Röd cirkel',
         'Cirkel Mark',
-        'Kraftig stor cirkel'
+        'Kraftig stor cirkel',
+        ':red:'
     ],
     '☑️': [
         'Kryssruta med check',
+        ':check_box_with_check:',
         'V',
         'Kryssruta',
         'Kryssa i rutan',
@@ -2549,351 +4106,530 @@ emojis_language[lang][5] = {
     ],
     '✔️': [
         'Markera betyg',
+        ':check_mark:',
         'V',
         'Kontrollera',
         'Bocka',
         'Checkmark',
-        'Tung check-markering'
+        'Tung check-markering',
+        ':black:'
     ],
     '❌': [
         'Korsmarkering',
+        ':cross_mark:',
         'Kors',
-        'X'
+        'X',
+        ':red:'
     ],
     '✅': [
         'Markera markeringsknapp',
+        ':check_mark_button:',
         'V',
         'Grön markering',
         'Grön spark',
         'Markera betyg',
-        'Vit Heavy Check Mark'
+        'Vit Heavy Check Mark',
+        ':green:'
     ],
     '❎': [
         'Kryssmarksknapp',
+        ':cross_mark_button:',
         'Kors',
         'X',
         'X betyg',
-        'Negativt Squared Cross Mark'
+        'Negativt Squared Cross Mark',
+        ':green:'
     ],
     '#️⃣': [
         'Tangentkorts nummerskylt',
+        ':hash_key:',
         '#',
         'Hash-nyckel',
         'Hashtag',
         'Oktothorpe',
         'Pund nyckel',
-        'Nummerskylt'
+        'Nummerskylt',
+        ':blue:'
     ],
     '*️⃣': [
         'Keycap Asterisk',
-        'Stjärna Keycap'
+        ':asterisk:',
+        'Stjärna Keycap',
+        ':blue:'
     ],
     '0️⃣': [
         'Nummer 0',
+        ':number_0:',
         'Keycap Digit Zero'
     ],
     '1️⃣': [
         'Nummer 1',
+        ':number_1:',
         'Nyckelkorts siffra ett'
     ],
     '2️⃣': [
         'Nummer 2',
+        ':number_2:',
         'Keycap Siffra två'
     ],
     '3️⃣': [
         'Nummer 3',
+        ':number_3:',
         'Nyckelkorts siffra tre'
     ],
     '4️⃣': [
         'Nummer 4',
+        ':number_4:',
         'Nyckelkorts siffra fyra'
     ],
     '5️⃣': [
         'Nummer 5',
+        ':number_5:',
         'Nyckelkorts siffra fem'
     ],
     '6️⃣': [
         'Nummer 6',
+        ':number_6:',
         'Nyckelkorts siffra sex'
     ],
     '7️⃣': [
         'Nummer 7',
+        ':number_7:',
         'Keycap Digit Seven'
     ],
     '8️⃣': [
         'Nummer 8',
+        ':number_8:',
         'Nyckelkorts siffra Åtta'
     ],
     '9️⃣': [
-        'Nummer 09',
+        'Nummer 9',
+        ':number_9:',
         'Nyckelkorts siffra nio'
     ],
     '🔟': [
         'Nummer 10',
+        ':number_10:',
         'Keycap: 10',
         '10',
         'Keycap Siffra tio'
     ],
     '🔠': [
         'Input Latin Uppercase',
+        ':input_latin_uppercase:',
         'ABCD',
         'Versaler',
         'Inmatningssymbol för versaler',
-        'Symbolen för latinska kapital bokstäver'
+        'Symbolen för latinska kapital bokstäver',
+        ':blue:'
     ],
     '🔡': [
         'Input Latin Lowercase',
+        ':input_latin_lowercase:',
         'abcd',
         'Gemener',
         'Inmatningssymbol för små bokstäver',
-        'Inmatningssymbol för latinska små bokstäver'
+        'Inmatningssymbol för latinska små bokstäver',
+        ':blue:'
     ],
     '🔢': [
         'Input Numbers',
+        ':input_numbers:',
         '1234',
         'Nummer',
         'Numeric Input',
-        'Symbolen för siffror'
+        'Symbolen för siffror',
+        ':blue:'
     ],
     '🔣': [
         'Ingångssymbol för symboler',
+        ':input_symbols:',
         'Symboler',
-        'Symbol inmatning'
+        'Symbol inmatning',
+        ':blue:'
     ],
     '🔤': [
         'Input Latin Letters',
+        ':input_latin_letters:',
         'abc',
         'Alfabetet',
         'Bokstäver',
         'Symbolen för bokstäver',
-        'Symbolen för latinska bokstäver'
+        'Symbolen för latinska bokstäver',
+        ':blue:'
     ],
     '🅰️': [
         'En knapp (Blodtyp)',
+        ':a_blood:',
         'Blodtyp A',
         'Brev A',
-        'Negativt Squared Latin Capital Brev A'
+        'Negativt Squared Latin Capital Brev A',
+        ':red:'
     ],
     '🆎': [
         'AB-knapp (Blodtyp)',
+        ':ab_blood:',
         'Brev AB',
         'Blodstyp AB',
-        'Negativ Squared AB'
+        'Negativ Squared AB',
+        ':red:'
     ],
     '🅱️': [
         'B-knapp (Blodtyp)',
+        ':b_blood:',
         'Brev B',
         'Blodtyp B',
-        'Negativt Squared Latin Capital Brev B'
+        'Negativt Squared Latin Capital Brev B',
+        ':red:'
     ],
     '🆑': [
         'CL knapp',
+        ':cl_button:',
         'Rensa',
         'Rensa knapp',
         'CL tecken',
         'Kvadrat CL',
-        'Bokstäver CL'
+        'Bokstäver CL',
+        ':red:'
     ],
     '🆒': [
         'Kall knapp',
+        ':cool_button:',
         'Kall Kvadrat',
         'Sval skylt',
-        'Squared Cool'
+        'Squared Cool',
+        ':blue:'
     ],
     '🆓': [
         'Kostnadsfri knapp',
+        ':free_button:',
         'Gratis',
         'Gratis skylt',
-        'Gratis, Squared gratis'
+        'Gratis, Squared gratis',
+        ':blue:'
     ],
     'ℹ️': [
         'Information',
+        ':info_button:',
         'Information',
         'Gemener I',
         'Turistinformation',
-        'Information Källa'
+        'Information Källa',
+        ':blue:'
     ],
     '🆔': [
         'ID-knapp',
+        ':id_button:',
         'ID',
         'Identifiering',
         'Identifieringstecken',
-        'Kvadrat ID'
+        'Kvadrat ID',
+        ':purple:'
     ],
     '🆕': [
         'Ny knapp',
+        ':new_button:',
         'Ny',
         'Ny skylt',
-        'Squared ny'
+        'Squared ny',
+        ':blue:'
     ],
     '🅾️': [
         'O-knapp (Blodtyp)',
+        ':0_blood:',
         'Blodtyp O',
         '0',
         'Negativt Squared Latin Capital Brev',
-        'Brev O'
+        'Brev O',
+        ':red:'
     ],
     '🆗': [
         'Ok knapp',
+        ':ok_button:',
         'OK',
         'Okej',
         'Kvadrat',
         'Ok Signera',
-        'Kvadrat OK'
+        'Kvadrat OK',
+        ':blue:'
     ],
     '🅿️': [
         'P-knapp',
+        ':p_button:',
+        ':parking_sign:',
         'Parkering skylt',
         'Negativt Squared Latin Capital Brev',
-        'Brev P'
+        'Brev P',
+        ':blue:'
     ],
     '🆘': [
         'SOS knapp',
+        ':sos_button:',
         'Nödsignal',
         'Nödläge',
         'SOS',
         'SOS tecken',
         'Squared SOS',
-        'Hjälp'
+        'Hjälp',
+        ':red:'
     ],
     '🆙': [
         'Upp! Knapp',
+        ':up_button:',
         'Nivå upp',
         'Upp',
         'Registrera dig',
-        'Kvadrat upp med utropsmärkning'
+        'Kvadrat upp med utropsmärkning',
+        ':blue:'
     ],
     '🆚': [
         'Vs-knapp',
-        'Fyrkantiga V'
+        ':vs_button:',
+        'Fyrkantiga V',
+        ':orange:'
     ],
     '🆖': [
         'NG knapp',
+        ':ng_button:',
         'Kvadrat NG',
         'Inget bra tecken',
         'Inget bra',
-        'NG',
-        'Blooper'
+        ':ng:',
+        'Blooper',
+        ':blue:'
     ],
     '🔴': [
         'Röd cirkel',
-        'Stor röd cirkel'
+        ':red_circle:',
+        'Stor röd cirkel',
+        ':red:'
     ],
     '🟠': [
         'Orange cirkel',
-        'Stor Orange cirkel'
+        ':orange_circle:',
+        'Stor Orange cirkel',
+        ':orange:'
     ],
     '🟡': [
         'Gul cirkel',
-        'Stor Gula Cirkel'
+        ':yellow_circle:',
+        'Stor Gula Cirkel',
+        ':yellow:'
     ],
     '🟢': [
         'Grön cirkel',
-        'Stor grön cirkel'
+        ':green_circle:',
+        'Stor grön cirkel',
+        ':green:'
     ],
     '🔵': [
         'Blå cirkel',
-        'Stor blå cirkel'
+        ':blue_circle:',
+        'Stor blå cirkel',
+        ':blue:'
     ],
     '🟣': [
         'Lila cirkel',
-        'Stor lila cirkel'
+        ':purple_circle:',
+        'Stor lila cirkel',
+        ':purple:'
     ],
     '🟤': [
         'Brun cirkel',
-        'Stor Brun Cirkel'
+        ':brown_circle:',
+        'Stor Brun Cirkel',
+        ':brown:'
     ],
     '⚫': [
         'Svart cirkel',
-        'Mellan svart cirkel'
+        ':black_circle:',
+        'Mellan svart cirkel',
+        ':black:'
     ],
     '⚪': [
         'Vit cirkel',
-        'Mellan vit cirkel'
+        ':white_circle:',
+        'Mellan vit cirkel',
+        ':white:'
     ],
     '🟥': [
         'Röd Kvadrat',
-        'Stor röd fyrkant'
+        ':red_square:',
+        'Stor röd fyrkant',
+        ':red:'
     ],
     '🟧': [
         'Orange Kvadrat',
-        'Stor Orange Fyrkant'
+        ':orange_square:',
+        'Stor Orange Fyrkant',
+        ':orange:'
     ],
     '🟨': [
         'Gul kvadrat',
-        'Stor gul fyrkant'
+        ':yellow_square:',
+        'Stor gul fyrkant',
+        ':yellow:'
     ],
     '🟩': [
         'Grön Kvadrat',
-        'Stor grön kvadrat'
+        ':green_square:',
+        'Stor grön kvadrat',
+        ':green:'
     ],
     '🟦': [
         'Blå Fyrkant',
-        'Stor blå kvadrat'
+        ':blue_square:',
+        'Stor blå kvadrat',
+        ':blue:'
     ],
     '🟪': [
         'Lila Fyrkant',
-        'Stor lila kvadrat'
+        ':purple_square:',
+        'Stor lila kvadrat',
+        ':purple:'
     ],
     '🟫': [
         'Brun Kvadrat',
-        'Stor Brun Fyrkant'
+        ':brown_square:',
+        'Stor Brun Fyrkant',
+        ':brown:'
     ],
-    '⬛': ['Svart stor kvadrat'],
-    '⬜': ['Vit stor kvadrat'],
-    '◼️': ['Svart Medium Kvadrat'],
-    '◻️': ['Vit Medium Kvadrat'],
-    '◾': ['Svart Medium liten kvadrat'],
-    '◽': ['Vit Medium Liten Kvadrat'],
-    '▪️': ['Svart liten kvadrat'],
-    '▫️': ['Vit liten kvadrat'],
+    '⬛': [
+        'Svart stor kvadrat',
+        ':black_large_square:',
+        ':black:'
+    ],
+    '⬜': [
+        'Vit stor kvadrat',
+        ':white_large_square:',
+        ':white:'
+    ],
+    '◼️': [
+        'Svart Medium Kvadrat',
+        ':black_medium_square:',
+        ':black:'
+    ],
+    '◻️': [
+        'Vit Medium Kvadrat',
+        ':white_medium_square:',
+        ':white:'
+    ],
+    '◾': [
+        'Svart Medium liten kvadrat',
+        ':black_medium_small_square:',
+        ':black:'
+    ],
+    '◽': [
+        'Vit Medium Liten Kvadrat',
+        ':white_medium_small_square:',
+        ':white:'
+    ],
+    '▪️': [
+        'Svart liten kvadrat',
+        ':black_small_square:',
+        ':black:'
+    ],
+    '▫️': [
+        'Vit liten kvadrat',
+        ':white_small_square:',
+        ':white:'
+    ],
     '💠': [
         'Diamant form med en prick inuti',
+        ':diamond_shape_with_dot:',
         'Sötma',
         'Diamant Blomma',
         'Kawaii'
     ],
-    '🔶': ['Stor Orange Diamant'],
-    '🔷': ['Stor Blå Diamant'],
-    '🔸': ['Liten orange diamant'],
-    '🔹': ['Liten Blå Diamant'],
+    '🔶': [
+        'Stor Orange Diamant',
+        ':large_orange_diamond:',
+        ':orange:'
+    ],
+    '🔷': [
+        'Stor Blå Diamant',
+        ':large_blue_diamond:',
+        ':blue:'
+    ],
+    '🔸': [
+        'Liten orange diamant',
+        ':small_orange_diamond:',
+        ':orange:'
+    ],
+    '🔹': [
+        'Liten Blå Diamant',
+        ':small_blue_diamond:',
+        ':blue:'
+    ],
     '🔺': [
         'Röd triangel lyfts upp',
-        'Upp-pekande Röd Triangel'
+        ':red_triangle_pointed_up:',
+        'Upp-pekande Röd Triangel',
+        ':red:'
     ],
     '🔻': [
         'Röd triangelformad ned',
-        'Nedpekande Röd Triangel'
+        ':red_triangle_pointed_down:',
+        'Nedpekande Röd Triangel',
+        ':red:'
     ],
-    '🔳': ['Vit Kvadratknapp'],
-    '🔲': ['Svart kvadratknapp'],
+    '🔳': [
+        'Vit Kvadratknapp',
+        ':white_square_button:',
+        ':white:',
+        ':black:'
+    ],
+    '🔲': [
+        'Svart kvadratknapp',
+        ':black_square_button:',
+        ':white:',
+        ':black:'
+    ],
     '©️': [
         'Upphovsrätt',
+        ':copyright:',
+        ':c:',
         'Signera upphovsrätt'
     ],
     '®️': [
         'Registrerad',
+        ':registered:',
+        ':r:',
         'Registrerad skylt'
     ],
     '™️': [
         'Varumärke',
-        'TM',
+        ':trade_mark:',
+        ':tm:',
         'Varumärke',
         'Varumärkesskylt'
     ],
     '🛅': [
         'Vänster Bagage',
+        ':left_luggage:',
         'Väska med nyckel',
-        'Låst Resväska'
+        'Låst Resväska',
+        ':blue:'
     ],
-    '🛄': ['Hämtning av bagage'],
-    '🛃': ['Tull'],
+    '🛄': [
+        'Hämtning av bagage',
+        ':baggage_claim:',
+        ':blue:'
+    ],
+    '🛃': [
+        'Tull',
+        ':customs:',
+        ':blue:'
+    ],
     '🛂': [
         'Passkontroll',
-        'Gräns kontroll'
+        ':passport_control:',
+        'Gräns kontroll',
+        ':blue:'
     ],
     '🚰': [
         'Potabel vattensymbol',
+        ':potable_water_symbol:',
         'Törst',
         'Törstig',
         'Vattentryck',
@@ -2901,343 +4637,487 @@ emojis_language[lang][5] = {
     ],
     '🇦': [
         'Brev A',
+        ':letter_a:',
+        ':a:',
         'Regionala indikator Symbol Brev A'
     ],
     '🇧': [
         'Brev B',
+        ':letter_b:',
+        ':b:',
         'Regionala indikatorn Symbol Brev B'
     ],
     '🇨': [
         'Brev C',
+        ':letter_c:',
+        ':c:',
         'Regional indikator Symbol Letter C'
     ],
     '🇩': [
         'Brev D',
+        ':letter_d:',
+        ':d:',
         'Regional indikator Symbol Letter D'
     ],
     '🇪': [
         'Brev E',
+        ':letter_e:',
+        ':e:',
         'Regional indikator Symbol Brev E'
     ],
     '🇫': [
         'Brev F',
+        ':letter_f:',
+        ':f:',
         'Regional indikator Symbol Brev F'
     ],
     '🇬': [
         'Brev G',
+        ':letter_g:',
+        ':g:',
         'Regional indikator Symbol Brev G'
     ],
     '🇭': [
         'Brev H',
+        ':letter_h:',
+        ':h:',
         'Regional indikator Symbol Brev H'
     ],
     '🇮': [
         'Brev I',
+        ':letter_i:',
+        ':i:',
         'Regional indikator Symbol Brev I'
     ],
     '🇯': [
         'Brev J',
+        ':letter_j:',
+        ':j:',
         'Regional indikator Symbol Letter J'
     ],
     '🇰': [
         'Brev K',
+        ':letter_k:',
+        ':k:',
         'Regional indikator Symbol Letter K'
     ],
     '🇱': [
         'Brev L',
+        ':letter_l:',
+        ':l:',
         'Regional indikator Symbol Letter L'
     ],
     '🇲': [
         'Brev M',
+        ':letter_m:',
+        ':m:',
         'Regional indikator Symbol Brev M'
     ],
     '🇳': [
         'Brev N',
+        ':letter_n:',
+        ':n:',
         'Regional indikator Symbol Letter N'
     ],
     '🇴': [
         'Brev O',
+        ':letter_o:',
+        ':o:',
         'Regional indikator Symbol Brev O'
     ],
     '🇵': [
         'Brev P',
+        ':letter_p:',
+        ':p:',
         'Regional indikator Symbol Letter P'
     ],
     '🇶': [
         'Brev Q',
+        ':letter_q:',
+        ':q:',
         'Regional indikator Symbol Letter Q'
     ],
     '🇷': [
         'Brev R',
+        ':letter_r:',
+        ':r:',
         'Regional indikator Symbol Letter R'
     ],
     '🇸': [
         'Brev S',
+        ':letter_s:',
+        ':s:',
         'Regionala indikator Symbol Brev S'
     ],
     '🇹': [
         'Brev T',
+        ':letter_t:',
+        ':t:',
         'Regional indikator Symbol Brev T'
     ],
     '🇺': [
         'Brev U',
+        ':letter_u:',
+        ':u:',
         'Regional indikator Symbol Letter U'
     ],
     '🇻': [
         'Brev V',
+        ':letter_v:',
+        ':v:',
         'Regional indikator Symbol Brev V'
     ],
     '🇼': [
         'Brev W',
+        ':letter_w:',
+        ':w:',
         'Regional indikator Symbol Brev W'
     ],
     '🇽': [
         'Brev X',
+        ':letter_x:',
+        ':x:',
         'Regional indikator Symbol Letter X'
     ],
     '🇾': [
         'Brev Y',
+        ':letter_y:',
+        ':y:',
         'Regional indikator Symbol Brev Y'
     ],
     '🇿': [
         'Brev Z',
+        ':letter_z:',
+        ':z:',
         'Regional indikator Symbol Brev Z'
     ],
     '💌': [
         'Älskar brev',
+        ':love_letter:',
         'Hjärtkuvert',
         'Älskar anteckning'
     ],
     '🚮': [
         'Sätt skräp i sin plats symbol',
+        ':put_litter_in_bing_sign:',
         'Kull i papperskorgen',
         'Lägg skräp i papperskorgen',
         'Person med papperskorgen'
     ],
     '♿': [
         'Symbol för rullstol',
+        ':wheelchair_symbol:',
         'Tillgängligt badrum'
     ],
     '🚹': [
         'Symbolen för män',
-        'Mäns symbol',
+        ':mens_symbol:',
+        'Symbolen för män',
         'Män Toalett',
         'Manlig Restroom',
-        'Manlig WC'
+        'Manlig WC',
+        ':blue:'
     ],
     '🚺': [
         'Kvinnornas symbol',
-        'Kvinnors symbol',
+        ':womens_symbol:',
+        'Kvinnornas symbol',
         'Kvinnors toalett',
         'Kvinnlig Restroom',
-        'Famale WC'
+        'Famale WC',
+        ':purple:',
+        ':pink:'
     ],
     '🚻': [
         'Restroom',
+        ':restroom:',
         'Badrum skylt',
         'Toalettskylt',
-        'Toalettskylt'
+        'Toalettskylt',
+        ':blue:'
     ],
     '🚼': [
         'Baby symbol',
+        ':baby_symbol:',
         'Baby ändra station',
         'Baby ändra symbol',
-        'Barnkammare'
+        'Barnkammare',
+        ':orange:'
     ],
     '🚾': [
         'Vatten garderob',
+        ':wc:',
         'WC',
-        'Toalett WC'
+        'Toalett WC',
+        ':blue:'
     ],
     '⚠️': [
         'Varningsskylt',
-        'Varning Symbol'
+        ':warning_sign:',
+        'Varning Symbol',
+        ':yellow:'
     ],
     '🚸': [
         'Barn korsar',
+        ':children_crossing:',
         'Barn korsar',
-        'Skolans korsning'
+        'Skolans korsning',
+        ':yellow:'
     ],
     '🔅': [
         'Symbol för låg ljusstyrka',
+        ':low_brightness_symbol:',
         'Dimma knappen',
         'Minska ljusstyrkan'
     ],
     '🔆': [
         'Symbol för hög ljusstyrka',
+        ':high_brightness_symbol:',
         'Öka ljusstyrkan',
         'Ljus knapp'
     ],
     '📳': [
         'Vibrationsläge',
+        ':vibration_mode:',
         'Telefon hjärta',
-        'Tyst läge'
+        'Tyst läge',
+        ':orange:'
     ],
-    '📴': ['Mobiltelefon av'],
+    '📴': [
+        'Mobiltelefon av',
+        ':mobile_phone_off:',
+        ':orange:'
+    ],
     '〰️': [
         'Våg',
-        'Vågig bindestreck'
+        'Vågig bindestreck',
+        ':wave:'
     ],
-    '💱': ['Valutautbyte'],
+    '💱': [
+        'Valutautbyte',
+        ':currency_exchange:'
+    ],
     '💲': [
         'Tung Dollar tecken',
+        ':dollar_symbol:',
         'Dollar',
         'Dollar tecken'
     ],
     '♻️': [
         'Svart universell återvinning symbol',
+        ':recycling_symbol:',
         'Återvinningssymbol',
-        'Återvinn logotyp'
+        'Återvinn logotyp',
+        ':green:'
     ],
     '🔱': [
         'Trident Emblem',
+        ':trident_emblem:',
         'Pitchfork',
         'Trident'
     ],
     '📛': [
         'Namnmärke',
+        ':name_badge:',
         'Tofu vid brand',
         'Namntagg',
         'Eld Tagg'
     ],
     '🔰': [
         'Japansk symbol för nybörjare',
+        ':japanese_symbol_beginner:',
         'Shoshinsha Mark',
-        'Gul grön sköld'
+        'Gul grön sköld',
+        ':green:',
+        ':yellow:'
     ],
     '➰': [
         'Lockig loop',
+        ':curly_loop:',
         'Curling loop',
         'Loop'
     ],
     '➿': [
         'Dubbel lockig loop',
+        ':double_curly_loop:',
         'Dubbel Curling Loop',
         'Röstbrevlåda'
     ],
     '〽️': [
         'Alternativ för del',
+        ':part_alternation_mark:',
         'M',
         'McDonalds'
     ],
-    '✳️': ['Åtta Asterisk'],
+    '✳️': [
+        'Åtta Asterisk',
+        ':eight_spoked_asterisk:',
+        ':green:'
+    ],
     '✴️': [
         'Åtta tonade svarta stjärnan',
+        ':eight_pointed_star:',
         'Orange stjärna',
-        'Åtta Pointed Star'
+        'Åtta Pointed Star',
+        ':orange:'
     ],
-    '❇️': ['Gnista'],
+    '❇️': [
+        'Gnista',
+        ':sparkle:',
+        ':green:'
+    ],
     'Ⓜ️': [
-        'Circled Latin Capital Brev M',
         'Cirklad M',
+        'Circled Latin Capital Brev M',
+        ':circled_m:',
         'Metro',
-        'Cirklad M'
+        ':blue:'
     ],
     '🈁': [
-        'Squared Katakana Koko',
         'Japansk ordskylt betyder här',
+        'Squared Katakana Koko',
+        ':japanese_here:',
         'Här',
-        'Mål'
+        'Mål',
+        ':blue:'
     ],
     '🈂️': [
+        'Japansk underteckna mening service eller serviceavgift',
         'Squared Katakana Sa',
-        'Japansk underteckna mening service eller serviceavgift'
+        ':japanese_service:',
+        ':blue:'
     ],
     '🈷️': [
+        'Japansk underteckna betyder månadsbelopp',
         'Squared CJK Unified Ideograph-6708',
+        ':japanese_monthly_amouny:',
         'Radikal 74',
         '月',
-        'Japansk underteckna betyder månadsbelopp'
+        ':orange:'
     ],
     '🈶': [
-        'Squared CJK Unified Ideograph-6709',
         'Japanska tecken betyder inte gratis',
+        'Squared CJK Unified Ideograph-6709',
+        ':japanese_own:',
         'Egen',
-        '有'
+        '有',
+        ':orange:'
     ],
     '🈯': [
-        'Squared CJK Unified Ideograph-6307',
         'Japansk skylt innebörd reserverad',
+        'Squared CJK Unified Ideograph-6307',
+        ':japanese_reserved:',
         'Finger Punkt',
-        '指'
+        '指',
+        ':green:'
     ],
     '🉐': [
-        'Fördel för cirklad ideografi',
         'Japansk underteckna mening fynd',
+        'Fördel för cirklad ideografi',
+        ':japanese_acquire:',
         'Förvärva',
-        '得'
+        '得',
+        ':red:'
     ],
     '🈹': [
-        'Squared CJK Unified Ideograph-5272',
         'Japanska tecken betyder rabatt',
+        'Squared CJK Unified Ideograph-5272',
+        ':japanese_discount:',
         'Fynd försäljning',
-        '割'
+        '割',
+        ':red:'
     ],
     '🈚': [
-        'Squared CJK Unified Ideograph-7121',
         'Japanska tecken betyder gratis laddning',
+        'Squared CJK Unified Ideograph-7121',
+        ':japanese_lacking:',
         'Brist',
-        '無'
+        '無',
+        ':orange:'
     ],
     '🈲': [
-        'Squared CJK Unified Ideograph-7981',
         'Japansk teckeninnebörd Förbjuden',
+        'Squared CJK Unified Ideograph-7981',
+        ':japanese_prohibited:',
         'Forbid',
-        '禁'
+        '禁',
+        ':red:'
     ],
     '🉑': [
-        'Cirklad ideograf Acceptera',
         'Japansk skylt betyder Acceptabel',
-        'Acceptera'
+        'Cirklad ideograf Acceptera',
+        ':japanese_accept:',
+        'Acceptera',
+        ':orange:'
     ],
     '🈸': [
-        'Squared CJK Unified Ideograph-7533',
         'Japansk teckensnittsprogram',
+        'Squared CJK Unified Ideograph-7533',
+        ':japanese_application_form:',
         'Formulär för ansökan',
         'Apa',
         'Begäran',
-        '申'
+        '申',
+        ':orange:'
     ],
     '🈴': [
-        'Squared CJK Unified Ideograph-5408',
         'Japansk teckeninnebörd Godkänd (betyg)',
+        'Squared CJK Unified Ideograph-5408',
+        ':japanese_agreement:',
         'Avtal',
-        '合'
+        '合',
+        ':red:'
     ],
     '🈳': [
-        'Squared CJK Unified Ideograph-7a7a',
         'Japansk skylt innebörd ledig',
+        'Squared CJK Unified Ideograph-7a7a',
+        ':japanese_available:',
         'Tom och tillgänglig',
-        '空'
+        '空',
+        ':blue:'
     ],
     '㊗️': [
+        'Japansk teckeninnebörd Grattis',
         'Cirklad ideograf Grattis',
-        'Japansk teckeninnebörd Grattis'
+        ':japanese_congratulations:',
+        ':red:'
     ],
     '㊙️': [
         'Cirklad ideograf hemlighet',
+        ':japanese_secret:',
         'Japansk underteckna betyda hemlighet',
-        'Hemlighet'
+        'Hemlighet',
+        ':red:'
     ],
     '🈺': [
-        'Squared CJK Unified Ideograph-55b6',
         'Japansk underteckna betydelse Öppen för företag',
+        'Squared CJK Unified Ideograph-55b6',
+        ':japanese_open_for_business:',
         'Arbete',
-        '営'
+        '営',
+        ':orange:'
     ],
     '🈵': [
-        'Squared CJK Unified Ideograph-6e80',
         'Japansk skylt betyder fullt; Ingen ledig',
+        'Squared CJK Unified Ideograph-6e80',
+        ':japanese_full:',
         'Fullt',
-        '満'
+        '満',
+        ':red:'
     ],
-    '🔘': ['Radioknapp'],
+    '🔘': [
+        'Radioknapp',
+        ':radio_button:'
+    ],
     '🛑': [
         'Stoppa signering',
-        'Octagonal tecken'
+        ':stop_sign:',
+        'Octagonal tecken',
+        ':red:'
     ],
     '⚕️': [
         'Medicinsk symbol',
+        ':medical_symbol:',
         'Aesculapius',
         'Asklepios',
         'Rod av Asclepius',
@@ -3245,16 +5125,23 @@ emojis_language[lang][5] = {
     ],
     '🛗': [
         'Hiss',
+        ':elevator:',
+        ':lift:',
         'Lyft'
     ],
-    '⚧️': ['Transgendersymbolen'],
+    '⚧️': [
+        'Transgendersymbolen',
+        ':transgender_sign:'
+    ],
     '♂️': [
         'Manlig skylt',
+        ':male_sign:',
         'Mannen symbol',
         'Mars symbol'
     ],
     '♀️': [
         'Kvinna tecken',
+        ':female_sign:',
         'Kvinna symbol',
         'Venus Symbol'
     ]
@@ -3263,77 +5150,133 @@ emojis_language[lang][5] = {
 emojis_language[lang][6] = {
     '🍇': [
         'Druvor',
-        'Druva'
+        ':grapes:',
+        'Druva',
+        ':purple:'
     ],
     '🍈': [
         'Melon',
+        ':melon:',
         'Cantaloupe',
         'Honungsdagg',
         'Muskmelon'
     ],
-    '🍉': ['Vattenmelon'],
+    '🍉': [
+        'Vattenmelon',
+        ':watermelon:',
+        ':red:'
+    ],
     '🍊': [
         'Tangerine',
+        ':tangerine:',
         'Mandarin',
-        'Orange'
+        ':orange:'
     ],
     '🍋': [
         'Citron',
-        'Citronblad'
+        ':lemon:',
+        'Citronblad',
+        ':yellow:'
     ],
     '🍌': [
         'Banan',
-        'Täckt'
+        ':banana:',
+        'Täckt',
+        ':yellow:'
     ],
-    '🍍': ['Ananas'],
-    '🥭': ['Mango'],
+    '🍍': [
+        'Ananas',
+        ':pineapple:'
+    ],
+    '🥭': [
+        'Mango',
+        ':mango:'
+    ],
     '🍎': [
         'Rött äpple',
-        'Röd Läckra Äpple'
+        ':red_apple:',
+        ':apple:',
+        'Röd Läckra Äpple',
+        ':red:'
     ],
     '🍏': [
         'Grönt äpple',
+        ':green_apple:',
+        ':apple:',
         'Gyllene Läckert Äpple',
-        'Mormor Smith Apple'
+        'Mormor Smith Apple',
+        ':green:'
     ],
-    '🍐': ['Päron'],
+    '🍐': [
+        'Päron',
+        ':pear:'
+    ],
     '🍑': [
         'Persika',
+        ':peach:',
         'Botten',
-        'Butt'
+        'Butt',
+        ':orange:',
+        ':pink:'
     ],
     '🍒': [
         'Körsbär',
+        ':cherry:',
         'Körsbär',
-        'Vild körsbär'
+        'Vild körsbär',
+        ':red:'
     ],
-    '🍓': ['Jordgubbe'],
+    '🍓': [
+        'Jordgubbe',
+        ':strawberry:',
+        ':red:'
+    ],
     '🥝': [
         'Kiwi frukt',
+        ':kiwi:',
         'Kinesiska krusbär',
         'Kiwi',
-        'Kiwifrukt'
+        'Kiwifrukt',
+        ':green:'
     ],
-    '🍅': ['Tomat'],
+    '🍅': [
+        'Tomat',
+        ':tomato:',
+        ':red:'
+    ],
     '🥥': [
         'Kokkos',
+        ':coconut:',
         'Cocoanut'
     ],
-    '🥑': ['Avokado'],
+    '🥑': [
+        'Avokado',
+        ':avocado:',
+        ':green:'
+    ],
     '🍆': [
         'Äggplanta',
+        ':eggplant:',
+        ':aubergine:',
         'Aubergine',
         'Phalliska',
-        'Lila grönsak'
+        'Lila grönsak',
+        ':purple:'
     ],
     '🥔': [
         'Potatis',
+        ':potato:',
         'Bakad potatis',
         'Idaho Potatis'
     ],
-    '🥕': ['Morot'],
+    '🥕': [
+        'Morot',
+        ':carrot:',
+        ':orange:'
+    ],
     '🌽': [
         'Öron av majs',
+        ':ear_of_corn:',
         'Majs',
         'Majs på Cob',
         'Majs',
@@ -3341,107 +5284,165 @@ emojis_language[lang][6] = {
     ],
     '🌶️': [
         'Varm paprika',
+        ':hot_pepper:',
         'Chili Pepper',
-        'Kryddig'
+        'Kryddig',
+        ':red:'
     ],
     '🥒': [
         'Gurka',
+        ':cucumber:',
         'Gherkin',
-        'Plocka'
+        'Plocka',
+        ':green:'
     ],
     '🥬': [
         'lummig grön',
+        ':leafy_green:',
         'Bok Choy',
         'Kinesisk kål',
         'Cos Lettuce',
         'Romänsk sallad',
-        'lummiga gröna'
+        'lummiga gröna',
+        ':green:'
     ],
-    '🥦': ['Broccoli'],
+    '🥦': [
+        'Broccoli',
+        ':broccoli:',
+        ':green:'
+    ],
     '🍄': [
         'Svamp',
+        ':mushroom:',
         'Shroom',
         'Toadstool'
     ],
     '🥜': [
         'Peanuts',
-        'Nötter'
+        ':peanuts:',
+        'Nötter',
+        ':brown:'
     ],
     '🌰': [
         'Kastanj',
+        ':chestnut:',
         'Eollon',
-        'Nöt'
+        'Nöt',
+        ':brown:'
     ],
     '🍞': [
         'Bröd',
-        'Bröd Av Bröd'
+        ':bread:',
+        'Bröd Av Bröd',
+        ':brown:'
     ],
-    '🥐': ['Croissant'],
+    '🥐': [
+        'Croissant',
+        ':croissant:',
+        ':brown:'
+    ],
     '🥖': [
         'Baguette Bröd',
+        ':baguette_bread:',
         'Fransk Bröd',
-        'Baguette'
+        'Baguette',
+        ':brown:'
     ],
-    '🥨': ['Pretzel'],
-    '🥯': ['Bagel'],
+    '🥨': [
+        'Pretzel',
+        ':pretzel:',
+        ':brown:'
+    ],
+    '🥯': [
+        'Bagel',
+        ':bagel:',
+        ':brown:'
+    ],
     '🥞': [
         'Pannkakor',
+        ':pancakes:',
         'Cre<unk> pes',
-        'Hotcakes'
+        'Hotcakes',
+        ':yellow:'
     ],
     '🧀': [
         'Ost Kil',
-        'Ost'
+        ':cheese_wedge:',
+        'Ost',
+        ':yellow:'
     ],
     '🍖': [
         'Kött på ben',
+        ':meat_on_bone:',
         'Grill',
         'Grillning',
-        'Manga Kött'
+        'Manga Kött',
+        ':red:'
     ],
     '🍗': [
         'Poultry Leg',
+        ':poultry_leg:',
         'Trumslagg',
-        'Turkiet Ben'
+        'Turkiet Ben',
+        ':red:'
     ],
     '🥩': [
         'Skär av kött',
+        ':cut_of_meat:',
         'Kött',
-        'Stek'
+        'Stek',
+        ':red:'
     ],
     '🥓': [
         'Bacon',
-        'Rashers'
+        ':bacon:',
+        'Rashers',
+        ':red:'
     ],
     '🍔': [
         'Hamburgare',
+        ':hamburger:',
         'Burger',
         'Osteburger'
     ],
     '🍟': [
         'Pommes frites',
+        ':french_fries:',
         'Chips',
         'Frier',
-        'McDonalds pommes frites'
+        'McDonalds pommes frites',
+        ':yellow:'
     ],
     '🍕': [
         'Pizza',
+        ':pizza:',
         'Pepperoni Pizza',
-        'Skiva av Pizza'
+        'Skiva av Pizza',
+        ':red:'
     ],
     '🌭': [
         'Het hund',
+        ':hot_dog:',
         'korv',
-        'Korv'
+        'Korv',
+        ':red:'
     ],
-    '🥪': ['Smörgås'],
-    '🌮': ['Taco'],
+    '🥪': [
+        'Smörgås',
+        ':sandwich:'
+    ],
+    '🌮': [
+        'Taco',
+        ':taco:'
+    ],
     '🌯': [
         'Burrito',
+        ':burrito:',
         'Radbryt'
     ],
     '🥙': [
         'Fyllt Flatbread',
+        ':stuffed_flatbread:',
         'Doner Kebab',
         'Gyro',
         'Shawarma',
@@ -3449,57 +5450,71 @@ emojis_language[lang][6] = {
     ],
     '🍳': [
         'Matlagning',
+        ':cooking:',
         'Frukost',
         'Stekt ägg',
         'Frying Pan'
     ],
     '🥘': [
         'Shallow Pan of Food',
+        ':shallow_pan_of_food:',
         'Paella',
         'Pan av mat'
     ],
     '🍲': [
         'Kruka av mat',
+        ':pot_of_food:',
         'Skål av mat',
         'Soppa',
         'Gryta'
     ],
     '🥣': [
         'Skål med sked',
+        ':bowl_with_spoon:',
         'Spannmål skål'
     ],
     '🥗': [
         'Grön sallad',
-        'Sallad'
+        ':green_salad:',
+        'Sallad',
+        ':green:'
     ],
     '🍿': [
         'Popcorn',
+        ':popcorn:',
         'Poppar majs'
     ],
     '🧂': [
         'Salt',
-        'Salt Shaker'
+        ':salt:',
+        'Salt Shaker',
+        ':white:'
     ],
     '🥫': [
         'Konserverad mat',
+        ':canned_food:',
         'Kan av mat',
         'Tunn burk',
         'Konserverad mat'
     ],
     '🍱': [
         'Bento Box',
+        ':bento_box:',
         'Lunchlåda'
     ],
     '🍘': [
         'Ris knäckt',
+        ':rice_cracker:',
         'Knäckare'
     ],
     '🍙': [
         'Risboll',
+        ':rice_ball:',
         'Onigiri'
     ],
     '🍚': [
         'Tillagad ris',
+        ':cooked_rice:',
         'Kokt ris',
         'Ris',
         'Skål av ris',
@@ -3507,121 +5522,154 @@ emojis_language[lang][6] = {
     ],
     '🍛': [
         'Curry Ris',
+        ':curry_rice:',
         'Valuta',
         'Indisk mat',
         'Curry och ris'
     ],
     '🍜': [
         'Ångande skål',
+        ':steaming_bowl:',
         'Nudlar',
         'Nudlar med pinnar',
         'Ramen'
     ],
     '🍝': [
         'Spaghetti',
+        ':spaghetti:',
         'Pasta'
     ],
     '🍠': [
         'Rostad söt potatis',
+        ':roasted_sweet_potato:',
         'Söt potatis',
         'Åk'
     ],
     '🍢': [
         'Oden',
+        ':oden:',
         'Kebab',
         'Grant'
     ],
     '🍣': [
         'Sushi',
+        ':sushi:',
         'Sashimi',
-        'Skaldjur'
+        'Skaldjur',
+        ':pink:'
     ],
     '🍤': [
         'Stekt räkor',
+        ':fried_shrimp:',
         'Stekt Räka',
         'Räkor Tempura'
     ],
     '🍥': [
         'Fisk tårta med virveln',
+        ':fish_cake_with_swirl:',
         'Fiskkaka',
         'Pink Swirl'
     ],
     '🥮': [
         'Månen tårta',
+        ':moon_cake:',
         'Månkaka'
     ],
     '🍡': [
         'Dango',
+        ':dango:',
         'Dessert Stick',
         'Rosa vita gröna bollar'
     ],
     '🥟': [
         'Dumpling',
+        ':dumpling:',
         'Empanada',
         'Pierogi'
     ],
-    '🥠': ['Fortune kaka'],
+    '🥠': [
+        'Fortune kaka',
+        ':fortune_cookie:'
+    ],
     '🥡': [
         'Takeout Box',
+        ':takeout_box:',
         'Kinesisk matlåda',
         'Oyster Pail'
     ],
     '🍦': [
         'Mjuk glass',
+        ':soft_ice_cream:',
         'Herr Whippy',
         'Mjuk Servera'
     ],
     '🍧': [
         'Rakad is',
+        ':shaved_ice:',
         'Snö Kon'
     ],
     '🍨': [
         'Glass',
+        ':ice_cream:',
         'Skål av glass',
         'Dessert'
     ],
     '🍩': [
         'Munk',
+        ':doughnut:',
         'Donut'
     ],
     '🍪': [
         'Kaka',
+        ':cookie:',
         'Kaka',
-        'Choklad Chip Cookie'
+        'Choklad Chip Cookie',
+        ':brown:'
     ],
     '🎂': [
         'Födelsedagstårta',
+        ':birthday_cake:',
         'Födelsedag',
         'Tårta',
         'Tårta med ljus'
     ],
     '🍰': [
         'Kortkaka',
+        ':shortcake:',
         'Tårta',
         'Delen av kakan',
         'Jordgubbsmousse'
     ],
     '🧁': [
         'Cupcake',
+        ':cupcake:',
         'Fen tårta'
     ],
-    '🥧': ['Paj'],
+    '🥧': [
+        'Paj',
+        ':pie:'
+    ],
     '🍫': [
         'Choklad Bar',
+        ':chocolate_bar:',
         'Godis Bar',
-        'Choklad'
+        'Choklad',
+        ':brown:'
     ],
     '🍬': [
         'Godis',
+        ':candy:',
         'Lolly',
         'Söt'
     ],
     '🍭': [
         'Lollipop',
+        ':lollipop:',
         'Sucker'
     ],
     '🍮': [
         'Skönhet',
+        ':custard:',
         'Creme Caramel',
         'Dessert',
         'Flan',
@@ -3629,19 +5677,25 @@ emojis_language[lang][6] = {
     ],
     '🍯': [
         'Honungspott',
+        ':honey_pot:',
         'Honung',
-        'Kruka'
+        'Kruka',
+        ':yellow:'
     ],
     '🍼': [
         'Baby Flaska',
+        ':baby_bottle:',
         'Flaska matning'
     ],
     '🥛': [
         'Glas av Mjölk',
-        'Mjölk'
+        ':glass_of_milk:',
+        'Mjölk',
+        ':white:'
     ],
     '☕': [
         'Varm dryck',
+        ':hot_beverage:',
         'Kaffe',
         'Espresso',
         'Varm Choklad',
@@ -3649,56 +5703,68 @@ emojis_language[lang][6] = {
     ],
     '🍵': [
         'Tekopp utan handtag',
+        ':green_tea:',
         'Grönt te',
         'Matcha',
-        'Matcha grönt te'
+        'Matcha grönt te',
+        ':green:'
     ],
     '🍶': [
         'Sake',
+        ':sake:',
         'Flaska',
         'Ris Vin',
         'Sake Flaska och Cup'
     ],
     '🍾': [
         'Flaska med Popping Cork',
+        ':champagne:',
         'Firande',
         'Champagne',
         'Mousserande vin'
     ],
     '🍷': [
         'Vin glas',
+        ':wine_glass:',
         'Alkohol',
         'Rött vin',
         'Vin'
     ],
     '🍸': [
         'Cocktailglas',
+        ':cocktail_glass:',
         'Cocktail',
         'Martini'
     ],
     '🍹': [
         'Tropisk Dryck',
+        ':tropical_drink:',
         'Frukt Punch',
         'Tiki Dryck'
     ],
     '🍺': [
         'Mugg öl',
+        ':beer_mug:',
         'Öl',
-        'Öl Stein'
+        'Öl Stein',
+        ':yellow:'
     ],
     '🍻': [
         'Länkande ölmuggar',
+        ':clinking_beer_mugs:',
         'Öl',
         'Skål'
     ],
     '🥂': [
         'Länkande glasögon',
+        ':clinking_glasses:',
         'Firande',
         'Champagneglas',
         'Skål'
     ],
     '🥃': [
         'Tumbler glas',
+        ':tumbler_glass:',
         'Bourbon',
         'Sprit',
         'Rum',
@@ -3707,62 +5773,123 @@ emojis_language[lang][6] = {
     ],
     '🥤': [
         'Kopp med halm',
+        ':cup_with_straw:',
         'Milkshake',
         'Smoothie',
         'Sodapop',
         'Mjuk Dryck'
     ],
-    '🥢': ['Chopsticks'],
+    '🥢': [
+        'Chopsticks',
+        ':chopsticks:'
+    ],
     '🍽️': [
         'Gaffel och kniv med platta',
-        'Middag'
+        ':fork_and_knife_with_plate:',
+        'Middag',
+        ':white:',
+        ':gray:',
+        ':grey:'
     ],
     '🍴': [
         'Gaffel och kniv',
+        ':fork_and_knife:',
         'Bestick',
         'Kniv och gaffel',
-        'Silverware'
+        'Silverware',
+        ':gray:',
+        ':grey:'
     ],
-    '🥄': ['Sked'],
-    '🧄': ['Vitlök'],
-    '🧅': ['Lök'],
-    '🧇': ['Waffle'],
-    '🧆': ['Falafel'],
-    '🧈': ['Smör'],
-    '🦪': ['Ostron'],
+    '🥄': [
+        'Sked',
+        ':spoon:',
+        ':gray:',
+        ':grey:'
+    ],
+    '🧄': [
+        'Vitlök',
+        ':garlic:'
+    ],
+    '🧅': [
+        'Lök',
+        ':onion:'
+    ],
+    '🧇': [
+        'Waffle',
+        ':waffle:'
+    ],
+    '🧆': [
+        'Falafel',
+        ':falafel:'
+    ],
+    '🧈': [
+        'Smör',
+        ':butter:'
+    ],
+    '🦪': [
+        'Ostron',
+        ':oyster:'
+    ],
     '🧃': [
         'Dryckeslåda',
+        ':beverage_box:',
         'Juice Box'
     ],
     '🧉': [
         'Para Dryck',
+        ':mate_drink:',
         'Chimarra<unk> o',
         'Cimarrón',
         'Yerba partner'
     ],
-    '🫒': ['Oliv'],
-    '🫐': ['Blåbär'],
-    '🫑': ['Pepparklocka'],
-    '🫓': ['Flatbröd'],
+    '🫒': [
+        'Oliv',
+        ':olive:',
+        ':green:'
+    ],
+    '🫐': [
+        'Blåbär',
+        ':blueberries:',
+        ':blue:'
+    ],
+    '🫑': [
+        'Pepparklocka',
+        ':bell_pepper:',
+        ':green:'
+    ],
+    '🫓': [
+        'Flatbröd',
+        ':flatbread:'
+    ],
     '🫔': [
         'Tamale',
+        ':tamale:',
         'Tämjd'
     ],
-    '🫕': ['Fondue'],
+    '🫕': [
+        'Fondue',
+        ':fondue:'
+    ],
     '🧋': [
         'Bubbla te',
+        ':boba:',
         'Boba'
     ],
-    '🧊': ['Iskub'],
+    '🧊': [
+        'Iskub',
+        ':ice_cube:'
+    ],
     '🫘': [
         'Beans',
         'Flatulence',
-        'Coffee beans',
+        ':beans:',
+        'Kaffebönor',
         'Spill the beans'
     ],
     '🫗': [
-        'Pouring Liquid',
-        'Pouring Drink',
+        'Häll Flytande',
+        ':puring_liquid:',
+        'Hälla Dryck',
         'Vatten'
     ]
 };
@@ -3770,1357 +5897,1374 @@ emojis_language[lang][6] = {
 emojis_language[lang][7] = {
     '🏁': [
         'Chequered flagga',
+        ':chequered_flag:',
         'Markerad flagga',
         'Rutnät flicka',
-        'Racing flagga'
+        'Racing flagga',
+        ':black:',
+        ':white:'
     ],
     '🚩': [
         'Triangulär flagga',
+        ':triangular_flag:',
         'Flagga på stolpe',
         'Röd flagga',
-        'Triangulär flagga på inlägg'
+        'Triangulär flagga på inlägg',
+        ':red:'
     ],
     '🎌': [
         'Korsade flaggor',
+        ':crossed_flags:',
         'Två flaggor'
     ],
     '🏴': [
         'Svart flagga',
-        'Vågar svart flagga'
+        ':black_flag:',
+        'Vågar svart flagga',
+        ':black:'
     ],
     '🏳️': [
         'Vit flagga',
-        'Vågar vit flagga'
+        ':white_flag:',
+        'Vågar vit flagga',
+        ':white:'
     ],
     '🏳️‍🌈': [
         'Regnbågsflagga',
+        ':rainbow_flag:',
         'Pride Flag',
-        'LGBT',
-        'LGBTQIA+',
+        'HBT',
+        'HBTQIA+',
         'Gay',
-        'Transgender',
+        'Transkön',
         'Lesbian',
-        'Asexual',
+        'Asex',
         'Queer'
     ],
     '🏳️‍⚧️': [
         'Transgenderflaggan',
+        ':transgender_flag:',
         'Blå, rosa och vit flagga',
         'Trans flagga'
     ],
     '🏴‍☠️': [
         'Pirat flagga',
-        'Jolly Roger'
+        ':pirate_flag:',
+        'Jolly Roger',
+        ':black:'
     ],
     '🇺🇳': [
         'Förenta Nationernas flagga',
-        'FN',
+        ':un:',
         'Flagga: FN'
     ],
     '🇪🇺': [
         'Europeiska unionens flagga',
-        'EU',
+        ':eu:',
         'Flagga: Europeiska unionen',
         'EU Flag'
     ],
     '🇦🇨': [
         'Flagga av Upplyftning Island',
-        'AC'
+        ':ac:'
     ],
     '🇦🇩': [
         'Andorras flagga',
-        'AD',
+        ':ad:',
         'Andorran Flag'
     ],
     '🇦🇪': [
         'Förenade Arabemiratens flagga',
-        'AE',
+        ':ae:',
         'Emirati Flag',
         'Förenade Arabemiratens flagga'
     ],
     '🇦🇫': [
         'Afghanistans flagga',
-        'AF',
+        ':af:',
         'Afghan Flag'
     ],
     '🇦🇬': [
         'Antigua & Barbuda flagga',
-        'AG'
+        ':ag:'
     ],
     '🇦🇮': [
         'Anguillas flagga',
-        'AI',
+        ':ai:',
         'Anguillans flagga'
     ],
     '🇦🇱': [
         'Albaniens flagga',
-        'ALLA',
+        ':al:',
         'Albansk flagga'
     ],
     '🇦🇲': [
         'Armeniens flagga',
-        'ÄR',
-        '🇦🇲'
+        ':am:',
+        'Armenien flagga'
     ],
     '🇦🇴': [
         'Angolas flagga',
-        'AO',
+        ':ao:',
         'Angolansk flagga'
     ],
     '🇦🇶': [
         'Flagga av Antarktis',
-        'AQ',
+        ':aq:',
         'Antarktis flagga'
     ],
     '🇦🇷': [
         'Flagga i Argentina',
-        'AR',
+        ':ar:',
         'Argentinsk flagga'
     ],
     '🇦🇸': [
         'Amerikanska Samoas flagga',
-        'SÅ',
+        ':as:',
         'American Samoan Flag'
     ],
     '🇦🇹': [
         'Österrikes flagga',
-        'PÅ',
+        ':at:',
         'Austrian Flag'
     ],
     '🇦🇺': [
         'Australien flagga',
-        'AU',
+        ':au:',
         'Aussie flagga',
         'Australisk flagga'
     ],
     '🇦🇼': [
         'Arubas flagga',
-        'AW',
+        ':aw:',
         'Aruban Flagga'
     ],
     '🇦🇽': [
         'Flagga av A<unk> land öarna',
-        'AX',
+        ':ax:',
         'Landflagga'
     ],
     '🇦🇿': [
         'Azerbajdzjans flagga',
-        'AZ',
+        ':az:',
         'Azerbajdzjans flagga'
     ],
     '🇧🇦': [
         'Bosnien & Hercegovinas flagga',
-        'BA'
+        ':ba:'
     ],
     '🇧🇧': [
         'Barbados flagga',
-        'BB',
+        ':bb:',
         'Barbadisk flagga',
         'Bajansk flagga'
     ],
     '🇧🇩': [
         'Bangladesh flagga',
-        'BD',
+        ':bd:',
         'Bangladeshi Flag'
     ],
     '🇧🇪': [
         'Belgien flagga',
-        'VARA',
+        ':be:',
         'Belgisk flagga'
     ],
     '🇧🇫': [
         'Burkina Fasos flagga',
-        'BF',
+        ':bf:',
         'Burkinabe flagga'
     ],
     '🇧🇬': [
         'Bulgariens flagga',
-        'BG',
+        ':bg:',
         'Bulgarisk flagga'
     ],
     '🇧🇭': [
         'Flagga Bahrain',
-        'BH',
+        ':bh:',
         'Bahrani flagga',
         'Bahrains flagga'
     ],
     '🇧🇮': [
         'Burundis flagga',
-        'BI',
+        ':bi:',
         'Burundian Flag'
     ],
     '🇧🇯': [
         'Benin flagga',
-        'BJ',
+        ':bj:',
         'Beninsk flagga'
     ],
     '🇧🇱': [
         'Flagga av Saint Barthélemy',
-        'BL',
+        ':bl:',
         'Flagga: St. Barthélemy'
     ],
     '🇧🇲': [
         'Flagga av Bermuda',
-        'BM',
+        ':bm:',
         'Bermudan Flag'
     ],
     '🇧🇳': [
         'Brunei flagga',
-        'BN',
+        ':bn:',
         'Bruneian flagga'
     ],
     '🇧🇴': [
         'Flagga Bolivia',
-        'BO',
+        ':bo:',
         'Bolivian Flag'
     ],
     '🇧🇶': [
         'Flagga i Karibien Nederländerna',
-        'BQ',
+        ':bq:',
         'Bonaire'
     ],
     '🇧🇷': [
         'Brasiliens flagga',
-        'BR',
+        ':br:',
         'Brasiliansk flagga'
     ],
     '🇧🇸': [
         'Bahamas flagga',
-        'Bahamas flagga',
-        'BS'
+        ':bs:',
+        'Bahamas flagga'
     ],
     '🇧🇹': [
         'Flagga av Bhutan',
-        'BT',
+        ':bt:',
         'Bhutanesisk flagga'
     ],
     '🇧🇻': [
         'Flagga Bouvet Island',
-        'BV',
+        ':bv:',
         'Flagga: Bouvet Island'
     ],
     '🇧🇼': [
         'Botswanas flagga',
-        'BW',
+        ':bw:',
         'Batswana Flag'
     ],
     '🇧🇾': [
         'Vitrysslands flagga',
-        'SÅ',
+        ':by:',
         'Vitryska flaggan'
     ],
     '🇧🇿': [
         'Flagga av Belize',
-        'BZ',
+        ':bz:',
         'Belizesisk flagga'
     ],
     '🇨🇦': [
         'Kanadas flagga',
         'Kanadensisk flagga',
-        'CA'
+        ':ca:'
     ],
     '🇨🇨': [
         'Flagga av Cocos (Keeling) öarna',
-        'CC'
+        ':cc:'
     ],
     '🇨🇩': [
         'Flag of Congo - Kinshasa',
-        'CD'
+        ':cd:'
     ],
     '🇨🇫': [
         'Centralafrikanska republikens flagga',
-        'CF',
+        ':cf:',
         'Centralafrikansk flagga'
     ],
     '🇨🇬': [
         'Kongos flagga - Brazzaville',
-        'CG'
+        ':cg:'
     ],
     '🇨🇭': [
         'Schweiz flagga',
-        'CH',
+        ':ch:',
         'Rött Kors',
         'Schweizisk flagga'
     ],
     '🇨🇮': [
         'Flagga Elfenbenskusten',
-        'CI',
+        ':ci:',
         'Flag: Côte d’Ivoire'
     ],
     '🇨🇰': [
         'Flagga av Cook Islands',
-        'KK',
+        ':ck:',
         'Laga Islander Flagga'
     ],
     '🇨🇱': [
         'Chiles flagga',
-        'CL',
+        ':cl:',
         'Chiles flagga'
     ],
     '🇨🇲': [
         'Kameruns flagga',
-        'CM',
+        ':cm:',
         'Kameruns flagga'
     ],
     '🇨🇳': [
         'Flagga av Kina',
-        'CN',
+        ':cn:',
         'Kinesisk flagga'
     ],
     '🇨🇴': [
         'Colombias flagga',
-        'CO',
+        ':co:',
         'Colombias flagga'
     ],
     '🇨🇵': [
         'Flagga på Clipperton Island',
-        'CP',
+        ':cp:',
         'Flagga: Clipperton Island'
     ],
     '🇨🇷': [
         'Costa Ricas flagga',
-        'CR',
+        ':cr:',
         'Costa Ricas flagga'
     ],
     '🇨🇺': [
         'Kubas flagga',
-        'CU',
+        ':cu:',
         'Kubansk flagga'
     ],
     '🇨🇻': [
         'Flagga av Kap Verde',
-        'CV',
+        ':cv:',
         'Kap Verdian flagga'
     ],
     '🇨🇼': [
         'Flagga av Curac ao',
-        'CW',
+        ':cw:',
         'Curaçaoan Flag'
     ],
     '🇨🇽': [
         'Flagga av julön',
-        'CX',
+        ':cx:',
         'Julöns flagga'
     ],
     '🇨🇾': [
         'Flagga Cypern',
-        'CY',
+        ':cy:',
         'Cypriotisk flagga'
     ],
     '🇨🇿': [
         'Flagga av Tjeckiska',
-        'CZ',
+        ':cz:',
         'Tjeckisk flagga'
     ],
     '🇩🇪': [
         'Tysklands flagga',
-        'DE',
+        ':de:',
         'Deutsch flagga',
         'Tysk flagga'
     ],
     '🇩🇬': [
         'Diego Garcia flagga',
-        'DG',
+        ':dg:',
         'Flagga: Diego Garcia'
     ],
     '🇩🇯': [
         'Djiboutis flagga',
-        'DJ',
+        ':dj:',
         'Djibouti Flag',
         'Djiboutian Flag'
     ],
     '🇩🇰': [
         'Danmark flagga',
-        'DK',
+        ':dk:',
         'Dansk flagga'
     ],
     '🇩🇲': [
         'Dominicas flagga',
-        'DM'
+        ':dm:'
     ],
     '🇩🇴': [
         'Dominikanska republikens flagga',
-        'Gjort',
+        ':do:',
         'Dom Rep flagga',
         'Dominikanska flaggan'
     ],
     '🇩🇿': [
         'Algeriets flagga',
-        'DZ',
+        ':dz:',
         'Algerian Flag'
     ],
     '🇪🇦': [
         'Flagga Ceuta & Melilla',
+        ':ea:',
         'Flagga Melilla',
         'Flagga av Ceuta',
-        'EA',
         'Flag: Ceuta & Melilla'
     ],
     '🇪🇨': [
         'Ecuadors flagga',
-        'EC',
+        ':ec:',
         'Ecuadorian Flag'
     ],
     '🇪🇪': [
         'Estlands flagga',
-        'EE',
+        ':ee:',
         'Estnisk flagga'
     ],
     '🇪🇬': [
         'Egyptens flagga',
-        'EG',
+        ':eg:',
         'Egyptisk flagga'
     ],
     '🇪🇭': [
         'Flagga i Västsahara',
-        'EH',
+        ':eh:',
         'Västsaharas flagga'
     ],
     '🇪🇷': [
         'Eritreas flagga',
-        'ÄR',
+        ':er:',
         'Eritrean Flag'
     ],
     '🇪🇹': [
         'Etiopiens flagga',
-        'ET',
+        ':et:',
         'Ethiopian Flag'
     ],
     '🇪🇸': [
         'Spanien flagga',
-        'ES',
+        ':es:',
         'Spansk flagga'
     ],
     '🇫🇮': [
         'Finlands flagga',
-        'FI',
+        ':fi:',
         'Finsk flagga'
     ],
     '🇫🇯': [
         'Flagga av Fiji',
-        'FJ',
+        ':fj:',
         'Fijian Flag'
     ],
     '🇫🇰': [
         'Falklandsöarnas flagga',
-        'FK',
+        ':fk:',
         'Falklanders flagga'
     ],
     '🇫🇲': [
         'Mikronesiens flagga',
-        'FM',
+        ':fm:',
         'Mikronesisk flagga'
     ],
     '🇫🇴': [
         'Färöarnas flagga',
-        'FOT',
+        ':fo:',
         'Faroe Islander Flag'
     ],
     '🇫🇷': [
         'Frankrikes flagga',
-        'FR',
+        ':fr:',
         'Fransk flagga'
     ],
     '🇬🇦': [
         'Flagga Gabon',
-        'GA',
+        ':ga:',
         'Gabons flagga'
     ],
     '🇬🇧': [
         'Förenade kungarikets flagga',
-        'GB',
+        ':gb:',
         'Brittisk flagga',
         'Storbritannien',
         'Kund Jack',
         'Storbritannien'
     ],
     '🏴󠁧󠁢󠁥󠁮󠁧󠁿󠁧󠁢󠁥󠁮󠁧󠁿': [
-        'Flag of England',
-        'St George\'s Cross',
-        'English Flag'
+        'Englands flagga',
+        ':england:',
+        'St Georges Cross',
+        'Engelsk flagga'
     ],
     '🏴󠁧󠁢󠁷󠁬󠁳󠁿󠁧󠁢󠁷󠁬󠁳󠁿': [
-        'Flag of Wales',
-        'Welsh Flag',
-        'Red Dragon',
+        'Flagga Wales',
+        ':wales:',
+        'Walesisk flagga',
+        'Röd Drake',
         'Baner Cymru',
         'Y Ddraig Goch'
     ],
     '🏴󠁧󠁢󠁳󠁣󠁴󠁿󠁧󠁢󠁳󠁣󠁴󠁿': [
-        'Flag of Scotland',
-        'Scottish Flag',
-        'St Andrew\'s Cross',
-        'Saltire'
+        'Skottlands flagga',
+        ':scotland:',
+        'Skotsk flagga',
+        'St Andrews Kors',
+        'Salthalt'
     ],
     '🇬🇩': [
         'Grenadas flagga',
-        'GD',
+        ':gd:',
         'Grenadiansk flagga'
     ],
     '🇬🇪': [
         'Georgiens flagga',
-        'GE',
+        ':ge:',
         'Georgisk flagga'
     ],
     '🇬🇫': [
         'Franska Guyanas flagga',
-        'GF',
+        ':gf:',
         'Franska guineanska flaggan'
     ],
     '🇬🇬': [
         'Flagga Guernsey',
-        'GG',
+        ':gg:',
         'Guernsey Flag'
     ],
     '🇬🇭': [
         'Flagga Ghana',
-        'GH',
+        ':gh:',
         'Ghanaiansk flagga'
     ],
     '🇬🇮': [
         'Flagga Gibraltar',
-        'GI',
+        ':gi:',
         'Gibraltars flagga'
     ],
     '🇬🇱': [
         'Grönlands flagga',
-        'GL',
+        ':gl:',
         'Greenlandic Flag'
     ],
     '🇬🇲': [
         'Gambias flagga',
-        'GM',
+        ':gm:',
         'Gambian Flag'
     ],
     '🇬🇳': [
         'Guineas flagga',
-        'GN',
+        ':gn:',
         'Guinean Flag'
     ],
     '🇬🇵': [
         'Guadeloupes flagga',
-        'GP',
+        ':gp:',
         'Guadeloupean flagga'
     ],
     '🇬🇶': [
         'Ekvatorialguineas flagga',
-        'GQ',
+        ':gq:',
         'Equatorial Guinean Flag',
         'Equatoguinean flagga'
     ],
     '🇬🇷': [
         'Greklands flagga',
-        'GR',
+        ':gr:',
         'Grekisk flagga'
     ],
     '🇬🇸': [
         'Flagga Sydgeorgien & Sydsandwichöarna',
-        'GS'
+        ':gs:'
     ],
     '🇬🇹': [
         'Guatemalas flagga',
-        'GT',
+        ':gt:',
         'Guatemalan Flag'
     ],
     '🇬🇺': [
         'Flagga Guam',
-        'GU',
+        ':gu:',
         'Guamaniansk flagga',
         'Chamorro flagga'
     ],
     '🇬🇼': [
         'Guinea-Bissau flagga',
-        'GW',
+        ':gw:',
         'Guinea-Bissau Flag'
     ],
     '🇬🇾': [
         'Guyana flagga',
-        'GY',
+        ':gy:',
         'Guyanesisk flagga'
     ],
     '🇭🇰': [
         'Flagga Hongkong SAR Kina',
-        'HK',
+        ':hk:',
         'Hongkong flagga'
     ],
     '🇭🇲': [
         'Heard & McDonald Islands flagga',
-        'HM',
+        ':hm:',
         'Flagga: Heard & McDonald Islands'
     ],
     '🇭🇳': [
         'Honduras flagga',
-        'HN',
+        ':hn:',
         'Honduras flagga'
     ],
     '🇭🇷': [
         'Kroatien flagga',
-        'HR',
+        ':hr:',
         'Kroatiens flagga'
     ],
     '🇭🇹': [
         'Haiti flagga',
-        'HT',
+        ':ht:',
         'Haitian Flag'
     ],
     '🇭🇺': [
         'Ungerns flagga',
-        'HU',
+        ':hu:',
         'Ungersk flagga'
     ],
     '🇮🇨': [
         'Flagga på Kanarieöarna',
-        'IC'
+        ':ic:'
     ],
     '🇮🇩': [
         'Indonesiens flagga',
-        'ID',
+        ':id:',
         'Indonesisk flagga'
     ],
     '🇮🇪': [
         'Irlands flagga',
-        'IE',
+        ':ie:',
         'Irländsk flagga'
     ],
     '🇮🇱': [
         'Israels flagga',
-        'IL',
+        ':il:',
         'Israelisk flagga'
     ],
     '🇮🇲': [
         'Flagga Isle of Man',
-        'IM',
+        ':im:',
         'Manx Flag'
     ],
     '🇮🇳': [
         'Indiens flagga',
-        'I',
+        ':in:',
         'Indisk flagga'
     ],
     '🇮🇴': [
         'Flagga Brittiska territoriet i Indiska oceanen',
-        'IO',
+        ':io:',
         'Brittiska territoriet i Indiska oceanen flagga'
     ],
     '🇮🇶': [
         'Iraks flagga',
-        'IQ',
+        ':iq:',
         'Iraqi Flag'
     ],
     '🇮🇷': [
         'Irans flagga',
-        'IR',
+        ':ir:',
         'Iransk flagga'
     ],
     '🇮🇸': [
         'Islands flagga',
-        'ÄR',
+        ':is:',
         'Isländsk flagga'
     ],
     '🇮🇹': [
         'Italiens flagga',
-        'DET',
+        ':it:',
         'Italiensk flagga'
     ],
     '🇯🇪': [
         'Flagga av Jersey',
-        'JE',
+        ':je:',
         'Tröjans flagga'
     ],
     '🇯🇲': [
         'Jamaicas flagga',
-        'JM',
+        ':jm:',
         'Jamaicansk flagga'
     ],
     '🇯🇴': [
         'Jordaniens flagga',
-        'JO',
+        ':jo:',
         'Jordansk flagga'
     ],
     '🇯🇵': [
         'Japans flagga',
-        'JP',
+        ':jp:',
         'Japansk flagga'
     ],
     '🇰🇪': [
         'Kenyas flagga',
-        'KE',
+        ':ke:',
         'Kenyansk flagga'
     ],
     '🇰🇬': [
         'Flagga i Kirgizistan',
-        'KG',
+        ':kg:',
         'Kyrgyzstani Flag'
     ],
     '🇰🇭': [
         'Kambodjas flagga',
-        'KH',
+        ':kh:',
         'Kambodjas flagga'
     ],
     '🇰🇮': [
         'Flagga av Kiribati',
-        'KI',
+        ':ki:',
         'I-Kiribati flagga'
     ],
     '🇰🇲': [
         'Flagga Komorerna',
-        'KM',
+        ':km:',
         'Komorernas flagga'
     ],
     '🇰🇳': [
         'Saint Kitts & Nevis flagga',
-        'KN'
+        ':kn:'
     ],
     '🇰🇵': [
         'Nordkoreas flagga',
-        'KP',
+        ':kp:',
         'Nordkoreansk flagga'
     ],
     '🇰🇷': [
         'Sydkoreas flagga',
-        'KR',
+        ':kr:',
         'Sydkoreansk flagga'
     ],
     '🇰🇼': [
         'Kuwaits flagga',
-        'KW',
+        ':kw:',
         'Kuwaiti Flag'
     ],
     '🇰🇾': [
         'Flagga Caymanöarna',
-        'KY',
+        ':ky:',
         'Caymansk flagga'
     ],
     '🇰🇿': [
         'Kazakstan flagga',
-        'KZ',
+        ':kz:',
         'Kazakhstani Flag',
         'Kazakh Flag'
     ],
     '🇱🇦': [
         'Laos flagga',
-        'LA',
+        ':la:',
         'Laotisk flagga',
         'Lao flagga'
     ],
     '🇱🇧': [
         'Libanons flagga',
-        'LB',
+        ':lb:',
         'Libanesisk flagga'
     ],
     '🇱🇨': [
         'Saint Lucia flagga',
-        'LC'
+        ':lc:'
     ],
     '🇱🇮': [
         'Liechtensteins flagga',
-        'LI',
+        ':lt:',
         'Liechtensteiner flagga'
     ],
     '🇱🇰': [
         'Sri Lankas flagga',
-        'LK',
+        ':lk:',
         'Sri Lankas flagga'
     ],
     '🇱🇷': [
         'Liberias flagga',
-        'LR',
+        ':lr:',
         'Liberias flagga'
     ],
     '🇱🇸': [
         'Flag of Lesotho',
-        'LS',
+        ':ls:',
         'Basotho Flag'
     ],
     '🇱🇹': [
         'Litauens flagga',
-        'LT',
+        ':lt:',
         'Litauisk flagga'
     ],
     '🇱🇺': [
         'Luxemburg flagga',
-        'LU',
+        ':lu:',
         'Luxemburgs flagga'
     ],
     '🇱🇻': [
         'Lettlands flagga',
-        'LV',
+        ':lv:',
         'Lettiska flagga'
     ],
     '🇱🇾': [
         'Libyens flagga',
-        'LÖG',
+        ':ly:',
         'Libyens flagga'
     ],
     '🇲🇦': [
         'Flagga Marocko',
-        'MA',
+        ':ma:',
         'Marockansk flagga'
     ],
     '🇲🇨': [
         'Flagga Monaco',
-        'MC',
+        ':mc:',
         'Flagga Mone<unk> gasque'
     ],
     '🇲🇩': [
         'Moldaviens flagga',
-        'MD',
+        ':md:',
         'Moldavisk flagga'
     ],
     '🇲🇪': [
         'Montenegros flagga',
-        'MIG',
+        ':me:',
         'Montenegrins flagga'
     ],
     '🇲🇫': [
         'Saint Martins flagga',
-        'MF',
+        ':mf:',
         'Flag: St. Martin'
     ],
     '🇲🇬': [
         'Madagaskars flagga',
-        'MG',
+        ':mg:',
         'Madagascan Flag'
     ],
     '🇲🇭': [
         'Flagga på Marshallöarna',
-        'MH',
+        ':mh:',
         'Marshallesisk flagga'
     ],
     '🇲🇰': [
         'Makedoniens flagga',
-        'MK',
+        ':mk:',
         'Makedonsk flagga'
     ],
     '🇲🇱': [
         'Malis flagga',
-        'ML',
+        ':ml:',
         'Maliansk flagga'
     ],
     '🇲🇲': [
         'Flagga i Myanmar (Burma)',
-        'MM',
+        ':mm:',
         'Myanmaresisk flagga',
         'Flagga för Burma',
         'Burmas flagga'
     ],
     '🇲🇳': [
         'Mongoliets flagga',
-        'MN',
+        ':mn:',
         'Mongolisk flagga'
     ],
     '🇲🇴': [
         'Macau Sar Kinas flagga',
-        'MO',
+        ':mo:',
         'Macanesisk flagga'
     ],
     '🇲🇵': [
         'Flagga på Nordmarianerna',
-        'MT',
+        ':mp:',
         'Mikronesisk flagga'
     ],
     '🇲🇶': [
         'Flagga av Martinique',
-        'MQ',
+        ':mq:',
         'Orm flagga av Martinique',
         'Martiniquais flagga'
     ],
     '🇲🇷': [
         'Mauretaniens flagga',
-        'MR',
+        ':mr:',
         'Mauretaniens flagga'
     ],
     '🇲🇸': [
         'Flag of Montserrat',
-        'MS',
+        ':ms:',
         'Montserratian Flag'
     ],
     '🇲🇹': [
         'Maltas flagga',
-        'MT',
+        ':mt:',
         'Maltese Flag'
     ],
     '🇲🇺': [
         'Flag of Mauritius',
-        'MU',
+        ':mu:',
         'Mauritisk flagga'
     ],
     '🇲🇻': [
         'Flagga av Maldiverna',
-        'MV',
+        ':mv:',
         'Maldivisk flagga'
     ],
     '🇲🇼': [
         'Malawis flagga',
-        'MW',
+        ':mw:',
         'Malawian Flag'
     ],
     '🇲🇽': [
         'Mexikos flagga',
-        'MX',
+        ':mx:',
         'Mexikansk flagga'
     ],
     '🇲🇾': [
         'Flagga i Malaysia',
-        'MIN',
+        ':my:',
         'Malaysian Flag'
     ],
     '🇲🇿': [
         'Moçambiques flagga',
-        'MZ',
+        ':mz:',
         'Moçambique flagga'
     ],
     '🇳🇦': [
         'Namibias flagga',
-        'NO',
+        ':na:',
         'Namibian Flag'
     ],
     '🇳🇨': [
         'Nya Kaledoniens flagga',
-        'NC',
+        ':nc:',
         'Ny Kaledonisk flagga'
     ],
     '🇳🇪': [
         'Nigers flagga',
-        'NO',
+        ':ne:',
         'Nigeriens flagga'
     ],
     '🇳🇫': [
         'Flagga på Norfolk Island',
-        'NF',
+        ':nf:',
         'Norfolk Island flagga'
     ],
     '🇳🇬': [
         'Nigerias flagga',
-        'NG',
+        ':ng:',
         'Nigeriansk flagga'
     ],
     '🇳🇮': [
         'Flag of Nicaragua',
-        'NI',
+        ':ni:',
         'Nicaraguan Flag'
     ],
     '🇳🇱': [
         'Nederländernas flagga',
-        'NL',
+        ':nl:',
         'Nederländsk flagga',
         'Holland'
     ],
     '🇳🇴': [
         'Norges flagga',
-        'NEJ',
+        ':no:',
         'Norska flaggan'
     ],
     '🇳🇵': [
         'Nepals flagga',
-        'NP',
+        ':np:',
         'Nepalesisk flagga'
     ],
     '🇳🇷': [
         'Flagga av Nauru',
-        'NR',
+        ':nr:',
         'Nauruan Flag'
     ],
     '🇳🇺': [
         'Flagga av Niue',
-        'NU',
+        ':nu:',
         'Niuean Flag'
     ],
     '🇳🇿': [
         'Nya Zeelands flagga',
-        'NZ',
+        ':nz:',
         'Kiwi flagga'
     ],
     '🇴🇲': [
         'Omans flagga',
-        'OM',
+        ':om:',
         'Omani flagga'
     ],
     '🇵🇦': [
         'Panamas flagga',
-        'PÅ',
+        ':pa:',
         'Panamas flagga'
     ],
     '🇵🇪': [
         'Flagga i Peru',
-        'PE',
+        ':pe:',
         'Peruansk flagga'
     ],
     '🇵🇫': [
         'Flagga Franska Polynesien',
-        'PF',
+        ':pf:',
         'Franska polynesiska flaggan'
     ],
     '🇵🇬': [
         'Papua Nya Guineas flagga',
-        'PG',
+        ':pg:',
         'PNG flagga',
         'Papua New Guinean Flag'
     ],
     '🇵🇭': [
         'Filippinernas flagga',
-        'PH'
+        ':ph:'
     ],
     '🇵🇰': [
         'Pakistans flagga',
-        'PK',
+        ':pk:',
         'Pakistansk flagga'
     ],
     '🇵🇱': [
         'Polens flagga',
-        'PL',
+        ':pl:',
         'Polsk flagga'
     ],
     '🇵🇲': [
         'Saint Pierre & Miquelon flagga',
-        'PM'
+        ':pm:'
     ],
     '🇵🇳': [
         'Flagga av Pitcairn',
-        'PN'
+        ':pn:'
     ],
     '🇵🇷': [
         'Flagga i Puerto Rico',
-        'PR',
+        ':pr:',
         'Puerto Ricans flagga'
     ],
     '🇵🇸': [
         'De palestinska territoriernas flagga',
-        'PS',
+        ':ps:',
         'Palestine'
     ],
     '🇵🇹': [
         'Portugals flagga',
-        'PT',
+        ':pt:',
         'Portugisisk flagga'
     ],
     '🇵🇼': [
         'Palau flagga',
-        'PW',
+        ':pw:',
         'Palauansk flagga'
     ],
     '🇵🇾': [
         'Paraguays flagga',
-        'PY',
+        ':py:',
         'Paraguayan Flag'
     ],
     '🇶🇦': [
         'Flagga av Qatar',
-        'QA',
+        ':qa:',
         'Qatari flagga'
     ],
     '🇷🇪': [
         'Återföreningens flagga',
-        'RE',
+        ':re:',
         'Fackföreningens flagga'
     ],
     '🇷🇴': [
         'Rumäniens flagga',
-        'RO',
+        ':ro:',
         'Rumänsk flagga'
     ],
     '🇷🇸': [
         'Serbiens flagga',
-        'RS',
+        ':rs:',
         'Serbisk flagga'
     ],
     '🇷🇺': [
         'Rysslands flagga',
-        'RU',
+        ':ru:',
         'Rysk flagga'
     ],
     '🇷🇼': [
         'Flag of Rwanda',
-        'RW',
+        ':rw:',
         'Rwandan Flag'
     ],
     '🇸🇦': [
         'Saudiarabiens flagga',
-        'SA',
+        ':sa:',
         'Saudiarabiens flagga'
     ],
     '🇸🇧': [
         'Salomonöarnas flagga',
-        'SB',
+        ':sb:',
         'Solomon Islander Flagga'
     ],
     '🇸🇨': [
         'Flagga Seychellerna',
-        'SC',
+        ':sc:',
         'Seychellois Flag'
     ],
     '🇸🇩': [
         'Sudans flagga',
-        'SD',
+        ':sd:',
         'Sudanese Flag'
     ],
     '🇸🇪': [
         'Sveriges flagga',
-        'SO',
+        ':se:',
         'Svensk flagga'
     ],
     '🇸🇬': [
         'Singapores flagga',
-        'SG',
+        ':sg:',
         'Singaporeansk flagga'
     ],
     '🇸🇭': [
         'Saint Helena flagga',
-        'SH'
+        ':sh:'
     ],
     '🇸🇮': [
         'Sloveniens flagga',
-        'SI',
+        ':si:',
         'Slovenska flaggan'
     ],
     '🇸🇯': [
         'Flagga Svalbard & Jan Mayen',
-        'SJ'
+        ':sj:'
     ],
     '🇸🇰': [
         'Slovakiens flagga',
-        'SK',
+        ':sk:',
         'Slovakiska Flagga',
         'Slovakian Flag'
     ],
     '🇸🇱': [
         'Flagga Sierra Leone',
-        'SL',
+        ':sl:',
         'Sierra Leonean Flag'
     ],
     '🇸🇲': [
         'San Marinos flagga',
-        'SM',
+        ':sm:',
         'Sammarinesisk flagga'
     ],
     '🇸🇳': [
         'Flagga av Senegal',
-        'SN',
+        ':sn:',
         'Sengalesisk flagga'
     ],
     '🇸🇴': [
         'Somalias flagga',
-        'SÅ',
+        ':so:',
         'Somalian Flag'
     ],
     '🇸🇷': [
         'Surinames flagga',
-        'SR',
+        ':sr:',
         'Surinamer flagga'
     ],
     '🇸🇸': [
         'Flagga i Sydsudan',
-        'SS',
+        ':ss:',
         'Sydsudanesisk flagga'
     ],
     '🇸🇹': [
         'Flagga Sa<unk> o Tome<unk> & Pri<unk> ncipe',
-        'ST'
+        ':st:'
     ],
     '🇸🇻': [
         'El Salvadors flagga',
-        'EN',
+        ':sv:',
         'El Salvadoras flagga'
     ],
     '🇸🇽': [
         'Flagga av Sint Maarten',
-        'SX'
+        ':sx:'
     ],
     '🇸🇾': [
         'Syriens flagga',
-        'SY',
+        ':sy:',
         'Syrisk flagga'
     ],
     '🇸🇿': [
         'Flagga av Swaziland',
-        'SZ',
+        ':sz:',
         'Eswatini flagga'
     ],
     '🇹🇦': [
         'Flag of Tristan Da Cunha',
-        'TA'
+        ':ta:'
     ],
     '🇹🇨': [
         'Flagga av turkar & Caicos öarna',
-        'TC'
+        ':tc:'
     ],
     '🇹🇩': [
         'Flagga Tchad',
-        'TD',
+        ':td:',
         'Tchadisk flagga'
     ],
     '🇹🇫': [
         'Flagga franska sydliga territorier',
-        'TF',
+        ':tf:',
         'Franska sydliga länderna flagga'
     ],
     '🇹🇬': [
         'Togos flagga',
-        'TG',
+        ':tg:',
         'Togolese Flag'
     ],
     '🇹🇭': [
         'Thailands flagga',
-        'TH',
+        ':th:',
         'Thailändsk flagga'
     ],
     '🇹🇯': [
         'Tadzjikistan flagga',
-        'TJ',
+        ':tj:',
         'Tadzjiks flagga'
     ],
     '🇹🇰': [
         'Flagga Tokelau',
-        'TK',
+        ':tk:',
         'Tokelauisk flagga'
     ],
     '🇹🇱': [
         'Flagga av Östtimor',
-        'TL',
+        ':tl:',
         'Östtimors flagga',
         'Östtimors flagga'
     ],
     '🇹🇲': [
         'Turkmenistans flagga',
-        'TM',
+        ':tm:',
         'Turkmen Flag'
     ],
     '🇹🇳': [
         'Flagga Tunisien',
-        'TN',
+        ':tn:',
         'Tunisisk flagga'
     ],
     '🇹🇴': [
         'Tonga flagga',
-        'TILL',
+        ':to:',
         'Tongan Flag'
     ],
     '🇹🇷': [
         'Turkiets flagga',
-        'TR',
+        ':tr:',
         'Turkisk flagga'
     ],
     '🇹🇹': [
         'Trinidad & Tobago flagga',
-        'BT'
+        ':tt:'
     ],
     '🇹🇻': [
         'Tuvalu flagga',
-        'TV',
+        ':tv:',
         'Tuvaluans flagga'
     ],
     '🇹🇼': [
         'Taiwan flagga',
-        'TW',
+        ':tw:',
         'Taiwanesisk flagga'
     ],
     '🇹🇿': [
         'Tanzanias flagga',
-        'TZ',
+        ':tz:',
         'Tanzanian Flag'
     ],
     '🇺🇦': [
         'Ukrainas flagga',
-        'UA',
+        ':ua:',
         'Ukrainska flaggan'
     ],
     '🇺🇬': [
         'Ugandas flagga',
-        'UG',
+        ':ug:',
         'Ugandas flagga'
     ],
     '🇺🇲': [
         'Flagga: USA: s yttre öar',
-        'UM'
+        ':um:'
     ],
     '🇺🇸': [
         'Flagga i USA',
-        'USA',
+        ':us:',
         'Amerikansk flagga',
         'USA flagga'
     ],
     '🇺🇾': [
         'Flag of Uruguay',
-        'UY',
+        ':uy:',
         'Uruguayan Flag'
     ],
     '🇺🇿': [
         'Flag of Uzbekistan',
-        'UZ',
+        ':uz:',
         'Uzbekistani Flag',
         'Uzbek Flag'
     ],
     '🇻🇦': [
         'Heliga stolens flagga',
-        'VA',
+        ':va:',
         'Vanticanien flagga'
     ],
     '🇻🇨': [
         'Saint Vincent & Grenadinernas flagga',
-        'VC'
+        ':vc:'
     ],
     '🇻🇪': [
         'Venezuelas flagga',
-        'VE',
+        ':ve:',
         'Venezuelas flagga'
     ],
     '🇻🇬': [
         'Brittiska Jungfruöarnas flagga',
-        'VG',
+        ':vg:',
         'Brittiska Jungfrun Islander flagga'
     ],
     '🇻🇮': [
         'Flagga av Amerikanska Jungfruöarna',
-        'VI',
+        ':vi:',
         'Amerikanska Jungfrun Islander Flagga'
     ],
     '🇻🇳': [
         'Vietnams flagga',
-        'VN',
+        ':vn:',
         'Vietnamesisk flagga'
     ],
     '🇻🇺': [
         'Flag of Vanuatu',
-        'VU',
+        ':vu:',
         'Ni-Vanuatu Flag'
     ],
     '🇼🇫': [
         'Flagga av Wallis & Futuna',
-        'WF'
+        ':wf:'
     ],
     '🇼🇸': [
         'Flagga Samoa',
-        'WS',
+        ':ws:',
         'Samoan Flag'
     ],
     '🇽🇰': [
         'Kosovos flagga',
-        'XK',
+        ':xk:',
         'Kosovar Flag'
     ],
     '🇾🇪': [
         'Jemens flagga',
-        'YE',
+        ':ye:',
         'Jemens flagga'
     ],
     '🇾🇹': [
         'Flagga av Mayotte',
-        'YT',
+        ':yt:',
         'Mayotte flagga'
     ],
     '🇿🇦': [
         'Sydafrikas flagga',
-        'ZA',
+        ':za:',
         'Sydafrikansk flagga'
     ],
     '🇿🇲': [
         'Zambias flagga',
-        'ZM',
+        ':zm:',
         'Zambian Flag'
     ],
     '🇿🇼': [
         'Zimbabwes flagga',
-        'ZW',
+        ':zw:',
         'Zimbabwes flagga',
         'Zim flagga'
     ]
@@ -5128,222 +7272,456 @@ emojis_language[lang][7] = {
 /*sports*/
 emojis_language[lang][8] = {
     '🧗{{skin_tone}}‍♂️': [
-        'Man Climbing',
-        'Male Rock Climber',
-        'Man Climber'
+        'Man klättrar',
+        ':man_climbing:',
+        ':climbing:',
+        'Manlig Bergsklättrare',
+        'Man klättrare',
+        ':man:'
     ],
     '🧗{{skin_tone}}‍♀️': [
-        'Woman Climbing',
-        'Female Rock Climber',
-        'Woman Climber'
+        'Klättring av kvinna',
+        ':woman_climbing:',
+        ':climbing:',
+        'Kvinnlig bergsklättrare',
+        'Kvinna Klättrare',
+        ':woman:'
     ],
     '🧗{{skin_tone}}': [
-        'Person Climbing',
-        'Person Rock Climber',
-        'Person Climber'
+        'Person Klättring',
+        ':person_climbing:',
+        ':climbing:',
+        'Person bergsklättrare',
+        'Person klättrare',
+        ':person:'
     ],
     '🏇{{skin_tone}}': [
-        'Horse Racing',
-        'Horse Race',
+        'Häst Racing',
+        ':horse_racing:',
+        'Häst Lopp',
         'Jockey'
     ],
-    '⛷{{skin_tone}}‍️': ['Skidåkare'],
-    '🏂{{skin_tone}}‍': ['Snowboarder'],
-    '🏌️{{skin_tone}}‍♂️': ['Man Golfer'],
-    '🏌️{{skin_tone}}‍♀️': ['Kvinna Golfare'],
-    '🏌️{{skin_tone}}': ['Person Golfer'],
-    '🏄{{skin_tone}}‍♂️': ['Man Surfer'],
-    '🏄{{skin_tone}}‍♀️': ['Kvinna Surfer'],
-    '🏄{{skin_tone}}': ['Person Surfer'],
-    '🚣{{skin_tone}}‍♂️': ['Man Rowing Boat'],
-    '🚣{{skin_tone}}‍♀️': ['Woman Rowing Boat'],
-    '🚣{{skin_tone}}': ['Person Rowing Boat'],
+    '⛷{{skin_tone}}‍️': [
+        'Skidåkare',
+        ':skier:'
+    ],
+    '🏂{{skin_tone}}‍': [
+        'Snowboarder',
+        ':snowboarder:'
+    ],
+    '🏌️{{skin_tone}}‍♂️': [
+        'Man Golfer',
+        ':man_golfer:',
+        ':golfer:',
+        ':man:'
+    ],
+    '🏌️{{skin_tone}}‍♀️': [
+        'Kvinna Golfare',
+        ':woman_golfer:',
+        ':golfer:',
+        ':woman:'
+    ],
+    '🏌️{{skin_tone}}': [
+        'Person Golfare',
+        ':person_golfer:',
+        ':golfer:',
+        ':person:'
+    ],
+    '🏄{{skin_tone}}‍♂️': [
+        'Man Surfer',
+        ':man_surfer:',
+        ':surfer:',
+        ':man:'
+    ],
+    '🏄{{skin_tone}}‍♀️': [
+        'Kvinna Surfer',
+        ':woman_surfer:',
+        ':surfer:',
+        ':woman:'
+    ],
+    '🏄{{skin_tone}}': [
+        'Person Surfer',
+        ':person_surfer:',
+        ':surfer:',
+        ':person:'
+    ],
+    '🚣{{skin_tone}}‍♂️': [
+        'Man Rodd Båt',
+        ':man_rowing_boat:',
+        ':rowing_boat:',
+        ':man:'
+    ],
+    '🚣{{skin_tone}}‍♀️': [
+        'Kvinna Rodd Båt',
+        ':woman_rowing_boat:',
+        ':rowing_boat:',
+        ':woman:'
+    ],
+    '🚣{{skin_tone}}': [
+        'Person Rodd Båt',
+        ':person_rowing_boat:',
+        ':rowing_boat:',
+        ':person:'
+    ],
     '🏊{{skin_tone}}‍♂️': [
-        'Man Swimming',
-        'Man Swimmer'
+        'Man simmar',
+        ':man_swimming:',
+        ':swimming:',
+        'Man simmare',
+        ':man:'
     ],
     '🏊{{skin_tone}}‍♀️': [
-        'Woman Swimming',
-        'Woman Swimmer'
+        'Kvinna simning',
+        ':woman_swimming:',
+        ':swimming:',
+        'Kvinna simmare',
+        ':woman:'
     ],
     '🏊{{skin_tone}}': [
-        'Woman Swimming',
-        'Person Swimmer'
+        'Person simning',
+        ':person_swimming:',
+        ':swimming:',
+        'Person simmare',
+        ':person:'
     ],
     '⛹{{skin_tone}}‍️‍♂️': [
         'Man studsar boll',
-        'Man Basket Player'
+        ':man_bouncing_ball:',
+        ':bouncing_ball:',
+        'Man Basket Player',
+        ':man:'
     ],
     '⛹️{{skin_tone}}‍♀️': [
         'Kvinna studsar boll',
-        'Kvinna Basket Spelare'
+        ':woman_bouncing_ball:',
+        ':boucing_ball:',
+        'Kvinna Basket Spelare',
+        ':woman:'
     ],
     '⛹️{{skin_tone}}': [
-        'Person Bouncing Ball',
-        'Person Basketball Player'
+        'Person studsar boll',
+        ':person_bouncing_ball:',
+        ':boucing_ball:',
+        'Person Basket Spelare',
+        ':person:'
     ],
     '🏋️{{skin_tone}}‍♂️': [
         'Man lyfta vikter',
-        'Man tyngdlyftare'
+        ':man_lifting_weights:',
+        ':lifting_weights:',
+        'Man tyngdlyftare',
+        ':man:'
     ],
     '🏋️{{skin_tone}}‍♀️': [
         'Kvinnliga lyftvikter',
-        'Kvinna Styrkelyftare'
+        ':woman_lifting_weights:',
+        ':lifting_weights:',
+        'Kvinna Styrkelyftare',
+        ':woman:'
     ],
     '🏋️{{skin_tone}}': [
-        'Person Lifting Weights',
-        'Person Weightlifter'
+        'Personlyft Vikter',
+        ':person_lifting_weights:',
+        ':lifting_weights:',
+        'Person Styrkelyft',
+        ':person:'
     ],
     '🚴{{skin_tone}}‍♂️': [
         'Man Cykling',
+        ':man_biking:',
+        ':biking:',
         'Man Cyklist',
-        'Manlig Cyklist'
+        'Manlig Cyklist',
+        ':man:'
     ],
     '🚴{{skin_tone}}‍♀️': [
         'Kvinna Cykling',
+        ':woman_biking:',
+        ':biking:',
         'Kvinna Cyklist',
-        'Kvinnlig Cyklist'
+        'Kvinnlig Cyklist',
+        ':woman:'
     ],
     '🚴{{skin_tone}}': [
-        'Person Biking',
-        'Person Cyclist',
-        'Person Cyclist'
+        'Person Cykling',
+        ':person_biking:',
+        ':biking:',
+        'Person Cyklist',
+        'Person Cyklist',
+        ':person:'
     ],
     '🚵{{skin_tone}}‍♂️': [
         'Man Mountainbike',
-        'Man Mountain Biker'
+        ':man_mountain_bike:',
+        ':mountain_bike:',
+        'Man Mountain Biker',
+        ':man:'
     ],
     '🚵{{skin_tone}}‍♀️': [
         'Kvinnlig mountainbike',
-        'Kvinna Mountain Biker'
+        ':woman_mountain_bike:',
+        ':mountain_bike:',
+        'Kvinna Mountain Biker',
+        ':woman:'
     ],
     '🚵{{skin_tone}}': [
-        'Person Mountain Biking',
-        'Person Mountain Biker'
+        'Person Mountainbike',
+        ':person_mountain_bike:',
+        ':mountain_bike:',
+        'Person Mountain Biker',
+        ':person:'
     ],
     '🤸{{skin_tone}}‍♂️': [
         'Mannen kartrullning',
-        'Man gör Cartwheel'
+        ':man_cartwheeling:',
+        ':cartwheeling:',
+        'Man gör Cartwheel',
+        ':man:'
     ],
     '🤸{{skin_tone}}‍♀️': [
         'Kvinnlig kartrullning',
-        'Kvinna gör Cartwheel'
+        ':woman_cartwheeling:',
+        ':cartwheeling:',
+        'Kvinna gör Cartwheel',
+        ':woman:'
     ],
     '🤸{{skin_tone}}': [
-        'Person Cartwheeling',
-        'Person Doing Cartwheel'
+        'Person kartrullning',
+        ':person_cartwheeling:',
+        ':cartwheeling:',
+        'Person gör Cartwheel',
+        ':person:'
     ],
     '🤼‍♂️': [
-        'Men Wrestling',
-        'Wrestling',
-        'Wrestlers'
+        'Män brottning',
+        ':men_wrestling:',
+        ':wrestling:',
+        'Brottning',
+        'Brottare',
+        ':man:'
     ],
     '🤼‍♀️': [
-        'Women Wrestling',
-        'Wrestling',
-        'Wrestlers'
+        'Kvinnor brottning',
+        ':women_wrestling:',
+        ':wrestling:',
+        'Brottning',
+        'Brottare',
+        ':woman:'
     ],
     '🤼': [
         'Folk brottas',
+        ':people_wrestling:',
+        ':wrestling:',
         'Brottning',
-        'Brottare'
+        'Brottare',
+        ':person:'
     ],
-    '🤽{{skin_tone}}‍♂️': ['Man spelar vatten Polo'],
-    '🤽{{skin_tone}}‍♀️': ['Kvinna spelar vatten Polo'],
-    '🤽{{skin_tone}}': ['Person Playing Water Polo'],
-    '🤾{{skin_tone}}‍♂️': ['Man spelar handboll'],
-    '🤾{{skin_tone}}‍♀️': ['Kvinna som spelar handboll'],
-    '🤾{{skin_tone}}': ['Person Playing Handball'],
+    '🤽{{skin_tone}}‍♂️': [
+        'Man spelar vatten Polo',
+        ':man_playing_water_polo:',
+        ':playing_water_polo:',
+        ':man:'
+    ],
+    '🤽{{skin_tone}}‍♀️': [
+        'Kvinna spelar vatten Polo',
+        ':woman_playing_water_polo:',
+        ':playing_water_polo:',
+        ':woman:'
+    ],
+    '🤽{{skin_tone}}': [
+        'Person spelar vatten Polo',
+        ':person_playing_water_polo:',
+        ':playing_water_polo:',
+        ':person:'
+    ],
+    '🤾{{skin_tone}}‍♂️': [
+        'Man spelar handboll',
+        ':man_playing_handball:',
+        ':playing_handball:',
+        ':man:'
+    ],
+    '🤾{{skin_tone}}‍♀️': [
+        'Kvinna som spelar handboll',
+        ':woman_playing_handball:',
+        ':playing_handball:',
+        ':woman:'
+    ],
+    '🤾{{skin_tone}}': [
+        'Person spelar handboll',
+        ':person_playing_handball:',
+        ':playing_handball:',
+        ':person:'
+    ],
     '🤹{{skin_tone}}‍♂️': [
         'Man Jonglera',
-        'Manlig Jugglare'
+        ':man_juggling:',
+        ':juggling:',
+        'Manlig Jugglare',
+        ':man:'
     ],
     '🤹{{skin_tone}}‍♀️': [
         'Kvinna Jonglerar',
-        'Kvinnlig Jugglare'
+        ':woman_juggling:',
+        ':juggling:',
+        'Kvinnlig Jugglare',
+        ':woman:'
     ],
     '🤹{{skin_tone}}': [
-        'Person Juggling',
-        'Person Juggler'
+        'Person Jonglering',
+        ':person_juggling:',
+        ':juggling:',
+        'Person Jongler',
+        ':person:'
     ],
     '🧘{{skin_tone}}‍♂️': [
         'Man i Lotus position',
+        ':man_lotus_position:',
+        ':lotus_position:',
         'Meditation',
         'Zen',
         'Korsben',
-        'Yoga'
+        'Yoga',
+        ':man:'
     ],
     '🧘{{skin_tone}}‍♀️': [
         'Kvinna i Lotus position',
+        ':woman_lotus_position:',
+        ':lotus_position:',
         'Meditation',
         'Zen',
         'Korsben',
-        'Yoga'
+        'Yoga',
+        ':woman:'
     ],
     '🧘{{skin_tone}}': [
-        'Person in Lotus Position',
+        'Person i Lotus position',
+        ':person_lotus:_position',
+        ':lotus_position:',
         'Meditation',
         'Zen',
-        'Cross legged',
-        'Yoga'
+        'Korsben',
+        'Yoga',
+        ':person:'
     ],
-    '🏃{{skin_tone}}‍♂️': ['Mannen springer'],
-    '🏃{{skin_tone}}‍♀️': ['Kvinna springer'],
-    '🏃{{skin_tone}}': ['Person Running'],
-    '🕺{{skin_tone}}': ['Man Dancing'],
-    '💃{{skin_tone}}': ['Woman Dancing'],
+    '🏃{{skin_tone}}‍♂️': [
+        'Mannen springer',
+        ':man_running:',
+        ':running:',
+        ':man:'
+    ],
+    '🏃{{skin_tone}}‍♀️': [
+        'Kvinna springer',
+        ':woman_running:',
+        ':running:',
+        ':woman:'
+    ],
+    '🏃{{skin_tone}}': [
+        'Person kör',
+        ':person_running:',
+        ':running:',
+        ':person:'
+    ],
+    '🕺{{skin_tone}}': [
+        'Man dansar',
+        ':man_dancing:',
+        ':dancing:',
+        ':man:'
+    ],
+    '💃{{skin_tone}}': [
+        'Kvinna dansar',
+        ':woman_dancing:',
+        ':dancing:',
+        ':woman:'
+    ],
     '🤺': [
         'Person Fäktning',
-        'Fansare'
+        ':person_fencing:',
+        'Fansare',
+        ':fencing:'
     ],
     '🏆': [
         'Trofé',
+        ':trophy:',
         'Mästerskap',
-        'Vinnare'
+        'Vinnare',
+        ':gold:',
+        ':yellow:'
     ],
-    '🏅': ['Sport medalj'],
+    '🏅': [
+        'Sport medalj',
+        ':sports_medal:',
+        ':medal:',
+        ':gold:',
+        ':yellow:'
+    ],
     '🥇': [
         '1:a plats medalj',
+        ':first_place_medal:',
+        ':gold_medal:',
         'Första plats medalj',
-        'Guldmedalj'
+        'Guldmedalj',
+        ':yellow:',
+        ':gold:'
     ],
     '🥈': [
         '2:a plats medalj',
+        ':second_place_medal:',
+        ':silver_medal:',
         'Andra plats medalj',
-        'Silvermedalj'
+        'Silvermedalj',
+        ':gray:',
+        ':grey:',
+        ':silver:'
     ],
     '🥉': [
         '3:e plats medalj',
+        ':third_place_medal:',
+        ':bronze_medal:',
         'Tredje plats medalj',
-        'Brons medalj'
+        'Brons medalj',
+        ':brown:',
+        ':bronze:'
     ],
     '⚽': [
         'Fotboll',
-        'Fotboll'
+        ':football:',
+        'Fotboll',
+        ':white:',
+        ':black:'
     ],
     '⚾': [
         'Baseboll',
+        ':baseball:',
         'Softboll',
-        'Vit'
+        ':white:'
     ],
     '🥎': [
         'Softboll',
-        'Gul'
+        ':softball:',
+        ':yellow:'
     ],
     '🏀': [
         'Basket',
-        'Orange',
+        ':basketball:',
+        ':orange:',
         'Basket och Hoop'
     ],
-    '🏐': ['Volleyboll'],
+    '🏐': [
+        'Volleyboll',
+        ':volleyball:',
+        ':white:'
+    ],
     '🏈': [
         'Amerikansk fotboll',
+        ':american_football:',
         'Fotboll',
         'Gridiron',
-        'Superskål'
+        'Superskål',
+        ':brown:'
     ],
     '🏉': [
         'Fotboll i rugby',
+        ':rugby:',
         'Fotboll',
         'Liga',
         'Rugby',
@@ -5351,111 +7729,159 @@ emojis_language[lang][8] = {
     ],
     '🎾': [
         'Tennis',
+        ':tennis:',
+        ':ball:',
         'Bollen',
         'Racket',
-        'Reglering'
+        'Reglering',
+        ':yellow:'
     ],
     '🥏': [
         'Flygande disk',
+        ':flying_disk:',
         'Frisbee'
     ],
     '🎳': [
         'Bowling',
+        ':bowling:',
         'Nålar',
         'Käglor',
         'Tio Pin Bowling'
     ],
     '🏏': [
         'Cricket',
+        ':cricket:',
         'Fladdermus',
         'Bollen'
     ],
     '🏑': [
         'Landhockey',
+        ':field_hockey:',
         'Bollen',
         'Klistra'
     ],
     '🏒': [
         'Ishockey',
+        ':ice_hockey:',
         'Bollen',
         'Klistra'
     ],
     '🥍': [
         'Lacrosse',
+        ':lacrosse:',
         'Bollen',
-        'Klistra'
+        'Klistra',
+        ':red:'
     ],
     '🏓': [
         'Ping Pong',
+        ':ping_pong:',
+        ':table_tennis:',
         'Bordtennis',
         'Bollen',
         'Paddle'
     ],
     '🏸': [
         'Badminton',
+        ':badminton:',
         'Shuttleock',
         'Reglering'
     ],
-    '🥊': ['Boxningshandske'],
+    '🥊': [
+        'Boxningshandske',
+        ':boxing_glove:',
+        ':red:'
+    ],
     '🥋': [
         'Kampsport Uniform',
+        ':martial_arts_uniform:',
+        ':judo:',
+        ':karate:',
+        ':kung_fu:',
         'Jude',
         'Karate',
         'Kung fu'
     ],
     '⛳': [
         'Flagga i hål',
+        ':flag_in_hole:',
+        ':golf_flag:',
         'Golfflagga'
     ],
     '⛸️': [
         'Skridskoåkning',
+        ':ice_skate:',
         'Skridskoåkning'
     ],
     '🎣': [
         'Fiske',
+        ':fishing:',
         'Stång',
         'Fisk',
         'Fiske Rod'
     ],
     '🎽': [
         'Löpande tröja',
+        ':running_shirt:',
         'Singel',
         'Kasta'
     ],
     '🎿': [
         'Skidor',
+        ':skis:',
         'Skidåkning',
         'Boot'
     ],
-    '🛷': ['Släppt'],
-    '🥌': ['Curling Sten'],
+    '🛷': [
+        'Släppt',
+        ':sled:'
+    ],
+    '🥌': [
+        'Curling Sten',
+        ':curling_stone:'
+    ],
     '🎯': [
         'Direkt träff',
+        ':direct_hit:',
         'Bågskytte',
         'Bullseye',
         'Dart'
     ],
     '🎱': [
         'Pool 8 Ball',
+        ':pool_8_ball:',
         'Cue Ball',
         'Snooker',
-        'Biljard'
+        'Biljard',
+        ':black:'
     ],
     '🎮': [
         'Video Game Controller',
+        ':video_game_controller:',
+        ':playstation:',
+        ':xbox:',
         'Playstation',
         'Xbox',
         'Gamepad',
         'Wii U'
     ],
-    '♟️': ['Svart Schackbonde'],
+    '♟️': [
+        'Svart Schackbonde',
+        ':black_chess_pawn:',
+        ':black:'
+    ],
     '🏹': [
         'Pilbåge och pilar',
+        ':arch:',
         'Båge'
     ],
-    '🥅': ['Mål Netto'],
+    '🥅': [
+        'Mål Netto',
+        ':goal_net:'
+    ],
     '🀄': [
         'Mahjong Röd Drake',
+        ':mahjong:',
         'Mahjong',
         'Mahjong Tile',
         '中',
@@ -5463,6 +7889,7 @@ emojis_language[lang][8] = {
     ],
     '🎴': [
         'Blomma spelkort',
+        ':flower_playing_cards:',
         'Kortlek på kort',
         'Hanafuda',
         'Hwatu',
@@ -5473,259 +7900,385 @@ emojis_language[lang][8] = {
 emojis_language[lang][9] = {
     '🚂': [
         'Ånglok',
+        ':steam_train:',
         'Ånga tåg',
         'Järnvägslok'
     ],
     '🚃': [
         'Järnvägs bil',
+        ':railway_car:',
         'Järnväg',
         'Järnväg bil',
         'Järnvägstransport',
         'Järnvägsvagn'
     ],
-    '🚄': ['Hastighetståg'],
+    '🚄': [
+        'Hastighetståg',
+        ':high_speed_train:'
+    ],
     '🚅': [
         'Bullet Tåg',
+        ':bullet_train:',
         'Shinkansen',
         'Höghastighetståg med Bullet Nose'
     ],
-    '🚆': ['Tåg'],
+    '🚆': [
+        'Tåg',
+        ':train:'
+    ],
     '🚇': [
         'Underjordisk',
+        ':underground:',
         'Tub',
         'Metro',
         'Tunnelbana'
     ],
     '🚈': [
         'Lätt räls',
+        ':light_rail:',
         'Tåg'
     ],
-    '🚊': ['Spårvagn'],
+    '🚊': [
+        'Spårvagn',
+        ':tram:'
+    ],
     '🚝': [
         'Monorail',
+        ':monorail:',
         'Tåg'
     ],
     '🚞': [
         'Mountain Railway',
+        ':mountain_railway:',
         'Funicular',
         'Tåg och berg'
     ],
-    '🚋': ['Spårvagn Bil'],
+    '🚋': [
+        'Spårvagn Bil',
+        ':tram_car:'
+    ],
     '🚌': [
         'Buss',
+        ':bus:',
         'Tränare'
     ],
     '🚍': [
         'Pågående buss',
+        ':front_of_bus:',
         'Framsidan av bussen'
     ],
     '🚎': [
         'Trolleybus',
+        ':trolleybus:',
         'Elektrisk buss'
     ],
     '🚐': [
         'Minibus',
+        ':minibus:',
         'Minivan',
         'Människa-Mover'
     ],
-    '🚑': ['Ambulans'],
+    '🚑': [
+        'Ambulans',
+        ':ambulance:'
+    ],
     '🚒': [
         'Eld Motor',
+        ':fire_engine:',
         'Eld Avdelning',
         'Eld Lastbil'
     ],
     '🚓': [
         'Polis bil',
+        ':police_car:',
         'Cop bil',
         'Sida av polisbil'
     ],
     '🚔': [
         'Pågående polisbil',
+        ':front_of_police_car:',
         'Front of Police Car',
         'Cop bil'
     ],
     '🚕': [
         'Taxi',
+        ':taxi:',
         'New York Taxi',
         'Side av Taxi'
     ],
     '🚖': [
         'Taxi',
+        ':front_of_taxi:',
         'Pågående taxi',
         'Framsidan av taxin'
     ],
     '🚗': [
         'Bil',
+        ':car:',
         'Röd bil',
-        'Sida av Bil'
+        'Sida av Bil',
+        'Bil'
     ],
     '🚘': [
         'Oncoming Automobile',
+        ':front_of_car:',
         'Röd bil',
         'Framsidan av bilen'
     ],
     '🚚': [
         'Leverans lastbil',
+        ':lorry:',
         'Lastbil'
     ],
     '🚛': [
         'Ledad Lastbil',
+        ':articulated_lorry:',
         'Grön lastbil'
     ],
     '🚜': [
         'Traktor',
+        ':tractor:',
         'Gård'
     ],
-    '🛻': ['Hämtas lastbil'],
+    '🛻': [
+        'Hämtas lastbil',
+        ':pickup_truck:'
+    ],
     '🏎️': [
         'Racing Bil',
+        ':racing_car:',
         'F1',
         'Formel En',
         'Race Bil'
     ],
     '🏍️': [
         'Motorcykel',
+        ':motorbike:',
         'Motorcykel'
     ],
     '🛵': [
         'Motor scooter',
+        ':motor_scooter:',
         'Vespa',
         'Motor cykel',
         'Motor cykel'
     ],
     '🛺': [
         'Auto Rickshaw',
+        ':auto_rickshaw:',
         'Tuk Tuk'
     ],
     '🚲': [
         'Cykel',
+        ':bike:',
         'Cykel'
     ],
-    '🛴': ['Sparka Scooter'],
+    '🛴': [
+        'Sparka Scooter',
+        ':kick_scooter:'
+    ],
     '⛵': [
         'Segelbåt',
+        ':sailboat:',
         'Dinghy',
         'Segling'
     ],
     '🚤': [
         'Hastighetsbåt',
+        ':speedboat:',
         'Motorbåt',
         'Strömbåt'
     ],
-    '🛳️': ['Passagerarfartyg'],
-    '⛴️': ['Färja'],
-    '🛥️': ['Motorbåt'],
-    '🚢': ['Kryssningsfartyg'],
+    '🛳️': [
+        'Passagerarfartyg',
+        ':passenger_ship:'
+    ],
+    '⛴️': [
+        'Färja',
+        ':ferry:'
+    ],
+    '🛥️': [
+        'Motorbåt',
+        ':motor_boat:'
+    ],
+    '🚢': [
+        'Kryssningsfartyg',
+        ':cruise_ship:'
+    ],
     '✈️': [
         'Flygplan',
+        ':airplane:',
         'Aeroplane'
     ],
     '🛩️': [
         'Liten flygplan',
+        ':small_airplane:',
         'Liten flygplan'
     ],
-    '🚁': ['Helikopter'],
-    '🚟': ['Upphängning Järnväg'],
-    '🚠': ['Bergskablar'],
+    '🚁': [
+        'Helikopter',
+        ':helicopter:'
+    ],
+    '🚟': [
+        'Upphängning Järnväg',
+        ':suspension_railway:'
+    ],
+    '🚠': [
+        'Bergskablar',
+        ':mountain_cableway:'
+    ],
     '🚡': [
         'Flygbana',
+        ':aerial_tramway:',
         'Kabelbil',
         'Gondola',
         'Linbana'
     ],
-    '🛰️': ['Satellit'],
+    '🛰️': [
+        'Satellit',
+        ':satellite:'
+    ],
     '🚀': [
         'Raket',
+        ':rocket:',
         'Rymd Shuttle'
     ],
     '🛸': [
         'Flygande fat',
+        ':flying_saucer:',
         'UFO'
     ],
     '🚉': [
         'Tågstation',
+        ':train_station:',
         'Tåg Plattform'
     ],
-    '🚏': ['Busshållplats'],
+    '🚏': [
+        'Busshållplats',
+        ':bus_stop:'
+    ],
     '🛣️': [
         'Motorväg',
+        ':motorway:',
         'Väg',
         'Motorväg',
         'Interstatera'
     ],
-    '🛤️': ['Järnvägs spår'],
+    '🛤️': [
+        'Järnvägs spår',
+        ':railway_track:'
+    ],
     '🛫': [
         'Flygplan Avresa',
+        ':airplane_departure:',
         'Tar av'
     ],
     '🛬': [
         'Flygplan ankomst',
+        ':airplane_arrival:',
         'Flygplan anländer',
         'Landning'
     ],
-    '🗾': ['Karta över Japan'],
-    '⛰️': ['Berg'],
-    '🏔️': ['Snö Capped Mountain'],
-    '🌋': ['Vulkanen'],
+    '🗾': [
+        'Karta över Japan',
+        ':map_of_japan:'
+    ],
+    '⛰️': [
+        'Berg',
+        ':mountain:'
+    ],
+    '🏔️': [
+        'Snö Capped Mountain',
+        ':snow_capped_mountain:'
+    ],
+    '🌋': [
+        'Vulkanen',
+        ':volcano:'
+    ],
     '🗻': [
         'Montera Fuji',
+        ':mount_fuji:',
         'Fuji-san'
     ],
     '🏕️': [
         'Camping',
+        ':camping:',
         'Campingplats'
     ],
-    '🏖️': ['Strand med paraply'],
-    '🏜️': ['Desert'],
-    '🏝️': ['Ökenö'],
-    '🏞️': ['Nationalpark'],
+    '🏖️': [
+        'Strand med paraply',
+        ':beach_with_umbrella:'
+    ],
+    '🏜️': [
+        'Desert',
+        ':desert:'
+    ],
+    '🏝️': [
+        'Ökenö',
+        ':desert_island:'
+    ],
+    '🏞️': [
+        'Nationalpark',
+        ':national_park:'
+    ],
     '🏟️': [
         'Ishallar',
+        ':stadium:',
         'Grandställ',
         'Sport Stadion'
     ],
     '🏛️': [
         'Klassisk byggnad',
+        ':classical_building:',
         'Grekiska',
         'Rom'
     ],
     '🏗️': [
         'Byggnad Konstruktion',
+        ':building_construction:',
         'Kran'
     ],
     '🏘️': [
         'Hus Byggnader',
+        ':houses_building:',
         'Grupp av hus'
     ],
     '🏚️': [
         'Derelict hus byggnad',
+        ':old_house:',
         'Övergivet hus',
         'Gammalt hus',
         'Hemsökt hus'
     ],
     '🏠': [
         'Hem',
+        ':home:',
         'Hus byggnad'
     ],
     '🏡': [
         'Hus med trädgård',
+        ':house_with_garden:',
         'Hus och träd'
     ],
     '🏢': [
         'Kontor byggnad',
+        ':office_building:',
         'Stad byggnad',
         'Höguppåtgående byggnad'
     ],
     '🏣': [
         'Japanska postkontor',
+        ':japanese_post_office:',
         'Japansk postmärke'
     ],
     '🏤': [
         'Postkontor',
+        ':european_post_office:',
         'Europeiska postkontoret'
     ],
     '🏥': [
         'Sjukhus',
+        ':hospital:',
         'ÄR',
         'A&E',
         'Nödrum',
@@ -5735,6 +8288,7 @@ emojis_language[lang][9] = {
     ],
     '🏦': [
         'Bank',
+        ':bank:',
         'BK',
         'Bakkureru',
         'Bank filial',
@@ -5742,15 +8296,18 @@ emojis_language[lang][9] = {
     ],
     '🏨': [
         'Hotell',
+        ':hotel:',
         'Boende',
         'H Byggnad'
     ],
     '🏩': [
         'Love Hotel',
+        ':love_hotel:',
         'Love Heart Hotel'
     ],
     '🏪': [
         'Butik för bekvämlighet',
+        ':convenience_store:',
         '24-timmarsbutik',
         '7-Elva',
         'Hörnaffär',
@@ -5758,16 +8315,19 @@ emojis_language[lang][9] = {
     ],
     '🏫': [
         'Skolan',
+        ':school:',
         'Klocka torn',
         'Elementärt Hög Mitten'
     ],
     '🏬': [
         'Varuhus',
+        ':department_store:',
         'Köpcenter',
         'Butik'
     ],
     '🏭': [
         'Fabrik',
+        ':factory:',
         'Industriell',
         'Industri',
         'Föroreningar',
@@ -5775,91 +8335,117 @@ emojis_language[lang][9] = {
     ],
     '🏯': [
         'Japansk Slott',
+        ':japanese_castle:',
         'Fästning'
     ],
     '🏰': [
         'Europeiskt Slott',
+        ':european_castle:',
         'Turrets'
     ],
     '💒': [
         'Kyrkans hjärta',
+        ':church_heart:',
         'Bröllop i kyrkan',
         'Äktenskap'
     ],
     '🗼': [
         'Tokyo Torn',
+        ':tokyo_tower:',
         'Eiffeltornet',
         'Rött Torn'
     ],
     '🗽': [
         'Frihetsgudinnan',
+        ':statue_of_liberty:',
         'New York'
     ],
     '⛪': [
         'Kyrka byggnad',
+        ':church_building:',
         'Kors'
     ],
     '🕌': [
         'Moské',
+        ':mosque:',
         'Domat tak',
         'Minaret'
     ],
-    '🛕': ['Hinduiskt Tempel'],
+    '🛕': [
+        'Hinduiskt Tempel',
+        ':hindu_temple:'
+    ],
     '🕍': [
         'Synagogan',
+        ':synagogue:',
         'Judisk',
         'Synagog',
         'Tempel'
     ],
     '⛩️': [
         'Shinto Helgedom',
+        ':shinto_shrine:',
         'Kami-no-michi'
     ],
     '🕋': [
         'Kaaba',
+        ':kaaba:',
         'Mecca'
     ],
-    '🏙️': ['Cityscape'],
+    '🏙️': [
+        'Cityscape',
+        ':cityscape:'
+    ],
     '⛱️': [
         'Paraply på mark',
+        ':beach_umbrella:',
         'Paraply vid stranden'
     ],
     '🌄': [
         'Soluppgång över berg',
+        ':sunrise_over_mountains:',
         'Morgon',
         'Soluppgång'
     ],
     '🌅': [
         'Soluppgång',
+        ':sunrise:',
+        ':sunset:',
         'Solnedgång'
     ],
     '🌆': [
         'Stadsbilden på skymningen',
+        ':cityscape_at_dusk:',
         'Orange Sky stad',
         'Skymning Stad'
     ],
     '🌇': [
         'Solnedgång över byggnader',
+        ':sunset_over_buildings:',
         'Stad Solnedgång'
     ],
     '🌃': [
         'Natt med stjärnor',
+        ':night_with_stars:',
         'Stad på natten',
         'Stjärnig Natt'
     ],
     '🗿': [
         'Moai',
+        ':moai:',
         'Påskön Staty',
         'Mänsklig hällristning',
         'Moyai Staty'
     ],
     '🌠': [
         'Skytte stjärna',
+        ':shooting_star:',
         'När du önskar på en stjärna',
         'Meteoroid'
     ],
     '🌌': [
         'Vintergatan',
+        ':milky_way:',
         'Galaxen',
         'Natthimmel',
         'Mellanslag',
@@ -5868,89 +8454,133 @@ emojis_language[lang][9] = {
     ],
     '🎑': [
         'Månens tittarceremoni',
+        ':moon_viewing_ceremony:',
         'Gräs, Dumplings och Moon',
         'Skörda Månen',
         'Mitten av hösten Festival',
         'Tsukimi'
     ],
-    '🛖': ['Hydda'],
+    '🛖': [
+        'Hydda',
+        ':hut:'
+    ],
     '🎢': [
         'Berg-och dalbana',
+        ':roller_coaster:',
         'Rollercoaster',
         'Temapark'
     ],
     '🛝': [
-        'Playground Slide',
+        'Lekplats diabild',
+        ':playground_slide:',
         'Baby',
-        'Children'
+        'Barn'
     ]
 };
 /*technologies (smartphones, laptops, etc.) and office*/
 emojis_language[lang][10] = {
     '⌚': [
         'Titta',
+        ':watch:',
         'Tidbok',
         'Apple Klocka'
     ],
-    '⏰': ['Alarm Klocka'],
-    '⏱️': ['Stoppur'],
-    '⏲️': ['Timer Klocka'],
-    '🕰️': ['Mantelpiece klocka'],
-    '🧭': ['Kompass'],
-    '🕹️': ['Joystick'],
-    '🎙️': ['Studio mikrofon'],
-    '🎚️': ['Nivå matare'],
-    '🎛️': ['Kontrollera knutar'],
+    '⏰': [
+        'Alarm Klocka',
+        ':alarm_clock:'
+    ],
+    '⏱️': [
+        'Stoppur',
+        ':stopwatch:'
+    ],
+    '⏲️': [
+        'Timer Klocka',
+        ':timer_clock:'
+    ],
+    '🕰️': [
+        'Mantelpiece klocka',
+        ':mantelpiece_clock:'
+    ],
+    '🧭': [
+        'Kompass',
+        ':compass:'
+    ],
+    '🕹️': [
+        'Joystick',
+        ':joystick:'
+    ],
+    '🎙️': [
+        'Studio mikrofon',
+        ':studio_microphone:'
+    ],
+    '🎚️': [
+        'Nivå matare',
+        ':level_slider:'
+    ],
+    '🎛️': [
+        'Kontrollera knutar',
+        ':control_knobs:'
+    ],
     '📻': [
         'Radio',
+        ':radio:',
         'Digital Radio',
         'Trådlös'
     ],
     '📱': [
         'Mobiltelefon',
+        ':mobile_phone:',
         'Smartphone',
         'iPhone',
         'Mobiltelefon'
     ],
     '📲': [
         'Mobiltelefon med höger pil till vänster',
+        ':phone_call:',
         'Telefonsamtal',
         'Pekar på telefon'
     ],
     '☎️': [
         'Svart telefon',
+        ':rotary_phone:',
         'Roterande telefon',
-        'Röd'
+        ':red:'
     ],
     '📞': [
         'Telefonmottagare',
+        ':phone:',
         'Handset',
         'Telefon',
-        'Svart'
+        ':black:'
     ],
     '📟': [
         'Personsökare',
+        ':pager:',
         'Beeper',
         'Bleeper'
     ],
     '📠': [
         'Faxmaskin',
+        ':fax_machine:',
         'Facsimile',
         'Fax'
     ],
     '🔋': [
         'Batteri',
+        ':battery:',
         'AA batteri',
         'Batteri för telefon'
     ],
     '🔌': [
         'Elektrisk plugg',
+        ':power_cable:',
         'AC Adaptor',
         'Ström kabel',
         'Ström Plug'
     ],
     '💻': [
         'Bärbar dator',
+        ':laptop:',
         'Anteckningsbok',
         'Personlig dator',
         'PC',
@@ -5959,18 +8589,30 @@ emojis_language[lang][10] = {
     ],
     '🖥️': [
         'Skrivbord Dator',
+        ':desktop_computer:',
         'iMac',
         'PC'
     ],
-    '🖨️': ['Skrivare'],
-    '⌨️': ['Keyboard'],
+    '🖨️': [
+        'Skrivare',
+        ':printer:'
+    ],
+    '⌨️': [
+        'Keyboard',
+        ':keyboard:'
+    ],
     '🖱️': [
         'Dator mus',
+        ':computer_mouse:',
         'Mus med tre knappar'
     ],
-    '🖲️': ['Spårboll'],
+    '🖲️': [
+        'Spårboll',
+        ':trackball:'
+    ],
     '💽': [
         'Dator Disk',
+        ':blu_ray:',
         'Minidisc',
         'CD',
         'DVD',
@@ -5979,11 +8621,13 @@ emojis_language[lang][10] = {
     ],
     '💾': [
         'Diskett diskett',
+        ':floppy_disk:',
         '3.5″-disk',
         'Diskett'
     ],
     '💿': [
         'Optisk disk',
+        ':cd:',
         'CD',
         'CD-ROM',
         'Kompakt skiva'
@@ -5991,28 +8635,45 @@ emojis_language[lang][10] = {
     '📀': [
         'DVD',
         'DVD-ROM',
+        ':dvd:',
         'DVD Video'
     ],
     '🎥': [
         'Filmkamera',
+        ':movie_camera:',
         'Film Kamera',
         'Hollywood',
         'Film'
     ],
-    '🎞️': ['Film bågar'],
-    '📽️': ['Film Projektor'],
+    '🎞️': [
+        'Film bågar',
+        ':film_frames:'
+    ],
+    '📽️': [
+        'Film Projektor',
+        ':film_projector:'
+    ],
     '📺': [
         'Tv',
+        ':tv:',
         'TV'
     ],
-    '📷': ['Digital kamera'],
-    '📸': ['Kamera med Flash'],
+    '📷': [
+        'Digital kamera',
+        ':digital_camera:'
+    ],
+    '📸': [
+        'Kamera med Flash',
+        ':camera_flash:'
+    ],
     '📹': [
         'Videokamera',
+        ':video_camera:',
         'Videokamera'
     ],
     '📼': [
         'Videokassett',
+        ':vhs:',
         'VHS',
         'VCR',
         'Video Tejp',
@@ -6020,6 +8681,7 @@ emojis_language[lang][10] = {
     ],
     '💳': [
         'Kreditkort',
+        ':credit_card:',
         'Betalkort',
         'AMEX',
         'Diners Club',
@@ -6029,254 +8691,382 @@ emojis_language[lang][10] = {
     ],
     '📧': [
         'E-post',
-        'Epost'
+        ':email:',
+        'E-post'
     ],
     '📨': [
         'Inkommande kuvert',
+        ':incoming_envelope:',
         'Kuvert med linjer',
         'Snabbt kuvert'
     ],
     '📩': [
         'Kuvert med nedåt pil ovanför',
+        ':insert_in_envelope:',
         'Ned pil kuvert',
         'Infoga i kuvert'
     ],
-    '📤': ['Utkorgsfack'],
-    '📥': ['Inkorg fack'],
-    '📮': ['Brevlåda'],
+    '📤': [
+        'Utkorgsfack',
+        ':outbox_tray:'
+    ],
+    '📥': [
+        'Inkorg fack',
+        ':inbox_tray:'
+    ],
+    '📮': [
+        'Brevlåda',
+        ':postbox:'
+    ],
     '📁': [
         'Fil mapp',
+        ':file_folder:',
         'Mapp',
         'Katalog',
         'Stängd filmapp'
     ],
     '📂': [
         'Öppna filmapp',
+        ':open_file_folder:',
         'Katalog'
     ],
-    '🗂️': ['Kortindex delare'],
+    '🗂️': [
+        'Kortindex delare',
+        ':card_index_dividers:'
+    ],
     '📅': [
         'Kalender',
+        ':calendar:',
         '17 juli',
         'Världsdagen för emoji'
     ],
-    '🗓️': ['Spiral kalender Pad'],
+    '🗓️': [
+        'Spiral kalender Pad',
+        ':spiral_calendar_pad:'
+    ],
     '📆': [
         'Tear-Off kalender',
+        ':day_calendar:',
         'Dag Kalender',
         'Kalendern för skrivbord'
     ],
     '📈': [
         'Ökning av diagram',
+        ':increasing_chart:',
         'Positiv diagram',
         'Pekar upp graf',
         'Diagram med uppåtgående trend'
     ],
     '📉': [
         'Diagram minskar',
+        ':decreasing_chart:',
         'Negativ tabell',
         'Pekar ner graf',
         'Diagram med nedåtgående trend'
     ],
     '📊': [
         'Stapeldiagram',
+        ':bar_chart:',
         'Graf för stapel'
     ],
     '📌': [
         'Pushpin',
-        'Thumb Tack'
+        ':pushpin:',
+        'Thumb Tack',
+        ':red:'
     ],
-    '📋': ['Urklipp'],
+    '📋': [
+        'Urklipp',
+        ':clipboard:'
+    ],
     '📍': [
         'Rund Pushpin',
+        ':round_pushpin:',
         'Släppt nål',
         'Fäst på kartan',
         'Fäst',
-        'Röd nål'
+        'Röd nål',
+        ':red:'
     ],
     '📎': [
         'Klämma',
+        ':paperclip:',
         'Klippig'
     ],
-    '📏': ['Rak linjal'],
+    '📏': [
+        'Rak linjal',
+        ':straight_ruler:'
+    ],
     '📐': [
         'Triangulär linjal',
+        ':triangular_ruler:',
         'Triangel linjal'
     ],
     '✂️': [
         'Sax',
+        ':scissors:',
         'Skärning'
     ],
     '✏️': [
         'Penna',
+        ':pencil:',
         'Blyertspenna'
     ],
     '✒️': [
         'Svart Nib',
+        ':black_nib:',
         'Penna Nib',
         'Fontänpenna'
     ],
     '🖋️': [
         'Fontänpenna',
+        ':fountain_pen:',
         'Nedre vänstra fontänpenna'
     ],
     '🖊️': [
         'Penna',
+        ':pen:',
         'Nedre vänstra kulspetspenna',
         'Kulspetspenna'
     ],
     '🖌️': [
         'Målningsborste',
+        ':paintbrush:',
         'Pensla',
         'Nedre Vänster Målningsborste'
     ],
     '🖍️': [
         'Crayon',
+        ':crayon:',
         'Nedre vänsterkritan'
     ],
     '📝': [
         'Anteckning',
+        ':memo:',
         'Memorandum',
         'Anteckning',
         'Penna och papper'
     ],
     '🗑️': [
         'Papperskorg',
+        ':wastepaper_basket:',
         'Sopburk',
         'Skräp Papperskorg',
         'Papperskorgen kan'
     ],
-    '📡': ['Satellit antenn'],
+    '📡': [
+        'Satellit antenn',
+        ':satellite_antenna:'
+    ],
     '🔭': [
         'Teleskop',
+        ':telescope:',
         'Stargazing'
     ],
     '🔬': [
         'Mikroskop',
+        ':microscope:',
         'Magnify',
         'Vetenskap'
     ],
-    '📭': ['Öppna brevlåda med sänkt flagga'],
+    '📭': [
+        'Öppna brevlåda med sänkt flagga',
+        ':open_mailbox_lowered:'
+    ],
     '📬': [
         'Öppna brevlådan med upphöjd flagga',
+        ':open_mailbox_raised:',
         'Öppna brevlådan'
     ],
-    '📪': ['Stängd brevlåda med sänkt flagga'],
-    '📫': ['Stängd brevlåda med upphöjd flagga'],
-    '📰': ['Tidning'],
+    '📪': [
+        'Stängd brevlåda med sänkt flagga',
+        ':closed_mailbox_lowered:'
+    ],
+    '📫': [
+        'Stängd brevlåda med upphöjd flagga',
+        ':closed_mailbox_raised:'
+    ],
+    '📰': [
+        'Tidning',
+        ':newspaper:'
+    ],
     '🗞️': [
         'Upprullad tidning',
+        ':rolled_up_newspaper:',
         'Tidning Leverans'
     ],
     '📄': [
         'Sida vänd uppåt',
+        ':printed_page:',
         'Tryckt sida'
     ],
     '📜': [
         'Rulla',
+        ':scroll:',
         'Grad',
         'Parchment'
     ],
     '📃': [
         'Sida med Curl',
+        ':curled_page:',
         'Curled Page',
         'Curly Page'
     ],
     '📓': [
         'Anteckningsbok',
+        ':notebook:',
         'Svart och vit bok'
     ],
-    '📔': ['Anteckningsbok med dekorativ omslag'],
+    '📔': [
+        'Anteckningsbok med dekorativ omslag',
+        ':notebook_decorative_cover:'
+    ],
     '📕': [
         'Stängd bok',
+        ':closed_book:',
         'Röd bok',
-        'Röd lärobok'
+        'Röd lärobok',
+        ':red:'
     ],
     '📖': [
         'Öppna bok',
+        ':open_book:',
         'Bok',
         'Novel'
     ],
     '📗': [
         'Grön bok',
-        'Grön lärobok'
+        ':green_book:',
+        'Grön lärobok',
+        ':green:'
     ],
     '📘': [
         'Blå bok',
-        'Blå lärobok'
+        ':blue_book:',
+        'Blå lärobok',
+        ':blue:'
     ],
     '📙': [
         'Orange bok',
-        'Orange lärobok'
+        ':orange_book:',
+        'Orange lärobok',
+        ':orange:'
     ],
     '📚': [
         'Böcker',
+        ':books:',
         'Högen av böcker',
         'Stack med böcker'
     ],
     '🗳️': [
         'Vallåda med röstsedel',
+        ':ballot_box:',
         'Röstlåda',
         'Röstning'
     ],
     '🗄️': [
         'Skåp för fil',
+        ':file_cabinet:',
         'Filskåp'
     ],
-    '🗃️': ['Kort Fil Box'],
-    '🖇️': ['Länkade gem']
+    '🗃️': [
+        'Kort Fil Box',
+        ':card_file_box:'
+    ],
+    '🖇️': [
+        'Länkade gem',
+        ':linked_paperclips:',
+        ':gray:',
+        ':grey:'
+    ]
 };
 /*clothes and accessories*/
 emojis_language[lang][11] = {
     '👣': [
         'Fotavtryck',
+        ':footprints:',
         'Fötter',
         'Fotsteg'
     ],
     '👓': [
         'Glasögon',
+        ':glasses:',
         'Eveyglas'
     ],
-    '🕶️': ['Solglasögon'],
-    '🥽': ['Goggles'],
-    '🥼': ['Labb Coat'],
+    '🕶️': [
+        'Solglasögon',
+        ':sunglasses:'
+    ],
+    '🥽': [
+        'Goggles',
+        ':goggles:'
+    ],
+    '🥼': [
+        'Labb Coat',
+        ':lab_coat:'
+    ],
     '👔': [
         'Necktie',
+        ':necktie:',
         'Affärströja',
         'Skjorta och slips'
     ],
     '👕': [
         'T-tröja',
+        ':t_shirt:',
+        ':t-shirt:',
         'Tee tröja',
         'Pikétröja'
     ],
     '👖': [
         'Jeans',
+        ':jeans:',
         'Denim',
         'Byxor',
         'Byxor'
     ],
-    '🧣': ['Scarf'],
-    '🧤': ['Handskar'],
-    '🧥': ['Kappa'],
-    '🧦': ['Socks'],
+    '🧣': [
+        'Scarf',
+        ':scarf:'
+    ],
+    '🧤': [
+        'Handskar',
+        ':gloves:'
+    ],
+    '🧥': [
+        'Kappa',
+        ':coat:'
+    ],
+    '🧦': [
+        'Socks',
+        ':socks:'
+    ],
     '👗': [
         'Klänning',
+        ':dress:',
         'Kjol',
         'Klänning'
     ],
     '👘': [
         'Kimono',
+        ':kimono:',
         'Klänning klänning',
         'Japansk klänning'
     ],
     '👙': [
         'Bikini',
+        ':bikini:',
         'Bäder',
         'Baddräkt'
     ],
-    '🩱': ['Ett stycke baddräkt'],
+    '🩱': [
+        'Ett stycke baddräkt',
+        'Baddräkt',
+        'en-baddräkt'
+    ],
     '👚': [
+        'Kläder för kvinnor',
+        ':womans_clothes:',
         'Kläder för kvinnor',
         'Blouse',
         'Rosa tröja',
@@ -6284,17 +9074,23 @@ emojis_language[lang][11] = {
     ],
     '👛': [
         'Handväska',
+        ':purse:',
         'Plånbok'
     ],
-    '👜': ['Handväska'],
+    '👜': [
+        'Handväska',
+        ':handbag:'
+    ],
     '👝': [
         'Kopplingspåse',
+        ':clutch_bag:',
         'Koppling',
         'Liten väska',
         'Pouch'
     ],
     '🎒': [
         'Ryggsäck',
+        ':backpack:',
         'Väska',
         'Skolväska',
         'Skola Satchel',
@@ -6302,31 +9098,47 @@ emojis_language[lang][11] = {
     ],
     '👞': [
         'Mans Shoe',
+        ':mans_shoe:',
+        'Mans Shoe',
         'Sko',
         'Brun serie',
         'Visa klänning'
     ],
     '👟': [
         'Friidrott Sko',
+        ':athletic_shoe:',
         'Löpande Sko',
         'Sneaker',
         'Löpare',
         'Tränare',
         'Tennis Sko'
     ],
-    '🥾': ['Vandring Boot'],
-    '🥿': ['Platt sko'],
+    '🥾': [
+        'Vandring Boot',
+        ':hiking_boot:'
+    ],
+    '🥿': [
+        'Platt sko',
+        ':flat_shoe:'
+    ],
     '👠': [
         'Högklackad sko',
+        ':high_heeled_shoe:',
+        ':high_heel:',
         'Stiletto',
         'Höga hälar'
     ],
     '👡': [
         'Kvinna Sandal',
+        ':womans_sandal:',
+        'Kvinna Sandal',
         'Heeled Sandal',
-        'Saldals'
+        'Sandaler',
+        'Sandal'
     ],
     '👢': [
+        'Kvinnor Stövlar',
+        ':womans_boots_',
         'Kvinnor Stövlar',
         'Cowgirl Stövlar',
         'Knä Höga Stövlar',
@@ -6334,84 +9146,130 @@ emojis_language[lang][11] = {
     ],
     '👑': [
         'Kron',
+        ':crown:',
         'Kung',
         'Drottning',
         'Prins',
         'Kunglig',
-        'Prinsessan'
+        'Prinsessan',
+        ':gold:',
+        ':yellow:'
     ],
     '👒': [
         'Hatt',
+        ':hat:',
         'Kvinna Hatt',
         'Hatt med pilbåge',
         'Damhatt'
     ],
     '🎩': [
         'Topp Hatt',
+        ':top_hat:',
         'Formell Bär',
-        'Groom'
+        'Groom',
+        ':black:'
     ],
     '🎓': [
         'Graduation Cap',
+        ':graduation_cap:',
         'Universitet',
         'Graduate',
         'Mörsare Bräde',
         'Universitet',
-        'Fyrkantig akademisk keps'
+        'Fyrkantig akademisk keps',
+        ':black:'
     ],
     '🧢': [
         'Fakturerad keps',
+        ':billed_cap:',
         'Hatt för baseboller'
     ],
     '⛑️': [
         'Hjälm med vitt kors',
-        'Räddnings Arbetarens Hjälm'
+        ':helmet_with_white_cross:',
+        ':helmet_with_cross:',
+        ':rescue_worker_helmet:',
+        ':rescue_workers_helmet:',
+        'Räddningsarbetare Hjälm',
+        ':red:',
+        ':white:'
     ],
     '💼': [
         'Portfölj',
+        ':briefcase:',
         'Resväska'
     ],
     '🎖️': [
         'Militär medalj',
+        ':military_medal:',
+        ':medal:',
         'Medalj',
         'Medaljon',
         'Militär Dekoration'
     ],
     '📿': [
         'Bönpärlor',
+        ':prayer_beads:',
         'Dhikr pärlor',
         'radband Pärlor'
     ],
-    '🎗️': ['Påminnelse Band'],
-    '🤿': ['Dykning Mask'],
-    '🦺': ['Säkerhetsväst'],
+    '🎗️': [
+        'Påminnelse Band',
+        ':reminder_ribbo:'
+    ],
+    '🤿': [
+        'Dykning Mask',
+        ':diving_mask:'
+    ],
+    '🦺': [
+        'Säkerhetsväst',
+        ':safety_vest:'
+    ],
     '🥻': [
         'Sari',
+        ':sari:',
         'Äre',
         'Shari'
     ],
-    '🩲': ['Briefs'],
-    '🩳': ['Shorts'],
+    '🩲': [
+        'Briefs',
+        ':briefs:'
+    ],
+    '🩳': [
+        'Shorts',
+        ':shorts:'
+    ],
     '🛼': [
         'Rullskridsko',
+        ':roller_skate:',
         'Infogad skridsko',
         'Rulla Derby'
     ],
     '🩴': [
         'Vänd Flop',
+        ':flip_flop:',
         'Thong Sandal'
     ],
-    '🪖': ['Militär Hjälm'],
+    '🪖': [
+        'Militär Hjälm',
+        ':military_helmet:'
+    ],
     '🩰': [
         'Balett Skor',
+        ':ballet_shoes:',
         'Pointe sko'
     ],
-    '🩼': ['Crutch']
+    '🩼': [
+        'Crutch',
+        ':crutch:'
+    ]
 };
 /*hands and parts of body*/
 emojis_language[lang][12] = {
     '👋{{skin_tone}}': [
         'Vågande handskylt',
+        ':wave:',
+        ':waving_hand:',
         'Adjö',
         'Hand Våg',
         'Hej',
@@ -6419,105 +9277,141 @@ emojis_language[lang][12] = {
     ],
     '🖐️{{skin_tone}}': [
         'Hand med fingertopparna Splayed',
+        ':hand_splayed:',
+        ':raised_hand_with_fingers_splayed:',
+        ':hand_with_fingers_splayed:',
         'Fem Hand',
         'Visad hand',
         'Raised Hand med fingertoppar Splayed'
     ],
     '🤚{{skin_tone}}': [
         'Upphöjd baksida av handen',
+        ':raised_back_of_hand:',
+        ':back_of_hand:',
         'Bakhand'
     ],
     '✋{{skin_tone}}': [
         'Upphöjd hand',
+        ':raised_hand:',
+        ':hand:',
         'Hög Fem',
         'Stoppa'
     ],
     '🖖{{skin_tone}}': [
         'Vulcan Salute',
+        ':vulcan_salute:',
         'Spock',
         'Stjärna Trek',
         'Upphöjd hand med del mellan mitten och ringfingrar'
     ],
     '👌{{skin_tone}}': [
         'Ok Hand Signering',
+        ':ok_hand:',
         'Okej',
         'Perfekt',
         'Ja'
     ],
     '✌️{{skin_tone}}': [
         'Seger Hand',
+        ':victory_hand:',
         'Air Offerter',
         'Fred tecken',
         'V Signera'
     ],
     '🤞{{skin_tone}}': [
         'Korsade fingertoppar',
+        ':crossed_fingers:',
         'Fingrar korsade',
         'Lycka till',
         'Hand med index och mellanfingrar korsade'
     ],
     '🤟{{skin_tone}}': [
         'Love-You Gest',
+        ':love_you_gesture:',
+        ':i_love_you_hand_sign:',
         'Jag älskar dig Hand tecken'
     ],
     '🤘{{skin_tone}}': [
         'Tecken på hornen',
+        ':the_horns:',
+        ':sign_of_the_horns:',
+        ':metal:',
         'Djävulsfingrar',
         'Kraftig metall',
         'Sten på'
     ],
     '🤙{{skin_tone}}': [
         'Ring mig hand underteckna',
+        ':call_me_hand:',
+        ':call_me:',
         'Hand för telefon',
         'Shaka'
     ],
-    '🤏{{skin_tone}}': ['Knyp hand'],
+    '🤏{{skin_tone}}': [
+        'Knyp hand',
+        ':pinching_hand:'
+    ],
     '👈{{skin_tone}}': [
         'Bakhand indexmarkering vänster',
+        ':backhand_index_pointing_left:',
+        ':point_left:',
         'Vit vänster pekar Bakhand Index'
     ],
     '👉{{skin_tone}}': [
         'Bakhand Index markerar höger',
+        ':backhand_index_pointing_right:',
+        ':point_right:',
         'Vit Höger Pekar Bakhand Index'
     ],
     '👆{{skin_tone}}': [
         'Bakhand Index Pekar upp',
+        ':point_up_2:',
+        ':backhand_index_pointing_up:',
         'Vit Upp Pekar Bakhand Index',
         'Mitten Finger'
     ],
     '👇{{skin_tone}}': [
         'Bakhand Index markerar ner',
+        ':point_down:',
+        ':backhand_index_pointing_down:',
         'Vit ned pekar Backhand Index',
         'Pekar ner'
     ],
     '☝{{skin_tone}}': [
         'Indexet pekar upp',
+        ':point_up:',
+        ':index_pointing_up:',
         'Vit Upp Pekar Index',
         'Hemlighet'
     ],
     '🖕{{skin_tone}}': [
         'Mitten Finger',
+        ':middle_finger:',
         'Fågeln vrider',
         'Ohyfsad Finger',
         'Omvänd hand med mellanfingret utökat'
     ],
     '👍{{skin_tone}}': [
         'Miniatyrer upp skylt',
+        ':thumbs_up_sign:',
         'Gilla',
         'Ja'
     ],
     '👎{{skin_tone}}': [
         'Miniatyrer Ned Sign',
+        ':thumbs_down_sign:',
         'Dålig',
         'Dislike',
         'Nej'
     ],
     '✊{{skin_tone}}': [
         'Upphöjd näve',
+        ':raised_fist:',
         'Näve Pump'
     ],
     '👊{{skin_tone}}': [
         'Pågående näve',
+        ':oncoming_fist:',
         'Bro Fist',
         'Brofist',
         'Knytnäve Bump',
@@ -6525,15 +9419,24 @@ emojis_language[lang][12] = {
         'Stängd näve',
         'Fisted Hand Sign'
     ],
-    '🤛{{skin_tone}}': ['Vänster knytnäve'],
-    '🤜{{skin_tone}}': ['Höger Knytnäve Bump'],
+    '🤛{{skin_tone}}': [
+        'Vänster knytnäve',
+        ':left_fist_bump:'
+    ],
+    '🤜{{skin_tone}}': [
+        'Höger Knytnäve Bump',
+        ':right_fist:bump:'
+    ],
     '🤌{{skin_tone}}': [
         'Knypade fingertoppar',
+        ':pinched_fingers:',
         'Ma Che Vuoi',
         'Finger handväska'
     ],
     '👏{{skin_tone}}': [
         'Clapping Hands Sign',
+        ':cap:',
+        ':clapping_hands:',
         'Applåder',
         'Clap',
         'Klappa',
@@ -6542,6 +9445,8 @@ emojis_language[lang][12] = {
     ],
     '🙌{{skin_tone}}': [
         'Person höja båda händerna i firandet',
+        ':raised_hands:',
+        ':raising_hands:',
         'Höjer händer',
         'Vapen i luften',
         'Banzai',
@@ -6552,91 +9457,168 @@ emojis_language[lang][12] = {
     ],
     '👐{{skin_tone}}': [
         'Öppna händer tecken',
+        ':open_hands_sign:',
         'Hug',
         'Jazzens händer'
     ],
     '🤲{{skin_tone}}': [
         'Palmer upp tillsammans',
+        ':palms_up_together:',
         'Dua'
     ],
     '🤝{{skin_tone}}': [
         'Handshake',
+        ':handshake:',
         'Skakar händer'
     ],
     '🙏{{skin_tone}}': [
         'Vikta händer',
+        ':folded_hands:',
         'Namaste',
         'Vänligen',
         'Bön',
         'Tack så mycket',
         'Person med vikta händer'
     ],
-    '✍{{skin_tone}}': ['Skriva hand'],
-    '🫱{{skin_tone}}': ['Rightwards Hand'],
-    '🫲{{skin_tone}}': ['Leftwards Hand'],
-    '🫳{{skin_tone}}': ['Palm Down Hand'],
-    '🫴{{skin_tone}}': ['Palm Up Hand'],
-    '🫰{{skin_tone}}': ['Hand with Index Finger and Thumb Crossed'],
-    '🫵{{skin_tone}}': ['Index Pointing at the Viewer'],
+    '✍{{skin_tone}}': [
+        'Skriva hand',
+        ':writing_hand:'
+    ],
+    '🫱{{skin_tone}}': [
+        'Höger Hand',
+        ':rightwards_hand:'
+    ],
+    '🫲{{skin_tone}}': [
+        'Vänster hand',
+        ':leftwards_hand:'
+    ],
+    '🫳{{skin_tone}}': [
+        'Palm Ned Hand',
+        ':palm_down_hand:'
+    ],
+    '🫴{{skin_tone}}': [
+        'Palm upp hand',
+        ':palm_up_hand:'
+    ],
+    '🫰{{skin_tone}}': [
+        'Hand med Index Finger och Tumme Korsade',
+        ':hand_with_index_finger_and_thumb_crossed:'
+    ],
+    '🫵{{skin_tone}}': [
+        'Index pekar på tittaren',
+        ':index_pointing_at_the_viewer:'
+    ],
     '🫶{{skin_tone}}': [
-        'Heart Hands',
-        'Love'
+        'Hjärta händer',
+        ':heart_hands:',
+        'Kärlek'
     ],
     '💪{{skin_tone}}': [
         'Flexad Biceps',
+        ':flexed_biceps:',
         'Flexing armmuskler',
         'Musle',
         'Stark'
     ],
-    '🦵{{skin_tone}}': ['Ben'],
-    '🦶{{skin_tone}}': ['Fot'],
+    '🦵{{skin_tone}}': [
+        'Ben',
+        ':leg:'
+    ],
+    '🦶{{skin_tone}}': [
+        'Fot',
+        ':foot:'
+    ],
     '👂{{skin_tone}}': [
         'Öron',
+        ':ear:',
         'Öron',
         'Hörsel',
         'Lyssnar'
     ],
     '👃{{skin_tone}}': [
         'Näsa',
+        ':nose:',
         'Luktande',
         'Sniffar',
         'Stinky'
     ],
-    '🦻{{skin_tone}}': ['Öron med hörapparat'],
-    '🧠': ['Hjärnan'],
-    '🦷': ['Tand'],
+    '🦻{{skin_tone}}': [
+        'Öron med hörapparat',
+        ':ear_with_hearing_aid:'
+    ],
+    '🧠': [
+        'Hjärnan',
+        ':brain:',
+        ':pink:'
+    ],
+    '🦷': [
+        'Tand',
+        ':tooth:',
+        ':white:'
+    ],
     '👀': [
         'Ögon',
+        ':eyes:',
         'Ögonglobar',
         'Shifty Ögon',
         'Kloka ögon'
     ],
     '👁️': [
         'Öga',
+        ':eye:',
         'Enskilt öga'
     ],
-    '👅': ['Tunga ut'],
+    '👅': [
+        'Tunga ut',
+        ':tongue_out:',
+        ':red:'
+    ],
     '👄': [
         'Mun',
+        ':mouth:',
         'Kissar läppar',
-        'Läppar'
+        'Läppar',
+        ':red:'
     ],
     '🫦': [
-        'Biting Lip',
-        'Läppar'
+        'Bitande Lip',
+        ':biting_lip:',
+        'Läppar',
+        ':red:'
     ],
-    '🫀': ['Anatomiskt hjärta'],
-    '🫁': ['Lungor'],
-    '🦾': ['Mekanisk Arm'],
-    '🦿': ['Mekanisk Ben'],
+    '🫀': [
+        'Anatomiskt hjärta',
+        ':anatomical_heart:',
+        ':red:'
+    ],
+    '🫁': [
+        'Lungor',
+        ':lungs:',
+        ':red:'
+    ],
+    '🦾': [
+        'Mekanisk Arm',
+        ':mechanical_arm:',
+        'Stark',
+        ':gray:',
+        ':grey:'
+    ],
+    '🦿': [
+        'Mekanisk Ben',
+        ':mechanical_leg:',
+        ':gray:',
+        ':grey:'
+    ],
     '💅{{skin_tone}}': [
         'Nail Polish',
+        ':nail_polish:',
         'Fingrar',
         'Manicure',
         'Nonchalant'
     ],
     '🤳{{skin_tone}}': [
         'Selfie',
+        ':selfie:',
         'Telefon kamera',
         'Selfie hand'
     ]
@@ -6645,50 +9627,79 @@ emojis_language[lang][12] = {
 emojis_language[lang][13] = {
     '💩': [
         'Högen av Poo',
+        ':pile_of_poo:',
         'Hund Jord',
-        'Leende Poop'
+        'Leende Poop',
+        ':brown:'
     ],
     '💋': [
         'Kyss Mark',
-        'Kissar läppar'
+        ':kiss_mark:',
+        'Kissar läppar',
+        ':red:'
     ],
-    '🦴': ['Ben'],
+    '🦴': [
+        'Ben',
+        ':bone:'
+    ],
     '🧳': [
         'Bagage',
+        ':luggage:',
         'Resväska'
     ],
     '🌂': [
         'Stängt Paraply',
+        ':closed_umbrella:',
         'Kollapsade paraply',
-        'Rosa paraply'
+        'Rosa paraply',
+        ':pink:',
+        ':purple:'
     ],
-    '☂️': ['Paraply'],
+    '☂️': [
+        'Paraply',
+        ':umbrella:',
+        ':purple:'
+    ],
     '☔': [
         'Paraply med regndroppar',
+        ':umbrella_with_rain_drops:',
+        ':umbrella:',
         'Regn',
         'Rainy'
     ],
-    '🧵': ['Trådens bassäng'],
-    '🧶': ['Bollen av Garn'],
+    '🧵': [
+        'Trådens bassäng',
+        ':spool_of_thread:'
+    ],
+    '🧶': [
+        'Bollen av Garn',
+        ':ball_of_yarn:'
+    ],
     '💄': [
         'Lipstick',
+        ':lipstick:',
         'Läppglans',
-        'Smink'
+        'Smink',
+        ':red:'
     ],
     '💍': [
         'Ring',
+        ':ring:',
         'Diamant Ring',
         'Ring för förlovning'
     ],
     '💎': [
         'Pärla sten',
+        ':gem_stone:',
         'Diamant',
         'Pärla',
         'Ädelsten',
-        'Juvel'
+        'Juvel',
+        ':blue:'
     ],
     '💥': [
         'Kollisionssymbol',
+        ':collision_symbol:',
         'Bang',
         'Explodera',
         'Påverkan',
@@ -6697,16 +9708,22 @@ emojis_language[lang][13] = {
     ],
     '💫': [
         'Yrselös symbol',
-        'Cirkel och stjärna'
+        ':dizzy_symbol:',
+        'Cirkel och stjärna',
+        ':yellow:'
     ],
     '💦': [
         'Kastande svettsymbol',
+        'sweatdroppar',
+        'sweatdroppar',
         'Plewds',
         'Kastande vatten',
-        'Vatten droppar'
+        'Vatten droppar',
+        ':blue:'
     ],
     '💨': [
         'Streckning Borta',
+        ':dashing_away:',
         'Snabb',
         'Ånga',
         'Vapar',
@@ -6716,12 +9733,15 @@ emojis_language[lang][13] = {
     ],
     '🌬️': [
         'Vind ansikte',
+        ':wind_face:',
         'Blåser vind',
         'Moder Natur',
-        'Vind Blowing Face'
+        'Vind Blowing Face',
+        ':white:'
     ],
     '🐾': [
         'Tass Utskrifter',
+        ':paw_prints:',
         'Katt Tass Utskrifter',
         'Hund Tass Utskrifter',
         'Kitten Tass Utskrifter',
@@ -6729,133 +9749,266 @@ emojis_language[lang][13] = {
     ],
     '🕸️': [
         'Spindelnät',
+        ':spider_web:',
         'Kobb',
         'Webb',
         'Spiderweb'
     ],
     '🦠': [
         'Mikrob',
+        ':microbe:',
         'Mobil',
         'Coronavirus',
         'COVID-19',
         'Gräddfil',
         'Mikroorganism',
-        'Virus'
+        'Virus',
+        ':green:'
     ],
-    '💐': ['Bukett av blommor'],
+    '💐': [
+        'Bukett av blommor',
+        ':bouquet_of_flowers:'
+    ],
     '🌍': [
         'Globe Visar Europa-Afrika',
+        ':globe_showing_europe_africa:',
+        ':earth_africa:',
         'Jord',
         'Glob',
         'Planet',
         'Världen',
-        'Globe Visar Europa och Afrika'
+        'Globe Visar Europa och Afrika',
+        ':blue:'
     ],
     '🌎': [
         'Globe Visar Amerika',
-        'Jord',
-        'Glob',
-        'Planet',
-        'Världen'
-    ],
-    '🌏': [
-        'Visar Asien-Australien',
+        ':globe_showing_americas:',
+        ':earth_americas:',
         'Jord',
         'Glob',
         'Planet',
         'Världen',
-        'Globe Visar Asien och Australien'
+        ':blue:'
+    ],
+    '🌏': [
+        'Visar Asien-Australien',
+        ':globe_showing_asia_australia:',
+        ':earth_asia:',
+        'Jord',
+        'Glob',
+        'Planet',
+        'Världen',
+        'Globe Visar Asien och Australien',
+        ':blue:'
     ],
     '🌐': [
         'Globe med Meridianer',
+        ':globe_with_meridians:',
         'Internet',
         'Världsomspännande webben',
         'WWW'
     ],
     '🌑': [
         'Ny månsymbol',
+        ':new_moon:',
         'Mörk Måne',
         'Skugga Månen',
-        'Sol-förmörkelse'
+        'Sol-förmörkelse',
+        ':black:'
     ],
-    '🌒': ['Waxing Crescent Moon Symbol'],
-    '🌓': ['Första kvartalet Månen Symbol'],
-    '🌔': ['Vaxning Gibbous Moon Symbol'],
-    '🌕': ['Fullmåne symbol'],
-    '🌖': ['Avtagande Gibbous Moon Symbol'],
-    '🌗': ['Sista kvartalet Månen Symbol'],
-    '🌘': ['Avtagande halvmåne symbol'],
-    '🌙': ['Halvmåne'],
+    '🌒': [
+        'Waxing Crescent Moon Symbol',
+        ':waxing_crescent_moon:',
+        ':yellow:',
+        ':black:'
+    ],
+    '🌓': [
+        'Första kvartalet Månen Symbol',
+        ':first_quarter_moon:',
+        ':yellow:',
+        ':black:'
+    ],
+    '🌔': [
+        'Vaxning Gibbous Moon Symbol',
+        ':moon:',
+        ':waxing_gibbous_moon:',
+        ':yellow:',
+        ':black:'
+    ],
+    '🌕': [
+        'Fullmåne symbol',
+        ':full_moon:',
+        ':yellow:'
+    ],
+    '🌖': [
+        'Avtagande Gibbous Moon Symbol',
+        ':waning_gibbous_moon:',
+        ':yellow:',
+        ':black:'
+    ],
+    '🌗': [
+        'Sista kvartalet Månen Symbol',
+        ':last_quarter_moon:',
+        ':yellow:',
+        ':black:'
+    ],
+    '🌘': [
+        'Avtagande halvmåne symbol',
+        ':waning_crescent_moon:',
+        ':yellow:',
+        ':black:'
+    ],
+    '🌙': [
+        'Halvmåne',
+        ':crescent_moon:',
+        ':yellow:'
+    ],
     '🌚': [
         'Ny måne med ansikte',
+        ':new_moon_with_face:',
         'Läskig Måne',
         'Mörk Månens Ansikte',
-        'Molester måne'
+        'Molester måne',
+        ':black:',
+        ':gray:',
+        ':grey:'
     ],
     '🌝': [
         'Full Moon med ansikte',
+        ':full_moon_with_face:',
         'Moonface',
         'Smiley Moon',
-        'Leende Månen'
+        'Leende Månen',
+        ':yellow:'
     ],
-    '🌛': ['Första kvartalet Månen med ansikte'],
-    '🌜': ['Sista kvartalet Månen med Ansikte'],
+    '🌛': [
+        'Första kvartalet Månen med ansikte',
+        ':first_quarter_moon_with_face:',
+        ':first_quarter_moon_face:',
+        ':yellow:'
+    ],
+    '🌜': [
+        'Sista kvartalet Månen med Ansikte',
+        ':last_quarter_moon_with_face:',
+        ':last_quarter_moon_face:',
+        ':yellow:'
+    ],
     '🌞': [
         'Sön med ansikte',
+        ':sun_with_face:',
         'Smiley Sön',
         'Sunface',
-        'Leende Solen'
+        'Leende Solen',
+        ':yellow:'
     ],
     '☀️': [
         'Sön',
-        'Solsken'
+        ':sun:',
+        'Solsken',
+        ':yellow:'
     ],
     '⭐': [
         'Stjärna',
-        'Vit Medium Stjärna'
+        ':star:',
+        'Vit Medium Stjärna',
+        ':yellow:'
     ],
     '🌟': [
         'Glödande stjärna',
-        'Skinande Stjärna'
+        ':glowing_star:',
+        'Skinande Stjärna',
+        ':yellow:'
     ],
     '☁️': [
         'Moln',
+        ':cloud:',
         'Molnigt',
-        'Mulet'
+        'Mulet',
+        ':white:'
     ],
-    '⛅': ['Sön bakom molnet'],
+    '⛅': [
+        'Sön bakom molnet',
+        ':thunder_cloud_and_rain:',
+        ':thunder_cloud_rain:',
+        ':cloud_with_lightning_and_rain:',
+        ':white:'
+    ],
     '⛈️': [
         'Moln med blixt och regn',
-        'Åskmoln och regn'
+        ':thunder_cloud_and_rain:',
+        ':thunder_cloud_rain:',
+        ':cloud_with_lightning_and_rain:',
+        'Åskmoln och regn',
+        ':white:'
     ],
-    '🌤️': ['Vit sol med litet moln'],
+    '🌤️': [
+        'Vit sol med litet moln',
+        ':mostly_sunny:',
+        ':sun_behind_small_cloud:',
+        ':sun_small_cloud:',
+        ':white_sun_small_cloud:',
+        ':white_sun_with_small_cloud:',
+        ':white:'
+    ],
     '🌥️': [
         'Sön bakom stort moln',
-        'Vit sol bakom molnet'
+        ':sun_behind_large_cloud:',
+        'Vit sol bakom molnet',
+        ':white:'
     ],
-    '🌦️': ['Vit sol bakom molnet med regn'],
-    '🌧️': ['Moln med regn'],
-    '🌨️': ['Moln med snö'],
-    '🌩️': ['Moln med Lightning'],
+    '🌦️': [
+        'Vit sol bakom molnet med regn',
+        ':sun_behind_rain_cloud:',
+        ':partly_sunny_rain:',
+        ':white_sun_rain_cloud:',
+        ':white_sun_behind_cloud_with_rain:',
+        ':white:'
+    ],
+    '🌧️': [
+        'Moln med regn',
+        ':cloud_with_rain:',
+        ':white:'
+    ],
+    '🌨️': [
+        'Moln med snö',
+        ':cloud_with_snow:',
+        ':white:'
+    ],
+    '🌩️': [
+        'Moln med Lightning',
+        ':cloud_with_lightning:',
+        ':white:'
+    ],
     '🌪️': [
         'Tornado',
+        ':tornado:',
         'Moln med Tornado'
     ],
-    '🌫️': ['Fog'],
+    '🌫️': [
+        'Fog',
+        ':fag:',
+        ':white:',
+        ':gray:',
+        ':grey:'
+    ],
     '🌈': [
         'Regnbåge',
+        ':rainbow:',
         'Gay Pride',
         'Primär regnbåge',
-        'LGBTQIA+',
-        'LGBT+'
+        'HBTQIA+',
+        'HBT+'
     ],
     '❄️': [
         'Snöflinga',
+        ':snowflake:',
         'Snö',
-        'Snöar'
+        'Snöar',
+        ':white:'
     ],
     '🌀': [
         'Cyklon',
+        ':cyclone:',
         'Orkan',
         'Spiral',
         'Virveln',
@@ -6863,131 +10016,191 @@ emojis_language[lang][13] = {
     ],
     '⚡': [
         'Högspänningstecken',
+        ':high_voltage_sign:',
         'Blixtnedslag Bolt',
         'Thunderbolt',
         'Hög spänning'
     ],
     '☃️': [
         'Snögubbe',
-        'Snögubbe med snöflingor'
+        ':snowman:',
+        'Snögubbe med snöflingor',
+        ':white:'
     ],
     '⛄': [
         'Snögubbe utan snö',
+        'Snöman_Utanför',
+        ':snowman:',
         'Frostiga snögubben',
         'Olaf',
-        'Snögubbe'
+        'Snögubbe',
+        ':white:'
     ],
-    '☄️': ['Komet'],
+    '☄️': [
+        'Komet',
+        ':comet:'
+    ],
     '🔥': [
         'Eld',
+        ':fire:',
         'Flamma',
         'Het',
         'Lit',
-        'Snapstreak'
+        'Snapstreak',
+        ':red:'
     ],
     '💧': [
         'Droplet',
+        ':droplet:',
         'Vatten',
-        'Vatten Släpp'
+        'Vatten Släpp',
+        ':blue:'
     ],
     '✨': [
         'Gnistrar',
+        ':sparkles:',
         'Glitter',
         'Shiny',
         'Ny'
     ],
     '🌊': [
         'Vatten Våg',
+        ':water_wave:',
         'Strand',
         'Havets Våg',
-        'Hav'
+        'Hav',
+        ':blue:'
     ],
     '🎄': [
         'Julgran',
+        'Julklappsträd',
         'Jul',
-        'Xmas träd'
+        'Xmas träd',
+        ':green:'
     ],
     '🎃': [
         'Jack-O-lykta',
+        'Lykta',
         'Halloween',
-        'Pumpa'
+        'Pumpa',
+        ':orange:'
     ],
     '🌻': [
         'Solros',
-        'Gul blomma'
+        ':sunflower:',
+        'Gul blomma',
+        ':yellow:'
     ],
     '🌼': [
         'Blossom',
+        ':blossom:',
         'Blommande Blomma',
         'Daisy',
-        'Gul blomma'
+        'Gul blomma',
+        ':yellow:'
     ],
-    '🌷': ['Tulip'],
+    '🌷': [
+        'Tulip',
+        ':tulip:',
+        ':pink:'
+    ],
     '🌹': [
         'Ros Blomma',
-        'Röd ros'
+        ':rose_flower:',
+        'Röd ros',
+        ':red:'
     ],
     '☘️': [
         'Schampo',
+        ':shamrock:',
         'Klöver',
-        'Trefolie'
+        'Trefolie',
+        ':green:'
     ],
     '🍀': [
         'Fyra blad klöver',
+        ':four_leaf_clover:',
         'Klöver',
         'Irland',
         'Tur',
-        'Lycka'
+        'Lycka',
+        ':green:'
     ],
     '🌸': [
         'Cherry Blossom',
+        ':cherry_blossom:',
         'Rosa blomma',
-        'Sakura'
+        'Sakura',
+        ':pink:'
     ],
     '💮': [
         'Vit Blomma',
+        ':white_flower:',
         'Cherry Blossom',
         'Papper Doily',
-        'Väl klar stämpel'
+        'Väl klar stämpel',
+        ':white:'
     ],
-    '🌺': ['Hibiscus'],
-    '🏵️': ['Rosett'],
+    '🌺': [
+        'Hibiscus',
+        ':hibiscus:',
+        ':red:'
+    ],
+    '🏵️': [
+        'Rosett',
+        ':rosette:',
+        ':orange:',
+        ':yellow:'
+    ],
     '🌱': [
         'Utsäde',
+        ':seedling:',
         'Fjäder',
         'Sprout',
-        'Gror'
+        'Gror',
+        ':green:'
     ],
     '🌲': [
         'Vintergröna träd',
+        ':evergreen_tree:',
         'Fir träd',
-        'Tall träd'
+        'Tall träd',
+        ':green:'
     ],
     '🌳': [
         'Lövträd',
-        'Rundat träd'
+        ':deciduous_tree:',
+        'Rundat träd',
+        ':green:'
     ],
     '🌴': [
         'Palmträd',
-        'Kokosträd'
+        ':palm_tree:',
+        'Kokosträd',
+        ':green:'
     ],
     '🎋': [
         'Tanabata träd',
+        ':tanabata_tree:',
         'Tanabata',
         'Önskat träd'
     ],
     '🎍': [
         'Tall dekoration',
+        ':pine_decoration:',
         'Bambu',
         'Kadomatsu',
         'Dekoration för nyår'
     ],
     '🌵': [
         'Cactus',
-        'Desert'
+        ':cactus:',
+        'Desert',
+        ':green:'
     ],
     '🌾': [
         'Kniva av ris',
+        ':sheaf_of_rice:',
         'Beskär',
         'Jordbruk',
         'Vete',
@@ -6995,110 +10208,183 @@ emojis_language[lang][13] = {
     ],
     '🌿': [
         'Ört',
+        ':herb:',
         'Beskär',
-        'Plantera'
+        'Plantera',
+        ':green:'
     ],
     '🍁': [
         'Lönn löv',
+        ':maple_leaf:',
         'Kanada',
         'Kanadensisk',
-        'Lönn'
+        'Lönn',
+        ':brown:'
     ],
     '🍂': [
         'Fallna blad',
+        ':fallen_leaf:',
         'Höstens blad',
         'Höstlöv',
         'Brun Löv',
         'Höstlöv',
-        'Fallna löv'
+        'Fallna löv',
+        ':brown:'
     ],
     '🍃': [
         'Bladflöjter i vinden',
+        ':leaf_fluttering_in_wind:',
+        ':leaves:',
         'Gröna blad',
-        'Fjäder'
+        'Fjäder',
+        ':green:'
     ],
-    '🪴': ['Krukväxt'],
+    '🪴': [
+        'Krukväxt',
+        ':potted_plant:',
+        ':green:'
+    ],
     '🪸': [
-        'Coral',
-        'Climate change'
+        'Korall',
+        ':coral:',
+        'Klimatförändringar'
     ],
     '🪷': [
         'Lotus',
-        'Purity',
-        'Beauty',
-        'Calmness',
-        'Serenity'
+        ':lotus:',
+        'Renhet',
+        'Skönhet',
+        'Lugn',
+        'Lugn'
     ],
     '🔑': [
         'Nyckel',
-        'Guld nyckel'
+        ':key:',
+        'Guld nyckel',
+        ':gold:',
+        ':yellow:'
     ],
-    '🗝️': ['Gammal nyckel'],
+    '🗝️': [
+        'Gammal nyckel',
+        ':old_key:',
+        ':brown:'
+    ],
     '🔨': [
         'Hammare',
+        ':hammer:',
         'Claw hammare',
         'Handyman',
         'Verktyg'
     ],
     '⛏️': [
         'Välj',
+        ':pick:',
         'Hacka'
     ],
-    '🪓': ['Yxa'],
-    '🪚': ['Snickarsåg'],
-    '🪛': ['Skruvmejsel'],
-    '🪝': ['Krok'],
-    '🪠': ['Plunger'],
-    '🪣': ['Hink'],
+    '🪓': [
+        'Yxa',
+        ':axe:'
+    ],
+    '🪚': [
+        'Snickarsåg',
+        ':carpentry_saw:'
+    ],
+    '🪛': [
+        'Skruvmejsel',
+        ':screwdriver:'
+    ],
+    '🪝': [
+        'Krok',
+        ':hook:'
+    ],
+    '🪠': [
+        'Plunger',
+        ':plunger:'
+    ],
+    '🪣': [
+        'Hink',
+        ':bucket:'
+    ],
     '🔩': [
         'Mutter och Bolt',
+        ':nut_and_bolt:',
         'Bolt',
-        'Skruv'
+        'Skruv',
+        ':gray:',
+        ':grey:'
     ],
     '🗜️': [
         'Klämma',
+        ':clamp:',
         'Tabell Vice',
         'WinZip',
-        'Komprimering'
+        'Komprimering',
+        ':gray:',
+        ':grey:'
     ],
     '🔒': [
         'Låst',
+        ':locked:',
         'Stängt lås',
         'Hänglås'
     ],
     '🔓': [
         'Upplåst',
+        ':unlocked:',
         'Öppna Padlock',
         'Öppna lås'
     ],
     '🔏': [
         'Låst med penna',
+        ':locked_with_pen:',
         'Lås och penna',
         'Lås med reservoarpenna',
         'Lås med bläckpenna'
     ],
     '🔐': [
         'Låst med nyckel',
+        ':locked_with_key:',
         'Stängt lås med nyckel'
     ],
     '🗡️': [
         'Dagger',
-        'Kniv Vapen'
+        ':dagger:',
+        'Kniv Vapen',
+        ':gray:',
+        ':grey:'
     ],
-    '⚔️': ['Korsade Svärd'],
+    '⚔️': [
+        'Korsade Svärd',
+        ':crossed_swords:',
+        ':gray:',
+        ':grey:'
+    ],
     '🔫': [
         'Pistol',
+        ':pistol:',
         'Kanon',
         'Revolver',
         'Spruta Pistol',
         'Vatten Kanon',
         'Vatten Pistol'
     ],
-    '🧰': ['Verktygslåda'],
-    '🧲': ['Magnet'],
-    '⛓️': ['Kedjor'],
+    '🧰': [
+        'Verktygslåda',
+        ':toolbox:',
+        ':red:'
+    ],
+    '🧲': [
+        'Magnet',
+        ':magnet:',
+        ':red:'
+    ],
+    '⛓️': [
+        'Kedjor',
+        ':chains:'
+    ],
     '💉': [
         'Syringe',
+        ':syringe:',
         'Blod Donation',
         'Blodprov',
         'Nål',
@@ -7106,30 +10392,51 @@ emojis_language[lang][13] = {
     ],
     '🧬': [
         'DNA',
+        ':dna:',
         'Dubbla DNA-spiraler'
     ],
-    '🧪': ['Provrör'],
+    '🧪': [
+        'Provrör',
+        ':test_tube:',
+        ':green:'
+    ],
     '🛏️': [
         'Säng',
+        ':bed:',
         'Sovrum'
     ],
     '🛋️': [
         'Soffa och lampa',
+        ':couch_and_lamp:',
         'Vardagsrum',
         'Settee',
         'Soffa'
     ],
-    '🪑': ['Stol'],
+    '🪑': [
+        'Stol',
+        ':chair:'
+    ],
     '🚪': [
         'Dörr',
+        ':door:',
         'Dörrväg',
         'Dörren fram'
     ],
-    '🪟': ['Fönster'],
-    '🪜': ['Stege'],
-    '🪞': ['Spegel'],
+    '🪟': [
+        'Fönster',
+        ':window:'
+    ],
+    '🪜': [
+        'Stege',
+        ':ladder:'
+    ],
+    '🪞': [
+        'Spegel',
+        ':mirror:'
+    ],
     '🚽': [
         'Toalett',
+        ':toilet:',
         'Badrum',
         'Loo',
         'Restroom',
@@ -7137,196 +10444,330 @@ emojis_language[lang][13] = {
     ],
     '🚿': [
         'Dusch',
+        ':shower:',
         'Dusch Huvud'
     ],
     '🛁': [
         'Badkar',
+        ':bathtub:',
         'Bubbelbad'
     ],
-    '🧴': ['Lotion Flaska'],
-    '🧷': ['PIN-kod för säkerhet'],
-    '🧺': ['Korg'],
+    '🧴': [
+        'Lotion Flaska',
+        ':location_bottle:'
+    ],
+    '🧷': [
+        'PIN-kod för säkerhet',
+        ':safety_pin:',
+        ':gray:',
+        ':grey:'
+    ],
+    '🧺': [
+        'Korg',
+        ':basket:',
+        ':brown:'
+    ],
     '🧻': [
         'Pappersrulle',
-        'Toalettpapper'
+        ':roll_of_paper:',
+        'Toalettpapper',
+        ':white:'
     ],
-    '🧼': ['Tvål bar'],
-    '🧽': ['Svamp'],
-    '🧯': ['Brandsläckare'],
+    '🧼': [
+        'Tvål bar',
+        ':bar_of_soap:'
+    ],
+    '🧽': [
+        'Svamp',
+        ':sponge:',
+        ':yellow:'
+    ],
+    '🧯': [
+        'Brandsläckare',
+        ':fire_extinguisher:',
+        ':red:'
+    ],
     '🚬': [
         'Cigarett',
+        ':cigarette:',
         'Röksymbol'
     ],
     '⚰️': [
         'Kaffe',
+        ':coffin:',
         'Casket',
-        'Begravning'
+        'Begravning',
+        ':brown:'
     ],
     '⚱️': [
         'Begravning Urn',
+        ':funeral_urn:',
         'Vas'
     ],
-    '🛡️': ['Sköld'],
+    '🛡️': [
+        'Sköld',
+        ':shield:'
+    ],
     '⚙️': [
         'Växel',
+        ':gear:',
         'Inställningar',
-        'Alternativ'
+        'Alternativ',
+        ':gray:',
+        ':grey:'
     ],
     '⚖️': [
         'Balansskala',
+        ':balance_scale:',
         'Skalor av rättvisa'
     ],
     '🔗': [
         'Länk',
+        ':link:',
         'Kedja',
         'Hyperlänk',
-        'Länkad kedja'
+        'Länkad kedja',
+        ':gray:',
+        ':grey:'
     ],
     '💀': [
         'Skalle',
+        ':skull:',
         'Död',
         'Grå skalle',
-        'Skelett'
+        'Skelett',
+        ':white:'
     ],
-    '☠️': ['Skalle och Crossbones'],
+    '☠️': [
+        'Skalle och Crossbones',
+        ':skull_and_crossbones:',
+        ':white:'
+    ],
     '🎡': [
         'Pariserhjul',
+        ':ferris_wheel:',
         'Stort hjul',
         'Fairgroundl',
         'Observationshjul'
     ],
     '⛽': [
         'Bränslepump',
+        'bränslepump:',
         'Olja',
         'Bensin',
-        'Gas'
+        'Gas',
+        ':red:'
     ],
     '🚨': [
         'Polisen bilar volvande ljus',
+        ':rotating_light:',
+        ':police_police_car:',
         'Nödljus',
         'Blinkande ljus',
-        'Siren'
+        'Siren',
+        ':red:'
     ],
-    '🚥': ['Horisontell trafik ljus'],
-    '🚦': ['Vertikalt trafikljus'],
+    '🚥': [
+        'Horisontell trafik ljus',
+        ':horizontal_traffic_light:',
+        ':green:',
+        ':red:',
+        ':yellow:',
+        ':orange:'
+    ],
+    '🚦': [
+        'Vertikalt trafikljus',
+        ':vertical_traffic_light:',
+        ':green:',
+        ':red:',
+        ':yellow:',
+        ':orange:'
+    ],
     '⚓': [
         'Admiralty Mönster Anchor',
+        ':anchor:',
         'Fiskare'
     ],
     '🚧': [
         'Konstruktion Signering',
-        'Svart och gul Randig skylt'
+        ':construction_sign:',
+        'Svart och gul Randig skylt',
+        ':yellow:',
+        ':black:'
     ],
-    '🪂': ['Parachute'],
+    '🪂': [
+        'Parachute',
+        ':parachute:'
+    ],
     '💺': [
         'Sittplats',
+        ':seat:',
         'Buss Flygplan Tåg Flygplan'
     ],
-    '🪐': ['Saturnus'],
+    '🪐': [
+        'Saturnus',
+        ':saturn:'
+    ],
     '🎆': [
         'Fyrverkerier',
+        ':fireworks:',
         'Explosion'
     ],
     '🎇': [
         'Senko Hanabi',
+        ':senko_hanabi:',
         'Fyrverkeri Glitter'
     ],
     '💷': [
         'Pund sedel',
+        ':pound:',
+        ':pound_banknote:',
         '£20 Anteckning',
         'Tjugo Quid Note',
-        'Sedel med pund'
+        'Sedel med pund',
+        ':purple:'
     ],
     '💶': [
         'Euro Banknote',
+        ':euro:',
+        ':euro_banknote:',
         '€100 Notering',
-        'Sedel med euroskylt'
+        'Sedel med euroskylt',
+        ':blue:'
     ],
     '💵': [
         'Dollar sedel',
+        ':dollar:',
+        ':dollar_banknote:',
         '$1 Not',
         'Sedel med Dollarskylt',
         'Dollar Bill',
-        'Amerikansk Dollar'
+        'Amerikansk Dollar',
+        ':green:'
     ],
     '💴': [
         'Yen sedel',
+        ':yen:',
+        ':yen_banknote:',
         '<unk> 1000 Anteckning',
         'Yen anteckning',
-        'Sedel med Yen Sign'
+        'Sedel med Yen Sign',
+        ':yellow:'
     ],
-    '⛺': ['Camping Tält'],
+    '⛺': [
+        'Camping Tält',
+        ':camping_tent:'
+    ],
     '⛲': [
         'Fontänen',
+        ':fountain:',
         'Vattenfunktion',
         'Vatten fontän',
         'Parkera'
     ],
     '💰': [
         'Pengar väska',
+        ':money_bag:',
         'Moneybags',
         'Rik',
         '$'
     ],
     '💸': [
         'Pengar med vingar',
+        ':money_with_wings:',
         'Flygande pengar',
         ' Förlorar pengar'
     ],
-    '🏷️': ['Etikett tagg'],
+    '🏷️': [
+        'Etikett tagg',
+        ':label_tag:'
+    ],
     '🔖': [
         'Bokmärke',
+        ':bookmark:',
         'Pris tagg',
         'Tagg'
     ],
-    '📑': ['Bokmärk flikar'],
+    '📑': [
+        'Bokmärk flikar',
+        ':bookmark_tabs:',
+        ':white:'
+    ],
     '📯': [
         'Postalt horn',
+        ':postal_horn:',
         'Bugle',
         'Fransk Horn'
     ],
-    '🪁': ['Kite'],
-    '🪀': ['Yo-Yo'],
+    '🪁': [
+        'Kite',
+        ':kite:',
+        ':purple:'
+    ],
+    '🪀': [
+        'Yo-Yo',
+        ':yo_yo:',
+        ':yo-yo:'
+    ],
     '🎊': [
         'Confetti Ball',
+        ':confetti_ball:',
         'Confetti'
     ],
     '🎉': [
         'Party Popper',
+        ':party_popper:',
         'Firande',
         'Fest Hatt'
     ],
     '🎈': [
         'Ballong',
+        ':balloon:',
         'Fest',
-        'Röd ballong'
+        'Röd ballong',
+        ':red:'
     ],
     '🌡️': [
         'Termometer',
+        ':thermometer:',
         'Varmt väder',
-        'Temperatur'
+        'Temperatur',
+        ':red:'
     ],
-    '🛢️': ['Olja trumma'],
-    '💣': ['Bomb'],
+    '🛢️': [
+        'Olja trumma',
+        ':oil_drum:'
+    ],
+    '💣': [
+        'Bomb',
+        ':bomb:'
+    ],
     '🔪': [
         'Kök kniv',
+        ':kitchen_knife:',
         'Kniv',
         'Slaktare kniv',
         'Hocho'
     ],
     '🏺': [
         'Amphora',
+        ':amphora:',
         'Burk',
         'Vas'
     ],
-    '🗺️': ['Karta över världen'],
+    '🗺️': [
+        'Karta över världen',
+        ':world_map:'
+    ],
     '🎼': [
         'Musikalisk poäng',
+        ':musical_score:',
         'Musik på arket',
         'Treble Clef'
     ],
     '🎬': [
         'Klapperbräda',
+        ':clapper_board:',
         'Klipp',
         'Åtgärd',
         'Direktör',
@@ -7334,51 +10775,74 @@ emojis_language[lang][13] = {
     ],
     '🎻': [
         'Violin',
+        ':violin:',
         'Sträng kvartett',
-        'Världens minsta fiol'
+        'Världar Minsta Violin'
     ],
     '🎺': [
         'Trumpet',
+        ':trumpet:',
         'Horn',
         'Jazz'
     ],
     '🎸': [
         'Gitarr',
+        ':guitar:',
         'Akustisk gitarr',
         'Bas gitarr',
         'Elektrisk gitarr'
     ],
     '🎷': [
         'Saxofon',
+        ':saxophone:',
         'Jazz',
         'Sax'
     ],
     '🥁': [
         'Trumma',
+        ':drum:',
         'Trumma med trumstockar'
     ],
     '🎹': [
         'Piano',
-        'Musikiskt tangentbord'
+        ':piano:',
+        'Musikiskt tangentbord',
+        ':white:',
+        ':black:'
     ],
-    '🪕': ['Banjo'],
-    '🪗': ['Dragspel'],
-    '🪘': ['Lång trumma'],
+    '🪕': [
+        'Banjo',
+        ':banjo:'
+    ],
+    '🪗': [
+        'Dragspel',
+        ':accordion:'
+    ],
+    '🪘': [
+        'Lång trumma',
+        ':long_drum:'
+    ],
     '🎨': [
         'Artist Palett',
+        ':artist_palette:',
         'Konst',
         'Målning'
     ],
     '🧩': [
         'Pusselbit',
-        'Pusselbit för pussel'
+        ':puzzle_piece:',
+        'Pusselbit för pussel',
+        ':green:'
     ],
     '🎲': [
         'Spel Die',
-        'Tärning'
+        ':game_die:',
+        'Tärning',
+        ':white:'
     ],
     '🎭': [
         'Scenkonst',
+        'Föreställningar',
         'Teater',
         'Teater',
         'Drama Masker',
@@ -7388,143 +10852,293 @@ emojis_language[lang][13] = {
     ],
     '🔍': [
         'Förstoringsglas lutat till vänster',
+        ':mag:',
+        ':magnifying_glass_tilted_left:',
         'Magnifier',
         'Sök ikon',
         'Förstoringsglas till vänster',
-        'Sök'
+        'Sök',
+        ':transparent:'
     ],
     '🔎': [
         'Förstoringsglas lutat höger',
+        ':mag_right:',
+        ':magnifying_glass_tilted_right:',
         'Magnifier',
         'Sök ikon',
         'Förstoringsglas med högerpekare',
-        'Sök'
+        'Sök',
+        ':transparent:'
     ],
     '⌛': [
         'Timglaset klart',
+        ':hourglass:',
+        ':hourglass_done:',
         'Timglas'
     ],
     '⏳': [
         'Timglaset är inte gjort',
+        ':hourglass_flowing_sand:',
+        ':hourglass_not_done:',
         'Timglas med flödande sand'
     ],
     '🕐': [
-        'En O\'Clock',
-        'Klocka Face One O\'Clock'
+        'Ett OClock',
+        ':clock1:',
+        ':one_oclock:',
+        'Klocka Face One OClock',
+        ':gray:',
+        ':grey:'
     ],
-    '🕜': ['Klocka Ansikte En Trettio'],
+    '🕜': [
+        'Klocka Ansikte En Trettio',
+        ':clock130:',
+        ':one_thirty:',
+        ':gray:',
+        ':grey:'
+    ],
     '🕑': [
-        'Två O\'Clock',
-        'Klocka Face två O\'Clock'
+        'Två OClock',
+        ':clock2:',
+        ':two_oclock:',
+        'Klocka Ansikte Två OClock',
+        ':gray:',
+        ':grey:'
     ],
-    '🕝': ['Klocka Face Två-30'],
+    '🕝': [
+        'Klocka Face Två-30',
+        ':clock230:',
+        ':two_thirty:',
+        ':gray:',
+        ':grey:'
+    ],
     '🕒': [
-        'Tre O\'Clock',
-        'Klocka Ansikte Tre O\'Clock'
+        'Tre OClock',
+        ':clock3:',
+        ':three_oclock:',
+        'Klocka Ansikte Tre OClock',
+        ':gray:',
+        ':grey:'
     ],
-    '🕞': ['Klocka Ansikte tre-30'],
+    '🕞': [
+        'Klocka Ansikte tre-30',
+        ':clock330:',
+        ':three_thirty:',
+        ':gray:',
+        ':grey:'
+    ],
     '🕓': [
-        'Fyra O\'Clock',
-        'Klocka Face Four O\'Clock'
+        'Fyra OClock',
+        ':clock4:',
+        ':four_oclock:',
+        'Klocka Ansikte Fyra OClock',
+        ':gray:',
+        ':grey:'
     ],
-    '🕟': ['Klocka Ansikte Fyra Trettio'],
+    '🕟': [
+        'Klocka Ansikte Fyra Trettio',
+        ':clock430:',
+        ':four_thirty:',
+        ':gray:',
+        ':grey:'
+    ],
     '🕔': [
-        'Fem klockan',
-        'Klocka Face Five O\'Clock'
+        'Fem OClock',
+        ':clock5:',
+        ':five_oclock:',
+        'Klocka Face Fem OClock',
+        ':gray:',
+        ':grey:'
     ],
-    '🕠': ['Klocka ansikte fem-trettio'],
+    '🕠': [
+        'Klocka ansikte fem-trettio',
+        ':clock530:',
+        ':five_thirty:',
+        ':gray:',
+        ':grey:'
+    ],
     '🕕': [
-        'Sex O\'Clock',
-        'Klocka Face Six O\'Clock'
+        'Sex OClock',
+        ':clock6:',
+        ':size_oclock:',
+        'Klocka Ansikte Sex OClock',
+        ':gray:',
+        ':grey:'
     ],
-    '🕡': ['Klocka Ansikte sex-trettio'],
+    '🕡': [
+        'Klocka Ansikte sex-trettio',
+        ':clock630:',
+        ':six_thirty:',
+        ':gray:',
+        ':grey:'
+    ],
     '🕖': [
-        'Sju klockan',
-        'Klocka Face Seven O\'Clock'
+        'Sju OClock',
+        ':clock7:',
+        ':seven_oclock:',
+        'Klocka Ansikte Sju OClock',
+        ':gray:',
+        ':grey:'
     ],
-    '🕢': ['Klocka Ansikte sju-trettio'],
+    '🕢': [
+        'Klocka Ansikte sju-trettio',
+        ':clock730:',
+        ':sever_thirty:',
+        ':gray:',
+        ':grey:'
+    ],
     '🕗': [
-        'Åtta klockan',
-        'Klocka Ansikte Åtta O\'Clock'
+        'Åtta OClock',
+        ':clock8:',
+        ':eight_oclock:',
+        'Klocka Ansikte Åtta OClock',
+        ':gray:',
+        ':grey:'
     ],
-    '🕣': ['Klocka ansikte åtta Trettio'],
+    '🕣': [
+        'Klocka ansikte åtta Trettio',
+        ':clock830:',
+        ':eight_thirty:',
+        ':gray:',
+        ':grey:'
+    ],
     '🕘': [
-        'Nio klockan',
-        'Klocka Face Nio O\'Clock'
+        'Nio OClock',
+        ':clock9:',
+        ':nine_clock:',
+        'Klocka Ansikte Nio OClock',
+        ':gray:',
+        ':grey:'
     ],
-    '🕤': ['Klocka Ansikte nio-trettio'],
+    '🕤': [
+        'Klocka Ansikte nio-trettio',
+        ':clock930:',
+        ':nine_thirty:',
+        ':gray:',
+        ':grey:'
+    ],
     '🕙': [
-        'Tio klockan',
-        'Klocka Face Ten O\'Clock'
+        'Tio OClock',
+        ':clock10:',
+        ':ten_oclock:',
+        'Klocka Ansikte Tio OClock',
+        ':gray:',
+        ':grey:'
     ],
-    '🕥': ['Klocka Ansikte Tio-Trettio'],
+    '🕥': [
+        'Klocka Ansikte Tio-Trettio',
+        ':clock1030:',
+        ':ten_thirty:',
+        ':gray:',
+        ':grey:'
+    ],
     '🕚': [
-        'Elva O\'Clock',
-        'Klocka Face Elva O\'Clock'
+        'Eleven OClock',
+        ':click11:',
+        ':eleven_oclock:',
+        'Klocka Ansikte Elva OClock',
+        ':gray:',
+        ':grey:'
     ],
-    '🕦': ['Klocka ansikte Elva Trettio'],
+    '🕦': [
+        'Klocka ansikte Elva Trettio',
+        ':clock1130:',
+        ':eleven_thirty:',
+        ':gray:',
+        ':grey:'
+    ],
     '🕛': [
-        'Tolv O\'Clock',
-        'Klocka Face Tolv O\'Clock'
+        'Tolv OClock',
+        ':clock12:',
+        ':twelve_oclock:',
+        'Klocka Ansikte Tolv OClock',
+        ':gray:',
+        ':grey:'
     ],
-    '🕧': ['Klocka Ansikte Tolv-30'],
+    '🕧': [
+        'Klocka Ansikte Tolv-30',
+        ':clock1230:',
+        ':twelve_thirty:',
+        ':gray:',
+        ':grey:'
+    ],
     '♨️': [
         'Hot Springs',
+        ':hot_springs:',
         'Onsen',
-        'Ånga'
+        'Ånga',
+        ':red:'
     ],
     '💈': [
         'Frisör Stång',
+        ':barber_pole:',
         'Barberare Shop',
-        'Barberarens Rand',
-        'Frisör'
+        'Barbers Rand',
+        'Frisör',
+        ':blue:',
+        ':red:'
     ],
     '🎪': [
         'Cirkus tält',
+        ':circus_tent:',
         'Stor topp',
         'Cirkus'
     ],
     '💢': [
         'Ilska Symbol',
+        ':anger_symbol:',
         'Ilska tecken',
-        'Vein Pop'
+        'Vein Pop',
+        ':red:'
     ],
     '🗯️': [
         'Rätt ilska bubbla',
+        ':right_anger_bubble:',
+        ':anger_right:',
         'Zig Zag Bubble',
-        'Arg talbubbla'
+        'Arg talbubbla',
+        ':white:'
     ],
     '💊': [
         'Pill',
+        ':pill:',
         'Kapsel',
         'Surfplatta',
-        'Droger'
+        'Droger',
+        ':yellow:',
+        ':red:'
     ],
     '🎎': [
         'Dockor',
+        ':dolls:',
         'Hinamatsuri',
         'Brittiska dockor',
         'Japanska dockor'
     ],
     '🎏': [
         'Karp Streamer',
+        ':carp_streamer:',
         'Fisk flagga',
         'Koinobori',
         'Vind Strumpor'
     ],
     '🎐': [
         'Vind Chime',
+        ':wind_chime:',
         'Furin',
         'Manet',
         'Vind Bell'
     ],
     '🎀': [
         'Band pilbåge',
+        ':ribbon_bow:',
         'Rosa pilbåge',
-        'Pilbåge'
+        'Pilbåge',
+        ':pink:'
     ],
     '🎁': [
         'Omsluten gåva',
+        ':wrapped_gift:',
         'Födelsedag närvarande',
         'Julklapp',
         'Gåva',
@@ -7534,167 +11148,324 @@ emojis_language[lang][13] = {
     ],
     '🎫': [
         'Ärende',
+        ':ticket:',
         'Biljett Stubb',
         'Biljett till världsturné'
     ],
     '🃏': [
         'Skämt',
+        ':joker:',
         'Jokerkort',
         'Spela kort svart Joker'
     ],
     '💡': [
         'Glödlampa',
+        ':light_bulb:',
         'Idé',
         'Elektrisk glödlampa'
     ],
     '🔦': [
         'Ficklampa',
+        ':flashlight:',
         'Ficklampa',
         'Elektrisk fackla'
     ],
     '🏮': [
         'Rödpapper lykta',
+        ':izakaya_lantern:',
+        ':lantern:',
+        ':red_paper_lantern:',
         'Asiatisk lykta',
         'Japansk lykta',
         'Röd lykta',
-        'Izakaya lykta'
+        'Izakaya lykta',
+        ':red:'
     ],
     '📦': [
         'Paket',
+        ':package:',
         'Låda',
-        'Paket'
+        'Paket',
+        ':brown:'
     ],
     '📇': [
         'Index kort',
+        ':card_index:',
         'Rolodex',
         'System kort',
         'Kortets index'
     ],
-    '🕳️': ['Hål'],
+    '🕳️': [
+        'Hål',
+        ':hole:',
+        ':black:'
+    ],
     '👁️‍🗨️': [
         'Jag är vittne',
+        ':eye_in_speech_bubble:',
+        ':eye_speech_bubble:',
+        ':eye-in-speech-bubble:',
         'Öga i talbubbla'
     ],
     '⚜️': [
         'Fleur-de-lis',
+        ':fleur_de_lis:',
         'Scouter',
         'Nya Orleans helgon'
     ],
-    '⚗️': ['Alembic'],
-    '🕯️': ['Ljus'],
+    '⚗️': [
+        'Alembic',
+        ':alembic:'
+    ],
+    '🕯️': [
+        'Ljus',
+        ':candle:',
+        ':white:'
+    ],
     '🖼️': [
         'Inramad bild',
+        ':framed_picture:',
         'Målning',
         'Bildens ram',
         'Ram med bild'
     ],
-    '🛍️': ['Shoppa väskor'],
-    '🎟️': ['Antagning Biljetter'],
-    '🛎️': ['Bellhop Bell'],
-    '🧾': ['Kvitto'],
-    '🧮': ['Abacus'],
-    '🧫': ['Petri maträtt'],
+    '🛍️': [
+        'Shoppa väskor',
+        ':shopping_bags:'
+    ],
+    '🎟️': [
+        'Antagning Biljetter',
+        ':admission_tickets:'
+    ],
+    '🛎️': [
+        'Bellhop Bell',
+        ':bellhop_bell:',
+        ':yellow:',
+        ':gold:'
+    ],
+    '🧾': [
+        'Kvitto',
+        ':receipt:',
+        ':white:'
+    ],
+    '🧮': [
+        'Abacus',
+        ':abacus:'
+    ],
+    '🧫': [
+        'Petri maträtt',
+        ':petri_dish:'
+    ],
     '🧹': [
         'Brum',
+        ':broom:',
         'Pensla',
-        'Svep'
+        'Svep',
+        ':yellow:'
     ],
     '🎰': [
         'Spelautomat',
+        ':slot_machine:',
         'Kasino',
         'Frukt Maskin',
         'Spelande',
         'Poker maskin'
     ],
-    '🦽': ['Manuell Rullstol'],
-    '🦼': ['Motordriven Rullstol'],
-    '🪔': ['Diya lampa'],
-    '🦯': ['White Cane'],
-    '🩸': ['Släpp blod'],
-    '🩹': ['Självhäftande bandage'],
-    '🩺': ['Stetoskop'],
-    '🪶': ['Fjäder'],
-    '🪤': ['Mus Fälla'],
-    '🫖': ['Teapot'],
-    '🪨': ['Sten'],
-    '🪵': ['Trä'],
-    '🪄': ['Magiskt trollstav'],
+    '🦽': [
+        'Manuell Rullstol',
+        ':manual_wheelchair:',
+        ':wheelchair:'
+    ],
+    '🦼': [
+        'Motordriven Rullstol',
+        ':motorized_wheelchair:'
+    ],
+    '🪔': [
+        'Diya lampa',
+        ':diya_lamp:'
+    ],
+    '🦯': [
+        'White Cane',
+        ':whie_cane:'
+    ],
+    '🩸': [
+        'Släpp blod',
+        ':drop_of_blood:',
+        ':red:'
+    ],
+    '🩹': [
+        'Självhäftande bandage',
+        ':adhesive_bandage:'
+    ],
+    '🩺': [
+        'Stetoskop',
+        ':stethoscope:'
+    ],
+    '🪶': [
+        'Fjäder',
+        ':feather:'
+    ],
+    '🪤': [
+        'Mus Fälla',
+        ':mouse_trap:'
+    ],
+    '🫖': [
+        'Teapot',
+        ':teapot:'
+    ],
+    '🪨': [
+        'Sten',
+        ':rock:',
+        ':gray:',
+        ':grey:'
+    ],
+    '🪵': [
+        'Trä',
+        ':wood:',
+        ':brown:'
+    ],
+    '🪄': [
+        'Magiskt trollstav',
+        ':magin_wand:'
+    ],
     '🔮': [
         'Kristall boll',
+        ':crystal_ball:',
         'Clairvoyant',
         'Fortune Teller',
         'Psykisk',
-        'Lila Kristall'
+        'Lila Kristall',
+        ':purple:'
     ],
-    '🪅': ['Pin<unk> ata'],
+    '🪅': [
+        'Pin<unk> ata',
+        ':pinata:',
+        ':piñata:'
+    ],
     '🪆': [
         'Häckande dockor',
+        ':nesting_dolls:',
         'Matrjosjka'
     ],
-    '🪡': ['Sy nål'],
-    '🪢': ['Knut'],
-    '🪙': ['Mynt'],
-    '🪃': ['Boomerang'],
-    '🪥': ['Tandborste'],
-    '🪦': ['Huvudsten'],
-    '🪧': ['Placard'],
-    '🪒': ['Razor'],
-    '🫙': ['Burk'],
+    '🪡': [
+        'Sy nål',
+        ':swing_needle:'
+    ],
+    '🪢': [
+        'Knut',
+        ':knot:',
+        ':red:',
+        ':blue:'
+    ],
+    '🪙': [
+        'Mynt',
+        ':coin:'
+    ],
+    '🪃': [
+        'Boomerang',
+        ':boomerang:',
+        ':brown:'
+    ],
+    '🪥': [
+        'Tandborste',
+        ':toothbrush:'
+    ],
+    '🪦': [
+        'Huvudsten',
+        ':headstone:',
+        ':gray:',
+        ':grey:'
+    ],
+    '🪧': [
+        'Placard',
+        ':placard:'
+    ],
+    '🪒': [
+        'Razor',
+        ':razor:'
+    ],
+    '🫙': [
+        'Burk',
+        ':jar:',
+        ':transparent:'
+    ],
     '🛞': [
-        'Wheel',
-        'Vehicles',
-        'Cars'
+        'Hjul',
+        ':wheel:',
+        'Fordon',
+        'Bilar',
+        ':black:'
     ],
     '🛟': [
-        'Ring Buoy',
-        'Life Preserver',
-        'Life Ring',
-        'Boats',
-        'Safety',
+        'Ringboj',
+        ':ring_buoy:',
+        'Livräddare',
+        'Livets Ring',
+        'Båtar',
+        'Säkerhet',
         'Vatten',
-        'Lifesaving'
+        'Livräddning',
+        ':red:',
+        ':white:'
     ],
     '🪬': [
         'Hamsa',
+        ':hamsa:',
         'Islam',
-        'Judaism',
+        'Judendomen',
         'Buddhism',
-        'Christianity',
-        'Religions',
-        'Luck',
-        'Protection',
-        'Guidance',
-        'Feminine Power',
-        'Faith'
+        'Kristendomen',
+        'Religioner',
+        'Tur',
+        'Skydd',
+        'Vägledning',
+        'Feminin Kraft',
+        'Tro',
+        ':blue:'
     ],
     '🪩': [
-        'Mirror Ball',
-        'Disco Ball'
+        'Spegelboll',
+        ':mirror_ball:',
+        'Disco boll'
     ],
     '🪫': [
-        'Low Battery',
-        'Röd',
-        'Energy'
+        'Låg batterinivå',
+        ':low_battery:',
+        ':red:',
+        'Energi',
+        'Röd'
     ],
-    '🩻': ['X-Ray'],
+    '🩻': [
+        'Röntgen',
+        ':x_ray:',
+        ':x-ray:',
+        ':blue:'
+    ],
     '🫧': [
-        'Bubbles',
-        'Soap Suds',
-        'Carbonation',
-        'Effervescent Personality'
+        'Bubblor',
+        ':bubbles:',
+        'Tvål Suds',
+        'Karbonation',
+        'Effektiv personlighet',
+        ':transparent:'
     ],
     '🪪': [
-        'Identification Card',
-        'Identity',
-        'Passport',
+        'Identifieringskort',
+        ':identification_card:',
+        'Identitet',
+        'Pass',
         'ID'
     ],
     '🧿': [
         'Nazar Amulet',
-        'Evil Eye'
+        ':nazar_amulet:',
+        'Onda Öga',
+        ':blue:'
     ],
     '🧸': [
-        'Teddy Bear',
-        'Toy'
+        'Nallebjörn',
+        ':teddy_bear:',
+        'Leksak',
+        ':brown:'
     ]
 };

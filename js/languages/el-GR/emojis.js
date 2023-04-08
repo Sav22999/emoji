@@ -24,19 +24,25 @@ emojis_language[lang][0] = {};
 emojis_language[lang][2] = {
     '😀': [
         'Grinning Πρόσωπο',
-        ':)',
+        ':grinning:',
+        ':grinning_face:',
+        '::):',
         'Ευτυχισμένο Πρόσωπο',
         'Χαμογελαστό Πρόσωπο'
     ],
     '😃': [
         'Grinning Πρόσωπο με μεγάλα μάτια',
-        ':D',
+        ':smiley:',
+        ':grinning_face_with_big_eyes:',
+        '::D:',
         'Ευτυχισμένο Πρόσωπο',
         'Χαμογελαστό Πρόσωπο',
         'Χαμογελώντας πρόσωπο με ανοιχτό στόμα'
     ],
     '😄': [
         'Grinning Πρόσωπο με Χαμογελώντας Μάτια',
+        ':smile:',
+        ':grinning_face_with_smiling_eyes:',
         'Ευτυχισμένο Πρόσωπο',
         'Χαμογελαστό Πρόσωπο',
         'Grinning Πρόσωπο Με Ματιά Squinting',
@@ -44,12 +50,15 @@ emojis_language[lang][2] = {
     ],
     '😁': [
         'Ομαδοποίηση προσώπου με χαμογελαστά μάτια',
+        ':grin:',
+        ':beaming_face_with_smiling_eyes:',
         'Grinning Πρόσωπο με Χαμογελώντας Μάτια'
     ],
     '😆': [
         'Grinning Squinting Πρόσωπο',
-        'xD',
-        '><',
+        ':grinning_squinting_face:',
+        ':xD:',
+        ':><:',
         'Μεγάλο Grin',
         'Χαμόγελο Κλειστά Μάτια',
         'Γέλεια',
@@ -58,6 +67,7 @@ emojis_language[lang][2] = {
     ],
     '😅': [
         'Grinning Πρόσωπο με Sweat',
+        ':happy_sweat:',
         'Άσκηση',
         'Ευτυχισμένος Φούρνος',
         'Grinning πρόσωπο με μάτια Squinting και Sweat Drop',
@@ -65,10 +75,12 @@ emojis_language[lang][2] = {
     ],
     '🤣': [
         'ROFL',
+        ':rofl:',
         'Τροχαίο στο πάτωμα Γέλεια'
     ],
     '😂': [
         'Πρόσωπο με τα δάκρυα της χαράς',
+        ':lol:',
         'Γέλεια',
         'Γέλια Κλάμα',
         'Γέλια Δάκρυα',
@@ -76,49 +88,59 @@ emojis_language[lang][2] = {
     ],
     '🙂': [
         'Ελαφρώς Χαμογελώντας Πρόσωπο',
-        ':)',
+        ':smile:',
+        '::):',
         'Ελαφρώς Ευτυχισμένο',
         'Αυτό Είναι Καλό'
     ],
     '🙃': [
         'Ανάποδο Πρόσωπο',
+        ':upside-down_face:',
+        ':upside_down_face:',
         'Sarcasm',
         'Silly',
         'Ανάποδο Πρόσωπο'
     ],
     '😉': [
         'Winking Πρόσωπο',
-        ';)',
+        ':winking:',
+        ':;):',
         'Ροζ',
         'Ροζ Πρόσωπο',
         'Winky Πρόσωπο'
     ],
     '😊': [
         'Χαμογελώντας πρόσωπο με χαμογελαστά μάτια',
-        '^^',
+        ':smiling_face:',
+        ':^^:',
         'Ευτυχισμένο Πρόσωπο',
         'Χαμόγελο',
         'Χαμογελαστό Πρόσωπο'
     ],
     '😇': [
         'Χαμογελαστό πρόσωπο με Halo',
+        ':smiling_angel:',
         'Άγγελος',
         'Halo'
     ],
     '🥰': [
         'Χαμογελώντας πρόσωπο με καρδιές',
+        ':smiling_hearts:',
         'Αγάπη Πρόσωπο',
         'Χαμογελώντας πρόσωπο με χαμογελαστά μάτια και τρεις καρδιές'
     ],
     '😍': [
         'Χαμογελαστό πρόσωπο με τα μάτια καρδιάς',
-        '*.*',
+        ':smiling_heart-eyes:',
+        ':smiling_heart_eyes:',
+        ':*.*:',
         'Μάτια Καρδιάς',
         'Καρδιά Πρόσωπο',
         'Χαμογελώντας πρόσωπο με μάτια σε σχήμα καρδιάς'
     ],
     '🤩': [
         'Αστέρι-Δομή',
+        ':star_eyes:',
         'Ερεθισμένος',
         'Μάτια Με Αστέρια',
         'Έναστρο Eyed',
@@ -128,8 +150,9 @@ emojis_language[lang][2] = {
     ],
     '😘': [
         'Πρόσωπο που ρέει ένα φιλί',
-        ':*',
-        ':-*',
+        ':kissing_face:',
+        '::*:',
+        '::-*:',
         'Χτύπημα Ένα Φιλί',
         'Blowing Φιλί',
         'Φιλιά',
@@ -137,14 +160,16 @@ emojis_language[lang][2] = {
     ],
     '😗': [
         'Φιλί Πρόσωπο',
-        ':*',
-        ':-*',
+        ':kissing_face:',
+        '::*:',
+        '::-*:',
         'Πάπιες Πρόσωπο',
         'Kissy Face',
         'Σφυρίχτρα'
     ],
     '☺️': [
         'Χαμογελώντας Πρόσωπο',
+        ':smiling_face:',
         'Ευτυχισμένο Πρόσωπο',
         'Χαμογελαστό Πρόσωπο',
         'Χαμογελώντας',
@@ -152,11 +177,13 @@ emojis_language[lang][2] = {
     ],
     '😚': [
         'Φιλί πρόσωπο με κλειστά μάτια',
+        ':kissing_face:',
         'Φιλί Πρόσωπο',
         'Kissy Face'
     ],
     '😙': [
         'Φιλί πρόσωπο με χαμογελώντας μάτια',
+        ':kissing_face:',
         'Φιλί Πρόσωπο',
         'Kissy',
         'Σφυρίχτρα',
@@ -164,6 +191,7 @@ emojis_language[lang][2] = {
     ],
     '😋': [
         'Face Savoring Food',
+        ':savoring_face:',
         'Goofy',
         'Πεινασμένος',
         'Χαμογελώντας Το Πρόσωπο Γλείφει Χείλη',
@@ -172,7 +200,8 @@ emojis_language[lang][2] = {
     ],
     '😛': [
         'Πρόσωπο με γλώσσα',
-        ':P',
+        ':tongue_face:',
+        '::P:',
         'Τσιχούρι',
         'Πρόσωπο Γλώσσα',
         'Τόνγκου-Out',
@@ -180,7 +209,8 @@ emojis_language[lang][2] = {
     ],
     '😜': [
         'Winking Πρόσωπο με γλώσσα',
-        ';P',
+        ':winking:',
+        ':;P:',
         'Τρελό',
         'Τρελό Πρόσωπο',
         'Winking Πρόσωπο Με Stuck-Out Γλώσσα',
@@ -188,6 +218,7 @@ emojis_language[lang][2] = {
     ],
     '🤪': [
         'Zany Face',
+        ':crazy_face:',
         'Τρελά Μάτια',
         'Ερεθισμένος',
         'Άγρια',
@@ -196,20 +227,24 @@ emojis_language[lang][2] = {
     ],
     '😝': [
         'Squinting Πρόσωπο με γλώσσα',
-        'xP',
+        ':tongue_face:',
+        ':xP:',
         'Έξοδος Γλώσσας',
         'Πρόσωπο με κολλήσει έξω γλώσσα και στριμωγμένα μάτια',
         'Πρόσωπο με Stuck-Out γλώσσα και Tightly-Closed Μάτια'
     ],
     '🤑': [
         'Πρόσωπο Μήνας-Στόματος',
-        ':$',
+        ':money-mouth_face:',
+        ':money_mouth_face:',
+        '::$:',
         'Δολάριο Σημάδι Μάτια',
         'Πρόσωπο Χρήματος',
         'Πλούσιο'
     ],
     '🤗': [
         'Σχολιάζοντας Πρόσωπο',
+        ':hugging_face:',
         'Αγκαλιά',
         'Σχολιασμός',
         'Αγκαλιές',
@@ -217,11 +252,13 @@ emojis_language[lang][2] = {
     ],
     '🤭': [
         'Ωχ',
+        ':oops:',
         'Πρόσωπο με το χέρι πάνω από το στόμα',
         'Χαμογελώντας πρόσωπο με χαμογελαστά μάτια και χέρι κάλυψη στόμα'
     ],
     '🤫': [
         'Shh',
+        ':shushing_face:',
         'Shush',
         'Shushing Πρόσωπο',
         'Θάμβος',
@@ -232,6 +269,7 @@ emojis_language[lang][2] = {
     ],
     '🤔': [
         'Τι',
+        ':thinking_face:',
         '?',
         'Χμμ',
         'Σκέψη Πρόσωπο',
@@ -241,6 +279,7 @@ emojis_language[lang][2] = {
     ],
     '🤐': [
         'Τ.Κ.',
+        ':zip_face:',
         'Πρόσωπο Φερμουάρ-Στόματος',
         'Χείλη Σφραγισμένα',
         'Σφραγισμένα Χείλη',
@@ -249,6 +288,7 @@ emojis_language[lang][2] = {
     ],
     '🤨': [
         'Πρόσωπο με ενισχυμένο φρύδι',
+        ':face_with_raised_eyebrow:',
         'Colbert',
         'Ο Βράχος',
         'Πρόσωπο Με Αυξημένο Φρύδι',
@@ -256,18 +296,21 @@ emojis_language[lang][2] = {
     ],
     '😐': [
         'Ουδέτερο Πρόσωπο',
+        ':neutral_face:',
         ':|',
         'Πρόσωπο Με Ευθεία Στόμα',
         'Straight Faced'
     ],
     '😑': [
         'Χωρίς Εξπρεσιονίκες Πρόσωπο',
+        ':expressionless_face:',
         '-_-',
         'Πρόσωπο Με Ευθεία Στόμα',
         'Ευθεία Πρόσωπο'
     ],
     '😶': [
         'Πρόσωπο Χωρίς Στόμα',
+        ':face_without_mouth:',
         'Κενό Πρόσωπο',
         'Στόμα',
         'Σίγαση',
@@ -275,6 +318,7 @@ emojis_language[lang][2] = {
     ],
     '😏': [
         'Σμίκρυνση Πρόσωπο',
+        ':smirking_face:',
         'Φλερτ',
         'Σεξουαλική Πρόσωπη',
         'Κούπα Πρόσωπο',
@@ -282,6 +326,7 @@ emojis_language[lang][2] = {
     ],
     '😒': [
         'Unamused Πρόσωπο',
+        ':unamused_face:',
         'Ανικανοποίητος',
         'Meh',
         'Πλευρική Μάτι',
@@ -289,10 +334,13 @@ emojis_language[lang][2] = {
     ],
     '🙄': [
         'Πρόσωπο με τροχαίο μάτια',
+        ':face_with_rolling_eye:',
+        ':eye_roll:',
         'Μάτι Roll'
     ],
     '😬': [
         'Σύλληψη Πρόσωπο',
+        ':awkward:',
         'Awkward',
         'Eek',
         'Πόδι Στο Βουνό',
@@ -301,17 +349,20 @@ emojis_language[lang][2] = {
     ],
     '🤥': [
         'Ψευδές Πρόσωπο',
+        ':lying_face:',
         'Ψυχρός',
         'Μακρυά Μύτη',
         'Pinocchio'
     ],
     '😌': [
         'Ανακουφισμένο Πρόσωπο',
+        ':relieved_face:',
         'Περιεχόμενο',
         'Ευχαριστημένος'
     ],
     '😔': [
         'Συγνώμη',
+        ':sad_face:',
         'Pensive Πρόσωπο',
         'Pensive',
         'Λυπημένο',
@@ -321,24 +372,32 @@ emojis_language[lang][2] = {
     ],
     '😪': [
         'Υπνηλία Πρόσωπο',
+        ':sleepy_face:',
         'Πλευρά-δάκρυ',
         'Χωρίς Φούσκα'
     ],
     '🤤': [
         'Σάλιο',
+        ':saliva_face:',
         'Drooling Face',
         'Drool'
     ],
     '😴': [
         'Πρόσωπο Ύπνου',
+        ':sleeping_face:',
+        ':zzz:',
         'Zzz',
         'Πρόσωπο Ύπνου',
         'Ροχαλητό',
         'Zzz Πρόσωπο'
     ],
-    '🥱': ['Πρόσωπο Αυγής'],
+    '🥱': [
+        'Πρόσωπο Αυγής',
+        ':yawning_face:'
+    ],
     '😷': [
         'Πρόσωπο με ιατρική μάσκα',
+        ':face_with_medical_mask:',
         'Coronavirus',
         'COVID-19',
         'Μάσκα Πρόσωπο',
@@ -346,23 +405,31 @@ emojis_language[lang][2] = {
     ],
     '🤒': [
         'Πρόσωπο με θερμόμετρο',
+        ':face_with_thermometer:',
+        ':sick:',
+        ':ill:',
         'Ill',
         'Άρωστο'
     ],
     '🤕': [
         'Πρόσωπο με Επικεφαλής',
+        ':face_with_head-bandage:',
+        ':face_with_head_bandage:',
         'Κεφαλή Εξανδρωμένου',
         'Αδέξιος',
         'Λείπει'
     ],
     '🤢': [
         'Ναυτία Πρόσωπο',
+        ':nauseated_face:',
         'Αηδία',
         'Πράσινο Πρόσωπο',
-        'Έμβος'
+        'Έμβος',
+        ':green:'
     ],
     '🤮': [
         'Πρόσωπο Έμετος',
+        ':face_vomiting:',
         'Σήκωσε',
         'Bleah',
         'Bleurgh',
@@ -376,82 +443,102 @@ emojis_language[lang][2] = {
     ],
     '🤧': [
         'Φτάρνισμα Πρόσωπο',
+        ':sneezing_face:',
         'Gesundheit'
     ],
     '🥵': [
         'Ζεστό Πρόσωπο',
-        'Υπερθερμαινόμενο Πρόσωπο'
+        ':hot_face:',
+        'Υπερθερμαινόμενο Πρόσωπο',
+        ':red:'
     ],
     '🥶': [
         'Κρύο Πρόσωπο',
+        ':cold_face:',
         'Ψυχρό',
         'Ψύξη',
-        'Παγωμένο Πρόσωπο'
+        'Παγωμένο Πρόσωπο',
+        ':blue:'
     ],
     '🥴': [
         'Woozy Πρόσωπο',
+        ':woozy_face:',
         'Μεθυσμένος Πρόσωπο',
         'Πρόσωπο με Uneven Μάτια και Wavy Στόμα'
     ],
     '😵': [
         'Dizzy Face',
+        ':dizzy_face:',
         'Διασταυρούμενα Μάτια Πρόσωπο',
         'Σπείρα Μάτια Πρόσωπο'
     ],
     '🤯': [
         'Κεφαλή Εκρήξεως',
+        ':exploding_head:',
         'Μυαλό Φυσητό',
         'Σοκαρισμένο πρόσωπο με εκρηκτική κεφαλή'
     ],
     '🤠': [
         'Cowboy Καπέλο Πρόσωπο',
+        ':cowboy_hat_face:',
         'Καουμπόι',
         'Cowboy Πρόσωπο',
         'Πρόσωπο με καουμπόι καπέλο'
     ],
     '🥳': [
         'Πρόσωπο Πάρτυ',
+        ':partying_face:',
         'Πρόσωπο Πάρτυ',
         'Πρόσωπο με κέρατο πάρτι και καπέλο κόμμα'
     ],
     '😎': [
         'Χαμογελώντας πρόσωπο με γυαλιά ηλίου',
+        ':smiling_face_with_sunglasses:',
         'Ψυχρό',
         'Αμοιβαία Καλύτεροι Φίλοι (Snapchat)',
         'Γυαλιά ηλίου'
     ],
     '🤓': [
         'Nerd Πρόσωπο',
+        ':nerd_face:',
         'Nerdy'
     ],
-    '🧐': ['Πρόσωπο με Monocle'],
+    '🧐': [
+        'Πρόσωπο με Monocle',
+        ':face_with_monocle:'
+    ],
     '😕': [
         'Συμπαγής Πρόσωπο',
-        ':/',
-        ':S',
+        ':confused_face:',
+        '::/:',
+        '::S:',
         'Μη Συμπληρωμένο',
         'Παζλ'
     ],
     '😟': [
         'Ανησυχία Πρόσωπο',
-        ':(',
+        ':worried_face:',
+        '::(:',
         'Λυπημένο',
         'Sadface'
     ],
     '🙁': [
         'Ελαφρώς Frowning Πρόσωπο',
-        ':(',
+        ':slightly_frowning_face:',
+        '::(:',
         'Ελαφρώς Λυπημένος'
     ],
     '☹️': [
         'Frowning Πρόσωπο',
-        ':(',
+        ':frowning_face:',
+        '::(:',
         'Megafrown',
         'Άσπρο Frowning Πρόσωπο'
     ],
     '😮': [
         'Ουάου',
-        ':O',
+        ':wow:',
+        '::O:',
         'Ωχ μου!',
         'Πρόσωπο με Ανοιχτό Στόμα',
         'Άνοιγμα Στόματος',
@@ -459,13 +546,15 @@ emojis_language[lang][2] = {
     ],
     '😯': [
         'Προωθημένο Πρόσωπο',
-        ':O',
+        ':husked_face:',
+        '::O:',
         'Έκπληξη',
         'Έκπληξη Πρόσωπο'
     ],
     '😲': [
         'Σοκαρισμένο Πρόσωπο',
-        ':O',
+        ':shocked_face:',
+        '::O:',
         'Ουάου',
         'Πέτρινο Πρόσωπο',
         'Μεθυσμένος Πρόσωπο',
@@ -473,7 +562,8 @@ emojis_language[lang][2] = {
     ],
     '😳': [
         'Έξαψη Πρόσωπο',
-        ':$',
+        ':flushed_face:',
+        '::$:',
         'Πρόσωπο Blushing',
         'Φθαρμένο',
         'Ντροπή',
@@ -481,7 +571,8 @@ emojis_language[lang][2] = {
     ],
     '🥺': [
         'Δέσμευση Πρόσωπο',
-        ':(',
+        ':pleading_face:',
+        '::(:',
         'Τρέξιμο',
         'Γυαλιστερά Μάτια',
         'Simp',
@@ -489,17 +580,20 @@ emojis_language[lang][2] = {
     ],
     '😦': [
         'Frowning Πρόσωπο με Ανοιχτό Στόμα',
-        'Δ:',
+        ':frowning_face_with_open_mouth:',
+        ':D::',
         'Ιχθυοκαλλιέργεια'
     ],
     '😨': [
         'Νοσηλευμένο',
-        'Δ:',
+        ':scared:',
+        ':D::',
         'Φοβερό Πρόσωπο',
         'Έκπληξη'
     ],
     '😰': [
         'Άγρια Πρόσωπο με Sweat',
+        ':anxious_face_with_sweat:',
         'Μπλε Πρόσωπο',
         'Ενδιαφερόμενο Πρόσωπο',
         'Νευρικό Πρόσωπο',
@@ -507,18 +601,21 @@ emojis_language[lang][2] = {
     ],
     '😥': [
         'Λυπημένο αλλά Ανακουφισμένο Πρόσωπο',
-        ':\'(',
+        ':sad_but_relieved_face:',
+        '::(:',
         'Φρύδι Sweat',
         'Απογοητευμένος αλλά Ανακουφισμένος Πρόσωπο'
     ],
     '😢': [
         'Κλαίνοντας Πρόσωπο',
-        ':\'(',
+        ':crying_face:',
+        '::(:',
         'Κλάμα',
         'Δάκρυ'
     ],
     '😭': [
         'Έντονα Κλάμα Πρόσωπο',
+        ':loudly_crying_face:',
         'Bawling',
         'Κλάμα',
         'Λυπημένα Δάκρυα',
@@ -526,45 +623,53 @@ emojis_language[lang][2] = {
     ],
     '😱': [
         'Οδήγηση προσώπου στο φόβο',
+        ':face_screaming_in_fear:',
         'Οικιακή Μόνο',
         'Scream',
         'Screaming Πρόσωπο'
     ],
     '😖': [
         'Σταθερό Πρόσωπο',
+        ':confounded_face:',
         'Στόμα Quivering',
         'Ανακάτεμα Πρόσωπο'
     ],
     '😣': [
         'Διαρκής Πρόσωπο',
+        ':persevering_face:',
         'Άχρηστο Πρόσωπο',
         'Ανακατεμένα Μάτια'
     ],
     '😞': [
         'Απογοητευμένο Πρόσωπο',
-        ':(',
+        ':disappointed_face:',
+        '::(:',
         'Λυπημένο',
         'Sadface'
     ],
     '😓': [
         'Downcast Πρόσωπο με Sweat',
+        ':downcast_face_with_sweat:',
         'Σκληρή Εργασία',
         'Λυπημένο Πρόσωπο Sweat',
         'Πρόσωπο με κρύο Sweat'
     ],
     '😩': [
         'Weary Πρόσωπο',
+        ':weary_face:',
         'Παραβιασμένη Πρόσωπο',
         'Wailing'
     ],
     '😫': [
         'Κουρασμένο Πρόσωπο',
+        ':tired_face:',
         'Εξαντλημένο',
         'Fed Επάνω',
         'Παραβιασμένη Πρόσωπο'
     ],
     '😤': [
         'Πρόσωπο με ατμό από μύτη',
+        ':face_with_steam_from_nose:',
         'Αερισμός των Grievances',
         'Απογοητευμένος',
         'Mad Πρόσωπο',
@@ -573,861 +678,1781 @@ emojis_language[lang][2] = {
     ],
     '😡': [
         'Προωθητικό Πρόσωπο',
+        ':pouting_face:',
         'Θυμωμένος Πρόσωπο',
         'Grumpy Πρόσωπο',
         'Mad Πρόσωπο',
-        'Κόκκινο Πρόσωπο'
+        'Κόκκινο Πρόσωπο',
+        ':red:'
     ],
     '😠': [
         'Θυμωμένος Πρόσωπο',
+        ':angry_face:',
         'Θυμωμένος',
         'Grumpy Πρόσωπο'
     ],
     '🤬': [
         'Πουλερικά',
+        ':swearing:',
         '@#$%&!',
         'Πρόσωπο με σύμβολα στο στόμα',
         'Cursing',
         'Μείωση',
         'Grawlix',
         'Πρόσωπο Με Σύμβολα Πάνω Από Το Στόμα',
-        'Σοβαρό πρόσωπο με σύμβολα που καλύπτουν το στόμα'
+        'Σοβαρό πρόσωπο με σύμβολα που καλύπτουν το στόμα',
+        ':red:'
     ],
-    '🥲': ['Χαμογελώντας πρόσωπο με δάκρυ'],
+    '🥲': [
+        'Χαμογελώντας πρόσωπο με δάκρυ',
+        ':smiling_face_with_tear:'
+    ],
     '😮‍💨': [
         'Εκπνοή Προσώπου',
+        ':face_exhaling:',
         'Ζυγός'
     ],
     '😵‍💫': [
         'Πρόσωπο με σπειροειδή μάτια',
+        ':face_with_spiral_eyes:',
         'Dizzy Face'
     ],
-    '🥸': ['Μεταμφιεσμένο Πρόσωπο'],
-    '🫠': ['Melting Face'],
-    '🫢': ['Face with Open Eyes and Hand Over Mouth'],
-    '🫣': ['Face with Peeking Eye'],
-    '🫡': [
-        'Saluting Face',
-        'Military',
-        'Army',
-        'RAF',
-        'Navy'
+    '🥸': [
+        'Μεταμφιεσμένο Πρόσωπο',
+        ':disguised_face:'
     ],
-    '🫥': ['Dotted Line Face'],
-    '🫤': ['Face with Diagonal Mouth'],
-    '🥹': ['Face Holding Back Tears'],
+    '🫠': [
+        'Τήξη Πρόσωπο',
+        ':melting_face:'
+    ],
+    '🫢': [
+        'Πρόσωπο με ανοιχτά μάτια και χέρι πάνω από το στόμα',
+        ':face_with_open_eyes_and_hand_over_mouth:'
+    ],
+    '🫣': [
+        'Πρόσωπο με τα μάτια Peeking',
+        ':face_with_peeking_eye:'
+    ],
+    '🫡': [
+        'Αποτίμηση Προσώπου',
+        ':saluting_face:',
+        'Στρατιωτική',
+        'Στρατός',
+        'RAF',
+        'Ναυτικό'
+    ],
+    '🫥': [
+        'Πρόσωπο Με Διακεκομμένη Γραμμή',
+        ':dotted_line_face:',
+        ':transparent:'
+    ],
+    '🫤': [
+        'Πρόσωπο με διαγώνιο στόμα',
+        ':face_with_diagonal_mouth:'
+    ],
+    '🥹': [
+        'Πρόσωπο Κρατώντας Πίσω Δάκρυα',
+        ':face_holding_back_tears:'
+    ],
     '😈': [
         'Χαμογελώντας πρόσωπο με κέρατα',
+        ':smiling_face_with_horns:',
         'Διάβολος',
         'Κέρατα Διάβολου',
         'Ευτυχισμένος Διάβολος',
         'Μωβ Διάβολος',
-        'Κόκκινος Διάβολος'
+        'Κόκκινος Διάβολος',
+        ':purple:'
     ],
     '👿': [
         'Θυμωμένος πρόσωπο με κέρατα',
+        ':angry_face_with_horns:',
         'Διάβολος',
         'Κέρατα Διάβολου',
         'Μωβ Διάβολος',
         'Μωβ Γκομπλιν',
         'Λυπημένος Διάβολος',
-        'Imp'
+        'Imp',
+        ':purple'
     ],
     '🤡': [
         'Πρόσωπο Κλόουν',
+        ':clown_face:',
         'Ανατριχιαστικός Κλόουν',
         'Κακό Κλόουν',
         'Τρομακτικό Κλόουν'
     ],
     '👽': [
         'Εξωγήινος',
+        ':alien:',
         'ET'
     ],
     '👾': [
         'Εξωγήινο Τέρας',
+        ':alien_monster:',
         'Διάστημα Invader',
         'Τέρας Παιχνιδιού Βίντεο'
     ],
     '🤖': [
         'Robot',
+        ':robot:',
         'Πρόσωπο Ρομπότ'
     ],
     '👹': [
         'Ogre',
+        ':ogre:',
         'Μάσκα Πρόσωπο',
         'Oni',
         'Κόκκινο Τέρας',
-        'Ogre Ιαπωνίας'
+        'Ogre Ιαπωνίας',
+        ':red:'
     ],
     '👻': [
         'Φάντασμα',
+        ':ghost:',
         'Halloween'
     ],
     '🗣️': [
         'Μιλώντας Κεφαλή',
+        ':speaking_head:',
         'Mansplaining',
         'Shout',
         'Φωνή',
-        'Μιλώντας κεφάλι στη σιλουέτα'
+        'Μιλώντας κεφάλι στη σιλουέτα',
+        ':blue:'
     ],
     '👤': [
         'Προτομή σε σιλουέτα',
+        ':bust_in_silhouette:',
         'Σκιά',
         'Silhouette',
         'Χρήστης',
-        'Σιλουέτα του ατόμου'
+        'Σιλουέτα του ατόμου',
+        ':blue:'
     ],
-    '🫂': ['Άτομα Αγκαλιάζει'],
+    '🫂': [
+        'Άτομα Αγκαλιάζει',
+        ':people_hugging:',
+        ':blue:'
+    ],
     '👥': [
         'Busts σε Σιλουέτα',
+        ':busts_in_silhouette:',
         'Σκιές',
         'Silhouettes',
         'Χρήστες',
-        'Σιλουέτα των δύο ατόμων'
+        'Σιλουέτα των δύο ατόμων',
+        ':blue:'
     ]
 };
 /*people*/
 emojis_language[lang][3] = {
     '👶{{skin_tone}}': [
         'Μωρό',
+        ':baby:',
         'Παιδί',
         'Νήπιο'
     ],
     '🧒{{skin_tone}}': [
         'Παιδί',
+        ':child:',
         'Φύλο Ουδέτερο Παιδί'
     ],
-    '👧{{skin_tone}}': ['Κορίτσι'],
+    '👧{{skin_tone}}': [
+        'Κορίτσι',
+        ':girl:',
+        ':woman:'
+    ],
     '🧑{{skin_tone}}': [
         'Πρόσωπο',
+        ':person:',
         'Φύλο Ουδέτερο Ενήλικες',
-        'Ενήλικες'
+        'Ενήλικες',
+        ':person:'
     ],
     '🧑{{skin_tone}}': [
-        'Person: Beard',
-        'Beard',
-        'Bearded Person',
-        'Bearded Person'
+        'Πρόσωπο: Beard',
+        ':person_beard:',
+        'Αρκούδα',
+        'Γενειοφόρος Άτομο',
+        'Γενειοφόρος Άτομο',
+        ':person:'
     ],
     '🧑{{skin_tone}}‍🦰': [
-        'Person: Red Hair',
-        'Ginger Person',
-        'Person Redhead',
-        'Person With Red Hair'
+        'Πρόσωπο: Red Hair',
+        ':person_red_hair:',
+        'Πρόσωπο Τζίντζερ',
+        'Πρόσωπο Redhead',
+        'Πρόσωπο Με Κόκκινα Μαλλιά',
+        ':person:'
     ],
     '🧑{{skin_tone}}‍🦱': [
-        'Person: Curly Hair',
-        'Person With Curly Hair'
+        'Πρόσωπο: Curly Hair',
+        ':person_curly_hair:',
+        'Άτομο Με Σγουρά Μαλλιά',
+        ':person:'
     ],
     '🧑{{skin_tone}}‍🦳': [
-        'Person: White Hair',
-        'Person With Gray Hair'
+        'Πρόσωπο: White Hair',
+        ':person_white_hair:',
+        'Άτομο Με Γκρι Μαλλιά',
+        ':person:'
     ],
     '🧑{{skin_tone}}‍🦲': [
-        'Person: Bald',
-        'Person With No Hair'
+        'Πρόσωπο: Bald',
+        ':person_bald:',
+        'Άτομο Χωρίς Μαλλιά',
+        ':person:'
     ],
     '👱{{skin_tone}}': [
         'Πρόσωπο: Blond Μαλλιά',
-        'Person With Blonde Hair'
+        ':person_blond_hair:',
+        'Πρόσωπο Με Ξανθά Μαλλιά',
+        ':person:'
     ],
     '👨{{skin_tone}}': [
         'Άνθρωπος',
+        ':man:',
         'Άντρας',
-        'Moustache Άνθρωπος'
+        'Moustache Άνθρωπος',
+        ':man:'
     ],
     '🧔{{skin_tone}}‍♂️': [
-        'Man: Beard',
-        'Beard',
-        'Bearded Man',
-        'Bearded Person'
+        'Άνθρωπος: Αρκούδα',
+        ':man_beard:',
+        'Αρκούδα',
+        'Γενειοφόρος Άνθρωπος',
+        'Γενειοφόρος Άτομο',
+        ':man:'
     ],
     '👨{{skin_tone}}‍🦰': [
         'Άνθρωπος: Κόκκινα Μαλλιά',
+        ':man_red_hair:',
         'Άνθρωπος Τζίντζερ',
         'Man Redhead',
-        'Άνθρωπος Με Κόκκινα Μαλλιά'
+        'Άνθρωπος Με Κόκκινα Μαλλιά',
+        ':man:'
     ],
     '👨{{skin_tone}}‍🦱': [
         'Άνθρωπος: Σγουρά Μαλλιά',
-        'Άνθρωπος Με Σγουρά Μαλλιά'
+        ':man_curly_hair:',
+        'Άνθρωπος Με Σγουρά Μαλλιά',
+        ':man:'
     ],
     '👨{{skin_tone}}‍🦳': [
         'Άνθρωπος: Λευκό Μαλλιά',
-        'Άνθρωπος Με Γκρι Μαλλιά'
+        ':man_white_hair:',
+        'Άνθρωπος Με Γκρι Μαλλιά',
+        ':man:'
     ],
     '👨{{skin_tone}}‍🦲': [
         'Άνθρωπος: Φαλακρός',
-        'Άνθρωπος Χωρίς Μαλλιά'
+        ':man_bald:',
+        'Άνθρωπος Χωρίς Μαλλιά',
+        ':man:'
     ],
     '👱{{skin_tone}}‍♂️': [
         'Άνθρωπος: Ξανθά Μαλλιά',
-        'Άνθρωπος Με Ξανθιά Μαλλιά'
+        ':man_blond_hair:',
+        'Άνθρωπος Με Ξανθιά Μαλλιά',
+        ':man:'
     ],
     '👩{{skin_tone}}': [
         'Γυναίκα',
+        ':woman:',
         'Γυναίκα',
         'Κυρία',
-        'Κίτρινη Γυναίκα'
+        'Κίτρινη Γυναίκα',
+        ':woman:'
     ],
     '🧔{{skin_tone}}‍♀️': [
-        'Woman: Beard',
-        'Beard',
-        'Bearded Woman'
+        'Γυναίκα: Αρκούδα',
+        ':woman_beard:',
+        'Αρκούδα',
+        'Γενειοφόρος Γυναίκα',
+        ':woman:'
     ],
     '👩{{skin_tone}}‍🦰': [
         'Γυναίκα: Κόκκινα Μαλλιά',
+        ':woman_red_hair:',
         'Γυναίκα Τζίντζερ',
         'Woman Redhead',
-        'Γυναίκα Με Κόκκινα Μαλλιά'
+        'Γυναίκα Με Κόκκινα Μαλλιά',
+        ':woman:'
     ],
     '👩{{skin_tone}}‍🦱': [
         'Γυναίκα: Σγουρά Μαλλιά',
-        'Γυναίκα Με Σγουρά Μαλλιά'
+        ':woman_curly_hair:',
+        'Γυναίκα Με Σγουρά Μαλλιά',
+        ':woman:'
     ],
     '👩{{skin_tone}}‍🦳': [
         'Γυναίκα: Λευκό Μαλλιά',
-        'Γυναίκα Με Γκρι Μαλλιά'
+        ':woman_white_hair:',
+        'Γυναίκα Με Γκρι Μαλλιά',
+        ':woman:'
     ],
     '👩{{skin_tone}}‍🦲': [
         'Γυναίκα: Φαλακρός',
-        'Γυναίκα Χωρίς Μαλλιά'
+        ':woman_bald:',
+        'Γυναίκα Χωρίς Μαλλιά',
+        ':woman:'
     ],
     '👱{{skin_tone}}‍♀️': [
         'Γυναίκα: Ξανθά Μαλλιά',
-        'Γυναίκα Με Ξανθιά Μαλλιά'
-    ],
-    '🧓{{skin_tone}}': [
-        'Older Person',
-        'Gender Neutral Older Adult'
+        ':woman_blond_hair:',
+        'Γυναίκα Με Ξανθιά Μαλλιά',
+        ':woman:'
     ],
     '👴{{skin_tone}}': [
-        'Old Man',
-        'Elderly Man',
+        'Παλαιότερος Άνθρωπος',
+        ':older_man:',
+        ':older:',
+        'Ηλικιωμένος Άνθρωπος',
         'Grandpa',
-        'Older Man'
+        'Παλιός Άνθρωπος',
+        ':man:'
     ],
     '👵{{skin_tone}}': [
-        'Old Woman',
-        'Elderly Woman',
-        'Grandma',
+        'Ηλικιωμένη Γυναίκα',
+        ':older_woman:',
+        ':older:',
+        'Ηλικιωμένη Γυναίκα',
+        'Γιαγιά',
         'Nanna',
-        'Old Lady',
-        'Older Woman'
+        'Παλιά Κυρία',
+        'Παλιά Γυναίκα',
+        ':woman:'
+    ],
+    '🧓{{skin_tone}}': [
+        'Παλαιότερο Άτομο',
+        ':older_person:',
+        ':older:',
+        'Φύλο Ουδέτερο Παλαιότερο Ενήλικο',
+        ':person:'
     ],
     '👼{{skin_tone}}': [
-        'Baby Angel',
-        'Angel',
+        'Βρεφικός Άγγελος',
+        ':baby_angel:',
+        'Άγγελος',
         'Cherub',
-        'Cupid',
-        'Putto'
+        'Έρωτας',
+        'Πούτο'
     ],
     '👨{{skin_tone}}‍🎄': [
-        'Santa Claus',
-        'Saint Nicholas',
+        'Άγιος Βασίλης',
+        ':santa_claus:',
+        'Άγιος Νικόλαος',
         'Sinterklaas',
-        'Father Christmas'
+        'Πατέρας Χριστούγεννα',
+        ':man:'
     ],
     '👩{{skin_tone}}‍🎄': [
-        'Mrs Claus',
-        'Mother Christmas'
+        'Κυρία Claus',
+        ':mrs_claus:',
+        'Μητέρα Χριστούγεννα',
+        ':woman:'
     ],
     '🧑{{skin_tone}}‍🎄': [
         'Mx Claus',
-        'Person Christmas'
+        ':mx_clause:',
+        'Χριστούγεννα Πρόσωπο',
+        ':person:'
     ],
-    '🤴{{skin_tone}}': ['Prince'],
+    '🤴{{skin_tone}}': [
+        'Πρίγκιπας',
+        ':price:',
+        ':man:'
+    ],
     '👸{{skin_tone}}': [
-        'Princess',
-        'Blonde Girl',
-        'Girl With Crown',
-        'Girl With Tiara'
+        'Πριγκίπισσα',
+        ':pricess:',
+        'Ξανθό Κορίτσι',
+        'Κορίτσι Με Κορώνα',
+        'Κορίτσι Με Τιάρα',
+        ':woman:'
     ],
-    '🫅{{skin_tone}}': ['Person with Crown'],
+    '🫅{{skin_tone}}': [
+        'Πρόσωπο με Crown',
+        ':person_with_crown:',
+        ':person:'
+    ],
     '👳{{skin_tone}}‍♂️': [
         'Άνθρωπος Που Φοράει Turban',
-        'Arab',
-        'Muslim',
-        'Sikh',
-        'Turban'
+        ':man_wearing_turban:',
+        ':wearing_turban:',
+        'Αραβικά',
+        'Μουσουλμανική',
+        'Σικχ',
+        'Turban',
+        ':man:'
     ],
     '👳{{skin_tone}}‍♀️': [
         'Γυναίκα Που Φοράει Turban',
-        'Arab',
-        'Muslim',
-        'Sikh',
-        'Turban'
+        ':woman_wearing_turban:',
+        ':wearing_turban:',
+        'Αραβικά',
+        'Μουσουλμανική',
+        'Σικχ',
+        'Turban',
+        ':woman:'
     ],
     '👳{{skin_tone}}': [
-        'Person Wearing Turban',
-        'Arab',
-        'Muslim',
-        'Sikh',
-        'Turban'
+        'Πρόσωπο Που Φοράει Turban',
+        ':person_wearing_turban:',
+        ':wearing_turban:',
+        'Αραβικά',
+        'Μουσουλμανική',
+        'Σικχ',
+        'Turban',
+        ':person:'
     ],
     '👲{{skin_tone}}': [
-        'Person With Skullcap',
-        'Asian Man',
-        'Man With Chinese Cap',
-        'Man with Gua Pi Mao'
+        'Άτομο Με Skullcap',
+        ':person_with_skullcap:',
+        'Ασιατικός Άνθρωπος',
+        'Άνθρωπος Με Κινεζικό Καπέλο',
+        'Άνθρωπος με τον Gua Pi Mao',
+        ':person:'
     ],
     '🧕{{skin_tone}}': [
-        'Woman with Headscarf',
+        'Γυναίκα με μαντίλα',
+        ':woman_with_headscarf:',
         'Hijab',
-        'Person with Headscarf'
+        'Πρόσωπο με μαντίλα',
+        ':woman:'
     ],
     '🤵{{skin_tone}}‍♀️': [
-        'Man in Tuxedo',
+        'Άνθρωπος στο Tuxedo',
+        ':man_in_tuxedo:',
+        ':tuxedo:',
         'Groom',
-        'Man In Suit',
-        'Wedding'
+        'Άνθρωπος Σε Κοστούμι',
+        'Γάμος',
+        ':man:'
     ],
     '🤵{{skin_tone}}‍♂️': [
-        'Woman in Tuxedo',
+        'Γυναίκα στο Tuxedo',
+        ':woman_in_tuxedo:',
+        ':tuxedo:',
         'Groom',
-        'Woman In Suit',
-        'Wedding'
+        'Γυναίκα Με Κοστούμι',
+        'Γάμος',
+        ':woman:'
     ],
     '🤵{{skin_tone}}': [
-        'Person in Tuxedo',
+        'Πρόσωπο στο Tuxedo',
+        ':person_in_tuxedo:',
+        ':tuxedo:',
         'Groom',
-        'Person In Suit',
-        'Wedding'
+        'Κοστούμι Προσώπου',
+        'Γάμος',
+        ':person:'
     ],
     '👰{{skin_tone}}‍♂️': [
         'Άνθρωπος με Veil',
-        'Wedding',
+        ':man_with_veil:',
+        ':veil:',
+        'Γάμος',
         'Bridegroom',
-        'Marriage'
+        'Γάμος',
+        ':man:'
     ],
     '👰{{skin_tone}}‍♀️': [
         'Γυναίκα με λαχανικό',
-        'Wedding',
-        'Bride',
-        'Bride with Veil',
-        'Marriage'
+        ':woman_with_veil:',
+        ':veil:',
+        'Γάμος',
+        'Νύφη',
+        'Νύφη με λαχανικό',
+        'Γάμος',
+        ':woman:'
     ],
     '👰{{skin_tone}}': [
-        'Person With Veil',
-        'Wedding',
-        'Marriage'
+        'Άτομο Με Veil',
+        ':person_with_veil:',
+        ':veil:',
+        'Γάμος',
+        'Γάμος',
+        ':person:'
     ],
-    '👩{{skin_tone}}‍🍼': ['Γυναίκα Διατροφή Μωρού'],
-    '👨{{skin_tone}}‍🍼': ['Ο Άνθρωπος Διατροφή Μωρού'],
-    '🧑{{skin_tone}}‍🍼': ['Person Feeding Baby'],
-    '🥷': ['Νίντζα'],
-    '🤰{{skin_tone}}': [
-        'Pregnant Woman',
-        'Pregnancy',
-        'Pregnant Lady'
+    '👨{{skin_tone}}‍🍼': [
+        'Ο Άνθρωπος Διατροφή Μωρού',
+        ':man_feeding_baby:',
+        ':feeding_baby:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🍼': [
+        'Γυναίκα Διατροφή Μωρού',
+        ':woman_feeding_baby:',
+        ':feeding_baby:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🍼': [
+        'Μωρό Τροφοδοσίας Προσώπου',
+        ':person_feeding_baby:',
+        ':feeding_baby:',
+        ':person:'
+    ],
+    '🥷': [
+        'Νίντζα',
+        ':ninja:'
     ],
     '🫃{{skin_tone}}': [
-        'Pregnant Man',
-        'Pregnancy'
+        'Έγκυος Άνθρωπος',
+        ':pregnant_man:',
+        ':pregnant:',
+        'Κύηση',
+        ':man:'
+    ],
+    '🤰{{skin_tone}}': [
+        'Έγκυος Γυναίκα',
+        ':pregnant_woman:',
+        ':pregnant:',
+        'Κύηση',
+        'Έγκυος Κυρία',
+        ':woman:'
     ],
     '🫄{{skin_tone}}': [
-        'Pregnant Person',
-        'Pregnancy'
+        'Έγκυος Πρόσωπο',
+        ':pregnant_person:',
+        ':pregnant:',
+        'Κύηση',
+        ':person:'
     ],
     '🤱{{skin_tone}}‍': [
         'Θηλασμός',
+        ':breast-feeding:',
+        ':breast_feeding:',
         'Θηλασμός'
     ],
-    '🦸{{skin_tone}}‍♂️': ['Άνθρωπος Superhero'],
-    '🦸{{skin_tone}}‍♀️': ['Woman Superhero'],
-    '🦸{{skin_tone}}': ['Person Superhero'],
-    '🦹{{skin_tone}}‍♂️': ['Man Supervillain'],
-    '🦹{{skin_tone}}‍♀️': ['Woman Supervillain'],
-    '🦹{{skin_tone}}': ['Person Supervillain'],
+    '🦸{{skin_tone}}‍♂️': [
+        'Άνθρωπος Superhero',
+        ':man_superhero:',
+        ':superhero:',
+        ':man:'
+    ],
+    '🦸{{skin_tone}}‍♀️': [
+        'Γυναίκα Superhero',
+        ':woman_superhero:',
+        ':superhero:',
+        ':woman:'
+    ],
+    '🦸{{skin_tone}}': [
+        'Πρόσωπο Superhero',
+        ':person_superhero:',
+        ':superhero:',
+        ':person:'
+    ],
+    '🦹{{skin_tone}}‍♂️': [
+        'Άνθρωπος Supervillain',
+        ':man_supervillain:',
+        ':supervillain:',
+        ':man:'
+    ],
+    '🦹{{skin_tone}}‍♀️': [
+        'Γυναίκα Supervillain',
+        ':woman_supervillain:',
+        ':supervillain:',
+        ':woman:'
+    ],
+    '🦹{{skin_tone}}': [
+        'Person Supervillain',
+        ':person_supervillain:',
+        ':supervillain:',
+        ':person:'
+    ],
     '🧙{{skin_tone}}‍♂️': [
         'Man Mage',
+        ':man_mage:',
+        ':mage:',
         'Sorcerer',
-        'Wizard'
+        'Μάγος',
+        ':man:'
     ],
     '🧙{{skin_tone}}‍♀️': [
-        'Woman Mage',
-        'Witch',
+        'Μάγος Γυναίκας',
+        ':woman_mage:',
+        ':mage:',
+        'Μάγισσα',
         'Sorceress',
-        'Wizard'
+        'Μάγος',
+        ':woman:'
     ],
     '🧙{{skin_tone}}': [
-        'Person Mage',
-        'Wizard',
-        ':mage:'
+        'Πρόσωπο Mage',
+        ':person_mage:',
+        ':mage:',
+        'Μάγος',
+        ':mage:',
+        ':person:'
     ],
-    '🧚{{skin_tone}}‍♂️': ['Man Fairy'],
-    '🧚{{skin_tone}}‍♀️': ['Γαλακτοκομικά Γυναίκα'],
-    '🧚{{skin_tone}}': ['Person Fairy'],
+    '🧚{{skin_tone}}‍♂️': [
+        'Άνθρωπος Νεράιδα',
+        ':man_fairy:',
+        ':fairy:',
+        ':man:'
+    ],
+    '🧚{{skin_tone}}‍♀️': [
+        'Γαλακτοκομικά Γυναίκα',
+        ':woman_fairy:',
+        ':fairy:',
+        ':woman:'
+    ],
+    '🧚{{skin_tone}}': [
+        'Γαλακτοκομικό Πρόσωπο',
+        ':person_fairy:',
+        ':fairy:',
+        ':person:'
+    ],
     '🧛{{skin_tone}}‍♂️': [
         'Άνθρωπος Βαμπίρ',
-        'Δράκουλας'
+        ':man_vampire:',
+        ':vampire:',
+        'Δράκουλας',
+        ':man:'
     ],
-    '🧛{{skin_tone}}‍♀️': ['Woman Vampire'],
-    '🧛{{skin_tone}}': ['Person Vampire'],
+    '🧛{{skin_tone}}‍♀️': [
+        'Vampire Γυναίκας',
+        ':woman_vampire:',
+        ':vampire:',
+        ':woman:'
+    ],
+    '🧛{{skin_tone}}': [
+        'Άτομο Βαμπίρ',
+        ':person_vampire:',
+        ':vampire:',
+        ':person:'
+    ],
     '🧜{{skin_tone}}‍♂️': [
         'Μέρμαν',
-        'Merboy'
+        ':merman:',
+        'Merboy',
+        ':man:'
     ],
     '🧜{{skin_tone}}‍♀️': [
         'Γοργόνα',
-        'Mergirl'
+        ':mermaid:',
+        'Συγχώνευση',
+        ':woman:'
     ],
-    '🧜{{skin_tone}}': ['Merperson'],
-    '🧝{{skin_tone}}‍♂️': ['Άνθρωπος Elf'],
-    '🧝{{skin_tone}}‍♀️': ['Elf Γυναίκας'],
-    '🧝{{skin_tone}}': ['Person Elf'],
-    '🧞‍♂️': ['Man Genie'],
-    '🧞‍♀️': ['Woman Genie'],
-    '🧞': ['Person Genie'],
+    '🧜{{skin_tone}}': [
+        'Merperson',
+        ':merperson:',
+        ':person:'
+    ],
+    '🧝{{skin_tone}}‍♂️': [
+        'Άνθρωπος Elf',
+        ':man_elf:',
+        ':elf:',
+        ':man:'
+    ],
+    '🧝{{skin_tone}}‍♀️': [
+        'Elf Γυναίκας',
+        ':woman_elf:',
+        ':elf:',
+        ':woman:'
+    ],
+    '🧝{{skin_tone}}': [
+        'Άτομο Elf',
+        ':person_elf:',
+        ':elf:',
+        ':person:'
+    ],
+    '🧞‍♂️': [
+        'Man Genie',
+        ':man_genie:',
+        ':genie:',
+        ':man:'
+    ],
+    '🧞‍♀️': [
+        'Woman Genie',
+        ':woman_genie:',
+        ':genie:',
+        ':woman:'
+    ],
+    '🧞': [
+        'Person Genie',
+        ':person_genie:',
+        ':genie:',
+        ':person:'
+    ],
     '🕵️{{skin_tone}}‍♂️': [
         'Ανιχνευτής Ανθρώπου',
+        ':man_detective:',
+        ':detective:',
         'Ιδιωτικό Μάτι',
         'Sleuth',
         'Κατασκόπων',
         'Man Sleuth',
         'Ύπνος ή κατάσκοπος',
         '007',
-        'Επιθεωρητής'
+        'Επιθεωρητής',
+        ':man:'
     ],
     '🕵️{{skin_tone}}‍♀️': [
         'Ανιχνευτής Γυναίκας',
-        'Private Eye',
+        ':woman_detective:',
+        ':detective:',
+        'Ιδιωτικό Μάτι',
         'Sleuth',
-        'Spy',
-        'Woman Sleuth',
-        'Sleuth or Spy',
+        'Κατασκόπων',
+        'Ύπνος Γυναίκας',
+        'Ύπνος ή κατάσκοπος',
         '007',
-        'Inspector'
+        'Επιθεωρητής',
+        ':woman:'
     ],
     '🕵{{skin_tone}}': [
-        'Person Detective',
-        'Private Eye',
+        'Ανιχνευτής Πρόσωπο',
+        ':person_detective:',
+        ':detective:',
+        'Ιδιωτικό Μάτι',
         'Sleuth',
-        'Spy',
-        'Person Sleuth',
-        'Sleuth or Spy',
+        'Κατασκόπων',
+        'Ύπνος Προσώπου',
+        'Ύπνος ή κατάσκοπος',
         '007',
-        'Inspector'
+        'Επιθεωρητής',
+        ':person:'
     ],
     '💂{{skin_tone}}‍♂️': [
-        'Man: Guard',
-        'British Guardsman',
-        'Foot Guard'
+        'Άνθρωπος: Φρουρός',
+        ':man_guard:',
+        ':guard:',
+        'Βρετανός Φρουρός',
+        'Φρουρά Πόδι',
+        ':man:'
     ],
     '💂{{skin_tone}}‍♀️': [
-        'Woman: Guard',
-        'British Guardsman',
-        'Foot Guard'
+        'Γυναίκα: Φρουρά',
+        ':woman_guard:',
+        ':guard:',
+        'Βρετανός Φρουρός',
+        'Φρουρά Πόδι',
+        ':woman:'
     ],
     '💂{{skin_tone}}': [
-        'Person: Guard',
-        'British Guardsman',
-        'Foot Guard'
+        'Πρόσωπο: Φρουρά',
+        ':person_guard:',
+        ':guard:',
+        'Βρετανός Φρουρός',
+        'Φρουρά Πόδι',
+        ':person:'
     ],
     '👮{{skin_tone}}‍♂️': [
-        'Police Officer',
+        'Αστυνομικός Λειτουργός',
+        ':man_police_officer:',
+        ':police_officer:',
         'Cop',
-        'Police',
-        'Policeman'
+        'Αστυνομία',
+        'Πολιτικός',
+        ':man:'
     ],
     '👮{{skin_tone}}‍♀️': [
-        'Woman Police Officer',
+        'Γυναίκα Αστυνομικός Αξιωματικός',
+        ':woman_police_officer:',
+        ':police_officer:',
         'Cop',
-        'Police',
-        'Policewoman'
+        'Αστυνομία',
+        'Αστυνομική',
+        ':woman:'
     ],
     '👮{{skin_tone}}': [
-        'Police Officer',
+        'Αστυνομικός Λειτουργός',
+        ':person_police_officer:',
+        ':police_officer:',
         'Cop',
-        'Police'
+        'Αστυνομία',
+        ':person:'
     ],
-    '👨{{skin_tone}}‍🚒': ['Πυροσβέστης Του Ανθρώπου'],
-    '👩{{skin_tone}}‍🚒': ['Woman Firefighter'],
-    '🧑{{skin_tone}}‍🚒': ['Person Firefighter'],
-    '👨{{skin_tone}}‍✈️': ['Man Pilot'],
-    '👩{{skin_tone}}‍✈️': ['Woman Pilot'],
-    '🧑{{skin_tone}}‍✈️': ['Person Pilot'],
+    '👨{{skin_tone}}‍🚒': [
+        'Πυροσβέστης Του Ανθρώπου',
+        ':man_firefighter:',
+        ':firefighter:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🚒': [
+        'Γυναικείο Πυροσβέστη',
+        ':woman_firefighter:',
+        ':firefighter:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🚒': [
+        'Πυροσβέστης Πρόσωπο',
+        ':person_firefighter:',
+        ':firefighter:',
+        ':person:'
+    ],
+    '👨{{skin_tone}}‍✈️': [
+        'Άνθρωπος Πιλότος',
+        ':man_pilot:',
+        ':pilot:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍✈️': [
+        'Γυναίκα Πιλότος',
+        ':woman_pilot:',
+        ':pilot:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍✈️': [
+        'Πρόσωπο Πιλοτικό',
+        ':person_pilot:',
+        ':pilot:',
+        ':person:'
+    ],
     '👨{{skin_tone}}‍💻': [
         'Άνθρωπος Τεχνολόγος',
-        'Άνθρωπος Τεχνολόγος'
+        ':man_technologist:',
+        ':technologist:',
+        'Άνθρωπος Τεχνολόγος',
+        ':man:'
     ],
-    '👩{{skin_tone}}‍💻': ['Γυναίκα Τεχνολόγος'],
-    '🧑{{skin_tone}}‍💻': ['Person Technologist'],
+    '👩{{skin_tone}}‍💻': [
+        'Γυναίκα Τεχνολόγος',
+        ':woman_technologist:',
+        ':technologist:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍💻': [
+        'Person Technologist',
+        ':person_technologist:',
+        ':technologist:',
+        ':person:'
+    ],
     '👨{{skin_tone}}‍🎤': [
         'Τραγουδιστής Του Ανθρώπου',
+        ':man_singer:',
+        ':singer:',
         'Bowie',
-        'Aladdin Sane'
+        'Aladdin Sane',
+        ':man:'
     ],
-    '👩{{skin_tone}}‍🎤': ['Γυναίκα Τραγουδιστής'],
-    '🧑{{skin_tone}}‍🎤': ['Person Singer'],
-    '👨{{skin_tone}}‍🎨': ['Άνθρωπος Καλλιτέχνης'],
-    '👩{{skin_tone}}‍🎨': ['Καλλιτέχνης Γυναίκας'],
-    '🧑{{skin_tone}}‍🎨': ['Person Artist'],
-    '👷{{skin_tone}}‍♂️': ['Man Construction Worker'],
-    '👷{{skin_tone}}‍♀️': ['Woman Construction Worker'],
-    '👷{{skin_tone}}': ['Person Construction Worker'],
+    '👩{{skin_tone}}‍🎤': [
+        'Γυναίκα Τραγουδιστής',
+        ':woman_singer:',
+        ':singer:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🎤': [
+        'Τραγουδιστής Πρόσωπο',
+        ':person_singer:',
+        ':singer:',
+        ':person:'
+    ],
+    '👨{{skin_tone}}‍🎨': [
+        'Άνθρωπος Καλλιτέχνης',
+        ':man_artist:',
+        ':artist:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🎨': [
+        'Καλλιτέχνης Γυναίκας',
+        ':woman_artist:',
+        ':artist:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🎨': [
+        'Καλλιτέχνης Πρόσωπου',
+        ':person_artist:',
+        ':artist:',
+        ':person:'
+    ],
+    '👷{{skin_tone}}‍♂️': [
+        'Εργάτης Κατασκευής Ανθρώπων',
+        ':man_contruction_worker:',
+        ':contruction_worker:',
+        ':man:'
+    ],
+    '👷{{skin_tone}}‍♀️': [
+        'Γυναίκα Εργάτης Κατασκευής',
+        ':woman_contruction_worker:',
+        ':contruction_worker:',
+        ':woman:'
+    ],
+    '👷{{skin_tone}}': [
+        'Εργάτης Κατασκευής Προσώπου',
+        ':person_contruction_worker:',
+        ':contruction_worker:',
+        ':person:'
+    ],
     '👨{{skin_tone}}‍🚀': [
-        'Man Astronaut',
-        'Man Cosmonaut'
+        'Άνθρωπος Αστροναύτης',
+        ':man_astronaut:',
+        ':astronaut:',
+        'Άνθρωπος Κοσμοναύτης',
+        ':man:'
     ],
     '👩{{skin_tone}}‍🚀': [
-        'Woman Astronaut',
-        'Woman Cosmonaut'
+        'Αστροναύτης Γυναίκας',
+        ':woman_astronaut:',
+        ':astronaut:',
+        'Γυναίκα Cosmonaut',
+        ':woman:'
     ],
     '🧑{{skin_tone}}‍🚀': [
-        'Person Astronaut',
-        'Person Cosmonaut'
+        'Άτομο Αστροναύτη',
+        ':person_astronaut:',
+        ':astronaut:',
+        'Πρόσωπο Cosmonaut',
+        ':person:'
     ],
-    '👨{{skin_tone}}‍🔬': ['Man Scientist'],
-    '👩{{skin_tone}}‍🔬': ['Woman Scientist'],
-    '🧑{{skin_tone}}‍🔬': ['Person Scientist'],
+    '👨{{skin_tone}}‍🔬': [
+        'Άνθρωπος Επιστήμονας',
+        ':man_scientist:',
+        ':scientist:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🔬': [
+        'Γυναίκα Επιστήμονας',
+        ':woman_scientist:',
+        ':scientist:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🔬': [
+        'Άνθρωπος Επιστήμονας',
+        ':person_scientist:',
+        ':scientist:',
+        ':person:'
+    ],
     '👨{{skin_tone}}‍💼': [
         'Υπάλληλος Του Man',
+        ':man_office_worker:',
+        ':office_worker:',
         'Διευθύνων Σύμβουλος',
-        'Επιχειρηματίας'
+        'Επιχειρηματίας',
+        ':man:'
     ],
     '👩{{skin_tone}}‍💼': [
         'Γυναικεία Εργάτης Γραφείου',
+        ':woman_office_worker:',
+        ':office_worker:',
         'Επιχειρηματίας',
-        'Διευθύνων Σύμβουλος'
+        'Διευθύνων Σύμβουλος',
+        ':woman:'
     ],
     '🧑{{skin_tone}}‍💼': [
-        'Person Office Worker',
-        'Business',
-        'CEO'
+        'Υπάλληλος Του Γραφείου',
+        ':person_office_worker:',
+        ':office_worker:',
+        'Επιχείρηση',
+        'Διευθύνων Σύμβουλος',
+        ':person:'
     ],
-    '👨{{skin_tone}}‍🏭': ['Εργαζόμενος Εργαζόμενος Άνθρωπος'],
-    '👩{{skin_tone}}‍🏭': ['Woman Factory Worker'],
-    '🧑{{skin_tone}}‍🏭': ['Person Factory Worker'],
-    '👨{{skin_tone}}‍🔧': ['Man Mechanic'],
-    '👩{{skin_tone}}‍🔧': ['Woman Mechanic'],
-    '🧑{{skin_tone}}‍🔧': ['Person Mechanic'],
+    '👨{{skin_tone}}‍🏭': [
+        'Εργαζόμενος Εργαζόμενος Άνθρωπος',
+        ':man_factory_worker:',
+        ':factory_worker:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🏭': [
+        'Γυναίκα Εργαζόμενος',
+        ':woman_factory_worker:',
+        ':factory_worker:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🏭': [
+        'Εργάτης Εργαζομένων',
+        ':person_factory_worker:',
+        ':factory_worker:',
+        ':person:'
+    ],
+    '👨{{skin_tone}}‍🔧': [
+        'Άνθρωπος Μηχανικός',
+        ':man_mechanic:',
+        ':mechanic:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🔧': [
+        'Γυναικεία Μηχανική',
+        ':woman_mechanic:',
+        ':mechanic:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🔧': [
+        'Person Mechanic',
+        ':person_mechanic:',
+        ':mechanic:',
+        ':person:'
+    ],
     '👨{{skin_tone}}‍🍳': [
-        'Man Cook',
-        'Man Chef',
-        'Male Chef'
+        'Άνθρωπος Cook',
+        ':man_cook:',
+        ':cook:',
+        'Άνθρωπος Σεφ',
+        'Αρσενικός Σεφ',
+        ':man:'
     ],
     '👩{{skin_tone}}‍🍳': [
-        'Woman Cook',
-        'Woman Chef',
-        'Female Chef'
+        'Μαγειρική Γυναίκας',
+        ':woman_cook:',
+        ':cook:',
+        'Σεφ Γυναίκας',
+        'Θηλυκός Σεφ',
+        ':woman:'
     ],
     '🧑{{skin_tone}}‍🍳': [
-        'Person Cook',
-        'Person Chef'
+        'Άτομο Μαγειρεύω',
+        ':person_cook:',
+        ':cook:',
+        'Πρόσωπο Σεφ',
+        ':person:'
     ],
-    '👨{{skin_tone}}‍🌾': ['Man Farmer'],
-    '👩{{skin_tone}}‍🌾': ['Woman Farmer'],
-    '🧑{{skin_tone}}‍🌾': ['Person Farmer'],
-    '👨{{skin_tone}}‍‍⚖️': ['Άνθρωπος Δικαστής'],
-    '👩{{skin_tone}}‍‍⚖️': ['Δικαστής Γυναίκας'],
-    '🧑{{skin_tone}}‍‍⚖️': ['Person Judge'],
-    '👨{{skin_tone}}‍‍🏫': ['Δάσκαλος Του Ανθρώπου'],
-    '👩{{skin_tone}}‍‍🏫': ['Δάσκαλος Γυναίκας'],
-    '🧑‍{{skin_tone}}‍‍🏫': ['Person Teacher'],
-    '👨{{skin_tone}}‍🎓': ['Μαθητής Άνθρωπος'],
-    '👩{{skin_tone}}‍🎓': ['Γυναίκα Μαθητής'],
-    '🧑{{skin_tone}}‍🎓': ['Person Student'],
+    '👨{{skin_tone}}‍🌾': [
+        'Άνθρωπος Αγρότης',
+        ':man_farmer:',
+        ':farmer:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🌾': [
+        'Αγρότης Γυναίκας',
+        ':woman_farmer:',
+        ':farmer:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🌾': [
+        'Αγρότης Προσώπου',
+        ':person_farmer:',
+        ':farmer:',
+        ':person:'
+    ],
+    '👨{{skin_tone}}‍‍⚖️': [
+        'Άνθρωπος Δικαστής',
+        ':man_judge:',
+        ':judge:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍‍⚖️': [
+        'Δικαστής Γυναίκας',
+        ':woman_judge:',
+        ':judge:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍‍⚖️': [
+        'Δικαστής Πρόσωπο',
+        ':person_judge:',
+        ':judge:',
+        ':person:'
+    ],
+    '👨{{skin_tone}}‍‍🏫': [
+        'Δάσκαλος Του Ανθρώπου',
+        ':man_teacher:',
+        ':teacher:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍‍🏫': [
+        'Δάσκαλος Γυναίκας',
+        ':woman_teacher:',
+        ':teacher:',
+        ':woman:'
+    ],
+    '🧑‍{{skin_tone}}‍‍🏫': [
+        'Δάσκαλος Προσώπου',
+        ':person_teacher:',
+        ':teacher:',
+        ':person:'
+    ],
+    '👨{{skin_tone}}‍🎓': [
+        'Μαθητής Άνθρωπος',
+        ':man_student:',
+        ':student:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🎓': [
+        'Γυναίκα Μαθητής',
+        ':woman_student:',
+        ':student:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🎓': [
+        'Μαθητής Άτομου',
+        ':person_student:',
+        ':student:',
+        ':person:'
+    ],
     '👨{{skin_tone}}‍⚕️': [
-        'Man Health Worker',
-        'Male Doctor',
-        'Male Nurse'
+        'Εργαζόμενος Στην Υγεία Του Ανθρώπου',
+        ':man_health_worker:',
+        ':health_worker:',
+        'Αρσενικό Γιατρός',
+        'Αρσενικό Νοσοκόμα',
+        ':man:'
     ],
     '👩{{skin_tone}}‍⚕️': [
         'Γυναίκα Εργαζόμενος Υγείας',
+        ':woman_health_worker:',
+        ':health_worker:',
         'Θηλυκός Γιατρός',
-        'Γυναίκα Νοσοκόμα'
+        'Γυναίκα Νοσοκόμα',
+        ':woman:'
     ],
     '🧑‍{{skin_tone}}‍⚕️': [
-        'Person Health Worker',
-        'Person Doctor',
-        'Person Nurse'
+        'Εργάτης Υγείας Πρόσωπο',
+        ':person_health_worker:',
+        ':health_worker:',
+        'Γιατρός Πρόσωπο',
+        'Νοσηλευτής Πρόσωπο',
+        ':person:'
     ],
     '🤷{{skin_tone}}‍♂️': [
         'Άνθρωπος Shrugging',
+        ':man_shrugging:',
+        ':shrugging:',
         'idk άνθρωπος',
-        'dunno'
+        'dunno',
+        ':man:'
     ],
     '🤷{{skin_tone}}‍♀️': [
         'Γυναίκα Shrugging',
+        ':woman_shrugging:',
+        ':shrugging:',
         'εικονική γυναίκα',
-        'dunno'
+        'dunno',
+        ':woman:'
     ],
     '🤷{{skin_tone}}': [
-        'Person Shrugging',
-        'idk person',
-        'dunno'
+        'Πρόσωπο Shrugging',
+        ':person_shrugging:',
+        ':shrugging:',
+        'πρόσωπο idk',
+        'dunno',
+        ':person:'
     ],
-    '🤦{{skin_tone}}‍♂️': ['Άνθρωπος Facepalming'],
-    '🤦{{skin_tone}}‍♀️': ['Γυναίκα Facepalming'],
-    '🤦{{skin_tone}}': ['Person Facepalming'],
-    '🙇{{skin_tone}}‍‍♂️': ['Άνθρωπος Μπόουινγκ'],
-    '🙇{{skin_tone}}‍‍♀️': ['Γυναίκα Bowing'],
-    '🙇{{skin_tone}}': ['Person Bowing'],
-    '🧏{{skin_tone}}‍♂️': ['Κωφός Άνθρωπος'],
-    '🧏{{skin_tone}}‍‍♀️': ['Κωφών Γυναίκας'],
-    '🧏{{skin_tone}}': ['Deaf Person'],
+    '🤦{{skin_tone}}‍♂️': [
+        'Άνθρωπος Facepalming',
+        ':man_facepalming:',
+        ':facepalming:',
+        ':man:'
+    ],
+    '🤦{{skin_tone}}‍♀️': [
+        'Γυναίκα Facepalming',
+        ':woman_facepalming:',
+        ':facepalming:',
+        ':woman:'
+    ],
+    '🤦{{skin_tone}}': [
+        'Πρόσωπο Facepalming',
+        ':person_facepalming:',
+        ':facepalming:',
+        ':person:'
+    ],
+    '🙇{{skin_tone}}‍‍♂️': [
+        'Άνθρωπος Μπόουινγκ',
+        ':man_bowing:',
+        ':bowing:',
+        ':man:'
+    ],
+    '🙇{{skin_tone}}‍‍♀️': [
+        'Γυναίκα Bowing',
+        ':woman_bowing:',
+        ':bowing:',
+        ':woman:'
+    ],
+    '🙇{{skin_tone}}': [
+        'Πρόσωπο Bowing',
+        ':person_bowing:',
+        ':bowing:',
+        ':person:'
+    ],
+    '🧏{{skin_tone}}‍♂️': [
+        'Κωφός Άνθρωπος',
+        ':deaf_man:',
+        ':deaf:',
+        ':man:'
+    ],
+    '🧏{{skin_tone}}‍‍♀️': [
+        'Κωφών Γυναίκας',
+        ':deaf_woman:',
+        ':deaf:',
+        ':woman:'
+    ],
+    '🧏{{skin_tone}}': [
+        'Κωφό Άτομο',
+        ':deaf_person:',
+        ':deaf:',
+        ':person:'
+    ],
     '🙋{{skin_tone}}‍‍♂️': [
         'Άνθρωπος Αύξηση Χεριών',
-        'Happy Man Raising Ένα Χέρι'
+        ':man_raising_hand:',
+        'Happy Man Raising Ένα Χέρι',
+        ':raising_hand:',
+        ':man:'
     ],
     '🙋{{skin_tone}}‍♀️': [
         'Γυναικεία Ανύψωση Χέρι',
-        'Ευτυχισμένη Γυναίκα Αυξάνει Ένα Χέρι'
+        ':woman_raising_hand:',
+        'Ευτυχισμένη Γυναίκα Αυξάνει Ένα Χέρι',
+        ':raising_hand:',
+        ':woman:'
     ],
     '🙋{{skin_tone}}': [
-        'Person Raising Hand',
-        'Happy Person Raising One Hand'
+        'Άτομο Ανύψωση Χεριών',
+        ':person_raising_hand:',
+        'Ευτυχισμένο Το Πρόσωπο Αυξάνει Ένα Χέρι',
+        ':raising_hand:',
+        ':person:'
     ],
     '💁{{skin_tone}}‍♂️': [
         'Άνθρωπος Χέρι Συμβουλών',
-        'Άνθρωπος Γραφείου Πληροφοριών'
+        ':man_tipping_hand:',
+        'Άνθρωπος Γραφείου Πληροφοριών',
+        ':tipping_hand:',
+        ':man:'
     ],
     '💁{{skin_tone}}‍♀️': [
         'Χέρι Συμβουλής Γυναίκας',
-        'Γυναίκα Γραφείου Πληροφοριών'
+        ':woman_tipping_hand:',
+        'Γυναίκα Γραφείου Πληροφοριών',
+        ':tipping_hand:',
+        ':woman:'
     ],
     '💁{{skin_tone}}': [
-        'Person Tipping Hand',
-        'Information Desk Person'
+        'Χέρι Συμβουλής Πρόσωπο',
+        ':person_tipping_hand:',
+        'Πρόσωπο Γραφείου Πληροφοριών',
+        ':tipping_hand:',
+        ':person:'
     ],
-    '🙆{{skin_tone}}‍♂️': ['Man Gesturing OK'],
-    '🙆{{skin_tone}}‍♀️': ['Απαγόρευση Γυναίκας Εντάξει'],
-    '🙆{{skin_tone}}': ['Person Gesturing OK'],
-    '🙅{{skin_tone}}‍♂️': ['Αριθ. Χειρονομίας Του Ανθρώπου'],
-    '🙅{{skin_tone}}‍♀️': ['Χειρισμός Γυναίκας Αριθ.'],
-    '🙅{{skin_tone}}': ['Person Gesturing No'],
-    '🙎{{skin_tone}}‍♂️': ['Ο Άνθρωπος Pouting'],
-    '🙎{{skin_tone}}‍‍♀️': ['Pouting Γυναίκας'],
-    '🙎{{skin_tone}}': ['Person Pouting'],
-    '🙍{{skin_tone}}‍♂️': ['Man Frowning'],
-    '🙍{{skin_tone}}‍♀️': ['Woman Frowning'],
-    '🙍{{skin_tone}}': ['Person Frowning'],
-    '🧟‍‍♂️': ['Ο Άνθρωπος Ζόμπι'],
-    '🧟‍‍♀️': ['Ζόμπι Γυναίκας'],
-    '🧟': ['Person Zombie'],
-    '🚶{{skin_tone}}‍♂️': ['Άνθρωπος Περπάτημα'],
-    '🚶{{skin_tone}}‍♀️': ['Γυναίκα Περπάτημα'],
-    '🚶{{skin_tone}}': ['Person Walking'],
-    '🧍{{skin_tone}}‍♂️': ['Man Standing'],
-    '🧍{{skin_tone}}‍♀️': ['Woman Standing'],
-    '🧍{{skin_tone}}': ['Person Standing'],
-    '🧎{{skin_tone}}‍♂️': ['Άνθρωπος Γονιμοποίηση'],
-    '🧎{{skin_tone}}‍♀️': ['Woman Kneeling'],
-    '🧎{{skin_tone}}': ['Person Kneelink'],
-    '👨{{skin_tone}}‍🦯': ['Άνθρωπος με λευκό ζαχαροκάλαμο'],
-    '👩{{skin_tone}}‍🦯': ['Γυναίκα με λευκό ζαχαροκάλαμο'],
-    '🧑{{skin_tone}}‍🦯': ['Person with White Cane'],
-    '👨{{skin_tone}}‍🦼': ['Άνθρωπος σε μηχανοκίνητη αναπηρική καρέκλα'],
-    '👩{{skin_tone}}‍🦼': ['Γυναίκα σε Μηχανοκίνητη Αναπηρική Καρέκλα'],
-    '🧑{{skin_tone}}‍🦼': ['Person in Motorized Wheelchair'],
-    '👨{{skin_tone}}‍🦽': ['Ο άνθρωπος σε χειρωνακτική αναπηρική καρέκλα'],
-    '👩{{skin_tone}}‍🦽': ['Γυναίκα σε χειρωνακτική αναπηρική καρέκλα'],
-    '🧑{{skin_tone}}‍🦽': ['Person in Manual Wheelchair'],
-    '👯‍♂️': ['Άνδρες με αυτιά Bunny'],
-    '👯‍♀️': ['Γυναίκες με Bunny αυτιά'],
-    '👯': ['People with Bunny Ears'],
+    '🙆{{skin_tone}}‍♂️': [
+        'Man Gesturing OK',
+        ':man_gesturing_ok:',
+        ':gesturing_ok:',
+        ':man:'
+    ],
+    '🙆{{skin_tone}}‍♀️': [
+        'Απαγόρευση Γυναίκας Εντάξει',
+        ':woman_gesturing_ok:',
+        ':gesturing_ok:',
+        ':woman:'
+    ],
+    '🙆{{skin_tone}}': [
+        'Χειρονομία Προσώπου Εντάξει',
+        ':person_gesturing_ok:',
+        ':gesturing_ok:',
+        ':person:'
+    ],
+    '🙅{{skin_tone}}‍♂️': [
+        'Αριθ. Χειρονομίας Του Ανθρώπου',
+        ':man_gesturing_no:',
+        ':gesturing_no:',
+        ':man:'
+    ],
+    '🙅{{skin_tone}}‍♀️': [
+        'Χειρισμός Γυναίκας Αριθ.',
+        ':woman_gesturing_no:',
+        ':gesturing_no:',
+        ':woman:'
+    ],
+    '🙅{{skin_tone}}': [
+        'Αριθμός Χειρισμού Πρόσωπου',
+        ':person_gesturing_no:',
+        ':gesturing_no:',
+        ':person:'
+    ],
+    '🙎{{skin_tone}}‍♂️': [
+        'Ο Άνθρωπος Pouting',
+        ':man_pouting:',
+        ':pouting:',
+        ':man:'
+    ],
+    '🙎{{skin_tone}}‍‍♀️': [
+        'Pouting Γυναίκας',
+        ':woman_pouting:',
+        ':pouting:',
+        ':woman:'
+    ],
+    '🙎{{skin_tone}}': [
+        'Pouting Άτομο',
+        ':person_pouting:',
+        ':pouting:',
+        ':person:'
+    ],
+    '🙍{{skin_tone}}‍♂️': [
+        'Man Frowning',
+        ':man_frowining:',
+        ':frowining:',
+        ':man:'
+    ],
+    '🙍{{skin_tone}}‍♀️': [
+        'Γυναίκα Frowning',
+        ':woman_frowining:',
+        ':frowining:',
+        ':woman:'
+    ],
+    '🙍{{skin_tone}}': [
+        'Πρόσωπο Frowning',
+        ':person_frowining:',
+        ':frowining:',
+        ':person:'
+    ],
+    '🧟‍‍♂️': [
+        'Ο Άνθρωπος Ζόμπι',
+        ':man_zombie:',
+        ':zombie:',
+        ':man:'
+    ],
+    '🧟‍‍♀️': [
+        'Ζόμπι Γυναίκας',
+        ':woman_zombie:',
+        ':zombie:',
+        ':woman:'
+    ],
+    '🧟': [
+        'Ζόμπι Άτομο',
+        ':person_zombie:',
+        ':zombie:',
+        ':person:'
+    ],
+    '🚶{{skin_tone}}‍♂️': [
+        'Άνθρωπος Περπάτημα',
+        ':man_walking:',
+        ':walking:',
+        ':man:'
+    ],
+    '🚶{{skin_tone}}‍♀️': [
+        'Γυναίκα Περπάτημα',
+        ':woman_walking:',
+        ':walking:',
+        ':woman:'
+    ],
+    '🚶{{skin_tone}}': [
+        'Περπάτημα Προσώπου',
+        ':person_walking:',
+        ':walking:',
+        ':person:'
+    ],
+    '🧍{{skin_tone}}‍♂️': [
+        'Άνθρωπος Στέκεται',
+        ':man_standing:',
+        ':standing:',
+        ':man:'
+    ],
+    '🧍{{skin_tone}}‍♀️': [
+        'Γυναίκα Μόνιμη',
+        ':woman_standing:',
+        ':standing:',
+        ':woman:'
+    ],
+    '🧍{{skin_tone}}': [
+        'Μόνιμο Πρόσωπο',
+        ':person_standing:',
+        ':standing:',
+        ':person:'
+    ],
+    '🧎{{skin_tone}}‍♂️': [
+        'Άνθρωπος Γονιμοποίηση',
+        ':man_kneeling:',
+        ':kneeling:',
+        ':man:'
+    ],
+    '🧎{{skin_tone}}‍♀️': [
+        'Γονάτωση Γυναίκας',
+        ':woman_kneeling:',
+        ':kneeling:',
+        ':woman:'
+    ],
+    '🧎{{skin_tone}}': [
+        'Person Kneelink',
+        ':person_kneeling:',
+        ':kneeling:',
+        ':person:'
+    ],
+    '👨{{skin_tone}}‍🦯': [
+        'Άνθρωπος με λευκό ζαχαροκάλαμο',
+        ':man_with_white_cane:',
+        ':white_cane:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🦯': [
+        'Γυναίκα με λευκό ζαχαροκάλαμο',
+        ':woman_with_white_cane:',
+        ':white_cane:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🦯': [
+        'Άτομο με λευκό ζαχαροκάλαμο',
+        ':person_with_white_cane:',
+        ':white_cane:',
+        ':person:'
+    ],
+    '👨{{skin_tone}}‍🦼': [
+        'Άνθρωπος σε μηχανοκίνητη αναπηρική καρέκλα',
+        ':man_in_motorized_wheelchair:',
+        ':motorized_wheelchair:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🦼': [
+        'Γυναίκα σε Μηχανοκίνητη Αναπηρική Καρέκλα',
+        ':woman_in_motorized_wheelchair:',
+        ':motorized_wheelchair:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🦼': [
+        'Άτομο σε μηχανοκίνητο αναπηρικό καροτσάκι',
+        ':person_in_motorized_wheelchair:',
+        ':motorized_wheelchair:',
+        ':person:'
+    ],
+    '👨{{skin_tone}}‍🦽': [
+        'Ο άνθρωπος σε χειρωνακτική αναπηρική καρέκλα',
+        ':man_manual_wheelchair:',
+        ':manual_wheelchair:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🦽': [
+        'Γυναίκα σε χειρωνακτική αναπηρική καρέκλα',
+        ':woman_manual_wheelchair:',
+        ':manual_wheelchair:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🦽': [
+        'Πρόσωπο σε χειρωνακτική αναπηρική καρέκλα',
+        ':person_manual_wheelchair:',
+        ':manual_wheelchair:',
+        ':person:'
+    ],
+    '👯‍♂️': [
+        'Άνδρες με αυτιά Bunny',
+        ':men_with_bunny_hears:',
+        ':bunny_ears:',
+        ':man:'
+    ],
+    '👯‍♀️': [
+        'Γυναίκες με Bunny αυτιά',
+        ':women_with_bunny_hears:',
+        ':bunny_ears:',
+        ':woman:'
+    ],
+    '👯': [
+        'Άνθρωποι με Αυτιά Bunny',
+        ':people_with_bunny_hears:',
+        ':bunny_ears:',
+        ':person:'
+    ],
     '🕴️{{skin_tone}}': [
-        'Person in Suit Levitating',
+        'Πρόσωπο σε επίπεδο κοστούμι',
+        ':person_in_suit_levitating:',
         'Hovering Man',
         'Rude Boy',
         'Walt Jabsco',
-        'Man in Business Suit Levitating'
+        'Άνθρωπος σε Business Κοστούμι',
+        ':person:'
     ],
     '🧖{{skin_tone}}‍♂️': [
         'Άνθρωπος στο Steamy Room',
-        'Άνθρωπος στη Σάουνα'
+        ':man_in_steamy_room:',
+        ':steamy_room:',
+        'Άνθρωπος στη Σάουνα',
+        ':man:'
     ],
     '🧖{{skin_tone}}‍♀️': [
         'Γυναίκα στο Steamy Room',
-        'Γυναίκα στη Σάουνα'
+        ':woman_in_steamy_room:',
+        ':steamy_room:',
+        'Γυναίκα στη Σάουνα',
+        ':woman:'
     ],
     '🧖{{skin_tone}}': [
-        'Person in Steamy Room',
-        'Person in Sauna'
+        'Πρόσωπο στο Steamy Room',
+        ':person_in_steamy_room:',
+        ':steamy_room:',
+        'Πρόσωπο στη Σάουνα',
+        ':person:'
     ],
     '👫{{skin_tone}}': [
-        'Woman and Man Holding Hands',
-        'Heterosexual Couple',
-        'Straight Couple',
-        'Man and Woman Holding Hands'
-    ],
-    '👭{{skin_tone}}': [
-        'Lesbian Couple',
-        'Women Holding Hands',
-        'Two Women Holding Hands'
+        'Γυναίκα και άνθρωπος κρατώντας χέρια',
+        ':woman_and_man_holding_hands:',
+        ':holding_hands:',
+        'Ετεροεξουαλικό Ζευγάρι',
+        'Ευθεία Ζευγάρι',
+        'Άνθρωπος και γυναίκα κρατώντας χέρια',
+        ':woman:'
     ],
     '👬{{skin_tone}}': [
-        'Men Holding Hands',
-        'Gay Couple',
-        'Two Men Holding Hands'
+        'Ανδρικά Χέρια Εκμετάλλευσης',
+        ':holding_hands:',
+        ':men_holding_hands:',
+        'Gay Ζευγάρι',
+        'Δύο Άνδρες Κρατώντας Χέρια',
+        ':man:'
+    ],
+    '👭{{skin_tone}}': [
+        'Γυναικεία Χέρια Κρατώντας',
+        ':holding_hands:',
+        ':women_holding_hands:',
+        'Λεσβιακό Ζευγάρι',
+        'Δύο Γυναίκες Κρατώντας Τα Χέρια',
+        ':woman:'
     ],
     '🧑‍🤝‍🧑': [
-        'People Holding Hands',
-        'Two People Holding Hands',
-        'Gender Inclusive Couple',
-        'Gender Neutral Couple',
-        'Gender Nonconforming Couple'
+        'Άνθρωποι Που Κρατούν Χέρια',
+        ':holding_hands:',
+        ':people_holding_hands:',
+        'Δύο Άνθρωποι Κρατώντας Χέρια',
+        'Φύλο Περιεκτική Ζευγάρι',
+        'Φύλο Ουδέτερο Ζευγάρι',
+        'Φύλο Μη Συμμορφούμενο Ζευγάρι',
+        ':person:'
     ],
     '👨‍👩‍👦': [
         'Οικογένεια με τη μητέρα, τον πατέρα και τον γιο',
+        ':family_with_mother_father_and_son:',
         'Οικογένεια: Άνθρωπος, Γυναίκα, Αγόρι'
     ],
     '👨‍👩‍👧': [
         'Οικογένεια με μητέρα, πατέρα και κόρη',
+        ':family_with_mother_father_and_daughter:',
         'Οικογένεια: Άνθρωπος, Γυναίκα, Κορίτσι'
     ],
     '👨‍👩‍👧‍👦': [
         'Οικογένεια με τη μητέρα, τον πατέρα, τον γιο και την κόρη',
+        ':family_with_mother_father_son_and_daughter:',
         'Οικογένεια: Άνδρα, Γυναίκα, Κορίτσι, Αγόρι'
     ],
     '👨‍👩‍👦‍👦': [
         'Οικογένεια με τη μητέρα, τον πατέρα και δύο γιους',
+        ':family_with_mother_father_and_two_sons:',
         'Οικογένεια: Άνθρωπος, Γυναίκα, Αγόρι, Αγόρι'
     ],
     '👨‍👩‍👧‍👧': [
         'Οικογένεια με τη μητέρα, τον πατέρα και δύο κόρες',
+        ':family_with_mother_father_and_two_daughters:',
         'Οικογένεια: Άνθρωπος, Γυναίκα, Κορίτσι, Κορίτσι'
     ],
     '👨‍👨‍👦': [
         'Οικογένεια με δύο πατέρες και γιο',
-        'Οικογένεια: Άνθρωπος, Άνθρωπος, Αγόρι'
+        ':family_with_two_fathers_and_son:',
+        'Οικογένεια: Άνθρωπος, Άνθρωπος, Αγόρι',
+        ':man:'
     ],
     '👨‍👨‍👧': [
         'Οικογένεια με δύο πατέρες και κόρη',
-        'Οικογένεια: Άνθρωπος, Άνθρωπος, Κορίτσι'
+        ':family_with_two_fathers_and_daughter:',
+        'Οικογένεια: Άνθρωπος, Άνθρωπος, Κορίτσι',
+        ':man:'
     ],
     '👨‍👨‍👧‍👦': [
         'Οικογένεια με δύο πατέρες, τον γιο και την κόρη',
-        'Οικογένεια: Άνθρωπος, Άνθρωπος, Κορίτσι, Αγόρι'
+        ':family_with_two_fathers_son_and_daughter:',
+        'Οικογένεια: Άνθρωπος, Άνθρωπος, Κορίτσι, Αγόρι',
+        ':man:'
     ],
     '👨‍👨‍👦‍👦': [
         'Οικογένεια με δύο πατέρες και δύο γιους',
-        'Οικογένεια: Άνθρωπος, Άνθρωπος, Αγόρι, Αγόρι'
+        ':family_with_two_fathers_and_two_sons:',
+        'Οικογένεια: Άνθρωπος, Άνθρωπος, Αγόρι, Αγόρι',
+        ':man:'
     ],
     '👨‍👨‍👧‍👧': [
         'Οικογένεια με δύο πατέρες και δύο κόρες',
-        'Οικογένεια: Άνθρωπος, Άνθρωπος, Κορίτσι, Κορίτσι'
+        ':family_with_two_fathers_and_two_daughters:',
+        'Οικογένεια: Άνθρωπος, Άνθρωπος, Κορίτσι, Κορίτσι',
+        ':man:'
     ],
     '👩‍👩‍👦': [
         'Οικογένεια με δύο μητέρες και γιο',
-        'Οικογένεια: Γυναίκα, Γυναίκα, Αγόρι'
+        ':family_with_two_mothers_and_son:',
+        'Οικογένεια: Γυναίκα, Γυναίκα, Αγόρι',
+        ':woman:'
     ],
     '👩‍👩‍👧': [
         'Οικογένεια με δύο μητέρες και κόρη',
-        'Οικογένεια: Γυναίκα, Γυναίκα, Κορίτσι'
+        ':family_with_two_mothers_and_daughter:',
+        'Οικογένεια: Γυναίκα, Γυναίκα, Κορίτσι',
+        ':woman:'
     ],
     '👩‍👩‍👧‍👦': [
         'Οικογένεια με δύο μητέρες, Υιός και κόρη',
-        'Οικογένεια: Γυναίκα, Γυναίκα, Κορίτσι, Αγόρι'
+        ':family_with_two_mothers_son_and_daughter:',
+        'Οικογένεια: Γυναίκα, Γυναίκα, Κορίτσι, Αγόρι',
+        ':woman:'
     ],
     '👩‍👩‍👦‍👦': [
         'Οικογένεια με δύο μητέρες και δύο γιους',
-        'Οικογένεια: Γυναίκα, Γυναίκα, Αγόρι, Αγόρι'
+        ':family_with_two_mothers_and_two_sons:',
+        'Οικογένεια: Γυναίκα, Γυναίκα, Αγόρι, Αγόρι',
+        ':woman:'
     ],
     '👩‍👩‍👧‍👧': [
         'Οικογένεια με δύο μητέρες και δύο κόρες',
-        'Οικογένεια: Γυναίκα, Γυναίκα, Κορίτσι, Κορίτσι'
+        ':family_with_two_mothers_and_two_daughters:',
+        'Οικογένεια: Γυναίκα, Γυναίκα, Κορίτσι, Κορίτσι',
+        ':woman:'
     ],
     '👨‍👦': [
         'Οικογένεια με τον πατέρα και τον γιο',
-        'Οικογένεια: Άνθρωπος, Αγόρι'
+        ':family_with_father_and_son:',
+        'Οικογένεια: Άνθρωπος, Αγόρι',
+        ':man:'
     ],
     '👨‍👧': [
         'Οικογένεια με τον πατέρα και την κόρη',
-        'Οικογένεια: Άνθρωπος, Κορίτσι'
+        ':family_with_father_and_daughter:',
+        'Οικογένεια: Άνθρωπος, Κορίτσι',
+        ':man:'
     ],
     '👨‍👦‍👦': [
-        'Family With Father and Two Sons',
-        'Family: Man, Boy, Boy'
+        'Οικογένεια με τον πατέρα και δύο γιους',
+        ':family_with_father_and_two_sons:',
+        'Οικογένεια: Άνθρωπος, Αγόρι, Αγόρι',
+        ':man:'
     ],
     '👨‍👧‍👦': [
         'Οικογένεια με τον πατέρα, τον γιο και την κόρη',
-        'Οικογένεια: Άνθρωπος, Κορίτσι, Αγόρι'
+        ':family_with_father_son_and_daughter:',
+        'Οικογένεια: Άνθρωπος, Κορίτσι, Αγόρι',
+        ':man:'
     ],
     '👨‍👧‍👧': [
         'Οικογένεια με τον πατέρα και δύο κόρες',
-        'Οικογένεια: Άνθρωπος, Κορίτσι, Κορίτσι'
+        ':family_with_father_and_two_daughters:',
+        'Οικογένεια: Άνθρωπος, Κορίτσι, Κορίτσι',
+        ':man:'
     ],
     '👩‍👦': [
         'Οικογένεια με τη μητέρα και τον γιο',
-        'Οικογένεια: Γυναίκα, Αγόρι'
+        ':family_with_mother_and_son:',
+        'Οικογένεια: Γυναίκα, Αγόρι',
+        ':woman:'
     ],
     '👩‍👧': [
         'Οικογένεια με τη μητέρα και την κόρη',
-        'Οικογένεια: Γυναίκα, Κορίτσι'
+        ':family_with_mother_and_daughter:',
+        'Οικογένεια: Γυναίκα, Κορίτσι',
+        ':woman:'
     ],
     '👩‍👦‍👦': [
         'Οικογένεια με τη μητέρα και δύο γιους',
-        'Οικογένεια: Γυναίκα, Αγόρι, Αγόρι'
+        ':family_with_mother_and_two_sons:',
+        'Οικογένεια: Γυναίκα, Αγόρι, Αγόρι',
+        ':woman:'
     ],
     '👩‍👧‍👦': [
         'Οικογένεια με μητέρα, Υιός και κόρη',
-        'Οικογένεια: Γυναίκα, Κορίτσι, Αγόρι'
+        ':family_with_mother_son_and_daughter:',
+        'Οικογένεια: Γυναίκα, Κορίτσι, Αγόρι',
+        ':woman:'
     ],
     '👩‍👧‍👧': [
         'Οικογένεια με τη μητέρα και δύο κόρες',
-        'Οικογένεια: Γυναίκα, Κορίτσι, Κορίτσι'
+        ':family_with_mother_and_two_daughters:',
+        'Οικογένεια: Γυναίκα, Κορίτσι, Κορίτσι',
+        ':woman:'
     ],
     '💑{{skin_tone}}': [
-        'Couple with Heart',
-        'Couple In Love',
-        'Loving Couple',
-        'Gender Neutral Couple'
+        'Ζευγάρι Με Καρδιά',
+        ':couple_with_heart:',
+        'Ζευγάρι Στην Αγάπη',
+        'Ζευγάρι Αγάπης',
+        'Φύλο Ουδέτερο Ζευγάρι',
+        ':person:'
     ],
     '👩‍❤️‍👨': [
-        'Man and Woman With Heart',
-        'Couple In Love',
-        'Loving Couple',
-        'Couple With Heart'
+        'Άνθρωπος και γυναίκα με καρδιά',
+        ':man_and_woman_with_heart:',
+        'Ζευγάρι Στην Αγάπη',
+        'Ζευγάρι Αγάπης',
+        'Ζευγάρι Με Καρδιά'
     ],
     '👨‍❤️‍👨': [
         'Δύο Άνδρες Με Καρδιά',
-        'Ζευγάρι με την καρδιά: Άνθρωπος, Άνθρωπος'
+        ':two_men_with_heart:',
+        'Ζευγάρι με την καρδιά: Άνθρωπος, Άνθρωπος',
+        ':man:'
     ],
     '👩‍❤️‍👩': [
         'Δύο Γυναίκες Με Καρδιά',
-        'Ζευγάρι με καρδιά: Γυναίκα, Γυναίκα'
+        ':two_women_with_heart:',
+        'Ζευγάρι με καρδιά: Γυναίκα, Γυναίκα',
+        ':woman:'
     ],
     '💏{{skin_tone}}': [
-        'Couple Kissing',
-        'Kiss',
-        'Gender Neutral Couple Kissing'
+        'Ζευγάρι Φιλί',
+        ':couple_kissing:',
+        'Φιλί',
+        'Φύλο Ουδέτερο Ζευγάρι Φιλί',
+        ':person:'
     ],
-    '👩‍❤️‍💋‍👨': ['Man and Woman Kissing'],
+    '👩‍❤️‍💋‍👨': [
+        'Ο άνθρωπος και η γυναίκα φιλιά',
+        ':man_and_woman_kissing:'
+    ],
     '👨‍❤️‍💋‍👨': [
-        'Two Men Kissing',
-        'Man and Man Kissing'
+        'Δύο Άνδρες Φιλί',
+        ':two_men_kissing:',
+        'Άνθρωπος και ο άνθρωπος φιλιά',
+        ':man:'
     ],
     '👩‍❤️‍💋‍👩': [
-        'Two Women Kissing',
-        'Woman and Woman Kissing'
+        'Δύο Γυναίκες Φιλί',
+        ':two_women_kissing:',
+        'Γυναίκα και γυναίκα φιλιά',
+        ':woman:'
     ],
-    '💆{{skin_tone}}‍♂️': ['Man Getting Head Massage'],
-    '💆{{skin_tone}}‍♀️': ['Γυναίκα Να πάρει Μασάζ Κεφάλι'],
-    '💆{{skin_tone}}': ['Person Getting Head Massage'],
-    '💇{{skin_tone}}‍♂️': ['Man Getting Haircut'],
-    '💇{{skin_tone}}‍♀️': ['Woman Getting Haircut'],
-    '💇{{skin_tone}}': ['Person Getting Haircut'],
+    '💆{{skin_tone}}‍♂️': [
+        'Άνθρωπος Να πάρει Μασάζ Κεφάλι',
+        ':man_getting_head_massage:',
+        ':getting_head_massage:',
+        ':man:'
+    ],
+    '💆{{skin_tone}}‍♀️': [
+        'Γυναίκα Να πάρει Μασάζ Κεφάλι',
+        ':woman_getting_head_massage:',
+        ':getting_head_massage:',
+        ':woman:'
+    ],
+    '💆{{skin_tone}}': [
+        'Πρόσωπο Να πάρει Μασάζ Κεφάλι',
+        ':person_getting_head_massage:',
+        ':getting_head_massage:',
+        ':person:'
+    ],
+    '💇{{skin_tone}}‍♂️': [
+        'Άνθρωπος Getting Haircut',
+        ':man_getting_haircut:',
+        ':getting_haircut:',
+        ':man:'
+    ],
+    '💇{{skin_tone}}‍♀️': [
+        'Γυναίκα Getting Haircut',
+        ':woman_getting_haircut:',
+        ':getting_haircut:',
+        ':woman:'
+    ],
+    '💇{{skin_tone}}': [
+        'Πρόσωπο Getting Haircut',
+        ':person_getting_haircut:',
+        ':getting_haircut:',
+        ':person:'
+    ],
     '🛌{{skin_tone}}': [
-        'Sleeping Accommodation',
-        'Person in Bed',
-        'Person Sleeping'
+        'Καταλύματα Ύπνου',
+        ':sleeping_accommodation:',
+        'Πρόσωπο σε κρεβάτι',
+        'Υπνηλία Άτομου'
     ],
-    '🧌': ['Troll'],
+    '🧌': [
+        'Troll',
+        ':troll:'
+    ],
     '👺': [
-        'Goblin',
-        'Long Nose Face',
-        'Red Mask',
+        'Γκομπλιν',
+        ':goblin:',
+        'Μακρύ Πρόσωπο Μύτης',
+        'Κόκκινη Μάσκα',
         'Tengu',
-        'Japanese Goblin'
+        'Ιαπωνικά Goblin'
     ]
 };
 /*animals*/
 emojis_language[lang][4] = {
     '😺': [
         'Grinning Cat',
-        ':)',
+        ':happy_cat:',
+        ':smiling_cat:',
+        '::):',
         'Χαρούμενη Γάτα',
         'Χαμογελώντας Γάτα',
         'Καλή Γάτα Πρόσωπο',
@@ -1435,39 +2460,45 @@ emojis_language[lang][4] = {
     ],
     '😸': [
         'Grinning γάτα με χαμογελαστά μάτια',
-        ':D',
+        ':grinning_cat:',
+        '::D:',
         'Grinning Cat',
         'Χαρούμενη Γάτα',
         'Grinning Πρόσωπο Γάτας'
     ],
     '😹': [
         'Γάτα με τα δάκρυα της χαράς',
-        ':\')',
+        ':laughing_cat:',
+        '::):',
         'Χαρούμενη Δάκρυα Γάτα',
         'Γέλια Γάτα'
     ],
     '😻': [
         'Χαμογελώντας γάτα με Heart-Eyes',
-        '*.*',
+        ':heart_eyes_cat:',
+        ':*.*:',
         'Καρδιά Μάτια Γάτα',
         'Αγάπη Γάτα',
         'Χαμογελαστό πρόσωπο γάτα με μάτια σε σχήμα καρδιάς'
     ],
     '😼': [
         'Γάτα με Wry Smile',
+        ':cat_with_wry_smile:',
         'Σμίκρυνση Γάτας',
         'Σμίκρυνση Πρόσωπο Γάτας',
         'Πρόσωπο γάτας με Wry Smile'
     ],
     '😽': [
         'Φιλί Γάτα',
-        ':*',
+        ':kissing_cat:',
+        '::*:',
         'Φιλί Πρόσωπο Γάτα',
         'Φιλί προσώπου γάτα με κλειστά μάτια'
     ],
     '🙀': [
         'Weary Cat',
-        ':O',
+        ':weary_cat:',
+        '::O:',
         'Στιλβωμένη Γάτα',
         'Γάτα Που Κρατάει',
         'Γάτα προσώπου που κρατάει στο φόβο',
@@ -1475,61 +2506,84 @@ emojis_language[lang][4] = {
     ],
     '😿': [
         'Κλαίνοντας Γάτα',
-        ':\'(',
+        ':crying_cat:',
+        '::(:',
         'Λυπημένη Γάτα',
         'Κλαίνοντας Πρόσωπο Γάτας'
     ],
     '😾': [
         'Σπουδάζοντας Γάτα',
+        ':pouting_cat:',
         'Grumpy Cat',
         'Pouting Πρόσωπο Γάτας'
     ],
     '🙈': [
-        'Μαϊμού',
         'See-No-Evil Μαϊμού',
+        'Μαϊμού',
+        ':see-no-evil_mokey:',
+        ':see_no_evil_mokey:',
+        ':monkey:',
         'Μιζάρου',
         'Μαϊμού Που Καλύπτει Τα Μάτια'
     ],
     '🙉': [
-        'Μαϊμού',
         'Καρδιά-Κακό Μαϊμού',
+        'Μαϊμού',
+        ':hear-no-evil_monkey:',
+        ':hear_no_evil_monkey:',
+        ':monkey:',
         'Kikazaru',
         'Μαϊμού Που Καλύπτει Αυτιά'
     ],
     '🙊': [
-        'Μαϊμού',
         'Χωρίς Ομιλία Μαϊμού',
+        'Μαϊμού',
+        ':speak-no-evil_monkey:',
+        ':speak_no_evil_monkey:',
+        ':monkey:',
         'Iwazaru',
         'Στόμα Κάλυψης Μαϊμού',
         'Χωρίς Ομιλία'
     ],
     '🐵': [
-        'Μαϊμού',
         'Πρόσωπο Πίθηκου',
+        ':monkey_face:',
+        'Μαϊμού',
         'Μαϊμού Κεφαλή'
     ],
     '🐒': [
         'Μαϊμού',
+        ':monkey:',
         'Cheeky Πίθηκος'
     ],
-    '🦍': ['Gorilla'],
+    '🦍': [
+        'Gorilla',
+        ':gorilla:'
+    ],
     '🐶': [
         'Πρόσωπο Σκύλου',
+        ':dog_face:',
         'Σκύλος',
         'Κουτάβι'
     ],
     '🐕': [
         'Σκύλος',
+        ':dog:',
         'Doggo',
         'Akita Inu'
     ],
     '🦮': [
         'Βλέποντας Τον Σκύλο Των Ματιών',
+        ':seeing_eye_dog:',
         'Οδηγός Σκύλος'
     ],
-    '🐕‍🦺': ['Σκύλος Υπηρεσίας'],
+    '🐕‍🦺': [
+        'Σκύλος Υπηρεσίας',
+        ':service_dog:'
+    ],
     '🐩': [
         'Poodle',
+        ':poodle:',
         'Σκύλος',
         'Μινιατούρα Poodle',
         'Τυπικό Poodle',
@@ -1537,73 +2591,100 @@ emojis_language[lang][4] = {
     ],
     '🐺': [
         'Λύκος',
-        'Πρόσωπο Λύκου'
+        ':wolf:',
+        'Πρόσωπο Λύκου',
+        ':gray:',
+        ':grey:'
     ],
     '🦊': [
         'Αλεπού',
-        'Πρόσωπο Αλεπού'
+        ':fox:',
+        'Πρόσωπο Αλεπού',
+        ':orange:'
     ],
-    '🦝': ['Ρακούν'],
+    '🦝': [
+        'Ρακούν',
+        ':raccoon:'
+    ],
     '🐱': [
         'Πρόσωπο Γάτας',
+        ':cat_face:',
         ':3',
         'Γατάκι',
         'Γατάκι'
     ],
     '🐈': [
         'Γάτα',
+        ':cat:',
         'Εγχώρια Γάτα',
         'Αγριόχοιρος',
         'Χιούσεσατ'
     ],
-    '🐈‍⬛': ['Μαύρη Γάτα'],
+    '🐈‍⬛': [
+        'Μαύρη Γάτα',
+        ':black_cat:',
+        ':black:'
+    ],
     '🦁': [
         'Λιοντάρι',
+        ':lion:',
         'Πρόσωπο Λιονταριών'
     ],
     '🐯': [
         'Πρόσωπο Tiger',
+        ':tiger_face:',
         'Χαριτωμένος Τίγρης'
     ],
     '🐅': [
         'Τίγρης',
+        ':tiger:',
         'Τίγρης Της Βεγγάλης'
     ],
     '🐆': [
         'Leopard',
+        ':leopard:',
         'Αφρικανική Λεοπάρδαλη',
         'Jaguar'
     ],
     '🐴': [
         'Πρόσωπο Άλογα',
+        ':horse_face:',
         'Κεφαλή Άλογα'
     ],
     '🐎': [
         'Άλογα',
+        ':horse:',
         'Άλογο Galloping',
         'Ιππόδρομος'
     ],
     '🦄': [
         'Μονόκερος',
+        ':unicorn:',
         'Μονόκερο Πρόσωπο'
     ],
     '🦓': [
         'Zebra',
-        'Ζέβρα Πρόσωπο'
+        ':zebra:',
+        'Ζέβρα Πρόσωπο',
+        ':white:',
+        ':black:'
     ],
     '🦌': [
         'Ελάφια',
+        ':deer:',
         'Buck',
         'Τάρανδος',
         'Stag'
     ],
     '🐮': [
         'Πρόσωπο Αγελάδας',
+        ':cow_face:',
         'Αγελάδα',
         'Ευτυχισμένη Αγελάδα'
     ],
     '🐂': [
         'Ox',
+        ':ox:',
         'Ταύρος',
         'Bullock',
         'Oxen',
@@ -1611,296 +2692,488 @@ emojis_language[lang][4] = {
     ],
     '🐃': [
         'Μπουφάν Νερού',
+        ':water_buffalo:',
         'Βουβάλι',
         'Μπουφάν Για Κατοικίδια Νερό'
     ],
     '🐄': [
         'Αγελάδα',
+        ':cow:',
         'Γαλακτοκομική Αγελάδα'
     ],
     '🐷': [
         'Πρόσωπο Χοιρινό',
+        ':pig_fase:',
         'Χοίροι',
-        'Κεφαλή Χοίρου'
+        'Κεφαλή Χοίρου',
+        ':pink:'
     ],
     '🐖': [
         'Χοίροι',
+        ':pig:',
         'Χοκ',
-        'Sow'
+        'Sow',
+        ':pink:'
     ],
     '🐗': [
         'Κάπρου',
+        ':boar:',
         'Warthog',
         'Αγριογούρουνο',
         'Άγρια Χοιροειδή'
     ],
-    '🐽': ['Χοιρινό Μύτη'],
+    '🐽': [
+        'Χοιρινό Μύτη',
+        ':pig_nose:'
+    ],
     '🐏': [
         'Ram',
+        ':ram:',
         'Πρόβατα'
     ],
     '🐑': [
         'Ewe',
+        ':ewe:',
         'Lamb',
         'Πρόβατα'
     ],
-    '🐐': ['Αίγες'],
+    '🐐': [
+        'Αίγες',
+        ':goat:'
+    ],
     '🐪': [
         'Κάμελ',
+        ':camel:',
         'Αραβική Καμέλ',
         'Καμήλα Του Χρυσού',
         'Κάμερα Με Ένα Χτύπημα'
     ],
     '🐫': [
         'Κάμελ Δύο Χυμών',
+        ':two-hump_camel:',
+        ':two_hump_camel:',
         'Ασιατική Καμήλα',
         'Καμήλα Bactrian'
     ],
     '🦙': [
         'Llama',
+        ':llama:',
         'Alpaca'
     ],
     '🦒': [
         'Giraffe',
+        ':giraffe:',
         'Giraffe Face'
     ],
-    '🐘': ['Ελέφαντας'],
+    '🐘': [
+        'Ελέφαντας',
+        ':elephant:'
+    ],
     '🦏': [
         'Rhinoceros',
+        ':rhinoceros:',
         'Rhino'
     ],
     '🦛': [
         'Hippopotamus',
+        ':hippopotamus:',
         'Hippo'
     ],
     '🐭': [
         'Πρόσωπο Ποντικιού',
+        ':mouse_face:',
         'Ποντίκι'
     ],
     '🐁': [
         'Ποντίκι',
+        ':mouse:',
         'Δορμούζ',
         'Ποδόσφαιρο',
         'Ποντίκια'
     ],
     '🐀': [
         'Επίσπερμο',
+        ':rat:',
         'Ποδόσφαιρο'
     ],
     '🐹': [
         'Χάμστερ',
+        ':hamster:',
         'Πρόσωπο Χάμστερ'
     ],
     '🐰': [
         'Πρόσωπο Κουνέλι',
+        ':rabbit_face:',
         'Λαγουδάκι Του Πάσχα'
     ],
     '🐇': [
         'Κουνέλι',
         'Bunny',
+        ':rabbit:',
         'Κουνέλι Λαγού'
     ],
     '🐿️': [
         'Chipmunk',
+        ':chipmunk:',
         'Σκίουρος'
     ],
-    '🦔': ['Σκαντζόχοιρος'],
+    '🦔': [
+        'Σκαντζόχοιρος',
+        ':hedgehog:'
+    ],
     '🦇': [
         'Νυχτερίδα',
-        'Batman'
+        ':bat:',
+        'Batman',
+        ':black:'
     ],
     '🐻': [
         'Αρκούδα',
+        ':bear:',
         'Όψη Αρκούδας',
-        'Αρκουδάκι'
+        'Αρκουδάκι',
+        ':brown:'
     ],
     '🐨': [
         'Κοάλα',
+        ':koala:',
         'Πρόσωπο Koala'
     ],
     '🐼': [
         'Πάντα',
+        ':panda:',
         'Πάντα Πρόσωπο'
     ],
     '🦘': [
         'Καγκουρό',
+        ':kangaroo:',
         'Ρόο'
     ],
-    '🦡': ['Έμβλημα'],
+    '🦡': [
+        'Έμβλημα',
+        ':badger:'
+    ],
     '🦃': [
         'Τουρκία',
+        ':turkey:',
         'Τουρκία Των Ευχαριστιών',
         'Άγρια Τουρκία'
     ],
     '🐔': [
         'Κοτόπουλα',
+        ':chicken:',
         'Hen'
     ],
     '🐓': [
         'Κοκκινίλα',
+        ':cock:',
         'Rooster',
         'Κοκκινορέλη'
     ],
     '🐣': [
         'Τσεκούρι Εκκόλαψης',
+        ':hatching_chick:',
         'Παιδικό Κοτόπουλο',
-        'Επεκκόλαψη Γκόμενα'
+        'Επεκκόλαψη Γκόμενα',
+        ':yellow:'
     ],
     '🐤': [
         'Μωρό Γκόμενα',
-        'Κίτρινο Πουλί'
+        ':baby_chick:',
+        'Κίτρινο Πουλί',
+        ':yellow:'
     ],
     '🐥': [
         'Μπροστινό Μωρό Γκόμενα',
+        ':front_baby_chick:',
         'Μωρό Γκόμενα',
-        'Μόνιμο Γκόμενα'
+        'Μόνιμο Γκόμενα',
+        ':yellow:'
     ],
-    '🐦': ['Πουλί'],
-    '🐧': ['Penguin'],
+    '🐦': [
+        'Πουλί',
+        ':bird:'
+    ],
+    '🐧': [
+        'Penguin',
+        ':penguin:'
+    ],
     '🕊️': [
         'Περιστέρι',
-        'Περιστέρι της ειρήνης'
+        ':Dove:',
+        'Περιστέρι της ειρήνης',
+        ':white:'
     ],
     '🦅': [
         'Αετός',
+        ':Eagle:',
         'Φαλακρός Αετός'
     ],
-    '🦆': ['Πάπιες'],
-    '🦢': ['Κύκνος'],
-    '🦉': ['Κουκουβάγια'],
-    '🦚': ['Παγόψαρο'],
-    '🦜': ['Παπαγάλος'],
+    '🦆': [
+        'Πάπιες',
+        ':Duck:'
+    ],
+    '🦢': [
+        'Κύκνος',
+        ':swan:',
+        ':white:'
+    ],
+    '🦉': [
+        'Κουκουβάγια',
+        ':owl:',
+        ':brown:'
+    ],
+    '🦚': [
+        'Παγόψαρο',
+        ':peacock:'
+    ],
+    '🦜': [
+        'Παπαγάλος',
+        ':parrot:'
+    ],
     '🐸': [
         'Βάτραχος',
+        ':frog:',
         'Φρύνος',
-        'Πρόσωπο Βάτραχος'
+        'Πρόσωπο Βάτραχος',
+        ':green:'
     ],
     '🐊': [
         'Κροκόδειλος',
+        ':crocodile:',
         'Αλιγάτορας',
-        'Κροκόδειλος'
+        'Κροκόδειλος',
+        ':green:'
     ],
     '🐢': [
         'Χελώνα',
-        'Tortoise'
+        ':turtle:',
+        'Tortoise',
+        ':green:'
     ],
     '🦎': [
         'Μάγος',
-        'Gecko'
+        ':lizard:',
+        'Gecko',
+        ':green:'
     ],
     '🐍': [
         'Φίδι',
+        ':snake:',
         'Serpent'
     ],
     '🐲': [
         'Πρόσωπο Δράκου',
+        ':dragon_face:',
         'Δράκος Κεφαλής'
     ],
-    '🐉': ['Δράκος'],
+    '🐉': [
+        'Δράκος',
+        ':dragon:'
+    ],
     '🦕': [
         'Σαυρόποδα',
+        ':sauropod:',
         'Brachiosaurus',
         'Brontosaurus',
         'Dinosaur'
     ],
     '🦖': [
         'T-Rex',
+        ':t-rex:',
+        ':t_rex:',
         'Tyrannosaurus Rex'
     ],
     '🐳': [
         'Σπασμένος Φάλαινα',
+        ':spouting_whale:',
         'Χαριτωμένη Φάλαινα'
     ],
-    '🐋': ['Φάλαινα'],
-    '🐬': ['Δελφίνι'],
+    '🐋': [
+        'Φάλαινα',
+        ':whale:'
+    ],
+    '🐬': [
+        'Δελφίνι',
+        ':dolphin:'
+    ],
     '🐟': [
         'Ψάρια',
+        ':fish:',
         'Ψάρια Γλυκού Νερού'
     ],
     '🐠': [
         'Τροπικά Ψάρια',
+        ':tropical_fish:',
         'Ψάρια',
         'Κίτρινο Μπλε Ψάρι'
     ],
     '🐡': [
         'Φυσηψίες',
+        ':blowfish:',
         'Fugu',
         'Pufferfish'
     ],
     '🦈': [
         'Καρχαρίας',
+        ':shark:',
         'Μεγάλος Λευκός Καρχαρίας'
     ],
-    '🐙': ['Χταπόδι'],
+    '🐙': [
+        'Χταπόδι',
+        ':octopus:'
+    ],
     '🐚': [
         'Σπειροειδές Κέλυφος',
+        ':spiral_shell:',
         'Seashell',
         'Κέλυφος'
     ],
     '🐌': [
         'Σαλιγκάρι',
+        ':snail:',
         'Slug',
         'Κήπος Σαλιγκάρι'
     ],
-    '🦋': ['Πεταλούδα'],
+    '🦋': [
+        'Πεταλούδα',
+        ':butterfly:'
+    ],
     '🐛': [
         'Σφάλμα',
+        ':bug:',
         'Caterpillar',
         'Έντομο'
     ],
     '🐜': [
         'Ant',
+        ':ant:',
         'Σφάλμα',
         'Έντομο'
     ],
     '🐝': [
         'Μέλισσα',
+        ':honeybee:',
         'Μέλισσα',
-        'Bumblebee'
+        'Bumblebee',
+        ':yellow:',
+        ':black:'
     ],
     '🐞': [
         'Lady Beetle',
+        ':lady_beetle:',
         'Ladybird',
         'Ladybug',
         'Σφάλμα'
     ],
     '🦗': [
         'Κρίκετ',
+        ':cricket:',
         'Grasshopper'
     ],
-    '🕷️': ['Αράχνη'],
-    '🦂': ['Σκορπιός'],
-    '🦟': ['Κουνούπι'],
-    '🦀': ['Κάβουρας'],
-    '🦞': ['Αστακός'],
+    '🕷️': [
+        'Αράχνη',
+        ':spider:'
+    ],
+    '🦂': [
+        'Σκορπιός',
+        ':scorpion:'
+    ],
+    '🦟': [
+        'Κουνούπι',
+        ':mosquito:',
+        ':black:'
+    ],
+    '🦀': [
+        'Κάβουρας',
+        ':crab:',
+        ':red:'
+    ],
+    '🦞': [
+        'Αστακός',
+        ':lobster:'
+    ],
     '🦐': [
         'Γαρίδα',
+        ':shrimp:',
         'Prawn'
     ],
-    '🦑': ['Καλαμάρι'],
-    '🦧': ['Orangutan'],
-    '🦥': ['Sloth'],
-    '🦦': ['Otter'],
-    '🦨': ['Skunk'],
-    '🦬': ['Βίσος'],
-    '🦣': ['Μαμούθ'],
-    '🦫': ['Κάστορας'],
-    '🐻‍❄️': ['Πολική Αρκούδα'],
-    '🦤': ['Dodo'],
-    '🦭': ['Σφραγίδα'],
-    '🪲': ['Σκαθάρι'],
-    '🪳': ['Κατσαρίδα'],
-    '🪰': ['Πτήση'],
-    '🪱': ['Σκουλήκι'],
-    '🦩': ['Flamingo'],
+    '🦑': [
+        'Καλαμάρι',
+        ':squid:'
+    ],
+    '🦧': [
+        'Orangutan',
+        ':orangutan:'
+    ],
+    '🦥': [
+        'Sloth',
+        ':sloth:'
+    ],
+    '🦦': [
+        'Otter',
+        ':otter:'
+    ],
+    '🦨': [
+        'Skunk',
+        ':skunk:'
+    ],
+    '🦬': [
+        'Βίσος',
+        ':bison:'
+    ],
+    '🦣': [
+        'Μαμούθ',
+        ':mammoth:',
+        ':brown:'
+    ],
+    '🦫': [
+        'Κάστορας',
+        ':beaver:'
+    ],
+    '🐻‍❄️': [
+        'Πολική Αρκούδα',
+        ':polar_bear:',
+        ':white:'
+    ],
+    '🦤': [
+        'Dodo',
+        ':dodo:'
+    ],
+    '🦭': [
+        'Σφραγίδα',
+        ':seal:'
+    ],
+    '🪲': [
+        'Σκαθάρι',
+        ':beetle:'
+    ],
+    '🪳': [
+        'Κατσαρίδα',
+        ':cockroach:'
+    ],
+    '🪰': [
+        'Πτήση',
+        ':fly:'
+    ],
+    '🪱': [
+        'Σκουλήκι',
+        ':worm:'
+    ],
+    '🦩': [
+        'Flamingo',
+        ':flamingo:'
+    ],
     '🪹': [
-        'Empty Nest',
-        'Birds',
+        'Άδειασμα Φωλιάς',
+        ':empty_nest:',
+        'Πτηνά',
         'Αρχική'
     ],
     '🪺': [
-        'Nest with Eggs',
-        'Birds',
+        'Φωλιά με αυγά',
+        ':nest_with_eggs:',
+        'Πτηνά',
         'Αρχική'
     ]
 };
@@ -1908,99 +3181,140 @@ emojis_language[lang][4] = {
 emojis_language[lang][5] = {
     '💘': [
         'Καρδιά με βέλος',
+        ':heart_with_arrow:',
         'Βέλος Cupid',
-        'Lovestruck'
+        'Lovestruck',
+        ':pink:'
     ],
     '💝': [
         'Καρδιά με κορδέλα',
+        ':heart_with_ribbon:',
         'Κουτί Σοκολάτας',
         'Κουτί Δώρου',
-        'Καρδιά Δώρου'
+        'Καρδιά Δώρου',
+        ':red:'
     ],
     '💖': [
         'Sparkling Heart',
+        ':sparkling_heart:',
         'Καρδιά Σπινθήρα',
         'Σπινθηρή Καρδιά',
-        'Καρδιά Αστέρων'
+        'Καρδιά Αστέρων',
+        ':pink:'
     ],
     '💗': [
         'Αυξανόμενη Καρδιά',
+        ':growing_heart:',
         'Πολλαπλή Καρδιά',
-        'Τριπλή Καρδιά'
+        'Τριπλή Καρδιά',
+        ':pink:'
     ],
     '💓': [
         'Καρδιά Του Ξυλοδαρμού',
+        ':beating_heart:',
         'Συναγερμός Καρδιάς',
         'Heartbeat',
-        'Καρδιά Wi-Fi'
+        'Καρδιά Wi-Fi',
+        ':pink:'
     ],
     '💞': [
         'Περιστρεφόμενες Καρδιές',
-        'Δύο Καρδιές'
+        ':revolving_hearts:',
+        'Δύο Καρδιές',
+        ':pink:'
     ],
     '💕': [
         'Δύο Καρδιές',
+        ':two_hearts:',
         'Μικρές Καρδιές',
-        'Δύο Ροζ Καρδιές'
+        'Δύο Ροζ Καρδιές',
+        ':pink:'
     ],
-    '💟': ['Διακόσμηση Καρδιών'],
+    '💟': [
+        'Διακόσμηση Καρδιών',
+        ':heart_decoration:',
+        ':purple:'
+    ],
     '❣️': [
         'Φωνή Καρδιάς',
+        ':heart_exclamation:',
         'Καρδιά Πάνω Από Την Τελεία',
         'Κόκκινη καρδιά ως ένδειξη θαυμασμού',
-        'Βαριά Καρδιά Διακήρυξη Μαρκ Στολίδι'
+        'Βαριά Καρδιά Διακήρυξη Μαρκ Στολίδι',
+        ':red:'
     ],
     '💔': [
         'Σπασμένη Καρδιά',
+        ':broken_heart:',
         'Σπάζοντας Καρδιά',
         'Brokenhearted',
-        'Καρδιά Σπασμένη'
+        'Καρδιά Σπασμένη',
+        ':red:'
     ],
     '❤️': [
         'Σας Αγαπώ',
+        ':red_heart:',
         'Κόκκινη Καρδιά',
         'Καρδιά',
         'Καρδιά Αγάπης',
-        'Κόκκινη Καρδιά'
+        'Κόκκινη Καρδιά',
+        ':red:'
     ],
     '🧡': [
         'Πορτοκαλί Καρδιά',
-        'Σας Αγαπώ'
+        ':orange_heart:',
+        'Σας Αγαπώ',
+        ':orange:'
     ],
     '💛': [
         'Κίτρινη Καρδιά',
+        ':yellow_heart:',
         '#1 BF Snapchat',
         'Καρδιά Χρυσού',
-        'Σας Αγαπώ'
+        'Σας Αγαπώ',
+        ':yellow:'
     ],
     '💚': [
         'Πράσινη Καρδιά',
+        ':green_heart:',
         'Ζωντανή Καρδιά',
-        'Σας Αγαπώ'
+        'Σας Αγαπώ',
+        ':green:'
     ],
     '💙': [
         'Μπλε Καρδιά',
-        'Σας Αγαπώ'
+        ':blue_heart:',
+        'Σας Αγαπώ',
+        ':blue:'
     ],
     '💜': [
         'Μωβ Καρδιά',
-        'Σας Αγαπώ'
+        ':purple_heart:',
+        'Σας Αγαπώ',
+        ':purple:'
     ],
     '🖤': [
         'Μαύρη Καρδιά',
+        ':black_heart:',
         'Σκούρα Καρδιά',
-        'Σας Αγαπώ'
+        'Σας Αγαπώ',
+        ':black:'
     ],
     '🤍': [
         'Λευκή Καρδιά',
-        'Σας Αγαπώ'
+        ':white_heart:',
+        'Σας Αγαπώ',
+        ':white:'
     ],
     '🤎': [
         'Καφέ Καρδιά',
-        'Σας Αγαπώ'
+        ':brown_heart:',
+        'Σας Αγαπώ',
+        ':brown:'
     ],
     '💯': [
         'Βαθμοί Εκατοντάδες',
+        ':hundred_points:',
         '100',
         '%',
         'Κρατήστε Το 100',
@@ -2009,16 +3323,21 @@ emojis_language[lang][5] = {
     ],
     '💬': [
         'Μπαλόνι Ομιλίας',
+        ':speech_balloon:',
         'Φούσκα Συνομιλίας',
-        'Φούσκα Ομιλίας'
+        'Φούσκα Ομιλίας',
+        ':white:'
     ],
     '💭': [
         'Μπαλόνι Σκέψης',
+        ':thought_balloon:',
         'Σκέψης Φούσκα',
-        'Φούσκα Σκέψης'
+        'Φούσκα Σκέψης',
+        ':white:'
     ],
     '💤': [
         'Zzz',
+        ':zzz:',
         'Υπνοώρα',
         'Βόραγο',
         'Αναστολή',
@@ -2026,45 +3345,54 @@ emojis_language[lang][5] = {
         'Σύμβολο Ύπνου'
     ],
     '♠': [
-        'Spade Suit',
+        'Κοστούμι Μπαστούνι',
+        ':spade_suit:',
         'Spades',
         'Black Spade Suit'
     ],
     '♥': [
-        'Heart Suit',
-        'Card With Heart',
-        'Hearts',
-        'Black Heart Suit'
+        'Φυλή Καρδιάς',
+        ':heart_suit:',
+        'Κάρτα Με Καρδιά',
+        'Καρδιές',
+        'Μαύρη Καρδιά Κοστούμι'
     ],
     '♦': [
-        'Diamond Suit',
-        'Diamonds',
-        'Black Diamond Suit'
+        'Διαμάντι Κοστούμι',
+        ':diamond_suit:',
+        'Διαμάντια',
+        'Μαύρο Διαμάντι Κοστούμι'
     ],
     '♣': [
-        'Club Suit',
-        'Clubs',
-        'Black Club Suit'
+        'Κοστούμι Club',
+        ':club_suit:',
+        'Κλαμπ',
+        'Μαύρο Κοστούμι Club'
     ],
     '🏧': [
         'Σημάδι ATM',
+        ':atm_sign:',
         'ATM',
-        'Αυτοματοποιημένη Μηχανή Τηλεειδοποίησης'
+        'Αυτοματοποιημένη Μηχανή Τηλεειδοποίησης',
+        ':blue:'
     ],
     '🎧': [
-        'Headphone',
-        'Earphone',
+        'Ακουστικά',
+        ':headphone:',
+        'Ακουστικά',
         'iPod',
-        'Headphones'
+        'Ακουστικά'
     ],
     '🎵': [
         'Μουσική Σημείωση',
+        ':musical_note:',
         'Beamed Ζευγάρι Της Όγδοης Σημειώσεις',
         'Δοκίμιο Ζευγάρι Quavers',
         'Μουσική Σημείωση'
     ],
     '🎶': [
         'Μουσικές Σημειώσεις',
+        ':musical_notes:',
         'Μουσική',
         'Μουσικές Σημειώσεις',
         'Τραγούδι',
@@ -2072,476 +3400,705 @@ emojis_language[lang][5] = {
     ],
     '🔔': [
         'Κουδούνι',
+        ':bell:',
         'Κουδούνι Ελευθερίας',
         'Ringer',
-        'Κουδούνι Γάμου'
+        'Κουδούνι Γάμου',
+        ':yellow:'
     ],
     '🔕': [
         'Κουδούνι με κάθετο',
+        ':bell_with_slash:',
         'Ειδοποιήσεις',
         'Ειδοποίηση Ήχου Απενεργοποιημένη',
         'Σίγαση Κουδουνιού',
-        'Κουδούνι με ακύρωση εγκεφαλικό επεισόδιο'
+        'Κουδούνι με ακύρωση εγκεφαλικό επεισόδιο',
+        ':yellow:'
     ],
     '🔈': [
         'Χαμηλή Ένταση Ηχείου',
+        ':speaker_low_volum:',
         'Όγκος',
         'Ηχείο'
     ],
     '🔉': [
         'Μέσος Όγκος Ηχείου',
+        ':speaker_medium_volume:',
         'Μείωση Έντασης',
         'Ηχείο Με Μεσαία Ένταση',
         'Ηχείο με ένα ηχητικό κύμα'
     ],
     '🔊': [
         'Υψηλή Ένταση Ηχείου',
+        ':speaker_high_volume:',
         'Αύξηση Έντασης',
         'Ηχείο με τρία ηχητικά κύματα'
     ],
     '🔇': [
         'Ηχείο Σε Σίγαση',
+        ':muted_speaker:',
         'Σίγαση Έντασης',
         'Ηχείο με ακύρωση Stroke'
     ],
     '📢': [
         'Loudspeaker',
-        'Announcement',
-        'PA System',
-        'Public Address Loudspeaker',
-        ''
+        ':loudspeaker:',
+        'Ανακοίνωση',
+        'Σύστημα PA',
+        'Δημόσια Διεύθυνση Ηχείου'
     ],
-    '⛔': ['Καμία Καταχώρηση'],
+    '⛔': [
+        'Καμία Καταχώρηση',
+        ':no_entry:',
+        ':red:'
+    ],
     '🚫': [
         'Απαγορεύεται',
+        ':prohibited:',
         'Αποκλεισμένος',
         'Κύκλος Πίσω Κάθετος',
         'Όχι',
         'Κόκκινος Κύκλος Διασχισμένος',
         'Περιορισμένη',
-        'Δεν Υπάρχει Υπογραφή Εισόδου'
+        'Δεν Υπάρχει Υπογραφή Εισόδου',
+        ':red:'
     ],
     '🚳': [
         'Χωρίς Ποδήλατα',
-        'Δεν Υπάρχει Υπογραφή Ποδημάτων'
+        ':no_bicycles:',
+        'Δεν Υπάρχει Υπογραφή Ποδημάτων',
+        ':red:',
+        ':black:'
     ],
     '🚭': [
         'Μη Κάπνισμα',
-        'Μη Σύμβολο Καπνίσματος'
+        ':no_smoking:',
+        'Μη Σύμβολο Καπνίσματος',
+        ':red:',
+        ':black:'
     ],
     '🚯': [
         'Χωρίς Λίτρα',
-        'Δεν Υπάρχει Σύμβολο Litter'
+        ':no_littering:',
+        'Δεν Υπάρχει Σύμβολο Litter',
+        ':red:',
+        ':black:'
     ],
     '🚱': [
         'Μη Πόσιμο Νερό',
+        ':non-potable_water:',
+        ':non_potable_water:',
         'Χωρίς Νερό',
         'Χωρίς Πόσιμο Νερό',
-        'Μη Πόσιμο Σύμβολο Νερού'
+        'Μη Πόσιμο Σύμβολο Νερού',
+        ':red:',
+        ':black:'
     ],
     '🚷': [
         'Χωρίς Πεζούς',
+        ':no_pedestrians:',
         'Χωρίς Άτομα',
-        'Χωρίς Περπάτημα'
+        'Χωρίς Περπάτημα',
+        ':red:',
+        ':black:'
     ],
     '🔞': [
         'No One Under Eighteen',
+        ':no_one_under_18:',
         'Ακατάλληλος',
         'Κανένας Κάτω Από Δεκαοκτώ Σύμβολο',
-        '18'
+        '18',
+        ':red:',
+        ':black:'
     ],
     '📵': [
         'Χωρίς Κινητά Τηλέφωνα',
+        ':no_mobile_phones:',
         'Χωρίς Κινητά Τηλέφωνα',
         'Δεν Υπάρχουν Τηλέφωνα',
-        'Χωρίς Smartphones'
+        'Χωρίς Smartphones',
+        ':red:',
+        ':black:'
     ],
     '☢️': [
         'Radioactive',
+        ':radioactive:',
         'Σύμβολο Διεθνούς Ακτινοβολίας',
         'Πυρηνικός',
-        'Ραδιενεργός Σημάδι'
+        'Ραδιενεργός Σημάδι',
+        ':orange:'
     ],
     '☣️': [
         'Βιοκίνδυνος',
-        'Σημάδι Βιοκινδύνου'
+        ':biohazard:',
+        'Σημάδι Βιοκινδύνου',
+        ':orange:'
     ],
     '⬆️': [
-        'Πάνω Βέλος',
+        'Κουμπί Πάνω Βέλος',
+        ':up_arrow_button:',
         'Βαθμολογία Βέλους Πάνω',
-        'Πάνω Μαύρο Βέλος'
+        'Πάνω Μαύρο Βέλος',
+        ':blue:'
     ],
     '↗️': [
-        'Πάνω Δεξί Βέλος',
+        'Κουμπί Πάνω Δεξιού Βέλους',
+        ':up-right_arrow_button:',
+        ':up_right_arrow_button:',
         'Διαγώνια Πάνω Δεξιά Βέλος',
-        'Βέλος Βορειοανατολικά'
+        'Βέλος Βορειοανατολικά',
+        ':blue:'
     ],
     '➡️': [
-        'Δεξί Βέλος',
+        'Κουμπί Δεξιού Βέλους',
+        ':right_arrow_button:',
         'Βαθμολογία Βέλους Δεξιά',
-        'Μαύρο Δεξιόστροφο Βέλος'
+        'Μαύρο Δεξιόστροφο Βέλος',
+        ':blue:'
     ],
     '↘️': [
-        'Κάτω Δεξιά Βέλος',
+        'Κουμπί Κάτω Δεξιού Βέλους',
+        ':down-right_arrow_button:',
+        ':down_right_arrow_button:',
         'Διαγώνια Κάτω Δεξιά Βέλος',
-        'Βέλος Νοτιοανατολικής Ανατολής'
+        'Βέλος Νοτιοανατολικής Ανατολής',
+        ':blue:'
     ],
     '⬇️': [
-        'Κάτω Βέλος',
+        'Κάτω Κουμπί Βέλους',
+        ':down_arrow_button:',
         'Βαθμολογία Βέλους Κάτω',
-        'Κάτω Μαύρο Βέλος'
+        'Κάτω Μαύρο Βέλος',
+        ':blue:'
     ],
     '↙️': [
-        'Κάτω Αριστερά Βέλος',
+        'Κουμπί Κάτω Αριστερού Βέλους',
+        ':down-left_arrow_button:',
+        ':down_left_arrow_button:',
         'Διαγώνια Κάτω Αριστερά Βέλος',
-        'Βέλος Νοτιοδυτικού'
+        'Βέλος Νοτιοδυτικού',
+        ':blue:'
     ],
     '⬅️': [
-        'Αριστερό Βέλος',
+        'Κουμπί Αριστερού Βέλους',
+        ':left_arrow_button:',
         'Βαθμολογία Βέλους Αριστερά',
-        'Αριστερό Μαύρο Βέλος'
+        'Αριστερό Μαύρο Βέλος',
+        ':blue:'
     ],
     '↖️': [
-        'Πάνω Αριστερά Βέλος',
+        'Κουμπί Πάνω Αριστερού Βέλους',
+        ':up-left_arrow_button:',
+        ':up_left_arrow_button:',
         'Διαγώνια Πάνω Αριστερά Βέλος',
-        'Βέλος Βόρειας Δύσης'
+        'Βέλος Βόρειας Δύσης',
+        ':blue:'
     ],
     '↕️': [
-        'Πάνω Βέλος',
+        'Κουμπί Πάνω Βέλος',
+        ':up-down_arrow_button:',
+        ':up_down_arrow_button:',
         'Κατακόρυφα Βέλη',
-        'Πάνω Κάτω Βέλος'
+        'Πάνω Κάτω Βέλος',
+        ':blue:'
     ],
     '↔️': [
-        'Αριστερό-Δεξιά Βέλος',
+        'Αριστερό-Δεξί Κουμπί Βέλος',
+        ':left-right_arrow_button:',
+        ':left_right_arrow_button:',
         'Οριζόντια Βέλη',
         'Πλευρικά Βέλη',
-        'Αριστερό Δεξί Βέλος'
+        'Αριστερό Δεξί Βέλος',
+        ':blue:'
     ],
     '↩️': [
-        'Καμπύλη Δεξιού Βέλους Αριστερά',
+        'Δεξί Βέλος Καμπύλη Αριστερό Κουμπί',
+        ':right_arrow_curving_left_button:',
         'Απάντηση Email',
         'Αριστερό Κυρτό Βέλος',
-        'Αριστερό βέλος με γάντζο'
+        'Αριστερό βέλος με γάντζο',
+        ':blue:'
     ],
     '↪️': [
-        'Αριστερό Βέλος Καμπύλη Δεξιά',
+        'Αριστερό Βέλος Καμπύλη Δεξί Κουμπί',
+        ':left_arrow_curving_right_button:',
         'Email Μπροστά',
         'Δεξί Κυρτό Βέλος',
-        'Δεξιό βέλος με γάντζο'
+        'Δεξιό βέλος με γάντζο',
+        ':blue:'
     ],
     '⤴️': [
-        'Καμπύλη Δεξιού Βέλους Πάνω',
-        'Βέλος Που Δένει Δεξιά Μετά Καμπύλη Πάνω'
+        'Κουμπί Πάνω Δεξιού Βέλος',
+        ':right_arrow_curving_up_button:',
+        'Βέλος Που Δένει Δεξιά Μετά Καμπύλη Πάνω',
+        ':blue:'
     ],
     '⤵️': [
-        'Καμπύλη Δεξιού Βέλους Κάτω',
+        'Κουμπί Καμπύλης Δεξιού Βέλους',
+        ':right_arrow_curving_down_button:',
         'Κυρτό Κάτω Βέλος',
-        'Βέλος Που Δένει Δεξιά Μετά Καμπύλη Προς Τα Κάτω'
+        'Βέλος Που Δένει Δεξιά Μετά Καμπύλη Προς Τα Κάτω',
+        ':blue:'
     ],
     '🔃': [
-        'Δεξιόστροφα Κατακόρυφα Βέλη',
-        'Δεξιόστροφα προς τα κάτω και προς τα άνω βέλη ανοικτού κύκλου'
+        'Δεξιόστροφα Κατακόρυφα Βέλη Κουμπί',
+        ':clockwise_vertical_button:',
+        'Δεξιόστροφα προς τα κάτω και προς τα άνω βέλη ανοικτού κύκλου',
+        ':blue:'
     ],
     '🔄': [
         'Κουμπί Αριστερόστροφα Βέλη',
+        ':counterclockwise_button:',
         'Ανανέωση',
         'Περιστροφή',
         'Εναλλαγή',
         'Αριστερόστροφα Βέλη',
-        'Αριστερόστροφα προς τα κάτω και προς τα πάνω ανοιχτά βέλη κύκλου'
+        'Αριστερόστροφα προς τα κάτω και προς τα πάνω ανοιχτά βέλη κύκλου',
+        ':blue:'
     ],
     '🔙': [
         'Πίσω Βέλος',
+        ':back_arrow:',
         'Πίσω',
-        'Πίσω με το αριστερό βέλος πάνω από'
+        'Πίσω με το αριστερό βέλος πάνω από',
+        ':black:'
     ],
     '🔚': [
         'Τέλος Βέλος',
+        ':end_arrow:',
         'Τέλος',
-        'Τέλος με αριστερό βέλος πάνω από'
+        'Τέλος με αριστερό βέλος πάνω από',
+        ':black:'
     ],
     '🔛': [
         'Ενεργό! Βέλος',
+        ':on_arrow:',
         'Ενεργό',
-        'Ενεργό με Εξαιρετικό σημάδι με το αριστερό δεξί βέλος πάνω από'
+        'Ενεργό με Εξαιρετικό σημάδι με το αριστερό δεξί βέλος πάνω από',
+        ':black:'
     ],
     '🔜': [
         'Σύντομα Βέλος',
+        ':soon_arrow:',
         'Σύντομα',
-        'Σύντομα με δεξιό βέλος πάνω από'
+        'Σύντομα με δεξιό βέλος πάνω από',
+        ':black:'
     ],
     '🔝': [
         'Πάνω Βέλος',
+        ':top_arrow:',
         'Πάνω',
-        'Πάνω με πάνω βέλος πάνω από'
+        'Πάνω με πάνω βέλος πάνω από',
+        ':black:'
     ],
     '🛐': [
         'Τόπος λατρείας',
-        'Θρησκευτικό Κτίριο'
+        ':place_of_worship:',
+        'Θρησκευτικό Κτίριο',
+        ':purple:'
     ],
-    '⚛️': ['Σύμβολο Ατόμου'],
+    '⚛️': [
+        'Σύμβολο Ατόμου',
+        ':atom_symbol:',
+        ':purple:'
+    ],
     '🕉️': [
         'Σύμβολο OS',
+        ':om_symbol:',
         'Εμ',
         'Aumkara',
         'Omkara',
-        'Pranava'
+        'Pranava',
+        ':purple:'
     ],
     '✡️': [
         'Αστέρι του David',
-        'Magen David'
+        ':star_of_david:',
+        'Magen David',
+        ':purple:'
     ],
     '☸️': [
         'Τροχός του Dharma',
-        'Χελμ'
+        ':wheel_of_dharma:',
+        'Χελμ',
+        ':purple:'
     ],
-    '☯️': ['Yin Yang'],
+    '☯️': [
+        'Yin Yang',
+        ':yin_yang:',
+        ':purple:'
+    ],
     '✝️': [
         'Λατινικός Σταυρός',
-        'Χριστιανικός Σταυρός'
+        ':latin_cross:',
+        'Χριστιανικός Σταυρός',
+        ':purple:'
     ],
-    '☦️': ['Ορθόδοξος Σταυρός'],
-    '☪️': ['Αστέρι και ημισέληνος'],
+    '☦️': [
+        'Ορθόδοξος Σταυρός',
+        ':orthodox_cross:',
+        ':purple:'
+    ],
+    '☪️': [
+        'Αστέρι και ημισέληνος',
+        ':star_and_crescent:',
+        ':purple:'
+    ],
     '☮️': [
         'Σύμβολο Ειρήνης',
-        'Σημάδι Ειρήνης'
+        ':peace:',
+        'Σημάδι Ειρήνης',
+        ':purple:'
     ],
     '🕎': [
         'Menorah',
+        ':menorah:',
         'Candelabrum',
         'Κεριά',
         'Chanukiah',
         'Menorah',
-        'Menorah με εννέα υποκαταστήματα'
+        'Menorah με εννέα υποκαταστήματα',
+        ':purple:'
     ],
     '🔯': [
         'Διάστικτο Αστέρι Με Έξι Σημεία',
-        'Έξι Σημεία Αστέρι με Middle Dot'
+        ':dotted_six-pointed_star:',
+        ':dotted_six_pointed_star:',
+        'Έξι Σημεία Αστέρι με Middle Dot',
+        ':purple:'
     ],
     '♈': [
         'Κριός',
-        'Zodiac'
+        ':aries:',
+        ':zodiac:',
+        'Zodiac',
+        ':purple:'
     ],
     '♉': [
         'Taurus',
-        'Zodiac'
+        ':taurus:',
+        ':zodiac:',
+        'Zodiac',
+        ':purple:'
     ],
     '♊': [
         'Gemini',
-        'Zodiac'
+        ':gemini:',
+        ':zodiac:',
+        'Zodiac',
+        ':purple:'
     ],
     '♋': [
         'Καρκίνος',
-        'Zodiac'
+        ':cancer:',
+        ':zodiac:',
+        'Zodiac',
+        ':purple:'
     ],
     '♌': [
         'Λέων',
-        'Zodiac'
+        ':leo:',
+        ':zodiac:',
+        'Zodiac',
+        ':purple:'
     ],
     '♍': [
         'Παρθένος',
-        'Zodiac'
+        ':virgo:',
+        ':zodiac:',
+        'Zodiac',
+        ':purple:'
     ],
     '♎': [
         'Ζυγός',
-        'Zodiac'
+        ':libra:',
+        ':zodiac:',
+        'Zodiac',
+        ':purple:'
     ],
     '♏': [
         'Σκορπιός',
+        ':scorpio:',
+        ':zodiac:',
         'Σκορπιός',
-        'Zodiac'
+        'Zodiac',
+        ':purple:'
     ],
     '♐': [
         'Sagittarius',
-        'Zodiac'
+        ':sagittarius:',
+        ':zodiac:',
+        'Zodiac',
+        ':purple:'
     ],
     '♑': [
         'Αιγόκερως',
-        'Zodiac'
+        ':capricorn:',
+        ':zodiac:',
+        'Zodiac',
+        ':purple:'
     ],
     '♒': [
         'Υδροχόος',
-        'Zodiac'
+        ':aquarius:',
+        ':zodiac:',
+        'Zodiac',
+        ':purple:'
     ],
     '♓': [
         'Pisces',
-        'Zodiac'
+        ':pisces:',
+        ':zodiac:',
+        'Zodiac',
+        ':purple:'
     ],
     '⛎': [
         'Ophiuchus',
-        'Zodiac'
+        ':ophiuchus:',
+        ':zodiac:',
+        'Zodiac',
+        ':purple:'
     ],
     '⏭️': [
-        'Μαύρο δεξιόστροφο διπλό τρίγωνο με κάθετη μπάρα',
         'Παράκαμψη Μπροστά Σύμβολο',
-        'Πλήκτρο Επόμενου Κομματιού'
+        'Μαύρο δεξιόστροφο διπλό τρίγωνο με κάθετη μπάρα',
+        ':skip_forward_button:',
+        'Πλήκτρο Επόμενου Κομματιού',
+        ':blue:'
     ],
     '⏮️': [
-        'Μαύρο αριστερό σημείο διπλό τρίγωνο με κάθετη μπάρα',
         'Παράκαμψη Συμβόλου Πίσω',
+        'Μαύρο αριστερό σημείο διπλό τρίγωνο με κάθετη μπάρα',
+        ':skip_backward_button:',
         'Κουμπί Τελευταίου Κομματιού',
-        'Προηγούμενο Κομμάτι'
+        'Προηγούμενο Κομμάτι',
+        ':blue:'
     ],
     '⏯️': [
-        'Μαύρο δεξιόστροφο τρίγωνο με διπλό κατακόρυφο μπαρ',
         'Κουμπί αναπαραγωγής ή παύσης',
+        'Μαύρο δεξιόστροφο τρίγωνο με διπλό κατακόρυφο μπαρ',
+        ':play_button:',
+        ':pause_button:',
+        ':play_or_pause_button:',
         'Σύμβολο Παιχνιδιού',
-        'Σύμβολο Παύσης'
+        'Σύμβολο Παύσης',
+        ':blue:'
     ],
     '🔀': [
         'Κουμπί Τυχαίας Αναπαραγωγής Κομματιών',
-        'Twisted Δεξιά Βέλη'
+        ':shuffle_tracks_button:',
+        'Twisted Δεξιά Βέλη',
+        ':blue:'
     ],
     '🔁': [
         'Κουμπί Επανάληψης',
+        ':repeat_button:',
         'Σύμβολο Βρόχου',
         'Retweet',
-        'Δεξιόστροφα δεξιόστροφα και αριστερά βέλη ανοιχτού κύκλου'
+        'Δεξιόστροφα δεξιόστροφα και αριστερά βέλη ανοιχτού κύκλου',
+        ':blue:'
     ],
     '🔂': [
         'Επανάληψη Μενού Κουμπιού',
+        ':repeat_single_button:',
         'Κύκλος Βέλη Με Αριθμό 1',
         'Κύκλωμα Ένα Σύμβολο',
         'Επανάληψη Συμβόλου Ενιαίου Κομματιού',
-        'Δεξιόστροφα Δεξιά και Αριστερά Ανοιχτά Βέλη Κύκλου με Κύκλο Μία Επικάλυψη'
+        'Δεξιόστροφα Δεξιά και Αριστερά Ανοιχτά Βέλη Κύκλου με Κύκλο Μία Επικάλυψη',
+        ':blue:'
     ],
     '▶️': [
         'Κουμπί Αναπαραγωγής',
+        ':play_button:',
         'Δεξί Τρίγωνο',
         'Τρίγωνο Δεξιάς Σημείωσης',
-        'Μαύρο Δεξιόστροφο Τρίγωνο'
+        'Μαύρο Δεξιόστροφο Τρίγωνο',
+        ':blue:'
     ],
     '◀️': [
         'Αντίστροφο Κουμπί',
+        ':reverse_button:',
         'Αριστερό Τρίγωνο',
         'Αριστερό Σημείο Τρίγωνο',
-        'Μαύρο Αριστερό Σημείο Τρίγωνο'
+        'Μαύρο Αριστερό Σημείο Τρίγωνο',
+        ':blue:'
     ],
     '🔼': [
         'Κουμπί Πάνω',
+        ':upwards_button:',
         'Πάνω Τρίγωνο',
         'Τριγωνικό Πάνω Σημείωμα',
-        'Up-Pointing Μικρό Κόκκινο Τρίγωνο'
+        'Up-Pointing Μικρό Κόκκινο Τρίγωνο',
+        ':blue:'
     ],
     '🔽': [
         'Κουμπί Προς Τα Κάτω',
+        ':downwards_button:',
         'Κάτω Τρίγωνο',
         'Τρίγωνο Κάτω Σημείων',
-        'Κάτω Από Το Μικρό Κόκκινο Τρίγωνο'
+        'Κάτω Από Το Μικρό Κόκκινο Τρίγωνο',
+        ':blue:'
     ],
     '⏩': [
         'Κουμπί Γρήγορης Προώθησης',
+        ':fast-forward_button:',
+        ':fast_forward_button:',
         'Γρήγορη Μπροστά',
         'Σύμβολο Γρήγορης Προώθησης',
-        'Μαύρο Δεξιόστροφο Διπλό Τρίγωνο'
+        'Μαύρο Δεξιόστροφο Διπλό Τρίγωνο',
+        ':blue:'
     ],
     '⏪': [
         'Fast Reverse Button',
+        ':fast_reverse_button:',
         'Rewind',
         'Επαναφορά Συμβόλου',
-        'Μαύρο Αριστερό Σημείο Διπλό Τρίγωνο'
+        'Μαύρο Αριστερό Σημείο Διπλό Τρίγωνο',
+        ':blue:'
     ],
     '⏫': [
         'Γρήγορο Κουμπί',
+        ':fast_up_button:',
         'Διπλό Τρίγωνο Up-Pointing',
-        'Μαύρο Up-Pointing Διπλό Τρίγωνο'
+        'Μαύρο Up-Pointing Διπλό Τρίγωνο',
+        ':blue:'
     ],
     '⏬': [
         'Γρήγορο Κάτω Κουμπί',
+        ':fast_down_button:',
         'Κάτω Από Το Διπλό Τρίγωνο',
-        'Μαύρο Κάθετο Διπλό Τρίγωνο'
+        'Μαύρο Κάθετο Διπλό Τρίγωνο',
+        ':blue:'
     ],
     '⏹️': [
         'Κουμπί Διακοπής',
+        ':stop_button:',
         'Διακοπή',
         'Σύμβολο Διακοπής',
-        'Μαύρο τετράγωνο για Stop'
+        'Μαύρο τετράγωνο για Stop',
+        ':blue:'
     ],
     '⏏️': [
         'Κουμπί Εξαγωγής',
-        'Eject Symbol'
+        ':eject_button:',
+        'Eject Symbol',
+        ':blue:'
     ],
     '🎦': [
         'Κινηματογράφος',
+        ':cinema_button:',
         'Οθόνη Κινηματογράφου',
         'Ταινίες',
         'Ταινία',
         'Σύμβολο Κινηματογράφου',
-        'Εγγραφή'
+        'Εγγραφή',
+        ':blue:'
     ],
     '📶': [
         'Μπάρες Κεραίας',
+        ':antenna_bars_button:',
         'Μπάρες Υποδοχής',
         'Ισχύς Σήματος',
         'Stairs',
         'Σύμβολο Δύναμης Σήματος',
-        'Κεραία με Μπαρ'
+        'Κεραία με Μπαρ',
+        ':blue:'
     ],
     '✖️': [
         'Πολλαπλασιασμός',
+        ':multiply:',
+        'Φορές',
         'Σύμβολο Πολλαπλασιασμού',
-        'Βαρύς Πολλαπλασιασμός X'
+        'Βαρύς Πολλαπλασιασμός X',
+        ':black:'
     ],
     '➕': [
         'Συν',
+        ':plus:',
         'Συν Σύμβολο',
-        'Σημάδι Heavy Plus'
+        'Σημάδι Heavy Plus',
+        ':black:'
     ],
     '➖': [
         'Minus',
+        ':minus:',
         'Minus Symbol',
-        'Σημάδι Βαρέων Μικρών'
+        'Σημάδι Βαρέων Μικρών',
+        ':black:'
     ],
     '➗': [
         'Διαίρεση',
+        ':divide:',
         'Σύμβολο Διαίρεσης',
-        'Σημάδι Βαρέως Διαίρεσης'
+        'Σημάδι Βαρέως Διαίρεσης',
+        ':black:'
     ],
     '🟰': [
-        'Heavy Equals Sign',
-        'Result'
+        'Σημάδι Βαρύ Ίσο',
+        ':heavy_equals_sign:',
+        'Ίσο',
+        'Αποτέλεσμα',
+        ':black:'
     ],
     '♾️': [
         'Άπειρο',
+        ':infinity:',
         'Έγγραφο Μόνιμου Χαρτιού'
     ],
     '‼️': [
         'Διπλό Σήμα Φωνής',
-        'Κόκκινο Διπλό Επισήμανση'
+        ':double_exclamation_mark:',
+        'Κόκκινο Διπλό Επισήμανση',
+        ':red:'
     ],
     '⁉️': [
         'Αναγνωριστικό Ερωτηματολογίου',
-        'Κόκκινο σημάδι θαυμασμού και ερωτηματικό'
+        ':exclamation_question_mark:',
+        'Κόκκινο σημάδι θαυμασμού και ερωτηματικό',
+        ':red:'
     ],
     '❓': [
         'Σήμανση Ερώτησης',
+        ':question_mark:',
         'Κόκκινο Επισήμανση Ερωτήσεων',
-        'Μαύρο Ερωτηματικό Σήμα Στολίδι'
+        'Μαύρο Ερωτηματικό Σήμα Στολίδι',
+        ':red:'
     ],
     '❔': [
         'Λευκή Ερώτηση Σημείωση',
+        ':white_question_mark:',
+        ':question_mark:',
         'Λευκή Ερώτηση Σημείωση',
-        'Λευκό Ερωτηματικό Σήμα Στολίδι'
+        'Λευκό Ερωτηματικό Σήμα Στολίδι',
+        ':white:'
     ],
     '❗': [
         'Αναγνωριστικό Σημείωση',
+        ':exclamation_mark:',
         'Κόκκινο Αναγνωριστικό',
-        'Σύμβολο Σημαδιού Βαρέως Εκφρασης'
+        'Σύμβολο Σημαδιού Βαρέως Εκφρασης',
+        ':red:'
     ],
     '❕': [
         'Λευκό Επισήμανση Αναγνωριστικού',
-        'Λευκό Διακήρυξη Μαρκ Στολίδι'
+        ':white_exclamation_mark:',
+        ':exclamation_mark:',
+        'Λευκό Διακήρυξη Μαρκ Στολίδι',
+        ':white:'
     ],
     '⭕': [
         'Κοίλος Κόκκινος Κύκλος',
+        ':hollow_red_circle:',
         'Κύκλος',
         'Σωστό',
         'Κόκκινος Κύκλος',
         'Σήμα Κύκλου',
-        'Βαρύς Μεγάλος Κύκλος'
+        'Βαρύς Μεγάλος Κύκλος',
+        ':red:'
     ],
     '☑️': [
         'Ελέγξτε το πλαίσιο με έλεγχο',
+        ':check_box_with_check:',
         'V',
         'Πλαίσιο',
         'Επιλέξτε Σημείωση Στο Πλαίσιο',
@@ -2549,351 +4106,530 @@ emojis_language[lang][5] = {
     ],
     '✔️': [
         'Ελέγξτε Σημείωση',
+        ':check_mark:',
         'V',
         'Έλεγχος',
         'Τικ',
         'Checkmark',
-        'Βαρύ Σήμα Ελέγχου'
+        'Βαρύ Σήμα Ελέγχου',
+        ':black:'
     ],
     '❌': [
         'Σταυρωτό Μαρκάρισμα',
+        ':cross_mark:',
         'Σταυρός',
-        'X'
+        'X',
+        ':red:'
     ],
     '✅': [
         'Κουμπί Επιλογής',
+        ':check_mark_button:',
         'V',
         'Σημείωση Πράσινου Ελέγχου',
         'Πράσινο Τικ',
         'Ελέγξτε Σημείωση',
-        'Λευκό Βαρύ Σημάδι Ελέγχου'
+        'Λευκό Βαρύ Σημάδι Ελέγχου',
+        ':green:'
     ],
     '❎': [
         'Κουμπί Σταυρού Σημείου',
+        ':cross_mark_button:',
         'Σταυρός',
         'X',
         'Σημείωση X',
-        'Αρνητικό Τετράγωνο Σταυρό Σημάδι'
+        'Αρνητικό Τετράγωνο Σταυρό Σημάδι',
+        ':green:'
     ],
     '#️⃣': [
         'Σημάδι Αριθμού Keycap',
+        ':hash_key:',
         '#',
         'Κλειδί Hash',
         'Ταμπλό',
         'Οκτώβριος',
         'Κλειδί Λίρας',
-        'Υπογραφή Αριθμού'
+        'Υπογραφή Αριθμού',
+        ':blue:'
     ],
     '*️⃣': [
         'Keycap Asterisk',
-        'Αστέρι Keycap'
+        ':asterisk:',
+        'Αστέρι Keycap',
+        ':blue:'
     ],
     '0️⃣': [
         'Αριθμός 0',
+        ':number_0:',
         'Keycap Digit Zero'
     ],
     '1️⃣': [
         'Αριθμός 1',
+        ':number_1:',
         'Keycap Digit One'
     ],
     '2️⃣': [
         'Αριθμός 2',
+        ':number_2:',
         'Πληκτρολόγιο Ψηφίο Δύο'
     ],
     '3️⃣': [
         'Αριθμός 3',
+        ':number_3:',
         'Πλήκτρο Ψηφίου Τρία'
     ],
     '4️⃣': [
         'Αριθμός 4',
+        ':number_4:',
         'Keycap Digit Τέσσερα'
     ],
     '5️⃣': [
         'Αριθμός 5',
+        ':number_5:',
         'Keycap Digit Πέντε'
     ],
     '6️⃣': [
         'Αριθμός 6',
+        ':number_6:',
         'Keycap Digit Έξι'
     ],
     '7️⃣': [
         'Αριθμός 7',
+        ':number_7:',
         'Keycap Digit Seven'
     ],
     '8️⃣': [
         'Αριθμός 8',
+        ':number_8:',
         'Keycap Digit Οκτώ'
     ],
     '9️⃣': [
-        'Αριθμός 09',
+        'Αριθμός 9',
+        ':number_9:',
         'Keycap Digit Εννέα'
     ],
     '🔟': [
         'Αριθμός 10',
+        ':number_10:',
         'Keycap: 10',
         '10',
         'Keycap Digit Δέκα'
     ],
     '🔠': [
         'Input Latin Uppercase',
+        ':input_latin_uppercase:',
         'ABCD',
         'Κεφαλαία',
         'Σύμβολο εισαγωγής για κεφαλαία γράμματα',
-        'Σύμβολο εισόδου για γράμματα λατινικής πρωτεύουσας'
+        'Σύμβολο εισόδου για γράμματα λατινικής πρωτεύουσας',
+        ':blue:'
     ],
     '🔡': [
         'Input Latin Lowercase',
+        ':input_latin_lowercase:',
         'αβγδ',
         'Πεζά',
         'Σύμβολο εισόδου για πεζά γράμματα',
-        'Σύμβολο εισόδου για τα λατινικά μικρά γράμματα'
+        'Σύμβολο εισόδου για τα λατινικά μικρά γράμματα',
+        ':blue:'
     ],
     '🔢': [
         'Input Numbers',
+        ':input_numbers:',
         '1234',
         'Αριθμοί',
         'Numeric Input',
-        'Σύμβολο εισόδου για αριθμούς'
+        'Σύμβολο εισόδου για αριθμούς',
+        ':blue:'
     ],
     '🔣': [
         'Σύμβολο εισόδου για σύμβολα',
+        ':input_symbols:',
         'Σύμβολα',
-        'Είσοδος Συμβόλου'
+        'Είσοδος Συμβόλου',
+        ':blue:'
     ],
     '🔤': [
         'Input Latin Letters',
+        ':input_latin_letters:',
         'αβγ',
         'Αλφάβητο',
         'Γράμματα',
         'Σύμβολο εισόδου για γράμματα',
-        'Σύμβολο εισόδου για τα λατινικά γράμματα'
+        'Σύμβολο εισόδου για τα λατινικά γράμματα',
+        ':blue:'
     ],
     '🅰️': [
         'Ένα Κουμπί (Τύπος Blood)',
+        ':a_blood:',
         'Τύπος Αίματος Α',
         'Γράμμα A',
-        'Αρνητική Τετραγωνισμένη Λατινική Πρωτεύουσα Γράμμα A'
+        'Αρνητική Τετραγωνισμένη Λατινική Πρωτεύουσα Γράμμα A',
+        ':red:'
     ],
     '🆎': [
         'Κουμπί AB (τύπος πλημμύρας)',
+        ':ab_blood:',
         'Γράμματα AB',
         'Τύπος Αίματος AB',
-        'Αρνητική Τετραγωνική ΑΒ'
+        'Αρνητική Τετραγωνική ΑΒ',
+        ':red:'
     ],
     '🅱️': [
         'Κουμπί B (Τύπος Blood)',
+        ':b_blood:',
         'Γράμμα B',
         'Τύπος Αίματος Β',
-        'Αρνητική Τετραγωνισμένη Λατινική Πρωτεύουσα Γράμμα B'
+        'Αρνητική Τετραγωνισμένη Λατινική Πρωτεύουσα Γράμμα B',
+        ':red:'
     ],
     '🆑': [
         'Κουμπί CL',
+        ':cl_button:',
         'Εκκαθάριση',
         'Πλήκτρο Καθαρισμού',
         'Σημάδι CL',
         'Τετράγωνο CL',
-        'Γράμματα CL'
+        'Γράμματα CL',
+        ':red:'
     ],
     '🆒': [
         'Κουμπί Ψυχρό',
+        ':cool_button:',
         'Ψυχρό Τετράγωνο',
         'Πινακίδα Ψυχρής',
-        'Τετράγωνο Δροσερό'
+        'Τετράγωνο Δροσερό',
+        ':blue:'
     ],
     '🆓': [
         'Πλήκτρο Ελεύθερο',
+        ':free_button:',
         'Δωρεάν',
         'Δωρεάν Υπογραφή',
-        'Τετράγωνο Ελεύθερο'
+        'Τετράγωνο Ελεύθερο',
+        ':blue:'
     ],
     'ℹ️': [
         'Πληροφορίες',
+        ':info_button:',
         'Πληροφορίες',
         'Πεζά Ι',
         'Τουριστικές Πληροφορίες',
-        'Πηγή Πληροφοριών'
+        'Πηγή Πληροφοριών',
+        ':blue:'
     ],
     '🆔': [
         'Κουμπί ID',
+        ':id_button:',
         'ID',
         'Ταυτοποίηση',
         'Σημάδι Αναγνώρισης',
-        'Τετράγωνο Id'
+        'Τετράγωνο Id',
+        ':purple:'
     ],
     '🆕': [
         'Νέο Κουμπί',
+        ':new_button:',
         'Νέο',
         'Νέα Πινακίδα',
-        'Τετράγωνο Νέο'
+        'Τετράγωνο Νέο',
+        ':blue:'
     ],
     '🅾️': [
         'Κουμπί O (Τύπος Blood)',
+        ':0_blood:',
         'Τύπος Αίματος O',
         '0',
         'Αρνητική Τετραγωνισμένη Λατινική Πρωτεύουσα Επιστολή',
-        'Γράμμα O'
+        'Γράμμα O',
+        ':red:'
     ],
     '🆗': [
         'Πλήκτρο OK',
+        ':ok_button:',
         'Εντάξει',
         'Εντάξει',
         'Τετράγωνο',
         'Σημάδι OK',
-        'Τετράγωνο Εντάξει'
+        'Τετράγωνο Εντάξει',
+        ':blue:'
     ],
     '🅿️': [
         'Κουμπί P',
+        ':p_button:',
+        ':parking_sign:',
         'Σημάδι Στάθμευσης',
         'Αρνητική Τετραγωνισμένη Λατινική Πρωτεύουσα Επιστολή',
-        'Γράμμα P'
+        'Γράμμα P',
+        ':blue:'
     ],
     '🆘': [
         'Κουμπί SOS',
+        ':sos_button:',
         'Σήμα Επίδρασης',
         'Έκτακτη ανάγκη',
         'SOS',
         'Σημάδι SOS',
         'Τετράγωνο SOS',
-        'Βοήθεια'
+        'Βοήθεια',
+        ':red:'
     ],
     '🆙': [
         'Κουμπί Πάνω!',
+        ':up_button:',
         'Ανανέωση Επιπέδου',
         'Επάνω',
         'Επάνω Εγγραφή',
-        'Τετράγωνο επάνω με ένδειξη θαυμασμού'
+        'Τετράγωνο επάνω με ένδειξη θαυμασμού',
+        ':blue:'
     ],
     '🆚': [
         'Κουμπί VS',
-        'Τετράγωνο Vs'
+        ':vs_button:',
+        'Τετράγωνο Vs',
+        ':orange:'
     ],
     '🆖': [
         'Πλήκτρο NG',
+        ':ng_button:',
         'Τετράγωνο NG',
         'Καμία Καλή Σημάδια',
         'Όχι Καλό',
-        'NG',
-        'Blooper'
+        ':ng:',
+        'Blooper',
+        ':blue:'
     ],
     '🔴': [
         'Κόκκινος Κύκλος',
-        'Μεγάλος Κόκκινος Κύκλος'
+        ':red_circle:',
+        'Μεγάλος Κόκκινος Κύκλος',
+        ':red:'
     ],
     '🟠': [
         'Πορτοκαλί Κύκλος',
-        'Μεγάλος Πορτοκαλί Κύκλος'
+        ':orange_circle:',
+        'Μεγάλος Πορτοκαλί Κύκλος',
+        ':orange:'
     ],
     '🟡': [
         'Κίτρινος Κύκλος',
-        'Μεγάλος Κίτρινος Κύκλος'
+        ':yellow_circle:',
+        'Μεγάλος Κίτρινος Κύκλος',
+        ':yellow:'
     ],
     '🟢': [
         'Πράσινος Κύκλος',
-        'Μεγάλος Πράσινος Κύκλος'
+        ':green_circle:',
+        'Μεγάλος Πράσινος Κύκλος',
+        ':green:'
     ],
     '🔵': [
         'Μπλε Κύκλος',
-        'Μεγάλος Μπλε Κύκλος'
+        ':blue_circle:',
+        'Μεγάλος Μπλε Κύκλος',
+        ':blue:'
     ],
     '🟣': [
         'Μωβ Κύκλος',
-        'Μεγάλος Μοβ Κύκλος'
+        ':purple_circle:',
+        'Μεγάλος Μοβ Κύκλος',
+        ':purple:'
     ],
     '🟤': [
         'Καφέ Κύκλος',
-        'Μεγάλος Καφέ Κύκλος'
+        ':brown_circle:',
+        'Μεγάλος Καφέ Κύκλος',
+        ':brown:'
     ],
     '⚫': [
         'Μαύρος Κύκλος',
-        'Μεσαίος Μαύρος Κύκλος'
+        ':black_circle:',
+        'Μεσαίος Μαύρος Κύκλος',
+        ':black:'
     ],
     '⚪': [
         'Λευκός Κύκλος',
-        'Μεσαίος Λευκός Κύκλος'
+        ':white_circle:',
+        'Μεσαίος Λευκός Κύκλος',
+        ':white:'
     ],
     '🟥': [
         'Κόκκινη Τετράγωνη',
-        'Μεγάλη Κόκκινη Πλατεία'
+        ':red_square:',
+        'Μεγάλη Κόκκινη Πλατεία',
+        ':red:'
     ],
     '🟧': [
         'Πορτοκαλί Τετράγωνο',
-        'Μεγάλο Πορτοκαλί Τετράγωνο'
+        ':orange_square:',
+        'Μεγάλο Πορτοκαλί Τετράγωνο',
+        ':orange:'
     ],
     '🟨': [
         'Κίτρινο Τετράγωνο',
-        'Μεγάλο Κίτρινο Τετράγωνο'
+        ':yellow_square:',
+        'Μεγάλο Κίτρινο Τετράγωνο',
+        ':yellow:'
     ],
     '🟩': [
         'Πράσινο Τετράγωνο',
-        'Μεγάλο Πράσινο Τετράγωνο'
+        ':green_square:',
+        'Μεγάλο Πράσινο Τετράγωνο',
+        ':green:'
     ],
     '🟦': [
         'Μπλε Τετράγωνο',
-        'Μεγάλο Μπλε Τετράγωνο'
+        ':blue_square:',
+        'Μεγάλο Μπλε Τετράγωνο',
+        ':blue:'
     ],
     '🟪': [
         'Μωβ Τετράγωνο',
-        'Μεγάλο Μωβ Τετράγωνο'
+        ':purple_square:',
+        'Μεγάλο Μωβ Τετράγωνο',
+        ':purple:'
     ],
     '🟫': [
         'Καφέ Τετράγωνο',
-        'Μεγάλο Καφέ Τετράγωνο'
+        ':brown_square:',
+        'Μεγάλο Καφέ Τετράγωνο',
+        ':brown:'
     ],
-    '⬛': ['Μαύρο Μεγάλο Τετράγωνο'],
-    '⬜': ['Λευκό Μεγάλο Τετράγωνο'],
-    '◼️': ['Μαύρο Μεσαίο Τετράγωνο'],
-    '◻️': ['Λευκό Μεσαίο Τετράγωνο'],
-    '◾': ['Μαύρο Μεσαίο Μικρό Τετράγωνο'],
-    '◽': ['Λευκό Μεσαίο Μικρό Τετράγωνο'],
-    '▪️': ['Μαύρο Μικρό Τετράγωνο'],
-    '▫️': ['Λευκό Μικρό Τετράγωνο'],
+    '⬛': [
+        'Μαύρο Μεγάλο Τετράγωνο',
+        ':black_large_square:',
+        ':black:'
+    ],
+    '⬜': [
+        'Λευκό Μεγάλο Τετράγωνο',
+        ':white_large_square:',
+        ':white:'
+    ],
+    '◼️': [
+        'Μαύρο Μεσαίο Τετράγωνο',
+        ':black_medium_square:',
+        ':black:'
+    ],
+    '◻️': [
+        'Λευκό Μεσαίο Τετράγωνο',
+        ':white_medium_square:',
+        ':white:'
+    ],
+    '◾': [
+        'Μαύρο Μεσαίο Μικρό Τετράγωνο',
+        ':black_medium_small_square:',
+        ':black:'
+    ],
+    '◽': [
+        'Λευκό Μεσαίο Μικρό Τετράγωνο',
+        ':white_medium_small_square:',
+        ':white:'
+    ],
+    '▪️': [
+        'Μαύρο Μικρό Τετράγωνο',
+        ':black_small_square:',
+        ':black:'
+    ],
+    '▫️': [
+        'Λευκό Μικρό Τετράγωνο',
+        ':white_small_square:',
+        ':white:'
+    ],
     '💠': [
         'Διαμαντένιο σχήμα με ένα τελείωμα μέσα',
+        ':diamond_shape_with_dot:',
         'Χωρητικότητα',
         'Διαμάντι Λουλούδι',
         'Χαβάη'
     ],
-    '🔶': ['Μεγάλο Πορτοκαλί Διαμάντι'],
-    '🔷': ['Μεγάλο Μπλε Διαμάντι'],
-    '🔸': ['Μικρό Πορτοκαλί Διαμάντι'],
-    '🔹': ['Μικρό Μπλε Διαμάντι'],
+    '🔶': [
+        'Μεγάλο Πορτοκαλί Διαμάντι',
+        ':large_orange_diamond:',
+        ':orange:'
+    ],
+    '🔷': [
+        'Μεγάλο Μπλε Διαμάντι',
+        ':large_blue_diamond:',
+        ':blue:'
+    ],
+    '🔸': [
+        'Μικρό Πορτοκαλί Διαμάντι',
+        ':small_orange_diamond:',
+        ':orange:'
+    ],
+    '🔹': [
+        'Μικρό Μπλε Διαμάντι',
+        ':small_blue_diamond:',
+        ':blue:'
+    ],
     '🔺': [
         'Κόκκινο Τρίγωνο Επισήμανση Πάνω',
-        'Κόκκινο Τρίγωνο Up-Pointing'
+        ':red_triangle_pointed_up:',
+        'Κόκκινο Τρίγωνο Up-Pointing',
+        ':red:'
     ],
     '🔻': [
         'Κόκκινο Τρίγωνο Επισήμανση Κάτω',
-        'Κόκκινο Τρίγωνο Κατεύθυνσης'
+        ':red_triangle_pointed_down:',
+        'Κόκκινο Τρίγωνο Κατεύθυνσης',
+        ':red:'
     ],
-    '🔳': ['Κουμπί Λευκού Τετράγωνου'],
-    '🔲': ['Μαύρο Τετραγωνικό Κουμπί'],
+    '🔳': [
+        'Κουμπί Λευκού Τετράγωνου',
+        ':white_square_button:',
+        ':white:',
+        ':black:'
+    ],
+    '🔲': [
+        'Μαύρο Τετραγωνικό Κουμπί',
+        ':black_square_button:',
+        ':white:',
+        ':black:'
+    ],
     '©️': [
         'Πνευματικά δικαιώματα',
+        ':copyright:',
+        ':c:',
         'Σημάδι Πνευματικών Δικαιωμάτων'
     ],
     '®️': [
         'Εγγεγραμμένος',
+        ':registered:',
+        ':r:',
         'Εγγεγραμμένη Πινακίδα'
     ],
     '™️': [
         'Εμπορικό Σήμα',
-        'ΜΜ',
+        ':trade_mark:',
+        ':tm:',
         'Εμπορικό Σήμα',
         'Σημάδι Εμπορικού Σημείου'
     ],
     '🛅': [
         'Αριστερές Αποσκευές',
+        ':left_luggage:',
         'Τσάντα Με Κλειδί',
-        'Κλειδωμένη Βαλίτσα'
+        'Κλειδωμένη Βαλίτσα',
+        ':blue:'
     ],
-    '🛄': ['Διεκδίκηση Αποσκευών'],
-    '🛃': ['Τελωνεία'],
+    '🛄': [
+        'Διεκδίκηση Αποσκευών',
+        ':baggage_claim:',
+        ':blue:'
+    ],
+    '🛃': [
+        'Τελωνεία',
+        ':customs:',
+        ':blue:'
+    ],
     '🛂': [
         'Έλεγχος Διαβατηρίου',
-        'Έλεγχος Περιγράμματος'
+        ':passport_control:',
+        'Έλεγχος Περιγράμματος',
+        ':blue:'
     ],
     '🚰': [
         'Σύμβολο Πόσιμου Νερού',
+        ':potable_water_symbol:',
         'Δίψα',
         'Δίψα',
         'Βρύση Νερού',
@@ -2901,343 +4637,487 @@ emojis_language[lang][5] = {
     ],
     '🇦': [
         'Γράμμα A',
+        ':letter_a:',
+        ':a:',
         'Περιφερειακός Δείκτης Σύμβολο Γράμμα Α'
     ],
     '🇧': [
         'Γράμμα B',
+        ':letter_b:',
+        ':b:',
         'Περιφερειακός Δείκτης Σύμβολο Γράμμα Β'
     ],
     '🇨': [
         'Γράμμα Γ',
+        ':letter_c:',
+        ':c:',
         'Περιφερειακός Δείκτης Σύμβολο Γράμμα Γ'
     ],
     '🇩': [
         'Γράμμα D',
+        ':letter_d:',
+        ':d:',
         'Περιφερειακός Δείκτης Σύμβολο Γράμμα Δ'
     ],
     '🇪': [
         'Γράμμα E',
+        ':letter_e:',
+        ':e:',
         'Περιφερειακός Δείκτης Σύμβολο Γράμμα E'
     ],
     '🇫': [
         'Γράμμα F',
+        ':letter_f:',
+        ':f:',
         'Περιφερειακός Δείκτης Σύμβολο Γράμμα F'
     ],
     '🇬': [
         'Γράμμα G',
+        ':letter_g:',
+        ':g:',
         'Περιφερειακός Δείκτης Σύμβολο Γράμμα G'
     ],
     '🇭': [
         'Γράμμα H',
+        ':letter_h:',
+        ':h:',
         'Περιφερειακός Δείκτης Σύμβολο Γράμμα H'
     ],
     '🇮': [
         'Γράμμα I',
+        ':letter_i:',
+        ':i:',
         'Περιφερειακός Δείκτης Σύμβολο Γράμμα I'
     ],
     '🇯': [
         'Γράμμα J',
+        ':letter_j:',
+        ':j:',
         'Περιφερειακός Δείκτης Σύμβολο Γράμμα J'
     ],
     '🇰': [
         'Γράμμα Κ',
+        ':letter_k:',
+        ':k:',
         'Περιφερειακός Δείκτης Σύμβολο Γράμμα K'
     ],
     '🇱': [
         'Γράμμα L',
+        ':letter_l:',
+        ':l:',
         'Περιφερειακός Δείκτης Σύμβολο Γράμμα L'
     ],
     '🇲': [
         'Γράμμα M',
+        ':letter_m:',
+        ':m:',
         'Περιφερειακός Δείκτης Σύμβολο Γράμμα M'
     ],
     '🇳': [
         'Γράμμα N',
+        ':letter_n:',
+        ':n:',
         'Περιφερειακός Δείκτης Σύμβολο Γράμμα N'
     ],
     '🇴': [
         'Γράμμα O',
+        ':letter_o:',
+        ':o:',
         'Περιφερειακός Δείκτης Σύμβολο Γράμμα O'
     ],
     '🇵': [
         'Γράμμα P',
+        ':letter_p:',
+        ':p:',
         'Περιφερειακός Δείκτης Σύμβολο Γράμμα P'
     ],
     '🇶': [
         'Γράμμα Q',
+        ':letter_q:',
+        ':q:',
         'Περιφερειακός Δείκτης Σύμβολο Γράμμα Q'
     ],
     '🇷': [
         'Γράμμα R',
+        ':letter_r:',
+        ':r:',
         'Περιφερειακός Δείκτης Σύμβολο Γράμμα R'
     ],
     '🇸': [
         'Γράμμα S',
+        ':letter_s:',
+        ':s:',
         'Περιφερειακός Δείκτης Σύμβολο Γράμμα S'
     ],
     '🇹': [
         'Γράμμα T',
+        ':letter_t:',
+        ':t:',
         'Περιφερειακός Δείκτης Σύμβολο Γράμμα T'
     ],
     '🇺': [
         'Γράμμα U',
+        ':letter_u:',
+        ':u:',
         'Περιφερειακός Δείκτης Σύμβολο Γράμμα U'
     ],
     '🇻': [
         'Γράμμα V',
+        ':letter_v:',
+        ':v:',
         'Περιφερειακός Δείκτης Σύμβολο Γράμμα V'
     ],
     '🇼': [
         'Γράμμα W',
+        ':letter_w:',
+        ':w:',
         'Περιφερειακός Δείκτης Σύμβολο Γράμμα W'
     ],
     '🇽': [
         'Γράμμα X',
+        ':letter_x:',
+        ':x:',
         'Περιφερειακός Δείκτης Σύμβολο Γράμμα X'
     ],
     '🇾': [
         'Γράμμα Y',
+        ':letter_y:',
+        ':y:',
         'Περιφερειακός Δείκτης Σύμβολο Γράμμα Y'
     ],
     '🇿': [
         'Γράμμα Z',
+        ':letter_z:',
+        ':z:',
         'Περιφερειακός Δείκτης Σύμβολο Γράμμα Z'
     ],
     '💌': [
         'Γράμμα Αγάπης',
+        ':love_letter:',
         'Φάκελος Καρδιά',
         'Σημείωση Αγάπης'
     ],
     '🚮': [
         'Βάλτε Litter στο σύμβολο θέση του',
+        ':put_litter_in_bing_sign:',
         'Πεταλούδα στο δοχείο',
         'Βάλτε Τον Κάδο Απορριμμάτων',
         'Άτομο Με Κάδο Απορριμμάτων'
     ],
     '♿': [
         'Σύμβολο Αναπηρικής Καρέκλας',
+        ':wheelchair_symbol:',
         'Προσβάσιμο Μπάνιο'
     ],
     '🚹': [
         'Σύμβολο Ανδρών',
-        'Ανδρικό Σύμβολο',
+        ':mens_symbol:',
+        'Σύμβολο Ανδρών',
         'Ανδρική Τουαλέτα',
         'Ανδρική Μετεωρολογία',
-        'Αρσενικό WC'
+        'Αρσενικό WC',
+        ':blue:'
     ],
     '🚺': [
         'Σύμβολο Γυναικών',
+        ':womens_symbol:',
         'Σύμβολο Γυναικών',
         'Γυναικεία Τουαλέτα',
         'Γυναικεία Restroom',
-        'Famale WC'
+        'Famale WC',
+        ':purple:',
+        ':pink:'
     ],
     '🚻': [
         'Restroom',
+        ':restroom:',
         'Εγγραφή Μπάνιου',
         'Σημάδι Τουαλέτα',
-        'Σημάδι WC'
+        'Σημάδι WC',
+        ':blue:'
     ],
     '🚼': [
         'Σύμβολο Μωρού',
+        ':baby_symbol:',
         'Μωρό Αλλαγή Σταθμός',
         'Σύμβολο Αλλαγής Μωρού',
-        'Φυτώριο'
+        'Φυτώριο',
+        ':orange:'
     ],
     '🚾': [
         'Ντουλάπα Νερού',
+        ':wc:',
         'WC',
-        'WC Τουαλέτα'
+        'WC Τουαλέτα',
+        ':blue:'
     ],
     '⚠️': [
         'Προειδοποιητική Σημείωση',
-        'Σύμβολο Ειδοποίησης'
+        ':warning_sign:',
+        'Σύμβολο Ειδοποίησης',
+        ':yellow:'
     ],
     '🚸': [
         'Παιδιά Διασχίζοντας',
+        ':children_crossing:',
         'Διέλευση Παιδιών',
-        'Σχολική Διασταύρωση'
+        'Σχολική Διασταύρωση',
+        ':yellow:'
     ],
     '🔅': [
         'Σύμβολο Χαμηλής Φωτεινότητας',
+        ':low_brightness_symbol:',
         'Πλήκτρο Dim',
         'Μείωση Φωτεινότητας'
     ],
     '🔆': [
         'Σύμβολο Υψηλής Φωτεινότητας',
+        ':high_brightness_symbol:',
         'Αύξηση Φωτεινότητας',
         'Φωτεινό Κουμπί'
     ],
     '📳': [
         'Λειτουργία Δόνησης',
+        ':vibration_mode:',
         'Καρδιά Τηλεφώνου',
-        'Λειτουργία Αθόρυβου'
+        'Λειτουργία Αθόρυβου',
+        ':orange:'
     ],
-    '📴': ['Κινητό Τηλέφωνο Ανενεργό'],
+    '📴': [
+        'Κινητό Τηλέφωνο Ανενεργό',
+        ':mobile_phone_off:',
+        ':orange:'
+    ],
     '〰️': [
         'Κύμα',
-        'Κυματιστή Παύλα'
+        'Κυματιστή Παύλα',
+        ':wave:'
     ],
-    '💱': ['Ανταλλαγή Συναλλάγματος'],
+    '💱': [
+        'Ανταλλαγή Συναλλάγματος',
+        ':currency_exchange:'
+    ],
     '💲': [
         'Βαρύ Δολλάριο',
+        ':dollar_symbol:',
         'Δολάριο',
         'Σύμβολο Δολαρίου'
     ],
     '♻️': [
         'Μαύρο Καθολική Ανακύκλωση Σύμβολο',
+        ':recycling_symbol:',
         'Σύμβολο Ανακύκλωσης',
-        'Λογότυπο Ανακύκλωσης'
+        'Λογότυπο Ανακύκλωσης',
+        ':green:'
     ],
     '🔱': [
         'Εμβλήμα Της Παρέμβασης',
+        ':trident_emblem:',
         'Pitchfork',
         'Trident'
     ],
     '📛': [
         'Σήμα Ονόματος',
+        ':name_badge:',
         'Tofu Στη Φωτιά',
         'Ετικέτα Ονόματος',
         'Ετικέτα Φωτιάς'
     ],
     '🔰': [
         'Ιαπωνικό σύμβολο για αρχάριους',
+        ':japanese_symbol_beginner:',
         'Shoshinsha Mark',
-        'Κίτρινη Πράσινη Ασπίδα'
+        'Κίτρινη Πράσινη Ασπίδα',
+        ':green:',
+        ':yellow:'
     ],
     '➰': [
         'Σγουρό Κύκλωμα',
+        ':curly_loop:',
         'Κύκλωμα Curling',
         'Επανάληψη'
     ],
     '➿': [
         'Διπλό Σγουρό Βρόχο',
+        ':double_curly_loop:',
         'Διπλό Κύκλωμα Curling',
         'Τηλεφωνητής'
     ],
     '〽️': [
         'Σημείωση Εναλλακτικού Μέρους',
+        ':part_alternation_mark:',
         'Μ',
-        'McDonald\'s'
+        'McDonalds'
     ],
-    '✳️': ['Οκτώ Spoked Asterisk'],
+    '✳️': [
+        'Οκτώ Spoked Asterisk',
+        ':eight_spoked_asterisk:',
+        ':green:'
+    ],
     '✴️': [
         'Οκτώ Επισημασμένο Μαύρο Αστέρι',
+        ':eight_pointed_star:',
         'Πορτοκαλί Αστέρι',
-        'Οκτώ Σημεία Αστέρι'
+        'Οκτώ Σημεία Αστέρι',
+        ':orange:'
     ],
-    '❇️': ['Σπινθήρας'],
+    '❇️': [
+        'Σπινθήρας',
+        ':sparkle:',
+        ':green:'
+    ],
     'Ⓜ️': [
-        'Κύκλωμα Λατινικής Πρωτεύουσας Γράμμα M',
         'Κύκλωμα M',
+        'Κύκλωμα Λατινικής Πρωτεύουσας Γράμμα M',
+        ':circled_m:',
         'Μετρό',
-        'Κύκλωμα M'
+        ':blue:'
     ],
     '🈁': [
-        'Squared Katakana Koko',
         'Ιαπωνικά Σημείωση Λέξης Εδώ',
+        'Squared Katakana Koko',
+        ':japanese_here:',
         'Εδώ',
-        'Προορισμός'
+        'Προορισμός',
+        ':blue:'
     ],
     '🈂️': [
+        'Ιαπωνική Υπηρεσία Σημασίας ή Υπηρεσία Χρέωσης',
         'Squared Katakana Sa',
-        'Ιαπωνική Υπηρεσία Σημασίας ή Υπηρεσία Χρέωσης'
+        ':japanese_service:',
+        ':blue:'
     ],
     '🈷️': [
+        'Ιαπωνική Σημασία Μηνιαίο Ποσό',
         'Τετράγωνη Ενοποιημένη Ιδεογραφία-6708 Cjk',
+        ':japanese_monthly_amouny:',
         'Ριζοσπαστικό 74',
         '月',
-        'Ιαπωνική Σημασία Μηνιαίο Ποσό'
+        ':orange:'
     ],
     '🈶': [
-        'Τετράγωνη Ενοποιημένη Ιδεογραφία-6709 Cjk',
         'Ιαπωνικό σημάδι σημαίνει δεν είναι δωρεάν',
+        'Τετράγωνη Ενοποιημένη Ιδεογραφία-6709 Cjk',
+        ':japanese_own:',
         'Ίδια',
-        '有'
+        '有',
+        ':orange:'
     ],
     '🈯': [
-        'Τετράγωνη Ενοποιημένη Ιδεογραφία-6307 Cjk',
         'Ιαπωνική Σημασία Αποκλεισμένος',
+        'Τετράγωνη Ενοποιημένη Ιδεογραφία-6307 Cjk',
+        ':japanese_reserved:',
         'Σημείο Δακτυλίου',
-        '指'
+        '指',
+        ':green:'
     ],
     '🉐': [
-        'Πλεονέκτημα Κυκλικού Ιδεογράφου',
         'Ιαπωνικά Σημασία Συναίνεση',
+        'Πλεονέκτημα Κυκλικού Ιδεογράφου',
+        ':japanese_acquire:',
         'Απόκτηση',
-        '得'
+        '得',
+        ':red:'
     ],
     '🈹': [
-        'Τετράγωνο Cjk Ενοποιημένη Ιδεογραφία-5272',
         'Ιαπωνική Νοηματική Έννοια Έκπτωση',
+        'Τετράγωνο Cjk Ενοποιημένη Ιδεογραφία-5272',
+        ':japanese_discount:',
         'Πώληση Οικονομίας',
-        '割'
+        '割',
+        ':red:'
     ],
     '🈚': [
-        'Τετράγωνο Cjk Ενοποιημένη Ιδεογραφία-7121',
         'Ιαπωνικό σημάδι σημαίνει χωρίς χρέωση',
+        'Τετράγωνο Cjk Ενοποιημένη Ιδεογραφία-7121',
+        ':japanese_lacking:',
         'Έλλειψη',
-        '無'
+        '無',
+        ':orange:'
     ],
     '🈲': [
-        'Τετράγωνο Cjk Ενοποιημένη Ιδεογραφία-7981',
         'Απαγορεύεται Η Ιάπωνη Σημασία Σηματοδοσίας',
+        'Τετράγωνο Cjk Ενοποιημένη Ιδεογραφία-7981',
+        ':japanese_prohibited:',
         'Forbid',
-        '禁'
+        '禁',
+        ':red:'
     ],
     '🉑': [
-        'Αποδοχή Κυκλικού Ιδεογράφου',
         'Ιαπωνικά Σημαίνει Αποδεκτή',
-        'Αποδοχή'
+        'Αποδοχή Κυκλικού Ιδεογράφου',
+        ':japanese_accept:',
+        'Αποδοχή',
+        ':orange:'
     ],
     '🈸': [
-        'Τετράγωνη Ενοποιημένη Ιδεογραφία-7533 Cjk',
         'Ιαπωνική Νοηματική Έννοια Εφαρμογή',
+        'Τετράγωνη Ενοποιημένη Ιδεογραφία-7533 Cjk',
+        ':japanese_application_form:',
         'Φόρμα Εφαρμογής',
         'Μαϊμού',
         'Αίτημα',
-        '申'
+        '申',
+        ':orange:'
     ],
     '🈴': [
-        'Τετράγωνο Cjk Ενοποιημένη Ιδεογραφία-5408',
         'Ιαπωνική Σημασία Περνώντας (Βαθμός)',
+        'Τετράγωνο Cjk Ενοποιημένη Ιδεογραφία-5408',
+        ':japanese_agreement:',
         'Συμφωνία',
-        '合'
+        '合',
+        ':red:'
     ],
     '🈳': [
-        'Τετράγωνο CJK Ενοποιημένη Ιδεογραφία-7a7a',
         'Ιαπωνικά Σημαίνει Vacancy',
+        'Τετράγωνο CJK Ενοποιημένη Ιδεογραφία-7a7a',
+        ':japanese_available:',
         'Κενό και διαθέσιμο',
-        '空'
+        '空',
+        ':blue:'
     ],
     '㊗️': [
+        'Ιαπωνικά Σημασία Συγχαρητήρια',
         'Ευθυγράμμιση Κυκλωμένου Ιδεογράφου',
-        'Ιαπωνικά Σημασία Συγχαρητήρια'
+        ':japanese_congratulations:',
+        ':red:'
     ],
     '㊙️': [
         'Μυστικό Κυκλικού Ιδεογράφου',
+        ':japanese_secret:',
         'Ιαπωνικά Σημαίνει Μυστικό',
-        'Μυστικό'
+        'Μυστικό',
+        ':red:'
     ],
     '🈺': [
-        'Τετράγωνο Cjk Ενοποιημένη Ιδεογραφία-55b6',
         'Ιαπωνικό σημάδι σημαίνει ανοικτή για επιχειρήσεις',
+        'Τετράγωνο Cjk Ενοποιημένη Ιδεογραφία-55b6',
+        ':japanese_open_for_business:',
         'Εργασία',
-        '営'
+        '営',
+        ':orange:'
     ],
     '🈵': [
-        'Τετράγωνη Ενοποιημένη Ιδεογραφία-6e80 Cjk',
         'Ιαπωνικά Σημαίνει Πλήρης; Όχι Vacancy',
+        'Τετράγωνη Ενοποιημένη Ιδεογραφία-6e80 Cjk',
+        ':japanese_full:',
         'Πλήρης',
-        '満'
+        '満',
+        ':red:'
     ],
-    '🔘': ['Κουμπί Επιλογής'],
+    '🔘': [
+        'Κουμπί Επιλογής',
+        ':radio_button:'
+    ],
     '🛑': [
         'Διακοπή Υπογραφής',
-        'Οκτάγωνη Πινακίδα'
+        ':stop_sign:',
+        'Οκτάγωνη Πινακίδα',
+        ':red:'
     ],
     '⚕️': [
         'Ιατρικό Σύμβολο',
+        ':medical_symbol:',
         'Aesculapius',
         'Asklepios',
         'Ράβδος του Ασκληπιού',
@@ -3245,16 +5125,23 @@ emojis_language[lang][5] = {
     ],
     '🛗': [
         'Ανελκυστήρας',
+        ':elevator:',
+        ':lift:',
         'Ανύψωση'
     ],
-    '⚧️': ['Σύμβολο Transgender'],
+    '⚧️': [
+        'Σύμβολο Transgender',
+        ':transgender_sign:'
+    ],
     '♂️': [
         'Αρσενικό Υπογραφή',
+        ':male_sign:',
         'Σύμβολο Ανθρώπου',
         'Σύμβολο Άρη'
     ],
     '♀️': [
         'Θηλυκό Πινακίδα',
+        ':female_sign:',
         'Σύμβολο Γυναίκας',
         'Venus Symbol'
     ]
@@ -3263,77 +5150,133 @@ emojis_language[lang][5] = {
 emojis_language[lang][6] = {
     '🍇': [
         'Σταφύλια',
-        'Σταφύλι'
+        ':grapes:',
+        'Σταφύλι',
+        ':purple:'
     ],
     '🍈': [
         'Πεπόνι',
+        ':melon:',
         'Cantaloupe',
         'Honeydew',
         'Καρπούζι'
     ],
-    '🍉': ['Καρπούζι'],
+    '🍉': [
+        'Καρπούζι',
+        ':watermelon:',
+        ':red:'
+    ],
     '🍊': [
         'Tangerine',
+        ':tangerine:',
         'Mandarin',
-        'Πορτοκαλί'
+        ':orange:'
     ],
     '🍋': [
         'Λεμόνι',
-        'Λεμονάδα'
+        ':lemon:',
+        'Λεμονάδα',
+        ':yellow:'
     ],
     '🍌': [
         'Μπανάνα',
-        'Πλανήτης'
+        ':banana:',
+        'Πλανήτης',
+        ':yellow:'
     ],
-    '🍍': ['Ανανάς'],
-    '🥭': ['Mango'],
+    '🍍': [
+        'Ανανάς',
+        ':pineapple:'
+    ],
+    '🥭': [
+        'Mango',
+        ':mango:'
+    ],
     '🍎': [
         'Κόκκινο Μήλο',
-        'Κόκκινο Νόστιμο Μήλο'
+        ':red_apple:',
+        ':apple:',
+        'Κόκκινο Νόστιμο Μήλο',
+        ':red:'
     ],
     '🍏': [
         'Πράσινο Μήλο',
+        ':green_apple:',
+        ':apple:',
         'Χρυσό Νόστιμο Μήλο',
-        'Γιαγιά Smith Apple'
+        'Γιαγιά Smith Apple',
+        ':green:'
     ],
-    '🍐': ['Αχλάδι'],
+    '🍐': [
+        'Αχλάδι',
+        ':pear:'
+    ],
     '🍑': [
         'Ροδάκινο',
+        ':peach:',
         'Κάτω',
-        'Πλήκτρο'
+        'Πλήκτρο',
+        ':orange:',
+        ':pink:'
     ],
     '🍒': [
         'Κεράσια',
+        ':cherry:',
         'Κεράσι',
-        'Άγρια Κεράσι'
+        'Άγρια Κεράσι',
+        ':red:'
     ],
-    '🍓': ['Φράουλα'],
+    '🍓': [
+        'Φράουλα',
+        ':strawberry:',
+        ':red:'
+    ],
     '🥝': [
         'Ακτινίδια',
+        ':kiwi:',
         'Κινέζικο Φραγκοστάφυλο',
         'Ακτινίδια',
-        'Ακτινίδια'
+        'Ακτινίδια',
+        ':green:'
     ],
-    '🍅': ['Ντομάτα'],
+    '🍅': [
+        'Ντομάτα',
+        ':tomato:',
+        ':red:'
+    ],
     '🥥': [
         'Καρύδα',
+        ':coconut:',
         'Cocoanut'
     ],
-    '🥑': ['Αβοκάντο'],
+    '🥑': [
+        'Αβοκάντο',
+        ':avocado:',
+        ':green:'
+    ],
     '🍆': [
         'Μελιτζάνα',
+        ':eggplant:',
+        ':aubergine:',
         'Aubergine',
         'Φαλικό',
-        'Μωβ Λαχανικά'
+        'Μωβ Λαχανικά',
+        ':purple:'
     ],
     '🥔': [
         'Πατάτες',
+        ':potato:',
         'Ψημένη Πατάτα',
         'Πατάτα Του Αϊντάχο'
     ],
-    '🥕': ['Καρότο'],
+    '🥕': [
+        'Καρότο',
+        ':carrot:',
+        ':orange:'
+    ],
     '🌽': [
         'Αυτί καλαμποκιού',
+        ':ear_of_corn:',
         'Καλαμπόκι',
         'Καλαμπόκι Στο Cob',
         'Καλαμπόκι',
@@ -3341,107 +5284,165 @@ emojis_language[lang][6] = {
     ],
     '🌶️': [
         'Ζεστό Πιπέρι',
+        ':hot_pepper:',
         'Πιπέρι Τσίλι',
-        'Πικάντικο'
+        'Πικάντικο',
+        ':red:'
     ],
     '🥒': [
         'Αγγούρια',
+        ':cucumber:',
         'Γκερκίνη',
-        'Δέσιμο'
+        'Δέσιμο',
+        ':green:'
     ],
     '🥬': [
         'Φυλλάδιο Πράσινο',
+        ':leafy_green:',
         'Bok Choy',
         'Κινέζικο Λάχανο',
         'Cos Lettuce',
         'Μαρούλι Romaine',
-        'Φυλλώδη Πράσινα'
+        'Φυλλώδη Πράσινα',
+        ':green:'
     ],
-    '🥦': ['Μπρόκολα'],
+    '🥦': [
+        'Μπρόκολα',
+        ':broccoli:',
+        ':green:'
+    ],
     '🍄': [
         'Μανιτάρι',
+        ':mushroom:',
         'Νεροκάρδαμο',
         'Toadstool'
     ],
     '🥜': [
         'Peanuts',
-        'Καρποί'
+        ':peanuts:',
+        'Καρποί',
+        ':brown:'
     ],
     '🌰': [
         'Κάστανα',
+        ':chestnut:',
         'Βελανίδι',
-        'Καρύδα'
+        'Καρύδα',
+        ':brown:'
     ],
     '🍞': [
         'Ψωμί',
-        'Κύπελλο Ψωμιού'
+        ':bread:',
+        'Κύπελλο Ψωμιού',
+        ':brown:'
     ],
-    '🥐': ['Croissant'],
+    '🥐': [
+        'Croissant',
+        ':croissant:',
+        ':brown:'
+    ],
     '🥖': [
         'Ψωμί Μπαγκέτα',
+        ':baguette_bread:',
         'Γαλλικό Ψωμί',
-        'Μπαγκέτα'
+        'Μπαγκέτα',
+        ':brown:'
     ],
-    '🥨': ['Pretzel'],
-    '🥯': ['Bagel'],
+    '🥨': [
+        'Pretzel',
+        ':pretzel:',
+        ':brown:'
+    ],
+    '🥯': [
+        'Bagel',
+        ':bagel:',
+        ':brown:'
+    ],
     '🥞': [
         'Τηγανίτες',
+        ':pancakes:',
         'Crepes',
-        'Χοτάκια'
+        'Χοτάκια',
+        ':yellow:'
     ],
     '🧀': [
         'Σφήνα Τυριού',
-        'Τυρί'
+        ':cheese_wedge:',
+        'Τυρί',
+        ':yellow:'
     ],
     '🍖': [
         'Κρέας στα οστά',
+        ':meat_on_bone:',
         'BBQ',
         'Μπάρμπεκιου',
-        'Κρέας Μάνγκα'
+        'Κρέας Μάνγκα',
+        ':red:'
     ],
     '🍗': [
         'Poultry Leg',
+        ':poultry_leg:',
         'Κρεβάτι',
-        'Πόδι Τουρκίας'
+        'Πόδι Τουρκίας',
+        ':red:'
     ],
     '🥩': [
         'Κόψτε το κρέας',
+        ':cut_of_meat:',
         'Κρέας',
-        'Μπριζόλα'
+        'Μπριζόλα',
+        ':red:'
     ],
     '🥓': [
         'Μπέικον',
-        'Rashers'
+        ':bacon:',
+        'Rashers',
+        ':red:'
     ],
     '🍔': [
         'Χάμπουργκερ',
+        ':hamburger:',
         'Μπέργκερ',
         'Cheeseburger'
     ],
     '🍟': [
         'Γαλλικές Τηγανίτες',
+        ':french_fries:',
         'Μάρκες',
         'Τηγανητές',
-        'Τηγανίτες McDonald\'s'
+        'McDonalds Fries',
+        ':yellow:'
     ],
     '🍕': [
         'Πίτσα',
+        ':pizza:',
         'Pepperoni Πίτσα',
-        'Φέτα πίτσας'
+        'Φέτα πίτσας',
+        ':red:'
     ],
     '🌭': [
         'Ζεστό Σκύλος',
+        ':hot_dog:',
         'Hotdog',
-        'Λουκάνικο'
+        'Λουκάνικο',
+        ':red:'
     ],
-    '🥪': ['Σάντουιτς'],
-    '🌮': ['Taco'],
+    '🥪': [
+        'Σάντουιτς',
+        ':sandwich:'
+    ],
+    '🌮': [
+        'Taco',
+        ':taco:'
+    ],
     '🌯': [
         'Burrito',
+        ':burrito:',
         'Αναδίπλωση'
     ],
     '🥙': [
         'Γεμιστό Flatbread',
+        ':stuffed_flatbread:',
         'Doner Kebab',
         'Gyro',
         'Σατσέα',
@@ -3449,57 +5450,71 @@ emojis_language[lang][6] = {
     ],
     '🍳': [
         'Μαγειρική',
+        ':cooking:',
         'Πρωινό',
         'Τηγανητό Αυγό',
         'Τηγάνι Pan'
     ],
     '🥘': [
         'Ακατέργαστο τηγάνι των τροφίμων',
+        ':shallow_pan_of_food:',
         'Paella',
         'Pan του φαγητού'
     ],
     '🍲': [
         'Δοχείο των τροφίμων',
+        ':pot_of_food:',
         'Μπολ Τροφίμων',
         'Σούπα',
         'Στιφάδο'
     ],
     '🥣': [
         'Μπολ με κουτάλι',
+        ':bowl_with_spoon:',
         'Μπολ Δημητριακών'
     ],
     '🥗': [
         'Πράσινη Σαλάτα',
-        'Σαλάτα'
+        ':green_salad:',
+        'Σαλάτα',
+        ':green:'
     ],
     '🍿': [
         'Ποπκόρν',
+        ':popcorn:',
         'Αναδυόμενο Καλαμπόκι'
     ],
     '🧂': [
         'Αλάτι',
-        'Αλάτι Shaker'
+        ':salt:',
+        'Αλάτι Shaker',
+        ':white:'
     ],
     '🥫': [
         'Κονσερβοποιημένα Τρόφιμα',
+        ':canned_food:',
         'Μπορεί από τρόφιμα',
         'Κονσέρβα Κασσίτερου',
         'Επικασσιτερωμένα Τρόφιμα'
     ],
     '🍱': [
         'Κιβώτιο Bento',
+        ':bento_box:',
         'Μεσημεριανό Κουτί'
     ],
     '🍘': [
         'Πυροκροτητής Ρύζι',
+        ':rice_cracker:',
         'Ρυθμιστής'
     ],
     '🍙': [
         'Μπάλα Ρύζι',
+        ':rice_ball:',
         'Onigiri'
     ],
     '🍚': [
         'Μαγειρεμένο Ρύζι',
+        ':cooked_rice:',
         'Βρασμένο Ρύζι',
         'Ρύζι',
         'Μπολ Ρύζι',
@@ -3507,121 +5522,154 @@ emojis_language[lang][6] = {
     ],
     '🍛': [
         'Ρύζι Curry',
+        ':curry_rice:',
         'Curry',
         'Ινδικά Τρόφιμα',
         'Curry και Ρύζι'
     ],
     '🍜': [
         'Μπολ Ατμού',
+        ':steaming_bowl:',
         'Νούγιες',
         'Νούγιες Με Μοσχάρια',
         'Ramen'
     ],
     '🍝': [
         'Spaghetti',
+        ':spaghetti:',
         'Ζυμαρικά'
     ],
     '🍠': [
         'Ψητό Γλυκό Πατάτα',
+        ':roasted_sweet_potato:',
         'Γλυκά Πατάτα',
         'Yam'
     ],
     '🍢': [
         'Oden',
+        ':oden:',
         'Kebab',
         'Σκάβες'
     ],
     '🍣': [
         'Σούσι',
+        ':sushi:',
         'Sashimi',
-        'Θαλασσινά'
+        'Θαλασσινά',
+        ':pink:'
     ],
     '🍤': [
         'Τηγανητές Γαρίδες',
+        ':fried_shrimp:',
         'Τηγανητή Γαρίδα',
         'Tempura Γαρίδες'
     ],
     '🍥': [
         'Κέικ ψαριών με στροβιλισμό',
+        ':fish_cake_with_swirl:',
         'Πίτα',
         'Pink Swirl'
     ],
     '🥮': [
         'Κέικ Σελήνης',
+        ':moon_cake:',
         'Mooncake'
     ],
     '🍡': [
         'Dango',
+        ':dango:',
         'Επιδόρπιο Ραβδί',
         'Ροζ Λευκό Πράσινο Μπάλες'
     ],
     '🥟': [
         'Dumpling',
+        ':dumpling:',
         'Empanada',
         'Pierogi'
     ],
-    '🥠': ['Fortune Cookie'],
+    '🥠': [
+        'Fortune Cookie',
+        ':fortune_cookie:'
+    ],
     '🥡': [
         'Πλαίσιο Απογείωσης',
+        ':takeout_box:',
         'Κινεζικό Κουτί Τροφίμων',
         'Oyster Pail'
     ],
     '🍦': [
         'Μαλακό Παγωτό',
+        ':soft_ice_cream:',
         'Whippy',
         'Απαλό Σερβίρισμα'
     ],
     '🍧': [
         'Ξυρισμένος Πάγος',
+        ':shaved_ice:',
         'Κόμβος Χιονιού'
     ],
     '🍨': [
         'Παγωτό',
+        ':ice_cream:',
         'Κύπελλο Παγωτού',
         'Επιδόρπιο'
     ],
     '🍩': [
         'Ντόνατ',
+        ':doughnut:',
         'Donut'
     ],
     '🍪': [
         'Cookie',
+        ':cookie:',
         'Μπισκότο',
-        'Σοκολάτα Μπισκότα Chip'
+        'Σοκολάτα Μπισκότα Chip',
+        ':brown:'
     ],
     '🎂': [
         'Κέικ Γενεθλίων',
+        ':birthday_cake:',
         'Γενέθλια',
         'Κέικ',
         'Κέικ Με Κεριά'
     ],
     '🍰': [
         'Σκόρδο',
+        ':shortcake:',
         'Κέικ',
         'Κομμάτι Κέικ',
         'Φράουλα Κέικ'
     ],
     '🧁': [
         'Κύπελλο',
+        ':cupcake:',
         'Γαλακτοκομικό Κέικ'
     ],
-    '🥧': ['Πίτα'],
+    '🥧': [
+        'Πίτα',
+        ':pie:'
+    ],
     '🍫': [
         'Μπάρα Σοκολάτας',
+        ':chocolate_bar:',
         'Μπάρα Καραμέλας',
-        'Σοκολάτα'
+        'Σοκολάτα',
+        ':brown:'
     ],
     '🍬': [
         'Καραμέλα',
+        ':candy:',
         'Lolly',
         'Γλυκό'
     ],
     '🍭': [
         'Lollipop',
+        ':lollipop:',
         'Κορίτσι'
     ],
     '🍮': [
         'Κρέμα',
+        ':custard:',
         'Creme Caramel',
         'Επιδόρπιο',
         'Φλόγα',
@@ -3629,19 +5677,25 @@ emojis_language[lang][6] = {
     ],
     '🍯': [
         'Μέλι Δοχείο',
+        ':honey_pot:',
         'Μέλι',
-        'Δοχείο'
+        'Δοχείο',
+        ':yellow:'
     ],
     '🍼': [
         'Μπουκάλι Μωρό',
+        ':baby_bottle:',
         'Διατροφή Φιάλης'
     ],
     '🥛': [
         'Γυαλί από γάλα',
-        'Γάλα'
+        ':glass_of_milk:',
+        'Γάλα',
+        ':white:'
     ],
     '☕': [
         'Ζεστό Ποτό',
+        ':hot_beverage:',
         'Καφές',
         'Espresso',
         'Ζεστή Σοκολάτα',
@@ -3649,56 +5703,68 @@ emojis_language[lang][6] = {
     ],
     '🍵': [
         'Teacup Χωρίς Λαβή',
+        ':green_tea:',
         'Πράσινο Τσάι',
         'Matcha',
-        'Matcha Πράσινο Τσάι'
+        'Matcha Πράσινο Τσάι',
+        ':green:'
     ],
     '🍶': [
         'Sake',
+        ':sake:',
         'Φιάλη',
         'Κρασί Ρύζι',
         'Μπουκάλι και κύπελλο Sake'
     ],
     '🍾': [
         'Μπουκάλι με Φελλό Popping',
+        ':champagne:',
         'Εορτασμός',
         'Champagne',
         'Αφρώδης Οίνος'
     ],
     '🍷': [
         'Γυαλί Κρασιού',
+        ':wine_glass:',
         'Αλκοόλ',
         'Κόκκινος Οίνος',
         'Οίνος'
     ],
     '🍸': [
         'Κοκτέιλ Γυαλί',
+        ':cocktail_glass:',
         'Κοκτέιλ',
         'Μαρτίνι'
     ],
     '🍹': [
         'Τροπικό Ποτό',
+        ':tropical_drink:',
         'Φρούτα Punch',
         'Tiki Ποτό'
     ],
     '🍺': [
         'Κούπα Μπύρας',
+        ':beer_mug:',
         'Μπύρα',
-        'Μπύρα Stein'
+        'Μπύρα Stein',
+        ':yellow:'
     ],
     '🍻': [
         'Καλλυντικές Κούπες Μπύρας',
+        ':clinking_beer_mugs:',
         'Μπύρες',
         'Επαφές'
     ],
     '🥂': [
         'Γυαλιά Ψεκασμού',
+        ':clinking_glasses:',
         'Εορτασμός',
         'Γυαλιά Σαμπάνιας',
         'Επαφές'
     ],
     '🥃': [
         'Γυαλί Tumbler',
+        ':tumbler_glass:',
         'Βουρβώνιο',
         'Υγρός',
         'Rum',
@@ -3707,62 +5773,123 @@ emojis_language[lang][6] = {
     ],
     '🥤': [
         'Κύπελλο με Straw',
+        ':cup_with_straw:',
         'Milkshake',
         'Smoothie',
         'Ποπ Σόδας',
         'Απαλό Ποτό'
     ],
-    '🥢': ['Μοσχοκάρυδα'],
+    '🥢': [
+        'Μοσχοκάρυδα',
+        ':chopsticks:'
+    ],
     '🍽️': [
         'Πιρούνι και μαχαίρι με πλάκα',
-        'Δείπνο'
+        ':fork_and_knife_with_plate:',
+        'Δείπνο',
+        ':white:',
+        ':gray:',
+        ':grey:'
     ],
     '🍴': [
         'Πηρούνι και μαχαίρι',
+        ':fork_and_knife:',
         'Μαχαιροπήρουνα',
         'Μαχαίρι Και Πηρούνι',
-        'Silverware'
+        'Silverware',
+        ':gray:',
+        ':grey:'
     ],
-    '🥄': ['Κουτάλι'],
-    '🧄': ['Σκόρδα'],
-    '🧅': ['Κρεμμύδι'],
-    '🧇': ['Waffle'],
-    '🧆': ['Falafel'],
-    '🧈': ['Βούτυρο'],
-    '🦪': ['Στρείδι'],
+    '🥄': [
+        'Κουτάλι',
+        ':spoon:',
+        ':gray:',
+        ':grey:'
+    ],
+    '🧄': [
+        'Σκόρδα',
+        ':garlic:'
+    ],
+    '🧅': [
+        'Κρεμμύδι',
+        ':onion:'
+    ],
+    '🧇': [
+        'Waffle',
+        ':waffle:'
+    ],
+    '🧆': [
+        'Falafel',
+        ':falafel:'
+    ],
+    '🧈': [
+        'Βούτυρο',
+        ':butter:'
+    ],
+    '🦪': [
+        'Στρείδι',
+        ':oyster:'
+    ],
     '🧃': [
         'Κιβώτιο Ποτών',
+        ':beverage_box:',
         'Κιβώτιο Χυμού'
     ],
     '🧉': [
         'Ματ Ποτό',
+        ':mate_drink:',
         'Chimarraśo',
         'Cimarrón',
         'Ματ Yerba'
     ],
-    '🫒': ['Ελιές'],
-    '🫐': ['Μύρτιλλα'],
-    '🫑': ['Κουδούνι Πιπέρι'],
-    '🫓': ['Πλατύψωμο'],
+    '🫒': [
+        'Ελιές',
+        ':olive:',
+        ':green:'
+    ],
+    '🫐': [
+        'Μύρτιλλα',
+        ':blueberries:',
+        ':blue:'
+    ],
+    '🫑': [
+        'Κουδούνι Πιπέρι',
+        ':bell_pepper:',
+        ':green:'
+    ],
+    '🫓': [
+        'Πλατύψωμο',
+        ':flatbread:'
+    ],
     '🫔': [
         'Tamale',
+        ':tamale:',
         'Tamal'
     ],
-    '🫕': ['Fondue'],
+    '🫕': [
+        'Fondue',
+        ':fondue:'
+    ],
     '🧋': [
         'Τσάι Φούσκα',
+        ':boba:',
         'Boba'
     ],
-    '🧊': ['Κύβος Πάγου'],
+    '🧊': [
+        'Κύβος Πάγου',
+        ':ice_cube:'
+    ],
     '🫘': [
         'Beans',
         'Flatulence',
-        'Coffee beans',
+        ':beans:',
+        'Κόκκοι καφέ',
         'Spill the beans'
     ],
     '🫗': [
-        'Pouring Liquid',
-        'Pouring Drink',
+        'Ρίχνει Υγρό',
+        ':puring_liquid:',
+        'Ρίχνει Ποτό',
         'Νερό'
     ]
 };
@@ -3770,1357 +5897,1374 @@ emojis_language[lang][6] = {
 emojis_language[lang][7] = {
     '🏁': [
         'Σημαία Chequered',
+        ':chequered_flag:',
         'Σημαία Καρό',
         'Κορίτσι Πλέγματος',
-        'Αγωνιστική Σημαία'
+        'Αγωνιστική Σημαία',
+        ':black:',
+        ':white:'
     ],
     '🚩': [
         'Τριγωνική Σημαία',
+        ':triangular_flag:',
         'Σημαία στον Πολωνό',
         'Κόκκινη Σημαία',
-        'Τριγωνική σημαία κατά την ανάρτηση'
+        'Τριγωνική σημαία κατά την ανάρτηση',
+        ':red:'
     ],
     '🎌': [
         'Διασχισμένες Σημαίες',
+        ':crossed_flags:',
         'Δύο Σημαίες'
     ],
     '🏴': [
         'Σημαία Μαύρης',
-        'Κυματίζει Μαύρη Σημαία'
+        ':black_flag:',
+        'Κυματίζει Μαύρη Σημαία',
+        ':black:'
     ],
     '🏳️': [
         'Σημαία Του Λευκού',
-        'Κυματίζει Λευκή Σημαία'
+        ':white_flag:',
+        'Κυματίζει Λευκή Σημαία',
+        ':white:'
     ],
     '🏳️‍🌈': [
         'Σημαία Ουράνιο Τόξο',
+        ':rainbow_flag:',
         'Pride Flag',
         'LGBT',
         'LGBTQIA+',
-        'Gay',
-        'Transgender',
+        'Ομοφυλόφιλος',
+        'Τρανσφύλ',
         'Lesbian',
-        'Asexual',
+        'Ασεξουαλική',
         'Queer'
     ],
     '🏳️‍⚧️': [
         'Σημαία Transgender',
+        ':transgender_flag:',
         'Μπλε, ροζ, και άσπρη σημαία',
         'Σημαία Trans'
     ],
     '🏴‍☠️': [
         'Σημαία Πειρατών',
-        'Jolly Roger'
+        ':pirate_flag:',
+        'Jolly Roger',
+        ':black:'
     ],
     '🇺🇳': [
         'Σημαία των Ηνωμένων Εθνών',
-        'UN',
+        ':un:',
         'Σημαία: Ηνωμένα Έθνη'
     ],
     '🇪🇺': [
         'Σημαία της Ευρωπαϊκής Ένωσης',
-        'EU',
+        ':eu:',
         'Σημαία: Ευρωπαϊκή Ένωση',
         'EU Flag'
     ],
     '🇦🇨': [
         'Σημαία του νησιού',
-        'AC'
+        ':ac:'
     ],
     '🇦🇩': [
         'Σημαία της Ανδόρας',
-        'AD',
+        ':ad:',
         'Andorran Flag'
     ],
     '🇦🇪': [
         'Σημαία Ηνωμένων Αραβικών Εμιράτων',
-        'AE',
+        ':ae:',
         'Emirati Flag',
         'Σημαία Των ΗΑΕ'
     ],
     '🇦🇫': [
         'Σημαία του Αφγανιστάν',
-        'AF',
+        ':af:',
         'Afghan Flag'
     ],
     '🇦🇬': [
         'Σημαία της Αντίγκουα και Μπαρμπούντα',
-        'AG'
+        ':ag:'
     ],
     '🇦🇮': [
         'Σημαία της Ανγκουίλα',
-        'AI',
+        ':ai:',
         'Σημαία Ανγκουιλάν'
     ],
     '🇦🇱': [
         'Σημαία της Αλβανίας',
-        'AL',
+        ':al:',
         'Σημαία Αλβανίας'
     ],
     '🇦🇲': [
         'Σημαία της Αρμενίας',
-        'ΠΜ',
-        '🇦🇲'
+        ':am:',
+        'Σημαία Αρμενίας'
     ],
     '🇦🇴': [
         'Σημαία της Αγκόλας',
-        'AO',
+        ':ao:',
         'Σημαία Αγκόλας'
     ],
     '🇦🇶': [
         'Σημαία της Ανταρκτικής',
-        'AQ',
+        ':aq:',
         'Σημαία Ανταρκτικής'
     ],
     '🇦🇷': [
         'Σημαία της Αργεντινής',
-        'AR',
+        ':ar:',
         'Σημαία Αργεντινής'
     ],
     '🇦🇸': [
         'Σημαία της Αμερικανικής Σαμόα',
-        'AS',
+        ':as:',
         'American Samoan Flag'
     ],
     '🇦🇹': [
         'Σημαία της Αυστρίας',
-        'AT',
+        ':at:',
         'Austrian Flag'
     ],
     '🇦🇺': [
         'Σημαία της Αυστραλίας',
-        'AU',
+        ':au:',
         'Σημαία Aussie',
         'Σημαία Αυστραλίας'
     ],
     '🇦🇼': [
         'Σημαία της Αρούμπα',
-        'AW',
+        ':aw:',
         'Σημαία Αρούμπα'
     ],
     '🇦🇽': [
         'Σημαία των Νήσων Aland',
-        'AX',
+        ':ax:',
         'Σημαία Αλονίας'
     ],
     '🇦🇿': [
         'Σημαία του Αζερμπαϊτζάν',
-        'AZ',
+        ':az:',
         'Σημαία Αζερμπαϊτζάν'
     ],
     '🇧🇦': [
         'Σημαία της Βοσνίας-Ερζεγοβίνης',
-        'BA'
+        ':ba:'
     ],
     '🇧🇧': [
         'Σημαία του Μπαρμπάντος',
-        'BB',
+        ':bb:',
         'Σημαία Μπαρμπάντος',
         'Σημαία Μπαϊάν'
     ],
     '🇧🇩': [
         'Σημαία του Μπαγκλαντές',
-        'BD',
+        ':bd:',
         'Bangladeshi Flag'
     ],
     '🇧🇪': [
         'Σημαία του Βελγίου',
-        'BE',
+        ':be:',
         'Σημαία Βελγίου'
     ],
     '🇧🇫': [
         'Σημαία της Μπουρκίνα Φάσο',
-        'BF',
+        ':bf:',
         'Σημαία Burkinabe'
     ],
     '🇧🇬': [
         'Σημαία της Βουλγαρίας',
-        'BG',
+        ':bg:',
         'Σημαία Βουλγαρίας'
     ],
     '🇧🇭': [
         'Σημαία του Μπαχρέιν',
-        'BH',
+        ':bh:',
         'Σημαία Μπαχρέιν',
         'Σημαία Μπαχρέιν'
     ],
     '🇧🇮': [
         'Σημαία του Μπουρούντι',
-        'BI',
+        ':bi:',
         'Burundian Flag'
     ],
     '🇧🇯': [
         'Σημαία του Μπενίν',
-        'BJ',
+        ':bj:',
         'Σημαία Μπενίνε'
     ],
     '🇧🇱': [
         'Σημαία του Αγίου Βαρθολομαίου',
-        'BL',
+        ':bl:',
         'Σημαία: Άγιος Βαρθολομαίος'
     ],
     '🇧🇲': [
         'Σημαία των Βερμούδων',
-        'BM',
+        ':bm:',
         'Bermudan Flag'
     ],
     '🇧🇳': [
         'Σημαία του Μπρουνέι',
-        'Παρτίδα',
+        ':bn:',
         'Σημαία Μπρουνέι'
     ],
     '🇧🇴': [
         'Σημαία της Βολιβίας',
-        'BO',
+        ':bo:',
         'Bolivian Flag'
     ],
     '🇧🇶': [
         'Σημαία της Καραϊβικής',
-        'BQ',
+        ':bq:',
         'Bonaire'
     ],
     '🇧🇷': [
         'Σημαία της Βραζιλίας',
-        'BR',
+        ':br:',
         'Σημαία Βραζιλίας'
     ],
     '🇧🇸': [
         'Σημαία του Μπαχάμες',
-        'Σημαία Μπαχαμών',
-        'BS'
+        ':bs:',
+        'Σημαία Μπαχαμών'
     ],
     '🇧🇹': [
         'Σημαία του Μπουτάν',
-        'BT',
+        ':bt:',
         'Σημαία Μπουτάν'
     ],
     '🇧🇻': [
         'Σημαία του Νησιού Μπουβέ',
-        'BV',
+        ':bv:',
         'Σημαία: Νήσος Μπουβέ'
     ],
     '🇧🇼': [
         'Σημαία της Μποτσουάνα',
-        'BW',
+        ':bw:',
         'Batswana Flag'
     ],
     '🇧🇾': [
         'Σημαία της Λευκορωσίας',
-        'ΑΠΟ',
+        ':by:',
         'Σημαία Λευκορωσίας'
     ],
     '🇧🇿': [
         'Σημαία του Μπελίζε',
-        'BZ',
+        ':bz:',
         'Σημαία Μπελίζε'
     ],
     '🇨🇦': [
         'Σημαία του Καναδά',
         'Σημαία Του Καναδά',
-        'CA'
+        ':ca:'
     ],
     '🇨🇨': [
         'Σημαία των Νήσων Κόκος (Κίλινγκ)',
-        'CC'
+        ':cc:'
     ],
     '🇨🇩': [
         'Flag of Congo - Kinshasa',
-        'CD'
+        ':cd:'
     ],
     '🇨🇫': [
         'Σημαία της Κεντροαφρικανικής Δημοκρατίας',
-        'CF',
+        ':cf:',
         'Σημαία Κεντρικής Αφρικής'
     ],
     '🇨🇬': [
         'Σημαία του Κονγκό - Μπραζαβίλ',
-        'CG'
+        ':cg:'
     ],
     '🇨🇭': [
         'Σημαία της Ελβετίας',
-        'CH',
+        ':ch:',
         'Ερυθρός Σταυρός',
         'Σημαία Ελβετίας'
     ],
     '🇨🇮': [
         'Σημαία της Ακτής Ελεφαντοστού',
-        'CI',
+        ':ci:',
         'Flag: Côte d’Ivoire'
     ],
     '🇨🇰': [
         'Σημαία των Νήσων Κουκ',
-        'CK',
+        ':ck:',
         'Σημαία Νήσων Κουκ'
     ],
     '🇨🇱': [
         'Σημαία της Χιλής',
-        'CL',
+        ':cl:',
         'Σημαία Χιλής'
     ],
     '🇨🇲': [
         'Σημαία του Καμερούν',
-        'CM',
+        ':cm:',
         'Σημαία Καμερούν'
     ],
     '🇨🇳': [
         'Σημαία της Κίνας',
-        'ΣΟ',
+        ':cn:',
         'Σημαία Της Κίνας'
     ],
     '🇨🇴': [
         'Σημαία της Κολομβίας',
-        'CO',
+        ':co:',
         'Σημαία Κολομβίας'
     ],
     '🇨🇵': [
         'Σημαία του Κλίπερτον',
-        'CP',
+        ':cp:',
         'Σημαία: Νήσος Κλίπερτον'
     ],
     '🇨🇷': [
         'Σημαία της Κόστα Ρίκα',
-        'CR',
+        ':cr:',
         'Σημαία Της Κόστα Ρίκα'
     ],
     '🇨🇺': [
         'Σημαία της Κούβας',
-        'CU',
+        ':cu:',
         'Κουβανική Σημαία'
     ],
     '🇨🇻': [
         'Σημαία του Πράσινου Ακρωτηρίου',
-        'CV',
+        ':cv:',
         'Σημαία Πράσινου Ακρωτηρίου'
     ],
     '🇨🇼': [
         'Σημαία του Κουρασάο',
-        'CW',
+        ':cw:',
         'Curaçaoan Flag'
     ],
     '🇨🇽': [
         'Σημαία του νησιού των Χριστουγέννων',
-        'CX',
+        ':cx:',
         'Σημαία Νήσων Των Χριστουγέννων'
     ],
     '🇨🇾': [
         'Σημαία της Κύπρου',
-        'CY',
+        ':cy:',
         'Σημαία Κύπρου'
     ],
     '🇨🇿': [
         'Σημαία της Τσεχίας',
-        'CZ',
+        ':cz:',
         'Σημαία Τσεχίας'
     ],
     '🇩🇪': [
         'Σημαία της Γερμανίας',
-        'DE',
+        ':de:',
         'Σημαία Γερμανικά',
         'Σημαία Γερμανίας'
     ],
     '🇩🇬': [
         'Σημαία του Diego Garcia',
-        'DG',
+        ':dg:',
         'Σημαία: Ντιέγκο Γκαρσία'
     ],
     '🇩🇯': [
         'Σημαία του Τζιμπουτί',
-        'DJ',
+        ':dj:',
         'Djibouti Flag',
         'Djiboutian Flag'
     ],
     '🇩🇰': [
         'Σημαία της Δανίας',
-        'DK',
+        ':dk:',
         'Σημαία Δανίας'
     ],
     '🇩🇲': [
         'Σημαία του Ντομίνικα',
-        'DM'
+        ':dm:'
     ],
     '🇩🇴': [
         'Σημαία της Δομινικανής Δημοκρατίας',
-        'DO',
+        ':do:',
         'Σημαία Dom Rep',
         'Σημαία Δομινικανής'
     ],
     '🇩🇿': [
         'Σημαία της Αλγερίας',
-        'DZ',
+        ':dz:',
         'Algerian Flag'
     ],
     '🇪🇦': [
         'Σημαία της Θέουτας και Μελίγια',
+        ':ea:',
         'Σημαία του Μελίγια',
         'Σημαία της Θέουτας',
-        'EA',
         'Flag: Ceuta & Melilla'
     ],
     '🇪🇨': [
         'Σημαία του Ισημερινού',
-        'EC',
+        ':ec:',
         'Ecuadorian Flag'
     ],
     '🇪🇪': [
         'Σημαία της Εσθονίας',
-        'EE',
+        ':ee:',
         'Σημαία Εσθονίας'
     ],
     '🇪🇬': [
         'Σημαία της Αιγύπτου',
-        'EG',
+        ':eg:',
         'Σημαία Αιγύπτου'
     ],
     '🇪🇭': [
         'Σημαία της Δυτικής Σαχάρας',
-        'EH',
+        ':eh:',
         'Σημαία Δυτικής Σαχάρας'
     ],
     '🇪🇷': [
         'Σημαία της Ερυθραίας',
-        'ER',
+        ':er:',
         'Eritrean Flag'
     ],
     '🇪🇹': [
         'Σημαία της Αιθιοπίας',
-        'ET',
+        ':et:',
         'Ethiopian Flag'
     ],
     '🇪🇸': [
         'Σημαία της Ισπανίας',
-        'ES',
+        ':es:',
         'Σημαία Ισπανίας'
     ],
     '🇫🇮': [
         'Σημαία της Φινλανδίας',
-        'FI',
+        ':fi:',
         'Σημαία Φινλανδίας'
     ],
     '🇫🇯': [
         'Σημαία των Φίτζι',
-        'FJ',
+        ':fj:',
         'Fijian Flag'
     ],
     '🇫🇰': [
         'Σημαία των Νήσων Φώκλαντ',
-        'FK',
+        ':fk:',
         'Σημαία Falklander'
     ],
     '🇫🇲': [
         'Σημαία της Μικρονησίας',
-        'FM',
+        ':fm:',
         'Σημαία Μικρονησίας'
     ],
     '🇫🇴': [
         'Σημαία των Νήσων Φερόε',
-        'FO',
+        ':fo:',
         'Faroe Islander Flag'
     ],
     '🇫🇷': [
         'Σημαία της Γαλλίας',
-        'FR',
+        ':fr:',
         'Σημαία Γαλλίας'
     ],
     '🇬🇦': [
         'Σημαία της Γκαμπόν',
-        'GA',
+        ':ga:',
         'Σημαία Γκαμπόν'
     ],
     '🇬🇧': [
         'Σημαία της Μεγάλης Βρετανίας',
-        'GB',
+        ':gb:',
         'Βρετανική Σημαία',
         'Ηνωμένο Βασίλειο',
         'Union Jack',
         'UK'
     ],
     '🏴󠁧󠁢󠁥󠁮󠁧󠁿󠁧󠁢󠁥󠁮󠁧󠁿': [
-        'Flag of England',
-        'St George\'s Cross',
-        'English Flag'
+        'Σημαία της Αγγλίας',
+        ':england:',
+        'Σταυρός Αγίου Γεωργίου',
+        'Σημαία Αγγλίας'
     ],
     '🏴󠁧󠁢󠁷󠁬󠁳󠁿󠁧󠁢󠁷󠁬󠁳󠁿': [
-        'Flag of Wales',
-        'Welsh Flag',
-        'Red Dragon',
+        'Σημαία της Ουαλίας',
+        ':wales:',
+        'Ουαλική Σημαία',
+        'Κόκκινος Δράκος',
         'Baner Cymru',
         'Y Ddraig Goch'
     ],
     '🏴󠁧󠁢󠁳󠁣󠁴󠁿󠁧󠁢󠁳󠁣󠁴󠁿': [
-        'Flag of Scotland',
-        'Scottish Flag',
-        'St Andrew\'s Cross',
+        'Σημαία της Σκωτίας',
+        ':scotland:',
+        'Σημαία Σκωτίας',
+        'Σταυρός Αγίου Ανδρέα',
         'Saltire'
     ],
     '🇬🇩': [
         'Σημαία της Γρενάδας',
-        'GD',
+        ':gd:',
         'Σημαία Γρενάδας'
     ],
     '🇬🇪': [
         'Σημαία της Γεωργίας',
-        'GE',
+        ':ge:',
         'Σημαία Γεωργίας'
     ],
     '🇬🇫': [
         'Σημαία της Γαλλικής Γουιάνας',
-        'GF',
+        ':gf:',
         'Σημαία Γαλλικής Γουινέας'
     ],
     '🇬🇬': [
         'Σημαία του Γκέρνσεϊ',
-        'GG',
+        ':gg:',
         'Guernsey Flag'
     ],
     '🇬🇭': [
         'Σημαία της Γκάνα',
-        'GH',
+        ':gh:',
         'Σημαία Γκάνα'
     ],
     '🇬🇮': [
         'Σημαία του Γιβραλτάρ',
-        'GI',
+        ':gi:',
         'Σημαία Γιβραλτάρ'
     ],
     '🇬🇱': [
         'Σημαία της Γροιλανδίας',
-        'GL',
+        ':gl:',
         'Greenlandic Flag'
     ],
     '🇬🇲': [
         'Σημαία της Γκάμπια',
-        'GM',
+        ':gm:',
         'Gambian Flag'
     ],
     '🇬🇳': [
         'Σημαία της Γουινέας',
-        'GN',
+        ':gn:',
         'Guinean Flag'
     ],
     '🇬🇵': [
         'Σημαία της Γουαδελούπης',
-        'GP',
+        ':gp:',
         'Σημαία Γουαδελούπης'
     ],
     '🇬🇶': [
         'Σημαία της Ισημερινής Γουινέας',
-        'GQ',
+        ':gq:',
         'Equatorial Guinean Flag',
         'Σημαία Ισημερινού'
     ],
     '🇬🇷': [
         'Σημαία της Ελλάδας',
-        'GR',
+        ':gr:',
         'Σημαία Ελλάδας'
     ],
     '🇬🇸': [
         'Σημαία της Νότιας Γεωργίας και των Νήσων Νότιων Σάντουιτς',
-        'GS'
+        ':gs:'
     ],
     '🇬🇹': [
         'Σημαία της Γουατεμάλας',
-        'GT',
+        ':gt:',
         'Guatemalan Flag'
     ],
     '🇬🇺': [
         'Σημαία του Γκουάμ',
-        'GU',
+        ':gu:',
         'Σημαία Γουαμανίας',
         'Σημαία Τσάμορρο'
     ],
     '🇬🇼': [
         'Σημαία της Γουινέας-Μπισάου',
-        'GW',
+        ':gw:',
         'Guinea-Bissau Flag'
     ],
     '🇬🇾': [
         'Σημαία της Γουιάνας',
-        'GY',
+        ':gy:',
         'Σημαία Γουιάνας'
     ],
     '🇭🇰': [
         'Σημαία του Χονγκ Κονγκ SAR Κίνα',
-        'HK',
+        ':hk:',
         'Σημαία Χονγκ Κονγκ'
     ],
     '🇭🇲': [
         'Σημαία των Νήσων Χερντ και Μακντόναλντ',
-        'HM',
+        ':hm:',
         'Σημαία: Νήσοι Χερντ & Μακντόναλντ'
     ],
     '🇭🇳': [
         'Σημαία της Ονδούρας',
-        'HN',
+        ':hn:',
         'Σημαία Ονδούρας'
     ],
     '🇭🇷': [
         'Σημαία της Κροατίας',
-        'HR',
+        ':hr:',
         'Σημαία Κροατίας'
     ],
     '🇭🇹': [
         'Σημαία της Αϊτής',
-        'HT',
+        ':ht:',
         'Haitian Flag'
     ],
     '🇭🇺': [
         'Σημαία της Ουγγαρίας',
-        'HU',
+        ':hu:',
         'Σημαία Ουγγαρίας'
     ],
     '🇮🇨': [
         'Σημαία των Καναρίων Νήσων',
-        'IC'
+        ':ic:'
     ],
     '🇮🇩': [
         'Σημαία της Ταϊλάνδης',
-        'ID',
+        ':id:',
         'Σημαία Ινδονησίας'
     ],
     '🇮🇪': [
         'Σημαία της Ιρλανδίας',
-        'IE',
+        ':ie:',
         'Σημαία Ιρλανδίας'
     ],
     '🇮🇱': [
         'Σημαία του Ισραήλ',
-        'IL',
+        ':il:',
         'Σημαία Ισραήλ'
     ],
     '🇮🇲': [
         'Σημαία της νήσου του Μαν',
-        'IM',
+        ':im:',
         'Manx Flag'
     ],
     '🇮🇳': [
         'Σημαία της Ινδίας',
-        'IN',
+        ':in:',
         'Σημαία Ινδίας'
     ],
     '🇮🇴': [
         'Σημαία του βρετανικού εδάφους του Ινδικού Ωκεανού',
-        'IO',
+        ':io:',
         'Σημαία Βρετανικού Ωκεανού'
     ],
     '🇮🇶': [
         'Σημαία του Ιράκ',
-        'IQ',
+        ':iq:',
         'Iraqi Flag'
     ],
     '🇮🇷': [
         'Σημαία του Ιράν',
-        'IR',
+        ':ir:',
         'Σημαία Του Ιράν'
     ],
     '🇮🇸': [
         'Σημαία της Ισλανδίας',
-        'IS',
+        ':is:',
         'Σημαία Ισλανδίας'
     ],
     '🇮🇹': [
         'Σημαία της Ιταλίας',
-        'IT',
+        ':it:',
         'Σημαία Ιταλίας'
     ],
     '🇯🇪': [
         'Σημαία του Τζέρσεϊ',
-        'JE',
+        ':je:',
         'Σημαία Τζέρσεϊ'
     ],
     '🇯🇲': [
         'Σημαία της Τζαμάικα',
-        'JM',
+        ':jm:',
         'Σημαία Τζαμάικας'
     ],
     '🇯🇴': [
         'Σημαία της Ιορδανίας',
-        'JO',
+        ':jo:',
         'Σημαία Ιορδανίας'
     ],
     '🇯🇵': [
         'Σημαία της Ιαπωνίας',
-        'JP',
+        ':jp:',
         'Σημαία Ιαπωνίας'
     ],
     '🇰🇪': [
         'Σημαία της Κένυας',
-        'KE',
+        ':ke:',
         'Σημαία Κένυας'
     ],
     '🇰🇬': [
         'Σημαία της Κιργιζίας',
-        'KG',
+        ':kg:',
         'Kyrgyzstani Flag'
     ],
     '🇰🇭': [
         'Σημαία της Καμπότζης',
-        'KH',
+        ':kh:',
         'Σημαία Καμπότζης'
     ],
     '🇰🇮': [
         'Σημαία του Κιριμπάτι',
-        'KI',
+        ':ki:',
         'Σημαία Ι-Κιριμπάτι'
     ],
     '🇰🇲': [
         'Σημαία των Κομορών',
-        'ΚΜ',
+        ':km:',
         'Σημαία Κομορών'
     ],
     '🇰🇳': [
         'Σημαία του Αγίου Χριστόφορου και Νέβις',
-        'KN'
+        ':kn:'
     ],
     '🇰🇵': [
         'Σημαία της Βόρειας Κορέας',
-        'KP',
+        ':kp:',
         'Σημαία Βόρειας Κορέας'
     ],
     '🇰🇷': [
         'Σημαία της Νότιας Κορέας',
-        'KR',
+        ':kr:',
         'Σημαία Νότιας Κορέας'
     ],
     '🇰🇼': [
         'Σημαία του Κουβέιτ',
-        'KW',
+        ':kw:',
         'Kuwaiti Flag'
     ],
     '🇰🇾': [
         'Σημαία των Νήσων Καϊμάν',
-        'KY',
+        ':ky:',
         'Σημαία Καυμανίας'
     ],
     '🇰🇿': [
         'Σημαία του Καζακστάν',
-        'KZ',
+        ':kz:',
         'Kazakhstani Flag',
         'Kazakh Flag'
     ],
     '🇱🇦': [
         'Σημαία του Λάος',
-        'LA',
+        ':la:',
         'Σημαία Του Λάος',
         'Σημαία Λάος'
     ],
     '🇱🇧': [
         'Σημαία του Λιβάνου',
-        'LB',
+        ':lb:',
         'Σημαία Λιβάνου'
     ],
     '🇱🇨': [
         'Σημαία της Αγίας Λουκίας',
-        'LC'
+        ':lc:'
     ],
     '🇱🇮': [
         'Σημαία του Λιχτενστάιν',
-        'LI',
+        ':lt:',
         'Σημαία Λιχτενστάιν'
     ],
     '🇱🇰': [
         'Σημαία της Σρι Λάνκα',
-        'LK',
+        ':lk:',
         'Σημαία Σρι Λάνκα'
     ],
     '🇱🇷': [
         'Σημαία της Λιβερίας',
-        'LR',
+        ':lr:',
         'Σημαία Λιβερίας'
     ],
     '🇱🇸': [
         'Flag of Lesotho',
-        'LS',
+        ':ls:',
         'Basotho Flag'
     ],
     '🇱🇹': [
         'Σημαία της Λιθουανίας',
-        'LT',
+        ':lt:',
         'Σημαία Λιθουανίας'
     ],
     '🇱🇺': [
         'Σημαία του Λουξεμβούργου',
-        'LU',
+        ':lu:',
         'Σημαία Λουξεμβούργου'
     ],
     '🇱🇻': [
         'Σημαία της Λετονίας',
-        'LV',
+        ':lv:',
         'Σημαία Λετονίας'
     ],
     '🇱🇾': [
         'Σημαία της Λιβύης',
-        'LY',
+        ':ly:',
         'Σημαία Λιβύης'
     ],
     '🇲🇦': [
         'Σημαία του Μαρόκου',
-        'MA',
+        ':ma:',
         'Σημαία Μαρόκου'
     ],
     '🇲🇨': [
         'Σημαία του Μονακό',
-        'MC',
+        ':mc:',
         'Σημαία Mone\'gasque'
     ],
     '🇲🇩': [
         'Σημαία της Μολδαβίας',
-        'MD',
+        ':md:',
         'Σημαία Μολδαβίας'
     ],
     '🇲🇪': [
         'Σημαία του Μαυροβουνίου',
-        'ME',
+        ':me:',
         'Σημαία Μαυροβουνίου'
     ],
     '🇲🇫': [
         'Σημαία του Αγίου Μαρτίνου',
-        'MF',
+        ':mf:',
         'Flag: St. Martin'
     ],
     '🇲🇬': [
         'Σημαία της Μαδαγασκάρης',
-        'MG',
+        ':mg:',
         'Madagascan Flag'
     ],
     '🇲🇭': [
         'Σημαία των Νήσων Μάρσαλ',
-        'MH',
+        ':mh:',
         'Σημαία Marshallese'
     ],
     '🇲🇰': [
         'Σημαία της Μακεδονίας',
-        'MK',
+        ':mk:',
         'Σλαβομακεδονική Σημαία'
     ],
     '🇲🇱': [
         'Σημαία του Μάλι',
-        'ML',
+        ':ml:',
         'Σημαία Μάλι'
     ],
     '🇲🇲': [
         'Σημαία του Μιανμάρ (Βιρμανία)',
-        'ΜΜ',
+        ':mm:',
         'Σημαία Μιανμάρεσε',
         'Σημαία Για Τη Βιρμανία',
         'Σημαία Βιρμανίας'
     ],
     '🇲🇳': [
         'Σημαία της Μογγολίας',
-        'MN',
+        ':mn:',
         'Σημαία Μογγολίας'
     ],
     '🇲🇴': [
         'Σημαία του Μακάο Σαρ Κίνα',
-        'ΔΕ',
+        ':mo:',
         'Σημαία Μακάο'
     ],
     '🇲🇵': [
         'Σημαία των Νήσων Βόρειες Μαριάνες',
-        'MP',
+        ':mp:',
         'Σημαία Μικρονησίας'
     ],
     '🇲🇶': [
         'Σημαία της Μαρτινίκας',
-        'MQ',
+        ':mq:',
         'Σημαία της Μαρτινίκας',
         'Σημαία Μαρτινίκα'
     ],
     '🇲🇷': [
         'Σημαία της Μαυριτανίας',
-        'MR',
+        ':mr:',
         'Σημαία Μαυριτανίας'
     ],
     '🇲🇸': [
         'Flag of Montserrat',
-        'MS',
+        ':ms:',
         'Montserratian Flag'
     ],
     '🇲🇹': [
         'Σημαία της Μάλτας',
-        'MT',
+        ':mt:',
         'Maltese Flag'
     ],
     '🇲🇺': [
         'Flag of Mauritius',
-        'MU',
+        ':mu:',
         'Σημαία Μαυρίκιου'
     ],
     '🇲🇻': [
         'Σημαία της Μαλδίβας',
-        'MV',
+        ':mv:',
         'Σημαία Μαλδίβας'
     ],
     '🇲🇼': [
         'Σημαία του Μαλάουι',
-        'MW',
+        ':mw:',
         'Malawian Flag'
     ],
     '🇲🇽': [
         'Σημαία του Μεξικού',
-        'MX',
+        ':mx:',
         'Σημαία Μεξικού'
     ],
     '🇲🇾': [
         'Σημαία της Μαλαισίας',
-        'ΜΟΥ',
+        ':my:',
         'Malaysian Flag'
     ],
     '🇲🇿': [
         'Σημαία της Μοζαμβίκης',
-        'MZ',
+        ':mz:',
         'Σημαία Μοζαμβίκης'
     ],
     '🇳🇦': [
         'Σημαία της Ναμίμπια',
-        'NA',
+        ':na:',
         'Namibian Flag'
     ],
     '🇳🇨': [
         'Σημαία της Νέας Καληδονίας',
-        'NC',
+        ':nc:',
         'Σημαία Νέας Καληδονίας'
     ],
     '🇳🇪': [
         'Σημαία του Νίγηρα',
-        'ΒΑ',
+        ':ne:',
         'Σημαία Νιγηρίας'
     ],
     '🇳🇫': [
         'Σημαία του Νησιού',
-        'NF',
+        ':nf:',
         'Σημαία Νησιού Νόρφολκ'
     ],
     '🇳🇬': [
         'Σημαία της Νιγηρίας',
-        'NG',
+        ':ng:',
         'Σημαία Νιγηρίας'
     ],
     '🇳🇮': [
         'Flag of Nicaragua',
-        'NI',
+        ':ni:',
         'Nicaraguan Flag'
     ],
     '🇳🇱': [
         'Σημαία της Ολλανδίας',
-        'NL',
+        ':nl:',
         'Σημαία Ολλανδίας',
         'Ολλανδία'
     ],
     '🇳🇴': [
         'Σημαία της Νορβηγίας',
-        'ΟΧΙ',
+        ':no:',
         'Σημαία Νορβηγίας'
     ],
     '🇳🇵': [
         'Σημαία του Νεπάλ',
-        'NP',
+        ':np:',
         'Σημαία Νεπάλ'
     ],
     '🇳🇷': [
         'Σημαία του Ναούρου',
-        'NR',
+        ':nr:',
         'Nauruan Flag'
     ],
     '🇳🇺': [
         'Σημαία της Νιούε',
-        'NU',
+        ':nu:',
         'Niuean Flag'
     ],
     '🇳🇿': [
         'Σημαία της Νέας Ζηλανδίας',
-        'NZ',
+        ':nz:',
         'Σημαία Ακτινιδίων'
     ],
     '🇴🇲': [
         'Σημαία του Ομάν',
-        'ΟΜ',
+        ':om:',
         'Σημαία Ομάνι'
     ],
     '🇵🇦': [
         'Σημαία του Παναμά',
-        'PA',
+        ':pa:',
         'Σημαία Παναμά'
     ],
     '🇵🇪': [
         'Σημαία του Περού',
-        'PE',
+        ':pe:',
         'Σημαία Περού'
     ],
     '🇵🇫': [
         'Σημαία της Γαλλικής Πολυνησίας',
-        'PF',
+        ':pf:',
         'Σημαία Γαλλικής Πολυνησίας'
     ],
     '🇵🇬': [
         'Σημαία της Παπουασίας-Νέας Γουινέας',
-        'PG',
+        ':pg:',
         'Σημαία PNG',
         'Papua New Guinean Flag'
     ],
     '🇵🇭': [
         'Σημαία των Φιλιππίνων',
-        'PH'
+        ':ph:'
     ],
     '🇵🇰': [
         'Σημαία του Πακιστάν',
-        'PK',
+        ':pk:',
         'Σημαία Πακιστάν'
     ],
     '🇵🇱': [
         'Σημαία της Πολωνίας',
-        'PL',
+        ':pl:',
         'Σημαία Πολωνίας'
     ],
     '🇵🇲': [
         'Σημαία του Σαιν Πιέρ και Μικελόν',
-        'ΜΜ'
+        ':pm:'
     ],
     '🇵🇳': [
         'Σημαία του Πίτκαιρν',
-        'PN'
+        ':pn:'
     ],
     '🇵🇷': [
         'Σημαία του Πουέρτο Ρίκο',
-        'PR',
+        ':pr:',
         'Σημαία Πουέρτο Ρίκο'
     ],
     '🇵🇸': [
         'Σημαία των Παλαιστινιακών Εδαφών',
-        'PS',
+        ':ps:',
         'Palestine'
     ],
     '🇵🇹': [
         'Σημαία της Πορτογαλίας',
-        'PT',
+        ':pt:',
         'Σημαία Πορτογαλίας'
     ],
     '🇵🇼': [
         'Σημαία του Παλάου',
-        'PW',
+        ':pw:',
         'Σημαία Παλάουαν'
     ],
     '🇵🇾': [
         'Σημαία της Παραγουάης',
-        'PY',
+        ':py:',
         'Paraguayan Flag'
     ],
     '🇶🇦': [
         'Σημαία του Κατάρ',
-        'QA',
+        ':qa:',
         'Σημαία Κατάρ'
     ],
     '🇷🇪': [
         'Σημαία της Ρεϊνιόν',
-        'RE',
+        ':re:',
         'Σημαία Ρεϊνιοννές'
     ],
     '🇷🇴': [
         'Σημαία της Ρουμανίας',
-        'RO',
+        ':ro:',
         'Σημαία Ρουμανίας'
     ],
     '🇷🇸': [
         'Σημαία της Σερβίας',
-        'RS',
+        ':rs:',
         'Σημαία Σερβίας'
     ],
     '🇷🇺': [
         'Σημαία της Ρωσίας',
-        'RU',
+        ':ru:',
         'Σημαία Ρωσίας'
     ],
     '🇷🇼': [
         'Flag of Rwanda',
-        'RW',
+        ':rw:',
         'Rwandan Flag'
     ],
     '🇸🇦': [
         'Σημαία της Σαουδικής Αραβίας',
-        'SA',
+        ':sa:',
         'Σημαία Σαουδικής Αραβίας'
     ],
     '🇸🇧': [
         'Σημαία των Νήσων Σολομώντος',
-        'SB',
+        ':sb:',
         'Σημαία Νήσων Σολομώντος'
     ],
     '🇸🇨': [
         'Σημαία των Σεϋχελλών',
-        'SC',
+        ':sc:',
         'Seychellois Flag'
     ],
     '🇸🇩': [
         'Σημαία του Σουδάν',
-        'SD',
+        ':sd:',
         'Sudanese Flag'
     ],
     '🇸🇪': [
         'Σημαία της Σουηδίας',
-        'ΝΑ',
+        ':se:',
         'Σουηδική Σημαία'
     ],
     '🇸🇬': [
         'Σημαία της Σιγκαπούρης',
-        'SG',
+        ':sg:',
         'Σημαία Σιγκαπούρης'
     ],
     '🇸🇭': [
         'Σημαία της Αγίας Ελένης',
-        'SH'
+        ':sh:'
     ],
     '🇸🇮': [
         'Σημαία της Σλοβενίας',
-        'SI',
+        ':si:',
         'Σημαία Σλοβενίας'
     ],
     '🇸🇯': [
         'Σημαία του Σβάλμπαρντ & Γιαν Μαγιέν',
-        'SJ'
+        ':sj:'
     ],
     '🇸🇰': [
         'Σημαία της Σλοβακίας',
-        'SK',
+        ':sk:',
         'Σημαία Σλοβακίας',
         'Slovakian Flag'
     ],
     '🇸🇱': [
         'Σημαία της Σιέρα Λεόνε',
-        'SL',
+        ':sl:',
         'Sierra Leonean Flag'
     ],
     '🇸🇲': [
         'Σημαία του Αγίου Μαρίνου',
-        'SM',
+        ':sm:',
         'Σημαία Σαμμαρινής'
     ],
     '🇸🇳': [
         'Σημαία της Σενεγάλης',
-        'SN',
+        ':sn:',
         'Σημαία Της Σενεγάλης'
     ],
     '🇸🇴': [
         'Σημαία της Σομαλίας',
-        'SO',
+        ':so:',
         'Somalian Flag'
     ],
     '🇸🇷': [
         'Σημαία του Σουρινάμ',
-        'SR',
+        ':sr:',
         'Σημαία Σουρινάμ'
     ],
     '🇸🇸': [
         'Σημαία του Νότιου Σουδάν',
-        'SS',
+        ':ss:',
         'Σημαία Νότιου Σουδάν'
     ],
     '🇸🇹': [
         'Σημαία του Σάο Τομέ & Πρίνσιπε',
-        'ST'
+        ':st:'
     ],
     '🇸🇻': [
         'Σημαία του Ελ Σαλβαδόρ',
-        'SV',
+        ':sv:',
         'Σημαία Ελ Σαλβαδόρα'
     ],
     '🇸🇽': [
         'Σημαία του Αγίου Μαρτίνου',
-        'SX'
+        ':sx:'
     ],
     '🇸🇾': [
         'Σημαία της Συρίας',
-        'SY',
+        ':sy:',
         'Σημαία Συρίας'
     ],
     '🇸🇿': [
         'Σημαία της Σουαζιλάνδης',
-        'SZ',
+        ':sz:',
         'Σημαία Eswatini'
     ],
     '🇹🇦': [
         'Flag of Tristan Da Cunha',
-        'TA'
+        ':ta:'
     ],
     '🇹🇨': [
         'Σημαία των Νήσων Τερκς και Κάικος',
-        'TC'
+        ':tc:'
     ],
     '🇹🇩': [
         'Σημαία του Τσαντ',
-        'TD',
+        ':td:',
         'Σημαία Του Τσαντ'
     ],
     '🇹🇫': [
         'Σημαία των Νότιων Γαλλικών Εδαφών',
-        'TF',
+        ':tf:',
         'Σημαία Νότιας Γαλλίας'
     ],
     '🇹🇬': [
         'Σημαία του Τόγκο',
-        'TG',
+        ':tg:',
         'Togolese Flag'
     ],
     '🇹🇭': [
         'Σημαία της Ταϊλάνδης',
-        'TH',
+        ':th:',
         'Σημαία Ταϊλάνδης'
     ],
     '🇹🇯': [
         'Σημαία του Τατζικιστάν',
-        'TJ',
+        ':tj:',
         'Σημαία Τατζικιστάν'
     ],
     '🇹🇰': [
         'Σημαία του Τοκελάου',
-        'TK',
+        ':tk:',
         'Σημαία Τοκελάου'
     ],
     '🇹🇱': [
         'Σημαία του Ανατολικού Τιμόρ',
-        'TL',
+        ':tl:',
         'Σημαία Ανατολικού Τιμόρ',
         'Σημαία Ανατολικού Τιμόρ'
     ],
     '🇹🇲': [
         'Σημαία του Τουρκμενιστάν',
-        'ΜΜ',
+        ':tm:',
         'Turkmen Flag'
     ],
     '🇹🇳': [
         'Σημαία της Τυνησίας',
-        'ΤΝ',
+        ':tn:',
         'Σημαία Τυνησίας'
     ],
     '🇹🇴': [
         'Σημαία της Τόνγκα',
-        'ΠΡΟΣ',
+        ':to:',
         'Tongan Flag'
     ],
     '🇹🇷': [
         'Σημαία της Τουρκίας',
-        'TR',
+        ':tr:',
         'Σημαία Τουρκίας'
     ],
     '🇹🇹': [
         'Σημαία του Τρινιντάντ και Τομπάγκο',
-        'TT'
+        ':tt:'
     ],
     '🇹🇻': [
         'Σημαία του Τουβαλού',
-        'Τηλεόραση',
+        ':tv:',
         'Σημαία Τουβαλούάν'
     ],
     '🇹🇼': [
         'Σημαία της Ταϊβάν',
-        'TW',
+        ':tw:',
         'Σημαία Ταϊβάν'
     ],
     '🇹🇿': [
         'Σημαία της Τανζανίας',
-        'TZ',
+        ':tz:',
         'Tanzanian Flag'
     ],
     '🇺🇦': [
         'Σημαία της Ουκρανίας',
-        'UA',
+        ':ua:',
         'Σημαία Ουκρανίας'
     ],
     '🇺🇬': [
         'Σημαία της Ουγκάντας',
-        'UG',
+        ':ug:',
         'Σημαία Ουγκάντα'
     ],
     '🇺🇲': [
         'Σημαία: Απομακρυσμένες Νήσοι Των ΗΠΑ',
-        'UM'
+        ':um:'
     ],
     '🇺🇸': [
         'Σημαία των Ηνωμένων Πολιτειών',
-        'ΗΠΑ',
+        ':us:',
         'Αμερικανική Σημαία',
         'Σημαία ΗΠΑ'
     ],
     '🇺🇾': [
         'Flag of Uruguay',
-        'UY',
+        ':uy:',
         'Uruguayan Flag'
     ],
     '🇺🇿': [
         'Flag of Uzbekistan',
-        'UZ',
+        ':uz:',
         'Uzbekistani Flag',
         'Uzbek Flag'
     ],
     '🇻🇦': [
         'Σημαία της Αγίας Έδρας',
-        'VA',
+        ':va:',
         'Σημαία Βαντικανιέν'
     ],
     '🇻🇨': [
         'Σημαία του Αγίου Βικεντίου και Γρεναδίνες',
-        'VC'
+        ':vc:'
     ],
     '🇻🇪': [
         'Σημαία της Βενεζουέλας',
-        'VE',
+        ':ve:',
         'Σημαία Βενεζουέλας'
     ],
     '🇻🇬': [
         'Σημαία των Βρετανικών Παρθένων Νήσων',
-        'VG',
+        ':vg:',
         'Σημαία Βρετανικής Παρθένου Νησιού'
     ],
     '🇻🇮': [
         'Σημαία των Παρθένων Νήσων των ΗΠΑ',
-        'VI',
+        ':vi:',
         'Σημαία Αμερικανών Παρθένων Νήσων'
     ],
     '🇻🇳': [
         'Σημαία του Βιετνάμ',
-        'VN',
+        ':vn:',
         'Σημαία Βιετνάμ'
     ],
     '🇻🇺': [
         'Flag of Vanuatu',
-        'VU',
+        ':vu:',
         'Ni-Vanuatu Flag'
     ],
     '🇼🇫': [
         'Σημαία της Ουώλλις και της Φουτούνας',
-        'WF'
+        ':wf:'
     ],
     '🇼🇸': [
         'Σημαία της Σαμόας',
-        'WS',
+        ':ws:',
         'Samoan Flag'
     ],
     '🇽🇰': [
         'Σημαία του Κοσσυφοπεδίου',
-        'XK',
+        ':xk:',
         'Kosovar Flag'
     ],
     '🇾🇪': [
         'Σημαία της Υεμένης',
-        'YE',
+        ':ye:',
         'Σημαία Υεμένης'
     ],
     '🇾🇹': [
         'Σημαία του Μαγιότ',
-        'YT',
+        ':yt:',
         'Σημαία Μαγιότ'
     ],
     '🇿🇦': [
         'Σημαία της Νότιας Αφρικής',
-        'ZA',
+        ':za:',
         'Σημαία Νότιας Αφρικής'
     ],
     '🇿🇲': [
         'Σημαία της Ζάμπιας',
-        'ZM',
+        ':zm:',
         'Zambian Flag'
     ],
     '🇿🇼': [
         'Σημαία της Ζιμπάμπουε',
-        'ZW',
+        ':zw:',
         'Σημαία Ζιμπάμπουε',
         'Σημαία Zim'
     ]
@@ -5128,222 +7272,456 @@ emojis_language[lang][7] = {
 /*sports*/
 emojis_language[lang][8] = {
     '🧗{{skin_tone}}‍♂️': [
-        'Man Climbing',
-        'Male Rock Climber',
-        'Man Climber'
+        'Άνθρωπος Αναρρίχηση',
+        ':man_climbing:',
+        ':climbing:',
+        'Αρσενικό Rock Climber',
+        'Άνθρωπος Αναρρίχηση',
+        ':man:'
     ],
     '🧗{{skin_tone}}‍♀️': [
-        'Woman Climbing',
-        'Female Rock Climber',
-        'Woman Climber'
+        'Γυναίκα Αναρρίχηση',
+        ':woman_climbing:',
+        ':climbing:',
+        'Θηλυκό Rock Climber',
+        'Γυναίκα Ορειβάτης',
+        ':woman:'
     ],
     '🧗{{skin_tone}}': [
-        'Person Climbing',
+        'Αναρρίχηση Προσώπου',
+        ':person_climbing:',
+        ':climbing:',
         'Person Rock Climber',
-        'Person Climber'
+        'Πρόσωπο Climber',
+        ':person:'
     ],
     '🏇{{skin_tone}}': [
-        'Horse Racing',
-        'Horse Race',
+        'Ιπποδρομίες',
+        ':horse_racing:',
+        'Αγώνας Άλογα',
         'Jockey'
     ],
-    '⛷{{skin_tone}}‍️': ['Σκιέρ'],
-    '🏂{{skin_tone}}‍': ['Snowboarder'],
-    '🏌️{{skin_tone}}‍♂️': ['Man Golfer'],
-    '🏌️{{skin_tone}}‍♀️': ['Γκολφ Γυναίκας'],
-    '🏌️{{skin_tone}}': ['Person Golfer'],
-    '🏄{{skin_tone}}‍♂️': ['Άνθρωπος Surfer'],
-    '🏄{{skin_tone}}‍♀️': ['Surfer Γυναίκας'],
-    '🏄{{skin_tone}}': ['Person Surfer'],
-    '🚣{{skin_tone}}‍♂️': ['Man Rowing Boat'],
-    '🚣{{skin_tone}}‍♀️': ['Woman Rowing Boat'],
-    '🚣{{skin_tone}}': ['Person Rowing Boat'],
+    '⛷{{skin_tone}}‍️': [
+        'Σκιέρ',
+        ':skier:'
+    ],
+    '🏂{{skin_tone}}‍': [
+        'Snowboarder',
+        ':snowboarder:'
+    ],
+    '🏌️{{skin_tone}}‍♂️': [
+        'Man Golfer',
+        ':man_golfer:',
+        ':golfer:',
+        ':man:'
+    ],
+    '🏌️{{skin_tone}}‍♀️': [
+        'Γκολφ Γυναίκας',
+        ':woman_golfer:',
+        ':golfer:',
+        ':woman:'
+    ],
+    '🏌️{{skin_tone}}': [
+        'Πρόσωπο Golfer',
+        ':person_golfer:',
+        ':golfer:',
+        ':person:'
+    ],
+    '🏄{{skin_tone}}‍♂️': [
+        'Άνθρωπος Surfer',
+        ':man_surfer:',
+        ':surfer:',
+        ':man:'
+    ],
+    '🏄{{skin_tone}}‍♀️': [
+        'Surfer Γυναίκας',
+        ':woman_surfer:',
+        ':surfer:',
+        ':woman:'
+    ],
+    '🏄{{skin_tone}}': [
+        'Πρόσωπο Surfer',
+        ':person_surfer:',
+        ':surfer:',
+        ':person:'
+    ],
+    '🚣{{skin_tone}}‍♂️': [
+        'Άνθρωπος Κωπηλασία Σκάφος',
+        ':man_rowing_boat:',
+        ':rowing_boat:',
+        ':man:'
+    ],
+    '🚣{{skin_tone}}‍♀️': [
+        'Γυναικείο Σκάφος Κωπηλασίας',
+        ':woman_rowing_boat:',
+        ':rowing_boat:',
+        ':woman:'
+    ],
+    '🚣{{skin_tone}}': [
+        'Σκάφος Που Κωπηλατεί',
+        ':person_rowing_boat:',
+        ':rowing_boat:',
+        ':person:'
+    ],
     '🏊{{skin_tone}}‍♂️': [
-        'Man Swimming',
-        'Man Swimmer'
+        'Κολύμβηση Ανθρώπου',
+        ':man_swimming:',
+        ':swimming:',
+        'Κολυμβητής Άνθρωπος',
+        ':man:'
     ],
     '🏊{{skin_tone}}‍♀️': [
-        'Woman Swimming',
-        'Woman Swimmer'
+        'Κολύμβηση Γυναίκας',
+        ':woman_swimming:',
+        ':swimming:',
+        'Κολυμβητής Γυναίκας',
+        ':woman:'
     ],
     '🏊{{skin_tone}}': [
-        'Woman Swimming',
-        'Person Swimmer'
+        'Κολύμβηση Άτομου',
+        ':person_swimming:',
+        ':swimming:',
+        'Κολυμβητής Προσώπου',
+        ':person:'
     ],
     '⛹{{skin_tone}}‍️‍♂️': [
         'Άνθρωπος Αναπήδηση Μπάλα',
-        'Παίκτης Του Man Μπάσκετ'
+        ':man_bouncing_ball:',
+        ':bouncing_ball:',
+        'Παίκτης Του Man Μπάσκετ',
+        ':man:'
     ],
     '⛹️{{skin_tone}}‍♀️': [
         'Γυναίκα Αναπήδηση Μπάλα',
-        'Γυναίκα Παίκτης Μπάσκετ'
+        ':woman_bouncing_ball:',
+        ':boucing_ball:',
+        'Γυναίκα Παίκτης Μπάσκετ',
+        ':woman:'
     ],
     '⛹️{{skin_tone}}': [
-        'Person Bouncing Ball',
-        'Person Basketball Player'
+        'Πρόσωπο Αναπήδηση Μπάλα',
+        ':person_bouncing_ball:',
+        ':boucing_ball:',
+        'Παίκτης Μπάσκετ Άτομου',
+        ':person:'
     ],
     '🏋️{{skin_tone}}‍♂️': [
         'Άνθρωπος Ανύψωση Βάρη',
-        'Άνθρωπος Weightlifter'
+        ':man_lifting_weights:',
+        ':lifting_weights:',
+        'Άνθρωπος Weightlifter',
+        ':man:'
     ],
     '🏋️{{skin_tone}}‍♀️': [
         'Γυναίκα Ανύψωση Βάρη',
-        'Γυναίκα Weightlifter'
+        ':woman_lifting_weights:',
+        ':lifting_weights:',
+        'Γυναίκα Weightlifter',
+        ':woman:'
     ],
     '🏋️{{skin_tone}}': [
-        'Person Lifting Weights',
-        'Person Weightlifter'
+        'Άτομο Ανύψωσης Βάρη',
+        ':person_lifting_weights:',
+        ':lifting_weights:',
+        'Άτομο Weightlifter',
+        ':person:'
     ],
     '🚴{{skin_tone}}‍♂️': [
         'Ποδηλασία Ανθρώπου',
+        ':man_biking:',
+        ':biking:',
         'Άνθρωπος Ποδηλάτης',
-        'Αρσενικός Ποδηλάτης'
+        'Αρσενικός Ποδηλάτης',
+        ':man:'
     ],
     '🚴{{skin_tone}}‍♀️': [
         'Γυναίκα Ποδηλασία',
+        ':woman_biking:',
+        ':biking:',
         'Γυναίκα, Κυκλαδίτης',
-        'Θηλυκός Κυκλαδίτης'
+        'Θηλυκός Κυκλαδίτης',
+        ':woman:'
     ],
     '🚴{{skin_tone}}': [
-        'Person Biking',
-        'Person Cyclist',
-        'Person Cyclist'
+        'Ποδηλασία Πρόσωπο',
+        ':person_biking:',
+        ':biking:',
+        'Πρόσωπο Ποδηλασίας',
+        'Πρόσωπο Ποδηλασίας',
+        ':person:'
     ],
     '🚵{{skin_tone}}‍♂️': [
         'Man Mountain Biking',
-        'Man Mountain Biker'
+        ':man_mountain_bike:',
+        ':mountain_bike:',
+        'Man Mountain Biker',
+        ':man:'
     ],
     '🚵{{skin_tone}}‍♀️': [
         'Γυναίκα Ποδηλασία Στο Βουνό',
-        'Γυναίκα Βουνό Ποδήλατο'
+        ':woman_mountain_bike:',
+        ':mountain_bike:',
+        'Γυναίκα Βουνό Ποδήλατο',
+        ':woman:'
     ],
     '🚵{{skin_tone}}': [
-        'Person Mountain Biking',
-        'Person Mountain Biker'
+        'Άτομο Ορεινή Ποδηλασία',
+        ':person_mountain_bike:',
+        ':mountain_bike:',
+        'Person Mountain Biker',
+        ':person:'
     ],
     '🤸{{skin_tone}}‍♂️': [
         'Άνθρωπος Cartwheeling',
-        'Άνθρωπος Κάνοντας Τροχός'
+        ':man_cartwheeling:',
+        ':cartwheeling:',
+        'Άνθρωπος Κάνοντας Τροχός',
+        ':man:'
     ],
     '🤸{{skin_tone}}‍♀️': [
         'Γυναίκα Cartwheeling',
-        'Γυναίκα Να Κάνει Τροχό'
+        ':woman_cartwheeling:',
+        ':cartwheeling:',
+        'Γυναίκα Να Κάνει Τροχό',
+        ':woman:'
     ],
     '🤸{{skin_tone}}': [
-        'Person Cartwheeling',
-        'Person Doing Cartwheel'
+        'Cartwheeling Πρόσωπο',
+        ':person_cartwheeling:',
+        ':cartwheeling:',
+        'Άτομο Που Κάνει Τροχό',
+        ':person:'
     ],
     '🤼‍♂️': [
-        'Men Wrestling',
-        'Wrestling',
-        'Wrestlers'
+        'Άνδρες Πάλη',
+        ':men_wrestling:',
+        ':wrestling:',
+        'Πάλη',
+        'παλαιστές',
+        ':man:'
     ],
     '🤼‍♀️': [
-        'Women Wrestling',
-        'Wrestling',
-        'Wrestlers'
+        'Γυναίκες Πάλη',
+        ':women_wrestling:',
+        ':wrestling:',
+        'Πάλη',
+        'παλαιστές',
+        ':woman:'
     ],
     '🤼': [
         'Άνθρωποι Πάλη',
+        ':people_wrestling:',
+        ':wrestling:',
         'Πάλη',
-        'παλαιστές'
+        'παλαιστές',
+        ':person:'
     ],
-    '🤽{{skin_tone}}‍♂️': ['Άνθρωπος Παίζοντας Πόλο Νερού'],
-    '🤽{{skin_tone}}‍♀️': ['Γυναίκα Που Παίζει Πόλο Νερού'],
-    '🤽{{skin_tone}}': ['Person Playing Water Polo'],
-    '🤾{{skin_tone}}‍♂️': ['Άνθρωπος Παίζοντας Χάντμπολ'],
-    '🤾{{skin_tone}}‍♀️': ['Γυναίκα Παίζοντας Χάντμπολ'],
-    '🤾{{skin_tone}}': ['Person Playing Handball'],
+    '🤽{{skin_tone}}‍♂️': [
+        'Άνθρωπος Παίζοντας Πόλο Νερού',
+        ':man_playing_water_polo:',
+        ':playing_water_polo:',
+        ':man:'
+    ],
+    '🤽{{skin_tone}}‍♀️': [
+        'Γυναίκα Που Παίζει Πόλο Νερού',
+        ':woman_playing_water_polo:',
+        ':playing_water_polo:',
+        ':woman:'
+    ],
+    '🤽{{skin_tone}}': [
+        'Πρόσωπο Παίζοντας Υδάτινο Πόλο',
+        ':person_playing_water_polo:',
+        ':playing_water_polo:',
+        ':person:'
+    ],
+    '🤾{{skin_tone}}‍♂️': [
+        'Άνθρωπος Παίζοντας Χάντμπολ',
+        ':man_playing_handball:',
+        ':playing_handball:',
+        ':man:'
+    ],
+    '🤾{{skin_tone}}‍♀️': [
+        'Γυναίκα Παίζοντας Χάντμπολ',
+        ':woman_playing_handball:',
+        ':playing_handball:',
+        ':woman:'
+    ],
+    '🤾{{skin_tone}}': [
+        'Άτομο Παίζοντας Χάντμπολ',
+        ':person_playing_handball:',
+        ':playing_handball:',
+        ':person:'
+    ],
     '🤹{{skin_tone}}‍♂️': [
         'Άνθρωπος Juggling',
-        'Αρσενικό Juggler'
+        ':man_juggling:',
+        ':juggling:',
+        'Αρσενικό Juggler',
+        ':man:'
     ],
     '🤹{{skin_tone}}‍♀️': [
         'Γυναίκα Juggling',
-        'Θηλυκό Juggler'
+        ':woman_juggling:',
+        ':juggling:',
+        'Θηλυκό Juggler',
+        ':woman:'
     ],
     '🤹{{skin_tone}}': [
-        'Person Juggling',
-        'Person Juggler'
+        'Πρόσωπο Juggling',
+        ':person_juggling:',
+        ':juggling:',
+        'Πρόσωπο Juggler',
+        ':person:'
     ],
     '🧘{{skin_tone}}‍♂️': [
         'Ο άνθρωπος στη θέση Lotus',
+        ':man_lotus_position:',
+        ':lotus_position:',
         'Διαλογισμός',
         'Zen',
         'Σταυροειδής',
-        'Γιόγκα'
+        'Γιόγκα',
+        ':man:'
     ],
     '🧘{{skin_tone}}‍♀️': [
         'Γυναίκα στη θέση του Lotus',
+        ':woman_lotus_position:',
+        ':lotus_position:',
         'Διαλογισμός',
         'Zen',
         'Σταυροειδής',
-        'Γιόγκα'
+        'Γιόγκα',
+        ':woman:'
     ],
     '🧘{{skin_tone}}': [
-        'Person in Lotus Position',
-        'Meditation',
+        'Πρόσωπο στη θέση του Lotus',
+        ':person_lotus:_position',
+        ':lotus_position:',
+        'Διαλογισμός',
         'Zen',
-        'Cross legged',
-        'Yoga'
+        'Σταυροειδής',
+        'Γιόγκα',
+        ':person:'
     ],
-    '🏃{{skin_tone}}‍♂️': ['Ο Άνθρωπος Εκτελείται'],
-    '🏃{{skin_tone}}‍♀️': ['Γυναίκα Εκτελείται'],
-    '🏃{{skin_tone}}': ['Person Running'],
-    '🕺{{skin_tone}}': ['Man Dancing'],
-    '💃{{skin_tone}}': ['Woman Dancing'],
+    '🏃{{skin_tone}}‍♂️': [
+        'Ο Άνθρωπος Εκτελείται',
+        ':man_running:',
+        ':running:',
+        ':man:'
+    ],
+    '🏃{{skin_tone}}‍♀️': [
+        'Γυναίκα Εκτελείται',
+        ':woman_running:',
+        ':running:',
+        ':woman:'
+    ],
+    '🏃{{skin_tone}}': [
+        'Άτομο Που Εκτελείται',
+        ':person_running:',
+        ':running:',
+        ':person:'
+    ],
+    '🕺{{skin_tone}}': [
+        'Άνθρωπος Χορεύοντας',
+        ':man_dancing:',
+        ':dancing:',
+        ':man:'
+    ],
+    '💃{{skin_tone}}': [
+        'Χορός Γυναίκας',
+        ':woman_dancing:',
+        ':dancing:',
+        ':woman:'
+    ],
     '🤺': [
         'Ξιφασκία Προσώπου',
-        'Τοξοβόλος'
+        ':person_fencing:',
+        'Τοξοβόλος',
+        ':fencing:'
     ],
     '🏆': [
         'Τρόπαιο',
+        ':trophy:',
         'Πρωτάθλημα',
-        'Νικητής'
+        'Νικητής',
+        ':gold:',
+        ':yellow:'
     ],
-    '🏅': ['Μετάλλιο Αθλητισμού'],
+    '🏅': [
+        'Μετάλλιο Αθλητισμού',
+        ':sports_medal:',
+        ':medal:',
+        ':gold:',
+        ':yellow:'
+    ],
     '🥇': [
         'Μετάλλιο 1ης Θέσης',
+        ':first_place_medal:',
+        ':gold_medal:',
         'Μετάλλιο Πρώτης Θέσης',
-        'Χρυσό Μετάλλιο'
+        'Χρυσό Μετάλλιο',
+        ':yellow:',
+        ':gold:'
     ],
     '🥈': [
         '2η Θέση Μετάλλιο',
+        ':second_place_medal:',
+        ':silver_medal:',
         'Μετάλλιο Δεύτερης Θέσης',
-        'Ασημένιο Μετάλλιο'
+        'Ασημένιο Μετάλλιο',
+        ':gray:',
+        ':grey:',
+        ':silver:'
     ],
     '🥉': [
         '3η Θέση Μετάλλιο',
+        ':third_place_medal:',
+        ':bronze_medal:',
         'Τρίτο Μετάλλιο',
-        'Χάλκινο Μετάλλιο'
+        'Χάλκινο Μετάλλιο',
+        ':brown:',
+        ':bronze:'
     ],
     '⚽': [
         'Ποδόσφαιρο',
-        'Ποδόσφαιρο'
+        ':football:',
+        'Ποδόσφαιρο',
+        ':white:',
+        ':black:'
     ],
     '⚾': [
         'Μπέιζμπολ',
+        ':baseball:',
         'Softball',
-        'Λευκό'
+        ':white:'
     ],
     '🥎': [
         'Softball',
-        'Κίτρινο'
+        ':softball:',
+        ':yellow:'
     ],
     '🏀': [
         'Μπάσκετ',
-        'Πορτοκαλί',
+        ':basketball:',
+        ':orange:',
         'Μπάσκετ και Hoop'
     ],
-    '🏐': ['Βόλεϊ'],
+    '🏐': [
+        'Βόλεϊ',
+        ':volleyball:',
+        ':white:'
+    ],
     '🏈': [
         'Αμερικάνικο Ποδόσφαιρο',
+        ':american_football:',
         'Ποδόσφαιρο',
         'Gridiron',
-        'Superbowl'
+        'Superbowl',
+        ':brown:'
     ],
     '🏉': [
         'Ποδόσφαιρο Ράγκμπι',
+        ':rugby:',
         'Ποδόσφαιρο',
         'Πρωτάθλημα',
         'Ράγκμπι',
@@ -5351,111 +7729,159 @@ emojis_language[lang][8] = {
     ],
     '🎾': [
         'Τένις',
+        ':tennis:',
+        ':ball:',
         'Μπάλα',
         'Ρακέτα',
-        'Λάκκα'
+        'Λάκκα',
+        ':yellow:'
     ],
     '🥏': [
         'Δίσκος Που Πετάνε',
+        ':flying_disk:',
         'Frisbee'
     ],
     '🎳': [
         'Μπόουλινγκ',
+        ':bowling:',
         'Καρφίτσες',
         'Πατάτες',
         'Δέκα Pin Μπόουλινγκ'
     ],
     '🏏': [
         'Κρίκετ',
+        ':cricket:',
         'Νυχτερίδα',
         'Μπάλα'
     ],
     '🏑': [
         'Πεδίο Χόκεϊ',
+        ':field_hockey:',
         'Μπάλα',
         'Ραβδί'
     ],
     '🏒': [
         'Χόκεϊ Στον Πάγο',
+        ':ice_hockey:',
         'Μπάλα',
         'Ραβδί'
     ],
     '🥍': [
         'Λακρόζη',
+        ':lacrosse:',
         'Μπάλα',
-        'Ραβδί'
+        'Ραβδί',
+        ':red:'
     ],
     '🏓': [
         'Ping Pong',
+        ':ping_pong:',
+        ':table_tennis:',
         'Επιτραπέζιο Τένις',
         'Μπάλα',
         'Paddle'
     ],
     '🏸': [
         'Badminton',
+        ':badminton:',
         'Κλείσιμο',
         'Λάκκα'
     ],
-    '🥊': ['Γάντι Πυγμαχίας'],
+    '🥊': [
+        'Γάντι Πυγμαχίας',
+        ':boxing_glove:',
+        ':red:'
+    ],
     '🥋': [
         'Πολεμικές Τέχνες Ομοιόμορφη',
+        ':martial_arts_uniform:',
+        ':judo:',
+        ':karate:',
+        ':kung_fu:',
         'Τζούντο',
         'Καράτε',
         'Kung fu'
     ],
     '⛳': [
         'Σημαία στην Τρύπα',
+        ':flag_in_hole:',
+        ':golf_flag:',
         'Σημαία Γκολφ'
     ],
     '⛸️': [
         'Σελάχι Πάγου',
+        ':ice_skate:',
         'Πατινάζ'
     ],
     '🎣': [
         'Αλιεία',
+        ':fishing:',
         'Πολωνός',
         'Ψάρια',
         'Καλάμι Ψαρέματος'
     ],
     '🎽': [
         'Τρέξιμο Πουκάμισο',
+        ':running_shirt:',
         'Singlet',
         'Sash'
     ],
     '🎿': [
         'Σκι',
+        ':skis:',
         'Σκι',
         'Εκκίνηση'
     ],
-    '🛷': ['Σφραγισμένο'],
-    '🥌': ['Πέτρα Κέρλινγκ'],
+    '🛷': [
+        'Σφραγισμένο',
+        ':sled:'
+    ],
+    '🥌': [
+        'Πέτρα Κέρλινγκ',
+        ':curling_stone:'
+    ],
     '🎯': [
         'Απευθείας Χτύπημα',
+        ':direct_hit:',
         'Τοξοβολία',
         'Bullseye',
         'Βελάκια'
     ],
     '🎱': [
         'Πισίνα 8 Μπάλα',
+        ':pool_8_ball:',
         'Μπάλα Cue',
         'Σνούκερ',
-        'Μπιλιάρδο'
+        'Μπιλιάρδο',
+        ':black:'
     ],
     '🎮': [
         'Ελεγκτής Παιχνιδιών Βίντεο',
+        ':video_game_controller:',
+        ':playstation:',
+        ':xbox:',
         'Playstation',
         'Xbox',
         'Gamepad',
         'Wii U'
     ],
-    '♟️': ['Πιόνι Μαύρου Σκάκι'],
+    '♟️': [
+        'Πιόνι Μαύρου Σκάκι',
+        ':black_chess_pawn:',
+        ':black:'
+    ],
     '🏹': [
         'Τόξο και βέλος',
+        ':arch:',
         'Arch'
     ],
-    '🥅': ['Δίκτυο Στόχου'],
+    '🥅': [
+        'Δίκτυο Στόχου',
+        ':goal_net:'
+    ],
     '🀄': [
         'Κόκκινος Δράκος Mahjong',
+        ':mahjong:',
         'Mahjong',
         'Mahjong Tile',
         '中',
@@ -5463,6 +7889,7 @@ emojis_language[lang][8] = {
     ],
     '🎴': [
         'Κάρτες Παίζοντας Λουλούδι',
+        ':flower_playing_cards:',
         'Τράπουλα Με Φύλλα',
         'Hanafuda',
         'Hwatu',
@@ -5473,259 +7900,385 @@ emojis_language[lang][8] = {
 emojis_language[lang][9] = {
     '🚂': [
         'Ατμομηχανή',
+        ':steam_train:',
         'Τρένο Ατμού',
         'Σιδηροδρομική Μηχανή'
     ],
     '🚃': [
         'Σιδηροδρομικό Αυτοκίνητο',
+        ':railway_car:',
         'Railcar',
         'Σιδηροδρομικό Αυτοκίνητο',
         'Σιδηροδρομικές Μεταφορές',
         'Σιδηροδρομικό Βαγόνι'
     ],
-    '🚄': ['Τρένο Υψηλής Ταχύτητας'],
+    '🚄': [
+        'Τρένο Υψηλής Ταχύτητας',
+        ':high_speed_train:'
+    ],
     '🚅': [
         'Τρένο Κουκκίδων',
+        ':bullet_train:',
         'Shinkansen',
         'Τρένο υψηλής ταχύτητας με σφαίρα μύτης'
     ],
-    '🚆': ['Τρένο'],
+    '🚆': [
+        'Τρένο',
+        ':train:'
+    ],
     '🚇': [
         'Υπόγεια',
+        ':underground:',
         'Σωλήνας',
         'Μετρό',
         'Μετρό'
     ],
     '🚈': [
         'Ελαφριά Σιδηροδρομική Γραμμή',
+        ':light_rail:',
         'Τρένο'
     ],
-    '🚊': ['Τραμ'],
+    '🚊': [
+        'Τραμ',
+        ':tram:'
+    ],
     '🚝': [
         'Μονοκύμινο',
+        ':monorail:',
         'Τρένο'
     ],
     '🚞': [
         'Σιδηρόδρομος Του Βουνού',
+        ':mountain_railway:',
         'Funicular',
         'Τρένο Και Βουνό'
     ],
-    '🚋': ['Αυτοκίνητο Τραμ'],
+    '🚋': [
+        'Αυτοκίνητο Τραμ',
+        ':tram_car:'
+    ],
     '🚌': [
         'Λεωφορείο',
+        ':bus:',
         'Προπονητής'
     ],
     '🚍': [
         'Εισερχόμενο Λεωφορείο',
+        ':front_of_bus:',
         'Μπροστά Από Λεωφορείο'
     ],
     '🚎': [
         'Trolleybus',
+        ':trolleybus:',
         'Ηλεκτρικό Λεωφορείο'
     ],
     '🚐': [
         'Minibus',
+        ':minibus:',
         'Minivan',
         'Άνθρωποι-Mover'
     ],
-    '🚑': ['Ασθενοφόρο'],
+    '🚑': [
+        'Ασθενοφόρο',
+        ':ambulance:'
+    ],
     '🚒': [
         'Μηχανή Φωτιάς',
+        ':fire_engine:',
         'Πυροσβεστικό Τμήμα',
         'Πυροσβεστικό Φορτηγό'
     ],
     '🚓': [
         'Αυτοκίνητο Αστυνομίας',
+        ':police_car:',
         'Αυτοκίνητο Cop',
         'Πλευρά Της Αστυνομίας Αυτοκίνητο'
     ],
     '🚔': [
         'Επερχόμενο Αστυνομικό Αυτοκίνητο',
+        ':front_of_police_car:',
         'Μπροστά της Αστυνομίας Αυτοκίνητο',
         'Αυτοκίνητο Cop'
     ],
     '🚕': [
         'Ταξί',
+        ':taxi:',
         'Ταξί Της Νέας Υόρκης',
         'Πλευρά Ταξί'
     ],
     '🚖': [
         'Ταξί',
+        ':front_of_taxi:',
         'Εισερχόμενα Ταξί',
         'Μπροστά από ταξί'
     ],
     '🚗': [
         'Αυτοκίνητο',
+        ':car:',
         'Κόκκινο Αυτοκίνητο',
-        'Πλευρά Αυτοκινήτου'
+        'Πλευρά Αυτοκινήτου',
+        'Αυτοκίνητο'
     ],
     '🚘': [
         'Εισερχόμενο Αυτοκίνητο',
+        ':front_of_car:',
         'Κόκκινο Αυτοκίνητο',
         'Μπροστά Του Αυτοκινήτου'
     ],
     '🚚': [
         'Φορτηγό Παράδοσης',
+        ':lorry:',
         'Κοκκώδης'
     ],
     '🚛': [
         'Αρθρωτό Κορί',
+        ':articulated_lorry:',
         'Πράσινο Φορτηγό'
     ],
     '🚜': [
         'Τρακτέρ',
+        ':tractor:',
         'Αγρόκτημα'
     ],
-    '🛻': ['Φορτηγό Παραλαβής'],
+    '🛻': [
+        'Φορτηγό Παραλαβής',
+        ':pickup_truck:'
+    ],
     '🏎️': [
         'Αγωνιστικό Αυτοκίνητο',
+        ':racing_car:',
         'F1',
         'Τύπος Ένα',
         'Αγώνας Αυτοκίνητο'
     ],
     '🏍️': [
         'Μοτοσικλέτα',
+        ':motorbike:',
         'Μοτοσικλέτα'
     ],
     '🛵': [
         'Μοτέρ Σκούτερ',
+        ':motor_scooter:',
         'Vespa',
         'Μοτέρ Ποδήλατο',
         'Μοτέρ Ποδήλατο'
     ],
     '🛺': [
         'Αυτόματο Rickshaw',
+        ':auto_rickshaw:',
         'Tuk Tuk'
     ],
     '🚲': [
         'Ποδήλατο',
+        ':bike:',
         'Ποδήλατο'
     ],
-    '🛴': ['Kick Scooter'],
+    '🛴': [
+        'Kick Scooter',
+        ':kick_scooter:'
+    ],
     '⛵': [
         'Ιστιοφόρο',
+        ':sailboat:',
         'Dinghy',
         'Σκάφος'
     ],
     '🚤': [
         'Ταχύπλοο',
+        ':speedboat:',
         'Μηχανοκίνητο',
         'Powerboat'
     ],
-    '🛳️': ['Επιβατικό Πλοίο'],
-    '⛴️': ['Πλοία'],
-    '🛥️': ['Μηχανοκίνητο Σκάφος'],
-    '🚢': ['Πλοίο Κρουαζιέρας'],
+    '🛳️': [
+        'Επιβατικό Πλοίο',
+        ':passenger_ship:'
+    ],
+    '⛴️': [
+        'Πλοία',
+        ':ferry:'
+    ],
+    '🛥️': [
+        'Μηχανοκίνητο Σκάφος',
+        ':motor_boat:'
+    ],
+    '🚢': [
+        'Πλοίο Κρουαζιέρας',
+        ':cruise_ship:'
+    ],
     '✈️': [
         'Αεροπλάνο',
+        ':airplane:',
         'Aeroplane'
     ],
     '🛩️': [
         'Μικρό Αεροπλάνο',
+        ':small_airplane:',
         'Μικρό Αεροπλάνο'
     ],
-    '🚁': ['Ελικόπτερο'],
-    '🚟': ['Αναστολή Σιδηροδρόμων'],
-    '🚠': ['Ορεινό Συρματόσχοινα'],
+    '🚁': [
+        'Ελικόπτερο',
+        ':helicopter:'
+    ],
+    '🚟': [
+        'Αναστολή Σιδηροδρόμων',
+        ':suspension_railway:'
+    ],
+    '🚠': [
+        'Ορεινό Συρματόσχοινα',
+        ':mountain_cableway:'
+    ],
     '🚡': [
         'Εναέρια Τραμ',
+        ':aerial_tramway:',
         'Καλώδιο Αυτοκινήτου',
         'Gondola',
         'Ροδόπη'
     ],
-    '🛰️': ['Δορυφόρος'],
+    '🛰️': [
+        'Δορυφόρος',
+        ':satellite:'
+    ],
     '🚀': [
         'Πύραυλος',
+        ':rocket:',
         'Διαστημική Μεταφορά'
     ],
     '🛸': [
         'Πετώντας Πιατάκι',
+        ':flying_saucer:',
         'UFO'
     ],
     '🚉': [
         'Σιδηροδρομικός Σταθμός',
+        ':train_station:',
         'Πλατφόρμα Εκπαίδευσης'
     ],
-    '🚏': ['Διακοπή Λεωφορείου'],
+    '🚏': [
+        'Διακοπή Λεωφορείου',
+        ':bus_stop:'
+    ],
     '🛣️': [
         'Αυτοκινητόδρομος',
+        ':motorway:',
         'Δρόμος',
         'Αυτοκινητόδρομος',
         'Διαπολιτισμός'
     ],
-    '🛤️': ['Σιδηροδρομικό Κομμάτι'],
+    '🛤️': [
+        'Σιδηροδρομικό Κομμάτι',
+        ':railway_track:'
+    ],
     '🛫': [
         'Αναχώρηση Αεροπλάνου',
+        ':airplane_departure:',
         'Απογείωση'
     ],
     '🛬': [
         'Άφιξη Αεροπλάνου',
+        ':airplane_arrival:',
         'Φτάνοντας Αεροπλάνο',
         'Προσγείωση'
     ],
-    '🗾': ['Χάρτης για Ιαπωνία'],
-    '⛰️': ['Βουνό'],
-    '🏔️': ['Χιονισμένο Βουνό'],
-    '🌋': ['Ηφαίστειο'],
+    '🗾': [
+        'Χάρτης για Ιαπωνία',
+        ':map_of_japan:'
+    ],
+    '⛰️': [
+        'Βουνό',
+        ':mountain:'
+    ],
+    '🏔️': [
+        'Χιονισμένο Βουνό',
+        ':snow_capped_mountain:'
+    ],
+    '🌋': [
+        'Ηφαίστειο',
+        ':volcano:'
+    ],
     '🗻': [
         'Φόρτωση Fuji',
+        ':mount_fuji:',
         'Fuji-san'
     ],
     '🏕️': [
         'Κατασκήνωση',
+        ':camping:',
         'Κάμπινγκ'
     ],
-    '🏖️': ['Παραλία Με Ομπρέλα'],
-    '🏜️': ['Desert'],
-    '🏝️': ['Νήσος Της Ερήμου'],
-    '🏞️': ['Εθνικό Πάρκο'],
+    '🏖️': [
+        'Παραλία Με Ομπρέλα',
+        ':beach_with_umbrella:'
+    ],
+    '🏜️': [
+        'Desert',
+        ':desert:'
+    ],
+    '🏝️': [
+        'Νήσος Της Ερήμου',
+        ':desert_island:'
+    ],
+    '🏞️': [
+        'Εθνικό Πάρκο',
+        ':national_park:'
+    ],
     '🏟️': [
         'Στάδιο',
+        ':stadium:',
         'Grandstand',
         'Αθλητικό Στάδιο'
     ],
     '🏛️': [
         'Κλασικό Κτίριο',
+        ':classical_building:',
         'Ελληνικά',
         'Ρώμη'
     ],
     '🏗️': [
         'Κατασκευή Κτιρίων',
+        ':building_construction:',
         'Γερανός'
     ],
     '🏘️': [
         'Σπίτια Κτίρια',
+        ':houses_building:',
         'Ομάδα κατοικιών'
     ],
     '🏚️': [
         'Derelict Σπίτι Κτίριο',
+        ':old_house:',
         'Εγκαταλελειμμένο Σπίτι',
         'Παλιό Σπίτι',
         'Στοιχειωμένο Σπίτι'
     ],
     '🏠': [
         'Αρχική',
+        ':home:',
         'Κτίριο Κατοικίας'
     ],
     '🏡': [
         'Σπίτι Με Κήπο',
+        ':house_with_garden:',
         'Σπίτι Και Δέντρο'
     ],
     '🏢': [
         'Κτίριο Γραφείου',
+        ':office_building:',
         'Κτίριο Πόλης',
         'High-Rise Κτίριο'
     ],
     '🏣': [
         'Ιαπωνικά Ταχυδρομεία',
+        ':japanese_post_office:',
         'Ιαπωνικό Ταχυδρομικό Μάρκο'
     ],
     '🏤': [
         'Ταχυδρομείο',
+        ':european_post_office:',
         'Ευρωπαϊκό Ταχυδρομείο'
     ],
     '🏥': [
         'Νοσοκομείο',
+        ':hospital:',
         'ER',
         'A&E',
         'Δωμάτιο Έκτακτης Ανάγκης',
@@ -5735,6 +8288,7 @@ emojis_language[lang][9] = {
     ],
     '🏦': [
         'Τράπεζα',
+        ':bank:',
         'BK',
         'Bakkureru',
         'Υποκατάστημα Τράπεζας',
@@ -5742,15 +8296,18 @@ emojis_language[lang][9] = {
     ],
     '🏨': [
         'Ξενοδοχείο',
+        ':hotel:',
         'Διαμονή',
         'H Κτίριο'
     ],
     '🏩': [
         'Ξενοδοχείο Αγάπης',
+        ':love_hotel:',
         'Αγάπη Heart Hotel'
     ],
     '🏪': [
         'Κατάστημα Ευκολίας',
+        ':convenience_store:',
         '24ωρο Κατάστημα',
         '7-Έντεκα',
         'Κατάστημα Γωνιών',
@@ -5758,16 +8315,19 @@ emojis_language[lang][9] = {
     ],
     '🏫': [
         'Σχολείο',
+        ':school:',
         'Πύργος Ρολογιού',
         'Στοιχειώδη Υψηλή Μέση'
     ],
     '🏬': [
         'Τμήμα Καταστήματος',
+        ':department_store:',
         'Εμπορικό Κέντρο',
         'Κατάστημα'
     ],
     '🏭': [
         'Εργοστάσιο',
+        ':factory:',
         'Βιομηχανική',
         'Βιομηχανία',
         'Ρύπανση',
@@ -5775,91 +8335,117 @@ emojis_language[lang][9] = {
     ],
     '🏯': [
         'Ιαπωνικό Κάστρο',
+        ':japanese_castle:',
         'Οχυρό'
     ],
     '🏰': [
         'Ευρωπαϊκό Κάστρο',
+        ':european_castle:',
         'Turrets'
     ],
     '💒': [
         'Καρδιά Εκκλησίας',
+        ':church_heart:',
         'Γάμος Της Εκκλησίας',
         'Γάμος'
     ],
     '🗼': [
         'Πύργος Του Τόκιο',
+        ':tokyo_tower:',
         'Πύργος Του Άιφελ',
         'Κόκκινος Πύργος'
     ],
     '🗽': [
         'Άγαλμα της ελευθερίας',
+        ':statue_of_liberty:',
         'Νέα Υόρκη'
     ],
     '⛪': [
         'Κτίριο Εκκλησίας',
+        ':church_building:',
         'Σταυρός'
     ],
     '🕌': [
         'Τζαμί',
+        ':mosque:',
         'Κυμαινόμενη Στέγη',
         'Minaret'
     ],
-    '🛕': ['Ινδουιστικός Ναός'],
+    '🛕': [
+        'Ινδουιστικός Ναός',
+        ':hindu_temple:'
+    ],
     '🕍': [
         'Συναγωγή',
+        ':synagogue:',
         'Εβραϊκή',
         'Synagog',
         'Ναός'
     ],
     '⛩️': [
         'Shinto Shrine',
+        ':shinto_shrine:',
         'Kami-no-michi'
     ],
     '🕋': [
         'Kaaba',
+        ':kaaba:',
         'Mecca'
     ],
-    '🏙️': ['Cityscape'],
+    '🏙️': [
+        'Cityscape',
+        ':cityscape:'
+    ],
     '⛱️': [
         'Ομπρέλα στο έδαφος',
+        ':beach_umbrella:',
         'Ομπρέλα Παραλίας'
     ],
     '🌄': [
         'Ανατολή Ηλίου Πάνω Από Βουνά',
+        ':sunrise_over_mountains:',
         'Πρωί',
         'Ανατολή'
     ],
     '🌅': [
         'Ανατολή',
+        ':sunrise:',
+        ':sunset:',
         'Ήλιος'
     ],
     '🌆': [
         'Αστικό τοπίο στο Dusk',
+        ':cityscape_at_dusk:',
         'Πορτοκαλί Ουρανό Σίτι',
         'Σούρουπο Πόλη'
     ],
     '🌇': [
         'Ηλιοβασίλεμα Πάνω Από Κτίρια',
+        ':sunset_over_buildings:',
         'City Sunset'
     ],
     '🌃': [
         'Νύχτα με αστέρια',
+        ':night_with_stars:',
         'Πόλη Τη Νύχτα',
         'Έναστρο Νύχτα'
     ],
     '🗿': [
         'Moai',
+        ':moai:',
         'Άγαλμα Του Πάσχα',
         'Human Rock Carving',
         'Άγαλμα Moyai'
     ],
     '🌠': [
         'Σκοποβολή Αστέρι',
+        ':shooting_star:',
         'Όταν Επιθυμείτε Ένα Αστέρι',
         'Μετεωροειδές'
     ],
     '🌌': [
         'Γαλακτώδης Τρόπος',
+        ':milky_way:',
         'Γαλαξίας',
         'Νυχτερινός Ουρανός',
         'Κενό',
@@ -5868,89 +8454,133 @@ emojis_language[lang][9] = {
     ],
     '🎑': [
         'Τελετή Προβολής Σελήνης',
+        ':moon_viewing_ceremony:',
         'Γρασίδι, Dumplings και Σελήνη',
         'Συγκομιδή Σελήνης',
         'Φεστιβάλ Μέσου Φθινοπώρου',
         'Tsukimi'
     ],
-    '🛖': ['Καλύβα'],
+    '🛖': [
+        'Καλύβα',
+        ':hut:'
+    ],
     '🎢': [
         'Roller Coaster',
+        ':roller_coaster:',
         'Rollercoaster',
         'Θεματικό Πάρκο'
     ],
     '🛝': [
-        'Playground Slide',
+        'Σλάιντ Παιδικής Χαράς',
+        ':playground_slide:',
         'Μωρό',
-        'Children'
+        'Παιδιά'
     ]
 };
 /*technologies (smartphones, laptops, etc.) and office*/
 emojis_language[lang][10] = {
     '⌚': [
         'Παρακολούθηση',
+        ':watch:',
         'Timepiece',
         'Apple Watch'
     ],
-    '⏰': ['Ξυπνητήρι'],
-    '⏱️': ['Χρονόμετρο'],
-    '⏲️': ['Ρολόι Χρονισμού'],
-    '🕰️': ['Ρολόι Mantelpiece'],
-    '🧭': ['Πυξίδα'],
-    '🕹️': ['Χειριστήριο'],
-    '🎙️': ['Στούντιο Μικρόφωνο'],
-    '🎚️': ['Ρυθμιστικό Επιπέδου'],
-    '🎛️': ['Πλήκτρα Ελέγχου'],
+    '⏰': [
+        'Ξυπνητήρι',
+        ':alarm_clock:'
+    ],
+    '⏱️': [
+        'Χρονόμετρο',
+        ':stopwatch:'
+    ],
+    '⏲️': [
+        'Ρολόι Χρονισμού',
+        ':timer_clock:'
+    ],
+    '🕰️': [
+        'Ρολόι Mantelpiece',
+        ':mantelpiece_clock:'
+    ],
+    '🧭': [
+        'Πυξίδα',
+        ':compass:'
+    ],
+    '🕹️': [
+        'Χειριστήριο',
+        ':joystick:'
+    ],
+    '🎙️': [
+        'Στούντιο Μικρόφωνο',
+        ':studio_microphone:'
+    ],
+    '🎚️': [
+        'Ρυθμιστικό Επιπέδου',
+        ':level_slider:'
+    ],
+    '🎛️': [
+        'Πλήκτρα Ελέγχου',
+        ':control_knobs:'
+    ],
     '📻': [
         'Ραδιόφωνο',
+        ':radio:',
         'Ψηφιακό Ραδιόφωνο',
         'Ασύρματο'
     ],
     '📱': [
         'Κινητό Τηλέφωνο',
+        ':mobile_phone:',
         'Έξυπνο',
         'iPhone',
         'Κινητό Τηλέφωνο'
     ],
     '📲': [
         'Κινητό τηλέφωνο με δεξιό βέλος στα αριστερά',
+        ':phone_call:',
         'Κλήση Τηλεφώνου',
         'Δειγματοληψία Σε Τηλέφωνο'
     ],
     '☎️': [
         'Μαύρο Τηλέφωνο',
+        ':rotary_phone:',
         'Περιστροφικό Τηλέφωνο',
-        'Κόκκινο'
+        ':red:'
     ],
     '📞': [
         'Δέκτης Τηλεφώνου',
+        ':phone:',
         'Handset',
         'Τηλέφωνο',
-        'Μαύρο'
+        ':black:'
     ],
     '📟': [
         'Βομβητής',
+        ':pager:',
         'Μπισκότα',
         'Bleeper'
     ],
     '📠': [
         'Μηχανή Φαξ',
+        ':fax_machine:',
         'Facsimile',
         'Φαξ'
     ],
     '🔋': [
         'Μπαταρία',
+        ':battery:',
         'Αντιαεροπορική Μπαταρία',
         'Μπαταρία Τηλεφώνου'
     ],
     '🔌': [
         'Ηλεκτρικό Βούλωμα',
+        ':power_cable:',
         'AC Adaptor',
         'Καλώδιο Ισχύος',
         'Σύνδεσμος Ισχύος'
     ],
     '💻': [
         'Φορητό',
+        ':laptop:',
         'Σημειωματάριο',
         'Προσωπικός Υπολογιστής',
         'PC',
@@ -5959,18 +8589,30 @@ emojis_language[lang][10] = {
     ],
     '🖥️': [
         'Υπολογιστής Επιφάνειας Εργασίας',
+        ':desktop_computer:',
         'iMac',
         'PC'
     ],
-    '🖨️': ['Εκτυπωτές'],
-    '⌨️': ['Keyboard'],
+    '🖨️': [
+        'Εκτυπωτές',
+        ':printer:'
+    ],
+    '⌨️': [
+        'Keyboard',
+        ':keyboard:'
+    ],
     '🖱️': [
         'Ποντίκι Υπολογιστή',
+        ':computer_mouse:',
         'Τρεις Κουμπί Ποντίκι'
     ],
-    '🖲️': ['Trackball'],
+    '🖲️': [
+        'Trackball',
+        ':trackball:'
+    ],
     '💽': [
         'Δίσκος Υπολογιστή',
+        ':blu_ray:',
         'Minidisc',
         'CD',
         'DVD',
@@ -5979,11 +8621,13 @@ emojis_language[lang][10] = {
     ],
     '💾': [
         'Δίσκος Δισκέτας',
+        ':floppy_disk:',
         '3.5′′ Δίσκος',
         'Δίσκος'
     ],
     '💿': [
         'Οπτικός Δίσκος',
+        ':cd:',
         'CD',
         'CD-ROM',
         'Συμπαγής Δίσκος'
@@ -5991,28 +8635,45 @@ emojis_language[lang][10] = {
     '📀': [
         'DVD',
         'DVD- ROM',
+        ':dvd:',
         'Βίντεο DVD'
     ],
     '🎥': [
         'Κάμερα Ταινίας',
+        ':movie_camera:',
         'Φωτογραφική Μηχανή Κινηματογράφου',
         'Χόλιγουντ',
         'Ταινία'
     ],
-    '🎞️': ['Πλαίσια Κινηματογράφου'],
-    '📽️': ['Προβολέας Κινηματογράφου'],
+    '🎞️': [
+        'Πλαίσια Κινηματογράφου',
+        ':film_frames:'
+    ],
+    '📽️': [
+        'Προβολέας Κινηματογράφου',
+        ':film_projector:'
+    ],
     '📺': [
         'Τηλεόραση',
+        ':tv:',
         'Τηλεόραση'
     ],
-    '📷': ['Ψηφιακή Κάμερα'],
-    '📸': ['Κάμερα με Flash'],
+    '📷': [
+        'Ψηφιακή Κάμερα',
+        ':digital_camera:'
+    ],
+    '📸': [
+        'Κάμερα με Flash',
+        ':camera_flash:'
+    ],
     '📹': [
         'Κάμερα Βίντεο',
+        ':video_camera:',
         'Βιντεοκάμερα'
     ],
     '📼': [
         'Videocassette',
+        ':vhs:',
         'ΙΑΣ',
         'VCR',
         'Βιντεοκασέτα',
@@ -6020,6 +8681,7 @@ emojis_language[lang][10] = {
     ],
     '💳': [
         'Πιστωτική Κάρτα',
+        ':credit_card:',
         'Χρεωστική Κάρτα',
         'AMEX',
         'Diners Club',
@@ -6029,254 +8691,382 @@ emojis_language[lang][10] = {
     ],
     '📧': [
         'E-mail',
+        ':email:',
         'E-mail'
     ],
     '📨': [
         'Εισερχόμενος Φάκελος',
+        ':incoming_envelope:',
         'Φάκελος Με Γραμμές',
         'Γρήγορος Φάκελος'
     ],
     '📩': [
         'Φάκελος με κάτω βέλος πάνω από',
+        ':insert_in_envelope:',
         'Κάτω Βέλος Φάκελος',
         'Εισαγωγή Σε Φάκελο'
     ],
-    '📤': ['Δίσκος Εξερχομένων'],
-    '📥': ['Τροφοδότης Εισερχομένων'],
-    '📮': ['Postbox'],
+    '📤': [
+        'Δίσκος Εξερχομένων',
+        ':outbox_tray:'
+    ],
+    '📥': [
+        'Τροφοδότης Εισερχομένων',
+        ':inbox_tray:'
+    ],
+    '📮': [
+        'Postbox',
+        ':postbox:'
+    ],
     '📁': [
         'Φάκελος Αρχείου',
+        ':file_folder:',
         'Φάκελος',
         'Κατάλογος',
         'Κλειστός Φάκελος Αρχείου'
     ],
     '📂': [
         'Άνοιγμα Φακέλου Αρχείων',
+        ':open_file_folder:',
         'Κατάλογος'
     ],
-    '🗂️': ['Διαχωριστικά Ευρετηρίου Κάρτας'],
+    '🗂️': [
+        'Διαχωριστικά Ευρετηρίου Κάρτας',
+        ':card_index_dividers:'
+    ],
     '📅': [
         'Ημερολόγιο',
+        ':calendar:',
         '17 Ιουλίου',
         'Παγκόσμια Ημέρα Emoji'
     ],
-    '🗓️': ['Σπείρα Ημερολόγιο Pad'],
+    '🗓️': [
+        'Σπείρα Ημερολόγιο Pad',
+        ':spiral_calendar_pad:'
+    ],
     '📆': [
         'Ημερολόγιο Tear-Off',
+        ':day_calendar:',
         'Ημερολόγιο Ημέρας',
         'Ημερολόγιο Γραφείου'
     ],
     '📈': [
         'Αύξηση Γραφήματος',
+        ':increasing_chart:',
         'Θετικό Γράφημα',
         'Πάνω Γράφημα Σημείωσης',
         'Γράφημα με τάση προς τα πάνω'
     ],
     '📉': [
         'Μείωση Γραφήματος',
+        ':decreasing_chart:',
         'Αρνητικό Γράφημα',
         'Κάτω Από Το Γράφημα',
         'Διάγραμμα με τάση προς τα κάτω'
     ],
     '📊': [
         'Γράφημα Ράβδων',
+        ':bar_chart:',
         'Γράφημα Ράβδων'
     ],
     '📌': [
         'Pushpin',
-        'Thumb Tack'
+        ':pushpin:',
+        'Thumb Tack',
+        ':red:'
     ],
-    '📋': ['Πρόχειρο'],
+    '📋': [
+        'Πρόχειρο',
+        ':clipboard:'
+    ],
     '📍': [
         'Στρογγυλό Pushpin',
+        ':round_pushpin:',
         'Απορρίφθηκε Pin',
         'Καρφίτσωμα Χάρτη',
         'Καρφίτσα',
-        'Κόκκινη Καρφίτσα'
+        'Κόκκινη Καρφίτσα',
+        ':red:'
     ],
     '📎': [
         'Paperclip',
+        ':paperclip:',
         'Αποκοπή'
     ],
-    '📏': ['Ευθύς Κανόνας'],
+    '📏': [
+        'Ευθύς Κανόνας',
+        ':straight_ruler:'
+    ],
     '📐': [
         'Τριγωνικός Κυβερνήτης',
+        ':triangular_ruler:',
         'Τριγωνικός Κυβερνήτης'
     ],
     '✂️': [
         'Ψαλίδι',
+        ':scissors:',
         'Κοπή'
     ],
     '✏️': [
         'Μολύβι',
+        ':pencil:',
         'Μολύβι Μολύβι'
     ],
     '✒️': [
         'Μαύρο Νιβ',
+        ':black_nib:',
         'Πένα Nib',
         'Σιντριβάνι Πένα'
     ],
     '🖋️': [
         'Σιντριβάνι Πένα',
+        ':fountain_pen:',
         'Κάτω Αριστερή Κρήνη Πένα'
     ],
     '🖊️': [
         'Πένα',
+        ':pen:',
         'Κάτω Αριστερά Ballpoint Pen',
         'Ballpoint Pen'
     ],
     '🖌️': [
         'Βουρτσάκι',
+        ':paintbrush:',
         'Πινέλο',
         'Κάτω Αριστερή Βουρτσάκι'
     ],
     '🖍️': [
         'Crayon',
+        ':crayon:',
         'Κάτω Αριστερά Κραγιόν'
     ],
     '📝': [
         'Υπόμνημα',
+        ':memo:',
         'Memorandum',
         'Σημείωση',
         'Μολύβι Και Χαρτί'
     ],
     '🗑️': [
         'Καλάθι Απορριμμάτων',
+        ':wastepaper_basket:',
         'Δοχείο Απορριμμάτων',
         'Υποδοχή Ρουμπίνας',
         'Κάδος Απορριμμάτων'
     ],
-    '📡': ['Δορυφορική Κεραία'],
+    '📡': [
+        'Δορυφορική Κεραία',
+        ':satellite_antenna:'
+    ],
     '🔭': [
         'Τηλεσκόπιο',
+        ':telescope:',
         'Stargazing'
     ],
     '🔬': [
         'Μικροσκόπιο',
+        ':microscope:',
         'Magnify',
         'Επιστήμη'
     ],
-    '📭': ['Άνοιγμα γραμματοκιβωτίου με Χαμηλότερη Σημαία'],
+    '📭': [
+        'Άνοιγμα γραμματοκιβωτίου με Χαμηλότερη Σημαία',
+        ':open_mailbox_lowered:'
+    ],
     '📬': [
         'Άνοιγμα γραμματοκιβωτίου με ανυψωμένη σημαία',
+        ':open_mailbox_raised:',
         'Άνοιγμα Γραμματοκιβωτίου'
     ],
-    '📪': ['Κλειστό γραμματοκιβώτιο με χαμηλή σημαία'],
-    '📫': ['Κλειστό γραμματοκιβώτιο με ανυψωμένη σημαία'],
-    '📰': ['Εφημερίδα'],
+    '📪': [
+        'Κλειστό γραμματοκιβώτιο με χαμηλή σημαία',
+        ':closed_mailbox_lowered:'
+    ],
+    '📫': [
+        'Κλειστό γραμματοκιβώτιο με ανυψωμένη σημαία',
+        ':closed_mailbox_raised:'
+    ],
+    '📰': [
+        'Εφημερίδα',
+        ':newspaper:'
+    ],
     '🗞️': [
         'Κύλιση Εφημερίδας',
+        ':rolled_up_newspaper:',
         'Παράδοση Εφημερίδας'
     ],
     '📄': [
         'Σελίδα Που Αντιμετωπίζει',
+        ':printed_page:',
         'Εκτυπωμένη Σελίδα'
     ],
     '📜': [
         'Κύλιση',
+        ':scroll:',
         'Βαθμός',
         'Parchment'
     ],
     '📃': [
         'Σελίδα με μπούκλα',
+        ':curled_page:',
         'Curled Page',
         'Curly Page'
     ],
     '📓': [
         'Σημειωματάριο',
+        ':notebook:',
         'Μαύρο Και Άσπρο Βιβλίο'
     ],
-    '📔': ['Σημειωματάριο με διακοσμητικό κάλυμμα'],
+    '📔': [
+        'Σημειωματάριο με διακοσμητικό κάλυμμα',
+        ':notebook_decorative_cover:'
+    ],
     '📕': [
         'Κλειστό Βιβλίο',
+        ':closed_book:',
         'Κόκκινο Βιβλίο',
-        'Κόκκινο Βιβλίο'
+        'Κόκκινο Βιβλίο',
+        ':red:'
     ],
     '📖': [
         'Άνοιγμα Βιβλίου',
+        ':open_book:',
         'Βιβλίο',
         'Νέα'
     ],
     '📗': [
         'Πράσινο Βιβλίο',
-        'Πράσινο Βιβλίο'
+        ':green_book:',
+        'Πράσινο Βιβλίο',
+        ':green:'
     ],
     '📘': [
         'Μπλε Βιβλίο',
-        'Μπλε Βιβλίο'
+        ':blue_book:',
+        'Μπλε Βιβλίο',
+        ':blue:'
     ],
     '📙': [
         'Πορτοκαλί Βιβλίο',
-        'Πορτοκαλί Βιβλίο'
+        ':orange_book:',
+        'Πορτοκαλί Βιβλίο',
+        ':orange:'
     ],
     '📚': [
         'Βιβλία',
+        ':books:',
         'Σωρός Βιβλίων',
         'Στοίβα Βιβλίων'
     ],
     '🗳️': [
         'Ballot Box με το Ballot',
+        ':ballot_box:',
         'Πλαίσιο Ψηφοφορίας',
         'Ψηφοφορία'
     ],
     '🗄️': [
         'Γραφείο Αρχείου',
+        ':file_cabinet:',
         'Γραφείο Καταχώρησης'
     ],
-    '🗃️': ['Πλαίσιο Αρχείων Κάρτας'],
-    '🖇️': ['Συνδεδεμένα Paperclips']
+    '🗃️': [
+        'Πλαίσιο Αρχείων Κάρτας',
+        ':card_file_box:'
+    ],
+    '🖇️': [
+        'Συνδεδεμένα Paperclips',
+        ':linked_paperclips:',
+        ':gray:',
+        ':grey:'
+    ]
 };
 /*clothes and accessories*/
 emojis_language[lang][11] = {
     '👣': [
         'Υποτυπώματα',
+        ':footprints:',
         'Πόδια',
         'Υποβήματα'
     ],
     '👓': [
         'Γυαλιά',
+        ':glasses:',
         'Γυαλιά'
     ],
-    '🕶️': ['Γυαλιά ηλίου'],
-    '🥽': ['Γυαλιά'],
-    '🥼': ['Παλτό Εργαστηρίου'],
+    '🕶️': [
+        'Γυαλιά ηλίου',
+        ':sunglasses:'
+    ],
+    '🥽': [
+        'Γυαλιά',
+        ':goggles:'
+    ],
+    '🥼': [
+        'Παλτό Εργαστηρίου',
+        ':lab_coat:'
+    ],
     '👔': [
         'Necktie',
+        ':necktie:',
         'Επαγγελματικό Μπλουζάκι',
         'Πουκάμισο Και γραβάτα'
     ],
     '👕': [
         'Μπλουζάκι',
+        ':t_shirt:',
+        ':t-shirt:',
         'Πουκάμισο Tee',
         'Μπλουζάκι Polo'
     ],
     '👖': [
         'Τζιν',
+        ':jeans:',
         'Ντένιμ',
         'Παντελόνι',
         'Παντελόνια'
     ],
-    '🧣': ['Scarf'],
-    '🧤': ['Γάντια'],
-    '🧥': ['Παλτό'],
-    '🧦': ['Socks'],
+    '🧣': [
+        'Scarf',
+        ':scarf:'
+    ],
+    '🧤': [
+        'Γάντια',
+        ':gloves:'
+    ],
+    '🧥': [
+        'Παλτό',
+        ':coat:'
+    ],
+    '🧦': [
+        'Socks',
+        ':socks:'
+    ],
     '👗': [
         'Φόρεμα',
+        ':dress:',
         'Φούστα',
         'Φτιάξτε'
     ],
     '👘': [
         'Kimono',
+        ':kimono:',
         'Φόρεμα Με Δέρμα',
         'Ιαπωνικό Φόρεμα'
     ],
     '👙': [
         'Μπικίνι',
+        ':bikini:',
         'Λουτρά',
         'Μαγιό'
     ],
-    '🩱': ['Μαγιό Ένα Κομμάτι'],
+    '🩱': [
+        'Μαγιό Ένα Κομμάτι',
+        'one_piece_swimsuit',
+        'one-piece_swimsuit'
+    ],
     '👚': [
+        'Γυναικεία Ρούχα',
+        ':womans_clothes:',
         'Γυναικεία Ρούχα',
         'Blouse',
         'Ροζ Πουκάμισο',
@@ -6284,17 +9074,23 @@ emojis_language[lang][11] = {
     ],
     '👛': [
         'Χρέος',
+        ':purse:',
         'Πορτοφόλι'
     ],
-    '👜': ['Τσάντα'],
+    '👜': [
+        'Τσάντα',
+        ':handbag:'
+    ],
     '👝': [
         'Τσάντα Συμπλέκτη',
+        ':clutch_bag:',
         'Συμπλέκτης',
         'Μικρή Τσάντα',
         'Pouch'
     ],
     '🎒': [
         'Σακίδιο',
+        ':backpack:',
         'Σάκος',
         'Τσάντα Σχολείου',
         'Σχολείο Satchel',
@@ -6302,31 +9098,47 @@ emojis_language[lang][11] = {
     ],
     '👞': [
         'Mans Shoe',
+        ':mans_shoe:',
+        'Mans Shoe',
         'Παπούτσι',
         'Καφέ Εμφάνιση',
         'Εμφάνιση Φόρεμα'
     ],
     '👟': [
         'Αθλητικό Παπούτσι',
+        ':athletic_shoe:',
         'Τρέξιμο Παπούτσι',
         'Sneaker',
         'Δρομέας',
         'Εκπαιδευτής',
         'Παπούτσι Τένις'
     ],
-    '🥾': ['Πεζοπορία Boot'],
-    '🥿': ['Επίπεδη Παπούτσι'],
+    '🥾': [
+        'Πεζοπορία Boot',
+        ':hiking_boot:'
+    ],
+    '🥿': [
+        'Επίπεδη Παπούτσι',
+        ':flat_shoe:'
+    ],
     '👠': [
         'Υψηλής Αναπηρίας Παπούτσι',
+        ':high_heeled_shoe:',
+        ':high_heel:',
         'Στιλέτο',
         'Υψηλή Τακούνια'
     ],
     '👡': [
         'Γυναικεία Σανδάλι',
+        ':womans_sandal:',
+        'Γυναικεία Σανδάλι',
         'Σανδάλι Με Κλήση',
-        'Saldals'
+        'Σανδάλια',
+        'Sandal'
     ],
     '👢': [
+        'Γυναικεία Μπότες',
+        ':womans_boots_',
         'Γυναικεία Μπότες',
         'Cowgirl Μπότες',
         'Μπότες Γόνατο Υψηλή',
@@ -6334,84 +9146,130 @@ emojis_language[lang][11] = {
     ],
     '👑': [
         'Στέμμα',
+        ':crown:',
         'Ρήγας',
         'Βασίλισσα',
         'Πρίγκιπας',
         'Βασιλικός',
-        'Πριγκίπισσα'
+        'Πριγκίπισσα',
+        ':gold:',
+        ':yellow:'
     ],
     '👒': [
         'Καπέλο',
+        ':hat:',
         'Καπέλο Γυναικείων',
         'Καπέλο Με Τόξο',
         'Καπέλο Κυρίες'
     ],
     '🎩': [
         'Καπέλο',
+        ':top_hat:',
         'Επίσημη Ένδυση',
-        'Groom'
+        'Groom',
+        ':black:'
     ],
     '🎓': [
         'Καπάκι Αποφοίτησης',
+        ':graduation_cap:',
         'Κολέγιο',
         'Απόφοιτος',
         'Πίνακας Όλμου',
         'Πανεπιστήμιο',
-        'Πλατεία Ακαδημαϊκό Καπέλο'
+        'Πλατεία Ακαδημαϊκό Καπέλο',
+        ':black:'
     ],
     '🧢': [
         'Χρεωμένο Καπέλο',
+        ':billed_cap:',
         'Καπέλο Του Μπέιζμπολ'
     ],
     '⛑️': [
         'Κράνος με Λευκό Σταυρό',
-        'Κράνος Εργαζομένων Διάσωσης'
+        ':helmet_with_white_cross:',
+        ':helmet_with_cross:',
+        ':rescue_worker_helmet:',
+        ':rescue_workers_helmet:',
+        'Εργαζόμενος Διάσωσης Κράνος',
+        ':red:',
+        ':white:'
     ],
     '💼': [
         'Χαρτοφύλακες',
+        ':briefcase:',
         'Κοστούμια'
     ],
     '🎖️': [
         'Μετάλλιο Στρατού',
+        ':military_medal:',
+        ':medal:',
         'Μετάλλιο',
         'Μετάλλιο',
         'Στρατιωτική Διακόσμηση'
     ],
     '📿': [
         'Χάντρες Προσευχής',
+        ':prayer_beads:',
         'Χάντρες Dhikr',
         'Χάντρες Ροζάριο'
     ],
-    '🎗️': ['Υπενθύμιση Ribbo'],
-    '🤿': ['Μάσκα Κατάδυσης'],
-    '🦺': ['Γιλέκο Ασφαλείας'],
+    '🎗️': [
+        'Υπενθύμιση Ribbo',
+        ':reminder_ribbo:'
+    ],
+    '🤿': [
+        'Μάσκα Κατάδυσης',
+        ':diving_mask:'
+    ],
+    '🦺': [
+        'Γιλέκο Ασφαλείας',
+        ':safety_vest:'
+    ],
     '🥻': [
         'Sari',
+        ':sari:',
         'Saree',
         'Shari'
     ],
-    '🩲': ['Σλιπ'],
-    '🩳': ['Σορτς'],
+    '🩲': [
+        'Σλιπ',
+        ':briefs:'
+    ],
+    '🩳': [
+        'Σορτς',
+        ':shorts:'
+    ],
     '🛼': [
         'Roller Skate',
+        ':roller_skate:',
         'Ενσωματωμένο Σελάχι',
         'Κύλινδρος Derby'
     ],
     '🩴': [
         'Αναστροφή Πλακέτας',
+        ':flip_flop:',
         'Thong Sandal'
     ],
-    '🪖': ['Στρατιωτικό Κράνος'],
+    '🪖': [
+        'Στρατιωτικό Κράνος',
+        ':military_helmet:'
+    ],
     '🩰': [
         'Παπούτσια Μπαλέτου',
+        ':ballet_shoes:',
         'Παπούτσι Σημείων'
     ],
-    '🩼': ['Crutch']
+    '🩼': [
+        'Crutch',
+        ':crutch:'
+    ]
 };
 /*hands and parts of body*/
 emojis_language[lang][12] = {
     '👋{{skin_tone}}': [
         'Αποθήκευση Υπογραφής Χεριών',
+        ':wave:',
+        ':waving_hand:',
         'Αντίο',
         'Κύμα Χειρός',
         'Γεια',
@@ -6419,105 +9277,141 @@ emojis_language[lang][12] = {
     ],
     '🖐️{{skin_tone}}': [
         'Χέρι με δάχτυλα έπαιξε',
+        ':hand_splayed:',
+        ':raised_hand_with_fingers_splayed:',
+        ':hand_with_fingers_splayed:',
         'Πέντε Χέρι',
         'Χέρι Που Παίζεται',
         'Μεγαλωμένο χέρι με δάχτυλα Splayed'
     ],
     '🤚{{skin_tone}}': [
         'Αυξημένη πίσω πλευρά του χεριού',
+        ':raised_back_of_hand:',
+        ':back_of_hand:',
         'Πίσω'
     ],
     '✋{{skin_tone}}': [
         'Βελτιωμένο Χέρι',
+        ':raised_hand:',
+        ':hand:',
         'Υψηλή Πέντε',
         'Διακοπή'
     ],
     '🖖{{skin_tone}}': [
         'Vulcan Salute',
+        ':vulcan_salute:',
         'Spock',
         'Star Trek',
         'Ενισχυμένο χέρι με μέρος μεταξύ της μέσης και δαχτυλίδι δάχτυλα'
     ],
     '👌{{skin_tone}}': [
         'Σημάδι Χεριού OK',
+        ':ok_hand:',
         'Εντάξει',
         'Τέλειο',
         'Ναι'
     ],
     '✌️{{skin_tone}}': [
         'Χέρι Νίκης',
+        ':victory_hand:',
         'Αερόσπασμα',
         'Σημάδι Ειρήνης',
         'V Υπογραφή'
     ],
     '🤞{{skin_tone}}': [
         'Διασχισμένα Δάχτυλα',
+        ':crossed_fingers:',
         'Δάχτυλα Διασχισμένα',
         'Καλή Τύχη',
         'Χέρι με Ευρετήριο και Μεσαία Δάχτυλα Διασχισμένα'
     ],
     '🤟{{skin_tone}}': [
         'Χειρονομία Αγάπης-Εσείς',
+        ':love_you_gesture:',
+        ':i_love_you_hand_sign:',
         'Σας Αγαπώ Το Χέρι Υπογραφή'
     ],
     '🤘{{skin_tone}}': [
         'Σημάδι από τα κέρατα',
+        ':the_horns:',
+        ':sign_of_the_horns:',
+        ':metal:',
         'Διάβολος Δάχτυλα',
         'Βαρύ Μέταλλο',
         'Ροκ Ενεργό'
     ],
     '🤙{{skin_tone}}': [
         'Καλέστε Με Το Χέρι Υπογραφή',
+        ':call_me_hand:',
+        ':call_me:',
         'Χέρι Τηλεφώνου',
         'Shaka'
     ],
-    '🤏{{skin_tone}}': ['Τσιμπώντας Χέρι'],
+    '🤏{{skin_tone}}': [
+        'Τσιμπώντας Χέρι',
+        ':pinching_hand:'
+    ],
     '👈{{skin_tone}}': [
         'Πίσω Ευρετήριο Βαθμολόγησης Αριστερά',
+        ':backhand_index_pointing_left:',
+        ':point_left:',
         'Λευκό Αριστερό Σημείο Δείκτης Πίσω'
     ],
     '👉{{skin_tone}}': [
         'Πίσω Ευρετήριο Δειγματοληψίας Δεξιά',
+        ':backhand_index_pointing_right:',
+        ':point_right:',
         'Άσπρο Δεξί Δείκτης Ενδείξεων Πίσω'
     ],
     '👆{{skin_tone}}': [
         'Πίσω Ευρετήριο Πάνω',
+        ':point_up_2:',
+        ':backhand_index_pointing_up:',
         'Λευκή Σημείωση Δείκτης Πίσω',
         'Μεσαίο Δάχτυλο'
     ],
     '👇{{skin_tone}}': [
         'Πίσω Ευρετήριο Βαθμολόγησης Κάτω',
+        ':point_down:',
+        ':backhand_index_pointing_down:',
         'Λευκό Κάτω Βαθμολογία Πίσω Ευρετήριο',
         'Βαθμολογία Κάτω'
     ],
     '☝{{skin_tone}}': [
         'Δείκτης Δάχτυλου Που Εντάσσεται',
+        ':point_up:',
+        ':index_pointing_up:',
         'Δείκτης Λευκής Ανίχνευσης',
         'Μυστικό'
     ],
     '🖕{{skin_tone}}': [
         'Μεσαίο Δάχτυλο',
+        ':middle_finger:',
         'Αναποδογύρισμα Του Πουλιού',
         'Γυμνό Δάχτυλο',
         'Αντίστροφο χέρι με Middle Finger Extended'
     ],
     '👍{{skin_tone}}': [
         'Εγγραφή Μικρογραφίας',
+        ':thumbs_up_sign:',
         'Αρέσει',
         'Ναι'
     ],
     '👎{{skin_tone}}': [
         'Υπογραφή Μικρογραφιών',
+        ':thumbs_down_sign:',
         'Κακό',
         'Dislike',
         'Όχι'
     ],
     '✊{{skin_tone}}': [
         'Αυξημένη Γροθιά',
+        ':raised_fist:',
         'Αντλία Fist'
     ],
     '👊{{skin_tone}}': [
         'Επόμενη Γροθιά',
+        ':oncoming_fist:',
         'Bro Fist',
         'Brofist',
         'Fist Bump',
@@ -6525,15 +9419,24 @@ emojis_language[lang][12] = {
         'Κλειστή Γροθιά',
         'Παγωμένη Σημάδι Χεριών'
     ],
-    '🤛{{skin_tone}}': ['Αριστερό Χτύπημα Γροθιάς'],
-    '🤜{{skin_tone}}': ['Δεξιά Γροθιά Χτύπημα'],
+    '🤛{{skin_tone}}': [
+        'Αριστερό Χτύπημα Γροθιάς',
+        ':left_fist_bump:'
+    ],
+    '🤜{{skin_tone}}': [
+        'Δεξιά Γροθιά Χτύπημα',
+        ':right_fist:bump:'
+    ],
     '🤌{{skin_tone}}': [
         'Τσιμπημένα Δάχτυλα',
+        ':pinched_fingers:',
         'Ma Che Vuoi',
         'Δακτύλιος Χρέος'
     ],
     '👏{{skin_tone}}': [
         'Σφραγίδα Χέρια',
+        ':cap:',
+        ':clapping_hands:',
         'Χειροκροτήματα',
         'Clap',
         'Σύλληψη',
@@ -6542,6 +9445,8 @@ emojis_language[lang][12] = {
     ],
     '🙌{{skin_tone}}': [
         'Άτομο που σηκώνει και τα δύο χέρια στη γιορτή',
+        ':raised_hands:',
+        ':raising_hands:',
         'Ανύψωση Χέρια',
         'Όπλα Στον Αέρα',
         'Banzai',
@@ -6552,91 +9457,168 @@ emojis_language[lang][12] = {
     ],
     '👐{{skin_tone}}': [
         'Άνοιγμα Σημάδι Χέρια',
+        ':open_hands_sign:',
         'Αγκαλιά',
         'Χέρια Τζαζ'
     ],
     '🤲{{skin_tone}}': [
         'Palms Up Together',
+        ':palms_up_together:',
         'Dua'
     ],
     '🤝{{skin_tone}}': [
         'Handshake',
+        ':handshake:',
         'Χέρια Κουνήματος'
     ],
     '🙏{{skin_tone}}': [
         'Πτυσσόμενα Χέρια',
+        ':folded_hands:',
         'Namaste',
         'Παρακαλώ',
         'Προσευχή',
         'Σας Ευχαριστούμε',
         'Πρόσωπο με πτυσσόμενα χέρια'
     ],
-    '✍{{skin_tone}}': ['Χέρι Γραφής'],
-    '🫱{{skin_tone}}': ['Rightwards Hand'],
-    '🫲{{skin_tone}}': ['Leftwards Hand'],
-    '🫳{{skin_tone}}': ['Palm Down Hand'],
-    '🫴{{skin_tone}}': ['Palm Up Hand'],
-    '🫰{{skin_tone}}': ['Hand with Index Finger and Thumb Crossed'],
-    '🫵{{skin_tone}}': ['Index Pointing at the Viewer'],
+    '✍{{skin_tone}}': [
+        'Χέρι Γραφής',
+        ':writing_hand:'
+    ],
+    '🫱{{skin_tone}}': [
+        'Δεξιά Χέρι',
+        ':rightwards_hand:'
+    ],
+    '🫲{{skin_tone}}': [
+        'Αριστερό Χέρι',
+        ':leftwards_hand:'
+    ],
+    '🫳{{skin_tone}}': [
+        'Χέρι Παλμών',
+        ':palm_down_hand:'
+    ],
+    '🫴{{skin_tone}}': [
+        'Χέρι Παλμών',
+        ':palm_up_hand:'
+    ],
+    '🫰{{skin_tone}}': [
+        'Χέρι με Δείκτης Δάχτυλο και Αντίχειρα Διασχίστε',
+        ':hand_with_index_finger_and_thumb_crossed:'
+    ],
+    '🫵{{skin_tone}}': [
+        'Σημείο Ευρετηρίου στον Προβολέα',
+        ':index_pointing_at_the_viewer:'
+    ],
     '🫶{{skin_tone}}': [
-        'Heart Hands',
-        'Love'
+        'Χέρια Καρδιάς',
+        ':heart_hands:',
+        'Αγάπη'
     ],
     '💪{{skin_tone}}': [
         'Flexed Biceps',
+        ':flexed_biceps:',
         'Διάσπαση Των Μυών Βραχίονα',
         'Musle',
         'Ισχυρός'
     ],
-    '🦵{{skin_tone}}': ['Σπόδι'],
-    '🦶{{skin_tone}}': ['Πόδι'],
+    '🦵{{skin_tone}}': [
+        'Σπόδι',
+        ':leg:'
+    ],
+    '🦶{{skin_tone}}': [
+        'Πόδι',
+        ':foot:'
+    ],
     '👂{{skin_tone}}': [
         'Αυτί',
+        ':ear:',
         'Αυτιά',
         'Ακρόαση',
         'Ακρόαση'
     ],
     '👃{{skin_tone}}': [
         'Μύτη',
+        ':nose:',
         'Μυρωδιά',
         'Sniffing',
         'Stinky'
     ],
-    '🦻{{skin_tone}}': ['Αυτί με βαρηκοΐα'],
-    '🧠': ['Εγκέφαλος'],
-    '🦷': ['Δόντι'],
+    '🦻{{skin_tone}}': [
+        'Αυτί με βαρηκοΐα',
+        ':ear_with_hearing_aid:'
+    ],
+    '🧠': [
+        'Εγκέφαλος',
+        ':brain:',
+        ':pink:'
+    ],
+    '🦷': [
+        'Δόντι',
+        ':tooth:',
+        ':white:'
+    ],
     '👀': [
         'Μάτια',
+        ':eyes:',
         'Οφθαλμοί',
         'Αυξημένα Μάτια',
         'Σοφά Μάτια'
     ],
     '👁️': [
         'Μάτι',
+        ':eye:',
         'Απλό Μάτι'
     ],
-    '👅': ['Έξοδος Γλώσσας'],
+    '👅': [
+        'Έξοδος Γλώσσας',
+        ':tongue_out:',
+        ':red:'
+    ],
     '👄': [
         'Στόμα',
+        ':mouth:',
         'Φιλιά Χείλη',
-        'Χείλη'
+        'Χείλη',
+        ':red:'
     ],
     '🫦': [
         'Biting Lip',
-        'Χείλη'
+        ':biting_lip:',
+        'Χείλη',
+        ':red:'
     ],
-    '🫀': ['Ανατομική Καρδιά'],
-    '🫁': ['πνεύμονες'],
-    '🦾': ['Μηχανικός Βραχίονας'],
-    '🦿': ['Μηχανικό Πέλμα'],
+    '🫀': [
+        'Ανατομική Καρδιά',
+        ':anatomical_heart:',
+        ':red:'
+    ],
+    '🫁': [
+        'πνεύμονες',
+        ':lungs:',
+        ':red:'
+    ],
+    '🦾': [
+        'Μηχανικός Βραχίονας',
+        ':mechanical_arm:',
+        'Ισχυρός',
+        ':gray:',
+        ':grey:'
+    ],
+    '🦿': [
+        'Μηχανικό Πέλμα',
+        ':mechanical_leg:',
+        ':gray:',
+        ':grey:'
+    ],
     '💅{{skin_tone}}': [
         'Πολωνικά Νύχια',
+        ':nail_polish:',
         'Δάχτυλα',
         'Manicure',
         'Nonchalant'
     ],
     '🤳{{skin_tone}}': [
         'Selfie',
+        ':selfie:',
         'Κάμερα Τηλεφώνου',
         'Χέρι Selfie'
     ]
@@ -6645,50 +9627,79 @@ emojis_language[lang][12] = {
 emojis_language[lang][13] = {
     '💩': [
         'Σωρός του Poo',
+        ':pile_of_poo:',
         'Χώμα Σκύλου',
-        'Χαμογελαστό Βρόχο'
+        'Χαμογελαστό Βρόχο',
+        ':brown:'
     ],
     '💋': [
         'Μάρκο Φιλί',
-        'Φιλιά Χείλη'
+        ':kiss_mark:',
+        'Φιλιά Χείλη',
+        ':red:'
     ],
-    '🦴': ['Κόκαλο'],
+    '🦴': [
+        'Κόκαλο',
+        ':bone:'
+    ],
     '🧳': [
         'Αποσκευές',
+        ':luggage:',
         'Κοστούμια'
     ],
     '🌂': [
         'Κλειστή Ομπρέλα',
+        ':closed_umbrella:',
         'Σύμπτυξη Ομπρέλλας',
-        'Ροζ Ομπρέλα'
+        'Ροζ Ομπρέλα',
+        ':pink:',
+        ':purple:'
     ],
-    '☂️': ['Ομπρέλα'],
+    '☂️': [
+        'Ομπρέλα',
+        ':umbrella:',
+        ':purple:'
+    ],
     '☔': [
         'Ομπρέλα με σταγόνες βροχής',
+        ':umbrella_with_rain_drops:',
+        ':umbrella:',
         'Βροχή',
         'Rainy'
     ],
-    '🧵': ['Κόλπος του νήματος'],
-    '🧶': ['Μπάλα του Νήματος'],
+    '🧵': [
+        'Κόλπος του νήματος',
+        ':spool_of_thread:'
+    ],
+    '🧶': [
+        'Μπάλα του Νήματος',
+        ':ball_of_yarn:'
+    ],
     '💄': [
         'Lipstick',
+        ':lipstick:',
         'Lip Gloss',
-        'Μακιγιάζ'
+        'Μακιγιάζ',
+        ':red:'
     ],
     '💍': [
         'Κουδούνισμα',
+        ':ring:',
         'Διαμαντένιο Δαχτυλίδι',
         'Δακτύλιος Δέσμευσης'
     ],
     '💎': [
         'Πέτρα πολύτιμων λίθων',
+        ':gem_stone:',
         'Διαμάντι',
         'Πολύτιμο',
         'Πολύτιμος Λίθος',
-        'Κόσμημα'
+        'Κόσμημα',
+        ':blue:'
     ],
     '💥': [
         'Σύμβολο Σύγκρουσης',
+        ':collision_symbol:',
         'Μπανγκ',
         'Έκρηξη',
         'Επιπτώσεις',
@@ -6697,16 +9708,22 @@ emojis_language[lang][13] = {
     ],
     '💫': [
         'Σύμβολο Dizzy',
-        'Κύκλος Και Αστέρι'
+        ':dizzy_symbol:',
+        'Κύκλος Και Αστέρι',
+        ':yellow:'
     ],
     '💦': [
         'Σύμβολο Splashing Sweat',
+        'ιδρώτα_σταγόνες',
+        'ιδρώτα_σταγονίδια',
         'Δεσμεύσεις',
         'Πλεονεκτήματα Νερού',
-        'Σταγόνες Νερού'
+        'Σταγόνες Νερού',
+        ':blue:'
     ],
     '💨': [
         'Dashing Μακριά',
+        ':dashing_away:',
         'Γρήγορη',
         'Ατμός',
         'Ατμόπλοιο',
@@ -6716,12 +9733,15 @@ emojis_language[lang][13] = {
     ],
     '🌬️': [
         'Πρόσωπο Ανέμου',
+        ':wind_face:',
         'Ισχυρός Άνεμος',
         'Μητέρα Φύση',
-        'Άνεμος Blowing Πρόσωπο'
+        'Άνεμος Blowing Πρόσωπο',
+        ':white:'
     ],
     '🐾': [
         'Εκτυπώσεις Paw',
+        ':paw_prints:',
         'Εκτυπώσεις Paw Γάτας',
         'Σκύλος Paw Εκτυπώσεις',
         'Kitten Paw Εκτυπώνει',
@@ -6729,121 +9749,251 @@ emojis_language[lang][13] = {
     ],
     '🕸️': [
         'Ιστός Αράχνης',
+        ':spider_web:',
         'Cobweb',
         'Ιστός',
         'Spiderweb'
     ],
     '🦠': [
         'Μικρόβιλος',
+        ':microbe:',
         'Κελί',
         'Coronavirus',
         'COVID-19',
         'Γάμι',
         'Μικροοργανισμός',
-        'Ιός'
+        'Ιός',
+        ':green:'
     ],
-    '💐': ['Μπουκέτο Λουλουδιών'],
+    '💐': [
+        'Μπουκέτο Λουλουδιών',
+        ':bouquet_of_flowers:'
+    ],
     '🌍': [
         'Παρουσίαση Ευρώπης-Αφρικής',
+        ':globe_showing_europe_africa:',
+        ':earth_africa:',
         'Γη',
         'Σφαίρα',
         'Πλανήτης',
         'Κόσμος',
-        'Παρουσίαση Ευρώπης και Αφρικής'
+        'Παρουσίαση Ευρώπης και Αφρικής',
+        ':blue:'
     ],
     '🌎': [
         'Παρουσίαση Της Αμερικής',
-        'Γη',
-        'Σφαίρα',
-        'Πλανήτης',
-        'Κόσμος'
-    ],
-    '🌏': [
-        'Εμφάνιση Ασίας-Αυστραλίας',
+        ':globe_showing_americas:',
+        ':earth_americas:',
         'Γη',
         'Σφαίρα',
         'Πλανήτης',
         'Κόσμος',
-        'Εμφάνιση Ασίας και Αυστραλίας'
+        ':blue:'
+    ],
+    '🌏': [
+        'Εμφάνιση Ασίας-Αυστραλίας',
+        ':globe_showing_asia_australia:',
+        ':earth_asia:',
+        'Γη',
+        'Σφαίρα',
+        'Πλανήτης',
+        'Κόσμος',
+        'Εμφάνιση Ασίας και Αυστραλίας',
+        ':blue:'
     ],
     '🌐': [
         'Globe με Meridians',
+        ':globe_with_meridians:',
         'Διαδίκτυο',
         'World Wide Web',
         'ΔΔΔ'
     ],
     '🌑': [
         'Σύμβολο Νέας Σελήνης',
+        ':new_moon:',
         'Σκοτεινή Σελήνη',
         'Σελήνη Σκιάς',
-        'Ηλιακή Έκλειψη'
+        'Ηλιακή Έκλειψη',
+        ':black:'
     ],
-    '🌒': ['Σύμβολο Ημισελήνου Σελήνης Waxing'],
-    '🌓': ['Σύμβολο Πρώτου Τρίμηνου Σελήνης'],
-    '🌔': ['Σύμβολο Αμφίβολης Σελήνης Waxing'],
-    '🌕': ['Σύμβολο Πανσελήνης'],
-    '🌖': ['Σύμβολο Αμφίβολης Σελήνης'],
-    '🌗': ['Σύμβολο Τελευταίου Τρίμηνου Σελήνης'],
-    '🌘': ['Σύμβολο Της Ημισελήνου Φεγγαριών'],
-    '🌙': ['Ημισέληνος Σελήνης'],
+    '🌒': [
+        'Σύμβολο Ημισελήνου Σελήνης Waxing',
+        ':waxing_crescent_moon:',
+        ':yellow:',
+        ':black:'
+    ],
+    '🌓': [
+        'Σύμβολο Πρώτου Τρίμηνου Σελήνης',
+        ':first_quarter_moon:',
+        ':yellow:',
+        ':black:'
+    ],
+    '🌔': [
+        'Σύμβολο Αμφίβολης Σελήνης Waxing',
+        ':moon:',
+        ':waxing_gibbous_moon:',
+        ':yellow:',
+        ':black:'
+    ],
+    '🌕': [
+        'Σύμβολο Πανσελήνης',
+        ':full_moon:',
+        ':yellow:'
+    ],
+    '🌖': [
+        'Σύμβολο Αμφίβολης Σελήνης',
+        ':waning_gibbous_moon:',
+        ':yellow:',
+        ':black:'
+    ],
+    '🌗': [
+        'Σύμβολο Τελευταίου Τρίμηνου Σελήνης',
+        ':last_quarter_moon:',
+        ':yellow:',
+        ':black:'
+    ],
+    '🌘': [
+        'Σύμβολο Της Ημισελήνου Φεγγαριών',
+        ':waning_crescent_moon:',
+        ':yellow:',
+        ':black:'
+    ],
+    '🌙': [
+        'Ημισέληνος Σελήνης',
+        ':crescent_moon:',
+        ':yellow:'
+    ],
     '🌚': [
         'Νέα Σελήνη με Πρόσωπο',
+        ':new_moon_with_face:',
         'Ανατριχιαστική Σελήνη',
         'Πρόσωπο Σκούρο Φεγγάρι',
-        'Χονδρική Σελήνη'
+        'Χονδρική Σελήνη',
+        ':black:',
+        ':gray:',
+        ':grey:'
     ],
     '🌝': [
         'Πανσέληνος με πρόσωπο',
+        ':full_moon_with_face:',
         'Moonface',
         'Smiley Σελήνη',
-        'Χαμογελώντας Σελήνη'
+        'Χαμογελώντας Σελήνη',
+        ':yellow:'
     ],
-    '🌛': ['Πρώτο τρίμηνο Σελήνης με Πρόσωπο'],
-    '🌜': ['Τελευταία Σελήνη Τρίμηνο με Πρόσωπο'],
+    '🌛': [
+        'Πρώτο τρίμηνο Σελήνης με Πρόσωπο',
+        ':first_quarter_moon_with_face:',
+        ':first_quarter_moon_face:',
+        ':yellow:'
+    ],
+    '🌜': [
+        'Τελευταία Σελήνη Τρίμηνο με Πρόσωπο',
+        ':last_quarter_moon_with_face:',
+        ':last_quarter_moon_face:',
+        ':yellow:'
+    ],
     '🌞': [
         'Ήλιος με πρόσωπο',
+        ':sun_with_face:',
         'Smiley Κυρ',
         'Sunface',
-        'Χαμογελώντας Ήλιος'
+        'Χαμογελώντας Ήλιος',
+        ':yellow:'
     ],
     '☀️': [
         'Κυρ',
-        'Ηλιοφάνεια'
+        ':sun:',
+        'Ηλιοφάνεια',
+        ':yellow:'
     ],
     '⭐': [
         'Αστέρι',
-        'Λευκό Μεσαίο Αστέρι'
+        ':star:',
+        'Λευκό Μεσαίο Αστέρι',
+        ':yellow:'
     ],
     '🌟': [
         'Λαμπερό Αστέρι',
-        'Φωτεινό Αστέρι'
+        ':glowing_star:',
+        'Φωτεινό Αστέρι',
+        ':yellow:'
     ],
     '☁️': [
         'Σύννεφο',
+        ':cloud:',
         'Συννεφιά',
-        'Overcast'
+        'Overcast',
+        ':white:'
     ],
-    '⛅': ['Ο Ήλιος Πίσω Από Το Σύννεφο'],
+    '⛅': [
+        'Ο Ήλιος Πίσω Από Το Σύννεφο',
+        ':thunder_cloud_and_rain:',
+        ':thunder_cloud_rain:',
+        ':cloud_with_lightning_and_rain:',
+        ':white:'
+    ],
     '⛈️': [
         'Σύννεφο με Lightning και βροχή',
-        'Thunder Cloud και βροχή'
+        ':thunder_cloud_and_rain:',
+        ':thunder_cloud_rain:',
+        ':cloud_with_lightning_and_rain:',
+        'Thunder Cloud και βροχή',
+        ':white:'
     ],
-    '🌤️': ['Λευκός ήλιος με μικρό σύννεφο'],
+    '🌤️': [
+        'Λευκός ήλιος με μικρό σύννεφο',
+        ':mostly_sunny:',
+        ':sun_behind_small_cloud:',
+        ':sun_small_cloud:',
+        ':white_sun_small_cloud:',
+        ':white_sun_with_small_cloud:',
+        ':white:'
+    ],
     '🌥️': [
         'Ήλιος Πίσω Από Μεγάλο Σύννεφο',
-        'Λευκό Ήλιο Πίσω Από Το Σύννεφο'
+        ':sun_behind_large_cloud:',
+        'Λευκό Ήλιο Πίσω Από Το Σύννεφο',
+        ':white:'
     ],
-    '🌦️': ['Λευκό ήλιο πίσω από το σύννεφο με βροχή'],
-    '🌧️': ['Σύννεφο με βροχή'],
-    '🌨️': ['Σύννεφο με χιόνι'],
-    '🌩️': ['Σύννεφο με Lightning'],
+    '🌦️': [
+        'Λευκό ήλιο πίσω από το σύννεφο με βροχή',
+        ':sun_behind_rain_cloud:',
+        ':partly_sunny_rain:',
+        ':white_sun_rain_cloud:',
+        ':white_sun_behind_cloud_with_rain:',
+        ':white:'
+    ],
+    '🌧️': [
+        'Σύννεφο με βροχή',
+        ':cloud_with_rain:',
+        ':white:'
+    ],
+    '🌨️': [
+        'Σύννεφο με χιόνι',
+        ':cloud_with_snow:',
+        ':white:'
+    ],
+    '🌩️': [
+        'Σύννεφο με Lightning',
+        ':cloud_with_lightning:',
+        ':white:'
+    ],
     '🌪️': [
         'Ανεμοστρόβιλος',
+        ':tornado:',
         'Σύννεφο με Tornado'
     ],
-    '🌫️': ['Fog'],
+    '🌫️': [
+        'Fog',
+        ':fag:',
+        ':white:',
+        ':gray:',
+        ':grey:'
+    ],
     '🌈': [
         'Ουράνιο Τόξο',
+        ':rainbow:',
         'Ομοφυλοφιλική Υπερηφάνεια',
         'Πρωτεύον Ουράνιο Τόξο',
         'LGBTQIA+',
@@ -6851,11 +10001,14 @@ emojis_language[lang][13] = {
     ],
     '❄️': [
         'Νιφάδα Χιονιού',
+        ':snowflake:',
         'Χιόνι',
-        'Χιόνι'
+        'Χιόνι',
+        ':white:'
     ],
     '🌀': [
         'Κυκλόνη',
+        ':cyclone:',
         'Τυφώνας',
         'Σπείρα',
         'Περιστροφή',
@@ -6863,131 +10016,191 @@ emojis_language[lang][13] = {
     ],
     '⚡': [
         'Σημάδι Υψηλής Τάσης',
+        ':high_voltage_sign:',
         'Μπουλόνι Lightning',
         'Thunderbolt',
         'Υψηλή Τάση'
     ],
     '☃️': [
         'Χιονάνθρωπος',
-        'Χιονάνθρωπος με νιφάδες χιονιού'
+        ':snowman:',
+        'Χιονάνθρωπος με νιφάδες χιονιού',
+        ':white:'
     ],
     '⛄': [
         'Χιονάνθρωπος Χωρίς Χιόνι',
+        'snowman_without_snow',
+        ':snowman:',
         'Frosty Ο Χιονάνθρωπος',
         'Olaf',
-        'Χιονάνθρωπος'
+        'Χιονάνθρωπος',
+        ':white:'
     ],
-    '☄️': ['Κομήτης'],
+    '☄️': [
+        'Κομήτης',
+        ':comet:'
+    ],
     '🔥': [
         'Φωτιά',
+        ':fire:',
         'Φλόγα',
         'Ζεστό',
         'Lit',
-        'Στιγμιότυπο'
+        'Στιγμιότυπο',
+        ':red:'
     ],
     '💧': [
         'Droplet',
+        ':droplet:',
         'Νερό',
-        'Πτώση Νερού'
+        'Πτώση Νερού',
+        ':blue:'
     ],
     '✨': [
         'Σπινθήρες',
+        ':sparkles:',
         'Γκλίτερ',
         'Shiny',
         'Νέο'
     ],
     '🌊': [
         'Κύμα Νερού',
+        ':water_wave:',
         'Παραλία',
         'Ωκεάνιο Κύμα',
-        'Θάλασσα'
+        'Θάλασσα',
+        ':blue:'
     ],
     '🎄': [
         'Χριστουγεννιάτικο Δέντρο',
+        'δέντρο_χριστά',
         'Χριστούγεννα',
-        'Δέντρο Χριστουγέννων'
+        'Δέντρο Χριστουγέννων',
+        ':green:'
     ],
     '🎃': [
         'Jack-O-Φανάρι',
+        'jack_o_φανάρι',
         'Halloween',
-        'Κολοκύθα'
+        'Κολοκύθα',
+        ':orange:'
     ],
     '🌻': [
         'Ηλίανθος',
-        'Κίτρινο Λουλούδι'
+        ':sunflower:',
+        'Κίτρινο Λουλούδι',
+        ':yellow:'
     ],
     '🌼': [
         'Blossom',
+        ':blossom:',
         'Άνθος Λουλούδι',
         'Daisy',
-        'Κίτρινο Λουλούδι'
+        'Κίτρινο Λουλούδι',
+        ':yellow:'
     ],
-    '🌷': ['Tulip'],
+    '🌷': [
+        'Tulip',
+        ':tulip:',
+        ':pink:'
+    ],
     '🌹': [
         'Τριαντάφυλλο Λουλούδι',
-        'Κόκκινο Τριαντάφυλλο'
+        ':rose_flower:',
+        'Κόκκινο Τριαντάφυλλο',
+        ':red:'
     ],
     '☘️': [
         'Σαμπουάν',
+        ':shamrock:',
         'Τριφύλλι',
-        'Trefoil'
+        'Trefoil',
+        ':green:'
     ],
     '🍀': [
         'Τριφύλλι Τέσσερα Φύλλα',
+        ':four_leaf_clover:',
         'Τριφύλλι',
         'Ιρλανδία',
         'Τυχερός',
-        'Τύχες'
+        'Τύχες',
+        ':green:'
     ],
     '🌸': [
         'Cherry Blossom',
+        ':cherry_blossom:',
         'Ροζ Λουλούδι',
-        'Sakura'
+        'Sakura',
+        ':pink:'
     ],
     '💮': [
         'Λευκό Λουλούδι',
+        ':white_flower:',
         'Cherry Blossom',
         'Χαρτί Doily',
-        'Καλά Έγινε Σφραγίδα'
+        'Καλά Έγινε Σφραγίδα',
+        ':white:'
     ],
-    '🌺': ['Hibiscus'],
-    '🏵️': ['Ροζέτα'],
+    '🌺': [
+        'Hibiscus',
+        ':hibiscus:',
+        ':red:'
+    ],
+    '🏵️': [
+        'Ροζέτα',
+        ':rosette:',
+        ':orange:',
+        ':yellow:'
+    ],
     '🌱': [
         'Σπόρος',
+        ':seedling:',
         'Άνοιξη',
         'Sprout',
-        'Λαχανάκια'
+        'Λαχανάκια',
+        ':green:'
     ],
     '🌲': [
         'Evergreen Δέντρο',
+        ':evergreen_tree:',
         'Δέντρο Ελαφιού',
-        'Δέντρο Πεύκου'
+        'Δέντρο Πεύκου',
+        ':green:'
     ],
     '🌳': [
         'Αποφασιστικό Δέντρο',
-        'Στρογγυλεμένο Δέντρο'
+        ':deciduous_tree:',
+        'Στρογγυλεμένο Δέντρο',
+        ':green:'
     ],
     '🌴': [
         'Δέντρο Φοίνικας',
-        'Δέντρο Καρύδας'
+        ':palm_tree:',
+        'Δέντρο Καρύδας',
+        ':green:'
     ],
     '🎋': [
         'Δέντρο Tanabata',
+        ':tanabata_tree:',
         'Tanabata',
         'Δέντρο Επιθυμιών'
     ],
     '🎍': [
         'Διακόσμηση Πεύκου',
+        ':pine_decoration:',
         'Μπαμπού',
         'Kadomatsu',
         'Διακόσμηση Νέου Έτους'
     ],
     '🌵': [
         'Cactus',
-        'Desert'
+        ':cactus:',
+        'Desert',
+        ':green:'
     ],
     '🌾': [
         'Φύλλο του ρυζιού',
+        ':sheaf_of_rice:',
         'Περικοπή',
         'Γεωργία',
         'Σίτος',
@@ -6995,110 +10208,183 @@ emojis_language[lang][13] = {
     ],
     '🌿': [
         'Βότανα',
+        ':herb:',
         'Περικοπή',
-        'Φυτό'
+        'Φυτό',
+        ':green:'
     ],
     '🍁': [
         'Φύλλο Maple',
+        ':maple_leaf:',
         'Καναδάς',
         'Καναδική',
-        'Μοίρες'
+        'Μοίρες',
+        ':brown:'
     ],
     '🍂': [
         'Φύλλο Fallen',
+        ':fallen_leaf:',
         'Φύλλο Φθινοπώρου',
         'Φύλλα Φθινοπώρου',
         'Καφέ Φύλλα',
         'Φύλλα Πτώσης',
-        'Πεσμένα Φύλλα'
+        'Πεσμένα Φύλλα',
+        ':brown:'
     ],
     '🍃': [
         'Φύλλο Fluttering σε Wind',
+        ':leaf_fluttering_in_wind:',
+        ':leaves:',
         'Πράσινα Φύλλα',
-        'Άνοιξη'
+        'Άνοιξη',
+        ':green:'
     ],
-    '🪴': ['Φυτό Potted'],
+    '🪴': [
+        'Φυτό Potted',
+        ':potted_plant:',
+        ':green:'
+    ],
     '🪸': [
-        'Coral',
-        'Climate change'
+        'Κοράλλια',
+        ':coral:',
+        'Κλιματική αλλαγή'
     ],
     '🪷': [
         'Lotus',
-        'Purity',
-        'Beauty',
-        'Calmness',
-        'Serenity'
+        ':lotus:',
+        'Καθαρότητα',
+        'Ομορφιά',
+        'Ηρεμία',
+        'Γενοκτονία'
     ],
     '🔑': [
         'Κλειδί',
-        'Χρυσό Κλειδί'
+        ':key:',
+        'Χρυσό Κλειδί',
+        ':gold:',
+        ':yellow:'
     ],
-    '🗝️': ['Παλιό Κλειδί'],
+    '🗝️': [
+        'Παλιό Κλειδί',
+        ':old_key:',
+        ':brown:'
+    ],
     '🔨': [
         'Σφυρί',
+        ':hammer:',
         'Σφυρί Claw',
         'Handyman',
         'Εργαλείο'
     ],
     '⛏️': [
         'Επιλέξτε',
+        ':pick:',
         'Αξίνα'
     ],
-    '🪓': ['Τσεκούρια'],
-    '🪚': ['Πριόνι Ξυλουργικής'],
-    '🪛': ['Κατσαβίδι'],
-    '🪝': ['Άγκιστρο'],
-    '🪠': ['Plunger'],
-    '🪣': ['Κουβάς'],
+    '🪓': [
+        'Τσεκούρια',
+        ':axe:'
+    ],
+    '🪚': [
+        'Πριόνι Ξυλουργικής',
+        ':carpentry_saw:'
+    ],
+    '🪛': [
+        'Κατσαβίδι',
+        ':screwdriver:'
+    ],
+    '🪝': [
+        'Άγκιστρο',
+        ':hook:'
+    ],
+    '🪠': [
+        'Plunger',
+        ':plunger:'
+    ],
+    '🪣': [
+        'Κουβάς',
+        ':bucket:'
+    ],
     '🔩': [
         'Καρύδα και Bolt',
+        ':nut_and_bolt:',
         'Bolt',
-        'Βίδα'
+        'Βίδα',
+        ':gray:',
+        ':grey:'
     ],
     '🗜️': [
         'Σφιγκτήρας',
+        ':clamp:',
         'Πίνακας Vice',
         'WinZip',
-        'Συμπίεση'
+        'Συμπίεση',
+        ':gray:',
+        ':grey:'
     ],
     '🔒': [
         'Κλειδωμένο',
+        ':locked:',
         'Κλειδαριά Κλειδώματος',
         'Padlock'
     ],
     '🔓': [
         'Ξεκλείδωτο',
+        ':unlocked:',
         'Άνοιγμα Padlock',
         'Άνοιγμα Κλειδώματος'
     ],
     '🔏': [
         'Κλειδωμένο με στυλό',
+        ':locked_with_pen:',
         'Κλείδωμα Και Πένα',
         'Κλειδαριά Με Σιντριβάνι Στυλό',
         'Κλείδωμα με στυλό μελάνης'
     ],
     '🔐': [
         'Κλειδωμένο με κλειδί',
+        ':locked_with_key:',
         'Κλειδαριά κλειδώματος με κλειδί'
     ],
     '🗡️': [
         'Dagger',
-        'Όπλο Μαχαίρι'
+        ':dagger:',
+        'Όπλο Μαχαίρι',
+        ':gray:',
+        ':grey:'
     ],
-    '⚔️': ['Διασχισμένα Σπαθιά'],
+    '⚔️': [
+        'Διασχισμένα Σπαθιά',
+        ':crossed_swords:',
+        ':gray:',
+        ':grey:'
+    ],
     '🔫': [
         'Pistol',
+        ':pistol:',
         'Όπλο',
         'Περίστροφο',
         'Όπλο Μπλουζών',
         'Όπλο Νερού',
         'Πιστόλι Νερού'
     ],
-    '🧰': ['Εργαλειοθήκη'],
-    '🧲': ['Μαγνήτης'],
-    '⛓️': ['Αλυσίδες'],
+    '🧰': [
+        'Εργαλειοθήκη',
+        ':toolbox:',
+        ':red:'
+    ],
+    '🧲': [
+        'Μαγνήτης',
+        ':magnet:',
+        ':red:'
+    ],
+    '⛓️': [
+        'Αλυσίδες',
+        ':chains:'
+    ],
     '💉': [
         'Syringe',
+        ':syringe:',
         'Δωρεά Αίματος',
         'Δοκιμή Αίματος',
         'Βελόνα',
@@ -7106,30 +10392,51 @@ emojis_language[lang][13] = {
     ],
     '🧬': [
         'DNA',
+        ':dna:',
         'DNA Double Helix'
     ],
-    '🧪': ['Σωλήνας Δοκιμής'],
+    '🧪': [
+        'Σωλήνας Δοκιμής',
+        ':test_tube:',
+        ':green:'
+    ],
     '🛏️': [
         'Κρεβάτι',
+        ':bed:',
         'Υπνοδωμάτιο'
     ],
     '🛋️': [
         'Καναπές και λάμπα',
+        ':couch_and_lamp:',
         'Σαλόνι',
         'Ρύθμιση',
         'Καναπές'
     ],
-    '🪑': ['Καρέκλα'],
+    '🪑': [
+        'Καρέκλα',
+        ':chair:'
+    ],
     '🚪': [
         'Πόρτα',
+        ':door:',
         'Πόρτα',
         'Μπροστινή Πόρτα'
     ],
-    '🪟': ['Παράθυρο'],
-    '🪜': ['Σκάλα'],
-    '🪞': ['Καθρέφτης'],
+    '🪟': [
+        'Παράθυρο',
+        ':window:'
+    ],
+    '🪜': [
+        'Σκάλα',
+        ':ladder:'
+    ],
+    '🪞': [
+        'Καθρέφτης',
+        ':mirror:'
+    ],
     '🚽': [
         'Τουαλέτα',
+        ':toilet:',
         'Μπάνιο',
         'Loo',
         'Restroom',
@@ -7137,196 +10444,330 @@ emojis_language[lang][13] = {
     ],
     '🚿': [
         'Ντους',
+        ':shower:',
         'Κεφαλή Ντους'
     ],
     '🛁': [
         'Μπανιέρα',
+        ':bathtub:',
         'Μπάνιο Με Φούσκα'
     ],
-    '🧴': ['Φιάλη Λοσιόν'],
-    '🧷': ['Καρφίτσα Ασφαλείας'],
-    '🧺': ['Καλάθι'],
+    '🧴': [
+        'Φιάλη Λοσιόν',
+        ':location_bottle:'
+    ],
+    '🧷': [
+        'Καρφίτσα Ασφαλείας',
+        ':safety_pin:',
+        ':gray:',
+        ':grey:'
+    ],
+    '🧺': [
+        'Καλάθι',
+        ':basket:',
+        ':brown:'
+    ],
     '🧻': [
         'Ρόλος του χαρτιού',
-        'Χαρτί Χαρτί Χαρτί'
+        ':roll_of_paper:',
+        'Χαρτί Χαρτί Χαρτί',
+        ':white:'
     ],
-    '🧼': ['Ράβδος του σαπουνιού'],
-    '🧽': ['Σφουγγάρι'],
-    '🧯': ['Πυροσβεστήρας'],
+    '🧼': [
+        'Ράβδος του σαπουνιού',
+        ':bar_of_soap:'
+    ],
+    '🧽': [
+        'Σφουγγάρι',
+        ':sponge:',
+        ':yellow:'
+    ],
+    '🧯': [
+        'Πυροσβεστήρας',
+        ':fire_extinguisher:',
+        ':red:'
+    ],
     '🚬': [
         'Τσιγάρα',
+        ':cigarette:',
         'Σύμβολο Καπνού'
     ],
     '⚰️': [
         'Φέρετρο',
+        ':coffin:',
         'Casket',
-        'Κηδεία'
+        'Κηδεία',
+        ':brown:'
     ],
     '⚱️': [
         'Ουρά Κηδείας',
+        ':funeral_urn:',
         'Βάζο'
     ],
-    '🛡️': ['Ασπίδα'],
+    '🛡️': [
+        'Ασπίδα',
+        ':shield:'
+    ],
     '⚙️': [
         'Εργαλείο',
+        ':gear:',
         'Ρυθμίσεις',
-        'Επιλογές'
+        'Επιλογές',
+        ':gray:',
+        ':grey:'
     ],
     '⚖️': [
         'Κλίμακα Ισορροπίας',
+        ':balance_scale:',
         'Κλίμακες της δικαιοσύνης'
     ],
     '🔗': [
         'Σύνδεσμος',
+        ':link:',
         'Αλυσίδα',
         'Υπερσύνδεσμος',
-        'Συνδεδεμένη Αλυσίδα'
+        'Συνδεδεμένη Αλυσίδα',
+        ':gray:',
+        ':grey:'
     ],
     '💀': [
         'Κρανίο',
+        ':skull:',
         'Θάνατος',
         'Γκρι Κρανίο',
-        'Σκελετός'
+        'Σκελετός',
+        ':white:'
     ],
-    '☠️': ['Κρανίο και Σταυροκόκαλα'],
+    '☠️': [
+        'Κρανίο και Σταυροκόκαλα',
+        ':skull_and_crossbones:',
+        ':white:'
+    ],
     '🎡': [
         'Τροχός Τροχού',
+        ':ferris_wheel:',
         'Μεγάλος Τροχός',
         'Fairgroundl',
         'Παρατήρηση Τροχού'
     ],
     '⛽': [
         'Αντλία Καυσίμου',
+        'αντλία καυσίμου:',
         'Πετρέλαιο',
         'Βενζίνη',
-        'Αέριο'
+        'Αέριο',
+        ':red:'
     ],
     '🚨': [
         'Αστυνομία Αυτοκίνητα Περιστρεφόμενο Φως',
+        ':rotating_light:',
+        ':police_police_car:',
         'Φως Έκτακτης Ανάγκης',
         'Φως Που Αναβοσβήνει',
-        'Siren'
+        'Siren',
+        ':red:'
     ],
-    '🚥': ['Φως Οριζόντιας Κυκλοφορίας'],
-    '🚦': ['Φως Κατακόρυφης Κυκλοφορίας'],
+    '🚥': [
+        'Φως Οριζόντιας Κυκλοφορίας',
+        ':horizontal_traffic_light:',
+        ':green:',
+        ':red:',
+        ':yellow:',
+        ':orange:'
+    ],
+    '🚦': [
+        'Φως Κατακόρυφης Κυκλοφορίας',
+        ':vertical_traffic_light:',
+        ':green:',
+        ':red:',
+        ':yellow:',
+        ':orange:'
+    ],
     '⚓': [
         'Αγκυροβολία Ναυάρχου Μοτίβο',
+        ':anchor:',
         'Ψαράς'
     ],
     '🚧': [
         'Υπογραφή Κατασκευής',
-        'Μαύρο Και Κίτρινο Ριγέ Σημάδι'
+        ':construction_sign:',
+        'Μαύρο Και Κίτρινο Ριγέ Σημάδι',
+        ':yellow:',
+        ':black:'
     ],
-    '🪂': ['Parachute'],
+    '🪂': [
+        'Parachute',
+        ':parachute:'
+    ],
     '💺': [
         'Έδρα',
+        ':seat:',
         'Λεωφορείο Αεροπλάνο Τρένο Αεροπλάνο'
     ],
-    '🪐': ['Κρόνος'],
+    '🪐': [
+        'Κρόνος',
+        ':saturn:'
+    ],
     '🎆': [
         'Πυροτεχνήματα',
+        ':fireworks:',
         'Έκρηξη'
     ],
     '🎇': [
         'Senko Hanabi',
+        ':senko_hanabi:',
         'Πυροτέχνημα Sparkler'
     ],
     '💷': [
         'Τραπεζογραμμάτιο Λίρας',
+        ':pound:',
+        ':pound_banknote:',
         '£20 Σημείωση',
         'Είκοσι Γρήγορη Σημείωση',
-        'Τραπεζογραμμάτιο με σημάδι λίρας'
+        'Τραπεζογραμμάτιο με σημάδι λίρας',
+        ':purple:'
     ],
     '💶': [
         'Euro Banknote',
+        ':euro:',
+        ':euro_banknote:',
         '€100 Σημείωση',
-        'Τραπεζογραμμάτιο με Ευρώ'
+        'Τραπεζογραμμάτιο με Ευρώ',
+        ':blue:'
     ],
     '💵': [
         'Τραπεζογραμμάτιο Δολαρίου',
+        ':dollar:',
+        ':dollar_banknote:',
         '$1 Σημείωση',
         'Banknote with Dollar Sign',
         'Λογαριασμός Δολαρίου',
-        'Δολάριο Αμερικής'
+        'Δολάριο Αμερικής',
+        ':green:'
     ],
     '💴': [
         'Τραπεζογραμμάτιο Γιεν',
+        ':yen:',
+        ':yen_banknote:',
         '◆ Σημείωση 1000',
         'Σημείωση Yen',
-        'Banknote with Yen Sign'
+        'Banknote with Yen Sign',
+        ':yellow:'
     ],
-    '⛺': ['Σκηνή Κατασκήνωσης'],
+    '⛺': [
+        'Σκηνή Κατασκήνωσης',
+        ':camping_tent:'
+    ],
     '⛲': [
         'Κρήνη',
+        ':fountain:',
         'Χαρακτηριστικό Νερό',
         'Πηγή Νερού',
         'Πάρκο'
     ],
     '💰': [
         'Τσάντα Χρήματος',
+        ':money_bag:',
         'Moneybags',
         'Πλούσιο',
         '$'
     ],
     '💸': [
         'Χρήματα με φτερά',
+        ':money_with_wings:',
         'Πετώντας Χρήματα',
         ' Χάνοντας Χρήματα'
     ],
-    '🏷️': ['Ετικέτα Ετικέτας'],
+    '🏷️': [
+        'Ετικέτα Ετικέτας',
+        ':label_tag:'
+    ],
     '🔖': [
         'Σελιδοδείκτης',
+        ':bookmark:',
         'Ετικέτα Τιμής',
         'Ετικέτα'
     ],
-    '📑': ['Καρτέλες Σελιδοδεικτών'],
+    '📑': [
+        'Καρτέλες Σελιδοδεικτών',
+        ':bookmark_tabs:',
+        ':white:'
+    ],
     '📯': [
         'Ταχυδρομικό Κέρας',
+        ':postal_horn:',
         'Bugle',
         'Γαλλικό Κέρας'
     ],
-    '🪁': ['Kite'],
-    '🪀': ['Γιο-Γιο'],
+    '🪁': [
+        'Kite',
+        ':kite:',
+        ':purple:'
+    ],
+    '🪀': [
+        'Γιο-Γιο',
+        ':yo_yo:',
+        ':yo-yo:'
+    ],
     '🎊': [
         'Confetti Ball',
+        ':confetti_ball:',
         'Confetti'
     ],
     '🎉': [
         'Πάρτυ Popper',
+        ':party_popper:',
         'Εορτασμός',
         'Καπέλο Πάρτυ'
     ],
     '🎈': [
         'Μπαλόνι',
+        ':balloon:',
         'Πάρτι',
-        'Κόκκινο Μπαλόνι'
+        'Κόκκινο Μπαλόνι',
+        ':red:'
     ],
     '🌡️': [
         'Θερμόμετρο',
+        ':thermometer:',
         'Ζεστός Καιρός',
-        'Θερμοκρασία'
+        'Θερμοκρασία',
+        ':red:'
     ],
-    '🛢️': ['Βαρέλι Πετρελαίου'],
-    '💣': ['Βόμβα'],
+    '🛢️': [
+        'Βαρέλι Πετρελαίου',
+        ':oil_drum:'
+    ],
+    '💣': [
+        'Βόμβα',
+        ':bomb:'
+    ],
     '🔪': [
         'Μαχαίρι Κουζίνας',
+        ':kitchen_knife:',
         'Μαχαίρι',
         'Μαχαίρι Κρεοπωλών',
         'Hocho'
     ],
     '🏺': [
         'Amphora',
+        ':amphora:',
         'Βάζο',
         'Βάζο'
     ],
-    '🗺️': ['Παγκόσμιος Χάρτης'],
+    '🗺️': [
+        'Παγκόσμιος Χάρτης',
+        ':world_map:'
+    ],
     '🎼': [
         'Μουσική Βαθμολογία',
+        ':musical_score:',
         'Μουσική Φύλλων',
         'Treble Clef'
     ],
     '🎬': [
         'Πίνακας Clapper',
+        ':clapper_board:',
         'Αποκοπή',
         'Ενέργεια',
         'Διευθυντής',
@@ -7334,51 +10775,74 @@ emojis_language[lang][13] = {
     ],
     '🎻': [
         'Βιολίνη',
+        ':violin:',
         'Κουαρτέτο Συμβολοσειράς',
-        'Το Μικρότερο Βιολίνο Του Κόσμου'
+        'Κόσμοι Μικρότερο Βιολί'
     ],
     '🎺': [
         'Τρομπέτα',
+        ':trumpet:',
         'Κέρατο',
         'Τζαζ'
     ],
     '🎸': [
         'Κιθάρα',
+        ':guitar:',
         'Ακουστική Κιθάρα',
         'Κιθάρα Μπάσου',
         'Ηλεκτρική Κιθάρα'
     ],
     '🎷': [
         'Σαξόφωνο',
+        ':saxophone:',
         'Τζαζ',
         'Sax'
     ],
     '🥁': [
         'Τύμπανο',
+        ':drum:',
         'Τύμπανο με drumsticks'
     ],
     '🎹': [
         'Πιάνο',
-        'Μουσικό Πληκτρολόγιο'
+        ':piano:',
+        'Μουσικό Πληκτρολόγιο',
+        ':white:',
+        ':black:'
     ],
-    '🪕': ['Μπάνζο'],
-    '🪗': ['Ακορντεόν'],
-    '🪘': ['Μακρύ Τύμπανο'],
+    '🪕': [
+        'Μπάνζο',
+        ':banjo:'
+    ],
+    '🪗': [
+        'Ακορντεόν',
+        ':accordion:'
+    ],
+    '🪘': [
+        'Μακρύ Τύμπανο',
+        ':long_drum:'
+    ],
     '🎨': [
         'Παλέτα Καλλιτέχνη',
+        ':artist_palette:',
         'Τέχνη',
         'Ζωγραφική'
     ],
     '🧩': [
         'Κομμάτι Παζλ',
-        'Κομμάτι Παζλ'
+        ':puzzle_piece:',
+        'Κομμάτι Παζλ',
+        ':green:'
     ],
     '🎲': [
         'Πέθανε Παιχνιδιού',
-        'Ζάρια'
+        ':game_die:',
+        'Ζάρια',
+        ':white:'
     ],
     '🎭': [
         'Ερμηνεία Τεχνών',
+        'εκτέλεση_τεχνών',
         'Θέατρο',
         'Θέατρο',
         'Μάσκες Δράμας',
@@ -7388,143 +10852,293 @@ emojis_language[lang][13] = {
     ],
     '🔍': [
         'Μεγεθυντικό Γυαλί Πλακέ Αριστερά',
+        ':mag:',
+        ':magnifying_glass_tilted_left:',
         'Magnifier',
         'Εικονίδιο Αναζήτησης',
         'Αριστερό Σημείο Μεγεθυντικό Γυαλί',
-        'Εύρεση'
+        'Εύρεση',
+        ':transparent:'
     ],
     '🔎': [
         'Μεγεθυντικό Γυαλί Που Κλιαρίζεται Δεξιά',
+        ':mag_right:',
+        ':magnifying_glass_tilted_right:',
         'Magnifier',
         'Εικονίδιο Αναζήτησης',
         'Μεγεθυντικό Γυαλί Δεξιάς Σημείωσης',
-        'Εύρεση'
+        'Εύρεση',
+        ':transparent:'
     ],
     '⌛': [
         'Hourglass Done',
+        ':hourglass:',
+        ':hourglass_done:',
         'Hourglass'
     ],
     '⏳': [
         'Hourglass Δεν Έγινε',
+        ':hourglass_flowing_sand:',
+        ':hourglass_not_done:',
         'Hourglass με ρέοντας άμμο'
     ],
     '🕐': [
-        'Ένα Ωράριο',
-        'Ρολόι Πρόσωπο Ένα O\'Clock'
+        'Ένα OClock',
+        ':clock1:',
+        ':one_oclock:',
+        'Ρολόι Πρόσωπο One OClock',
+        ':gray:',
+        ':grey:'
     ],
-    '🕜': ['Ρολόι Πρόσωπο One-Thirty'],
+    '🕜': [
+        'Ρολόι Πρόσωπο One-Thirty',
+        ':clock130:',
+        ':one_thirty:',
+        ':gray:',
+        ':grey:'
+    ],
     '🕑': [
-        'Δύο Ωράριο',
-        'Ρολόι Πρόσωπο Δύο O\'Clock'
+        'Δύο OClock',
+        ':clock2:',
+        ':two_oclock:',
+        'Ρολόι Πρόσωπο Δύο Oclock',
+        ':gray:',
+        ':grey:'
     ],
-    '🕝': ['Ρολόι Πρόσωπο Δύο-Τριάντα'],
+    '🕝': [
+        'Ρολόι Πρόσωπο Δύο-Τριάντα',
+        ':clock230:',
+        ':two_thirty:',
+        ':gray:',
+        ':grey:'
+    ],
     '🕒': [
-        'Τρία Ωράριο',
-        'Ρολόι Πρόσωπο Τρεις O\'Clock'
+        'Τρεις OClock',
+        ':clock3:',
+        ':three_oclock:',
+        'Ρολόι Πρόσωπο Τρεις OClock',
+        ':gray:',
+        ':grey:'
     ],
-    '🕞': ['Ρολόι Πρόσωπο Τρία-Τριάντα'],
+    '🕞': [
+        'Ρολόι Πρόσωπο Τρία-Τριάντα',
+        ':clock330:',
+        ':three_thirty:',
+        ':gray:',
+        ':grey:'
+    ],
     '🕓': [
-        'Τέσσερα Ωραία',
-        'Ρολόι Πρόσωπο Τέσσερα O\'Clock'
+        'Τέσσερις OClock',
+        ':clock4:',
+        ':four_oclock:',
+        'Ρολόι Πρόσωπο Τέσσερις Oclock',
+        ':gray:',
+        ':grey:'
     ],
-    '🕟': ['Ρολόι Πρόσωπο Τέσσερι-Τριάντα'],
+    '🕟': [
+        'Ρολόι Πρόσωπο Τέσσερι-Τριάντα',
+        ':clock430:',
+        ':four_thirty:',
+        ':gray:',
+        ':grey:'
+    ],
     '🕔': [
-        'Πέντε Ωραία',
-        'Ρολόι Πρόσωπο Πέντε Ωραία'
+        'Πέντε OClock',
+        ':clock5:',
+        ':five_oclock:',
+        'Ρολόι Πρόσωπο Πέντε OClock',
+        ':gray:',
+        ':grey:'
     ],
-    '🕠': ['Πέντε-Τριάντα Πρόσωπο Ρολογιού'],
+    '🕠': [
+        'Πέντε-Τριάντα Πρόσωπο Ρολογιού',
+        ':clock530:',
+        ':five_thirty:',
+        ':gray:',
+        ':grey:'
+    ],
     '🕕': [
-        'Έξι Ω Ρολόι',
-        'Ρολόι Πρόσωπο Έξι Ω Ρολόι'
+        'Έξι OClock',
+        ':clock6:',
+        ':size_oclock:',
+        'Ρολόι Πρόσωπο Έξι OClock',
+        ':gray:',
+        ':grey:'
     ],
-    '🕡': ['Πρόσωπο Ρολόι Έξι-Τριάντα'],
+    '🕡': [
+        'Πρόσωπο Ρολόι Έξι-Τριάντα',
+        ':clock630:',
+        ':six_thirty:',
+        ':gray:',
+        ':grey:'
+    ],
     '🕖': [
-        'Επτά Ωράριο',
-        'Ρολόι Πρόσωπο Επτά Το Ρολόι'
+        'Επτά OClock',
+        ':clock7:',
+        ':seven_oclock:',
+        'Ρολόι Πρόσωπο Επτά OClock',
+        ':gray:',
+        ':grey:'
     ],
-    '🕢': ['Ρολόι Πρόσωπο Επτά-Τριάντα'],
+    '🕢': [
+        'Ρολόι Πρόσωπο Επτά-Τριάντα',
+        ':clock730:',
+        ':sever_thirty:',
+        ':gray:',
+        ':grey:'
+    ],
     '🕗': [
-        'Οκτώ Ωραίο Ρολόι',
-        'Οχτώ Προσώπου Ρολόι'
+        'Οκτώ OClock',
+        ':clock8:',
+        ':eight_oclock:',
+        'Οχτώ OClock Προσώπου Ρολογιού',
+        ':gray:',
+        ':grey:'
     ],
-    '🕣': ['Ογδόντα-Τριάντα Προσώπου Ρολογιού'],
+    '🕣': [
+        'Ογδόντα-Τριάντα Προσώπου Ρολογιού',
+        ':clock830:',
+        ':eight_thirty:',
+        ':gray:',
+        ':grey:'
+    ],
     '🕘': [
-        'Εννιά Ω\'Ρολόι',
-        'Ρολόι Πρόσωπο Εννέα O\'Clock'
+        'Εννέα OClock',
+        ':clock9:',
+        ':nine_clock:',
+        'Πρόσωπο Ρολόι Εννέα OClock',
+        ':gray:',
+        ':grey:'
     ],
-    '🕤': ['Πρόσωπο Ρολόι Εννοί-Τριάντα'],
+    '🕤': [
+        'Πρόσωπο Ρολόι Εννοί-Τριάντα',
+        ':clock930:',
+        ':nine_thirty:',
+        ':gray:',
+        ':grey:'
+    ],
     '🕙': [
-        'Δέκα Ωράριο',
-        'Δέκα Προσώπου Ρολογιού'
+        'Δέκα OClock',
+        ':clock10:',
+        ':ten_oclock:',
+        'Ρολόι Πρόσωπο Δέκα OClock',
+        ':gray:',
+        ':grey:'
     ],
-    '🕥': ['Ρολόι Πρόσωπο Δεν-Τριάντα'],
+    '🕥': [
+        'Ρολόι Πρόσωπο Δεν-Τριάντα',
+        ':clock1030:',
+        ':ten_thirty:',
+        ':gray:',
+        ':grey:'
+    ],
     '🕚': [
-        'Έντεκα Ωράριο',
-        'Ρολόι Πρόσωπο Έντεκα O\'Clock'
+        'Eleven OClock',
+        ':click11:',
+        ':eleven_oclock:',
+        'Ρολόι Πρόσωπο Έντεκα OClock',
+        ':gray:',
+        ':grey:'
     ],
-    '🕦': ['Ρολόι Πρόσωπο Έντεκα Τριάντα'],
+    '🕦': [
+        'Ρολόι Πρόσωπο Έντεκα Τριάντα',
+        ':clock1130:',
+        ':eleven_thirty:',
+        ':gray:',
+        ':grey:'
+    ],
     '🕛': [
-        'Δώδεκα Ωράριο',
-        'Ρολόι Πρόσωπο Δώδεκα O\'Clock'
+        'Δώδεκα OClock',
+        ':clock12:',
+        ':twelve_oclock:',
+        'Ρολόι Πρόσωπο Δώδεκα OClock',
+        ':gray:',
+        ':grey:'
     ],
-    '🕧': ['Ρολόι Πρόσωπο Δώδεκα-Τριάντα'],
+    '🕧': [
+        'Ρολόι Πρόσωπο Δώδεκα-Τριάντα',
+        ':clock1230:',
+        ':twelve_thirty:',
+        ':gray:',
+        ':grey:'
+    ],
     '♨️': [
         'Καυτά ελατήρια',
+        ':hot_springs:',
         'Onsen',
-        'Ατμός'
+        'Ατμός',
+        ':red:'
     ],
     '💈': [
         'Κόμβος Πολωνός',
+        ':barber_pole:',
         'Κατάστημα Barber',
-        'Ρίγες Του Barber',
-        'Κομμωτήριο'
+        'Κουδούνια Λωρίδες',
+        'Κομμωτήριο',
+        ':blue:',
+        ':red:'
     ],
     '🎪': [
         'Σκηνή Τσίρκου',
+        ':circus_tent:',
         'Μεγάλη Κορυφή',
         'Τσίρκο'
     ],
     '💢': [
         'Σύμβολο Θυμού',
+        ':anger_symbol:',
         'Σημάδι Οργής',
-        'Λαχανικό Ποπ'
+        'Λαχανικό Ποπ',
+        ':red:'
     ],
     '🗯️': [
         'Δεξιά Φούσκα Θυμού',
+        ':right_anger_bubble:',
+        ':anger_right:',
         'Zig Zag Bubble',
-        'Θυμωμένος Φούσκα Ομιλίας'
+        'Θυμωμένος Φούσκα Ομιλίας',
+        ':white:'
     ],
     '💊': [
         'Pill',
+        ':pill:',
         'Καψάκιο',
         'Δισκίο',
-        'Ναρκωτικά'
+        'Ναρκωτικά',
+        ':yellow:',
+        ':red:'
     ],
     '🎎': [
         'Κούκλες',
+        ':dolls:',
         'Hinamatsuri',
         'Αυτοκρατορική Κούκλες',
         'Ιαπωνικές Κούκλες'
     ],
     '🎏': [
         'Ροή Carp',
+        ':carp_streamer:',
         'Σημαία Ψαριών',
         'Koinobori',
         'Κάλτσες Ανέμου'
     ],
     '🎐': [
         'Καντράν Ανέμου',
+        ':wind_chime:',
         'Furin',
         'Μέδουσες',
         'Κουδούνι Ανέμου'
     ],
     '🎀': [
         'Κορδέλα Τόξο',
+        ':ribbon_bow:',
         'Ροζ Τόξο',
-        'Τόξο'
+        'Τόξο',
+        ':pink:'
     ],
     '🎁': [
         'Τυλιγμένο Δώρο',
+        ':wrapped_gift:',
         'Παρόν Γενεθλίων',
         'Χριστουγεννιάτικο Δώρο',
         'Δώρο',
@@ -7534,167 +11148,324 @@ emojis_language[lang][13] = {
     ],
     '🎫': [
         'Αίτημα',
+        ':ticket:',
         'Stub Αιτήματος',
         'Εισιτήριο World Tour'
     ],
     '🃏': [
         'Τζόκερ',
+        ':joker:',
         'Κάρτα Joker',
         'Παίζοντας Κάρτα Μαύρο Τζόκερ'
     ],
     '💡': [
         'Λαμπτήρας Φωτός',
+        ':light_bulb:',
         'Ιδέα',
         'Ηλεκτρικός Λαμπτήρας'
     ],
     '🔦': [
         'Φακός',
+        ':flashlight:',
         'Φακός',
         'Ηλεκτρικός Φακός'
     ],
     '🏮': [
         'Φανάρι Κόκκινου Χαρτιού',
+        ':izakaya_lantern:',
+        ':lantern:',
+        ':red_paper_lantern:',
         'Ασιατικό Φανάρι',
         'Ιαπωνικό Φανάρι',
         'Κόκκινο Φανάρι',
-        'Φανάρι Izakaya'
+        'Φανάρι Izakaya',
+        ':red:'
     ],
     '📦': [
         'Πακέτο',
+        ':package:',
         'Κουτί',
-        'Δέμα'
+        'Δέμα',
+        ':brown:'
     ],
     '📇': [
         'Κάρτα Ευρετηρίου',
+        ':card_index:',
         'Rolodex',
         'Κάρτα Συστήματος',
         'Ευρετήριο Κάρτας'
     ],
-    '🕳️': ['Τρύπα'],
+    '🕳️': [
+        'Τρύπα',
+        ':hole:',
+        ':black:'
+    ],
     '👁️‍🗨️': [
         'Είμαι Ένας Μάρτυρας',
+        ':eye_in_speech_bubble:',
+        ':eye_speech_bubble:',
+        ':eye-in-speech-bubble:',
         'Μάτι σε ομιλία Φούσκα'
     ],
     '⚜️': [
         'Fleur-de-lis',
+        ':fleur_de_lis:',
         'Προσκόπια',
         'Άγιοι Της Νέας Ορλεάνης'
     ],
-    '⚗️': ['Alembic'],
-    '🕯️': ['Κερί'],
+    '⚗️': [
+        'Alembic',
+        ':alembic:'
+    ],
+    '🕯️': [
+        'Κερί',
+        ':candle:',
+        ':white:'
+    ],
     '🖼️': [
         'Πλαισιωμένη Εικόνα',
+        ':framed_picture:',
         'Ζωγραφική',
         'Πλαίσιο Εικόνας',
         'Πλαίσιο με εικόνα'
     ],
-    '🛍️': ['Ψώνια Τσάντες'],
-    '🎟️': ['Αιτήματα Εισαγωγής'],
-    '🛎️': ['Bellhop Bell'],
-    '🧾': ['Απόδειξη'],
-    '🧮': ['Abacus'],
-    '🧫': ['Πιάτο Petri'],
+    '🛍️': [
+        'Ψώνια Τσάντες',
+        ':shopping_bags:'
+    ],
+    '🎟️': [
+        'Αιτήματα Εισαγωγής',
+        ':admission_tickets:'
+    ],
+    '🛎️': [
+        'Bellhop Bell',
+        ':bellhop_bell:',
+        ':yellow:',
+        ':gold:'
+    ],
+    '🧾': [
+        'Απόδειξη',
+        ':receipt:',
+        ':white:'
+    ],
+    '🧮': [
+        'Abacus',
+        ':abacus:'
+    ],
+    '🧫': [
+        'Πιάτο Petri',
+        ':petri_dish:'
+    ],
     '🧹': [
         'Σκούρο',
+        ':broom:',
         'Πινέλο',
-        'Σάρωση'
+        'Σάρωση',
+        ':yellow:'
     ],
     '🎰': [
         'Κουλοχέρη',
+        ':slot_machine:',
         'Καζίνο',
         'Μηχανή Φρούτων',
         'Τυχερός',
         'Μηχανή Πόκερ'
     ],
-    '🦽': ['Χειροκίνητη αναπηρική καρέκλα'],
-    '🦼': ['Μηχανοκίνητη Αναπηρική Καρέκλα'],
-    '🪔': ['Λαμπτήρας Diya'],
-    '🦯': ['White Cane'],
-    '🩸': ['Πτώση του αίματος'],
-    '🩹': ['Κολλητικό Επίδεσμο'],
-    '🩺': ['Στεθοσκόπιο'],
-    '🪶': ['Φτερό'],
-    '🪤': ['Παγίδα Ποντικιού'],
-    '🫖': ['Teapot'],
-    '🪨': ['Ροκ'],
-    '🪵': ['Ξύλο'],
-    '🪄': ['Μαγικό Ραβδί'],
+    '🦽': [
+        'Χειροκίνητη αναπηρική καρέκλα',
+        ':manual_wheelchair:',
+        ':wheelchair:'
+    ],
+    '🦼': [
+        'Μηχανοκίνητη Αναπηρική Καρέκλα',
+        ':motorized_wheelchair:'
+    ],
+    '🪔': [
+        'Λαμπτήρας Diya',
+        ':diya_lamp:'
+    ],
+    '🦯': [
+        'White Cane',
+        ':whie_cane:'
+    ],
+    '🩸': [
+        'Πτώση του αίματος',
+        ':drop_of_blood:',
+        ':red:'
+    ],
+    '🩹': [
+        'Κολλητικό Επίδεσμο',
+        ':adhesive_bandage:'
+    ],
+    '🩺': [
+        'Στεθοσκόπιο',
+        ':stethoscope:'
+    ],
+    '🪶': [
+        'Φτερό',
+        ':feather:'
+    ],
+    '🪤': [
+        'Παγίδα Ποντικιού',
+        ':mouse_trap:'
+    ],
+    '🫖': [
+        'Teapot',
+        ':teapot:'
+    ],
+    '🪨': [
+        'Ροκ',
+        ':rock:',
+        ':gray:',
+        ':grey:'
+    ],
+    '🪵': [
+        'Ξύλο',
+        ':wood:',
+        ':brown:'
+    ],
+    '🪄': [
+        'Μαγικό Ραβδί',
+        ':magin_wand:'
+    ],
     '🔮': [
         'Κρυστάλλινη Μπάλα',
+        ':crystal_ball:',
         'Clairvoyant',
         'Τύχης Teller',
         'Ψυχική',
-        'Μωβ Κρύσταλλο'
+        'Μωβ Κρύσταλλο',
+        ':purple:'
     ],
-    '🪅': ['Πινγκάτα'],
+    '🪅': [
+        'Πινγκάτα',
+        ':pinata:',
+        ':piñata:'
+    ],
     '🪆': [
         'Εμφιαλώνοντας Κούκλες',
+        ':nesting_dolls:',
         'Matryoshka'
     ],
-    '🪡': ['Βελόνα Ράψιμο'],
-    '🪢': ['Κόμβος'],
-    '🪙': ['Κέρμα'],
-    '🪃': ['Boomerang'],
-    '🪥': ['Οδοντόβουρτσα'],
-    '🪦': ['Headstone'],
-    '🪧': ['Placard'],
-    '🪒': ['Ξύρισμα'],
-    '🫙': ['Βάζο'],
+    '🪡': [
+        'Βελόνα Ράψιμο',
+        ':swing_needle:'
+    ],
+    '🪢': [
+        'Κόμβος',
+        ':knot:',
+        ':red:',
+        ':blue:'
+    ],
+    '🪙': [
+        'Κέρμα',
+        ':coin:'
+    ],
+    '🪃': [
+        'Boomerang',
+        ':boomerang:',
+        ':brown:'
+    ],
+    '🪥': [
+        'Οδοντόβουρτσα',
+        ':toothbrush:'
+    ],
+    '🪦': [
+        'Headstone',
+        ':headstone:',
+        ':gray:',
+        ':grey:'
+    ],
+    '🪧': [
+        'Placard',
+        ':placard:'
+    ],
+    '🪒': [
+        'Ξύρισμα',
+        ':razor:'
+    ],
+    '🫙': [
+        'Βάζο',
+        ':jar:',
+        ':transparent:'
+    ],
     '🛞': [
-        'Wheel',
-        'Vehicles',
-        'Cars'
+        'Τροχός',
+        ':wheel:',
+        'Οχήματα',
+        'Αυτοκίνητα',
+        ':black:'
     ],
     '🛟': [
-        'Ring Buoy',
-        'Life Preserver',
-        'Life Ring',
-        'Boats',
-        'Safety',
+        'Σημείωση Δακτυλίου',
+        ':ring_buoy:',
+        'Επιφύλαξη Ζωής',
+        'Σωσίβιο Δαχτυλίδι',
+        'Σκάφη',
+        'Ασφάλεια',
         'Νερό',
-        'Lifesaving'
+        'Εξοικονόμηση Ζωής',
+        ':red:',
+        ':white:'
     ],
     '🪬': [
         'Hamsa',
+        ':hamsa:',
         'Islam',
-        'Judaism',
+        'Ιουδαϊσμός',
         'Buddhism',
-        'Christianity',
-        'Religions',
-        'Luck',
-        'Protection',
-        'Guidance',
-        'Feminine Power',
-        'Faith'
+        'Χριστιανισμός',
+        'Θρησκείες',
+        'Τύχη',
+        'Προστασία',
+        'Καθοδήγηση',
+        'Θηλυκή Ισχύς',
+        'Πίστη',
+        ':blue:'
     ],
     '🪩': [
-        'Mirror Ball',
-        'Disco Ball'
+        'Μπάλα Καθρέφτη',
+        ':mirror_ball:',
+        'Ντίσκο Μπάλα'
     ],
     '🪫': [
-        'Low Battery',
-        'Κόκκινο',
-        'Energy'
+        'Χαμηλή Μπαταρία',
+        ':low_battery:',
+        ':red:',
+        'Ενέργεια',
+        'Κόκκινο'
     ],
-    '🩻': ['X-Ray'],
+    '🩻': [
+        'X-Ray',
+        ':x_ray:',
+        ':x-ray:',
+        ':blue:'
+    ],
     '🫧': [
-        'Bubbles',
+        'Φυσαλίδες',
+        ':bubbles:',
         'Soap Suds',
-        'Carbonation',
-        'Effervescent Personality'
+        'Ανθρακούχο',
+        'Αναβράζουσα Προσωπικότητα',
+        ':transparent:'
     ],
     '🪪': [
-        'Identification Card',
-        'Identity',
-        'Passport',
+        'Κάρτα Ταυτοποίησης',
+        ':identification_card:',
+        'Ταυτότητα',
+        'Διαβατήριο',
         'ID'
     ],
     '🧿': [
         'Nazar Amulet',
-        'Evil Eye'
+        ':nazar_amulet:',
+        'Κακό Μάτι',
+        ':blue:'
     ],
     '🧸': [
-        'Teddy Bear',
-        'Toy'
+        'Αρκουδάκι',
+        ':teddy_bear:',
+        'Παιχνίδι',
+        ':brown:'
     ]
 };

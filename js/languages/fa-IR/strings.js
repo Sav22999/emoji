@@ -1,7 +1,7 @@
 lang = 'fa';
 //use i18n language code of the browser, more details: https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/i18n/LanguageCode
 settings_strings[lang] = {};
-settings_strings[lang]['placeholder-searchbox'] = 'جستجو با کلیدواژه';
+settings_strings[lang]['placeholder-searchbox'] = 'Search by keyword, colour or gender';
 settings_strings[lang]['label-click-on-the-emojis'] = 'روی ایموجی(ها) که قصد حذف کرده دارید کلیک کنید';
 settings_strings[lang]['button-finish'] = 'پايان';
 settings_strings[lang]['label-delete-emoji'] = 'یک یا چند ایموجی را از بخش «پرکاربردترین ایموجی‌ها» حذف کنید';
