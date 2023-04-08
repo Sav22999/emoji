@@ -4,6 +4,7 @@
     <br>
 </h1>
 
+Official website: https://emojiaddon.com.
 
 Official repo of https://addons.mozilla.org/firefox/addon/emoji-sav/.
 
@@ -22,27 +23,29 @@ This extension permits you to copy an emoji in the clipboard. There are many emo
 
 Emojis are divided in some sections, to help you to find the correct emoji quickly (in order):
 
-- Smileys (102 emojis)
-- People (169 emojis)
-- Animals (128 emojis)
-- Symbols (280 emojis)
-- Foods and drinks (120 emojis)
-- Flags (269 emojis)
-- Sports and everything related to them (74 emojis)
-- Travel and places (105 emojis)
-- Technologies and office (91 emojis)
-- Clothes and accessories (46 emojis)
-- Hands and parts of body (46 emojis)
-- Other (“not categorised”) (273 emojis)
+- Smileys
+- People
+- Animals
+- Symbols
+- Foods and drinks
+- Flags
+- Sports and everything related to them
+- Travel and places
+- Technologies and office
+- Clothes and accessories
+- Hands and parts of body
+- Other (“not categorised”)
 
 ## Features
 
-- Search-box: so you find easily emoji by keywords
+- Search-box: so you find easily emoji by keywords, by colours (:red:, :purple:, :pink:, :transparent:, :yellow:, :gold:, :orange:, :black:, :white:, :green:, :blue:) or by gender (:man:, :woman:, :person:)
 - Most used emojis: in the first tab you can find the emoji you use more
 - Clear, modern and customisable UI
 - Simplicity: with a single click you can copy an emoji
-- Shortcut: open the add-on with `Ctrl`/`Cmd`+`Alt`+`A` (you can customise this)
+- Shortcut: open the add-on with `Ctrl`/`Cmd`+`Alt`+`A` (you can customise this in Settings)
 - Tooltip: every emoji has the tooltip, so you can learn what's the name of an emoji
+- Skin-tone of emojis
+- Inserting directly on the website (not only copy it): enable this in Settings
 
 ## How to contribute
 

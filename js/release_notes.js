@@ -120,9 +120,11 @@ function releaseNotes(release) {
 
         case "3.18":
             release_notes_text = "<ul>";
-            release_notes_text += "<li>Improved the searching</li>";
-            release_notes_text += "<li>For searching, added shortcodes – for example <small><span class='background-lightblue'>:grinning:</span></small></li>";
-            release_notes_text += "<li>New website of the add-on: https://emojiaddon.com <br><br><div class='text-center'><a href='https://www.emojiaddon.com/' class='button-release'>Visit the new website</a></div></li>";
+            release_notes_text += "<li>Improved the searching: now it's more precise!</li>";
+            release_notes_text += "<li>For searching, added emojis by shortcode – for example <small><span class='background-lightblue'>:grinning:</span></small></li>";
+            release_notes_text += "<li>For searching, added emojis by colour – for example <small><span class='background-lightblue'>:purple:</span></small></li>";
+            release_notes_text += "<li>For searching, added emojis by gender: <small><span class='background-lightblue'>:man:</span></small>, <small><span class='background-lightblue'>:woman:</span></small> or <small><span class='background-lightblue'>:person:</span></small></li>";
+            release_notes_text += "<li>New website of the add-on: https://emojiaddon.com <a href='https://www.emojiaddon.com/' class='button-release'>Visit the new website</a></li>";
             release_notes_text += "</ul>";
             break;
     }
