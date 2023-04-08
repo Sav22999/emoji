@@ -1,7 +1,7 @@
 lang = 'hr';
 //use i18n language code of the browser, more details: https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/i18n/LanguageCode
 settings_strings[lang] = {};
-settings_strings[lang]['placeholder-searchbox'] = 'Pretraži prema ključnim riječima';
+settings_strings[lang]['placeholder-searchbox'] = 'Search by keyword, colour or gender';
 settings_strings[lang]['label-click-on-the-emojis'] = 'Klikni na emoji(je) koje želiš ukloniti';
 settings_strings[lang]['button-finish'] = 'Dovrši';
 settings_strings[lang]['label-delete-emoji'] = 'Izbriši jedan ili više emojija iz sekcije \'Najkorišteniji emojiji\'';

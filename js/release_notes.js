@@ -109,6 +109,7 @@ function releaseNotes(release) {
             release_notes_text += "</ul>";
             break;
 
+        case "3.17.1":
         case "3.17":
             release_notes_text = "<ul>";
             release_notes_text += "<li>Improved the feature 'Insert directly the emoji' (now support also many other elements)</li>";
@@ -116,7 +117,16 @@ function releaseNotes(release) {
             release_notes_text += "</ul>";
             release_notes_text += "<br>Remember to buy me a coffee if you like the add-on and you want to support me<br><br><div class='text-center'><a href='https://paypal.me/saveriomorelli' class='button-release'>PayPay</a> <a href='https://liberapay.com/Sav22999/donate' class='button-release'>LiberaPay</a></div>";
             break;
-        //release_notes_text += "<li>Added shortcodes to find emojis, for example <small><span class='background-lightblue'>:grinning:</span></small></li>";
+
+        case "3.18":
+            release_notes_text = "<ul>";
+            release_notes_text += "<li>Improved the searching: now it's more precise!</li>";
+            release_notes_text += "<li>For searching, added emojis by shortcode – for example <small><span class='background-lightblue'>:grinning:</span></small></li>";
+            release_notes_text += "<li>For searching, added emojis by colour – for example <small><span class='background-lightblue'>:purple:</span></small></li>";
+            release_notes_text += "<li>For searching, added emojis by gender: <small><span class='background-lightblue'>:man:</span></small>, <small><span class='background-lightblue'>:woman:</span></small> or <small><span class='background-lightblue'>:person:</span></small></li>";
+            release_notes_text += "<li>New website of the add-on: https://emojiaddon.com <a href='https://www.emojiaddon.com/' class='button-release'>Visit the new website</a></li>";
+            release_notes_text += "</ul>";
+            break;
     }
     return release_notes_text;
 }

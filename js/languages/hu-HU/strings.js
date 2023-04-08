@@ -1,7 +1,7 @@
 lang = 'hu';
 //use i18n language code of the browser, more details: https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/i18n/LanguageCode
 settings_strings[lang] = {};
-settings_strings[lang]['placeholder-searchbox'] = 'Keresés kulcsszó alapján';
+settings_strings[lang]['placeholder-searchbox'] = 'Search by keyword, colour or gender';
 settings_strings[lang]['label-click-on-the-emojis'] = 'Kattintson az eltávolítandó emodzsikra';
 settings_strings[lang]['button-finish'] = 'Befejezés';
 settings_strings[lang]['label-delete-emoji'] = 'Egy vagy több emodzsi törlése a „Legtöbbet használt emodzsik” szakaszból';

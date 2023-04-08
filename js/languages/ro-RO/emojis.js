@@ -24,19 +24,25 @@ emojis_language[lang][0] = {};
 emojis_language[lang][2] = {
     '😀': [
         'Față de Clasificare',
-        ':)',
+        ':grinning:',
+        ':grinning_face:',
+        '::):',
         'Față fericită',
         'Față emoticon'
     ],
     '😃': [
         'Față de clasare cu ochii mari',
-        ':D',
+        ':smiley:',
+        ':grinning_face_with_big_eyes:',
+        '::D:',
         'Față fericită',
         'Față emoticon',
         'Față zâmbitoare cu gură deschisă'
     ],
     '😄': [
         'Clasificare față cu ochi zâmbitori',
+        ':smile:',
+        ':grinning_face_with_smiling_eyes:',
         'Față fericită',
         'Față emoticon',
         'Clasificare față cu ochi chibriți',
@@ -44,12 +50,15 @@ emojis_language[lang][2] = {
     ],
     '😁': [
         'Față îngustă cu ochi zâmbitori',
+        ':grin:',
+        ':beaming_face_with_smiling_eyes:',
         'Clasificare față cu ochi zâmbitori'
     ],
     '😆': [
         'Față de Clasificare',
-        'xD',
-        '><',
+        ':grinning_squinting_face:',
+        ':xD:',
+        ':><:',
         'Mare Mare',
         'Zâmbet închis',
         'Râs',
@@ -58,6 +67,7 @@ emojis_language[lang][2] = {
     ],
     '😅': [
         'Față de Clasificare cu Sweat',
+        ':happy_sweat:',
         'Exerciţiu',
         'Transpirație fericită',
         'Clasificare facială cu ochi pătraţi şi picături suedeze.',
@@ -65,10 +75,12 @@ emojis_language[lang][2] = {
     ],
     '🤣': [
         'ROFL',
+        ':rofl:',
         'Râzând pe podea'
     ],
     '😂': [
         'Față cu fratele de Joy',
+        ':lol:',
         'Râs',
         'Plâns de râs',
         'Fragmente de râs',
@@ -76,49 +88,59 @@ emojis_language[lang][2] = {
     ],
     '🙂': [
         'Față ușor zâmbitoare',
-        ':)',
+        ':smile:',
+        '::):',
         'Puţin fericită',
         'Acesta este Fine'
     ],
     '🙃': [
         'Față ascendentă',
+        ':upside-down_face:',
+        ':upside_down_face:',
         'Sarcasm',
         'Silly',
         'Față în jos'
     ],
     '😉': [
         'Față de locare',
-        ';)',
+        ':winking:',
+        ':;):',
         'Roz',
         'Față roz',
         'Față Winky'
     ],
     '😊': [
         'Față zâmbitoare cu ochi zâmbitori',
-        '^^',
+        ':smiling_face:',
+        ':^^:',
         'Față fericită',
         'Zâmbet',
         'Față emoticon'
     ],
     '😇': [
         'Față zâmbitoare cu halo',
+        ':smiling_angel:',
         'Înger',
         'Halo'
     ],
     '🥰': [
         'Față zâmbitoare cu inimi',
+        ':smiling_hearts:',
         'În față dragoste',
         'Față zâmbitoare cu ochi zâmbitori și trei inimi'
     ],
     '😍': [
         'Față zâmbitoare cu ochi de inimă',
-        '*.*',
+        ':smiling_heart-eyes:',
+        ':smiling_heart_eyes:',
+        ':*.*:',
         'Ochi de inimă',
         'Faţă cardiacă',
         'Față zâmbitoare cu ochi modelați de inimă'
     ],
     '🤩': [
         'Structura stelară',
+        ':star_eyes:',
         'Excitată',
         'Ochi de stea',
         'Fierărie întunecată',
@@ -128,8 +150,9 @@ emojis_language[lang][2] = {
     ],
     '😘': [
         'Față strălucind un sărut',
-        ':*',
-        ':-*',
+        ':kissing_face:',
+        '::*:',
+        '::-*:',
         'Luminos A Kiss',
         'Sărut strălucitor',
         'Sărut',
@@ -137,14 +160,16 @@ emojis_language[lang][2] = {
     ],
     '😗': [
         'Față sărutată',
-        ':*',
-        ':-*',
+        ':kissing_face:',
+        '::*:',
+        '::-*:',
         'Față rac',
         'Kissy Face',
         'fluierat'
     ],
     '☺️': [
         'Față zâmbitoare',
+        ':smiling_face:',
         'Față fericită',
         'Față emoticon',
         'Zâmbet',
@@ -152,11 +177,13 @@ emojis_language[lang][2] = {
     ],
     '😚': [
         'Față sărutată cu ochi închiși',
+        ':kissing_face:',
         'Față sărută',
         'Kissy Face'
     ],
     '😙': [
         'Față sărutată cu ochi zâmbitori',
+        ':kissing_face:',
         'Față sărută',
         'Kissy',
         'fluierat',
@@ -164,6 +191,7 @@ emojis_language[lang][2] = {
     ],
     '😋': [
         'Mâncare economisire facială',
+        ':savoring_face:',
         'Ghid',
         'Foamete',
         'Lipirea facială zâmbitoare',
@@ -172,7 +200,8 @@ emojis_language[lang][2] = {
     ],
     '😛': [
         'Față cu Tongue',
-        ':P',
+        ':tongue_face:',
+        '::P:',
         'Bijuterie',
         'Față tonă',
         'Tongue-out',
@@ -180,7 +209,8 @@ emojis_language[lang][2] = {
     ],
     '😜': [
         'Winking Face cu Tongue',
-        ';P',
+        ':winking:',
+        ':;P:',
         'Nebun',
         'Față nebună',
         'Închirierea feței cu tonul blocat',
@@ -188,6 +218,7 @@ emojis_language[lang][2] = {
     ],
     '🤪': [
         'Zany Face',
+        ':crazy_face:',
         'Ochi nebuni',
         'Excitată',
         'Sălbatic',
@@ -196,20 +227,24 @@ emojis_language[lang][2] = {
     ],
     '😝': [
         'Față pătrată cu tonă',
-        'xP',
+        ':tongue_face:',
+        ':xP:',
         'Limba afisata',
         'Faţă cu tonă blocată şi ochi închişi',
         'Faţă cu tonă blocată şi ochi închişi'
     ],
     '🤑': [
         'Faţă bucală',
-        ':$',
+        ':money-mouth_face:',
+        ':money_mouth_face:',
+        '::$:',
         'Dolar Semn Eyes',
         'Față de bani',
         'Bogat'
     ],
     '🤗': [
         'Față de captare',
+        ':hugging_face:',
         'Hug',
         'Umflare',
         'Îmbrăcăminte',
@@ -217,11 +252,13 @@ emojis_language[lang][2] = {
     ],
     '🤭': [
         'Up-uri',
+        ':oops:',
         'Faţă cu gură',
         'Față zâmbitoare cu ochi zâmbitori și gură de păr'
     ],
     '🤫': [
         'Da',
+        ':shushing_face:',
         'Ciupire',
         'Shushing Face',
         'Împingere',
@@ -232,6 +269,7 @@ emojis_language[lang][2] = {
     ],
     '🤔': [
         'Ce',
+        ':thinking_face:',
         '?',
         'Hmm',
         'Față gânditoare',
@@ -241,6 +279,7 @@ emojis_language[lang][2] = {
     ],
     '🤐': [
         'Zip',
+        ':zip_face:',
         'Faţă posterioară',
         'Buze sigilate',
         'Buze sigilate',
@@ -249,6 +288,7 @@ emojis_language[lang][2] = {
     ],
     '🤨': [
         'Față cu sprânceană Raed',
+        ':face_with_raised_eyebrow:',
         'Colbert',
         'Piatra',
         'Față cu sprânceană crudă',
@@ -256,18 +296,21 @@ emojis_language[lang][2] = {
     ],
     '😐': [
         'Față neutră',
+        ':neutral_face:',
         ':|',
         'Faţă cu gură dreaptă',
         'Înfruntare dreaptă'
     ],
     '😑': [
         'Față fără expresie',
+        ':expressionless_face:',
         '-_-',
         'Faţă cu gură dreaptă',
         'Față dreaptă'
     ],
     '😶': [
         'Faţă fără gură',
+        ':face_without_mouth:',
         'Față goală',
         'Fără suflet',
         'Silențios',
@@ -275,6 +318,7 @@ emojis_language[lang][2] = {
     ],
     '😏': [
         'Față de oglindă',
+        ':smirking_face:',
         'Flirturi',
         'Față sexuală',
         'Față mizerie',
@@ -282,6 +326,7 @@ emojis_language[lang][2] = {
     ],
     '😒': [
         'Față uzată',
+        ':unamused_face:',
         'Nemulţumit',
         'Meh',
         'Side-Ochi',
@@ -289,10 +334,13 @@ emojis_language[lang][2] = {
     ],
     '🙄': [
         'Față cu ochi Rolling',
+        ':face_with_rolling_eye:',
+        ':eye_roll:',
         'Ochi roli'
     ],
     '😬': [
         'Față ademenitoare',
+        ':awkward:',
         'Premiu',
         'Eek',
         'Picior pe munte',
@@ -301,17 +349,20 @@ emojis_language[lang][2] = {
     ],
     '🤥': [
         'Față latură',
+        ':lying_face:',
         'Litir',
         'Nose lung',
         'Pinocchio'
     ],
     '😌': [
         'Față refăcută',
+        ':relieved_face:',
         'Conținut',
         'Vă rugăm'
     ],
     '😔': [
         'Scuze',
+        ':sad_face:',
         'Față Pensivă',
         'Pensiv',
         'Trist',
@@ -321,24 +372,32 @@ emojis_language[lang][2] = {
     ],
     '😪': [
         'Față somnoroasă',
+        ':sleepy_face:',
         'Side-Rupat',
         'Căsuță de nori'
     ],
     '🤤': [
         'Saliva',
+        ':saliva_face:',
         'Drooling Face',
         'Drool'
     ],
     '😴': [
         'Față de dormit',
+        ':sleeping_face:',
+        ':zzz:',
         'Zi',
         'Față de somn',
         'Sforăit',
         'Zona fata'
     ],
-    '🥱': ['Față căscat'],
+    '🥱': [
+        'Față căscat',
+        ':yawning_face:'
+    ],
     '😷': [
         'Faţă cu masca medicală',
+        ':face_with_medical_mask:',
         'Coronavirus',
         'COVID-19',
         'Față Mască',
@@ -346,23 +405,31 @@ emojis_language[lang][2] = {
     ],
     '🤒': [
         'Faţă cu Termometer',
+        ':face_with_thermometer:',
+        ':sick:',
+        ':ill:',
         'Ill',
         'Bicat'
     ],
     '🤕': [
         'Față cu Head-Bandage',
+        ':face_with_head-bandage:',
+        ':face_with_head_bandage:',
         'Capul bărbierat',
         'Umflare',
         'Injusit'
     ],
     '🤢': [
         'Faţă greţată',
+        ':nauseated_face:',
         'Dezgust',
         'Față verde',
-        'Vomit'
+        'Vomit',
+        ':green:'
     ],
     '🤮': [
         'Vărsături faciale',
+        ':face_vomiting:',
         'Varc',
         'Bleah',
         'Bleurgh',
@@ -376,82 +443,102 @@ emojis_language[lang][2] = {
     ],
     '🤧': [
         'Față strănut',
+        ':sneezing_face:',
         'Gesundheit'
     ],
     '🥵': [
         'Față caldă',
-        'Față supraîncălzită'
+        ':hot_face:',
+        'Față supraîncălzită',
+        ':red:'
     ],
     '🥶': [
         'Față rece',
+        ':cold_face:',
         'Grozav',
         'Frig',
-        'Înghețare față'
+        'Înghețare față',
+        ':blue:'
     ],
     '🥴': [
         'Față de lemn',
+        ':woozy_face:',
         'Față beată',
         'Faţă cu ochi inegali şi gură murită'
     ],
     '😵': [
         'Dizzy Face',
+        ':dizzy_face:',
         'Fața ochilor încrucișați',
         'Feţe ale ochilor pirali'
     ],
     '🤯': [
         'Captură de explozie',
+        ':exploding_head:',
         'Asociază explozia',
         'Față împușcată cu cap de explozie'
     ],
     '🤠': [
         'Pălărie de cowboy',
+        ':cowboy_hat_face:',
         'Cowboy',
         'Față de Cowboy',
         'Față cu pălărie de Cowboy'
     ],
     '🥳': [
         'Partajare față',
+        ':partying_face:',
         'Față petrecere',
         'Față cu Corn de petrecere și pălărie de petrecere'
     ],
     '😎': [
         'Față zâmbitoare cu ochelari de soare',
+        ':smiling_face_with_sunglasses:',
         'Grozav',
         'Cei mai buni prieteni reciproci (Snapchat)',
         'Pahare de soare'
     ],
     '🤓': [
         'Față Nerd',
+        ':nerd_face:',
         'Nerdy'
     ],
-    '🧐': ['Față cu Monocle'],
+    '🧐': [
+        'Față cu Monocle',
+        ':face_with_monocle:'
+    ],
     '😕': [
         'Față uzată',
-        ':/',
-        ':S',
+        ':confused_face:',
+        '::/:',
+        '::S:',
         'Neplutit',
         'Puzzat'
     ],
     '😟': [
         'Față îngrijorată',
-        ':(',
+        ':worried_face:',
+        '::(:',
         'Trist',
         'Sadface'
     ],
     '🙁': [
         'Față cu înotătoare ușoară',
-        ':(',
+        ':slightly_frowning_face:',
+        '::(:',
         'Puţin trist'
     ],
     '☹️': [
         'Față înotătoare',
-        ':(',
+        ':frowning_face:',
+        '::(:',
         'Megafron',
         'Față de flăcări albă'
     ],
     '😮': [
         'Wow',
-        ':O',
+        ':wow:',
+        '::O:',
         'O, eu!',
         'Față cu gură deschisă',
         'Deschide gura',
@@ -459,13 +546,15 @@ emojis_language[lang][2] = {
     ],
     '😯': [
         'Față drăguță',
-        ':O',
+        ':husked_face:',
+        '::O:',
         'Surpriză',
         'Față surprinsă'
     ],
     '😲': [
         'Față șocată',
-        ':O',
+        ':shocked_face:',
+        '::O:',
         'Wow',
         'Față uimită',
         'Față beată',
@@ -473,7 +562,8 @@ emojis_language[lang][2] = {
     ],
     '😳': [
         'Față înroșită',
-        ':$',
+        ':flushed_face:',
+        '::$:',
         'Față Blushing',
         'Embarrassed',
         'Ruşinaţi',
@@ -481,7 +571,8 @@ emojis_language[lang][2] = {
     ],
     '🥺': [
         'Față plăcută',
-        ':(',
+        ':pleading_face:',
+        '::(:',
         'Creștere',
         'Ochi lossy',
         'Simp',
@@ -489,17 +580,20 @@ emojis_language[lang][2] = {
     ],
     '😦': [
         'Față încruntată cu gură deschisă',
-        'D:',
+        ':frowning_face_with_open_mouth:',
+        ':D::',
         'Căscat'
     ],
     '😨': [
         'Senzat',
-        'D:',
+        ':scared:',
+        ':D::',
         'Față înfricoșătoare',
         'Surprins'
     ],
     '😰': [
         'Faţă anxioasă cu transpiraţie',
+        ':anxious_face_with_sweat:',
         'Față albastră',
         'Față îngrijorată',
         'Față Nervoasă',
@@ -507,18 +601,21 @@ emojis_language[lang][2] = {
     ],
     '😥': [
         'Față tristă dar elievizată',
-        ':\'(',
+        ':sad_but_relieved_face:',
+        '::(:',
         'Dulce sprânceană',
         'Dezaprobat, dar Relieved Face'
     ],
     '😢': [
         'Față plutitoare',
-        ':\'(',
+        ':crying_face:',
+        '::(:',
         'Plâns',
         'Rupeţi'
     ],
     '😭': [
         'Față plimbătoare',
+        ':loudly_crying_face:',
         'Bawling',
         'Plâns',
         'Fragmente triste',
@@ -526,45 +623,53 @@ emojis_language[lang][2] = {
     ],
     '😱': [
         'Screeningul feței în frică',
+        ':face_screaming_in_fear:',
         'Singura acasă',
         'Ecran',
         'Față ecran'
     ],
     '😖': [
         'Față confundată',
+        ':confounded_face:',
         'Gură colorată',
         'Față zdrobită'
     ],
     '😣': [
         'Față permeabilă',
+        ':persevering_face:',
         'Față fără ieșire',
         'Ochi crocanti'
     ],
     '😞': [
         'Față dezamăgită',
-        ':(',
+        ':disappointed_face:',
+        '::(:',
         'Trist',
         'Sadface'
     ],
     '😓': [
         'Retrimite fațeta cu Sweat',
+        ':downcast_face_with_sweat:',
         'Muncă grea',
         'Transpiraţie tristă',
         'Faţă cu sudoraţie rece,'
     ],
     '😩': [
         'Față Weary',
+        ':weary_face:',
         'Față Distracție',
         'Corespondență'
     ],
     '😫': [
         'Față obosită',
+        ':tired_face:',
         'Epuizat',
         'Fed Up',
         'Față Distracție'
     ],
     '😤': [
         'Față cu Steam de la Nose',
+        ':face_with_steam_from_nose:',
         'Aeronava Grievances',
         'Frustrat',
         'Față proastă',
@@ -573,861 +678,1781 @@ emojis_language[lang][2] = {
     ],
     '😡': [
         'Față de ieșire',
+        ':pouting_face:',
         'Față furioasă',
         'Față impară',
         'Față proastă',
-        'Față roșie'
+        'Față roșie',
+        ':red:'
     ],
     '😠': [
         'Față furioasă',
+        ':angry_face:',
         'Furioasă',
         'Față impară'
     ],
     '🤬': [
         'Umflare',
+        ':swearing:',
         '@#$%&!',
         'Faţă cu simboluri la nivelul gurii',
         'Întunecare',
         'Tăiere',
         'Grawlix',
         'Faţă cu simboluri în gură',
-        'Faţă gravă cu gura simbolurilor'
+        'Faţă gravă cu gura simbolurilor',
+        ':red:'
     ],
-    '🥲': ['Față zâmbitoare cu ureche'],
+    '🥲': [
+        'Față zâmbitoare cu ureche',
+        ':smiling_face_with_tear:'
+    ],
     '😮‍💨': [
         'Exhalarea feței',
+        ':face_exhaling:',
         'Ridicat'
     ],
     '😵‍💫': [
         'Faţă cu ochi Spirali',
+        ':face_with_spiral_eyes:',
         'Dizzy Face'
     ],
-    '🥸': ['Față deghizată'],
-    '🫠': ['Melting Face'],
-    '🫢': ['Face with Open Eyes and Hand Over Mouth'],
-    '🫣': ['Face with Peeking Eye'],
-    '🫡': [
-        'Saluting Face',
-        'Military',
-        'Army',
-        'RAF',
-        'Navy'
+    '🥸': [
+        'Față deghizată',
+        ':disguised_face:'
     ],
-    '🫥': ['Dotted Line Face'],
-    '🫤': ['Face with Diagonal Mouth'],
-    '🥹': ['Face Holding Back Tears'],
+    '🫠': [
+        'Topirea feței',
+        ':melting_face:'
+    ],
+    '🫢': [
+        'Faţă cu Open Eyes şi Mână pe gură',
+        ':face_with_open_eyes_and_hand_over_mouth:'
+    ],
+    '🫣': [
+        'Faţă cu ochi de Peeking',
+        ':face_with_peeking_eye:'
+    ],
+    '🫡': [
+        'Față de salt',
+        ':saluting_face:',
+        'Militar',
+        'Armata',
+        'RAF',
+        'Marină'
+    ],
+    '🫥': [
+        'Față linie punctată',
+        ':dotted_line_face:',
+        ':transparent:'
+    ],
+    '🫤': [
+        'Faţă cu gură diagonală',
+        ':face_with_diagonal_mouth:'
+    ],
+    '🥹': [
+        'Faţă ţinându-se de spate rupte',
+        ':face_holding_back_tears:'
+    ],
     '😈': [
         'Față zâmbitoare cu cornuri',
+        ':smiling_face_with_horns:',
         'Diavol',
         'Cornuri Diavale',
         'Diavol fericit',
         'Diavol Violet',
-        'Diavol Roșu'
+        'Diavol Roșu',
+        ':purple:'
     ],
     '👿': [
         'Față furioasă cu cornuri',
+        ':angry_face_with_horns:',
         'Diavol',
         'Cornuri Diavale',
         'Diavol Violet',
         'Goblin violet',
         'Diavol trist',
-        'Imp'
+        'Imp',
+        ':purple'
     ],
     '🤡': [
         'Față clovn',
+        ':clown_face:',
         'Cuptor Creepy',
         'Mormântul malefic',
         'Clen înfricoșător'
     ],
     '👽': [
         'Extraterestru',
+        ':alien:',
         'ET'
     ],
     '👾': [
         'Monstru Străin',
+        ':alien_monster:',
         'Invadatorul de Spațiu',
         'Monstru joc video'
     ],
     '🤖': [
         'Robot',
+        ':robot:',
         'Față Robot'
     ],
     '👹': [
         'Ogre',
+        ':ogre:',
         'Față Mască',
         'Oni',
         'Monstru Roșu',
-        'Ogri japonezi'
+        'Ogri japonezi',
+        ':red:'
     ],
     '👻': [
         'Fantomă',
+        ':ghost:',
         'Halloween'
     ],
     '🗣️': [
         'Șef de vorbire',
+        ':speaking_head:',
         'Mansplaining',
         'Lovitură',
         'Tragere',
-        'Cap în Silhouette'
+        'Cap în Silhouette',
+        ':blue:'
     ],
     '👤': [
         'Gust în Silhouette',
+        ':bust_in_silhouette:',
         'Umbră',
         'Silhouette',
         'Utilizator',
-        'Siluetă de Persoană'
+        'Siluetă de Persoană',
+        ':blue:'
     ],
-    '🫂': ['Oameni care se cufundă'],
+    '🫂': [
+        'Oameni care se cufundă',
+        ':people_hugging:',
+        ':blue:'
+    ],
     '👥': [
         'Gusturi în Silhouette',
+        ':busts_in_silhouette:',
         'Umbre',
         'Silhouettes',
         'Utilizatori',
-        'Siluete a două persoane'
+        'Siluete a două persoane',
+        ':blue:'
     ]
 };
 /*people*/
 emojis_language[lang][3] = {
     '👶{{skin_tone}}': [
         'Copil',
+        ':baby:',
         'Copil',
         'Copii'
     ],
     '🧒{{skin_tone}}': [
         'Copil',
+        ':child:',
         'Copil neutru din sex'
     ],
-    '👧{{skin_tone}}': ['Fata'],
+    '👧{{skin_tone}}': [
+        'Fata',
+        ':girl:',
+        ':woman:'
+    ],
     '🧑{{skin_tone}}': [
         'Persoană',
+        ':person:',
         'Adulţi neutri din sex',
-        'Adulţi'
+        'Adulţi',
+        ':person:'
     ],
     '🧑{{skin_tone}}': [
-        'Person: Beard',
-        'Beard',
-        'Bearded Person',
-        'Bearded Person'
+        'Persoană: Urs',
+        ':person_beard:',
+        'Urș',
+        'Persoană lezată',
+        'Persoană lezată',
+        ':person:'
     ],
     '🧑{{skin_tone}}‍🦰': [
-        'Person: Red Hair',
-        'Ginger Person',
-        'Person Redhead',
-        'Person With Red Hair'
+        'Persoană: Păr Roșu',
+        ':person_red_hair:',
+        'Persoană ginger',
+        'Roșu persoană',
+        'Persoană cu Păr Roșu',
+        ':person:'
     ],
     '🧑{{skin_tone}}‍🦱': [
-        'Person: Curly Hair',
-        'Person With Curly Hair'
+        'Persoană: Păr Curly',
+        ':person_curly_hair:',
+        'Persoană cu Păr Cursiv',
+        ':person:'
     ],
     '🧑{{skin_tone}}‍🦳': [
-        'Person: White Hair',
-        'Person With Gray Hair'
+        'Persoană: Păr alb',
+        ':person_white_hair:',
+        'Persoană cu păr gri',
+        ':person:'
     ],
     '🧑{{skin_tone}}‍🦲': [
-        'Person: Bald',
-        'Person With No Hair'
+        'Persoană: Bald',
+        ':person_bald:',
+        'Persoană fără păr',
+        ':person:'
     ],
     '👱{{skin_tone}}': [
         'Persoană: Păr de fierar',
-        'Person With Blonde Hair'
+        ':person_blond_hair:',
+        'Persoană cu Păr Blonde',
+        ':person:'
     ],
     '👨{{skin_tone}}': [
         'Om',
+        ':man:',
         'Bărbat',
-        'Om de mana'
+        'Om de mana',
+        ':man:'
     ],
     '🧔{{skin_tone}}‍♂️': [
-        'Man: Beard',
-        'Beard',
+        'Bărbat: Urș',
+        ':man_beard:',
+        'Urș',
         'Bearded Man',
-        'Bearded Person'
+        'Persoană lezată',
+        ':man:'
     ],
     '👨{{skin_tone}}‍🦰': [
         'Bărbat: Păr roșu',
+        ':man_red_hair:',
         'Om de ginger',
         'Man Redhead',
-        'Om cu Păr Roșu'
+        'Om cu Păr Roșu',
+        ':man:'
     ],
     '👨{{skin_tone}}‍🦱': [
         'Bărbat: Păr Curly',
-        'Om cu Păr Cursiv'
+        ':man_curly_hair:',
+        'Om cu Păr Cursiv',
+        ':man:'
     ],
     '👨{{skin_tone}}‍🦳': [
         'Bărbat: Păr alb',
-        'Om cu păr gri'
+        ':man_white_hair:',
+        'Om cu păr gri',
+        ':man:'
     ],
     '👨{{skin_tone}}‍🦲': [
         'Bărbat: Bald',
-        'Om fără păr'
+        ':man_bald:',
+        'Om fără păr',
+        ':man:'
     ],
     '👱{{skin_tone}}‍♂️': [
         'Bărbat: Păr de fierbinte',
-        'Om cu Păr Blonde'
+        ':man_blond_hair:',
+        'Om cu Păr Blonde',
+        ':man:'
     ],
     '👩{{skin_tone}}': [
         'Femeie',
+        ':woman:',
         'Femeie',
         'Doamna',
-        'Femeie galbenă'
+        'Femeie galbenă',
+        ':woman:'
     ],
     '🧔{{skin_tone}}‍♀️': [
-        'Woman: Beard',
-        'Beard',
-        'Bearded Woman'
+        'Femeia: Urs',
+        ':woman_beard:',
+        'Urș',
+        'Femeie Bearded',
+        ':woman:'
     ],
     '👩{{skin_tone}}‍🦰': [
         'Femeia: Păr Roșu',
+        ':woman_red_hair:',
         'Femeie Ginger',
         'Woman Redhead',
-        'Femeie cu Păr Roșu'
+        'Femeie cu Păr Roșu',
+        ':woman:'
     ],
     '👩{{skin_tone}}‍🦱': [
         'Femeia: Păr cursiv',
-        'Femeie cu Păr Cursiv'
+        ':woman_curly_hair:',
+        'Femeie cu Păr Cursiv',
+        ':woman:'
     ],
     '👩{{skin_tone}}‍🦳': [
         'Femeia: Păr alb',
-        'Femeie cu păr gri'
+        ':woman_white_hair:',
+        'Femeie cu păr gri',
+        ':woman:'
     ],
     '👩{{skin_tone}}‍🦲': [
         'Femeia: Bald',
-        'Femeie fără păr'
+        ':woman_bald:',
+        'Femeie fără păr',
+        ':woman:'
     ],
     '👱{{skin_tone}}‍♀️': [
         'Femeia: Păr de fierbinte',
-        'Femeie cu Păr Blonde'
-    ],
-    '🧓{{skin_tone}}': [
-        'Older Person',
-        'Gender Neutral Older Adult'
+        ':woman_blond_hair:',
+        'Femeie cu Păr Blonde',
+        ':woman:'
     ],
     '👴{{skin_tone}}': [
-        'Old Man',
-        'Elderly Man',
+        'Om mai mare',
+        ':older_man:',
+        ':older:',
+        'Persoane vârstnice',
         'Grandpa',
-        'Older Man'
+        'Om Vechi',
+        ':man:'
     ],
     '👵{{skin_tone}}': [
-        'Old Woman',
-        'Elderly Woman',
-        'Grandma',
-        'Nanna',
-        'Old Lady',
-        'Older Woman'
+        'Femeie în vârstă',
+        ':older_woman:',
+        ':older:',
+        'Femeia vârstnică',
+        'Bunica',
+        'Nan',
+        'Doamna veche',
+        'Femeie Veche',
+        ':woman:'
+    ],
+    '🧓{{skin_tone}}': [
+        'Persoana în vârstă',
+        ':older_person:',
+        ':older:',
+        'Sexul neutru pentru adulţi vârstnici',
+        ':person:'
     ],
     '👼{{skin_tone}}': [
         'Baby Angel',
-        'Angel',
+        ':baby_angel:',
+        'Înger',
         'Cherub',
         'Cupid',
         'Putto'
     ],
     '👨{{skin_tone}}‍🎄': [
-        'Santa Claus',
-        'Saint Nicholas',
+        'Moș Crăciun',
+        ':santa_claus:',
+        'Sfântul Nicholas',
         'Sinterklaas',
-        'Father Christmas'
+        'Tata Crăciun',
+        ':man:'
     ],
     '👩{{skin_tone}}‍🎄': [
-        'Mrs Claus',
-        'Mother Christmas'
+        'dna Claus',
+        ':mrs_claus:',
+        'Craciun Maica',
+        ':woman:'
     ],
     '🧑{{skin_tone}}‍🎄': [
         'Mx Claus',
-        'Person Christmas'
+        ':mx_clause:',
+        'Craciun persoana',
+        ':person:'
     ],
-    '🤴{{skin_tone}}': ['Prince'],
+    '🤴{{skin_tone}}': [
+        'Prințul',
+        ':price:',
+        ':man:'
+    ],
     '👸{{skin_tone}}': [
-        'Princess',
-        'Blonde Girl',
-        'Girl With Crown',
-        'Girl With Tiara'
+        'Prințesa',
+        ':pricess:',
+        'Fata Blonde',
+        'Fata cu Coroana',
+        'Fata cu Tiara',
+        ':woman:'
     ],
-    '🫅{{skin_tone}}': ['Person with Crown'],
+    '🫅{{skin_tone}}': [
+        'Persoană cu Coroană',
+        ':person_with_crown:',
+        ':person:'
+    ],
     '👳{{skin_tone}}‍♂️': [
         'Om cu turban',
-        'Arab',
-        'Muslim',
+        ':man_wearing_turban:',
+        ':wearing_turban:',
+        'Arabă',
+        'Musulman',
         'Sikh',
-        'Turban'
+        'Turban',
+        ':man:'
     ],
     '👳{{skin_tone}}‍♀️': [
         'Turban de îmbrăcăminte Woman',
-        'Arab',
-        'Muslim',
+        ':woman_wearing_turban:',
+        ':wearing_turban:',
+        'Arabă',
+        'Musulman',
         'Sikh',
-        'Turban'
+        'Turban',
+        ':woman:'
     ],
     '👳{{skin_tone}}': [
-        'Person Wearing Turban',
-        'Arab',
-        'Muslim',
+        'Persoana care poartă turban',
+        ':person_wearing_turban:',
+        ':wearing_turban:',
+        'Arabă',
+        'Musulman',
         'Sikh',
-        'Turban'
+        'Turban',
+        ':person:'
     ],
     '👲{{skin_tone}}': [
-        'Person With Skullcap',
-        'Asian Man',
-        'Man With Chinese Cap',
-        'Man with Gua Pi Mao'
+        'Persoană cu Skullcap',
+        ':person_with_skullcap:',
+        'Om asiatic',
+        'Om cu Cap Chinez',
+        'Om cu Gua Pi Mao',
+        ':person:'
     ],
     '🧕{{skin_tone}}': [
-        'Woman with Headscarf',
+        'Femeie cu vălul',
+        ':woman_with_headscarf:',
         'Hijab',
-        'Person with Headscarf'
+        'Persoană cu văl',
+        ':woman:'
     ],
     '🤵{{skin_tone}}‍♀️': [
-        'Man in Tuxedo',
+        'Man în Tuxedo',
+        ':man_in_tuxedo:',
+        ':tuxedo:',
         'Groom',
-        'Man In Suit',
-        'Wedding'
+        'Om în Suit',
+        'Nuntă',
+        ':man:'
     ],
     '🤵{{skin_tone}}‍♂️': [
-        'Woman in Tuxedo',
+        'Femeie în Tuxedo',
+        ':woman_in_tuxedo:',
+        ':tuxedo:',
         'Groom',
-        'Woman In Suit',
-        'Wedding'
+        'Femeie în Costuri',
+        'Nuntă',
+        ':woman:'
     ],
     '🤵{{skin_tone}}': [
-        'Person in Tuxedo',
+        'Persoana din Tuxedo',
+        ':person_in_tuxedo:',
+        ':tuxedo:',
         'Groom',
-        'Person In Suit',
-        'Wedding'
+        'Persoană în Suit',
+        'Nuntă',
+        ':person:'
     ],
     '👰{{skin_tone}}‍♂️': [
         'Man cu Veil',
-        'Wedding',
+        ':man_with_veil:',
+        ':veil:',
+        'Nuntă',
         'Bridegroom',
-        'Marriage'
+        'Căsătorie',
+        ':man:'
     ],
     '👰{{skin_tone}}‍♀️': [
         'Femeie cu Veil',
-        'Wedding',
-        'Bride',
-        'Bride with Veil',
-        'Marriage'
+        ':woman_with_veil:',
+        ':veil:',
+        'Nuntă',
+        'Mireasa',
+        'Mireasa cu Veil',
+        'Căsătorie',
+        ':woman:'
     ],
     '👰{{skin_tone}}': [
-        'Person With Veil',
-        'Wedding',
-        'Marriage'
+        'Persoana cu Veil',
+        ':person_with_veil:',
+        ':veil:',
+        'Nuntă',
+        'Căsătorie',
+        ':person:'
     ],
-    '👩{{skin_tone}}‍🍼': ['Copil de hrănire Femeie'],
-    '👨{{skin_tone}}‍🍼': ['Baby Hrănire Om'],
-    '🧑{{skin_tone}}‍🍼': ['Person Feeding Baby'],
-    '🥷': ['Ninja'],
-    '🤰{{skin_tone}}': [
-        'Pregnant Woman',
-        'Pregnancy',
-        'Pregnant Lady'
+    '👨{{skin_tone}}‍🍼': [
+        'Baby Hrănire Om',
+        ':man_feeding_baby:',
+        ':feeding_baby:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🍼': [
+        'Copil de hrănire Femeie',
+        ':woman_feeding_baby:',
+        ':feeding_baby:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🍼': [
+        'Copii care hrănesc persoana',
+        ':person_feeding_baby:',
+        ':feeding_baby:',
+        ':person:'
+    ],
+    '🥷': [
+        'Ninja',
+        ':ninja:'
     ],
     '🫃{{skin_tone}}': [
-        'Pregnant Man',
-        'Pregnancy'
+        'Om însărcinat/ă',
+        ':pregnant_man:',
+        ':pregnant:',
+        'Sarcina',
+        ':man:'
+    ],
+    '🤰{{skin_tone}}': [
+        'Femeia însărcinată',
+        ':pregnant_woman:',
+        ':pregnant:',
+        'Sarcina',
+        'Doamna însărcinată',
+        ':woman:'
     ],
     '🫄{{skin_tone}}': [
-        'Pregnant Person',
-        'Pregnancy'
+        'Persoana însărcinată',
+        ':pregnant_person:',
+        ':pregnant:',
+        'Sarcina',
+        ':person:'
     ],
     '🤱{{skin_tone}}‍': [
         'Alăptare',
+        ':breast-feeding:',
+        ':breast_feeding:',
         'Alăptarea'
     ],
-    '🦸{{skin_tone}}‍♂️': ['Superero Om'],
-    '🦸{{skin_tone}}‍♀️': ['Woman Superhero'],
-    '🦸{{skin_tone}}': ['Person Superhero'],
-    '🦹{{skin_tone}}‍♂️': ['Man Supervillain'],
-    '🦹{{skin_tone}}‍♀️': ['Woman Supervillain'],
-    '🦹{{skin_tone}}': ['Person Supervillain'],
+    '🦸{{skin_tone}}‍♂️': [
+        'Superero Om',
+        ':man_superhero:',
+        ':superhero:',
+        ':man:'
+    ],
+    '🦸{{skin_tone}}‍♀️': [
+        'Superero Woman',
+        ':woman_superhero:',
+        ':superhero:',
+        ':woman:'
+    ],
+    '🦸{{skin_tone}}': [
+        'Persoană Superhero',
+        ':person_superhero:',
+        ':superhero:',
+        ':person:'
+    ],
+    '🦹{{skin_tone}}‍♂️': [
+        'Om Supervillain',
+        ':man_supervillain:',
+        ':supervillain:',
+        ':man:'
+    ],
+    '🦹{{skin_tone}}‍♀️': [
+        'Supervillain Woman',
+        ':woman_supervillain:',
+        ':supervillain:',
+        ':woman:'
+    ],
+    '🦹{{skin_tone}}': [
+        'Persoana Supervillain',
+        ':person_supervillain:',
+        ':supervillain:',
+        ':person:'
+    ],
     '🧙{{skin_tone}}‍♂️': [
-        'Man Mage',
+        'Masă de bărbat',
+        ':man_mage:',
+        ':mage:',
         'Sorcerer',
-        'Wizard'
+        'Vrăjitor',
+        ':man:'
     ],
     '🧙{{skin_tone}}‍♀️': [
-        'Woman Mage',
-        'Witch',
-        'Sorceress',
-        'Wizard'
+        'Masă Femeie',
+        ':woman_mage:',
+        ':mage:',
+        'Vrăjitor',
+        'Scuze',
+        'Vrăjitor',
+        ':woman:'
     ],
     '🧙{{skin_tone}}': [
-        'Person Mage',
-        'Wizard',
-        ':mage:'
+        'Masă Persoană',
+        ':person_mage:',
+        ':mage:',
+        'Vrăjitor',
+        ':mage:',
+        ':person:'
     ],
-    '🧚{{skin_tone}}‍♂️': ['Man Fairy'],
-    '🧚{{skin_tone}}‍♀️': ['Pastă de Femei'],
-    '🧚{{skin_tone}}': ['Person Fairy'],
+    '🧚{{skin_tone}}‍♂️': [
+        'Lapte de Mană',
+        ':man_fairy:',
+        ':fairy:',
+        ':man:'
+    ],
+    '🧚{{skin_tone}}‍♀️': [
+        'Pastă de Femei',
+        ':woman_fairy:',
+        ':fairy:',
+        ':woman:'
+    ],
+    '🧚{{skin_tone}}': [
+        'Persoana din lapte',
+        ':person_fairy:',
+        ':fairy:',
+        ':person:'
+    ],
     '🧛{{skin_tone}}‍♂️': [
         'Vampir om',
-        'Draculă'
+        ':man_vampire:',
+        ':vampire:',
+        'Draculă',
+        ':man:'
     ],
-    '🧛{{skin_tone}}‍♀️': ['Woman Vampire'],
-    '🧛{{skin_tone}}': ['Person Vampire'],
+    '🧛{{skin_tone}}‍♀️': [
+        'Vampir Woman',
+        ':woman_vampire:',
+        ':vampire:',
+        ':woman:'
+    ],
+    '🧛{{skin_tone}}': [
+        'Persoana Vampir',
+        ':person_vampire:',
+        ':vampire:',
+        ':person:'
+    ],
     '🧜{{skin_tone}}‍♂️': [
         'Merman',
-        'Merboy'
+        ':merman:',
+        'Merboy',
+        ':man:'
     ],
     '🧜{{skin_tone}}‍♀️': [
         'Sirenă',
-        'Mergirl'
+        ':mermaid:',
+        'Merfata',
+        ':woman:'
     ],
-    '🧜{{skin_tone}}': ['Merperson'],
-    '🧝{{skin_tone}}‍♂️': ['Elf de om'],
-    '🧝{{skin_tone}}‍♀️': ['Elf Femeie'],
-    '🧝{{skin_tone}}': ['Person Elf'],
-    '🧞‍♂️': ['Man Genie'],
-    '🧞‍♀️': ['Woman Genie'],
-    '🧞': ['Person Genie'],
+    '🧜{{skin_tone}}': [
+        'Merperson',
+        ':merperson:',
+        ':person:'
+    ],
+    '🧝{{skin_tone}}‍♂️': [
+        'Elf de om',
+        ':man_elf:',
+        ':elf:',
+        ':man:'
+    ],
+    '🧝{{skin_tone}}‍♀️': [
+        'Elf Femeie',
+        ':woman_elf:',
+        ':elf:',
+        ':woman:'
+    ],
+    '🧝{{skin_tone}}': [
+        'Elf Persoană',
+        ':person_elf:',
+        ':elf:',
+        ':person:'
+    ],
+    '🧞‍♂️': [
+        'Man Genie',
+        ':man_genie:',
+        ':genie:',
+        ':man:'
+    ],
+    '🧞‍♀️': [
+        'Woman Genie',
+        ':woman_genie:',
+        ':genie:',
+        ':woman:'
+    ],
+    '🧞': [
+        'Genie Persoană',
+        ':person_genie:',
+        ':genie:',
+        ':person:'
+    ],
     '🕵️{{skin_tone}}‍♂️': [
         'Detectivul omului',
+        ':man_detective:',
+        ':detective:',
         'Ochi privați',
         'Sleuth',
         'Sfânt',
         'Man Sleuth',
         'Sleuth sau spionaj',
         '007',
-        'Inspector'
+        'Inspector',
+        ':man:'
     ],
     '🕵️{{skin_tone}}‍♀️': [
         'Detectivul Femeiei',
-        'Private Eye',
+        ':woman_detective:',
+        ':detective:',
+        'Ochi privați',
         'Sleuth',
-        'Spy',
-        'Woman Sleuth',
-        'Sleuth or Spy',
+        'Sfânt',
+        'Sleuth Woman',
+        'Sleuth sau spionaj',
         '007',
-        'Inspector'
+        'Inspector',
+        ':woman:'
     ],
     '🕵{{skin_tone}}': [
-        'Person Detective',
-        'Private Eye',
+        'Detectivul Persoanei',
+        ':person_detective:',
+        ':detective:',
+        'Ochi privați',
         'Sleuth',
-        'Spy',
-        'Person Sleuth',
-        'Sleuth or Spy',
+        'Sfânt',
+        'Sleuth Persoană',
+        'Sleuth sau spionaj',
         '007',
-        'Inspector'
+        'Inspector',
+        ':person:'
     ],
     '💂{{skin_tone}}‍♂️': [
-        'Man: Guard',
-        'British Guardsman',
-        'Foot Guard'
+        'Bărbat: Gardian',
+        ':man_guard:',
+        ':guard:',
+        'Gardian Britanic',
+        'Paza piciorului',
+        ':man:'
     ],
     '💂{{skin_tone}}‍♀️': [
-        'Woman: Guard',
-        'British Guardsman',
-        'Foot Guard'
+        'Femeia: Gardian',
+        ':woman_guard:',
+        ':guard:',
+        'Gardian Britanic',
+        'Paza piciorului',
+        ':woman:'
     ],
     '💂{{skin_tone}}': [
-        'Person: Guard',
-        'British Guardsman',
-        'Foot Guard'
+        'Persoană: Paznic',
+        ':person_guard:',
+        ':guard:',
+        'Gardian Britanic',
+        'Paza piciorului',
+        ':person:'
     ],
     '👮{{skin_tone}}‍♂️': [
-        'Police Officer',
+        'Ofițer de poliție',
+        ':man_police_officer:',
+        ':police_officer:',
         'Cop',
-        'Police',
-        'Policeman'
+        'Poliția',
+        'Polieman',
+        ':man:'
     ],
     '👮{{skin_tone}}‍♀️': [
-        'Woman Police Officer',
+        'Ofițer de poliție femei',
+        ':woman_police_officer:',
+        ':police_officer:',
         'Cop',
-        'Police',
-        'Policewoman'
+        'Poliția',
+        'Poliţistă',
+        ':woman:'
     ],
     '👮{{skin_tone}}': [
-        'Police Officer',
+        'Ofițer de poliție',
+        ':person_police_officer:',
+        ':police_officer:',
         'Cop',
-        'Police'
+        'Poliția',
+        ':person:'
     ],
-    '👨{{skin_tone}}‍🚒': ['Jefuitor de pompieri'],
-    '👩{{skin_tone}}‍🚒': ['Woman Firefighter'],
-    '🧑{{skin_tone}}‍🚒': ['Person Firefighter'],
-    '👨{{skin_tone}}‍✈️': ['Man Pilot'],
-    '👩{{skin_tone}}‍✈️': ['Woman Pilot'],
-    '🧑{{skin_tone}}‍✈️': ['Person Pilot'],
+    '👨{{skin_tone}}‍🚒': [
+        'Jefuitor de pompieri',
+        ':man_firefighter:',
+        ':firefighter:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🚒': [
+        'Pompier Woman',
+        ':woman_firefighter:',
+        ':firefighter:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🚒': [
+        'Pompier de persoane',
+        ':person_firefighter:',
+        ':firefighter:',
+        ':person:'
+    ],
+    '👨{{skin_tone}}‍✈️': [
+        'Pilot Man',
+        ':man_pilot:',
+        ':pilot:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍✈️': [
+        'Pilot Woman',
+        ':woman_pilot:',
+        ':pilot:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍✈️': [
+        'Pilot Persoană',
+        ':person_pilot:',
+        ':pilot:',
+        ':person:'
+    ],
     '👨{{skin_tone}}‍💻': [
         'Man Tehnologist',
-        'Man Tehnologist'
+        ':man_technologist:',
+        ':technologist:',
+        'Man Tehnologist',
+        ':man:'
     ],
-    '👩{{skin_tone}}‍💻': ['Tehnologie Woman'],
-    '🧑{{skin_tone}}‍💻': ['Person Technologist'],
+    '👩{{skin_tone}}‍💻': [
+        'Tehnologie Woman',
+        ':woman_technologist:',
+        ':technologist:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍💻': [
+        'Tehnologie Persoană',
+        ':person_technologist:',
+        ':technologist:',
+        ':person:'
+    ],
     '👨{{skin_tone}}‍🎤': [
         'Cântăreață de om',
+        ':man_singer:',
+        ':singer:',
         'Bowie',
-        'Aladdin Sane'
+        'Aladdin Sane',
+        ':man:'
     ],
-    '👩{{skin_tone}}‍🎤': ['Cântăreață de Femei'],
-    '🧑{{skin_tone}}‍🎤': ['Person Singer'],
-    '👨{{skin_tone}}‍🎨': ['Artist Om'],
-    '👩{{skin_tone}}‍🎨': ['Artist Femeie'],
-    '🧑{{skin_tone}}‍🎨': ['Person Artist'],
-    '👷{{skin_tone}}‍♂️': ['Man Construction Worker'],
-    '👷{{skin_tone}}‍♀️': ['Woman Construction Worker'],
-    '👷{{skin_tone}}': ['Person Construction Worker'],
+    '👩{{skin_tone}}‍🎤': [
+        'Cântăreață de Femei',
+        ':woman_singer:',
+        ':singer:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🎤': [
+        'Cântăreață persoană',
+        ':person_singer:',
+        ':singer:',
+        ':person:'
+    ],
+    '👨{{skin_tone}}‍🎨': [
+        'Artist Om',
+        ':man_artist:',
+        ':artist:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🎨': [
+        'Artist Femeie',
+        ':woman_artist:',
+        ':artist:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🎨': [
+        'Artist Persoană',
+        ':person_artist:',
+        ':artist:',
+        ':person:'
+    ],
+    '👷{{skin_tone}}‍♂️': [
+        'Om Constructor',
+        ':man_contruction_worker:',
+        ':contruction_worker:',
+        ':man:'
+    ],
+    '👷{{skin_tone}}‍♀️': [
+        'Lucrător de construcții femei',
+        ':woman_contruction_worker:',
+        ':contruction_worker:',
+        ':woman:'
+    ],
+    '👷{{skin_tone}}': [
+        'Lucrător din construcții',
+        ':person_contruction_worker:',
+        ':contruction_worker:',
+        ':person:'
+    ],
     '👨{{skin_tone}}‍🚀': [
         'Man Astronaut',
-        'Man Cosmonaut'
+        ':man_astronaut:',
+        ':astronaut:',
+        'Om Cosmonaut',
+        ':man:'
     ],
     '👩{{skin_tone}}‍🚀': [
-        'Woman Astronaut',
-        'Woman Cosmonaut'
+        'Astronaut Woman',
+        ':woman_astronaut:',
+        ':astronaut:',
+        'Woman Cosmonaut',
+        ':woman:'
     ],
     '🧑{{skin_tone}}‍🚀': [
-        'Person Astronaut',
-        'Person Cosmonaut'
+        'Persoana Astronaut',
+        ':person_astronaut:',
+        ':astronaut:',
+        'Persoana Cosmonaut',
+        ':person:'
     ],
-    '👨{{skin_tone}}‍🔬': ['Man Scientist'],
-    '👩{{skin_tone}}‍🔬': ['Woman Scientist'],
-    '🧑{{skin_tone}}‍🔬': ['Person Scientist'],
+    '👨{{skin_tone}}‍🔬': [
+        'Man Scientist',
+        ':man_scientist:',
+        ':scientist:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🔬': [
+        'Woman Scientist',
+        ':woman_scientist:',
+        ':scientist:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🔬': [
+        'om de știință',
+        ':person_scientist:',
+        ':scientist:',
+        ':person:'
+    ],
     '👨{{skin_tone}}‍💼': [
         'Muncitor din Om',
+        ':man_office_worker:',
+        ':office_worker:',
         'CEO',
-        'Oameni de afaceri'
+        'Oameni de afaceri',
+        ':man:'
     ],
     '👩{{skin_tone}}‍💼': [
         'Lucrător de la sediul mamei',
+        ':woman_office_worker:',
+        ':office_worker:',
         'Femeie de afaceri',
-        'CEO'
+        'CEO',
+        ':woman:'
     ],
     '🧑{{skin_tone}}‍💼': [
-        'Person Office Worker',
-        'Business',
-        'CEO'
+        'Persoana care lucrează',
+        ':person_office_worker:',
+        ':office_worker:',
+        'Afaceri',
+        'CEO',
+        ':person:'
     ],
-    '👨{{skin_tone}}‍🏭': ['Man-Factory Worker'],
-    '👩{{skin_tone}}‍🏭': ['Woman Factory Worker'],
-    '🧑{{skin_tone}}‍🏭': ['Person Factory Worker'],
-    '👨{{skin_tone}}‍🔧': ['Man Mechanic'],
-    '👩{{skin_tone}}‍🔧': ['Woman Mechanic'],
-    '🧑{{skin_tone}}‍🔧': ['Person Mechanic'],
+    '👨{{skin_tone}}‍🏭': [
+        'Man-Factory Worker',
+        ':man_factory_worker:',
+        ':factory_worker:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🏭': [
+        'Lucrător Femeie',
+        ':woman_factory_worker:',
+        ':factory_worker:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🏭': [
+        'Persoană care lucrează în fabrică',
+        ':person_factory_worker:',
+        ':factory_worker:',
+        ':person:'
+    ],
+    '👨{{skin_tone}}‍🔧': [
+        'Mecanic de om',
+        ':man_mechanic:',
+        ':mechanic:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🔧': [
+        'Mecanic Femei',
+        ':woman_mechanic:',
+        ':mechanic:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🔧': [
+        'Mecanic persoană',
+        ':person_mechanic:',
+        ':mechanic:',
+        ':person:'
+    ],
     '👨{{skin_tone}}‍🍳': [
-        'Man Cook',
-        'Man Chef',
-        'Male Chef'
+        'Om bucătar',
+        ':man_cook:',
+        ':cook:',
+        'Bărbat',
+        'Bărbat Bărbat',
+        ':man:'
     ],
     '👩{{skin_tone}}‍🍳': [
-        'Woman Cook',
-        'Woman Chef',
-        'Female Chef'
+        'Bucătar Woman',
+        ':woman_cook:',
+        ':cook:',
+        'Chef de Femei',
+        'Chef Femeie',
+        ':woman:'
     ],
     '🧑{{skin_tone}}‍🍳': [
-        'Person Cook',
-        'Person Chef'
+        'Bucătar Persoană',
+        ':person_cook:',
+        ':cook:',
+        'Bucătar persoană',
+        ':person:'
     ],
-    '👨{{skin_tone}}‍🌾': ['Man Farmer'],
-    '👩{{skin_tone}}‍🌾': ['Woman Farmer'],
-    '🧑{{skin_tone}}‍🌾': ['Person Farmer'],
-    '👨{{skin_tone}}‍‍⚖️': ['Judecător bărbat'],
-    '👩{{skin_tone}}‍‍⚖️': ['Judecător Woman'],
-    '🧑{{skin_tone}}‍‍⚖️': ['Person Judge'],
-    '👨{{skin_tone}}‍‍🏫': ['Profesor de Oan'],
-    '👩{{skin_tone}}‍‍🏫': ['Profesor de Femei'],
-    '🧑‍{{skin_tone}}‍‍🏫': ['Person Teacher'],
-    '👨{{skin_tone}}‍🎓': ['Student Man'],
-    '👩{{skin_tone}}‍🎓': ['Student Femeie'],
-    '🧑{{skin_tone}}‍🎓': ['Person Student'],
+    '👨{{skin_tone}}‍🌾': [
+        'Fermier Man',
+        ':man_farmer:',
+        ':farmer:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🌾': [
+        'Fermier Femeie',
+        ':woman_farmer:',
+        ':farmer:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🌾': [
+        'Fermier Persoană',
+        ':person_farmer:',
+        ':farmer:',
+        ':person:'
+    ],
+    '👨{{skin_tone}}‍‍⚖️': [
+        'Judecător bărbat',
+        ':man_judge:',
+        ':judge:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍‍⚖️': [
+        'Judecător Woman',
+        ':woman_judge:',
+        ':judge:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍‍⚖️': [
+        'Judecător persoană',
+        ':person_judge:',
+        ':judge:',
+        ':person:'
+    ],
+    '👨{{skin_tone}}‍‍🏫': [
+        'Profesor de Oan',
+        ':man_teacher:',
+        ':teacher:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍‍🏫': [
+        'Profesor de Femei',
+        ':woman_teacher:',
+        ':teacher:',
+        ':woman:'
+    ],
+    '🧑‍{{skin_tone}}‍‍🏫': [
+        'Profesor persoană',
+        ':person_teacher:',
+        ':teacher:',
+        ':person:'
+    ],
+    '👨{{skin_tone}}‍🎓': [
+        'Student Man',
+        ':man_student:',
+        ':student:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🎓': [
+        'Student Femeie',
+        ':woman_student:',
+        ':student:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🎓': [
+        'Student persoană',
+        ':person_student:',
+        ':student:',
+        ':person:'
+    ],
     '👨{{skin_tone}}‍⚕️': [
-        'Man Health Worker',
-        'Male Doctor',
-        'Male Nurse'
+        'Om Health Worker',
+        ':man_health_worker:',
+        ':health_worker:',
+        'Doctor masculin',
+        'Aurse masculine',
+        ':man:'
     ],
     '👩{{skin_tone}}‍⚕️': [
         'Lucrător de Sănătate Femei',
+        ':woman_health_worker:',
+        ':health_worker:',
         'Doctor feminin',
-        'Aurs feminin'
+        'Aurs feminin',
+        ':woman:'
     ],
     '🧑‍{{skin_tone}}‍⚕️': [
-        'Person Health Worker',
-        'Person Doctor',
-        'Person Nurse'
+        'Persoana care lucrează',
+        ':person_health_worker:',
+        ':health_worker:',
+        'Doctor persoană',
+        'Nurse Persoană',
+        ':person:'
     ],
     '🤷{{skin_tone}}‍♂️': [
         'Omul de bălegar',
+        ':man_shrugging:',
+        ':shrugging:',
         'Om rumegător',
-        'dunno'
+        'dunno',
+        ':man:'
     ],
     '🤷{{skin_tone}}‍♀️': [
         'Cârlige de Femei',
+        ':woman_shrugging:',
+        ':shrugging:',
         'femeie de dink',
-        'dunno'
+        'dunno',
+        ':woman:'
     ],
     '🤷{{skin_tone}}': [
-        'Person Shrugging',
-        'idk person',
-        'dunno'
+        'Persoană strălucitoare',
+        ':person_shrugging:',
+        ':shrugging:',
+        'persoană dentistă',
+        'dunno',
+        ':person:'
     ],
-    '🤦{{skin_tone}}‍♂️': ['Facepalming al omului'],
-    '🤦{{skin_tone}}‍♀️': ['Factor Woman'],
-    '🤦{{skin_tone}}': ['Person Facepalming'],
-    '🙇{{skin_tone}}‍‍♂️': ['Umflare pentru om'],
-    '🙇{{skin_tone}}‍‍♀️': ['Aruncare Woman'],
-    '🙇{{skin_tone}}': ['Person Bowing'],
-    '🧏{{skin_tone}}‍♂️': ['Man de mare'],
-    '🧏{{skin_tone}}‍‍♀️': ['Femeie de mare'],
-    '🧏{{skin_tone}}': ['Deaf Person'],
+    '🤦{{skin_tone}}‍♂️': [
+        'Facepalming al omului',
+        ':man_facepalming:',
+        ':facepalming:',
+        ':man:'
+    ],
+    '🤦{{skin_tone}}‍♀️': [
+        'Factor Woman',
+        ':woman_facepalming:',
+        ':facepalming:',
+        ':woman:'
+    ],
+    '🤦{{skin_tone}}': [
+        'Facepalming persoană',
+        ':person_facepalming:',
+        ':facepalming:',
+        ':person:'
+    ],
+    '🙇{{skin_tone}}‍‍♂️': [
+        'Umflare pentru om',
+        ':man_bowing:',
+        ':bowing:',
+        ':man:'
+    ],
+    '🙇{{skin_tone}}‍‍♀️': [
+        'Aruncare Woman',
+        ':woman_bowing:',
+        ':bowing:',
+        ':woman:'
+    ],
+    '🙇{{skin_tone}}': [
+        'Calificare persoană',
+        ':person_bowing:',
+        ':bowing:',
+        ':person:'
+    ],
+    '🧏{{skin_tone}}‍♂️': [
+        'Man de mare',
+        ':deaf_man:',
+        ':deaf:',
+        ':man:'
+    ],
+    '🧏{{skin_tone}}‍‍♀️': [
+        'Femeie de mare',
+        ':deaf_woman:',
+        ':deaf:',
+        ':woman:'
+    ],
+    '🧏{{skin_tone}}': [
+        'Persoană de mare',
+        ':deaf_person:',
+        ':deaf:',
+        ':person:'
+    ],
     '🙋{{skin_tone}}‍‍♂️': [
         'Mână de Ridicare Omul',
-        'Omul fericit care dăruiește o mână'
+        ':man_raising_hand:',
+        'Omul fericit care dăruiește o mână',
+        ':raising_hand:',
+        ':man:'
     ],
     '🙋{{skin_tone}}‍♀️': [
         'Mână de Ridicare Femeie',
-        'Femeie fericită Ridică o mână'
+        ':woman_raising_hand:',
+        'Femeie fericită Ridică o mână',
+        ':raising_hand:',
+        ':woman:'
     ],
     '🙋{{skin_tone}}': [
-        'Person Raising Hand',
-        'Happy Person Raising One Hand'
+        'Mână de Călătorie Persoană',
+        ':person_raising_hand:',
+        'Persoană fericită care hrăneşte o mână',
+        ':raising_hand:',
+        ':person:'
     ],
     '💁{{skin_tone}}‍♂️': [
         'Mână de Sfânt',
-        'Centru de informare'
+        ':man_tipping_hand:',
+        'Centru de informare',
+        ':tipping_hand:',
+        ':man:'
     ],
     '💁{{skin_tone}}‍♀️': [
         'Mână de Sfânt Femeie',
-        'Birou de informare'
+        ':woman_tipping_hand:',
+        'Birou de informare',
+        ':tipping_hand:',
+        ':woman:'
     ],
     '💁{{skin_tone}}': [
-        'Person Tipping Hand',
-        'Information Desk Person'
+        'Mână de tastatură persoană',
+        ':person_tipping_hand:',
+        'Persoană de informații',
+        ':tipping_hand:',
+        ':person:'
     ],
-    '🙆{{skin_tone}}‍♂️': ['Man Gesturing OK'],
-    '🙆{{skin_tone}}‍♀️': ['Gestul Femeiei OK'],
-    '🙆{{skin_tone}}': ['Person Gesturing OK'],
-    '🙅{{skin_tone}}‍♂️': ['Nr. Gesturing Om'],
-    '🙅{{skin_tone}}‍♀️': ['Nr. Gesturing Femeie'],
-    '🙅{{skin_tone}}': ['Person Gesturing No'],
-    '🙎{{skin_tone}}‍♂️': ['Man Pouting'],
-    '🙎{{skin_tone}}‍‍♀️': ['Pouting de Femei'],
-    '🙎{{skin_tone}}': ['Person Pouting'],
-    '🙍{{skin_tone}}‍♂️': ['Man Frowning'],
-    '🙍{{skin_tone}}‍♀️': ['Woman Frowning'],
-    '🙍{{skin_tone}}': ['Person Frowning'],
-    '🧟‍‍♂️': ['Zombi bărbat'],
-    '🧟‍‍♀️': ['Zombie Femeie'],
-    '🧟': ['Person Zombie'],
-    '🚶{{skin_tone}}‍♂️': ['Mersul omului'],
-    '🚶{{skin_tone}}‍♀️': ['Plimbare Woman'],
-    '🚶{{skin_tone}}': ['Person Walking'],
-    '🧍{{skin_tone}}‍♂️': ['Man Standing'],
-    '🧍{{skin_tone}}‍♀️': ['Woman Standing'],
-    '🧍{{skin_tone}}': ['Person Standing'],
-    '🧎{{skin_tone}}‍♂️': ['Om îngenunchiat'],
-    '🧎{{skin_tone}}‍♀️': ['Woman Kneeling'],
-    '🧎{{skin_tone}}': ['Person Kneelink'],
-    '👨{{skin_tone}}‍🦯': ['Bărbat cu Cane Albă'],
-    '👩{{skin_tone}}‍🦯': ['Femeie cu Cane Albă'],
-    '🧑{{skin_tone}}‍🦯': ['Person with White Cane'],
-    '👨{{skin_tone}}‍🦼': ['Om în scaun cu roată motorizat'],
-    '👩{{skin_tone}}‍🦼': ['Femeia în scaunul cu rotile motorizat'],
-    '🧑{{skin_tone}}‍🦼': ['Person in Motorized Wheelchair'],
-    '👨{{skin_tone}}‍🦽': ['Om în scaunul rulant manual'],
-    '👩{{skin_tone}}‍🦽': ['Femeie în scaunul rulant manual'],
-    '🧑{{skin_tone}}‍🦽': ['Person in Manual Wheelchair'],
-    '👯‍♂️': ['Bărbați cu urechi iepurii'],
-    '👯‍♀️': ['Femei cu urechi Bunny'],
-    '👯': ['People with Bunny Ears'],
+    '🙆{{skin_tone}}‍♂️': [
+        'Man Gesturing OK',
+        ':man_gesturing_ok:',
+        ':gesturing_ok:',
+        ':man:'
+    ],
+    '🙆{{skin_tone}}‍♀️': [
+        'Gestul Femeiei OK',
+        ':woman_gesturing_ok:',
+        ':gesturing_ok:',
+        ':woman:'
+    ],
+    '🙆{{skin_tone}}': [
+        'Gestiunea persoanei OK',
+        ':person_gesturing_ok:',
+        ':gesturing_ok:',
+        ':person:'
+    ],
+    '🙅{{skin_tone}}‍♂️': [
+        'Nr. Gesturing Om',
+        ':man_gesturing_no:',
+        ':gesturing_no:',
+        ':man:'
+    ],
+    '🙅{{skin_tone}}‍♀️': [
+        'Nr. Gesturing Femeie',
+        ':woman_gesturing_no:',
+        ':gesturing_no:',
+        ':woman:'
+    ],
+    '🙅{{skin_tone}}': [
+        'Nr. gesturi persoană',
+        ':person_gesturing_no:',
+        ':gesturing_no:',
+        ':person:'
+    ],
+    '🙎{{skin_tone}}‍♂️': [
+        'Man Pouting',
+        ':man_pouting:',
+        ':pouting:',
+        ':man:'
+    ],
+    '🙎{{skin_tone}}‍‍♀️': [
+        'Pouting de Femei',
+        ':woman_pouting:',
+        ':pouting:',
+        ':woman:'
+    ],
+    '🙎{{skin_tone}}': [
+        'Pouting persoană',
+        ':person_pouting:',
+        ':pouting:',
+        ':person:'
+    ],
+    '🙍{{skin_tone}}‍♂️': [
+        'Man Frowning',
+        ':man_frowining:',
+        ':frowining:',
+        ':man:'
+    ],
+    '🙍{{skin_tone}}‍♀️': [
+        'Întâlnire Woman',
+        ':woman_frowining:',
+        ':frowining:',
+        ':woman:'
+    ],
+    '🙍{{skin_tone}}': [
+        'Tăierea Persoanei',
+        ':person_frowining:',
+        ':frowining:',
+        ':person:'
+    ],
+    '🧟‍‍♂️': [
+        'Zombi bărbat',
+        ':man_zombie:',
+        ':zombie:',
+        ':man:'
+    ],
+    '🧟‍‍♀️': [
+        'Zombie Femeie',
+        ':woman_zombie:',
+        ':zombie:',
+        ':woman:'
+    ],
+    '🧟': [
+        'Zombie persoană',
+        ':person_zombie:',
+        ':zombie:',
+        ':person:'
+    ],
+    '🚶{{skin_tone}}‍♂️': [
+        'Mersul omului',
+        ':man_walking:',
+        ':walking:',
+        ':man:'
+    ],
+    '🚶{{skin_tone}}‍♀️': [
+        'Plimbare Woman',
+        ':woman_walking:',
+        ':walking:',
+        ':woman:'
+    ],
+    '🚶{{skin_tone}}': [
+        'Plimbare persoana',
+        ':person_walking:',
+        ':walking:',
+        ':person:'
+    ],
+    '🧍{{skin_tone}}‍♂️': [
+        'Stare de Om',
+        ':man_standing:',
+        ':standing:',
+        ':man:'
+    ],
+    '🧍{{skin_tone}}‍♀️': [
+        'Stare Femei',
+        ':woman_standing:',
+        ':standing:',
+        ':woman:'
+    ],
+    '🧍{{skin_tone}}': [
+        'Persoană în stare',
+        ':person_standing:',
+        ':standing:',
+        ':person:'
+    ],
+    '🧎{{skin_tone}}‍♂️': [
+        'Om îngenunchiat',
+        ':man_kneeling:',
+        ':kneeling:',
+        ':man:'
+    ],
+    '🧎{{skin_tone}}‍♀️': [
+        'Cuiburi de Femei',
+        ':woman_kneeling:',
+        ':kneeling:',
+        ':woman:'
+    ],
+    '🧎{{skin_tone}}': [
+        'Persoana Kneelink',
+        ':person_kneeling:',
+        ':kneeling:',
+        ':person:'
+    ],
+    '👨{{skin_tone}}‍🦯': [
+        'Bărbat cu Cane Albă',
+        ':man_with_white_cane:',
+        ':white_cane:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🦯': [
+        'Femeie cu Cane Albă',
+        ':woman_with_white_cane:',
+        ':white_cane:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🦯': [
+        'Persoană cu Can Alb',
+        ':person_with_white_cane:',
+        ':white_cane:',
+        ':person:'
+    ],
+    '👨{{skin_tone}}‍🦼': [
+        'Om în scaun cu roată motorizat',
+        ':man_in_motorized_wheelchair:',
+        ':motorized_wheelchair:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🦼': [
+        'Femeia în scaunul cu rotile motorizat',
+        ':woman_in_motorized_wheelchair:',
+        ':motorized_wheelchair:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🦼': [
+        'Persoana în scaunul rulant motorizat',
+        ':person_in_motorized_wheelchair:',
+        ':motorized_wheelchair:',
+        ':person:'
+    ],
+    '👨{{skin_tone}}‍🦽': [
+        'Om în scaunul rulant manual',
+        ':man_manual_wheelchair:',
+        ':manual_wheelchair:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🦽': [
+        'Femeie în scaunul rulant manual',
+        ':woman_manual_wheelchair:',
+        ':manual_wheelchair:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🦽': [
+        'Persoană în scaunul rulant manual',
+        ':person_manual_wheelchair:',
+        ':manual_wheelchair:',
+        ':person:'
+    ],
+    '👯‍♂️': [
+        'Bărbați cu urechi iepurii',
+        ':men_with_bunny_hears:',
+        ':bunny_ears:',
+        ':man:'
+    ],
+    '👯‍♀️': [
+        'Femei cu urechi Bunny',
+        ':women_with_bunny_hears:',
+        ':bunny_ears:',
+        ':woman:'
+    ],
+    '👯': [
+        'Persoane cu urechi iepurii',
+        ':people_with_bunny_hears:',
+        ':bunny_ears:',
+        ':person:'
+    ],
     '🕴️{{skin_tone}}': [
-        'Person in Suit Levitating',
-        'Hovering Man',
-        'Rude Boy',
+        'Persoană în Leviting Suit',
+        ':person_in_suit_levitating:',
+        'Omul de plutire',
+        'Băiat rudimentar',
         'Walt Jabsco',
-        'Man in Business Suit Levitating'
+        'Om în Business Suit Leviting',
+        ':person:'
     ],
     '🧖{{skin_tone}}‍♂️': [
         'Om în Steamy Room',
-        'Man în Sauna'
+        ':man_in_steamy_room:',
+        ':steamy_room:',
+        'Man în Sauna',
+        ':man:'
     ],
     '🧖{{skin_tone}}‍♀️': [
         'Femeie în Steamy Room',
-        'Femeie în Sauna'
+        ':woman_in_steamy_room:',
+        ':steamy_room:',
+        'Femeie în Sauna',
+        ':woman:'
     ],
     '🧖{{skin_tone}}': [
-        'Person in Steamy Room',
-        'Person in Sauna'
+        'Persoana din camera Steamy',
+        ':person_in_steamy_room:',
+        ':steamy_room:',
+        'Persoană în Sauna',
+        ':person:'
     ],
     '👫{{skin_tone}}': [
-        'Woman and Man Holding Hands',
-        'Heterosexual Couple',
-        'Straight Couple',
-        'Man and Woman Holding Hands'
-    ],
-    '👭{{skin_tone}}': [
-        'Lesbian Couple',
-        'Women Holding Hands',
-        'Two Women Holding Hands'
+        'Femei şi Man Holding Hands',
+        ':woman_and_man_holding_hands:',
+        ':holding_hands:',
+        'Cuplu heterosexual',
+        'Cuplu Dreapta',
+        'Mâini de Bărbat și de Femei',
+        ':woman:'
     ],
     '👬{{skin_tone}}': [
-        'Men Holding Hands',
-        'Gay Couple',
-        'Two Men Holding Hands'
+        'Mânuşi de Bărbaţi',
+        ':holding_hands:',
+        ':men_holding_hands:',
+        'Cuplu de Gay',
+        'Două Men Holding Hands',
+        ':man:'
+    ],
+    '👭{{skin_tone}}': [
+        'Femei care deţin Mâinile',
+        ':holding_hands:',
+        ':women_holding_hands:',
+        'Cuplu Lesbian',
+        'Două femei care deţin Mâinile',
+        ':woman:'
     ],
     '🧑‍🤝‍🧑': [
-        'People Holding Hands',
-        'Two People Holding Hands',
-        'Gender Inclusive Couple',
-        'Gender Neutral Couple',
-        'Gender Nonconforming Couple'
+        'Oameni care deţin feluri',
+        ':holding_hands:',
+        ':people_holding_hands:',
+        'Două persoane care deţin feluri',
+        'Cuplu de gen inclusiv',
+        'Cuplu neutru de gen',
+        'Plăci neconforme cu sexul',
+        ':person:'
     ],
     '👨‍👩‍👦': [
         'Familia cu Mamă, Tată şi fiu',
+        ':family_with_mother_father_and_son:',
         'Familie: Man, Femeie, Băiat'
     ],
     '👨‍👩‍👧': [
         'Familia cu mama, tata si fiica',
+        ':family_with_mother_father_and_daughter:',
         'Familie: Man, Femei, Fată'
     ],
     '👨‍👩‍👧‍👦': [
         'Familia cu mama, Tatăl, fiul și fiica',
+        ':family_with_mother_father_son_and_daughter:',
         'Familie: Man, Femei, Fetă, Băiat'
     ],
     '👨‍👩‍👦‍👦': [
         'Familia cu mama, tata si doi fii',
+        ':family_with_mother_father_and_two_sons:',
         'Familie: Man, Femeie, Băiat, Băiat'
     ],
     '👨‍👩‍👧‍👧': [
         'Familia cu mama, tata si doua fiice',
+        ':family_with_mother_father_and_two_daughters:',
         'Familie: Man, Femei, Fetă, Fată'
     ],
     '👨‍👨‍👦': [
         'Familia cu doi taţi şi băiat',
-        'Familie: Man, Mamă, Băiat'
+        ':family_with_two_fathers_and_son:',
+        'Familie: Man, Mamă, Băiat',
+        ':man:'
     ],
     '👨‍👨‍👧': [
         'Familie cu doi taţi şi fiica',
-        'Familie: Man, Man, Fata'
+        ':family_with_two_fathers_and_daughter:',
+        'Familie: Man, Man, Fata',
+        ':man:'
     ],
     '👨‍👨‍👧‍👦': [
         'Familie cu doi tați, fiul și fiica',
-        'Familie: Man, Man, Fată, Băiat'
+        ':family_with_two_fathers_son_and_daughter:',
+        'Familie: Man, Man, Fată, Băiat',
+        ':man:'
     ],
     '👨‍👨‍👦‍👦': [
         'Familia cu doi taţi şi doi fii',
-        'Familie: Man, Băiat, Băiat'
+        ':family_with_two_fathers_and_two_sons:',
+        'Familie: Man, Băiat, Băiat',
+        ':man:'
     ],
     '👨‍👨‍👧‍👧': [
         'Familie cu doi taţi şi două fiice',
-        'Familie: Omul, Omul, Fata, Fata'
+        ':family_with_two_fathers_and_two_daughters:',
+        'Familie: Omul, Omul, Fata, Fata',
+        ':man:'
     ],
     '👩‍👩‍👦': [
         'Familia cu două mame şi luni',
-        'Familie: Femei, Femei, Băiat,'
+        ':family_with_two_mothers_and_son:',
+        'Familie: Femei, Femei, Băiat,',
+        ':woman:'
     ],
     '👩‍👩‍👧': [
         'Familie cu două mame şi fiice',
-        'Familie: Femei, Femei, Fata'
+        ':family_with_two_mothers_and_daughter:',
+        'Familie: Femei, Femei, Fata',
+        ':woman:'
     ],
     '👩‍👩‍👧‍👦': [
         'Familia cu doua mame, fiul si fiica',
-        'Familie: Femei, Femei, Fetă, Băiat'
+        ':family_with_two_mothers_son_and_daughter:',
+        'Familie: Femei, Femei, Fetă, Băiat',
+        ':woman:'
     ],
     '👩‍👩‍👦‍👦': [
         'Familia cu doua mame si doi fii',
-        'Familie: Femei, Femei, Bărbat, Băiat'
+        ':family_with_two_mothers_and_two_sons:',
+        'Familie: Femei, Femei, Bărbat, Băiat',
+        ':woman:'
     ],
     '👩‍👩‍👧‍👧': [
         'Familie cu două mame şi două fiice',
-        'Familie: Femei, Femei, Fetă, Fată'
+        ':family_with_two_mothers_and_two_daughters:',
+        'Familie: Femei, Femei, Fetă, Fată',
+        ':woman:'
     ],
     '👨‍👦': [
         'Familia cu părinte și fiu',
-        'Familie: Man, Băiat'
+        ':family_with_father_and_son:',
+        'Familie: Man, Băiat',
+        ':man:'
     ],
     '👨‍👧': [
         'Familie cu părinte și fiică',
-        'Familie: Man, Fata'
+        ':family_with_father_and_daughter:',
+        'Familie: Man, Fata',
+        ':man:'
     ],
     '👨‍👦‍👦': [
-        'Family With Father and Two Sons',
-        'Family: Man, Boy, Boy'
+        'Familia cu părinte şi doi fii',
+        ':family_with_father_and_two_sons:',
+        'Familie: Man, Băiat, Băiat',
+        ':man:'
     ],
     '👨‍👧‍👦': [
         'Familie cu Tatăl, Fiul și fiica',
-        'Familie: Omul, Feta, Băiatul'
+        ':family_with_father_son_and_daughter:',
+        'Familie: Omul, Feta, Băiatul',
+        ':man:'
     ],
     '👨‍👧‍👧': [
         'Familie cu părinte şi două fiice',
-        'Familie: Omul, Fata, Fata'
+        ':family_with_father_and_two_daughters:',
+        'Familie: Omul, Fata, Fata',
+        ':man:'
     ],
     '👩‍👦': [
         'Familia cu Mama si Son',
-        'Familie: Femeie, Băiat'
+        ':family_with_mother_and_son:',
+        'Familie: Femeie, Băiat',
+        ':woman:'
     ],
     '👩‍👧': [
         'Familie cu Mama şi Fiica',
-        'Familie: Femei, Fata'
+        ':family_with_mother_and_daughter:',
+        'Familie: Femei, Fata',
+        ':woman:'
     ],
     '👩‍👦‍👦': [
         'Familia cu Mama şi Doi Soni',
-        'Familie: Femei, Băiat, Băiat'
+        ':family_with_mother_and_two_sons:',
+        'Familie: Femei, Băiat, Băiat',
+        ':woman:'
     ],
     '👩‍👧‍👦': [
         'Familia cu mama, Son şi fiica',
-        'Familie: Femei, Fetă, Băiat'
+        ':family_with_mother_son_and_daughter:',
+        'Familie: Femei, Fetă, Băiat',
+        ':woman:'
     ],
     '👩‍👧‍👧': [
         'Familie cu Mama şi două fiice',
-        'Familie: Femei, fată, fată'
+        ':family_with_mother_and_two_daughters:',
+        'Familie: Femei, fată, fată',
+        ':woman:'
     ],
     '💑{{skin_tone}}': [
-        'Couple with Heart',
-        'Couple In Love',
-        'Loving Couple',
-        'Gender Neutral Couple'
+        'Cuplu cu inimă',
+        ':couple_with_heart:',
+        'Couple in dragoste',
+        'Cuplul Iubitor',
+        'Cuplu neutru de gen',
+        ':person:'
     ],
     '👩‍❤️‍👨': [
-        'Man and Woman With Heart',
-        'Couple In Love',
-        'Loving Couple',
-        'Couple With Heart'
+        'Bărbaţi şi femei cu inimă',
+        ':man_and_woman_with_heart:',
+        'Couple in dragoste',
+        'Cuplul Iubitor',
+        'Cuplu cu inimă'
     ],
     '👨‍❤️‍👨': [
         'Doi bărbaţi cu inimă',
-        'Cupă cu inimă: Oan, Om'
+        ':two_men_with_heart:',
+        'Cupă cu inimă: Oan, Om',
+        ':man:'
     ],
     '👩‍❤️‍👩': [
         'Două femei cu inimă',
-        'Cuplu cu inimă: Femei, Femeie'
+        ':two_women_with_heart:',
+        'Cuplu cu inimă: Femei, Femeie',
+        ':woman:'
     ],
     '💏{{skin_tone}}': [
-        'Couple Kissing',
-        'Kiss',
-        'Gender Neutral Couple Kissing'
+        'Sărut facut',
+        ':couple_kissing:',
+        'Sărut',
+        'Sexul Neutral Ucigaș',
+        ':person:'
     ],
-    '👩‍❤️‍💋‍👨': ['Man and Woman Kissing'],
+    '👩‍❤️‍💋‍👨': [
+        'Man și Sărut Femeie',
+        ':man_and_woman_kissing:'
+    ],
     '👨‍❤️‍💋‍👨': [
-        'Two Men Kissing',
-        'Man and Man Kissing'
+        'Doi Bărbaţi Bărbaţi',
+        ':two_men_kissing:',
+        'Om și Man Kissing',
+        ':man:'
     ],
     '👩‍❤️‍💋‍👩': [
-        'Two Women Kissing',
-        'Woman and Woman Kissing'
+        'Două femei sărutate',
+        ':two_women_kissing:',
+        'Femei și Sărut Femeie',
+        ':woman:'
     ],
-    '💆{{skin_tone}}‍♂️': ['Man Getting Head Massage'],
-    '💆{{skin_tone}}‍♀️': ['Masajul Căutării Femeiei'],
-    '💆{{skin_tone}}': ['Person Getting Head Massage'],
-    '💇{{skin_tone}}‍♂️': ['Man Getting Haircut'],
-    '💇{{skin_tone}}‍♀️': ['Woman Getting Haircut'],
-    '💇{{skin_tone}}': ['Person Getting Haircut'],
+    '💆{{skin_tone}}‍♂️': [
+        'Masaj pentru Masajul Masajului Bărbat',
+        ':man_getting_head_massage:',
+        ':getting_head_massage:',
+        ':man:'
+    ],
+    '💆{{skin_tone}}‍♀️': [
+        'Masajul Căutării Femeiei',
+        ':woman_getting_head_massage:',
+        ':getting_head_massage:',
+        ':woman:'
+    ],
+    '💆{{skin_tone}}': [
+        'Masajul Persoanei Primește',
+        ':person_getting_head_massage:',
+        ':getting_head_massage:',
+        ':person:'
+    ],
+    '💇{{skin_tone}}‍♂️': [
+        'Bărbat Haircut',
+        ':man_getting_haircut:',
+        ':getting_haircut:',
+        ':man:'
+    ],
+    '💇{{skin_tone}}‍♀️': [
+        'Haircut Femeie',
+        ':woman_getting_haircut:',
+        ':getting_haircut:',
+        ':woman:'
+    ],
+    '💇{{skin_tone}}': [
+        'Persoana care obține păduchii',
+        ':person_getting_haircut:',
+        ':getting_haircut:',
+        ':person:'
+    ],
     '🛌{{skin_tone}}': [
-        'Sleeping Accommodation',
-        'Person in Bed',
-        'Person Sleeping'
+        'Cazare dormit',
+        ':sleeping_accommodation:',
+        'Persoana în pat',
+        'Dorință persoană'
     ],
-    '🧌': ['Troll'],
+    '🧌': [
+        'Troll',
+        ':troll:'
+    ],
     '👺': [
         'Goblin',
-        'Long Nose Face',
-        'Red Mask',
+        ':goblin:',
+        'Față Nose lungă',
+        'Mască roșie',
         'Tengu',
-        'Japanese Goblin'
+        'Goblin japonez'
     ]
 };
 /*animals*/
 emojis_language[lang][4] = {
     '😺': [
         'Pisica de câştig',
-        ':)',
+        ':happy_cat:',
+        ':smiling_cat:',
+        '::):',
         'Pisică fericită',
         'Pisică zâmbitoare',
         'Față fericită de pisică',
@@ -1435,39 +2460,45 @@ emojis_language[lang][4] = {
     ],
     '😸': [
         'Clasificare pisică cu ochi zâmbitori',
-        ':D',
+        ':grinning_cat:',
+        '::D:',
         'Pisica de câştig',
         'Pisică fericită',
         'Câștigarea feței pisicii'
     ],
     '😹': [
         'Pisică cu fraze de Joy',
-        ':\')',
+        ':laughing_cat:',
+        '::):',
         'Pisica cu lacrimi fericite',
         'Pisica de râs'
     ],
     '😻': [
         'Pisică zâmbită cu ochi de inimă',
-        '*.*',
+        ':heart_eyes_cat:',
+        ':*.*:',
         'Pisica ochilor inimii',
         'Pisică de iubit',
         'Pisică zâmbită cu ochi modelați pentru inimă'
     ],
     '😼': [
         'Pisică cu zâmbet Wry',
+        ':cat_with_wry_smile:',
         'Pisică cu migdală',
         'Față de mestecat',
         'Pisică cu zâmbet grătar'
     ],
     '😽': [
         'Pisică sărutată',
-        ':*',
+        ':kissing_cat:',
+        '::*:',
         'Față sărută pisică',
         'Pisica sărutată cu ochi închiși'
     ],
     '🙀': [
         'Pisică Weary',
-        ':O',
+        ':weary_cat:',
+        '::O:',
         'Pisică speriată',
         'Pisică de ecran',
         'Screeningul feței pisicilor în frică',
@@ -1475,61 +2506,84 @@ emojis_language[lang][4] = {
     ],
     '😿': [
         'Pisică de Plâns',
-        ':\'(',
+        ':crying_cat:',
+        '::(:',
         'Pisică tristă',
         'Față plutitoare'
     ],
     '😾': [
         'Pisica Pouting',
+        ':pouting_cat:',
         'Grumpy Cat',
         'Față Pisică'
     ],
     '🙈': [
-        'Maimuță',
         'Maimuță văduvă',
+        'Maimuță',
+        ':see-no-evil_mokey:',
+        ':see_no_evil_mokey:',
+        ':monkey:',
         'Mizar',
         'Ochi acoperiți de maimuțe'
     ],
     '🙉': [
-        'Maimuță',
         'Maimuță ear-fără rău',
+        'Maimuță',
+        ':hear-no-evil_monkey:',
+        ':hear_no_evil_monkey:',
+        ':monkey:',
         'Kikazaru',
         'Urechi acoperitori de maimuțe'
     ],
     '🙊': [
-        'Maimuță',
         'Maimuță nicovală',
+        'Maimuță',
+        ':speak-no-evil_monkey:',
+        ':speak_no_evil_monkey:',
+        ':monkey:',
         'Iwazar',
         'Gură pentru acoperirea maimuțelor',
         'Fără vorbire'
     ],
     '🐵': [
-        'Maimuță',
         'Față maimuță',
+        ':monkey_face:',
+        'Maimuță',
         'Capul Maimuței'
     ],
     '🐒': [
         'Maimuță',
+        ':monkey:',
         'Maimuță Cheeky'
     ],
-    '🦍': ['Gorilla'],
+    '🦍': [
+        'Gorilla',
+        ':gorilla:'
+    ],
     '🐶': [
         'Faţă de câine',
+        ':dog_face:',
         'Câine',
         'Cupple'
     ],
     '🐕': [
         'Câine',
+        ':dog:',
         'Doggo',
         'Akita Inu'
     ],
     '🦮': [
         'Vedere câine Ochi',
+        ':seeing_eye_dog:',
         'Câine Ghidat'
     ],
-    '🐕‍🦺': ['Câini de serviciu'],
+    '🐕‍🦺': [
+        'Câini de serviciu',
+        ':service_dog:'
+    ],
     '🐩': [
         'Poodle',
+        ':poodle:',
         'Câine',
         'Poodle de miniatură',
         'Poodle standard',
@@ -1537,73 +2591,100 @@ emojis_language[lang][4] = {
     ],
     '🐺': [
         'Lup',
-        'Față lup'
+        ':wolf:',
+        'Față lup',
+        ':gray:',
+        ':grey:'
     ],
     '🦊': [
         'Vulpe',
-        'Față vulcanică'
+        ':fox:',
+        'Față vulcanică',
+        ':orange:'
     ],
-    '🦝': ['Raccoon'],
+    '🦝': [
+        'Raccoon',
+        ':raccoon:'
+    ],
     '🐱': [
         'Pisică fațetă',
+        ':cat_face:',
         ':3',
         'Pisici',
         'Pitt'
     ],
     '🐈': [
         'Pisică',
+        ':cat:',
         'Pisică locală',
         'Moment',
         'Houseat'
     ],
-    '🐈‍⬛': ['Pisica Neagră'],
+    '🐈‍⬛': [
+        'Pisica Neagră',
+        ':black_cat:',
+        ':black:'
+    ],
     '🦁': [
         'Leu',
+        ':lion:',
         'Față leu'
     ],
     '🐯': [
         'Față tigru',
+        ':tiger_face:',
         'Tigru drăguț'
     ],
     '🐅': [
         'Tigru',
+        ':tiger:',
         'Tigru Bengal'
     ],
     '🐆': [
         'Leopard',
+        ':leopard:',
         'Leopard african',
         'Jaguar'
     ],
     '🐴': [
         'Față de cal',
+        ':horse_face:',
         'Capac de cal'
     ],
     '🐎': [
         'Cai',
+        ':horse:',
         'Cai de alunecare',
         'Cursa'
     ],
     '🦄': [
         'Unicorn',
+        ':unicorn:',
         'Față unicorn'
     ],
     '🦓': [
         'Zebra',
-        'Față zebră'
+        ':zebra:',
+        'Față zebră',
+        ':white:',
+        ':black:'
     ],
     '🦌': [
         'Căprioară',
+        ':deer:',
         'Buck',
         'Rener',
         'Stag'
     ],
     '🐮': [
         'Față de vacă',
+        ':cow_face:',
         'Vacă',
         'Vacă fericită'
     ],
     '🐂': [
         'Ox',
+        ':ox:',
         'Tal',
         'Buletin',
         'Oxen',
@@ -1611,296 +2692,488 @@ emojis_language[lang][4] = {
     ],
     '🐃': [
         'Bivol de apă',
+        ':water_buffalo:',
         'Bivol',
         'Buffalo de apă menajeră'
     ],
     '🐄': [
         'Vacă',
+        ':cow:',
         'Vacă de lapte'
     ],
     '🐷': [
         'Față porc',
+        ':pig_fase:',
         'Porc',
-        'Capac de porc'
+        'Capac de porc',
+        ':pink:'
     ],
     '🐖': [
         'Porc',
+        ':pig:',
         'Jurnal',
-        'Sow'
+        'Sow',
+        ':pink:'
     ],
     '🐗': [
         'Ambarcator',
+        ':boar:',
         'Warthog',
         'Băcaș sălbatic',
         'Porc sălbatic'
     ],
-    '🐽': ['Nuci de porc'],
+    '🐽': [
+        'Nuci de porc',
+        ':pig_nose:'
+    ],
     '🐏': [
         'Ram',
+        ':ram:',
         'Ovine'
     ],
     '🐑': [
         'Ewe',
+        ':ewe:',
         'Lamb',
         'Ovine'
     ],
-    '🐐': ['Capră'],
+    '🐐': [
+        'Capră',
+        ':goat:'
+    ],
     '🐪': [
         'Cămilă',
+        ':camel:',
         'Cămilă arabă',
         'Cămilă Dromedaliară',
         'Tabără cu pompă unică'
     ],
     '🐫': [
         'Camp doi-Hump',
+        ':two-hump_camel:',
+        ':two_hump_camel:',
         'Cămilă asiatică',
         'Cămilă Bactriană'
     ],
     '🦙': [
         'Llama',
+        ':llama:',
         'Alpaca'
     ],
     '🦒': [
         'Giraffe',
+        ':giraffe:',
         'Giraffe Face'
     ],
-    '🐘': ['Elefant'],
+    '🐘': [
+        'Elefant',
+        ':elephant:'
+    ],
     '🦏': [
         'Rhinoceros',
+        ':rhinoceros:',
         'Rhino'
     ],
     '🦛': [
         'Hippopotamus',
+        ':hippopotamus:',
         'Hippo'
     ],
     '🐭': [
         'Fața mouse-ului',
+        ':mouse_face:',
         'Șoricel'
     ],
     '🐁': [
         'Șoricel',
+        ':mouse:',
         'Dormson',
         'Roz',
         'Șoareci'
     ],
     '🐀': [
         'Șobolan',
+        ':rat:',
         'Roz'
     ],
     '🐹': [
         'Hamster',
+        ':hamster:',
         'Față de Hamster'
     ],
     '🐰': [
         'Față iepure',
+        ':rabbit_face:',
         'Iepuraşul de Paşte'
     ],
     '🐇': [
         'Iepure',
         'Bunny',
+        ':rabbit:',
         'Iepure de iepure'
     ],
     '🐿️': [
         'Chipmunk',
+        ':chipmunk:',
         'Veveriță'
     ],
-    '🦔': ['Hedgehog'],
+    '🦔': [
+        'Hedgehog',
+        ':hedgehog:'
+    ],
     '🦇': [
         'Liliac',
-        'Batman'
+        ':bat:',
+        'Batman',
+        ':black:'
     ],
     '🐻': [
         'Urs',
+        ':bear:',
         'Față de urs',
-        'Urs Teddy'
+        'Urs Teddy',
+        ':brown:'
     ],
     '🐨': [
         'Koala',
+        ':koala:',
         'Față Koala'
     ],
     '🐼': [
         'Panda',
+        ':panda:',
         'Față Panda'
     ],
     '🦘': [
         'Cangur',
+        ':kangaroo:',
         'Roo'
     ],
-    '🦡': ['Insignă'],
+    '🦡': [
+        'Insignă',
+        ':badger:'
+    ],
     '🦃': [
         'Turcia',
+        ':turkey:',
         'Recunoştinţă Turciei',
         'Sălbatic Turcia'
     ],
     '🐔': [
         'Pui',
+        ':chicken:',
         'Hen'
     ],
     '🐓': [
         'Cioc',
+        ':cock:',
         'Rooster',
         'Cacerel'
     ],
     '🐣': [
         'Pui de pălărie',
+        ':hatching_chick:',
         'Pui de pui',
-        'Pălărie de pui'
+        'Pălărie de pui',
+        ':yellow:'
     ],
     '🐤': [
         'Pui de bebeluș',
-        'Pasărea galbenă'
+        ':baby_chick:',
+        'Pasărea galbenă',
+        ':yellow:'
     ],
     '🐥': [
         'Pui fata fata fata',
+        ':front_baby_chick:',
         'Pui de bebeluș',
-        'Pui în picioare'
+        'Pui în picioare',
+        ':yellow:'
     ],
-    '🐦': ['Pasăre'],
-    '🐧': ['Penguin'],
+    '🐦': [
+        'Pasăre',
+        ':bird:'
+    ],
+    '🐧': [
+        'Penguin',
+        ':penguin:'
+    ],
     '🕊️': [
         'Dovadchar@@0',
-        'Dovada păcii'
+        ':Dove:',
+        'Dovada păcii',
+        ':white:'
     ],
     '🦅': [
         'Vântână',
+        ':Eagle:',
         'Umplutură Balans'
     ],
-    '🦆': ['Rață'],
-    '🦢': ['Lebădă'],
-    '🦉': ['Bufniță'],
-    '🦚': ['Pașote'],
-    '🦜': ['Papagal'],
+    '🦆': [
+        'Rață',
+        ':Duck:'
+    ],
+    '🦢': [
+        'Lebădă',
+        ':swan:',
+        ':white:'
+    ],
+    '🦉': [
+        'Bufniță',
+        ':owl:',
+        ':brown:'
+    ],
+    '🦚': [
+        'Pașote',
+        ':peacock:'
+    ],
+    '🦜': [
+        'Papagal',
+        ':parrot:'
+    ],
     '🐸': [
         'Brăjitor',
+        ':frog:',
         'Toad',
-        'Față de rog'
+        'Față de rog',
+        ':green:'
     ],
     '🐊': [
         'Crocodil',
+        ':crocodile:',
         'Aligator',
-        'Croc'
+        'Croc',
+        ':green:'
     ],
     '🐢': [
         'Țestoasă',
-        'Tortoise'
+        ':turtle:',
+        'Tortoise',
+        ':green:'
     ],
     '🦎': [
         'Șopârlă',
-        'Gecko'
+        ':lizard:',
+        'Gecko',
+        ':green:'
     ],
     '🐍': [
         'Șarpe',
+        ':snake:',
         'Serpent'
     ],
     '🐲': [
         'Fața Dragonului',
+        ':dragon_face:',
         'Capul Dragonului'
     ],
-    '🐉': ['Dragon'],
+    '🐉': [
+        'Dragon',
+        ':dragon:'
+    ],
     '🦕': [
         'Sauropod',
+        ':sauropod:',
         'Brachiosaurus',
         'Brontosaurus',
         'Dinosaur'
     ],
     '🦖': [
         'T-Rex',
+        ':t-rex:',
+        ':t_rex:',
         'Tyrannosaurus Rex'
     ],
     '🐳': [
         'Scurtarea balenelor',
+        ':spouting_whale:',
         'Balenă drăguță'
     ],
-    '🐋': ['Balenă'],
-    '🐬': ['Delfină'],
+    '🐋': [
+        'Balenă',
+        ':whale:'
+    ],
+    '🐬': [
+        'Delfină',
+        ':dolphin:'
+    ],
     '🐟': [
         'Pești',
+        ':fish:',
         'Pește de apă dulce'
     ],
     '🐠': [
         'Pești tropicali',
+        ':tropical_fish:',
         'Pești',
         'Peşte galben-albastru'
     ],
     '🐡': [
         'Specii de flori',
+        ':blowfish:',
         'Fugu',
         'Pufferfish'
     ],
     '🦈': [
         'Rechin',
+        ':shark:',
         'Marele rechin alb'
     ],
-    '🐙': ['Caracatiţă'],
+    '🐙': [
+        'Caracatiţă',
+        ':octopus:'
+    ],
     '🐚': [
         'Proiectil Spiral',
+        ':spiral_shell:',
         'Proiectil de mare',
         'Proiectile'
     ],
     '🐌': [
         'Cuib',
+        ':snail:',
         'Slug',
         'Grădină de grădină'
     ],
-    '🦋': ['Fluture'],
+    '🦋': [
+        'Fluture',
+        ':butterfly:'
+    ],
     '🐛': [
         'Bug',
+        ':bug:',
         'Caterpilon',
         'Insectă'
     ],
     '🐜': [
         'Ant',
+        ':ant:',
         'Bug',
         'Insectă'
     ],
     '🐝': [
         'Miere',
+        ':honeybee:',
         'Albină',
-        'Bumblebee'
+        'Bumblebee',
+        ':yellow:',
+        ':black:'
     ],
     '🐞': [
         'Gândac de ladă',
+        ':lady_beetle:',
         'Ladybird',
         'Ladybug',
         'Bug'
     ],
     '🦗': [
         'Crichet',
+        ':cricket:',
         'Cumpărător'
     ],
-    '🕷️': ['Păianjen'],
-    '🦂': ['Scorpion'],
-    '🦟': ['Ţânţar'],
-    '🦀': ['Capb'],
-    '🦞': ['Lobster'],
+    '🕷️': [
+        'Păianjen',
+        ':spider:'
+    ],
+    '🦂': [
+        'Scorpion',
+        ':scorpion:'
+    ],
+    '🦟': [
+        'Ţânţar',
+        ':mosquito:',
+        ':black:'
+    ],
+    '🦀': [
+        'Capb',
+        ':crab:',
+        ':red:'
+    ],
+    '🦞': [
+        'Lobster',
+        ':lobster:'
+    ],
     '🦐': [
         'Crevete',
+        ':shrimp:',
         'Prawn'
     ],
-    '🦑': ['Calmar'],
-    '🦧': ['Orangutan'],
-    '🦥': ['Înclinare'],
-    '🦦': ['Otter'],
-    '🦨': ['Skunk'],
-    '🦬': ['Bizon'],
-    '🦣': ['Mamut'],
-    '🦫': ['Sărbător'],
-    '🐻‍❄️': ['Urs Polar'],
-    '🦤': ['Dodo'],
-    '🦭': ['Sigiliu'],
-    '🪲': ['Gândac'],
-    '🪳': ['Cache-ul'],
-    '🪰': ['Zboară'],
-    '🪱': ['Cald'],
-    '🦩': ['Flamingo'],
+    '🦑': [
+        'Calmar',
+        ':squid:'
+    ],
+    '🦧': [
+        'Orangutan',
+        ':orangutan:'
+    ],
+    '🦥': [
+        'Înclinare',
+        ':sloth:'
+    ],
+    '🦦': [
+        'Otter',
+        ':otter:'
+    ],
+    '🦨': [
+        'Skunk',
+        ':skunk:'
+    ],
+    '🦬': [
+        'Bizon',
+        ':bison:'
+    ],
+    '🦣': [
+        'Mamut',
+        ':mammoth:',
+        ':brown:'
+    ],
+    '🦫': [
+        'Sărbător',
+        ':beaver:'
+    ],
+    '🐻‍❄️': [
+        'Urs Polar',
+        ':polar_bear:',
+        ':white:'
+    ],
+    '🦤': [
+        'Dodo',
+        ':dodo:'
+    ],
+    '🦭': [
+        'Sigiliu',
+        ':seal:'
+    ],
+    '🪲': [
+        'Gândac',
+        ':beetle:'
+    ],
+    '🪳': [
+        'Cache-ul',
+        ':cockroach:'
+    ],
+    '🪰': [
+        'Zboară',
+        ':fly:'
+    ],
+    '🪱': [
+        'Cald',
+        ':worm:'
+    ],
+    '🦩': [
+        'Flamingo',
+        ':flamingo:'
+    ],
     '🪹': [
-        'Empty Nest',
-        'Birds',
+        'Cuib gol',
+        ':empty_nest:',
+        'Păsări',
         'Acasă'
     ],
     '🪺': [
-        'Nest with Eggs',
-        'Birds',
+        'Cuib cu ouă',
+        ':nest_with_eggs:',
+        'Păsări',
         'Acasă'
     ]
 };
@@ -1908,99 +3181,140 @@ emojis_language[lang][4] = {
 emojis_language[lang][5] = {
     '💘': [
         'Inimă cu săgeată',
+        ':heart_with_arrow:',
         'Săgeată cupid',
-        'Lovestruck'
+        'Lovestruck',
+        ':pink:'
     ],
     '💝': [
         'Inimă cu panglică',
+        ':heart_with_ribbon:',
         'Cutia de Ciocolată',
         'Cutie cadou',
-        'Cadou Inimă'
+        'Cadou Inimă',
+        ':red:'
     ],
     '💖': [
         'Sparkling Heart',
+        ':sparkling_heart:',
         'Inimă Sparkle',
         'Inimă superficială',
-        'Stele Inimă'
+        'Stele Inimă',
+        ':pink:'
     ],
     '💗': [
         'Creştere a inimii',
+        ':growing_heart:',
         'Inimă multiplă',
-        'Inimă triplă'
+        'Inimă triplă',
+        ':pink:'
     ],
     '💓': [
         'Inimă de bătăi',
+        ':beating_heart:',
         'Alarmă pentru inimă',
         'Heartbeat',
-        'Inimă Wifi'
+        'Inimă Wifi',
+        ':pink:'
     ],
     '💞': [
         'Inimi Revolving',
-        'Două inimi'
+        ':revolving_hearts:',
+        'Două inimi',
+        ':pink:'
     ],
     '💕': [
         'Două inimi',
+        ':two_hearts:',
         'Inimi mici',
-        'Două inimi roz'
+        'Două inimi roz',
+        ':pink:'
     ],
-    '💟': ['Decoraţie a inimii'],
+    '💟': [
+        'Decoraţie a inimii',
+        ':heart_decoration:',
+        ':purple:'
+    ],
     '❣️': [
         'Exclamaţie de inimă',
+        ':heart_exclamation:',
         'Peste punctul de inimă',
         'Inimă Roșie ca semn de Exclamație',
-        'Exclamaţie grea de inimă Mark Ornament'
+        'Exclamaţie grea de inimă Mark Ornament',
+        ':red:'
     ],
     '💔': [
         'Inimă ruptă',
+        ':broken_heart:',
         'Spargerea inimii',
         'Dificultate',
-        'Inimă distrusă'
+        'Inimă distrusă',
+        ':red:'
     ],
     '❤️': [
         'Te iubesc',
+        ':red_heart:',
         'Inimă Roşie',
         'Inimă',
         'Inimă de dragoste',
-        'Inimă Roşie'
+        'Inimă Roşie',
+        ':red:'
     ],
     '🧡': [
         'Inimă portocalie',
-        'Te iubesc'
+        ':orange_heart:',
+        'Te iubesc',
+        ':orange:'
     ],
     '💛': [
         'Inimă galbenă',
+        ':yellow_heart:',
         '#1 BF Snapchat',
         'Inimă de Aur',
-        'Te iubesc'
+        'Te iubesc',
+        ':yellow:'
     ],
     '💚': [
         'Inimă verde',
+        ':green_heart:',
         'Inimă Jealous',
-        'Te iubesc'
+        'Te iubesc',
+        ':green:'
     ],
     '💙': [
         'Inimă albastră',
-        'Te iubesc'
+        ':blue_heart:',
+        'Te iubesc',
+        ':blue:'
     ],
     '💜': [
         'Inimă violet',
-        'Te iubesc'
+        ':purple_heart:',
+        'Te iubesc',
+        ':purple:'
     ],
     '🖤': [
         'Inimă Neagră',
+        ':black_heart:',
         'Inimă întunecată',
-        'Te iubesc'
+        'Te iubesc',
+        ':black:'
     ],
     '🤍': [
         'Inimă Albă',
-        'Te iubesc'
+        ':white_heart:',
+        'Te iubesc',
+        ':white:'
     ],
     '🤎': [
         'Inimă maro',
-        'Te iubesc'
+        ':brown_heart:',
+        'Te iubesc',
+        ':brown:'
     ],
     '💯': [
         'Puncte',
+        ':hundred_points:',
         '100',
         '%',
         'Păstraţi-l 100',
@@ -2009,16 +3323,21 @@ emojis_language[lang][5] = {
     ],
     '💬': [
         'Balon de vorbire',
+        ':speech_balloon:',
         'Căsuță de chat',
-        'Căsuță de vorbire'
+        'Căsuță de vorbire',
+        ':white:'
     ],
     '💭': [
         'Balon de Gândire',
+        ':thought_balloon:',
         'Căsuță de gândire',
-        'Căsuță de gândire'
+        'Căsuță de gândire',
+        ':white:'
     ],
     '💤': [
         'Zi',
+        ':zzz:',
         'Oră de patare',
         'Îmblânzire',
         'Somn',
@@ -2026,45 +3345,54 @@ emojis_language[lang][5] = {
         'Simbol de somn'
     ],
     '♠': [
-        'Spade Suit',
+        'Costume de pânză',
+        ':spade_suit:',
         'Spades',
         'Black Spade Suit'
     ],
     '♥': [
-        'Heart Suit',
-        'Card With Heart',
-        'Hearts',
-        'Black Heart Suit'
+        'Costuri de inimă',
+        ':heart_suit:',
+        'Card cu inimă',
+        'Inimi',
+        'Costum de inimă Neagră'
     ],
     '♦': [
-        'Diamond Suit',
-        'Diamonds',
-        'Black Diamond Suit'
+        'Costum de diamant',
+        ':diamond_suit:',
+        'Diamante',
+        'Costum de diamant negru'
     ],
     '♣': [
-        'Club Suit',
-        'Clubs',
-        'Black Club Suit'
+        'Costume de club',
+        ':club_suit:',
+        'Cluburi',
+        'Costum de Club Negru'
     ],
     '🏧': [
         'Semn ATM',
+        ':atm_sign:',
         'ATM',
-        'Mașina Automată a Telleer'
+        'Mașina Automată a Telleer',
+        ':blue:'
     ],
     '🎧': [
-        'Headphone',
-        'Earphone',
+        'Căști',
+        ':headphone:',
+        'Cască',
         'iPod',
-        'Headphones'
+        'Căști'
     ],
     '🎵': [
         'Notă Muzică',
+        ':musical_note:',
         'Pereche îngemănată din Note optime',
         'Pereche îngemănată din Quavers',
         'Notă Muzică'
     ],
     '🎶': [
         'Note muzicale',
+        ':musical_notes:',
         'Muzică',
         'Note muzicale',
         'Cântă',
@@ -2072,476 +3400,705 @@ emojis_language[lang][5] = {
     ],
     '🔔': [
         'Bell',
+        ':bell:',
         'Bell Libertatea',
         'Ringer',
-        'Nuntă Bell'
+        'Nuntă Bell',
+        ':yellow:'
     ],
     '🔕': [
         'Bell cu slash',
+        ':bell_with_slash:',
         'Notificări',
         'Sonerie dezactivată',
         'Bolt Bell',
-        'Sigla cu anulare'
+        'Sigla cu anulare',
+        ':yellow:'
     ],
     '🔈': [
         'Volum mic pentru difuzor',
+        ':speaker_low_volum:',
         'Volum',
         'Difuzor'
     ],
     '🔉': [
         'Volum mediu difuzor',
+        ':speaker_medium_volume:',
         'Reduce volumul',
         'Difuzor cu volum mediu',
         'Difuzor cu un singur sunet Wave'
     ],
     '🔊': [
         'Volum ridicat pentru difuzor',
+        ':speaker_high_volume:',
         'Crește volumul',
         'Vorbitor cu trei valuri de sunet'
     ],
     '🔇': [
         'Amuțit difuzorul',
+        ':muted_speaker:',
         'Volum mut',
         'Difuzor cu anulare'
     ],
     '📢': [
         'Loudspeaker',
-        'Announcement',
-        'PA System',
-        'Public Address Loudspeaker',
-        ''
+        ':loudspeaker:',
+        'Anunţ',
+        'Sistem PA',
+        'Adresă publică Loudspeaker'
     ],
-    '⛔': ['Nici o intrare'],
+    '⛔': [
+        'Nici o intrare',
+        ':no_entry:',
+        ':red:'
+    ],
     '🚫': [
         'Interzis',
+        ':prohibited:',
         'Interzis',
         'Cerc backslash',
         'Nr',
         'Cerc roșu traversat',
         'Restricționat',
-        'Fără semn de intrare'
+        'Fără semn de intrare',
+        ':red:'
     ],
     '🚳': [
         'Fără biciclete',
-        'Niciun semn de bicicletă'
+        ':no_bicycles:',
+        'Niciun semn de bicicletă',
+        ':red:',
+        ':black:'
     ],
     '🚭': [
         'Fără fumat',
-        'Fără simbol de fumat'
+        ':no_smoking:',
+        'Fără simbol de fumat',
+        ':red:',
+        ':black:'
     ],
     '🚯': [
         'Fără litterizare',
-        'Nu utilizaţi simbol Litter'
+        ':no_littering:',
+        'Nu utilizaţi simbol Litter',
+        ':red:',
+        ':black:'
     ],
     '🚱': [
         'Apa nepotabilă',
+        ':non-potable_water:',
+        ':non_potable_water:',
         'Fără apă',
         'Fără apă potabilă',
-        'Simbol de apă nepotabil'
+        'Simbol de apă nepotabil',
+        ':red:',
+        ':black:'
     ],
     '🚷': [
         'Niciun pieton',
+        ':no_pedestrians:',
         'Nicio persoană',
-        'Fără mers'
+        'Fără mers',
+        ':red:',
+        ':black:'
     ],
     '🔞': [
         'Fără unul sub optsprezece',
+        ':no_one_under_18:',
         'NSFW',
         'Niciun simbol sub optsprezece',
-        '18'
+        '18',
+        ':red:',
+        ':black:'
     ],
     '📵': [
         'Niciun telefon mobil',
+        ':no_mobile_phones:',
         'Niciun telefon mobil',
         'Niciun telefon',
-        'Niciun Smartphone'
+        'Niciun Smartphone',
+        ':red:',
+        ':black:'
     ],
     '☢️': [
         'Radioactive',
+        ':radioactive:',
         'Simbol internațional de radiații',
         'Nucleară',
-        'Semn radioactiv'
+        'Semn radioactiv',
+        ':orange:'
     ],
     '☣️': [
         'Risc biologic',
-        'Semn cu pericol biologic'
+        ':biohazard:',
+        'Semn cu pericol biologic',
+        ':orange:'
     ],
     '⬆️': [
-        'Săgeată sus',
+        'Butonul Săgeată sus',
+        ':up_arrow_button:',
         'Înclinare săgeată sus',
-        'Săgeată neagră în sus'
+        'Săgeată neagră în sus',
+        ':blue:'
     ],
     '↗️': [
-        'Săgeată sus-dreapta',
+        'Buton sus - Dreapta',
+        ':up-right_arrow_button:',
+        ':up_right_arrow_button:',
         'Săgeată diagonală sus-dreapta',
-        'Săgeată de nord-est'
+        'Săgeată de nord-est',
+        ':blue:'
     ],
     '➡️': [
-        'Săgeată dreapta',
+        'Buton săgeată dreapta',
+        ':right_arrow_button:',
         'Punctaj săgeată la dreapta',
-        'Săgeată Dreapta Neagră'
+        'Săgeată Dreapta Neagră',
+        ':blue:'
     ],
     '↘️': [
-        'Săgeată jos-dreapta',
+        'Buton săgeată jos dreapta',
+        ':down-right_arrow_button:',
+        ':down_right_arrow_button:',
         'Săgeată diagonală descendentă',
-        'Săgeată sud-estică'
+        'Săgeată sud-estică',
+        ':blue:'
     ],
     '⬇️': [
-        'Săgeată jos',
+        'Buton săgeată jos',
+        ':down_arrow_button:',
         'Punct săgeată Jos',
-        'Săgeată neagră în jos'
+        'Săgeată neagră în jos',
+        ':blue:'
     ],
     '↙️': [
-        'Săgeată jos-stânga',
+        'Buton săgeată jos stânga',
+        ':down-left_arrow_button:',
+        ':down_left_arrow_button:',
         'Săgeată diagonală-Stânga',
-        'Săgeată de Sud-Vest'
+        'Săgeată de Sud-Vest',
+        ':blue:'
     ],
     '⬅️': [
-        'Săgeată la stânga',
+        'Buton săgeată stânga',
+        ':left_arrow_button:',
         'Punct săgeată la stânga',
-        'Săgeată Neagră la stânga'
+        'Săgeată Neagră la stânga',
+        ':blue:'
     ],
     '↖️': [
-        'Săgeată sus-stânga',
+        'Buton sus-stânga săgeată',
+        ':up-left_arrow_button:',
+        ':up_left_arrow_button:',
         'Săgeată diagonală sus-stânga',
-        'Săgeată de nord-vest'
+        'Săgeată de nord-vest',
+        ':blue:'
     ],
     '↕️': [
-        'Săgeată ascendentă',
+        'Butonul Săgeată Up-Jos',
+        ':up-down_arrow_button:',
+        ':up_down_arrow_button:',
         'Săgeți verticale',
-        'Săgeată în jos'
+        'Săgeată în jos',
+        ':blue:'
     ],
     '↔️': [
-        'Săgeată stânga-dreapta',
+        'Buton săgeată stânga-dreapta',
+        ':left-right_arrow_button:',
+        ':left_right_arrow_button:',
         'Săgeți orizontale',
         'Săgeți Sideways',
-        'Săgeată dreapta la stânga'
+        'Săgeată dreapta la stânga',
+        ':blue:'
     ],
     '↩️': [
-        'Săgeată dreapta curbată la stânga',
+        'Buton Curbare Săgeată Dreapta Stânga',
+        ':right_arrow_curving_left_button:',
         'Răspuns prin e-mail',
         'Săgeată curbată la stânga',
-        'Săgeată stânga cu Cârlig'
+        'Săgeată stânga cu Cârlig',
+        ':blue:'
     ],
     '↪️': [
-        'Săgeată stânga curbată la dreapta',
+        'Buton Curbare Dreapta Săgeată Stânga',
+        ':left_arrow_curving_right_button:',
         'Redirecționare e-mail',
         'Săgeată curbată dreapta',
-        'Săgeată dreapta cu Cârlig'
+        'Săgeată dreapta cu Cârlig',
+        ':blue:'
     ],
     '⤴️': [
-        'Săgeată dreapta în sus',
-        'Săgeată punctire Dreaptă apoi curbă în sus'
+        'Butonul Curbare Săgeată dreapta sus',
+        ':right_arrow_curving_up_button:',
+        'Săgeată punctire Dreaptă apoi curbă în sus',
+        ':blue:'
     ],
     '⤵️': [
-        'Săgeată dreapta curbată jos',
+        'Buton Curbare Săgeată dreapta',
+        ':right_arrow_curving_down_button:',
         'Săgeată curbată în jos',
-        'Săgeată punctire Dreaptă apoi curbând în jos'
+        'Săgeată punctire Dreaptă apoi curbând în jos',
+        ':blue:'
     ],
     '🔃': [
-        'Săgeți verticale în sensul acelor de ceasornic',
-        'Ceaswise Downwards și Upwards Open Circle Arrows'
+        'Buton Săgeți Verticale',
+        ':clockwise_vertical_button:',
+        'Ceaswise Downwards și Upwards Open Circle Arrows',
+        ':blue:'
     ],
     '🔄': [
         'Buton Săgeți în sens antiorar',
+        ':counterclockwise_button:',
         'Împrospătează',
         'Rotire',
         'Comutare',
         'Săgeți în sens orar',
-        'Anticorpic în jos şi în sus Open Circle Arrows'
+        'Anticorpic în jos şi în sus Open Circle Arrows',
+        ':blue:'
     ],
     '🔙': [
         'Săgeată înapoi',
+        ':back_arrow:',
         'Înapoi',
-        'Înapoi cu săgeată stânga deasupra'
+        'Înapoi cu săgeată stânga deasupra',
+        ':black:'
     ],
     '🔚': [
         'Termină săgeata',
+        ':end_arrow:',
         'Sfârșit',
-        'Termină cu săgeată stânga deasupra'
+        'Termină cu săgeată stânga deasupra',
+        ':black:'
     ],
     '🔛': [
         'Pornit! Săgeată',
+        ':on_arrow:',
         'Activat',
-        'Pe lângă semnul exclamării cu Săgeata Dreapta Stânga deasupra'
+        'Pe lângă semnul exclamării cu Săgeata Dreapta Stânga deasupra',
+        ':black:'
     ],
     '🔜': [
         'Săgeată în curând',
+        ':soon_arrow:',
         'Curând',
-        'Curând cu săgeata Dreaptă deasupra'
+        'Curând cu săgeata Dreaptă deasupra',
+        ':black:'
     ],
     '🔝': [
         'Săgeată de sus',
+        ':top_arrow:',
         'Sus',
-        'Top cu săgeată deasupra'
+        'Top cu săgeată deasupra',
+        ':black:'
     ],
     '🛐': [
         'Locul lucrării',
-        'Clădire religioasă'
+        ':place_of_worship:',
+        'Clădire religioasă',
+        ':purple:'
     ],
-    '⚛️': ['Simbol Atom'],
+    '⚛️': [
+        'Simbol Atom',
+        ':atom_symbol:',
+        ':purple:'
+    ],
     '🕉️': [
         'Simbol Om',
+        ':om_symbol:',
         'Om',
         'Aumkara',
         'Omkara',
-        'Pranava'
+        'Pranava',
+        ':purple:'
     ],
     '✡️': [
         'Steaua lui David',
-        'Magen David'
+        ':star_of_david:',
+        'Magen David',
+        ':purple:'
     ],
     '☸️': [
         'Roată de Dharma',
-        'Coif'
+        ':wheel_of_dharma:',
+        'Coif',
+        ':purple:'
     ],
-    '☯️': ['Yin Yang'],
+    '☯️': [
+        'Yin Yang',
+        ':yin_yang:',
+        ':purple:'
+    ],
     '✝️': [
         'Crucea Latină',
-        'Crucea Creștină'
+        ':latin_cross:',
+        'Crucea Creștină',
+        ':purple:'
     ],
-    '☦️': ['Crucea ortodoxă'],
-    '☪️': ['Stea și Semilună'],
+    '☦️': [
+        'Crucea ortodoxă',
+        ':orthodox_cross:',
+        ':purple:'
+    ],
+    '☪️': [
+        'Stea și Semilună',
+        ':star_and_crescent:',
+        ':purple:'
+    ],
     '☮️': [
         'Simbol de pace',
-        'Semn de pace'
+        ':peace:',
+        'Semn de pace',
+        ':purple:'
     ],
     '🕎': [
         'Meniu',
+        ':menorah:',
         'Candelabrum',
         'Lumânări',
         'Chanukia',
         'Meniu',
-        'Menora cu nouă ramuri'
+        'Menora cu nouă ramuri',
+        ':purple:'
     ],
     '🔯': [
         'Steaua punctată cu şase puncte',
-        'Sase Puncte Steaua cu Punct Mijlociu'
+        ':dotted_six-pointed_star:',
+        ':dotted_six_pointed_star:',
+        'Sase Puncte Steaua cu Punct Mijlociu',
+        ':purple:'
     ],
     '♈': [
         'Râuri',
-        'Zona'
+        ':aries:',
+        ':zodiac:',
+        'Zona',
+        ':purple:'
     ],
     '♉': [
         'Taurus',
-        'Zona'
+        ':taurus:',
+        ':zodiac:',
+        'Zona',
+        ':purple:'
     ],
     '♊': [
         'Gemini',
-        'Zona'
+        ':gemini:',
+        ':zodiac:',
+        'Zona',
+        ':purple:'
     ],
     '♋': [
         'Cancer',
-        'Zona'
+        ':cancer:',
+        ':zodiac:',
+        'Zona',
+        ':purple:'
     ],
     '♌': [
         'Leo',
-        'Zona'
+        ':leo:',
+        ':zodiac:',
+        'Zona',
+        ':purple:'
     ],
     '♍': [
         'Fecioară',
-        'Zona'
+        ':virgo:',
+        ':zodiac:',
+        'Zona',
+        ':purple:'
     ],
     '♎': [
         'Biblioteca',
-        'Zona'
+        ':libra:',
+        ':zodiac:',
+        'Zona',
+        ':purple:'
     ],
     '♏': [
         'Scorpio',
+        ':scorpio:',
+        ':zodiac:',
         'Scorpius',
-        'Zona'
+        'Zona',
+        ':purple:'
     ],
     '♐': [
         'Sagittarius',
-        'Zona'
+        ':sagittarius:',
+        ':zodiac:',
+        'Zona',
+        ':purple:'
     ],
     '♑': [
         'Capricorn',
-        'Zona'
+        ':capricorn:',
+        ':zodiac:',
+        'Zona',
+        ':purple:'
     ],
     '♒': [
         'Acvariu',
-        'Zona'
+        ':aquarius:',
+        ':zodiac:',
+        'Zona',
+        ':purple:'
     ],
     '♓': [
         'Pisces',
-        'Zona'
+        ':pisces:',
+        ':zodiac:',
+        'Zona',
+        ':purple:'
     ],
     '⛎': [
         'Ophiuchus',
-        'Zona'
+        ':ophiuchus:',
+        ':zodiac:',
+        'Zona',
+        ':purple:'
     ],
     '⏭️': [
-        'Triunghi dublu în dreapta negru, cu bară verticală',
         'Omite simbolul înainte',
-        'Următorul buton piesă'
+        'Triunghi dublu în dreapta negru, cu bară verticală',
+        ':skip_forward_button:',
+        'Următorul buton piesă',
+        ':blue:'
     ],
     '⏮️': [
-        'Triunghi Dublu Punct Negru cu Bară Verticală',
         'Sari peste simbolul înapoi',
+        'Triunghi Dublu Punct Negru cu Bară Verticală',
+        ':skip_backward_button:',
         'Ultimul buton de urmărire',
-        'Pistă anterioară'
+        'Pistă anterioară',
+        ':blue:'
     ],
     '⏯️': [
-        'Triunghi întunecat în dreapta cu bară verticală dublă',
         'Butonul de redare sau pauză',
+        'Triunghi întunecat în dreapta cu bară verticală dublă',
+        ':play_button:',
+        ':pause_button:',
+        ':play_or_pause_button:',
         'Simbol de joc',
-        'Simbol pauză'
+        'Simbol pauză',
+        ':blue:'
     ],
     '🔀': [
         'Amestecare buton șenile',
-        'Săgeți răsucite de dreapta'
+        ':shuffle_tracks_button:',
+        'Săgeți răsucite de dreapta',
+        ':blue:'
     ],
     '🔁': [
         'Butonul Repetă',
+        ':repeat_button:',
         'Simbol buclă',
         'Retweet',
-        'Săgeți dreapta ceasornic și stânga Deschideți săgețile cercului'
+        'Săgeți dreapta ceasornic și stânga Deschideți săgețile cercului',
+        ':blue:'
     ],
     '🔂': [
         'Butonul Repetă Singur',
+        ':repeat_single_button:',
         'Săgeți cerc cu numărul 1',
         'Simbol buclă o dată',
         'Simbol pentru o piesă repetă',
-        'Săgețile dreapta ceasornic și stânga Săgeți Circle Deschise cu Circled One Overlay'
+        'Săgețile dreapta ceasornic și stânga Săgeți Circle Deschise cu Circled One Overlay',
+        ':blue:'
     ],
     '▶️': [
         'Butonul de redare',
+        ':play_button:',
         'Triunghi dreapta',
         'Triunghiularul-dreapta',
-        'Triunghi întunecat în dreapta'
+        'Triunghi întunecat în dreapta',
+        ':blue:'
     ],
     '◀️': [
         'Butonul Inversare',
+        ':reverse_button:',
         'Triunghi stânga',
         'Triunghi punct-stânga',
-        'Triunghi întunecat în stânga'
+        'Triunghi întunecat în stânga',
+        ':blue:'
     ],
     '🔼': [
         'Buton sus',
+        ':upwards_button:',
         'Sus triunghi',
         'Up-Pointing Triangle',
-        'Amplasament mic triunghi roșu'
+        'Amplasament mic triunghi roșu',
+        ':blue:'
     ],
     '🔽': [
         'Buton jos',
+        ':downwards_button:',
         'Triunghi Jos',
         'Triunghi în Jos',
-        'Jos triunghi roşu mic'
+        'Jos triunghi roşu mic',
+        ':blue:'
     ],
     '⏩': [
         'Butonul Înaintare Rapidă',
+        ':fast-forward_button:',
+        ':fast_forward_button:',
         'Înaintare rapidă',
         'Simbol înainte rapid',
-        'Triunghi dublu cu puncte de dreapta negre'
+        'Triunghi dublu cu puncte de dreapta negre',
+        ':blue:'
     ],
     '⏪': [
         'Fast Reverse Button',
+        ':fast_reverse_button:',
         'Rewind',
         'Simbol de derulare',
-        'Triunghi Dublu Punct Negru de Stânga'
+        'Triunghi Dublu Punct Negru de Stânga',
+        ':blue:'
     ],
     '⏫': [
         'Butonul Rapid Sus',
+        ':fast_up_button:',
         'Triunghi dublu în sus',
-        'Triunghi dublu cu punct superior negru'
+        'Triunghi dublu cu punct superior negru',
+        ':blue:'
     ],
     '⏬': [
         'Buton Rapid',
+        ':fast_down_button:',
         'Triunghi dublu în jos',
-        'Triunghi Dublu Punct Negru'
+        'Triunghi Dublu Punct Negru',
+        ':blue:'
     ],
     '⏹️': [
         'Butonul Oprire',
+        ':stop_button:',
         'Oprește',
         'Oprește simbolul',
-        'Pătrat negru pentru oprire'
+        'Pătrat negru pentru oprire',
+        ':blue:'
     ],
     '⏏️': [
         'Butonul de scoatere',
-        'Eject Symbol'
+        ':eject_button:',
+        'Eject Symbol',
+        ':blue:'
     ],
     '🎦': [
         'Cinematograful',
+        ':cinema_button:',
         'Ecran de cinema',
         'Filme',
         'Film',
         'Simbol Cinema',
-        'Înregistrare'
+        'Înregistrare',
+        ':blue:'
     ],
     '📶': [
         'Bare antenă',
+        ':antenna_bars_button:',
         'Bare de recepție',
         'Putere semnal',
         'Stairs',
         'Simbol putere semnal',
-        'Antenă cu bare'
+        'Antenă cu bare',
+        ':blue:'
     ],
     '✖️': [
         'Multiplică',
+        ':multiply:',
+        'Timp',
         'Simbol Multiplicare',
-        'Multiplicare grea X'
+        'Multiplicare grea X',
+        ':black:'
     ],
     '➕': [
         'Plus',
+        ':plus:',
         'Simbol Plus',
-        'Semn greu Plus'
+        'Semn greu Plus',
+        ':black:'
     ],
     '➖': [
         'Minus',
+        ':minus:',
         'Minus Symbol',
-        'Semn inus greu'
+        'Semn inus greu',
+        ':black:'
     ],
     '➗': [
         'Împărțirea',
+        ':divide:',
         'Simbol de diviziune',
-        'Semn de diviziune greu'
+        'Semn de diviziune greu',
+        ':black:'
     ],
     '🟰': [
-        'Heavy Equals Sign',
-        'Result'
+        'Semnul Egalității Grei',
+        ':heavy_equals_sign:',
+        'Egal',
+        'Rezultat',
+        ':black:'
     ],
     '♾️': [
         'Infinitate',
+        ':infinity:',
         'Semn de hârtie permanentă'
     ],
     '‼️': [
         'Semn de Exclamație Dublă',
-        'Semn de Exclamație Roșie'
+        ':double_exclamation_mark:',
+        'Semn de Exclamație Roșie',
+        ':red:'
     ],
     '⁉️': [
         'Semn de Întrebare Exclamată',
-        'Semn de Exclamație Roșie și Semn de Întrebări'
+        ':exclamation_question_mark:',
+        'Semn de Exclamație Roșie și Semn de Întrebări',
+        ':red:'
     ],
     '❓': [
         'Marcare intrebare',
+        ':question_mark:',
         'Semn de întrebare roșie',
-        'Ornament de Marcare Întrebare Neagră'
+        'Ornament de Marcare Întrebare Neagră',
+        ':red:'
     ],
     '❔': [
         'Semn de întrebare albă',
+        ':white_question_mark:',
+        ':question_mark:',
         'Semn de întrebare albă',
-        'Ornament de Intrebare Alba'
+        'Ornament de Intrebare Alba',
+        ':white:'
     ],
     '❗': [
         'Semn de Exclamație',
+        ':exclamation_mark:',
         'Semn de Exclamație Roșie',
-        'Simbol de exclamare grea Mark'
+        'Simbol de exclamare grea Mark',
+        ':red:'
     ],
     '❕': [
         'Semn de Exclamație Albă',
-        'Ornament de Exclamație Albă'
+        ':white_exclamation_mark:',
+        ':exclamation_mark:',
+        'Ornament de Exclamație Albă',
+        ':white:'
     ],
     '⭕': [
         'Cerc roşu gol',
+        ':hollow_red_circle:',
         'Cerc',
         'Corect',
         'Cerc roșu',
         'Marcare cerc',
-        'Cerc mare greu'
+        'Cerc mare greu',
+        ':red:'
     ],
     '☑️': [
         'Bifează căsuța cu Verificare',
+        ':check_box_with_check:',
         'V',
         'Casuta',
         'Bifează în caseta de marcare',
@@ -2549,351 +4106,530 @@ emojis_language[lang][5] = {
     ],
     '✔️': [
         'Bifează Marca',
+        ':check_mark:',
         'V',
         'Verifică',
         'Bijuterie',
         'Checkmark',
-        'Marcare de verificare grea'
+        'Marcare de verificare grea',
+        ':black:'
     ],
     '❌': [
         'Marcare transversală',
+        ':cross_mark:',
         'Crucea',
-        'l'
+        'l',
+        ':red:'
     ],
     '✅': [
         'Bifați butonul Mark',
+        ':check_mark_button:',
         'V',
         'Marc de verificare verde',
         'Bijuterie verde',
         'Bifează Marca',
-        'Semn de verificare alb greu'
+        'Semn de verificare alb greu',
+        ':green:'
     ],
     '❎': [
         'Butonul de marcaj transversal',
+        ':cross_mark_button:',
         'Crucea',
         'l',
         'X Marcare',
-        'Marcare cruce negativă'
+        'Marcare cruce negativă',
+        ':green:'
     ],
     '#️⃣': [
         'Semn cu tastatura',
+        ':hash_key:',
         '#',
         'Cheie Hash',
         'Hashtag',
         'Caracatiță',
         'Liră cheie',
-        'Semn de număr'
+        'Semn de număr',
+        ':blue:'
     ],
     '*️⃣': [
         'Keycap Asterisk',
-        'Capac cheie stea'
+        ':asterisk:',
+        'Capac cheie stea',
+        ':blue:'
     ],
     '0️⃣': [
         'Numărul 0',
+        ':number_0:',
         'Keycap Digit Zero'
     ],
     '1️⃣': [
         'Numărul 1',
+        ':number_1:',
         'Cheie Digit Unu'
     ],
     '2️⃣': [
         'Numărul 2',
+        ':number_2:',
         'Capac cheie - Cifra 2'
     ],
     '3️⃣': [
         'Numărul 3',
+        ':number_3:',
         'Capac cheie - trei'
     ],
     '4️⃣': [
         'Numărul 4',
+        ':number_4:',
         'Capac cheie - Patru'
     ],
     '5️⃣': [
         'Numărul 5',
+        ':number_5:',
         'Cifră cheie 5'
     ],
     '6️⃣': [
         'Numărul 6',
+        ':number_6:',
         'Șase cifre capsă cheie'
     ],
     '7️⃣': [
         'Numărul 7',
+        ':number_7:',
         'Keycap Digit Seven'
     ],
     '8️⃣': [
         'Numărul 8',
+        ':number_8:',
         'Cheie Cifră cu opt cifre'
     ],
     '9️⃣': [
-        'Numărul 09',
+        'Numărul 9',
+        ':number_9:',
         'Cifră cheie nouă'
     ],
     '🔟': [
         'Numărul 10',
+        ':number_10:',
         'Keycap: 10',
         '10',
         'Capac cheie - Zen'
     ],
     '🔠': [
         'Input Latin Uppercase',
+        ':input_latin_uppercase:',
         'ABCD',
         'Uppercase',
         'Simbol de intrare pentru literele mari',
-        'Simbol de intrare pentru literele de capital latin'
+        'Simbol de intrare pentru literele de capital latin',
+        ':blue:'
     ],
     '🔡': [
         'Input Latin Lowercase',
+        ':input_latin_lowercase:',
         'abcd',
         'Mici',
         'Simbol de intrare pentru litere mici',
-        'Simbol de intrare pentru litere latine mici'
+        'Simbol de intrare pentru litere latine mici',
+        ':blue:'
     ],
     '🔢': [
         'Input Numbers',
+        ':input_numbers:',
         '1234',
         'Numere',
         'Numeric Input',
-        'Simbol de intrare pentru numere'
+        'Simbol de intrare pentru numere',
+        ':blue:'
     ],
     '🔣': [
         'Simbol de intrare pentru simboluri',
+        ':input_symbols:',
         'Simboluri',
-        'Intrare simbol'
+        'Intrare simbol',
+        ':blue:'
     ],
     '🔤': [
         'Input Latin Letters',
+        ':input_latin_letters:',
         'abc',
         'Alfabet',
         'Litere',
         'Simbol de intrare pentru litere',
-        'Simbol de intrare pentru litere latine'
+        'Simbol de intrare pentru litere latine',
+        ':blue:'
     ],
     '🅰️': [
         'Un buton (Tip de sânge)',
+        ':a_blood:',
         'Sângele tip A',
         'Litera A',
-        'Litera A de capital latin negativ'
+        'Litera A de capital latin negativ',
+        ':red:'
     ],
     '🆎': [
         'Buton AB (Tip de cuvânt)',
+        ':ab_blood:',
         'Litere AB',
         'Sângele tip AB',
-        'AB pătrat negativ'
+        'AB pătrat negativ',
+        ':red:'
     ],
     '🅱️': [
         'Buton B (Tip de sânge)',
+        ':b_blood:',
         'Scrisoarea B',
         'Tip B de sânge',
-        'Litera B de capital latin negativ'
+        'Litera B de capital latin negativ',
+        ':red:'
     ],
     '🆑': [
         'Buton CL',
+        ':cl_button:',
         'Curăță',
         'Butonul Golire',
         'Semn CL',
         'CL păşit',
-        'Litere CL'
+        'Litere CL',
+        ':red:'
     ],
     '🆒': [
         'Buton Rece',
+        ':cool_button:',
         'Patrat Grozav',
         'Semn interesant',
-        'Cool pătrat'
+        'Cool pătrat',
+        ':blue:'
     ],
     '🆓': [
         'Buton Gratuit',
+        ':free_button:',
         'Gratuit',
         'Semn gratuit',
-        'Gratuit Gratuit'
+        'Gratuit Gratuit',
+        ':blue:'
     ],
     'ℹ️': [
         'Informare',
+        ':info_button:',
         'Info',
         'Mici I',
         'Informaţii turistice',
-        'Sursa Informației'
+        'Sursa Informației',
+        ':blue:'
     ],
     '🆔': [
         'Buton ID',
+        ':id_button:',
         'ID',
         'Identificare',
         'Semnul de identificare',
-        'ID pătrat.'
+        'ID pătrat.',
+        ':purple:'
     ],
     '🆕': [
         'Buton nou',
+        ':new_button:',
         'Nou',
         'Semn Nou',
-        'Nou pătrat'
+        'Nou pătrat',
+        ':blue:'
     ],
     '🅾️': [
         'Buton O (Tip de cuvânt)',
+        ':0_blood:',
         'Tip de sânge O',
         '0',
         'Litera latină negativă de capital',
-        'Scrisoarea O'
+        'Scrisoarea O',
+        ':red:'
     ],
     '🆗': [
         'Butonul OK',
+        ':ok_button:',
         'Ok',
         'Bine',
         'Patrat',
         'Semnare OK',
-        'Păstrat OK'
+        'Păstrat OK',
+        ':blue:'
     ],
     '🅿️': [
         'Butonul P',
+        ':p_button:',
+        ':parking_sign:',
         'Semn de parcare',
         'Litera latină negativă de capital',
-        'Scrisoarea P'
+        'Scrisoarea P',
+        ':blue:'
     ],
     '🆘': [
         'Buton SOS',
+        ':sos_button:',
         'Semnal de pericol',
         'Urgență',
         'SOS',
         'Semn SOS',
         'SOS pătrat',
-        'Ajutor'
+        'Ajutor',
+        ':red:'
     ],
     '🆙': [
         'Up! Buton',
+        ':up_button:',
         'Nivel Sus',
         'Sus',
         'Înregistrează-te sus',
-        'Squared Up cu Exclamation Mark'
+        'Squared Up cu Exclamation Mark',
+        ':blue:'
     ],
     '🆚': [
         'Butonul V',
-        'Vs pătrate'
+        ':vs_button:',
+        'Vs pătrate',
+        ':orange:'
     ],
     '🆖': [
         'Buton NG',
+        ':ng_button:',
         'NG pătrat',
         'Niciun semn bun',
         'Nici un Bun',
-        'NG',
-        'Boloper'
+        ':ng:',
+        'Boloper',
+        ':blue:'
     ],
     '🔴': [
         'Cerc roșu',
-        'Cerc roşu mare'
+        ':red_circle:',
+        'Cerc roşu mare',
+        ':red:'
     ],
     '🟠': [
         'Cerc portocaliu',
-        'Cerc portocaliu mare'
+        ':orange_circle:',
+        'Cerc portocaliu mare',
+        ':orange:'
     ],
     '🟡': [
         'Cerc galben',
-        'Cerc mare galben'
+        ':yellow_circle:',
+        'Cerc mare galben',
+        ':yellow:'
     ],
     '🟢': [
         'Cerc verde',
-        'Cerc verde mare'
+        ':green_circle:',
+        'Cerc verde mare',
+        ':green:'
     ],
     '🔵': [
         'Cerc albastru',
-        'Cerc albastru mare'
+        ':blue_circle:',
+        'Cerc albastru mare',
+        ':blue:'
     ],
     '🟣': [
         'Cerc Violet',
-        'Cerc mare violet'
+        ':purple_circle:',
+        'Cerc mare violet',
+        ':purple:'
     ],
     '🟤': [
         'Cerc maro',
-        'Cerc maro mare'
+        ':brown_circle:',
+        'Cerc maro mare',
+        ':brown:'
     ],
     '⚫': [
         'Cerc negru',
-        'Cerc mediu negru'
+        ':black_circle:',
+        'Cerc mediu negru',
+        ':black:'
     ],
     '⚪': [
         'Cerc alb',
-        'Cerc mediu alb'
+        ':white_circle:',
+        'Cerc mediu alb',
+        ':white:'
     ],
     '🟥': [
         'Pătrat roșu',
-        'Pătrat roșu mare'
+        ':red_square:',
+        'Pătrat roșu mare',
+        ':red:'
     ],
     '🟧': [
         'Pătrat portocaliu',
-        'Pătrat Portocaliu Mare'
+        ':orange_square:',
+        'Pătrat Portocaliu Mare',
+        ':orange:'
     ],
     '🟨': [
         'Patrat galben',
-        'Patrat Galben mare'
+        ':yellow_square:',
+        'Patrat Galben mare',
+        ':yellow:'
     ],
     '🟩': [
         'Patrat Verde',
-        'Pătrat verde mare'
+        ':green_square:',
+        'Pătrat verde mare',
+        ':green:'
     ],
     '🟦': [
         'Pătrat albastru',
-        'Pătrat albastru mare'
+        ':blue_square:',
+        'Pătrat albastru mare',
+        ':blue:'
     ],
     '🟪': [
         'Pătrat Violet',
-        'Pătrat Violet Mare'
+        ':purple_square:',
+        'Pătrat Violet Mare',
+        ':purple:'
     ],
     '🟫': [
         'Pătrat maro',
-        'Pătrat maro mare'
+        ':brown_square:',
+        'Pătrat maro mare',
+        ':brown:'
     ],
-    '⬛': ['Pătrat Mare Neagră'],
-    '⬜': ['Pătrat Mare Alb'],
-    '◼️': ['Pătrat mediu negru'],
-    '◻️': ['Pătrat mediu alb'],
-    '◾': ['Pătrat mic mediu negru'],
-    '◽': ['Pătrat mic mediu alb'],
-    '▪️': ['Pătrat mic'],
-    '▫️': ['Pătrat Mic Alb'],
+    '⬛': [
+        'Pătrat Mare Neagră',
+        ':black_large_square:',
+        ':black:'
+    ],
+    '⬜': [
+        'Pătrat Mare Alb',
+        ':white_large_square:',
+        ':white:'
+    ],
+    '◼️': [
+        'Pătrat mediu negru',
+        ':black_medium_square:',
+        ':black:'
+    ],
+    '◻️': [
+        'Pătrat mediu alb',
+        ':white_medium_square:',
+        ':white:'
+    ],
+    '◾': [
+        'Pătrat mic mediu negru',
+        ':black_medium_small_square:',
+        ':black:'
+    ],
+    '◽': [
+        'Pătrat mic mediu alb',
+        ':white_medium_small_square:',
+        ':white:'
+    ],
+    '▪️': [
+        'Pătrat mic',
+        ':black_small_square:',
+        ':black:'
+    ],
+    '▫️': [
+        'Pătrat Mic Alb',
+        ':white_small_square:',
+        ':white:'
+    ],
     '💠': [
         'Formă de diamant cu un punct în interior',
+        ':diamond_shape_with_dot:',
         'Vărsăturie',
         'Floare Diamant',
         'Povestiri'
     ],
-    '🔶': ['Diamant Portocaliu Mare'],
-    '🔷': ['Diamant albastru mare'],
-    '🔸': ['Diamant Portocaliu mic'],
-    '🔹': ['Diamant albastru mic'],
+    '🔶': [
+        'Diamant Portocaliu Mare',
+        ':large_orange_diamond:',
+        ':orange:'
+    ],
+    '🔷': [
+        'Diamant albastru mare',
+        ':large_blue_diamond:',
+        ':blue:'
+    ],
+    '🔸': [
+        'Diamant Portocaliu mic',
+        ':small_orange_diamond:',
+        ':orange:'
+    ],
+    '🔹': [
+        'Diamant albastru mic',
+        ':small_blue_diamond:',
+        ':blue:'
+    ],
     '🔺': [
         'Triunghi Roșu îndreptat în sus',
-        'Triunghi Roșu în Superior'
+        ':red_triangle_pointed_up:',
+        'Triunghi Roșu în Superior',
+        ':red:'
     ],
     '🔻': [
         'Triunghi Roșu Punctat Jos',
-        'Triunghi Roșu în Jos'
+        ':red_triangle_pointed_down:',
+        'Triunghi Roșu în Jos',
+        ':red:'
     ],
-    '🔳': ['Buton Pătrat Alb'],
-    '🔲': ['Buton pătrat Negru'],
+    '🔳': [
+        'Buton Pătrat Alb',
+        ':white_square_button:',
+        ':white:',
+        ':black:'
+    ],
+    '🔲': [
+        'Buton pătrat Negru',
+        ':black_square_button:',
+        ':white:',
+        ':black:'
+    ],
     '©️': [
         'Drepturi de autor',
+        ':copyright:',
+        ':c:',
         'Semn drepturi de autor'
     ],
     '®️': [
         'Înregistrat',
+        ':registered:',
+        ':r:',
         'Semn înregistrat'
     ],
     '™️': [
         'Marca comercială',
-        'MT',
+        ':trade_mark:',
+        ':tm:',
         'Marca',
         'Semn de comerț'
     ],
     '🛅': [
         'Lovitură stânga',
+        ':left_luggage:',
         'Coș cu cheie',
-        'Suitcase blocat'
+        'Suitcase blocat',
+        ':blue:'
     ],
-    '🛄': ['Cerere de bagaje'],
-    '🛃': ['Vamă'],
+    '🛄': [
+        'Cerere de bagaje',
+        ':baggage_claim:',
+        ':blue:'
+    ],
+    '🛃': [
+        'Vamă',
+        ':customs:',
+        ':blue:'
+    ],
     '🛂': [
         'Controlul pașaportului',
-        'Controlul la frontiere'
+        ':passport_control:',
+        'Controlul la frontiere',
+        ':blue:'
     ],
     '🚰': [
         'Simbol de apă potabil',
+        ':potable_water_symbol:',
         'Sete',
         'Sete',
         'Atingeți apa',
@@ -2901,343 +4637,487 @@ emojis_language[lang][5] = {
     ],
     '🇦': [
         'Litera A',
+        ':letter_a:',
+        ':a:',
         'Scrisoare cu simbol A a indicatorului regional'
     ],
     '🇧': [
         'Scrisoarea B',
+        ':letter_b:',
+        ':b:',
         'Simbolul indicatorului regional litera B'
     ],
     '🇨': [
         'Scrisoarea C',
+        ':letter_c:',
+        ':c:',
         'Simbol indicator regional litera C'
     ],
     '🇩': [
         'Scrisoarea D',
+        ':letter_d:',
+        ':d:',
         'Simbolul indicatorului regional D'
     ],
     '🇪': [
         'Scrisoarea E',
+        ':letter_e:',
+        ':e:',
         'Simbolul indicatorului regional E'
     ],
     '🇫': [
         'Scrisoarea F',
+        ':letter_f:',
+        ':f:',
         'Simbolul indicatorului regional litera F'
     ],
     '🇬': [
         'Scrisoarea G',
+        ':letter_g:',
+        ':g:',
         'Simbolul indicatorului regional litera G'
     ],
     '🇭': [
         'Scrisoarea H',
+        ':letter_h:',
+        ':h:',
         'Simbolul indicatorului regional litera H'
     ],
     '🇮': [
         'Scrisoarea I',
+        ':letter_i:',
+        ':i:',
         'Simbolul indicatorului regional I'
     ],
     '🇯': [
         'Scrisoarea J',
+        ':letter_j:',
+        ':j:',
         'Indicator regional Simbolul literei J'
     ],
     '🇰': [
         'Scrisoarea K',
+        ':letter_k:',
+        ':k:',
         'Simbolul indicatorului regional K'
     ],
     '🇱': [
         'Scrisoarea L',
+        ':letter_l:',
+        ':l:',
         'Indicator regional simbol literă L'
     ],
     '🇲': [
         'Scrisoarea M',
+        ':letter_m:',
+        ':m:',
         'Scrisoare cu simbolul indicatorului regional M'
     ],
     '🇳': [
         'Scrisoarea N',
+        ':letter_n:',
+        ':n:',
         'Simbolul indicatorului regional litera N'
     ],
     '🇴': [
         'Scrisoarea O',
+        ':letter_o:',
+        ':o:',
         'Scrisoare cu simbol regional a indicatorului O'
     ],
     '🇵': [
         'Scrisoarea P',
+        ':letter_p:',
+        ':p:',
         'Simbolul indicatorului regional litera P'
     ],
     '🇶': [
         'Scrisoarea Q',
+        ':letter_q:',
+        ':q:',
         'Simbolul indicatorului regional Q'
     ],
     '🇷': [
         'Scrisoarea R',
+        ':letter_r:',
+        ':r:',
         'Simbolul indicatorului regional R'
     ],
     '🇸': [
         'Scrisoarea S',
+        ':letter_s:',
+        ':s:',
         'Scrisoare Simbolul Indicatorului regional S'
     ],
     '🇹': [
         'Scrisoarea T',
+        ':letter_t:',
+        ':t:',
         'Simbolul indicatorului regional litera T'
     ],
     '🇺': [
         'Scrisoarea U',
+        ':letter_u:',
+        ':u:',
         'Indicator regional Symbol Scrisoarea U'
     ],
     '🇻': [
         'Scrisoarea V',
+        ':letter_v:',
+        ':v:',
         'Indicator regional Symbol Scrisoarea V'
     ],
     '🇼': [
         'Scrisoarea W',
+        ':letter_w:',
+        ':w:',
         'Simbolul indicatorului regional V'
     ],
     '🇽': [
         'Litera X',
+        ':letter_x:',
+        ':x:',
         'Simbolul indicatorului regional litera X'
     ],
     '🇾': [
         'Litera Y',
+        ':letter_y:',
+        ':y:',
         'Litera indicatorului regional Y'
     ],
     '🇿': [
         'Litera Z',
+        ':letter_z:',
+        ':z:',
         'Indicator regional Symbol Scrisoarea Z'
     ],
     '💌': [
         'Scrisoare de dragoste',
+        ':love_letter:',
         'Plicul Inimii',
         'Notă Dragoste'
     ],
     '🚮': [
         'Pune Litter în locul său Symbol',
+        ':put_litter_in_bing_sign:',
         'Litter în panoul de gunoi',
         'Pune litrul în gunoi',
         'Persoană cu gunoi'
     ],
     '♿': [
         'Simbol scaun rulant',
+        ':wheelchair_symbol:',
         'Baie accesibilă'
     ],
     '🚹': [
         'Simbol Stiluri',
-        'Simbol Masculin',
+        ':mens_symbol:',
+        'Simbol Stiluri',
         'Toaletă multiplă',
         'Restaurare Masculin',
-        'WC masculin'
+        'WC masculin',
+        ':blue:'
     ],
     '🚺': [
         'Simbol femei',
-        'Simbol pentru femei',
+        ':womens_symbol:',
+        'Simbol femei',
         'Toaletă pentru femei',
         'Restaurare Feminin',
-        'Familia WC'
+        'Familia WC',
+        ':purple:',
+        ':pink:'
     ],
     '🚻': [
         'Restaurare',
+        ':restroom:',
         'Semn de baie',
         'Semn de toaletă',
-        'Semn WC'
+        'Semn WC',
+        ':blue:'
     ],
     '🚼': [
         'Simbol Beaby',
+        ':baby_symbol:',
         'Staţia de schimbare a bebeluşului',
         'Simbolul de schimbare a bebeluşului',
-        'Nebunie'
+        'Nebunie',
+        ':orange:'
     ],
     '🚾': [
         'Closet pentru apă',
+        ':wc:',
         'WC',
-        'Toaletă WC'
+        'Toaletă WC',
+        ':blue:'
     ],
     '⚠️': [
         'Semn de avertizare',
-        'Simbol de alertă'
+        ':warning_sign:',
+        'Simbol de alertă',
+        ':yellow:'
     ],
     '🚸': [
         'Trecerea copiilor',
+        ':children_crossing:',
         'Traversarea copiilor',
-        'Trecerea scolilor'
+        'Trecerea scolilor',
+        ':yellow:'
     ],
     '🔅': [
         'Simbol luminozitate scăzută',
+        ':low_brightness_symbol:',
         'Buton întunecat',
         'Scade luminozitatea'
     ],
     '🔆': [
         'Simbol luminozitate ridicată',
+        ':high_brightness_symbol:',
         'Mărește luminozitatea',
         'Buton luminos'
     ],
     '📳': [
         'Mod Vibrare',
+        ':vibration_mode:',
         'Telefon cardiac',
-        'Mod Silențios'
+        'Mod Silențios',
+        ':orange:'
     ],
-    '📴': ['Telefon mobil oprit'],
+    '📴': [
+        'Telefon mobil oprit',
+        ':mobile_phone_off:',
+        ':orange:'
+    ],
     '〰️': [
         'Val',
-        'Dash Wavy'
+        'Dash Wavy',
+        ':wave:'
     ],
-    '💱': ['Schimb valutar'],
+    '💱': [
+        'Schimb valutar',
+        ':currency_exchange:'
+    ],
     '💲': [
         'Semn pentru dolar greu',
+        ':dollar_symbol:',
         'Dolar',
         'Semn Dolar'
     ],
     '♻️': [
         'Simbol de Reciclare Universală Negru',
+        ':recycling_symbol:',
         'Simbol de reciclare',
-        'Logo de reciclare'
+        'Logo de reciclare',
+        ':green:'
     ],
     '🔱': [
         'Emblema Trident',
+        ':trident_emblem:',
         'Furcă',
         'Trident'
     ],
     '📛': [
         'Nume ecuson',
+        ':name_badge:',
         'Tofu pe foc',
         'Nume Etichetă',
         'Etichetă de incendiu'
     ],
     '🔰': [
         'Simbol japonez pentru Beginner',
+        ':japanese_symbol_beginner:',
         'Semn de shinsha',
-        'Scut verde galben'
+        'Scut verde galben',
+        ':green:',
+        ':yellow:'
     ],
     '➰': [
         'Buclă curbă',
+        ':curly_loop:',
         'Buclă de curgere',
         'Buclă'
     ],
     '➿': [
         'Buclă curbată dublă',
+        ':double_curly_loop:',
         'Buclă dublă de curgere',
         'Mesagerie vocală'
     ],
     '〽️': [
         'Marcare Alternativă Part',
+        ':part_alternation_mark:',
         'M',
-        'McDonald\'s'
+        'McDonalds'
     ],
-    '✳️': ['Opt ciupit Asterisk'],
+    '✳️': [
+        'Opt ciupit Asterisk',
+        ':eight_spoked_asterisk:',
+        ':green:'
+    ],
     '✴️': [
         'Steaua Neagră cu opt puncte',
+        ':eight_pointed_star:',
         'Steaua portocalie',
-        'Opt puncte stea'
+        'Opt puncte stea',
+        ':orange:'
     ],
-    '❇️': ['Sparkle'],
+    '❇️': [
+        'Sparkle',
+        ':sparkle:',
+        ':green:'
+    ],
     'Ⓜ️': [
-        'Scrisoare cercată pentru capitala latină M',
         'Cerc M',
+        'Scrisoare cercată pentru capitala latină M',
+        ':circled_m:',
         'Metro',
-        'Cerc M'
+        ':blue:'
     ],
     '🈁': [
-        'Squared Katakana Koko',
         'Cuvântul japonez Semn înseamnă aici',
+        'Squared Katakana Koko',
+        ':japanese_here:',
         'Aici',
-        'Destinație'
+        'Destinație',
+        ':blue:'
     ],
     '🈂️': [
+        'Serviciul japonez pentru Semn Meaning sau tariful serviciului',
         'Squared Katakana Sa',
-        'Serviciul japonez pentru Semn Meaning sau tariful serviciului'
+        ':japanese_service:',
+        ':blue:'
     ],
     '🈷️': [
+        'Semn japonez înseamnă suma lunară',
         'Ideograful unificat CJK pătrat-6708',
+        ':japanese_monthly_amouny:',
         'Radicala 74',
         '月',
-        'Semn japonez înseamnă suma lunară'
+        ':orange:'
     ],
     '🈶': [
-        'Ideografie unificată CJK pătrat-6709',
         'Semn japonez înseamnă că nu este gratuit',
+        'Ideografie unificată CJK pătrat-6709',
+        ':japanese_own:',
         'Propriu',
-        '有'
+        '有',
+        ':orange:'
     ],
     '🈯': [
-        'Ideograful unificat CJK pătrat-6307',
         'Semn japonez Semnificativ Rezervat',
+        'Ideograful unificat CJK pătrat-6307',
+        ':japanese_reserved:',
         'Punct de amprentă',
-        '指'
+        '指',
+        ':green:'
     ],
     '🉐': [
-        'Avantaj ideografic cerc',
         'Semn japonez Înțelegere Bargain',
+        'Avantaj ideografic cerc',
+        ':japanese_acquire:',
         'Dobândire',
-        '得'
+        '得',
+        ':red:'
     ],
     '🈹': [
-        'Ideograful unificat CJK pătrat-5272',
         'Semn japonez Discount',
+        'Ideograful unificat CJK pătrat-5272',
+        ':japanese_discount:',
         'Reducere Bargain',
-        '割'
+        '割',
+        ':red:'
     ],
     '🈚': [
-        'Ideograful unificat CJK pătrat-7121',
         'Semnul japonez înseamnă fără taxă',
+        'Ideograful unificat CJK pătrat-7121',
+        ':japanese_lacking:',
         'Lacăt',
-        '無'
+        '無',
+        ':orange:'
     ],
     '🈲': [
-        'Ideograful unificat CJK pătrat-7981',
         'Semn japonez Semn Interzis',
+        'Ideograful unificat CJK pătrat-7981',
+        ':japanese_prohibited:',
         'Forbid',
-        '禁'
+        '禁',
+        ':red:'
     ],
     '🉑': [
-        'Accept de ideografie cerc',
         'Semn japonez înseamnă acceptabil',
-        'Acceptă'
+        'Accept de ideografie cerc',
+        ':japanese_accept:',
+        'Acceptă',
+        ':orange:'
     ],
     '🈸': [
-        'Ideografie unificată CJK pătrat-7533',
         'Aplicație Semn Japoneză',
+        'Ideografie unificată CJK pătrat-7533',
+        ':japanese_application_form:',
         'Formular de cerere',
         'Maimuță',
         'Solicitare',
-        '申'
+        '申',
+        ':orange:'
     ],
     '🈴': [
-        'Ideograful unificat CJK pătrat-5408',
         'Semn japonez înseamnă trecerea (grilă)',
+        'Ideograful unificat CJK pătrat-5408',
+        ':japanese_agreement:',
         'Acord',
-        '合'
+        '合',
+        ':red:'
     ],
     '🈳': [
-        'Ideograful unificat CJK pătrat-7a7a',
         'Semn japonez înseamnă vacanță',
+        'Ideograful unificat CJK pătrat-7a7a',
+        ':japanese_available:',
         'gol și disponibil',
-        '空'
+        '空',
+        ':blue:'
     ],
     '㊗️': [
+        'Semn japonez Felicitări',
         'Felicitări pentru ideografia cercată',
-        'Semn japonez Felicitări'
+        ':japanese_congratulations:',
+        ':red:'
     ],
     '㊙️': [
         'Secret ideografic cerc',
+        ':japanese_secret:',
         'Semn japonez Semilun Secret',
-        'Secret'
+        'Secret',
+        ':red:'
     ],
     '🈺': [
-        'Ideograf unificat CJK pătrat-55b6',
         'Semn japonez înseamnă deschis pentru afaceri',
+        'Ideograf unificat CJK pătrat-55b6',
+        ':japanese_open_for_business:',
         'Muncă',
-        '営'
+        '営',
+        ':orange:'
     ],
     '🈵': [
-        'Ideograful unificat CJK pătrat-6e80',
         'Semn japonez înseamnă Full; Fără vacanță',
+        'Ideograful unificat CJK pătrat-6e80',
+        ':japanese_full:',
         'Complet',
-        '満'
+        '満',
+        ':red:'
     ],
-    '🔘': ['Buton radio'],
+    '🔘': [
+        'Buton radio',
+        ':radio_button:'
+    ],
     '🛑': [
         'Oprește Semnul',
-        'Semn octogonal'
+        ':stop_sign:',
+        'Semn octogonal',
+        ':red:'
     ],
     '⚕️': [
         'Simbol medical',
+        ':medical_symbol:',
         'Asemănător',
         'Asklepios',
         'Zona Asclepius',
@@ -3245,16 +5125,23 @@ emojis_language[lang][5] = {
     ],
     '🛗': [
         'Ascensiune',
+        ':elevator:',
+        ':lift:',
         'Ridicare'
     ],
-    '⚧️': ['Simbol transgen'],
+    '⚧️': [
+        'Simbol transgen',
+        ':transgender_sign:'
+    ],
     '♂️': [
         'Semn masculin',
+        ':male_sign:',
         'Simbol de om',
         'Simbol Mars'
     ],
     '♀️': [
         'Semn Femeie',
+        ':female_sign:',
         'Simbol Femei',
         'Venus Symbol'
     ]
@@ -3263,77 +5150,133 @@ emojis_language[lang][5] = {
 emojis_language[lang][6] = {
     '🍇': [
         'Struguri',
-        'Struguri'
+        ':grapes:',
+        'Struguri',
+        ':purple:'
     ],
     '🍈': [
         'Pepene',
+        ':melon:',
         'Cantaloupe',
         'Miere',
         'Pepene'
     ],
-    '🍉': ['Pepene'],
+    '🍉': [
+        'Pepene',
+        ':watermelon:',
+        ':red:'
+    ],
     '🍊': [
         'Tangerine',
+        ':tangerine:',
         'Mandarin',
-        'Portocaliu'
+        ':orange:'
     ],
     '🍋': [
         'Lemon',
-        'Lemonadă'
+        ':lemon:',
+        'Lemonadă',
+        ':yellow:'
     ],
     '🍌': [
         'Banană',
-        'Planificare'
+        ':banana:',
+        'Planificare',
+        ':yellow:'
     ],
-    '🍍': ['Ananas'],
-    '🥭': ['Mango'],
+    '🍍': [
+        'Ananas',
+        ':pineapple:'
+    ],
+    '🥭': [
+        'Mango',
+        ':mango:'
+    ],
     '🍎': [
         'Măr roșu',
-        'Măr Delicios Roșu'
+        ':red_apple:',
+        ':apple:',
+        'Măr Delicios Roșu',
+        ':red:'
     ],
     '🍏': [
         'Măr verde',
+        ':green_apple:',
+        ':apple:',
         'Măr Golden Delicios',
-        'Apple Smith Granny'
+        'Apple Smith Granny',
+        ':green:'
     ],
-    '🍐': ['Păr'],
+    '🍐': [
+        'Păr',
+        ':pear:'
+    ],
     '🍑': [
         'Prinde',
+        ':peach:',
         'Jos',
-        'Buton'
+        'Buton',
+        ':orange:',
+        ':pink:'
     ],
     '🍒': [
         'Cireșe',
+        ':cherry:',
         'Cireșe',
-        'Cireșe Sălbatică'
+        'Cireșe Sălbatică',
+        ':red:'
     ],
-    '🍓': ['Căpșuni'],
+    '🍓': [
+        'Căpșuni',
+        ':strawberry:',
+        ':red:'
+    ],
     '🥝': [
         'Fructe Kiwi',
+        ':kiwi:',
         'Gooseberry Chinezesc',
         'Ciob',
-        'Kiwifruit'
+        'Kiwifruit',
+        ':green:'
     ],
-    '🍅': ['Tomată'],
+    '🍅': [
+        'Tomată',
+        ':tomato:',
+        ':red:'
+    ],
     '🥥': [
         'Cocos',
+        ':coconut:',
         'Cocoanut'
     ],
-    '🥑': ['Avocado'],
+    '🥑': [
+        'Avocado',
+        ':avocado:',
+        ':green:'
+    ],
     '🍆': [
         'Ouă',
+        ':eggplant:',
+        ':aubergine:',
         'Aubergine',
         'Phalilică',
-        'Legume violet'
+        'Legume violet',
+        ':purple:'
     ],
     '🥔': [
         'Cartofi',
+        ':potato:',
         'Cartofi copți',
         'Cartofi Idaho'
     ],
-    '🥕': ['Morcov'],
+    '🥕': [
+        'Morcov',
+        ':carrot:',
+        ':orange:'
+    ],
     '🌽': [
         'Uz de porumb',
+        ':ear_of_corn:',
         'Porumb',
         'Porumb pe Cob',
         'Porumb',
@@ -3341,107 +5284,165 @@ emojis_language[lang][6] = {
     ],
     '🌶️': [
         'Pepper cald',
+        ':hot_pepper:',
         'Pepper Chili',
-        'Minicat'
+        'Minicat',
+        ':red:'
     ],
     '🥒': [
         'Castravete',
+        ':cucumber:',
         'Gherkin',
-        'Selectare'
+        'Selectare',
+        ':green:'
     ],
     '🥬': [
         'Leasing Verde',
+        ':leafy_green:',
         'Alegere de cărți',
         'Varză chinezească',
         'Cos Lettuce',
         'Salată romană',
-        'Lasă verzii'
+        'Lasă verzii',
+        ':green:'
     ],
-    '🥦': ['Broccoli'],
+    '🥦': [
+        'Broccoli',
+        ':broccoli:',
+        ':green:'
+    ],
     '🍄': [
         'Ciupercă',
+        ':mushroom:',
         'Sălbatic',
         'Toadstool'
     ],
     '🥜': [
         'Peanuts',
-        'Nuci'
+        ':peanuts:',
+        'Nuci',
+        ':brown:'
     ],
     '🌰': [
         'Chestnut',
+        ':chestnut:',
         'Acorn',
-        'Nut'
+        'Nut',
+        ':brown:'
     ],
     '🍞': [
         'Pâine',
-        'Loaf de pâine'
+        ':bread:',
+        'Loaf de pâine',
+        ':brown:'
     ],
-    '🥐': ['Croissant'],
+    '🥐': [
+        'Croissant',
+        ':croissant:',
+        ':brown:'
+    ],
     '🥖': [
         'Pâine Baguette',
+        ':baguette_bread:',
         'Pâine Franceză',
-        'Baguetă'
+        'Baguetă',
+        ':brown:'
     ],
-    '🥨': ['Pretzel'],
-    '🥯': ['Bagel'],
+    '🥨': [
+        'Pretzel',
+        ':pretzel:',
+        ':brown:'
+    ],
+    '🥯': [
+        'Bagel',
+        ':bagel:',
+        ':brown:'
+    ],
     '🥞': [
         'Ciuperci',
+        ':pancakes:',
         'Creeator',
-        'Torturi'
+        'Torturi',
+        ':yellow:'
     ],
     '🧀': [
         'Perete de Brânză',
-        'Brânză'
+        ':cheese_wedge:',
+        'Brânză',
+        ':yellow:'
     ],
     '🍖': [
         'Carne pe Oase',
+        ':meat_on_bone:',
         'BBQ',
         'Grătar',
-        'Carne de Manga'
+        'Carne de Manga',
+        ':red:'
     ],
     '🍗': [
         'Poultry Leg',
+        ':poultry_leg:',
         'Buton',
-        'Picior turc'
+        'Picior turc',
+        ':red:'
     ],
     '🥩': [
         'Tăierea cărnii',
+        ':cut_of_meat:',
         'Carne',
-        'Friptură'
+        'Friptură',
+        ':red:'
     ],
     '🥓': [
         'Bacon',
-        'Rashers'
+        ':bacon:',
+        'Rashers',
+        ':red:'
     ],
     '🍔': [
         'Hamburger',
+        ':hamburger:',
         'Burger',
         'Brânzetor'
     ],
     '🍟': [
         'Vineri Francezi',
+        ':french_fries:',
         'Chipuri',
         'Vinuri',
-        'Fries McDonald\'s'
+        'Camere McDonalds',
+        ':yellow:'
     ],
     '🍕': [
         'Pizza',
+        ':pizza:',
         'Pepperoni Pizza',
-        'Secţiune din Pizza'
+        'Secţiune din Pizza',
+        ':red:'
     ],
     '🌭': [
         'Câine fierbinte',
+        ':hot_dog:',
         'Hotdog',
-        'Cârnați'
+        'Cârnați',
+        ':red:'
     ],
-    '🥪': ['Sandwich'],
-    '🌮': ['Taco'],
+    '🥪': [
+        'Sandwich',
+        ':sandwich:'
+    ],
+    '🌮': [
+        'Taco',
+        ':taco:'
+    ],
     '🌯': [
         'Burrito',
+        ':burrito:',
         'Încadrare'
     ],
     '🥙': [
         'Pâine umplută',
+        ':stuffed_flatbread:',
         'Doner Kebab',
         'Gyro',
         'Shawarma',
@@ -3449,57 +5450,71 @@ emojis_language[lang][6] = {
     ],
     '🍳': [
         'Gatire',
+        ':cooking:',
         'Mic',
         'Ou prăjit',
         'Pan de prăjire'
     ],
     '🥘': [
         'Pan lent de mâncare',
+        ':shallow_pan_of_food:',
         'Paella',
         'Pan de Mâncare'
     ],
     '🍲': [
         'Sala Mâncărurilor',
+        ':pot_of_food:',
         'Bol de Mâncare',
         'Supă',
         'Tocăniță'
     ],
     '🥣': [
         'Bowl cu Spoon',
+        ':bowl_with_spoon:',
         'Bol de cereale'
     ],
     '🥗': [
         'Salata verde',
-        'Salată'
+        ':green_salad:',
+        'Salată',
+        ':green:'
     ],
     '🍿': [
         'Porumb',
+        ':popcorn:',
         'Porumb pop-up'
     ],
     '🧂': [
         'Sare',
-        'Agent sărat'
+        ':salt:',
+        'Agent sărat',
+        ':white:'
     ],
     '🥫': [
         'Mâncare Caned',
+        ':canned_food:',
         'Conservă de Mâncare',
         'Conservă de nucă',
         'Mâncare conservată'
     ],
     '🍱': [
         'Bento Box',
+        ':bento_box:',
         'Cutie prânz'
     ],
     '🍘': [
         'Prăjitor de oțel',
+        ':rice_cracker:',
         'Prăjitor'
     ],
     '🍙': [
         'Minge de orez',
+        ':rice_ball:',
         'Onigiri'
     ],
     '🍚': [
         'Orez Gătit',
+        ':cooked_rice:',
         'Orezul fiert',
         'Orez',
         'Bol de orez',
@@ -3507,121 +5522,154 @@ emojis_language[lang][6] = {
     ],
     '🍛': [
         'Orez de curry',
+        ':curry_rice:',
         'Curry',
         'Mâncare indiană',
         'Curry and Rice'
     ],
     '🍜': [
         'Bol de suflare',
+        ':steaming_bowl:',
         'Nucleu',
         'Nuclee cu Chopstickks',
         'Ramen'
     ],
     '🍝': [
         'Spaghetti',
+        ':spaghetti:',
         'Paste'
     ],
     '🍠': [
         'Cartofi dulce prăjit',
+        ':roasted_sweet_potato:',
         'Cartofi dulci',
         'Yam'
     ],
     '🍢': [
         'Oprită',
+        ':oden:',
         'Kebab',
         'Vânător'
     ],
     '🍣': [
         'Sushi',
+        ':sushi:',
         'Sashimi',
-        'Pești'
+        'Pești',
+        ':pink:'
     ],
     '🍤': [
         'Crevete prăjite',
+        ':fried_shrimp:',
         'Prăjitură prăjită',
         'Crevete Tempura'
     ],
     '🍥': [
         'Tort de peşte cu Swirl',
+        ':fish_cake_with_swirl:',
         'Tortul pescăresc',
         'Pink Swirl'
     ],
     '🥮': [
         'Tort Lună',
+        ':moon_cake:',
         'Tortul lunii'
     ],
     '🍡': [
         'Dango',
+        ':dango:',
         'Stick de Deșert',
         'Zguri verzi albe roz'
     ],
     '🥟': [
         'Gălușcă',
+        ':dumpling:',
         'Empanada',
         'Pierogi'
     ],
-    '🥠': ['Cookie Fortăreață'],
+    '🥠': [
+        'Cookie Fortăreață',
+        ':fortune_cookie:'
+    ],
     '🥡': [
         'Cutie de Takeout',
+        ':takeout_box:',
         'Cutia Chineză de Alimente',
         'Oyster Pail'
     ],
     '🍦': [
         'Cremă moale de gheață',
+        ':soft_ice_cream:',
         'dl Whippy',
         'Servere Moale'
     ],
     '🍧': [
         'Gheață rătăcită',
+        ':shaved_ice:',
         'Cone de zăpadă'
     ],
     '🍨': [
         'Cremă de gheață',
+        ':ice_cream:',
         'Bol de cremă de gheață',
         'Deșert'
     ],
     '🍩': [
         'Gogoașă',
+        ':doughnut:',
         'Donut'
     ],
     '🍪': [
         'Cookie',
+        ':cookie:',
         'Biscuit',
-        'Cookie ciocolată'
+        'Cookie ciocolată',
+        ':brown:'
     ],
     '🎂': [
         'Tort aniversar',
+        ':birthday_cake:',
         'Data nasterii',
         'Tort',
         'Tort cu lumânări'
     ],
     '🍰': [
         'Tort scurt',
+        ':shortcake:',
         'Tort',
         'Piesă de Tort',
         'Tort cu căpșuni'
     ],
     '🧁': [
         'Tort de Cupă',
+        ':cupcake:',
         'Tort de lapte'
     ],
-    '🥧': ['Plăcinte'],
+    '🥧': [
+        'Plăcinte',
+        ':pie:'
+    ],
     '🍫': [
         'Bară de ciocolată',
+        ':chocolate_bar:',
         'Bară de bomboane',
-        'Ciocolată'
+        'Ciocolată',
+        ':brown:'
     ],
     '🍬': [
         'Bomboane',
+        ':candy:',
         'Lolly',
         'Dulce'
     ],
     '🍭': [
         'Lollipop',
+        ':lollipop:',
         'Atacant'
     ],
     '🍮': [
         'Client',
+        ':custard:',
         'Creme Caramel',
         'Deșert',
         'Flan',
@@ -3629,19 +5677,25 @@ emojis_language[lang][6] = {
     ],
     '🍯': [
         'Oală de Miere',
+        ':honey_pot:',
         'Miere',
-        'Vas'
+        'Vas',
+        ':yellow:'
     ],
     '🍼': [
         'Flacon pentru bebeluşi',
+        ':baby_bottle:',
         'Inserare flacon'
     ],
     '🥛': [
         'Sticlă de lapte',
-        'Lapte'
+        ':glass_of_milk:',
+        'Lapte',
+        ':white:'
     ],
     '☕': [
         'Băutură fierbinte',
+        ':hot_beverage:',
         'Cafea',
         'Espresso',
         'Ciocolată fierbinte',
@@ -3649,56 +5703,68 @@ emojis_language[lang][6] = {
     ],
     '🍵': [
         'Teacup fără Manipulare',
+        ':green_tea:',
         'Ceață verde',
         'Matcha',
-        'Ceai Verde după Matcha'
+        'Ceai Verde după Matcha',
+        ':green:'
     ],
     '🍶': [
         'Sake',
+        ':sake:',
         'Flacon',
         'Vin de oțel',
         'Taie sticla şi cupa'
     ],
     '🍾': [
         'Flacon cu plut lipit',
+        ':champagne:',
         'Sărbătorire',
         'Champagne',
         'Vin spumant'
     ],
     '🍷': [
         'Sticlă de vin',
+        ':wine_glass:',
         'Alcool',
         'Vin roşu',
         'Vin'
     ],
     '🍸': [
         'Sticlă de cocktail',
+        ':cocktail_glass:',
         'Cocktail',
         'Martini'
     ],
     '🍹': [
         'Bautura tropicala',
+        ':tropical_drink:',
         'Prânz de fructe',
         'Tiki Bautura'
     ],
     '🍺': [
         'Maimuță de bere',
+        ':beer_mug:',
         'Bere',
-        'Stein de bere'
+        'Stein de bere',
+        ':yellow:'
     ],
     '🍻': [
         'Capcane de Bere Clinking',
+        ':clinking_beer_mugs:',
         'Bere',
         'Noroci'
     ],
     '🥂': [
         'Ochelari pentru clinking',
+        ':clinking_glasses:',
         'Sărbătorire',
         'Mănuşi de Champagne',
         'Noroci'
     ],
     '🥃': [
         'Sticlă de umblă',
+        ':tumbler_glass:',
         'Burbon',
         'Lichior',
         'Rum',
@@ -3707,62 +5773,123 @@ emojis_language[lang][6] = {
     ],
     '🥤': [
         'Cupă cu traul',
+        ':cup_with_straw:',
         'Laptec',
         'Smoothie',
         'Pop Soda',
         'Bea moale'
     ],
-    '🥢': ['Bichete'],
+    '🥢': [
+        'Bichete',
+        ':chopsticks:'
+    ],
     '🍽️': [
         'Furcă și cuțit cu plăci',
-        'Cină'
+        ':fork_and_knife_with_plate:',
+        'Cină',
+        ':white:',
+        ':gray:',
+        ':grey:'
     ],
     '🍴': [
         'Furcă și cuțit',
+        ':fork_and_knife:',
         'Tăietoare',
         'Cuţit şi furculiţă',
-        'Silverware'
+        'Silverware',
+        ':gray:',
+        ':grey:'
     ],
-    '🥄': ['Pumon'],
-    '🧄': ['Usturoi'],
-    '🧅': ['Ceapă'],
-    '🧇': ['Waffle'],
-    '🧆': ['Falafel'],
-    '🧈': ['Unt'],
-    '🦪': ['Oyster'],
+    '🥄': [
+        'Pumon',
+        ':spoon:',
+        ':gray:',
+        ':grey:'
+    ],
+    '🧄': [
+        'Usturoi',
+        ':garlic:'
+    ],
+    '🧅': [
+        'Ceapă',
+        ':onion:'
+    ],
+    '🧇': [
+        'Waffle',
+        ':waffle:'
+    ],
+    '🧆': [
+        'Falafel',
+        ':falafel:'
+    ],
+    '🧈': [
+        'Unt',
+        ':butter:'
+    ],
+    '🦪': [
+        'Oyster',
+        ':oyster:'
+    ],
     '🧃': [
         'Cutie cu Băuturi',
+        ':beverage_box:',
         'Cutie cu suc'
     ],
     '🧉': [
         'Bautura mătușă',
+        ':mate_drink:',
         'Chimarraw',
         'Cimarrón',
         'Mat Yerba'
     ],
-    '🫒': ['Oliv'],
-    '🫐': ['Afine'],
-    '🫑': ['Pepper Bell'],
-    '🫓': ['Pâine'],
+    '🫒': [
+        'Oliv',
+        ':olive:',
+        ':green:'
+    ],
+    '🫐': [
+        'Afine',
+        ':blueberries:',
+        ':blue:'
+    ],
+    '🫑': [
+        'Pepper Bell',
+        ':bell_pepper:',
+        ':green:'
+    ],
+    '🫓': [
+        'Pâine',
+        ':flatbread:'
+    ],
     '🫔': [
         'Tamal',
+        ':tamale:',
         'Tamal'
     ],
-    '🫕': ['Fondue'],
+    '🫕': [
+        'Fondue',
+        ':fondue:'
+    ],
     '🧋': [
         'ceai cu balon',
+        ':boba:',
         'Boba'
     ],
-    '🧊': ['Cub de gheață'],
+    '🧊': [
+        'Cub de gheață',
+        ':ice_cube:'
+    ],
     '🫘': [
         'Beans',
         'Flatulence',
-        'Coffee beans',
+        ':beans:',
+        'Fasole de cafea',
         'Spill the beans'
     ],
     '🫗': [
-        'Pouring Liquid',
-        'Pouring Drink',
+        'Lichid de curgere',
+        ':puring_liquid:',
+        'Băutură de pământ',
         'Apă'
     ]
 };
@@ -3770,1357 +5897,1374 @@ emojis_language[lang][6] = {
 emojis_language[lang][7] = {
     '🏁': [
         'Drapel căutat',
+        ':chequered_flag:',
         'Flag verificat',
         'Fata în grilă',
-        'Drapelul curselor'
+        'Drapelul curselor',
+        ':black:',
+        ':white:'
     ],
     '🚩': [
         'Steagul triunghiular',
+        ':triangular_flag:',
         'Steag la stâlp',
         'Steagul Roșu',
-        'Steagul triunghiular la Post'
+        'Steagul triunghiular la Post',
+        ':red:'
     ],
     '🎌': [
         'Steaguri încrucişate',
+        ':crossed_flags:',
         'Două steaguri'
     ],
     '🏴': [
         'Steagul Negru',
-        'Flag Negru'
+        ':black_flag:',
+        'Flag Negru',
+        ':black:'
     ],
     '🏳️': [
         'Steagul alb',
-        'Livrarea Steagului Alb'
+        ':white_flag:',
+        'Livrarea Steagului Alb',
+        ':white:'
     ],
     '🏳️‍🌈': [
         'Steagul curcubeului',
+        ':rainbow_flag:',
         'Pride Flag',
         'LGBT',
         'LGBTQIA+',
         'Gay',
-        'Transgender',
+        'Transgen',
         'Lesbian',
         'Asexual',
         'Queer'
     ],
     '🏳️‍⚧️': [
         'Marcajul transgen',
+        ':transgender_flag:',
         'Albastru, cerneală și steag alb',
         'Steagul Trans'
     ],
     '🏴‍☠️': [
         'Steagul Pirat',
-        'Jolly Roger'
+        ':pirate_flag:',
+        'Jolly Roger',
+        ':black:'
     ],
     '🇺🇳': [
         'Marcajul Organizației Națiunilor Unite',
-        'ONU',
+        ':un:',
         'Flag: Națiunile Unite'
     ],
     '🇪🇺': [
         'Marcajul Uniunii Europene',
-        'EU',
+        ':eu:',
         'Flag: Uniunea Europeană',
         'EU Flag'
     ],
     '🇦🇨': [
         'Steagul Insulei Ascension',
-        'AC'
+        ':ac:'
     ],
     '🇦🇩': [
         'Marcajul Andorrei',
-        'AD',
+        ':ad:',
         'Andorran Flag'
     ],
     '🇦🇪': [
         'Steagul Emiratelor Arabe Unite',
-        'AE',
+        ':ae:',
         'Emirati Flag',
         'Flag UAE'
     ],
     '🇦🇫': [
         'Steagul Afganistanului',
-        'AF',
+        ':af:',
         'Afghan Flag'
     ],
     '🇦🇬': [
         'Marcajul lui Antigua & Barbuda',
-        'AG'
+        ':ag:'
     ],
     '🇦🇮': [
         'Drapelul Anguilla',
-        'AI',
+        ':ai:',
         'Steagul Anguillan'
     ],
     '🇦🇱': [
         'Steagul Albaniei',
-        'A',
+        ':al:',
         'Steagul albanez'
     ],
     '🇦🇲': [
         'Marcajul Armeniei',
-        'AM',
-        '🇦🇲'
+        ':am:',
+        'Armeana drapelul'
     ],
     '🇦🇴': [
         'Marcajul Angolei',
-        'AO',
+        ':ao:',
         'Steagul angolan'
     ],
     '🇦🇶': [
         'Steagul Antarcticii',
-        'AQ',
+        ':aq:',
         'Steagul antarctic'
     ],
     '🇦🇷': [
         'Marcajul Argentinei',
-        'AR',
+        ':ar:',
         'Flag argentinian'
     ],
     '🇦🇸': [
         'Steagul Samoei Americane',
-        'AS',
+        ':as:',
         'American Samoan Flag'
     ],
     '🇦🇹': [
         'Marcajul Austriei',
-        'T',
+        ':at:',
         'Austrian Flag'
     ],
     '🇦🇺': [
         'Marcajul Australiei',
-        'UA',
+        ':au:',
         'Aussie Flag',
         'Flag australian'
     ],
     '🇦🇼': [
         'Marcajul Aruba',
-        'AV',
+        ':aw:',
         'Steagul Arubanez'
     ],
     '🇦🇽': [
         'Steagul Insulelor A<unk> land',
-        'AX',
+        ':ax:',
         'Tampon de steguleț'
     ],
     '🇦🇿': [
         'Steagul Azerbaidjanului',
-        'AZ',
+        ':az:',
         'Flag azer'
     ],
     '🇧🇦': [
         'Pavilionul Bosniei și Herțegovinei',
-        'BA'
+        ':ba:'
     ],
     '🇧🇧': [
         'Marcajul Barbados',
-        'BO',
+        ':bb:',
         'Marcajul Barbadian',
         'Steagul Bajan'
     ],
     '🇧🇩': [
         'Marcajul din Bangladesh',
-        'BD',
+        ':bd:',
         'Bangladeshi Flag'
     ],
     '🇧🇪': [
         'Marcajul Belgiei',
-        'FI',
+        ':be:',
         'Steagul belgian'
     ],
     '🇧🇫': [
         'Steagul Burkinei Faso',
-        'BF',
+        ':bf:',
         'Flag Burkinabe'
     ],
     '🇧🇬': [
         'Marcajul Bulgariei',
-        'Glicemie',
+        ':bg:',
         'Marcajul bulgar'
     ],
     '🇧🇭': [
         'Marcajul Bahrain',
-        'BH',
+        ':bh:',
         'Flag Bahrani',
         'Drapelul Bahrainian'
     ],
     '🇧🇮': [
         'Marcajul Burundi',
-        'BI',
+        ':bi:',
         'Burundian Flag'
     ],
     '🇧🇯': [
         'Marcajul Beninului',
-        'BJ',
+        ':bj:',
         'Steagul Beninez'
     ],
     '🇧🇱': [
         'Drapelul Sfântului Bartheτ lemy',
-        'BL',
+        ':bl:',
         'Steag: Sfânta Barbat'
     ],
     '🇧🇲': [
         'Marcajul Bermudei',
-        'BM',
+        ':bm:',
         'Bermudan Flag'
     ],
     '🇧🇳': [
         'Marcajul Brunei',
-        'BN',
+        ':bn:',
         'Steagul Bruneian'
     ],
     '🇧🇴': [
         'Marcajul Bolivia',
-        'BO',
+        ':bo:',
         'Bolivian Flag'
     ],
     '🇧🇶': [
         'Steagul Caraibilor Olanda',
-        'BQ',
+        ':bq:',
         'Bonaire'
     ],
     '🇧🇷': [
         'Marcajul Braziliei',
-        'BR',
+        ':br:',
         'Flag brazilian'
     ],
     '🇧🇸': [
         'Marcajul Bahamas',
-        'Flag Bahamian',
-        'BS'
+        ':bs:',
+        'Flag Bahamian'
     ],
     '🇧🇹': [
         'Marcajul Bhutan',
-        'BT',
+        ':bt:',
         'Flag Bhutanez'
     ],
     '🇧🇻': [
         'Marcajul Insulei Bouvet',
-        'BV',
+        ':bv:',
         'Steag: Insula Bouvet'
     ],
     '🇧🇼': [
         'Steagul Botswan-ului',
-        'BW',
+        ':bw:',
         'Batswana Flag'
     ],
     '🇧🇾': [
         'Marcajul Belarusului',
-        'DE',
+        ':by:',
         'Drapelul belarus'
     ],
     '🇧🇿': [
         'Steagul Belize',
-        'BZ',
+        ':bz:',
         'Steagul Belizean'
     ],
     '🇨🇦': [
         'Marcajul Canadei',
         'Steagul canadian',
-        'CA'
+        ':ca:'
     ],
     '🇨🇨': [
         'Steagul Insulelor Cocos (Keeling)',
-        'CC'
+        ':cc:'
     ],
     '🇨🇩': [
         'Flag of Congo - Kinshasa',
-        'CD'
+        ':cd:'
     ],
     '🇨🇫': [
         'Steagul Republicii Centrafricane',
-        'FC',
+        ':cf:',
         'Drapelul central african'
     ],
     '🇨🇬': [
         'Steagul Congo - Brazzaville',
-        'CG'
+        ':cg:'
     ],
     '🇨🇭': [
         'Marcajul Elveției',
-        'CH',
+        ':ch:',
         'Crucea Roșie',
         'Flag elvețian'
     ],
     '🇨🇮': [
         'Drapelul Coastei de Fildeș',
-        'CI',
+        ':ci:',
         'Flag: Côte d’Ivoire'
     ],
     '🇨🇰': [
         'Steagul Insulelor Cook',
-        'CK',
+        ':ck:',
         'Steagul Cook Islander'
     ],
     '🇨🇱': [
         'Marcajul Chile',
-        'CL',
+        ':cl:',
         'Steagul chilian'
     ],
     '🇨🇲': [
         'Marcajul Camerunului',
-        'CM',
+        ':cm:',
         'Steagul cameroonian'
     ],
     '🇨🇳': [
         'Marcajul Chinei',
-        'NC-uri',
+        ':cn:',
         'Steagul Chinez'
     ],
     '🇨🇴': [
         'Marcajul din Columbia',
-        'CO',
+        ':co:',
         'Drapelul columbian'
     ],
     '🇨🇵': [
         'Marcajul Insulei Clipperton',
-        'CP',
+        ':cp:',
         'Steag: Insula Clipperton'
     ],
     '🇨🇷': [
         'Pavilionul Costa Rica',
-        'RC',
+        ':cr:',
         'Steagul costarican'
     ],
     '🇨🇺': [
         'Marcajul Cubei',
-        'CU',
+        ':cu:',
         'Steagul cubanez'
     ],
     '🇨🇻': [
         'Steagul Capului Verde',
-        'CV',
+        ':cv:',
         'Steagul Capului Verdian'
     ],
     '🇨🇼': [
         'Steagul Curaçao',
-        'CW',
+        ':cw:',
         'Curaçaoan Flag'
     ],
     '🇨🇽': [
         'Steagul Insulei de Crăciun',
-        'CX',
+        ':cx:',
         'Drapelul Insulei de Crăciun'
     ],
     '🇨🇾': [
         'Marcajul Ciprului',
-        'CY',
+        ':cy:',
         'Marcajul cipriot'
     ],
     '🇨🇿': [
         'Marcajul Cehiei',
-        'CZ',
+        ':cz:',
         'Drapelul ceh'
     ],
     '🇩🇪': [
         'Steagul Germaniei',
-        'MT',
+        ':de:',
         'Deutsch Flag',
         'Steagul german'
     ],
     '🇩🇬': [
         'Steagul lui Diego Garcia',
-        'DG',
+        ':dg:',
         'Steag: Diego Garcia'
     ],
     '🇩🇯': [
         'Steagul Djibouti',
-        'DJ',
+        ':dj:',
         'Djibouti Flag',
         'Djiboutian Flag'
     ],
     '🇩🇰': [
         'Marcajul Danemarcei',
-        'DK',
+        ':dk:',
         'Drapelul danez'
     ],
     '🇩🇲': [
         'Marcajul Dominica',
-        'MD'
+        ':dm:'
     ],
     '🇩🇴': [
         'Marcajul Republicii Dominicane',
-        'POZ',
+        ':do:',
         'Dom Rep Flag',
         'Steagul Dominican'
     ],
     '🇩🇿': [
         'Marcajul Algeriei',
-        'DZ',
+        ':dz:',
         'Algerian Flag'
     ],
     '🇪🇦': [
         'Steagul Ceuta & Melilla',
+        ':ea:',
         'Marcajul Melilla',
         'Marcajul Ceuta',
-        'EA',
         'Flag: Ceuta & Melilla'
     ],
     '🇪🇨': [
         'Marcajul Ecuador',
-        'EC',
+        ':ec:',
         'Ecuadorian Flag'
     ],
     '🇪🇪': [
         'Marcajul Estoniei',
-        'EE',
+        ':ee:',
         'Steagul estonian'
     ],
     '🇪🇬': [
         'Marcajul Egiptului',
-        'EG',
+        ':eg:',
         'Steagul egiptean'
     ],
     '🇪🇭': [
         'Marcajul Saharei Occidentale',
-        'EH',
+        ':eh:',
         'Steagul din Sahara Occidentală'
     ],
     '🇪🇷': [
         'Steagul Eritreei',
-        'ER',
+        ':er:',
         'Eritrean Flag'
     ],
     '🇪🇹': [
         'Steagul Etiopiei',
-        'ET',
+        ':et:',
         'Ethiopian Flag'
     ],
     '🇪🇸': [
         'Marcajul Spaniei',
-        'ES',
+        ':es:',
         'Steagul Spaniei'
     ],
     '🇫🇮': [
         'Marcajul Finlandei',
-        'FI',
+        ':fi:',
         'Flag finlandez'
     ],
     '🇫🇯': [
         'Marcajul Fiji',
-        'FJ',
+        ':fj:',
         'Fijian Flag'
     ],
     '🇫🇰': [
         'Steagul Insulelor Falkland',
-        'FK',
+        ':fk:',
         'Falklander Flag'
     ],
     '🇫🇲': [
         'Steagul Microneziei',
-        'FM',
+        ':fm:',
         'Steagul Microneziei'
     ],
     '🇫🇴': [
         'Steagul Insulelor Feroe',
-        'DO',
+        ':fo:',
         'Faroe Islander Flag'
     ],
     '🇫🇷': [
         'Marcajul Franței',
-        'FR',
+        ':fr:',
         'Steagul francez'
     ],
     '🇬🇦': [
         'Steagul Gabonului',
-        'AG',
+        ':ga:',
         'Drapelul gabonez'
     ],
     '🇬🇧': [
         'Steagul Marii Britanii',
-        'GO',
+        ':gb:',
         'Steagul Britanic',
         'Marea Britanie',
         'Union Jack',
         'UK'
     ],
     '🏴󠁧󠁢󠁥󠁮󠁧󠁿󠁧󠁢󠁥󠁮󠁧󠁿': [
-        'Flag of England',
-        'St George\'s Cross',
-        'English Flag'
+        'Marcajul Angliei',
+        ':england:',
+        'Sfântul Georges Cross',
+        'Flag englez'
     ],
     '🏴󠁧󠁢󠁷󠁬󠁳󠁿󠁧󠁢󠁷󠁬󠁳󠁿': [
-        'Flag of Wales',
-        'Welsh Flag',
-        'Red Dragon',
+        'Marcajul Țării Galilor',
+        ':wales:',
+        'Flag galez',
+        'Dragon Roșu',
         'Baner Cymru',
         'Y Ddraig Goch'
     ],
     '🏴󠁧󠁢󠁳󠁣󠁴󠁿󠁧󠁢󠁳󠁣󠁴󠁿': [
-        'Flag of Scotland',
-        'Scottish Flag',
-        'St Andrew\'s Cross',
-        'Saltire'
+        'Drapelul Scoției',
+        ':scotland:',
+        'Steagul scoțian',
+        'Sfântul Andrews Cross',
+        'Saltiu'
     ],
     '🇬🇩': [
         'Marcajul lui Grenada',
-        'GD',
+        ':gd:',
         'Steagul Grenadian'
     ],
     '🇬🇪': [
         'Marcajul Georgiei',
-        'GE',
+        ':ge:',
         'Steagul georgian'
     ],
     '🇬🇫': [
         'Steagul Guyanei Franceze',
-        'GF',
+        ':gf:',
         'Steagul Guineei Franceze'
     ],
     '🇬🇬': [
         'Steagul Guernsey',
-        'GG',
+        ':gg:',
         'Guernsey Flag'
     ],
     '🇬🇭': [
         'Steagul Ghanei',
-        'HC',
+        ':gh:',
         'Flag Ghanaian'
     ],
     '🇬🇮': [
         'Marcajul Gibraltarului',
-        'GI',
+        ':gi:',
         'Flag Gibraltarian'
     ],
     '🇬🇱': [
         'Marcajul Groenlandei',
-        'GL',
+        ':gl:',
         'Greenlandic Flag'
     ],
     '🇬🇲': [
         'Marcajul Gambia',
-        'MG',
+        ':gm:',
         'Gambian Flag'
     ],
     '🇬🇳': [
         'Marcajul Guineei',
-        'GN',
+        ':gn:',
         'Guinean Flag'
     ],
     '🇬🇵': [
         'Marcajul Guadelupei',
-        'GP',
+        ':gp:',
         'Steagul Guadelupei'
     ],
     '🇬🇶': [
         'Marcajul Guineei Ecuatoriale',
-        'GQ',
+        ':gq:',
         'Equatorial Guinean Flag',
         'Steagul Equatoguinean'
     ],
     '🇬🇷': [
         'Pavilionul Greciei',
-        'GR',
+        ':gr:',
         'Drapelul grecesc'
     ],
     '🇬🇸': [
         'Steagul Georgiei de Sud și Insulele Sandwich de Sud',
-        'GS'
+        ':gs:'
     ],
     '🇬🇹': [
         'Marcajul Guatemalei',
-        'GT',
+        ':gt:',
         'Guatemalan Flag'
     ],
     '🇬🇺': [
         'Marcajul Guam',
-        'GU',
+        ':gu:',
         'Steagul guamanian',
         'Marcajul Camorro'
     ],
     '🇬🇼': [
         'Steagul Guineei - Bissau',
-        'GW',
+        ':gw:',
         'Guinea-Bissau Flag'
     ],
     '🇬🇾': [
         'Steagul Guyanei',
-        'GY',
+        ':gy:',
         'Steagul guyanez'
     ],
     '🇭🇰': [
         'Steagul SAR din Hong Kong',
-        'HK',
+        ':hk:',
         'Steagul Hong Kong'
     ],
     '🇭🇲': [
         'Steagul Insulelor Heard & McDonald',
-        'HM',
+        ':hm:',
         'Steag: Insulele Heard & McDonald'
     ],
     '🇭🇳': [
         'Marcajul Honduras-ului',
-        'HN',
+        ':hn:',
         'Steagul Honduran'
     ],
     '🇭🇷': [
         'Marcajul Croației',
-        'RR',
+        ':hr:',
         'Marcajul croat'
     ],
     '🇭🇹': [
         'Marcajul din Haiti',
-        'HT',
+        ':ht:',
         'Haitian Flag'
     ],
     '🇭🇺': [
         'Marcajul Ungariei',
-        'HU',
+        ':hu:',
         'Flag maghiar'
     ],
     '🇮🇨': [
         'Drapelul Insulelor Canare',
-        'IC'
+        ':ic:'
     ],
     '🇮🇩': [
         'Marcajul Indoneziei',
-        'ID',
+        ':id:',
         'drapelul indonezian'
     ],
     '🇮🇪': [
         'Marcajul Irlandei',
-        'NR',
+        ':ie:',
         'Steagul irlandez'
     ],
     '🇮🇱': [
         'Steagul Israelului',
-        'IL',
+        ':il:',
         'Steagul israelian'
     ],
     '🇮🇲': [
         'Marcajul Insulei Man',
-        'IM',
+        ':im:',
         'Manx Flag'
     ],
     '🇮🇳': [
         'Marcajul Indiei',
-        'ÎN',
+        ':in:',
         'Drapelul indian'
     ],
     '🇮🇴': [
         'Marcajul teritoriului britanic din Oceanul Indian',
-        'IO',
+        ':io:',
         'Steagul Teritoriului Britanic din Oceanul Indian'
     ],
     '🇮🇶': [
         'Marcajul Irakului',
-        'IQ',
+        ':iq:',
         'Iraqi Flag'
     ],
     '🇮🇷': [
         'Steagul Iranului',
-        'IR',
+        ':ir:',
         'Drapelul iranian'
     ],
     '🇮🇸': [
         'Marcajul Islandei',
-        'S',
+        ':is:',
         'Steagul islandez'
     ],
     '🇮🇹': [
         'Marcajul Italiei',
-        'IT',
+        ':it:',
         'Steagul italian'
     ],
     '🇯🇪': [
         'Marcajul lui Jersey',
-        'JE',
+        ':je:',
         'Steagul Jersey'
     ],
     '🇯🇲': [
         'Marcajul Jamaica',
-        'JM',
+        ':jm:',
         'Steagul jamaican'
     ],
     '🇯🇴': [
         'Marcajul Iordaniei',
-        'JO',
+        ':jo:',
         'Drapelul iordanian'
     ],
     '🇯🇵': [
         'Marcajul Japoniei',
-        'JP',
+        ':jp:',
         'Pavilion japonez'
     ],
     '🇰🇪': [
         'Marcajul Kenyei',
-        'KE',
+        ':ke:',
         'Flag kenyan'
     ],
     '🇰🇬': [
         'Steagul Kârgâzstanului',
-        'KG',
+        ':kg:',
         'Kyrgyzstani Flag'
     ],
     '🇰🇭': [
         'Marcajul Cambodgiei',
-        'KH',
+        ':kh:',
         'Marcajul cambodgian'
     ],
     '🇰🇮': [
         'Steagul lui Kiribati',
-        'KI',
+        ':ki:',
         'Steagul I-Kiribati'
     ],
     '🇰🇲': [
         'Marcajul Comorelor',
-        'KM',
+        ':km:',
         'Marcajul Coranului'
     ],
     '🇰🇳': [
         'Steagul Sfântului Kitts & Nevis',
-        'KN'
+        ':kn:'
     ],
     '🇰🇵': [
         'Steagul Coreei de Nord',
-        'KP',
+        ':kp:',
         'Steagul nord-coreean'
     ],
     '🇰🇷': [
         'Marcajul Coreei de Sud',
-        'KR',
+        ':kr:',
         'Drapelul sud-coreean'
     ],
     '🇰🇼': [
         'Marcajul Kuwaitului',
-        'KW',
+        ':kw:',
         'Kuwaiti Flag'
     ],
     '🇰🇾': [
         'Steagul Insulelor Cayman',
-        'KY',
+        ':ky:',
         'Steagul Caymanian'
     ],
     '🇰🇿': [
         'Marcajul Kazahstanului',
-        'KZ',
+        ':kz:',
         'Kazakhstani Flag',
         'Kazakh Flag'
     ],
     '🇱🇦': [
         'Marcajul Laos',
-        'LA',
+        ':la:',
         'Steagul Laotian',
         'Steagul Laos'
     ],
     '🇱🇧': [
         'Marcajul Libanului',
-        'LO',
+        ':lb:',
         'Steagul libanez'
     ],
     '🇱🇨': [
         'Steagul Sfântului Lucia',
-        'LC'
+        ':lc:'
     ],
     '🇱🇮': [
         'Marcajul Liechtensteinului',
-        'LI',
+        ':lt:',
         'drapelul Liechtensteiner'
     ],
     '🇱🇰': [
         'Pavilionul Sri Lanka',
-        'LK',
+        ':lk:',
         'Steagul srilankez'
     ],
     '🇱🇷': [
         'Marcajul Liberiei',
-        'LR',
+        ':lr:',
         'Steagul Liberian'
     ],
     '🇱🇸': [
         'Flag of Lesotho',
-        'LS',
+        ':ls:',
         'Basotho Flag'
     ],
     '🇱🇹': [
         'Marcajul Lituaniei',
-        'LT',
+        ':lt:',
         'Drapelul lituanian'
     ],
     '🇱🇺': [
         'Marcajul Luxemburgului',
-        'LU',
+        ':lu:',
         'drapelul luxemburghez'
     ],
     '🇱🇻': [
         'Marcajul Letoniei',
-        'LV',
+        ':lv:',
         'Flag leton'
     ],
     '🇱🇾': [
         'Marcajul Libiei',
-        'NUMAI',
+        ':ly:',
         'Pavilionul libian'
     ],
     '🇲🇦': [
         'Steagul Marocului',
-        'ZM',
+        ':ma:',
         'Pavilionul marocan'
     ],
     '🇲🇨': [
         'Marcajul Monaco',
-        'MC',
+        ':mc:',
         'Steagul cu gaze'
     ],
     '🇲🇩': [
         'Marcajul Moldovei',
-        'BM',
+        ':md:',
         'Marcajul moldovenesc'
     ],
     '🇲🇪': [
         'Marcajul Muntenegrului',
-        'EM',
+        ':me:',
         'Flag muntenegrean'
     ],
     '🇲🇫': [
         'Steagul Sfântului Martin',
-        'MF',
+        ':mf:',
         'Flag: St. Martin'
     ],
     '🇲🇬': [
         'Marcajul Madagascarului',
-        'MG',
+        ':mg:',
         'Madagascan Flag'
     ],
     '🇲🇭': [
         'Marshall Insulele Marshall',
-        'MH',
+        ':mh:',
         'Marshallese Flag'
     ],
     '🇲🇰': [
         'Drapelul Macedoniei',
-        'MK',
+        ':mk:',
         'Drapelul macedonean'
     ],
     '🇲🇱': [
         'Marcajul Mali',
-        'LL',
+        ':ml:',
         'Steagul Malian'
     ],
     '🇲🇲': [
         'Pavilionul Myanmar (Burma)',
-        'ML',
+        ':mm:',
         'Steagul Myanmarese',
         'Marcajul pentru Birmania',
         'Flag birmanez'
     ],
     '🇲🇳': [
         'Steagul Mongoliei',
-        'MN',
+        ':mn:',
         'Flag mongol'
     ],
     '🇲🇴': [
         'Steagul Macau Sar China',
-        'MO',
+        ':mo:',
         'Steagul Macanez'
     ],
     '🇲🇵': [
         'Steagul Insulelor Mariane de Nord',
-        'MP',
+        ':mp:',
         'Steagul Microneziei'
     ],
     '🇲🇶': [
         'Marcajul din Martinica',
-        'MQ',
+        ':mq:',
         'Steagul arborelui din Martinica',
         'Martinicais Flag'
     ],
     '🇲🇷': [
         'Marcajul Mauritaniei',
-        'RM',
+        ':mr:',
         'Steagul mauritan'
     ],
     '🇲🇸': [
         'Flag of Montserrat',
-        'SM',
+        ':ms:',
         'Montserratian Flag'
     ],
     '🇲🇹': [
         'Marcajul Maltei',
-        'MT',
+        ':mt:',
         'Maltese Flag'
     ],
     '🇲🇺': [
         'Flag of Mauritius',
-        'LU',
+        ':mu:',
         'Steagul mauritian'
     ],
     '🇲🇻': [
         'Steagul Maldivelor',
-        'MV',
+        ':mv:',
         'Steagul Maldivian'
     ],
     '🇲🇼': [
         'Marcajul Malawi',
-        'MW',
+        ':mw:',
         'Malawian Flag'
     ],
     '🇲🇽': [
         'Marcajul Mexic',
-        'MX',
+        ':mx:',
         'Steagul mexican'
     ],
     '🇲🇾': [
         'Marcajul Malaysiei',
-        'LU',
+        ':my:',
         'Malaysian Flag'
     ],
     '🇲🇿': [
         'Marcajul Mozambic',
-        'MZ',
+        ':mz:',
         'Steagul Mozambican'
     ],
     '🇳🇦': [
         'Marcajul Namibiei',
-        'NA',
+        ':na:',
         'Namibian Flag'
     ],
     '🇳🇨': [
         'Marcajul Noua Caledonie',
-        'NC',
+        ':nc:',
         'Noul steag Caledonian'
     ],
     '🇳🇪': [
         'Marcajul Nigerului',
-        'NE',
+        ':ne:',
         'Drapelul Nigerien'
     ],
     '🇳🇫': [
         'Steagul Insulei Norfolk',
-        'NF',
+        ':nf:',
         'Steagul Insulei Norfolk'
     ],
     '🇳🇬': [
         'Marcajul Nigeriei',
-        'NG',
+        ':ng:',
         'Steagul nigerian'
     ],
     '🇳🇮': [
         'Flag of Nicaragua',
-        'NI',
+        ':ni:',
         'Nicaraguan Flag'
     ],
     '🇳🇱': [
         'Steagul Țărilor de Jos',
-        'NL',
+        ':nl:',
         'Drapelul olandez',
         'Olanda'
     ],
     '🇳🇴': [
         'Marcajul Norvegiei',
-        'NU',
+        ':no:',
         'Drapelul norvegian'
     ],
     '🇳🇵': [
         'Marcajul Nepalului',
-        'NP',
+        ':np:',
         'Steagul nepalez'
     ],
     '🇳🇷': [
         'Marcajul lui Nauru',
-        'NR',
+        ':nr:',
         'Nauruan Flag'
     ],
     '🇳🇺': [
         'Marcajul nodului',
-        'NU',
+        ':nu:',
         'Niuean Flag'
     ],
     '🇳🇿': [
         'Steagul Noii Zeelande',
-        'NZ',
+        ':nz:',
         'Drapel Kiwi'
     ],
     '🇴🇲': [
         'Marcajul lui Oman',
-        'OM',
+        ':om:',
         'Steagul Omani'
     ],
     '🇵🇦': [
         'Steagul Panamei',
-        'CR',
+        ':pa:',
         'Steagul Panamanian'
     ],
     '🇵🇪': [
         'Marcajul Peru',
-        'EP',
+        ':pe:',
         'Steagul peruvian'
     ],
     '🇵🇫': [
         'Marcajul Polinezia Franceză',
-        'PF',
+        ':pf:',
         'Flag polinezian francez'
     ],
     '🇵🇬': [
         'Marcajul Papua Noua Guinee',
-        'PG',
+        ':pg:',
         'Flag PNG',
         'Papua New Guinean Flag'
     ],
     '🇵🇭': [
         'Marcajul Filipinelor',
-        'HP'
+        ':ph:'
     ],
     '🇵🇰': [
         'Marcajul Pakistanului',
-        'PK',
+        ':pk:',
         'Steagul pakistanez'
     ],
     '🇵🇱': [
         'Marcajul Poloniei',
-        'PL',
+        ':pl:',
         'Flag polonez'
     ],
     '🇵🇲': [
         'Steagul Saint Pierre & Miquelon',
-        'PM'
+        ':pm:'
     ],
     '🇵🇳': [
         'Marcajul Pitcairn',
-        'NP'
+        ':pn:'
     ],
     '🇵🇷': [
         'Marcajul Puerto Rico',
-        'PR',
+        ':pr:',
         'Puerto Rican Flag'
     ],
     '🇵🇸': [
         'Steagul Teritoriilor Palestiniene',
-        'PS',
+        ':ps:',
         'Palestine'
     ],
     '🇵🇹': [
         'Marcajul Portugaliei',
-        'PT',
+        ':pt:',
         'Steagul Portugaliei'
     ],
     '🇵🇼': [
         'Pavilionul Palau',
-        'PV',
+        ':pw:',
         'Steagul Palauan'
     ],
     '🇵🇾': [
         'Marcajul Paraguay',
-        'PY',
+        ':py:',
         'Paraguayan Flag'
     ],
     '🇶🇦': [
         'Marcajul Qatarului',
-        'QA',
+        ':qa:',
         'Steagul Qatarului'
     ],
     '🇷🇪': [
         'Marcajul Republicii ReThereunion',
-        'ESR',
+        ':re:',
         'Retrocedentul de steag'
     ],
     '🇷🇴': [
         'Marcajul României',
-        'RO',
+        ':ro:',
         'Marcajul României'
     ],
     '🇷🇸': [
         'Marcajul Serbiei',
-        'SR',
+        ':rs:',
         'Drapelul sârbesc'
     ],
     '🇷🇺': [
         'Marcajul Rusiei',
-        'RU',
+        ':ru:',
         'Steagul rus'
     ],
     '🇷🇼': [
         'Flag of Rwanda',
-        'RW',
+        ':rw:',
         'Rwandan Flag'
     ],
     '🇸🇦': [
         'Pavilionul Arabiei Saudite',
-        'SA',
+        ':sa:',
         'Steagul Arabiei Saudite'
     ],
     '🇸🇧': [
         'Steagul Insulelor Solomon',
-        'SB',
+        ':sb:',
         'Solomon Islander Flag'
     ],
     '🇸🇨': [
         'Marcajul Republicii Seychelles',
-        's.c.',
+        ':sc:',
         'Seychellois Flag'
     ],
     '🇸🇩': [
         'Drapelul Sudanului',
-        'BD',
+        ':sd:',
         'Sudanese Flag'
     ],
     '🇸🇪': [
         'Marcajul Suediei',
-        'S',
+        ':se:',
         'Steagul suedez'
     ],
     '🇸🇬': [
         'Steagul Singapore',
-        'SG',
+        ':sg:',
         'Steagul singaporean'
     ],
     '🇸🇭': [
         'Steagul Sfântului Elena',
-        'SH'
+        ':sh:'
     ],
     '🇸🇮': [
         'Marcajul Sloveniei',
-        'SI',
+        ':si:',
         'Drapelul sloven'
     ],
     '🇸🇯': [
         'Drapelul Svalbard & Jan Mayen',
-        'SJ'
+        ':sj:'
     ],
     '🇸🇰': [
         'Marcajul Slovaciei',
-        'SK',
+        ':sk:',
         'Steagul slovac',
         'Slovakian Flag'
     ],
     '🇸🇱': [
         'Marcajul Sierra Leone',
-        'SL',
+        ':sl:',
         'Sierra Leonean Flag'
     ],
     '🇸🇲': [
         'Steagul Republicii San Marino',
-        'MD',
+        ':sm:',
         'Steagul sammarinez'
     ],
     '🇸🇳': [
         'Steagul Senegalului',
-        'NR',
+        ':sn:',
         'Steagul Sengalez'
     ],
     '🇸🇴': [
         'Marcajul Somaliei',
-        'OS',
+        ':so:',
         'Somalian Flag'
     ],
     '🇸🇷': [
         'Steagul Surinamului',
-        'SR',
+        ':sr:',
         'Steagul de Surinamer'
     ],
     '🇸🇸': [
         'Steagul Sudanului de Sud',
-        'SS',
+        ':ss:',
         'Pavilionul Sudanului de Sud'
     ],
     '🇸🇹': [
         'Marcajul Sa<unk> o Tome<unk> & Primise',
-        'TVA'
+        ':st:'
     ],
     '🇸🇻': [
         'Marcajul lui El Salvador',
-        'SV',
+        ':sv:',
         'El Salvadorian Flag'
     ],
     '🇸🇽': [
         'Steagul Sint Maarten',
-        'SX'
+        ':sx:'
     ],
     '🇸🇾': [
         'Marcajul Siriei',
-        'SY',
+        ':sy:',
         'Steagul sirian'
     ],
     '🇸🇿': [
         'Pavilionul Swaziland',
-        'SZ',
+        ':sz:',
         'Flag Eswatini'
     ],
     '🇹🇦': [
         'Flag of Tristan Da Cunha',
-        'AT'
+        ':ta:'
     ],
     '🇹🇨': [
         'Steagul Insulelor Turks & Caicos',
-        'CT'
+        ':tc:'
     ],
     '🇹🇩': [
         'Marcajul Ciad',
-        'TD',
+        ':td:',
         'Steagul chadian'
     ],
     '🇹🇫': [
         'Steagul Teritoriilor Sudice, Franceze',
-        'TF',
+        ':tf:',
         'Steagul Francez de Sud'
     ],
     '🇹🇬': [
         'Marcajul Togo',
-        'TG',
+        ':tg:',
         'Togolese Flag'
     ],
     '🇹🇭': [
         'Marcajul Thailandei',
-        'DECLARAT',
+        ':th:',
         'Tailandez Flag'
     ],
     '🇹🇯': [
         'Marcajul Tadjikistanului',
-        'TJ',
+        ':tj:',
         'Steagul tadjic'
     ],
     '🇹🇰': [
         'Flag Tokelau',
-        'TK',
+        ':tk:',
         'Tokelauan Flag'
     ],
     '🇹🇱': [
         'Marcajul Timor-Leste',
-        'TL',
+        ':tl:',
         'Marcaj Timor-Leste',
         'Flag Timorese de Est'
     ],
     '🇹🇲': [
         'Marcajul Turkmenistanului',
-        'MT',
+        ':tm:',
         'Turkmen Flag'
     ],
     '🇹🇳': [
         'Marcajul Tunisiei',
-        'NT',
+        ':tn:',
         'Drapelul tunisian'
     ],
     '🇹🇴': [
         'Steagul Tongei',
-        'CÂTE',
+        ':to:',
         'Tongan Flag'
     ],
     '🇹🇷': [
         'Marcajul Turciei',
-        'TR',
+        ':tr:',
         'Steagul Turciei'
     ],
     '🇹🇹': [
         'Steagul Trinidad & Tobago',
-        'TT'
+        ':tt:'
     ],
     '🇹🇻': [
         'Marcajul Tuvalu',
-        'Televizor',
+        ':tv:',
         'Steagul Tuvaluan'
     ],
     '🇹🇼': [
         'Marcajul Taiwanului',
-        'TW',
+        ':tw:',
         'Drapelul taiwanez'
     ],
     '🇹🇿': [
         'Marcajul Tanzaniei',
-        'TZ',
+        ':tz:',
         'Tanzanian Flag'
     ],
     '🇺🇦': [
         'Marcajul Ucrainei',
-        'UA',
+        ':ua:',
         'Drapelul ucrainean'
     ],
     '🇺🇬': [
         'Marcajul Uganda',
-        'UG',
+        ':ug:',
         'Flag ugandez'
     ],
     '🇺🇲': [
         'Steag: Insulele Îndepărtate ale SUA',
-        'UM'
+        ':um:'
     ],
     '🇺🇸': [
         'Steagul Statelor Unite',
-        'SUA',
+        ':us:',
         'Steagul American',
         'Steagul SUA'
     ],
     '🇺🇾': [
         'Flag of Uruguay',
-        'UY',
+        ':uy:',
         'Uruguayan Flag'
     ],
     '🇺🇿': [
         'Flag of Uzbekistan',
-        'UZ',
+        ':uz:',
         'Uzbekistani Flag',
         'Uzbek Flag'
     ],
     '🇻🇦': [
         'Flag Sfântul Scaun',
-        'VA',
+        ':va:',
         'Drapelul Vanticanien'
     ],
     '🇻🇨': [
         'Steagul Saint Vincent & Grenadine',
-        'CV'
+        ':vc:'
     ],
     '🇻🇪': [
         'Marcajul Venezuelei',
-        'V',
+        ':ve:',
         'Flag venezuelan'
     ],
     '🇻🇬': [
         'Flag Insulele Virgine Britanice',
-        'VG',
+        ':vg:',
         'Virgin britanic Islander Flag'
     ],
     '🇻🇮': [
         'Flag Insulele Virgine Americane',
-        'VI',
+        ':vi:',
         'Fecioara americană Islander Flag'
     ],
     '🇻🇳': [
         'Marcajul din Vietnam',
-        'VN',
+        ':vn:',
         'Steagul vietnamez'
     ],
     '🇻🇺': [
         'Flag of Vanuatu',
-        'VU',
+        ':vu:',
         'Ni-Vanuatu Flag'
     ],
     '🇼🇫': [
         'Steagul Wallis & Futuna',
-        'WF'
+        ':wf:'
     ],
     '🇼🇸': [
         'Marcajul Samoa',
-        'WS',
+        ':ws:',
         'Samoan Flag'
     ],
     '🇽🇰': [
         'Steagul Kosovo',
-        'XK',
+        ':xk:',
         'Kosovar Flag'
     ],
     '🇾🇪': [
         'Marcajul Yemenului',
-        'YE',
+        ':ye:',
         'Steagul Yemenului'
     ],
     '🇾🇹': [
         'Marcajul Mayotte',
-        'YT',
+        ':yt:',
         'Marcajul Mayotte'
     ],
     '🇿🇦': [
         'Steagul Africii de Sud',
-        'OZ',
+        ':za:',
         'Drapelul sud-african'
     ],
     '🇿🇲': [
         'Marcajul Zambia',
-        'ZM',
+        ':zm:',
         'Zambian Flag'
     ],
     '🇿🇼': [
         'Marcajul Zimbabwe',
-        'ZV',
+        ':zw:',
         'Flag Zimbabwe',
         'Zim Flag'
     ]
@@ -5128,222 +7272,456 @@ emojis_language[lang][7] = {
 /*sports*/
 emojis_language[lang][8] = {
     '🧗{{skin_tone}}‍♂️': [
-        'Man Climbing',
-        'Male Rock Climber',
-        'Man Climber'
+        'Barbatul',
+        ':man_climbing:',
+        ':climbing:',
+        'Rock Climber Bărbat',
+        'Cântăreață de om',
+        ':man:'
     ],
     '🧗{{skin_tone}}‍♀️': [
-        'Woman Climbing',
-        'Female Rock Climber',
-        'Woman Climber'
+        'Căţărare Femeie',
+        ':woman_climbing:',
+        ':climbing:',
+        'Rock Climber Femeie',
+        'Cântăreață Woman',
+        ':woman:'
     ],
     '🧗{{skin_tone}}': [
-        'Person Climbing',
-        'Person Rock Climber',
-        'Person Climber'
+        'Căţărare persoană',
+        ':person_climbing:',
+        ':climbing:',
+        'Cântăreață Persoană Rock',
+        'Cântăreață de om',
+        ':person:'
     ],
     '🏇{{skin_tone}}': [
-        'Horse Racing',
-        'Horse Race',
+        'Curse de cal',
+        ':horse_racing:',
+        'Cursa cabalinelor',
         'Jockey'
     ],
-    '⛷{{skin_tone}}‍️': ['Schiță'],
-    '🏂{{skin_tone}}‍': ['Snowboarder'],
-    '🏌️{{skin_tone}}‍♂️': ['Man Golfer'],
-    '🏌️{{skin_tone}}‍♀️': ['Golfer Woman'],
-    '🏌️{{skin_tone}}': ['Person Golfer'],
-    '🏄{{skin_tone}}‍♂️': ['Navighează Man'],
-    '🏄{{skin_tone}}‍♀️': ['Navigare Femeie'],
-    '🏄{{skin_tone}}': ['Person Surfer'],
-    '🚣{{skin_tone}}‍♂️': ['Man Rowing Boat'],
-    '🚣{{skin_tone}}‍♀️': ['Woman Rowing Boat'],
-    '🚣{{skin_tone}}': ['Person Rowing Boat'],
+    '⛷{{skin_tone}}‍️': [
+        'Schiță',
+        ':skier:'
+    ],
+    '🏂{{skin_tone}}‍': [
+        'Snowboarder',
+        ':snowboarder:'
+    ],
+    '🏌️{{skin_tone}}‍♂️': [
+        'Man Golfer',
+        ':man_golfer:',
+        ':golfer:',
+        ':man:'
+    ],
+    '🏌️{{skin_tone}}‍♀️': [
+        'Golfer Woman',
+        ':woman_golfer:',
+        ':golfer:',
+        ':woman:'
+    ],
+    '🏌️{{skin_tone}}': [
+        'Golfer Persoană',
+        ':person_golfer:',
+        ':golfer:',
+        ':person:'
+    ],
+    '🏄{{skin_tone}}‍♂️': [
+        'Navighează Man',
+        ':man_surfer:',
+        ':surfer:',
+        ':man:'
+    ],
+    '🏄{{skin_tone}}‍♀️': [
+        'Navigare Femeie',
+        ':woman_surfer:',
+        ':surfer:',
+        ':woman:'
+    ],
+    '🏄{{skin_tone}}': [
+        'Persoană care navighează',
+        ':person_surfer:',
+        ':surfer:',
+        ':person:'
+    ],
+    '🚣{{skin_tone}}‍♂️': [
+        'Barca arcașilor din Om',
+        ':man_rowing_boat:',
+        ':rowing_boat:',
+        ':man:'
+    ],
+    '🚣{{skin_tone}}‍♀️': [
+        'Barca de arsură Woman',
+        ':woman_rowing_boat:',
+        ':rowing_boat:',
+        ':woman:'
+    ],
+    '🚣{{skin_tone}}': [
+        'Barcă de cazare Persoană',
+        ':person_rowing_boat:',
+        ':rowing_boat:',
+        ':person:'
+    ],
     '🏊{{skin_tone}}‍♂️': [
-        'Man Swimming',
-        'Man Swimmer'
+        'Înotător de om',
+        ':man_swimming:',
+        ':swimming:',
+        'Înotător de om',
+        ':man:'
     ],
     '🏊{{skin_tone}}‍♀️': [
-        'Woman Swimming',
-        'Woman Swimmer'
+        'Înotare Femei',
+        ':woman_swimming:',
+        ':swimming:',
+        'Înotător de Femei',
+        ':woman:'
     ],
     '🏊{{skin_tone}}': [
-        'Woman Swimming',
-        'Person Swimmer'
+        'Înotat de persoană',
+        ':person_swimming:',
+        ':swimming:',
+        'Înotător persoană',
+        ':person:'
     ],
     '⛹{{skin_tone}}‍️‍♂️': [
         'Minge Bărbat',
-        'Jucător de baschet Man'
+        ':man_bouncing_ball:',
+        ':bouncing_ball:',
+        'Jucător de baschet Man',
+        ':man:'
     ],
     '⛹️{{skin_tone}}‍♀️': [
         'Minge de salt Woman',
-        'Jucător de baschet Woman'
+        ':woman_bouncing_ball:',
+        ':boucing_ball:',
+        'Jucător de baschet Woman',
+        ':woman:'
     ],
     '⛹️{{skin_tone}}': [
-        'Person Bouncing Ball',
-        'Person Basketball Player'
+        'Minge Povestire Persoană',
+        ':person_bouncing_ball:',
+        ':boucing_ball:',
+        'Player Persoană de Baschet',
+        ':person:'
     ],
     '🏋️{{skin_tone}}‍♂️': [
         'Greutăţile Omului Ridicat',
-        'Man Haltteră'
+        ':man_lifting_weights:',
+        ':lifting_weights:',
+        'Man Haltteră',
+        ':man:'
     ],
     '🏋️{{skin_tone}}‍♀️': [
         'Greutatea Ridicării Femeiei',
-        'Halteră Femeie'
+        ':woman_lifting_weights:',
+        ':lifting_weights:',
+        'Halteră Femeie',
+        ':woman:'
     ],
     '🏋️{{skin_tone}}': [
-        'Person Lifting Weights',
-        'Person Weightlifter'
+        'Greutățile de ridicare ale persoanei',
+        ':person_lifting_weights:',
+        ':lifting_weights:',
+        'Halterator persoană',
+        ':person:'
     ],
     '🚴{{skin_tone}}‍♂️': [
         'Biciclete pentru bărbat',
+        ':man_biking:',
+        ':biking:',
         'Ciclist mamar',
-        'Ciclist masculin'
+        'Ciclist masculin',
+        ':man:'
     ],
     '🚴{{skin_tone}}‍♀️': [
         'Ciclism Woman',
+        ':woman_biking:',
+        ':biking:',
         'Ciclist Woman',
-        'Ciclist feminin'
+        'Ciclist feminin',
+        ':woman:'
     ],
     '🚴{{skin_tone}}': [
-        'Person Biking',
-        'Person Cyclist',
-        'Person Cyclist'
+        'Persoana cu bicicleta',
+        ':person_biking:',
+        ':biking:',
+        'Ciclist persoană',
+        'Ciclist persoană',
+        ':person:'
     ],
     '🚵{{skin_tone}}‍♂️': [
         'Ciclism de munte Man',
-        'Biciclist de munte Man'
+        ':man_mountain_bike:',
+        ':mountain_bike:',
+        'Biciclist de munte Man',
+        ':man:'
     ],
     '🚵{{skin_tone}}‍♀️': [
         'Ciclism de munte Woman',
-        'Ciclu de munte Woman'
+        ':woman_mountain_bike:',
+        ':mountain_bike:',
+        'Ciclu de munte Woman',
+        ':woman:'
     ],
     '🚵{{skin_tone}}': [
-        'Person Mountain Biking',
-        'Person Mountain Biker'
+        'Ciclism pe munte',
+        ':person_mountain_bike:',
+        ':mountain_bike:',
+        'Motocicliști de munte',
+        ':person:'
     ],
     '🤸{{skin_tone}}‍♂️': [
         'Bărbat cu coșul',
-        'Bărbat cu coş'
+        ':man_cartwheeling:',
+        ':cartwheeling:',
+        'Bărbat cu coş',
+        ':man:'
     ],
     '🤸{{skin_tone}}‍♀️': [
         'Cartografiere Woman',
-        'Cartușul de Femei'
+        ':woman_cartwheeling:',
+        ':cartwheeling:',
+        'Cartușul de Femei',
+        ':woman:'
     ],
     '🤸{{skin_tone}}': [
-        'Person Cartwheeling',
-        'Person Doing Cartwheel'
+        'Cartografiere persoană',
+        ':person_cartwheeling:',
+        ':cartwheeling:',
+        'Cartușul Persoanei',
+        ':person:'
     ],
     '🤼‍♂️': [
-        'Men Wrestling',
-        'Wrestling',
-        'Wrestlers'
+        'Lupte Bărbați',
+        ':men_wrestling:',
+        ':wrestling:',
+        'Lupte',
+        'Luptători',
+        ':man:'
     ],
     '🤼‍♀️': [
-        'Women Wrestling',
-        'Wrestling',
-        'Wrestlers'
+        'Luptele feminine',
+        ':women_wrestling:',
+        ':wrestling:',
+        'Lupte',
+        'Luptători',
+        ':woman:'
     ],
     '🤼': [
         'Lupte cu persoane',
+        ':people_wrestling:',
+        ':wrestling:',
         'Lupte',
-        'Luptători'
+        'Luptători',
+        ':person:'
     ],
-    '🤽{{skin_tone}}‍♂️': ['Polo de apă pentru bărbat'],
-    '🤽{{skin_tone}}‍♀️': ['Polo de apă feminin'],
-    '🤽{{skin_tone}}': ['Person Playing Water Polo'],
-    '🤾{{skin_tone}}‍♂️': ['Handbal Jucat Bărbat'],
-    '🤾{{skin_tone}}‍♀️': ['Mingea Jucării Femei'],
-    '🤾{{skin_tone}}': ['Person Playing Handball'],
+    '🤽{{skin_tone}}‍♂️': [
+        'Polo de apă pentru bărbat',
+        ':man_playing_water_polo:',
+        ':playing_water_polo:',
+        ':man:'
+    ],
+    '🤽{{skin_tone}}‍♀️': [
+        'Polo de apă feminin',
+        ':woman_playing_water_polo:',
+        ':playing_water_polo:',
+        ':woman:'
+    ],
+    '🤽{{skin_tone}}': [
+        'Persoana care joacă Polo de apă',
+        ':person_playing_water_polo:',
+        ':playing_water_polo:',
+        ':person:'
+    ],
+    '🤾{{skin_tone}}‍♂️': [
+        'Handbal Jucat Bărbat',
+        ':man_playing_handball:',
+        ':playing_handball:',
+        ':man:'
+    ],
+    '🤾{{skin_tone}}‍♀️': [
+        'Mingea Jucării Femei',
+        ':woman_playing_handball:',
+        ':playing_handball:',
+        ':woman:'
+    ],
+    '🤾{{skin_tone}}': [
+        'Handbal Jucat Persoană',
+        ':person_playing_handball:',
+        ':playing_handball:',
+        ':person:'
+    ],
     '🤹{{skin_tone}}‍♂️': [
         'Jugăiască bărbat',
-        'Juggler masculin'
+        ':man_juggling:',
+        ':juggling:',
+        'Juggler masculin',
+        ':man:'
     ],
     '🤹{{skin_tone}}‍♀️': [
         'Jugiliere Femeie',
-        'Juggler Femeie'
+        ':woman_juggling:',
+        ':juggling:',
+        'Juggler Femeie',
+        ':woman:'
     ],
     '🤹{{skin_tone}}': [
-        'Person Juggling',
-        'Person Juggler'
+        'Bagheta Persoanei',
+        ':person_juggling:',
+        ':juggling:',
+        'Juggler persoană',
+        ':person:'
     ],
     '🧘{{skin_tone}}‍♂️': [
         'Om în poziția de Lotus',
+        ':man_lotus_position:',
+        ':lotus_position:',
         'Meditaţie',
         'Zen',
         'Cruce cu picior',
-        'Yoga'
+        'Yoga',
+        ':man:'
     ],
     '🧘{{skin_tone}}‍♀️': [
         'Femeie în poziția de Lotus',
+        ':woman_lotus_position:',
+        ':lotus_position:',
         'Meditaţie',
         'Zen',
         'Cruce cu picior',
-        'Yoga'
+        'Yoga',
+        ':woman:'
     ],
     '🧘{{skin_tone}}': [
-        'Person in Lotus Position',
-        'Meditation',
+        'Persoana în poziția de Lotus',
+        ':person_lotus:_poziție',
+        ':lotus_position:',
+        'Meditaţie',
         'Zen',
-        'Cross legged',
-        'Yoga'
+        'Cruce cu picior',
+        'Yoga',
+        ':person:'
     ],
-    '🏃{{skin_tone}}‍♂️': ['Bărbat care rulează'],
-    '🏃{{skin_tone}}‍♀️': ['Femei care rulează'],
-    '🏃{{skin_tone}}': ['Person Running'],
-    '🕺{{skin_tone}}': ['Man Dancing'],
-    '💃{{skin_tone}}': ['Woman Dancing'],
+    '🏃{{skin_tone}}‍♂️': [
+        'Bărbat care rulează',
+        ':man_running:',
+        ':running:',
+        ':man:'
+    ],
+    '🏃{{skin_tone}}‍♀️': [
+        'Femei care rulează',
+        ':woman_running:',
+        ':running:',
+        ':woman:'
+    ],
+    '🏃{{skin_tone}}': [
+        'Persoană care rulează',
+        ':person_running:',
+        ':running:',
+        ':person:'
+    ],
+    '🕺{{skin_tone}}': [
+        'Dans pentru om',
+        ':man_dancing:',
+        ':dancing:',
+        ':man:'
+    ],
+    '💃{{skin_tone}}': [
+        'Dans feminin',
+        ':woman_dancing:',
+        ':dancing:',
+        ':woman:'
+    ],
     '🤺': [
         'Fenomenul Persoanei',
-        'Fancer'
+        ':person_fencing:',
+        'Fancer',
+        ':fencing:'
     ],
     '🏆': [
         'Trofeu',
+        ':trophy:',
         'Campionat',
-        'Câștigător'
+        'Câștigător',
+        ':gold:',
+        ':yellow:'
     ],
-    '🏅': ['Medalie sport'],
+    '🏅': [
+        'Medalie sport',
+        ':sports_medal:',
+        ':medal:',
+        ':gold:',
+        ':yellow:'
+    ],
     '🥇': [
         'Medalie loc 1',
+        ':first_place_medal:',
+        ':gold_medal:',
         'Medalie primul loc',
-        'Medalie de aur'
+        'Medalie de aur',
+        ':yellow:',
+        ':gold:'
     ],
     '🥈': [
         'Medalie Locul 2',
+        ':second_place_medal:',
+        ':silver_medal:',
         'Medalie Locul II',
-        'Medalie de argint'
+        'Medalie de argint',
+        ':gray:',
+        ':grey:',
+        ':silver:'
     ],
     '🥉': [
         'Medalie Locul 3',
+        ':third_place_medal:',
+        ':bronze_medal:',
         'Medalie Locul 3',
-        'Medalie de bronz'
+        'Medalie de bronz',
+        ':brown:',
+        ':bronze:'
     ],
     '⚽': [
         'Fotbal',
-        'Fotbal'
+        ':football:',
+        'Fotbal',
+        ':white:',
+        ':black:'
     ],
     '⚾': [
         'Baseball',
+        ':baseball:',
         'Softball',
-        'Alb'
+        ':white:'
     ],
     '🥎': [
         'Softball',
-        'Galben'
+        ':softball:',
+        ':yellow:'
     ],
     '🏀': [
         'Baschet',
-        'Portocaliu',
+        ':basketball:',
+        ':orange:',
         'Baschet şi Hoop'
     ],
-    '🏐': ['Volei'],
+    '🏐': [
+        'Volei',
+        ':volleyball:',
+        ':white:'
+    ],
     '🏈': [
         'Fotbal american',
+        ':american_football:',
         'Fotbal',
         'Gridiron',
-        'Superbowl'
+        'Superbowl',
+        ':brown:'
     ],
     '🏉': [
         'Fotbal Rugby',
+        ':rugby:',
         'Fotbal',
         'Liga',
         'Ruga',
@@ -5351,111 +7729,159 @@ emojis_language[lang][8] = {
     ],
     '🎾': [
         'Tenis',
+        ':tennis:',
+        ':ball:',
         'Minge',
         'Rachetă',
-        'Rachetă'
+        'Rachetă',
+        ':yellow:'
     ],
     '🥏': [
         'Disc zburător',
+        ':flying_disk:',
         'Frisbee'
     ],
     '🎳': [
         'Aruncare',
+        ':bowling:',
         'Fixări',
         'Teme',
         'Zece arcuri cu pin'
     ],
     '🏏': [
         'Crichet',
+        ':cricket:',
         'Liliac',
         'Minge'
     ],
     '🏑': [
         'Hockey câmp',
+        ':field_hockey:',
         'Minge',
         'Fixează'
     ],
     '🏒': [
         'Hockey de gheață',
+        ':ice_hockey:',
         'Minge',
         'Fixează'
     ],
     '🥍': [
         'Lacrosse',
+        ':lacrosse:',
         'Minge',
-        'Fixează'
+        'Fixează',
+        ':red:'
     ],
     '🏓': [
         'Ping Pong',
+        ':ping_pong:',
+        ':table_tennis:',
         'Tenis de masă',
         'Minge',
         'Paddle'
     ],
     '🏸': [
         'Badminton',
+        ':badminton:',
         'Shuttlecock',
         'Rachetă'
     ],
-    '🥊': ['Mânuşi de Box'],
+    '🥊': [
+        'Mânuşi de Box',
+        ':boxing_glove:',
+        ':red:'
+    ],
     '🥋': [
         'Arte marțiale uniforme',
+        ':martial_arts_uniform:',
+        ':judo:',
+        ':karate:',
+        ':kung_fu:',
         'Judo',
         'Karat',
         'Kung fu'
     ],
     '⛳': [
         'Steag în gură',
+        ':flag_in_hole:',
+        ':golf_flag:',
         'Steagul Golf'
     ],
     '⛸️': [
         'Pisică de gheață',
+        ':ice_skate:',
         'Patinaj'
     ],
     '🎣': [
         'Pescuit',
+        ':fishing:',
         'Camp',
         'Pești',
         'District de pescuit'
     ],
     '🎽': [
         'Tricou care rulează',
+        ':running_shirt:',
         'Unghiul',
         'Spălare'
     ],
     '🎿': [
         'Schiță',
+        ':skis:',
         'Ski',
         'Pornire'
     ],
-    '🛷': ['Luminat'],
-    '🥌': ['Piatră curlină'],
+    '🛷': [
+        'Luminat',
+        ':sled:'
+    ],
+    '🥌': [
+        'Piatră curlină',
+        ':curling_stone:'
+    ],
     '🎯': [
         'Lovitură directă',
+        ':direct_hit:',
         'Arcași',
         'Bullseye',
         'Diagrame'
     ],
     '🎱': [
         'Lot 8 Minge',
+        ':pool_8_ball:',
         'Minge de cos',
         'Amânător',
-        'Miliarde'
+        'Miliarde',
+        ':black:'
     ],
     '🎮': [
         'Controler de jocuri video',
+        ':video_game_controller:',
+        ':playstation:',
+        ':xbox:',
         'Playstation',
         'Xbox',
         'Gamepad',
         'Ba U'
     ],
-    '♟️': ['Pionul negru de șah'],
+    '♟️': [
+        'Pionul negru de șah',
+        ':black_chess_pawn:',
+        ':black:'
+    ],
     '🏹': [
         'Arc și săgeată',
+        ':arch:',
         'Arc'
     ],
-    '🥅': ['Obiectiv Net'],
+    '🥅': [
+        'Obiectiv Net',
+        ':goal_net:'
+    ],
     '🀄': [
         'Dragon Roșu Mahjong',
+        ':mahjong:',
         'Mahjong',
         'Mahjong Tile',
         '中',
@@ -5463,6 +7889,7 @@ emojis_language[lang][8] = {
     ],
     '🎴': [
         'Carduri de redare flori',
+        ':flower_playing_cards:',
         'Pagină de carduri',
         'Hanafuda',
         'Hwatu',
@@ -5473,259 +7900,385 @@ emojis_language[lang][8] = {
 emojis_language[lang][9] = {
     '🚂': [
         'Locomotivă Steam',
+        ':steam_train:',
         'Antrenare Steam',
         'Locomotivă feroviară'
     ],
     '🚃': [
         'Mașină feroviară',
+        ':railway_car:',
         'Cale ferată',
         'Cale ferată',
         'Transportul feroviar',
         'Vagon feroviar'
     ],
-    '🚄': ['Antrenare de mare viteză'],
+    '🚄': [
+        'Antrenare de mare viteză',
+        ':high_speed_train:'
+    ],
     '🚅': [
         'Antrenare Gloanțe',
+        ':bullet_train:',
         'Shinkansen',
         'Tren de mare viteză cu nucă glonț'
     ],
-    '🚆': ['Tren'],
+    '🚆': [
+        'Tren',
+        ':train:'
+    ],
     '🚇': [
         'Subsol',
+        ':underground:',
         'Tub',
         'Metro',
         'metrou'
     ],
     '🚈': [
         'Cale ferată ușoară',
+        ':light_rail:',
         'Tren'
     ],
-    '🚊': ['Tren'],
+    '🚊': [
+        'Tren',
+        ':tram:'
+    ],
     '🚝': [
         'Monorail',
+        ':monorail:',
         'Tren'
     ],
     '🚞': [
         'Calea ferată montană',
+        ':mountain_railway:',
         'Funicular',
         'Antreneaza si Munte'
     ],
-    '🚋': ['Mașină de tren'],
+    '🚋': [
+        'Mașină de tren',
+        ':tram_car:'
+    ],
     '🚌': [
         'Autobuz',
+        ':bus:',
         'Antrenor'
     ],
     '🚍': [
         'Autobuz viitor',
+        ':front_of_bus:',
         'Fața autobuzului'
     ],
     '🚎': [
         'Trolleybus',
+        ':trolleybus:',
         'Autobuz Electric'
     ],
     '🚐': [
         'Minibus',
+        ':minibus:',
         'Minivan',
         'Oameni - Mover'
     ],
-    '🚑': ['Ambulanță'],
+    '🚑': [
+        'Ambulanță',
+        ':ambulance:'
+    ],
     '🚒': [
         'Motor de foc',
+        ':fire_engine:',
         'Departamentul de incendiu',
         'Camion cu incendiu'
     ],
     '🚓': [
         'Mașină de poliție',
+        ':police_car:',
         'Cop Mașină',
         'O mașină de poliție laterală'
     ],
     '🚔': [
         'Mașină de poliție în curs',
+        ':front_of_police_car:',
         'Frontul Casei de Poliție',
         'Cop Mașină'
     ],
     '🚕': [
         'Taxi',
+        ':taxi:',
         'New York Taxi',
         'Lateral de Taxi'
     ],
     '🚖': [
         'Taxi',
+        ':front_of_taxi:',
         'Taxi viitoare',
         'Fața Taxi-ului'
     ],
     '🚗': [
         'Automobile',
+        ':car:',
         'Mașină roșie',
-        'Lateral al mașinii'
+        'Lateral al mașinii',
+        'Mașină'
     ],
     '🚘': [
         'Automobile în curs',
+        ':front_of_car:',
         'Mașină roșie',
         'Fața mașinii'
     ],
     '🚚': [
         'Camion de livrare',
+        ':lorry:',
         'Camion'
     ],
     '🚛': [
         'Lună articulată',
+        ':articulated_lorry:',
         'Camion verde'
     ],
     '🚜': [
         'Tractor',
+        ':tractor:',
         'Ferma'
     ],
-    '🛻': ['Camion de preluare'],
+    '🛻': [
+        'Camion de preluare',
+        ':pickup_truck:'
+    ],
     '🏎️': [
         'Mașină de curse',
+        ':racing_car:',
         'F1',
         'Formula Unu',
         'Mașină de cursă'
     ],
     '🏍️': [
         'Motocicletă',
+        ':motorbike:',
         'Motocicletă'
     ],
     '🛵': [
         'Trotinetă auto',
+        ':motor_scooter:',
         'Vespa',
         'Motocicletă',
         'Motocicletă'
     ],
     '🛺': [
         'Auto Rickshaw',
+        ':auto_rickshaw:',
         'Tuk Tuk'
     ],
     '🚲': [
         'Bicicletă',
+        ':bike:',
         'Bicicletă'
     ],
-    '🛴': ['Dă afară trotineta'],
+    '🛴': [
+        'Dă afară trotineta',
+        ':kick_scooter:'
+    ],
     '⛵': [
         'Barca de escale',
+        ':sailboat:',
         'Dinghy',
         'Iaht'
     ],
     '🚤': [
         'Barcă de viteză',
+        ':speedboat:',
         'Motorbarcă',
         'Bandă'
     ],
-    '🛳️': ['Navă de pasageri'],
-    '⛴️': ['Fericire'],
-    '🛥️': ['Barcă cu motor'],
-    '🚢': ['Navă de croazieră'],
+    '🛳️': [
+        'Navă de pasageri',
+        ':passenger_ship:'
+    ],
+    '⛴️': [
+        'Fericire',
+        ':ferry:'
+    ],
+    '🛥️': [
+        'Barcă cu motor',
+        ':motor_boat:'
+    ],
+    '🚢': [
+        'Navă de croazieră',
+        ':cruise_ship:'
+    ],
     '✈️': [
         'Avion',
+        ':airplane:',
         'Aeroplane'
     ],
     '🛩️': [
         'Avion mic',
+        ':small_airplane:',
         'Avion mic'
     ],
-    '🚁': ['Elicopter'],
-    '🚟': ['Suspensie feroviară'],
-    '🚠': ['Cablu de munte'],
+    '🚁': [
+        'Elicopter',
+        ':helicopter:'
+    ],
+    '🚟': [
+        'Suspensie feroviară',
+        ':suspension_railway:'
+    ],
+    '🚠': [
+        'Cablu de munte',
+        ':mountain_cableway:'
+    ],
     '🚡': [
         'Tramvai Aerial',
+        ':aerial_tramway:',
         'Mașină de cablu',
         'Gondola',
         'Calea'
     ],
-    '🛰️': ['Satelit'],
+    '🛰️': [
+        'Satelit',
+        ':satellite:'
+    ],
     '🚀': [
         'Rachetă',
+        ':rocket:',
         'Shuttle Spațiu'
     ],
     '🛸': [
         'Fotbal zburător',
+        ':flying_saucer:',
         'OZM'
     ],
     '🚉': [
         'Stație de tren',
+        ':train_station:',
         'Platforma de tren'
     ],
-    '🚏': ['Stop autobuz'],
+    '🚏': [
+        'Stop autobuz',
+        ':bus_stop:'
+    ],
     '🛣️': [
         'Autostradă',
+        ':motorway:',
         'Drumuri',
         'Autostradă',
         'Interstat'
     ],
-    '🛤️': ['Urmărire cale ferată'],
+    '🛤️': [
+        'Urmărire cale ferată',
+        ':railway_track:'
+    ],
     '🛫': [
         'Plecare avion',
+        ':airplane_departure:',
         'Dezactivare'
     ],
     '🛬': [
         'Sosirea avioanelor',
+        ':airplane_arrival:',
         'Acoperire avion',
         'Aterizare'
     ],
-    '🗾': ['Harta Japoniei'],
-    '⛰️': ['Munte'],
-    '🏔️': ['Muntele cu zăpadă tăiat'],
-    '🌋': ['Vulcan'],
+    '🗾': [
+        'Harta Japoniei',
+        ':map_of_japan:'
+    ],
+    '⛰️': [
+        'Munte',
+        ':mountain:'
+    ],
+    '🏔️': [
+        'Muntele cu zăpadă tăiat',
+        ':snow_capped_mountain:'
+    ],
+    '🌋': [
+        'Vulcan',
+        ':volcano:'
+    ],
     '🗻': [
         'Montare Fuji',
+        ':mount_fuji:',
         'Fuji-san'
     ],
     '🏕️': [
         'Campare',
+        ':camping:',
         'Tabără'
     ],
-    '🏖️': ['Plajă cu Umbrella'],
-    '🏜️': ['Desert'],
-    '🏝️': ['Insula deşertului'],
-    '🏞️': ['Parcul național'],
+    '🏖️': [
+        'Plajă cu Umbrella',
+        ':beach_with_umbrella:'
+    ],
+    '🏜️': [
+        'Desert',
+        ':desert:'
+    ],
+    '🏝️': [
+        'Insula deşertului',
+        ':desert_island:'
+    ],
+    '🏞️': [
+        'Parcul național',
+        ':national_park:'
+    ],
     '🏟️': [
         'Stadion',
+        ':stadium:',
         'Bunicuri',
         'Stadionul sportiv'
     ],
     '🏛️': [
         'Clădire clasică',
+        ':classical_building:',
         'Greacă',
         'Roma'
     ],
     '🏗️': [
         'Construcții de clădiri',
+        ':building_construction:',
         'Macara'
     ],
     '🏘️': [
         'Clădiri de case',
+        ':houses_building:',
         'Grup de camere'
     ],
     '🏚️': [
         'Clădirea clădirii Derelict',
+        ':old_house:',
         'Casă abandonată',
         'Casă veche',
         'Casă haunată'
     ],
     '🏠': [
         'Acasă',
+        ':home:',
         'Clădirea casei'
     ],
     '🏡': [
         'Casă cu grădină',
+        ':house_with_garden:',
         'Casă și copaci'
     ],
     '🏢': [
         'Clădire birouri',
+        ':office_building:',
         'Clădire oraș',
         'Clădire high-Rise'
     ],
     '🏣': [
         'Oficiul Postal Japonez',
+        ':japanese_post_office:',
         'Semn poștal japonez'
     ],
     '🏤': [
         'Oficiul Poștal',
+        ':european_post_office:',
         'Oficiul Poștal European'
     ],
     '🏥': [
         'Spital',
+        ':hospital:',
         'ER',
         'A&E',
         'Camera de urgenţă',
@@ -5735,6 +8288,7 @@ emojis_language[lang][9] = {
     ],
     '🏦': [
         'Bancă',
+        ':bank:',
         'BK',
         'Bakkureru',
         'Sucursala băncii',
@@ -5742,15 +8296,18 @@ emojis_language[lang][9] = {
     ],
     '🏨': [
         'Hotel',
+        ':hotel:',
         'Cazare',
         'O clădire'
     ],
     '🏩': [
         'Iubire Hotel',
+        ':love_hotel:',
         'Iubire Hotel pentru Inimă'
     ],
     '🏪': [
         'Magazin convenabil',
+        ':convenience_store:',
         'Magazin 24 ore',
         '7-11',
         'Magazin de colțuri',
@@ -5758,16 +8315,19 @@ emojis_language[lang][9] = {
     ],
     '🏫': [
         'Școală',
+        ':school:',
         'Turn cu ceas',
         'Mijloc Elementar'
     ],
     '🏬': [
         'Magazin departament',
+        ':department_store:',
         'Centru de cumpărături',
         'Magazin'
     ],
     '🏭': [
         'Fabrică',
+        ':factory:',
         'Industriale',
         'Industrie',
         'Poluare',
@@ -5775,91 +8335,117 @@ emojis_language[lang][9] = {
     ],
     '🏯': [
         'Castel Japonez',
+        ':japanese_castle:',
         'Fortăreață'
     ],
     '🏰': [
         'Castelul European',
+        ':european_castle:',
         'Turrets'
     ],
     '💒': [
         'Inimă Biserică',
+        ':church_heart:',
         'Nuntă Biserică',
         'Căsătorie'
     ],
     '🗼': [
         'Turnul Tokyo',
+        ':tokyo_tower:',
         'Turnul Eiffel',
         'Turn roșu'
     ],
     '🗽': [
         'Statuia Libertății',
+        ':statue_of_liberty:',
         'New York'
     ],
     '⛪': [
         'Clădire Biserică',
+        ':church_building:',
         'Crucea'
     ],
     '🕌': [
         'Moschee',
+        ':mosque:',
         'Acoperiș Domed',
         'Minaret'
     ],
-    '🛕': ['Templu Hindu'],
+    '🛕': [
+        'Templu Hindu',
+        ':hindu_temple:'
+    ],
     '🕍': [
         'Synagogue',
+        ':synagogue:',
         'Evreiesc',
         'Synagog',
         'Templu'
     ],
     '⛩️': [
         'Strălucire strălucitoare',
+        ':shinto_shrine:',
         'Kami-no-mich'
     ],
     '🕋': [
         'Kaaba',
+        ':kaaba:',
         'Mecca'
     ],
-    '🏙️': ['Cityscape'],
+    '🏙️': [
+        'Cityscape',
+        ':cityscape:'
+    ],
     '⛱️': [
         'Umbrela pe pământ',
+        ':beach_umbrella:',
         'Umbrelă pe plajă'
     ],
     '🌄': [
         'Răsărit peste munți',
+        ':sunrise_over_mountains:',
         'Dimineața',
         'Răsărit'
     ],
     '🌅': [
         'Răsărit',
+        ':sunrise:',
+        ':sunset:',
         'Amortizor'
     ],
     '🌆': [
         'Cityscape la Dusk',
+        ':cityscape_at_dusk:',
         'Oras Cer Portocaliu',
         'Oraș Dusk'
     ],
     '🌇': [
         'Sunset peste clădiri',
+        ':sunset_over_buildings:',
         'Sunet oraș'
     ],
     '🌃': [
         'Noapte cu stele',
+        ':night_with_stars:',
         'Oraș noaptea',
         'Noapte înstelată'
     ],
     '🗿': [
         'Moai',
+        ':moai:',
         'Statuie Insula Paştelui',
         'Călăreț de oameni',
         'Statuie Moyai'
     ],
     '🌠': [
         'Steaua de tragere',
+        ':shooting_star:',
         'Când îți dorești după o stea',
         'Meteoroid'
     ],
     '🌌': [
         'Calea lăptoasă',
+        ':milky_way:',
         'Galaxie',
         'Cer de noapte',
         'Spațiu',
@@ -5868,89 +8454,133 @@ emojis_language[lang][9] = {
     ],
     '🎑': [
         'Ceremonia de vizualizare a lunii',
+        ':moon_viewing_ceremony:',
         'Iarbe, Găluște și Lună',
         'Culege Luna',
         'Festivalul Mid-Autumn',
         'Tsukimi'
     ],
-    '🛖': ['Colibă'],
+    '🛖': [
+        'Colibă',
+        ':hut:'
+    ],
     '🎢': [
         'Coaster Roller',
+        ':roller_coaster:',
         'Rollercoaster',
         'Parc tematic'
     ],
     '🛝': [
         'Playground Slide',
+        ':playground_slide:',
         'Copil',
-        'Children'
+        'Copii'
     ]
 };
 /*technologies (smartphones, laptops, etc.) and office*/
 emojis_language[lang][10] = {
     '⌚': [
         'Vizionează',
+        ':watch:',
         'Temporizare',
         'Vizionare Apple'
     ],
-    '⏰': ['Ceas de alarmă'],
-    '⏱️': ['Cronometru'],
-    '⏲️': ['Ceas cronometru'],
-    '🕰️': ['Ceas Mantelpiece'],
-    '🧭': ['Busolă'],
-    '🕹️': ['Joystick'],
-    '🎙️': ['Microfon Studio'],
-    '🎚️': ['Slider nivel'],
-    '🎛️': ['Butoane de control'],
+    '⏰': [
+        'Ceas de alarmă',
+        ':alarm_clock:'
+    ],
+    '⏱️': [
+        'Cronometru',
+        ':stopwatch:'
+    ],
+    '⏲️': [
+        'Ceas cronometru',
+        ':timer_clock:'
+    ],
+    '🕰️': [
+        'Ceas Mantelpiece',
+        ':mantelpiece_clock:'
+    ],
+    '🧭': [
+        'Busolă',
+        ':compass:'
+    ],
+    '🕹️': [
+        'Joystick',
+        ':joystick:'
+    ],
+    '🎙️': [
+        'Microfon Studio',
+        ':studio_microphone:'
+    ],
+    '🎚️': [
+        'Slider nivel',
+        ':level_slider:'
+    ],
+    '🎛️': [
+        'Butoane de control',
+        ':control_knobs:'
+    ],
     '📻': [
         'Radio',
+        ':radio:',
         'Radio digital',
         'Wireless'
     ],
     '📱': [
         'Telefon mobil',
+        ':mobile_phone:',
         'Smartphone',
         'iPhone',
         'Telefon mobil'
     ],
     '📲': [
         'Telefon mobil cu săgeată dreapta la stânga',
+        ':phone_call:',
         'Apel telefonic',
         'Punct la telefon'
     ],
     '☎️': [
         'Telefon Negru',
+        ':rotary_phone:',
         'Telefon rotativ',
-        'Roșu'
+        ':red:'
     ],
     '📞': [
         'Receptor Telefon',
+        ':phone:',
         'Handset',
         'Telefon',
-        'Negru'
+        ':black:'
     ],
     '📟': [
         'Pager',
+        ':pager:',
         'Bip',
         'Somn'
     ],
     '📠': [
         'Mașina de fax',
+        ':fax_machine:',
         'Facsimile',
         'Fax'
     ],
     '🔋': [
         'Baterie',
+        ':battery:',
         'Baterie AA',
         'Baterie telefon'
     ],
     '🔌': [
         'Plug Electric',
+        ':power_cable:',
         'AC Adaptor',
         'Cablu de putere',
         'Plug de alimentare'
     ],
     '💻': [
         'Laptop',
+        ':laptop:',
         'Caiet',
         'Calculator personal',
         'PC',
@@ -5959,18 +8589,30 @@ emojis_language[lang][10] = {
     ],
     '🖥️': [
         'Calculator desktop',
+        ':desktop_computer:',
         'Mac',
         'PC'
     ],
-    '🖨️': ['Imprimantă'],
-    '⌨️': ['Keyboard'],
+    '🖨️': [
+        'Imprimantă',
+        ':printer:'
+    ],
+    '⌨️': [
+        'Keyboard',
+        ':keyboard:'
+    ],
     '🖱️': [
         'Șoricel computer',
+        ':computer_mouse:',
         'Șoricel Trei Butoane'
     ],
-    '🖲️': ['Trackball'],
+    '🖲️': [
+        'Trackball',
+        ':trackball:'
+    ],
     '💽': [
         'Disc de calculator',
+        ':blu_ray:',
         'Minidisc',
         'CD',
         'DVD',
@@ -5979,11 +8621,13 @@ emojis_language[lang][10] = {
     ],
     '💾': [
         'Disc floppy',
+        ':floppy_disk:',
         '3,5′ disc',
         'Disc'
     ],
     '💿': [
         'Disc optic',
+        ':cd:',
         'CD',
         'CD-ROM',
         'Disc compact'
@@ -5991,28 +8635,45 @@ emojis_language[lang][10] = {
     '📀': [
         'DVD',
         'DVD-ROM',
+        ':dvd:',
         'DVD video'
     ],
     '🎥': [
         'Cameră de film',
+        ':movie_camera:',
         'Cameră de film',
         'Hollywood',
         'Film'
     ],
-    '🎞️': ['Cadre de film'],
-    '📽️': ['Proiector de film'],
+    '🎞️': [
+        'Cadre de film',
+        ':film_frames:'
+    ],
+    '📽️': [
+        'Proiector de film',
+        ':film_projector:'
+    ],
     '📺': [
         'Televiziune',
+        ':tv:',
         'Televizor'
     ],
-    '📷': ['Camera digitală'],
-    '📸': ['Cameră foto cu flash'],
+    '📷': [
+        'Camera digitală',
+        ':digital_camera:'
+    ],
+    '📸': [
+        'Cameră foto cu flash',
+        ':camera_flash:'
+    ],
     '📹': [
         'Cameră video',
+        ':video_camera:',
         'Camcorder'
     ],
     '📼': [
         'Video',
+        ':vhs:',
         'VHS',
         'RCV',
         'Captură video',
@@ -6020,6 +8681,7 @@ emojis_language[lang][10] = {
     ],
     '💳': [
         'Card de Credit',
+        ':credit_card:',
         'Card de debit',
         'AMEX',
         'Diners Club',
@@ -6029,254 +8691,382 @@ emojis_language[lang][10] = {
     ],
     '📧': [
         'E-mail',
+        ':email:',
         'E-mail'
     ],
     '📨': [
         'Plic de Intrare',
+        ':incoming_envelope:',
         'Plic cu linii',
         'Plic Rapid'
     ],
     '📩': [
         'Plic cu săgeată descendentă deasupra',
+        ':insert_in_envelope:',
         'Plic Săgeată jos',
         'Inserare in Plic'
     ],
-    '📤': ['Tavă de expediere'],
-    '📥': ['Tavă Inbox'],
-    '📮': ['Postbox'],
+    '📤': [
+        'Tavă de expediere',
+        ':outbox_tray:'
+    ],
+    '📥': [
+        'Tavă Inbox',
+        ':inbox_tray:'
+    ],
+    '📮': [
+        'Postbox',
+        ':postbox:'
+    ],
     '📁': [
         'Dosar fișier',
+        ':file_folder:',
         'Dosar',
         'Director',
         'Folder Fișiere Închis'
     ],
     '📂': [
         'Deschide directorul de fișiere',
+        ':open_file_folder:',
         'Director'
     ],
-    '🗂️': ['Dividende Indice Card'],
+    '🗂️': [
+        'Dividende Indice Card',
+        ':card_index_dividers:'
+    ],
     '📅': [
         'Calendar',
+        ':calendar:',
         '17 iulie',
         'Ziua Mondială Emoji'
     ],
-    '🗓️': ['Tastatură Calendar Spiral'],
+    '🗓️': [
+        'Tastatură Calendar Spiral',
+        ':spiral_calendar_pad:'
+    ],
     '📆': [
         'Calendar dezactivat',
+        ':day_calendar:',
         'Calendar de zile',
         'Calendar de birou'
     ],
     '📈': [
         'Grafic Creștere',
+        ':increasing_chart:',
         'Grafic pozitiv',
         'Grafic punctaj sus',
         'Grafic cu tendințe în sus'
     ],
     '📉': [
         'Decriptare diagramă',
+        ':decreasing_chart:',
         'Grafic negativ',
         'Grafic punctaj jos',
         'Grafic cu tendinţe descendente'
     ],
     '📊': [
         'Bară Grafic',
+        ':bar_chart:',
         'Grafic bare'
     ],
     '📌': [
         'Pushpin',
-        'Thumb Tack'
+        ':pushpin:',
+        'Thumb Tack',
+        ':red:'
     ],
-    '📋': ['Clipboard'],
+    '📋': [
+        'Clipboard',
+        ':clipboard:'
+    ],
     '📍': [
         'Rotund Pushpin',
+        ':round_pushpin:',
         'Pin scăpat',
         'Fixare hartă',
         'Fixează',
-        'Pin roșu'
+        'Pin roșu',
+        ':red:'
     ],
     '📎': [
         'Hârtie',
+        ':paperclip:',
         'Clipire'
     ],
-    '📏': ['Regulă dreaptă'],
+    '📏': [
+        'Regulă dreaptă',
+        ':straight_ruler:'
+    ],
     '📐': [
         'Regulă triunghiulară',
+        ':triangular_ruler:',
         'Regulă triunghi'
     ],
     '✂️': [
         'Foarfece',
+        ':scissors:',
         'Tăiere'
     ],
     '✏️': [
         'Creion',
+        ':pencil:',
         'Pencil plumb'
     ],
     '✒️': [
         'Nou negru',
+        ':black_nib:',
         'Stiloul injector Nib',
         'Stiloul injector'
     ],
     '🖋️': [
         'Stiloul injector',
+        ':fountain_pen:',
         'Stânga inferioară a fântânii'
     ],
     '🖊️': [
         'Stiloul',
+        ':pen:',
         'Stânga inferioară a stiloului injector (pen-ului)',
         'Stiloul injector'
     ],
     '🖌️': [
         'Vopsea',
+        ':paintbrush:',
         'Periază',
         'Stânga joasă Vopsita'
     ],
     '🖍️': [
         'Crayon',
+        ':crayon:',
         'Crayon din stânga jos'
     ],
     '📝': [
         'Notă',
+        ':memo:',
         'Memorandum',
         'Notă',
         'Creion și hârtie'
     ],
     '🗑️': [
         'Coș de gunoi',
+        ':wastepaper_basket:',
         'Conservă de Gunoi',
         'Coș de gunoi',
         'Conservă de gunoi'
     ],
-    '📡': ['Antenă Satelit'],
+    '📡': [
+        'Antenă Satelit',
+        ':satellite_antenna:'
+    ],
     '🔭': [
         'Telescop',
+        ':telescope:',
         'Privire'
     ],
     '🔬': [
         'Microscop',
+        ':microscope:',
         'Magnify',
         'Ştiinţă'
     ],
-    '📭': ['Deschide căsuța poștală cu steag scăzut'],
+    '📭': [
+        'Deschide căsuța poștală cu steag scăzut',
+        ':open_mailbox_lowered:'
+    ],
     '📬': [
         'Deschide căsuța poștală cu steag ridicat',
+        ':open_mailbox_raised:',
         'Deschide căsuța poștală'
     ],
-    '📪': ['Căsuță poștală închisă cu steag scăzut'],
-    '📫': ['Căsuță poștală închisă cu steag ridicat'],
-    '📰': ['Ziar'],
+    '📪': [
+        'Căsuță poștală închisă cu steag scăzut',
+        ':closed_mailbox_lowered:'
+    ],
+    '📫': [
+        'Căsuță poștală închisă cu steag ridicat',
+        ':closed_mailbox_raised:'
+    ],
+    '📰': [
+        'Ziar',
+        ':newspaper:'
+    ],
     '🗞️': [
         'Ziar de ridicare',
+        ':rolled_up_newspaper:',
         'Livrarea Ziarului'
     ],
     '📄': [
         'Pagină în sus',
+        ':printed_page:',
         'Pagină tipărită'
     ],
     '📜': [
         'Derulează',
+        ':scroll:',
         'Gradul',
         'Parchment'
     ],
     '📃': [
         'Pagina cu Curl',
+        ':curled_page:',
         'Curled Page',
         'Curly Page'
     ],
     '📓': [
         'Caiet',
+        ':notebook:',
         'Cartea Albă și Neagră'
     ],
-    '📔': ['Caiet cu copertă decorativă'],
+    '📔': [
+        'Caiet cu copertă decorativă',
+        ':notebook_decorative_cover:'
+    ],
     '📕': [
         'Carte închisă',
+        ':closed_book:',
         'Carte Roșie',
-        'Textbook roșu'
+        'Textbook roșu',
+        ':red:'
     ],
     '📖': [
         'Deschide cartea',
+        ':open_book:',
         'Carte',
         'Nouă'
     ],
     '📗': [
         'Carte verde',
-        'Cartea verde'
+        ':green_book:',
+        'Cartea verde',
+        ':green:'
     ],
     '📘': [
         'Cartea Albastră',
-        'Cartea albastră'
+        ':blue_book:',
+        'Cartea albastră',
+        ':blue:'
     ],
     '📙': [
         'Carte Portocalie',
-        'Textbook portocaliu'
+        ':orange_book:',
+        'Textbook portocaliu',
+        ':orange:'
     ],
     '📚': [
         'Cărți',
+        ':books:',
         'Plăcinte de cărți',
         'Stivă de cărți'
     ],
     '🗳️': [
         'Ballot Box cu Balot',
+        ':ballot_box:',
         'Căsuță de vot',
         'Votare'
     ],
     '🗄️': [
         'Cabinet de fișiere',
+        ':file_cabinet:',
         'Cabinet de depozitare'
     ],
-    '🗃️': ['Cutie cu Fișiere Card'],
-    '🖇️': ['Paperclipuri asociate']
+    '🗃️': [
+        'Cutie cu Fișiere Card',
+        ':card_file_box:'
+    ],
+    '🖇️': [
+        'Paperclipuri asociate',
+        ':linked_paperclips:',
+        ':gray:',
+        ':grey:'
+    ]
 };
 /*clothes and accessories*/
 emojis_language[lang][11] = {
     '👣': [
         'Amprente',
+        ':footprints:',
         'Picioare',
         'Plafoane'
     ],
     '👓': [
         'Ochelari',
+        ':glasses:',
         'Eveyglasses'
     ],
-    '🕶️': ['Pahare de soare'],
-    '🥽': ['Ochelari'],
-    '🥼': ['Palton de laborator'],
+    '🕶️': [
+        'Pahare de soare',
+        ':sunglasses:'
+    ],
+    '🥽': [
+        'Ochelari',
+        ':goggles:'
+    ],
+    '🥼': [
+        'Palton de laborator',
+        ':lab_coat:'
+    ],
     '👔': [
         'Necktie',
+        ':necktie:',
         'Tricou de afaceri',
         'Tricou și eviu.'
     ],
     '👕': [
         'Tricou',
+        ':t_shirt:',
+        ':t-shirt:',
         'Tricou tehnic',
         'Tricou polo'
     ],
     '👖': [
         'Jetoane',
+        ':jeans:',
         'Denim',
         'Pantaloni',
         'Pantaloni'
     ],
-    '🧣': ['Scarf'],
-    '🧤': ['Mănuşi'],
-    '🧥': ['Palton'],
-    '🧦': ['Socks'],
+    '🧣': [
+        'Scarf',
+        ':scarf:'
+    ],
+    '🧤': [
+        'Mănuşi',
+        ':gloves:'
+    ],
+    '🧥': [
+        'Palton',
+        ':coat:'
+    ],
+    '🧦': [
+        'Socks',
+        ':socks:'
+    ],
     '👗': [
         'Dress',
+        ':dress:',
         'Fustă',
         'Oras'
     ],
     '👘': [
         'Kimono',
+        ':kimono:',
         'Oras de pătare',
         'Dress japonez'
     ],
     '👙': [
         'Bikini',
+        ':bikini:',
         'Bătăi',
         'Costum'
     ],
-    '🩱': ['Costum de o piesă'],
+    '🩱': [
+        'Costum de o piesă',
+        'one_bucata_înotat',
+        'one-piece_swimsuit'
+    ],
     '👚': [
+        'Haine pentru femei',
+        ':womans_clothes:',
         'Haine pentru femei',
         'Blouse',
         'Tricou roz',
@@ -6284,17 +9074,23 @@ emojis_language[lang][11] = {
     ],
     '👛': [
         'Ursor',
+        ':purse:',
         'Portofel'
     ],
-    '👜': ['Baghete'],
+    '👜': [
+        'Baghete',
+        ':handbag:'
+    ],
     '👝': [
         'Sac de colibă',
+        ':clutch_bag:',
         'Cioc',
         'Sac mic',
         'Pouch'
     ],
     '🎒': [
         'Rucsac',
+        ':backpack:',
         'Sac',
         'Școala de Școală',
         'Satchel şcolar',
@@ -6302,31 +9098,47 @@ emojis_language[lang][11] = {
     ],
     '👞': [
         'Mans Shoe',
+        ':mans_shoe:',
+        'Mans Shoe',
         'Pantofi',
         'Afișare maro',
         'Afișare Dress'
     ],
     '👟': [
         'Pantofi Atletic',
+        ':athletic_shoe:',
         'Pantofi care rulează',
         'Sneaker',
         'Alergător',
         'Antrenor',
         'Pantofi de Tenis'
     ],
-    '🥾': ['Cizmă de șosete'],
-    '🥿': ['Pantofi Plat'],
+    '🥾': [
+        'Cizmă de șosete',
+        ':hiking_boot:'
+    ],
+    '🥿': [
+        'Pantofi Plat',
+        ':flat_shoe:'
+    ],
     '👠': [
         'Pantofi Incalzit',
+        ':high_heeled_shoe:',
+        ':high_heel:',
         'Stiletto',
         'Încălziri mari'
     ],
     '👡': [
         'Womans Sandal',
+        ':womans_sandal:',
+        'Womans Sandal',
         'Nisip încălzit',
-        'Saldals'
+        'Nisip',
+        'Sandal'
     ],
     '👢': [
+        'Cizme pentru femei',
+        ':womans_boots_',
         'Cizme pentru femei',
         'Cizme de cafea',
         'Cizme mari de genunchi',
@@ -6334,84 +9146,130 @@ emojis_language[lang][11] = {
     ],
     '👑': [
         'Coroană',
+        ':crown:',
         'Regele',
         'Regină',
         'Prințul',
         'Regal',
-        'Prințesa'
+        'Prințesa',
+        ':gold:',
+        ':yellow:'
     ],
     '👒': [
         'Pălărie',
+        ':hat:',
         'Pălărie de femei',
         'Pălărie cu arc',
         'Doamnelor şi piscina'
     ],
     '🎩': [
         'Pălărie de sus',
+        ':top_hat:',
         'Uzură oficială',
-        'Groom'
+        'Groom',
+        ':black:'
     ],
     '🎓': [
         'Cap de gradare',
+        ':graduation_cap:',
         'Colegiu',
         'Absolut',
         'Panou de mortiere',
         'Universitate',
-        'Capac Academic Patrat'
+        'Capac Academic Patrat',
+        ':black:'
     ],
     '🧢': [
         'Capac facut',
+        ':billed_cap:',
         'Cască de baseball'
     ],
     '⛑️': [
         'Coif cu Cruce Albă',
-        'Coif al muncitorului de salvare'
+        ':helmet_with_white_cross:',
+        ':helmet_with_cross:',
+        ':rescue_worker_helmet:',
+        ':rescue_workers_helmet:',
+        'Cască a lucrătorilor de salvare',
+        ':red:',
+        ':white:'
     ],
     '💼': [
         'Servietă',
+        ':briefcase:',
         'Suitcase'
     ],
     '🎖️': [
         'Medalie militară',
+        ':military_medal:',
+        ':medal:',
         'Medalie',
         'Medalie',
         'Decorație militară'
     ],
     '📿': [
         'Sărbători de rugăciune',
+        ':prayer_beads:',
         'Sărbători Dhikr',
         'Sead-uri Rosary'
     ],
-    '🎗️': ['Reamintire Ribbo'],
-    '🤿': ['Mască de scufundare'],
-    '🦺': ['Vestă de siguranță'],
+    '🎗️': [
+        'Reamintire Ribbo',
+        ':reminder_ribbo:'
+    ],
+    '🤿': [
+        'Mască de scufundare',
+        ':diving_mask:'
+    ],
+    '🦺': [
+        'Vestă de siguranță',
+        ':safety_vest:'
+    ],
     '🥻': [
         'Sari',
+        ':sari:',
         'Saree',
         'Shar'
     ],
-    '🩲': ['Scuturi'],
-    '🩳': ['Scurtături'],
+    '🩲': [
+        'Scuturi',
+        ':briefs:'
+    ],
+    '🩳': [
+        'Scurtături',
+        ':shorts:'
+    ],
     '🛼': [
         'Skate de roller',
+        ':roller_skate:',
         'Skate Inline',
         'Derviș de Roller'
     ],
     '🩴': [
         'Rotește podea',
+        ':flip_flop:',
         'Sandal Thong'
     ],
-    '🪖': ['Coif militar'],
+    '🪖': [
+        'Coif militar',
+        ':military_helmet:'
+    ],
     '🩰': [
         'Pantofi de balet',
+        ':ballet_shoes:',
         'Pantofi Pointe'
     ],
-    '🩼': ['Crutch']
+    '🩼': [
+        'Crutch',
+        ':crutch:'
+    ]
 };
 /*hands and parts of body*/
 emojis_language[lang][12] = {
     '👋{{skin_tone}}': [
         'Semn de economisire',
+        ':wave:',
+        ':waving_hand:',
         'La revedere',
         'Val de Mână',
         'Bună',
@@ -6419,105 +9277,141 @@ emojis_language[lang][12] = {
     ],
     '🖐️{{skin_tone}}': [
         'Adu-ne cântă cu degete',
+        ':hand_splayed:',
+        ':raised_hand_with_fingers_splayed:',
+        ':hand_with_fingers_splayed:',
         'Cinci Mână',
         'Mână jucată',
         'Mână Ridicată cu Jucat de Degete'
     ],
     '🤚{{skin_tone}}': [
         'Ridicat în spatele Mânii',
+        ':raised_back_of_hand:',
+        ':back_of_hand:',
         'Înapoi'
     ],
     '✋{{skin_tone}}': [
         'Mână ridicată',
+        ':raised_hand:',
+        ':hand:',
         'Mare Cinci',
         'Oprește'
     ],
     '🖖{{skin_tone}}': [
         'Vulcan Salute',
+        ':vulcan_salute:',
         'Spock',
         'Listă de stele',
         'Mână ridicată cu o parte între degetele de mijloc și inel'
     ],
     '👌{{skin_tone}}': [
         'Ok Semn Mâna',
+        ':ok_hand:',
         'Bine',
         'Perfect',
         'Da'
     ],
     '✌️{{skin_tone}}': [
         'Mâna Victoriei',
+        ':victory_hand:',
         'Oferte aeriene',
         'Semn de pace',
         'Semn V'
     ],
     '🤞{{skin_tone}}': [
         'Degete încrucişate',
+        ':crossed_fingers:',
         'Fingere încrucișate',
         'Noroc bun',
         'Adu-ne Indexul și Fingerele Medii Intersectate'
     ],
     '🤟{{skin_tone}}': [
         'Gesturi Dragostea ta',
+        ':love_you_gesture:',
+        ':i_love_you_hand_sign:',
         'Te iubesc simbolul manual'
     ],
     '🤘{{skin_tone}}': [
         'Semnul Cornului',
+        ':the_horns:',
+        ':sign_of_the_horns:',
+        ':metal:',
         'Degete diavoli',
         'Metal greu',
         'Rock pornit'
     ],
     '🤙{{skin_tone}}': [
         'Sună-mă pe Mâna',
+        ':call_me_hand:',
+        ':call_me:',
         'Mână de telefon',
         'Shaka'
     ],
-    '🤏{{skin_tone}}': ['Mână de mâncărime'],
+    '🤏{{skin_tone}}': [
+        'Mână de mâncărime',
+        ':pinching_hand:'
+    ],
     '👈{{skin_tone}}': [
         'Indicele înapoi stânga',
+        ':backhand_index_pointing_left:',
+        ':point_left:',
         'Indicele White Stânga pentru înapoi'
     ],
     '👉{{skin_tone}}': [
         'Indicele înapoi dreapta',
+        ':backhand_index_pointing_right:',
+        ':point_right:',
         'Indicele White Right Pointing Backhand'
     ],
     '👆{{skin_tone}}': [
         'Indicele înapoi sus',
+        ':point_up_2:',
+        ':backhand_index_pointing_up:',
         'Indicele White Up Pointing Backhand',
         'Deget mijlociu'
     ],
     '👇{{skin_tone}}': [
         'Indexul Punctării Înapoi Jos',
+        ':point_down:',
+        ':backhand_index_pointing_down:',
         'Indicele White Down Backhand Index',
         'Punctaj jos'
     ],
     '☝{{skin_tone}}': [
         'Indicele Dinger sus',
+        ':point_up:',
+        ':index_pointing_up:',
         'Indicele White Up Pointing Index',
         'Secret'
     ],
     '🖕{{skin_tone}}': [
         'Deget mijlociu',
+        ':middle_finger:',
         'Rotirea Pasărea',
         'Degete rudimentare',
         'Mână inversată cu Finger de Mijloc extins'
     ],
     '👍{{skin_tone}}': [
         'Înregistrează-te pentru Aranjări',
+        ':thumbs_up_sign:',
         'Apreciere',
         'Da'
     ],
     '👎{{skin_tone}}': [
         'Semnare umbs Jos',
+        ':thumbs_down_sign:',
         'Greșit',
         'Dislike',
         'Nr'
     ],
     '✊{{skin_tone}}': [
         'Fist ridicat',
+        ':raised_fist:',
         'Pompă rapidă'
     ],
     '👊{{skin_tone}}': [
         'În curând',
+        ':oncoming_fist:',
         'Bro Fist',
         'Brofist',
         'Pompă rapidă',
@@ -6525,15 +9419,24 @@ emojis_language[lang][12] = {
         'Închis fir',
         'Semn ascuns'
     ],
-    '🤛{{skin_tone}}': ['Pompă de foc stânga'],
-    '🤜{{skin_tone}}': ['Pompă de foc dreapta'],
+    '🤛{{skin_tone}}': [
+        'Pompă de foc stânga',
+        ':left_fist_bump:'
+    ],
+    '🤜{{skin_tone}}': [
+        'Pompă de foc dreapta',
+        ':_dreapta:bump:'
+    ],
     '🤌{{skin_tone}}': [
         'Degete prinse',
+        ':pinched_fingers:',
         'Ma Che Vuoi',
         'Pursul degetului'
     ],
     '👏{{skin_tone}}': [
         'Semnul Clapping Hands',
+        ':cap:',
+        ':clapping_hands:',
         'Aplauze',
         'Clap',
         'Clapare',
@@ -6542,6 +9445,8 @@ emojis_language[lang][12] = {
     ],
     '🙌{{skin_tone}}': [
         'Persoană care aduce ambele mâini în celebrare',
+        ':raised_hands:',
+        ':raising_hands:',
         'Ridicând Mâinile',
         'Braţe în aer',
         'Banzai',
@@ -6552,91 +9457,168 @@ emojis_language[lang][12] = {
     ],
     '👐{{skin_tone}}': [
         'Deschideți semnul pentru mâini',
+        ':open_hands_sign:',
         'Hug',
         'Mâinile de jazz'
     ],
     '🤲{{skin_tone}}': [
         'Palme sus impreuna',
+        ':palms_up_together:',
         'Dua'
     ],
     '🤝{{skin_tone}}': [
         'Handshake',
+        ':handshake:',
         'Mâini agitate'
     ],
     '🙏{{skin_tone}}': [
         'Mâini pliate',
+        ':folded_hands:',
         'Namaste',
         'Te rog',
         'Rugăciune',
         'Vă mulţumim',
         'Persoană cu mâini pliate'
     ],
-    '✍{{skin_tone}}': ['Mână de scris'],
-    '🫱{{skin_tone}}': ['Rightwards Hand'],
-    '🫲{{skin_tone}}': ['Leftwards Hand'],
-    '🫳{{skin_tone}}': ['Palm Down Hand'],
-    '🫴{{skin_tone}}': ['Palm Up Hand'],
-    '🫰{{skin_tone}}': ['Hand with Index Finger and Thumb Crossed'],
-    '🫵{{skin_tone}}': ['Index Pointing at the Viewer'],
+    '✍{{skin_tone}}': [
+        'Mână de scris',
+        ':writing_hand:'
+    ],
+    '🫱{{skin_tone}}': [
+        'Mână din dreapta',
+        ':rightwards_hand:'
+    ],
+    '🫲{{skin_tone}}': [
+        'Mână din stânga',
+        ':leftwards_hand:'
+    ],
+    '🫳{{skin_tone}}': [
+        'Palm Jos Mână',
+        ':palm_down_hand:'
+    ],
+    '🫴{{skin_tone}}': [
+        'Mână de Palm Up',
+        ':palm_up_hand:'
+    ],
+    '🫰{{skin_tone}}': [
+        'Adu-ne Finger Index şi Thumb Crossed',
+        ':hand_with_index_finger_and_thumb_crossed:'
+    ],
+    '🫵{{skin_tone}}': [
+        'Indicele de punctaj la vizualizator',
+        ':index_pointing_at_the_viewer:'
+    ],
     '🫶{{skin_tone}}': [
-        'Heart Hands',
-        'Love'
+        'Mâini ale inimii',
+        ':heart_hands:',
+        'Dragoste'
     ],
     '💪{{skin_tone}}': [
         'Bicepi Flexi',
+        ':flexed_biceps:',
         'Braţ flăcat Muşchi',
         'Musle',
         'Puternic'
     ],
-    '🦵{{skin_tone}}': ['Picior'],
-    '🦶{{skin_tone}}': ['Picior'],
+    '🦵{{skin_tone}}': [
+        'Picior',
+        ':leg:'
+    ],
+    '🦶{{skin_tone}}': [
+        'Picior',
+        ':foot:'
+    ],
     '👂{{skin_tone}}': [
         'Uz',
+        ':ear:',
         'Urechi',
         'Audiere',
         'Ascultare'
     ],
     '👃{{skin_tone}}': [
         'Nuci',
+        ':nose:',
         'Topirea',
         'Sniffing',
         'Stinky'
     ],
-    '🦻{{skin_tone}}': ['Uz cu ajutor pentru audiere'],
-    '🧠': ['Creier'],
-    '🦷': ['Dinte'],
+    '🦻{{skin_tone}}': [
+        'Uz cu ajutor pentru audiere',
+        ':ear_with_hearing_aid:'
+    ],
+    '🧠': [
+        'Creier',
+        ':brain:',
+        ':pink:'
+    ],
+    '🦷': [
+        'Dinte',
+        ':tooth:',
+        ':white:'
+    ],
     '👀': [
         'Ochi',
+        ':eyes:',
         'Ochi',
         'Ochi schimbători',
         'Ochi Minunați'
     ],
     '👁️': [
         'Ochi',
+        ':eye:',
         'Un singur ochi'
     ],
-    '👅': ['Limba afisata'],
+    '👅': [
+        'Limba afisata',
+        ':tongue_out:',
+        ':red:'
+    ],
     '👄': [
         'Gură',
+        ':mouth:',
         'Umplutură de sărut',
-        'Buze'
+        'Buze',
+        ':red:'
     ],
     '🫦': [
-        'Biting Lip',
-        'Buze'
+        'Buză de intrare',
+        ':biting_lip:',
+        'Buze',
+        ':red:'
     ],
-    '🫀': ['Inimă anatomică'],
-    '🫁': ['Plămâni'],
-    '🦾': ['Braţ mecanic'],
-    '🦿': ['Picior mecanic'],
+    '🫀': [
+        'Inimă anatomică',
+        ':anatomical_heart:',
+        ':red:'
+    ],
+    '🫁': [
+        'Plămâni',
+        ':lungs:',
+        ':red:'
+    ],
+    '🦾': [
+        'Braţ mecanic',
+        ':mechanical_arm:',
+        'Puternic',
+        ':gray:',
+        ':grey:'
+    ],
+    '🦿': [
+        'Picior mecanic',
+        ':mechanical_leg:',
+        ':gray:',
+        ':grey:'
+    ],
     '💅{{skin_tone}}': [
         'Cale poloneză',
+        ':nail_polish:',
         'Degete',
         'Manicure',
         'Nonchalant'
     ],
     '🤳{{skin_tone}}': [
         'Auto-fie',
+        ':selfie:',
         'Camera telefonică',
         'Mână de Selfie'
     ]
@@ -6645,50 +9627,79 @@ emojis_language[lang][12] = {
 emojis_language[lang][13] = {
     '💩': [
         'Placă de Poo',
+        ':pile_of_poo:',
         'Câini Pământ',
-        'Poc zâmbet'
+        'Poc zâmbet',
+        ':brown:'
     ],
     '💋': [
         'Marcă sărutată',
-        'Umplutură de sărut'
+        ':kiss_mark:',
+        'Umplutură de sărut',
+        ':red:'
     ],
-    '🦴': ['Oase'],
+    '🦴': [
+        'Oase',
+        ':bone:'
+    ],
     '🧳': [
         'Poreclă',
+        ':luggage:',
         'Suitcase'
     ],
     '🌂': [
         'Umbrelă închisă',
+        ':closed_umbrella:',
         'Umbrela intampinata',
-        'Umbrela roz'
+        'Umbrela roz',
+        ':pink:',
+        ':purple:'
     ],
-    '☂️': ['Umbrelă'],
+    '☂️': [
+        'Umbrelă',
+        ':umbrella:',
+        ':purple:'
+    ],
     '☔': [
         'Umbrela cu ploi picate',
+        ':umbrella_with_rain_drops:',
+        ':umbrella:',
         'Colectare',
         'Rainy'
     ],
-    '🧵': ['Spool de discuchar@@0ii'],
-    '🧶': ['Minge de Yarn'],
+    '🧵': [
+        'Spool de discuchar@@0ii',
+        ':spool_of_thread:'
+    ],
+    '🧶': [
+        'Minge de Yarn',
+        ':ball_of_yarn:'
+    ],
     '💄': [
         'Lipstick',
+        ':lipstick:',
         'Pierdere de buze',
-        'Machiaj'
+        'Machiaj',
+        ':red:'
     ],
     '💍': [
         'Sună',
+        ':ring:',
         'Inel de diamant',
         'Angajament Inel'
     ],
     '💎': [
         'Piatră de Piatră',
+        ':gem_stone:',
         'Diamant',
         'Bijuterie',
         'Piatră',
-        'Bijuterie'
+        'Bijuterie',
+        ':blue:'
     ],
     '💥': [
         'Simbol de coliziune',
+        ':collision_symbol:',
         'Bang',
         'Explodare',
         'Impactul',
@@ -6697,16 +9708,22 @@ emojis_language[lang][13] = {
     ],
     '💫': [
         'Simbol asistent',
-        'Cerc și stea'
+        ':dizzy_symbol:',
+        'Cerc și stea',
+        ':yellow:'
     ],
     '💦': [
         'Simbol de transpirație strălucitoare',
+        'transpiraţi_picături',
+        'dulciuri_picături',
         'Pantaloni',
         'Apă împrăștiată',
-        'Picături de apă'
+        'Picături de apă',
+        ':blue:'
     ],
     '💨': [
         'Spălare neregulată',
+        ':dashing_away:',
         'Rapid',
         'Steam',
         'Vedere',
@@ -6716,12 +9733,15 @@ emojis_language[lang][13] = {
     ],
     '🌬️': [
         'Față vânt',
+        ':wind_face:',
         'Vânt strălucitor',
         'Natura Maica',
-        'Față de vânt'
+        'Față de vânt',
+        ':white:'
     ],
     '🐾': [
         'Printuri de Paw',
+        ':paw_prints:',
         'Printuri Pisică',
         'Câini Paw Printuri',
         'Kitten Paw Prints',
@@ -6729,121 +9749,251 @@ emojis_language[lang][13] = {
     ],
     '🕸️': [
         'Web păianjen',
+        ':spider_web:',
         'Cobweb',
         'Web',
         'Păianjen'
     ],
     '🦠': [
         'Microb',
+        ':microbe:',
         'Celulă',
         'Coronavirus',
         'COVID-19',
         'Germ',
         'Microorganism',
-        'Virus'
+        'Virus',
+        ':green:'
     ],
-    '💐': ['Buchet de flori'],
+    '💐': [
+        'Buchet de flori',
+        ':bouquet_of_flowers:'
+    ],
     '🌍': [
         'Globe prezintă Europa-Africa',
+        ':globe_showing_europe_africa:',
+        ':earth_africa:',
         'Pământ',
         'Glob',
         'Planetă',
         'Lume',
-        'Globe prezintă Europa şi Africa'
+        'Globe prezintă Europa şi Africa',
+        ':blue:'
     ],
     '🌎': [
         'Globe Arata Americile',
-        'Pământ',
-        'Glob',
-        'Planetă',
-        'Lume'
-    ],
-    '🌏': [
-        'Globe prezintă Asia-Australia',
+        ':globe_showing_americas:',
+        ':earth_americas:',
         'Pământ',
         'Glob',
         'Planetă',
         'Lume',
-        'Globe prezintă Asia şi Australia'
+        ':blue:'
+    ],
+    '🌏': [
+        'Globe prezintă Asia-Australia',
+        ':globe_showing_asia_australia:',
+        ':earth_asia:',
+        'Pământ',
+        'Glob',
+        'Planetă',
+        'Lume',
+        'Globe prezintă Asia şi Australia',
+        ':blue:'
     ],
     '🌐': [
         'Glob cu Meridiani',
+        ':globe_with_meridians:',
         'Internet',
         'World Wide Web',
         'WWW'
     ],
     '🌑': [
         'Simbol Lună nouă',
+        ':new_moon:',
         'Luna întunecată',
         'Umbra Lună',
-        'Eclipse solare'
+        'Eclipse solare',
+        ':black:'
     ],
-    '🌒': ['Simbol Lună Lună Waxing'],
-    '🌓': ['Primul Simbolul Lunii'],
-    '🌔': ['Simbol Lună Gibbous'],
-    '🌕': ['Simbol Lună întreagă'],
-    '🌖': ['Simbol Lună Gibbous căzută'],
-    '🌗': ['Ultimul simbol al lunii trimestrului'],
-    '🌘': ['Simbol Lună Lună Încălcată'],
-    '🌙': ['Lună Crescentă'],
+    '🌒': [
+        'Simbol Lună Lună Waxing',
+        ':waxing_crescent_moon:',
+        ':yellow:',
+        ':black:'
+    ],
+    '🌓': [
+        'Primul Simbolul Lunii',
+        ':first_quarter_moon:',
+        ':yellow:',
+        ':black:'
+    ],
+    '🌔': [
+        'Simbol Lună Gibbous',
+        ':moon:',
+        ':waxing_gibbous_moon:',
+        ':yellow:',
+        ':black:'
+    ],
+    '🌕': [
+        'Simbol Lună întreagă',
+        ':full_moon:',
+        ':yellow:'
+    ],
+    '🌖': [
+        'Simbol Lună Gibbous căzută',
+        ':waning_gibbous_moon:',
+        ':yellow:',
+        ':black:'
+    ],
+    '🌗': [
+        'Ultimul simbol al lunii trimestrului',
+        ':last_quarter_moon:',
+        ':yellow:',
+        ':black:'
+    ],
+    '🌘': [
+        'Simbol Lună Lună Încălcată',
+        ':waning_crescent_moon:',
+        ':yellow:',
+        ':black:'
+    ],
+    '🌙': [
+        'Lună Crescentă',
+        ':crescent_moon:',
+        ':yellow:'
+    ],
     '🌚': [
         'Lună nouă cu față',
+        ':new_moon_with_face:',
         'Luna Creepy',
         'Față Lună Întunecată',
-        'Luna Molester'
+        'Luna Molester',
+        ':black:',
+        ':gray:',
+        ':grey:'
     ],
     '🌝': [
         'Lună întreagă cu față',
+        ':full_moon_with_face:',
         'Moonface',
         'Zâmbet Lună',
-        'Lună zâmbitoare'
+        'Lună zâmbitoare',
+        ':yellow:'
     ],
-    '🌛': ['Prima Lună trimestrială cu față'],
-    '🌜': ['Ultima Lună Quarter cu Face'],
+    '🌛': [
+        'Prima Lună trimestrială cu față',
+        ':first_quarter_moon_with_face:',
+        ':first_quarter_moon_face:',
+        ':yellow:'
+    ],
+    '🌜': [
+        'Ultima Lună Quarter cu Face',
+        ':last_quarter_moon_with_face:',
+        ':last_quarter_moon_face:',
+        ':yellow:'
+    ],
     '🌞': [
         'Duminică cu fața',
+        ':sun_with_face:',
         'Zâmbet Smiley',
         'Sunface',
-        'Zâmbet Soare'
+        'Zâmbet Soare',
+        ':yellow:'
     ],
     '☀️': [
         'Soare',
-        'Insorit'
+        ':sun:',
+        'Insorit',
+        ':yellow:'
     ],
     '⭐': [
         'Stea',
-        'Stea medie albă'
+        ':star:',
+        'Stea medie albă',
+        ':yellow:'
     ],
     '🌟': [
         'Steaua strălucitoare',
-        'Steaua strălucitoare'
+        ':glowing_star:',
+        'Steaua strălucitoare',
+        ':yellow:'
     ],
     '☁️': [
         'Nor',
+        ':cloud:',
         'Înnorat',
-        'Depășire'
+        'Depășire',
+        ':white:'
     ],
-    '⛅': ['Norul din spatele soarelui'],
+    '⛅': [
+        'Norul din spatele soarelui',
+        ':thunder_cloud_and_rain:',
+        ':thunder_cloud_rain:',
+        ':cloud_with_lightning_and_rain:',
+        ':white:'
+    ],
     '⛈️': [
         'Cloud cu iluminat și ploaie',
-        'Thunder Cloud și Ploaie'
+        ':thunder_cloud_and_rain:',
+        ':thunder_cloud_rain:',
+        ':cloud_with_lightning_and_rain:',
+        'Thunder Cloud și Ploaie',
+        ':white:'
     ],
-    '🌤️': ['Soare alb cu Nor Mic'],
+    '🌤️': [
+        'Soare alb cu Nor Mic',
+        ':mostly_sunny:',
+        ':sun_behind_small_cloud:',
+        ':sun_small_cloud:',
+        ':white_sun_small_cloud:',
+        ':white_sun_with_small_cloud:',
+        ':white:'
+    ],
     '🌥️': [
         'Soare în spatele Norului Mare',
-        'Nor alb de soare în spatele soarelui'
+        ':sun_behind_large_cloud:',
+        'Nor alb de soare în spatele soarelui',
+        ':white:'
     ],
-    '🌦️': ['White Sun Behind Cloud cu ploaie'],
-    '🌧️': ['Nor cu ploaie'],
-    '🌨️': ['Cloud cu zăpadă'],
-    '🌩️': ['Cloud cu Fulger'],
+    '🌦️': [
+        'White Sun Behind Cloud cu ploaie',
+        ':sun_behind_rain_cloud:',
+        ':partly_sunny_rain:',
+        ':white_sun_rain_cloud:',
+        ':white_sun_behind_cloud_with_rain:',
+        ':white:'
+    ],
+    '🌧️': [
+        'Nor cu ploaie',
+        ':cloud_with_rain:',
+        ':white:'
+    ],
+    '🌨️': [
+        'Cloud cu zăpadă',
+        ':cloud_with_snow:',
+        ':white:'
+    ],
+    '🌩️': [
+        'Cloud cu Fulger',
+        ':cloud_with_lightning:',
+        ':white:'
+    ],
     '🌪️': [
         'Tornadă',
+        ':tornado:',
         'Cloud cu Tornado'
     ],
-    '🌫️': ['Fog'],
+    '🌫️': [
+        'Fog',
+        ':fag:',
+        ':white:',
+        ':gray:',
+        ':grey:'
+    ],
     '🌈': [
         'Curcubeu',
+        ':rainbow:',
         'Pridă Gay',
         'Curcubeul primar',
         'LGBTQIA+',
@@ -6851,11 +10001,14 @@ emojis_language[lang][13] = {
     ],
     '❄️': [
         'fulg de zăpadă',
+        ':snowflake:',
         'Ninsoare',
-        'Ninsoare'
+        'Ninsoare',
+        ':white:'
     ],
     '🌀': [
         'Ciclon',
+        ':cyclone:',
         'Uragan',
         'Spirală',
         'Rotire',
@@ -6863,131 +10016,191 @@ emojis_language[lang][13] = {
     ],
     '⚡': [
         'Semn de tensiune mare',
+        ':high_voltage_sign:',
         'Bolt de iluminat',
         'Thunderbolt',
         'Tensiune mare'
     ],
     '☃️': [
         'Om de zăpadă',
-        'Om de zăpadă cu fulgi de zăpadă'
+        ':snowman:',
+        'Om de zăpadă cu fulgi de zăpadă',
+        ':white:'
     ],
     '⛄': [
         'Om de zăpadă fără zăpadă',
+        'zăpadă_fără_zăpadă',
+        ':snowman:',
         'Omul de zăpadă',
         'Olaf',
-        'Om de zăpadă'
+        'Om de zăpadă',
+        ':white:'
     ],
-    '☄️': ['Cometa'],
+    '☄️': [
+        'Cometa',
+        ':comet:'
+    ],
     '🔥': [
         'Foc',
+        ':fire:',
         'Flacără',
         'Fierbinte',
         'Lit',
-        'Snapstreak'
+        'Snapstreak',
+        ':red:'
     ],
     '💧': [
         'Droplet',
+        ':droplet:',
         'Apă',
-        'Drop de apă'
+        'Drop de apă',
+        ':blue:'
     ],
     '✨': [
         'Parchete',
+        ':sparkles:',
         'scuipător',
         'Shiny',
         'Nou'
     ],
     '🌊': [
         'Val de apă',
+        ':water_wave:',
         'Plajă',
         'Val de ocean',
-        'Marea'
+        'Marea',
+        ':blue:'
     ],
     '🎄': [
         'Copac de Crăciun',
+        'caramidă_copacul',
         'Crăciun',
-        'Copac de Crăciun'
+        'Copac de Crăciun',
+        ':green:'
     ],
     '🎃': [
         'Jack-O-Lanternă',
+        'pack_o_lantern',
         'Halloween',
-        'Dovleac'
+        'Dovleac',
+        ':orange:'
     ],
     '🌻': [
         'Floare soarelui',
-        'Floare galbenă'
+        ':sunflower:',
+        'Floare galbenă',
+        ':yellow:'
     ],
     '🌼': [
         'Blossom',
+        ':blossom:',
         'Floare înflorire',
         'Daisy',
-        'Floare galbenă'
+        'Floare galbenă',
+        ':yellow:'
     ],
-    '🌷': ['Tulip'],
+    '🌷': [
+        'Tulip',
+        ':tulip:',
+        ':pink:'
+    ],
     '🌹': [
         'Floare Trandafir',
-        'Trandafir Roșu'
+        ':rose_flower:',
+        'Trandafir Roșu',
+        ':red:'
     ],
     '☘️': [
         'Shamrock',
+        ':shamrock:',
         'Clover',
-        'Trefoil'
+        'Trefoil',
+        ':green:'
     ],
     '🍀': [
         'Clover cu patru frunze',
+        ':four_leaf_clover:',
         'Clover',
         'Irlanda',
         'Norocos',
-        'Fortăreață'
+        'Fortăreață',
+        ':green:'
     ],
     '🌸': [
         'Cherry Blossom',
+        ':cherry_blossom:',
         'Floare roz',
-        'Sakura'
+        'Sakura',
+        ':pink:'
     ],
     '💮': [
         'Floare albă',
+        ':white_flower:',
         'Cherry Blossom',
         'Hârtie Doy',
-        'Timbru bun'
+        'Timbru bun',
+        ':white:'
     ],
-    '🌺': ['Hibiscus'],
-    '🏵️': ['Rozetă'],
+    '🌺': [
+        'Hibiscus',
+        ':hibiscus:',
+        ':red:'
+    ],
+    '🏵️': [
+        'Rozetă',
+        ':rosette:',
+        ':orange:',
+        ':yellow:'
+    ],
     '🌱': [
         'Seedling',
+        ':seedling:',
         'Primăvară',
         'Sprout',
-        'Sporire'
+        'Sporire',
+        ':green:'
     ],
     '🌲': [
         'Arbore Evergreen',
+        ':evergreen_tree:',
         'Arbore Fir',
-        'Pin de pin'
+        'Pin de pin',
+        ':green:'
     ],
     '🌳': [
         'Copac deciduos',
-        'Copac rotunjit'
+        ':deciduous_tree:',
+        'Copac rotunjit',
+        ':green:'
     ],
     '🌴': [
         'Palm Copac',
-        'Arbore de cocos'
+        ':palm_tree:',
+        'Arbore de cocos',
+        ':green:'
     ],
     '🎋': [
         'Copac Tanabata',
+        ':tanabata_tree:',
         'Tanabata',
         'Arbore dorinte'
     ],
     '🎍': [
         'Decorație Pin',
+        ':pine_decoration:',
         'Bambus',
         'Kadomatu',
         'Decorare de An Nou'
     ],
     '🌵': [
         'Cactus',
-        'Desert'
+        ':cactus:',
+        'Desert',
+        ':green:'
     ],
     '🌾': [
         'Capul orezului',
+        ':sheaf_of_rice:',
         'Decupați',
         'Agricultură',
         'Grâu',
@@ -6995,110 +10208,183 @@ emojis_language[lang][13] = {
     ],
     '🌿': [
         'Iarbă',
+        ':herb:',
         'Decupați',
-        'Plantă'
+        'Plantă',
+        ':green:'
     ],
     '🍁': [
         'Frunză de Arțar',
+        ':maple_leaf:',
         'Canada',
         'Canadiană',
-        'Arțar'
+        'Arțar',
+        ':brown:'
     ],
     '🍂': [
         'Frunză de căzut',
+        ':fallen_leaf:',
         'Frunză de toamnă',
         'Frunze de toamnă',
         'Frunze maro',
         'Frunze de căderi',
-        'Frunze de căzut'
+        'Frunze de căzut',
+        ':brown:'
     ],
     '🍃': [
         'Frunză Flutter în vânt',
+        ':leaf_fluttering_in_wind:',
+        ':leaves:',
         'Frunze verzi',
-        'Primăvară'
+        'Primăvară',
+        ':green:'
     ],
-    '🪴': ['Instalație potentă'],
+    '🪴': [
+        'Instalație potentă',
+        ':potted_plant:',
+        ':green:'
+    ],
     '🪸': [
         'Coral',
-        'Climate change'
+        ':coral:',
+        'Schimbările climatice'
     ],
     '🪷': [
         'Lotus',
-        'Purity',
-        'Beauty',
-        'Calmness',
-        'Serenity'
+        ':lotus:',
+        'Puritate',
+        'Frumusețe',
+        'Calimeală',
+        'Serenitate'
     ],
     '🔑': [
         'Cheie',
-        'Cheie de aur'
+        ':key:',
+        'Cheie de aur',
+        ':gold:',
+        ':yellow:'
     ],
-    '🗝️': ['Cheie veche'],
+    '🗝️': [
+        'Cheie veche',
+        ':old_key:',
+        ':brown:'
+    ],
     '🔨': [
         'Ciocan',
+        ':hammer:',
         'Ciocan de CDrept',
         'Handyman',
         'Unelte'
     ],
     '⛏️': [
         'Alege',
+        ':pick:',
         'Târnăcop'
     ],
-    '🪓': ['Topor'],
-    '🪚': ['Fierăstrău de dulgher'],
-    '🪛': ['Șofer'],
-    '🪝': ['Cârlig'],
-    '🪠': ['Plunger'],
-    '🪣': ['Găleată'],
+    '🪓': [
+        'Topor',
+        ':axe:'
+    ],
+    '🪚': [
+        'Fierăstrău de dulgher',
+        ':carpentry_saw:'
+    ],
+    '🪛': [
+        'Șofer',
+        ':screwdriver:'
+    ],
+    '🪝': [
+        'Cârlig',
+        ':hook:'
+    ],
+    '🪠': [
+        'Plunger',
+        ':plunger:'
+    ],
+    '🪣': [
+        'Găleată',
+        ':bucket:'
+    ],
     '🔩': [
         'Nut și Bolt',
+        ':nut_and_bolt:',
         'Bolt',
-        'Ecran'
+        'Ecran',
+        ':gray:',
+        ':grey:'
     ],
     '🗜️': [
         'Climbare',
+        ':clamp:',
         'Vice pentru tabel',
         'WinZip',
-        'Compresie'
+        'Compresie',
+        ':gray:',
+        ':grey:'
     ],
     '🔒': [
         'Blocat',
+        ':locked:',
         'Blocare închisă',
         'Padlock'
     ],
     '🔓': [
         'Deblocat',
+        ':unlocked:',
         'Deschide Padlock',
         'Deschide Blocare'
     ],
     '🔏': [
         'Blocat cu stiloul injector',
+        ':locked_with_pen:',
         'Blocare şi stilou injector',
         'Blocaţi cu Stiloul Funtain',
         'Blocaţi cu stiloul injector (pen-ul) preumplut'
     ],
     '🔐': [
         'Blocat cu Cheie',
+        ':locked_with_key:',
         'Blocare închisă cu cheie'
     ],
     '🗡️': [
         'Dagger',
-        'Armă de cuţit'
+        ':dagger:',
+        'Armă de cuţit',
+        ':gray:',
+        ':grey:'
     ],
-    '⚔️': ['Sabie încrucişată'],
+    '⚔️': [
+        'Sabie încrucişată',
+        ':crossed_swords:',
+        ':gray:',
+        ':grey:'
+    ],
     '🔫': [
         'Pistol',
+        ':pistol:',
         'Tun',
         'Revolver',
         'Tun glisant',
         'Tun de apă',
         'Pistol de apă'
     ],
-    '🧰': ['Utilitare'],
-    '🧲': ['Magnet'],
-    '⛓️': ['Lanțuri'],
+    '🧰': [
+        'Utilitare',
+        ':toolbox:',
+        ':red:'
+    ],
+    '🧲': [
+        'Magnet',
+        ':magnet:',
+        ':red:'
+    ],
+    '⛓️': [
+        'Lanțuri',
+        ':chains:'
+    ],
     '💉': [
         'Syringe',
+        ':syringe:',
         'Donaţii de sânge',
         'Test de sânge',
         'Ac',
@@ -7106,30 +10392,51 @@ emojis_language[lang][13] = {
     ],
     '🧬': [
         'ADN',
+        ':dna:',
         'Helix dublu ADN'
     ],
-    '🧪': ['Test tub'],
+    '🧪': [
+        'Test tub',
+        ':test_tube:',
+        ':green:'
+    ],
     '🛏️': [
         'Pat',
+        ':bed:',
         'Cameră'
     ],
     '🛋️': [
         'Cupă și Lampă',
+        ':couch_and_lamp:',
         'Lounge',
         'Setari',
         'Sofa'
     ],
-    '🪑': ['Scaun'],
+    '🪑': [
+        'Scaun',
+        ':chair:'
+    ],
     '🚪': [
         'Ușă',
+        ':door:',
         'Ușă',
         'Ușă din față'
     ],
-    '🪟': ['Fereastră'],
-    '🪜': ['Scară'],
-    '🪞': ['Oglindă'],
+    '🪟': [
+        'Fereastră',
+        ':window:'
+    ],
+    '🪜': [
+        'Scară',
+        ':ladder:'
+    ],
+    '🪞': [
+        'Oglindă',
+        ':mirror:'
+    ],
     '🚽': [
         'Toaletă',
+        ':toilet:',
         'Baie',
         'Loo',
         'Restaurare',
@@ -7137,196 +10444,330 @@ emojis_language[lang][13] = {
     ],
     '🚿': [
         'Duș',
+        ':shower:',
         'Capul dușului'
     ],
     '🛁': [
         'Bathtub',
+        ':bathtub:',
         'Bată cu balon'
     ],
-    '🧴': ['Flacon de loţiune'],
-    '🧷': ['Fixare de siguranţă'],
-    '🧺': ['Coș'],
+    '🧴': [
+        'Flacon de loţiune',
+        ':location_bottle:'
+    ],
+    '🧷': [
+        'Fixare de siguranţă',
+        ':safety_pin:',
+        ':gray:',
+        ':grey:'
+    ],
+    '🧺': [
+        'Coș',
+        ':basket:',
+        ':brown:'
+    ],
     '🧻': [
         'Rolul hârtiei',
-        'Hârtie de toaletă'
+        ':roll_of_paper:',
+        'Hârtie de toaletă',
+        ':white:'
     ],
-    '🧼': ['Bară de săpun'],
-    '🧽': ['Ciob'],
-    '🧯': ['Stingător de incendiu'],
+    '🧼': [
+        'Bară de săpun',
+        ':bar_of_soap:'
+    ],
+    '🧽': [
+        'Ciob',
+        ':sponge:',
+        ':yellow:'
+    ],
+    '🧯': [
+        'Stingător de incendiu',
+        ':fire_extinguisher:',
+        ':red:'
+    ],
     '🚬': [
         'Țigarete',
+        ':cigarette:',
         'Simbol de fum'
     ],
     '⚰️': [
         'Cuptor',
+        ':coffin:',
         'Casket',
-        'Funeral'
+        'Funeral',
+        ':brown:'
     ],
     '⚱️': [
         'Urn funerar',
+        ':funeral_urn:',
         'Vază'
     ],
-    '🛡️': ['Scut'],
+    '🛡️': [
+        'Scut',
+        ':shield:'
+    ],
     '⚙️': [
         'Unelte',
+        ':gear:',
         'Setări',
-        'Opţiuni'
+        'Opţiuni',
+        ':gray:',
+        ':grey:'
     ],
     '⚖️': [
         'Scala soldului',
+        ':balance_scale:',
         'Scalele justiției'
     ],
     '🔗': [
         'Link-ul',
+        ':link:',
         'Lanț',
         'Hiperlink',
-        'Lanț conectat'
+        'Lanț conectat',
+        ':gray:',
+        ':grey:'
     ],
     '💀': [
         'Craniu',
+        ':skull:',
         'Deces',
         'Craniu gri',
-        'Schelet'
+        'Schelet',
+        ':white:'
     ],
-    '☠️': ['Craniu și Arbalete'],
+    '☠️': [
+        'Craniu și Arbalete',
+        ':skull_and_crossbones:',
+        ':white:'
+    ],
     '🎡': [
         'Roată de ferris',
+        ':ferris_wheel:',
         'Roată mare',
         'Fairgroundl',
         'Roată de observație'
     ],
     '⛽': [
         'Pompă de combustibil',
+        'Fuel_pump:',
         'Ulei',
         'Benzină',
-        'Gaze'
+        'Gaze',
+        ':red:'
     ],
     '🚨': [
         'Maşinile de poliţie se dezlănţuie uşor',
+        ':rotating_light:',
+        ':police_police_car:',
         'Lumină de urgență',
         'Lumină intermitentă',
-        'Siren'
+        'Siren',
+        ':red:'
     ],
-    '🚥': ['Lumină orizontală de trafic'],
-    '🚦': ['Lumina de trafic vertical'],
+    '🚥': [
+        'Lumină orizontală de trafic',
+        ':horizontal_traffic_light:',
+        ':green:',
+        ':red:',
+        ':yellow:',
+        ':orange:'
+    ],
+    '🚦': [
+        'Lumina de trafic vertical',
+        ':vertical_traffic_light:',
+        ':green:',
+        ':red:',
+        ':yellow:',
+        ':orange:'
+    ],
     '⚓': [
         'Anchor de tip Admirtern',
+        ':anchor:',
         'Pescara'
     ],
     '🚧': [
         'Semn de construcție',
-        'Semn Negru și Galben Striped'
+        ':construction_sign:',
+        'Semn Negru și Galben Striped',
+        ':yellow:',
+        ':black:'
     ],
-    '🪂': ['Parachute'],
+    '🪂': [
+        'Parachute',
+        ':parachute:'
+    ],
     '💺': [
         'Scaun',
+        ':seat:',
         'Avion avion cu autobuzul'
     ],
-    '🪐': ['Saturn'],
+    '🪐': [
+        'Saturn',
+        ':saturn:'
+    ],
     '🎆': [
         'Artificii',
+        ':fireworks:',
         'Explozie'
     ],
     '🎇': [
         'Senko Hanabi',
+        ':senko_hanabi:',
         'Sparkler Artificii'
     ],
     '💷': [
         'Bancnota de liră',
+        ':pound:',
+        ':pound_banknote:',
         'Notă £20',
         'Douăzeci de Note',
-        'Bnot cu panou liră'
+        'Bnot cu panou liră',
+        ':purple:'
     ],
     '💶': [
         'Euro Banknote',
+        ':euro:',
+        ':euro_banknote:',
         '100 € Notă',
-        'Bnotă cu panou Euro'
+        'Bnotă cu panou Euro',
+        ':blue:'
     ],
     '💵': [
         'Bancnote Dolar',
+        ':dollar:',
+        ':dollar_banknote:',
         '$1 Notă',
         'Panou cu Dolar',
         'Factura Dolar',
-        'Dolar american'
+        'Dolar american',
+        ':green:'
     ],
     '💴': [
         'Bancnota Yen',
+        ':yen:',
+        ':yen_banknote:',
         'Rata: 1000 Notă',
         'Notă Yen',
-        'Bannote cu panou Yen'
+        'Bannote cu panou Yen',
+        ':yellow:'
     ],
-    '⛺': ['Cort de Campare'],
+    '⛺': [
+        'Cort de Campare',
+        ':camping_tent:'
+    ],
     '⛲': [
         'Fantana',
+        ':fountain:',
         'Caracteristica apei',
         'Fântâna de apă',
         'Parc'
     ],
     '💰': [
         'Sac de Bani',
+        ':money_bag:',
         'Moneybaguri',
         'Bogat',
         '$'
     ],
     '💸': [
         'Bani cu aripi',
+        ':money_with_wings:',
         'Bani zburători',
         ' Pierderea banilor'
     ],
-    '🏷️': ['Etichetă etichetă'],
+    '🏷️': [
+        'Etichetă etichetă',
+        ':label_tag:'
+    ],
     '🔖': [
         'Marcaj',
+        ':bookmark:',
         'Etichetă preț',
         'Etichetă'
     ],
-    '📑': ['Ferestre de carte'],
+    '📑': [
+        'Ferestre de carte',
+        ':bookmark_tabs:',
+        ':white:'
+    ],
     '📯': [
         'Corn Poștal',
+        ':postal_horn:',
         'Bugle',
         'Corn Francez'
     ],
-    '🪁': ['Kite'],
-    '🪀': ['Yo-Yo'],
+    '🪁': [
+        'Kite',
+        ':kite:',
+        ':purple:'
+    ],
+    '🪀': [
+        'Yo-Yo',
+        ':yo_yo:',
+        ':yo-yo:'
+    ],
     '🎊': [
         'Confetti Ball',
+        ':confetti_ball:',
         'Confetti'
     ],
     '🎉': [
         'Popper petrecere',
+        ':party_popper:',
         'Sărbătorire',
         'Pălărie de petrecere'
     ],
     '🎈': [
         'Balon',
+        ':balloon:',
         'Petrecere',
-        'Balon roșu'
+        'Balon roșu',
+        ':red:'
     ],
     '🌡️': [
         'Termometer',
+        ':thermometer:',
         'Vreme fierbinte',
-        'Temperatură'
+        'Temperatură',
+        ':red:'
     ],
-    '🛢️': ['Tambur de petrol'],
-    '💣': ['Bombă'],
+    '🛢️': [
+        'Tambur de petrol',
+        ':oil_drum:'
+    ],
+    '💣': [
+        'Bombă',
+        ':bomb:'
+    ],
     '🔪': [
         'Cuţit de bucătărie',
+        ':kitchen_knife:',
         'Cuţit',
         'Cuţit măcelar',
         'Hocho'
     ],
     '🏺': [
         'Amphora',
+        ':amphora:',
         'Borcan',
         'Vază'
     ],
-    '🗺️': ['Harta Lumii'],
+    '🗺️': [
+        'Harta Lumii',
+        ':world_map:'
+    ],
     '🎼': [
         'Scor muzical',
+        ':musical_score:',
         'Muzică placă',
         'Treble Clef'
     ],
     '🎬': [
         'Secţiune Clapper',
+        ':clapper_board:',
         'Taie',
         'Acțiune',
         'Director',
@@ -7334,51 +10775,74 @@ emojis_language[lang][13] = {
     ],
     '🎻': [
         'Violent',
+        ':violin:',
         'Cvartet string',
-        'Cea mai mică violență din lume'
+        'Cel mai mic violonist'
     ],
     '🎺': [
         'Trompete',
+        ':trumpet:',
         'Corn',
         'Jazz'
     ],
     '🎸': [
         'Chitară',
+        ':guitar:',
         'Chitară acustică',
         'Bass chitară',
         'Chitară electrică'
     ],
     '🎷': [
         'Saxofonă',
+        ':saxophone:',
         'Jazz',
         'Sax'
     ],
     '🥁': [
         'Tambur',
+        ':drum:',
         'Tambur cu beţe'
     ],
     '🎹': [
         'Pian',
-        'Tastatură muzicală'
+        ':piano:',
+        'Tastatură muzicală',
+        ':white:',
+        ':black:'
     ],
-    '🪕': ['Banjo'],
-    '🪗': ['Accordion'],
-    '🪘': ['Tambur lung'],
+    '🪕': [
+        'Banjo',
+        ':banjo:'
+    ],
+    '🪗': [
+        'Accordion',
+        ':accordion:'
+    ],
+    '🪘': [
+        'Tambur lung',
+        ':long_drum:'
+    ],
     '🎨': [
         'Paleta artistului',
+        ':artist_palette:',
         'Artă',
         'Pictură'
     ],
     '🧩': [
         'Piesă de exerciții',
-        'Piesă de Puzzle din Jigsaw'
+        ':puzzle_piece:',
+        'Piesă de Puzzle din Jigsaw',
+        ':green:'
     ],
     '🎲': [
         'Die de joc',
-        'Șoareci'
+        ':game_die:',
+        'Șoareci',
+        ':white:'
     ],
     '🎭': [
         'Efectuează Arte',
+        'performant_arts',
         'Teatru',
         'Teatru',
         'Mască de Drama',
@@ -7388,143 +10852,293 @@ emojis_language[lang][13] = {
     ],
     '🔍': [
         'Magie Sticlă Stânga',
+        ':mag:',
+        ':magnifying_glass_tilted_left:',
         'Magnifier',
         'Căutare Iconiță',
         'Sticlă lupă cu punct de stânga',
-        'Găsește'
+        'Găsește',
+        ':transparent:'
     ],
     '🔎': [
         'Sticlă luptă dreapta',
+        ':mag_right:',
+        ':magnifying_glass_tilted_right:',
         'Magnifier',
         'Căutare Iconiță',
         'Sticlă lupă cu vârf spre dreapta',
-        'Găsește'
+        'Găsește',
+        ':transparent:'
     ],
     '⌛': [
         'Ghid oraș',
+        ':hourglass:',
+        ':hourglass_done:',
         'Pahar'
     ],
     '⏳': [
         'Ghid oraș nu s-a terminat',
+        ':hourglass_flowing_sand:',
+        ':hourglass_not_done:',
         'Pahar cu Nisip Îndepărtat'
     ],
     '🕐': [
-        'Un O\'Ceas',
-        'Ceas cu o singură fata'
+        'Un OClock',
+        ':clock1:',
+        ':one_oclock:',
+        'Ceas cu fața unui OClock',
+        ':gray:',
+        ':grey:'
     ],
-    '🕜': ['Ceas Face O treizeci'],
+    '🕜': [
+        'Ceas Face O treizeci',
+        ':clock130:',
+        ':one_thirty:',
+        ':gray:',
+        ':grey:'
+    ],
     '🕑': [
-        'Două O\'Ceas',
-        'Ceas pe 2 O\'Ceas'
+        'Două OClock',
+        ':clock2:',
+        ':two_oclock:',
+        'OClock Ceas Face Doi',
+        ':gray:',
+        ':grey:'
     ],
-    '🕝': ['Față de ceas două-treizeci'],
+    '🕝': [
+        'Față de ceas două-treizeci',
+        ':clock230:',
+        ':two_thirty:',
+        ':gray:',
+        ':grey:'
+    ],
     '🕒': [
-        'Ora de trei',
-        'Ceas cu trei O\'Ceas'
+        'Trei OClock',
+        ':clock3:',
+        ':three_oclock:',
+        'Ceas Ceas Face Three OClock',
+        ':gray:',
+        ':grey:'
     ],
-    '🕞': ['Ceas față trei-treizeci'],
+    '🕞': [
+        'Ceas față trei-treizeci',
+        ':clock330:',
+        ':three_thirty:',
+        ':gray:',
+        ':grey:'
+    ],
     '🕓': [
-        'Patru ore',
-        'Ceas fata 4 O\'Ceas'
+        'Patru OClock',
+        ':clock4:',
+        ':four_oclock:',
+        'Ceas cu fața patru',
+        ':gray:',
+        ':grey:'
     ],
-    '🕟': ['Ceas Față Four-treizeci'],
+    '🕟': [
+        'Ceas Față Four-treizeci',
+        ':clock430:',
+        ':four_thirty:',
+        ':gray:',
+        ':grey:'
+    ],
     '🕔': [
-        '5 O\'Ceas',
-        'Ceas Face 5 O\'Ceas'
+        'Cinci OClock',
+        ':clock5:',
+        ':five_oclock:',
+        'Ceas Ceas Face 5 OClock',
+        ':gray:',
+        ':grey:'
     ],
-    '🕠': ['Față ceas cinci-treizeci'],
+    '🕠': [
+        'Față ceas cinci-treizeci',
+        ':clock530:',
+        ':five_thirty:',
+        ':gray:',
+        ':grey:'
+    ],
     '🕕': [
-        'Șase ore',
-        'Ceas Face Six O\'Clock'
+        'Șase OClock',
+        ':clock6:',
+        ':size_oclock:',
+        'Ceas Otalaj cu față Six',
+        ':gray:',
+        ':grey:'
     ],
-    '🕡': ['Ceas față șase-treizeci'],
+    '🕡': [
+        'Ceas față șase-treizeci',
+        ':clock630:',
+        ':six_thirty:',
+        ':gray:',
+        ':grey:'
+    ],
     '🕖': [
-        'Șapte O\'Ceas',
-        'Ceas Face Seven O\'Clock'
+        'Șapte OClock',
+        ':clock7:',
+        ':seven_oclock:',
+        'Ceas Ceas Face Seven OClock',
+        ':gray:',
+        ':grey:'
     ],
-    '🕢': ['Ceas față șaptezeci'],
+    '🕢': [
+        'Ceas față șaptezeci',
+        ':clock730:',
+        ':sever_thirty:',
+        ':gray:',
+        ':grey:'
+    ],
     '🕗': [
-        'Opt ore',
-        'Ceasul cu fața opta O\'Ceas'
+        'Opt OClock',
+        ':clock8:',
+        ':eight_oclock:',
+        'Oprire ceas cu 24 de ore',
+        ':gray:',
+        ':grey:'
     ],
-    '🕣': ['Ceas față optzeci și treizeci'],
+    '🕣': [
+        'Ceas față optzeci și treizeci',
+        ':clock830:',
+        ':eight_thirty:',
+        ':gray:',
+        ':grey:'
+    ],
     '🕘': [
-        'Nouă ceas',
-        'Ceas Face Nine Ceas'
+        'Nouă OClock',
+        ':clock9:',
+        ':nine_clock:',
+        'Ceas Ceas Nine OClock',
+        ':gray:',
+        ':grey:'
     ],
-    '🕤': ['Ceas față nouă - treizeci'],
+    '🕤': [
+        'Ceas față nouă - treizeci',
+        ':clock930:',
+        ':nine_thirty:',
+        ':gray:',
+        ':grey:'
+    ],
     '🕙': [
-        'Zece O\'Clock',
-        'Ceas Face Ten O\'Clock'
+        'Zece OClock',
+        ':clock10:',
+        ':ten_oclock:',
+        'Ceasul cu fața Ten OClock',
+        ':gray:',
+        ':grey:'
     ],
-    '🕥': ['Ceas Face Ten-treizeci'],
+    '🕥': [
+        'Ceas Face Ten-treizeci',
+        ':clock1030:',
+        ':ten_thirty:',
+        ':gray:',
+        ':grey:'
+    ],
     '🕚': [
-        'Unsprezece O\'Ceas',
-        'Ceas Face Eleven O\'Ceas'
+        'Eleven OClock',
+        ':click11:',
+        ':eleven_oclock:',
+        'Ceas Ceas Eleven OClock',
+        ':gray:',
+        ':grey:'
     ],
-    '🕦': ['Ceas Face Eleven-treizeci'],
+    '🕦': [
+        'Ceas Face Eleven-treizeci',
+        ':clock1130:',
+        ':eleven_thirty:',
+        ':gray:',
+        ':grey:'
+    ],
     '🕛': [
-        'Doisprezece ore',
-        'Ceasul pe doisprezece Ore'
+        'Douăsprezece OClock',
+        ':clock12:',
+        ':twelve_oclock:',
+        'Ceas de doisprezece Ochiuri',
+        ':gray:',
+        ':grey:'
     ],
-    '🕧': ['Ceas Față 12 - treizeci'],
+    '🕧': [
+        'Ceas Față 12 - treizeci',
+        ':clock1230:',
+        ':twelve_thirty:',
+        ':gray:',
+        ':grey:'
+    ],
     '♨️': [
         'Arcuri Populare',
+        ':hot_springs:',
         'Onsen',
-        'Steam'
+        'Steam',
+        ':red:'
     ],
     '💈': [
         'Camp grătar',
+        ':barber_pole:',
         'Magazin barbar',
-        'Tatuaje Barber',
-        'Hairdresser'
+        'Tungi barbare',
+        'Hairdresser',
+        ':blue:',
+        ':red:'
     ],
     '🎪': [
         'Cort de circ',
+        ':circus_tent:',
         'Mare sus',
         'Circ'
     ],
     '💢': [
         'Simbol furie',
+        ':anger_symbol:',
         'Semn furie',
-        'Pop Vein'
+        'Pop Vein',
+        ':red:'
     ],
     '🗯️': [
         'Căsuță Anger Dreapta',
+        ':right_anger_bubble:',
+        ':anger_right:',
         'Zig Zag Bubble',
-        'Căsuță de vorbire furioasă'
+        'Căsuță de vorbire furioasă',
+        ':white:'
     ],
     '💊': [
         'Pill',
+        ':pill:',
         'Capsulă',
         'Tabletă',
-        'Medicamente'
+        'Medicamente',
+        ':yellow:',
+        ':red:'
     ],
     '🎎': [
         'Doli',
+        ':dolls:',
         'Hinamatsuri',
         'Dolduri imperiale',
         'Papagale japoneze'
     ],
     '🎏': [
         'Streamer de Cap',
+        ':carp_streamer:',
         'Steagul peștelui',
         'Koinobori',
         'Sock-uri pentru vânt'
     ],
     '🎐': [
         'Școală de vânt',
+        ':wind_chime:',
         'Furin',
         'Meduză',
         'Bell vânt'
     ],
     '🎀': [
         'Arc de panglică',
+        ':ribbon_bow:',
         'Arc roz',
-        'Arc'
+        'Arc',
+        ':pink:'
     ],
     '🎁': [
         'Cadou împachetat',
+        ':wrapped_gift:',
         'Prezent aniversar',
         'Cadou de Craciun',
         'Cadou',
@@ -7534,167 +11148,324 @@ emojis_language[lang][13] = {
     ],
     '🎫': [
         'Bilet',
+        ':ticket:',
         'Stub de bilete',
         'Bilet turneu mondial'
     ],
     '🃏': [
         'Jucător',
+        ':joker:',
         'Card de Joker',
         'Card de joc Joker Negru'
     ],
     '💡': [
         'Bulb ușor',
+        ':light_bulb:',
         'Idea',
         'Bulă ușoară electrică'
     ],
     '🔦': [
         'Lanternă',
+        ':flashlight:',
         'Lanternă',
         'Lanternă electrică'
     ],
     '🏮': [
         'Lanternă roşie',
+        ':izakaya_lantern:',
+        ':lantern:',
+        ':red_paper_lantern:',
         'Lanternă asiatică',
         'Lanternă japoneză',
         'Lanternă roşie',
-        'Lanternă selectată'
+        'Lanternă selectată',
+        ':red:'
     ],
     '📦': [
         'Pachet',
+        ':package:',
         'Cutie',
-        'Colet'
+        'Colet',
+        ':brown:'
     ],
     '📇': [
         'Card de Index',
+        ':card_index:',
         'Rolodex',
         'Card de sistem',
         'Indicele Cardului'
     ],
-    '🕳️': ['Gaură'],
+    '🕳️': [
+        'Gaură',
+        ':hole:',
+        ':black:'
+    ],
     '👁️‍🗨️': [
         'Sunt un martor',
+        ':eye_in_speech_bubble:',
+        ':eye_speech_bubble:',
+        ':eye-in-speech-bubble:',
         'Ochi în Căsuță de vorbire'
     ],
     '⚜️': [
         'Fleur-de-lis',
+        ':fleur_de_lis:',
         'Cercetaș',
         'Sfinți de Orleans Nou'
     ],
-    '⚗️': ['Alembic'],
-    '🕯️': ['Lumânare'],
+    '⚗️': [
+        'Alembic',
+        ':alembic:'
+    ],
+    '🕯️': [
+        'Lumânare',
+        ':candle:',
+        ':white:'
+    ],
     '🖼️': [
         'Imagine încadrată',
+        ':framed_picture:',
         'Pictură',
         'Ramă imagine',
         'Cadru cu imagine'
     ],
-    '🛍️': ['Coșuri de cumpărături'],
-    '🎟️': ['Tichete de admitere'],
-    '🛎️': ['Bellhop Bell'],
-    '🧾': ['Chitanță'],
-    '🧮': ['Abacus'],
-    '🧫': ['Petri Dish'],
+    '🛍️': [
+        'Coșuri de cumpărături',
+        ':shopping_bags:'
+    ],
+    '🎟️': [
+        'Tichete de admitere',
+        ':admission_tickets:'
+    ],
+    '🛎️': [
+        'Bellhop Bell',
+        ':bellhop_bell:',
+        ':yellow:',
+        ':gold:'
+    ],
+    '🧾': [
+        'Chitanță',
+        ':receipt:',
+        ':white:'
+    ],
+    '🧮': [
+        'Abacus',
+        ':abacus:'
+    ],
+    '🧫': [
+        'Petri Dish',
+        ':petri_dish:'
+    ],
     '🧹': [
         'Cameră',
+        ':broom:',
         'Periază',
-        'Glisare'
+        'Glisare',
+        ':yellow:'
     ],
     '🎰': [
         'Mașina Slot',
+        ':slot_machine:',
         'Cazinou',
         'Mașină de fructe',
         'Jocuri',
         'Mașina Poker'
     ],
-    '🦽': ['Scaun rulant manual'],
-    '🦼': ['Scaun rulant motorizat'],
-    '🪔': ['Lampă Diya'],
-    '🦯': ['White Cane'],
-    '🩸': ['Scădere de sânge'],
-    '🩹': ['Bandaj adeziv'],
-    '🩺': ['Stetoscop'],
-    '🪶': ['Pană'],
-    '🪤': ['Capcană cu mouse-ul'],
-    '🫖': ['Teapot'],
-    '🪨': ['Piatră'],
-    '🪵': ['Lemn'],
-    '🪄': ['Bagheta Magică'],
+    '🦽': [
+        'Scaun rulant manual',
+        ':manual_wheelchair:',
+        ':wheelchair:'
+    ],
+    '🦼': [
+        'Scaun rulant motorizat',
+        ':motorized_wheelchair:'
+    ],
+    '🪔': [
+        'Lampă Diya',
+        ':diya_lamp:'
+    ],
+    '🦯': [
+        'White Cane',
+        ':whie_cane:'
+    ],
+    '🩸': [
+        'Scădere de sânge',
+        ':drop_of_blood:',
+        ':red:'
+    ],
+    '🩹': [
+        'Bandaj adeziv',
+        ':adhesive_bandage:'
+    ],
+    '🩺': [
+        'Stetoscop',
+        ':stethoscope:'
+    ],
+    '🪶': [
+        'Pană',
+        ':feather:'
+    ],
+    '🪤': [
+        'Capcană cu mouse-ul',
+        ':mouse_trap:'
+    ],
+    '🫖': [
+        'Teapot',
+        ':teapot:'
+    ],
+    '🪨': [
+        'Piatră',
+        ':rock:',
+        ':gray:',
+        ':grey:'
+    ],
+    '🪵': [
+        'Lemn',
+        ':wood:',
+        ':brown:'
+    ],
+    '🪄': [
+        'Bagheta Magică',
+        ':magin_wand:'
+    ],
     '🔮': [
         'Minge de cristal',
+        ':crystal_ball:',
         'Clairvoyant',
         'Teller Fortune',
         'Psihic',
-        'Cristal Violet'
+        'Cristal Violet',
+        ':purple:'
     ],
-    '🪅': ['Parametri'],
+    '🪅': [
+        'Parametri',
+        ':pinata:',
+        ':piñata:'
+    ],
     '🪆': [
         'Papusi de încarcerare',
+        ':nesting_dolls:',
         'Matryoshka'
     ],
-    '🪡': ['Acul de cusut'],
-    '🪢': ['Nod'],
-    '🪙': ['Monedă'],
-    '🪃': ['Boomerang'],
-    '🪥': ['Căsuță de dinți'],
-    '🪦': ['Piatră căști'],
-    '🪧': ['Placard'],
-    '🪒': ['Razor'],
-    '🫙': ['Borcan'],
+    '🪡': [
+        'Acul de cusut',
+        ':swing_needle:'
+    ],
+    '🪢': [
+        'Nod',
+        ':knot:',
+        ':red:',
+        ':blue:'
+    ],
+    '🪙': [
+        'Monedă',
+        ':coin:'
+    ],
+    '🪃': [
+        'Boomerang',
+        ':boomerang:',
+        ':brown:'
+    ],
+    '🪥': [
+        'Căsuță de dinți',
+        ':toothbrush:'
+    ],
+    '🪦': [
+        'Piatră căști',
+        ':headstone:',
+        ':gray:',
+        ':grey:'
+    ],
+    '🪧': [
+        'Placard',
+        ':placard:'
+    ],
+    '🪒': [
+        'Razor',
+        ':razor:'
+    ],
+    '🫙': [
+        'Borcan',
+        ':jar:',
+        ':transparent:'
+    ],
     '🛞': [
-        'Wheel',
-        'Vehicles',
-        'Cars'
+        'Roată',
+        ':wheel:',
+        'Vehicule',
+        'Mașini',
+        ':black:'
     ],
     '🛟': [
-        'Ring Buoy',
-        'Life Preserver',
-        'Life Ring',
-        'Boats',
-        'Safety',
+        'Buzdugan de sonerie',
+        ':ring_buoy:',
+        'Preserver de viață',
+        'Inel de viață',
+        'Bărci',
+        'Siguranță',
         'Apă',
-        'Lifesaving'
+        'Lifeesaving',
+        ':red:',
+        ':white:'
     ],
     '🪬': [
         'Hamsa',
+        ':hamsa:',
         'Islam',
-        'Judaism',
+        'Iudaism',
         'Buddhism',
-        'Christianity',
-        'Religions',
-        'Luck',
-        'Protection',
-        'Guidance',
-        'Feminine Power',
-        'Faith'
+        'Creștinism',
+        'Religii',
+        'Noroc',
+        'Protecție',
+        'Orientări',
+        'Putere Feminină',
+        'Credință',
+        ':blue:'
     ],
     '🪩': [
-        'Mirror Ball',
-        'Disco Ball'
+        'Minge oglindă',
+        ':mirror_ball:',
+        'Minge discotecă'
     ],
     '🪫': [
-        'Low Battery',
-        'Roșu',
-        'Energy'
+        'Baterie descărcată',
+        ':low_battery:',
+        ':red:',
+        'Energie',
+        'Roșu'
     ],
-    '🩻': ['X-Ray'],
+    '🩻': [
+        'X-Ray',
+        ':x_ray:',
+        ':x-ray:',
+        ':blue:'
+    ],
     '🫧': [
-        'Bubbles',
-        'Soap Suds',
-        'Carbonation',
-        'Effervescent Personality'
+        'Bule',
+        ':bubbles:',
+        'Suporturi de sapun',
+        'Carbonare',
+        'Personalitate Efervescentă',
+        ':transparent:'
     ],
     '🪪': [
-        'Identification Card',
-        'Identity',
-        'Passport',
+        'Card de identificare',
+        ':identification_card:',
+        'Identitate',
+        'Pașaport',
         'ID'
     ],
     '🧿': [
         'Nazar Amulet',
-        'Evil Eye'
+        ':nazar_amulet:',
+        'Ochi Răi',
+        ':blue:'
     ],
     '🧸': [
-        'Teddy Bear',
-        'Toy'
+        'Urs Teddy',
+        ':teddy_bear:',
+        'Jucării',
+        ':brown:'
     ]
 };
