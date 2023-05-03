@@ -1,7 +1,7 @@
 lang = 'ko';
 //use i18n language code of the browser, more details: https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/i18n/LanguageCode
 settings_strings[lang] = {};
-settings_strings[lang]['placeholder-searchbox'] = '키워드로 검색';
+settings_strings[lang]['placeholder-searchbox'] = 'Search by keyword, colour or gender';
 settings_strings[lang]['label-click-on-the-emojis'] = '제거하고 싶은 이모지를 클릭';
 settings_strings[lang]['button-finish'] = '완료';
 settings_strings[lang]['label-delete-emoji'] = '\'자주 쓰인 이모지\' 섹션에서 하나 이상의 이모지를 삭제';
