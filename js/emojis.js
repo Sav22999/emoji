@@ -125,7 +125,7 @@ emojis_language[lang][2] = {
     "🫤": ["Face with Diagonal Mouth", ":face_with_diagonal_mouth:"],
     "🥹": ["Face Holding Back Tears", ":face_holding_back_tears:"],
     "😈": ["Smiling Face with Horns", ":smiling_face_with_horns:", "Devil", "Devil Horns", "Happy Devil", "Purple Devil", "Red Devil", ":purple:"],
-    "👿": ["Angry Face with Horns", ":angry_face_with_horns:", "Devil", "Devil Horns", "Purple Devil", "Purple Goblin", "Sad Devil", "Imp", ":purple"],
+    "👿": ["Angry Face with Horns", ":angry_face_with_horns:", "Devil", "Devil Horns", "Purple Devil", "Purple Goblin", "Sad Devil", "Imp", ":purple:"],
     "🤡": ["Clown Face", ":clown_face:", "Creepy Clown", "Evil Clown", "Scary Clown"],
     "👽": ["Alien", ":alien:", "ET"],
     "👾": ["Alien Monster", ":alien_monster:", "Space Invader", "Video Game Monster"],
