@@ -131,12 +131,13 @@ emojis_language[lang][2] = {
     ],
     '😍': [
         'ابتسامة الوجه بالعين القلبية',
+        'love',
         ':smiling_heart-eyes:',
         ':smiling_heart_eyes:',
         ':*.*:',
-        'عيون القلب',
-        'وجه القلب',
-        'ابتسامة الوجه بالعين على شكل القلب'
+        'Heart Eyes',
+        'Heart Face',
+        'Smiling Face with Heart-Shaped Eyes'
     ],
     '🤩': [
         'هيكل النجوم',
@@ -150,22 +151,24 @@ emojis_language[lang][2] = {
     ],
     '😘': [
         'زرع قبيلة بالوجه',
+        'love',
         ':kissing_face:',
         '::*:',
         '::-*:',
-        'قبلة قبيلة',
-        'قبيلة التوهج',
-        'كيس',
-        'وجه رمي قبيلة'
+        'Blow A Kiss',
+        'Blowing Kiss',
+        'Kissing',
+        'Face Throwing a Kiss'
     ],
     '😗': [
         'كيس الوجه',
+        'kiss',
         ':kissing_face:',
         '::*:',
         '::-*:',
-        'وجه العربة',
+        'Duck Face',
         'Kissy Face',
-        'تصفير'
+        'Whistling'
     ],
     '☺️': [
         'وجه الابتسامة',
@@ -279,12 +282,14 @@ emojis_language[lang][2] = {
     ],
     '🤐': [
         'مضغوطة',
+        'silent',
+        'silence',
         ':zip_face:',
-        'وجه Zipper-Mouth',
-        'الشفائح المختومة',
-        'الشفافات المختومة',
-        'الرمز البريدي',
-        'وجه مع قالب زيبر'
+        'Zipper-Mouth Face',
+        'Lips Sealed',
+        'Sealed Lips',
+        'Zip It',
+        'Face With a Zipper Mouth'
     ],
     '🤨': [
         'وجه مع العيب المرتفع',
@@ -393,15 +398,19 @@ emojis_language[lang][2] = {
     ],
     '🥱': [
         'وجه الفتح',
+        'tired',
         ':yawning_face:'
     ],
     '😷': [
         'وجه مع قناع طبي',
+        'sick',
+        'doc',
         ':face_with_medical_mask:',
-        'فيروس كورونا',
+        'Coronavirus',
         'COVID-19',
-        'قناع الوجه',
-        'قناع جراحي'
+        'Mask Face',
+        'Surgical Mask',
+        'ill'
     ],
     '🤒': [
         'وجه مع مقياس الحرارة',
@@ -413,38 +422,47 @@ emojis_language[lang][2] = {
     ],
     '🤕': [
         'وجه مع الضمادات الرئيسية',
+        'hospital',
+        'sick',
         ':face_with_head-bandage:',
         ':face_with_head_bandage:',
-        'رأس مقطوع',
-        'سحابة',
-        'مؤثر'
+        'Bandaged Head',
+        'Clumsy',
+        'Injured',
+        'ill'
     ],
     '🤢': [
         'الوجه الموقوف',
+        'sick',
         ':nauseated_face:',
-        'قسيس',
-        'الوجه الأخضر',
-        'فيميت',
-        ':green:'
+        'Disgust',
+        'Green Face',
+        'Vomit',
+        ':green:',
+        'ill'
     ],
     '🤮': [
         'كسر الوجه',
+        'sick',
         ':face_vomiting:',
-        'سرعة',
+        'Spew',
         'Bleah',
         'Bleurgh',
-        'يوك',
-        'عالقة',
-        'إيو',
-        'سرعة',
-        'الرمي للأعلى',
-        'فيميت',
-        'وجه مع كسر الفم المفتوح'
+        'Yuk',
+        'Yuck',
+        'Ew',
+        'Spew',
+        'Throwing Up',
+        'Vomit',
+        'Face with Open Mouth Vomiting',
+        'ill'
     ],
     '🤧': [
         'عطس الوجه',
+        'sick',
         ':sneezing_face:',
-        'Gesundheit'
+        'Gesundheit',
+        'ill'
     ],
     '🥵': [
         'وجه ساخن',
@@ -474,9 +492,10 @@ emojis_language[lang][2] = {
     ],
     '🤯': [
         'تفجير الرأس',
+        'boom',
         ':exploding_head:',
-        'مهرج العقل',
-        'وجه صدم برأس التفجير'
+        'Mind Blown',
+        'Shocked Face with Exploding Head'
     ],
     '🤠': [
         'وجه القبعة',
@@ -678,11 +697,12 @@ emojis_language[lang][2] = {
     ],
     '😡': [
         'وجه اللمس',
+        'fuck',
         ':pouting_face:',
-        'الوجه الغاضب',
-        'الوجه الكبير',
-        'الوجه المجنون',
-        'الوجه الأحمر',
+        'Angry Face',
+        'Grumpy Face',
+        'Mad Face',
+        'Red Face',
         ':red:'
     ],
     '😠': [
@@ -693,14 +713,15 @@ emojis_language[lang][2] = {
     ],
     '🤬': [
         'تجميل',
+        'fuck',
         ':swearing:',
         '@#$%&!',
-        'وجه مع الرموز على الفم',
-        'اللعنة',
-        'خادم',
+        'Face with Symbols on Mouth',
+        'Cursing',
+        'Cussing',
         'Grawlix',
-        'وجه مع الرموز عبر الفم',
-        'وجه جدي مع الرموز التي تغطي الفم',
+        'Face With Symbols Over Mouth',
+        'Serious Face with Symbols Covering Mouth',
         ':red:'
     ],
     '🥲': [
@@ -716,6 +737,14 @@ emojis_language[lang][2] = {
         'وجه مع عيون حلزونية',
         ':face_with_spiral_eyes:',
         'Dizzy Face'
+    ],
+    '😶‍🌫️': [
+        'Face in Clouds',
+        'smoke',
+        ':face_in_clouds:',
+        'Brain Fog',
+        'Forgetful',
+        'Haze'
     ],
     '🥸': [
         'الوجه المخفي',
@@ -754,6 +783,7 @@ emojis_language[lang][2] = {
         'حمل الوجه الدموع الخلفية',
         ':face_holding_back_tears:'
     ],
+    //"🫨": ["Shaking Face", ":shaking_face:"],
     '😈': [
         'ابتسامة الوجه مع القرون',
         ':smiling_face_with_horns:',
@@ -773,7 +803,7 @@ emojis_language[lang][2] = {
         'جبلن أرجواني',
         'الشرير الحزين',
         'Imp',
-        ':ارجواني'
+        ':purple:'
     ],
     '🤡': [
         'وجه المهرج',
@@ -2429,9 +2459,21 @@ emojis_language[lang][3] = {
     ],
     '🛌{{skin_tone}}': [
         'السكن النوم',
+        'tired',
         ':sleeping_accommodation:',
-        'شخص في السرير',
-        'نوم الشخص'
+        'Person in Bed',
+        'Person Sleeping'
+    ],
+    '🛀{{skin_tone}}': [
+        'Person Taking Bath',
+        'Bathing',
+        ':bath:',
+        ':person_taking_bath:',
+        'Hot Bath',
+        'Person Taking a Bath',
+        'Bath',
+        'Shower',
+        'Soap'
     ],
     '🧌': [
         'Troll',
@@ -3251,6 +3293,19 @@ emojis_language[lang][5] = {
         'كسر القلب',
         ':red:'
     ],
+    '❤️‍🩹': [
+        'Mending Heart',
+        ':mending_heart:',
+        'Bandaged Heart',
+        'Healing Heart',
+        'Unbroken Heart',
+        ':red:'
+    ],
+    '❤️‍🔥': [
+        'Heart on Fire',
+        ':heart_on_fire:',
+        ':red:'
+    ],
     '❤️': [
         'أنا أحبك',
         ':red_heart:',
@@ -3312,6 +3367,9 @@ emojis_language[lang][5] = {
         'أنا أحبك',
         ':brown:'
     ],
+    //"🩷": ["Pink Heart", ":pink_heart:", "I Love You", ":pink:"],
+    //"🩵": ["Light Blue Heart", ":lightblue_heart:", "I Love You", ":blue:"],
+    //"🩶": ["Grey Heart","Gray Heart", ":grey_heart:",":gray_heart:", "I Love You", ":gray:", ":grey:"],
     '💯': [
         '100 نقطة',
         ':hundred_points:',
@@ -3767,6 +3825,7 @@ emojis_language[lang][5] = {
         'ستة نجوم ذات نقطة متوسطة',
         ':purple:'
     ],
+    //"🪯": ["Khanda", ":khanda:", "Sikhism", ":purple:"],
     '♈': [
         'أريز',
         ':aries:',
@@ -4627,6 +4686,7 @@ emojis_language[lang][5] = {
         'مراقبة الحدود',
         ':blue:'
     ],
+    //"🛜": ["Wireless", ":wireless:", ":wifi:", ":wi_fi:", "Wifi", "wi-fi", "wireless connection", ":blue:"],
     '🚰': [
         'رمز المياه الصالحة للشرب',
         ':potable_water_symbol:',
@@ -10257,6 +10317,9 @@ emojis_language[lang][13] = {
         'الهدوء',
         'الهدوء'
     ],
+    //"🪻": ["Hyacinth", ":hyacinth:", "Purple flower", ":purple:"],
+    //"🫛": ["Pea Pod", ":pea_pod:", ":green:"],
+    //"🫚": ["Ginger root", ":ginger:", "Spice", "Flavour", ":brown:"],
     '🔑': [
         'المفتاح',
         ':key:',
@@ -10283,7 +10346,8 @@ emojis_language[lang][13] = {
     ],
     '🪓': [
         'فأس',
-        ':axe:'
+        ':axe:',
+        'firefighter'
     ],
     '🪚': [
         'صهر النجارة',
@@ -10388,7 +10452,10 @@ emojis_language[lang][13] = {
         'التبرع بالدم',
         'اختبار الدم',
         'إحتياطي',
-        'التطعيم'
+        'التطعيم',
+        'blood',
+        'sick',
+        'ill'
     ],
     '🧬': [
         'حمض',
@@ -10440,17 +10507,20 @@ emojis_language[lang][13] = {
         'حمام',
         'الشعار',
         'ريستوم',
-        'WC'
+        'WC',
+        ':white:'
     ],
     '🚿': [
         'مشاهدة',
         ':shower:',
-        'رأس الشاشة'
+        'رأس الشاشة',
+        ':shower:'
     ],
     '🛁': [
         'حوض الاستحمام',
         ':bathtub:',
-        'حمام الفقاعات'
+        'حمام الفقاعات',
+        ':shower:'
     ],
     '🧴': [
         'زجاجة الحب',
@@ -10740,7 +10810,8 @@ emojis_language[lang][13] = {
     ],
     '💣': [
         'قنبلة',
-        ':bomb:'
+        ':bomb:',
+        'boom'
     ],
     '🔪': [
         'سكين المطبخ',
@@ -11099,12 +11170,19 @@ emojis_language[lang][13] = {
         'فقاعات الكلام الغاضبة',
         ':white:'
     ],
+    '🗨️': [
+        'Left Speech Bubble',
+        ':left_speech_bubble:',
+        ':speech_left:'
+    ],
     '💊': [
         'Pill',
         ':pill:',
         'كابسول',
         'لوحي',
         'المخدرات',
+        'Sick',
+        'ill',
         ':yellow:',
         ':red:'
     ],
@@ -11232,6 +11310,14 @@ emojis_language[lang][13] = {
     '🛍️': [
         'أكياس التسوق',
         ':shopping_bags:'
+    ],
+    '🛒': [
+        'Shopping Cart',
+        ':shopping_cart:',
+        'Shopping Trolley',
+        ':shopping_trolley:',
+        ':gray:',
+        ':grey:'
     ],
     '🎟️': [
         'تذاكر القبول',

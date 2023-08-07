@@ -131,12 +131,13 @@ emojis_language[lang][2] = {
     ],
     '😍': [
         'Χαμογελαστό πρόσωπο με τα μάτια καρδιάς',
+        'love',
         ':smiling_heart-eyes:',
         ':smiling_heart_eyes:',
         ':*.*:',
-        'Μάτια Καρδιάς',
-        'Καρδιά Πρόσωπο',
-        'Χαμογελώντας πρόσωπο με μάτια σε σχήμα καρδιάς'
+        'Heart Eyes',
+        'Heart Face',
+        'Smiling Face with Heart-Shaped Eyes'
     ],
     '🤩': [
         'Αστέρι-Δομή',
@@ -150,22 +151,24 @@ emojis_language[lang][2] = {
     ],
     '😘': [
         'Πρόσωπο που ρέει ένα φιλί',
+        'love',
         ':kissing_face:',
         '::*:',
         '::-*:',
-        'Χτύπημα Ένα Φιλί',
-        'Blowing Φιλί',
-        'Φιλιά',
-        'Πρόσωπο ρίχνοντας ένα φιλί'
+        'Blow A Kiss',
+        'Blowing Kiss',
+        'Kissing',
+        'Face Throwing a Kiss'
     ],
     '😗': [
         'Φιλί Πρόσωπο',
+        'kiss',
         ':kissing_face:',
         '::*:',
         '::-*:',
-        'Πάπιες Πρόσωπο',
+        'Duck Face',
         'Kissy Face',
-        'Σφυρίχτρα'
+        'Whistling'
     ],
     '☺️': [
         'Χαμογελώντας Πρόσωπο',
@@ -279,12 +282,14 @@ emojis_language[lang][2] = {
     ],
     '🤐': [
         'Τ.Κ.',
+        'silent',
+        'silence',
         ':zip_face:',
-        'Πρόσωπο Φερμουάρ-Στόματος',
-        'Χείλη Σφραγισμένα',
-        'Σφραγισμένα Χείλη',
-        'Τ.Κ.',
-        'Πρόσωπο με στόμιο φερμουάρ'
+        'Zipper-Mouth Face',
+        'Lips Sealed',
+        'Sealed Lips',
+        'Zip It',
+        'Face With a Zipper Mouth'
     ],
     '🤨': [
         'Πρόσωπο με ενισχυμένο φρύδι',
@@ -393,15 +398,19 @@ emojis_language[lang][2] = {
     ],
     '🥱': [
         'Πρόσωπο Αυγής',
+        'tired',
         ':yawning_face:'
     ],
     '😷': [
         'Πρόσωπο με ιατρική μάσκα',
+        'sick',
+        'doc',
         ':face_with_medical_mask:',
         'Coronavirus',
         'COVID-19',
-        'Μάσκα Πρόσωπο',
-        'Χειρουργική Μάσκα'
+        'Mask Face',
+        'Surgical Mask',
+        'ill'
     ],
     '🤒': [
         'Πρόσωπο με θερμόμετρο',
@@ -413,38 +422,47 @@ emojis_language[lang][2] = {
     ],
     '🤕': [
         'Πρόσωπο με Επικεφαλής',
+        'hospital',
+        'sick',
         ':face_with_head-bandage:',
         ':face_with_head_bandage:',
-        'Κεφαλή Εξανδρωμένου',
-        'Αδέξιος',
-        'Λείπει'
+        'Bandaged Head',
+        'Clumsy',
+        'Injured',
+        'ill'
     ],
     '🤢': [
         'Ναυτία Πρόσωπο',
+        'sick',
         ':nauseated_face:',
-        'Αηδία',
-        'Πράσινο Πρόσωπο',
-        'Έμβος',
-        ':green:'
+        'Disgust',
+        'Green Face',
+        'Vomit',
+        ':green:',
+        'ill'
     ],
     '🤮': [
         'Πρόσωπο Έμετος',
+        'sick',
         ':face_vomiting:',
-        'Σήκωσε',
+        'Spew',
         'Bleah',
         'Bleurgh',
         'Yuk',
-        'Γιουκ',
-        'EW',
-        'Σήκωσε',
-        'Πέτα Πάνω',
-        'Έμβος',
-        'Πρόσωπο με Ανοιχτό Στόμα Έμετος'
+        'Yuck',
+        'Ew',
+        'Spew',
+        'Throwing Up',
+        'Vomit',
+        'Face with Open Mouth Vomiting',
+        'ill'
     ],
     '🤧': [
         'Φτάρνισμα Πρόσωπο',
+        'sick',
         ':sneezing_face:',
-        'Gesundheit'
+        'Gesundheit',
+        'ill'
     ],
     '🥵': [
         'Ζεστό Πρόσωπο',
@@ -474,9 +492,10 @@ emojis_language[lang][2] = {
     ],
     '🤯': [
         'Κεφαλή Εκρήξεως',
+        'boom',
         ':exploding_head:',
-        'Μυαλό Φυσητό',
-        'Σοκαρισμένο πρόσωπο με εκρηκτική κεφαλή'
+        'Mind Blown',
+        'Shocked Face with Exploding Head'
     ],
     '🤠': [
         'Cowboy Καπέλο Πρόσωπο',
@@ -678,11 +697,12 @@ emojis_language[lang][2] = {
     ],
     '😡': [
         'Προωθητικό Πρόσωπο',
+        'fuck',
         ':pouting_face:',
-        'Θυμωμένος Πρόσωπο',
-        'Grumpy Πρόσωπο',
-        'Mad Πρόσωπο',
-        'Κόκκινο Πρόσωπο',
+        'Angry Face',
+        'Grumpy Face',
+        'Mad Face',
+        'Red Face',
         ':red:'
     ],
     '😠': [
@@ -693,14 +713,15 @@ emojis_language[lang][2] = {
     ],
     '🤬': [
         'Πουλερικά',
+        'fuck',
         ':swearing:',
         '@#$%&!',
-        'Πρόσωπο με σύμβολα στο στόμα',
+        'Face with Symbols on Mouth',
         'Cursing',
-        'Μείωση',
+        'Cussing',
         'Grawlix',
-        'Πρόσωπο Με Σύμβολα Πάνω Από Το Στόμα',
-        'Σοβαρό πρόσωπο με σύμβολα που καλύπτουν το στόμα',
+        'Face With Symbols Over Mouth',
+        'Serious Face with Symbols Covering Mouth',
         ':red:'
     ],
     '🥲': [
@@ -716,6 +737,14 @@ emojis_language[lang][2] = {
         'Πρόσωπο με σπειροειδή μάτια',
         ':face_with_spiral_eyes:',
         'Dizzy Face'
+    ],
+    '😶‍🌫️': [
+        'Face in Clouds',
+        'smoke',
+        ':face_in_clouds:',
+        'Brain Fog',
+        'Forgetful',
+        'Haze'
     ],
     '🥸': [
         'Μεταμφιεσμένο Πρόσωπο',
@@ -754,6 +783,7 @@ emojis_language[lang][2] = {
         'Πρόσωπο Κρατώντας Πίσω Δάκρυα',
         ':face_holding_back_tears:'
     ],
+    //"🫨": ["Shaking Face", ":shaking_face:"],
     '😈': [
         'Χαμογελώντας πρόσωπο με κέρατα',
         ':smiling_face_with_horns:',
@@ -773,7 +803,7 @@ emojis_language[lang][2] = {
         'Μωβ Γκομπλιν',
         'Λυπημένος Διάβολος',
         'Imp',
-        ':purple'
+        ':purple:'
     ],
     '🤡': [
         'Πρόσωπο Κλόουν',
@@ -2429,9 +2459,21 @@ emojis_language[lang][3] = {
     ],
     '🛌{{skin_tone}}': [
         'Καταλύματα Ύπνου',
+        'tired',
         ':sleeping_accommodation:',
-        'Πρόσωπο σε κρεβάτι',
-        'Υπνηλία Άτομου'
+        'Person in Bed',
+        'Person Sleeping'
+    ],
+    '🛀{{skin_tone}}': [
+        'Person Taking Bath',
+        'Bathing',
+        ':bath:',
+        ':person_taking_bath:',
+        'Hot Bath',
+        'Person Taking a Bath',
+        'Bath',
+        'Shower',
+        'Soap'
     ],
     '🧌': [
         'Troll',
@@ -3251,6 +3293,19 @@ emojis_language[lang][5] = {
         'Καρδιά Σπασμένη',
         ':red:'
     ],
+    '❤️‍🩹': [
+        'Mending Heart',
+        ':mending_heart:',
+        'Bandaged Heart',
+        'Healing Heart',
+        'Unbroken Heart',
+        ':red:'
+    ],
+    '❤️‍🔥': [
+        'Heart on Fire',
+        ':heart_on_fire:',
+        ':red:'
+    ],
     '❤️': [
         'Σας Αγαπώ',
         ':red_heart:',
@@ -3312,6 +3367,9 @@ emojis_language[lang][5] = {
         'Σας Αγαπώ',
         ':brown:'
     ],
+    //"🩷": ["Pink Heart", ":pink_heart:", "I Love You", ":pink:"],
+    //"🩵": ["Light Blue Heart", ":lightblue_heart:", "I Love You", ":blue:"],
+    //"🩶": ["Grey Heart","Gray Heart", ":grey_heart:",":gray_heart:", "I Love You", ":gray:", ":grey:"],
     '💯': [
         'Βαθμοί Εκατοντάδες',
         ':hundred_points:',
@@ -3767,6 +3825,7 @@ emojis_language[lang][5] = {
         'Έξι Σημεία Αστέρι με Middle Dot',
         ':purple:'
     ],
+    //"🪯": ["Khanda", ":khanda:", "Sikhism", ":purple:"],
     '♈': [
         'Κριός',
         ':aries:',
@@ -4627,6 +4686,7 @@ emojis_language[lang][5] = {
         'Έλεγχος Περιγράμματος',
         ':blue:'
     ],
+    //"🛜": ["Wireless", ":wireless:", ":wifi:", ":wi_fi:", "Wifi", "wi-fi", "wireless connection", ":blue:"],
     '🚰': [
         'Σύμβολο Πόσιμου Νερού',
         ':potable_water_symbol:',
@@ -10257,6 +10317,9 @@ emojis_language[lang][13] = {
         'Ηρεμία',
         'Γενοκτονία'
     ],
+    //"🪻": ["Hyacinth", ":hyacinth:", "Purple flower", ":purple:"],
+    //"🫛": ["Pea Pod", ":pea_pod:", ":green:"],
+    //"🫚": ["Ginger root", ":ginger:", "Spice", "Flavour", ":brown:"],
     '🔑': [
         'Κλειδί',
         ':key:',
@@ -10283,7 +10346,8 @@ emojis_language[lang][13] = {
     ],
     '🪓': [
         'Τσεκούρια',
-        ':axe:'
+        ':axe:',
+        'firefighter'
     ],
     '🪚': [
         'Πριόνι Ξυλουργικής',
@@ -10388,7 +10452,10 @@ emojis_language[lang][13] = {
         'Δωρεά Αίματος',
         'Δοκιμή Αίματος',
         'Βελόνα',
-        'Εμβολιασμός'
+        'Εμβολιασμός',
+        'blood',
+        'sick',
+        'ill'
     ],
     '🧬': [
         'DNA',
@@ -10440,17 +10507,20 @@ emojis_language[lang][13] = {
         'Μπάνιο',
         'Loo',
         'Restroom',
-        'WC'
+        'WC',
+        ':white:'
     ],
     '🚿': [
         'Ντους',
         ':shower:',
-        'Κεφαλή Ντους'
+        'Κεφαλή Ντους',
+        ':shower:'
     ],
     '🛁': [
         'Μπανιέρα',
         ':bathtub:',
-        'Μπάνιο Με Φούσκα'
+        'Μπάνιο Με Φούσκα',
+        ':shower:'
     ],
     '🧴': [
         'Φιάλη Λοσιόν',
@@ -10740,7 +10810,8 @@ emojis_language[lang][13] = {
     ],
     '💣': [
         'Βόμβα',
-        ':bomb:'
+        ':bomb:',
+        'boom'
     ],
     '🔪': [
         'Μαχαίρι Κουζίνας',
@@ -11099,12 +11170,19 @@ emojis_language[lang][13] = {
         'Θυμωμένος Φούσκα Ομιλίας',
         ':white:'
     ],
+    '🗨️': [
+        'Left Speech Bubble',
+        ':left_speech_bubble:',
+        ':speech_left:'
+    ],
     '💊': [
         'Pill',
         ':pill:',
         'Καψάκιο',
         'Δισκίο',
         'Ναρκωτικά',
+        'Sick',
+        'ill',
         ':yellow:',
         ':red:'
     ],
@@ -11232,6 +11310,14 @@ emojis_language[lang][13] = {
     '🛍️': [
         'Ψώνια Τσάντες',
         ':shopping_bags:'
+    ],
+    '🛒': [
+        'Shopping Cart',
+        ':shopping_cart:',
+        'Shopping Trolley',
+        ':shopping_trolley:',
+        ':gray:',
+        ':grey:'
     ],
     '🎟️': [
         'Αιτήματα Εισαγωγής',

@@ -131,12 +131,13 @@ emojis_language[lang][2] = {
     ],
     '😍': [
         'ハートアイで笑顔で顔',
+        'love',
         ':smiling_heart-eyes:',
         ':smiling_heart_eyes:',
         ':*.*:',
-        'ハートの目',
-        'ハートの顔',
-        'ハート型の瞳で笑顔で顔'
+        'Heart Eyes',
+        'Heart Face',
+        'Smiling Face with Heart-Shaped Eyes'
     ],
     '🤩': [
         'Star-Strak',
@@ -150,22 +151,24 @@ emojis_language[lang][2] = {
     ],
     '😘': [
         '顔がキスを吹いている',
+        'love',
         ':kissing_face:',
         '::*:',
         '::-*:',
-        'A キス',
-        'キスを吹いています',
-        'キス',
-        'キスを投げる顔'
+        'Blow A Kiss',
+        'Blowing Kiss',
+        'Kissing',
+        'Face Throwing a Kiss'
     ],
     '😗': [
         'キス顔',
+        'kiss',
         ':kissing_face:',
         '::*:',
         '::-*:',
-        'アヒルの顔',
+        'Duck Face',
         'Kissy Face',
-        '命令中'
+        'Whistling'
     ],
     '☺️': [
         '笑顔の顔',
@@ -279,12 +282,14 @@ emojis_language[lang][2] = {
     ],
     '🤐': [
         '郵便番号',
+        'silent',
+        'silence',
         ':zip_face:',
-        'ジッパー口の顔',
-        'シールされたLips',
-        'シールされたLips',
-        'Zipしてください',
-        'ジッパー口を持った顔'
+        'Zipper-Mouth Face',
+        'Lips Sealed',
+        'Sealed Lips',
+        'Zip It',
+        'Face With a Zipper Mouth'
     ],
     '🤨': [
         '上げられた眉と顔',
@@ -393,15 +398,19 @@ emojis_language[lang][2] = {
     ],
     '🥱': [
         'あくびの顔',
+        'tired',
         ':yawning_face:'
     ],
     '😷': [
         '医療用マスクとの顔',
+        'sick',
+        'doc',
         ':face_with_medical_mask:',
         'Coronavirus',
         'COVID-19',
-        'マスクの顔',
-        '外科的マスク'
+        'Mask Face',
+        'Surgical Mask',
+        'ill'
     ],
     '🤒': [
         '体温計と顔',
@@ -413,38 +422,47 @@ emojis_language[lang][2] = {
     ],
     '🤕': [
         '頭包帯付き顔',
+        'hospital',
+        'sick',
         ':face_with_head-bandage:',
         ':face_with_head_bandage:',
-        '包帯の頭',
-        '不器用な',
-        'Injured'
+        'Bandaged Head',
+        'Clumsy',
+        'Injured',
+        'ill'
     ],
     '🤢': [
         '吐き気を引き起こした顔',
+        'sick',
         ':nauseated_face:',
-        '嫌がらせをする',
-        '緑色の顔',
+        'Disgust',
+        'Green Face',
         'Vomit',
-        ':green:'
+        ':green:',
+        'ill'
     ],
     '🤮': [
         '顔の嘔吐物',
+        'sick',
         ':face_vomiting:',
         'Spew',
         'Bleah',
         'Bleurgh',
-        'ユク語',
+        'Yuk',
         'Yuck',
         'Ew',
         'Spew',
-        '投げ',
+        'Throwing Up',
         'Vomit',
-        '口を開けたままの顔を見る'
+        'Face with Open Mouth Vomiting',
+        'ill'
     ],
     '🤧': [
         'くしゃみ顔',
+        'sick',
         ':sneezing_face:',
-        'Gesundheit'
+        'Gesundheit',
+        'ill'
     ],
     '🥵': [
         'ホットフェイス',
@@ -474,9 +492,10 @@ emojis_language[lang][2] = {
     ],
     '🤯': [
         '爆発する頭',
+        'boom',
         ':exploding_head:',
-        '心を吹き飛ばす。',
-        '爆発する頭に衝撃を受けた顔'
+        'Mind Blown',
+        'Shocked Face with Exploding Head'
     ],
     '🤠': [
         'カウボーイハットの顔',
@@ -678,11 +697,12 @@ emojis_language[lang][2] = {
     ],
     '😡': [
         'ポーティング顔',
+        'fuck',
         ':pouting_face:',
-        '怒った顔',
-        '不機嫌な顔',
-        'マッドフェイス',
-        '赤い顔',
+        'Angry Face',
+        'Grumpy Face',
+        'Mad Face',
+        'Red Face',
         ':red:'
     ],
     '😠': [
@@ -693,14 +713,15 @@ emojis_language[lang][2] = {
     ],
     '🤬': [
         '<unk>',
+        'fuck',
         ':swearing:',
         '@#$%&!',
-        '口の上にシンボルを持つ顔',
-        'のろい中',
+        'Face with Symbols on Mouth',
+        'Cursing',
         'Cussing',
         'Grawlix',
-        '顔の上にシンボルがある口',
-        '口を覆うシンボル付きの深刻な顔',
+        'Face With Symbols Over Mouth',
+        'Serious Face with Symbols Covering Mouth',
         ':red:'
     ],
     '🥲': [
@@ -716,6 +737,14 @@ emojis_language[lang][2] = {
         'スパイラルアイとの顔',
         ':face_with_spiral_eyes:',
         'Dizzy Face'
+    ],
+    '😶‍🌫️': [
+        'Face in Clouds',
+        'smoke',
+        ':face_in_clouds:',
+        'Brain Fog',
+        'Forgetful',
+        'Haze'
     ],
     '🥸': [
         '偽装した顔',
@@ -754,6 +783,7 @@ emojis_language[lang][2] = {
         '背中の涙を向ける顔',
         ':face_holding_back_tears:'
     ],
+    //"🫨": ["Shaking Face", ":shaking_face:"],
     '😈': [
         '角との笑顔の顔',
         ':smiling_face_with_horns:',
@@ -773,7 +803,7 @@ emojis_language[lang][2] = {
         '紫色の小悪魔たち',
         'Sad Devil',
         'Imp',
-        ':purple'
+        ':purple:'
     ],
     '🤡': [
         'ピエロの顔',
@@ -2429,9 +2459,21 @@ emojis_language[lang][3] = {
     ],
     '🛌{{skin_tone}}': [
         '眠れる宿泊施設',
+        'tired',
         ':sleeping_accommodation:',
-        'ベッドにいる人',
-        '眠っている人'
+        'Person in Bed',
+        'Person Sleeping'
+    ],
+    '🛀{{skin_tone}}': [
+        'Person Taking Bath',
+        'Bathing',
+        ':bath:',
+        ':person_taking_bath:',
+        'Hot Bath',
+        'Person Taking a Bath',
+        'Bath',
+        'Shower',
+        'Soap'
     ],
     '🧌': [
         'Troll',
@@ -3251,6 +3293,19 @@ emojis_language[lang][5] = {
         '壊れた心',
         ':red:'
     ],
+    '❤️‍🩹': [
+        'Mending Heart',
+        ':mending_heart:',
+        'Bandaged Heart',
+        'Healing Heart',
+        'Unbroken Heart',
+        ':red:'
+    ],
+    '❤️‍🔥': [
+        'Heart on Fire',
+        ':heart_on_fire:',
+        ':red:'
+    ],
     '❤️': [
         'あなたを愛しています',
         ':red_heart:',
@@ -3312,6 +3367,9 @@ emojis_language[lang][5] = {
         'あなたを愛しています',
         ':brown:'
     ],
+    //"🩷": ["Pink Heart", ":pink_heart:", "I Love You", ":pink:"],
+    //"🩵": ["Light Blue Heart", ":lightblue_heart:", "I Love You", ":blue:"],
+    //"🩶": ["Grey Heart","Gray Heart", ":grey_heart:",":gray_heart:", "I Love You", ":gray:", ":grey:"],
     '💯': [
         '100ポイント',
         ':hundred_points:',
@@ -3767,6 +3825,7 @@ emojis_language[lang][5] = {
         '真ん中に点があるシックススター',
         ':purple:'
     ],
+    //"🪯": ["Khanda", ":khanda:", "Sikhism", ":purple:"],
     '♈': [
         '牡羊座：',
         ':aries:',
@@ -4627,6 +4686,7 @@ emojis_language[lang][5] = {
         '枠線コントロール',
         ':blue:'
     ],
+    //"🛜": ["Wireless", ":wireless:", ":wifi:", ":wi_fi:", "Wifi", "wi-fi", "wireless connection", ":blue:"],
     '🚰': [
         '飲料水のシンボル',
         ':potable_water_symbol:',
@@ -10257,6 +10317,9 @@ emojis_language[lang][13] = {
         'Calmness',
         'Serenity'
     ],
+    //"🪻": ["Hyacinth", ":hyacinth:", "Purple flower", ":purple:"],
+    //"🫛": ["Pea Pod", ":pea_pod:", ":green:"],
+    //"🫚": ["Ginger root", ":ginger:", "Spice", "Flavour", ":brown:"],
     '🔑': [
         'キー',
         ':key:',
@@ -10283,7 +10346,8 @@ emojis_language[lang][13] = {
     ],
     '🪓': [
         '斧',
-        ':axe:'
+        ':axe:',
+        'firefighter'
     ],
     '🪚': [
         'Carpentry Saw.',
@@ -10388,7 +10452,10 @@ emojis_language[lang][13] = {
         '献血量',
         '血液検査',
         'ニードル語',
-        'Vaccination'
+        'Vaccination',
+        'blood',
+        'sick',
+        'ill'
     ],
     '🧬': [
         'DNA',
@@ -10440,17 +10507,20 @@ emojis_language[lang][13] = {
         'バスルーム',
         'Loo',
         'トイレ',
-        'WC（世界）'
+        'WC（世界）',
+        ':white:'
     ],
     '🚿': [
         'シャワー',
         ':shower:',
-        'シャワーヘッド'
+        'シャワーヘッド',
+        ':shower:'
     ],
     '🛁': [
         'バスタブ',
         ':bathtub:',
-        'バブルバス'
+        'バブルバス',
+        ':shower:'
     ],
     '🧴': [
         'ローションボトル',
@@ -10740,7 +10810,8 @@ emojis_language[lang][13] = {
     ],
     '💣': [
         'Bomba',
-        ':bomb:'
+        ':bomb:',
+        'boom'
     ],
     '🔪': [
         'キッチンナイフ',
@@ -11099,12 +11170,19 @@ emojis_language[lang][13] = {
         '怒りの発音バブル',
         ':white:'
     ],
+    '🗨️': [
+        'Left Speech Bubble',
+        ':left_speech_bubble:',
+        ':speech_left:'
+    ],
     '💊': [
         'Pill',
         ':pill:',
         'カプセル',
         'タブレット',
         '薬',
+        'Sick',
+        'ill',
         ':yellow:',
         ':red:'
     ],
@@ -11232,6 +11310,14 @@ emojis_language[lang][13] = {
     '🛍️': [
         'ショッピングバッグ',
         ':shopping_bags:'
+    ],
+    '🛒': [
+        'Shopping Cart',
+        ':shopping_cart:',
+        'Shopping Trolley',
+        ':shopping_trolley:',
+        ':gray:',
+        ':grey:'
     ],
     '🎟️': [
         '入場券',

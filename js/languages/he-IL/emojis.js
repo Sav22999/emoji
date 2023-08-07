@@ -131,6 +131,7 @@ emojis_language[lang][2] = {
     ],
     '😍': [
         'Smiling Face with Heart-Eyes',
+        'love',
         ':smiling_heart-eyes:',
         ':smiling_heart_eyes:',
         ':*.*:',
@@ -150,6 +151,7 @@ emojis_language[lang][2] = {
     ],
     '😘': [
         'Face Blowing a Kiss',
+        'love',
         ':kissing_face:',
         '::*:',
         '::-*:',
@@ -160,6 +162,7 @@ emojis_language[lang][2] = {
     ],
     '😗': [
         'Kissing Face',
+        'kiss',
         ':kissing_face:',
         '::*:',
         '::-*:',
@@ -279,6 +282,8 @@ emojis_language[lang][2] = {
     ],
     '🤐': [
         'Zip',
+        'silent',
+        'silence',
         ':zip_face:',
         'Zipper-Mouth Face',
         'Lips Sealed',
@@ -393,15 +398,19 @@ emojis_language[lang][2] = {
     ],
     '🥱': [
         'Yawning Face',
+        'tired',
         ':yawning_face:'
     ],
     '😷': [
         'Face with Medical Mask',
+        'sick',
+        'doc',
         ':face_with_medical_mask:',
         'Coronavirus',
         'COVID-19',
         'Mask Face',
-        'Surgical Mask'
+        'Surgical Mask',
+        'ill'
     ],
     '🤒': [
         'Face with Thermometer',
@@ -413,22 +422,28 @@ emojis_language[lang][2] = {
     ],
     '🤕': [
         'Face with Head-Bandage',
+        'hospital',
+        'sick',
         ':face_with_head-bandage:',
         ':face_with_head_bandage:',
         'Bandaged Head',
         'Clumsy',
-        'Injured'
+        'Injured',
+        'ill'
     ],
     '🤢': [
         'Nauseated Face',
+        'sick',
         ':nauseated_face:',
         'Disgust',
         'Green Face',
         'Vomit',
-        ':green:'
+        ':green:',
+        'ill'
     ],
     '🤮': [
         'Face Vomiting',
+        'sick',
         ':face_vomiting:',
         'Spew',
         'Bleah',
@@ -439,12 +454,15 @@ emojis_language[lang][2] = {
         'Spew',
         'Throwing Up',
         'Vomit',
-        'Face with Open Mouth Vomiting'
+        'Face with Open Mouth Vomiting',
+        'ill'
     ],
     '🤧': [
         'Sneezing Face',
+        'sick',
         ':sneezing_face:',
-        'Gesundheit'
+        'Gesundheit',
+        'ill'
     ],
     '🥵': [
         'Hot Face',
@@ -474,6 +492,7 @@ emojis_language[lang][2] = {
     ],
     '🤯': [
         'Exploding Head',
+        'boom',
         ':exploding_head:',
         'Mind Blown',
         'Shocked Face with Exploding Head'
@@ -678,6 +697,7 @@ emojis_language[lang][2] = {
     ],
     '😡': [
         'Pouting Face',
+        'fuck',
         ':pouting_face:',
         'Angry Face',
         'Grumpy Face',
@@ -693,6 +713,7 @@ emojis_language[lang][2] = {
     ],
     '🤬': [
         'Swearing',
+        'fuck',
         ':swearing:',
         '@#$%&!',
         'Face with Symbols on Mouth',
@@ -716,6 +737,14 @@ emojis_language[lang][2] = {
         'Face with Spiral Eyes',
         ':face_with_spiral_eyes:',
         'Dizzy Face'
+    ],
+    '😶‍🌫️': [
+        'Face in Clouds',
+        'smoke',
+        ':face_in_clouds:',
+        'Brain Fog',
+        'Forgetful',
+        'Haze'
     ],
     '🥸': [
         'Disguised Face',
@@ -754,6 +783,7 @@ emojis_language[lang][2] = {
         'Face Holding Back Tears',
         ':face_holding_back_tears:'
     ],
+    //"🫨": ["Shaking Face", ":shaking_face:"],
     '😈': [
         'Smiling Face with Horns',
         ':smiling_face_with_horns:',
@@ -773,7 +803,7 @@ emojis_language[lang][2] = {
         'Purple Goblin',
         'Sad Devil',
         'Imp',
-        ':purple'
+        ':purple:'
     ],
     '🤡': [
         'Clown Face',
@@ -2429,9 +2459,21 @@ emojis_language[lang][3] = {
     ],
     '🛌{{skin_tone}}': [
         'Sleeping Accommodation',
+        'tired',
         ':sleeping_accommodation:',
         'Person in Bed',
         'Person Sleeping'
+    ],
+    '🛀{{skin_tone}}': [
+        'Person Taking Bath',
+        'Bathing',
+        ':bath:',
+        ':person_taking_bath:',
+        'Hot Bath',
+        'Person Taking a Bath',
+        'Bath',
+        'Shower',
+        'Soap'
     ],
     '🧌': [
         'Troll',
@@ -3251,6 +3293,19 @@ emojis_language[lang][5] = {
         'Heart Broken',
         ':red:'
     ],
+    '❤️‍🩹': [
+        'Mending Heart',
+        ':mending_heart:',
+        'Bandaged Heart',
+        'Healing Heart',
+        'Unbroken Heart',
+        ':red:'
+    ],
+    '❤️‍🔥': [
+        'Heart on Fire',
+        ':heart_on_fire:',
+        ':red:'
+    ],
     '❤️': [
         'I Love You',
         ':red_heart:',
@@ -3312,6 +3367,9 @@ emojis_language[lang][5] = {
         'I Love You',
         ':brown:'
     ],
+    //"🩷": ["Pink Heart", ":pink_heart:", "I Love You", ":pink:"],
+    //"🩵": ["Light Blue Heart", ":lightblue_heart:", "I Love You", ":blue:"],
+    //"🩶": ["Grey Heart","Gray Heart", ":grey_heart:",":gray_heart:", "I Love You", ":gray:", ":grey:"],
     '💯': [
         'Hundred Points',
         ':hundred_points:',
@@ -3767,6 +3825,7 @@ emojis_language[lang][5] = {
         'Six Pointed Star with Middle Dot',
         ':purple:'
     ],
+    //"🪯": ["Khanda", ":khanda:", "Sikhism", ":purple:"],
     '♈': [
         'Aries',
         ':aries:',
@@ -4627,6 +4686,7 @@ emojis_language[lang][5] = {
         'Border Control',
         ':blue:'
     ],
+    //"🛜": ["Wireless", ":wireless:", ":wifi:", ":wi_fi:", "Wifi", "wi-fi", "wireless connection", ":blue:"],
     '🚰': [
         'Potable Water Symbol',
         ':potable_water_symbol:',
@@ -10257,6 +10317,9 @@ emojis_language[lang][13] = {
         'Calmness',
         'Serenity'
     ],
+    //"🪻": ["Hyacinth", ":hyacinth:", "Purple flower", ":purple:"],
+    //"🫛": ["Pea Pod", ":pea_pod:", ":green:"],
+    //"🫚": ["Ginger root", ":ginger:", "Spice", "Flavour", ":brown:"],
     '🔑': [
         'Key',
         ':key:',
@@ -10283,7 +10346,8 @@ emojis_language[lang][13] = {
     ],
     '🪓': [
         'Axe',
-        ':axe:'
+        ':axe:',
+        'firefighter'
     ],
     '🪚': [
         'Carpentry Saw',
@@ -10388,7 +10452,10 @@ emojis_language[lang][13] = {
         'Blood Donation',
         'Blood Test',
         'Needle',
-        'Vaccination'
+        'Vaccination',
+        'blood',
+        'sick',
+        'ill'
     ],
     '🧬': [
         'DNA',
@@ -10440,17 +10507,20 @@ emojis_language[lang][13] = {
         'Bathroom',
         'Loo',
         'Restroom',
-        'WC'
+        'WC',
+        ':white:'
     ],
     '🚿': [
         'Shower',
         ':shower:',
-        'Shower Head'
+        'Shower Head',
+        ':shower:'
     ],
     '🛁': [
         'Bathtub',
         ':bathtub:',
-        'Bubble Bath'
+        'Bubble Bath',
+        ':shower:'
     ],
     '🧴': [
         'Lotion Bottle',
@@ -10740,7 +10810,8 @@ emojis_language[lang][13] = {
     ],
     '💣': [
         'Bomb',
-        ':bomb:'
+        ':bomb:',
+        'boom'
     ],
     '🔪': [
         'Kitchen Knife',
@@ -11099,12 +11170,19 @@ emojis_language[lang][13] = {
         'Angry Speech Bubble',
         ':white:'
     ],
+    '🗨️': [
+        'Left Speech Bubble',
+        ':left_speech_bubble:',
+        ':speech_left:'
+    ],
     '💊': [
         'Pill',
         ':pill:',
         'Capsule',
         'Tablet',
         'Drugs',
+        'Sick',
+        'ill',
         ':yellow:',
         ':red:'
     ],
@@ -11232,6 +11310,14 @@ emojis_language[lang][13] = {
     '🛍️': [
         'Shopping Bags',
         ':shopping_bags:'
+    ],
+    '🛒': [
+        'Shopping Cart',
+        ':shopping_cart:',
+        'Shopping Trolley',
+        ':shopping_trolley:',
+        ':gray:',
+        ':grey:'
     ],
     '🎟️': [
         'Admission Tickets',
