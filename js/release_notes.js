@@ -127,6 +127,16 @@ function releaseNotes(release) {
             release_notes_text += "<li>New website of the add-on: https://emojiaddon.com <a href='https://www.emojiaddon.com/' class='button-release'>Visit the new website</a></li>";
             release_notes_text += "</ul>";
             break;
+
+        case "3.18.1":
+            release_notes_text = "<ul>";
+            release_notes_text += "<li>Improved the searching for some emojis</li>";
+            release_notes_text += "<li>Removed flags in the Settings > Language to be more inclusive</li>";
+            release_notes_text += "<li>Updated fonts (in particular, OpenMoji now works well!)</li>";
+            release_notes_text += "<li>Added some missing emojis</li>";
+            release_notes_text += "<li>If you need help, or you want to suggest anything, use the website: https://emojiaddon.com/help <a href='https://www.emojiaddon.com/help' class='button-release'>Go to the website</a></li>";
+            release_notes_text += "</ul>";
+            break;
     }
     return release_notes_text;
 }

@@ -131,12 +131,13 @@ emojis_language[lang][2] = {
     ],
     '😍': [
         'Cara sorridente com Coração-Eyes',
+        'love',
         ':smiling_heart-eyes:',
         ':smiling_heart_eyes:',
         ':*.*:',
-        'Olhos de Coração',
-        'Rosto de Coração',
-        'Cara sorridente com Olhos em forma de Coração'
+        'Heart Eyes',
+        'Heart Face',
+        'Smiling Face with Heart-Shaped Eyes'
     ],
     '🤩': [
         'Star-Struck',
@@ -150,22 +151,24 @@ emojis_language[lang][2] = {
     ],
     '😘': [
         'Rosto soprando um Beijo',
+        'love',
         ':kissing_face:',
         '::*:',
         '::-*:',
-        'Sopro Um Beijo',
-        'Beijo Brilhante',
-        'Beijos',
-        'Cara Arremessando um Beijo'
+        'Blow A Kiss',
+        'Blowing Kiss',
+        'Kissing',
+        'Face Throwing a Kiss'
     ],
     '😗': [
         'Cara de Beijo',
+        'kiss',
         ':kissing_face:',
         '::*:',
         '::-*:',
-        'Carinha Pato',
+        'Duck Face',
         'Kissy Face',
-        'Assovio'
+        'Whistling'
     ],
     '☺️': [
         'Cara de Sorriso',
@@ -279,12 +282,14 @@ emojis_language[lang][2] = {
     ],
     '🤐': [
         'CEP',
+        'silent',
+        'silence',
         ':zip_face:',
-        'Cara de Zipper-Boca',
-        'Lábios Selados',
-        'Lábios Selados',
-        'É Zip',
-        'Rosto com um Boco Zipper'
+        'Zipper-Mouth Face',
+        'Lips Sealed',
+        'Sealed Lips',
+        'Zip It',
+        'Face With a Zipper Mouth'
     ],
     '🤨': [
         'Face com sobrancelhas criadas',
@@ -393,15 +398,19 @@ emojis_language[lang][2] = {
     ],
     '🥱': [
         'Cara de Yawning',
+        'tired',
         ':yawning_face:'
     ],
     '😷': [
         'Cara com Máscara Médica',
+        'sick',
+        'doc',
         ':face_with_medical_mask:',
-        'Coronavírus',
+        'Coronavirus',
         'COVID-19',
-        'Rosto de Máscara',
-        'Máscara Cirúrgica'
+        'Mask Face',
+        'Surgical Mask',
+        'ill'
     ],
     '🤒': [
         'Rosto com Termômetro',
@@ -413,38 +422,47 @@ emojis_language[lang][2] = {
     ],
     '🤕': [
         'Rosto com Head-Bandage',
+        'hospital',
+        'sick',
         ':face_with_head-bandage:',
         ':face_with_head_bandage:',
-        'Cabeça Bandida',
-        'Desajeitado',
-        'Ferido'
+        'Bandaged Head',
+        'Clumsy',
+        'Injured',
+        'ill'
     ],
     '🤢': [
         'Rosto Nauseado',
+        'sick',
         ':nauseated_face:',
-        'Disgausa',
-        'Rosto Verde',
-        'Vômito',
-        ':green:'
+        'Disgust',
+        'Green Face',
+        'Vomit',
+        ':green:',
+        'ill'
     ],
     '🤮': [
         'Cara Vômito',
+        'sick',
         ':face_vomiting:',
-        'Oração',
+        'Spew',
         'Bleah',
         'Bleurgh',
         'Yuk',
-        'Caminhão',
-        'BR',
-        'Oração',
-        'Levantamento em Cima',
-        'Vômito',
-        'Rosto com Vômito Aberto'
+        'Yuck',
+        'Ew',
+        'Spew',
+        'Throwing Up',
+        'Vomit',
+        'Face with Open Mouth Vomiting',
+        'ill'
     ],
     '🤧': [
         'Face espirrante',
+        'sick',
         ':sneezing_face:',
-        'Gesundheit'
+        'Gesundheit',
+        'ill'
     ],
     '🥵': [
         'Cara Quente',
@@ -474,9 +492,10 @@ emojis_language[lang][2] = {
     ],
     '🤯': [
         'Explodindo Cabeça',
+        'boom',
         ':exploding_head:',
-        'Explosão Mental',
-        'Rosto Eletrificado com Cabeça Explosiva'
+        'Mind Blown',
+        'Shocked Face with Exploding Head'
     ],
     '🤠': [
         'Chapéu de Cowboy',
@@ -678,11 +697,12 @@ emojis_language[lang][2] = {
     ],
     '😡': [
         'Descartar o rosto',
+        'fuck',
         ':pouting_face:',
-        'Rosto Raivoso',
-        'Cara mal-humorada',
-        'Rosto Maluco',
-        'Rosto Vermelho',
+        'Angry Face',
+        'Grumpy Face',
+        'Mad Face',
+        'Red Face',
         ':red:'
     ],
     '😠': [
@@ -693,14 +713,15 @@ emojis_language[lang][2] = {
     ],
     '🤬': [
         'Camisa',
+        'fuck',
         ':swearing:',
         '@#$%&!',
-        'Rosto com símbolos no Boco',
-        'Maldição',
-        'Disfarça',
+        'Face with Symbols on Mouth',
+        'Cursing',
+        'Cussing',
         'Grawlix',
-        'Cara com Símbolos sobre Boca',
-        'Rosto sério com Símbolos Cobertura de Boca',
+        'Face With Symbols Over Mouth',
+        'Serious Face with Symbols Covering Mouth',
         ':red:'
     ],
     '🥲': [
@@ -716,6 +737,14 @@ emojis_language[lang][2] = {
         'Face com Olhos Espirais',
         ':face_with_spiral_eyes:',
         'Dizzy Face'
+    ],
+    '😶‍🌫️': [
+        'Face in Clouds',
+        'smoke',
+        ':face_in_clouds:',
+        'Brain Fog',
+        'Forgetful',
+        'Haze'
     ],
     '🥸': [
         'Cara disfarçada',
@@ -754,6 +783,7 @@ emojis_language[lang][2] = {
         'Presa na Face nas Lágrimas Dorsais',
         ':face_holding_back_tears:'
     ],
+    //"🫨": ["Shaking Face", ":shaking_face:"],
     '😈': [
         'Cara sorridente com chifres',
         ':smiling_face_with_horns:',
@@ -773,7 +803,7 @@ emojis_language[lang][2] = {
         'Goblin roxo',
         'Demônio Triste',
         'Imp',
-        ':roxo'
+        ':purple:'
     ],
     '🤡': [
         'Rosto de Palhaço',
@@ -2429,9 +2459,21 @@ emojis_language[lang][3] = {
     ],
     '🛌{{skin_tone}}': [
         'Acomodação Dormente',
+        'tired',
         ':sleeping_accommodation:',
-        'Pessoa na cama',
-        'Pessoa dormindo'
+        'Person in Bed',
+        'Person Sleeping'
+    ],
+    '🛀{{skin_tone}}': [
+        'Person Taking Bath',
+        'Bathing',
+        ':bath:',
+        ':person_taking_bath:',
+        'Hot Bath',
+        'Person Taking a Bath',
+        'Bath',
+        'Shower',
+        'Soap'
     ],
     '🧌': [
         'Troll',
@@ -3251,6 +3293,19 @@ emojis_language[lang][5] = {
         'Coração Quebrado',
         ':red:'
     ],
+    '❤️‍🩹': [
+        'Mending Heart',
+        ':mending_heart:',
+        'Bandaged Heart',
+        'Healing Heart',
+        'Unbroken Heart',
+        ':red:'
+    ],
+    '❤️‍🔥': [
+        'Heart on Fire',
+        ':heart_on_fire:',
+        ':red:'
+    ],
     '❤️': [
         'Eu amo você',
         ':red_heart:',
@@ -3312,6 +3367,9 @@ emojis_language[lang][5] = {
         'Eu amo você',
         ':brown:'
     ],
+    //"🩷": ["Pink Heart", ":pink_heart:", "I Love You", ":pink:"],
+    //"🩵": ["Light Blue Heart", ":lightblue_heart:", "I Love You", ":blue:"],
+    //"🩶": ["Grey Heart","Gray Heart", ":grey_heart:",":gray_heart:", "I Love You", ":gray:", ":grey:"],
     '💯': [
         'Pontos Cem',
         ':hundred_points:',
@@ -3767,6 +3825,7 @@ emojis_language[lang][5] = {
         'Seis Estrelas Encantadas com Ponto Médio',
         ':purple:'
     ],
+    //"🪯": ["Khanda", ":khanda:", "Sikhism", ":purple:"],
     '♈': [
         'Carneiro',
         ':aries:',
@@ -4627,6 +4686,7 @@ emojis_language[lang][5] = {
         'Controle de Borda',
         ':blue:'
     ],
+    //"🛜": ["Wireless", ":wireless:", ":wifi:", ":wi_fi:", "Wifi", "wi-fi", "wireless connection", ":blue:"],
     '🚰': [
         'Símbolo de água potable',
         ':potable_water_symbol:',
@@ -10257,6 +10317,9 @@ emojis_language[lang][13] = {
         'Calma',
         'Serenidade'
     ],
+    //"🪻": ["Hyacinth", ":hyacinth:", "Purple flower", ":purple:"],
+    //"🫛": ["Pea Pod", ":pea_pod:", ":green:"],
+    //"🫚": ["Ginger root", ":ginger:", "Spice", "Flavour", ":brown:"],
     '🔑': [
         'Chave',
         ':key:',
@@ -10283,7 +10346,8 @@ emojis_language[lang][13] = {
     ],
     '🪓': [
         'Machado',
-        ':axe:'
+        ':axe:',
+        'firefighter'
     ],
     '🪚': [
         'Serra de Carpintaria',
@@ -10388,7 +10452,10 @@ emojis_language[lang][13] = {
         'Doação de Sangue',
         'Teste de sangue',
         'Agulha',
-        'Vacinação'
+        'Vacinação',
+        'blood',
+        'sick',
+        'ill'
     ],
     '🧬': [
         'DNA',
@@ -10440,17 +10507,20 @@ emojis_language[lang][13] = {
         'Banheiro',
         'Loo',
         'Banheiro',
-        'Banheiro'
+        'Banheiro',
+        ':white:'
     ],
     '🚿': [
         'Chuveiro',
         ':shower:',
-        'Cabeça de Chuva'
+        'Cabeça de Chuva',
+        ':shower:'
     ],
     '🛁': [
         'Banheira',
         ':bathtub:',
-        'Banda de Bolha'
+        'Banda de Bolha',
+        ':shower:'
     ],
     '🧴': [
         'Garrafa de Loção',
@@ -10740,7 +10810,8 @@ emojis_language[lang][13] = {
     ],
     '💣': [
         'Bomba',
-        ':bomb:'
+        ':bomb:',
+        'boom'
     ],
     '🔪': [
         'Faca da cozinha',
@@ -11099,12 +11170,19 @@ emojis_language[lang][13] = {
         'Bolha de fala raivosa',
         ':white:'
     ],
+    '🗨️': [
+        'Left Speech Bubble',
+        ':left_speech_bubble:',
+        ':speech_left:'
+    ],
     '💊': [
         'Pill',
         ':pill:',
         'Cápsula',
         'Tábua',
         'Drogas',
+        'Sick',
+        'ill',
         ':yellow:',
         ':red:'
     ],
@@ -11232,6 +11310,14 @@ emojis_language[lang][13] = {
     '🛍️': [
         'Sacos de Compras',
         ':shopping_bags:'
+    ],
+    '🛒': [
+        'Shopping Cart',
+        ':shopping_cart:',
+        'Shopping Trolley',
+        ':shopping_trolley:',
+        ':gray:',
+        ':grey:'
     ],
     '🎟️': [
         'Tickets de Admissão',
