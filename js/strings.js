@@ -53,6 +53,7 @@ settings_strings[lang]["label-insert-emoji"] = "Also insert directly the emoji";
 settings_strings[lang]["button-save"] = "Save";
 settings_strings[lang]["button-reset-settings"] = "Reset settings";
 settings_strings[lang]["button-clear-all-data"] = "Clear all data";
+settings_strings[lang]["confirmation-clear-all-data"] = "Are you sure you want to clear all data? You won't be able to cancel once started!";
 settings_strings[lang]["button-need-help"] = "I need help";
 settings_strings[lang]["button-paypal"] = "☕ PayPal";
 settings_strings[lang]["button-liberapay"] = "☕ LiberaPay";

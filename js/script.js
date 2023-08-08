@@ -1,6 +1,8 @@
 var titles = {};
 var emojis = [];
 
+var some_translated_strings = {};
+
 var selectedTitle = 1;
 var char_copied_n = 0;
 
@@ -478,11 +480,13 @@ function setPopUpUI() {
         focusSearchBox();
     }
     document.getElementById("clear-data-settings").onclick = function () {
-        clearAllData();
-        generateTitles(false);
-        generateMostUsedEmojis();
-        hideElement("settings-section");
-        focusSearchBox();
+        if (confirm(some_translated_strings["confirmation-clear-all-data"]) === true) {
+            clearAllData();
+            generateTitles(false);
+            generateMostUsedEmojis();
+            hideElement("settings-section");
+            focusSearchBox();
+        }
     }
     document.getElementById("save-data-settings").onclick = function () {
         saveSettings();
@@ -1816,6 +1820,7 @@ function setLanguageUI() {
     document.getElementById("save-data-settings").value = strings["settings"]["button-save"];
     document.getElementById("reset-data-settings").value = strings["settings"]["button-reset-settings"];
     document.getElementById("clear-data-settings").value = strings["settings"]["button-clear-all-data"];
+    some_translated_strings["confirmation-clear-all-data"] = strings["settings"]["confirmation-clear-all-data"];
     document.getElementById("need-help-settings").value = strings["settings"]["button-need-help"];
     document.getElementById("donate-paypal-settings").value = strings["settings"]["button-paypal"];
     document.getElementById("donate-liberapay-settings").value = strings["settings"]["button-liberapay"];
