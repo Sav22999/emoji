@@ -491,6 +491,12 @@ function setPopUpUI() {
     document.getElementById("save-data-settings").onclick = function () {
         saveSettings();
     }
+    document.getElementById("import-data-settings").onclick = function () {
+        importSettings();
+    }
+    document.getElementById("export-data-settings").onclick = function () {
+        exportSettings();
+    }
     document.getElementById("reset-data-settings").onclick = function () {
         resetSettings();
     }
@@ -1283,7 +1289,15 @@ function generateOptionsSelectSettings(min, max, selected, element) {
 }
 
 function resetSettings() {
-    saveSettings(true);
+    if (confirm(some_translated_strings["confirmation-reset-settings"]) === true) saveSettings(true);
+}
+
+function importSettings() {
+
+}
+
+function exportSettings() {
+
 }
 
 function saveSettings(reset = false) {
@@ -1492,6 +1506,8 @@ function setTheme() {
     removeThemeClassId("rows-selected", "-select");
     removeThemeClassId("emojis-size-selected", "-select");
     removeThemeClassId("save-data-settings", "-btn-settings-button");
+    removeThemeClassId("import-data-settings", "-btn-settings-button");
+    removeThemeClassId("export-data-settings", "-btn-settings-button");
     removeThemeClassId("reset-data-settings", "-btn-settings-button");
     removeThemeClassId("close-popup-after-copied-selected", "-select");
     removeThemeClassId("multi-copy-selected", "-select");
@@ -1529,6 +1545,8 @@ function setTheme() {
     document.getElementById("font-family-selected").classList.add(theme + "-select");
     document.getElementById("extension-icon-selected").classList.add(theme + "-select");
     document.getElementById("save-data-settings").classList.add(theme + "-btn-settings-button");
+    document.getElementById("import-data-settings").classList.add(theme + "-btn-settings-button");
+    document.getElementById("export-data-settings").classList.add(theme + "-btn-settings-button");
     document.getElementById("reset-data-settings").classList.add(theme + "-btn-settings-button");
     document.getElementById("donate-paypal-settings").classList.add(theme + "-btn-settings-button");
     document.getElementById("donate-liberapay-settings").classList.add(theme + "-btn-settings-button");
@@ -1549,9 +1567,6 @@ function setTheme() {
         removeThemeClassClass("subsection-settings", n, "-subsection-settings");
         document.getElementsByClassName("subsection-settings")[n].classList.add(theme + "-subsection-settings");
     }
-
-    document.getElementById("save-data-settings").classList.add(theme + "-save-data-settings-button");
-    document.getElementById("reset-data-settings").classList.add(theme + "-reset-data-settings-button");
 }
 
 function removeThemeClassId(id_to_use, details_to_use = "") {
@@ -1818,7 +1833,11 @@ function setLanguageUI() {
     document.getElementById("insert-emoji-yes").textContent = strings["settings"]["button-yes"];
     document.getElementById("insert-emoji-no").textContent = strings["settings"]["button-no"];
     document.getElementById("save-data-settings").value = strings["settings"]["button-save"];
+    document.getElementById("import-data-settings").value = strings["settings"]["button-import-settings"];
+    some_translated_strings["confirmation-import-settings"] = strings["settings"]["confirmation-import-settings"];
+    document.getElementById("export-data-settings").value = strings["settings"]["button-export-settings"];
     document.getElementById("reset-data-settings").value = strings["settings"]["button-reset-settings"];
+    some_translated_strings["confirmation-reset-settings"] = strings["settings"]["confirmation-reset-settings"];
     document.getElementById("clear-data-settings").value = strings["settings"]["button-clear-all-data"];
     some_translated_strings["confirmation-clear-all-data"] = strings["settings"]["confirmation-clear-all-data"];
     document.getElementById("need-help-settings").value = strings["settings"]["button-need-help"];

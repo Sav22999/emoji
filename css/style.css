@@ -637,6 +637,11 @@ div {
     font-family: open-sans, sans-serif;
 }
 
+.border-top {
+    border-top: 1px solid #3399ff;
+    padding: 10px;
+}
+
 .text-in-settings {
     padding: 5px;
     border: 0px solid transparent;
@@ -670,10 +675,6 @@ div {
     font-style: italic;
     font-weight: bold;
     position: relative;
-}
-
-#subsection-settings-bottom {
-    text-align: right;
 }
 
 .select {
