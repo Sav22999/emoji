@@ -220,7 +220,7 @@ body {
 }
 
 
-.character-copied, div#review-message, div#opened-addon-message {
+.character-copied, div#review-message, div#opened-addon-message, div#emojis-copied-since-install-message {
     position: fixed;
     bottom: 3px;
     right: 30%;
@@ -424,7 +424,7 @@ div#top-message {
     margin-top: 20px;
 }
 
-div#review-message, div#opened-addon-message {
+div#review-message, div#opened-addon-message, div#emojis-copied-since-install-message {
     top: 5px;
     bottom: auto;
     left: 5px;
