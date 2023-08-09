@@ -9,6 +9,9 @@ if (browserOrChromeIndex === 0) {
     browserAgentSettings = chrome;
 }
 
+var language = "en";
+var emojis;
+
 function loaded() {
     let jsonSettings = {};
 
@@ -58,48 +61,31 @@ async function injectContentScript(file) {
 }
 
 function setAddressBarSearch() {
-    browserAgentSettings.omnibox.setDefaultSuggestion({
-        description: browserAgentSettings.runtime.getManifest().description,
-    });
-
-    browserAgentSettings.omnibox.onInputStarted.addListener(handleSuggestion);
     browserAgentSettings.omnibox.onInputChanged.addListener(handleSuggestion);
-    browserAgentSettings.omnibox.onInputEntered.addListener(function (emoji) {
-        console.log("You selected: " + emoji);
+    browserAgentSettings.omnibox.onInputEntered.addListener(function (text) {
+        searchEmoji(text);
     });
-
-    /*browserAgentSettings.tabs.query({active: true, currentWindow: true}, function (tabs) {
-        const activeTab = tabs[0];
-        browserAgentSettings.tabs.sendMessage(activeTab.id, {
-            action: "search_background",
-            data: "Some data from background"
-        }, function (response) {
-            console.log("Received response from content script:", JSON.stringify(response));
-        });
-    });*/
 }
 
 function handleSuggestion(text, suggest) {
-    /*if (text != undefined && text.length > 0) {
-        const suggestion = {
-            content: "Content", //the emoji to copy
-            description: text, //the searching (keywords)
-        };
-
-        //generate suggestion with results
-        suggest([suggestion]);
-        suggest([suggestion]);
+    let textToUse = text;
+    if (textToUse !== undefined && textToUse.length > 0) {
+        //digited something
     } else {
         //no search
-    }*/
+        textToUse = "Search any emojis, just digit something and then press enter!";
+    }
+    const suggestion = {
+        content: "Search any emojis, just digit something and then press enter!", //the emoji to copy
+        description: textToUse, //the searching (keywords)
+    };
+    //browserAgentSettings.omnibox.setDefaultSuggestion(suggestion);
+    if (suggest != undefined) suggest([suggestion]);
 }
 
-function copyEmoji(emoji) {
-    //send request to script.js (because it has to increment "most used" as well)
-}
-
-function searchEmoji(text) {
-    //send request to script.js
+function searchEmoji(value) {
+    browserAgentSettings.storage.local.set({"open_type": "search_omnibox", "other_params": {"search_keywords": value}});
+    browserAgentSettings.browserAction.openPopup();
 }
 
 loaded();

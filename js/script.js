@@ -116,7 +116,6 @@ const deleteButtonElement = document.getElementById("delete-button");
 setLanguageFile();
 loadSettings(true);
 generateTitles();
-onMessage();
 
 function loaded() {
     searchBarInputElement.onkeyup = function (e) {
@@ -158,17 +157,6 @@ function loaded() {
 
     let shortcuts = browserAgentSettings.commands.getAll();
     shortcuts.then(getCurrentShortcuts);
-}
-
-function onMessage() {
-    /*
-    browserAgentSettings.runtime.onMessage.addListener(function (request, sender, sendResponse) {
-        if (request.action === "search_background") {
-            //let emojis = searchEmoji(request.data);
-            console.log("Received request!");
-            sendResponse({result: {"search_background": searchEmoji(request.data)}});
-        }
-    });*/
 }
 
 function getCurrentShortcuts(commands) {
