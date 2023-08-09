@@ -21,6 +21,8 @@ function loaded() {
         if (extension_icon_selected === undefined) extension_icon_selected = 0;
         setExtensionIcon("../img/extension-icons/" + extension_icons[extension_icon_selected] + ".png");
     });
+
+    setAddressBarSearch();
 }
 
 function setExtensionIcon(url) {
@@ -53,6 +55,51 @@ browserAgentSettings.runtime.onMessage.addListener((request) => {
 
 async function injectContentScript(file) {
     return await browserAgentSettings.tabs.executeScript({file: file, allFrames: true});
+}
+
+function setAddressBarSearch() {
+    browserAgentSettings.omnibox.setDefaultSuggestion({
+        description: browserAgentSettings.runtime.getManifest().description,
+    });
+
+    browserAgentSettings.omnibox.onInputStarted.addListener(handleSuggestion);
+    browserAgentSettings.omnibox.onInputChanged.addListener(handleSuggestion);
+    browserAgentSettings.omnibox.onInputEntered.addListener(function (emoji) {
+        console.log("You selected: " + emoji);
+    });
+
+    /*browserAgentSettings.tabs.query({active: true, currentWindow: true}, function (tabs) {
+        const activeTab = tabs[0];
+        browserAgentSettings.tabs.sendMessage(activeTab.id, {
+            action: "search_background",
+            data: "Some data from background"
+        }, function (response) {
+            console.log("Received response from content script:", JSON.stringify(response));
+        });
+    });*/
+}
+
+function handleSuggestion(text, suggest) {
+    /*if (text != undefined && text.length > 0) {
+        const suggestion = {
+            content: "Content", //the emoji to copy
+            description: text, //the searching (keywords)
+        };
+
+        //generate suggestion with results
+        suggest([suggestion]);
+        suggest([suggestion]);
+    } else {
+        //no search
+    }*/
+}
+
+function copyEmoji(emoji) {
+    //send request to script.js (because it has to increment "most used" as well)
+}
+
+function searchEmoji(text) {
+    //send request to script.js
 }
 
 loaded();
