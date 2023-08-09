@@ -143,6 +143,7 @@ function releaseNotes(release) {
             release_notes_text = "<ul>";
             release_notes_text += "<li>Some new improvements</li>";
             release_notes_text += "<li>New: import and export settings when change</li>";
+            release_notes_text += "<li>Fixed some bugs</li>";
             release_notes_text += "</ul>";
             break;*/
     }
