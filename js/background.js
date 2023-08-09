@@ -24,8 +24,6 @@ function loaded() {
         if (extension_icon_selected === undefined) extension_icon_selected = 0;
         setExtensionIcon("../img/extension-icons/" + extension_icons[extension_icon_selected] + ".png");
     });
-
-    setAddressBarSearch();
 }
 
 function setExtensionIcon(url) {
@@ -58,34 +56,6 @@ browserAgentSettings.runtime.onMessage.addListener((request) => {
 
 async function injectContentScript(file) {
     return await browserAgentSettings.tabs.executeScript({file: file, allFrames: true});
-}
-
-function setAddressBarSearch() {
-    browserAgentSettings.omnibox.onInputChanged.addListener(handleSuggestion);
-    browserAgentSettings.omnibox.onInputEntered.addListener(function (text) {
-        searchEmoji(text);
-    });
-}
-
-function handleSuggestion(text, suggest) {
-    let textToUse = text;
-    if (textToUse !== undefined && textToUse.length > 0) {
-        //digited something
-    } else {
-        //no search
-        textToUse = "Search any emojis, just digit something and then press enter!";
-    }
-    const suggestion = {
-        content: "Search any emojis, just digit something and then press enter!", //the emoji to copy
-        description: textToUse, //the searching (keywords)
-    };
-    //browserAgentSettings.omnibox.setDefaultSuggestion(suggestion);
-    if (suggest != undefined) suggest([suggestion]);
-}
-
-function searchEmoji(value) {
-    browserAgentSettings.storage.local.set({"open_type": "search_omnibox", "other_params": {"search_keywords": value}});
-    browserAgentSettings.browserAction.openPopup();
 }
 
 loaded();

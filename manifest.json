@@ -17,9 +17,6 @@
       }
     }
   },
-  "omnibox": {
-    "keyword": "emoji"
-  },
   "browser_specific_settings": {
     "gecko": {
       "id": "emoji@saveriomorelli.com",
