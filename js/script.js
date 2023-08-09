@@ -149,7 +149,8 @@ function getCurrentShortcuts(commands) {
     });
 }
 
-function updateShortcut() {
+function updateShortcut(shortcut = null) {
+    if (shortcut !== null) currentShortcut = shortcut;
     const commandName = '_execute_browser_action';
     browserAgentSettings.commands.update({
         name: commandName, shortcut: currentShortcut
@@ -227,13 +228,13 @@ function onError(error) {
     console.error(`Error: ${error}`);
 }
 
-function addToMostUsedCopyEmoji(nameOfSetting, text, tooltip) {
+function addToMostUsedCopyEmoji(nameOfSetting, emoji, tooltip) {
     browserAgentSettings.storage.sync.get(nameOfSetting, function (value) {
         if (value[nameOfSetting] != undefined) {
             //already exist, so set the array at saved status
             mostUsedEmojis = value[nameOfSetting];
         }
-        addToMostUsed(text, tooltip);
+        addToMostUsed(emoji, tooltip);
         getMostUsedEmojisLength(selectedTitle);
     });
 }
@@ -261,8 +262,8 @@ function getMostUsedEmojisLength(titleToSet) {
     return generateMostUsedEmojis(generateEmojiBool);
 }
 
-function addToMostUsed(emoji, tooltip) {
-    let emojiToAdd = {"emoji": emoji, "occurrences": 1, "tooltip": tooltip};
+function addToMostUsed(emoji, tooltip, occurrences = 1) {
+    let emojiToAdd = {"emoji": emoji, "occurrences": occurrences, "tooltip": tooltip};
     let indexToUse = -1; // -1: not in the JSON
     for (let tempIndex = 0; tempIndex < mostUsedEmojis.length && indexToUse == -1; tempIndex++) {
         if (mostUsedEmojis[tempIndex].emoji == emoji) {
@@ -1029,6 +1030,7 @@ function showCopiedEmojisMessage(numberEmojisCopied) {
 
 function showMessageTop(text, releaseNotes = true) {
     if (document.getElementById("top-message")) document.getElementById("top-message").remove();
+    if (document.getElementById("background-opacity-top")) document.getElementById("background-opacity-top").remove();
     let message_element = document.createElement("div");
     message_element.id = "top-message";
     let text_to_use = text;
@@ -1312,12 +1314,8 @@ function resetSettings() {
 }
 
 function importSettings() {
-    // "addon_info" are useful only to check compatibility (notify incompatibility between different browsers)
-    //{ addon_info: {name: -, version: -, store_edition: -, os: -, browser_version: -, browser_name: -, developer: -, manifest_version: -, exported_date : { day: -, month: -, year: - } },
-    //  settings: {"theme": -,"columns": -,"rows": -,"size": -,"font": -,"auto_close": -,"skin_tone": -,"multi_copy": -,"extension_icon": -,"language": -,"space_emoji": -,"insert_directly_emoji":1-,"keyboard_shortcut": -}
-    // "most_used_emojis":[{"emoji": -,"occurrences": -,"tooltip": -},
-
     if (document.getElementById("import-message")) document.getElementById("import-message").remove();
+    if (document.getElementById("background-opacity-import")) document.getElementById("background-opacity-import").remove();
 
     let message_element = document.createElement("div");
     message_element.id = "import-message";
@@ -1332,20 +1330,38 @@ function importSettings() {
 
     let button_import = document.createElement("button");
     button_import.onclick = function () {
+        // "addon_info" are useful only to check compatibility (notify incompatibility between different browsers)
         if (confirm(some_translated_strings["confirmation-import-settings"]) === true) {
             let error = false;
             let messageToAdd = "";
             try {
+                //{ addon_info: {name: -, version: -, store_edition: -, os: -, browser_version: -, browser_name: -, developer: -, manifest_version: -, exported_date : { day: -, month: -, year: - } },
+                //  settings: {"theme": -,"columns": -,"rows": -,"size": -,"font": -,"auto_close": -,"skin_tone": -,"multi_copy": -,"extension_icon": -,"language": -,"space_emoji": -,"insert_directly_emoji": -,"keyboard_shortcut": -}
+                // "most_used_emojis":[{"emoji": -,"occurrences": -,"tooltip": -}, -]
+
                 let jsonToCheck = JSON.parse(document.getElementById("json-import").value);
                 json_is_correct = true;
 
-                //TODO: check the JSON is correct or not
+                if (jsonToCheck["settings"] === undefined) {
+                    error = "true";
+                    messageToAdd += "<br>JSON error: settings not defined";
+                }
+
+                for (let i = 0; i < jsonToCheck["most_used_emojis"].length; i++) {
+                    if (jsonToCheck["most_used_emojis"][i].emoji === undefined || jsonToCheck["most_used_emojis"][i].occurrences === undefined || jsonToCheck["most_used_emojis"][i].tooltip === undefined) {
+                        error = true;
+                        messageToAdd += "<br>JSON error: most_used_emojis in a wrong form";
+                    }
+                }
 
                 if (json_is_correct) {
                     //Checked the JSON and it's correct
                     saveSettings(false, jsonToCheck["settings"]);
 
-                    mostUsedEmojis = jsonToCheck["most_used_emojis"];
+                    //mostUsedEmojis = jsonToCheck["most_used_emojis"];
+                    for (let i = 0; i < jsonToCheck["most_used_emojis"].length; i++) {
+                        addToMostUsed(jsonToCheck["most_used_emojis"][i].emoji, jsonToCheck["most_used_emojis"][i].tooltip, jsonToCheck["most_used_emojis"][i].occurrences)
+                    }
 
                     hideImportSettings();
 
@@ -1354,11 +1370,11 @@ function importSettings() {
                     setPopUpUI();
                 } else {
                     error = true;
-                    messageToAdd = "";
+                    messageToAdd += "";
                 }
             } catch (e) {
                 error = true;
-                messageToAdd = "<br><br>" + e.toString();
+                messageToAdd += "<br><br>" + e.toString();
             }
             if (error) {
                 showMessageTop(some_translated_strings["error-importing"] + messageToAdd, false); //error occurred
@@ -1402,6 +1418,7 @@ function exportSettings() {
     jsonToExport["most_used_emojis"] = mostUsedEmojis;
 
     if (document.getElementById("export-message")) document.getElementById("export-message").remove();
+    if (document.getElementById("background-opacity-export")) document.getElementById("background-opacity-export").remove();
 
     let message_element = document.createElement("div");
     message_element.id = "export-message";
@@ -1465,6 +1482,52 @@ function saveSettings(reset = false, jsonToUse = null) {
     let language = document.getElementById("language-selected").value;
     let spaceEmoji = document.getElementById("space-emoji-selected").selectedIndex;
     let alsoInsertEmoji = document.getElementById("insert-emoji-selected").selectedIndex;
+    let keyboardShortcut = currentShortcut;
+
+    if (jsonToUse != null) {
+        //TODO: set manually previous values with the new ones
+
+        if (jsonToUse["theme"] === undefined) theme = 0;
+        else theme = jsonToUse["theme"];
+
+        if (jsonToUse["columns"] === undefined) columns = 2;
+        else columns = jsonToUse["columns"];
+
+        if (jsonToUse["rows"] === undefined) rows = 2;
+        else rows = jsonToUse["rows"];
+
+        if (jsonToUse["size"] === undefined) emojisSize = 2;
+        else emojisSize = jsonToUse["size"];
+
+        if (jsonToUse["font"] === undefined) fontFamily = 0;
+        else fontFamily = jsonToUse["font"];
+
+        if (jsonToUse["auto_close"] === undefined) autoClosePopup = 1;
+        else autoClosePopup = jsonToUse["auto_close"];
+
+        if (jsonToUse["skin_tone"] === undefined) skinTone = 0;
+        else skinTone = jsonToUse["skin_tone"];
+
+        if (jsonToUse["multi_copy"] === undefined) multiCopy = 1;
+        else multiCopy = jsonToUse["multi_copy"];
+
+        if (jsonToUse["extension_icon"] === undefined) extensionIcon = 0;
+        else extensionIcon = jsonToUse["extension_icon"];
+
+        if (jsonToUse["language"] === undefined) language = 0;
+        else language = jsonToUse["language"];
+
+        if (jsonToUse["space_emoji"] === undefined) spaceEmoji = 0;
+        else spaceEmoji = jsonToUse["space_emoji"];
+
+        if (jsonToUse["insert_directly_emoji"] === undefined) alsoInsertEmoji = 0;
+        else alsoInsertEmoji = jsonToUse["insert_directly_emoji"];
+
+        if (jsonToUse["keyboard_shortcut"] === undefined) keyboardShortcut = "Ctrl+Alt+A";
+        else keyboardShortcut = jsonToUse["keyboard_shortcut"];
+
+        updateShortcut(keyboardShortcut);
+    }
 
     jsonSettings = {
         "theme": theme,
@@ -1479,14 +1542,10 @@ function saveSettings(reset = false, jsonToUse = null) {
         "language": language,
         "space_emoji": spaceEmoji,
         "insert_directly_emoji": alsoInsertEmoji,
-        "keyboard_shortcut": currentShortcut,
+        "keyboard_shortcut": keyboardShortcut,
     };
     if (reset) {
         jsonSettings = jsonSettingsDefaultValue;
-    }
-
-    if (jsonToUse != null) {
-        jsonSettings = jsonToUse;
     }
 
     browserAgentSettings.storage.sync.set({"settings": jsonSettings}, function () {
@@ -1558,8 +1617,9 @@ function loadSettings(resize_popup_ui = false, focus_search_box = false) {
             let ctrlAltShiftShortcut = jsonSettings.keyboard_shortcut.substring(0, jsonSettings.keyboard_shortcut.length - 2);
             keyboardShortcutLetterNumber.value = letterNumberShortcut;
             keyboardShortcutCtrlAltShift.value = ctrlAltShiftShortcut;
+            currentShortcut = ctrlAltShiftShortcut + "+" + letterNumberShortcut;
+            updateShortcut(currentShortcut);
         }
-
 
         let languagesTemp = [];
         for (let item in supported_languages) {
