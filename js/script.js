@@ -119,11 +119,27 @@ generateTitles();
 
 function loaded() {
     searchBarInputElement.onkeyup = function (e) {
-        searchEmoji(searchBarInputElement.value);
+        let emojisToGenerate = searchEmoji(searchBarInputElement.value);
+        //console.log(emojisToGenerate);
+        if (emojisToGenerate === -1) {
+            //No keyboard passed
+            if (selectedTitle === 0) {
+                if (getValueToCheck(getValueToUse(searchBarInputElement.value)).length === 0) generateTitles(false); //clear searchbox
+                else generateTitles(false, 1, false); //don't clear searchbox
+            }
+        } else {
+            if (Object.keys(emojisToGenerate).length === 0) {
+                //No emojis found
+                emojisElement.innerHTML = "<div id='no_emojis_found'>" + strings["other"]["label-no-emojis-found"].replaceAll("{{properties}}", "class='font-" + font_family + " margin-right-10 font-size-25'") + "</div>";
+            } else if (Object.keys(emojisToGenerate).length > 0) {
+                //Emojis found: generate results
+                generateTitles(true, 0);
+            }
+        }
         number_of_emojis_generations = 0;
     }
     searchBarInputElement.onkeydown = function (e) {
-        if (e.key == "Enter") {
+        if (e.key === "Enter") {
             number_of_emojis_generations = 5;
         }
     }
@@ -1186,16 +1202,30 @@ function hideCopiedEmojisMessage() {
     hideElement("background-opacity-emojis-copied-since-install");
 }
 
+function getValueToUse(valuePassed) {
+    return valuePassed.toLowerCase().replace(".", "").replace("’", "'").replace("“", "\"").replace("”", "\"");
+}
+
+function getValueToCheck(valuePassed) {
+    return valuePassed.replace(/\s/ig, "");
+}
+
+/**
+ * Search emoji by keyword
+ * @param value the keyboard, gender, colour, etc.
+ * @returns {*} returns the emojis to show based on the value passed
+ */
 function searchEmoji(value) {
+    let emojisFound = {};
     all_emojis[0] = {};
     let n_results = 0;
     let max_results = (max_rows * max_columns) * 3;
-    let valueToUse = value.toLowerCase().replace(".", "").replace("’", "'").replace("“", "\"").replace("”", "\"");
-    let valueToCheck = valueToUse.replace(/\s/ig, "");
+    let valueToUse = getValueToUse(value);
+    let valueToCheck = getValueToCheck(valueToUse);
     if (valueToCheck.length > 1) {
         if (valueToCheck === "saverio" || valueToCheck === "sav22999") {
             //easter egg
-            //show S A V E R I O
+            //show 🔸 S A V E R I O 🔹
             easter_egg_emojis = ["🔸", "🇸", "🇦", "🇻", "🇪", "🇷", "🇮", "🇴", "🔹"];
             title = 5; //TODO: this index is fixed manually, and it's the "symbols" section
             for (let index in easter_egg_emojis) {
@@ -1235,16 +1265,20 @@ function searchEmoji(value) {
                 all_emojis[0][item] = tmp_all_emojis_similar[item];
             }
         }
-        generateTitles(true, 0);
+        //generateTitles(true, 0);
+        emojisFound = all_emojis[0];
         if (n_results == 0) {
-            emojisElement.innerHTML = "<div id='no_emojis_found'>" + strings["other"]["label-no-emojis-found"].replaceAll("{{properties}}", "class='font-" + font_family + " margin-right-10 font-size-25'") + "</div>";
+            emojisFound = 0;
+            //emojisElement.innerHTML = "<div id='no_emojis_found'>" + strings["other"]["label-no-emojis-found"].replaceAll("{{properties}}", "class='font-" + font_family + " margin-right-10 font-size-25'") + "</div>";
         }
     } else {
         if (this.selectedTitle == 0) {
-            if (valueToCheck.length == 0) generateTitles(false); //clear searchbox
-            else generateTitles(false, 1, false); //don't clear searchbox
+            //if (valueToCheck.length == 0) generateTitles(false); //clear searchbox
+            //else generateTitles(false, 1, false); //don't clear searchbox
         }
+        emojisFound = -1;
     }
+    return emojisFound;
 }
 
 function showSettings() {
