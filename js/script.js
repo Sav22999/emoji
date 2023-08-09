@@ -1312,7 +1312,74 @@ function resetSettings() {
 }
 
 function importSettings() {
+    // "addon_info" are useful only to check compatibility (notify incompatibility between different browsers)
+    //{ addon_info: {name: -, version: -, store_edition: -, os: -, browser_version: -, browser_name: -, developer: -, manifest_version: -, exported_date : { day: -, month: -, year: - } },
+    //  settings: {"theme": -,"columns": -,"rows": -,"size": -,"font": -,"auto_close": -,"skin_tone": -,"multi_copy": -,"extension_icon": -,"language": -,"space_emoji": -,"insert_directly_emoji":1-,"keyboard_shortcut": -}
+    // "most_used_emojis":[{"emoji": -,"occurrences": -,"tooltip": -},
 
+    if (document.getElementById("import-message")) document.getElementById("import-message").remove();
+
+    let message_element = document.createElement("div");
+    message_element.id = "import-message";
+    message_element.innerHTML = "<div id='title-export-message' class='title-message'>" + some_translated_strings["title-import-settings"] + "</div> <textarea class='import-export-textarea textarea-" + theme + "' id='json-import'></textarea> <br>";
+    let buttons = document.createElement("div");
+    buttons.className = "message-buttons-container";
+
+    let background_opacity = document.createElement("div");
+    background_opacity.className = "background-opacity";
+    background_opacity.id = "background-opacity-import";
+    document.getElementById("popup-content").append(background_opacity);
+
+    let button_import = document.createElement("button");
+    button_import.onclick = function () {
+        if (confirm(some_translated_strings["confirmation-import-settings"]) === true) {
+            let error = false;
+            let messageToAdd = "";
+            try {
+                let jsonToCheck = JSON.parse(document.getElementById("json-import").value);
+                json_is_correct = true;
+
+                //TODO: check the JSON is correct or not
+
+                if (json_is_correct) {
+                    //Checked the JSON and it's correct
+                    saveSettings(false, jsonToCheck["settings"]);
+
+                    mostUsedEmojis = jsonToCheck["most_used_emojis"];
+
+                    hideImportSettings();
+
+                    showMessageTop(some_translated_strings["data-imported"], false); //correctly imported
+                    loadSettings(true, false);
+                    setPopUpUI();
+                } else {
+                    error = true;
+                    messageToAdd = "";
+                }
+            } catch (e) {
+                error = true;
+                messageToAdd = "<br><br>" + e.toString();
+            }
+            if (error) {
+                showMessageTop(some_translated_strings["error-importing"] + messageToAdd, false); //error occurred
+            }
+        }
+    };
+    button_import.className = "message-button";
+    button_import.textContent = some_translated_strings["button-importing-import-settings"];
+
+    let button_cancel = document.createElement("button");
+    button_cancel.onclick = function () {
+        hideImportSettings();
+    };
+    button_cancel.className = "message-button";
+    button_cancel.textContent = some_translated_strings["button-cancel-hide"];
+
+    buttons.append(button_cancel);
+    buttons.append(button_import);
+
+    message_element.append(buttons)
+    document.getElementById("popup-content").append(message_element);
 }
 
 function exportSettings() {
@@ -1328,9 +1395,7 @@ function exportSettings() {
     jsonToExport["addon_info"]["manifest_version"] = manifestVersion;
     const currentDate = new Date();
     let exported_date_json = {
-        "day": currentDate.getDate(),
-        "month": currentDate.getMonth() + 1,
-        "year": currentDate.getFullYear()
+        "day": currentDate.getDate(), "month": currentDate.getMonth() + 1, "year": currentDate.getFullYear()
     };
     jsonToExport["addon_info"]["exported_date"] = exported_date_json;
     jsonToExport["settings"] = current_json_settings;
@@ -1340,7 +1405,7 @@ function exportSettings() {
 
     let message_element = document.createElement("div");
     message_element.id = "export-message";
-    message_element.innerHTML = "<div id='title-export-message' class='title-message'>Export data</div> <textarea class='import-export-textarea textarea-" + theme + "' id='json-export'>" + JSON.stringify(jsonToExport) + "</textarea> <br>";
+    message_element.innerHTML = "<div id='title-export-message' class='title-message'>" + some_translated_strings["title-export-settings"] + "</div> <textarea class='import-export-textarea textarea-" + theme + "' id='json-export'>" + JSON.stringify(jsonToExport) + "</textarea> <br>";
     let buttons = document.createElement("div");
     buttons.className = "message-buttons-container";
 
@@ -1386,7 +1451,8 @@ function hideImportSettings() {
     hideElement("background-opacity-import");
 }
 
-function saveSettings(reset = false) {
+function saveSettings(reset = false, jsonToUse = null) {
+    let jsonSettings = {};
     let theme = document.getElementById("theme-selected").selectedIndex;
     let columns = document.getElementById("columns-selected").selectedIndex;
     let rows = document.getElementById("rows-selected").selectedIndex;
@@ -1400,7 +1466,7 @@ function saveSettings(reset = false) {
     let spaceEmoji = document.getElementById("space-emoji-selected").selectedIndex;
     let alsoInsertEmoji = document.getElementById("insert-emoji-selected").selectedIndex;
 
-    let jsonSettings = {
+    jsonSettings = {
         "theme": theme,
         "columns": columns,
         "rows": rows,
@@ -1418,6 +1484,11 @@ function saveSettings(reset = false) {
     if (reset) {
         jsonSettings = jsonSettingsDefaultValue;
     }
+
+    if (jsonToUse != null) {
+        jsonSettings = jsonToUse;
+    }
+
     browserAgentSettings.storage.sync.set({"settings": jsonSettings}, function () {
         //hideElement("settings-section");
         number_of_emojis_generations = 0;
@@ -1921,10 +1992,15 @@ function setLanguageUI() {
     document.getElementById("save-data-settings").value = strings["settings"]["button-save"];
     some_translated_strings["button-copy"] = strings["settings"]["button-copy"];
     some_translated_strings["button-copied"] = strings["settings"]["button-copied"];
+    some_translated_strings["button-importing-import-settings"] = strings["settings"]["button-importing-import-settings"];
     some_translated_strings["button-cancel-hide"] = strings["settings"]["button-cancel-hide"];
     some_translated_strings["data-copied-clipboard-exported"] = strings["settings"]["data-copied-clipboard-exported"];
+    some_translated_strings["data-imported"] = strings["settings"]["data-imported"];
+    some_translated_strings["error-importing"] = strings["settings"]["error-importing"];
     document.getElementById("import-data-settings").value = strings["settings"]["button-import-settings"];
     some_translated_strings["confirmation-import-settings"] = strings["settings"]["confirmation-import-settings"];
+    some_translated_strings["title-import-settings"] = strings["settings"]["title-import-settings"];
+    some_translated_strings["title-export-settings"] = strings["settings"]["title-export-settings"];
     document.getElementById("export-data-settings").value = strings["settings"]["button-export-settings"];
     document.getElementById("reset-data-settings").value = strings["settings"]["button-reset-settings"];
     some_translated_strings["confirmation-reset-settings"] = strings["settings"]["confirmation-reset-settings"];
