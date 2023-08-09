@@ -2,6 +2,7 @@
   "manifest_version": 2,
   "name": "Emoji",
   "version": "3.19",
+  "author": "Saverio Morelli (Sav22999)",
   "description": "Insert emojis using a web browser, and customise the experience and the add-on in Settings.",
   "icons": {
     "16": "./img/icon-dark-16.png",

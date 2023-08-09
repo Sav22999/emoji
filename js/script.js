@@ -1,6 +1,8 @@
 var titles = {};
 var emojis = [];
 
+var current_json_settings = {}; //JUST to see json settings. DO NOT edit this!
+
 var some_translated_strings = {};
 
 var selectedTitle = 1;
@@ -89,6 +91,17 @@ const jsonSettingsDefaultValue = {
 
 const storeNameAbbr = ["MFA", "MEA", "GCWS"];//{MozillaFirefoxAddons, MicrosoftEdgeAddons, GoogleChromeWebStore}
 const releaseNumber = browserAgentSettings.runtime.getManifest().version;
+const addonName = browserAgentSettings.runtime.getManifest().name;
+const browserVersion = browserAgentSettings.runtime.getBrowserInfo().version;
+const browserName = browserAgentSettings.runtime.getBrowserInfo().name;
+const authorName = browserAgentSettings.runtime.getManifest().author;
+const manifestVersion = browserAgentSettings.runtime.getManifest().manifest_version;
+var os = "";
+browserAgentSettings.runtime.getPlatformInfo().then((platformInfo) => {
+    os = platformInfo.os;
+}).catch((error) => {
+    os = "--";
+});
 
 var copyText = "";
 
@@ -1014,14 +1027,19 @@ function showCopiedEmojisMessage(numberEmojisCopied) {
     button_donate_element.focus();
 }
 
-function showMessageTop(text) {
+function showMessageTop(text, releaseNotes = true) {
+    if (document.getElementById("top-message")) document.getElementById("top-message").remove();
     let message_element = document.createElement("div");
     message_element.id = "top-message";
     let text_to_use = text;
     text_to_use = text_to_use.replace(/{{emoji}}/g, "<span class='font-" + font_family + " font-size-22 margin-right-5'>");
     text_to_use = text_to_use.replace(/{{\/emoji}}/g, "</span>");
-    message_element.innerHTML = "<div id='title-release-notes'>Release notes</div>" + text_to_use + "<br><div id='top-message-buttons'></div>";
-    document.getElementById("popup-content").append(message_element);
+    message_element.innerHTML = "";
+    if (releaseNotes) message_element.innerHTML = "<div id='title-release-notes'>Release notes</div>";
+    message_element.innerHTML += text_to_use;
+
+    let buttons = document.createElement("div");
+    buttons.className = "message-buttons-container";
 
     let background_opacity = document.createElement("div");
     background_opacity.className = "background-opacity";
@@ -1035,10 +1053,11 @@ function showMessageTop(text) {
         updateLastRelease(this_release);
     };
     button_hide_element.className = "message-button";
-    button_hide_element.id = "close-release-button";
     button_hide_element.textContent = strings["other"]["button-hide"];
 
-    document.getElementById("top-message-buttons").append(button_hide_element);
+    buttons.append(button_hide_element);
+    message_element.append(buttons);
+    document.getElementById("popup-content").append(message_element);
 }
 
 function openLink(url) {
@@ -1046,7 +1065,7 @@ function openLink(url) {
     window.close();
 }
 
-function showMessageBottom(text = "", emoji_text = null) {
+function showMessageBottom(text = "", emoji_text = null, hideAfter = hideMessageBottomAfterSeconds) {
     let text_to_use = strings["other"]["label-copied"];
     if (text != "") text_to_use = text
     let index_to_use = char_copied_n;
@@ -1063,7 +1082,7 @@ function showMessageBottom(text = "", emoji_text = null) {
     document.getElementById("popup-content").append(text_message_to_show);
     setTimeout(function () {
         hideElement("character-copied-" + index_to_use);
-    }, hideMessageBottomAfterSeconds);
+    }, hideAfter);
 }
 
 function toggleElement(id_to_use) {
@@ -1297,7 +1316,74 @@ function importSettings() {
 }
 
 function exportSettings() {
+    let jsonToExport = {};
+    jsonToExport["addon_info"] = {};
+    jsonToExport["addon_info"]["name"] = addonName;
+    jsonToExport["addon_info"]["version"] = releaseNumber;
+    jsonToExport["addon_info"]["store_edition"] = storeNameAbbr[browserOrChromeIndex];
+    jsonToExport["addon_info"]["os"] = os;
+    jsonToExport["addon_info"]["browser_version"] = browserVersion;
+    jsonToExport["addon_info"]["browser_name"] = browserName;
+    jsonToExport["addon_info"]["developer"] = authorName;
+    jsonToExport["addon_info"]["manifest_version"] = manifestVersion;
+    const currentDate = new Date();
+    let exported_date_json = {
+        "day": currentDate.getDate(),
+        "month": currentDate.getMonth() + 1,
+        "year": currentDate.getFullYear()
+    };
+    jsonToExport["addon_info"]["exported_date"] = exported_date_json;
+    jsonToExport["settings"] = current_json_settings;
+    jsonToExport["most_used_emojis"] = mostUsedEmojis;
 
+    if (document.getElementById("export-message")) document.getElementById("export-message").remove();
+
+    let message_element = document.createElement("div");
+    message_element.id = "export-message";
+    message_element.innerHTML = "<div id='title-export-message' class='title-message'>Export data</div> <textarea class='import-export-textarea textarea-" + theme + "' id='json-export'>" + JSON.stringify(jsonToExport) + "</textarea> <br>";
+    let buttons = document.createElement("div");
+    buttons.className = "message-buttons-container";
+
+    let background_opacity = document.createElement("div");
+    background_opacity.className = "background-opacity";
+    background_opacity.id = "background-opacity-export";
+    document.getElementById("popup-content").append(background_opacity);
+
+    let button_copy = document.createElement("button");
+    button_copy.onclick = function () {
+        document.getElementById("json-export").value = JSON.stringify(jsonToExport);
+        document.getElementById("json-export").select();
+        document.execCommand("copy");
+        button_copy.textContent = some_translated_strings["button-copied"];
+        hideExportSettings();
+
+        showMessageTop(some_translated_strings["data-copied-clipboard-exported"], false);
+    };
+    button_copy.className = "message-button";
+    button_copy.textContent = some_translated_strings["button-copy"];
+
+    let button_cancel = document.createElement("button");
+    button_cancel.onclick = function () {
+        hideExportSettings();
+    };
+    button_cancel.className = "message-button";
+    button_cancel.textContent = some_translated_strings["button-cancel-hide"];
+
+    buttons.append(button_cancel);
+    buttons.append(button_copy);
+
+    message_element.append(buttons)
+    document.getElementById("popup-content").append(message_element);
+}
+
+function hideExportSettings() {
+    hideElement("export-message");
+    hideElement("background-opacity-export");
+}
+
+function hideImportSettings() {
+    hideElement("import-message");
+    hideElement("background-opacity-import");
 }
 
 function saveSettings(reset = false) {
@@ -1363,6 +1449,7 @@ function loadSettings(resize_popup_ui = false, focus_search_box = false) {
     browserAgentSettings.storage.sync.get(nameOfSetting, function (value) {
         if (value[nameOfSetting] != undefined) {
             jsonSettings = value[nameOfSetting];
+            current_json_settings = jsonSettings;
         }
 
         setColumnsRowsSettings(emojisSizeElement.value.toLowerCase(), jsonSettings.columns, jsonSettings.rows);
@@ -1508,7 +1595,6 @@ function setTheme() {
     removeThemeClassId("save-data-settings", "-btn-settings-button");
     removeThemeClassId("import-data-settings", "-btn-settings-button");
     removeThemeClassId("export-data-settings", "-btn-settings-button");
-    removeThemeClassId("reset-data-settings", "-btn-settings-button");
     removeThemeClassId("close-popup-after-copied-selected", "-select");
     removeThemeClassId("multi-copy-selected", "-select");
     removeThemeClassId("skin-tone-selected", "-select");
@@ -1547,7 +1633,6 @@ function setTheme() {
     document.getElementById("save-data-settings").classList.add(theme + "-btn-settings-button");
     document.getElementById("import-data-settings").classList.add(theme + "-btn-settings-button");
     document.getElementById("export-data-settings").classList.add(theme + "-btn-settings-button");
-    document.getElementById("reset-data-settings").classList.add(theme + "-btn-settings-button");
     document.getElementById("donate-paypal-settings").classList.add(theme + "-btn-settings-button");
     document.getElementById("donate-liberapay-settings").classList.add(theme + "-btn-settings-button");
     document.getElementById("translate-settings").classList.add(theme + "-btn-settings-button");
@@ -1790,6 +1875,7 @@ function setLanguageFile() {
 
 function setLanguageUI() {
     document.getElementById("search-bar-input").placeholder = strings["settings"]["placeholder-searchbox"];
+    //document.getElementById("json-import").placeholder = strings["settings"]["placeholder-json-import"];
     document.getElementById("text-click-on-emoji-to-remove").textContent = strings["settings"]["label-click-on-the-emojis"];
     document.getElementById("finish-edit-button").value = strings["settings"]["button-finish"];
     document.getElementById("delete-button").title = strings["settings"]["label-delete-emoji"];
@@ -1833,6 +1919,10 @@ function setLanguageUI() {
     document.getElementById("insert-emoji-yes").textContent = strings["settings"]["button-yes"];
     document.getElementById("insert-emoji-no").textContent = strings["settings"]["button-no"];
     document.getElementById("save-data-settings").value = strings["settings"]["button-save"];
+    some_translated_strings["button-copy"] = strings["settings"]["button-copy"];
+    some_translated_strings["button-copied"] = strings["settings"]["button-copied"];
+    some_translated_strings["button-cancel-hide"] = strings["settings"]["button-cancel-hide"];
+    some_translated_strings["data-copied-clipboard-exported"] = strings["settings"]["data-copied-clipboard-exported"];
     document.getElementById("import-data-settings").value = strings["settings"]["button-import-settings"];
     some_translated_strings["confirmation-import-settings"] = strings["settings"]["confirmation-import-settings"];
     document.getElementById("export-data-settings").value = strings["settings"]["button-export-settings"];

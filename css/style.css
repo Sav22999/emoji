@@ -240,7 +240,7 @@ body {
     font-family: open-sans, sans-serif;
 }
 
-div#top-message {
+div#top-message, div#import-message, div#export-message {
     position: fixed;
     top: 3px;
     bottom: 3px;
@@ -488,6 +488,32 @@ div#review-message-buttons, div#top-message-buttons, div.message-buttons-contain
     background-size: 12px auto;
 }
 
+.import-export-textarea {
+    border-radius: 5px;
+    padding: 6px;
+    height: 75%;
+    width: 96%;
+    font: inherit;
+    font-size: 14px;
+    transition: 0.1s;
+    font-family: monospace, open-sans, sans-serif;
+    border: 1px solid transparent;
+    background-color: inherit;
+    color: inherit;
+    resize: none;
+    margin: 0px;
+    margin-left: 2%;
+    margin-right: 2%;
+    overflow: auto;
+}
+
+.import-export-textarea:focus, .import-export-textarea:active {
+    box-shadow: 0px 0px 0px 2px #3399ff, 0px 0px 0px 5px #b1d6fc;
+    border: 1px solid #3399ff;
+    z-index: 2;
+    transition: 0.5s;
+}
+
 #text-click-on-emoji-to-remove {
     height: 32px;
     width: 100%;
@@ -591,7 +617,23 @@ div#settings-section {
     background-color: rgb(255, 173, 173);
 }
 
-#settings-title, #title-release-notes {
+.blue-button {
+    background-color: rgb(214, 228, 255);
+}
+
+.blue-button:hover {
+    background-color: rgb(173, 199, 255);
+}
+
+.green-button {
+    background-color: rgb(224, 255, 214);
+}
+
+.green-button:hover {
+    background-color: rgb(184, 255, 173);
+}
+
+#settings-title, #title-release-notes, .title-message {
     padding: 0px;
     padding-left: 10px;
     margin: 0px;
@@ -735,9 +777,13 @@ div {
     color: #000000;
 }
 
-.light-search-bar-input {
+.light-search-bar-input, .textarea-light {
     background-color: rgb(245, 245, 245);
     border: 1px solid rgb(225, 225, 226);
+}
+
+.textarea-light {
+    color: #111111;
 }
 
 .light-search-bar-input:hover {
@@ -776,9 +822,13 @@ div {
     background-color: rgb(50, 50, 50);
 }
 
-.dark-search-bar-input {
+.dark-search-bar-input, .textarea-dark {
     background-color: rgb(70, 70, 70);
     border: 1px solid rgb(90, 90, 90);
+    color: #EEEEEE;
+}
+
+.textarea-dark {
     color: #EEEEEE;
 }
 
