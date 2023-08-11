@@ -9,6 +9,9 @@ if (browserOrChromeIndex === 0) {
     browserAgentSettings = chrome;
 }
 
+var language = "en";
+var emojis;
+
 function loaded() {
     let jsonSettings = {};
 

@@ -1,4 +1,0 @@
-It permits just with a single click to copy an emoji.
-There is a search-box and the "Most used emojis" section (the first one).
-
-If you want to send feedback or report bug, please go to https://github.com/Sav22999/emoji
