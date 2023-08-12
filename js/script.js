@@ -43,13 +43,11 @@ const skin_tones = ["", "🏻", "🏼", "🏽", "🏾", "🏿"]; //standard(yell
 
 var mostUsedEmojis = [];
 
-var browserOrChromeIndex = 2; //TODO: change manually: {0: Firefox, 1: Microsoft Edge, 2: Chrome Web Store, 3: Opera add-ons}
 
 var browserAgentSettings = "";
 var currentOS = "";
 var currentShortcut = "";
 
-const linkReview = ["https://addons.mozilla.org/firefox/addon/emoji-sav/", "https://microsoftedge.microsoft.com/addons/detail/emoji/ejcgfbaipbelddlbokgcfajefbnnagfm", "https://chrome.google.com/webstore/detail/emoji/kjepehkgbooeigeflhiogplnckadlife?hl=it&authuser=0", "https://addons.opera.com/en-gb/extensions/details/emoji/"];
 const linkDonate = {
     "paypal": "https://www.paypal.me/saveriomorelli",
     "liberapay": "https://liberapay.com/Sav22999/donate",
@@ -57,8 +55,12 @@ const linkDonate = {
 }; //{paypal, liberapay}
 const linkTranslate = "https://crowdin.com/project/emoji-sav";
 const linkNeedHelp = ["https://www.emojiaddon.com/help"];
-const storeName = ["Firefox Add-ons", "Microsoft Edge Add-ons", "Google Chrome Web Store"];
 const fontFamily = ["twemoji", "notocoloremoji", "notocoloremoji", "twemoji-fix-macos", "joypixels"];
+
+var browserOrChromeIndex = 1; //TODO: change manually: {0: Firefox, 1: Microsoft Edge, 2: Chrome Web Store, 3: Opera add-ons}
+const storeNameAbbr = ["MFA", "MEA", "GCWS", "OA"];//{MozillaFirefoxAddons, MicrosoftEdgeAddons, GoogleChromeWebStore, OperaAddons}
+const storeName = ["Firefox Add-ons", "Microsoft Edge Add-ons", "Google Chrome Web Store", "Opera add-ons"];
+const linkReview = ["https://addons.mozilla.org/firefox/addon/emoji-sav/", "https://microsoftedge.microsoft.com/addons/detail/emoji/ejcgfbaipbelddlbokgcfajefbnnagfm", "https://chrome.google.com/webstore/detail/emoji/kjepehkgbooeigeflhiogplnckadlife?hl=it&authuser=0", "https://addons.opera.com/en-gb/extensions/details/emoji/"];
 
 if (browserOrChromeIndex === 0) {
     browserAgentSettings = browser;
@@ -89,7 +91,6 @@ const jsonSettingsDefaultValue = {
     "keyboard_shortcut": "Ctrl+Alt+A",
 };
 
-const storeNameAbbr = ["MFA", "MEA", "GCWS"];//{MozillaFirefoxAddons, MicrosoftEdgeAddons, GoogleChromeWebStore}
 const releaseNumber = browserAgentSettings.runtime.getManifest().version;
 const addonName = browserAgentSettings.runtime.getManifest().name;
 const browserVersion = "--"
