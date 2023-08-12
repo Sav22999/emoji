@@ -131,12 +131,13 @@ emojis_language[lang][2] = {
     ],
     '😍': [
         'Smilende ansigt med hjerte - øjne',
+        'love',
         ':smiling_heart-eyes:',
         ':smiling_heart_eyes:',
         ':*.*:',
-        'Hjerte Øjne',
-        'Hjerte Ansigt',
-        'Smilende ansigt med hjerteformet øjne'
+        'Heart Eyes',
+        'Heart Face',
+        'Smiling Face with Heart-Shaped Eyes'
     ],
     '🤩': [
         'Stjerne-Struck',
@@ -150,22 +151,24 @@ emojis_language[lang][2] = {
     ],
     '😘': [
         'Ansigt blæser et kys',
+        'love',
         ':kissing_face:',
         '::*:',
         '::-*:',
-        'Blæse Et Kys',
-        'Blæsende Kys',
-        'Kysser',
-        'Ansigt Kaste et kys'
+        'Blow A Kiss',
+        'Blowing Kiss',
+        'Kissing',
+        'Face Throwing a Kiss'
     ],
     '😗': [
         'Kysser Ansigt',
+        'kiss',
         ':kissing_face:',
         '::*:',
         '::-*:',
-        'Ænder Ansigt',
+        'Duck Face',
         'Kissy Face',
-        'Fløjtning'
+        'Whistling'
     ],
     '☺️': [
         'Smilende Ansigt',
@@ -279,12 +282,14 @@ emojis_language[lang][2] = {
     ],
     '🤐': [
         'Postnummer',
+        'silent',
+        'silence',
         ':zip_face:',
-        'Zipper-Mouth Ansigt',
-        'Læber Forseglet',
-        'Forseglede Læber',
-        'Zip Det',
-        'Ansigt med en lynlås Mouth'
+        'Zipper-Mouth Face',
+        'Lips Sealed',
+        'Sealed Lips',
+        'Zip It',
+        'Face With a Zipper Mouth'
     ],
     '🤨': [
         'Ansigt med hævet øjenbryn',
@@ -393,15 +398,19 @@ emojis_language[lang][2] = {
     ],
     '🥱': [
         'Gaben Ansigt',
+        'tired',
         ':yawning_face:'
     ],
     '😷': [
         'Ansigt med medicinsk maske',
+        'sick',
+        'doc',
         ':face_with_medical_mask:',
         'Coronavirus',
         'COVID-19',
-        'Maske Ansigt',
-        'Kirurgisk Maske'
+        'Mask Face',
+        'Surgical Mask',
+        'ill'
     ],
     '🤒': [
         'Ansigt med termometer',
@@ -413,38 +422,47 @@ emojis_language[lang][2] = {
     ],
     '🤕': [
         'Ansigt med head-bandage',
+        'hospital',
+        'sick',
         ':face_with_head-bandage:',
         ':face_with_head_bandage:',
-        'Båndet Hoved',
-        'Klumse',
-        'Tilfældet'
+        'Bandaged Head',
+        'Clumsy',
+        'Injured',
+        'ill'
     ],
     '🤢': [
         'Kvalme Ansigt',
+        'sick',
         ':nauseated_face:',
-        'Afsky',
-        'Grøn Ansigt',
-        'Opkast',
-        ':green:'
+        'Disgust',
+        'Green Face',
+        'Vomit',
+        ':green:',
+        'ill'
     ],
     '🤮': [
         'Ansigt Opkastning',
+        'sick',
         ':face_vomiting:',
         'Spew',
         'Bleah',
         'Bleurgh',
         'Yuk',
         'Yuck',
-        'Øv',
+        'Ew',
         'Spew',
-        'Kaster Op',
-        'Opkast',
-        'Ansigt med åben Mouth Opkastning'
+        'Throwing Up',
+        'Vomit',
+        'Face with Open Mouth Vomiting',
+        'ill'
     ],
     '🤧': [
         'Nysen Ansigt',
+        'sick',
         ':sneezing_face:',
-        'Gesundheit'
+        'Gesundheit',
+        'ill'
     ],
     '🥵': [
         'Varmt Ansigt',
@@ -474,9 +492,10 @@ emojis_language[lang][2] = {
     ],
     '🤯': [
         'Eksploderende Hoved',
+        'boom',
         ':exploding_head:',
-        'Sind Blown',
-        'Chokket ansigt med eksploderende hoved'
+        'Mind Blown',
+        'Shocked Face with Exploding Head'
     ],
     '🤠': [
         'Cowboy Hat Ansigt',
@@ -678,11 +697,12 @@ emojis_language[lang][2] = {
     ],
     '😡': [
         'Kør Ansigt',
+        'fuck',
         ':pouting_face:',
-        'Vred Ansigt',
-        'Grumpy Ansigt',
-        'Gal Ansigt',
-        'Rød Ansigt',
+        'Angry Face',
+        'Grumpy Face',
+        'Mad Face',
+        'Red Face',
         ':red:'
     ],
     '😠': [
@@ -693,14 +713,15 @@ emojis_language[lang][2] = {
     ],
     '🤬': [
         'Kløende',
+        'fuck',
         ':swearing:',
         '@#$%&!',
-        'Ansigt med symboler på Mouth',
-        'Forbandelse',
-        'Kusser',
+        'Face with Symbols on Mouth',
+        'Cursing',
+        'Cussing',
         'Grawlix',
-        'Ansigt Med Symboler Over Mouth',
-        'Seriøs ansigt med symboler dækker Mouth',
+        'Face With Symbols Over Mouth',
+        'Serious Face with Symbols Covering Mouth',
         ':red:'
     ],
     '🥲': [
@@ -716,6 +737,14 @@ emojis_language[lang][2] = {
         'Ansigt med Spiral Eyes',
         ':face_with_spiral_eyes:',
         'Dizzy Face'
+    ],
+    '😶‍🌫️': [
+        'Face in Clouds',
+        'smoke',
+        ':face_in_clouds:',
+        'Brain Fog',
+        'Forgetful',
+        'Haze'
     ],
     '🥸': [
         'Forklædt Ansigt',
@@ -754,6 +783,7 @@ emojis_language[lang][2] = {
         'Ansigt Holding Tilbage Tører',
         ':face_holding_back_tears:'
     ],
+    //"🫨": ["Shaking Face", ":shaking_face:"],
     '😈': [
         'Smilende ansigt med horn',
         ':smiling_face_with_horns:',
@@ -773,7 +803,7 @@ emojis_language[lang][2] = {
         'Lilla Goblin',
         'Trist Djævel',
         'Imp',
-        ':lilla'
+        ':purple:'
     ],
     '🤡': [
         'Klovt Ansigt',
@@ -2429,9 +2459,21 @@ emojis_language[lang][3] = {
     ],
     '🛌{{skin_tone}}': [
         'Sovende Overnatning',
+        'tired',
         ':sleeping_accommodation:',
-        'Person, der er i seng',
-        'Person Søvn'
+        'Person in Bed',
+        'Person Sleeping'
+    ],
+    '🛀{{skin_tone}}': [
+        'Person Taking Bath',
+        'Bathing',
+        ':bath:',
+        ':person_taking_bath:',
+        'Hot Bath',
+        'Person Taking a Bath',
+        'Bath',
+        'Shower',
+        'Soap'
     ],
     '🧌': [
         'Troll',
@@ -3251,6 +3293,19 @@ emojis_language[lang][5] = {
         'Hjertebrud',
         ':red:'
     ],
+    '❤️‍🩹': [
+        'Mending Heart',
+        ':mending_heart:',
+        'Bandaged Heart',
+        'Healing Heart',
+        'Unbroken Heart',
+        ':red:'
+    ],
+    '❤️‍🔥': [
+        'Heart on Fire',
+        ':heart_on_fire:',
+        ':red:'
+    ],
     '❤️': [
         'Jeg Elsker Dig',
         ':red_heart:',
@@ -3312,6 +3367,9 @@ emojis_language[lang][5] = {
         'Jeg Elsker Dig',
         ':brown:'
     ],
+    //"🩷": ["Pink Heart", ":pink_heart:", "I Love You", ":pink:"],
+    //"🩵": ["Light Blue Heart", ":lightblue_heart:", "I Love You", ":blue:"],
+    //"🩶": ["Grey Heart","Gray Heart", ":grey_heart:",":gray_heart:", "I Love You", ":gray:", ":grey:"],
     '💯': [
         'Hundrede Point',
         ':hundred_points:',
@@ -3767,6 +3825,7 @@ emojis_language[lang][5] = {
         'Seks spidse stjerne med Midterste Dot',
         ':purple:'
     ],
+    //"🪯": ["Khanda", ":khanda:", "Sikhism", ":purple:"],
     '♈': [
         'Vædder',
         ':aries:',
@@ -4627,6 +4686,7 @@ emojis_language[lang][5] = {
         'Kant Kontrol',
         ':blue:'
     ],
+    //"🛜": ["Wireless", ":wireless:", ":wifi:", ":wi_fi:", "Wifi", "wi-fi", "wireless connection", ":blue:"],
     '🚰': [
         'Potable Water Symbol',
         ':potable_water_symbol:',
@@ -10257,6 +10317,9 @@ emojis_language[lang][13] = {
         'Rolighed',
         'Serenitet'
     ],
+    //"🪻": ["Hyacinth", ":hyacinth:", "Purple flower", ":purple:"],
+    //"🫛": ["Pea Pod", ":pea_pod:", ":green:"],
+    //"🫚": ["Ginger root", ":ginger:", "Spice", "Flavour", ":brown:"],
     '🔑': [
         'Nøgle',
         ':key:',
@@ -10283,7 +10346,8 @@ emojis_language[lang][13] = {
     ],
     '🪓': [
         'Økse',
-        ':axe:'
+        ':axe:',
+        'firefighter'
     ],
     '🪚': [
         'Tømrer Savl',
@@ -10388,7 +10452,10 @@ emojis_language[lang][13] = {
         'Bloddonation',
         'Blodtest',
         'Nål',
-        'Vaccination'
+        'Vaccination',
+        'blood',
+        'sick',
+        'ill'
     ],
     '🧬': [
         'DNA',
@@ -10440,17 +10507,20 @@ emojis_language[lang][13] = {
         'Badeværelse',
         'Loo',
         'Restroom',
-        'WC'
+        'WC',
+        ':white:'
     ],
     '🚿': [
         'Brusebad',
         ':shower:',
-        'Brusebad Hoved'
+        'Brusebad Hoved',
+        ':shower:'
     ],
     '🛁': [
         'Badekar',
         ':bathtub:',
-        'Boble Bad'
+        'Boble Bad',
+        ':shower:'
     ],
     '🧴': [
         'Lotion Flaske',
@@ -10740,7 +10810,8 @@ emojis_language[lang][13] = {
     ],
     '💣': [
         'Bombe',
-        ':bomb:'
+        ':bomb:',
+        'boom'
     ],
     '🔪': [
         'Køkken Kniv',
@@ -11099,12 +11170,19 @@ emojis_language[lang][13] = {
         'Vred Tale Bubble',
         ':white:'
     ],
+    '🗨️': [
+        'Left Speech Bubble',
+        ':left_speech_bubble:',
+        ':speech_left:'
+    ],
     '💊': [
         'Pill',
         ':pill:',
         'Kapsler',
         'Tablet',
         'Stoffer',
+        'Sick',
+        'ill',
         ':yellow:',
         ':red:'
     ],
@@ -11232,6 +11310,14 @@ emojis_language[lang][13] = {
     '🛍️': [
         'Indkøbsposer',
         ':shopping_bags:'
+    ],
+    '🛒': [
+        'Shopping Cart',
+        ':shopping_cart:',
+        'Shopping Trolley',
+        ':shopping_trolley:',
+        ':gray:',
+        ':grey:'
     ],
     '🎟️': [
         'Adgang Bestillinger',

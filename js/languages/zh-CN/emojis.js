@@ -131,12 +131,13 @@ emojis_language[lang][2] = {
     ],
     '😍': [
         '心眼的微笑面',
+        'love',
         ':smiling_heart-eyes:',
         ':smiling_heart_eyes:',
         ':*.*:',
-        '心眼镜',
-        '心面',
-        '心形眼睛的微笑面'
+        'Heart Eyes',
+        'Heart Face',
+        'Smiling Face with Heart-Shaped Eyes'
     ],
     '🤩': [
         '星结构体',
@@ -150,22 +151,24 @@ emojis_language[lang][2] = {
     ],
     '😘': [
         '面部闪光一只基斯',
+        'love',
         ':kissing_face:',
         '::*:',
         '::-*:',
-        '蓝宝石座',
+        'Blow A Kiss',
         'Blowing Kiss',
-        '基斯化',
-        '面部抛出一把基斯'
+        'Kissing',
+        'Face Throwing a Kiss'
     ],
     '😗': [
         '连线面',
+        'kiss',
         ':kissing_face:',
         '::*:',
         '::-*:',
-        '杜克面具',
+        'Duck Face',
         'Kissy Face',
-        '吹风'
+        'Whistling'
     ],
     '☺️': [
         '微笑面具',
@@ -279,12 +282,14 @@ emojis_language[lang][2] = {
     ],
     '🤐': [
         '邮编',
+        'silent',
+        'silence',
         ':zip_face:',
-        'Zipper-Mouth 面',
-        '列已密送',
-        '密封链接',
-        '邮编',
-        'Zipper 鼠标的面'
+        'Zipper-Mouth Face',
+        'Lips Sealed',
+        'Sealed Lips',
+        'Zip It',
+        'Face With a Zipper Mouth'
     ],
     '🤨': [
         '带有提升眼睛的面',
@@ -393,15 +398,19 @@ emojis_language[lang][2] = {
     ],
     '🥱': [
         '黄色面具',
+        'tired',
         ':yawning_face:'
     ],
     '😷': [
         '带医疗面具',
+        'sick',
+        'doc',
         ':face_with_medical_mask:',
-        '科罗纳维鲁斯',
+        'Coronavirus',
         'COVID-19',
-        '遮罩面',
-        '外科蒙版'
+        'Mask Face',
+        'Surgical Mask',
+        'ill'
     ],
     '🤒': [
         '温度计的面',
@@ -413,38 +422,47 @@ emojis_language[lang][2] = {
     ],
     '🤕': [
         '头带的面',
+        'hospital',
+        'sick',
         ':face_with_head-bandage:',
         ':face_with_head_bandage:',
-        '带状头',
-        '淋巴细体',
-        '伤害'
+        'Bandaged Head',
+        'Clumsy',
+        'Injured',
+        'ill'
     ],
     '🤢': [
         '恶心的面',
+        'sick',
         ':nauseated_face:',
-        '异常的',
-        '绿色面',
-        '雾',
-        ':green:'
+        'Disgust',
+        'Green Face',
+        'Vomit',
+        ':green:',
+        'ill'
     ],
     '🤮': [
         '面部休眠',
+        'sick',
         ':face_vomiting:',
-        '速率',
+        'Spew',
         'Bleah',
         'Bleurgh',
-        '尤克',
-        '尤克文',
-        '欧文',
-        '速率',
-        '向上扔出',
-        '雾',
-        '开启鼠标挥动的面'
+        'Yuk',
+        'Yuck',
+        'Ew',
+        'Spew',
+        'Throwing Up',
+        'Vomit',
+        'Face with Open Mouth Vomiting',
+        'ill'
     ],
     '🤧': [
         '闪电面具',
+        'sick',
         ':sneezing_face:',
-        'Gesundheit'
+        'Gesundheit',
+        'ill'
     ],
     '🥵': [
         '热门面',
@@ -474,9 +492,10 @@ emojis_language[lang][2] = {
     ],
     '🤯': [
         '爆炸头',
+        'boom',
         ':exploding_head:',
         'Mind Blown',
-        '用爆炸头惊人的脸部'
+        'Shocked Face with Exploding Head'
     ],
     '🤠': [
         '奶牛帽面子',
@@ -678,11 +697,12 @@ emojis_language[lang][2] = {
     ],
     '😡': [
         '正在推送面',
+        'fuck',
         ':pouting_face:',
-        '愤怒的面',
-        '毛皮面具',
-        '疯狂的面',
-        '红面',
+        'Angry Face',
+        'Grumpy Face',
+        'Mad Face',
+        'Red Face',
         ':red:'
     ],
     '😠': [
@@ -693,14 +713,15 @@ emojis_language[lang][2] = {
     ],
     '🤬': [
         '滑动中',
+        'fuck',
         ':swearing:',
         '@#$%&!',
-        '鼠标上带符号的面',
-        '曲目',
-        '正在计算',
+        'Face with Symbols on Mouth',
+        'Cursing',
+        'Cussing',
         'Grawlix',
-        '鼠标上面有符号的面',
-        '带符号覆盖鼠标的严重面',
+        'Face With Symbols Over Mouth',
+        'Serious Face with Symbols Covering Mouth',
         ':red:'
     ],
     '🥲': [
@@ -716,6 +737,14 @@ emojis_language[lang][2] = {
         '螺旋眼面',
         ':face_with_spiral_eyes:',
         'Dizzy Face'
+    ],
+    '😶‍🌫️': [
+        'Face in Clouds',
+        'smoke',
+        ':face_in_clouds:',
+        'Brain Fog',
+        'Forgetful',
+        'Haze'
     ],
     '🥸': [
         '伪装的面',
@@ -754,6 +783,7 @@ emojis_language[lang][2] = {
         '面部背部时钟',
         ':face_holding_back_tears:'
     ],
+    //"🫨": ["Shaking Face", ":shaking_face:"],
     '😈': [
         '马上的微笑面具',
         ':smiling_face_with_horns:',
@@ -773,7 +803,7 @@ emojis_language[lang][2] = {
         '紫色Goblin',
         '悲惨的致命者',
         'Imp',
-        ':purple'
+        ':purple:'
     ],
     '🤡': [
         '小花面',
@@ -2429,9 +2459,21 @@ emojis_language[lang][3] = {
     ],
     '🛌{{skin_tone}}': [
         '睡眠住宿',
+        'tired',
         ':sleeping_accommodation:',
-        '床上的人',
-        '人员睡眠'
+        'Person in Bed',
+        'Person Sleeping'
+    ],
+    '🛀{{skin_tone}}': [
+        'Person Taking Bath',
+        'Bathing',
+        ':bath:',
+        ':person_taking_bath:',
+        'Hot Bath',
+        'Person Taking a Bath',
+        'Bath',
+        'Shower',
+        'Soap'
     ],
     '🧌': [
         'Troll',
@@ -3251,6 +3293,19 @@ emojis_language[lang][5] = {
         '心碎了',
         ':red:'
     ],
+    '❤️‍🩹': [
+        'Mending Heart',
+        ':mending_heart:',
+        'Bandaged Heart',
+        'Healing Heart',
+        'Unbroken Heart',
+        ':red:'
+    ],
+    '❤️‍🔥': [
+        'Heart on Fire',
+        ':heart_on_fire:',
+        ':red:'
+    ],
     '❤️': [
         '我喜欢你',
         ':red_heart:',
@@ -3312,6 +3367,9 @@ emojis_language[lang][5] = {
         '我喜欢你',
         ':brown:'
     ],
+    //"🩷": ["Pink Heart", ":pink_heart:", "I Love You", ":pink:"],
+    //"🩵": ["Light Blue Heart", ":lightblue_heart:", "I Love You", ":blue:"],
+    //"🩶": ["Grey Heart","Gray Heart", ":grey_heart:",":gray_heart:", "I Love You", ":gray:", ":grey:"],
     '💯': [
         '百分',
         ':hundred_points:',
@@ -3767,6 +3825,7 @@ emojis_language[lang][5] = {
         '中点星六点星。',
         ':purple:'
     ],
+    //"🪯": ["Khanda", ":khanda:", "Sikhism", ":purple:"],
     '♈': [
         '阿里斯',
         ':aries:',
@@ -4627,6 +4686,7 @@ emojis_language[lang][5] = {
         '边境管制',
         ':blue:'
     ],
+    //"🛜": ["Wireless", ":wireless:", ":wifi:", ":wi_fi:", "Wifi", "wi-fi", "wireless connection", ":blue:"],
     '🚰': [
         '饮用水符号',
         ':potable_water_symbol:',
@@ -10257,6 +10317,9 @@ emojis_language[lang][13] = {
         '均匀度',
         '安宁度'
     ],
+    //"🪻": ["Hyacinth", ":hyacinth:", "Purple flower", ":purple:"],
+    //"🫛": ["Pea Pod", ":pea_pod:", ":green:"],
+    //"🫚": ["Ginger root", ":ginger:", "Spice", "Flavour", ":brown:"],
     '🔑': [
         '关键字',
         ':key:',
@@ -10283,7 +10346,8 @@ emojis_language[lang][13] = {
     ],
     '🪓': [
         '斧子',
-        ':axe:'
+        ':axe:',
+        'firefighter'
     ],
     '🪚': [
         '木匠锯子',
@@ -10388,7 +10452,10 @@ emojis_language[lang][13] = {
         '捐血活动',
         '血液测试',
         '针头',
-        '接种情况'
+        '接种情况',
+        'blood',
+        'sick',
+        'ill'
     ],
     '🧬': [
         'DNA',
@@ -10440,17 +10507,20 @@ emojis_language[lang][13] = {
         '浴室',
         '洛奥文',
         '重试',
-        '西北地区'
+        '西北地区',
+        ':white:'
     ],
     '🚿': [
         '阵雨',
         ':shower:',
-        '显示头'
+        '显示头',
+        ':shower:'
     ],
     '🛁': [
         '巴塔图',
         ':bathtub:',
-        '泡泡泡球'
+        '泡泡泡球',
+        ':shower:'
     ],
     '🧴': [
         '搬运瓶子',
@@ -10740,7 +10810,8 @@ emojis_language[lang][13] = {
     ],
     '💣': [
         '炸弹数',
-        ':bomb:'
+        ':bomb:',
+        'boom'
     ],
     '🔪': [
         '厨师刀',
@@ -11099,12 +11170,19 @@ emojis_language[lang][13] = {
         '愤怒的语音泡器',
         ':white:'
     ],
+    '🗨️': [
+        'Left Speech Bubble',
+        ':left_speech_bubble:',
+        ':speech_left:'
+    ],
     '💊': [
         'Pill',
         ':pill:',
         '胶片',
         '平板电脑',
         'B. 药物',
+        'Sick',
+        'ill',
         ':yellow:',
         ':red:'
     ],
@@ -11232,6 +11310,14 @@ emojis_language[lang][13] = {
     '🛍️': [
         '购物箱',
         ':shopping_bags:'
+    ],
+    '🛒': [
+        'Shopping Cart',
+        ':shopping_cart:',
+        'Shopping Trolley',
+        ':shopping_trolley:',
+        ':gray:',
+        ':grey:'
     ],
     '🎟️': [
         '接纳工单',
