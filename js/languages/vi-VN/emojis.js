@@ -46,7 +46,7 @@ emojis_language[lang][2] = {
         'Happy Face',
         'Smiley Face',
         'Grinning Face With Squinting Eyes',
-        'Smiling Face with Open Mouth and Smiling Eyes'
+        'Mặt cười với miệng mở và mắt cười'
     ],
     '😁': [
         'Mặt rạng rỡ với mắt cười',
@@ -63,15 +63,15 @@ emojis_language[lang][2] = {
         'Closed-Eyes Smile',
         'Laughing',
         'Grinning Face With Tightly Closed Eyes',
-        'Smiling Face with Open Mouth and Tightly-Closed Eyes'
+        'Mặt cười với miệng mở và mắt nhắm tịt'
     ],
     '😅': [
         'Cười tươi với mồ hôi',
         ':happy_sweat:',
         'Exercise',
         'Happy Sweat',
-        'Grinning Face With Squinting Eyes and Sweat Drop',
-        'Smiling Face with Open Mouth and Cold Sweat'
+        'Cười tươi với mắt nheo và mồ hôi',
+        'Mặt cười với miệng mở và mồ hôi lạnh'
     ],
     '🤣': [
         'Cười lăn lộn',
@@ -127,7 +127,7 @@ emojis_language[lang][2] = {
         'Mặt cười với trái tim',
         ':smiling_hearts:',
         'In Love Face',
-        'Smiling Face with Smiling Eyes and Three Hearts'
+        'Mặt cười với mắt cười và ba trái tim'
     ],
     '😍': [
         'Mặt cười với mắt trái tim',
@@ -145,7 +145,7 @@ emojis_language[lang][2] = {
         'Excited',
         'Star Eyes',
         'Starry Eyed',
-        'Wow Face',
+        'Mặt wow',
         'Face With Starry Eyes',
         'Grinning Face with Star Eyes'
     ],
@@ -257,7 +257,7 @@ emojis_language[lang][2] = {
         'Oops',
         ':oops:',
         'Face with Hand Over Mouth',
-        'Smiling Face with Smiling Eyes and Hand Covering Mouth'
+        'Mặt cười với mắt cười và tay che miệng'
     ],
     '🤫': [
         'Xuỵt',

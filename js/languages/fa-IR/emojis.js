@@ -199,13 +199,13 @@ emojis_language[lang][2] = {
         'Hungry',
         'Smiling Face Licking Lips',
         'Face Savouring Delicious Food',
-        'Yum Yum'
+        'یام یام'
     ],
     '😛': [
         'صورت با زبان',
         ':tongue_face:',
         '::P:',
-        'Cheeky',
+        'پر رو',
         'Tongue Face',
         'Tongue-Out',
         'Face with Stuck-Out Tongue'
@@ -575,7 +575,7 @@ emojis_language[lang][2] = {
         ':shocked_face:',
         '::O:',
         'Wow',
-        'Astonished Face',
+        'چهره حیرت زده',
         'Drunk Face',
         'Gasping Face'
     ],
@@ -832,7 +832,7 @@ emojis_language[lang][2] = {
         'غول',
         ':ogre:',
         'Mask Face',
-        'Oni',
+        'اونی (افسانه ژاپنی)',
         'Red Monster',
         'Japanese Ogre',
         ':red:'
@@ -1343,7 +1343,7 @@ emojis_language[lang][3] = {
         ':man:'
     ],
     '🧛{{skin_tone}}‍♀️': [
-        'Woman Vampire',
+        'زن خون آشام',
         ':woman_vampire:',
         ':vampire:',
         ':woman:'
@@ -1503,7 +1503,7 @@ emojis_language[lang][3] = {
         ':man:'
     ],
     '👩{{skin_tone}}‍🚒': [
-        'Woman Firefighter',
+        'زن آتش نشان',
         ':woman_firefighter:',
         ':firefighter:',
         ':woman:'

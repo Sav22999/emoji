@@ -1,6 +1,10 @@
 var titles = {};
 var emojis = [];
 
+var current_json_settings = {}; //JUST to see json settings. DO NOT edit this!
+
+var some_translated_strings = {};
+
 var selectedTitle = 1;
 var char_copied_n = 0;
 
@@ -46,7 +50,11 @@ var currentOS = "";
 var currentShortcut = "";
 
 const linkReview = ["https://addons.mozilla.org/firefox/addon/emoji-sav/", "https://microsoftedge.microsoft.com/addons/detail/emoji/ejcgfbaipbelddlbokgcfajefbnnagfm", "https://chrome.google.com/webstore/detail/emoji/kjepehkgbooeigeflhiogplnckadlife?hl=it&authuser=0"];
-const linkDonate = ["https://www.paypal.me/saveriomorelli", "https://liberapay.com/Sav22999/donate"]; //{paypal, liberapay}
+const linkDonate = {
+    "paypal": "https://www.paypal.me/saveriomorelli",
+    "liberapay": "https://liberapay.com/Sav22999/donate",
+    "generic": "https://emojiaddon.com/donate"
+}; //{paypal, liberapay}
 const linkTranslate = "https://crowdin.com/project/emoji-sav";
 const linkNeedHelp = ["https://www.emojiaddon.com/help"];
 const storeName = ["Firefox Add-ons", "Microsoft Edge Add-ons", "Google Chrome Web Store"];
@@ -83,6 +91,17 @@ const jsonSettingsDefaultValue = {
 
 const storeNameAbbr = ["MFA", "MEA", "GCWS"];//{MozillaFirefoxAddons, MicrosoftEdgeAddons, GoogleChromeWebStore}
 const releaseNumber = browserAgentSettings.runtime.getManifest().version;
+const addonName = browserAgentSettings.runtime.getManifest().name;
+const browserVersion = browserAgentSettings.runtime.getBrowserInfo().version;
+const browserName = browserAgentSettings.runtime.getBrowserInfo().name;
+const authorName = browserAgentSettings.runtime.getManifest().author;
+const manifestVersion = browserAgentSettings.runtime.getManifest().manifest_version;
+var os = "";
+browserAgentSettings.runtime.getPlatformInfo().then((platformInfo) => {
+    os = platformInfo.os;
+}).catch((error) => {
+    os = "--";
+});
 
 var copyText = "";
 
@@ -100,11 +119,27 @@ generateTitles();
 
 function loaded() {
     searchBarInputElement.onkeyup = function (e) {
-        searchEmoji(searchBarInputElement.value);
+        let emojisToGenerate = searchEmoji(searchBarInputElement.value);
+        //console.log(emojisToGenerate);
+        if (emojisToGenerate === -1) {
+            //No keyboard passed
+            if (selectedTitle === 0) {
+                if (getValueToCheck(getValueToUse(searchBarInputElement.value)).length === 0) generateTitles(false); //clear searchbox
+                else generateTitles(false, 1, false); //don't clear searchbox
+            }
+        } else {
+            if (Object.keys(emojisToGenerate).length === 0) {
+                //No emojis found
+                emojisElement.innerHTML = "<div id='no_emojis_found'>" + strings["other"]["label-no-emojis-found"].replaceAll("{{properties}}", "class='font-" + font_family + " margin-right-10 font-size-25'") + "</div>";
+            } else if (Object.keys(emojisToGenerate).length > 0) {
+                //Emojis found: generate results
+                generateTitles(true, 0);
+            }
+        }
         number_of_emojis_generations = 0;
     }
     searchBarInputElement.onkeydown = function (e) {
-        if (e.key == "Enter") {
+        if (e.key === "Enter") {
             number_of_emojis_generations = 5;
         }
     }
@@ -117,6 +152,7 @@ function loaded() {
     checkOperatingSystem();
     checkReview();
     checkOpenedAddon();
+    checkCopiedEmojis();
     showNewsInRelease(false);
 
     let shortcuts = browserAgentSettings.commands.getAll();
@@ -129,7 +165,8 @@ function getCurrentShortcuts(commands) {
     });
 }
 
-function updateShortcut() {
+function updateShortcut(shortcut = null) {
+    if (shortcut !== null) currentShortcut = shortcut;
     const commandName = '_execute_browser_action';
     browserAgentSettings.commands.update({
         name: commandName, shortcut: currentShortcut
@@ -156,6 +193,8 @@ function copyEmoji(text, tooltip) {
     hideChooseSkinToneMiniPopUp();
     let nameOfSetting = "mostUsed";
     if (!deleting) {
+        incrementCopiedEmojisNoParam();
+
         textToCopyElement.style.display = "block";
         let copyEmojiTemp = text;
         if (multi_copy == "no") {
@@ -187,8 +226,6 @@ function copyEmoji(text, tooltip) {
         } else {
             addToMostUsedCopyEmoji(nameOfSetting, text, tooltip);
         }
-
-
     } else {
         removeFromMostUsed(text);
         showMessageBottom(strings["other"]["label-removed-correctly"], text);
@@ -207,13 +244,13 @@ function onError(error) {
     console.error(`Error: ${error}`);
 }
 
-function addToMostUsedCopyEmoji(nameOfSetting, text, tooltip) {
+function addToMostUsedCopyEmoji(nameOfSetting, emoji, tooltip) {
     browserAgentSettings.storage.sync.get(nameOfSetting, function (value) {
         if (value[nameOfSetting] != undefined) {
             //already exist, so set the array at saved status
             mostUsedEmojis = value[nameOfSetting];
         }
-        addToMostUsed(text, tooltip);
+        addToMostUsed(emoji, tooltip);
         getMostUsedEmojisLength(selectedTitle);
     });
 }
@@ -241,8 +278,8 @@ function getMostUsedEmojisLength(titleToSet) {
     return generateMostUsedEmojis(generateEmojiBool);
 }
 
-function addToMostUsed(emoji, tooltip) {
-    let emojiToAdd = {"emoji": emoji, "occurrences": 1, "tooltip": tooltip};
+function addToMostUsed(emoji, tooltip, occurrences = 1) {
+    let emojiToAdd = {"emoji": emoji, "occurrences": occurrences, "tooltip": tooltip};
     let indexToUse = -1; // -1: not in the JSON
     for (let tempIndex = 0; tempIndex < mostUsedEmojis.length && indexToUse == -1; tempIndex++) {
         if (mostUsedEmojis[tempIndex].emoji == emoji) {
@@ -479,14 +516,22 @@ function setPopUpUI() {
         focusSearchBox();
     }
     document.getElementById("clear-data-settings").onclick = function () {
-        clearAllData();
-        generateTitles(false);
-        generateMostUsedEmojis();
-        hideElement("settings-section");
-        focusSearchBox();
+        if (confirm(some_translated_strings["confirmation-clear-all-data"]) === true) {
+            clearAllData();
+            generateTitles(false);
+            generateMostUsedEmojis();
+            hideElement("settings-section");
+            focusSearchBox();
+        }
     }
     document.getElementById("save-data-settings").onclick = function () {
         saveSettings();
+    }
+    document.getElementById("import-data-settings").onclick = function () {
+        importSettings();
+    }
+    document.getElementById("export-data-settings").onclick = function () {
+        exportSettings();
     }
     document.getElementById("reset-data-settings").onclick = function () {
         resetSettings();
@@ -648,12 +693,12 @@ function setPopUpUI() {
     }
 
     document.getElementById("donate-paypal-settings").onclick = function () {
-        let url_to_use = linkDonate[0];
+        let url_to_use = linkDonate["paypal"];
         browserAgentSettings.tabs.create({url: url_to_use});
         window.close();
     };
     document.getElementById("donate-liberapay-settings").onclick = function () {
-        let url_to_use = linkDonate[1];
+        let url_to_use = linkDonate["liberapay"];
         browserAgentSettings.tabs.create({url: url_to_use});
         window.close();
     };
@@ -950,7 +995,7 @@ function showOpenedAddonMessage(numberOpened) {
 
     let button_donate_element = document.createElement("button");
     button_donate_element.onclick = function () {
-        browserAgentSettings.tabs.create({url: linkDonate[0]});
+        browserAgentSettings.tabs.create({url: linkDonate["generic"]});
         window.close();
     };
     button_donate_element.className = "message-button";
@@ -971,14 +1016,54 @@ function showOpenedAddonMessage(numberOpened) {
     button_donate_element.focus();
 }
 
-function showMessageTop(text) {
+function showCopiedEmojisMessage(numberEmojisCopied) {
+    let message_element = document.createElement("div");
+    message_element.id = "emojis-copied-since-install-message";
+    message_element.innerHTML = "" + strings["other"]["label-you-copied-n-emojis"].replaceAll("{{properties1}}", "class='text-center padding-5'").replaceAll("{{properties2}}", "class='font-" + font_family + " font-size-20 margin-right-5'").replaceAll("{{properties3}}", "class='font-size-20 font-bold'").replaceAll("{{emojis_copied}}", numberEmojisCopied.toString()).replaceAll("{{properties4}}", "class='text-left padding-5'") + "<div id='emojis-copied-since-install-message-buttons' class='message-buttons-container text-right'></div>";
+    document.getElementById("popup-content").append(message_element);
+
+    let background_opacity = document.createElement("div");
+    background_opacity.className = "background-opacity";
+    background_opacity.id = "background-opacity-emojis-copied-since-install";
+    document.getElementById("popup-content").append(background_opacity);
+
+    let button_donate_element = document.createElement("button");
+    button_donate_element.onclick = function () {
+        browserAgentSettings.tabs.create({url: linkDonate["generic"]});
+        window.close();
+    };
+    button_donate_element.className = "message-button";
+    button_donate_element.id = "emojis-copied-since-install-button-donate";
+    button_donate_element.textContent = strings["other"]["button-buy-me-a-coffee"];
+
+    let button_later_element = document.createElement("button");
+    button_later_element.onclick = function () {
+        hideCopiedEmojisMessage();
+    };
+    button_later_element.className = "message-button";
+    button_later_element.id = "emojis-copied-since-install-button-later";
+    button_later_element.textContent = strings["other"]["button-maybe-another-time"];
+
+    document.getElementById("emojis-copied-since-install-message-buttons").append(button_donate_element);
+    document.getElementById("emojis-copied-since-install-message-buttons").append(button_later_element);
+
+    button_donate_element.focus();
+}
+
+function showMessageTop(text, releaseNotes = true) {
+    if (document.getElementById("top-message")) document.getElementById("top-message").remove();
+    if (document.getElementById("background-opacity-top")) document.getElementById("background-opacity-top").remove();
     let message_element = document.createElement("div");
     message_element.id = "top-message";
     let text_to_use = text;
     text_to_use = text_to_use.replace(/{{emoji}}/g, "<span class='font-" + font_family + " font-size-22 margin-right-5'>");
     text_to_use = text_to_use.replace(/{{\/emoji}}/g, "</span>");
-    message_element.innerHTML = "<div id='title-release-notes'>Release notes</div>" + text_to_use + "<br><div id='top-message-buttons'></div>";
-    document.getElementById("popup-content").append(message_element);
+    message_element.innerHTML = "";
+    if (releaseNotes) message_element.innerHTML = "<div id='title-release-notes'>Release notes</div>";
+    message_element.innerHTML += text_to_use;
+
+    let buttons = document.createElement("div");
+    buttons.className = "message-buttons-container";
 
     let background_opacity = document.createElement("div");
     background_opacity.className = "background-opacity";
@@ -992,10 +1077,11 @@ function showMessageTop(text) {
         updateLastRelease(this_release);
     };
     button_hide_element.className = "message-button";
-    button_hide_element.id = "close-release-button";
     button_hide_element.textContent = strings["other"]["button-hide"];
 
-    document.getElementById("top-message-buttons").append(button_hide_element);
+    buttons.append(button_hide_element);
+    message_element.append(buttons);
+    document.getElementById("popup-content").append(message_element);
 }
 
 function openLink(url) {
@@ -1003,7 +1089,7 @@ function openLink(url) {
     window.close();
 }
 
-function showMessageBottom(text = "", emoji_text = null) {
+function showMessageBottom(text = "", emoji_text = null, hideAfter = hideMessageBottomAfterSeconds) {
     let text_to_use = strings["other"]["label-copied"];
     if (text != "") text_to_use = text
     let index_to_use = char_copied_n;
@@ -1020,7 +1106,7 @@ function showMessageBottom(text = "", emoji_text = null) {
     document.getElementById("popup-content").append(text_message_to_show);
     setTimeout(function () {
         hideElement("character-copied-" + index_to_use);
-    }, hideMessageBottomAfterSeconds);
+    }, hideAfter);
 }
 
 function toggleElement(id_to_use) {
@@ -1065,8 +1151,13 @@ function incrementOpenedAddon(value) {
     });
 }
 
-function checkOpenedAddon() {
+function incrementCopiedEmojis(value) {
+    value += 1;
+    browserAgentSettings.storage.sync.set({"emojis-copied-since-install": value}, function () {
+    });
+}
 
+function checkOpenedAddon() {
     browserAgentSettings.storage.sync.get("opened-addon", function (value) {
         let currentValue = 0;
         if (value["opened-addon"] != undefined) {
@@ -1074,11 +1165,36 @@ function checkOpenedAddon() {
         }
         incrementOpenedAddon(currentValue);
 
-        currentValue++
+        currentValue++;
 
         if (currentValue == 1000 || currentValue == 100000 || currentValue == 1000000 || currentValue == 10000000) {
             showOpenedAddonMessage(currentValue);
         }
+    });
+}
+
+function checkCopiedEmojis() {
+    browserAgentSettings.storage.sync.get("emojis-copied-since-install", function (value) {
+        let currentValue = 0;
+        if (value["emojis-copied-since-install"] != undefined) {
+            currentValue = value["emojis-copied-since-install"];
+        }
+        //incrementCopiedEmojis(currentValue);
+        //currentValue++;
+
+        if (currentValue == 100000 || currentValue == 1000000 || currentValue == 10000000) {
+            showCopiedEmojisMessage(currentValue);
+        }
+    });
+}
+
+function incrementCopiedEmojisNoParam() {
+    browserAgentSettings.storage.sync.get("emojis-copied-since-install", function (value) {
+        let currentValue = 0;
+        if (value["emojis-copied-since-install"] != undefined) {
+            currentValue = value["emojis-copied-since-install"];
+        }
+        incrementCopiedEmojis(currentValue);
     });
 }
 
@@ -1087,16 +1203,35 @@ function hideOpenedAddonMessage() {
     hideElement("background-opacity-opened-addon");
 }
 
+function hideCopiedEmojisMessage() {
+    hideElement("emojis-copied-since-install-message");
+    hideElement("background-opacity-emojis-copied-since-install");
+}
+
+function getValueToUse(valuePassed) {
+    return valuePassed.toLowerCase().replace(".", "").replace("’", "'").replace("“", "\"").replace("”", "\"");
+}
+
+function getValueToCheck(valuePassed) {
+    return valuePassed.replace(/\s/ig, "");
+}
+
+/**
+ * Search emoji by keyword
+ * @param value the keyboard, gender, colour, etc.
+ * @returns {*} returns the emojis to show based on the value passed
+ */
 function searchEmoji(value) {
+    let emojisFound = {};
     all_emojis[0] = {};
     let n_results = 0;
     let max_results = (max_rows * max_columns) * 3;
-    let valueToUse = value.toLowerCase().replace(".", "").replace("’", "'").replace("“", "\"").replace("”", "\"");
-    let valueToCheck = valueToUse.replace(/\s/ig, "");
+    let valueToUse = getValueToUse(value);
+    let valueToCheck = getValueToCheck(valueToUse);
     if (valueToCheck.length > 1) {
         if (valueToCheck === "saverio" || valueToCheck === "sav22999") {
             //easter egg
-            //show S A V E R I O
+            //show 🔸 S A V E R I O 🔹
             easter_egg_emojis = ["🔸", "🇸", "🇦", "🇻", "🇪", "🇷", "🇮", "🇴", "🔹"];
             title = 5; //TODO: this index is fixed manually, and it's the "symbols" section
             for (let index in easter_egg_emojis) {
@@ -1136,16 +1271,20 @@ function searchEmoji(value) {
                 all_emojis[0][item] = tmp_all_emojis_similar[item];
             }
         }
-        generateTitles(true, 0);
+        //generateTitles(true, 0);
+        emojisFound = all_emojis[0];
         if (n_results == 0) {
-            emojisElement.innerHTML = "<div id='no_emojis_found'>" + strings["other"]["label-no-emojis-found"].replaceAll("{{properties}}", "class='font-" + font_family + " margin-right-10 font-size-25'") + "</div>";
+            emojisFound = 0;
+            //emojisElement.innerHTML = "<div id='no_emojis_found'>" + strings["other"]["label-no-emojis-found"].replaceAll("{{properties}}", "class='font-" + font_family + " margin-right-10 font-size-25'") + "</div>";
         }
     } else {
         if (this.selectedTitle == 0) {
-            if (valueToCheck.length == 0) generateTitles(false); //clear searchbox
-            else generateTitles(false, 1, false); //don't clear searchbox
+            //if (valueToCheck.length == 0) generateTitles(false); //clear searchbox
+            //else generateTitles(false, 1, false); //don't clear searchbox
         }
+        emojisFound = -1;
     }
+    return emojisFound;
 }
 
 function showSettings() {
@@ -1211,10 +1350,166 @@ function generateOptionsSelectSettings(min, max, selected, element) {
 }
 
 function resetSettings() {
-    saveSettings(true);
+    if (confirm(some_translated_strings["confirmation-reset-settings"]) === true) saveSettings(true);
 }
 
-function saveSettings(reset = false) {
+function importSettings() {
+    if (document.getElementById("import-message")) document.getElementById("import-message").remove();
+    if (document.getElementById("background-opacity-import")) document.getElementById("background-opacity-import").remove();
+
+    let message_element = document.createElement("div");
+    message_element.id = "import-message";
+    message_element.innerHTML = "<div id='title-export-message' class='title-message'>" + some_translated_strings["title-import-settings"] + "</div> <textarea class='import-export-textarea textarea-" + theme + "' id='json-import'></textarea> <br>";
+    let buttons = document.createElement("div");
+    buttons.className = "message-buttons-container";
+
+    let background_opacity = document.createElement("div");
+    background_opacity.className = "background-opacity";
+    background_opacity.id = "background-opacity-import";
+    document.getElementById("popup-content").append(background_opacity);
+
+    let button_import = document.createElement("button");
+    button_import.onclick = function () {
+        // "addon_info" are useful only to check compatibility (notify incompatibility between different browsers)
+        if (confirm(some_translated_strings["confirmation-import-settings"]) === true) {
+            let error = false;
+            let messageToAdd = "";
+            try {
+                //{ addon_info: {name: -, version: -, store_edition: -, os: -, browser_version: -, browser_name: -, developer: -, manifest_version: -, exported_date : { day: -, month: -, year: - } },
+                //  settings: {"theme": -,"columns": -,"rows": -,"size": -,"font": -,"auto_close": -,"skin_tone": -,"multi_copy": -,"extension_icon": -,"language": -,"space_emoji": -,"insert_directly_emoji": -,"keyboard_shortcut": -}
+                // "most_used_emojis":[{"emoji": -,"occurrences": -,"tooltip": -}, -]
+
+                let jsonToCheck = JSON.parse(document.getElementById("json-import").value);
+                json_is_correct = true;
+
+                if (jsonToCheck["settings"] === undefined) {
+                    error = "true";
+                    messageToAdd += "<br>JSON error: settings not defined";
+                }
+
+                for (let i = 0; i < jsonToCheck["most_used_emojis"].length; i++) {
+                    if (jsonToCheck["most_used_emojis"][i].emoji === undefined || jsonToCheck["most_used_emojis"][i].occurrences === undefined || jsonToCheck["most_used_emojis"][i].tooltip === undefined) {
+                        error = true;
+                        messageToAdd += "<br>JSON error: most_used_emojis in a wrong form";
+                    }
+                }
+
+                if (json_is_correct) {
+                    //Checked the JSON and it's correct
+                    saveSettings(false, jsonToCheck["settings"]);
+
+                    //mostUsedEmojis = jsonToCheck["most_used_emojis"];
+                    for (let i = 0; i < jsonToCheck["most_used_emojis"].length; i++) {
+                        addToMostUsed(jsonToCheck["most_used_emojis"][i].emoji, jsonToCheck["most_used_emojis"][i].tooltip, jsonToCheck["most_used_emojis"][i].occurrences)
+                    }
+
+                    hideImportSettings();
+
+                    showMessageTop(some_translated_strings["data-imported"], false); //correctly imported
+                    loadSettings(true, false);
+                    setPopUpUI();
+                } else {
+                    error = true;
+                    messageToAdd += "";
+                }
+            } catch (e) {
+                error = true;
+                messageToAdd += "<br><br>" + e.toString();
+            }
+            if (error) {
+                showMessageTop(some_translated_strings["error-importing"] + messageToAdd, false); //error occurred
+            }
+        }
+    };
+    button_import.className = "message-button";
+    button_import.textContent = some_translated_strings["button-importing-import-settings"];
+
+    let button_cancel = document.createElement("button");
+    button_cancel.onclick = function () {
+        hideImportSettings();
+    };
+    button_cancel.className = "message-button";
+    button_cancel.textContent = some_translated_strings["button-cancel-hide"];
+
+    buttons.append(button_cancel);
+    buttons.append(button_import);
+
+    message_element.append(buttons)
+    document.getElementById("popup-content").append(message_element);
+}
+
+function exportSettings() {
+    let jsonToExport = {};
+    jsonToExport["addon_info"] = {};
+    jsonToExport["addon_info"]["name"] = addonName;
+    jsonToExport["addon_info"]["version"] = releaseNumber;
+    jsonToExport["addon_info"]["store_edition"] = storeNameAbbr[browserOrChromeIndex];
+    jsonToExport["addon_info"]["os"] = os;
+    jsonToExport["addon_info"]["browser_version"] = browserVersion;
+    jsonToExport["addon_info"]["browser_name"] = browserName;
+    jsonToExport["addon_info"]["developer"] = authorName;
+    jsonToExport["addon_info"]["manifest_version"] = manifestVersion;
+    const currentDate = new Date();
+    let exported_date_json = {
+        "day": currentDate.getDate(), "month": currentDate.getMonth() + 1, "year": currentDate.getFullYear()
+    };
+    jsonToExport["addon_info"]["exported_date"] = exported_date_json;
+    jsonToExport["settings"] = current_json_settings;
+    jsonToExport["most_used_emojis"] = mostUsedEmojis;
+
+    if (document.getElementById("export-message")) document.getElementById("export-message").remove();
+    if (document.getElementById("background-opacity-export")) document.getElementById("background-opacity-export").remove();
+
+    let message_element = document.createElement("div");
+    message_element.id = "export-message";
+    message_element.innerHTML = "<div id='title-export-message' class='title-message'>" + some_translated_strings["title-export-settings"] + "</div> <textarea class='import-export-textarea textarea-" + theme + "' id='json-export'>" + JSON.stringify(jsonToExport) + "</textarea> <br>";
+    let buttons = document.createElement("div");
+    buttons.className = "message-buttons-container";
+
+    let background_opacity = document.createElement("div");
+    background_opacity.className = "background-opacity";
+    background_opacity.id = "background-opacity-export";
+    document.getElementById("popup-content").append(background_opacity);
+
+    let button_copy = document.createElement("button");
+    button_copy.onclick = function () {
+        document.getElementById("json-export").value = JSON.stringify(jsonToExport);
+        document.getElementById("json-export").select();
+        document.execCommand("copy");
+        button_copy.textContent = some_translated_strings["button-copied"];
+        hideExportSettings();
+
+        showMessageTop(some_translated_strings["data-copied-clipboard-exported"], false);
+    };
+    button_copy.className = "message-button";
+    button_copy.textContent = some_translated_strings["button-copy"];
+
+    let button_cancel = document.createElement("button");
+    button_cancel.onclick = function () {
+        hideExportSettings();
+    };
+    button_cancel.className = "message-button";
+    button_cancel.textContent = some_translated_strings["button-cancel-hide"];
+
+    buttons.append(button_cancel);
+    buttons.append(button_copy);
+
+    message_element.append(buttons)
+    document.getElementById("popup-content").append(message_element);
+}
+
+function hideExportSettings() {
+    hideElement("export-message");
+    hideElement("background-opacity-export");
+}
+
+function hideImportSettings() {
+    hideElement("import-message");
+    hideElement("background-opacity-import");
+}
+
+function saveSettings(reset = false, jsonToUse = null) {
+    let jsonSettings = {};
     let theme = document.getElementById("theme-selected").selectedIndex;
     let columns = document.getElementById("columns-selected").selectedIndex;
     let rows = document.getElementById("rows-selected").selectedIndex;
@@ -1227,8 +1522,54 @@ function saveSettings(reset = false) {
     let language = document.getElementById("language-selected").value;
     let spaceEmoji = document.getElementById("space-emoji-selected").selectedIndex;
     let alsoInsertEmoji = document.getElementById("insert-emoji-selected").selectedIndex;
+    let keyboardShortcut = currentShortcut;
 
-    let jsonSettings = {
+    if (jsonToUse != null) {
+        //TODO: set manually previous values with the new ones
+
+        if (jsonToUse["theme"] === undefined) theme = 0;
+        else theme = jsonToUse["theme"];
+
+        if (jsonToUse["columns"] === undefined) columns = 2;
+        else columns = jsonToUse["columns"];
+
+        if (jsonToUse["rows"] === undefined) rows = 2;
+        else rows = jsonToUse["rows"];
+
+        if (jsonToUse["size"] === undefined) emojisSize = 2;
+        else emojisSize = jsonToUse["size"];
+
+        if (jsonToUse["font"] === undefined) fontFamily = 0;
+        else fontFamily = jsonToUse["font"];
+
+        if (jsonToUse["auto_close"] === undefined) autoClosePopup = 1;
+        else autoClosePopup = jsonToUse["auto_close"];
+
+        if (jsonToUse["skin_tone"] === undefined) skinTone = 0;
+        else skinTone = jsonToUse["skin_tone"];
+
+        if (jsonToUse["multi_copy"] === undefined) multiCopy = 1;
+        else multiCopy = jsonToUse["multi_copy"];
+
+        if (jsonToUse["extension_icon"] === undefined) extensionIcon = 0;
+        else extensionIcon = jsonToUse["extension_icon"];
+
+        if (jsonToUse["language"] === undefined) language = 0;
+        else language = jsonToUse["language"];
+
+        if (jsonToUse["space_emoji"] === undefined) spaceEmoji = 0;
+        else spaceEmoji = jsonToUse["space_emoji"];
+
+        if (jsonToUse["insert_directly_emoji"] === undefined) alsoInsertEmoji = 0;
+        else alsoInsertEmoji = jsonToUse["insert_directly_emoji"];
+
+        if (jsonToUse["keyboard_shortcut"] === undefined) keyboardShortcut = "Ctrl+Alt+A";
+        else keyboardShortcut = jsonToUse["keyboard_shortcut"];
+
+        updateShortcut(keyboardShortcut);
+    }
+
+    jsonSettings = {
         "theme": theme,
         "columns": columns,
         "rows": rows,
@@ -1241,11 +1582,12 @@ function saveSettings(reset = false) {
         "language": language,
         "space_emoji": spaceEmoji,
         "insert_directly_emoji": alsoInsertEmoji,
-        "keyboard_shortcut": currentShortcut,
+        "keyboard_shortcut": keyboardShortcut,
     };
     if (reset) {
         jsonSettings = jsonSettingsDefaultValue;
     }
+
     browserAgentSettings.storage.sync.set({"settings": jsonSettings}, function () {
         //hideElement("settings-section");
         number_of_emojis_generations = 0;
@@ -1277,6 +1619,7 @@ function loadSettings(resize_popup_ui = false, focus_search_box = false) {
     browserAgentSettings.storage.sync.get(nameOfSetting, function (value) {
         if (value[nameOfSetting] != undefined) {
             jsonSettings = value[nameOfSetting];
+            current_json_settings = jsonSettings;
         }
 
         setColumnsRowsSettings(emojisSizeElement.value.toLowerCase(), jsonSettings.columns, jsonSettings.rows);
@@ -1314,8 +1657,9 @@ function loadSettings(resize_popup_ui = false, focus_search_box = false) {
             let ctrlAltShiftShortcut = jsonSettings.keyboard_shortcut.substring(0, jsonSettings.keyboard_shortcut.length - 2);
             keyboardShortcutLetterNumber.value = letterNumberShortcut;
             keyboardShortcutCtrlAltShift.value = ctrlAltShiftShortcut;
+            currentShortcut = ctrlAltShiftShortcut + "+" + letterNumberShortcut;
+            updateShortcut(currentShortcut);
         }
-
 
         let languagesTemp = [];
         for (let item in supported_languages) {
@@ -1420,7 +1764,8 @@ function setTheme() {
     removeThemeClassId("rows-selected", "-select");
     removeThemeClassId("emojis-size-selected", "-select");
     removeThemeClassId("save-data-settings", "-btn-settings-button");
-    removeThemeClassId("reset-data-settings", "-btn-settings-button");
+    removeThemeClassId("import-data-settings", "-btn-settings-button");
+    removeThemeClassId("export-data-settings", "-btn-settings-button");
     removeThemeClassId("close-popup-after-copied-selected", "-select");
     removeThemeClassId("multi-copy-selected", "-select");
     removeThemeClassId("skin-tone-selected", "-select");
@@ -1457,7 +1802,8 @@ function setTheme() {
     document.getElementById("font-family-selected").classList.add(theme + "-select");
     document.getElementById("extension-icon-selected").classList.add(theme + "-select");
     document.getElementById("save-data-settings").classList.add(theme + "-btn-settings-button");
-    document.getElementById("reset-data-settings").classList.add(theme + "-btn-settings-button");
+    document.getElementById("import-data-settings").classList.add(theme + "-btn-settings-button");
+    document.getElementById("export-data-settings").classList.add(theme + "-btn-settings-button");
     document.getElementById("donate-paypal-settings").classList.add(theme + "-btn-settings-button");
     document.getElementById("donate-liberapay-settings").classList.add(theme + "-btn-settings-button");
     document.getElementById("translate-settings").classList.add(theme + "-btn-settings-button");
@@ -1477,9 +1823,6 @@ function setTheme() {
         removeThemeClassClass("subsection-settings", n, "-subsection-settings");
         document.getElementsByClassName("subsection-settings")[n].classList.add(theme + "-subsection-settings");
     }
-
-    document.getElementById("save-data-settings").classList.add(theme + "-save-data-settings-button");
-    document.getElementById("reset-data-settings").classList.add(theme + "-reset-data-settings-button");
 }
 
 function removeThemeClassId(id_to_use, details_to_use = "") {
@@ -1709,6 +2052,7 @@ function setLanguageFile() {
 
 function setLanguageUI() {
     document.getElementById("search-bar-input").placeholder = strings["settings"]["placeholder-searchbox"];
+    //document.getElementById("json-import").placeholder = strings["settings"]["placeholder-json-import"];
     document.getElementById("text-click-on-emoji-to-remove").textContent = strings["settings"]["label-click-on-the-emojis"];
     document.getElementById("finish-edit-button").value = strings["settings"]["button-finish"];
     document.getElementById("delete-button").title = strings["settings"]["label-delete-emoji"];
@@ -1752,8 +2096,22 @@ function setLanguageUI() {
     document.getElementById("insert-emoji-yes").textContent = strings["settings"]["button-yes"];
     document.getElementById("insert-emoji-no").textContent = strings["settings"]["button-no"];
     document.getElementById("save-data-settings").value = strings["settings"]["button-save"];
+    some_translated_strings["button-copy"] = strings["settings"]["button-copy"];
+    some_translated_strings["button-copied"] = strings["settings"]["button-copied"];
+    some_translated_strings["button-importing-import-settings"] = strings["settings"]["button-importing-import-settings"];
+    some_translated_strings["button-cancel-hide"] = strings["settings"]["button-cancel-hide"];
+    some_translated_strings["data-copied-clipboard-exported"] = strings["settings"]["data-copied-clipboard-exported"];
+    some_translated_strings["data-imported"] = strings["settings"]["data-imported"];
+    some_translated_strings["error-importing"] = strings["settings"]["error-importing"];
+    document.getElementById("import-data-settings").value = strings["settings"]["button-import-settings"];
+    some_translated_strings["confirmation-import-settings"] = strings["settings"]["confirmation-import-settings"];
+    some_translated_strings["title-import-settings"] = strings["settings"]["title-import-settings"];
+    some_translated_strings["title-export-settings"] = strings["settings"]["title-export-settings"];
+    document.getElementById("export-data-settings").value = strings["settings"]["button-export-settings"];
     document.getElementById("reset-data-settings").value = strings["settings"]["button-reset-settings"];
+    some_translated_strings["confirmation-reset-settings"] = strings["settings"]["confirmation-reset-settings"];
     document.getElementById("clear-data-settings").value = strings["settings"]["button-clear-all-data"];
+    some_translated_strings["confirmation-clear-all-data"] = strings["settings"]["confirmation-clear-all-data"];
     document.getElementById("need-help-settings").value = strings["settings"]["button-need-help"];
     document.getElementById("donate-paypal-settings").value = strings["settings"]["button-paypal"];
     document.getElementById("donate-liberapay-settings").value = strings["settings"]["button-liberapay"];
