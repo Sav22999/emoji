@@ -1,8 +1,8 @@
 var browserAgentSettings = "";
-var browserOrChromeIndex = 2; //TODO: change manually: {0: Firefox, 1: Microsoft Edge, 2: Chrome Web Store}
+var browserOrChromeIndex = 2; //TODO: change manually: {0: Firefox, 1: Microsoft Edge, 2: Chrome Web Store, 3: Opera add-ons}
 if (browserOrChromeIndex === 0) {
     browserAgentSettings = browser;
-} else if (browserOrChromeIndex === 1 || browserOrChromeIndex === 2) {
+} else if (browserOrChromeIndex === 1 || browserOrChromeIndex === 2 || browserOrChromeIndex === 3) {
     browserAgentSettings = chrome;
 }
 var lastRequestNumber = -1;

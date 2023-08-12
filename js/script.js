@@ -43,13 +43,13 @@ const skin_tones = ["", "🏻", "🏼", "🏽", "🏾", "🏿"]; //standard(yell
 
 var mostUsedEmojis = [];
 
-var browserOrChromeIndex = 2; //TODO: change manually: {0: Firefox, 1: Microsoft Edge, 2: Chrome Web Store}
+var browserOrChromeIndex = 2; //TODO: change manually: {0: Firefox, 1: Microsoft Edge, 2: Chrome Web Store, 3: Opera add-ons}
 
 var browserAgentSettings = "";
 var currentOS = "";
 var currentShortcut = "";
 
-const linkReview = ["https://addons.mozilla.org/firefox/addon/emoji-sav/", "https://microsoftedge.microsoft.com/addons/detail/emoji/ejcgfbaipbelddlbokgcfajefbnnagfm", "https://chrome.google.com/webstore/detail/emoji/kjepehkgbooeigeflhiogplnckadlife?hl=it&authuser=0"];
+const linkReview = ["https://addons.mozilla.org/firefox/addon/emoji-sav/", "https://microsoftedge.microsoft.com/addons/detail/emoji/ejcgfbaipbelddlbokgcfajefbnnagfm", "https://chrome.google.com/webstore/detail/emoji/kjepehkgbooeigeflhiogplnckadlife?hl=it&authuser=0", "https://addons.opera.com/en-gb/extensions/details/emoji/"];
 const linkDonate = {
     "paypal": "https://www.paypal.me/saveriomorelli",
     "liberapay": "https://liberapay.com/Sav22999/donate",
@@ -62,7 +62,7 @@ const fontFamily = ["twemoji", "notocoloremoji", "notocoloremoji", "twemoji-fix-
 
 if (browserOrChromeIndex === 0) {
     browserAgentSettings = browser;
-} else if (browserOrChromeIndex === 1 || browserOrChromeIndex === 2) {
+} else if (browserOrChromeIndex === 1 || browserOrChromeIndex === 2 || browserOrChromeIndex === 3) {
     browserAgentSettings = chrome;
 }
 
