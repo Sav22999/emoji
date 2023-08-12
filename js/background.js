@@ -2,7 +2,7 @@ var extension_icon_selected = 0; //extension-icon-1
 var extension_icons = ["extension-icon-1", "extension-icon-2", "extension-icon-3", "extension-icon-4", "extension-icon-5", "extension-icon-6", "extension-icon-7", "extension-icon-8", "extension-icon-9", "extension-icon-10", "extension-icon-11"];
 
 var browserAgentSettings = "";
-var browserOrChromeIndex = 1; //TODO: change manually: {0: Firefox, 1: Microsoft Edge, 2: Chrome Web Store}
+var browserOrChromeIndex = 2; //TODO: change manually: {0: Firefox, 1: Microsoft Edge, 2: Chrome Web Store}
 if (browserOrChromeIndex === 0) {
     browserAgentSettings = browser;
 } else if (browserOrChromeIndex === 1 || browserOrChromeIndex === 2) {
@@ -27,7 +27,7 @@ function loaded() {
 }
 
 function setExtensionIcon(url) {
-    browserAgentSettings.browserAction.setIcon({path: url});
+    //browserAgentSettings.browserAction.setIcon({path: url});
 }
 
 let requestNumber = 0;
@@ -55,7 +55,16 @@ browserAgentSettings.runtime.onMessage.addListener((request) => {
 });
 
 async function injectContentScript(file) {
-    return await browserAgentSettings.tabs.executeScript({file: file, allFrames: true});
+    //return await browserAgentSettings.tabs.executeScript({file: file, allFrames: true});
+    /*
+    return await browserAgentSettings.tabs.query({active: true, currentWindow: true}, function (tabs) {
+        const activeTab = tabs[0];
+        browserAgentSettings.scripting.executeScript({
+            target: {tabId: activeTab.id, allFrames: true},
+            files: [file],
+        });
+    });
+    */
 }
 
 loaded();

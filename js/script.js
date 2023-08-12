@@ -43,7 +43,7 @@ const skin_tones = ["", "🏻", "🏼", "🏽", "🏾", "🏿"]; //standard(yell
 
 var mostUsedEmojis = [];
 
-var browserOrChromeIndex = 1; //TODO: change manually: {0: Firefox, 1: Microsoft Edge, 2: Chrome Web Store}
+var browserOrChromeIndex = 2; //TODO: change manually: {0: Firefox, 1: Microsoft Edge, 2: Chrome Web Store}
 
 var browserAgentSettings = "";
 var currentOS = "";
@@ -92,8 +92,8 @@ const jsonSettingsDefaultValue = {
 const storeNameAbbr = ["MFA", "MEA", "GCWS"];//{MozillaFirefoxAddons, MicrosoftEdgeAddons, GoogleChromeWebStore}
 const releaseNumber = browserAgentSettings.runtime.getManifest().version;
 const addonName = browserAgentSettings.runtime.getManifest().name;
-const browserVersion = browserAgentSettings.runtime.getBrowserInfo().version;
-const browserName = browserAgentSettings.runtime.getBrowserInfo().name;
+const browserVersion = "--"
+const browserName = "--"
 const authorName = browserAgentSettings.runtime.getManifest().author;
 const manifestVersion = browserAgentSettings.runtime.getManifest().manifest_version;
 var os = "";
@@ -155,8 +155,10 @@ function loaded() {
     checkCopiedEmojis();
     showNewsInRelease(false);
 
+    /*
     let shortcuts = browserAgentSettings.commands.getAll();
     shortcuts.then(getCurrentShortcuts);
+    */
 }
 
 function getCurrentShortcuts(commands) {
@@ -166,11 +168,11 @@ function getCurrentShortcuts(commands) {
 }
 
 function updateShortcut(shortcut = null) {
-    if (shortcut !== null) currentShortcut = shortcut;
+    /*if (shortcut !== null) currentShortcut = shortcut;
     const commandName = '_execute_browser_action';
     browserAgentSettings.commands.update({
         name: commandName, shortcut: currentShortcut
-    });
+    });*/
 }
 
 function checkOperatingSystem() {
@@ -2031,7 +2033,7 @@ function searchForTooltip(emojiToSearch) {
 }
 
 function setExtensionIcon(url) {
-    browserAgentSettings.browserAction.setIcon({path: url});
+    //browserAgentSettings.browserAction.setIcon({path: url});
 }
 
 function setLanguageFile() {

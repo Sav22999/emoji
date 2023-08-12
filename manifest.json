@@ -1,5 +1,5 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Emoji",
   "version": "3.19",
   "author": "Saverio Morelli (Sav22999)",
@@ -10,8 +10,8 @@
     "48": "./img/icon-dark-48.png",
     "96": "./img/icon-dark-96.png"
   },
-  "browser_action": {
-    "browser_style": true,
+  "action": {
+    "default_popup": "./popup.html",
     "default_icon": {
       "16": "./img/icon-light-16.png",
       "24": "./img/icon-light-24.png",
@@ -39,21 +39,21 @@
         "light": "./img/icon-light-96.png",
         "size": 96
       }
-    ],
-    "default_title": "Emoji",
-    "default_popup": "./popup.html"
+    ]
   },
   "permissions": [
-    "storage"
+    "storage",
+    "tabs",
+    "scripting"
   ],
   "optional_permissions": [
-    "<all_urls>",
     "activeTab"
   ],
   "background": {
-    "scripts": [
-      "./js/background.js"
-    ],
-    "persistent": true
-  }
+    "service_worker": "./js/background.js",
+    "type": "module"
+  },
+  "host_permissions": [
+    "*://*/*"
+  ]
 }
