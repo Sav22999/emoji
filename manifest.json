@@ -43,8 +43,7 @@
   },
   "permissions": [
     "storage",
-    "tabs",
-    "scripting"
+    "tabs"
   ],
   "optional_permissions": [
     "activeTab"
