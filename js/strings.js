@@ -75,6 +75,7 @@ settings_strings[lang]["button-ko-fi"] = "☕ Ko-fi";
 settings_strings[lang]["button-translate"] = "🌐 Translate";
 settings_strings[lang]["label-made-with-heart-basilicata"] = "Made with <span {{properties}}>💙</span> in Basilicata, Italy";
 settings_strings[lang]["label-language"] = "Language";
+settings_strings[lang]["keyboard-shortcut-to-open-the-popup"] = "Keyboard shortcut to open the popup";
 settings_strings[lang]["label-ctrl-win"] = "Ctrl";
 settings_strings[lang]["label-ctrl-mac"] = "Command ⌘";
 settings_strings[lang]["label-ctrl-linux"] = "Ctrl";
