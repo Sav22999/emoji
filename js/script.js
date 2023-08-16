@@ -797,7 +797,7 @@ function setContextMenu() {
                 }
             }
 
-            if (!(e.target.nodeName == "INPUT" && e.target.type == "search")) {
+            if (!(e.target.nodeName === "INPUT" && e.target.id === "search-bar-input" || e.target.nodeName === "TEXTAREA" && (e.target.id === "json-import" || e.target.id === "json-export"))) {
                 e.preventDefault();
                 //show (default) context menu just for the "search-box"
             }
@@ -1456,7 +1456,7 @@ function exportSettings() {
 
     let message_element = document.createElement("div");
     message_element.id = "export-message";
-    message_element.innerHTML = "<div id='title-export-message' class='title-message'>" + some_translated_strings["title-export-settings"] + "</div> <textarea class='import-export-textarea textarea-" + theme + "' id='json-export'>" + JSON.stringify(jsonToExport) + "</textarea> <br>";
+    message_element.innerHTML = "<div id='title-export-message' class='title-message'>" + some_translated_strings["title-export-settings"] + "</div> <textarea class='import-export-textarea textarea-" + theme + "' id='json-export' readonly>" + JSON.stringify(jsonToExport) + "</textarea> <br>";
     let buttons = document.createElement("div");
     buttons.className = "message-buttons-container";
 
