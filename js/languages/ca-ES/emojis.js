@@ -24,19 +24,25 @@ emojis_language[lang][0] = {};
 emojis_language[lang][2] = {
     '😀': [
         'Grinning Face',
-        ':)',
+        ':grinning:',
+        ':grinning_face:',
+        '::):',
         'Happy Face',
         'Smiley Face'
     ],
     '😃': [
         'Grinning Face with Big Eyes',
-        ':D',
+        ':smiley:',
+        ':grinning_face_with_big_eyes:',
+        '::D:',
         'Happy Face',
         'Smiley Face',
         'Smiling Face with Open Mouth'
     ],
     '😄': [
         'Grinning Face with Smiling Eyes',
+        ':smile:',
+        ':grinning_face_with_smiling_eyes:',
         'Happy Face',
         'Smiley Face',
         'Grinning Face With Squinting Eyes',
@@ -44,12 +50,15 @@ emojis_language[lang][2] = {
     ],
     '😁': [
         'Beaming Face with Smiling Eyes',
+        ':grin:',
+        ':beaming_face_with_smiling_eyes:',
         'Grinning Face with Smiling Eyes'
     ],
     '😆': [
         'Grinning Squinting Face',
-        'xD',
-        '><',
+        ':grinning_squinting_face:',
+        ':xD:',
+        ':><:',
         'Big Grin',
         'Closed-Eyes Smile',
         'Laughing',
@@ -58,6 +67,7 @@ emojis_language[lang][2] = {
     ],
     '😅': [
         'Grinning Face with Sweat',
+        ':happy_sweat:',
         'Exercise',
         'Happy Sweat',
         'Grinning Face With Squinting Eyes and Sweat Drop',
@@ -65,10 +75,12 @@ emojis_language[lang][2] = {
     ],
     '🤣': [
         'ROFL',
+        ':rofl:',
         'Rolling on the Floor Laughing'
     ],
     '😂': [
         'Face with Tears of Joy',
+        ':lol:',
         'Laughing',
         'Laughing Crying',
         'Laughing Tears',
@@ -76,49 +88,60 @@ emojis_language[lang][2] = {
     ],
     '🙂': [
         'Slightly Smiling Face',
-        ':)',
+        ':smile:',
+        '::):',
         'Slightly Happy',
         'This Is Fine'
     ],
     '🙃': [
         'Upside-Down Face',
+        ':upside-down_face:',
+        ':upside_down_face:',
         'Sarcasm',
         'Silly',
         'Upside Down Face'
     ],
     '😉': [
         'Winking Face',
-        ';)',
+        ':winking:',
+        ':;):',
         'Wink',
         'Wink Face',
         'Winky Face'
     ],
     '😊': [
         'Smiling Face with Smiling Eyes',
-        '^^',
+        ':smiling_face:',
+        ':^^:',
         'Happy Face',
         'Smile',
         'Smiley Face'
     ],
     '😇': [
         'Smiling Face with Halo',
+        ':smiling_angel:',
         'Angel',
         'Halo'
     ],
     '🥰': [
         'Smiling Face with Hearts',
+        ':smiling_hearts:',
         'In Love Face',
         'Smiling Face with Smiling Eyes and Three Hearts'
     ],
     '😍': [
         'Smiling Face with Heart-Eyes',
-        '*.*',
+        'love',
+        ':smiling_heart-eyes:',
+        ':smiling_heart_eyes:',
+        ':*.*:',
         'Heart Eyes',
         'Heart Face',
         'Smiling Face with Heart-Shaped Eyes'
     ],
     '🤩': [
         'Star-Struck',
+        ':star_eyes:',
         'Excited',
         'Star Eyes',
         'Starry Eyed',
@@ -128,8 +151,10 @@ emojis_language[lang][2] = {
     ],
     '😘': [
         'Face Blowing a Kiss',
-        ':*',
-        ':-*',
+        'love',
+        ':kissing_face:',
+        '::*:',
+        '::-*:',
         'Blow A Kiss',
         'Blowing Kiss',
         'Kissing',
@@ -137,14 +162,17 @@ emojis_language[lang][2] = {
     ],
     '😗': [
         'Kissing Face',
-        ':*',
-        ':-*',
+        'kiss',
+        ':kissing_face:',
+        '::*:',
+        '::-*:',
         'Duck Face',
         'Kissy Face',
         'Whistling'
     ],
     '☺️': [
         'Smiling Face',
+        ':smiling_face:',
         'Happy Face',
         'Smiley Face',
         'Smiling',
@@ -152,11 +180,13 @@ emojis_language[lang][2] = {
     ],
     '😚': [
         'Kissing Face with Closed Eyes',
+        ':kissing_face:',
         'Kiss Face',
         'Kissy Face'
     ],
     '😙': [
         'Kissing Face with Smiling Eyes',
+        ':kissing_face:',
         'Kiss Face',
         'Kissy',
         'Whistle',
@@ -164,6 +194,7 @@ emojis_language[lang][2] = {
     ],
     '😋': [
         'Face Savoring Food',
+        ':savoring_face:',
         'Goofy',
         'Hungry',
         'Smiling Face Licking Lips',
@@ -172,7 +203,8 @@ emojis_language[lang][2] = {
     ],
     '😛': [
         'Face with Tongue',
-        ':P',
+        ':tongue_face:',
+        '::P:',
         'Cheeky',
         'Tongue Face',
         'Tongue-Out',
@@ -180,7 +212,8 @@ emojis_language[lang][2] = {
     ],
     '😜': [
         'Winking Face with Tongue',
-        ';P',
+        ':winking:',
+        ':;P:',
         'Crazy',
         'Crazy Face',
         'Winking Face With Stuck-Out Tongue',
@@ -188,6 +221,7 @@ emojis_language[lang][2] = {
     ],
     '🤪': [
         'Zany Face',
+        ':crazy_face:',
         'Crazy Eyes',
         'Excited',
         'Wild',
@@ -196,20 +230,24 @@ emojis_language[lang][2] = {
     ],
     '😝': [
         'Squinting Face with Tongue',
-        'xP',
+        ':tongue_face:',
+        ':xP:',
         'Tongue Out',
         'Face With Stuck Out Tongue and Tightly-Closed Eyes',
         'Face with Stuck-Out Tongue and Tightly-Closed Eyes'
     ],
     '🤑': [
         'Money-Mouth Face',
-        ':$',
+        ':money-mouth_face:',
+        ':money_mouth_face:',
+        '::$:',
         'Dollar Sign Eyes',
         'Money Face',
         'Rich'
     ],
     '🤗': [
         'Hugging Face',
+        ':hugging_face:',
         'Hug',
         'Hugging',
         'Hugs',
@@ -217,11 +255,13 @@ emojis_language[lang][2] = {
     ],
     '🤭': [
         'Oops',
+        ':oops:',
         'Face with Hand Over Mouth',
         'Smiling Face with Smiling Eyes and Hand Covering Mouth'
     ],
     '🤫': [
         'Shh',
+        ':shushing_face:',
         'Shush',
         'Shushing Face',
         'Hush',
@@ -232,6 +272,7 @@ emojis_language[lang][2] = {
     ],
     '🤔': [
         'What',
+        ':thinking_face:',
         '?',
         'Hmm',
         'Thinking Face',
@@ -241,6 +282,9 @@ emojis_language[lang][2] = {
     ],
     '🤐': [
         'Zip',
+        'silent',
+        'silence',
+        ':zip_face:',
         'Zipper-Mouth Face',
         'Lips Sealed',
         'Sealed Lips',
@@ -249,6 +293,7 @@ emojis_language[lang][2] = {
     ],
     '🤨': [
         'Face with Raised Eyebrow',
+        ':face_with_raised_eyebrow:',
         'Colbert',
         'The Rock',
         'Face With Raised Eyebrow',
@@ -256,18 +301,21 @@ emojis_language[lang][2] = {
     ],
     '😐': [
         'Neutral Face',
+        ':neutral_face:',
         ':|',
         'Face With Straight Mouth',
         'Straight Faced'
     ],
     '😑': [
         'Expressionless Face',
+        ':expressionless_face:',
         '-_-',
         'Face With Straight Mouth',
         'Straight Face'
     ],
     '😶': [
         'Face Without Mouth',
+        ':face_without_mouth:',
         'Blank Face',
         'Mouthless',
         'Silence',
@@ -275,6 +323,7 @@ emojis_language[lang][2] = {
     ],
     '😏': [
         'Smirking Face',
+        ':smirking_face:',
         'Flirting',
         'Sexual Face',
         'Smug Face',
@@ -282,6 +331,7 @@ emojis_language[lang][2] = {
     ],
     '😒': [
         'Unamused Face',
+        ':unamused_face:',
         'Dissatisfied',
         'Meh',
         'Side-Eye',
@@ -289,10 +339,13 @@ emojis_language[lang][2] = {
     ],
     '🙄': [
         'Face with Rolling Eyes',
+        ':face_with_rolling_eye:',
+        ':eye_roll:',
         'Eye Roll'
     ],
     '😬': [
         'Grimacing Face',
+        ':awkward:',
         'Awkward',
         'Eek',
         'Foot In Mounth',
@@ -301,17 +354,20 @@ emojis_language[lang][2] = {
     ],
     '🤥': [
         'Lying Face',
+        ':lying_face:',
         'Liar',
         'Long Nose',
         'Pinocchio'
     ],
     '😌': [
         'Relieved Face',
+        ':relieved_face:',
         'Content',
         'Pleased'
     ],
     '😔': [
         'Sorry',
+        ':sad_face:',
         'Pensive Face',
         'Pensive',
         'Sad',
@@ -321,48 +377,74 @@ emojis_language[lang][2] = {
     ],
     '😪': [
         'Sleepy Face',
+        ':sleepy_face:',
         'Side-Tear',
         'Snot Bubble'
     ],
     '🤤': [
         'Saliva',
+        ':saliva_face:',
         'Drooling Face',
         'Drool'
     ],
     '😴': [
         'Sleeping Face',
+        ':sleeping_face:',
+        ':zzz:',
         'Zzz',
         'Sleep Face',
         'Snoring',
         'Zzz Face'
     ],
-    '🥱': ['Yawning Face'],
+    '🥱': [
+        'Yawning Face',
+        'tired',
+        ':yawning_face:'
+    ],
     '😷': [
         'Face with Medical Mask',
+        'sick',
+        'doc',
+        ':face_with_medical_mask:',
         'Coronavirus',
         'COVID-19',
         'Mask Face',
-        'Surgical Mask'
+        'Surgical Mask',
+        'ill'
     ],
     '🤒': [
         'Face with Thermometer',
+        ':face_with_thermometer:',
+        ':sick:',
+        ':ill:',
         'Ill',
         'Sick'
     ],
     '🤕': [
         'Face with Head-Bandage',
+        'hospital',
+        'sick',
+        ':face_with_head-bandage:',
+        ':face_with_head_bandage:',
         'Bandaged Head',
         'Clumsy',
-        'Injured'
+        'Injured',
+        'ill'
     ],
     '🤢': [
         'Nauseated Face',
+        'sick',
+        ':nauseated_face:',
         'Disgust',
         'Green Face',
-        'Vomit'
+        'Vomit',
+        ':green:',
+        'ill'
     ],
     '🤮': [
         'Face Vomiting',
+        'sick',
+        ':face_vomiting:',
         'Spew',
         'Bleah',
         'Bleurgh',
@@ -372,86 +454,110 @@ emojis_language[lang][2] = {
         'Spew',
         'Throwing Up',
         'Vomit',
-        'Face with Open Mouth Vomiting'
+        'Face with Open Mouth Vomiting',
+        'ill'
     ],
     '🤧': [
         'Sneezing Face',
-        'Gesundheit'
+        'sick',
+        ':sneezing_face:',
+        'Gesundheit',
+        'ill'
     ],
     '🥵': [
         'Hot Face',
-        'Overheated Face'
+        ':hot_face:',
+        'Overheated Face',
+        ':red:'
     ],
     '🥶': [
         'Cold Face',
+        ':cold_face:',
         'Cool',
         'Chill',
-        'Freezing Face'
+        'Freezing Face',
+        ':blue:'
     ],
     '🥴': [
         'Woozy Face',
+        ':woozy_face:',
         'Drunk Face',
         'Face with Uneven Eyes and Wavy Mouth'
     ],
     '😵': [
         'Dizzy Face',
+        ':dizzy_face:',
         'Cross Eyes Face',
         'Spiral Eyes Face'
     ],
     '🤯': [
         'Exploding Head',
+        'boom',
+        ':exploding_head:',
         'Mind Blown',
         'Shocked Face with Exploding Head'
     ],
     '🤠': [
         'Cowboy Hat Face',
+        ':cowboy_hat_face:',
         'Cowboy',
         'Cowboy Face',
         'Face with Cowboy Hat'
     ],
     '🥳': [
         'Partying Face',
+        ':partying_face:',
         'Party Face',
         'Face with Party Horn and Party Hat'
     ],
     '😎': [
         'Smiling Face with Sunglasses',
+        ':smiling_face_with_sunglasses:',
         'Cool',
         'Mutual Best Friends (Snapchat)',
         'Sunglasses'
     ],
     '🤓': [
         'Nerd Face',
+        ':nerd_face:',
         'Nerdy'
     ],
-    '🧐': ['Face with Monocle'],
+    '🧐': [
+        'Face with Monocle',
+        ':face_with_monocle:'
+    ],
     '😕': [
         'Confused Face',
-        ':/',
-        ':S',
+        ':confused_face:',
+        '::/:',
+        '::S:',
         'Nonplussed',
         'Puzzled'
     ],
     '😟': [
         'Worried Face',
-        ':(',
+        ':worried_face:',
+        '::(:',
         'Sad',
         'Sadface'
     ],
     '🙁': [
         'Slightly Frowning Face',
-        ':(',
+        ':slightly_frowning_face:',
+        '::(:',
         'Slightly Sad'
     ],
     '☹️': [
         'Frowning Face',
-        ':(',
+        ':frowning_face:',
+        '::(:',
         'Megafrown',
         'White Frowning Face'
     ],
     '😮': [
         'Wow',
-        ':O',
+        ':wow:',
+        '::O:',
         'Oh my!',
         'Face with Open Mouth',
         'Open Mouth',
@@ -459,13 +565,15 @@ emojis_language[lang][2] = {
     ],
     '😯': [
         'Hushed Face',
-        ':O',
+        ':husked_face:',
+        '::O:',
         'Surprise',
         'Surprised Face'
     ],
     '😲': [
         'Shocked Face',
-        ':O',
+        ':shocked_face:',
+        '::O:',
         'Wow',
         'Astonished Face',
         'Drunk Face',
@@ -473,7 +581,8 @@ emojis_language[lang][2] = {
     ],
     '😳': [
         'Flushed Face',
-        ':$',
+        ':flushed_face:',
+        '::$:',
         'Blushing Face',
         'Embarrassed',
         'Shame',
@@ -481,7 +590,8 @@ emojis_language[lang][2] = {
     ],
     '🥺': [
         'Pleading Face',
-        ':(',
+        ':pleading_face:',
+        '::(:',
         'Begging',
         'Glossy Eyes',
         'Simp',
@@ -489,17 +599,20 @@ emojis_language[lang][2] = {
     ],
     '😦': [
         'Frowning Face with Open Mouth',
-        'D:',
+        ':frowning_face_with_open_mouth:',
+        ':D::',
         'Yawning'
     ],
     '😨': [
         'Scared',
-        'D:',
+        ':scared:',
+        ':D::',
         'Fearful Face',
         'Surprised'
     ],
     '😰': [
         'Anxious Face with Sweat',
+        ':anxious_face_with_sweat:',
         'Blue Face',
         'Concerned Face',
         'Nervous Face',
@@ -507,18 +620,21 @@ emojis_language[lang][2] = {
     ],
     '😥': [
         'Sad but Relieved Face',
-        ':\'(',
+        ':sad_but_relieved_face:',
+        '::(:',
         'Eyebrow Sweat',
         'Disappointed but Relieved Face'
     ],
     '😢': [
         'Crying Face',
-        ':\'(',
+        ':crying_face:',
+        '::(:',
         'Crying',
         'Tear'
     ],
     '😭': [
         'Loudly Crying Face',
+        ':loudly_crying_face:',
         'Bawling',
         'Crying',
         'Sad Tears',
@@ -526,45 +642,53 @@ emojis_language[lang][2] = {
     ],
     '😱': [
         'Face Screaming in Fear',
+        ':face_screaming_in_fear:',
         'Home Alone',
         'Scream',
         'Screaming Face'
     ],
     '😖': [
         'Confounded Face',
+        ':confounded_face:',
         'Quivering Mouth',
         'Scrunched Face'
     ],
     '😣': [
         'Persevering Face',
+        ':persevering_face:',
         'Helpless Face',
         'Scrunched Eyes'
     ],
     '😞': [
         'Disappointed Face',
-        ':(',
+        ':disappointed_face:',
+        '::(:',
         'Sad',
         'Sadface'
     ],
     '😓': [
         'Downcast Face with Sweat',
+        ':downcast_face_with_sweat:',
         'Hard Work',
         'Sad Sweat Face',
         'Face with Cold Sweat'
     ],
     '😩': [
         'Weary Face',
+        ':weary_face:',
         'Distraught Face',
         'Wailing'
     ],
     '😫': [
         'Tired Face',
+        ':tired_face:',
         'Exhausted',
         'Fed Up',
         'Distraught Face'
     ],
     '😤': [
         'Face with Steam From Nose',
+        ':face_with_steam_from_nose:',
         'Airing of Grievances',
         'Frustrated',
         'Mad Face',
@@ -573,250 +697,373 @@ emojis_language[lang][2] = {
     ],
     '😡': [
         'Pouting Face',
+        'fuck',
+        ':pouting_face:',
         'Angry Face',
         'Grumpy Face',
         'Mad Face',
-        'Red Face'
+        'Red Face',
+        ':red:'
     ],
     '😠': [
         'Angry Face',
+        ':angry_face:',
         'Angry',
         'Grumpy Face'
     ],
     '🤬': [
         'Swearing',
+        'fuck',
+        ':swearing:',
         '@#$%&!',
         'Face with Symbols on Mouth',
         'Cursing',
         'Cussing',
         'Grawlix',
         'Face With Symbols Over Mouth',
-        'Serious Face with Symbols Covering Mouth'
+        'Serious Face with Symbols Covering Mouth',
+        ':red:'
     ],
-    '🥲': ['Smiling Face with Tear'],
+    '🥲': [
+        'Smiling Face with Tear',
+        ':smiling_face_with_tear:'
+    ],
     '😮‍💨': [
         'Face Exhaling',
+        ':face_exhaling:',
         'Sigh'
     ],
     '😵‍💫': [
         'Face with Spiral Eyes',
+        ':face_with_spiral_eyes:',
         'Dizzy Face'
     ],
-    '🥸': ['Disguised Face'],
-    '🫠': ['Melting Face'],
-    '🫢': ['Face with Open Eyes and Hand Over Mouth'],
-    '🫣': ['Face with Peeking Eye'],
+    '😶‍🌫️': [
+        'Face in Clouds',
+        'smoke',
+        ':face_in_clouds:',
+        'Brain Fog',
+        'Forgetful',
+        'Haze'
+    ],
+    '🥸': [
+        'Disguised Face',
+        ':disguised_face:'
+    ],
+    '🫠': [
+        'Melting Face',
+        ':melting_face:'
+    ],
+    '🫢': [
+        'Face with Open Eyes and Hand Over Mouth',
+        ':face_with_open_eyes_and_hand_over_mouth:'
+    ],
+    '🫣': [
+        'Face with Peeking Eye',
+        ':face_with_peeking_eye:'
+    ],
     '🫡': [
         'Saluting Face',
+        ':saluting_face:',
         'Military',
         'Army',
         'RAF',
         'Navy'
     ],
-    '🫥': ['Dotted Line Face'],
-    '🫤': ['Face with Diagonal Mouth'],
-    '🥹': ['Face Holding Back Tears'],
+    '🫥': [
+        'Dotted Line Face',
+        ':dotted_line_face:',
+        ':transparent:'
+    ],
+    '🫤': [
+        'Face with Diagonal Mouth',
+        ':face_with_diagonal_mouth:'
+    ],
+    '🥹': [
+        'Face Holding Back Tears',
+        ':face_holding_back_tears:'
+    ],
+    //"🫨": ["Shaking Face", ":shaking_face:"],
     '😈': [
         'Smiling Face with Horns',
+        ':smiling_face_with_horns:',
         'Devil',
         'Devil Horns',
         'Happy Devil',
         'Purple Devil',
-        'Red Devil'
+        'Red Devil',
+        ':purple:'
     ],
     '👿': [
         'Angry Face with Horns',
+        ':angry_face_with_horns:',
         'Devil',
         'Devil Horns',
         'Purple Devil',
         'Purple Goblin',
         'Sad Devil',
-        'Imp'
+        'Imp',
+        ':purple:'
     ],
     '🤡': [
         'Clown Face',
+        ':clown_face:',
         'Creepy Clown',
         'Evil Clown',
         'Scary Clown'
     ],
     '👽': [
         'Alien',
+        ':alien:',
         'ET'
     ],
     '👾': [
         'Alien Monster',
+        ':alien_monster:',
         'Space Invader',
         'Video Game Monster'
     ],
     '🤖': [
         'Robot',
+        ':robot:',
         'Robot Face'
     ],
     '👹': [
         'Ogre',
+        ':ogre:',
         'Mask Face',
         'Oni',
         'Red Monster',
-        'Japanese Ogre'
+        'Japanese Ogre',
+        ':red:'
     ],
     '👻': [
         'Ghost',
+        ':ghost:',
         'Halloween'
     ],
     '🗣️': [
         'Speaking Head',
+        ':speaking_head:',
         'Mansplaining',
         'Shout',
         'Shouting',
-        'Speaking Head in Silhouette'
+        'Speaking Head in Silhouette',
+        ':blue:'
     ],
     '👤': [
         'Bust in Silhouette',
+        ':bust_in_silhouette:',
         'Shadow',
         'Silhouette',
         'User',
-        'Silhouette of Person'
+        'Silhouette of Person',
+        ':blue:'
     ],
-    '🫂': ['People Hugging'],
+    '🫂': [
+        'People Hugging',
+        ':people_hugging:',
+        ':blue:'
+    ],
     '👥': [
         'Busts in Silhouette',
+        ':busts_in_silhouette:',
         'Shadows',
         'Silhouettes',
         'Users',
-        'Silhouette of Two People'
+        'Silhouette of Two People',
+        ':blue:'
     ]
 };
 /*people*/
 emojis_language[lang][3] = {
     '👶{{skin_tone}}': [
         'Nadó',
+        ':baby:',
         'Child',
         'Toddler'
     ],
     '🧒{{skin_tone}}': [
         'Child',
+        ':child:',
         'Gender Neutral Child'
     ],
-    '👧{{skin_tone}}': ['Girl'],
+    '👧{{skin_tone}}': [
+        'Girl',
+        ':girl:',
+        ':woman:'
+    ],
     '🧑{{skin_tone}}': [
         'Person',
+        ':person:',
         'Gender Neutral Adult',
-        'Adult'
+        'Adult',
+        ':person:'
     ],
     '🧑{{skin_tone}}': [
         'Person: Beard',
+        ':person_beard:',
         'Beard',
         'Bearded Person',
-        'Bearded Person'
+        'Bearded Person',
+        ':person:'
     ],
     '🧑{{skin_tone}}‍🦰': [
         'Person: Red Hair',
+        ':person_red_hair:',
         'Ginger Person',
         'Person Redhead',
-        'Person With Red Hair'
+        'Person With Red Hair',
+        ':person:'
     ],
     '🧑{{skin_tone}}‍🦱': [
         'Person: Curly Hair',
-        'Person With Curly Hair'
+        ':person_curly_hair:',
+        'Person With Curly Hair',
+        ':person:'
     ],
     '🧑{{skin_tone}}‍🦳': [
         'Person: White Hair',
-        'Person With Gray Hair'
+        ':person_white_hair:',
+        'Person With Gray Hair',
+        ':person:'
     ],
     '🧑{{skin_tone}}‍🦲': [
         'Person: Bald',
-        'Person With No Hair'
+        ':person_bald:',
+        'Person With No Hair',
+        ':person:'
     ],
     '👱{{skin_tone}}': [
         'Person: Blond Hair',
-        'Person With Blonde Hair'
+        ':person_blond_hair:',
+        'Person With Blonde Hair',
+        ':person:'
     ],
     '👨{{skin_tone}}': [
         'Man',
-        'Home',
-        'Moustache Man'
+        ':man:',
+        'Male',
+        'Moustache Man',
+        ':man:'
     ],
     '🧔{{skin_tone}}‍♂️': [
         'Man: Beard',
+        ':man_beard:',
         'Beard',
         'Bearded Man',
-        'Bearded Person'
+        'Bearded Person',
+        ':man:'
     ],
     '👨{{skin_tone}}‍🦰': [
         'Man: Red Hair',
+        ':man_red_hair:',
         'Ginger Man',
         'Man Redhead',
-        'Man With Red Hair'
+        'Man With Red Hair',
+        ':man:'
     ],
     '👨{{skin_tone}}‍🦱': [
         'Man: Curly Hair',
-        'Man With Curly Hair'
+        ':man_curly_hair:',
+        'Man With Curly Hair',
+        ':man:'
     ],
     '👨{{skin_tone}}‍🦳': [
         'Man: White Hair',
-        'Man With Gray Hair'
+        ':man_white_hair:',
+        'Man With Gray Hair',
+        ':man:'
     ],
     '👨{{skin_tone}}‍🦲': [
         'Man: Bald',
-        'Man With No Hair'
+        ':man_bald:',
+        'Man With No Hair',
+        ':man:'
     ],
     '👱{{skin_tone}}‍♂️': [
         'Man: Blond Hair',
-        'Man With Blonde Hair'
+        ':man_blond_hair:',
+        'Man With Blonde Hair',
+        ':man:'
     ],
     '👩{{skin_tone}}': [
         'Woman',
-        'Dona',
+        ':woman:',
+        'Female',
         'Lady',
-        'Yellow Woman'
+        'Yellow Woman',
+        ':woman:'
     ],
     '🧔{{skin_tone}}‍♀️': [
         'Woman: Beard',
+        ':woman_beard:',
         'Beard',
-        'Bearded Woman'
+        'Bearded Woman',
+        ':woman:'
     ],
     '👩{{skin_tone}}‍🦰': [
         'Woman: Red Hair',
+        ':woman_red_hair:',
         'Ginger Woman',
         'Woman Redhead',
-        'Woman With Red Hair'
+        'Woman With Red Hair',
+        ':woman:'
     ],
     '👩{{skin_tone}}‍🦱': [
         'Woman: Curly Hair',
-        'Woman With Curly Hair'
+        ':woman_curly_hair:',
+        'Woman With Curly Hair',
+        ':woman:'
     ],
     '👩{{skin_tone}}‍🦳': [
         'Woman: White Hair',
-        'Woman With Gray Hair'
+        ':woman_white_hair:',
+        'Woman With Gray Hair',
+        ':woman:'
     ],
     '👩{{skin_tone}}‍🦲': [
         'Woman: Bald',
-        'Woman With No Hair'
+        ':woman_bald:',
+        'Woman With No Hair',
+        ':woman:'
     ],
     '👱{{skin_tone}}‍♀️': [
         'Woman: Blond Hair',
-        'Woman With Blonde Hair'
-    ],
-    '🧓{{skin_tone}}': [
-        'Older Person',
-        'Gender Neutral Older Adult'
+        ':woman_blond_hair:',
+        'Woman With Blonde Hair',
+        ':woman:'
     ],
     '👴{{skin_tone}}': [
-        'Old Man',
+        'Older Man',
+        ':older_man:',
+        ':older:',
         'Elderly Man',
         'Grandpa',
-        'Older Man'
+        'Old Man',
+        ':man:'
     ],
     '👵{{skin_tone}}': [
-        'Old Woman',
+        'Older Woman',
+        ':older_woman:',
+        ':older:',
         'Elderly Woman',
         'Grandma',
         'Nanna',
         'Old Lady',
-        'Older Woman'
+        'Old Woman',
+        ':woman:'
+    ],
+    '🧓{{skin_tone}}': [
+        'Older Person',
+        ':older_person:',
+        ':older:',
+        'Gender Neutral Older Adult',
+        ':person:'
     ],
     '👼{{skin_tone}}': [
         'Baby Angel',
+        ':baby_angel:',
         'Angel',
         'Cherub',
         'Cupid',
@@ -824,599 +1071,1417 @@ emojis_language[lang][3] = {
     ],
     '👨{{skin_tone}}‍🎄': [
         'Santa Claus',
+        ':santa_claus:',
         'Saint Nicholas',
         'Sinterklaas',
-        'Father Christmas'
+        'Father Christmas',
+        ':man:'
     ],
     '👩{{skin_tone}}‍🎄': [
         'Mrs Claus',
-        'Mother Christmas'
+        ':mrs_claus:',
+        'Mother Christmas',
+        ':woman:'
     ],
     '🧑{{skin_tone}}‍🎄': [
         'Mx Claus',
-        'Person Christmas'
+        ':mx_clause:',
+        'Person Christmas',
+        ':person:'
     ],
-    '🤴{{skin_tone}}': ['Prince'],
+    '🤴{{skin_tone}}': [
+        'Prince',
+        ':price:',
+        ':man:'
+    ],
     '👸{{skin_tone}}': [
         'Princess',
+        ':pricess:',
         'Blonde Girl',
         'Girl With Crown',
-        'Girl With Tiara'
+        'Girl With Tiara',
+        ':woman:'
     ],
-    '🫅{{skin_tone}}': ['Person with Crown'],
+    '🫅{{skin_tone}}': [
+        'Person with Crown',
+        ':person_with_crown:',
+        ':person:'
+    ],
     '👳{{skin_tone}}‍♂️': [
         'Man Wearing Turban',
+        ':man_wearing_turban:',
+        ':wearing_turban:',
         'Arab',
         'Muslim',
         'Sikh',
-        'Turban'
+        'Turban',
+        ':man:'
     ],
     '👳{{skin_tone}}‍♀️': [
         'Woman Wearing Turban',
+        ':woman_wearing_turban:',
+        ':wearing_turban:',
         'Arab',
         'Muslim',
         'Sikh',
-        'Turban'
+        'Turban',
+        ':woman:'
     ],
     '👳{{skin_tone}}': [
         'Person Wearing Turban',
+        ':person_wearing_turban:',
+        ':wearing_turban:',
         'Arab',
         'Muslim',
         'Sikh',
-        'Turban'
+        'Turban',
+        ':person:'
     ],
     '👲{{skin_tone}}': [
         'Person With Skullcap',
+        ':person_with_skullcap:',
         'Asian Man',
         'Man With Chinese Cap',
-        'Man with Gua Pi Mao'
+        'Man with Gua Pi Mao',
+        ':person:'
     ],
     '🧕{{skin_tone}}': [
         'Woman with Headscarf',
+        ':woman_with_headscarf:',
         'Hijab',
-        'Person with Headscarf'
+        'Person with Headscarf',
+        ':woman:'
     ],
     '🤵{{skin_tone}}‍♀️': [
         'Man in Tuxedo',
+        ':man_in_tuxedo:',
+        ':tuxedo:',
         'Groom',
         'Man In Suit',
-        'Wedding'
+        'Wedding',
+        ':man:'
     ],
     '🤵{{skin_tone}}‍♂️': [
         'Woman in Tuxedo',
+        ':woman_in_tuxedo:',
+        ':tuxedo:',
         'Groom',
         'Woman In Suit',
-        'Wedding'
+        'Wedding',
+        ':woman:'
     ],
     '🤵{{skin_tone}}': [
         'Person in Tuxedo',
+        ':person_in_tuxedo:',
+        ':tuxedo:',
         'Groom',
         'Person In Suit',
-        'Wedding'
+        'Wedding',
+        ':person:'
     ],
     '👰{{skin_tone}}‍♂️': [
         'Man with Veil',
+        ':man_with_veil:',
+        ':veil:',
         'Wedding',
         'Bridegroom',
-        'Marriage'
+        'Marriage',
+        ':man:'
     ],
     '👰{{skin_tone}}‍♀️': [
         'Woman with Veil',
+        ':woman_with_veil:',
+        ':veil:',
         'Wedding',
         'Bride',
         'Bride with Veil',
-        'Marriage'
+        'Marriage',
+        ':woman:'
     ],
     '👰{{skin_tone}}': [
         'Person With Veil',
+        ':person_with_veil:',
+        ':veil:',
         'Wedding',
-        'Marriage'
+        'Marriage',
+        ':person:'
     ],
-    '👩{{skin_tone}}‍🍼': ['Woman Feeding Baby'],
-    '👨{{skin_tone}}‍🍼': ['Man Feeding Baby'],
-    '🧑{{skin_tone}}‍🍼': ['Person Feeding Baby'],
-    '🥷': ['Ninja'],
-    '🤰{{skin_tone}}': [
-        'Pregnant Woman',
-        'Pregnancy',
-        'Pregnant Lady'
+    '👨{{skin_tone}}‍🍼': [
+        'Man Feeding Baby',
+        ':man_feeding_baby:',
+        ':feeding_baby:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🍼': [
+        'Woman Feeding Baby',
+        ':woman_feeding_baby:',
+        ':feeding_baby:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🍼': [
+        'Person Feeding Baby',
+        ':person_feeding_baby:',
+        ':feeding_baby:',
+        ':person:'
+    ],
+    '🥷': [
+        'Ninja',
+        ':ninja:'
     ],
     '🫃{{skin_tone}}': [
         'Pregnant Man',
-        'Pregnancy'
+        ':pregnant_man:',
+        ':pregnant:',
+        'Pregnancy',
+        ':man:'
+    ],
+    '🤰{{skin_tone}}': [
+        'Pregnant Woman',
+        ':pregnant_woman:',
+        ':pregnant:',
+        'Pregnancy',
+        'Pregnant Lady',
+        ':woman:'
     ],
     '🫄{{skin_tone}}': [
         'Pregnant Person',
-        'Pregnancy'
+        ':pregnant_person:',
+        ':pregnant:',
+        'Pregnancy',
+        ':person:'
     ],
     '🤱{{skin_tone}}‍': [
         'Breast-Feeding',
+        ':breast-feeding:',
+        ':breast_feeding:',
         'Breastfeeding'
     ],
-    '🦸{{skin_tone}}‍♂️': ['Man Superhero'],
-    '🦸{{skin_tone}}‍♀️': ['Woman Superhero'],
-    '🦸{{skin_tone}}': ['Person Superhero'],
-    '🦹{{skin_tone}}‍♂️': ['Man Supervillain'],
-    '🦹{{skin_tone}}‍♀️': ['Woman Supervillain'],
-    '🦹{{skin_tone}}': ['Person Supervillain'],
+    '🦸{{skin_tone}}‍♂️': [
+        'Man Superhero',
+        ':man_superhero:',
+        ':superhero:',
+        ':man:'
+    ],
+    '🦸{{skin_tone}}‍♀️': [
+        'Woman Superhero',
+        ':woman_superhero:',
+        ':superhero:',
+        ':woman:'
+    ],
+    '🦸{{skin_tone}}': [
+        'Person Superhero',
+        ':person_superhero:',
+        ':superhero:',
+        ':person:'
+    ],
+    '🦹{{skin_tone}}‍♂️': [
+        'Man Supervillain',
+        ':man_supervillain:',
+        ':supervillain:',
+        ':man:'
+    ],
+    '🦹{{skin_tone}}‍♀️': [
+        'Woman Supervillain',
+        ':woman_supervillain:',
+        ':supervillain:',
+        ':woman:'
+    ],
+    '🦹{{skin_tone}}': [
+        'Person Supervillain',
+        ':person_supervillain:',
+        ':supervillain:',
+        ':person:'
+    ],
     '🧙{{skin_tone}}‍♂️': [
         'Man Mage',
+        ':man_mage:',
+        ':mage:',
         'Sorcerer',
-        'Wizard'
+        'Wizard',
+        ':man:'
     ],
     '🧙{{skin_tone}}‍♀️': [
         'Woman Mage',
+        ':woman_mage:',
+        ':mage:',
         'Witch',
         'Sorceress',
-        'Wizard'
+        'Wizard',
+        ':woman:'
     ],
     '🧙{{skin_tone}}': [
         'Person Mage',
+        ':person_mage:',
+        ':mage:',
         'Wizard',
-        ':mage:'
+        ':mage:',
+        ':person:'
     ],
-    '🧚{{skin_tone}}‍♂️': ['Man Fairy'],
-    '🧚{{skin_tone}}‍♀️': ['Woman Fairy'],
-    '🧚{{skin_tone}}': ['Person Fairy'],
+    '🧚{{skin_tone}}‍♂️': [
+        'Man Fairy',
+        ':man_fairy:',
+        ':fairy:',
+        ':man:'
+    ],
+    '🧚{{skin_tone}}‍♀️': [
+        'Woman Fairy',
+        ':woman_fairy:',
+        ':fairy:',
+        ':woman:'
+    ],
+    '🧚{{skin_tone}}': [
+        'Person Fairy',
+        ':person_fairy:',
+        ':fairy:',
+        ':person:'
+    ],
     '🧛{{skin_tone}}‍♂️': [
         'Man Vampire',
-        'Dracula'
+        ':man_vampire:',
+        ':vampire:',
+        'Dracula',
+        ':man:'
     ],
-    '🧛{{skin_tone}}‍♀️': ['Woman Vampire'],
-    '🧛{{skin_tone}}': ['Person Vampire'],
+    '🧛{{skin_tone}}‍♀️': [
+        'Woman Vampire',
+        ':woman_vampire:',
+        ':vampire:',
+        ':woman:'
+    ],
+    '🧛{{skin_tone}}': [
+        'Person Vampire',
+        ':person_vampire:',
+        ':vampire:',
+        ':person:'
+    ],
     '🧜{{skin_tone}}‍♂️': [
         'Merman',
-        'Merboy'
+        ':merman:',
+        'Merboy',
+        ':man:'
     ],
     '🧜{{skin_tone}}‍♀️': [
         'Mermaid',
-        'Mergirl'
+        ':mermaid:',
+        'Mergirl',
+        ':woman:'
     ],
-    '🧜{{skin_tone}}': ['Merperson'],
-    '🧝{{skin_tone}}‍♂️': ['Man Elf'],
-    '🧝{{skin_tone}}‍♀️': ['Woman Elf'],
-    '🧝{{skin_tone}}': ['Person Elf'],
-    '🧞‍♂️': ['Man Genie'],
-    '🧞‍♀️': ['Woman Genie'],
-    '🧞': ['Person Genie'],
+    '🧜{{skin_tone}}': [
+        'Merperson',
+        ':merperson:',
+        ':person:'
+    ],
+    '🧝{{skin_tone}}‍♂️': [
+        'Man Elf',
+        ':man_elf:',
+        ':elf:',
+        ':man:'
+    ],
+    '🧝{{skin_tone}}‍♀️': [
+        'Woman Elf',
+        ':woman_elf:',
+        ':elf:',
+        ':woman:'
+    ],
+    '🧝{{skin_tone}}': [
+        'Person Elf',
+        ':person_elf:',
+        ':elf:',
+        ':person:'
+    ],
+    '🧞‍♂️': [
+        'Man Genie',
+        ':man_genie:',
+        ':genie:',
+        ':man:'
+    ],
+    '🧞‍♀️': [
+        'Woman Genie',
+        ':woman_genie:',
+        ':genie:',
+        ':woman:'
+    ],
+    '🧞': [
+        'Person Genie',
+        ':person_genie:',
+        ':genie:',
+        ':person:'
+    ],
     '🕵️{{skin_tone}}‍♂️': [
         'Man Detective',
+        ':man_detective:',
+        ':detective:',
         'Private Eye',
         'Sleuth',
         'Spy',
         'Man Sleuth',
         'Sleuth or Spy',
         '007',
-        'Inspector'
+        'Inspector',
+        ':man:'
     ],
     '🕵️{{skin_tone}}‍♀️': [
         'Woman Detective',
+        ':woman_detective:',
+        ':detective:',
         'Private Eye',
         'Sleuth',
         'Spy',
         'Woman Sleuth',
         'Sleuth or Spy',
         '007',
-        'Inspector'
+        'Inspector',
+        ':woman:'
     ],
     '🕵{{skin_tone}}': [
         'Person Detective',
+        ':person_detective:',
+        ':detective:',
         'Private Eye',
         'Sleuth',
         'Spy',
         'Person Sleuth',
         'Sleuth or Spy',
         '007',
-        'Inspector'
+        'Inspector',
+        ':person:'
     ],
     '💂{{skin_tone}}‍♂️': [
         'Man: Guard',
+        ':man_guard:',
+        ':guard:',
         'British Guardsman',
-        'Foot Guard'
+        'Foot Guard',
+        ':man:'
     ],
     '💂{{skin_tone}}‍♀️': [
         'Woman: Guard',
+        ':woman_guard:',
+        ':guard:',
         'British Guardsman',
-        'Foot Guard'
+        'Foot Guard',
+        ':woman:'
     ],
     '💂{{skin_tone}}': [
         'Person: Guard',
+        ':person_guard:',
+        ':guard:',
         'British Guardsman',
-        'Foot Guard'
+        'Foot Guard',
+        ':person:'
     ],
     '👮{{skin_tone}}‍♂️': [
         'Police Officer',
+        ':man_police_officer:',
+        ':police_officer:',
         'Cop',
         'Police',
-        'Policeman'
+        'Policeman',
+        ':man:'
     ],
     '👮{{skin_tone}}‍♀️': [
         'Woman Police Officer',
+        ':woman_police_officer:',
+        ':police_officer:',
         'Cop',
         'Police',
-        'Policewoman'
+        'Policewoman',
+        ':woman:'
     ],
     '👮{{skin_tone}}': [
         'Police Officer',
+        ':person_police_officer:',
+        ':police_officer:',
         'Cop',
-        'Police'
+        'Police',
+        ':person:'
     ],
-    '👨{{skin_tone}}‍🚒': ['Man Firefighter'],
-    '👩{{skin_tone}}‍🚒': ['Woman Firefighter'],
-    '🧑{{skin_tone}}‍🚒': ['Person Firefighter'],
-    '👨{{skin_tone}}‍✈️': ['Man Pilot'],
-    '👩{{skin_tone}}‍✈️': ['Woman Pilot'],
-    '🧑{{skin_tone}}‍✈️': ['Person Pilot'],
+    '👨{{skin_tone}}‍🚒': [
+        'Man Firefighter',
+        ':man_firefighter:',
+        ':firefighter:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🚒': [
+        'Woman Firefighter',
+        ':woman_firefighter:',
+        ':firefighter:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🚒': [
+        'Person Firefighter',
+        ':person_firefighter:',
+        ':firefighter:',
+        ':person:'
+    ],
+    '👨{{skin_tone}}‍✈️': [
+        'Man Pilot',
+        ':man_pilot:',
+        ':pilot:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍✈️': [
+        'Woman Pilot',
+        ':woman_pilot:',
+        ':pilot:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍✈️': [
+        'Person Pilot',
+        ':person_pilot:',
+        ':pilot:',
+        ':person:'
+    ],
     '👨{{skin_tone}}‍💻': [
         'Man Technologist',
-        'Man Technologist'
+        ':man_technologist:',
+        ':technologist:',
+        'Man Technologist',
+        ':man:'
     ],
-    '👩{{skin_tone}}‍💻': ['Woman Technologist'],
-    '🧑{{skin_tone}}‍💻': ['Person Technologist'],
+    '👩{{skin_tone}}‍💻': [
+        'Woman Technologist',
+        ':woman_technologist:',
+        ':technologist:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍💻': [
+        'Person Technologist',
+        ':person_technologist:',
+        ':technologist:',
+        ':person:'
+    ],
     '👨{{skin_tone}}‍🎤': [
         'Man Singer',
+        ':man_singer:',
+        ':singer:',
         'Bowie',
-        'Aladdin Sane'
+        'Aladdin Sane',
+        ':man:'
     ],
-    '👩{{skin_tone}}‍🎤': ['Woman Singer'],
-    '🧑{{skin_tone}}‍🎤': ['Person Singer'],
-    '👨{{skin_tone}}‍🎨': ['Man Artist'],
-    '👩{{skin_tone}}‍🎨': ['Woman Artist'],
-    '🧑{{skin_tone}}‍🎨': ['Person Artist'],
-    '👷{{skin_tone}}‍♂️': ['Man Construction Worker'],
-    '👷{{skin_tone}}‍♀️': ['Woman Construction Worker'],
-    '👷{{skin_tone}}': ['Person Construction Worker'],
+    '👩{{skin_tone}}‍🎤': [
+        'Woman Singer',
+        ':woman_singer:',
+        ':singer:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🎤': [
+        'Person Singer',
+        ':person_singer:',
+        ':singer:',
+        ':person:'
+    ],
+    '👨{{skin_tone}}‍🎨': [
+        'Man Artist',
+        ':man_artist:',
+        ':artist:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🎨': [
+        'Woman Artist',
+        ':woman_artist:',
+        ':artist:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🎨': [
+        'Person Artist',
+        ':person_artist:',
+        ':artist:',
+        ':person:'
+    ],
+    '👷{{skin_tone}}‍♂️': [
+        'Man Construction Worker',
+        ':man_contruction_worker:',
+        ':contruction_worker:',
+        ':man:'
+    ],
+    '👷{{skin_tone}}‍♀️': [
+        'Woman Construction Worker',
+        ':woman_contruction_worker:',
+        ':contruction_worker:',
+        ':woman:'
+    ],
+    '👷{{skin_tone}}': [
+        'Person Construction Worker',
+        ':person_contruction_worker:',
+        ':contruction_worker:',
+        ':person:'
+    ],
     '👨{{skin_tone}}‍🚀': [
         'Man Astronaut',
-        'Man Cosmonaut'
+        ':man_astronaut:',
+        ':astronaut:',
+        'Man Cosmonaut',
+        ':man:'
     ],
     '👩{{skin_tone}}‍🚀': [
         'Woman Astronaut',
-        'Woman Cosmonaut'
+        ':woman_astronaut:',
+        ':astronaut:',
+        'Woman Cosmonaut',
+        ':woman:'
     ],
     '🧑{{skin_tone}}‍🚀': [
         'Person Astronaut',
-        'Person Cosmonaut'
+        ':person_astronaut:',
+        ':astronaut:',
+        'Person Cosmonaut',
+        ':person:'
     ],
-    '👨{{skin_tone}}‍🔬': ['Man Scientist'],
-    '👩{{skin_tone}}‍🔬': ['Woman Scientist'],
-    '🧑{{skin_tone}}‍🔬': ['Person Scientist'],
+    '👨{{skin_tone}}‍🔬': [
+        'Man Scientist',
+        ':man_scientist:',
+        ':scientist:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🔬': [
+        'Woman Scientist',
+        ':woman_scientist:',
+        ':scientist:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🔬': [
+        'Person Scientist',
+        ':person_scientist:',
+        ':scientist:',
+        ':person:'
+    ],
     '👨{{skin_tone}}‍💼': [
         'Man Office Worker',
+        ':man_office_worker:',
+        ':office_worker:',
         'CEO',
-        'Businessman'
+        'Businessman',
+        ':man:'
     ],
     '👩{{skin_tone}}‍💼': [
         'Woman Office Worker',
+        ':woman_office_worker:',
+        ':office_worker:',
         'Businesswoman',
-        'CEO'
+        'CEO',
+        ':woman:'
     ],
     '🧑{{skin_tone}}‍💼': [
         'Person Office Worker',
+        ':person_office_worker:',
+        ':office_worker:',
         'Business',
-        'CEO'
+        'CEO',
+        ':person:'
     ],
-    '👨{{skin_tone}}‍🏭': ['Man Factory Worker'],
-    '👩{{skin_tone}}‍🏭': ['Woman Factory Worker'],
-    '🧑{{skin_tone}}‍🏭': ['Person Factory Worker'],
-    '👨{{skin_tone}}‍🔧': ['Man Mechanic'],
-    '👩{{skin_tone}}‍🔧': ['Woman Mechanic'],
-    '🧑{{skin_tone}}‍🔧': ['Person Mechanic'],
+    '👨{{skin_tone}}‍🏭': [
+        'Man Factory Worker',
+        ':man_factory_worker:',
+        ':factory_worker:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🏭': [
+        'Woman Factory Worker',
+        ':woman_factory_worker:',
+        ':factory_worker:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🏭': [
+        'Person Factory Worker',
+        ':person_factory_worker:',
+        ':factory_worker:',
+        ':person:'
+    ],
+    '👨{{skin_tone}}‍🔧': [
+        'Man Mechanic',
+        ':man_mechanic:',
+        ':mechanic:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🔧': [
+        'Woman Mechanic',
+        ':woman_mechanic:',
+        ':mechanic:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🔧': [
+        'Person Mechanic',
+        ':person_mechanic:',
+        ':mechanic:',
+        ':person:'
+    ],
     '👨{{skin_tone}}‍🍳': [
         'Man Cook',
+        ':man_cook:',
+        ':cook:',
         'Man Chef',
-        'Male Chef'
+        'Male Chef',
+        ':man:'
     ],
     '👩{{skin_tone}}‍🍳': [
         'Woman Cook',
+        ':woman_cook:',
+        ':cook:',
         'Woman Chef',
-        'Female Chef'
+        'Female Chef',
+        ':woman:'
     ],
     '🧑{{skin_tone}}‍🍳': [
         'Person Cook',
-        'Person Chef'
+        ':person_cook:',
+        ':cook:',
+        'Person Chef',
+        ':person:'
     ],
-    '👨{{skin_tone}}‍🌾': ['Man Farmer'],
-    '👩{{skin_tone}}‍🌾': ['Woman Farmer'],
-    '🧑{{skin_tone}}‍🌾': ['Person Farmer'],
-    '👨{{skin_tone}}‍‍⚖️': ['Man Judge'],
-    '👩{{skin_tone}}‍‍⚖️': ['Woman Judge'],
-    '🧑{{skin_tone}}‍‍⚖️': ['Person Judge'],
-    '👨{{skin_tone}}‍‍🏫': ['Man Teacher'],
-    '👩{{skin_tone}}‍‍🏫': ['Woman Teacher'],
-    '🧑‍{{skin_tone}}‍‍🏫': ['Person Teacher'],
-    '👨{{skin_tone}}‍🎓': ['Man Student'],
-    '👩{{skin_tone}}‍🎓': ['Woman Student'],
-    '🧑{{skin_tone}}‍🎓': ['Person Student'],
+    '👨{{skin_tone}}‍🌾': [
+        'Man Farmer',
+        ':man_farmer:',
+        ':farmer:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🌾': [
+        'Woman Farmer',
+        ':woman_farmer:',
+        ':farmer:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🌾': [
+        'Person Farmer',
+        ':person_farmer:',
+        ':farmer:',
+        ':person:'
+    ],
+    '👨{{skin_tone}}‍‍⚖️': [
+        'Man Judge',
+        ':man_judge:',
+        ':judge:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍‍⚖️': [
+        'Woman Judge',
+        ':woman_judge:',
+        ':judge:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍‍⚖️': [
+        'Person Judge',
+        ':person_judge:',
+        ':judge:',
+        ':person:'
+    ],
+    '👨{{skin_tone}}‍‍🏫': [
+        'Man Teacher',
+        ':man_teacher:',
+        ':teacher:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍‍🏫': [
+        'Woman Teacher',
+        ':woman_teacher:',
+        ':teacher:',
+        ':woman:'
+    ],
+    '🧑‍{{skin_tone}}‍‍🏫': [
+        'Person Teacher',
+        ':person_teacher:',
+        ':teacher:',
+        ':person:'
+    ],
+    '👨{{skin_tone}}‍🎓': [
+        'Man Student',
+        ':man_student:',
+        ':student:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🎓': [
+        'Woman Student',
+        ':woman_student:',
+        ':student:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🎓': [
+        'Person Student',
+        ':person_student:',
+        ':student:',
+        ':person:'
+    ],
     '👨{{skin_tone}}‍⚕️': [
         'Man Health Worker',
+        ':man_health_worker:',
+        ':health_worker:',
         'Male Doctor',
-        'Male Nurse'
+        'Male Nurse',
+        ':man:'
     ],
     '👩{{skin_tone}}‍⚕️': [
         'Woman Health Worker',
+        ':woman_health_worker:',
+        ':health_worker:',
         'Female Doctor',
-        'Female Nurse'
+        'Female Nurse',
+        ':woman:'
     ],
     '🧑‍{{skin_tone}}‍⚕️': [
         'Person Health Worker',
+        ':person_health_worker:',
+        ':health_worker:',
         'Person Doctor',
-        'Person Nurse'
+        'Person Nurse',
+        ':person:'
     ],
     '🤷{{skin_tone}}‍♂️': [
         'Man Shrugging',
+        ':man_shrugging:',
+        ':shrugging:',
         'idk man',
-        'dunno'
+        'dunno',
+        ':man:'
     ],
     '🤷{{skin_tone}}‍♀️': [
         'Woman Shrugging',
+        ':woman_shrugging:',
+        ':shrugging:',
         'idk woman',
-        'dunno'
+        'dunno',
+        ':woman:'
     ],
     '🤷{{skin_tone}}': [
         'Person Shrugging',
+        ':person_shrugging:',
+        ':shrugging:',
         'idk person',
-        'dunno'
+        'dunno',
+        ':person:'
     ],
-    '🤦{{skin_tone}}‍♂️': ['Man Facepalming'],
-    '🤦{{skin_tone}}‍♀️': ['Woman Facepalming'],
-    '🤦{{skin_tone}}': ['Person Facepalming'],
-    '🙇{{skin_tone}}‍‍♂️': ['Man Bowing'],
-    '🙇{{skin_tone}}‍‍♀️': ['Woman Bowing'],
-    '🙇{{skin_tone}}': ['Person Bowing'],
-    '🧏{{skin_tone}}‍♂️': ['Deaf Man'],
-    '🧏{{skin_tone}}‍‍♀️': ['Deaf Woman'],
-    '🧏{{skin_tone}}': ['Deaf Person'],
+    '🤦{{skin_tone}}‍♂️': [
+        'Man Facepalming',
+        ':man_facepalming:',
+        ':facepalming:',
+        ':man:'
+    ],
+    '🤦{{skin_tone}}‍♀️': [
+        'Woman Facepalming',
+        ':woman_facepalming:',
+        ':facepalming:',
+        ':woman:'
+    ],
+    '🤦{{skin_tone}}': [
+        'Person Facepalming',
+        ':person_facepalming:',
+        ':facepalming:',
+        ':person:'
+    ],
+    '🙇{{skin_tone}}‍‍♂️': [
+        'Man Bowing',
+        ':man_bowing:',
+        ':bowing:',
+        ':man:'
+    ],
+    '🙇{{skin_tone}}‍‍♀️': [
+        'Woman Bowing',
+        ':woman_bowing:',
+        ':bowing:',
+        ':woman:'
+    ],
+    '🙇{{skin_tone}}': [
+        'Person Bowing',
+        ':person_bowing:',
+        ':bowing:',
+        ':person:'
+    ],
+    '🧏{{skin_tone}}‍♂️': [
+        'Deaf Man',
+        ':deaf_man:',
+        ':deaf:',
+        ':man:'
+    ],
+    '🧏{{skin_tone}}‍‍♀️': [
+        'Deaf Woman',
+        ':deaf_woman:',
+        ':deaf:',
+        ':woman:'
+    ],
+    '🧏{{skin_tone}}': [
+        'Deaf Person',
+        ':deaf_person:',
+        ':deaf:',
+        ':person:'
+    ],
     '🙋{{skin_tone}}‍‍♂️': [
         'Man Raising Hand',
-        'Happy Man Raising One Hand'
+        ':man_raising_hand:',
+        'Happy Man Raising One Hand',
+        ':raising_hand:',
+        ':man:'
     ],
     '🙋{{skin_tone}}‍♀️': [
         'Woman Raising Hand',
-        'Happy Woman Raising One Hand'
+        ':woman_raising_hand:',
+        'Happy Woman Raising One Hand',
+        ':raising_hand:',
+        ':woman:'
     ],
     '🙋{{skin_tone}}': [
         'Person Raising Hand',
-        'Happy Person Raising One Hand'
+        ':person_raising_hand:',
+        'Happy Person Raising One Hand',
+        ':raising_hand:',
+        ':person:'
     ],
     '💁{{skin_tone}}‍♂️': [
         'Man Tipping Hand',
-        'Information Desk Man'
+        ':man_tipping_hand:',
+        'Information Desk Man',
+        ':tipping_hand:',
+        ':man:'
     ],
     '💁{{skin_tone}}‍♀️': [
         'Woman Tipping Hand',
-        'Information Desk Woman'
+        ':woman_tipping_hand:',
+        'Information Desk Woman',
+        ':tipping_hand:',
+        ':woman:'
     ],
     '💁{{skin_tone}}': [
         'Person Tipping Hand',
-        'Information Desk Person'
+        ':person_tipping_hand:',
+        'Information Desk Person',
+        ':tipping_hand:',
+        ':person:'
     ],
-    '🙆{{skin_tone}}‍♂️': ['Man Gesturing OK'],
-    '🙆{{skin_tone}}‍♀️': ['Woman Gesturing OK'],
-    '🙆{{skin_tone}}': ['Person Gesturing OK'],
-    '🙅{{skin_tone}}‍♂️': ['Man Gesturing No'],
-    '🙅{{skin_tone}}‍♀️': ['Woman Gesturing No'],
-    '🙅{{skin_tone}}': ['Person Gesturing No'],
-    '🙎{{skin_tone}}‍♂️': ['Man Pouting'],
-    '🙎{{skin_tone}}‍‍♀️': ['Woman Pouting'],
-    '🙎{{skin_tone}}': ['Person Pouting'],
-    '🙍{{skin_tone}}‍♂️': ['Man Frowning'],
-    '🙍{{skin_tone}}‍♀️': ['Woman Frowning'],
-    '🙍{{skin_tone}}': ['Person Frowning'],
-    '🧟‍‍♂️': ['Man Zombie'],
-    '🧟‍‍♀️': ['Woman Zombie'],
-    '🧟': ['Person Zombie'],
-    '🚶{{skin_tone}}‍♂️': ['Man Walking'],
-    '🚶{{skin_tone}}‍♀️': ['Woman Walking'],
-    '🚶{{skin_tone}}': ['Person Walking'],
-    '🧍{{skin_tone}}‍♂️': ['Man Standing'],
-    '🧍{{skin_tone}}‍♀️': ['Woman Standing'],
-    '🧍{{skin_tone}}': ['Person Standing'],
-    '🧎{{skin_tone}}‍♂️': ['Man Kneeling'],
-    '🧎{{skin_tone}}‍♀️': ['Woman Kneeling'],
-    '🧎{{skin_tone}}': ['Person Kneelink'],
-    '👨{{skin_tone}}‍🦯': ['Man with White Cane'],
-    '👩{{skin_tone}}‍🦯': ['Woman with White Cane'],
-    '🧑{{skin_tone}}‍🦯': ['Person with White Cane'],
-    '👨{{skin_tone}}‍🦼': ['Man in Motorized Wheelchair'],
-    '👩{{skin_tone}}‍🦼': ['Woman in Motorized Wheelchair'],
-    '🧑{{skin_tone}}‍🦼': ['Person in Motorized Wheelchair'],
-    '👨{{skin_tone}}‍🦽': ['Man in Manual Wheelchair'],
-    '👩{{skin_tone}}‍🦽': ['Woman in Manual Wheelchair'],
-    '🧑{{skin_tone}}‍🦽': ['Person in Manual Wheelchair'],
-    '👯‍♂️': ['Men with Bunny Ears'],
-    '👯‍♀️': ['Women with Bunny Ears'],
-    '👯': ['People with Bunny Ears'],
+    '🙆{{skin_tone}}‍♂️': [
+        'Man Gesturing OK',
+        ':man_gesturing_ok:',
+        ':gesturing_ok:',
+        ':man:'
+    ],
+    '🙆{{skin_tone}}‍♀️': [
+        'Woman Gesturing OK',
+        ':woman_gesturing_ok:',
+        ':gesturing_ok:',
+        ':woman:'
+    ],
+    '🙆{{skin_tone}}': [
+        'Person Gesturing OK',
+        ':person_gesturing_ok:',
+        ':gesturing_ok:',
+        ':person:'
+    ],
+    '🙅{{skin_tone}}‍♂️': [
+        'Man Gesturing No',
+        ':man_gesturing_no:',
+        ':gesturing_no:',
+        ':man:'
+    ],
+    '🙅{{skin_tone}}‍♀️': [
+        'Woman Gesturing No',
+        ':woman_gesturing_no:',
+        ':gesturing_no:',
+        ':woman:'
+    ],
+    '🙅{{skin_tone}}': [
+        'Person Gesturing No',
+        ':person_gesturing_no:',
+        ':gesturing_no:',
+        ':person:'
+    ],
+    '🙎{{skin_tone}}‍♂️': [
+        'Man Pouting',
+        ':man_pouting:',
+        ':pouting:',
+        ':man:'
+    ],
+    '🙎{{skin_tone}}‍‍♀️': [
+        'Woman Pouting',
+        ':woman_pouting:',
+        ':pouting:',
+        ':woman:'
+    ],
+    '🙎{{skin_tone}}': [
+        'Person Pouting',
+        ':person_pouting:',
+        ':pouting:',
+        ':person:'
+    ],
+    '🙍{{skin_tone}}‍♂️': [
+        'Man Frowning',
+        ':man_frowining:',
+        ':frowining:',
+        ':man:'
+    ],
+    '🙍{{skin_tone}}‍♀️': [
+        'Woman Frowning',
+        ':woman_frowining:',
+        ':frowining:',
+        ':woman:'
+    ],
+    '🙍{{skin_tone}}': [
+        'Person Frowning',
+        ':person_frowining:',
+        ':frowining:',
+        ':person:'
+    ],
+    '🧟‍‍♂️': [
+        'Man Zombie',
+        ':man_zombie:',
+        ':zombie:',
+        ':man:'
+    ],
+    '🧟‍‍♀️': [
+        'Woman Zombie',
+        ':woman_zombie:',
+        ':zombie:',
+        ':woman:'
+    ],
+    '🧟': [
+        'Person Zombie',
+        ':person_zombie:',
+        ':zombie:',
+        ':person:'
+    ],
+    '🚶{{skin_tone}}‍♂️': [
+        'Man Walking',
+        ':man_walking:',
+        ':walking:',
+        ':man:'
+    ],
+    '🚶{{skin_tone}}‍♀️': [
+        'Woman Walking',
+        ':woman_walking:',
+        ':walking:',
+        ':woman:'
+    ],
+    '🚶{{skin_tone}}': [
+        'Person Walking',
+        ':person_walking:',
+        ':walking:',
+        ':person:'
+    ],
+    '🧍{{skin_tone}}‍♂️': [
+        'Man Standing',
+        ':man_standing:',
+        ':standing:',
+        ':man:'
+    ],
+    '🧍{{skin_tone}}‍♀️': [
+        'Woman Standing',
+        ':woman_standing:',
+        ':standing:',
+        ':woman:'
+    ],
+    '🧍{{skin_tone}}': [
+        'Person Standing',
+        ':person_standing:',
+        ':standing:',
+        ':person:'
+    ],
+    '🧎{{skin_tone}}‍♂️': [
+        'Man Kneeling',
+        ':man_kneeling:',
+        ':kneeling:',
+        ':man:'
+    ],
+    '🧎{{skin_tone}}‍♀️': [
+        'Woman Kneeling',
+        ':woman_kneeling:',
+        ':kneeling:',
+        ':woman:'
+    ],
+    '🧎{{skin_tone}}': [
+        'Person Kneelink',
+        ':person_kneeling:',
+        ':kneeling:',
+        ':person:'
+    ],
+    '👨{{skin_tone}}‍🦯': [
+        'Man with White Cane',
+        ':man_with_white_cane:',
+        ':white_cane:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🦯': [
+        'Woman with White Cane',
+        ':woman_with_white_cane:',
+        ':white_cane:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🦯': [
+        'Person with White Cane',
+        ':person_with_white_cane:',
+        ':white_cane:',
+        ':person:'
+    ],
+    '👨{{skin_tone}}‍🦼': [
+        'Man in Motorized Wheelchair',
+        ':man_in_motorized_wheelchair:',
+        ':motorized_wheelchair:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🦼': [
+        'Woman in Motorized Wheelchair',
+        ':woman_in_motorized_wheelchair:',
+        ':motorized_wheelchair:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🦼': [
+        'Person in Motorized Wheelchair',
+        ':person_in_motorized_wheelchair:',
+        ':motorized_wheelchair:',
+        ':person:'
+    ],
+    '👨{{skin_tone}}‍🦽': [
+        'Man in Manual Wheelchair',
+        ':man_manual_wheelchair:',
+        ':manual_wheelchair:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🦽': [
+        'Woman in Manual Wheelchair',
+        ':woman_manual_wheelchair:',
+        ':manual_wheelchair:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🦽': [
+        'Person in Manual Wheelchair',
+        ':person_manual_wheelchair:',
+        ':manual_wheelchair:',
+        ':person:'
+    ],
+    '👯‍♂️': [
+        'Men with Bunny Ears',
+        ':men_with_bunny_hears:',
+        ':bunny_ears:',
+        ':man:'
+    ],
+    '👯‍♀️': [
+        'Women with Bunny Ears',
+        ':women_with_bunny_hears:',
+        ':bunny_ears:',
+        ':woman:'
+    ],
+    '👯': [
+        'People with Bunny Ears',
+        ':people_with_bunny_hears:',
+        ':bunny_ears:',
+        ':person:'
+    ],
     '🕴️{{skin_tone}}': [
         'Person in Suit Levitating',
+        ':person_in_suit_levitating:',
         'Hovering Man',
         'Rude Boy',
         'Walt Jabsco',
-        'Man in Business Suit Levitating'
+        'Man in Business Suit Levitating',
+        ':person:'
     ],
     '🧖{{skin_tone}}‍♂️': [
         'Man in Steamy Room',
-        'Man in Sauna'
+        ':man_in_steamy_room:',
+        ':steamy_room:',
+        'Man in Sauna',
+        ':man:'
     ],
     '🧖{{skin_tone}}‍♀️': [
         'Woman in Steamy Room',
-        'Woman in Sauna'
+        ':woman_in_steamy_room:',
+        ':steamy_room:',
+        'Woman in Sauna',
+        ':woman:'
     ],
     '🧖{{skin_tone}}': [
         'Person in Steamy Room',
-        'Person in Sauna'
+        ':person_in_steamy_room:',
+        ':steamy_room:',
+        'Person in Sauna',
+        ':person:'
     ],
     '👫{{skin_tone}}': [
         'Woman and Man Holding Hands',
+        ':woman_and_man_holding_hands:',
+        ':holding_hands:',
         'Heterosexual Couple',
         'Straight Couple',
-        'Man and Woman Holding Hands'
-    ],
-    '👭{{skin_tone}}': [
-        'Lesbian Couple',
-        'Women Holding Hands',
-        'Two Women Holding Hands'
+        'Man and Woman Holding Hands',
+        ':woman:'
     ],
     '👬{{skin_tone}}': [
         'Men Holding Hands',
+        ':holding_hands:',
+        ':men_holding_hands:',
         'Gay Couple',
-        'Two Men Holding Hands'
+        'Two Men Holding Hands',
+        ':man:'
+    ],
+    '👭{{skin_tone}}': [
+        'Women Holding Hands',
+        ':holding_hands:',
+        ':women_holding_hands:',
+        'Lesbian Couple',
+        'Two Women Holding Hands',
+        ':woman:'
     ],
     '🧑‍🤝‍🧑': [
         'People Holding Hands',
+        ':holding_hands:',
+        ':people_holding_hands:',
         'Two People Holding Hands',
         'Gender Inclusive Couple',
         'Gender Neutral Couple',
-        'Gender Nonconforming Couple'
+        'Gender Nonconforming Couple',
+        ':person:'
     ],
     '👨‍👩‍👦': [
         'Family With Mother, Father and Son',
+        ':family_with_mother_father_and_son:',
         'Family: Man, Woman, Boy'
     ],
     '👨‍👩‍👧': [
         'Family With Mother, Father and Daughter',
+        ':family_with_mother_father_and_daughter:',
         'Family: Man, Woman, Girl'
     ],
     '👨‍👩‍👧‍👦': [
         'Family With Mother, Father, Son and Daughter',
+        ':family_with_mother_father_son_and_daughter:',
         'Family: Man, Woman, Girl, Boy'
     ],
     '👨‍👩‍👦‍👦': [
         'Family With Mother, Father and Two Sons',
+        ':family_with_mother_father_and_two_sons:',
         'Family: Man, Woman, Boy, Boy'
     ],
     '👨‍👩‍👧‍👧': [
         'Family With Mother, Father and Two Daughters',
+        ':family_with_mother_father_and_two_daughters:',
         'Family: Man, Woman, Girl, Girl'
     ],
     '👨‍👨‍👦': [
         'Family With Two Fathers and Son',
-        'Family: Man, Man, Boy'
+        ':family_with_two_fathers_and_son:',
+        'Family: Man, Man, Boy',
+        ':man:'
     ],
     '👨‍👨‍👧': [
         'Family With Two Fathers and Daughter',
-        'Family: Man, Man, Girl'
+        ':family_with_two_fathers_and_daughter:',
+        'Family: Man, Man, Girl',
+        ':man:'
     ],
     '👨‍👨‍👧‍👦': [
         'Family With Two Fathers, Son and Daughter',
-        'Family: Man, Man, Girl, Boy'
+        ':family_with_two_fathers_son_and_daughter:',
+        'Family: Man, Man, Girl, Boy',
+        ':man:'
     ],
     '👨‍👨‍👦‍👦': [
         'Family With Two Fathers and Two Sons',
-        'Family: Man, Man, Boy, Boy'
+        ':family_with_two_fathers_and_two_sons:',
+        'Family: Man, Man, Boy, Boy',
+        ':man:'
     ],
     '👨‍👨‍👧‍👧': [
         'Family With Two Fathers and Two Daughters',
-        'Family: Man, Man, Girl, Girl'
+        ':family_with_two_fathers_and_two_daughters:',
+        'Family: Man, Man, Girl, Girl',
+        ':man:'
     ],
     '👩‍👩‍👦': [
         'Family With Two Mothers and Son',
-        'Family: Woman, Woman, Boy'
+        ':family_with_two_mothers_and_son:',
+        'Family: Woman, Woman, Boy',
+        ':woman:'
     ],
     '👩‍👩‍👧': [
         'Family With Two Mothers and Daughter',
-        'Family: Woman, Woman, Girl'
+        ':family_with_two_mothers_and_daughter:',
+        'Family: Woman, Woman, Girl',
+        ':woman:'
     ],
     '👩‍👩‍👧‍👦': [
         'Family With Two Mothers, Son and Daughter',
-        'Family: Woman, Woman, Girl, Boy'
+        ':family_with_two_mothers_son_and_daughter:',
+        'Family: Woman, Woman, Girl, Boy',
+        ':woman:'
     ],
     '👩‍👩‍👦‍👦': [
         'Family With Two Mothers and Two Sons',
-        'Family: Woman, Woman, Boy, Boy'
+        ':family_with_two_mothers_and_two_sons:',
+        'Family: Woman, Woman, Boy, Boy',
+        ':woman:'
     ],
     '👩‍👩‍👧‍👧': [
         'Family With Two Mothers and Two Daughters',
-        'Family: Woman, Woman, Girl, Girl'
+        ':family_with_two_mothers_and_two_daughters:',
+        'Family: Woman, Woman, Girl, Girl',
+        ':woman:'
     ],
     '👨‍👦': [
         'Family With Father and Son',
-        'Family: Man, Boy'
+        ':family_with_father_and_son:',
+        'Family: Man, Boy',
+        ':man:'
     ],
     '👨‍👧': [
         'Family With Father and Daughter',
-        'Family: Man, Girl'
+        ':family_with_father_and_daughter:',
+        'Family: Man, Girl',
+        ':man:'
     ],
     '👨‍👦‍👦': [
         'Family With Father and Two Sons',
-        'Family: Man, Boy, Boy'
+        ':family_with_father_and_two_sons:',
+        'Family: Man, Boy, Boy',
+        ':man:'
     ],
     '👨‍👧‍👦': [
         'Family With Father, Son and Daughter',
-        'Family: Man, Girl, Boy'
+        ':family_with_father_son_and_daughter:',
+        'Family: Man, Girl, Boy',
+        ':man:'
     ],
     '👨‍👧‍👧': [
         'Family With Father and Two Daughters',
-        'Family: Man, Girl, Girl'
+        ':family_with_father_and_two_daughters:',
+        'Family: Man, Girl, Girl',
+        ':man:'
     ],
     '👩‍👦': [
         'Family With Mother and Son',
-        'Family: Woman, Boy'
+        ':family_with_mother_and_son:',
+        'Family: Woman, Boy',
+        ':woman:'
     ],
     '👩‍👧': [
         'Family With Mother and Daughter',
-        'Family: Woman, Girl'
+        ':family_with_mother_and_daughter:',
+        'Family: Woman, Girl',
+        ':woman:'
     ],
     '👩‍👦‍👦': [
         'Family With Mother and Two Sons',
-        'Family: Woman, Boy, Boy'
+        ':family_with_mother_and_two_sons:',
+        'Family: Woman, Boy, Boy',
+        ':woman:'
     ],
     '👩‍👧‍👦': [
         'Family With Mother, Son and Daughter',
-        'Family: Woman, Girl, Boy'
+        ':family_with_mother_son_and_daughter:',
+        'Family: Woman, Girl, Boy',
+        ':woman:'
     ],
     '👩‍👧‍👧': [
         'Family With Mother and Two Daughters',
-        'Family: Woman, Girl, Girl'
+        ':family_with_mother_and_two_daughters:',
+        'Family: Woman, Girl, Girl',
+        ':woman:'
     ],
     '💑{{skin_tone}}': [
-        'Couple with Heart',
+        'Couple With Heart',
+        ':couple_with_heart:',
         'Couple In Love',
         'Loving Couple',
-        'Gender Neutral Couple'
+        'Gender Neutral Couple',
+        ':person:'
     ],
     '👩‍❤️‍👨': [
         'Man and Woman With Heart',
+        ':man_and_woman_with_heart:',
         'Couple In Love',
         'Loving Couple',
         'Couple With Heart'
     ],
     '👨‍❤️‍👨': [
         'Two Men With Heart',
-        'Couple with Heart: Man, Man'
+        ':two_men_with_heart:',
+        'Couple with Heart: Man, Man',
+        ':man:'
     ],
     '👩‍❤️‍👩': [
         'Two Women With Heart',
-        'Couple with Heart: Woman, Woman'
+        ':two_women_with_heart:',
+        'Couple with Heart: Woman, Woman',
+        ':woman:'
     ],
     '💏{{skin_tone}}': [
         'Couple Kissing',
+        ':couple_kissing:',
         'Kiss',
-        'Gender Neutral Couple Kissing'
+        'Gender Neutral Couple Kissing',
+        ':person:'
     ],
-    '👩‍❤️‍💋‍👨': ['Man and Woman Kissing'],
+    '👩‍❤️‍💋‍👨': [
+        'Man and Woman Kissing',
+        ':man_and_woman_kissing:'
+    ],
     '👨‍❤️‍💋‍👨': [
         'Two Men Kissing',
-        'Man and Man Kissing'
+        ':two_men_kissing:',
+        'Man and Man Kissing',
+        ':man:'
     ],
     '👩‍❤️‍💋‍👩': [
         'Two Women Kissing',
-        'Woman and Woman Kissing'
+        ':two_women_kissing:',
+        'Woman and Woman Kissing',
+        ':woman:'
     ],
-    '💆{{skin_tone}}‍♂️': ['Man Getting Head Massage'],
-    '💆{{skin_tone}}‍♀️': ['Woman Getting Head Massage'],
-    '💆{{skin_tone}}': ['Person Getting Head Massage'],
-    '💇{{skin_tone}}‍♂️': ['Man Getting Haircut'],
-    '💇{{skin_tone}}‍♀️': ['Woman Getting Haircut'],
-    '💇{{skin_tone}}': ['Person Getting Haircut'],
+    '💆{{skin_tone}}‍♂️': [
+        'Man Getting Head Massage',
+        ':man_getting_head_massage:',
+        ':getting_head_massage:',
+        ':man:'
+    ],
+    '💆{{skin_tone}}‍♀️': [
+        'Woman Getting Head Massage',
+        ':woman_getting_head_massage:',
+        ':getting_head_massage:',
+        ':woman:'
+    ],
+    '💆{{skin_tone}}': [
+        'Person Getting Head Massage',
+        ':person_getting_head_massage:',
+        ':getting_head_massage:',
+        ':person:'
+    ],
+    '💇{{skin_tone}}‍♂️': [
+        'Man Getting Haircut',
+        ':man_getting_haircut:',
+        ':getting_haircut:',
+        ':man:'
+    ],
+    '💇{{skin_tone}}‍♀️': [
+        'Woman Getting Haircut',
+        ':woman_getting_haircut:',
+        ':getting_haircut:',
+        ':woman:'
+    ],
+    '💇{{skin_tone}}': [
+        'Person Getting Haircut',
+        ':person_getting_haircut:',
+        ':getting_haircut:',
+        ':person:'
+    ],
     '🛌{{skin_tone}}': [
         'Sleeping Accommodation',
+        'tired',
+        ':sleeping_accommodation:',
         'Person in Bed',
         'Person Sleeping'
     ],
-    '🧌': ['Troll'],
+    '🛀{{skin_tone}}': [
+        'Person Taking Bath',
+        'Bathing',
+        ':bath:',
+        ':person_taking_bath:',
+        'Hot Bath',
+        'Person Taking a Bath',
+        'Bath',
+        'Shower',
+        'Soap'
+    ],
+    '🧌': [
+        'Troll',
+        ':troll:'
+    ],
     '👺': [
         'Goblin',
+        ':goblin:',
         'Long Nose Face',
         'Red Mask',
         'Tengu',
@@ -1427,7 +2492,9 @@ emojis_language[lang][3] = {
 emojis_language[lang][4] = {
     '😺': [
         'Grinning Cat',
-        ':)',
+        ':happy_cat:',
+        ':smiling_cat:',
+        '::):',
         'Happy Cat',
         'Smiling Cat',
         'Happy Cat Face',
@@ -1435,39 +2502,45 @@ emojis_language[lang][4] = {
     ],
     '😸': [
         'Grinning Cat with Smiling Eyes',
-        ':D',
+        ':grinning_cat:',
+        '::D:',
         'Grinning Cat',
         'Happy Cat',
         'Grinning Cat Face'
     ],
     '😹': [
         'Cat with Tears of Joy',
-        ':\')',
+        ':laughing_cat:',
+        '::):',
         'Happy Tears Cat',
         'Laughing Cat'
     ],
     '😻': [
         'Smiling Cat with Heart-Eyes',
-        '*.*',
+        ':heart_eyes_cat:',
+        ':*.*:',
         'Heart Eyes Cat',
         'Loving Cat',
         'Smiling Cat Face with Heart-Shaped Eyes'
     ],
     '😼': [
         'Cat with Wry Smile',
+        ':cat_with_wry_smile:',
         'Smirking Cat',
         'Smirking Cat Face',
         'Cat Face with Wry Smile'
     ],
     '😽': [
         'Kissing Cat',
-        ':*',
+        ':kissing_cat:',
+        '::*:',
         'Kissing Cat Face',
         'Kissing Cat Face with Closed Eyes'
     ],
     '🙀': [
         'Weary Cat',
-        ':O',
+        ':weary_cat:',
+        '::O:',
         'Scared Cat',
         'Screaming Cat',
         'Cat Face Screaming in Fear',
@@ -1475,61 +2548,84 @@ emojis_language[lang][4] = {
     ],
     '😿': [
         'Crying Cat',
-        ':\'(',
+        ':crying_cat:',
+        '::(:',
         'Sad Cat',
         'Crying Cat Face'
     ],
     '😾': [
         'Pouting Cat',
+        ':pouting_cat:',
         'Grumpy Cat',
         'Pouting Cat Face'
     ],
     '🙈': [
-        'Monkey',
         'See-No-Evil Monkey',
+        'Monkey',
+        ':see-no-evil_mokey:',
+        ':see_no_evil_mokey:',
+        ':monkey:',
         'Mizaru',
         'Monkey Covering Eyes'
     ],
     '🙉': [
-        'Monkey',
         'Hear-No-Evil Monkey',
+        'Monkey',
+        ':hear-no-evil_monkey:',
+        ':hear_no_evil_monkey:',
+        ':monkey:',
         'Kikazaru',
         'Monkey Covering Ears'
     ],
     '🙊': [
-        'Monkey',
         'Speak-No-Evil Monkey',
+        'Monkey',
+        ':speak-no-evil_monkey:',
+        ':speak_no_evil_monkey:',
+        ':monkey:',
         'Iwazaru',
         'Monkey Covering Mouth',
         'No Speaking'
     ],
     '🐵': [
-        'Monkey',
         'Monkey Face',
+        ':monkey_face:',
+        'Monkey',
         'Monkey Head'
     ],
     '🐒': [
         'Monkey',
+        ':monkey:',
         'Cheeky Monkey'
     ],
-    '🦍': ['Gorilla'],
+    '🦍': [
+        'Gorilla',
+        ':gorilla:'
+    ],
     '🐶': [
         'Dog Face',
+        ':dog_face:',
         'Dog',
         'Puppy'
     ],
     '🐕': [
         'Dog',
+        ':dog:',
         'Doggo',
         'Akita Inu'
     ],
     '🦮': [
         'Seeing Eye Dog',
+        ':seeing_eye_dog:',
         'Guide Dog'
     ],
-    '🐕‍🦺': ['Service Dog'],
+    '🐕‍🦺': [
+        'Service Dog',
+        ':service_dog:'
+    ],
     '🐩': [
         'Poodle',
+        ':poodle:',
         'Dog',
         'Miniature Poodle',
         'Standard Poodle',
@@ -1537,73 +2633,100 @@ emojis_language[lang][4] = {
     ],
     '🐺': [
         'Wolf',
-        'Wolf Face'
+        ':wolf:',
+        'Wolf Face',
+        ':gray:',
+        ':grey:'
     ],
     '🦊': [
         'Fox',
-        'Fox Face'
+        ':fox:',
+        'Fox Face',
+        ':orange:'
     ],
-    '🦝': ['Raccoon'],
+    '🦝': [
+        'Raccoon',
+        ':raccoon:'
+    ],
     '🐱': [
         'Cat Face',
+        ':cat_face:',
         ':3',
         'Kitten',
         'Kitty'
     ],
     '🐈': [
         'Cat',
+        ':cat:',
         'Domestic Cat',
         'Feline',
         'Housecat'
     ],
-    '🐈‍⬛': ['Black Cat'],
+    '🐈‍⬛': [
+        'Black Cat',
+        ':black_cat:',
+        ':black:'
+    ],
     '🦁': [
         'Lion',
+        ':lion:',
         'Lion Face'
     ],
     '🐯': [
         'Tiger Face',
+        ':tiger_face:',
         'Cute Tiger'
     ],
     '🐅': [
         'Tiger',
+        ':tiger:',
         'Bengal Tiger'
     ],
     '🐆': [
         'Leopard',
+        ':leopard:',
         'African Leopard',
         'Jaguar'
     ],
     '🐴': [
         'Horse Face',
+        ':horse_face:',
         'Horse Head'
     ],
     '🐎': [
         'Horse',
+        ':horse:',
         'Galloping Horse',
         'Racehorse'
     ],
     '🦄': [
         'Unicorn',
+        ':unicorn:',
         'Unicorn Face'
     ],
     '🦓': [
         'Zebra',
-        'Zebra Face'
+        ':zebra:',
+        'Zebra Face',
+        ':white:',
+        ':black:'
     ],
     '🦌': [
         'Deer',
+        ':deer:',
         'Buck',
         'Reindeer',
         'Stag'
     ],
     '🐮': [
         'Cow Face',
+        ':cow_face:',
         'Cow',
         'Happy Cow'
     ],
     '🐂': [
         'Ox',
+        ':ox:',
         'Bull',
         'Bullock',
         'Oxen',
@@ -1611,396 +2734,645 @@ emojis_language[lang][4] = {
     ],
     '🐃': [
         'Water Buffalo',
+        ':water_buffalo:',
         'Buffalo',
         'Domestic Water Buffalo'
     ],
     '🐄': [
         'Cow',
+        ':cow:',
         'Dairy Cow'
     ],
     '🐷': [
         'Pig Face',
+        ':pig_fase:',
         'Pig',
-        'Pig Head'
+        'Pig Head',
+        ':pink:'
     ],
     '🐖': [
         'Pig',
+        ':pig:',
         'Hog',
-        'Sow'
+        'Sow',
+        ':pink:'
     ],
     '🐗': [
         'Boar',
+        ':boar:',
         'Warthog',
         'Wild Boar',
         'Wild Pig'
     ],
-    '🐽': ['Pig Nose'],
+    '🐽': [
+        'Pig Nose',
+        ':pig_nose:'
+    ],
     '🐏': [
         'Ram',
+        ':ram:',
         'Sheep'
     ],
     '🐑': [
         'Ewe',
+        ':ewe:',
         'Lamb',
         'Sheep'
     ],
-    '🐐': ['Goat'],
+    '🐐': [
+        'Goat',
+        ':goat:'
+    ],
     '🐪': [
         'Camel',
+        ':camel:',
         'Arabian Camel',
         'Dromedary Camel',
         'One-Bump Camel'
     ],
     '🐫': [
         'Two-Hump Camel',
+        ':two-hump_camel:',
+        ':two_hump_camel:',
         'Asian Camel',
         'Bactrian Camel'
     ],
     '🦙': [
         'Llama',
+        ':llama:',
         'Alpaca'
     ],
     '🦒': [
         'Giraffe',
+        ':giraffe:',
         'Giraffe Face'
     ],
-    '🐘': ['Elephant'],
+    '🐘': [
+        'Elephant',
+        ':elephant:'
+    ],
     '🦏': [
         'Rhinoceros',
+        ':rhinoceros:',
         'Rhino'
     ],
     '🦛': [
         'Hippopotamus',
+        ':hippopotamus:',
         'Hippo'
     ],
     '🐭': [
         'Mouse Face',
+        ':mouse_face:',
         'Mouse'
     ],
     '🐁': [
         'Mouse',
+        ':mouse:',
         'Dormouse',
         'Rodent',
         'Mice'
     ],
     '🐀': [
         'Rat',
+        ':rat:',
         'Rodent'
     ],
     '🐹': [
         'Hamster',
+        ':hamster:',
         'Hamster Face'
     ],
     '🐰': [
         'Rabbit Face',
+        ':rabbit_face:',
         'Easter Bunny'
     ],
     '🐇': [
         'Rabbit',
         'Bunny',
+        ':rabbit:',
         'Bunny Rabbit'
     ],
     '🐿️': [
         'Chipmunk',
+        ':chipmunk:',
         'Squirrel'
     ],
-    '🦔': ['Hedgehog'],
+    '🦔': [
+        'Hedgehog',
+        ':hedgehog:'
+    ],
     '🦇': [
         'Bat',
-        'Batman'
+        ':bat:',
+        'Batman',
+        ':black:'
     ],
     '🐻': [
         'Bear',
+        ':bear:',
         'Bear Face',
-        'Teddy Bear'
+        'Teddy Bear',
+        ':brown:'
     ],
     '🐨': [
         'Koala',
+        ':koala:',
         'Koala Face'
     ],
     '🐼': [
         'Panda',
+        ':panda:',
         'Panda Face'
     ],
     '🦘': [
         'Kangaroo',
+        ':kangaroo:',
         'Roo'
     ],
-    '🦡': ['Badger'],
+    '🦡': [
+        'Badger',
+        ':badger:'
+    ],
     '🦃': [
         'Turkey',
+        ':turkey:',
         'Thanksgiving Turkey',
         'Wild Turkey'
     ],
     '🐔': [
         'Chicken',
+        ':chicken:',
         'Hen'
     ],
     '🐓': [
         'Cock',
+        ':cock:',
         'Rooster',
         'Cockerel'
     ],
     '🐣': [
         'Hatching Chick',
+        ':hatching_chick:',
         'Baby Chicken',
-        'Chick Hatching'
+        'Chick Hatching',
+        ':yellow:'
     ],
     '🐤': [
         'Baby Chick',
-        'Yellow Bird'
+        ':baby_chick:',
+        'Yellow Bird',
+        ':yellow:'
     ],
     '🐥': [
         'Front-Facing Baby Chick',
+        ':front_baby_chick:',
         'Baby Chick',
-        'Standing Chick'
+        'Standing Chick',
+        ':yellow:'
     ],
-    '🐦': ['Bird'],
-    '🐧': ['Penguin'],
+    '🐦': [
+        'Bird',
+        ':bird:'
+    ],
+    '🐧': [
+        'Penguin',
+        ':penguin:'
+    ],
     '🕊️': [
         'Dove',
-        'Dove of Peace'
+        ':Dove:',
+        'Dove of Peace',
+        ':white:'
     ],
     '🦅': [
         'Eagle',
+        ':Eagle:',
         'Bald Eagle'
     ],
-    '🦆': ['Duck'],
-    '🦢': ['Swan'],
-    '🦉': ['Owl'],
-    '🦚': ['Peacock'],
-    '🦜': ['Parrot'],
+    '🦆': [
+        'Duck',
+        ':Duck:'
+    ],
+    '🦢': [
+        'Swan',
+        ':swan:',
+        ':white:'
+    ],
+    '🦉': [
+        'Owl',
+        ':owl:',
+        ':brown:'
+    ],
+    '🦚': [
+        'Peacock',
+        ':peacock:'
+    ],
+    '🦜': [
+        'Parrot',
+        ':parrot:'
+    ],
     '🐸': [
         'Frog',
+        ':frog:',
         'Toad',
-        'Frog Face'
+        'Frog Face',
+        ':green:'
     ],
     '🐊': [
         'Crocodile',
+        ':crocodile:',
         'Alligator',
-        'Croc'
+        'Croc',
+        ':green:'
     ],
     '🐢': [
         'Turtle',
-        'Tortoise'
+        ':turtle:',
+        'Tortoise',
+        ':green:'
     ],
     '🦎': [
         'Lizard',
-        'Gecko'
+        ':lizard:',
+        'Gecko',
+        ':green:'
     ],
     '🐍': [
         'Snake',
+        ':snake:',
         'Serpent'
     ],
     '🐲': [
         'Dragon Face',
+        ':dragon_face:',
         'Dragon Head'
     ],
-    '🐉': ['Dragon'],
+    '🐉': [
+        'Dragon',
+        ':dragon:'
+    ],
     '🦕': [
         'Sauropod',
+        ':sauropod:',
         'Brachiosaurus',
         'Brontosaurus',
         'Dinosaur'
     ],
     '🦖': [
         'T-Rex',
+        ':t-rex:',
+        ':t_rex:',
         'Tyrannosaurus Rex'
     ],
     '🐳': [
         'Spouting Whale',
+        ':spouting_whale:',
         'Cute Whale'
     ],
-    '🐋': ['Whale'],
-    '🐬': ['Dolphin'],
+    '🐋': [
+        'Whale',
+        ':whale:'
+    ],
+    '🐬': [
+        'Dolphin',
+        ':dolphin:'
+    ],
     '🐟': [
         'Fish',
+        ':fish:',
         'Freshwater Fish'
     ],
     '🐠': [
         'Tropical Fish',
+        ':tropical_fish:',
         'Fish',
         'Yellow-Blue Fish'
     ],
     '🐡': [
         'Blowfish',
+        ':blowfish:',
         'Fugu',
         'Pufferfish'
     ],
     '🦈': [
         'Shark',
+        ':shark:',
         'Great White Shark'
     ],
-    '🐙': ['Octopus'],
+    '🐙': [
+        'Octopus',
+        ':octopus:'
+    ],
     '🐚': [
         'Spiral Shell',
+        ':spiral_shell:',
         'Seashell',
         'Shell'
     ],
     '🐌': [
         'Snail',
+        ':snail:',
         'Slug',
         'Garden Snail'
     ],
-    '🦋': ['Butterfly'],
+    '🦋': [
+        'Butterfly',
+        ':butterfly:'
+    ],
     '🐛': [
         'Bug',
+        ':bug:',
         'Caterpillar',
         'Insect'
     ],
     '🐜': [
         'Ant',
+        ':ant:',
         'Bug',
         'Insect'
     ],
     '🐝': [
         'Honeybee',
+        ':honeybee:',
         'Bee',
-        'Bumblebee'
+        'Bumblebee',
+        ':yellow:',
+        ':black:'
     ],
     '🐞': [
         'Lady Beetle',
+        ':lady_beetle:',
         'Ladybird',
         'Ladybug',
         'Bug'
     ],
     '🦗': [
         'Cricket',
+        ':cricket:',
         'Grasshopper'
     ],
-    '🕷️': ['Spider'],
-    '🦂': ['Scorpion'],
-    '🦟': ['Mosquito'],
-    '🦀': ['Crab'],
-    '🦞': ['Lobster'],
+    '🕷️': [
+        'Spider',
+        ':spider:'
+    ],
+    '🦂': [
+        'Scorpion',
+        ':scorpion:'
+    ],
+    '🦟': [
+        'Mosquito',
+        ':mosquito:',
+        ':black:'
+    ],
+    '🦀': [
+        'Crab',
+        ':crab:',
+        ':red:'
+    ],
+    '🦞': [
+        'Lobster',
+        ':lobster:'
+    ],
     '🦐': [
         'Shrimp',
+        ':shrimp:',
         'Prawn'
     ],
-    '🦑': ['Squid'],
-    '🦧': ['Orangutan'],
-    '🦥': ['Sloth'],
-    '🦦': ['Otter'],
-    '🦨': ['Skunk'],
-    '🦬': ['Bison'],
-    '🦣': ['Mammoth'],
-    '🦫': ['Beaver'],
-    '🐻‍❄️': ['Polar Bear'],
-    '🦤': ['Dodo'],
-    '🦭': ['Seal'],
-    '🪲': ['Beetle'],
-    '🪳': ['Cockroach'],
-    '🪰': ['Fly'],
-    '🪱': ['Worm'],
-    '🦩': ['Flamingo'],
+    '🦑': [
+        'Squid',
+        ':squid:'
+    ],
+    '🦧': [
+        'Orangutan',
+        ':orangutan:'
+    ],
+    '🦥': [
+        'Sloth',
+        ':sloth:'
+    ],
+    '🦦': [
+        'Otter',
+        ':otter:'
+    ],
+    '🦨': [
+        'Skunk',
+        ':skunk:'
+    ],
+    '🦬': [
+        'Bison',
+        ':bison:'
+    ],
+    '🦣': [
+        'Mammoth',
+        ':mammoth:',
+        ':brown:'
+    ],
+    '🦫': [
+        'Beaver',
+        ':beaver:'
+    ],
+    '🐻‍❄️': [
+        'Polar Bear',
+        ':polar_bear:',
+        ':white:'
+    ],
+    '🦤': [
+        'Dodo',
+        ':dodo:'
+    ],
+    '🦭': [
+        'Seal',
+        ':seal:'
+    ],
+    '🪲': [
+        'Beetle',
+        ':beetle:'
+    ],
+    '🪳': [
+        'Cockroach',
+        ':cockroach:'
+    ],
+    '🪰': [
+        'Fly',
+        ':fly:'
+    ],
+    '🪱': [
+        'Worm',
+        ':worm:'
+    ],
+    '🦩': [
+        'Flamingo',
+        ':flamingo:'
+    ],
     '🪹': [
         'Empty Nest',
+        ':empty_nest:',
         'Birds',
-        'Portada'
+        'Home'
     ],
     '🪺': [
         'Nest with Eggs',
+        ':nest_with_eggs:',
         'Birds',
-        'Portada'
+        'Home'
     ]
 };
 /*symbols*/
 emojis_language[lang][5] = {
     '💘': [
         'Heart with Arrow',
+        ':heart_with_arrow:',
         'Cupid Arrow',
-        'Lovestruck'
+        'Lovestruck',
+        ':pink:'
     ],
     '💝': [
         'Heart with Ribbon',
+        ':heart_with_ribbon:',
         'Chocolate Box',
         'Gift Box',
-        'Gift Heart'
+        'Gift Heart',
+        ':red:'
     ],
     '💖': [
         'Sparkling Heart',
+        ':sparkling_heart:',
         'Sparkle Heart',
         'Sparkly Heart',
-        'Stars Heart'
+        'Stars Heart',
+        ':pink:'
     ],
     '💗': [
         'Growing Heart',
+        ':growing_heart:',
         'Multiple Heart',
-        'Triple Heart'
+        'Triple Heart',
+        ':pink:'
     ],
     '💓': [
         'Beating Heart',
+        ':beating_heart:',
         'Heart Alarm',
         'Heartbeat',
-        'Wifi Heart'
+        'Wifi Heart',
+        ':pink:'
     ],
     '💞': [
         'Revolving Hearts',
-        'Two Hearts'
+        ':revolving_hearts:',
+        'Two Hearts',
+        ':pink:'
     ],
     '💕': [
         'Two Hearts',
+        ':two_hearts:',
         'Small Hearts',
-        'Two Pink Hearts'
+        'Two Pink Hearts',
+        ':pink:'
     ],
-    '💟': ['Heart Decoration'],
+    '💟': [
+        'Heart Decoration',
+        ':heart_decoration:',
+        ':purple:'
+    ],
     '❣️': [
         'Heart Exclamation',
+        ':heart_exclamation:',
         'Heart Above Dot',
         'Red Heart As an Exclamation Mark',
-        'Heavy Heart Exclamation Mark Ornament'
+        'Heavy Heart Exclamation Mark Ornament',
+        ':red:'
     ],
     '💔': [
         'Broken Heart',
+        ':broken_heart:',
         'Breaking Heart',
         'Brokenhearted',
-        'Heart Broken'
+        'Heart Broken',
+        ':red:'
+    ],
+    '❤️‍🩹': [
+        'Mending Heart',
+        ':mending_heart:',
+        'Bandaged Heart',
+        'Healing Heart',
+        'Unbroken Heart',
+        ':red:'
+    ],
+    '❤️‍🔥': [
+        'Heart on Fire',
+        ':heart_on_fire:',
+        ':red:'
     ],
     '❤️': [
         'I Love You',
+        ':red_heart:',
         'Red Heart',
         'Heart',
         'Love Heart',
-        'Red Heart'
+        'Red Heart',
+        ':red:'
     ],
     '🧡': [
         'Orange Heart',
-        'I Love You'
+        ':orange_heart:',
+        'I Love You',
+        ':orange:'
     ],
     '💛': [
         'Yellow Heart',
+        ':yellow_heart:',
         '#1 BF Snapchat',
         'Gold Heart',
-        'I Love You'
+        'I Love You',
+        ':yellow:'
     ],
     '💚': [
         'Green Heart',
+        ':green_heart:',
         'Jealous Heart',
-        'I Love You'
+        'I Love You',
+        ':green:'
     ],
     '💙': [
         'Blue Heart',
-        'I Love You'
+        ':blue_heart:',
+        'I Love You',
+        ':blue:'
     ],
     '💜': [
         'Purple Heart',
-        'I Love You'
+        ':purple_heart:',
+        'I Love You',
+        ':purple:'
     ],
     '🖤': [
         'Black Heart',
+        ':black_heart:',
         'Dark Heart',
-        'I Love You'
+        'I Love You',
+        ':black:'
     ],
     '🤍': [
         'White Heart',
-        'I Love You'
+        ':white_heart:',
+        'I Love You',
+        ':white:'
     ],
     '🤎': [
         'Brown Heart',
-        'I Love You'
+        ':brown_heart:',
+        'I Love You',
+        ':brown:'
     ],
+    //"🩷": ["Pink Heart", ":pink_heart:", "I Love You", ":pink:"],
+    //"🩵": ["Light Blue Heart", ":lightblue_heart:", "I Love You", ":blue:"],
+    //"🩶": ["Grey Heart","Gray Heart", ":grey_heart:",":gray_heart:", "I Love You", ":gray:", ":grey:"],
     '💯': [
         'Hundred Points',
+        ':hundred_points:',
         '100',
         '%',
         'Keep It 100',
@@ -2009,16 +3381,21 @@ emojis_language[lang][5] = {
     ],
     '💬': [
         'Speech Balloon',
+        ':speech_balloon:',
         'Chat Bubble',
-        'Speech Bubble'
+        'Speech Bubble',
+        ':white:'
     ],
     '💭': [
         'Thought Balloon',
+        ':thought_balloon:',
         'Thinking Bubble',
-        'Thought Bubble'
+        'Thought Bubble',
+        ':white:'
     ],
     '💤': [
         'Zzz',
+        ':zzz:',
         'Bedtime',
         'Boring',
         'Sleep',
@@ -2027,44 +3404,53 @@ emojis_language[lang][5] = {
     ],
     '♠': [
         'Spade Suit',
+        ':spade_suit:',
         'Spades',
         'Black Spade Suit'
     ],
     '♥': [
         'Heart Suit',
+        ':heart_suit:',
         'Card With Heart',
         'Hearts',
         'Black Heart Suit'
     ],
     '♦': [
         'Diamond Suit',
+        ':diamond_suit:',
         'Diamonds',
         'Black Diamond Suit'
     ],
     '♣': [
         'Club Suit',
+        ':club_suit:',
         'Clubs',
         'Black Club Suit'
     ],
     '🏧': [
         'ATM Sign',
+        ':atm_sign:',
         'ATM',
-        'Automated Telleer Machine'
+        'Automated Telleer Machine',
+        ':blue:'
     ],
     '🎧': [
         'Headphone',
+        ':headphone:',
         'Earphone',
         'iPod',
         'Headphones'
     ],
     '🎵': [
         'Musical Note',
+        ':musical_note:',
         'Beamed Pair Of Eighth Notes',
         'Beamed Pair Of Quavers',
         'Music Note'
     ],
     '🎶': [
         'Musical Notes',
+        ':musical_notes:',
         'Music',
         'Music Notes',
         'Singing',
@@ -2072,476 +3458,706 @@ emojis_language[lang][5] = {
     ],
     '🔔': [
         'Bell',
+        ':bell:',
         'Liberty Bell',
         'Ringer',
-        'Wedding Bell'
+        'Wedding Bell',
+        ':yellow:'
     ],
     '🔕': [
         'Bell with Slash',
-        'Notificacions',
+        ':bell_with_slash:',
+        'Notifications',
         'Ringer Disabled',
         'Muted Bell',
-        'Bell with Cancellation Stroke'
+        'Bell with Cancellation Stroke',
+        ':yellow:'
     ],
     '🔈': [
         'Speaker Low Volume',
+        ':speaker_low_volum:',
         'Volume',
         'Speaker'
     ],
     '🔉': [
         'Speaker Medium Volume',
+        ':speaker_medium_volume:',
         'Reduce Volume',
         'Speaker With Medium Volume',
         'Speaker with One Sound Wave'
     ],
     '🔊': [
         'Speaker High Volume',
+        ':speaker_high_volume:',
         'Increase Volume',
         'Speaker with Three Sound Waves'
     ],
     '🔇': [
         'Muted Speaker',
+        ':muted_speaker:',
         'Mute Volume',
         'Speaker with Cancellation Stroke'
     ],
     '📢': [
         'Loudspeaker',
+        ':loudspeaker:',
         'Announcement',
         'PA System',
-        'Public Address Loudspeaker',
-        ''
+        'Public Address Loudspeaker'
     ],
-    '⛔': ['No Entry'],
+    '⛔': [
+        'No Entry',
+        ':no_entry:',
+        ':red:'
+    ],
     '🚫': [
         'Prohibited',
+        ':prohibited:',
         'Banned',
         'Circle Backslash',
         'No',
         'Red Circle Crossed',
         'Restricted',
-        'No Entry Sign'
+        'No Entry Sign',
+        ':red:'
     ],
     '🚳': [
         'No Bicycles',
-        'No Bikes Sign'
+        ':no_bicycles:',
+        'No Bikes Sign',
+        ':red:',
+        ':black:'
     ],
     '🚭': [
         'No Smoking',
-        'No Smoking Symbol'
+        ':no_smoking:',
+        'No Smoking Symbol',
+        ':red:',
+        ':black:'
     ],
     '🚯': [
         'No Littering',
-        'Do Not No Litter Symbol'
+        ':no_littering:',
+        'Do Not No Litter Symbol',
+        ':red:',
+        ':black:'
     ],
     '🚱': [
         'Non-Potable Water',
+        ':non-potable_water:',
+        ':non_potable_water:',
         'No Water',
         'No Drinking Water',
-        'Non-Potable Water Symbol'
+        'Non-Potable Water Symbol',
+        ':red:',
+        ':black:'
     ],
     '🚷': [
         'No Pedestrians',
+        ':no_pedestrians:',
         'No People',
-        'No Walking'
+        'No Walking',
+        ':red:',
+        ':black:'
     ],
     '🔞': [
         'No One Under Eighteen',
+        ':no_one_under_18:',
         'NSFW',
         'No One Under Eighteen Symbol',
-        '18'
+        '18',
+        ':red:',
+        ':black:'
     ],
     '📵': [
         'No Mobile Phones',
+        ':no_mobile_phones:',
         'No Cell Phones',
         'No Phones',
-        'No Smartphones'
+        'No Smartphones',
+        ':red:',
+        ':black:'
     ],
     '☢️': [
         'Radioactive',
+        ':radioactive:',
         'International Radiation Symbol',
         'Nuclear',
-        'Radioactive Sign'
+        'Radioactive Sign',
+        ':orange:'
     ],
     '☣️': [
         'Biohazard',
-        'Biohazard Sign'
+        ':biohazard:',
+        'Biohazard Sign',
+        ':orange:'
     ],
     '⬆️': [
-        'Up Arrow',
+        'Up Arrow Button',
+        ':up_arrow_button:',
         'Arrow Pointing Up',
-        'Upwards Black Arrow'
+        'Upwards Black Arrow',
+        ':blue:'
     ],
     '↗️': [
-        'Up-Right Arrow',
+        'Up-Right Arrow Button',
+        ':up-right_arrow_button:',
+        ':up_right_arrow_button:',
         'Diagonal Up-Right Arrow',
-        'North East Arrow'
+        'North East Arrow',
+        ':blue:'
     ],
     '➡️': [
-        'Right Arrow',
+        'Right Arrow Button',
+        ':right_arrow_button:',
         'Arrow Pointing Right',
-        'Black Rightwards Arrow'
+        'Black Rightwards Arrow',
+        ':blue:'
     ],
     '↘️': [
-        'Down-Right Arrow',
+        'Down-Right Arrow Button',
+        ':down-right_arrow_button:',
+        ':down_right_arrow_button:',
         'Diagonal Down-Right Arrow',
-        'South East Arrow'
+        'South East Arrow',
+        ':blue:'
     ],
     '⬇️': [
-        'Down Arrow',
+        'Down Arrow Button',
+        ':down_arrow_button:',
         'Arrow Pointing Down',
-        'Downwards Black Arrow'
+        'Downwards Black Arrow',
+        ':blue:'
     ],
     '↙️': [
-        'Down-Left Arrow',
+        'Down-Left Arrow Button',
+        ':down-left_arrow_button:',
+        ':down_left_arrow_button:',
         'Diagonal Down-Left Arrow',
-        'South West Arrow'
+        'South West Arrow',
+        ':blue:'
     ],
     '⬅️': [
-        'Left Arrow',
+        'Left Arrow Button',
+        ':left_arrow_button:',
         'Arrow Pointing Left',
-        'Leftwards Black Arrow'
+        'Leftwards Black Arrow',
+        ':blue:'
     ],
     '↖️': [
-        'Up-Left Arrow',
+        'Up-Left Arrow Button',
+        ':up-left_arrow_button:',
+        ':up_left_arrow_button:',
         'Diagonal Up-Left Arrow',
-        'North West Arrow'
+        'North West Arrow',
+        ':blue:'
     ],
     '↕️': [
-        'Up-Down Arrow',
+        'Up-Down Arrow Button',
+        ':up-down_arrow_button:',
+        ':up_down_arrow_button:',
         'Vertical Arrows',
-        'Up Down Arrow'
+        'Up Down Arrow',
+        ':blue:'
     ],
     '↔️': [
-        'Left-Right Arrow',
+        'Left-Right Arrow Button',
+        ':left-right_arrow_button:',
+        ':left_right_arrow_button:',
         'Horizontal Arrows',
         'Sideways Arrows',
-        'Left Right Arrow'
+        'Left Right Arrow',
+        ':blue:'
     ],
     '↩️': [
-        'Right Arrow Curving Left',
+        'Right Arrow Curving Left Button',
+        ':right_arrow_curving_left_button:',
         'Email Reply',
         'Left Curved Arrow',
-        'Leftwards Arrow with Hook'
+        'Leftwards Arrow with Hook',
+        ':blue:'
     ],
     '↪️': [
-        'Left Arrow Curving Right',
+        'Left Arrow Curving Right Button',
+        ':left_arrow_curving_right_button:',
         'Email Forward',
         'Right Curved Arrow',
-        'Rightwards Arrow with Hook'
+        'Rightwards Arrow with Hook',
+        ':blue:'
     ],
     '⤴️': [
-        'Right Arrow Curving Up',
-        'Arrow Pointing Rightwards Then Curving Upwards'
+        'Right Arrow Curving Up Button',
+        ':right_arrow_curving_up_button:',
+        'Arrow Pointing Rightwards Then Curving Upwards',
+        ':blue:'
     ],
     '⤵️': [
-        'Right Arrow Curving Down',
+        'Right Arrow Curving Down Button',
+        ':right_arrow_curving_down_button:',
         'Curved Down Arrow',
-        'Arrow Pointing Rightwards Then Curving Downwards'
+        'Arrow Pointing Rightwards Then Curving Downwards',
+        ':blue:'
     ],
     '🔃': [
-        'Clockwise Vertical Arrows',
-        'Clockwise Downwards and Upwards Open Circle Arrows'
+        'Clockwise Vertical Arrows Button',
+        ':clockwise_vertical_button:',
+        'Clockwise Downwards and Upwards Open Circle Arrows',
+        ':blue:'
     ],
     '🔄': [
         'Counterclockwise Arrows Button',
+        ':counterclockwise_button:',
         'Refresh',
         'Rotate',
         'Switch',
         'Counter-Clockwise Arrows',
-        'Anticlockwise Downwards and Upwards Open Circle Arrows'
+        'Anticlockwise Downwards and Upwards Open Circle Arrows',
+        ':blue:'
     ],
     '🔙': [
         'Back Arrow',
+        ':back_arrow:',
         'Back',
-        'Back with Leftwards Arrow Above'
+        'Back with Leftwards Arrow Above',
+        ':black:'
     ],
     '🔚': [
         'End Arrow',
+        ':end_arrow:',
         'End',
-        'End with Leftwards Arrow Above'
+        'End with Leftwards Arrow Above',
+        ':black:'
     ],
     '🔛': [
         'On! Arrow',
+        ':on_arrow:',
         'On',
-        'On with Exclamation Mark with Left Right Arrow Above'
+        'On with Exclamation Mark with Left Right Arrow Above',
+        ':black:'
     ],
     '🔜': [
         'Soon Arrow',
+        ':soon_arrow:',
         'Soon',
-        'Soon with Rightwards Arrow Above'
+        'Soon with Rightwards Arrow Above',
+        ':black:'
     ],
     '🔝': [
         'Top Arrow',
+        ':top_arrow:',
         'Top',
-        'Top with Upwards Arrow Above'
+        'Top with Upwards Arrow Above',
+        ':black:'
     ],
     '🛐': [
         'Place of Worship',
-        'Religious Building'
+        ':place_of_worship:',
+        'Religious Building',
+        ':purple:'
     ],
-    '⚛️': ['Atom Symbol'],
+    '⚛️': [
+        'Atom Symbol',
+        ':atom_symbol:',
+        ':purple:'
+    ],
     '🕉️': [
         'Om Symbol',
+        ':om_symbol:',
         'Om',
         'Aumkara',
         'Omkara',
-        'Pranava'
+        'Pranava',
+        ':purple:'
     ],
     '✡️': [
         'Star of David',
-        'Magen David'
+        ':star_of_david:',
+        'Magen David',
+        ':purple:'
     ],
     '☸️': [
         'Wheel of Dharma',
-        'Helm'
+        ':wheel_of_dharma:',
+        'Helm',
+        ':purple:'
     ],
-    '☯️': ['Yin Yang'],
+    '☯️': [
+        'Yin Yang',
+        ':yin_yang:',
+        ':purple:'
+    ],
     '✝️': [
         'Latin Cross',
-        'Christian Cross'
+        ':latin_cross:',
+        'Christian Cross',
+        ':purple:'
     ],
-    '☦️': ['Orthodox Cross'],
-    '☪️': ['Star and Crescent'],
+    '☦️': [
+        'Orthodox Cross',
+        ':orthodox_cross:',
+        ':purple:'
+    ],
+    '☪️': [
+        'Star and Crescent',
+        ':star_and_crescent:',
+        ':purple:'
+    ],
     '☮️': [
         'Peace Symbol',
-        'Peace Sign'
+        ':peace:',
+        'Peace Sign',
+        ':purple:'
     ],
     '🕎': [
         'Menorah',
+        ':menorah:',
         'Candelabrum',
         'Candles',
         'Chanukiah',
         'Menorah',
-        'Menorah with Nine Branches'
+        'Menorah with Nine Branches',
+        ':purple:'
     ],
     '🔯': [
         'Dotted Six-Pointed Star',
-        'Six Pointed Star with Middle Dot'
+        ':dotted_six-pointed_star:',
+        ':dotted_six_pointed_star:',
+        'Six Pointed Star with Middle Dot',
+        ':purple:'
     ],
+    //"🪯": ["Khanda", ":khanda:", "Sikhism", ":purple:"],
     '♈': [
         'Aries',
-        'Zodiac'
+        ':aries:',
+        ':zodiac:',
+        'Zodiac',
+        ':purple:'
     ],
     '♉': [
         'Taurus',
-        'Zodiac'
+        ':taurus:',
+        ':zodiac:',
+        'Zodiac',
+        ':purple:'
     ],
     '♊': [
         'Gemini',
-        'Zodiac'
+        ':gemini:',
+        ':zodiac:',
+        'Zodiac',
+        ':purple:'
     ],
     '♋': [
         'Cancer',
-        'Zodiac'
+        ':cancer:',
+        ':zodiac:',
+        'Zodiac',
+        ':purple:'
     ],
     '♌': [
         'Leo',
-        'Zodiac'
+        ':leo:',
+        ':zodiac:',
+        'Zodiac',
+        ':purple:'
     ],
     '♍': [
         'Virgo',
-        'Zodiac'
+        ':virgo:',
+        ':zodiac:',
+        'Zodiac',
+        ':purple:'
     ],
     '♎': [
         'Libra',
-        'Zodiac'
+        ':libra:',
+        ':zodiac:',
+        'Zodiac',
+        ':purple:'
     ],
     '♏': [
         'Scorpio',
+        ':scorpio:',
+        ':zodiac:',
         'Scorpius',
-        'Zodiac'
+        'Zodiac',
+        ':purple:'
     ],
     '♐': [
         'Sagittarius',
-        'Zodiac'
+        ':sagittarius:',
+        ':zodiac:',
+        'Zodiac',
+        ':purple:'
     ],
     '♑': [
         'Capricorn',
-        'Zodiac'
+        ':capricorn:',
+        ':zodiac:',
+        'Zodiac',
+        ':purple:'
     ],
     '♒': [
         'Aquarius',
-        'Zodiac'
+        ':aquarius:',
+        ':zodiac:',
+        'Zodiac',
+        ':purple:'
     ],
     '♓': [
         'Pisces',
-        'Zodiac'
+        ':pisces:',
+        ':zodiac:',
+        'Zodiac',
+        ':purple:'
     ],
     '⛎': [
         'Ophiuchus',
-        'Zodiac'
+        ':ophiuchus:',
+        ':zodiac:',
+        'Zodiac',
+        ':purple:'
     ],
     '⏭️': [
-        'Black Right-Pointing Double Triangle with Vertical Bar',
         'Skip Forward Symbol',
-        'Next Track Button'
+        'Black Right-Pointing Double Triangle with Vertical Bar',
+        ':skip_forward_button:',
+        'Next Track Button',
+        ':blue:'
     ],
     '⏮️': [
-        'Black Left-Pointing Double Triangle with Vertical Bar',
         'Skip Backward Symbol',
+        'Black Left-Pointing Double Triangle with Vertical Bar',
+        ':skip_backward_button:',
         'Last Track Button',
-        'Previous Track'
+        'Previous Track',
+        ':blue:'
     ],
     '⏯️': [
-        'Black Right-Pointing Triangle with Double Vertical Bar',
         'Play or Pause Button',
+        'Black Right-Pointing Triangle with Double Vertical Bar',
+        ':play_button:',
+        ':pause_button:',
+        ':play_or_pause_button:',
         'Play Symbol',
-        'Pause Symbol'
+        'Pause Symbol',
+        ':blue:'
     ],
     '🔀': [
         'Shuffle Tracks Button',
-        'Twisted Rightwards Arrows'
+        ':shuffle_tracks_button:',
+        'Twisted Rightwards Arrows',
+        ':blue:'
     ],
     '🔁': [
         'Repeat Button',
+        ':repeat_button:',
         'Loop Symbol',
         'Retweet',
-        'Clockwise Rightwards and Leftwards Open Circle Arrows'
+        'Clockwise Rightwards and Leftwards Open Circle Arrows',
+        ':blue:'
     ],
     '🔂': [
         'Repeat Single Button',
+        ':repeat_single_button:',
         'Circle Arrows With Number 1',
         'Loop Once Symbol',
         'Repeat Single Track Symbol',
-        'Clockwise Rightwards and Leftwards Open Circle Arrows with Circled One Overlay'
+        'Clockwise Rightwards and Leftwards Open Circle Arrows with Circled One Overlay',
+        ':blue:'
     ],
     '▶️': [
         'Play Button',
+        ':play_button:',
         'Right Triangle',
         'Right-Pointing Triangle',
-        'Black Right-Pointing Triangle'
+        'Black Right-Pointing Triangle',
+        ':blue:'
     ],
     '◀️': [
         'Reverse Button',
+        ':reverse_button:',
         'Left Triangle',
         'Left-Pointing Triangle',
-        'Black Left-Pointing Triangle'
+        'Black Left-Pointing Triangle',
+        ':blue:'
     ],
     '🔼': [
         'Upwards Button',
+        ':upwards_button:',
         'Up Triangle',
         'Up-Pointing Triangle',
-        'Up-Pointing Small Red Triangle'
+        'Up-Pointing Small Red Triangle',
+        ':blue:'
     ],
     '🔽': [
         'Downwards Button',
+        ':downwards_button:',
         'Down Triangle',
         'Down-Pointing Triangle',
-        'Down-Pointing Small Red Triangle'
+        'Down-Pointing Small Red Triangle',
+        ':blue:'
     ],
     '⏩': [
         'Fast-Forward Button',
+        ':fast-forward_button:',
+        ':fast_forward_button:',
         'Fast Forward',
         'Fast Forward Symbol',
-        'Black Right-Pointing Double Triangle'
+        'Black Right-Pointing Double Triangle',
+        ':blue:'
     ],
     '⏪': [
         'Fast Reverse Button',
+        ':fast_reverse_button:',
         'Rewind',
         'Rewind Symbol',
-        'Black Left-Pointing Double Triangle'
+        'Black Left-Pointing Double Triangle',
+        ':blue:'
     ],
     '⏫': [
         'Fast Up Button',
+        ':fast_up_button:',
         'Up-Pointing Double Triangle',
-        'Black Up-Pointing Double Triangle'
+        'Black Up-Pointing Double Triangle',
+        ':blue:'
     ],
     '⏬': [
         'Fast Down Button',
+        ':fast_down_button:',
         'Down-Pointing Double Triangle',
-        'Black Down-Pointing Double Triangle'
+        'Black Down-Pointing Double Triangle',
+        ':blue:'
     ],
     '⏹️': [
         'Stop Button',
+        ':stop_button:',
         'Stop',
         'Stop Symbol',
-        'Black Square for Stop'
+        'Black Square for Stop',
+        ':blue:'
     ],
     '⏏️': [
         'Eject Button',
-        'Eject Symbol'
+        ':eject_button:',
+        'Eject Symbol',
+        ':blue:'
     ],
     '🎦': [
         'Cinema',
+        ':cinema_button:',
         'Cinema Screen',
         'Movies',
         'Film',
         'Cinema Symbol',
-        'Recording'
+        'Recording',
+        ':blue:'
     ],
     '📶': [
         'Antenna Bars',
+        ':antenna_bars_button:',
         'Reception Bars',
         'Signal Strength',
         'Stairs',
         'Signal Strength Symbol',
-        'Antenna with Bars'
+        'Antenna with Bars',
+        ':blue:'
     ],
     '✖️': [
         'Multiply',
+        ':multiply:',
+        'Times',
         'Multiplication Symbol',
-        'Heavy Multiplication X'
+        'Heavy Multiplication X',
+        ':black:'
     ],
     '➕': [
         'Plus',
+        ':plus:',
         'Plus Symbol',
-        'Heavy Plus Sign'
+        'Heavy Plus Sign',
+        ':black:'
     ],
     '➖': [
         'Minus',
+        ':minus:',
         'Minus Symbol',
-        'Heavy Minus Sign'
+        'Heavy Minus Sign',
+        ':black:'
     ],
     '➗': [
         'Divide',
+        ':divide:',
         'Division Symbol',
-        'Heavy Division Sign'
+        'Heavy Division Sign',
+        ':black:'
     ],
     '🟰': [
         'Heavy Equals Sign',
-        'Result'
+        ':heavy_equals_sign:',
+        'Equals',
+        'Result',
+        ':black:'
     ],
     '♾️': [
         'Infinity',
+        ':infinity:',
         'Permanent Paper Sign'
     ],
     '‼️': [
         'Double Exclamation Mark',
-        'Red Double Exclamation Mark'
+        ':double_exclamation_mark:',
+        'Red Double Exclamation Mark',
+        ':red:'
     ],
     '⁉️': [
         'Exclamation Question Mark',
-        'Red Exclamation Mark and Question Mark'
+        ':exclamation_question_mark:',
+        'Red Exclamation Mark and Question Mark',
+        ':red:'
     ],
     '❓': [
         'Question Mark',
+        ':question_mark:',
         'Red Question Mark',
-        'Black Question Mark Ornament'
+        'Black Question Mark Ornament',
+        ':red:'
     ],
     '❔': [
         'White Question Mark',
+        ':white_question_mark:',
+        ':question_mark:',
         'White Question Mark',
-        'White Question Mark Ornament'
+        'White Question Mark Ornament',
+        ':white:'
     ],
     '❗': [
         'Exclamation Mark',
+        ':exclamation_mark:',
         'Red Exclamation Mark',
-        'Heavy Exclamation Mark Symbol'
+        'Heavy Exclamation Mark Symbol',
+        ':red:'
     ],
     '❕': [
         'White Exclamation Mark',
-        'White Exclamation Mark Ornament'
+        ':white_exclamation_mark:',
+        ':exclamation_mark:',
+        'White Exclamation Mark Ornament',
+        ':white:'
     ],
     '⭕': [
         'Hollow Red Circle',
+        ':hollow_red_circle:',
         'Circle',
         'Correct',
         'Red Circle',
         'Circle Mark',
-        'Heavy Large Circle'
+        'Heavy Large Circle',
+        ':red:'
     ],
     '☑️': [
         'Check Box with Check',
+        ':check_box_with_check:',
         'V',
         'Checkbox',
         'Check Mark In Box',
@@ -2549,351 +4165,531 @@ emojis_language[lang][5] = {
     ],
     '✔️': [
         'Check Mark',
+        ':check_mark:',
         'V',
         'Check',
         'Tick',
         'Checkmark',
-        'Heavy Check Mark'
+        'Heavy Check Mark',
+        ':black:'
     ],
     '❌': [
         'Cross Mark',
+        ':cross_mark:',
         'Cross',
-        'X'
+        'X',
+        ':red:'
     ],
     '✅': [
         'Check Mark Button',
+        ':check_mark_button:',
         'V',
         'Green Check Mark',
         'Green Tick',
         'Check Mark',
-        'White Heavy Check Mark'
+        'White Heavy Check Mark',
+        ':green:'
     ],
     '❎': [
         'Cross Mark Button',
+        ':cross_mark_button:',
         'Cross',
         'X',
         'X Mark',
-        'Negative Squared Cross Mark'
+        'Negative Squared Cross Mark',
+        ':green:'
     ],
     '#️⃣': [
         'Keycap Number Sign',
+        ':hash_key:',
         '#',
         'Hash Key',
         'Hashtag',
         'Octothorpe',
         'Pound Key',
-        'Number Sign'
+        'Number Sign',
+        ':blue:'
     ],
     '*️⃣': [
         'Keycap Asterisk',
-        'Star Keycap'
+        ':asterisk:',
+        'Star Keycap',
+        ':blue:'
     ],
     '0️⃣': [
         'Number 0',
+        ':number_0:',
         'Keycap Digit Zero'
     ],
     '1️⃣': [
         'Number 1',
+        ':number_1:',
         'Keycap Digit One'
     ],
     '2️⃣': [
         'Number 2',
+        ':number_2:',
         'Keycap Digit Two'
     ],
     '3️⃣': [
         'Number 3',
+        ':number_3:',
         'Keycap Digit Three'
     ],
     '4️⃣': [
         'Number 4',
+        ':number_4:',
         'Keycap Digit Four'
     ],
     '5️⃣': [
         'Number 5',
+        ':number_5:',
         'Keycap Digit Five'
     ],
     '6️⃣': [
         'Number 6',
+        ':number_6:',
         'Keycap Digit Six'
     ],
     '7️⃣': [
         'Number 7',
+        ':number_7:',
         'Keycap Digit Seven'
     ],
     '8️⃣': [
         'Number 8',
+        ':number_8:',
         'Keycap Digit Eight'
     ],
     '9️⃣': [
-        'Number 09',
+        'Number 9',
+        ':number_9:',
         'Keycap Digit Nine'
     ],
     '🔟': [
         'Number 10',
+        ':number_10:',
         'Keycap: 10',
         '10',
         'Keycap Digit Ten'
     ],
     '🔠': [
         'Input Latin Uppercase',
+        ':input_latin_uppercase:',
         'ABCD',
         'Uppercase',
         'Input Symbol for Uppercase Letters',
-        'Input Symbol for Latin Capital Letters'
+        'Input Symbol for Latin Capital Letters',
+        ':blue:'
     ],
     '🔡': [
         'Input Latin Lowercase',
+        ':input_latin_lowercase:',
         'abcd',
         'Lowercase',
         'Input Symbol for Lowercase Letters',
-        'Input Symbol for Latin Small Letters'
+        'Input Symbol for Latin Small Letters',
+        ':blue:'
     ],
     '🔢': [
         'Input Numbers',
+        ':input_numbers:',
         '1234',
         'Numbers',
         'Numeric Input',
-        'Input Symbol for Numbers'
+        'Input Symbol for Numbers',
+        ':blue:'
     ],
     '🔣': [
         'Input Symbol for Symbols',
+        ':input_symbols:',
         'Symbols',
-        'Symbol Input'
+        'Symbol Input',
+        ':blue:'
     ],
     '🔤': [
         'Input Latin Letters',
+        ':input_latin_letters:',
         'abc',
         'Alphabet',
         'Letters',
         'Input Symbol for Letters',
-        'Input Symbol for Latin Letters'
+        'Input Symbol for Latin Letters',
+        ':blue:'
     ],
     '🅰️': [
         'A Button (Blood Type)',
+        ':a_blood:',
         'Blood Type A',
         'Letter A',
-        'Negative Squared Latin Capital Letter A'
+        'Negative Squared Latin Capital Letter A',
+        ':red:'
     ],
     '🆎': [
         'AB Button (Blood Type)',
+        ':ab_blood:',
         'Letters AB',
         'Blood Type AB',
-        'Negative Squared AB'
+        'Negative Squared AB',
+        ':red:'
     ],
     '🅱️': [
         'B Button (Blood Type)',
+        ':b_blood:',
         'Letter B',
         'Blood Type B',
-        'Negative Squared Latin Capital Letter B'
+        'Negative Squared Latin Capital Letter B',
+        ':red:'
     ],
     '🆑': [
         'CL Button',
+        ':cl_button:',
         'Clear',
         'Clear Button',
         'CL Sign',
         'Squared CL',
-        'Letters CL'
+        'Letters CL',
+        ':red:'
     ],
     '🆒': [
         'Cool Button',
+        ':cool_button:',
         'Cool Square',
         'Cool Sign',
-        'Squared Cool'
+        'Squared Cool',
+        ':blue:'
     ],
     '🆓': [
         'Free Button',
+        ':free_button:',
         'Free',
         'Free Sign',
-        'Squared Free'
+        'Squared Free',
+        ':blue:'
     ],
     'ℹ️': [
         'Information',
-        'Informació',
+        ':info_button:',
+        'Info',
         'Lowercase I',
         'Tourist Information',
-        'Information Source'
+        'Information Source',
+        ':blue:'
     ],
     '🆔': [
         'ID Button',
+        ':id_button:',
         'ID',
         'Identification',
         'Identification Sign',
-        'Squared ID'
+        'Squared ID',
+        ':purple:'
     ],
     '🆕': [
         'New Button',
+        ':new_button:',
         'New',
         'New Sign',
-        'Squared New'
+        'Squared New',
+        ':blue:'
     ],
     '🅾️': [
         'O Button (Blood Type)',
+        ':0_blood:',
         'Blood Type O',
         '0',
         'Negative Squared Latin Capital Letter',
-        'Letter O'
+        'Letter O',
+        ':red:'
     ],
     '🆗': [
         'OK Button',
-        'D\'acord',
+        ':ok_button:',
+        'OK',
         'Okay',
         'Square',
         'OK Sign',
-        'Squared OK'
+        'Squared OK',
+        ':blue:'
     ],
     '🅿️': [
         'P Button',
+        ':p_button:',
+        ':parking_sign:',
         'Parking Sign',
         'Negative Squared Latin Capital Letter',
-        'Letter P'
+        'Letter P',
+        ':blue:'
     ],
     '🆘': [
         'SOS Button',
+        ':sos_button:',
         'Distress Signal',
         'Emergency',
         'SOS',
         'SOS Sign',
         'Squared SOS',
-        'Ajuda'
+        'Help',
+        ':red:'
     ],
     '🆙': [
         'Up! Button',
+        ':up_button:',
         'Level Up',
         'Up',
         'Up Sign',
-        'Squared Up with Exclamation Mark'
+        'Squared Up with Exclamation Mark',
+        ':blue:'
     ],
     '🆚': [
         'Vs Button',
-        'Squared Vs'
+        ':vs_button:',
+        'Squared Vs',
+        ':orange:'
     ],
     '🆖': [
         'NG Button',
+        ':ng_button:',
         'Squared NG',
         'No Good Sign',
         'No Good',
-        'NG',
-        'Blooper'
+        ':ng:',
+        'Blooper',
+        ':blue:'
     ],
     '🔴': [
         'Red Circle',
-        'Large Red Circle'
+        ':red_circle:',
+        'Large Red Circle',
+        ':red:'
     ],
     '🟠': [
         'Orange Circle',
-        'Large Orange Circle'
+        ':orange_circle:',
+        'Large Orange Circle',
+        ':orange:'
     ],
     '🟡': [
         'Yellow Circle',
-        'Large Yellow Circle'
+        ':yellow_circle:',
+        'Large Yellow Circle',
+        ':yellow:'
     ],
     '🟢': [
         'Green Circle',
-        'Large Green Circle'
+        ':green_circle:',
+        'Large Green Circle',
+        ':green:'
     ],
     '🔵': [
         'Blue Circle',
-        'Large Blue Circle'
+        ':blue_circle:',
+        'Large Blue Circle',
+        ':blue:'
     ],
     '🟣': [
         'Purple Circle',
-        'Large Purple Circle'
+        ':purple_circle:',
+        'Large Purple Circle',
+        ':purple:'
     ],
     '🟤': [
         'Brown Circle',
-        'Large Brown Circle'
+        ':brown_circle:',
+        'Large Brown Circle',
+        ':brown:'
     ],
     '⚫': [
         'Black Circle',
-        'Medium Black Circle'
+        ':black_circle:',
+        'Medium Black Circle',
+        ':black:'
     ],
     '⚪': [
         'White Circle',
-        'Medium White Circle'
+        ':white_circle:',
+        'Medium White Circle',
+        ':white:'
     ],
     '🟥': [
         'Red Square',
-        'Large Red Square'
+        ':red_square:',
+        'Large Red Square',
+        ':red:'
     ],
     '🟧': [
         'Orange Square',
-        'Large Orange Square'
+        ':orange_square:',
+        'Large Orange Square',
+        ':orange:'
     ],
     '🟨': [
         'Yellow Square',
-        'Large Yellow Square'
+        ':yellow_square:',
+        'Large Yellow Square',
+        ':yellow:'
     ],
     '🟩': [
         'Green Square',
-        'Large Green Square'
+        ':green_square:',
+        'Large Green Square',
+        ':green:'
     ],
     '🟦': [
         'Blue Square',
-        'Large Blue Square'
+        ':blue_square:',
+        'Large Blue Square',
+        ':blue:'
     ],
     '🟪': [
         'Purple Square',
-        'Large Purple Square'
+        ':purple_square:',
+        'Large Purple Square',
+        ':purple:'
     ],
     '🟫': [
         'Brown Square',
-        'Large Brown Square'
+        ':brown_square:',
+        'Large Brown Square',
+        ':brown:'
     ],
-    '⬛': ['Black Large Square'],
-    '⬜': ['White Large Square'],
-    '◼️': ['Black Medium Square'],
-    '◻️': ['White Medium Square'],
-    '◾': ['Black Medium Small Square'],
-    '◽': ['White Medium Small Square'],
-    '▪️': ['Black Small Square'],
-    '▫️': ['White Small Square'],
+    '⬛': [
+        'Black Large Square',
+        ':black_large_square:',
+        ':black:'
+    ],
+    '⬜': [
+        'White Large Square',
+        ':white_large_square:',
+        ':white:'
+    ],
+    '◼️': [
+        'Black Medium Square',
+        ':black_medium_square:',
+        ':black:'
+    ],
+    '◻️': [
+        'White Medium Square',
+        ':white_medium_square:',
+        ':white:'
+    ],
+    '◾': [
+        'Black Medium Small Square',
+        ':black_medium_small_square:',
+        ':black:'
+    ],
+    '◽': [
+        'White Medium Small Square',
+        ':white_medium_small_square:',
+        ':white:'
+    ],
+    '▪️': [
+        'Black Small Square',
+        ':black_small_square:',
+        ':black:'
+    ],
+    '▫️': [
+        'White Small Square',
+        ':white_small_square:',
+        ':white:'
+    ],
     '💠': [
         'Diamond Shape with a Dot Inside',
+        ':diamond_shape_with_dot:',
         'Cuteness',
         'Diamond Flower',
         'Kawaii'
     ],
-    '🔶': ['Large Orange Diamond'],
-    '🔷': ['Large Blue Diamond'],
-    '🔸': ['Small Orange Diamond'],
-    '🔹': ['Small Blue Diamond'],
+    '🔶': [
+        'Large Orange Diamond',
+        ':large_orange_diamond:',
+        ':orange:'
+    ],
+    '🔷': [
+        'Large Blue Diamond',
+        ':large_blue_diamond:',
+        ':blue:'
+    ],
+    '🔸': [
+        'Small Orange Diamond',
+        ':small_orange_diamond:',
+        ':orange:'
+    ],
+    '🔹': [
+        'Small Blue Diamond',
+        ':small_blue_diamond:',
+        ':blue:'
+    ],
     '🔺': [
         'Red Triangle Pointed Up',
-        'Up-Pointing Red Triangle'
+        ':red_triangle_pointed_up:',
+        'Up-Pointing Red Triangle',
+        ':red:'
     ],
     '🔻': [
         'Red Triangle Pointed Down',
-        'Down-Pointing Red Triangle'
+        ':red_triangle_pointed_down:',
+        'Down-Pointing Red Triangle',
+        ':red:'
     ],
-    '🔳': ['White Square Button'],
-    '🔲': ['Black Square Button'],
+    '🔳': [
+        'White Square Button',
+        ':white_square_button:',
+        ':white:',
+        ':black:'
+    ],
+    '🔲': [
+        'Black Square Button',
+        ':black_square_button:',
+        ':white:',
+        ':black:'
+    ],
     '©️': [
         'Copyright',
+        ':copyright:',
+        ':c:',
         'Copyright Sign'
     ],
     '®️': [
         'Registered',
+        ':registered:',
+        ':r:',
         'Registered Sign'
     ],
     '™️': [
         'Trade Mark',
-        'TM',
+        ':trade_mark:',
+        ':tm:',
         'Trademark',
         'Trade Mark Sign'
     ],
     '🛅': [
         'Left Luggage',
+        ':left_luggage:',
         'Bag With Key',
-        'Locked Suitcase'
+        'Locked Suitcase',
+        ':blue:'
     ],
-    '🛄': ['Baggage Claim'],
-    '🛃': ['Customs'],
+    '🛄': [
+        'Baggage Claim',
+        ':baggage_claim:',
+        ':blue:'
+    ],
+    '🛃': [
+        'Customs',
+        ':customs:',
+        ':blue:'
+    ],
     '🛂': [
         'Passport Control',
-        'Border Control'
+        ':passport_control:',
+        'Border Control',
+        ':blue:'
     ],
+    //"🛜": ["Wireless", ":wireless:", ":wifi:", ":wi_fi:", "Wifi", "wi-fi", "wireless connection", ":blue:"],
     '🚰': [
         'Potable Water Symbol',
+        ':potable_water_symbol:',
         'Thirst',
         'Thirsty',
         'Water Tap',
@@ -2901,343 +4697,487 @@ emojis_language[lang][5] = {
     ],
     '🇦': [
         'Letter A',
+        ':letter_a:',
+        ':a:',
         'Regional Indicator Symbol Letter A'
     ],
     '🇧': [
         'Letter B',
+        ':letter_b:',
+        ':b:',
         'Regional Indicator Symbol Letter B'
     ],
     '🇨': [
         'Letter C',
+        ':letter_c:',
+        ':c:',
         'Regional Indicator Symbol Letter C'
     ],
     '🇩': [
         'Letter D',
+        ':letter_d:',
+        ':d:',
         'Regional Indicator Symbol Letter D'
     ],
     '🇪': [
         'Letter E',
+        ':letter_e:',
+        ':e:',
         'Regional Indicator Symbol Letter E'
     ],
     '🇫': [
         'Letter F',
+        ':letter_f:',
+        ':f:',
         'Regional Indicator Symbol Letter F'
     ],
     '🇬': [
         'Letter G',
+        ':letter_g:',
+        ':g:',
         'Regional Indicator Symbol Letter G'
     ],
     '🇭': [
         'Letter H',
+        ':letter_h:',
+        ':h:',
         'Regional Indicator Symbol Letter H'
     ],
     '🇮': [
         'Letter I',
+        ':letter_i:',
+        ':i:',
         'Regional Indicator Symbol Letter I'
     ],
     '🇯': [
         'Letter J',
+        ':letter_j:',
+        ':j:',
         'Regional Indicator Symbol Letter J'
     ],
     '🇰': [
         'Letter K',
+        ':letter_k:',
+        ':k:',
         'Regional Indicator Symbol Letter K'
     ],
     '🇱': [
         'Letter L',
+        ':letter_l:',
+        ':l:',
         'Regional Indicator Symbol Letter L'
     ],
     '🇲': [
         'Letter M',
+        ':letter_m:',
+        ':m:',
         'Regional Indicator Symbol Letter M'
     ],
     '🇳': [
         'Letter N',
+        ':letter_n:',
+        ':n:',
         'Regional Indicator Symbol Letter N'
     ],
     '🇴': [
         'Letter O',
+        ':letter_o:',
+        ':o:',
         'Regional Indicator Symbol Letter O'
     ],
     '🇵': [
         'Letter P',
+        ':letter_p:',
+        ':p:',
         'Regional Indicator Symbol Letter P'
     ],
     '🇶': [
         'Letter Q',
+        ':letter_q:',
+        ':q:',
         'Regional Indicator Symbol Letter Q'
     ],
     '🇷': [
         'Letter R',
+        ':letter_r:',
+        ':r:',
         'Regional Indicator Symbol Letter R'
     ],
     '🇸': [
         'Letter S',
+        ':letter_s:',
+        ':s:',
         'Regional Indicator Symbol Letter S'
     ],
     '🇹': [
         'Letter T',
+        ':letter_t:',
+        ':t:',
         'Regional Indicator Symbol Letter T'
     ],
     '🇺': [
         'Letter U',
+        ':letter_u:',
+        ':u:',
         'Regional Indicator Symbol Letter U'
     ],
     '🇻': [
         'Letter V',
+        ':letter_v:',
+        ':v:',
         'Regional Indicator Symbol Letter V'
     ],
     '🇼': [
         'Letter W',
+        ':letter_w:',
+        ':w:',
         'Regional Indicator Symbol Letter W'
     ],
     '🇽': [
         'Letter X',
+        ':letter_x:',
+        ':x:',
         'Regional Indicator Symbol Letter X'
     ],
     '🇾': [
         'Letter Y',
+        ':letter_y:',
+        ':y:',
         'Regional Indicator Symbol Letter Y'
     ],
     '🇿': [
         'Letter Z',
+        ':letter_z:',
+        ':z:',
         'Regional Indicator Symbol Letter Z'
     ],
     '💌': [
         'Love Letter',
+        ':love_letter:',
         'Heart Envelope',
         'Love Note'
     ],
     '🚮': [
         'Put Litter in Its Place Symbol',
+        ':put_litter_in_bing_sign:',
         'Litter in Bin Sign',
         'Put Litter In Trash',
         'Person With Trash'
     ],
     '♿': [
         'Wheelchair Symbol',
+        ':wheelchair_symbol:',
         'Accessible Bathroom'
     ],
     '🚹': [
         'Mens Symbol',
-        'Men\'s Symbol',
+        ':mens_symbol:',
+        'Mens Symbol',
         'Mens Toilet',
         'Male Restroom',
-        'Male WC'
+        'Male WC',
+        ':blue:'
     ],
     '🚺': [
         'Womens Symbol',
-        'Women\'s Symbol',
+        ':womens_symbol:',
+        'Womens Symbol',
         'Womens Toilet',
         'Female Restroom',
-        'Famale WC'
+        'Famale WC',
+        ':purple:',
+        ':pink:'
     ],
     '🚻': [
         'Restroom',
+        ':restroom:',
         'Bathroom Sign',
         'Toilet Sign',
-        'WC Sign'
+        'WC Sign',
+        ':blue:'
     ],
     '🚼': [
         'Baby Symbol',
+        ':baby_symbol:',
         'Baby Change Station',
         'Baby Change Symbol',
-        'Nursery'
+        'Nursery',
+        ':orange:'
     ],
     '🚾': [
         'Water Closet',
+        ':wc:',
         'WC',
-        'Toilet WC'
+        'Toilet WC',
+        ':blue:'
     ],
     '⚠️': [
         'Warning Sign',
-        'Alert Symbol'
+        ':warning_sign:',
+        'Alert Symbol',
+        ':yellow:'
     ],
     '🚸': [
         'Children Crossing',
+        ':children_crossing:',
         'Kids Crossing',
-        'School Crossing'
+        'School Crossing',
+        ':yellow:'
     ],
     '🔅': [
         'Low Brightness Symbol',
+        ':low_brightness_symbol:',
         'Dim Button',
         'Decrease Brightness'
     ],
     '🔆': [
         'High Brightness Symbol',
+        ':high_brightness_symbol:',
         'Increase Brightness',
         'Bright Button'
     ],
     '📳': [
         'Vibration Mode',
+        ':vibration_mode:',
         'Phone Heart',
-        'Silent Mode'
+        'Silent Mode',
+        ':orange:'
     ],
-    '📴': ['Mobile Phone Off'],
+    '📴': [
+        'Mobile Phone Off',
+        ':mobile_phone_off:',
+        ':orange:'
+    ],
     '〰️': [
         'Wave',
-        'Wavy Dash'
+        'Wavy Dash',
+        ':wave:'
     ],
-    '💱': ['Currency Exchange'],
+    '💱': [
+        'Currency Exchange',
+        ':currency_exchange:'
+    ],
     '💲': [
         'Heavy Dollar Sign',
+        ':dollar_symbol:',
         'Dollar',
         'Dollar Sign'
     ],
     '♻️': [
         'Black Universal Recycling Symbol',
+        ':recycling_symbol:',
         'Recycling Symbol',
-        'Recycle Logo'
+        'Recycle Logo',
+        ':green:'
     ],
     '🔱': [
         'Trident Emblem',
+        ':trident_emblem:',
         'Pitchfork',
         'Trident'
     ],
     '📛': [
         'Name Badge',
+        ':name_badge:',
         'Tofu On Fire',
         'Name Tag',
         'Fire Tag'
     ],
     '🔰': [
         'Japanese Symbol for Beginner',
+        ':japanese_symbol_beginner:',
         'Shoshinsha Mark',
-        'Yellow Green Shield'
+        'Yellow Green Shield',
+        ':green:',
+        ':yellow:'
     ],
     '➰': [
         'Curly Loop',
+        ':curly_loop:',
         'Curling Loop',
         'Loop'
     ],
     '➿': [
         'Double Curly Loop',
+        ':double_curly_loop:',
         'Double Curling Loop',
         'Voicemail'
     ],
     '〽️': [
         'Part Alternation Mark',
+        ':part_alternation_mark:',
         'M',
-        'McDonald\'s'
+        'McDonalds'
     ],
-    '✳️': ['Eight Spoked Asterisk'],
+    '✳️': [
+        'Eight Spoked Asterisk',
+        ':eight_spoked_asterisk:',
+        ':green:'
+    ],
     '✴️': [
         'Eight Pointed Black Star',
+        ':eight_pointed_star:',
         'Orange Star',
-        'Eight Pointed Star'
+        'Eight Pointed Star',
+        ':orange:'
     ],
-    '❇️': ['Sparkle'],
+    '❇️': [
+        'Sparkle',
+        ':sparkle:',
+        ':green:'
+    ],
     'Ⓜ️': [
-        'Circled Latin Capital Letter M',
         'Circled M',
+        'Circled Latin Capital Letter M',
+        ':circled_m:',
         'Metro',
-        'Circled M'
+        ':blue:'
     ],
     '🈁': [
-        'Squared Katakana Koko',
         'Japanese Word Sign Meaning Here',
+        'Squared Katakana Koko',
+        ':japanese_here:',
         'Here',
-        'Destination'
+        'Destination',
+        ':blue:'
     ],
     '🈂️': [
+        'Japanese Sign Meaning Service or Service Charge',
         'Squared Katakana Sa',
-        'Japanese Sign Meaning Service or Service Charge'
+        ':japanese_service:',
+        ':blue:'
     ],
     '🈷️': [
+        'Japanese Sign Meaning Monthly Amount',
         'Squared CJK Unified Ideograph-6708',
+        ':japanese_monthly_amouny:',
         'Radical 74',
         '月',
-        'Japanese Sign Meaning Monthly Amount'
+        ':orange:'
     ],
     '🈶': [
-        'Squared CJK Unified Ideograph-6709',
         'Japanese Sign Meaning Not Free of Charge',
+        'Squared CJK Unified Ideograph-6709',
+        ':japanese_own:',
         'Own',
-        '有'
+        '有',
+        ':orange:'
     ],
     '🈯': [
-        'Squared CJK Unified Ideograph-6307',
         'Japanese Sign Meaning Reserved',
+        'Squared CJK Unified Ideograph-6307',
+        ':japanese_reserved:',
         'Finger Point',
-        '指'
+        '指',
+        ':green:'
     ],
     '🉐': [
-        'Circled Ideograph Advantage',
         'Japanese Sign Meaning Bargain',
+        'Circled Ideograph Advantage',
+        ':japanese_acquire:',
         'Acquire',
-        '得'
+        '得',
+        ':red:'
     ],
     '🈹': [
-        'Squared CJK Unified Ideograph-5272',
         'Japanese Sign Meaning Discount',
+        'Squared CJK Unified Ideograph-5272',
+        ':japanese_discount:',
         'Bargain Sale',
-        '割'
+        '割',
+        ':red:'
     ],
     '🈚': [
-        'Squared CJK Unified Ideograph-7121',
         'Japanese Sign Meaning Free of Charge',
+        'Squared CJK Unified Ideograph-7121',
+        ':japanese_lacking:',
         'Lacking',
-        '無'
+        '無',
+        ':orange:'
     ],
     '🈲': [
-        'Squared CJK Unified Ideograph-7981',
         'Japanese Sign Meaning Prohibited',
+        'Squared CJK Unified Ideograph-7981',
+        ':japanese_prohibited:',
         'Forbid',
-        '禁'
+        '禁',
+        ':red:'
     ],
     '🉑': [
-        'Circled Ideograph Accept',
         'Japanese Sign Meaning Acceptable',
-        'Accept'
+        'Circled Ideograph Accept',
+        ':japanese_accept:',
+        'Accept',
+        ':orange:'
     ],
     '🈸': [
-        'Squared CJK Unified Ideograph-7533',
         'Japanese Sign Meaning Application',
+        'Squared CJK Unified Ideograph-7533',
+        ':japanese_application_form:',
         'Application Form',
         'Monkey',
         'Request',
-        '申'
+        '申',
+        ':orange:'
     ],
     '🈴': [
-        'Squared CJK Unified Ideograph-5408',
         'Japanese Sign Meaning Passing (Grade)',
+        'Squared CJK Unified Ideograph-5408',
+        ':japanese_agreement:',
         'Agreement',
-        '合'
+        '合',
+        ':red:'
     ],
     '🈳': [
-        'Squared CJK Unified Ideograph-7a7a',
         'Japanese Sign Meaning Vacancy',
+        'Squared CJK Unified Ideograph-7a7a',
+        ':japanese_available:',
         'Empty and Available',
-        '空'
+        '空',
+        ':blue:'
     ],
     '㊗️': [
+        'Japanese Sign Meaning Congratulations',
         'Circled Ideograph Congratulation',
-        'Japanese Sign Meaning Congratulations'
+        ':japanese_congratulations:',
+        ':red:'
     ],
     '㊙️': [
         'Circled Ideograph Secret',
+        ':japanese_secret:',
         'Japanese Sign Meaning Secret',
-        'Secret'
+        'Secret',
+        ':red:'
     ],
     '🈺': [
-        'Squared CJK Unified Ideograph-55b6',
         'Japanese Sign Meaning Open for Business',
+        'Squared CJK Unified Ideograph-55b6',
+        ':japanese_open_for_business:',
         'Work',
-        '営'
+        '営',
+        ':orange:'
     ],
     '🈵': [
-        'Squared CJK Unified Ideograph-6e80',
         'Japanese Sign Meaning Full; No Vacancy',
+        'Squared CJK Unified Ideograph-6e80',
+        ':japanese_full:',
         'Full',
-        '満'
+        '満',
+        ':red:'
     ],
-    '🔘': ['Radio Button'],
+    '🔘': [
+        'Radio Button',
+        ':radio_button:'
+    ],
     '🛑': [
         'Stop Sign',
-        'Octagonal Sign'
+        ':stop_sign:',
+        'Octagonal Sign',
+        ':red:'
     ],
     '⚕️': [
         'Medical Symbol',
+        ':medical_symbol:',
         'Aesculapius',
         'Asklepios',
         'Rod of Asclepius',
@@ -3245,16 +5185,23 @@ emojis_language[lang][5] = {
     ],
     '🛗': [
         'Elevator',
+        ':elevator:',
+        ':lift:',
         'Lift'
     ],
-    '⚧️': ['Transgender Symbol'],
+    '⚧️': [
+        'Transgender Symbol',
+        ':transgender_sign:'
+    ],
     '♂️': [
         'Male Sign',
+        ':male_sign:',
         'Man Symbol',
         'Mars Symbol'
     ],
     '♀️': [
         'Female Sign',
+        ':female_sign:',
         'Woman Symbol',
         'Venus Symbol'
     ]
@@ -3263,77 +5210,133 @@ emojis_language[lang][5] = {
 emojis_language[lang][6] = {
     '🍇': [
         'Grapes',
-        'Grape'
+        ':grapes:',
+        'Grape',
+        ':purple:'
     ],
     '🍈': [
         'Melon',
+        ':melon:',
         'Cantaloupe',
         'Honeydew',
         'Muskmelon'
     ],
-    '🍉': ['Watermelon'],
+    '🍉': [
+        'Watermelon',
+        ':watermelon:',
+        ':red:'
+    ],
     '🍊': [
         'Tangerine',
+        ':tangerine:',
         'Mandarin',
-        'Orange'
+        ':orange:'
     ],
     '🍋': [
         'Lemon',
-        'Lemonade'
+        ':lemon:',
+        'Lemonade',
+        ':yellow:'
     ],
     '🍌': [
         'Banana',
-        'Plantain'
+        ':banana:',
+        'Plantain',
+        ':yellow:'
     ],
-    '🍍': ['Pineapple'],
-    '🥭': ['Mango'],
+    '🍍': [
+        'Pineapple',
+        ':pineapple:'
+    ],
+    '🥭': [
+        'Mango',
+        ':mango:'
+    ],
     '🍎': [
         'Red Apple',
-        'Red Delicious Apple'
+        ':red_apple:',
+        ':apple:',
+        'Red Delicious Apple',
+        ':red:'
     ],
     '🍏': [
         'Green Apple',
+        ':green_apple:',
+        ':apple:',
         'Golden Delicious Apple',
-        'Granny Smith Apple'
+        'Granny Smith Apple',
+        ':green:'
     ],
-    '🍐': ['Pear'],
+    '🍐': [
+        'Pear',
+        ':pear:'
+    ],
     '🍑': [
         'Peach',
+        ':peach:',
         'Bottom',
-        'Butt'
+        'Butt',
+        ':orange:',
+        ':pink:'
     ],
     '🍒': [
         'Cherries',
+        ':cherry:',
         'Cherry',
-        'Wild Cherry'
+        'Wild Cherry',
+        ':red:'
     ],
-    '🍓': ['Strawberry'],
+    '🍓': [
+        'Strawberry',
+        ':strawberry:',
+        ':red:'
+    ],
     '🥝': [
         'Kiwi Fruit',
+        ':kiwi:',
         'Chinese Gooseberry',
         'Kiwi',
-        'Kiwifruit'
+        'Kiwifruit',
+        ':green:'
     ],
-    '🍅': ['Tomato'],
+    '🍅': [
+        'Tomato',
+        ':tomato:',
+        ':red:'
+    ],
     '🥥': [
         'Coconut',
+        ':coconut:',
         'Cocoanut'
     ],
-    '🥑': ['Avocado'],
+    '🥑': [
+        'Avocado',
+        ':avocado:',
+        ':green:'
+    ],
     '🍆': [
         'Eggplant',
+        ':eggplant:',
+        ':aubergine:',
         'Aubergine',
         'Phallic',
-        'Purple Vegetable'
+        'Purple Vegetable',
+        ':purple:'
     ],
     '🥔': [
         'Potato',
+        ':potato:',
         'Baked Potato',
         'Idaho Potato'
     ],
-    '🥕': ['Carrot'],
+    '🥕': [
+        'Carrot',
+        ':carrot:',
+        ':orange:'
+    ],
     '🌽': [
         'Ear of Corn',
+        ':ear_of_corn:',
         'Corn',
         'Corn On The Cob',
         'Maize',
@@ -3341,107 +5344,165 @@ emojis_language[lang][6] = {
     ],
     '🌶️': [
         'Hot Pepper',
+        ':hot_pepper:',
         'Chili Pepper',
-        'Spicy'
+        'Spicy',
+        ':red:'
     ],
     '🥒': [
         'Cucumber',
+        ':cucumber:',
         'Gherkin',
-        'Pickle'
+        'Pickle',
+        ':green:'
     ],
     '🥬': [
         'Leafy Green',
+        ':leafy_green:',
         'Bok Choy',
         'Chinese Cabbage',
         'Cos Lettuce',
         'Romaine Lettuce',
-        'Leafy Greens'
+        'Leafy Greens',
+        ':green:'
     ],
-    '🥦': ['Broccoli'],
+    '🥦': [
+        'Broccoli',
+        ':broccoli:',
+        ':green:'
+    ],
     '🍄': [
         'Mushroom',
+        ':mushroom:',
         'Shroom',
         'Toadstool'
     ],
     '🥜': [
         'Peanuts',
-        'Nuts'
+        ':peanuts:',
+        'Nuts',
+        ':brown:'
     ],
     '🌰': [
         'Chestnut',
+        ':chestnut:',
         'Acorn',
-        'Nut'
+        'Nut',
+        ':brown:'
     ],
     '🍞': [
         'Bread',
-        'Loaf Of Bread'
+        ':bread:',
+        'Loaf Of Bread',
+        ':brown:'
     ],
-    '🥐': ['Croissant'],
+    '🥐': [
+        'Croissant',
+        ':croissant:',
+        ':brown:'
+    ],
     '🥖': [
         'Baguette Bread',
+        ':baguette_bread:',
         'French Bread',
-        'Baguette'
+        'Baguette',
+        ':brown:'
     ],
-    '🥨': ['Pretzel'],
-    '🥯': ['Bagel'],
+    '🥨': [
+        'Pretzel',
+        ':pretzel:',
+        ':brown:'
+    ],
+    '🥯': [
+        'Bagel',
+        ':bagel:',
+        ':brown:'
+    ],
     '🥞': [
         'Pancakes',
+        ':pancakes:',
         'Crêpes',
-        'Hotcakes'
+        'Hotcakes',
+        ':yellow:'
     ],
     '🧀': [
         'Cheese Wedge',
-        'Cheese'
+        ':cheese_wedge:',
+        'Cheese',
+        ':yellow:'
     ],
     '🍖': [
         'Meat on Bone',
+        ':meat_on_bone:',
         'BBQ',
         'Barbecue',
-        'Manga Meat'
+        'Manga Meat',
+        ':red:'
     ],
     '🍗': [
         'Poultry Leg',
+        ':poultry_leg:',
         'Drumstick',
-        'Turkey Leg'
+        'Turkey Leg',
+        ':red:'
     ],
     '🥩': [
         'Cut of Meat',
+        ':cut_of_meat:',
         'Meat',
-        'Steak'
+        'Steak',
+        ':red:'
     ],
     '🥓': [
         'Bacon',
-        'Rashers'
+        ':bacon:',
+        'Rashers',
+        ':red:'
     ],
     '🍔': [
         'Hamburger',
+        ':hamburger:',
         'Burger',
         'Cheeseburger'
     ],
     '🍟': [
         'French Fries',
+        ':french_fries:',
         'Chips',
         'Fries',
-        'McDonald\'s Fries'
+        'McDonalds Fries',
+        ':yellow:'
     ],
     '🍕': [
         'Pizza',
+        ':pizza:',
         'Pepperoni Pizza',
-        'Slice of Pizza'
+        'Slice of Pizza',
+        ':red:'
     ],
     '🌭': [
         'Hot Dog',
+        ':hot_dog:',
         'Hotdog',
-        'Sausage'
+        'Sausage',
+        ':red:'
     ],
-    '🥪': ['Sandwich'],
-    '🌮': ['Taco'],
+    '🥪': [
+        'Sandwich',
+        ':sandwich:'
+    ],
+    '🌮': [
+        'Taco',
+        ':taco:'
+    ],
     '🌯': [
         'Burrito',
+        ':burrito:',
         'Wrap'
     ],
     '🥙': [
         'Stuffed Flatbread',
+        ':stuffed_flatbread:',
         'Doner Kebab',
         'Gyro',
         'Shawarma',
@@ -3449,57 +5510,71 @@ emojis_language[lang][6] = {
     ],
     '🍳': [
         'Cooking',
+        ':cooking:',
         'Breakfast',
         'Fried Egg',
         'Frying Pan'
     ],
     '🥘': [
         'Shallow Pan of Food',
+        ':shallow_pan_of_food:',
         'Paella',
         'Pan of Food'
     ],
     '🍲': [
         'Pot of Food',
+        ':pot_of_food:',
         'Bowl Of Food',
         'Soup',
         'Stew'
     ],
     '🥣': [
         'Bowl with Spoon',
+        ':bowl_with_spoon:',
         'Cereal Bowl'
     ],
     '🥗': [
         'Green Salad',
-        'Salad'
+        ':green_salad:',
+        'Salad',
+        ':green:'
     ],
     '🍿': [
         'Popcorn',
+        ':popcorn:',
         'Popping Corn'
     ],
     '🧂': [
         'Salt',
-        'Salt Shaker'
+        ':salt:',
+        'Salt Shaker',
+        ':white:'
     ],
     '🥫': [
         'Canned Food',
+        ':canned_food:',
         'Can of Food',
         'Tin Can',
         'Tinned Food'
     ],
     '🍱': [
         'Bento Box',
+        ':bento_box:',
         'Lunch Box'
     ],
     '🍘': [
         'Rice Cracker',
+        ':rice_cracker:',
         'Cracker'
     ],
     '🍙': [
         'Rice Ball',
+        ':rice_ball:',
         'Onigiri'
     ],
     '🍚': [
         'Cooked Rice',
+        ':cooked_rice:',
         'Boiled Rice',
         'Rice',
         'Bowl Of Rice',
@@ -3507,121 +5582,154 @@ emojis_language[lang][6] = {
     ],
     '🍛': [
         'Curry Rice',
+        ':curry_rice:',
         'Curry',
         'Indian Food',
         'Curry and Rice'
     ],
     '🍜': [
         'Steaming Bowl',
+        ':steaming_bowl:',
         'Noodles',
         'Noodles With Chopsticks',
         'Ramen'
     ],
     '🍝': [
         'Spaghetti',
+        ':spaghetti:',
         'Pasta'
     ],
     '🍠': [
         'Roasted Sweet Potato',
+        ':roasted_sweet_potato:',
         'Sweet Potato',
         'Yam'
     ],
     '🍢': [
         'Oden',
+        ':oden:',
         'Kebab',
         'Skewer'
     ],
     '🍣': [
         'Sushi',
+        ':sushi:',
         'Sashimi',
-        'Seafood'
+        'Seafood',
+        ':pink:'
     ],
     '🍤': [
         'Fried Shrimp',
+        ':fried_shrimp:',
         'Fried Prawn',
         'Shrimp Tempura'
     ],
     '🍥': [
         'Fish Cake with Swirl',
+        ':fish_cake_with_swirl:',
         'Fishcake',
         'Pink Swirl'
     ],
     '🥮': [
         'Moon Cake',
+        ':moon_cake:',
         'Mooncake'
     ],
     '🍡': [
         'Dango',
+        ':dango:',
         'Dessert Stick',
         'Pink White Green Balls'
     ],
     '🥟': [
         'Dumpling',
+        ':dumpling:',
         'Empanada',
         'Pierogi'
     ],
-    '🥠': ['Fortune Cookie'],
+    '🥠': [
+        'Fortune Cookie',
+        ':fortune_cookie:'
+    ],
     '🥡': [
         'Takeout Box',
+        ':takeout_box:',
         'Chinese Food Box',
         'Oyster Pail'
     ],
     '🍦': [
         'Soft Ice Cream',
+        ':soft_ice_cream:',
         'Mr Whippy',
         'Soft Serve'
     ],
     '🍧': [
         'Shaved Ice',
+        ':shaved_ice:',
         'Snow Cone'
     ],
     '🍨': [
         'Ice Cream',
+        ':ice_cream:',
         'Bowl Of Ice Cream',
         'Dessert'
     ],
     '🍩': [
         'Doughnut',
+        ':doughnut:',
         'Donut'
     ],
     '🍪': [
         'Cookie',
+        ':cookie:',
         'Biscuit',
-        'Chocolate Chip Cookie'
+        'Chocolate Chip Cookie',
+        ':brown:'
     ],
     '🎂': [
         'Birthday Cake',
+        ':birthday_cake:',
         'Birthday',
         'Cake',
         'Cake With Candles'
     ],
     '🍰': [
         'Shortcake',
+        ':shortcake:',
         'Cake',
         'Piece Of Cake',
         'Strawberry Shortcake'
     ],
     '🧁': [
         'Cupcake',
+        ':cupcake:',
         'Fairy Cake'
     ],
-    '🥧': ['Pie'],
+    '🥧': [
+        'Pie',
+        ':pie:'
+    ],
     '🍫': [
         'Chocolate Bar',
+        ':chocolate_bar:',
         'Candy Bar',
-        'Chocolate'
+        'Chocolate',
+        ':brown:'
     ],
     '🍬': [
         'Candy',
+        ':candy:',
         'Lolly',
         'Sweet'
     ],
     '🍭': [
         'Lollipop',
+        ':lollipop:',
         'Sucker'
     ],
     '🍮': [
         'Custard',
+        ':custard:',
         'Creme Caramel',
         'Dessert',
         'Flan',
@@ -3629,19 +5737,25 @@ emojis_language[lang][6] = {
     ],
     '🍯': [
         'Honey Pot',
+        ':honey_pot:',
         'Honey',
-        'Pot'
+        'Pot',
+        ':yellow:'
     ],
     '🍼': [
         'Baby Bottle',
+        ':baby_bottle:',
         'Bottle Feeding'
     ],
     '🥛': [
         'Glass of Milk',
-        'Milk'
+        ':glass_of_milk:',
+        'Milk',
+        ':white:'
     ],
     '☕': [
         'Hot Beverage',
+        ':hot_beverage:',
         'Coffee',
         'Espresso',
         'Hot Chocolate',
@@ -3649,56 +5763,68 @@ emojis_language[lang][6] = {
     ],
     '🍵': [
         'Teacup Without Handle',
+        ':green_tea:',
         'Green Tea',
         'Matcha',
-        'Matcha Green Tea'
+        'Matcha Green Tea',
+        ':green:'
     ],
     '🍶': [
         'Sake',
+        ':sake:',
         'Bottle',
         'Rice Wine',
         'Sake Bottle and Cup'
     ],
     '🍾': [
         'Bottle with Popping Cork',
+        ':champagne:',
         'Celebration',
         'Champagne',
         'Sparkling Wine'
     ],
     '🍷': [
         'Wine Glass',
+        ':wine_glass:',
         'Alcohol',
         'Red Wine',
         'Wine'
     ],
     '🍸': [
         'Cocktail Glass',
+        ':cocktail_glass:',
         'Cocktail',
         'Martini'
     ],
     '🍹': [
         'Tropical Drink',
+        ':tropical_drink:',
         'Fruit Punch',
         'Tiki Drink'
     ],
     '🍺': [
         'Beer Mug',
+        ':beer_mug:',
         'Beer',
-        'Beer Stein'
+        'Beer Stein',
+        ':yellow:'
     ],
     '🍻': [
         'Clinking Beer Mugs',
+        ':clinking_beer_mugs:',
         'Beers',
         'Cheers'
     ],
     '🥂': [
         'Clinking Glasses',
+        ':clinking_glasses:',
         'Celebration',
         'Champagne Glasses',
         'Cheers'
     ],
     '🥃': [
         'Tumbler Glass',
+        ':tumbler_glass:',
         'Bourbon',
         'Liquor',
         'Rum',
@@ -3707,61 +5833,122 @@ emojis_language[lang][6] = {
     ],
     '🥤': [
         'Cup with Straw',
+        ':cup_with_straw:',
         'Milkshake',
         'Smoothie',
         'Soda Pop',
         'Soft Drink'
     ],
-    '🥢': ['Chopsticks'],
+    '🥢': [
+        'Chopsticks',
+        ':chopsticks:'
+    ],
     '🍽️': [
         'Fork and Knife with Plate',
-        'Dinner'
+        ':fork_and_knife_with_plate:',
+        'Dinner',
+        ':white:',
+        ':gray:',
+        ':grey:'
     ],
     '🍴': [
         'Fork and Knife',
+        ':fork_and_knife:',
         'Cutlery',
         'Knife And Fork',
-        'Silverware'
+        'Silverware',
+        ':gray:',
+        ':grey:'
     ],
-    '🥄': ['Spoon'],
-    '🧄': ['Garlic'],
-    '🧅': ['Onion'],
-    '🧇': ['Waffle'],
-    '🧆': ['Falafel'],
-    '🧈': ['Butter'],
-    '🦪': ['Oyster'],
+    '🥄': [
+        'Spoon',
+        ':spoon:',
+        ':gray:',
+        ':grey:'
+    ],
+    '🧄': [
+        'Garlic',
+        ':garlic:'
+    ],
+    '🧅': [
+        'Onion',
+        ':onion:'
+    ],
+    '🧇': [
+        'Waffle',
+        ':waffle:'
+    ],
+    '🧆': [
+        'Falafel',
+        ':falafel:'
+    ],
+    '🧈': [
+        'Butter',
+        ':butter:'
+    ],
+    '🦪': [
+        'Oyster',
+        ':oyster:'
+    ],
     '🧃': [
         'Beverage Box',
+        ':beverage_box:',
         'Juice Box'
     ],
     '🧉': [
         'Mate Drink',
+        ':mate_drink:',
         'Chimarrão',
         'Cimarrón',
         'Yerba Mate'
     ],
-    '🫒': ['Olive'],
-    '🫐': ['Blueberries'],
-    '🫑': ['Bell Pepper'],
-    '🫓': ['Flatbread'],
+    '🫒': [
+        'Olive',
+        ':olive:',
+        ':green:'
+    ],
+    '🫐': [
+        'Blueberries',
+        ':blueberries:',
+        ':blue:'
+    ],
+    '🫑': [
+        'Bell Pepper',
+        ':bell_pepper:',
+        ':green:'
+    ],
+    '🫓': [
+        'Flatbread',
+        ':flatbread:'
+    ],
     '🫔': [
         'Tamale',
+        ':tamale:',
         'Tamal'
     ],
-    '🫕': ['Fondue'],
+    '🫕': [
+        'Fondue',
+        ':fondue:'
+    ],
     '🧋': [
         'Bubble Tea',
+        ':boba:',
         'Boba'
     ],
-    '🧊': ['Ice Cube'],
+    '🧊': [
+        'Ice Cube',
+        ':ice_cube:'
+    ],
     '🫘': [
         'Beans',
         'Flatulence',
+        ':beans:',
         'Coffee beans',
         'Spill the beans'
     ],
     '🫗': [
         'Pouring Liquid',
+        ':puring_liquid:',
         'Pouring Drink',
         'Water'
     ]
@@ -3770,30 +5957,41 @@ emojis_language[lang][6] = {
 emojis_language[lang][7] = {
     '🏁': [
         'Chequered Flag',
+        ':chequered_flag:',
         'Checkered Flag',
         'Grid Girl',
-        'Racing Flag'
+        'Racing Flag',
+        ':black:',
+        ':white:'
     ],
     '🚩': [
         'Triangular Flag',
+        ':triangular_flag:',
         'Flag on Pole',
         'Red Flag',
-        'Triangular Flag on Post'
+        'Triangular Flag on Post',
+        ':red:'
     ],
     '🎌': [
         'Crossed Flags',
+        ':crossed_flags:',
         'Two Flags'
     ],
     '🏴': [
         'Black Flag',
-        'Waving Black Flag'
+        ':black_flag:',
+        'Waving Black Flag',
+        ':black:'
     ],
     '🏳️': [
         'White Flag',
-        'Waving White Flag'
+        ':white_flag:',
+        'Waving White Flag',
+        ':white:'
     ],
     '🏳️‍🌈': [
         'Rainbow Flag',
+        ':rainbow_flag:',
         'Pride Flag',
         'LGBT',
         'LGBTQIA+',
@@ -3805,430 +6003,433 @@ emojis_language[lang][7] = {
     ],
     '🏳️‍⚧️': [
         'Transgender Flag',
+        ':transgender_flag:',
         'Blue, Pink, and White Flag',
         'Trans Flag'
     ],
     '🏴‍☠️': [
         'Pirate Flag',
-        'Jolly Roger'
+        ':pirate_flag:',
+        'Jolly Roger',
+        ':black:'
     ],
     '🇺🇳': [
         'Flag of United Nations',
-        'UN',
+        ':un:',
         'Flag: United Nations'
     ],
     '🇪🇺': [
         'Flag of European Union',
-        'EU',
+        ':eu:',
         'Flag: European Union',
         'EU Flag'
     ],
     '🇦🇨': [
         'Flag of Ascension Island',
-        'AC'
+        ':ac:'
     ],
     '🇦🇩': [
         'Flag of Andorra',
-        'AD',
+        ':ad:',
         'Andorran Flag'
     ],
     '🇦🇪': [
         'Flag of United Arab Emirates',
-        'AE',
+        ':ae:',
         'Emirati Flag',
         'UAE Flag'
     ],
     '🇦🇫': [
         'Flag of Afghanistan',
-        'AF',
+        ':af:',
         'Afghan Flag'
     ],
     '🇦🇬': [
         'Flag of Antigua & Barbuda',
-        'AG'
+        ':ag:'
     ],
     '🇦🇮': [
         'Flag of Anguilla',
-        'AI',
+        ':ai:',
         'Anguillan Flag'
     ],
     '🇦🇱': [
         'Flag of Albania',
-        'AL',
+        ':al:',
         'Albanian Flag'
     ],
     '🇦🇲': [
         'Flag of Armenia',
-        'AM',
-        '🇦🇲'
+        ':am:',
+        'Armenia Flag'
     ],
     '🇦🇴': [
         'Flag of Angola',
-        'AO',
+        ':ao:',
         'Angolan Flag'
     ],
     '🇦🇶': [
         'Flag of Antarctica',
-        'AQ',
+        ':aq:',
         'Antarctic Flag'
     ],
     '🇦🇷': [
         'Flag of Argentina',
-        'AR',
+        ':ar:',
         'Argentinian Flag'
     ],
     '🇦🇸': [
         'Flag of American Samoa',
-        'AS',
+        ':as:',
         'American Samoan Flag'
     ],
     '🇦🇹': [
         'Flag of Austria',
-        'AT',
+        ':at:',
         'Austrian Flag'
     ],
     '🇦🇺': [
         'Flag of Australia',
-        'AU',
+        ':au:',
         'Aussie Flag',
         'Australian Flag'
     ],
     '🇦🇼': [
         'Flag of Aruba',
-        'AW',
+        ':aw:',
         'Aruban Flag'
     ],
     '🇦🇽': [
         'Flag of Åland Islands',
-        'AX',
+        ':ax:',
         'Åland Flag'
     ],
     '🇦🇿': [
         'Flag of Azerbaijan',
-        'AZ',
+        ':az:',
         'Azerbaijani Flag'
     ],
     '🇧🇦': [
         'Flag of Bosnia & Herzegovina',
-        'BA'
+        ':ba:'
     ],
     '🇧🇧': [
         'Flag of Barbados',
-        'BB',
+        ':bb:',
         'Barbadian Flag',
         'Bajan Flag'
     ],
     '🇧🇩': [
         'Flag of Bangladesh',
-        'BD',
+        ':bd:',
         'Bangladeshi Flag'
     ],
     '🇧🇪': [
         'Flag of Belgium',
-        'BE',
+        ':be:',
         'Belgian Flag'
     ],
     '🇧🇫': [
         'Flag of Burkina Faso',
-        'BF',
+        ':bf:',
         'Burkinabe Flag'
     ],
     '🇧🇬': [
         'Flag of Bulgaria',
-        'BG',
+        ':bg:',
         'Bulgarian Flag'
     ],
     '🇧🇭': [
         'Flag of Bahrain',
-        'BH',
+        ':bh:',
         'Bahrani Flag',
         'Bahrainian Flag'
     ],
     '🇧🇮': [
         'Flag of Burundi',
-        'BI',
+        ':bi:',
         'Burundian Flag'
     ],
     '🇧🇯': [
         'Flag of Benin',
-        'BJ',
+        ':bj:',
         'Beninese Flag'
     ],
     '🇧🇱': [
         'Flag of Saint Barthélemy',
-        'BL',
+        ':bl:',
         'Flag: St. Barthélemy'
     ],
     '🇧🇲': [
         'Flag of Bermuda',
-        'BM',
+        ':bm:',
         'Bermudan Flag'
     ],
     '🇧🇳': [
         'Flag of Brunei',
-        'BN',
+        ':bn:',
         'Bruneian Flag'
     ],
     '🇧🇴': [
         'Flag of Bolivia',
-        'BO',
+        ':bo:',
         'Bolivian Flag'
     ],
     '🇧🇶': [
         'Flag of Caribbean Netherlands',
-        'BQ',
+        ':bq:',
         'Bonaire'
     ],
     '🇧🇷': [
         'Flag of Brazil',
-        'BR',
+        ':br:',
         'Brazilian Flag'
     ],
     '🇧🇸': [
         'Flag of Bahamas',
-        'Bahamian Flag',
-        'BS'
+        ':bs:',
+        'Bahamian Flag'
     ],
     '🇧🇹': [
         'Flag of Bhutan',
-        'BT',
+        ':bt:',
         'Bhutanese Flag'
     ],
     '🇧🇻': [
         'Flag of Bouvet Island',
-        'BV',
+        ':bv:',
         'Flag: Bouvet Island'
     ],
     '🇧🇼': [
         'Flag of Botswana',
-        'BW',
+        ':bw:',
         'Batswana Flag'
     ],
     '🇧🇾': [
         'Flag of Belarus',
-        'BY',
+        ':by:',
         'Belarusian Flag'
     ],
     '🇧🇿': [
         'Flag of Belize',
-        'BZ',
+        ':bz:',
         'Belizean Flag'
     ],
     '🇨🇦': [
         'Flag of Canada',
         'Canadian Flag',
-        'CA'
+        ':ca:'
     ],
     '🇨🇨': [
         'Flag of Cocos (Keeling) Islands',
-        'CC'
+        ':cc:'
     ],
     '🇨🇩': [
         'Flag of Congo - Kinshasa',
-        'CD'
+        ':cd:'
     ],
     '🇨🇫': [
         'Flag of Central African Republic',
-        'CF',
+        ':cf:',
         'Central African Flag'
     ],
     '🇨🇬': [
         'Flag of Congo - Brazzaville',
-        'CG'
+        ':cg:'
     ],
     '🇨🇭': [
         'Flag of Switzerland',
-        'CH',
+        ':ch:',
         'Red Cross',
         'Swiss Flag'
     ],
     '🇨🇮': [
         'Flag of Ivory Coast',
-        'CI',
+        ':ci:',
         'Flag: Côte d’Ivoire'
     ],
     '🇨🇰': [
         'Flag of Cook Islands',
-        'CK',
+        ':ck:',
         'Cook Islander Flag'
     ],
     '🇨🇱': [
         'Flag of Chile',
-        'CL',
+        ':cl:',
         'Chilean Flag'
     ],
     '🇨🇲': [
         'Flag of Cameroon',
-        'CM',
+        ':cm:',
         'Cameroonian Flag'
     ],
     '🇨🇳': [
         'Flag of China',
-        'CN',
+        ':cn:',
         'Chinese Flag'
     ],
     '🇨🇴': [
         'Flag of Colombia',
-        'CO',
+        ':co:',
         'Colombian Flag'
     ],
     '🇨🇵': [
         'Flag of Clipperton Island',
-        'CP',
+        ':cp:',
         'Flag: Clipperton Island'
     ],
     '🇨🇷': [
         'Flag of Costa Rica',
-        'CR',
+        ':cr:',
         'Costa Rican Flag'
     ],
     '🇨🇺': [
         'Flag of Cuba',
-        'CU',
+        ':cu:',
         'Cuban Flag'
     ],
     '🇨🇻': [
         'Flag of Cape Verde',
-        'CV',
+        ':cv:',
         'Cape Verdian Flag'
     ],
     '🇨🇼': [
         'Flag of Curaçao',
-        'CW',
+        ':cw:',
         'Curaçaoan Flag'
     ],
     '🇨🇽': [
         'Flag of Christmas Island',
-        'CX',
+        ':cx:',
         'Christmas Island Flag'
     ],
     '🇨🇾': [
         'Flag of Cyprus',
-        'CY',
+        ':cy:',
         'Cypriot Flag'
     ],
     '🇨🇿': [
         'Flag of Czechia',
-        'CZ',
+        ':cz:',
         'Czech Flag'
     ],
     '🇩🇪': [
         'Flag of Germany',
-        'DE',
+        ':de:',
         'Deutsch Flag',
         'German Flag'
     ],
     '🇩🇬': [
         'Flag of Diego Garcia',
-        'DG',
+        ':dg:',
         'Flag: Diego Garcia'
     ],
     '🇩🇯': [
         'Flag of Djibouti',
-        'DJ',
+        ':dj:',
         'Djibouti Flag',
         'Djiboutian Flag'
     ],
     '🇩🇰': [
         'Flag of Denmark',
-        'DK',
+        ':dk:',
         'Danish Flag'
     ],
     '🇩🇲': [
         'Flag of Dominica',
-        'DM'
+        ':dm:'
     ],
     '🇩🇴': [
         'Flag of Dominican Republic',
-        'DO',
+        ':do:',
         'Dom Rep Flag',
         'Dominican Flag'
     ],
     '🇩🇿': [
         'Flag of Algeria',
-        'DZ',
+        ':dz:',
         'Algerian Flag'
     ],
     '🇪🇦': [
         'Flag of Ceuta & Melilla',
+        ':ea:',
         'Flag of Melilla',
         'Flag of Ceuta',
-        'EA',
         'Flag: Ceuta & Melilla'
     ],
     '🇪🇨': [
         'Flag of Ecuador',
-        'EC',
+        ':ec:',
         'Ecuadorian Flag'
     ],
     '🇪🇪': [
         'Flag of Estonia',
-        'EE',
+        ':ee:',
         'Estonian Flag'
     ],
     '🇪🇬': [
         'Flag of Egypt',
-        'EG',
+        ':eg:',
         'Egyptian Flag'
     ],
     '🇪🇭': [
         'Flag of Western Sahara',
-        'EH',
+        ':eh:',
         'Western Saharan Flag'
     ],
     '🇪🇷': [
         'Flag of Eritrea',
-        'ER',
+        ':er:',
         'Eritrean Flag'
     ],
     '🇪🇹': [
         'Flag of Ethiopia',
-        'ET',
+        ':et:',
         'Ethiopian Flag'
     ],
     '🇪🇸': [
         'Flag of Spain',
-        'ES',
+        ':es:',
         'Spanish Flag'
     ],
     '🇫🇮': [
         'Flag of Finland',
-        'FI',
+        ':fi:',
         'Finnish Flag'
     ],
     '🇫🇯': [
         'Flag of Fiji',
-        'FJ',
+        ':fj:',
         'Fijian Flag'
     ],
     '🇫🇰': [
         'Flag of Falkland Islands',
-        'FK',
+        ':fk:',
         'Falklander Flag'
     ],
     '🇫🇲': [
         'Flag of Micronesia',
-        'FM',
+        ':fm:',
         'Micronesian Flag'
     ],
     '🇫🇴': [
         'Flag of Faroe Islands',
-        'FO',
+        ':fo:',
         'Faroe Islander Flag'
     ],
     '🇫🇷': [
         'Flag of France',
-        'FR',
+        ':fr:',
         'French Flag'
     ],
     '🇬🇦': [
         'Flag of Gabon',
-        'GA',
+        ':ga:',
         'Gabonese Flag'
     ],
     '🇬🇧': [
         'Flag of Great Britain',
-        'GB',
+        ':gb:',
         'British Flag',
         'United Kingdom',
         'Union Jack',
@@ -4236,11 +6437,13 @@ emojis_language[lang][7] = {
     ],
     '🏴󠁧󠁢󠁥󠁮󠁧󠁿󠁧󠁢󠁥󠁮󠁧󠁿': [
         'Flag of England',
-        'St George\'s Cross',
+        ':england:',
+        'St Georges Cross',
         'English Flag'
     ],
     '🏴󠁧󠁢󠁷󠁬󠁳󠁿󠁧󠁢󠁷󠁬󠁳󠁿': [
         'Flag of Wales',
+        ':wales:',
         'Welsh Flag',
         'Red Dragon',
         'Baner Cymru',
@@ -4248,879 +6451,880 @@ emojis_language[lang][7] = {
     ],
     '🏴󠁧󠁢󠁳󠁣󠁴󠁿󠁧󠁢󠁳󠁣󠁴󠁿': [
         'Flag of Scotland',
+        ':scotland:',
         'Scottish Flag',
-        'St Andrew\'s Cross',
+        'St Andrews Cross',
         'Saltire'
     ],
     '🇬🇩': [
         'Flag of Grenada',
-        'GD',
+        ':gd:',
         'Grenadian Flag'
     ],
     '🇬🇪': [
         'Flag of Georgia',
-        'GE',
+        ':ge:',
         'Georgian Flag'
     ],
     '🇬🇫': [
         'Flag of French Guiana',
-        'GF',
+        ':gf:',
         'French Guinean Flag'
     ],
     '🇬🇬': [
         'Flag of Guernsey',
-        'GG',
+        ':gg:',
         'Guernsey Flag'
     ],
     '🇬🇭': [
         'Flag of Ghana',
-        'GH',
+        ':gh:',
         'Ghanaian Flag'
     ],
     '🇬🇮': [
         'Flag of Gibraltar',
-        'GI',
+        ':gi:',
         'Gibraltarian Flag'
     ],
     '🇬🇱': [
         'Flag of Greenland',
-        'GL',
+        ':gl:',
         'Greenlandic Flag'
     ],
     '🇬🇲': [
         'Flag of Gambia',
-        'GM',
+        ':gm:',
         'Gambian Flag'
     ],
     '🇬🇳': [
         'Flag of Guinea',
-        'GN',
+        ':gn:',
         'Guinean Flag'
     ],
     '🇬🇵': [
         'Flag of Guadeloupe',
-        'GP',
+        ':gp:',
         'Guadeloupean Flag'
     ],
     '🇬🇶': [
         'Flag of Equatorial Guinea',
-        'GQ',
+        ':gq:',
         'Equatorial Guinean Flag',
         'Equatoguinean Flag'
     ],
     '🇬🇷': [
         'Flag of Greece',
-        'GR',
+        ':gr:',
         'Greek Flag'
     ],
     '🇬🇸': [
         'Flag of South Georgia & the South Sandwich Islands',
-        'GS'
+        ':gs:'
     ],
     '🇬🇹': [
         'Flag of Guatemala',
-        'GT',
+        ':gt:',
         'Guatemalan Flag'
     ],
     '🇬🇺': [
         'Flag of Guam',
-        'GU',
+        ':gu:',
         'Guamanian Flag',
         'Chamorro Flag'
     ],
     '🇬🇼': [
         'Flag of Guinea-Bissau',
-        'GW',
+        ':gw:',
         'Guinea-Bissau Flag'
     ],
     '🇬🇾': [
         'Flag of Guyana',
-        'GY',
+        ':gy:',
         'Guyanese Flag'
     ],
     '🇭🇰': [
         'Flag of Hong Kong SAR China',
-        'HK',
+        ':hk:',
         'Hong Kong Flag'
     ],
     '🇭🇲': [
         'Flag of Heard & McDonald Islands',
-        'HM',
+        ':hm:',
         'Flag: Heard & McDonald Islands'
     ],
     '🇭🇳': [
         'Flag of Honduras',
-        'HN',
+        ':hn:',
         'Honduran Flag'
     ],
     '🇭🇷': [
         'Flag of Croatia',
-        'HR',
+        ':hr:',
         'Croatian Flag'
     ],
     '🇭🇹': [
         'Flag of Haiti',
-        'HT',
+        ':ht:',
         'Haitian Flag'
     ],
     '🇭🇺': [
         'Flag of Hungary',
-        'HU',
+        ':hu:',
         'Hungarian Flag'
     ],
     '🇮🇨': [
         'Flag of Canary Islands',
-        'IC'
+        ':ic:'
     ],
     '🇮🇩': [
         'Flag of Indonesia',
-        'ID',
+        ':id:',
         'Indonesian Flag'
     ],
     '🇮🇪': [
         'Flag of Ireland',
-        'IE',
+        ':ie:',
         'Irish Flag'
     ],
     '🇮🇱': [
         'Flag of Israel',
-        'IL',
+        ':il:',
         'Israeli Flag'
     ],
     '🇮🇲': [
         'Flag of Isle of Man',
-        'IM',
+        ':im:',
         'Manx Flag'
     ],
     '🇮🇳': [
         'Flag of India',
-        'IN',
+        ':in:',
         'Indian Flag'
     ],
     '🇮🇴': [
         'Flag of British Indian Ocean Territory',
-        'IO',
+        ':io:',
         'British Indian Ocean Territory Flag'
     ],
     '🇮🇶': [
         'Flag of Iraq',
-        'IQ',
+        ':iq:',
         'Iraqi Flag'
     ],
     '🇮🇷': [
         'Flag of Iran',
-        'IR',
+        ':ir:',
         'Iranian Flag'
     ],
     '🇮🇸': [
         'Flag of Iceland',
-        'IS',
+        ':is:',
         'Icelandic Flag'
     ],
     '🇮🇹': [
         'Flag of Italy',
-        'IT',
+        ':it:',
         'Italian Flag'
     ],
     '🇯🇪': [
         'Flag of Jersey',
-        'JE',
+        ':je:',
         'Jersey Flag'
     ],
     '🇯🇲': [
         'Flag of Jamaica',
-        'JM',
+        ':jm:',
         'Jamaican Flag'
     ],
     '🇯🇴': [
         'Flag of Jordan',
-        'JO',
+        ':jo:',
         'Jordanian Flag'
     ],
     '🇯🇵': [
         'Flag of Japan',
-        'JP',
+        ':jp:',
         'Japanese Flag'
     ],
     '🇰🇪': [
         'Flag of Kenya',
-        'KE',
+        ':ke:',
         'Kenyan Flag'
     ],
     '🇰🇬': [
         'Flag of Kyrgyzstan',
-        'KG',
+        ':kg:',
         'Kyrgyzstani Flag'
     ],
     '🇰🇭': [
         'Flag of Cambodia',
-        'KH',
+        ':kh:',
         'Cambodian Flag'
     ],
     '🇰🇮': [
         'Flag of Kiribati',
-        'KI',
+        ':ki:',
         'I-Kiribati Flag'
     ],
     '🇰🇲': [
         'Flag of Comoros',
-        'KM',
+        ':km:',
         'Comoran Flag'
     ],
     '🇰🇳': [
         'Flag of Saint Kitts & Nevis',
-        'KN'
+        ':kn:'
     ],
     '🇰🇵': [
         'Flag of North Korea',
-        'KP',
+        ':kp:',
         'North Korean Flag'
     ],
     '🇰🇷': [
         'Flag of South Korea',
-        'KR',
+        ':kr:',
         'South Korean Flag'
     ],
     '🇰🇼': [
         'Flag of Kuwait',
-        'KW',
+        ':kw:',
         'Kuwaiti Flag'
     ],
     '🇰🇾': [
         'Flag of Cayman Islands',
-        'KY',
+        ':ky:',
         'Caymanian Flag'
     ],
     '🇰🇿': [
         'Flag of Kazakhstan',
-        'KZ',
+        ':kz:',
         'Kazakhstani Flag',
         'Kazakh Flag'
     ],
     '🇱🇦': [
         'Flag of Laos',
-        'LA',
+        ':la:',
         'Laotian Flag',
         'Lao Flag'
     ],
     '🇱🇧': [
         'Flag of Lebanon',
-        'LB',
+        ':lb:',
         'Lebanese Flag'
     ],
     '🇱🇨': [
         'Flag of Saint Lucia',
-        'LC'
+        ':lc:'
     ],
     '🇱🇮': [
         'Flag of Liechtenstein',
-        'LI',
+        ':lt:',
         'Liechtensteiner Flag'
     ],
     '🇱🇰': [
         'Flag of Sri Lanka',
-        'LK',
+        ':lk:',
         'Sri Lankan Flag'
     ],
     '🇱🇷': [
         'Flag of Liberia',
-        'LR',
+        ':lr:',
         'Liberian Flag'
     ],
     '🇱🇸': [
         'Flag of Lesotho',
-        'LS',
+        ':ls:',
         'Basotho Flag'
     ],
     '🇱🇹': [
         'Flag of Lithuania',
-        'LT',
+        ':lt:',
         'Lithuanian Flag'
     ],
     '🇱🇺': [
         'Flag of Luxembourg',
-        'LU',
+        ':lu:',
         'Luxembourger Flag'
     ],
     '🇱🇻': [
         'Flag of Latvia',
-        'LV',
+        ':lv:',
         'Latvian Flag'
     ],
     '🇱🇾': [
         'Flag of Libya',
-        'LY',
+        ':ly:',
         'Libyan Flag'
     ],
     '🇲🇦': [
         'Flag of Morocco',
-        'MA',
+        ':ma:',
         'Moroccan Flag'
     ],
     '🇲🇨': [
         'Flag of Monaco',
-        'MC',
+        ':mc:',
         'Monégasque Flag'
     ],
     '🇲🇩': [
         'Flag of Moldova',
-        'MD',
+        ':md:',
         'Moldovan Flag'
     ],
     '🇲🇪': [
         'Flag of Montenegro',
-        'ME',
+        ':me:',
         'Montenegrin Flag'
     ],
     '🇲🇫': [
         'Flag of Saint Martin',
-        'MF',
+        ':mf:',
         'Flag: St. Martin'
     ],
     '🇲🇬': [
         'Flag of Madagascar',
-        'MG',
+        ':mg:',
         'Madagascan Flag'
     ],
     '🇲🇭': [
         'Flag of Marshall Islands',
-        'MH',
+        ':mh:',
         'Marshallese Flag'
     ],
     '🇲🇰': [
         'Flag of Macedonia',
-        'MK',
+        ':mk:',
         'Macedonian Flag'
     ],
     '🇲🇱': [
         'Flag of Mali',
-        'ML',
+        ':ml:',
         'Malian Flag'
     ],
     '🇲🇲': [
         'Flag of Myanmar (Burma)',
-        'MM',
+        ':mm:',
         'Myanmarese Flag',
         'Flag For Burma',
         'Burmese Flag'
     ],
     '🇲🇳': [
         'Flag of Mongolia',
-        'MN',
+        ':mn:',
         'Mongolian Flag'
     ],
     '🇲🇴': [
         'Flag of Macau Sar China',
-        'MO',
+        ':mo:',
         'Macanese Flag'
     ],
     '🇲🇵': [
         'Flag of Northern Mariana Islands',
-        'MP',
+        ':mp:',
         'Micronesian Flag'
     ],
     '🇲🇶': [
         'Flag of Martinique',
-        'MQ',
+        ':mq:',
         'Snake Flag of Martinique',
         'Martiniquais Flag'
     ],
     '🇲🇷': [
         'Flag of Mauritania',
-        'MR',
+        ':mr:',
         'Mauritanian Flag'
     ],
     '🇲🇸': [
         'Flag of Montserrat',
-        'MS',
+        ':ms:',
         'Montserratian Flag'
     ],
     '🇲🇹': [
         'Flag of Malta',
-        'MT',
+        ':mt:',
         'Maltese Flag'
     ],
     '🇲🇺': [
         'Flag of Mauritius',
-        'MU',
+        ':mu:',
         'Mauritian Flag'
     ],
     '🇲🇻': [
         'Flag of Maldives',
-        'MV',
+        ':mv:',
         'Maldivian Flag'
     ],
     '🇲🇼': [
         'Flag of Malawi',
-        'MW',
+        ':mw:',
         'Malawian Flag'
     ],
     '🇲🇽': [
         'Flag of Mexico',
-        'MX',
+        ':mx:',
         'Mexican Flag'
     ],
     '🇲🇾': [
         'Flag of Malaysia',
-        'MY',
+        ':my:',
         'Malaysian Flag'
     ],
     '🇲🇿': [
         'Flag of Mozambique',
-        'MZ',
+        ':mz:',
         'Mozambican Flag'
     ],
     '🇳🇦': [
         'Flag of Namibia',
-        'NA',
+        ':na:',
         'Namibian Flag'
     ],
     '🇳🇨': [
         'Flag of New Caledonia',
-        'NC',
+        ':nc:',
         'New Caledonian Flag'
     ],
     '🇳🇪': [
         'Flag of Niger',
-        'NE',
+        ':ne:',
         'Nigerien Flag'
     ],
     '🇳🇫': [
         'Flag of Norfolk Island',
-        'NF',
+        ':nf:',
         'Norfolk Island Flag'
     ],
     '🇳🇬': [
         'Flag of Nigeria',
-        'NG',
+        ':ng:',
         'Nigerian Flag'
     ],
     '🇳🇮': [
         'Flag of Nicaragua',
-        'NI',
+        ':ni:',
         'Nicaraguan Flag'
     ],
     '🇳🇱': [
         'Flag of Netherlands',
-        'NL',
+        ':nl:',
         'Dutch Flag',
         'Holland'
     ],
     '🇳🇴': [
         'Flag of Norway',
-        'NO',
+        ':no:',
         'Norwegian Flag'
     ],
     '🇳🇵': [
         'Flag of Nepal',
-        'NP',
+        ':np:',
         'Nepalese Flag'
     ],
     '🇳🇷': [
         'Flag of Nauru',
-        'NR',
+        ':nr:',
         'Nauruan Flag'
     ],
     '🇳🇺': [
         'Flag of Niue',
-        'NU',
+        ':nu:',
         'Niuean Flag'
     ],
     '🇳🇿': [
         'Flag of New Zealand',
-        'NZ',
+        ':nz:',
         'Kiwi Flag'
     ],
     '🇴🇲': [
         'Flag of Oman',
-        'OM',
+        ':om:',
         'Omani Flag'
     ],
     '🇵🇦': [
         'Flag of Panama',
-        'PA',
+        ':pa:',
         'Panamanian Flag'
     ],
     '🇵🇪': [
         'Flag of Peru',
-        'PE',
+        ':pe:',
         'Peruvian Flag'
     ],
     '🇵🇫': [
         'Flag of French Polynesia',
-        'PF',
+        ':pf:',
         'French Polynesian Flag'
     ],
     '🇵🇬': [
         'Flag of Papua New Guinea',
-        'PG',
+        ':pg:',
         'PNG Flag',
         'Papua New Guinean Flag'
     ],
     '🇵🇭': [
         'Flag of Philippines',
-        'PH'
+        ':ph:'
     ],
     '🇵🇰': [
         'Flag of Pakistan',
-        'PK',
+        ':pk:',
         'Pakistani Flag'
     ],
     '🇵🇱': [
         'Flag of Poland',
-        'PL',
+        ':pl:',
         'Polish Flag'
     ],
     '🇵🇲': [
         'Flag of Saint Pierre & Miquelon',
-        'PM'
+        ':pm:'
     ],
     '🇵🇳': [
         'Flag of Pitcairn',
-        'PN'
+        ':pn:'
     ],
     '🇵🇷': [
         'Flag of Puerto Rico',
-        'PR',
+        ':pr:',
         'Puerto Rican Flag'
     ],
     '🇵🇸': [
         'Flag of Palestinian Territories',
-        'PS',
+        ':ps:',
         'Palestine'
     ],
     '🇵🇹': [
         'Flag of Portugal',
-        'PT',
+        ':pt:',
         'Portugese Flag'
     ],
     '🇵🇼': [
         'Flag of Palau',
-        'PW',
+        ':pw:',
         'Palauan Flag'
     ],
     '🇵🇾': [
         'Flag of Paraguay',
-        'PY',
+        ':py:',
         'Paraguayan Flag'
     ],
     '🇶🇦': [
         'Flag of Qatar',
-        'QA',
+        ':qa:',
         'Qatari Flag'
     ],
     '🇷🇪': [
         'Flag of Réunion',
-        'RE',
+        ':re:',
         'Réunionnais Flag'
     ],
     '🇷🇴': [
         'Flag of Romania',
-        'RO',
+        ':ro:',
         'Romanian Flag'
     ],
     '🇷🇸': [
         'Flag of Serbia',
-        'RS',
+        ':rs:',
         'Serbian Flag'
     ],
     '🇷🇺': [
         'Flag of Russia',
-        'RU',
+        ':ru:',
         'Russian Flag'
     ],
     '🇷🇼': [
         'Flag of Rwanda',
-        'RW',
+        ':rw:',
         'Rwandan Flag'
     ],
     '🇸🇦': [
         'Flag of Saudi Arabia',
-        'SA',
+        ':sa:',
         'Saudi Arabian Flag'
     ],
     '🇸🇧': [
         'Flag of Solomon Islands',
-        'SB',
+        ':sb:',
         'Solomon Islander Flag'
     ],
     '🇸🇨': [
         'Flag of Seychelles',
-        'SC',
+        ':sc:',
         'Seychellois Flag'
     ],
     '🇸🇩': [
         'Flag of Sudan',
-        'SD',
+        ':sd:',
         'Sudanese Flag'
     ],
     '🇸🇪': [
         'Flag of Sweden',
-        'SE',
+        ':se:',
         'Swedish Flag'
     ],
     '🇸🇬': [
         'Flag of Singapore',
-        'SG',
+        ':sg:',
         'Singaporean Flag'
     ],
     '🇸🇭': [
         'Flag of Saint Helena',
-        'SH'
+        ':sh:'
     ],
     '🇸🇮': [
         'Flag of Slovenia',
-        'SI',
+        ':si:',
         'Slovenian Flag'
     ],
     '🇸🇯': [
         'Flag of Svalbard & Jan Mayen',
-        'SJ'
+        ':sj:'
     ],
     '🇸🇰': [
         'Flag of Slovakia',
-        'SK',
+        ':sk:',
         'Slovak Flag',
         'Slovakian Flag'
     ],
     '🇸🇱': [
         'Flag of Sierra Leone',
-        'SL',
+        ':sl:',
         'Sierra Leonean Flag'
     ],
     '🇸🇲': [
         'Flag of San Marino',
-        'SM',
+        ':sm:',
         'Sammarinese Flag'
     ],
     '🇸🇳': [
         'Flag of Senegal',
-        'SN',
+        ':sn:',
         'Sengalese Flag'
     ],
     '🇸🇴': [
         'Flag of Somalia',
-        'SO',
+        ':so:',
         'Somalian Flag'
     ],
     '🇸🇷': [
         'Flag of Suriname',
-        'SR',
+        ':sr:',
         'Surinamer Flag'
     ],
     '🇸🇸': [
         'Flag of South Sudan',
-        'SS',
+        ':ss:',
         'South Sudanese Flag'
     ],
     '🇸🇹': [
         'Flag of São Tomé & Príncipe',
-        'ST'
+        ':st:'
     ],
     '🇸🇻': [
         'Flag of El Salvador',
-        'SV',
+        ':sv:',
         'El Salvadoran Flag'
     ],
     '🇸🇽': [
         'Flag of Sint Maarten',
-        'SX'
+        ':sx:'
     ],
     '🇸🇾': [
         'Flag of Syria',
-        'SY',
+        ':sy:',
         'Syrian Flag'
     ],
     '🇸🇿': [
         'Flag of Swaziland',
-        'SZ',
+        ':sz:',
         'Eswatini Flag'
     ],
     '🇹🇦': [
         'Flag of Tristan Da Cunha',
-        'TA'
+        ':ta:'
     ],
     '🇹🇨': [
         'Flag of Turks & Caicos Islands',
-        'TC'
+        ':tc:'
     ],
     '🇹🇩': [
         'Flag of Chad',
-        'TD',
+        ':td:',
         'Chadian Flag'
     ],
     '🇹🇫': [
         'Flag of French Southern Territories',
-        'TF',
+        ':tf:',
         'French Southern Lands Flag'
     ],
     '🇹🇬': [
         'Flag of Togo',
-        'TG',
+        ':tg:',
         'Togolese Flag'
     ],
     '🇹🇭': [
         'Flag of Thailand',
-        'TH',
+        ':th:',
         'Thai Flag'
     ],
     '🇹🇯': [
         'Flag of Tajikistan',
-        'TJ',
+        ':tj:',
         'Tajik Flag'
     ],
     '🇹🇰': [
         'Flag of Tokelau',
-        'TK',
+        ':tk:',
         'Tokelauan Flag'
     ],
     '🇹🇱': [
         'Flag of Timor-Leste',
-        'TL',
+        ':tl:',
         'Timor-Leste Flag',
         'East Timorese Flag'
     ],
     '🇹🇲': [
         'Flag of Turkmenistan',
-        'TM',
+        ':tm:',
         'Turkmen Flag'
     ],
     '🇹🇳': [
         'Flag of Tunisia',
-        'TN',
+        ':tn:',
         'Tunisian Flag'
     ],
     '🇹🇴': [
         'Flag of Tonga',
-        'TO',
+        ':to:',
         'Tongan Flag'
     ],
     '🇹🇷': [
         'Flag of Turkey',
-        'TR',
+        ':tr:',
         'Turkish Flag'
     ],
     '🇹🇹': [
         'Flag of Trinidad & Tobago',
-        'TT'
+        ':tt:'
     ],
     '🇹🇻': [
         'Flag of Tuvalu',
-        'TV',
+        ':tv:',
         'Tuvaluan Flag'
     ],
     '🇹🇼': [
         'Flag of Taiwan',
-        'TW',
+        ':tw:',
         'Taiwanese Flag'
     ],
     '🇹🇿': [
         'Flag of Tanzania',
-        'TZ',
+        ':tz:',
         'Tanzanian Flag'
     ],
     '🇺🇦': [
         'Flag of Ukraine',
-        'UA',
+        ':ua:',
         'Ukrainian Flag'
     ],
     '🇺🇬': [
         'Flag of Uganda',
-        'UG',
+        ':ug:',
         'Ugandan Flag'
     ],
     '🇺🇲': [
         'Flag: U.S. Outlying Islands',
-        'UM'
+        ':um:'
     ],
     '🇺🇸': [
         'Flag of United States',
-        'US',
+        ':us:',
         'American Flag',
         'USA Flag'
     ],
     '🇺🇾': [
         'Flag of Uruguay',
-        'UY',
+        ':uy:',
         'Uruguayan Flag'
     ],
     '🇺🇿': [
         'Flag of Uzbekistan',
-        'UZ',
+        ':uz:',
         'Uzbekistani Flag',
         'Uzbek Flag'
     ],
     '🇻🇦': [
         'Flag of Holy See',
-        'VA',
+        ':va:',
         'Vanticanien Flag'
     ],
     '🇻🇨': [
         'Flag of Saint Vincent & Grenadines',
-        'VC'
+        ':vc:'
     ],
     '🇻🇪': [
         'Flag of Venezuela',
-        'VE',
+        ':ve:',
         'Venezuelan Flag'
     ],
     '🇻🇬': [
         'Flag of British Virgin Islands',
-        'VG',
+        ':vg:',
         'British Virgin Islander Flag'
     ],
     '🇻🇮': [
         'Flag of US Virgin Islands',
-        'VI',
+        ':vi:',
         'US Virgin Islander Flag'
     ],
     '🇻🇳': [
         'Flag of Vietnam',
-        'VN',
+        ':vn:',
         'Vietnamese Flag'
     ],
     '🇻🇺': [
         'Flag of Vanuatu',
-        'VU',
+        ':vu:',
         'Ni-Vanuatu Flag'
     ],
     '🇼🇫': [
         'Flag of Wallis & Futuna',
-        'WF'
+        ':wf:'
     ],
     '🇼🇸': [
         'Flag of Samoa',
-        'WS',
+        ':ws:',
         'Samoan Flag'
     ],
     '🇽🇰': [
         'Flag of Kosovo',
-        'XK',
+        ':xk:',
         'Kosovar Flag'
     ],
     '🇾🇪': [
         'Flag of Yemen',
-        'YE',
+        ':ye:',
         'Yemeni Flag'
     ],
     '🇾🇹': [
         'Flag of Mayotte',
-        'YT',
+        ':yt:',
         'Mayotte Flag'
     ],
     '🇿🇦': [
         'Flag of South Africa',
-        'ZA',
+        ':za:',
         'South African Flag'
     ],
     '🇿🇲': [
         'Flag of Zambia',
-        'ZM',
+        ':zm:',
         'Zambian Flag'
     ],
     '🇿🇼': [
         'Flag of Zimbabwe',
-        'ZW',
+        ':zw:',
         'Zimbabwean Flag',
         'Zim Flag'
     ]
@@ -5129,221 +7333,455 @@ emojis_language[lang][7] = {
 emojis_language[lang][8] = {
     '🧗{{skin_tone}}‍♂️': [
         'Man Climbing',
+        ':man_climbing:',
+        ':climbing:',
         'Male Rock Climber',
-        'Man Climber'
+        'Man Climber',
+        ':man:'
     ],
     '🧗{{skin_tone}}‍♀️': [
         'Woman Climbing',
+        ':woman_climbing:',
+        ':climbing:',
         'Female Rock Climber',
-        'Woman Climber'
+        'Woman Climber',
+        ':woman:'
     ],
     '🧗{{skin_tone}}': [
         'Person Climbing',
+        ':person_climbing:',
+        ':climbing:',
         'Person Rock Climber',
-        'Person Climber'
+        'Person Climber',
+        ':person:'
     ],
     '🏇{{skin_tone}}': [
         'Horse Racing',
+        ':horse_racing:',
         'Horse Race',
         'Jockey'
     ],
-    '⛷{{skin_tone}}‍️': ['Skier'],
-    '🏂{{skin_tone}}‍': ['Snowboarder'],
-    '🏌️{{skin_tone}}‍♂️': ['Man Golfer'],
-    '🏌️{{skin_tone}}‍♀️': ['Woman Golfer'],
-    '🏌️{{skin_tone}}': ['Person Golfer'],
-    '🏄{{skin_tone}}‍♂️': ['Man Surfer'],
-    '🏄{{skin_tone}}‍♀️': ['Woman Surfer'],
-    '🏄{{skin_tone}}': ['Person Surfer'],
-    '🚣{{skin_tone}}‍♂️': ['Man Rowing Boat'],
-    '🚣{{skin_tone}}‍♀️': ['Woman Rowing Boat'],
-    '🚣{{skin_tone}}': ['Person Rowing Boat'],
+    '⛷{{skin_tone}}‍️': [
+        'Skier',
+        ':skier:'
+    ],
+    '🏂{{skin_tone}}‍': [
+        'Snowboarder',
+        ':snowboarder:'
+    ],
+    '🏌️{{skin_tone}}‍♂️': [
+        'Man Golfer',
+        ':man_golfer:',
+        ':golfer:',
+        ':man:'
+    ],
+    '🏌️{{skin_tone}}‍♀️': [
+        'Woman Golfer',
+        ':woman_golfer:',
+        ':golfer:',
+        ':woman:'
+    ],
+    '🏌️{{skin_tone}}': [
+        'Person Golfer',
+        ':person_golfer:',
+        ':golfer:',
+        ':person:'
+    ],
+    '🏄{{skin_tone}}‍♂️': [
+        'Man Surfer',
+        ':man_surfer:',
+        ':surfer:',
+        ':man:'
+    ],
+    '🏄{{skin_tone}}‍♀️': [
+        'Woman Surfer',
+        ':woman_surfer:',
+        ':surfer:',
+        ':woman:'
+    ],
+    '🏄{{skin_tone}}': [
+        'Person Surfer',
+        ':person_surfer:',
+        ':surfer:',
+        ':person:'
+    ],
+    '🚣{{skin_tone}}‍♂️': [
+        'Man Rowing Boat',
+        ':man_rowing_boat:',
+        ':rowing_boat:',
+        ':man:'
+    ],
+    '🚣{{skin_tone}}‍♀️': [
+        'Woman Rowing Boat',
+        ':woman_rowing_boat:',
+        ':rowing_boat:',
+        ':woman:'
+    ],
+    '🚣{{skin_tone}}': [
+        'Person Rowing Boat',
+        ':person_rowing_boat:',
+        ':rowing_boat:',
+        ':person:'
+    ],
     '🏊{{skin_tone}}‍♂️': [
         'Man Swimming',
-        'Man Swimmer'
+        ':man_swimming:',
+        ':swimming:',
+        'Man Swimmer',
+        ':man:'
     ],
     '🏊{{skin_tone}}‍♀️': [
         'Woman Swimming',
-        'Woman Swimmer'
+        ':woman_swimming:',
+        ':swimming:',
+        'Woman Swimmer',
+        ':woman:'
     ],
     '🏊{{skin_tone}}': [
-        'Woman Swimming',
-        'Person Swimmer'
+        'Person Swimming',
+        ':person_swimming:',
+        ':swimming:',
+        'Person Swimmer',
+        ':person:'
     ],
     '⛹{{skin_tone}}‍️‍♂️': [
         'Man Bouncing Ball',
-        'Man Basketball Player'
+        ':man_bouncing_ball:',
+        ':bouncing_ball:',
+        'Man Basketball Player',
+        ':man:'
     ],
     '⛹️{{skin_tone}}‍♀️': [
         'Woman Bouncing Ball',
-        'Woman Basketball Player'
+        ':woman_bouncing_ball:',
+        ':boucing_ball:',
+        'Woman Basketball Player',
+        ':woman:'
     ],
     '⛹️{{skin_tone}}': [
         'Person Bouncing Ball',
-        'Person Basketball Player'
+        ':person_bouncing_ball:',
+        ':boucing_ball:',
+        'Person Basketball Player',
+        ':person:'
     ],
     '🏋️{{skin_tone}}‍♂️': [
         'Man Lifting Weights',
-        'Man Weightlifter'
+        ':man_lifting_weights:',
+        ':lifting_weights:',
+        'Man Weightlifter',
+        ':man:'
     ],
     '🏋️{{skin_tone}}‍♀️': [
         'Woman Lifting Weights',
-        'Woman Weightlifter'
+        ':woman_lifting_weights:',
+        ':lifting_weights:',
+        'Woman Weightlifter',
+        ':woman:'
     ],
     '🏋️{{skin_tone}}': [
         'Person Lifting Weights',
-        'Person Weightlifter'
+        ':person_lifting_weights:',
+        ':lifting_weights:',
+        'Person Weightlifter',
+        ':person:'
     ],
     '🚴{{skin_tone}}‍♂️': [
         'Man Biking',
+        ':man_biking:',
+        ':biking:',
         'Man Cyclist',
-        'Male Cyclist'
+        'Male Cyclist',
+        ':man:'
     ],
     '🚴{{skin_tone}}‍♀️': [
         'Woman Biking',
+        ':woman_biking:',
+        ':biking:',
         'Woman Cyclist',
-        'Female Cyclist'
+        'Female Cyclist',
+        ':woman:'
     ],
     '🚴{{skin_tone}}': [
         'Person Biking',
+        ':person_biking:',
+        ':biking:',
         'Person Cyclist',
-        'Person Cyclist'
+        'Person Cyclist',
+        ':person:'
     ],
     '🚵{{skin_tone}}‍♂️': [
         'Man Mountain Biking',
-        'Man Mountain Biker'
+        ':man_mountain_bike:',
+        ':mountain_bike:',
+        'Man Mountain Biker',
+        ':man:'
     ],
     '🚵{{skin_tone}}‍♀️': [
         'Woman Mountain Biking',
-        'Woman Mountain Biker'
+        ':woman_mountain_bike:',
+        ':mountain_bike:',
+        'Woman Mountain Biker',
+        ':woman:'
     ],
     '🚵{{skin_tone}}': [
         'Person Mountain Biking',
-        'Person Mountain Biker'
+        ':person_mountain_bike:',
+        ':mountain_bike:',
+        'Person Mountain Biker',
+        ':person:'
     ],
     '🤸{{skin_tone}}‍♂️': [
         'Man Cartwheeling',
-        'Man Doing Cartwheel'
+        ':man_cartwheeling:',
+        ':cartwheeling:',
+        'Man Doing Cartwheel',
+        ':man:'
     ],
     '🤸{{skin_tone}}‍♀️': [
         'Woman Cartwheeling',
-        'Woman Doing Cartwheel'
+        ':woman_cartwheeling:',
+        ':cartwheeling:',
+        'Woman Doing Cartwheel',
+        ':woman:'
     ],
     '🤸{{skin_tone}}': [
         'Person Cartwheeling',
-        'Person Doing Cartwheel'
+        ':person_cartwheeling:',
+        ':cartwheeling:',
+        'Person Doing Cartwheel',
+        ':person:'
     ],
     '🤼‍♂️': [
         'Men Wrestling',
+        ':men_wrestling:',
+        ':wrestling:',
         'Wrestling',
-        'Wrestlers'
+        'Wrestlers',
+        ':man:'
     ],
     '🤼‍♀️': [
         'Women Wrestling',
+        ':women_wrestling:',
+        ':wrestling:',
         'Wrestling',
-        'Wrestlers'
+        'Wrestlers',
+        ':woman:'
     ],
     '🤼': [
         'People Wrestling',
+        ':people_wrestling:',
+        ':wrestling:',
         'Wrestling',
-        'Wrestlers'
+        'Wrestlers',
+        ':person:'
     ],
-    '🤽{{skin_tone}}‍♂️': ['Man Playing Water Polo'],
-    '🤽{{skin_tone}}‍♀️': ['Woman Playing Water Polo'],
-    '🤽{{skin_tone}}': ['Person Playing Water Polo'],
-    '🤾{{skin_tone}}‍♂️': ['Man Playing Handball'],
-    '🤾{{skin_tone}}‍♀️': ['Woman Playing Handball'],
-    '🤾{{skin_tone}}': ['Person Playing Handball'],
+    '🤽{{skin_tone}}‍♂️': [
+        'Man Playing Water Polo',
+        ':man_playing_water_polo:',
+        ':playing_water_polo:',
+        ':man:'
+    ],
+    '🤽{{skin_tone}}‍♀️': [
+        'Woman Playing Water Polo',
+        ':woman_playing_water_polo:',
+        ':playing_water_polo:',
+        ':woman:'
+    ],
+    '🤽{{skin_tone}}': [
+        'Person Playing Water Polo',
+        ':person_playing_water_polo:',
+        ':playing_water_polo:',
+        ':person:'
+    ],
+    '🤾{{skin_tone}}‍♂️': [
+        'Man Playing Handball',
+        ':man_playing_handball:',
+        ':playing_handball:',
+        ':man:'
+    ],
+    '🤾{{skin_tone}}‍♀️': [
+        'Woman Playing Handball',
+        ':woman_playing_handball:',
+        ':playing_handball:',
+        ':woman:'
+    ],
+    '🤾{{skin_tone}}': [
+        'Person Playing Handball',
+        ':person_playing_handball:',
+        ':playing_handball:',
+        ':person:'
+    ],
     '🤹{{skin_tone}}‍♂️': [
         'Man Juggling',
-        'Male Juggler'
+        ':man_juggling:',
+        ':juggling:',
+        'Male Juggler',
+        ':man:'
     ],
     '🤹{{skin_tone}}‍♀️': [
         'Woman Juggling',
-        'Female Juggler'
+        ':woman_juggling:',
+        ':juggling:',
+        'Female Juggler',
+        ':woman:'
     ],
     '🤹{{skin_tone}}': [
         'Person Juggling',
-        'Person Juggler'
+        ':person_juggling:',
+        ':juggling:',
+        'Person Juggler',
+        ':person:'
     ],
     '🧘{{skin_tone}}‍♂️': [
         'Man in Lotus Position',
+        ':man_lotus_position:',
+        ':lotus_position:',
         'Meditation',
         'Zen',
         'Cross legged',
-        'Yoga'
+        'Yoga',
+        ':man:'
     ],
     '🧘{{skin_tone}}‍♀️': [
         'Woman in Lotus Position',
+        ':woman_lotus_position:',
+        ':lotus_position:',
         'Meditation',
         'Zen',
         'Cross legged',
-        'Yoga'
+        'Yoga',
+        ':woman:'
     ],
     '🧘{{skin_tone}}': [
         'Person in Lotus Position',
+        ':person_lotus:_position',
+        ':lotus_position:',
         'Meditation',
         'Zen',
         'Cross legged',
-        'Yoga'
+        'Yoga',
+        ':person:'
     ],
-    '🏃{{skin_tone}}‍♂️': ['Man Running'],
-    '🏃{{skin_tone}}‍♀️': ['Woman Running'],
-    '🏃{{skin_tone}}': ['Person Running'],
-    '🕺{{skin_tone}}': ['Man Dancing'],
-    '💃{{skin_tone}}': ['Woman Dancing'],
+    '🏃{{skin_tone}}‍♂️': [
+        'Man Running',
+        ':man_running:',
+        ':running:',
+        ':man:'
+    ],
+    '🏃{{skin_tone}}‍♀️': [
+        'Woman Running',
+        ':woman_running:',
+        ':running:',
+        ':woman:'
+    ],
+    '🏃{{skin_tone}}': [
+        'Person Running',
+        ':person_running:',
+        ':running:',
+        ':person:'
+    ],
+    '🕺{{skin_tone}}': [
+        'Man Dancing',
+        ':man_dancing:',
+        ':dancing:',
+        ':man:'
+    ],
+    '💃{{skin_tone}}': [
+        'Woman Dancing',
+        ':woman_dancing:',
+        ':dancing:',
+        ':woman:'
+    ],
     '🤺': [
         'Person Fencing',
-        'Fancer'
+        ':person_fencing:',
+        'Fancer',
+        ':fencing:'
     ],
     '🏆': [
         'Trophy',
+        ':trophy:',
         'Championship',
-        'Winner'
+        'Winner',
+        ':gold:',
+        ':yellow:'
     ],
-    '🏅': ['Sports Medal'],
+    '🏅': [
+        'Sports Medal',
+        ':sports_medal:',
+        ':medal:',
+        ':gold:',
+        ':yellow:'
+    ],
     '🥇': [
         '1st Place Medal',
+        ':first_place_medal:',
+        ':gold_medal:',
         'First Place Medal',
-        'Gold Medal'
+        'Gold Medal',
+        ':yellow:',
+        ':gold:'
     ],
     '🥈': [
         '2nd Place Medal',
+        ':second_place_medal:',
+        ':silver_medal:',
         'Second Place Medal',
-        'Silver Medal'
+        'Silver Medal',
+        ':gray:',
+        ':grey:',
+        ':silver:'
     ],
     '🥉': [
         '3rd Place Medal',
+        ':third_place_medal:',
+        ':bronze_medal:',
         'Third Place Medal',
-        'Bronze Medal'
+        'Bronze Medal',
+        ':brown:',
+        ':bronze:'
     ],
     '⚽': [
+        'Football',
+        ':football:',
         'Soccer',
-        'Football'
+        ':white:',
+        ':black:'
     ],
     '⚾': [
         'Baseball',
+        ':baseball:',
         'Softball',
-        'White'
+        ':white:'
     ],
     '🥎': [
         'Softball',
-        'Yellow'
+        ':softball:',
+        ':yellow:'
     ],
     '🏀': [
         'Basketball',
-        'Orange',
+        ':basketball:',
+        ':orange:',
         'Basketball and Hoop'
     ],
-    '🏐': ['Volleyball'],
+    '🏐': [
+        'Volleyball',
+        ':volleyball:',
+        ':white:'
+    ],
     '🏈': [
         'American Football',
+        ':american_football:',
         'Football',
         'Gridiron',
-        'Superbowl'
+        'Superbowl',
+        ':brown:'
     ],
     '🏉': [
         'Rugby Football',
+        ':rugby:',
         'Football',
         'League',
         'Rugby',
@@ -5351,111 +7789,159 @@ emojis_language[lang][8] = {
     ],
     '🎾': [
         'Tennis',
+        ':tennis:',
+        ':ball:',
         'Ball',
         'Racket',
-        'Racquet'
+        'Racquet',
+        ':yellow:'
     ],
     '🥏': [
         'Flying Disk',
+        ':flying_disk:',
         'Frisbee'
     ],
     '🎳': [
         'Bowling',
+        ':bowling:',
         'Pins',
         'Skittles',
         'Ten Pin Bowling'
     ],
     '🏏': [
         'Cricket',
+        ':cricket:',
         'Bat',
         'Ball'
     ],
     '🏑': [
         'Field Hockey',
+        ':field_hockey:',
         'Ball',
         'Stick'
     ],
     '🏒': [
         'Ice Hockey',
+        ':ice_hockey:',
         'Ball',
         'Stick'
     ],
     '🥍': [
         'Lacrosse',
+        ':lacrosse:',
         'Ball',
-        'Stick'
+        'Stick',
+        ':red:'
     ],
     '🏓': [
         'Ping Pong',
+        ':ping_pong:',
+        ':table_tennis:',
         'Table Tennis',
         'Ball',
         'Paddle'
     ],
     '🏸': [
         'Badminton',
+        ':badminton:',
         'Shuttlecock',
         'Racquet'
     ],
-    '🥊': ['Boxing Glove'],
+    '🥊': [
+        'Boxing Glove',
+        ':boxing_glove:',
+        ':red:'
+    ],
     '🥋': [
         'Martial Arts Uniform',
+        ':martial_arts_uniform:',
+        ':judo:',
+        ':karate:',
+        ':kung_fu:',
         'Judo',
         'Karate',
         'Kung fu'
     ],
     '⛳': [
         'Flag in Hole',
+        ':flag_in_hole:',
+        ':golf_flag:',
         'Golf Flag'
     ],
     '⛸️': [
         'Ice Skate',
+        ':ice_skate:',
         'Skating'
     ],
     '🎣': [
         'Fishing',
+        ':fishing:',
         'Pole',
         'Fish',
         'Fishing Rod'
     ],
     '🎽': [
         'Running Shirt',
+        ':running_shirt:',
         'Singlet',
         'Sash'
     ],
     '🎿': [
         'Skis',
+        ':skis:',
         'Skiing',
         'Boot'
     ],
-    '🛷': ['Sled'],
-    '🥌': ['Curling Stone'],
+    '🛷': [
+        'Sled',
+        ':sled:'
+    ],
+    '🥌': [
+        'Curling Stone',
+        ':curling_stone:'
+    ],
     '🎯': [
         'Direct Hit',
+        ':direct_hit:',
         'Archery',
         'Bullseye',
         'Darts'
     ],
     '🎱': [
         'Pool 8 Ball',
+        ':pool_8_ball:',
         'Cue Ball',
         'Snooker',
-        'Billiards'
+        'Billiards',
+        ':black:'
     ],
     '🎮': [
         'Video Game Controller',
+        ':video_game_controller:',
+        ':playstation:',
+        ':xbox:',
         'Playstation',
         'Xbox',
         'Gamepad',
         'Wii U'
     ],
-    '♟️': ['Black Chess Pawn'],
+    '♟️': [
+        'Black Chess Pawn',
+        ':black_chess_pawn:',
+        ':black:'
+    ],
     '🏹': [
         'Bow and Arrow',
+        ':arch:',
         'Arch'
     ],
-    '🥅': ['Goal Net'],
+    '🥅': [
+        'Goal Net',
+        ':goal_net:'
+    ],
     '🀄': [
         'Mahjong Red Dragon',
+        ':mahjong:',
         'Mahjong',
         'Mahjong Tile',
         '中',
@@ -5463,6 +7949,7 @@ emojis_language[lang][8] = {
     ],
     '🎴': [
         'Flower Playing Cards',
+        ':flower_playing_cards:',
         'Deck Of Cards',
         'Hanafuda',
         'Hwatu',
@@ -5473,259 +7960,385 @@ emojis_language[lang][8] = {
 emojis_language[lang][9] = {
     '🚂': [
         'Steam Locomotive',
+        ':steam_train:',
         'Steam Train',
         'Railway Locomotive'
     ],
     '🚃': [
         'Railway Car',
+        ':railway_car:',
         'Railcar',
         'Railroad Car',
         'Railway Carriage',
         'Railway Wagon'
     ],
-    '🚄': ['High-Speed Train'],
+    '🚄': [
+        'High-Speed Train',
+        ':high_speed_train:'
+    ],
     '🚅': [
         'Bullet Train',
+        ':bullet_train:',
         'Shinkansen',
         'High-Speed Train with Bullet Nose'
     ],
-    '🚆': ['Train'],
+    '🚆': [
+        'Train',
+        ':train:'
+    ],
     '🚇': [
         'Underground',
+        ':underground:',
         'Tube',
         'Metro',
         'Subway'
     ],
     '🚈': [
         'Light Rail',
+        ':light_rail:',
         'Train'
     ],
-    '🚊': ['Tram'],
+    '🚊': [
+        'Tram',
+        ':tram:'
+    ],
     '🚝': [
         'Monorail',
+        ':monorail:',
         'Train'
     ],
     '🚞': [
         'Mountain Railway',
+        ':mountain_railway:',
         'Funicular',
         'Train And Mountain'
     ],
-    '🚋': ['Tram Car'],
+    '🚋': [
+        'Tram Car',
+        ':tram_car:'
+    ],
     '🚌': [
         'Bus',
+        ':bus:',
         'Coach'
     ],
     '🚍': [
         'Oncoming Bus',
+        ':front_of_bus:',
         'Front Of Bus'
     ],
     '🚎': [
         'Trolleybus',
+        ':trolleybus:',
         'Electical Bus'
     ],
     '🚐': [
         'Minibus',
+        ':minibus:',
         'Minivan',
         'People-Mover'
     ],
-    '🚑': ['Ambulance'],
+    '🚑': [
+        'Ambulance',
+        ':ambulance:'
+    ],
     '🚒': [
         'Fire Engine',
+        ':fire_engine:',
         'Fire Department',
         'Fire Truck'
     ],
     '🚓': [
         'Police Car',
+        ':police_car:',
         'Cop Car',
         'Side Of Police Car'
     ],
     '🚔': [
         'Oncoming Police Car',
+        ':front_of_police_car:',
         'Front of Police Car',
         'Cop Car'
     ],
     '🚕': [
         'Taxi',
+        ':taxi:',
         'New York Taxi',
         'Side Of Taxi'
     ],
     '🚖': [
         'Taxi',
+        ':front_of_taxi:',
         'Oncoming Taxi',
         'Front of Taxi'
     ],
     '🚗': [
         'Automobile',
+        ':car:',
         'Red Car',
-        'Side Of Car'
+        'Side Of Car',
+        'Car'
     ],
     '🚘': [
         'Oncoming Automobile',
+        ':front_of_car:',
         'Red Car',
         'Front Of Car'
     ],
     '🚚': [
         'Delivery Truck',
+        ':lorry:',
         'Lorry'
     ],
     '🚛': [
         'Articulated Lorry',
+        ':articulated_lorry:',
         'Green Truck'
     ],
     '🚜': [
         'Tractor',
+        ':tractor:',
         'Farm'
     ],
-    '🛻': ['Pickup Truck'],
+    '🛻': [
+        'Pickup Truck',
+        ':pickup_truck:'
+    ],
     '🏎️': [
         'Racing Car',
+        ':racing_car:',
         'F1',
         'Formula One',
         'Race Car'
     ],
     '🏍️': [
         'Motorbike',
+        ':motorbike:',
         'Motorcycle'
     ],
     '🛵': [
         'Motor Scooter',
+        ':motor_scooter:',
         'Vespa',
         'Motor Bike',
         'Motor Bike'
     ],
     '🛺': [
         'Auto Rickshaw',
+        ':auto_rickshaw:',
         'Tuk Tuk'
     ],
     '🚲': [
         'Bicycle',
+        ':bike:',
         'Bike'
     ],
-    '🛴': ['Kick Scooter'],
+    '🛴': [
+        'Kick Scooter',
+        ':kick_scooter:'
+    ],
     '⛵': [
         'Sailboat',
+        ':sailboat:',
         'Dinghy',
         'Yacht'
     ],
     '🚤': [
         'Speedboat',
+        ':speedboat:',
         'Motorboat',
         'Powerboat'
     ],
-    '🛳️': ['Passenger Ship'],
-    '⛴️': ['Ferry'],
-    '🛥️': ['Motor Boat'],
-    '🚢': ['Cruise Ship'],
+    '🛳️': [
+        'Passenger Ship',
+        ':passenger_ship:'
+    ],
+    '⛴️': [
+        'Ferry',
+        ':ferry:'
+    ],
+    '🛥️': [
+        'Motor Boat',
+        ':motor_boat:'
+    ],
+    '🚢': [
+        'Cruise Ship',
+        ':cruise_ship:'
+    ],
     '✈️': [
         'Airplane',
+        ':airplane:',
         'Aeroplane'
     ],
     '🛩️': [
         'Small Airplane',
+        ':small_airplane:',
         'Small Aeroplane'
     ],
-    '🚁': ['Helicopter'],
-    '🚟': ['Suspension Railway'],
-    '🚠': ['Mountain Cableway'],
+    '🚁': [
+        'Helicopter',
+        ':helicopter:'
+    ],
+    '🚟': [
+        'Suspension Railway',
+        ':suspension_railway:'
+    ],
+    '🚠': [
+        'Mountain Cableway',
+        ':mountain_cableway:'
+    ],
     '🚡': [
         'Aerial Tramway',
+        ':aerial_tramway:',
         'Cable Car',
         'Gondola',
         'Ropeway'
     ],
-    '🛰️': ['Satellite'],
+    '🛰️': [
+        'Satellite',
+        ':satellite:'
+    ],
     '🚀': [
         'Rocket',
+        ':rocket:',
         'Space Shuttle'
     ],
     '🛸': [
         'Flying Saucer',
+        ':flying_saucer:',
         'UFO'
     ],
     '🚉': [
         'Train Station',
+        ':train_station:',
         'Train Platform'
     ],
-    '🚏': ['Bus Stop'],
+    '🚏': [
+        'Bus Stop',
+        ':bus_stop:'
+    ],
     '🛣️': [
         'Motorway',
+        ':motorway:',
         'Road',
         'Highway',
         'Interstate'
     ],
-    '🛤️': ['Railway Track'],
+    '🛤️': [
+        'Railway Track',
+        ':railway_track:'
+    ],
     '🛫': [
         'Airplane Departure',
+        ':airplane_departure:',
         'Taking Off'
     ],
     '🛬': [
         'Airplane Arrival',
+        ':airplane_arrival:',
         'Airplane Arriving',
         'Landing'
     ],
-    '🗾': ['Map of Japan'],
-    '⛰️': ['Mountain'],
-    '🏔️': ['Snow Capped Mountain'],
-    '🌋': ['Volcano'],
+    '🗾': [
+        'Map of Japan',
+        ':map_of_japan:'
+    ],
+    '⛰️': [
+        'Mountain',
+        ':mountain:'
+    ],
+    '🏔️': [
+        'Snow Capped Mountain',
+        ':snow_capped_mountain:'
+    ],
+    '🌋': [
+        'Volcano',
+        ':volcano:'
+    ],
     '🗻': [
         'Mount Fuji',
+        ':mount_fuji:',
         'Fuji-san'
     ],
     '🏕️': [
         'Camping',
+        ':camping:',
         'Campsite'
     ],
-    '🏖️': ['Beach With Umbrella'],
-    '🏜️': ['Desert'],
-    '🏝️': ['Desert Island'],
-    '🏞️': ['National Park'],
+    '🏖️': [
+        'Beach With Umbrella',
+        ':beach_with_umbrella:'
+    ],
+    '🏜️': [
+        'Desert',
+        ':desert:'
+    ],
+    '🏝️': [
+        'Desert Island',
+        ':desert_island:'
+    ],
+    '🏞️': [
+        'National Park',
+        ':national_park:'
+    ],
     '🏟️': [
         'Stadium',
+        ':stadium:',
         'Grandstand',
         'Sport Stadium'
     ],
     '🏛️': [
         'Classical Building',
+        ':classical_building:',
         'Greek',
         'Rome'
     ],
     '🏗️': [
         'Building Construction',
+        ':building_construction:',
         'Crane'
     ],
     '🏘️': [
         'Houses Buildings',
+        ':houses_building:',
         'Group of Houses'
     ],
     '🏚️': [
         'Derelict House Building',
+        ':old_house:',
         'Abandoned House',
         'Old House',
         'Haunted House'
     ],
     '🏠': [
         'Portada',
+        ':home:',
         'House Building'
     ],
     '🏡': [
         'House With Garden',
+        ':house_with_garden:',
         'House And Tree'
     ],
     '🏢': [
         'Office Building',
+        ':office_building:',
         'City Building',
         'High-Rise Building'
     ],
     '🏣': [
         'Japanese Post Office',
+        ':japanese_post_office:',
         'Japanese Postal Mark'
     ],
     '🏤': [
         'Post Office',
+        ':european_post_office:',
         'European Post Office'
     ],
     '🏥': [
         'Hospital',
+        ':hospital:',
         'ER',
         'A&E',
         'Emergency Room',
@@ -5735,6 +8348,7 @@ emojis_language[lang][9] = {
     ],
     '🏦': [
         'Bank',
+        ':bank:',
         'BK',
         'Bakkureru',
         'Bank Branch',
@@ -5742,15 +8356,18 @@ emojis_language[lang][9] = {
     ],
     '🏨': [
         'Hotel',
+        ':hotel:',
         'Accommodation',
         'H Building'
     ],
     '🏩': [
         'Love Hotel',
+        ':love_hotel:',
         'Love Heart Hotel'
     ],
     '🏪': [
         'Convenience Store',
+        ':convenience_store:',
         '24-Hour Store',
         '7-Eleven',
         'Corner Shop',
@@ -5758,16 +8375,19 @@ emojis_language[lang][9] = {
     ],
     '🏫': [
         'School',
+        ':school:',
         'Clock Tower',
         'Elementary High Middle'
     ],
     '🏬': [
         'Department Store',
+        ':department_store:',
         'Shopping Center',
         'Shop'
     ],
     '🏭': [
         'Factory',
+        ':factory:',
         'Industrial',
         'Industry',
         'Pollution',
@@ -5775,91 +8395,117 @@ emojis_language[lang][9] = {
     ],
     '🏯': [
         'Japanese Castle',
+        ':japanese_castle:',
         'Fortress'
     ],
     '🏰': [
         'European Castle',
+        ':european_castle:',
         'Turrets'
     ],
     '💒': [
         'Church Heart',
+        ':church_heart:',
         'Church Wedding',
         'Marriage'
     ],
     '🗼': [
         'Tokyo Tower',
+        ':tokyo_tower:',
         'Eiffel Tower',
         'Red Tower'
     ],
     '🗽': [
         'Statue of Liberty',
+        ':statue_of_liberty:',
         'New York'
     ],
     '⛪': [
         'Church Building',
+        ':church_building:',
         'Cross'
     ],
     '🕌': [
         'Mosque',
+        ':mosque:',
         'Domed Roof',
         'Minaret'
     ],
-    '🛕': ['Hindu Temple'],
+    '🛕': [
+        'Hindu Temple',
+        ':hindu_temple:'
+    ],
     '🕍': [
         'Synagogue',
+        ':synagogue:',
         'Jewish',
         'Synagog',
         'Temple'
     ],
     '⛩️': [
         'Shinto Shrine',
+        ':shinto_shrine:',
         'Kami-no-michi'
     ],
     '🕋': [
         'Kaaba',
+        ':kaaba:',
         'Mecca'
     ],
-    '🏙️': ['Cityscape'],
+    '🏙️': [
+        'Cityscape',
+        ':cityscape:'
+    ],
     '⛱️': [
         'Umbrella on Ground',
+        ':beach_umbrella:',
         'Beach Umbrella'
     ],
     '🌄': [
         'Sunrise Over Mountains',
+        ':sunrise_over_mountains:',
         'Morning',
         'Sunrise'
     ],
     '🌅': [
         'Sunrise',
+        ':sunrise:',
+        ':sunset:',
         'Sunset'
     ],
     '🌆': [
         'Cityscape at Dusk',
+        ':cityscape_at_dusk:',
         'Orange Sky City',
         'Dusk City'
     ],
     '🌇': [
         'Sunset Over Buildings',
+        ':sunset_over_buildings:',
         'City Sunset'
     ],
     '🌃': [
         'Night with Stars',
+        ':night_with_stars:',
         'City At Night',
         'Starry Night'
     ],
     '🗿': [
         'Moai',
+        ':moai:',
         'Easter Island Statue',
         'Human Rock Carving',
         'Moyai Statue'
     ],
     '🌠': [
         'Shooting Star',
+        ':shooting_star:',
         'When You Wish Upon A Star',
         'Meteoroid'
     ],
     '🌌': [
         'Milky Way',
+        ':milky_way:',
         'Galaxy',
         'Night Sky',
         'Space',
@@ -5868,20 +8514,26 @@ emojis_language[lang][9] = {
     ],
     '🎑': [
         'Moon Viewing Ceremony',
+        ':moon_viewing_ceremony:',
         'Grass, Dumplings and Moon',
         'Harvest Moon',
         'Mid-Autumn Festival',
         'Tsukimi'
     ],
-    '🛖': ['Hut'],
+    '🛖': [
+        'Hut',
+        ':hut:'
+    ],
     '🎢': [
         'Roller Coaster',
+        ':roller_coaster:',
         'Rollercoaster',
         'Theme Park'
     ],
     '🛝': [
         'Playground Slide',
-        'Nadó',
+        ':playground_slide:',
+        'Baby',
         'Children'
     ]
 };
@@ -5889,68 +8541,106 @@ emojis_language[lang][9] = {
 emojis_language[lang][10] = {
     '⌚': [
         'Watch',
+        ':watch:',
         'Timepiece',
         'Apple Watch'
     ],
-    '⏰': ['Alarm Clock'],
-    '⏱️': ['Stopwatch'],
-    '⏲️': ['Timer Clock'],
-    '🕰️': ['Mantelpiece Clock'],
-    '🧭': ['Compass'],
-    '🕹️': ['Joystick'],
-    '🎙️': ['Studio Microphone'],
-    '🎚️': ['Level Slider'],
-    '🎛️': ['Control Knobs'],
+    '⏰': [
+        'Alarm Clock',
+        ':alarm_clock:'
+    ],
+    '⏱️': [
+        'Stopwatch',
+        ':stopwatch:'
+    ],
+    '⏲️': [
+        'Timer Clock',
+        ':timer_clock:'
+    ],
+    '🕰️': [
+        'Mantelpiece Clock',
+        ':mantelpiece_clock:'
+    ],
+    '🧭': [
+        'Compass',
+        ':compass:'
+    ],
+    '🕹️': [
+        'Joystick',
+        ':joystick:'
+    ],
+    '🎙️': [
+        'Studio Microphone',
+        ':studio_microphone:'
+    ],
+    '🎚️': [
+        'Level Slider',
+        ':level_slider:'
+    ],
+    '🎛️': [
+        'Control Knobs',
+        ':control_knobs:'
+    ],
     '📻': [
         'Radio',
+        ':radio:',
         'Digital Radio',
         'Wireless'
     ],
     '📱': [
         'Mobile Phone',
+        ':mobile_phone:',
         'Smartphone',
         'iPhone',
         'Cell Phone'
     ],
     '📲': [
         'Mobile Phone with Rightwards Arrow at Left',
+        ':phone_call:',
         'Phone Call',
         'Pointing To Phone'
     ],
     '☎️': [
         'Black Telephone',
+        ':rotary_phone:',
         'Rotary Phone',
-        'Red'
+        ':red:'
     ],
     '📞': [
         'Telephone Receiver',
+        ':phone:',
         'Handset',
         'Phone',
-        'Black'
+        ':black:'
     ],
     '📟': [
         'Pager',
+        ':pager:',
         'Beeper',
         'Bleeper'
     ],
     '📠': [
         'Fax Machine',
+        ':fax_machine:',
         'Facsimile',
         'Fax'
     ],
     '🔋': [
         'Battery',
+        ':battery:',
         'AA Battery',
         'Phone Battery'
     ],
     '🔌': [
         'Electric Plug',
+        ':power_cable:',
         'AC Adaptor',
         'Power Cable',
         'Power Plug'
     ],
     '💻': [
         'Laptop',
+        ':laptop:',
         'Notebook',
         'Personal Computer',
         'PC',
@@ -5959,18 +8649,30 @@ emojis_language[lang][10] = {
     ],
     '🖥️': [
         'Desktop Computer',
+        ':desktop_computer:',
         'iMac',
         'PC'
     ],
-    '🖨️': ['Printer'],
-    '⌨️': ['Keyboard'],
+    '🖨️': [
+        'Printer',
+        ':printer:'
+    ],
+    '⌨️': [
+        'Keyboard',
+        ':keyboard:'
+    ],
     '🖱️': [
         'Computer Mouse',
+        ':computer_mouse:',
         'Three Button Mouse'
     ],
-    '🖲️': ['Trackball'],
+    '🖲️': [
+        'Trackball',
+        ':trackball:'
+    ],
     '💽': [
         'Computer Disk',
+        ':blu_ray:',
         'Minidisc',
         'CD',
         'DVD',
@@ -5979,11 +8681,13 @@ emojis_language[lang][10] = {
     ],
     '💾': [
         'Floppy Disk',
+        ':floppy_disk:',
         '3.5″ Disk',
         'Disk'
     ],
     '💿': [
         'Optical Disk',
+        ':cd:',
         'CD',
         'CD-ROM',
         'Compact Disc'
@@ -5991,28 +8695,45 @@ emojis_language[lang][10] = {
     '📀': [
         'DVD',
         'DVD-ROM',
+        ':dvd:',
         'DVD Video'
     ],
     '🎥': [
         'Movie Camera',
+        ':movie_camera:',
         'Film Camera',
         'Hollywood',
         'Movie'
     ],
-    '🎞️': ['Film Frames'],
-    '📽️': ['Film Projector'],
+    '🎞️': [
+        'Film Frames',
+        ':film_frames:'
+    ],
+    '📽️': [
+        'Film Projector',
+        ':film_projector:'
+    ],
     '📺': [
         'Television',
+        ':tv:',
         'TV'
     ],
-    '📷': ['Digital Camera'],
-    '📸': ['Camera with Flash'],
+    '📷': [
+        'Digital Camera',
+        ':digital_camera:'
+    ],
+    '📸': [
+        'Camera with Flash',
+        ':camera_flash:'
+    ],
     '📹': [
         'Video Camera',
+        ':video_camera:',
         'Camcorder'
     ],
     '📼': [
         'Videocassette',
+        ':vhs:',
         'VHS',
         'VCR',
         'Video Tape',
@@ -6020,6 +8741,7 @@ emojis_language[lang][10] = {
     ],
     '💳': [
         'Credit Card',
+        ':credit_card:',
         'Debit Card',
         'AMEX',
         'Diners Club',
@@ -6029,254 +8751,382 @@ emojis_language[lang][10] = {
     ],
     '📧': [
         'E-Mail',
-        'Correu electrònic'
+        ':email:',
+        'Email'
     ],
     '📨': [
         'Incoming Envelope',
+        ':incoming_envelope:',
         'Envelope With Lines',
         'Fast Envelope'
     ],
     '📩': [
         'Envelope with Downwards Arrow Above',
+        ':insert_in_envelope:',
         'Down Arrow Envelope',
         'Insert In Envelope'
     ],
-    '📤': ['Outbox Tray'],
-    '📥': ['Inbox Tray'],
-    '📮': ['Postbox'],
+    '📤': [
+        'Outbox Tray',
+        ':outbox_tray:'
+    ],
+    '📥': [
+        'Inbox Tray',
+        ':inbox_tray:'
+    ],
+    '📮': [
+        'Postbox',
+        ':postbox:'
+    ],
     '📁': [
         'File Folder',
+        ':file_folder:',
         'Folder',
         'Directory',
         'Closed File Folder'
     ],
     '📂': [
         'Open File Folder',
+        ':open_file_folder:',
         'Directory'
     ],
-    '🗂️': ['Card Index Dividers'],
+    '🗂️': [
+        'Card Index Dividers',
+        ':card_index_dividers:'
+    ],
     '📅': [
         'Calendar',
+        ':calendar:',
         'July 17',
         'World Emoji Day'
     ],
-    '🗓️': ['Spiral Calendar Pad'],
+    '🗓️': [
+        'Spiral Calendar Pad',
+        ':spiral_calendar_pad:'
+    ],
     '📆': [
         'Tear-Off Calendar',
+        ':day_calendar:',
         'Day Calendar',
         'Desk Calendar'
     ],
     '📈': [
         'Chart Increasing',
+        ':increasing_chart:',
         'Positive Chart',
         'Up Pointing Graph',
         'Chart with Upwards Trend'
     ],
     '📉': [
         'Chart Decreasing',
+        ':decreasing_chart:',
         'Negative Chart',
         'Down Pointing Graph',
         'Chart with Downwards Trend'
     ],
     '📊': [
         'Bar Chart',
+        ':bar_chart:',
         'Bar Graph'
     ],
     '📌': [
         'Pushpin',
-        'Thumb Tack'
+        ':pushpin:',
+        'Thumb Tack',
+        ':red:'
     ],
-    '📋': ['Clipboard'],
+    '📋': [
+        'Clipboard',
+        ':clipboard:'
+    ],
     '📍': [
         'Round Pushpin',
+        ':round_pushpin:',
         'Dropped Pin',
         'Map Pin',
         'Pin',
-        'Red Pin'
+        'Red Pin',
+        ':red:'
     ],
     '📎': [
         'Paperclip',
+        ':paperclip:',
         'Clippy'
     ],
-    '📏': ['Straight Ruler'],
+    '📏': [
+        'Straight Ruler',
+        ':straight_ruler:'
+    ],
     '📐': [
         'Triangular Ruler',
+        ':triangular_ruler:',
         'Triangle Ruler'
     ],
     '✂️': [
         'Scissors',
+        ':scissors:',
         'Cutting'
     ],
     '✏️': [
         'Pencil',
+        ':pencil:',
         'Lead Pencil'
     ],
     '✒️': [
         'Black Nib',
+        ':black_nib:',
         'Pen Nib',
         'Fountain Pen'
     ],
     '🖋️': [
         'Fountain Pen',
+        ':fountain_pen:',
         'Lower Left Fountain Pen'
     ],
     '🖊️': [
         'Pen',
+        ':pen:',
         'Lower Left Ballpoint Pen',
         'Ballpoint Pen'
     ],
     '🖌️': [
         'Paintbrush',
+        ':paintbrush:',
         'Brush',
         'Lower Left Paintbrush'
     ],
     '🖍️': [
         'Crayon',
+        ':crayon:',
         'Lower Left Crayon'
     ],
     '📝': [
         'Memo',
+        ':memo:',
         'Memorandum',
         'Note',
         'Pencil And Paper'
     ],
     '🗑️': [
         'Wastepaper Basket',
+        ':wastepaper_basket:',
         'Garbage Can',
         'Rubbish Bin',
         'Trash Can'
     ],
-    '📡': ['Satellite Antenna'],
+    '📡': [
+        'Satellite Antenna',
+        ':satellite_antenna:'
+    ],
     '🔭': [
         'Telescope',
+        ':telescope:',
         'Stargazing'
     ],
     '🔬': [
         'Microscope',
+        ':microscope:',
         'Magnify',
         'Science'
     ],
-    '📭': ['Open Mailbox with Lowered Flag'],
+    '📭': [
+        'Open Mailbox with Lowered Flag',
+        ':open_mailbox_lowered:'
+    ],
     '📬': [
         'Open Mailbox with Raised Flag',
+        ':open_mailbox_raised:',
         'Open Mailbox'
     ],
-    '📪': ['Closed Mailbox with Lowered Flag'],
-    '📫': ['Closed Mailbox with Raised Flag'],
-    '📰': ['Newspaper'],
+    '📪': [
+        'Closed Mailbox with Lowered Flag',
+        ':closed_mailbox_lowered:'
+    ],
+    '📫': [
+        'Closed Mailbox with Raised Flag',
+        ':closed_mailbox_raised:'
+    ],
+    '📰': [
+        'Newspaper',
+        ':newspaper:'
+    ],
     '🗞️': [
         'Rolled-Up Newspaper',
+        ':rolled_up_newspaper:',
         'Newspaper Delivery'
     ],
     '📄': [
         'Page Facing Up',
+        ':printed_page:',
         'Printed Page'
     ],
     '📜': [
         'Scroll',
+        ':scroll:',
         'Degree',
         'Parchment'
     ],
     '📃': [
         'Page with Curl',
+        ':curled_page:',
         'Curled Page',
         'Curly Page'
     ],
     '📓': [
         'Notebook',
+        ':notebook:',
         'Black And White Book'
     ],
-    '📔': ['Notebook with Decorative Cover'],
+    '📔': [
+        'Notebook with Decorative Cover',
+        ':notebook_decorative_cover:'
+    ],
     '📕': [
         'Closed Book',
+        ':closed_book:',
         'Red Book',
-        'Red Textbook'
+        'Red Textbook',
+        ':red:'
     ],
     '📖': [
         'Open Book',
+        ':open_book:',
         'Book',
         'Novel'
     ],
     '📗': [
         'Green Book',
-        'Green Textbook'
+        ':green_book:',
+        'Green Textbook',
+        ':green:'
     ],
     '📘': [
         'Blue Book',
-        'Blue Textbook'
+        ':blue_book:',
+        'Blue Textbook',
+        ':blue:'
     ],
     '📙': [
         'Orange Book',
-        'Orange Textbook'
+        ':orange_book:',
+        'Orange Textbook',
+        ':orange:'
     ],
     '📚': [
         'Books',
+        ':books:',
         'Pile Of Books',
         'Stack Of Books'
     ],
     '🗳️': [
         'Ballot Box with Ballot',
+        ':ballot_box:',
         'Vote Box',
         'Voting'
     ],
     '🗄️': [
         'File Cabinet',
+        ':file_cabinet:',
         'Filing Cabinet'
     ],
-    '🗃️': ['Card File Box'],
-    '🖇️': ['Linked Paperclips']
+    '🗃️': [
+        'Card File Box',
+        ':card_file_box:'
+    ],
+    '🖇️': [
+        'Linked Paperclips',
+        ':linked_paperclips:',
+        ':gray:',
+        ':grey:'
+    ]
 };
 /*clothes and accessories*/
 emojis_language[lang][11] = {
     '👣': [
         'Footprints',
+        ':footprints:',
         'Feet',
         'Footsteps'
     ],
     '👓': [
         'Glasses',
+        ':glasses:',
         'Eveyglasses'
     ],
-    '🕶️': ['Sunglasses'],
-    '🥽': ['Goggles'],
-    '🥼': ['Lab Coat'],
+    '🕶️': [
+        'Sunglasses',
+        ':sunglasses:'
+    ],
+    '🥽': [
+        'Goggles',
+        ':goggles:'
+    ],
+    '🥼': [
+        'Lab Coat',
+        ':lab_coat:'
+    ],
     '👔': [
         'Necktie',
+        ':necktie:',
         'Business Shirt',
         'Shirt And Tie'
     ],
     '👕': [
         'T-Shirt',
+        ':t_shirt:',
+        ':t-shirt:',
         'Tee Shirt',
         'Polo Shirt'
     ],
     '👖': [
         'Jeans',
+        ':jeans:',
         'Denim',
         'Pants',
         'Trousers'
     ],
-    '🧣': ['Scarf'],
-    '🧤': ['Gloves'],
-    '🧥': ['Coat'],
-    '🧦': ['Socks'],
+    '🧣': [
+        'Scarf',
+        ':scarf:'
+    ],
+    '🧤': [
+        'Gloves',
+        ':gloves:'
+    ],
+    '🧥': [
+        'Coat',
+        ':coat:'
+    ],
+    '🧦': [
+        'Socks',
+        ':socks:'
+    ],
     '👗': [
         'Dress',
+        ':dress:',
         'Skirt',
         'Gown'
     ],
     '👘': [
         'Kimono',
+        ':kimono:',
         'Dressing Gown',
         'Japanese Dress'
     ],
     '👙': [
         'Bikini',
+        ':bikini:',
         'Bathers',
         'Swimsuit'
     ],
-    '🩱': ['One-Piece Swimsuit'],
+    '🩱': [
+        'One-Piece Swimsuit',
+        'one_piece_swimsuit',
+        'one-piece_swimsuit'
+    ],
     '👚': [
+        'Womans Clothes',
+        ':womans_clothes:',
         'Womans Clothes',
         'Blouse',
         'Pink Shirt',
@@ -6284,17 +9134,23 @@ emojis_language[lang][11] = {
     ],
     '👛': [
         'Purse',
+        ':purse:',
         'Wallet'
     ],
-    '👜': ['Handbag'],
+    '👜': [
+        'Handbag',
+        ':handbag:'
+    ],
     '👝': [
         'Clutch Bag',
+        ':clutch_bag:',
         'Clutch',
         'Small Bag',
         'Pouch'
     ],
     '🎒': [
         'Backpack',
+        ':backpack:',
         'Bag',
         'School Bag',
         'School Satchel',
@@ -6302,31 +9158,47 @@ emojis_language[lang][11] = {
     ],
     '👞': [
         'Mans Shoe',
+        ':mans_shoe:',
+        'Mans Shoe',
         'Shoe',
         'Brown Show',
         'Dress Show'
     ],
     '👟': [
         'Athletic Shoe',
+        ':athletic_shoe:',
         'Running Shoe',
         'Sneaker',
         'Runner',
         'Trainer',
         'Tennis Shoe'
     ],
-    '🥾': ['Hiking Boot'],
-    '🥿': ['Flat Shoe'],
+    '🥾': [
+        'Hiking Boot',
+        ':hiking_boot:'
+    ],
+    '🥿': [
+        'Flat Shoe',
+        ':flat_shoe:'
+    ],
     '👠': [
         'High-Heeled Shoe',
+        ':high_heeled_shoe:',
+        ':high_heel:',
         'Stiletto',
         'High Heels'
     ],
     '👡': [
         'Womans Sandal',
+        ':womans_sandal:',
+        'Womans Sandal',
         'Heeled Sandal',
-        'Saldals'
+        'Sandals',
+        'Sandal'
     ],
     '👢': [
+        'Womans Boots',
+        ':womans_boots_',
         'Womans Boots',
         'Cowgirl Boots',
         'Knee High Boots',
@@ -6334,190 +9206,272 @@ emojis_language[lang][11] = {
     ],
     '👑': [
         'Crown',
+        ':crown:',
         'King',
         'Queen',
         'Prince',
         'Royal',
-        'Princess'
+        'Princess',
+        ':gold:',
+        ':yellow:'
     ],
     '👒': [
         'Hat',
+        ':hat:',
         'Womans Hat',
         'Hat With Bow',
         'Ladies Hat'
     ],
     '🎩': [
         'Top Hat',
+        ':top_hat:',
         'Formal Wear',
-        'Groom'
+        'Groom',
+        ':black:'
     ],
     '🎓': [
         'Graduation Cap',
+        ':graduation_cap:',
         'College',
         'Graduate',
         'Mortar Board',
         'University',
-        'Square Academic Cap'
+        'Square Academic Cap',
+        ':black:'
     ],
     '🧢': [
         'Billed Cap',
+        ':billed_cap:',
         'Baseball Cap'
     ],
     '⛑️': [
         'Helmet with White Cross',
-        'Rescue Worker\'s Helmet'
+        ':helmet_with_white_cross:',
+        ':helmet_with_cross:',
+        ':rescue_worker_helmet:',
+        ':rescue_workers_helmet:',
+        'Rescue Workers Helmet',
+        ':red:',
+        ':white:'
     ],
     '💼': [
         'Briefcase',
+        ':briefcase:',
         'Suitcase'
     ],
     '🎖️': [
         'Military Medal',
+        ':military_medal:',
+        ':medal:',
         'Medal',
         'Medallion',
         'Military Decoration'
     ],
     '📿': [
         'Prayer Beads',
+        ':prayer_beads:',
         'Dhikr Beads',
         'Rosary Beads'
     ],
-    '🎗️': ['Reminder Ribbo'],
-    '🤿': ['Diving Mask'],
-    '🦺': ['Safety Vest'],
+    '🎗️': [
+        'Reminder Ribbo',
+        ':reminder_ribbo:'
+    ],
+    '🤿': [
+        'Diving Mask',
+        ':diving_mask:'
+    ],
+    '🦺': [
+        'Safety Vest',
+        ':safety_vest:'
+    ],
     '🥻': [
         'Sari',
+        ':sari:',
         'Saree',
         'Shari'
     ],
-    '🩲': ['Briefs'],
-    '🩳': ['Shorts'],
+    '🩲': [
+        'Briefs',
+        ':briefs:'
+    ],
+    '🩳': [
+        'Shorts',
+        ':shorts:'
+    ],
     '🛼': [
         'Roller Skate',
+        ':roller_skate:',
         'Inline Skate',
         'Roller Derby'
     ],
     '🩴': [
         'Flip Flop',
+        ':flip_flop:',
         'Thong Sandal'
     ],
-    '🪖': ['Military Helmet'],
+    '🪖': [
+        'Military Helmet',
+        ':military_helmet:'
+    ],
     '🩰': [
         'Ballet Shoes',
+        ':ballet_shoes:',
         'Pointe Shoe'
     ],
-    '🩼': ['Crutch']
+    '🩼': [
+        'Crutch',
+        ':crutch:'
+    ]
 };
 /*hands and parts of body*/
 emojis_language[lang][12] = {
     '👋{{skin_tone}}': [
         'Waving Hand Sign',
+        ':wave:',
+        ':waving_hand:',
         'Goodbye',
         'Hand Wave',
         'Hello',
-        'Hola'
+        'Hi'
     ],
     '🖐️{{skin_tone}}': [
         'Hand with Fingers Splayed',
+        ':hand_splayed:',
+        ':raised_hand_with_fingers_splayed:',
+        ':hand_with_fingers_splayed:',
         'Five Hand',
         'Splayed Hand',
         'Raised Hand with Fingers Splayed'
     ],
     '🤚{{skin_tone}}': [
         'Raised Back of Hand',
+        ':raised_back_of_hand:',
+        ':back_of_hand:',
         'Backhand'
     ],
     '✋{{skin_tone}}': [
         'Raised Hand',
+        ':raised_hand:',
+        ':hand:',
         'High Five',
         'Stop'
     ],
     '🖖{{skin_tone}}': [
         'Vulcan Salute',
+        ':vulcan_salute:',
         'Spock',
         'Star Trek',
         'Raised Hand with Part Between Middle and Ring Fingers'
     ],
     '👌{{skin_tone}}': [
         'OK Hand Sign',
+        ':ok_hand:',
         'Okay',
         'Perfect',
-        'Sí'
+        'Yes'
     ],
     '✌️{{skin_tone}}': [
         'Victory Hand',
+        ':victory_hand:',
         'Air Quotes',
         'Peace Sign',
         'V Sign'
     ],
     '🤞{{skin_tone}}': [
         'Crossed Fingers',
+        ':crossed_fingers:',
         'Fingers Crossed',
         'Good Luck',
         'Hand with Index and Middle Fingers Crossed'
     ],
     '🤟{{skin_tone}}': [
         'Love-You Gesture',
+        ':love_you_gesture:',
+        ':i_love_you_hand_sign:',
         'I Love You Hand Sign'
     ],
     '🤘{{skin_tone}}': [
         'Sign of the Horns',
+        ':the_horns:',
+        ':sign_of_the_horns:',
+        ':metal:',
         'Devil Fingers',
         'Heavy Metal',
         'Rock On'
     ],
     '🤙{{skin_tone}}': [
         'Call Me Hand Sign',
+        ':call_me_hand:',
+        ':call_me:',
         'Phone Hand',
         'Shaka'
     ],
-    '🤏{{skin_tone}}': ['Pinching Hand'],
+    '🤏{{skin_tone}}': [
+        'Pinching Hand',
+        ':pinching_hand:'
+    ],
     '👈{{skin_tone}}': [
         'Backhand Index Pointing Left',
+        ':backhand_index_pointing_left:',
+        ':point_left:',
         'White Left Pointing Backhand Index'
     ],
     '👉{{skin_tone}}': [
         'Backhand Index Pointing Right',
+        ':backhand_index_pointing_right:',
+        ':point_right:',
         'White Right Pointing Backhand Index'
     ],
     '👆{{skin_tone}}': [
         'Backhand Index Pointing Up',
+        ':point_up_2:',
+        ':backhand_index_pointing_up:',
         'White Up Pointing Backhand Index',
         'Middle Finger'
     ],
     '👇{{skin_tone}}': [
         'Backhand Index Pointing Down',
+        ':point_down:',
+        ':backhand_index_pointing_down:',
         'White Down Pointing Backhand Index',
         'Pointing Down'
     ],
     '☝{{skin_tone}}': [
         'Index Finger Pointing Up',
+        ':point_up:',
+        ':index_pointing_up:',
         'White Up Pointing Index',
         'Secret'
     ],
     '🖕{{skin_tone}}': [
         'Middle Finger',
+        ':middle_finger:',
         'Flipping The Bird',
         'Rude Finger',
         'Reversed Hand with Middle Finger Extended'
     ],
     '👍{{skin_tone}}': [
         'Thumbs Up Sign',
+        ':thumbs_up_sign:',
         'Like',
-        'Sí'
+        'Yes'
     ],
     '👎{{skin_tone}}': [
         'Thumbs Down Sign',
+        ':thumbs_down_sign:',
         'Bad',
         'Dislike',
         'No'
     ],
     '✊{{skin_tone}}': [
         'Raised Fist',
+        ':raised_fist:',
         'Fist Pump'
     ],
     '👊{{skin_tone}}': [
         'Oncoming Fist',
+        ':oncoming_fist:',
         'Bro Fist',
         'Brofist',
         'Fist Bump',
@@ -6525,15 +9479,24 @@ emojis_language[lang][12] = {
         'Closed Fist',
         'Fisted Hand Sign'
     ],
-    '🤛{{skin_tone}}': ['Left Fist Bump'],
-    '🤜{{skin_tone}}': ['Right Fist Bump'],
+    '🤛{{skin_tone}}': [
+        'Left Fist Bump',
+        ':left_fist_bump:'
+    ],
+    '🤜{{skin_tone}}': [
+        'Right Fist Bump',
+        ':right_fist:bump:'
+    ],
     '🤌{{skin_tone}}': [
         'Pinched Fingers',
+        ':pinched_fingers:',
         'Ma Che Vuoi',
         'Finger Purse'
     ],
     '👏{{skin_tone}}': [
         'Clapping Hands Sign',
+        ':cap:',
+        ':clapping_hands:',
         'Applause',
         'Clap',
         'Clapping',
@@ -6542,6 +9505,8 @@ emojis_language[lang][12] = {
     ],
     '🙌{{skin_tone}}': [
         'Person Raising Both Hands in Celebration',
+        ':raised_hands:',
+        ':raising_hands:',
         'Raising Hands',
         'Arms In The Air',
         'Banzai',
@@ -6552,91 +9517,168 @@ emojis_language[lang][12] = {
     ],
     '👐{{skin_tone}}': [
         'Open Hands Sign',
+        ':open_hands_sign:',
         'Hug',
         'Jazz Hands'
     ],
     '🤲{{skin_tone}}': [
         'Palms Up Together',
+        ':palms_up_together:',
         'Dua'
     ],
     '🤝{{skin_tone}}': [
         'Handshake',
+        ':handshake:',
         'Shaking Hands'
     ],
     '🙏{{skin_tone}}': [
         'Folded Hands',
+        ':folded_hands:',
         'Namaste',
         'Please',
         'Prayer',
         'Thank You',
         'Person with Folded Hands'
     ],
-    '✍{{skin_tone}}': ['Writing Hand'],
-    '🫱{{skin_tone}}': ['Rightwards Hand'],
-    '🫲{{skin_tone}}': ['Leftwards Hand'],
-    '🫳{{skin_tone}}': ['Palm Down Hand'],
-    '🫴{{skin_tone}}': ['Palm Up Hand'],
-    '🫰{{skin_tone}}': ['Hand with Index Finger and Thumb Crossed'],
-    '🫵{{skin_tone}}': ['Index Pointing at the Viewer'],
+    '✍{{skin_tone}}': [
+        'Writing Hand',
+        ':writing_hand:'
+    ],
+    '🫱{{skin_tone}}': [
+        'Rightwards Hand',
+        ':rightwards_hand:'
+    ],
+    '🫲{{skin_tone}}': [
+        'Leftwards Hand',
+        ':leftwards_hand:'
+    ],
+    '🫳{{skin_tone}}': [
+        'Palm Down Hand',
+        ':palm_down_hand:'
+    ],
+    '🫴{{skin_tone}}': [
+        'Palm Up Hand',
+        ':palm_up_hand:'
+    ],
+    '🫰{{skin_tone}}': [
+        'Hand with Index Finger and Thumb Crossed',
+        ':hand_with_index_finger_and_thumb_crossed:'
+    ],
+    '🫵{{skin_tone}}': [
+        'Index Pointing at the Viewer',
+        ':index_pointing_at_the_viewer:'
+    ],
     '🫶{{skin_tone}}': [
         'Heart Hands',
+        ':heart_hands:',
         'Love'
     ],
     '💪{{skin_tone}}': [
         'Flexed Biceps',
+        ':flexed_biceps:',
         'Flexing Arm Muscles',
         'Musle',
         'Strong'
     ],
-    '🦵{{skin_tone}}': ['Leg'],
-    '🦶{{skin_tone}}': ['Foot'],
+    '🦵{{skin_tone}}': [
+        'Leg',
+        ':leg:'
+    ],
+    '🦶{{skin_tone}}': [
+        'Foot',
+        ':foot:'
+    ],
     '👂{{skin_tone}}': [
         'Ear',
+        ':ear:',
         'Ears',
         'Hearing',
-        'S\'està escoltant'
+        'Listening'
     ],
     '👃{{skin_tone}}': [
         'Nose',
+        ':nose:',
         'Smelling',
         'Sniffing',
         'Stinky'
     ],
-    '🦻{{skin_tone}}': ['Ear with Hearing Aid'],
-    '🧠': ['Brain'],
-    '🦷': ['Tooth'],
+    '🦻{{skin_tone}}': [
+        'Ear with Hearing Aid',
+        ':ear_with_hearing_aid:'
+    ],
+    '🧠': [
+        'Brain',
+        ':brain:',
+        ':pink:'
+    ],
+    '🦷': [
+        'Tooth',
+        ':tooth:',
+        ':white:'
+    ],
     '👀': [
         'Eyes',
+        ':eyes:',
         'Eyeballs',
         'Shifty Eyes',
         'Wise Eyes'
     ],
     '👁️': [
         'Eye',
+        ':eye:',
         'Single Eye'
     ],
-    '👅': ['Tongue Out'],
+    '👅': [
+        'Tongue Out',
+        ':tongue_out:',
+        ':red:'
+    ],
     '👄': [
         'Mouth',
+        ':mouth:',
         'Kissing Lips',
-        'Lips'
+        'Lips',
+        ':red:'
     ],
     '🫦': [
         'Biting Lip',
-        'Lips'
+        ':biting_lip:',
+        'Lips',
+        ':red:'
     ],
-    '🫀': ['Anatomical Heart'],
-    '🫁': ['Lungs'],
-    '🦾': ['Mechanical Arm'],
-    '🦿': ['Mechanical Leg'],
+    '🫀': [
+        'Anatomical Heart',
+        ':anatomical_heart:',
+        ':red:'
+    ],
+    '🫁': [
+        'Lungs',
+        ':lungs:',
+        ':red:'
+    ],
+    '🦾': [
+        'Mechanical Arm',
+        ':mechanical_arm:',
+        'Strong',
+        ':gray:',
+        ':grey:'
+    ],
+    '🦿': [
+        'Mechanical Leg',
+        ':mechanical_leg:',
+        ':gray:',
+        ':grey:'
+    ],
     '💅{{skin_tone}}': [
         'Nail Polish',
+        ':nail_polish:',
         'Fingers',
         'Manicure',
         'Nonchalant'
     ],
     '🤳{{skin_tone}}': [
         'Selfie',
+        ':selfie:',
         'Phone Camera',
         'Selfie Hand'
     ]
@@ -6645,50 +9687,79 @@ emojis_language[lang][12] = {
 emojis_language[lang][13] = {
     '💩': [
         'Pile of Poo',
+        ':pile_of_poo:',
         'Dog Dirt',
-        'Smiling Poop'
+        'Smiling Poop',
+        ':brown:'
     ],
     '💋': [
         'Kiss Mark',
-        'Kissing Lips'
+        ':kiss_mark:',
+        'Kissing Lips',
+        ':red:'
     ],
-    '🦴': ['Bone'],
+    '🦴': [
+        'Bone',
+        ':bone:'
+    ],
     '🧳': [
         'Luggage',
+        ':luggage:',
         'Suitcase'
     ],
     '🌂': [
         'Closed Umbrella',
+        ':closed_umbrella:',
         'Collapsed Umbrella',
-        'Pink Umbrella'
+        'Pink Umbrella',
+        ':pink:',
+        ':purple:'
     ],
-    '☂️': ['Umbrella'],
+    '☂️': [
+        'Umbrella',
+        ':umbrella:',
+        ':purple:'
+    ],
     '☔': [
         'Umbrella with Rain Drops',
+        ':umbrella_with_rain_drops:',
+        ':umbrella:',
         'Raining',
         'Rainy'
     ],
-    '🧵': ['Spool of Thread'],
-    '🧶': ['Ball of Yarn'],
+    '🧵': [
+        'Spool of Thread',
+        ':spool_of_thread:'
+    ],
+    '🧶': [
+        'Ball of Yarn',
+        ':ball_of_yarn:'
+    ],
     '💄': [
         'Lipstick',
+        ':lipstick:',
         'Lip Gloss',
-        'Makeup'
+        'Makeup',
+        ':red:'
     ],
     '💍': [
         'Ring',
+        ':ring:',
         'Diamond Ring',
         'Engagement Ring'
     ],
     '💎': [
         'Gem stone',
+        ':gem_stone:',
         'Diamond',
         'Gem',
         'Gemstone',
-        'Jewel'
+        'Jewel',
+        ':blue:'
     ],
     '💥': [
         'Collision Symbol',
+        ':collision_symbol:',
         'Bang',
         'Explode',
         'Impact',
@@ -6697,16 +9768,22 @@ emojis_language[lang][13] = {
     ],
     '💫': [
         'Dizzy Symbol',
-        'Circle And Star'
+        ':dizzy_symbol:',
+        'Circle And Star',
+        ':yellow:'
     ],
     '💦': [
         'Splashing Sweat Symbol',
+        'sweat_drops',
+        'sweat_droplets',
         'Plewds',
         'Splashing Water',
-        'Water Drops'
+        'Water Drops',
+        ':blue:'
     ],
     '💨': [
         'Dashing Away',
+        ':dashing_away:',
         'Fast',
         'Steam',
         'Vaping',
@@ -6716,12 +9793,15 @@ emojis_language[lang][13] = {
     ],
     '🌬️': [
         'Wind Face',
+        ':wind_face:',
         'Blowing Wind',
         'Mother Nature',
-        'Wind Blowing Face'
+        'Wind Blowing Face',
+        ':white:'
     ],
     '🐾': [
         'Paw Prints',
+        ':paw_prints:',
         'Cat Paw Prints',
         'Dog Paw Prints',
         'Kitten Paw Prints',
@@ -6729,121 +9809,251 @@ emojis_language[lang][13] = {
     ],
     '🕸️': [
         'Spider Web',
+        ':spider_web:',
         'Cobweb',
         'Web',
         'Spiderweb'
     ],
     '🦠': [
         'Microbe',
+        ':microbe:',
         'Cell',
         'Coronavirus',
         'COVID-19',
         'Germ',
         'Microorganism',
-        'Virus'
+        'Virus',
+        ':green:'
     ],
-    '💐': ['Bouquet Of Flowers'],
+    '💐': [
+        'Bouquet Of Flowers',
+        ':bouquet_of_flowers:'
+    ],
     '🌍': [
         'Globe Showing Europe-Africa',
+        ':globe_showing_europe_africa:',
+        ':earth_africa:',
         'Earth',
         'Globe',
         'Planet',
         'World',
-        'Globe Showing Europe and Africa'
+        'Globe Showing Europe and Africa',
+        ':blue:'
     ],
     '🌎': [
         'Globe Showing Americas',
-        'Earth',
-        'Globe',
-        'Planet',
-        'World'
-    ],
-    '🌏': [
-        'Globe Showing Asia-Australia',
+        ':globe_showing_americas:',
+        ':earth_americas:',
         'Earth',
         'Globe',
         'Planet',
         'World',
-        'Globe Showing Asia and Australia'
+        ':blue:'
+    ],
+    '🌏': [
+        'Globe Showing Asia-Australia',
+        ':globe_showing_asia_australia:',
+        ':earth_asia:',
+        'Earth',
+        'Globe',
+        'Planet',
+        'World',
+        'Globe Showing Asia and Australia',
+        ':blue:'
     ],
     '🌐': [
         'Globe with Meridians',
+        ':globe_with_meridians:',
         'Internet',
         'World Wide Web',
         'WWW'
     ],
     '🌑': [
         'New Moon Symbol',
+        ':new_moon:',
         'Dark Moon',
         'Shadow Moon',
-        'Solar Eclipse'
+        'Solar Eclipse',
+        ':black:'
     ],
-    '🌒': ['Waxing Crescent Moon Symbol'],
-    '🌓': ['First Quarter Moon Symbol'],
-    '🌔': ['Waxing Gibbous Moon Symbol'],
-    '🌕': ['Full Moon Symbol'],
-    '🌖': ['Waning Gibbous Moon Symbol'],
-    '🌗': ['Last Quarter Moon Symbol'],
-    '🌘': ['Waning Crescent Moon Symbol'],
-    '🌙': ['Crescent Moon'],
+    '🌒': [
+        'Waxing Crescent Moon Symbol',
+        ':waxing_crescent_moon:',
+        ':yellow:',
+        ':black:'
+    ],
+    '🌓': [
+        'First Quarter Moon Symbol',
+        ':first_quarter_moon:',
+        ':yellow:',
+        ':black:'
+    ],
+    '🌔': [
+        'Waxing Gibbous Moon Symbol',
+        ':moon:',
+        ':waxing_gibbous_moon:',
+        ':yellow:',
+        ':black:'
+    ],
+    '🌕': [
+        'Full Moon Symbol',
+        ':full_moon:',
+        ':yellow:'
+    ],
+    '🌖': [
+        'Waning Gibbous Moon Symbol',
+        ':waning_gibbous_moon:',
+        ':yellow:',
+        ':black:'
+    ],
+    '🌗': [
+        'Last Quarter Moon Symbol',
+        ':last_quarter_moon:',
+        ':yellow:',
+        ':black:'
+    ],
+    '🌘': [
+        'Waning Crescent Moon Symbol',
+        ':waning_crescent_moon:',
+        ':yellow:',
+        ':black:'
+    ],
+    '🌙': [
+        'Crescent Moon',
+        ':crescent_moon:',
+        ':yellow:'
+    ],
     '🌚': [
         'New Moon with Face',
+        ':new_moon_with_face:',
         'Creepy Moon',
         'Dark Moon Face',
-        'Molester Moon'
+        'Molester Moon',
+        ':black:',
+        ':gray:',
+        ':grey:'
     ],
     '🌝': [
         'Full Moon with Face',
+        ':full_moon_with_face:',
         'Moonface',
         'Smiley Moon',
-        'Smiling Moon'
+        'Smiling Moon',
+        ':yellow:'
     ],
-    '🌛': ['First Quarter Moon with Face'],
-    '🌜': ['Last Quarter Moon with Face'],
+    '🌛': [
+        'First Quarter Moon with Face',
+        ':first_quarter_moon_with_face:',
+        ':first_quarter_moon_face:',
+        ':yellow:'
+    ],
+    '🌜': [
+        'Last Quarter Moon with Face',
+        ':last_quarter_moon_with_face:',
+        ':last_quarter_moon_face:',
+        ':yellow:'
+    ],
     '🌞': [
         'Sun with Face',
+        ':sun_with_face:',
         'Smiley Sun',
         'Sunface',
-        'Smiling Sun'
+        'Smiling Sun',
+        ':yellow:'
     ],
     '☀️': [
         'Sun',
-        'Sunshine'
+        ':sun:',
+        'Sunshine',
+        ':yellow:'
     ],
     '⭐': [
         'Star',
-        'White Medium Star'
+        ':star:',
+        'White Medium Star',
+        ':yellow:'
     ],
     '🌟': [
         'Glowing Star',
-        'Shining Star'
+        ':glowing_star:',
+        'Shining Star',
+        ':yellow:'
     ],
     '☁️': [
         'Cloud',
+        ':cloud:',
         'Cloudy',
-        'Overcast'
+        'Overcast',
+        ':white:'
     ],
-    '⛅': ['Sun Behind Cloud'],
+    '⛅': [
+        'Sun Behind Cloud',
+        ':thunder_cloud_and_rain:',
+        ':thunder_cloud_rain:',
+        ':cloud_with_lightning_and_rain:',
+        ':white:'
+    ],
     '⛈️': [
         'Cloud with Lightning and Rain',
-        'Thunder Cloud and Rain'
+        ':thunder_cloud_and_rain:',
+        ':thunder_cloud_rain:',
+        ':cloud_with_lightning_and_rain:',
+        'Thunder Cloud and Rain',
+        ':white:'
     ],
-    '🌤️': ['White Sun with Small Cloud'],
+    '🌤️': [
+        'White Sun with Small Cloud',
+        ':mostly_sunny:',
+        ':sun_behind_small_cloud:',
+        ':sun_small_cloud:',
+        ':white_sun_small_cloud:',
+        ':white_sun_with_small_cloud:',
+        ':white:'
+    ],
     '🌥️': [
         'Sun Behind Large Cloud',
-        'White Sun Behind Cloud'
+        ':sun_behind_large_cloud:',
+        'White Sun Behind Cloud',
+        ':white:'
     ],
-    '🌦️': ['White Sun Behind Cloud with Rain'],
-    '🌧️': ['Cloud with Rain'],
-    '🌨️': ['Cloud with Snow'],
-    '🌩️': ['Cloud with Lightning'],
+    '🌦️': [
+        'White Sun Behind Cloud with Rain',
+        ':sun_behind_rain_cloud:',
+        ':partly_sunny_rain:',
+        ':white_sun_rain_cloud:',
+        ':white_sun_behind_cloud_with_rain:',
+        ':white:'
+    ],
+    '🌧️': [
+        'Cloud with Rain',
+        ':cloud_with_rain:',
+        ':white:'
+    ],
+    '🌨️': [
+        'Cloud with Snow',
+        ':cloud_with_snow:',
+        ':white:'
+    ],
+    '🌩️': [
+        'Cloud with Lightning',
+        ':cloud_with_lightning:',
+        ':white:'
+    ],
     '🌪️': [
         'Tornado',
+        ':tornado:',
         'Cloud with Tornado'
     ],
-    '🌫️': ['Fog'],
+    '🌫️': [
+        'Fog',
+        ':fag:',
+        ':white:',
+        ':gray:',
+        ':grey:'
+    ],
     '🌈': [
         'Rainbow',
+        ':rainbow:',
         'Gay Pride',
         'Primary Rainbow',
         'LGBTQIA+',
@@ -6851,11 +10061,14 @@ emojis_language[lang][13] = {
     ],
     '❄️': [
         'Snowflake',
+        ':snowflake:',
         'Snow',
-        'Snowing'
+        'Snowing',
+        ':white:'
     ],
     '🌀': [
         'Cyclone',
+        ':cyclone:',
         'Hurricane',
         'Spiral',
         'Swirl',
@@ -6863,131 +10076,191 @@ emojis_language[lang][13] = {
     ],
     '⚡': [
         'High Voltage Sign',
+        ':high_voltage_sign:',
         'Lightning Bolt',
         'Thunderbolt',
         'High Voltage'
     ],
     '☃️': [
         'Snowman',
-        'Snowman With Snowflakes'
+        ':snowman:',
+        'Snowman With Snowflakes',
+        ':white:'
     ],
     '⛄': [
         'Snowman Without Snow',
+        'snowman_without_snow',
+        ':snowman:',
         'Frosty The Snowman',
         'Olaf',
-        'Snowman'
+        'Snowman',
+        ':white:'
     ],
-    '☄️': ['Comet'],
+    '☄️': [
+        'Comet',
+        ':comet:'
+    ],
     '🔥': [
         'Fire',
+        ':fire:',
         'Flame',
         'Hot',
         'Lit',
-        'Snapstreak'
+        'Snapstreak',
+        ':red:'
     ],
     '💧': [
         'Droplet',
+        ':droplet:',
         'Water',
-        'Water Drop'
+        'Water Drop',
+        ':blue:'
     ],
     '✨': [
         'Sparkles',
+        ':sparkles:',
         'Glitter',
         'Shiny',
         'New'
     ],
     '🌊': [
         'Water Wave',
+        ':water_wave:',
         'Beach',
         'Ocean Wave',
-        'Sea'
+        'Sea',
+        ':blue:'
     ],
     '🎄': [
         'Christmas Tree',
+        'christmas_tree',
         'Christmas',
-        'Xmas Tree'
+        'Xmas Tree',
+        ':green:'
     ],
     '🎃': [
         'Jack-O-Lantern',
+        'jack_o_lantern',
         'Halloween',
-        'Pumpkin'
+        'Pumpkin',
+        ':orange:'
     ],
     '🌻': [
         'Sunflower',
-        'Yellow Flower'
+        ':sunflower:',
+        'Yellow Flower',
+        ':yellow:'
     ],
     '🌼': [
         'Blossom',
+        ':blossom:',
         'Blossoming Flower',
         'Daisy',
-        'Yellow Flower'
+        'Yellow Flower',
+        ':yellow:'
     ],
-    '🌷': ['Tulip'],
+    '🌷': [
+        'Tulip',
+        ':tulip:',
+        ':pink:'
+    ],
     '🌹': [
         'Rose Flower',
-        'Red Rose'
+        ':rose_flower:',
+        'Red Rose',
+        ':red:'
     ],
     '☘️': [
         'Shamrock',
+        ':shamrock:',
         'Clover',
-        'Trefoil'
+        'Trefoil',
+        ':green:'
     ],
     '🍀': [
         'Four Leaf Clover',
+        ':four_leaf_clover:',
         'Clover',
         'Ireland',
         'Lucky',
-        'Fortune'
+        'Fortune',
+        ':green:'
     ],
     '🌸': [
         'Cherry Blossom',
+        ':cherry_blossom:',
         'Pink Flower',
-        'Sakura'
+        'Sakura',
+        ':pink:'
     ],
     '💮': [
         'White Flower',
+        ':white_flower:',
         'Cherry Blossom',
         'Paper Doily',
-        'Well Done Stamp'
+        'Well Done Stamp',
+        ':white:'
     ],
-    '🌺': ['Hibiscus'],
-    '🏵️': ['Rosette'],
+    '🌺': [
+        'Hibiscus',
+        ':hibiscus:',
+        ':red:'
+    ],
+    '🏵️': [
+        'Rosette',
+        ':rosette:',
+        ':orange:',
+        ':yellow:'
+    ],
     '🌱': [
         'Seedling',
+        ':seedling:',
         'Spring',
         'Sprout',
-        'Sprouting'
+        'Sprouting',
+        ':green:'
     ],
     '🌲': [
         'Evergreen Tree',
+        ':evergreen_tree:',
         'Fir Tree',
-        'Pine Tree'
+        'Pine Tree',
+        ':green:'
     ],
     '🌳': [
         'Deciduous Tree',
-        'Rounded Tree'
+        ':deciduous_tree:',
+        'Rounded Tree',
+        ':green:'
     ],
     '🌴': [
         'Palm Tree',
-        'Coconut Tree'
+        ':palm_tree:',
+        'Coconut Tree',
+        ':green:'
     ],
     '🎋': [
         'Tanabata Tree',
+        ':tanabata_tree:',
         'Tanabata',
         'Wish Tree'
     ],
     '🎍': [
         'Pine Decoration',
+        ':pine_decoration:',
         'Bamboo',
         'Kadomatsu',
         'New Year Decoration'
     ],
     '🌵': [
         'Cactus',
-        'Desert'
+        ':cactus:',
+        'Desert',
+        ':green:'
     ],
     '🌾': [
         'Sheaf of Rice',
+        ':sheaf_of_rice:',
         'Crop',
         'Farming',
         'Wheat',
@@ -6995,338 +10268,577 @@ emojis_language[lang][13] = {
     ],
     '🌿': [
         'Herb',
+        ':herb:',
         'Crop',
-        'Plant'
+        'Plant',
+        ':green:'
     ],
     '🍁': [
         'Maple Leaf',
+        ':maple_leaf:',
         'Canada',
         'Canadian',
-        'Maple'
+        'Maple',
+        ':brown:'
     ],
     '🍂': [
         'Fallen Leaf',
+        ':fallen_leaf:',
         'Autumn Leaf',
         'Autumn Leaves',
         'Brown Leaves',
         'Fall Leaves',
-        'Fallen Leaves'
+        'Fallen Leaves',
+        ':brown:'
     ],
     '🍃': [
         'Leaf Fluttering in Wind',
+        ':leaf_fluttering_in_wind:',
+        ':leaves:',
         'Green Leaves',
-        'Spring'
+        'Spring',
+        ':green:'
     ],
-    '🪴': ['Potted Plant'],
+    '🪴': [
+        'Potted Plant',
+        ':potted_plant:',
+        ':green:'
+    ],
     '🪸': [
         'Coral',
+        ':coral:',
         'Climate change'
     ],
     '🪷': [
         'Lotus',
+        ':lotus:',
         'Purity',
         'Beauty',
         'Calmness',
         'Serenity'
     ],
+    //"🪻": ["Hyacinth", ":hyacinth:", "Purple flower", ":purple:"],
+    //"🫛": ["Pea Pod", ":pea_pod:", ":green:"],
+    //"🫚": ["Ginger root", ":ginger:", "Spice", "Flavour", ":brown:"],
     '🔑': [
         'Key',
-        'Gold Key'
+        ':key:',
+        'Gold Key',
+        ':gold:',
+        ':yellow:'
     ],
-    '🗝️': ['Old Key'],
+    '🗝️': [
+        'Old Key',
+        ':old_key:',
+        ':brown:'
+    ],
     '🔨': [
         'Hammer',
+        ':hammer:',
         'Claw Hammer',
         'Handyman',
         'Tool'
     ],
     '⛏️': [
         'Pick',
+        ':pick:',
         'Pickaxe'
     ],
-    '🪓': ['Axe'],
-    '🪚': ['Carpentry Saw'],
-    '🪛': ['Screwdriver'],
-    '🪝': ['Hook'],
-    '🪠': ['Plunger'],
-    '🪣': ['Bucket'],
+    '🪓': [
+        'Axe',
+        ':axe:',
+        'firefighter'
+    ],
+    '🪚': [
+        'Carpentry Saw',
+        ':carpentry_saw:'
+    ],
+    '🪛': [
+        'Screwdriver',
+        ':screwdriver:'
+    ],
+    '🪝': [
+        'Hook',
+        ':hook:'
+    ],
+    '🪠': [
+        'Plunger',
+        ':plunger:'
+    ],
+    '🪣': [
+        'Bucket',
+        ':bucket:'
+    ],
     '🔩': [
         'Nut and Bolt',
+        ':nut_and_bolt:',
         'Bolt',
-        'Screw'
+        'Screw',
+        ':gray:',
+        ':grey:'
     ],
     '🗜️': [
         'Clamp',
+        ':clamp:',
         'Table Vice',
         'WinZip',
-        'Compression'
+        'Compression',
+        ':gray:',
+        ':grey:'
     ],
     '🔒': [
         'Locked',
+        ':locked:',
         'Closed Lock',
         'Padlock'
     ],
     '🔓': [
         'Unlocked',
+        ':unlocked:',
         'Open Padlock',
         'Open Lock'
     ],
     '🔏': [
         'Locked with Pen',
+        ':locked_with_pen:',
         'Lock And Pen',
         'Lock With Fountain Pen',
         'Lock with Ink Pen'
     ],
     '🔐': [
         'Locked with Key',
+        ':locked_with_key:',
         'Closed Lock with Key'
     ],
     '🗡️': [
         'Dagger',
-        'Knife Weapon'
+        ':dagger:',
+        'Knife Weapon',
+        ':gray:',
+        ':grey:'
     ],
-    '⚔️': ['Crossed Swords'],
+    '⚔️': [
+        'Crossed Swords',
+        ':crossed_swords:',
+        ':gray:',
+        ':grey:'
+    ],
     '🔫': [
         'Pistol',
+        ':pistol:',
         'Gun',
         'Revolver',
         'Squirt Gun',
         'Water Gun',
         'Water Pistol'
     ],
-    '🧰': ['Toolbox'],
-    '🧲': ['Magnet'],
-    '⛓️': ['Chains'],
+    '🧰': [
+        'Toolbox',
+        ':toolbox:',
+        ':red:'
+    ],
+    '🧲': [
+        'Magnet',
+        ':magnet:',
+        ':red:'
+    ],
+    '⛓️': [
+        'Chains',
+        ':chains:'
+    ],
     '💉': [
         'Syringe',
+        ':syringe:',
         'Blood Donation',
         'Blood Test',
         'Needle',
-        'Vaccination'
+        'Vaccination',
+        'blood',
+        'sick',
+        'ill'
     ],
     '🧬': [
         'DNA',
+        ':dna:',
         'DNA Double Helix'
     ],
-    '🧪': ['Test Tube'],
+    '🧪': [
+        'Test Tube',
+        ':test_tube:',
+        ':green:'
+    ],
     '🛏️': [
         'Bed',
+        ':bed:',
         'Bedroom'
     ],
     '🛋️': [
         'Couch and Lamp',
+        ':couch_and_lamp:',
         'Lounge',
         'Settee',
         'Sofa'
     ],
-    '🪑': ['Chair'],
+    '🪑': [
+        'Chair',
+        ':chair:'
+    ],
     '🚪': [
         'Door',
+        ':door:',
         'Doorway',
         'Front Door'
     ],
-    '🪟': ['Window'],
-    '🪜': ['Ladder'],
-    '🪞': ['Mirror'],
+    '🪟': [
+        'Window',
+        ':window:'
+    ],
+    '🪜': [
+        'Ladder',
+        ':ladder:'
+    ],
+    '🪞': [
+        'Mirror',
+        ':mirror:'
+    ],
     '🚽': [
         'Toilet',
+        ':toilet:',
         'Bathroom',
         'Loo',
         'Restroom',
-        'WC'
+        'WC',
+        ':white:'
     ],
     '🚿': [
         'Shower',
-        'Shower Head'
+        ':shower:',
+        'Shower Head',
+        ':shower:'
     ],
     '🛁': [
         'Bathtub',
-        'Bubble Bath'
+        ':bathtub:',
+        'Bubble Bath',
+        ':shower:'
     ],
-    '🧴': ['Lotion Bottle'],
-    '🧷': ['Safety Pin'],
-    '🧺': ['Basket'],
+    '🧴': [
+        'Lotion Bottle',
+        ':location_bottle:'
+    ],
+    '🧷': [
+        'Safety Pin',
+        ':safety_pin:',
+        ':gray:',
+        ':grey:'
+    ],
+    '🧺': [
+        'Basket',
+        ':basket:',
+        ':brown:'
+    ],
     '🧻': [
         'Roll of Paper',
-        'Toilet Paper'
+        ':roll_of_paper:',
+        'Toilet Paper',
+        ':white:'
     ],
-    '🧼': ['Bar of Soap'],
-    '🧽': ['Sponge'],
-    '🧯': ['Fire Extinguisher'],
+    '🧼': [
+        'Bar of Soap',
+        ':bar_of_soap:'
+    ],
+    '🧽': [
+        'Sponge',
+        ':sponge:',
+        ':yellow:'
+    ],
+    '🧯': [
+        'Fire Extinguisher',
+        ':fire_extinguisher:',
+        ':red:'
+    ],
     '🚬': [
         'Cigarette',
+        ':cigarette:',
         'Smoke Symbol'
     ],
     '⚰️': [
         'Coffin',
+        ':coffin:',
         'Casket',
-        'Funeral'
+        'Funeral',
+        ':brown:'
     ],
     '⚱️': [
         'Funeral Urn',
+        ':funeral_urn:',
         'Vase'
     ],
-    '🛡️': ['Shield'],
+    '🛡️': [
+        'Shield',
+        ':shield:'
+    ],
     '⚙️': [
         'Gear',
-        'Configuració',
-        'Options'
+        ':gear:',
+        'Settings',
+        'Options',
+        ':gray:',
+        ':grey:'
     ],
     '⚖️': [
         'Balance Scale',
+        ':balance_scale:',
         'Scales of Justice'
     ],
     '🔗': [
         'Link',
+        ':link:',
         'Chain',
         'Hyperlink',
-        'Linked Chain'
+        'Linked Chain',
+        ':gray:',
+        ':grey:'
     ],
     '💀': [
         'Skull',
+        ':skull:',
         'Death',
         'Grey Skull',
-        'Skeleton'
+        'Skeleton',
+        ':white:'
     ],
-    '☠️': ['Skull and Crossbones'],
+    '☠️': [
+        'Skull and Crossbones',
+        ':skull_and_crossbones:',
+        ':white:'
+    ],
     '🎡': [
         'Ferris Wheel',
+        ':ferris_wheel:',
         'Big Wheel',
         'Fairgroundl',
         'Observation Wheel'
     ],
     '⛽': [
         'Fuel Pump',
+        'fuel_pump:',
         'Oil',
         'Petrol',
-        'Gas'
+        'Gas',
+        ':red:'
     ],
     '🚨': [
         'Police Cars Revolving Light',
+        ':rotating_light:',
+        ':police_police_car:',
         'Emergency Light',
         'Flashing Light',
-        'Siren'
+        'Siren',
+        ':red:'
     ],
-    '🚥': ['Horizontal Traffic Light'],
-    '🚦': ['Vertical Traffic Light'],
+    '🚥': [
+        'Horizontal Traffic Light',
+        ':horizontal_traffic_light:',
+        ':green:',
+        ':red:',
+        ':yellow:',
+        ':orange:'
+    ],
+    '🚦': [
+        'Vertical Traffic Light',
+        ':vertical_traffic_light:',
+        ':green:',
+        ':red:',
+        ':yellow:',
+        ':orange:'
+    ],
     '⚓': [
         'Admiralty Pattern Anchor',
+        ':anchor:',
         'Fisherman'
     ],
     '🚧': [
         'Construction Sign',
-        'Black And Yellow Striped Sign'
+        ':construction_sign:',
+        'Black And Yellow Striped Sign',
+        ':yellow:',
+        ':black:'
     ],
-    '🪂': ['Parachute'],
+    '🪂': [
+        'Parachute',
+        ':parachute:'
+    ],
     '💺': [
         'Seat',
+        ':seat:',
         'Bus Airplane Train Aeroplane'
     ],
-    '🪐': ['Saturn'],
+    '🪐': [
+        'Saturn',
+        ':saturn:'
+    ],
     '🎆': [
         'Fireworks',
+        ':fireworks:',
         'Explosion'
     ],
     '🎇': [
         'Senko Hanabi',
+        ':senko_hanabi:',
         'Firework Sparkler'
     ],
     '💷': [
         'Pound Banknote',
+        ':pound:',
+        ':pound_banknote:',
         '£20 Note',
         'Twenty Quid Note',
-        'Banknote with Pound Sign'
+        'Banknote with Pound Sign',
+        ':purple:'
     ],
     '💶': [
         'Euro Banknote',
+        ':euro:',
+        ':euro_banknote:',
         '€100 Note',
-        'Banknote with Euro Sign'
+        'Banknote with Euro Sign',
+        ':blue:'
     ],
     '💵': [
         'Dollar Banknote',
+        ':dollar:',
+        ':dollar_banknote:',
         '$1 Note',
         'Banknote with Dollar Sign',
         'Dollar Bill',
-        'American Dollar'
+        'American Dollar',
+        ':green:'
     ],
     '💴': [
         'Yen Banknote',
+        ':yen:',
+        ':yen_banknote:',
         '¥1000 Note',
         'Yen Note',
-        'Banknote with Yen Sign'
+        'Banknote with Yen Sign',
+        ':yellow:'
     ],
-    '⛺': ['Camping Tent'],
+    '⛺': [
+        'Camping Tent',
+        ':camping_tent:'
+    ],
     '⛲': [
         'Fountain',
+        ':fountain:',
         'Water Feature',
         'Water Fountain',
         'Park'
     ],
     '💰': [
         'Money Bag',
+        ':money_bag:',
         'Moneybags',
         'Rich',
         '$'
     ],
     '💸': [
         'Money with Wings',
+        ':money_with_wings:',
         'Flying Money',
         ' Losing Money'
     ],
-    '🏷️': ['Label Tag'],
+    '🏷️': [
+        'Label Tag',
+        ':label_tag:'
+    ],
     '🔖': [
         'Bookmark',
+        ':bookmark:',
         'Price Tag',
         'Tag'
     ],
-    '📑': ['Bookmark Tabs'],
+    '📑': [
+        'Bookmark Tabs',
+        ':bookmark_tabs:',
+        ':white:'
+    ],
     '📯': [
         'Postal Horn',
+        ':postal_horn:',
         'Bugle',
         'French Horn'
     ],
-    '🪁': ['Kite'],
-    '🪀': ['Yo-Yo'],
+    '🪁': [
+        'Kite',
+        ':kite:',
+        ':purple:'
+    ],
+    '🪀': [
+        'Yo-Yo',
+        ':yo_yo:',
+        ':yo-yo:'
+    ],
     '🎊': [
         'Confetti Ball',
+        ':confetti_ball:',
         'Confetti'
     ],
     '🎉': [
         'Party Popper',
+        ':party_popper:',
         'Celebration',
         'Party Hat'
     ],
     '🎈': [
         'Balloon',
+        ':balloon:',
         'Party',
-        'Red Balloon'
+        'Red Balloon',
+        ':red:'
     ],
     '🌡️': [
         'Thermometer',
+        ':thermometer:',
         'Hot Weather',
-        'Temperature'
+        'Temperature',
+        ':red:'
     ],
-    '🛢️': ['Oil Drum'],
-    '💣': ['Bomb'],
+    '🛢️': [
+        'Oil Drum',
+        ':oil_drum:'
+    ],
+    '💣': [
+        'Bomb',
+        ':bomb:',
+        'boom'
+    ],
     '🔪': [
         'Kitchen Knife',
+        ':kitchen_knife:',
         'Knife',
         'Butchers Knife',
         'Hocho'
     ],
     '🏺': [
         'Amphora',
+        ':amphora:',
         'Jar',
         'Vase'
     ],
-    '🗺️': ['World Map'],
+    '🗺️': [
+        'World Map',
+        ':world_map:'
+    ],
     '🎼': [
         'Musical Score',
+        ':musical_score:',
         'Sheet Music',
         'Treble Clef'
     ],
     '🎬': [
         'Clapper Board',
+        ':clapper_board:',
         'Cut',
         'Action',
         'Director',
@@ -7334,51 +10846,74 @@ emojis_language[lang][13] = {
     ],
     '🎻': [
         'Violin',
+        ':violin:',
         'String Quartet',
-        'World\'s Smallest Violin'
+        'Worlds Smallest Violin'
     ],
     '🎺': [
         'Trumpet',
+        ':trumpet:',
         'Horn',
         'Jazz'
     ],
     '🎸': [
         'Guitar',
+        ':guitar:',
         'Acoustic Guitar',
         'Bass Guitar',
         'Electric Guitar'
     ],
     '🎷': [
         'Saxophone',
+        ':saxophone:',
         'Jazz',
         'Sax'
     ],
     '🥁': [
         'Drum',
+        ':drum:',
         'Drum with Drumsticks'
     ],
     '🎹': [
         'Piano',
-        'Musical Keyboard'
+        ':piano:',
+        'Musical Keyboard',
+        ':white:',
+        ':black:'
     ],
-    '🪕': ['Banjo'],
-    '🪗': ['Accordion'],
-    '🪘': ['Long Drum'],
+    '🪕': [
+        'Banjo',
+        ':banjo:'
+    ],
+    '🪗': [
+        'Accordion',
+        ':accordion:'
+    ],
+    '🪘': [
+        'Long Drum',
+        ':long_drum:'
+    ],
     '🎨': [
         'Artist Palette',
+        ':artist_palette:',
         'Art',
         'Painting'
     ],
     '🧩': [
         'Puzzle Piece',
-        'Jigsaw Puzzle Piece'
+        ':puzzle_piece:',
+        'Jigsaw Puzzle Piece',
+        ':green:'
     ],
     '🎲': [
         'Game Die',
-        'Dice'
+        ':game_die:',
+        'Dice',
+        ':white:'
     ],
     '🎭': [
         'Performing Arts',
+        'performing_arts',
         'Theatre',
         'Theater',
         'Drama Masks',
@@ -7388,143 +10923,300 @@ emojis_language[lang][13] = {
     ],
     '🔍': [
         'Magnifying Glass Tilted Left',
+        ':mag:',
+        ':magnifying_glass_tilted_left:',
         'Magnifier',
         'Search Icon',
         'Left-Pointing Magnifying Glass',
-        'Find'
+        'Find',
+        ':transparent:'
     ],
     '🔎': [
         'Magnifying Glass Tilted Right',
+        ':mag_right:',
+        ':magnifying_glass_tilted_right:',
         'Magnifier',
         'Search Icon',
         'Right-Pointing Magnifying Glass',
-        'Find'
+        'Find',
+        ':transparent:'
     ],
     '⌛': [
         'Hourglass Done',
+        ':hourglass:',
+        ':hourglass_done:',
         'Hourglass'
     ],
     '⏳': [
         'Hourglass Not Done',
+        ':hourglass_flowing_sand:',
+        ':hourglass_not_done:',
         'Hourglass with Flowing Sand'
     ],
     '🕐': [
-        'One O\'Clock',
-        'Clock Face One O\'Clock'
+        'One OClock',
+        ':clock1:',
+        ':one_oclock:',
+        'Clock Face One OClock',
+        ':gray:',
+        ':grey:'
     ],
-    '🕜': ['Clock Face One-Thirty'],
+    '🕜': [
+        'Clock Face One-Thirty',
+        ':clock130:',
+        ':one_thirty:',
+        ':gray:',
+        ':grey:'
+    ],
     '🕑': [
-        'Two O\'Clock',
-        'Clock Face Two O\'Clock'
+        'Two OClock',
+        ':clock2:',
+        ':two_oclock:',
+        'Clock Face Two OClock',
+        ':gray:',
+        ':grey:'
     ],
-    '🕝': ['Clock Face Two-Thirty'],
+    '🕝': [
+        'Clock Face Two-Thirty',
+        ':clock230:',
+        ':two_thirty:',
+        ':gray:',
+        ':grey:'
+    ],
     '🕒': [
-        'Three O\'Clock',
-        'Clock Face Three O\'Clock'
+        'Three OClock',
+        ':clock3:',
+        ':three_oclock:',
+        'Clock Face Three OClock',
+        ':gray:',
+        ':grey:'
     ],
-    '🕞': ['Clock Face Three-Thirty'],
+    '🕞': [
+        'Clock Face Three-Thirty',
+        ':clock330:',
+        ':three_thirty:',
+        ':gray:',
+        ':grey:'
+    ],
     '🕓': [
-        'Four O\'Clock',
-        'Clock Face Four O\'Clock'
+        'Four OClock',
+        ':clock4:',
+        ':four_oclock:',
+        'Clock Face Four OClock',
+        ':gray:',
+        ':grey:'
     ],
-    '🕟': ['Clock Face Four-Thirty'],
+    '🕟': [
+        'Clock Face Four-Thirty',
+        ':clock430:',
+        ':four_thirty:',
+        ':gray:',
+        ':grey:'
+    ],
     '🕔': [
-        'Five O\'Clock',
-        'Clock Face Five O\'Clock'
+        'Five OClock',
+        ':clock5:',
+        ':five_oclock:',
+        'Clock Face Five OClock',
+        ':gray:',
+        ':grey:'
     ],
-    '🕠': ['Clock Face Five-Thirty'],
+    '🕠': [
+        'Clock Face Five-Thirty',
+        ':clock530:',
+        ':five_thirty:',
+        ':gray:',
+        ':grey:'
+    ],
     '🕕': [
-        'Six O\'Clock',
-        'Clock Face Six O\'Clock'
+        'Six OClock',
+        ':clock6:',
+        ':size_oclock:',
+        'Clock Face Six OClock',
+        ':gray:',
+        ':grey:'
     ],
-    '🕡': ['Clock Face Six-Thirty'],
+    '🕡': [
+        'Clock Face Six-Thirty',
+        ':clock630:',
+        ':six_thirty:',
+        ':gray:',
+        ':grey:'
+    ],
     '🕖': [
-        'Seven O\'Clock',
-        'Clock Face Seven O\'Clock'
+        'Seven OClock',
+        ':clock7:',
+        ':seven_oclock:',
+        'Clock Face Seven OClock',
+        ':gray:',
+        ':grey:'
     ],
-    '🕢': ['Clock Face Seven-Thirty'],
+    '🕢': [
+        'Clock Face Seven-Thirty',
+        ':clock730:',
+        ':sever_thirty:',
+        ':gray:',
+        ':grey:'
+    ],
     '🕗': [
-        'Eight O\'Clock',
-        'Clock Face Eight O\'Clock'
+        'Eight OClock',
+        ':clock8:',
+        ':eight_oclock:',
+        'Clock Face Eight OClock',
+        ':gray:',
+        ':grey:'
     ],
-    '🕣': ['Clock Face Eight-Thirty'],
+    '🕣': [
+        'Clock Face Eight-Thirty',
+        ':clock830:',
+        ':eight_thirty:',
+        ':gray:',
+        ':grey:'
+    ],
     '🕘': [
-        'Nine O\'Clock',
-        'Clock Face Nine O\'Clock'
+        'Nine OClock',
+        ':clock9:',
+        ':nine_clock:',
+        'Clock Face Nine OClock',
+        ':gray:',
+        ':grey:'
     ],
-    '🕤': ['Clock Face Nine-Thirty'],
+    '🕤': [
+        'Clock Face Nine-Thirty',
+        ':clock930:',
+        ':nine_thirty:',
+        ':gray:',
+        ':grey:'
+    ],
     '🕙': [
-        'Ten O\'Clock',
-        'Clock Face Ten O\'Clock'
+        'Ten OClock',
+        ':clock10:',
+        ':ten_oclock:',
+        'Clock Face Ten OClock',
+        ':gray:',
+        ':grey:'
     ],
-    '🕥': ['Clock Face Ten-Thirty'],
+    '🕥': [
+        'Clock Face Ten-Thirty',
+        ':clock1030:',
+        ':ten_thirty:',
+        ':gray:',
+        ':grey:'
+    ],
     '🕚': [
-        'Eleven O\'Clock',
-        'Clock Face Eleven O\'Clock'
+        'Eleven OClock',
+        ':click11:',
+        ':eleven_oclock:',
+        'Clock Face Eleven OClock',
+        ':gray:',
+        ':grey:'
     ],
-    '🕦': ['Clock Face Eleven-Thirty'],
+    '🕦': [
+        'Clock Face Eleven-Thirty',
+        ':clock1130:',
+        ':eleven_thirty:',
+        ':gray:',
+        ':grey:'
+    ],
     '🕛': [
-        'Twelve O\'Clock',
-        'Clock Face Twelve O\'Clock'
+        'Twelve OClock',
+        ':clock12:',
+        ':twelve_oclock:',
+        'Clock Face Twelve OClock',
+        ':gray:',
+        ':grey:'
     ],
-    '🕧': ['Clock Face Twelve-Thirty'],
+    '🕧': [
+        'Clock Face Twelve-Thirty',
+        ':clock1230:',
+        ':twelve_thirty:',
+        ':gray:',
+        ':grey:'
+    ],
     '♨️': [
         'Hot Springs',
+        ':hot_springs:',
         'Onsen',
-        'Steam'
+        'Steam',
+        ':red:'
     ],
     '💈': [
         'Barber Pole',
+        ':barber_pole:',
         'Barber Shop',
-        'Barber\'s Stripes',
-        'Hairdresser'
+        'Barbers Stripes',
+        'Hairdresser',
+        ':blue:',
+        ':red:'
     ],
     '🎪': [
         'Circus Tent',
+        ':circus_tent:',
         'Big Top',
         'Circus'
     ],
     '💢': [
         'Anger Symbol',
+        ':anger_symbol:',
         'Anger Sign',
-        'Vein Pop'
+        'Vein Pop',
+        ':red:'
     ],
     '🗯️': [
         'Right Anger Bubble',
+        ':right_anger_bubble:',
+        ':anger_right:',
         'Zig Zag Bubble',
-        'Angry Speech Bubble'
+        'Angry Speech Bubble',
+        ':white:'
+    ],
+    '🗨️': [
+        'Left Speech Bubble',
+        ':left_speech_bubble:',
+        ':speech_left:'
     ],
     '💊': [
         'Pill',
+        ':pill:',
         'Capsule',
         'Tablet',
-        'Drugs'
+        'Drugs',
+        'Sick',
+        'ill',
+        ':yellow:',
+        ':red:'
     ],
     '🎎': [
         'Dolls',
+        ':dolls:',
         'Hinamatsuri',
         'Imperial Dolls',
         'Japanese Dolls'
     ],
     '🎏': [
         'Carp Streamer',
+        ':carp_streamer:',
         'Fish Flag',
         'Koinobori',
         'Wind Socks'
     ],
     '🎐': [
         'Wind Chime',
+        ':wind_chime:',
         'Furin',
         'Jellyfish',
         'Wind Bell'
     ],
     '🎀': [
         'Ribbon Bow',
+        ':ribbon_bow:',
         'Pink Bow',
-        'Bow'
+        'Bow',
+        ':pink:'
     ],
     '🎁': [
         'Wrapped Gift',
+        ':wrapped_gift:',
         'Birthday Present',
         'Christmas Present',
         'Gift',
@@ -7534,128 +11226,277 @@ emojis_language[lang][13] = {
     ],
     '🎫': [
         'Ticket',
+        ':ticket:',
         'Ticket Stub',
         'World Tour Ticket'
     ],
     '🃏': [
         'Joker',
+        ':joker:',
         'Joker Card',
         'Playing Card Black Joker'
     ],
     '💡': [
         'Light Bulb',
+        ':light_bulb:',
         'Idea',
         'Electric Light Bulb'
     ],
     '🔦': [
         'Flashlight',
+        ':flashlight:',
         'Torch',
         'Electric Torch'
     ],
     '🏮': [
         'Red Paper Lantern',
+        ':izakaya_lantern:',
+        ':lantern:',
+        ':red_paper_lantern:',
         'Asian Lantern',
         'Japanese Lantern',
         'Red Lantern',
-        'Izakaya Lantern'
+        'Izakaya Lantern',
+        ':red:'
     ],
     '📦': [
         'Package',
+        ':package:',
         'Box',
-        'Parcel'
+        'Parcel',
+        ':brown:'
     ],
     '📇': [
         'Index Card',
+        ':card_index:',
         'Rolodex',
         'System Card',
         'Card Index'
     ],
-    '🕳️': ['Hole'],
+    '🕳️': [
+        'Hole',
+        ':hole:',
+        ':black:'
+    ],
     '👁️‍🗨️': [
         'I Am A Witness',
+        ':eye_in_speech_bubble:',
+        ':eye_speech_bubble:',
+        ':eye-in-speech-bubble:',
         'Eye in Speech Bubble'
     ],
     '⚜️': [
         'Fleur-de-lis',
+        ':fleur_de_lis:',
         'Scouts',
         'New Orleans Saints'
     ],
-    '⚗️': ['Alembic'],
-    '🕯️': ['Candle'],
+    '⚗️': [
+        'Alembic',
+        ':alembic:'
+    ],
+    '🕯️': [
+        'Candle',
+        ':candle:',
+        ':white:'
+    ],
     '🖼️': [
         'Framed Picture',
+        ':framed_picture:',
         'Painting',
         'Picture Frame',
         'Frame with Picture'
     ],
-    '🛍️': ['Shopping Bags'],
-    '🎟️': ['Admission Tickets'],
-    '🛎️': ['Bellhop Bell'],
-    '🧾': ['Receipt'],
-    '🧮': ['Abacus'],
-    '🧫': ['Petri Dish'],
+    '🛍️': [
+        'Shopping Bags',
+        ':shopping_bags:'
+    ],
+    '🛒': [
+        'Shopping Cart',
+        ':shopping_cart:',
+        'Shopping Trolley',
+        ':shopping_trolley:',
+        ':gray:',
+        ':grey:'
+    ],
+    '🎟️': [
+        'Admission Tickets',
+        ':admission_tickets:'
+    ],
+    '🛎️': [
+        'Bellhop Bell',
+        ':bellhop_bell:',
+        ':yellow:',
+        ':gold:'
+    ],
+    '🧾': [
+        'Receipt',
+        ':receipt:',
+        ':white:'
+    ],
+    '🧮': [
+        'Abacus',
+        ':abacus:'
+    ],
+    '🧫': [
+        'Petri Dish',
+        ':petri_dish:'
+    ],
     '🧹': [
         'Broom',
+        ':broom:',
         'Brush',
-        'Sweep'
+        'Sweep',
+        ':yellow:'
     ],
     '🎰': [
         'Slot Machine',
+        ':slot_machine:',
         'Casino',
         'Fruit Machine',
         'Gambling',
         'Poker Machine'
     ],
-    '🦽': ['Manual Wheelchair'],
-    '🦼': ['Motorized Wheelchair'],
-    '🪔': ['Diya Lamp'],
-    '🦯': ['White Cane'],
-    '🩸': ['Drop of Blood'],
-    '🩹': ['Adhesive Bandage'],
-    '🩺': ['Stethoscope'],
-    '🪶': ['Feather'],
-    '🪤': ['Mouse Trap'],
-    '🫖': ['Teapot'],
-    '🪨': ['Rock'],
-    '🪵': ['Wood'],
-    '🪄': ['Magic Wand'],
+    '🦽': [
+        'Manual Wheelchair',
+        ':manual_wheelchair:',
+        ':wheelchair:'
+    ],
+    '🦼': [
+        'Motorized Wheelchair',
+        ':motorized_wheelchair:'
+    ],
+    '🪔': [
+        'Diya Lamp',
+        ':diya_lamp:'
+    ],
+    '🦯': [
+        'White Cane',
+        ':whie_cane:'
+    ],
+    '🩸': [
+        'Drop of Blood',
+        ':drop_of_blood:',
+        ':red:'
+    ],
+    '🩹': [
+        'Adhesive Bandage',
+        ':adhesive_bandage:'
+    ],
+    '🩺': [
+        'Stethoscope',
+        ':stethoscope:'
+    ],
+    '🪶': [
+        'Feather',
+        ':feather:'
+    ],
+    '🪤': [
+        'Mouse Trap',
+        ':mouse_trap:'
+    ],
+    '🫖': [
+        'Teapot',
+        ':teapot:'
+    ],
+    '🪨': [
+        'Rock',
+        ':rock:',
+        ':gray:',
+        ':grey:'
+    ],
+    '🪵': [
+        'Wood',
+        ':wood:',
+        ':brown:'
+    ],
+    '🪄': [
+        'Magic Wand',
+        ':magin_wand:'
+    ],
     '🔮': [
         'Crystal Ball',
+        ':crystal_ball:',
         'Clairvoyant',
         'Fortune Teller',
         'Psychic',
-        'Purple Crystal'
+        'Purple Crystal',
+        ':purple:'
     ],
-    '🪅': ['Piñata'],
+    '🪅': [
+        'Piñata',
+        ':pinata:',
+        ':piñata:'
+    ],
     '🪆': [
         'Nesting Dolls',
+        ':nesting_dolls:',
         'Matryoshka'
     ],
-    '🪡': ['Sewing Needle'],
-    '🪢': ['Knot'],
-    '🪙': ['Coin'],
-    '🪃': ['Boomerang'],
-    '🪥': ['Toothbrush'],
-    '🪦': ['Headstone'],
-    '🪧': ['Placard'],
-    '🪒': ['Razor'],
-    '🫙': ['Jar'],
+    '🪡': [
+        'Sewing Needle',
+        ':swing_needle:'
+    ],
+    '🪢': [
+        'Knot',
+        ':knot:',
+        ':red:',
+        ':blue:'
+    ],
+    '🪙': [
+        'Coin',
+        ':coin:'
+    ],
+    '🪃': [
+        'Boomerang',
+        ':boomerang:',
+        ':brown:'
+    ],
+    '🪥': [
+        'Toothbrush',
+        ':toothbrush:'
+    ],
+    '🪦': [
+        'Headstone',
+        ':headstone:',
+        ':gray:',
+        ':grey:'
+    ],
+    '🪧': [
+        'Placard',
+        ':placard:'
+    ],
+    '🪒': [
+        'Razor',
+        ':razor:'
+    ],
+    '🫙': [
+        'Jar',
+        ':jar:',
+        ':transparent:'
+    ],
     '🛞': [
         'Wheel',
+        ':wheel:',
         'Vehicles',
-        'Cars'
+        'Cars',
+        ':black:'
     ],
     '🛟': [
         'Ring Buoy',
+        ':ring_buoy:',
         'Life Preserver',
         'Life Ring',
         'Boats',
         'Safety',
         'Water',
-        'Lifesaving'
+        'Lifesaving',
+        ':red:',
+        ':white:'
     ],
     '🪬': [
         'Hamsa',
+        ':hamsa:',
         'Islam',
         'Judaism',
         'Buddhism',
@@ -7665,36 +11506,52 @@ emojis_language[lang][13] = {
         'Protection',
         'Guidance',
         'Feminine Power',
-        'Faith'
+        'Faith',
+        ':blue:'
     ],
     '🪩': [
         'Mirror Ball',
+        ':mirror_ball:',
         'Disco Ball'
     ],
     '🪫': [
         'Low Battery',
-        'Red',
-        'Energy'
+        ':low_battery:',
+        ':red:',
+        'Energy',
+        'Red'
     ],
-    '🩻': ['X-Ray'],
+    '🩻': [
+        'X-Ray',
+        ':x_ray:',
+        ':x-ray:',
+        ':blue:'
+    ],
     '🫧': [
         'Bubbles',
+        ':bubbles:',
         'Soap Suds',
         'Carbonation',
-        'Effervescent Personality'
+        'Effervescent Personality',
+        ':transparent:'
     ],
     '🪪': [
         'Identification Card',
+        ':identification_card:',
         'Identity',
         'Passport',
         'ID'
     ],
     '🧿': [
         'Nazar Amulet',
-        'Evil Eye'
+        ':nazar_amulet:',
+        'Evil Eye',
+        ':blue:'
     ],
     '🧸': [
         'Teddy Bear',
-        'Toy'
+        ':teddy_bear:',
+        'Toy',
+        ':brown:'
     ]
 };
