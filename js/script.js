@@ -39,9 +39,7 @@ const skin_tones = ["", "🏻", "🏼", "🏽", "🏾", "🏿"]; //standard(yell
 
 var mostUsedEmojis = [];
 
-var browserOrChromeIndex = 3; //TODO: change manually: {0: Firefox, 1: Microsoft Edge, 2: Chrome Web Store, 3: Thunderbird}
 
-var browserAgentSettings = "";
 var currentOS = "";
 var currentShortcut = "";
 
@@ -53,7 +51,9 @@ const linkNeedHelp = ["https://www.saveriomorelli.com/contact-me/"];
 const storeName = ["Firefox Add-ons", "Microsoft Edge Add-ons", "Google Chrome Web Store", "Thunderbird Add-ons"];
 const fontFamily = ["twemoji", "notocoloremoji", "notocoloremoji", "twemoji-fix-macos", "joypixels"];
 
-if (browserOrChromeIndex === 0) {
+var browserAgentSettings = "";
+var browserOrChromeIndex = 3; //TODO: change manually: {0: Firefox, 1: Microsoft Edge, 2: Chrome Web Store, 3: Thunderbird}
+if (browserOrChromeIndex === 0 || browserOrChromeIndex === 3) {
     browserAgentSettings = browser;
 } else if (browserOrChromeIndex === 1 || browserOrChromeIndex === 2) {
     browserAgentSettings = chrome;
@@ -76,7 +76,6 @@ const jsonSettingsDefaultValue = {
     "skin_tone": 0,
     "multi_copy": 1,
     "extension_icon": 0,
-    "language": getLanguageCode(browserAgentSettings.i18n.getUILanguage().toString()),
     "space_emoji": 0,
     "insert_directly_emoji": 1,
     "keyboard_shortcut": "Ctrl+Alt+A",
