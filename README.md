@@ -2,6 +2,8 @@
     <br>
     <img width="70" src="img/icon-dark-128.png" alt="Emoji icon" />
     <br>
+    Emoji
+    <br>
 </h1>
 
 Official website: https://emojiaddon.com.
