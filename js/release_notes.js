@@ -143,7 +143,9 @@ function releaseNotes(release) {
             release_notes_text += "<li>Some new improvements</li>";
             release_notes_text += "<li>New: import and export settings when change</li>";
             release_notes_text += "<li>Fixed some bugs</li>";
+            release_notes_text += "<li>If you need help, or you want to suggest anything, use the website: https://emojiaddon.com/help <a href='https://www.emojiaddon.com/help' class='button-release'>Go to the website</a></li>";
             release_notes_text += "</ul>";
+            release_notes_text += "<br>Remember to buy me a coffee if you like the add-on and you want to support me<br><br><div class='text-center'><a href='https://paypal.me/saveriomorelli' class='button-release'>PayPay</a> <a href='https://liberapay.com/Sav22999/donate' class='button-release'>LiberaPay</a></div>";
             break;
     }
     return release_notes_text;
