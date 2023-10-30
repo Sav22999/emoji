@@ -131,13 +131,13 @@ emojis_language[lang][2] = {
     ],
     '😍': [
         'Față zâmbitoare cu ochi de inimă',
-        'love',
+        'iubire',
         ':smiling_heart-eyes:',
         ':smiling_heart_eyes:',
         ':*.*:',
-        'Heart Eyes',
-        'Heart Face',
-        'Smiling Face with Heart-Shaped Eyes'
+        'Ochi de inimă',
+        'Faţă cardiacă',
+        'Față zâmbitoare cu ochi modelați de inimă'
     ],
     '🤩': [
         'Structura stelară',
@@ -151,24 +151,24 @@ emojis_language[lang][2] = {
     ],
     '😘': [
         'Față strălucind un sărut',
-        'love',
+        'iubire',
         ':kissing_face:',
         '::*:',
         '::-*:',
-        'Blow A Kiss',
-        'Blowing Kiss',
-        'Kissing',
-        'Face Throwing a Kiss'
+        'Luminos A Kiss',
+        'Sărut strălucitor',
+        'Sărut',
+        'Throwing a Sărut pentru față'
     ],
     '😗': [
         'Față sărutată',
-        'kiss',
+        'sărut',
         ':kissing_face:',
         '::*:',
         '::-*:',
-        'Duck Face',
+        'Față rac',
         'Kissy Face',
-        'Whistling'
+        'fluierat'
     ],
     '☺️': [
         'Față zâmbitoare',
@@ -282,14 +282,14 @@ emojis_language[lang][2] = {
     ],
     '🤐': [
         'Zip',
-        'silent',
-        'silence',
+        'silenţios',
+        'tăcere',
         ':zip_face:',
-        'Zipper-Mouth Face',
-        'Lips Sealed',
-        'Sealed Lips',
-        'Zip It',
-        'Face With a Zipper Mouth'
+        'Faţă posterioară',
+        'Buze sigilate',
+        'Buze sigilate',
+        'Zip pe',
+        'Faţă cu o gură de Zipper'
     ],
     '🤨': [
         'Față cu sprânceană Raed',
@@ -398,18 +398,18 @@ emojis_language[lang][2] = {
     ],
     '🥱': [
         'Față căscat',
-        'tired',
+        'obosit',
         ':yawning_face:'
     ],
     '😷': [
         'Faţă cu masca medicală',
-        'sick',
-        'doc',
+        'bolnav',
+        'documentare',
         ':face_with_medical_mask:',
         'Coronavirus',
         'COVID-19',
-        'Mask Face',
-        'Surgical Mask',
+        'Față Mască',
+        'Mască chirurgicală',
         'ill'
     ],
     '🤒': [
@@ -422,44 +422,44 @@ emojis_language[lang][2] = {
     ],
     '🤕': [
         'Față cu Head-Bandage',
-        'hospital',
-        'sick',
+        'spital',
+        'bolnav',
         ':face_with_head-bandage:',
         ':face_with_head_bandage:',
-        'Bandaged Head',
-        'Clumsy',
-        'Injured',
+        'Capul bărbierat',
+        'Umflare',
+        'Injusit',
         'ill'
     ],
     '🤢': [
         'Faţă greţată',
-        'sick',
+        'bolnav',
         ':nauseated_face:',
-        'Disgust',
-        'Green Face',
+        'Dezgust',
+        'Față verde',
         'Vomit',
         ':green:',
         'ill'
     ],
     '🤮': [
         'Vărsături faciale',
-        'sick',
+        'bolnav',
         ':face_vomiting:',
-        'Spew',
+        'Varc',
         'Bleah',
         'Bleurgh',
         'Yuk',
-        'Yuck',
-        'Ew',
-        'Spew',
-        'Throwing Up',
+        'Iubă',
+        'Eu',
+        'Varc',
+        'Aruncare în sus',
         'Vomit',
-        'Face with Open Mouth Vomiting',
+        'Faţă cu deschidere la nivelul gurii',
         'ill'
     ],
     '🤧': [
         'Față strănut',
-        'sick',
+        'bolnav',
         ':sneezing_face:',
         'Gesundheit',
         'ill'
@@ -492,10 +492,10 @@ emojis_language[lang][2] = {
     ],
     '🤯': [
         'Captură de explozie',
-        'boom',
+        'explozie',
         ':exploding_head:',
-        'Mind Blown',
-        'Shocked Face with Exploding Head'
+        'Asociază explozia',
+        'Față împușcată cu cap de explozie'
     ],
     '🤠': [
         'Pălărie de cowboy',
@@ -699,10 +699,10 @@ emojis_language[lang][2] = {
         'Față de ieșire',
         'fuck',
         ':pouting_face:',
-        'Angry Face',
-        'Grumpy Face',
-        'Mad Face',
-        'Red Face',
+        'Față furioasă',
+        'Față impară',
+        'Față proastă',
+        'Față roșie',
         ':red:'
     ],
     '😠': [
@@ -716,12 +716,12 @@ emojis_language[lang][2] = {
         'fuck',
         ':swearing:',
         '@#$%&!',
-        'Face with Symbols on Mouth',
-        'Cursing',
-        'Cussing',
+        'Faţă cu simboluri la nivelul gurii',
+        'Întunecare',
+        'Tăiere',
         'Grawlix',
-        'Face With Symbols Over Mouth',
-        'Serious Face with Symbols Covering Mouth',
+        'Faţă cu simboluri în gură',
+        'Faţă gravă cu gura simbolurilor',
         ':red:'
     ],
     '🥲': [
@@ -739,12 +739,12 @@ emojis_language[lang][2] = {
         'Dizzy Face'
     ],
     '😶‍🌫️': [
-        'Face in Clouds',
-        'smoke',
+        'Față în nori',
+        'fum',
         ':face_in_clouds:',
         'Brain Fog',
-        'Forgetful',
-        'Haze'
+        'Uitator',
+        'Labirint'
     ],
     '🥸': [
         'Față deghizată',
@@ -2459,21 +2459,21 @@ emojis_language[lang][3] = {
     ],
     '🛌{{skin_tone}}': [
         'Cazare dormit',
-        'tired',
+        'obosit',
         ':sleeping_accommodation:',
-        'Person in Bed',
-        'Person Sleeping'
+        'Persoana în pat',
+        'Dorință persoană'
     ],
     '🛀{{skin_tone}}': [
-        'Person Taking Bath',
-        'Bathing',
+        'Persoana care depune jurământul',
+        'Bătăi',
         ':bath:',
         ':person_taking_bath:',
-        'Hot Bath',
-        'Person Taking a Bath',
-        'Bath',
-        'Shower',
-        'Soap'
+        'Bath fierbinte',
+        'Persoana care depune o baie',
+        'Bată',
+        'Duș',
+        'Săpun'
     ],
     '🧌': [
         'Troll',
@@ -3294,15 +3294,15 @@ emojis_language[lang][5] = {
         ':red:'
     ],
     '❤️‍🩹': [
-        'Mending Heart',
+        'Inimă Mendentă',
         ':mending_heart:',
-        'Bandaged Heart',
-        'Healing Heart',
-        'Unbroken Heart',
+        'Inimă Alarsă',
+        'Inimă de vindecare',
+        'Inimă neîntreruptă',
         ':red:'
     ],
     '❤️‍🔥': [
-        'Heart on Fire',
+        'Inimă pe Foc',
         ':heart_on_fire:',
         ':red:'
     ],
@@ -10347,7 +10347,7 @@ emojis_language[lang][13] = {
     '🪓': [
         'Topor',
         ':axe:',
-        'firefighter'
+        'pompier'
     ],
     '🪚': [
         'Fierăstrău de dulgher',
@@ -10453,8 +10453,8 @@ emojis_language[lang][13] = {
         'Test de sânge',
         'Ac',
         'Vaccinarea',
-        'blood',
-        'sick',
+        'sânge',
+        'bolnav',
         'ill'
     ],
     '🧬': [
@@ -10811,7 +10811,7 @@ emojis_language[lang][13] = {
     '💣': [
         'Bombă',
         ':bomb:',
-        'boom'
+        'explozie'
     ],
     '🔪': [
         'Cuţit de bucătărie',
@@ -11171,7 +11171,7 @@ emojis_language[lang][13] = {
         ':white:'
     ],
     '🗨️': [
-        'Left Speech Bubble',
+        'Căsuță de vorbire Stânga',
         ':left_speech_bubble:',
         ':speech_left:'
     ],
@@ -11181,7 +11181,7 @@ emojis_language[lang][13] = {
         'Capsulă',
         'Tabletă',
         'Medicamente',
-        'Sick',
+        'Bicat',
         'ill',
         ':yellow:',
         ':red:'
@@ -11312,9 +11312,9 @@ emojis_language[lang][13] = {
         ':shopping_bags:'
     ],
     '🛒': [
-        'Shopping Cart',
+        'Coș de cumpărături',
         ':shopping_cart:',
-        'Shopping Trolley',
+        'Trolley cumpărături',
         ':shopping_trolley:',
         ':gray:',
         ':grey:'

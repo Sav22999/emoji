@@ -943,7 +943,7 @@ emojis_language[lang][3] = {
     '👨{{skin_tone}}': [
         'Man',
         ':man:',
-        'Male',
+        'Home',
         'Moustache Man',
         ':man:'
     ],
@@ -990,7 +990,7 @@ emojis_language[lang][3] = {
     '👩{{skin_tone}}': [
         'Woman',
         ':woman:',
-        'Female',
+        'Dona',
         'Lady',
         'Yellow Woman',
         ':woman:'
@@ -3210,13 +3210,13 @@ emojis_language[lang][4] = {
         'Empty Nest',
         ':empty_nest:',
         'Birds',
-        'Home'
+        'Portada'
     ],
     '🪺': [
         'Nest with Eggs',
         ':nest_with_eggs:',
         'Birds',
-        'Home'
+        'Portada'
     ]
 };
 /*symbols*/
@@ -3467,7 +3467,7 @@ emojis_language[lang][5] = {
     '🔕': [
         'Bell with Slash',
         ':bell_with_slash:',
-        'Notifications',
+        'Notificacions',
         'Ringer Disabled',
         'Muted Bell',
         'Bell with Cancellation Stroke',
@@ -4370,7 +4370,7 @@ emojis_language[lang][5] = {
     'ℹ️': [
         'Information',
         ':info_button:',
-        'Info',
+        'Informació',
         'Lowercase I',
         'Tourist Information',
         'Information Source',
@@ -4405,7 +4405,7 @@ emojis_language[lang][5] = {
     '🆗': [
         'OK Button',
         ':ok_button:',
-        'OK',
+        'D\'acord',
         'Okay',
         'Square',
         'OK Sign',
@@ -4429,7 +4429,7 @@ emojis_language[lang][5] = {
         'SOS',
         'SOS Sign',
         'Squared SOS',
-        'Help',
+        'Ajuda',
         ':red:'
     ],
     '🆙': [

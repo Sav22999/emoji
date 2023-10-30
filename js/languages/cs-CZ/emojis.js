@@ -131,13 +131,13 @@ emojis_language[lang][2] = {
     ],
     '😍': [
         'Mletí obličeje se srdcem',
-        'love',
+        'láska',
         ':smiling_heart-eyes:',
         ':smiling_heart_eyes:',
         ':*.*:',
-        'Heart Eyes',
-        'Heart Face',
-        'Smiling Face with Heart-Shaped Eyes'
+        'Srdeční oči',
+        'Čtverce srdce',
+        'Mletí tváří se zaoblenými hranami'
     ],
     '🤩': [
         'Stolní pás',
@@ -151,24 +151,24 @@ emojis_language[lang][2] = {
     ],
     '😘': [
         'bubble raider',
-        'love',
+        'láska',
         ':kissing_face:',
         '::*:',
         '::-*:',
-        'Blow A Kiss',
-        'Blowing Kiss',
-        'Kissing',
-        'Face Throwing a Kiss'
+        'bubble raider',
+        'Šípky',
+        'Šíření',
+        'Šíření obličeje'
     ],
     '😗': [
         'Šíření obličeje',
-        'kiss',
+        'Polibek',
         ':kissing_face:',
         '::*:',
         '::-*:',
-        'Duck Face',
+        'Kachní plocha',
         'Kissy Face',
-        'Whistling'
+        'Pískování'
     ],
     '☺️': [
         'Prošívání tváře',
@@ -282,14 +282,14 @@ emojis_language[lang][2] = {
     ],
     '🤐': [
         'PSČ',
-        'silent',
-        'silence',
+        'ticho',
+        'ticho',
         ':zip_face:',
-        'Zipper-Mouth Face',
-        'Lips Sealed',
-        'Sealed Lips',
-        'Zip It',
-        'Face With a Zipper Mouth'
+        'Obličej Zippera',
+        'Lipce zapečetěné',
+        'Seed Lippy',
+        'Zip',
+        'Obličej se zipperem'
     ],
     '🤨': [
         'Obličej se zvednutou obličejem',
@@ -398,18 +398,18 @@ emojis_language[lang][2] = {
     ],
     '🥱': [
         'Vytváření tváře',
-        'tired',
+        'unavený',
         ':yawning_face:'
     ],
     '😷': [
         'Tváří v tvář lékařskému masku',
-        'sick',
+        'nemocný',
         'doc',
         ':face_with_medical_mask:',
-        'Coronavirus',
+        'koronavirus',
         'COVID-19',
-        'Mask Face',
-        'Surgical Mask',
+        'Maska obličej',
+        'Chirurgická maska',
         'ill'
     ],
     '🤒': [
@@ -422,44 +422,44 @@ emojis_language[lang][2] = {
     ],
     '🤕': [
         'Obličej s hlavou',
-        'hospital',
-        'sick',
+        'nemocnice',
+        'nemocný',
         ':face_with_head-bandage:',
         ':face_with_head_bandage:',
-        'Bandaged Head',
-        'Clumsy',
-        'Injured',
+        'Hlava pruhovaná',
+        'Česnek',
+        'Podrážděný',
         'ill'
     ],
     '🤢': [
         'Nauseated Obličej',
-        'sick',
+        'nemocný',
         ':nauseated_face:',
-        'Disgust',
-        'Green Face',
+        'Disrupce',
+        'Zelená tvář',
         'Vomit',
         ':green:',
         'ill'
     ],
     '🤮': [
         'Odraz obličeje',
-        'sick',
+        'nemocný',
         ':face_vomiting:',
-        'Spew',
+        'Oštěp',
         'Bleah',
         'Bleurgh',
-        'Yuk',
-        'Yuck',
+        'Vejce',
+        'Kokosové ořechy',
         'Ew',
-        'Spew',
-        'Throwing Up',
+        'Oštěp',
+        'Vrhání nahoru',
         'Vomit',
-        'Face with Open Mouth Vomiting',
+        'Obličej s otevřeným otvorem myši',
         'ill'
     ],
     '🤧': [
         'Plížení tváře',
-        'sick',
+        'nemocný',
         ':sneezing_face:',
         'Gesundheit',
         'ill'
@@ -495,7 +495,7 @@ emojis_language[lang][2] = {
         'boom',
         ':exploding_head:',
         'Mind Blown',
-        'Shocked Face with Exploding Head'
+        'Střílení obličeje s explozivní hlavou'
     ],
     '🤠': [
         'Cowboy čepice',
@@ -699,10 +699,10 @@ emojis_language[lang][2] = {
         'Drůbeží tvar',
         'fuck',
         ':pouting_face:',
-        'Angry Face',
-        'Grumpy Face',
-        'Mad Face',
-        'Red Face',
+        'Rozzlobená tvář',
+        'Grumfatická tvář',
+        'Špatná tvář',
+        'Červená tvář',
         ':red:'
     ],
     '😠': [
@@ -716,12 +716,12 @@ emojis_language[lang][2] = {
         'fuck',
         ':swearing:',
         '@#$%&!',
-        'Face with Symbols on Mouth',
-        'Cursing',
-        'Cussing',
+        'Obličej se symboly na myši',
+        'Kurzíva',
+        'Kusující',
         'Grawlix',
-        'Face With Symbols Over Mouth',
-        'Serious Face with Symbols Covering Mouth',
+        'Obličej se symboly nad myší',
+        'Vážná tvář se symboly pokrytí myší',
         ':red:'
     ],
     '🥲': [
@@ -739,11 +739,11 @@ emojis_language[lang][2] = {
         'Dizzy Face'
     ],
     '😶‍🌫️': [
-        'Face in Clouds',
-        'smoke',
+        'Obličej v mrakech',
+        'kouř',
         ':face_in_clouds:',
         'Brain Fog',
-        'Forgetful',
+        'Zapomenutý',
         'Haze'
     ],
     '🥸': [
@@ -2459,21 +2459,21 @@ emojis_language[lang][3] = {
     ],
     '🛌{{skin_tone}}': [
         'Spací okres',
-        'tired',
+        'unavený',
         ':sleeping_accommodation:',
-        'Person in Bed',
-        'Person Sleeping'
+        'Osoba v posteli',
+        'Spánek osoby'
     ],
     '🛀{{skin_tone}}': [
-        'Person Taking Bath',
-        'Bathing',
+        'Osoba bere koupelnu',
+        'Koupání',
         ':bath:',
         ':person_taking_bath:',
-        'Hot Bath',
-        'Person Taking a Bath',
-        'Bath',
-        'Shower',
-        'Soap'
+        'Horká lázeň',
+        'Osoba si bere cestu',
+        'Koupelna',
+        'sprcha',
+        'Mýdlo'
     ],
     '🧌': [
         'Troll',
@@ -3294,15 +3294,15 @@ emojis_language[lang][5] = {
         ':red:'
     ],
     '❤️‍🩹': [
-        'Mending Heart',
+        'Lesní srdce',
         ':mending_heart:',
-        'Bandaged Heart',
-        'Healing Heart',
-        'Unbroken Heart',
+        'Banded Srdce',
+        'Léčící srdce',
+        'Nezlomené srdce',
         ':red:'
     ],
     '❤️‍🔥': [
-        'Heart on Fire',
+        'Srdce při střelbě',
         ':heart_on_fire:',
         ':red:'
     ],
@@ -10347,7 +10347,7 @@ emojis_language[lang][13] = {
     '🪓': [
         'Sekera',
         ':axe:',
-        'firefighter'
+        'hasič'
     ],
     '🪚': [
         'Příze z karpólu',
@@ -10453,8 +10453,8 @@ emojis_language[lang][13] = {
         'Test krve',
         'Jehly',
         'Očkování',
-        'blood',
-        'sick',
+        'krev',
+        'nemocný',
         'ill'
     ],
     '🧬': [
@@ -11171,7 +11171,7 @@ emojis_language[lang][13] = {
         ':white:'
     ],
     '🗨️': [
-        'Left Speech Bubble',
+        'Levý řeč bublina',
         ':left_speech_bubble:',
         ':speech_left:'
     ],
@@ -11181,7 +11181,7 @@ emojis_language[lang][13] = {
         'Kapsle',
         'Tablet',
         'Drogy',
-        'Sick',
+        'Nemocný',
         'ill',
         ':yellow:',
         ':red:'
@@ -11312,9 +11312,9 @@ emojis_language[lang][13] = {
         ':shopping_bags:'
     ],
     '🛒': [
-        'Shopping Cart',
+        'Nákupní košík',
         ':shopping_cart:',
-        'Shopping Trolley',
+        'Nákupní vozík',
         ':shopping_trolley:',
         ':gray:',
         ':grey:'

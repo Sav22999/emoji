@@ -3515,7 +3515,7 @@ emojis_language[lang][5] = {
         ':prohibited:',
         'Banned',
         'Circle Backslash',
-        'No',
+        '否',
         'Red Circle Crossed',
         'Restricted',
         'No Entry Sign',
@@ -4303,7 +4303,7 @@ emojis_language[lang][5] = {
     '🔣': [
         'Input Symbol for Symbols',
         ':input_symbols:',
-        'Symbols',
+        '符號',
         'Symbol Input',
         ':blue:'
     ],

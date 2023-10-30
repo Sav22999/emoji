@@ -131,13 +131,13 @@ emojis_language[lang][2] = {
     ],
     '😍': [
         'Hymyilevä kasvot sydämen silmillä',
-        'love',
+        'rakkaus',
         ':smiling_heart-eyes:',
         ':smiling_heart_eyes:',
         ':*.*:',
-        'Heart Eyes',
-        'Heart Face',
-        'Smiling Face with Heart-Shaped Eyes'
+        'Sydän Silmät',
+        'Sydän Kasvot',
+        'Hymyilevä kasvot sydämen muotoisilla silmillä'
     ],
     '🤩': [
         'Tähtikuorma',
@@ -151,22 +151,22 @@ emojis_language[lang][2] = {
     ],
     '😘': [
         'Kasvojen kyntä suudella',
-        'love',
+        'rakkaus',
         ':kissing_face:',
         '::*:',
         '::-*:',
-        'Blow A Kiss',
-        'Blowing Kiss',
-        'Kissing',
-        'Face Throwing a Kiss'
+        'Blow Kiss',
+        'Kirjoitettava Suudelma',
+        'Suudella',
+        'Kasvot Suudella heittäminen'
     ],
     '😗': [
         'Suudella Kasvolla',
-        'kiss',
+        'suudella',
         ':kissing_face:',
         '::*:',
         '::-*:',
-        'Duck Face',
+        'Ankan Kasvot',
         'Kissy Face',
         'Whistling'
     ],
@@ -282,14 +282,14 @@ emojis_language[lang][2] = {
     ],
     '🤐': [
         'Postinumero',
-        'silent',
-        'silence',
+        'hiljainen',
+        'hiljaisuus',
         ':zip_face:',
-        'Zipper-Mouth Face',
-        'Lips Sealed',
-        'Sealed Lips',
-        'Zip It',
-        'Face With a Zipper Mouth'
+        'Zipper-Mouth Kasvot',
+        'Huulet Suljettu',
+        'Sinetöidyt Huulet',
+        'Postinumero',
+        'Kasvot Vetoketju suuhun'
     ],
     '🤨': [
         'Kasvot koholla kulmakarva',
@@ -398,18 +398,18 @@ emojis_language[lang][2] = {
     ],
     '🥱': [
         'Yawning Face',
-        'tired',
+        'väsynyt',
         ':yawning_face:'
     ],
     '😷': [
         'Kasvot lääketieteellisen naamio',
-        'sick',
+        'sairas',
         'doc',
         ':face_with_medical_mask:',
-        'Coronavirus',
+        'Koronavirus',
         'COVID-19',
-        'Mask Face',
-        'Surgical Mask',
+        'Maskin Kasvot',
+        'Kirurginen Maski',
         'ill'
     ],
     '🤒': [
@@ -422,28 +422,28 @@ emojis_language[lang][2] = {
     ],
     '🤕': [
         'Kasvot pääsiimalla',
-        'hospital',
-        'sick',
+        'sairaala',
+        'sairas',
         ':face_with_head-bandage:',
         ':face_with_head_bandage:',
-        'Bandaged Head',
-        'Clumsy',
+        'Silmukka Päätä',
+        'kömpelö',
         'Injured',
         'ill'
     ],
     '🤢': [
         'Pahoinvoitu Kasvot',
-        'sick',
+        'sairas',
         ':nauseated_face:',
-        'Disgust',
-        'Green Face',
+        'Hämmästyttää',
+        'Vihreä Kasvot',
         'Vomit',
         ':green:',
         'ill'
     ],
     '🤮': [
         'Face Oksentelu',
-        'sick',
+        'sairas',
         ':face_vomiting:',
         'Spew',
         'Bleah',
@@ -452,14 +452,14 @@ emojis_language[lang][2] = {
         'Yuck',
         'Ew',
         'Spew',
-        'Throwing Up',
+        'Heittää Ylöspäin',
         'Vomit',
-        'Face with Open Mouth Vomiting',
+        'Kasvot Open Mouth Oksentelu',
         'ill'
     ],
     '🤧': [
         'Aivastelu Kasvot',
-        'sick',
+        'sairas',
         ':sneezing_face:',
         'Gesundheit',
         'ill'
@@ -492,9 +492,9 @@ emojis_language[lang][2] = {
     ],
     '🤯': [
         'Räjähtävä Päähaara',
-        'boom',
+        'puomi',
         ':exploding_head:',
-        'Mind Blown',
+        'Mieli Blown',
         'Shocked Face with Exploding Head'
     ],
     '🤠': [
@@ -699,10 +699,10 @@ emojis_language[lang][2] = {
         'Kiinnitä Kasvot',
         'fuck',
         ':pouting_face:',
-        'Angry Face',
+        'Vihainen Kasvot',
         'Grumpy Face',
-        'Mad Face',
-        'Red Face',
+        'Hullu Kasvot',
+        'Punaiset Kasvot',
         ':red:'
     ],
     '😠': [
@@ -716,12 +716,12 @@ emojis_language[lang][2] = {
         'fuck',
         ':swearing:',
         '@#$%&!',
-        'Face with Symbols on Mouth',
-        'Cursing',
-        'Cussing',
+        'Kasvot ja symbolit suun',
+        'Hoitotyö',
+        'Nostetaan',
         'Grawlix',
-        'Face With Symbols Over Mouth',
-        'Serious Face with Symbols Covering Mouth',
+        'Kasvot Symbolit Yli Suun',
+        'Vakava kasvot symbolit kaareva Suun',
         ':red:'
     ],
     '🥲': [
@@ -739,12 +739,12 @@ emojis_language[lang][2] = {
         'Dizzy Face'
     ],
     '😶‍🌫️': [
-        'Face in Clouds',
-        'smoke',
+        'Kasvot pilvissä',
+        'savua',
         ':face_in_clouds:',
         'Brain Fog',
-        'Forgetful',
-        'Haze'
+        'Unohtuisa',
+        'Sumua'
     ],
     '🥸': [
         'Peitetyt Kasvot',
@@ -2459,21 +2459,21 @@ emojis_language[lang][3] = {
     ],
     '🛌{{skin_tone}}': [
         'Nukkuva Majoitus',
-        'tired',
+        'väsynyt',
         ':sleeping_accommodation:',
-        'Person in Bed',
-        'Person Sleeping'
+        'Henkilö sängyssä',
+        'Henkilö Nukkuminen'
     ],
     '🛀{{skin_tone}}': [
-        'Person Taking Bath',
-        'Bathing',
+        'Kylvöä Ottava Henkilö',
+        'Uiminen',
         ':bath:',
         ':person_taking_bath:',
-        'Hot Bath',
-        'Person Taking a Bath',
-        'Bath',
-        'Shower',
-        'Soap'
+        'Kuuma Kylpy',
+        'Henkilö joka ottaa kylvyn',
+        'Kylpy',
+        'Suihku',
+        'Saippua'
     ],
     '🧌': [
         'Troll',
@@ -3294,15 +3294,15 @@ emojis_language[lang][5] = {
         ':red:'
     ],
     '❤️‍🩹': [
-        'Mending Heart',
+        'Sydämen Meneminen',
         ':mending_heart:',
-        'Bandaged Heart',
-        'Healing Heart',
-        'Unbroken Heart',
+        'Kallistettu Sydän',
+        'Parantava Sydän',
+        'Murtumaton Sydän',
         ':red:'
     ],
     '❤️‍🔥': [
-        'Heart on Fire',
+        'Sydän tulessa',
         ':heart_on_fire:',
         ':red:'
     ],
@@ -10347,7 +10347,7 @@ emojis_language[lang][13] = {
     '🪓': [
         'Kirves',
         ':axe:',
-        'firefighter'
+        'palomiehen'
     ],
     '🪚': [
         'Kirvesmiehen Saha',
@@ -10453,8 +10453,8 @@ emojis_language[lang][13] = {
         'Veren Testaus',
         'Neula',
         'Rokotus',
-        'blood',
-        'sick',
+        'veri',
+        'sairas',
         'ill'
     ],
     '🧬': [
@@ -10811,7 +10811,7 @@ emojis_language[lang][13] = {
     '💣': [
         'Pommi',
         ':bomb:',
-        'boom'
+        'puomi'
     ],
     '🔪': [
         'Keittiö Veitsi',
@@ -11171,7 +11171,7 @@ emojis_language[lang][13] = {
         ':white:'
     ],
     '🗨️': [
-        'Left Speech Bubble',
+        'Vasemman Puheen Kupla',
         ':left_speech_bubble:',
         ':speech_left:'
     ],
@@ -11181,7 +11181,7 @@ emojis_language[lang][13] = {
         'Kapseli',
         'Tabletti',
         'Huumausaineet',
-        'Sick',
+        'Sairas',
         'ill',
         ':yellow:',
         ':red:'
@@ -11312,9 +11312,9 @@ emojis_language[lang][13] = {
         ':shopping_bags:'
     ],
     '🛒': [
-        'Shopping Cart',
+        'Ostoskori',
         ':shopping_cart:',
-        'Shopping Trolley',
+        'Ostosvaunu',
         ':shopping_trolley:',
         ':gray:',
         ':grey:'

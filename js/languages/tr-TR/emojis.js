@@ -27,107 +27,107 @@ emojis_language[lang][2] = {
         ':grinning:',
         ':grinning_face:',
         '::):',
-        'Happy Face',
-        'Smiley Face'
+        'Mutlu Yüz',
+        'Gülen Yüz'
     ],
     '😃': [
         'İri Gözlü Sırıtan Yüz',
         ':smiley:',
         ':grinning_face_with_big_eyes:',
         '::D:',
-        'Happy Face',
-        'Smiley Face',
-        'Smiling Face with Open Mouth'
+        'Mutlu Yüz',
+        'Gülen Yüz',
+        'Ağzı Açık Gülen Yüz'
     ],
     '😄': [
         'Gülen Gözlerle Sırıtan Yüz',
         ':smile:',
         ':grinning_face_with_smiling_eyes:',
-        'Happy Face',
-        'Smiley Face',
-        'Grinning Face With Squinting Eyes',
-        'Smiling Face with Open Mouth and Smiling Eyes'
+        'Mutlu Yüz',
+        'Gülen Yüz',
+        'Gözleri Kısık Sırıtan Yüz',
+        'Açık Ağızla ve Gülen Gözlerle Gülümseyen Yüz'
     ],
     '😁': [
         'Gülen Gözlerle Parlayan Yüz',
         ':grin:',
         ':beaming_face_with_smiling_eyes:',
-        'Grinning Face with Smiling Eyes'
+        'Gülen Gözlerle Sırıtan Yüz'
     ],
     '😆': [
         'Gözleri Kısık Sırıtan Yüz',
         ':grinning_squinting_face:',
         ':xD:',
         ':><:',
-        'Big Grin',
-        'Closed-Eyes Smile',
-        'Laughing',
-        'Grinning Face With Tightly Closed Eyes',
-        'Smiling Face with Open Mouth and Tightly-Closed Eyes'
+        'Kocaman Sırıtma',
+        'Gözler Kapalı Gülümseme',
+        'Gülmek',
+        'Sıkıca Kapalı Gözlerle Sırıtan Yüz',
+        'Ağzı Açık ve Sıkıca Kapalı Gözlerle Gülümseyen Yüz'
     ],
     '😅': [
         'Terli Sırıtan Yüz',
         ':happy_sweat:',
-        'Exercise',
-        'Happy Sweat',
-        'Grinning Face With Squinting Eyes and Sweat Drop',
-        'Smiling Face with Open Mouth and Cold Sweat'
+        'Egzersiz',
+        'Mutlu Terleme',
+        'Kısık Gözlü ve Ter Damlalı Sırıtan Yüz',
+        'Ağzı Açık ve Soğuk Terli Gülümseyen Yüz'
     ],
     '🤣': [
         'Gülmekten yerlere yatmak',
         ':rofl:',
-        'Rolling on the Floor Laughing'
+        'Gülmekten Yerlerde Yuvarlanmak'
     ],
     '😂': [
         'Mutluluk Gözyaşlı Yüz',
         ':lol:',
-        'Laughing',
-        'Laughing Crying',
-        'Laughing Tears',
-        'LOL'
+        'Gülmek',
+        'Ağlayarak Gülmek',
+        'Gözyaşlarıyla Gülmek',
+        'Gülme'
     ],
     '🙂': [
         'Hafif Gülümseyen Yüz',
         ':smile:',
         '::):',
-        'Slightly Happy',
-        'This Is Fine'
+        'Hafif Mutlu',
+        'Her Şey Yolunda'
     ],
     '🙃': [
         'Ters Dönmüş Yüz',
         ':upside-down_face:',
         ':upside_down_face:',
-        'Sarcasm',
-        'Silly',
-        'Upside Down Face'
+        'Alay',
+        'Şapşal',
+        'Ters Dönmüş Yüz'
     ],
     '😉': [
         'Göz Kırpan Yüz',
         ':winking:',
         ':;):',
-        'Wink',
-        'Wink Face',
-        'Winky Face'
+        'Göz Kırpmak',
+        'Göz Kırpma Yüzü',
+        'Gözü Kırpık Yüz'
     ],
     '😊': [
         'Gülen Gözlerle Gülümseyen Yüz',
         ':smiling_face:',
         ':^^:',
-        'Happy Face',
-        'Smile',
-        'Smiley Face'
+        'Mutlu Yüz',
+        'Gülümsemek',
+        'Gülen Yüz'
     ],
     '😇': [
         'Haleli Gülümseyen Yüz',
         ':smiling_angel:',
-        'Angel',
-        'Halo'
+        'Melek',
+        'Hale'
     ],
     '🥰': [
         'Kalpli Gülümseyen Yüz',
         ':smiling_hearts:',
-        'In Love Face',
-        'Smiling Face with Smiling Eyes and Three Hearts'
+        'Aşık Yüz',
+        'Üç Tane Kalpli ve Gülen Gözlü Gülümseyen Surat'
     ],
     '😍': [
         'Gülen Gözlerle Gülümseyen Yüz',
@@ -142,9 +142,9 @@ emojis_language[lang][2] = {
     '🤩': [
         'Büyülenmiş',
         ':star_eyes:',
-        'Excited',
-        'Star Eyes',
-        'Starry Eyed',
+        'Heyecanlı',
+        'Yıldız Gözler',
+        'Işıldayan Gözler',
         'Wow Face',
         'Face With Starry Eyes',
         'Grinning Face with Star Eyes'
@@ -173,16 +173,16 @@ emojis_language[lang][2] = {
     '☺️': [
         'Gülen Yüz',
         ':smiling_face:',
-        'Happy Face',
-        'Smiley Face',
-        'Smiling',
-        'White Smiling Face'
+        'Mutlu Yüz',
+        'Gülen Yüz',
+        'Gülümsemek',
+        'Hafif Gülümseyen Yüz'
     ],
     '😚': [
         'Gözleri Kapalı Öpücük',
         ':kissing_face:',
         'Kiss Face',
-        'Kissy Face'
+        'Öpücük Surat'
     ],
     '😙': [
         'Kissing Face with Smiling Eyes',
@@ -190,7 +190,7 @@ emojis_language[lang][2] = {
         'Kiss Face',
         'Kissy',
         'Whistle',
-        'Whistling'
+        'Islık Çalmak'
     ],
     '😋': [
         'Face Savoring Food',
@@ -223,7 +223,7 @@ emojis_language[lang][2] = {
         'Zany Face',
         ':crazy_face:',
         'Crazy Eyes',
-        'Excited',
+        'Heyecanlı',
         'Wild',
         'Goofy Face',
         'Grinning Face with One Large and One Small Eye'
@@ -515,7 +515,7 @@ emojis_language[lang][2] = {
         ':smiling_face_with_sunglasses:',
         'Cool',
         'Mutual Best Friends (Snapchat)',
-        'Sunglasses'
+        'Güneş Gözlüğü'
     ],
     '🤓': [
         'Nerd Face',
@@ -840,7 +840,7 @@ emojis_language[lang][2] = {
     '👻': [
         'Ghost',
         ':ghost:',
-        'Halloween'
+        'Cadılar Bayramı'
     ],
     '🗣️': [
         'Speaking Head',
@@ -897,7 +897,7 @@ emojis_language[lang][3] = {
         'Person',
         ':person:',
         'Gender Neutral Adult',
-        'Adult',
+        'Yetişkin',
         ':person:'
     ],
     '🧑{{skin_tone}}': [
@@ -943,7 +943,7 @@ emojis_language[lang][3] = {
     '👨{{skin_tone}}': [
         'Man',
         ':man:',
-        'Male',
+        'Erkek',
         'Moustache Man',
         ':man:'
     ],
@@ -990,7 +990,7 @@ emojis_language[lang][3] = {
     '👩{{skin_tone}}': [
         'Woman',
         ':woman:',
-        'Female',
+        'Kadın',
         'Lady',
         'Yellow Woman',
         ':woman:'
@@ -1064,7 +1064,7 @@ emojis_language[lang][3] = {
     '👼{{skin_tone}}': [
         'Baby Angel',
         ':baby_angel:',
-        'Angel',
+        'Melek',
         'Cherub',
         'Cupid',
         'Putto'
@@ -1156,7 +1156,7 @@ emojis_language[lang][3] = {
         'Man in Tuxedo',
         ':man_in_tuxedo:',
         ':tuxedo:',
-        'Groom',
+        'Damat',
         'Man In Suit',
         'Wedding',
         ':man:'
@@ -1165,7 +1165,7 @@ emojis_language[lang][3] = {
         'Woman in Tuxedo',
         ':woman_in_tuxedo:',
         ':tuxedo:',
-        'Groom',
+        'Damat',
         'Woman In Suit',
         'Wedding',
         ':woman:'
@@ -1174,7 +1174,7 @@ emojis_language[lang][3] = {
         'Person in Tuxedo',
         ':person_in_tuxedo:',
         ':tuxedo:',
-        'Groom',
+        'Damat',
         'Person In Suit',
         'Wedding',
         ':person:'
@@ -3210,13 +3210,13 @@ emojis_language[lang][4] = {
         'Empty Nest',
         ':empty_nest:',
         'Birds',
-        'Home'
+        'Ana Sayfa'
     ],
     '🪺': [
         'Nest with Eggs',
         ':nest_with_eggs:',
         'Birds',
-        'Home'
+        'Ana Sayfa'
     ]
 };
 /*symbols*/
@@ -3232,7 +3232,7 @@ emojis_language[lang][5] = {
         'Heart with Ribbon',
         ':heart_with_ribbon:',
         'Chocolate Box',
-        'Gift Box',
+        'Hediye Kutusu',
         'Gift Heart',
         ':red:'
     ],
@@ -3467,7 +3467,7 @@ emojis_language[lang][5] = {
     '🔕': [
         'Bell with Slash',
         ':bell_with_slash:',
-        'Notifications',
+        'Bildirimler',
         'Ringer Disabled',
         'Muted Bell',
         'Bell with Cancellation Stroke',
@@ -3515,7 +3515,7 @@ emojis_language[lang][5] = {
         ':prohibited:',
         'Banned',
         'Circle Backslash',
-        'No',
+        'Hayır',
         'Red Circle Crossed',
         'Restricted',
         'No Entry Sign',
@@ -4303,7 +4303,7 @@ emojis_language[lang][5] = {
     '🔣': [
         'Input Symbol for Symbols',
         ':input_symbols:',
-        'Symbols',
+        'Semboller',
         'Symbol Input',
         ':blue:'
     ],
@@ -4370,7 +4370,7 @@ emojis_language[lang][5] = {
     'ℹ️': [
         'Information',
         ':info_button:',
-        'Info',
+        'Bilgi',
         'Lowercase I',
         'Tourist Information',
         'Information Source',
@@ -4405,7 +4405,7 @@ emojis_language[lang][5] = {
     '🆗': [
         'OK Button',
         ':ok_button:',
-        'OK',
+        'Tamam',
         'Okay',
         'Square',
         'OK Sign',
@@ -4429,7 +4429,7 @@ emojis_language[lang][5] = {
         'SOS',
         'SOS Sign',
         'Squared SOS',
-        'Help',
+        'Yardım',
         ':red:'
     ],
     '🆙': [

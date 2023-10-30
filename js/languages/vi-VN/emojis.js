@@ -27,106 +27,106 @@ emojis_language[lang][2] = {
         ':grinning:',
         ':grinning_face:',
         '::):',
-        'Happy Face',
-        'Smiley Face'
+        'Vui vẻ',
+        'Mặt cười'
     ],
     '😃': [
         'Cười tươi với mắt to',
         ':smiley:',
         ':grinning_face_with_big_eyes:',
         '::D:',
-        'Happy Face',
-        'Smiley Face',
-        'Smiling Face with Open Mouth'
+        'Vui vẻ',
+        'Mặt cười',
+        'Mặt cười mở miệng'
     ],
     '😄': [
         'Cười tươi với mắt cười',
         ':smile:',
         ':grinning_face_with_smiling_eyes:',
-        'Happy Face',
-        'Smiley Face',
-        'Grinning Face With Squinting Eyes',
+        'Vui vẻ',
+        'Mặt cười',
+        'Cười toe toét với mắt nheo',
         'Mặt cười với miệng mở và mắt cười'
     ],
     '😁': [
         'Mặt rạng rỡ với mắt cười',
         ':grin:',
         ':beaming_face_with_smiling_eyes:',
-        'Grinning Face with Smiling Eyes'
+        'Cười tươi với mắt cười'
     ],
     '😆': [
         'Cười tươi với mắt nheo',
         ':grinning_squinting_face:',
         ':xD:',
         ':><:',
-        'Big Grin',
-        'Closed-Eyes Smile',
-        'Laughing',
-        'Grinning Face With Tightly Closed Eyes',
+        'Cười toe toét',
+        'Cười nhắm tịt mắt',
+        'Cười',
+        'Cười tươi với mắt nhắm tịt',
         'Mặt cười với miệng mở và mắt nhắm tịt'
     ],
     '😅': [
         'Cười tươi với mồ hôi',
         ':happy_sweat:',
-        'Exercise',
-        'Happy Sweat',
+        'Tập thể dục',
+        'Cười lo lắng',
         'Cười tươi với mắt nheo và mồ hôi',
         'Mặt cười với miệng mở và mồ hôi lạnh'
     ],
     '🤣': [
         'Cười lăn lộn',
         ':rofl:',
-        'Rolling on the Floor Laughing'
+        'Cười lăn lộn'
     ],
     '😂': [
         'Khóc trong hạnh phúc',
         ':lol:',
-        'Laughing',
-        'Laughing Crying',
-        'Laughing Tears',
+        'Cười',
+        'Cười chảy nước mắt',
+        'Nước mắt cười',
         'LOL'
     ],
     '🙂': [
         'Mỉm cười',
         ':smile:',
         '::):',
-        'Slightly Happy',
-        'This Is Fine'
+        'Hơi vui',
+        'Ổn'
     ],
     '🙃': [
         'Mặt lật ngược',
         ':upside-down_face:',
         ':upside_down_face:',
-        'Sarcasm',
-        'Silly',
-        'Upside Down Face'
+        'Mỉa mai',
+        'Ngớ ngẩn',
+        'Mặt lật ngược'
     ],
     '😉': [
         'Nháy mắt',
         ':winking:',
         ':;):',
-        'Wink',
-        'Wink Face',
-        'Winky Face'
+        'Nháy mắt',
+        'Nháy mắt',
+        'Nháy mắt'
     ],
     '😊': [
         'Mặt cười với mắt cười',
         ':smiling_face:',
         ':^^:',
-        'Happy Face',
-        'Smile',
-        'Smiley Face'
+        'Vui vẻ',
+        'Cười',
+        'Mặt cười'
     ],
     '😇': [
         'Mặt cười với hào quang',
         ':smiling_angel:',
-        'Angel',
-        'Halo'
+        'Thiên thần',
+        'Hào Quang'
     ],
     '🥰': [
         'Mặt cười với trái tim',
         ':smiling_hearts:',
-        'In Love Face',
+        'Mặt yêu',
         'Mặt cười với mắt cười và ba trái tim'
     ],
     '😍': [
@@ -142,12 +142,12 @@ emojis_language[lang][2] = {
     '🤩': [
         'Sét đánh',
         ':star_eyes:',
-        'Excited',
-        'Star Eyes',
-        'Starry Eyed',
+        'Phấn khích',
+        'Mắt sao',
+        'Mắt sáng như sao',
         'Mặt wow',
-        'Face With Starry Eyes',
-        'Grinning Face with Star Eyes'
+        'Mặt với mắt sao',
+        'Cười tươi với mắt sao'
     ],
     '😘': [
         'Hôn gió',
@@ -173,8 +173,8 @@ emojis_language[lang][2] = {
     '☺️': [
         'Mặt cười',
         ':smiling_face:',
-        'Happy Face',
-        'Smiley Face',
+        'Vui vẻ',
+        'Mặt cười',
         'Smiling',
         'White Smiling Face'
     ],
@@ -182,7 +182,7 @@ emojis_language[lang][2] = {
         'Kissing Face with Closed Eyes',
         ':kissing_face:',
         'Kiss Face',
-        'Kissy Face'
+        'Chu môi'
     ],
     '😙': [
         'Kissing Face with Smiling Eyes',
@@ -190,7 +190,7 @@ emojis_language[lang][2] = {
         'Kiss Face',
         'Kissy',
         'Whistle',
-        'Whistling'
+        'Thổi sáo'
     ],
     '😋': [
         'Face Savoring Food',
@@ -223,7 +223,7 @@ emojis_language[lang][2] = {
         'Zany Face',
         ':crazy_face:',
         'Crazy Eyes',
-        'Excited',
+        'Phấn khích',
         'Wild',
         'Goofy Face',
         'Grinning Face with One Large and One Small Eye'
@@ -256,29 +256,29 @@ emojis_language[lang][2] = {
     '🤭': [
         'Oops',
         ':oops:',
-        'Face with Hand Over Mouth',
+        'Che miệng',
         'Mặt cười với mắt cười và tay che miệng'
     ],
     '🤫': [
         'Xuỵt',
         ':shushing_face:',
-        'Shush',
-        'Shushing Face',
-        'Hush',
-        'Quiet',
-        'Silence',
-        'Silent',
-        'Face with Finger Covering Closed Lips'
+        'Xuỵt',
+        'Xuỵt',
+        'Xuỵt',
+        'Im',
+        'Im lặng',
+        'Im lặng',
+        'Xuỵt'
     ],
     '🤔': [
         'Cái gì',
         ':thinking_face:',
         '?',
         'Hmm',
-        'Thinking Face',
-        'Chin Thumb',
-        'Thinker',
-        'Throwing Shade'
+        'Mặt nghĩ ngợi',
+        'Mặt nghĩ ngợi',
+        'Mặt nghĩ ngợi',
+        'Mỉa mai'
     ],
     '🤐': [
         'Bịt môi',
@@ -296,30 +296,30 @@ emojis_language[lang][2] = {
         ':face_with_raised_eyebrow:',
         'Colbert',
         'The Rock',
-        'Face With Raised Eyebrow',
-        'Face with One Eyebrow Raised'
+        'Nheo mày',
+        'Nheo mày'
     ],
     '😐': [
         'Mặt trung tính',
         ':neutral_face:',
         ':|',
-        'Face With Straight Mouth',
-        'Straight Faced'
+        'Không cảm xúc',
+        'Mặt trung tính'
     ],
     '😑': [
         'Không cảm xúc',
         ':expressionless_face:',
         '-_-',
-        'Face With Straight Mouth',
-        'Straight Face'
+        'Không cảm xúc',
+        'Không cảm xúc'
     ],
     '😶': [
         'Không mồm',
         ':face_without_mouth:',
-        'Blank Face',
-        'Mouthless',
-        'Silence',
-        'Silent'
+        'Không mồm',
+        'Không mồm',
+        'Im lặng',
+        'Im lặng'
     ],
     '😏': [
         'Cười khỉnh',
@@ -1064,7 +1064,7 @@ emojis_language[lang][3] = {
     '👼{{skin_tone}}': [
         'Baby Angel',
         ':baby_angel:',
-        'Angel',
+        'Thiên thần',
         'Cherub',
         'Cupid',
         'Putto'
@@ -4303,7 +4303,7 @@ emojis_language[lang][5] = {
     '🔣': [
         'Input Symbol for Symbols',
         ':input_symbols:',
-        'Symbols',
+        'Biểu tượng',
         'Symbol Input',
         ':blue:'
     ],

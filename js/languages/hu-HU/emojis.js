@@ -27,48 +27,48 @@ emojis_language[lang][2] = {
         ':grinning:',
         ':grinning_face:',
         '::):',
-        'Happy Face',
-        'Smiley Face'
+        'Boldog arc',
+        'Mosolygó arc'
     ],
     '😃': [
         'Nevető arc nagy szemekkel',
         ':smiley:',
         ':grinning_face_with_big_eyes:',
         '::D:',
-        'Happy Face',
-        'Smiley Face',
-        'Smiling Face with Open Mouth'
+        'Boldog arc',
+        'Mosolygó arc',
+        'Mosolygó arc nyitott szájjal'
     ],
     '😄': [
         'Nevető arc mosolygó szemmel',
         ':smile:',
         ':grinning_face_with_smiling_eyes:',
-        'Happy Face',
-        'Smiley Face',
-        'Grinning Face With Squinting Eyes',
-        'Smiling Face with Open Mouth and Smiling Eyes'
+        'Boldog arc',
+        'Mosolygó arc',
+        'Mosolygó arc lehunyt szemmel',
+        'Nyitott szájjal és lehunyt szemmel mosolygó arc'
     ],
     '😁': [
         'Ragyogó arc mosolygó szemmel',
         ':grin:',
         ':beaming_face_with_smiling_eyes:',
-        'Grinning Face with Smiling Eyes'
+        'Nevető arc mosolygó szemmel'
     ],
     '😆': [
         'Vigyorgó hunyorító arc',
         ':grinning_squinting_face:',
         ':xD:',
         ':><:',
-        'Big Grin',
-        'Closed-Eyes Smile',
-        'Laughing',
-        'Grinning Face With Tightly Closed Eyes',
-        'Smiling Face with Open Mouth and Tightly-Closed Eyes'
+        'Széles vigyor',
+        'Mosoly csukott szemekkel',
+        'Nevetés',
+        'Nevető arc becsukott szemekkel',
+        'Mosolygó arc nyitott szájjal és becsukott szemekkel'
     ],
     '😅': [
         'Grinning Face with Sweat',
         ':happy_sweat:',
-        'Exercise',
+        'Testmozgás',
         'Happy Sweat',
         'Grinning Face With Squinting Eyes and Sweat Drop',
         'Smiling Face with Open Mouth and Cold Sweat'
@@ -76,58 +76,58 @@ emojis_language[lang][2] = {
     '🤣': [
         'ROFL',
         ':rofl:',
-        'Rolling on the Floor Laughing'
+        'Földön fetrengve röhög'
     ],
     '😂': [
         'Arc örömkönnyekkel',
         ':lol:',
-        'Laughing',
-        'Laughing Crying',
-        'Laughing Tears',
+        'Nevetés',
+        'Sírva nevetés',
+        'Nevetés könnyekkel',
         'LOL'
     ],
     '🙂': [
         'Enyhén mosolygó arc',
         ':smile:',
         '::):',
-        'Slightly Happy',
-        'This Is Fine'
+        'Kicsit boldog',
+        'Minden rendben'
     ],
     '🙃': [
         'Fejre fordított arc',
         ':upside-down_face:',
         ':upside_down_face:',
-        'Sarcasm',
-        'Silly',
-        'Upside Down Face'
+        'Szarkazmus',
+        'Butus',
+        'Fejre fordított arc'
     ],
     '😉': [
         'Kacsintó arc',
         ':winking:',
         ':;):',
-        'Wink',
-        'Wink Face',
-        'Winky Face'
+        'Kacsintás',
+        'Kacsintó arc',
+        'Kacsintó arc'
     ],
     '😊': [
         'Mosolygó arc mosolygó szemmel',
         ':smiling_face:',
         ':^^:',
-        'Happy Face',
-        'Smile',
-        'Smiley Face'
+        'Boldog arc',
+        'Mosoly',
+        'Mosolygó arc'
     ],
     '😇': [
         'Mosolygó arc glóriával',
         ':smiling_angel:',
-        'Angel',
-        'Halo'
+        'Angyal',
+        'Glória'
     ],
     '🥰': [
         'Mosolygó arc szívekkel',
         ':smiling_hearts:',
-        'In Love Face',
-        'Smiling Face with Smiling Eyes and Three Hearts'
+        'Szerelmes arc',
+        'Mosolygó arc mosolygó szemekkel és három szívvel'
     ],
     '😍': [
         'Mosolygó arc három szívvel',
@@ -173,8 +173,8 @@ emojis_language[lang][2] = {
     '☺️': [
         'Smiling Face',
         ':smiling_face:',
-        'Happy Face',
-        'Smiley Face',
+        'Boldog arc',
+        'Mosolygó arc',
         'Smiling',
         'White Smiling Face'
     ],
@@ -243,7 +243,7 @@ emojis_language[lang][2] = {
         '::$:',
         'Dollar Sign Eyes',
         'Money Face',
-        'Rich'
+        'Gazdag'
     ],
     '🤗': [
         'Hugging Face',
@@ -275,9 +275,9 @@ emojis_language[lang][2] = {
         ':thinking_face:',
         '?',
         'Hmm',
-        'Thinking Face',
+        'Gondolkodó fej',
         'Chin Thumb',
-        'Thinker',
+        'Gondolkodó',
         'Throwing Shade'
     ],
     '🤐': [
@@ -515,7 +515,7 @@ emojis_language[lang][2] = {
         ':smiling_face_with_sunglasses:',
         'Cool',
         'Mutual Best Friends (Snapchat)',
-        'Sunglasses'
+        'Napszemüveg'
     ],
     '🤓': [
         'Nerd Face',
@@ -731,7 +731,7 @@ emojis_language[lang][2] = {
     '😮‍💨': [
         'Face Exhaling',
         ':face_exhaling:',
-        'Sigh'
+        'Sóhaj'
     ],
     '😵‍💫': [
         'Face with Spiral Eyes',
@@ -943,7 +943,7 @@ emojis_language[lang][3] = {
     '👨{{skin_tone}}': [
         'Man',
         ':man:',
-        'Male',
+        'Férfi',
         'Moustache Man',
         ':man:'
     ],
@@ -990,7 +990,7 @@ emojis_language[lang][3] = {
     '👩{{skin_tone}}': [
         'Woman',
         ':woman:',
-        'Female',
+        'Nő',
         'Lady',
         'Yellow Woman',
         ':woman:'
@@ -1062,17 +1062,17 @@ emojis_language[lang][3] = {
         ':person:'
     ],
     '👼{{skin_tone}}': [
-        'Baby Angel',
+        'Angyalka',
         ':baby_angel:',
-        'Angel',
-        'Cherub',
-        'Cupid',
+        'Angyal',
+        'Kerub',
+        'Ámor',
         'Putto'
     ],
     '👨{{skin_tone}}‍🎄': [
-        'Santa Claus',
+        'Mikulás',
         ':santa_claus:',
-        'Saint Nicholas',
+        'Szent Miklós',
         'Sinterklaas',
         'Father Christmas',
         ':man:'
@@ -1090,12 +1090,12 @@ emojis_language[lang][3] = {
         ':person:'
     ],
     '🤴{{skin_tone}}': [
-        'Prince',
+        'Herceg',
         ':price:',
         ':man:'
     ],
     '👸{{skin_tone}}': [
-        'Princess',
+        'Hercegnő',
         ':pricess:',
         'Blonde Girl',
         'Girl With Crown',
@@ -1185,7 +1185,7 @@ emojis_language[lang][3] = {
         ':veil:',
         'Wedding',
         'Bridegroom',
-        'Marriage',
+        'Házasság',
         ':man:'
     ],
     '👰{{skin_tone}}‍♀️': [
@@ -1195,7 +1195,7 @@ emojis_language[lang][3] = {
         'Wedding',
         'Bride',
         'Bride with Veil',
-        'Marriage',
+        'Házasság',
         ':woman:'
     ],
     '👰{{skin_tone}}': [
@@ -1203,7 +1203,7 @@ emojis_language[lang][3] = {
         ':person_with_veil:',
         ':veil:',
         'Wedding',
-        'Marriage',
+        'Házasság',
         ':person:'
     ],
     '👨{{skin_tone}}‍🍼': [
@@ -2495,108 +2495,108 @@ emojis_language[lang][4] = {
         ':happy_cat:',
         ':smiling_cat:',
         '::):',
-        'Happy Cat',
-        'Smiling Cat',
-        'Happy Cat Face',
-        'Smiling Cat Face with Open Mouth'
+        'Boldog macska',
+        'Mosolygó macska',
+        'Vidám macskafej',
+        'Nyitott szájjal nevető macska'
     ],
     '😸': [
         'Vigyorgó macska mosolygós szemekkel',
         ':grinning_cat:',
         '::D:',
-        'Grinning Cat',
-        'Happy Cat',
-        'Grinning Cat Face'
+        'Vigyorgó macska',
+        'Boldog macska',
+        'Vigyorgó macskafej'
     ],
     '😹': [
         'Macska örömkönnyekkel',
         ':laughing_cat:',
         '::):',
-        'Happy Tears Cat',
-        'Laughing Cat'
+        'Boldog könnyező macska',
+        'Nevető macska'
     ],
     '😻': [
         'Mosolygó macska szív alakú szemekkel',
         ':heart_eyes_cat:',
         ':*.*:',
-        'Heart Eyes Cat',
-        'Loving Cat',
-        'Smiling Cat Face with Heart-Shaped Eyes'
+        'Macska szív alakú szemekkel',
+        'Szerelmes macska',
+        'Mosolygó macskafej szív alakú szemekkel'
     ],
     '😼': [
         'Fanyar mosolyú macska',
         ':cat_with_wry_smile:',
         'Fanyargó macska',
         'Fanyargó macskafej',
-        'Cat Face with Wry Smile'
+        'Macskafej fanyar mosollyal'
     ],
     '😽': [
         'Csókoló macska',
         ':kissing_cat:',
         '::*:',
-        'Kissing Cat Face',
-        'Kissing Cat Face with Closed Eyes'
+        'Csókoló macskafej',
+        'Csukott szemű csókoló macskafej'
     ],
     '🙀': [
         'Ijedt macska',
         ':weary_cat:',
         '::O:',
-        'Scared Cat',
-        'Screaming Cat',
-        'Cat Face Screaming in Fear',
-        'Weary Cat Face'
+        'Ijedt macska',
+        'Sikoltó macska',
+        'Félelemtől sikoltó macskafej',
+        'Ijedt macskafej'
     ],
     '😿': [
         'Síró macska',
         ':crying_cat:',
         '::(:',
-        'Sad Cat',
-        'Crying Cat Face'
+        'Szomorú macska',
+        'Síró macskafej'
     ],
     '😾': [
         'Duzzogó macska',
         ':pouting_cat:',
-        'Grumpy Cat',
-        'Pouting Cat Face'
+        'Morcos macska',
+        'Duzzogó macskafej'
     ],
     '🙈': [
-        'See-No-Evil Monkey',
-        'Monkey',
+        'Nem látó majom',
+        'Majom',
         ':see-no-evil_mokey:',
         ':see_no_evil_mokey:',
         ':monkey:',
         'Mizaru',
-        'Monkey Covering Eyes'
+        'Szemét takaró majom'
     ],
     '🙉': [
-        'Hear-No-Evil Monkey',
-        'Monkey',
+        'Nem halló majom',
+        'Majom',
         ':hear-no-evil_monkey:',
         ':hear_no_evil_monkey:',
         ':monkey:',
         'Kikazaru',
-        'Monkey Covering Ears'
+        'Fülét befogó majom'
     ],
     '🙊': [
-        'Speak-No-Evil Monkey',
-        'Monkey',
+        'Nem beszélő majom',
+        'Majom',
         ':speak-no-evil_monkey:',
         ':speak_no_evil_monkey:',
         ':monkey:',
         'Iwazaru',
-        'Monkey Covering Mouth',
-        'No Speaking'
+        'Száját befogó majom',
+        'Nem beszél'
     ],
     '🐵': [
-        'Monkey Face',
+        'Majom arc',
         ':monkey_face:',
-        'Monkey',
-        'Monkey Head'
+        'Majom',
+        'Majomfej'
     ],
     '🐒': [
         'Majom',
         ':monkey:',
-        'Cheeky Monkey'
+        'Pimasz majom'
     ],
     '🦍': [
         'Gorilla',
@@ -2605,19 +2605,19 @@ emojis_language[lang][4] = {
     '🐶': [
         'Kutyafej',
         ':dog_face:',
-        'Dog',
-        'Puppy'
+        'Kutya',
+        'Kölyökkutya'
     ],
     '🐕': [
         'Kutya',
         ':dog:',
-        'Doggo',
+        'Kutyus',
         'Akita Inu'
     ],
     '🦮': [
         'Vakvezető kutya',
         ':seeing_eye_dog:',
-        'Guide Dog'
+        'Vezető kutya'
     ],
     '🐕‍🦺': [
         'Szolgálati kutya',
@@ -2626,22 +2626,22 @@ emojis_language[lang][4] = {
     '🐩': [
         'Uszkár',
         ':poodle:',
-        'Dog',
-        'Miniature Poodle',
-        'Standard Poodle',
+        'Kutya',
+        'Törpe uszkár',
+        'Normál uszkár',
         'Toy uszkár'
     ],
     '🐺': [
         'Farkas',
         ':wolf:',
-        'Wolf Face',
+        'Farkasfej',
         ':gray:',
         ':grey:'
     ],
     '🦊': [
         'Róka',
         ':fox:',
-        'Fox Face',
+        'Rókafej',
         ':orange:'
     ],
     '🦝': [
@@ -2652,15 +2652,15 @@ emojis_language[lang][4] = {
         'Macskafej',
         ':cat_face:',
         ':3',
-        'Kitten',
-        'Kitty'
+        'Cica',
+        'Cicus'
     ],
     '🐈': [
         'Macska',
         ':cat:',
-        'Domestic Cat',
-        'Feline',
-        'Housecat'
+        'Házi macska',
+        'Cica',
+        'Házi macska'
     ],
     '🐈‍⬛': [
         'Fekete macska',
@@ -2670,99 +2670,99 @@ emojis_language[lang][4] = {
     '🦁': [
         'Oroszlán',
         ':lion:',
-        'Lion Face'
+        'Oroszlánfej'
     ],
     '🐯': [
         'Tigrisfej',
         ':tiger_face:',
-        'Cute Tiger'
+        'Aranyos tigris'
     ],
     '🐅': [
         'Tigris',
         ':tiger:',
-        'Bengal Tiger'
+        'Bengáli tigris'
     ],
     '🐆': [
         'Leopárd',
         ':leopard:',
-        'African Leopard',
-        'Jaguar'
+        'Afrikai leopárd',
+        'Jaguár'
     ],
     '🐴': [
         'Lófej',
         ':horse_face:',
-        'Horse Head'
+        'Lófej'
     ],
     '🐎': [
         'Ló',
         ':horse:',
-        'Galloping Horse',
-        'Racehorse'
+        'Vágtató ló',
+        'Versenyló'
     ],
     '🦄': [
         'Unikornis',
         ':unicorn:',
-        'Unicorn Face'
+        'Unikornisfej'
     ],
     '🦓': [
         'Zebra',
         ':zebra:',
-        'Zebra Face',
+        'Zebrafej',
         ':white:',
         ':black:'
     ],
     '🦌': [
         'Szarvas',
         ':deer:',
-        'Buck',
-        'Reindeer',
-        'Stag'
+        'Őz',
+        'Jávorszarvas',
+        'Szarvas'
     ],
     '🐮': [
         'Tehénfej',
         ':cow_face:',
-        'Cow',
-        'Happy Cow'
+        'Tehén',
+        'Boldog tehén'
     ],
     '🐂': [
         'Ökör',
         ':ox:',
-        'Bull',
-        'Bullock',
-        'Oxen',
-        'Steer'
+        'Bika',
+        'Bika',
+        'Marha',
+        'Bivaly'
     ],
     '🐃': [
         'Vízibivaly',
         ':water_buffalo:',
-        'Buffalo',
+        'Bölény',
         'Háziasított vízibivaly'
     ],
     '🐄': [
         'Tehén',
         ':cow:',
-        'Dairy Cow'
+        'Fejőstehén'
     ],
     '🐷': [
         'Malacfej',
         ':pig_fase:',
-        'Pig',
-        'Pig Head',
+        'Disznó',
+        'Malacfej',
         ':pink:'
     ],
     '🐖': [
         'Disznó',
         ':pig:',
-        'Hog',
-        'Sow',
+        'Sertés',
+        'Koca',
         ':pink:'
     ],
     '🐗': [
         'Vaddisznó',
         ':boar:',
         'Varacskosdisznó',
-        'Wild Boar',
-        'Wild Pig'
+        'Vadkan',
+        'Vaddisznó'
     ],
     '🐽': [
         'Malac orr',
@@ -2771,13 +2771,13 @@ emojis_language[lang][4] = {
     '🐏': [
         'Kos',
         ':ram:',
-        'Sheep'
+        'Birka'
     ],
     '🐑': [
         'Anyajuh',
         ':ewe:',
-        'Lamb',
-        'Sheep'
+        'Bárány',
+        'Birka'
     ],
     '🐐': [
         'Kecske',
@@ -2786,26 +2786,26 @@ emojis_language[lang][4] = {
     '🐪': [
         'Teve',
         ':camel:',
-        'Arabian Camel',
-        'Dromedary Camel',
-        'One-Bump Camel'
+        'Arab teve',
+        'Dromedár',
+        'Egypúpú teve'
     ],
     '🐫': [
         'Kétpúpú teve',
         ':two-hump_camel:',
         ':two_hump_camel:',
-        'Asian Camel',
+        'Ázsiai teve',
         'Baktriai teve'
     ],
     '🦙': [
         'Láma',
         ':llama:',
-        'Alpaca'
+        'Alpaka'
     ],
     '🦒': [
         'Zsiráf',
         ':giraffe:',
-        'Giraffe Face'
+        'Zsiráffej'
     ],
     '🐘': [
         'Elefánt',
@@ -2814,50 +2814,50 @@ emojis_language[lang][4] = {
     '🦏': [
         'Orrszarvú',
         ':rhinoceros:',
-        'Rhino'
+        'Rinocérosz'
     ],
     '🦛': [
         'Víziló',
         ':hippopotamus:',
-        'Hippo'
+        'Víziló'
     ],
     '🐭': [
         'Egérfej',
         ':mouse_face:',
-        'Mouse'
+        'Egér'
     ],
     '🐁': [
         'Egér',
         ':mouse:',
-        'Dormouse',
-        'Rodent',
-        'Mice'
+        'Házi egér',
+        'Rágcsáló',
+        'Egerek'
     ],
     '🐀': [
         'Patkány',
         ':rat:',
-        'Rodent'
+        'Rágcsáló'
     ],
     '🐹': [
         'Hörcsög',
         ':hamster:',
-        'Hamster Face'
+        'Hörcsögfej'
     ],
     '🐰': [
         'Nyúlfej',
         ':rabbit_face:',
-        'Easter Bunny'
+        'Húsvéti nyúl'
     ],
     '🐇': [
         'Nyúl',
         'Nyuszi',
         ':rabbit:',
-        'Bunny Rabbit'
+        'Tapsi füles'
     ],
     '🐿️': [
         'Mókus',
         ':chipmunk:',
-        'Squirrel'
+        'Mókus'
     ],
     '🦔': [
         'Sündisznó',
@@ -2872,24 +2872,24 @@ emojis_language[lang][4] = {
     '🐻': [
         'Medve',
         ':bear:',
-        'Bear Face',
-        'Teddy Bear',
+        'Medvefej',
+        'Plüssmackó',
         ':brown:'
     ],
     '🐨': [
         'Koala',
         ':koala:',
-        'Koala Face'
+        'Koalafej'
     ],
     '🐼': [
         'Panda',
         ':panda:',
-        'Panda Face'
+        'Pandafej'
     ],
     '🦘': [
         'Kenguru',
         ':kangaroo:',
-        'Roo'
+        'Kenguru'
     ],
     '🦡': [
         'Borz',
@@ -2898,38 +2898,38 @@ emojis_language[lang][4] = {
     '🦃': [
         'Pulyka',
         ':turkey:',
-        'Thanksgiving Turkey',
-        'Wild Turkey'
+        'Hálaadás napi pulyka',
+        'Vad pulyka'
     ],
     '🐔': [
         'Csirke',
         ':chicken:',
-        'Hen'
+        'Tyúk'
     ],
     '🐓': [
         'Kakas',
         ':cock:',
-        'Rooster',
-        'Cockerel'
+        'Kakas',
+        'Kakas'
     ],
     '🐣': [
         'Kikelő csibe',
         ':hatching_chick:',
-        'Baby Chicken',
-        'Chick Hatching',
+        'Csibe',
+        'Kikelő csibe',
         ':yellow:'
     ],
     '🐤': [
         'Csibe',
         ':baby_chick:',
-        'Yellow Bird',
+        'Sárga madár',
         ':yellow:'
     ],
     '🐥': [
         'Szembe néző csibe',
         ':front_baby_chick:',
-        'Baby Chick',
-        'Standing Chick',
+        'Csibe',
+        'Álló csibe',
         ':yellow:'
     ],
     '🐦': [
@@ -2943,13 +2943,13 @@ emojis_language[lang][4] = {
     '🕊️': [
         'Galamb',
         ':Dove:',
-        'Dove of Peace',
+        'Békegalamb',
         ':white:'
     ],
     '🦅': [
         'Sas',
         ':Eagle:',
-        'Bald Eagle'
+        'Kopasz sas'
     ],
     '🦆': [
         'Kacsa',
@@ -2976,21 +2976,21 @@ emojis_language[lang][4] = {
     '🐸': [
         'Béka',
         ':frog:',
-        'Toad',
-        'Frog Face',
+        'Varangy',
+        'Békafej',
         ':green:'
     ],
     '🐊': [
         'Krokodil',
         ':crocodile:',
         'Alligátor',
-        'Croc',
+        'Kroki',
         ':green:'
     ],
     '🐢': [
         'Teknős',
         ':turtle:',
-        'Tortoise',
+        'Teknősbéka',
         ':green:'
     ],
     '🦎': [
@@ -3002,12 +3002,12 @@ emojis_language[lang][4] = {
     '🐍': [
         'Kígyó',
         ':snake:',
-        'Serpent'
+        'Kígyó'
     ],
     '🐲': [
         'Sárkányfej',
         ':dragon_face:',
-        'Dragon Head'
+        'Sárkányfej'
     ],
     '🐉': [
         'Sárkány',
@@ -3018,7 +3018,7 @@ emojis_language[lang][4] = {
         ':sauropod:',
         'Brachioszaurusz',
         'Brontoszaurusz',
-        'Dinosaur'
+        'Dinoszaurusz'
     ],
     '🦖': [
         'T-rex',
@@ -3029,7 +3029,7 @@ emojis_language[lang][4] = {
     '🐳': [
         'Fröcskölő bálna',
         ':spouting_whale:',
-        'Cute Whale'
+        'Cuki bálna'
     ],
     '🐋': [
         'Bálna',
@@ -3042,24 +3042,24 @@ emojis_language[lang][4] = {
     '🐟': [
         'Hal',
         ':fish:',
-        'Freshwater Fish'
+        'Édesvízi hal'
     ],
     '🐠': [
         'Trópusi hal',
         ':tropical_fish:',
-        'Fish',
-        'Yellow-Blue Fish'
+        'Hal',
+        'Sárga-kék hal'
     ],
     '🐡': [
         'Gömbhal',
         ':blowfish:',
         'Fugu',
-        'Pufferfish'
+        'Gömbhal'
     ],
     '🦈': [
         'Cápa',
         ':shark:',
-        'Great White Shark'
+        'Nagy fehér cápa'
     ],
     '🐙': [
         'Polip',
@@ -3068,14 +3068,14 @@ emojis_language[lang][4] = {
     '🐚': [
         'Csigahéj',
         ':spiral_shell:',
-        'Seashell',
-        'Shell'
+        'Kagylóhéj',
+        'Kagyló'
     ],
     '🐌': [
         'Csiga',
         ':snail:',
-        'Slug',
-        'Garden Snail'
+        'Csiga',
+        'Éti csiga'
     ],
     '🦋': [
         'Lepke',
@@ -3084,34 +3084,34 @@ emojis_language[lang][4] = {
     '🐛': [
         'Bogár',
         ':bug:',
-        'Caterpillar',
-        'Insect'
+        'Hernyó',
+        'Rovar'
     ],
     '🐜': [
         'Hangya',
         ':ant:',
-        'Bug',
-        'Insect'
+        'Bogár',
+        'Rovar'
     ],
     '🐝': [
         'Háziméh',
         ':honeybee:',
-        'Bee',
-        'Bumblebee',
+        'Méh',
+        'Poszméh',
         ':yellow:',
         ':black:'
     ],
     '🐞': [
         'Katicabogár',
         ':lady_beetle:',
-        'Ladybird',
-        'Ladybug',
-        'Bug'
+        'Katica',
+        'Katicabogár',
+        'Bogár'
     ],
     '🦗': [
         'Tücsök',
         ':cricket:',
-        'Grasshopper'
+        'Szöcske'
     ],
     '🕷️': [
         'Pók',
@@ -3138,7 +3138,7 @@ emojis_language[lang][4] = {
     '🦐': [
         'Garnélarák',
         ':shrimp:',
-        'Prawn'
+        'Garnélarák'
     ],
     '🦑': [
         'Tintahal',
@@ -3210,13 +3210,13 @@ emojis_language[lang][4] = {
         'Empty Nest',
         ':empty_nest:',
         'Birds',
-        'Home'
+        'Főoldal'
     ],
     '🪺': [
         'Nest with Eggs',
         ':nest_with_eggs:',
         'Birds',
-        'Home'
+        'Főoldal'
     ]
 };
 /*symbols*/
@@ -3232,7 +3232,7 @@ emojis_language[lang][5] = {
         'Heart with Ribbon',
         ':heart_with_ribbon:',
         'Chocolate Box',
-        'Gift Box',
+        'Ajándék doboz',
         'Gift Heart',
         ':red:'
     ],
@@ -3451,23 +3451,23 @@ emojis_language[lang][5] = {
     '🎶': [
         'Hangjegyek',
         ':musical_notes:',
-        'Music',
-        'Music Notes',
-        'Singing',
-        'Multiple Musical Notes'
+        'Zene',
+        'Zenei hangok',
+        'Éneklés',
+        'Több hangjegy'
     ],
     '🔔': [
         'Harang',
         ':bell:',
         'Liberty Bell',
-        'Ringer',
+        'Csengő',
         'Wedding Bell',
         ':yellow:'
     ],
     '🔕': [
         'Bell with Slash',
         ':bell_with_slash:',
-        'Notifications',
+        'Értesítések',
         'Ringer Disabled',
         'Muted Bell',
         'Bell with Cancellation Stroke',
@@ -3515,7 +3515,7 @@ emojis_language[lang][5] = {
         ':prohibited:',
         'Banned',
         'Circle Backslash',
-        'No',
+        'Nem',
         'Red Circle Crossed',
         'Restricted',
         'No Entry Sign',
@@ -3830,92 +3830,92 @@ emojis_language[lang][5] = {
         'Kos',
         ':aries:',
         ':zodiac:',
-        'Zodiac',
+        'Horoszkóp',
         ':purple:'
     ],
     '♉': [
         'Bika',
         ':taurus:',
         ':zodiac:',
-        'Zodiac',
+        'Horoszkóp',
         ':purple:'
     ],
     '♊': [
         'Ikrek',
         ':gemini:',
         ':zodiac:',
-        'Zodiac',
+        'Horoszkóp',
         ':purple:'
     ],
     '♋': [
         'Rák',
         ':cancer:',
         ':zodiac:',
-        'Zodiac',
+        'Horoszkóp',
         ':purple:'
     ],
     '♌': [
         'Oroszlán',
         ':leo:',
         ':zodiac:',
-        'Zodiac',
+        'Horoszkóp',
         ':purple:'
     ],
     '♍': [
         'Szűz',
         ':virgo:',
         ':zodiac:',
-        'Zodiac',
+        'Horoszkóp',
         ':purple:'
     ],
     '♎': [
         'Mérleg',
         ':libra:',
         ':zodiac:',
-        'Zodiac',
+        'Horoszkóp',
         ':purple:'
     ],
     '♏': [
         'Skorpió',
         ':scorpio:',
         ':zodiac:',
-        'Scorpius',
-        'Zodiac',
+        'Skorpió',
+        'Horoszkóp',
         ':purple:'
     ],
     '♐': [
         'Nyilas',
         ':sagittarius:',
         ':zodiac:',
-        'Zodiac',
+        'Horoszkóp',
         ':purple:'
     ],
     '♑': [
         'Bak',
         ':capricorn:',
         ':zodiac:',
-        'Zodiac',
+        'Horoszkóp',
         ':purple:'
     ],
     '♒': [
         'Vízöntő',
         ':aquarius:',
         ':zodiac:',
-        'Zodiac',
+        'Horoszkóp',
         ':purple:'
     ],
     '♓': [
         'Halak',
         ':pisces:',
         ':zodiac:',
-        'Zodiac',
+        'Horoszkóp',
         ':purple:'
     ],
     '⛎': [
         'Kígyótartó',
         ':ophiuchus:',
         ':zodiac:',
-        'Zodiac',
+        'Horoszkóp',
         ':purple:'
     ],
     '⏭️': [
@@ -4176,7 +4176,7 @@ emojis_language[lang][5] = {
     '❌': [
         'Cross Mark',
         ':cross_mark:',
-        'Cross',
+        'Kereszt',
         'X',
         ':red:'
     ],
@@ -4193,7 +4193,7 @@ emojis_language[lang][5] = {
     '❎': [
         'Cross Mark Button',
         ':cross_mark_button:',
-        'Cross',
+        'Kereszt',
         'X',
         'X Mark',
         'Negative Squared Cross Mark',
@@ -4303,7 +4303,7 @@ emojis_language[lang][5] = {
     '🔣': [
         'Input Symbol for Symbols',
         ':input_symbols:',
-        'Symbols',
+        'Szimbólumok',
         'Symbol Input',
         ':blue:'
     ],
@@ -4321,7 +4321,7 @@ emojis_language[lang][5] = {
         'A Button (Blood Type)',
         ':a_blood:',
         'Blood Type A',
-        'Letter A',
+        'A betű',
         'Negative Squared Latin Capital Letter A',
         ':red:'
     ],
@@ -4336,7 +4336,7 @@ emojis_language[lang][5] = {
     '🅱️': [
         'B Button (Blood Type)',
         ':b_blood:',
-        'Letter B',
+        'B betű',
         'Blood Type B',
         'Negative Squared Latin Capital Letter B',
         ':red:'
@@ -4370,7 +4370,7 @@ emojis_language[lang][5] = {
     'ℹ️': [
         'Information',
         ':info_button:',
-        'Info',
+        'Információ',
         'Lowercase I',
         'Tourist Information',
         'Information Source',
@@ -4399,7 +4399,7 @@ emojis_language[lang][5] = {
         'Blood Type O',
         '0',
         'Negative Squared Latin Capital Letter',
-        'Letter O',
+        'O betű',
         ':red:'
     ],
     '🆗': [
@@ -4418,7 +4418,7 @@ emojis_language[lang][5] = {
         ':parking_sign:',
         'Parking Sign',
         'Negative Squared Latin Capital Letter',
-        'Letter P',
+        'P betű',
         ':blue:'
     ],
     '🆘': [
@@ -4429,7 +4429,7 @@ emojis_language[lang][5] = {
         'SOS',
         'SOS Sign',
         'Squared SOS',
-        'Help',
+        'Súgó',
         ':red:'
     ],
     '🆙': [
@@ -4699,163 +4699,163 @@ emojis_language[lang][5] = {
         'A betű',
         ':letter_a:',
         ':a:',
-        'Regional Indicator Symbol Letter A'
+        'A betű szimbóluma'
     ],
     '🇧': [
         'B betű',
         ':letter_b:',
         ':b:',
-        'Regional Indicator Symbol Letter B'
+        'B betű szimbóluma'
     ],
     '🇨': [
         'C betű',
         ':letter_c:',
         ':c:',
-        'Regional Indicator Symbol Letter C'
+        'C betű szimbóluma'
     ],
     '🇩': [
         'D betű',
         ':letter_d:',
         ':d:',
-        'Regional Indicator Symbol Letter D'
+        'D betű szimbóluma'
     ],
     '🇪': [
         'E betű',
         ':letter_e:',
         ':e:',
-        'Regional Indicator Symbol Letter E'
+        'E betű szimbóluma'
     ],
     '🇫': [
         'F betű',
         ':letter_f:',
         ':f:',
-        'Regional Indicator Symbol Letter F'
+        'F betű szimbóluma'
     ],
     '🇬': [
         'G betű',
         ':letter_g:',
         ':g:',
-        'Regional Indicator Symbol Letter G'
+        'G betű szimbóluma'
     ],
     '🇭': [
         'H betű',
         ':letter_h:',
         ':h:',
-        'Regional Indicator Symbol Letter H'
+        'H betű szimbóluma'
     ],
     '🇮': [
         'I betű',
         ':letter_i:',
         ':i:',
-        'Regional Indicator Symbol Letter I'
+        'I betű szimbóluma'
     ],
     '🇯': [
         'J betű',
         ':letter_j:',
         ':j:',
-        'Regional Indicator Symbol Letter J'
+        'J betű szimbóluma'
     ],
     '🇰': [
         'K betű',
         ':letter_k:',
         ':k:',
-        'Regional Indicator Symbol Letter K'
+        'K betű szimbóluma'
     ],
     '🇱': [
         'L betű',
         ':letter_l:',
         ':l:',
-        'Regional Indicator Symbol Letter L'
+        'L betű szimbóluma'
     ],
     '🇲': [
         'M betű',
         ':letter_m:',
         ':m:',
-        'Regional Indicator Symbol Letter M'
+        'M betű szimbóluma'
     ],
     '🇳': [
         'N betű',
         ':letter_n:',
         ':n:',
-        'Regional Indicator Symbol Letter N'
+        'N betű szimbóluma'
     ],
     '🇴': [
         'O betű',
         ':letter_o:',
         ':o:',
-        'Regional Indicator Symbol Letter O'
+        'O betű szimbóluma'
     ],
     '🇵': [
         'P betű',
         ':letter_p:',
         ':p:',
-        'Regional Indicator Symbol Letter P'
+        'P betű szimbóluma'
     ],
     '🇶': [
         'Q betű',
         ':letter_q:',
         ':q:',
-        'Regional Indicator Symbol Letter Q'
+        'Q betű szimbóluma'
     ],
     '🇷': [
         'R betű',
         ':letter_r:',
         ':r:',
-        'Regional Indicator Symbol Letter R'
+        'R betű szimbóluma'
     ],
     '🇸': [
         'S betű',
         ':letter_s:',
         ':s:',
-        'Regional Indicator Symbol Letter S'
+        'S betű szimbóluma'
     ],
     '🇹': [
         'T betű',
         ':letter_t:',
         ':t:',
-        'Regional Indicator Symbol Letter T'
+        'T betű szimbóluma'
     ],
     '🇺': [
         'U betű',
         ':letter_u:',
         ':u:',
-        'Regional Indicator Symbol Letter U'
+        'U betű szimbóluma'
     ],
     '🇻': [
         'V betű',
         ':letter_v:',
         ':v:',
-        'Regional Indicator Symbol Letter V'
+        'V betű szimbóluma'
     ],
     '🇼': [
         'W betű',
         ':letter_w:',
         ':w:',
-        'Regional Indicator Symbol Letter W'
+        'W betű szimbóluma'
     ],
     '🇽': [
         'X betű',
         ':letter_x:',
         ':x:',
-        'Regional Indicator Symbol Letter X'
+        'X betű szimbóluma'
     ],
     '🇾': [
         'Y betű',
         ':letter_y:',
         ':y:',
-        'Regional Indicator Symbol Letter Y'
+        'Y betű szimbóluma'
     ],
     '🇿': [
         'Z betű',
         ':letter_z:',
         ':z:',
-        'Regional Indicator Symbol Letter Z'
+        'Z betű szimbóluma'
     ],
     '💌': [
         'Szerelmes levél',
         ':love_letter:',
-        'Heart Envelope',
-        'Love Note'
+        'Levél szívecskével',
+        'Szerelmes üzenet'
     ],
     '🚮': [
         'Put Litter in Its Place Symbol',
@@ -4927,14 +4927,14 @@ emojis_language[lang][5] = {
     '🔅': [
         'Alacsony fényerő szimbólum',
         ':low_brightness_symbol:',
-        'Dim Button',
-        'Decrease Brightness'
+        'Sötétítés gomb',
+        'Fényerő csökkentése'
     ],
     '🔆': [
         'Nagy fényerősség szimbólum',
         ':high_brightness_symbol:',
-        'Increase Brightness',
-        'Bright Button'
+        'Fényerő növelése',
+        'Fényerő gomb'
     ],
     '📳': [
         'Vibration Mode',
@@ -5030,7 +5030,7 @@ emojis_language[lang][5] = {
         'Circled M',
         'Circled Latin Capital Letter M',
         ':circled_m:',
-        'Metro',
+        'Metró',
         ':blue:'
     ],
     '🈁': [
@@ -11549,7 +11549,7 @@ emojis_language[lang][13] = {
         ':blue:'
     ],
     '🧸': [
-        'Teddy Bear',
+        'Plüssmackó',
         ':teddy_bear:',
         'Toy',
         ':brown:'

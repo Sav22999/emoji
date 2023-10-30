@@ -2,20 +2,20 @@
 lang = 'hr';
 //use i18n language code of the browser, more details: https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/i18n/LanguageCode
 titles_language[lang] = {
-    '🔍': 'Results',
-    '🕒': 'Most used emojis',
-    '😀': 'Smileys',
-    '🙋': 'People',
-    '🦊': 'Animals',
-    '🅰️': 'Symbols',
-    '🍎': 'Food and drinks',
-    '🏳️‍🌈': 'Flags',
-    '🏊': 'Sports',
-    '✈️': 'Travel and places',
-    '🖱️': 'Technologies and office',
-    '👗': 'Clothes and accessories',
-    '🖐️': 'Hands and parts of body',
-    '🛎️': 'Other'
+    '🔍': 'Rezultati',
+    '🕒': 'Najkorišteniji emojiji',
+    '😀': 'Smješkići',
+    '🙋': 'Ljudi',
+    '🦊': 'Životinje',
+    '🅰️': 'Simboli',
+    '🍎': 'Hrana i piće',
+    '🏳️‍🌈': 'Zastave',
+    '🏊': 'Sportovi',
+    '✈️': 'Putovanja i mjesta',
+    '🖱️': 'Tehnologija i ured',
+    '👗': 'Odjeća i dodaci',
+    '🖐️': 'Ruke i dijelovi tijela',
+    '🛎️': 'Ostalo'
 };
 emojis_language[lang] = [];
 /*search*/
@@ -3515,7 +3515,7 @@ emojis_language[lang][5] = {
         ':prohibited:',
         'Banned',
         'Circle Backslash',
-        'No',
+        'Ne',
         'Red Circle Crossed',
         'Restricted',
         'No Entry Sign',

@@ -131,13 +131,13 @@ emojis_language[lang][2] = {
     ],
     '😍': [
         'Cara sonriente con Ojos Corazones',
-        'love',
+        'amor',
         ':smiling_heart-eyes:',
         ':smiling_heart_eyes:',
         ':*.*:',
-        'Heart Eyes',
-        'Heart Face',
-        'Smiling Face with Heart-Shaped Eyes'
+        'Ojos del Corazón',
+        'Cara del Corazón',
+        'Cara sonriente con Ojos con Forma del Corazón'
     ],
     '🤩': [
         'Estrella',
@@ -151,24 +151,24 @@ emojis_language[lang][2] = {
     ],
     '😘': [
         'Golpear a un beso',
-        'love',
+        'amor',
         ':kissing_face:',
         '::*:',
         '::-*:',
-        'Blow A Kiss',
-        'Blowing Kiss',
-        'Kissing',
-        'Face Throwing a Kiss'
+        'Golpear a un beso',
+        'Beso Explosivo',
+        'Beso',
+        'Lanzamiento facial de un beso'
     ],
     '😗': [
         'Cara besadora',
-        'kiss',
+        'beso',
         ':kissing_face:',
         '::*:',
         '::-*:',
-        'Duck Face',
+        'Cara de Pato',
         'Kissy Face',
-        'Whistling'
+        'Silbar'
     ],
     '☺️': [
         'Cara sonriente',
@@ -282,14 +282,14 @@ emojis_language[lang][2] = {
     ],
     '🤐': [
         'Zip',
-        'silent',
-        'silence',
+        'silenciar',
+        'silencio',
         ':zip_face:',
-        'Zipper-Mouth Face',
-        'Lips Sealed',
-        'Sealed Lips',
-        'Zip It',
-        'Face With a Zipper Mouth'
+        'Cara zipper-Mouth',
+        'Labios sellados',
+        'Labios sellados',
+        'Zip',
+        'Cara con una boca Zipper'
     ],
     '🤨': [
         'Cara con Ceja Aumentada',
@@ -398,18 +398,18 @@ emojis_language[lang][2] = {
     ],
     '🥱': [
         'Cara de Yawning',
-        'tired',
+        'cansado',
         ':yawning_face:'
     ],
     '😷': [
         'Cara con máscara médica',
-        'sick',
+        'enfermo',
         'doc',
         ':face_with_medical_mask:',
         'Coronavirus',
         'COVID-19',
-        'Mask Face',
-        'Surgical Mask',
+        'Cara de máscara',
+        'Máscara quirúrgica',
         'ill'
     ],
     '🤒': [
@@ -423,43 +423,43 @@ emojis_language[lang][2] = {
     '🤕': [
         'Cara con la lanza de cabeza',
         'hospital',
-        'sick',
+        'enfermo',
         ':face_with_head-bandage:',
         ':face_with_head_bandage:',
-        'Bandaged Head',
-        'Clumsy',
-        'Injured',
+        'Cabeza abanderada',
+        'Torpeza',
+        'Heridos',
         'ill'
     ],
     '🤢': [
         'Cara Nauseada',
-        'sick',
+        'enfermo',
         ':nauseated_face:',
-        'Disgust',
-        'Green Face',
-        'Vomit',
+        'Disgusto',
+        'Cara verde',
+        'Vómito',
         ':green:',
         'ill'
     ],
     '🤮': [
         'Vómito facial',
-        'sick',
+        'enfermo',
         ':face_vomiting:',
-        'Spew',
+        'Lanzar',
         'Bleah',
         'Bleurgh',
-        'Yuk',
+        'Yuku',
         'Yuck',
-        'Ew',
-        'Spew',
-        'Throwing Up',
-        'Vomit',
-        'Face with Open Mouth Vomiting',
+        'Ed',
+        'Lanzar',
+        'Arrojar',
+        'Vómito',
+        'Cara con Vómito de boca abierta',
         'ill'
     ],
     '🤧': [
         'Cara estornudante',
-        'sick',
+        'enfermo',
         ':sneezing_face:',
         'Gesundheit',
         'ill'
@@ -492,10 +492,10 @@ emojis_language[lang][2] = {
     ],
     '🤯': [
         'Cabeza Explotadora',
-        'boom',
+        'auge',
         ':exploding_head:',
-        'Mind Blown',
-        'Shocked Face with Exploding Head'
+        'Golpe mental',
+        'Cara impactada con la cabeza explotadora'
     ],
     '🤠': [
         'Sombrero oscuro cara',
@@ -699,10 +699,10 @@ emojis_language[lang][2] = {
         'Cara de Pouting',
         'fuck',
         ':pouting_face:',
-        'Angry Face',
-        'Grumpy Face',
-        'Mad Face',
-        'Red Face',
+        'Cara enojada',
+        'Cara Grumple',
+        'Cara loca',
+        'Cara Roja',
         ':red:'
     ],
     '😠': [
@@ -716,12 +716,12 @@ emojis_language[lang][2] = {
         'fuck',
         ':swearing:',
         '@#$%&!',
-        'Face with Symbols on Mouth',
-        'Cursing',
-        'Cussing',
+        'Cara con los Symbols en boca',
+        'Cursiva',
+        'Custodia',
         'Grawlix',
-        'Face With Symbols Over Mouth',
-        'Serious Face with Symbols Covering Mouth',
+        'Cara con los Symbols sobre la boca',
+        'Cara seria con Symbols cubriendo la boca',
         ':red:'
     ],
     '🥲': [
@@ -739,12 +739,12 @@ emojis_language[lang][2] = {
         'Dizzy Face'
     ],
     '😶‍🌫️': [
-        'Face in Clouds',
-        'smoke',
+        'Cara en nubes',
+        'humo',
         ':face_in_clouds:',
         'Brain Fog',
-        'Forgetful',
-        'Haze'
+        'Olvidado',
+        'Peluche'
     ],
     '🥸': [
         'Cara disfrazada',
@@ -2459,21 +2459,21 @@ emojis_language[lang][3] = {
     ],
     '🛌{{skin_tone}}': [
         'Alojamiento dormido',
-        'tired',
+        'cansado',
         ':sleeping_accommodation:',
-        'Person in Bed',
-        'Person Sleeping'
+        'Persona en la cama',
+        'Suspensión de la persona'
     ],
     '🛀{{skin_tone}}': [
-        'Person Taking Bath',
-        'Bathing',
+        'Persona tomando baño',
+        'Baño',
         ':bath:',
         ':person_taking_bath:',
-        'Hot Bath',
-        'Person Taking a Bath',
-        'Bath',
-        'Shower',
-        'Soap'
+        'Baño caliente',
+        'Persona tomando un baño',
+        'Baño',
+        'Mostrar',
+        'Jabón'
     ],
     '🧌': [
         'Troll',
@@ -3294,15 +3294,15 @@ emojis_language[lang][5] = {
         ':red:'
     ],
     '❤️‍🩹': [
-        'Mending Heart',
+        'Corazón reparador',
         ':mending_heart:',
-        'Bandaged Heart',
-        'Healing Heart',
-        'Unbroken Heart',
+        'Corazón Bandido',
+        'Corazón de curación',
+        'Corazón sin romper',
         ':red:'
     ],
     '❤️‍🔥': [
-        'Heart on Fire',
+        'Corazón por fuego',
         ':heart_on_fire:',
         ':red:'
     ],
@@ -10347,7 +10347,7 @@ emojis_language[lang][13] = {
     '🪓': [
         'Hacha',
         ':axe:',
-        'firefighter'
+        'bombero'
     ],
     '🪚': [
         'Aviso de carpintería',
@@ -10453,8 +10453,8 @@ emojis_language[lang][13] = {
         'Prueba de sangre',
         'Aguja',
         'Vinculación',
-        'blood',
-        'sick',
+        'sangre',
+        'enfermo',
         'ill'
     ],
     '🧬': [
@@ -10811,7 +10811,7 @@ emojis_language[lang][13] = {
     '💣': [
         'Bomba',
         ':bomb:',
-        'boom'
+        'auge'
     ],
     '🔪': [
         'Cuchillo de Kitchen',
@@ -11171,7 +11171,7 @@ emojis_language[lang][13] = {
         ':white:'
     ],
     '🗨️': [
-        'Left Speech Bubble',
+        'Burbuja de voz izquierda',
         ':left_speech_bubble:',
         ':speech_left:'
     ],
@@ -11181,7 +11181,7 @@ emojis_language[lang][13] = {
         'Cápsula',
         'Tablet',
         'Drogas',
-        'Sick',
+        'enfermo',
         'ill',
         ':yellow:',
         ':red:'
@@ -11312,9 +11312,9 @@ emojis_language[lang][13] = {
         ':shopping_bags:'
     ],
     '🛒': [
-        'Shopping Cart',
+        'Carrito de compras',
         ':shopping_cart:',
-        'Shopping Trolley',
+        'Carroza de compras',
         ':shopping_trolley:',
         ':gray:',
         ':grey:'
