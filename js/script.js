@@ -105,16 +105,16 @@ function checkEmojis() {
             }
         }
 
-        console.log(myEmojis);
-        console.log(emojisToCheck);
+        //console.log(myEmojis);
+        //console.log(emojisToCheck);
 
-        for(let e in emojisToCheck) {
-            if(!myEmojis.includes(emojisToCheck[e])) {
+        for (let e in emojisToCheck) {
+            if (!myEmojis.includes(emojisToCheck[e])) {
                 emojisToAdd.push(emojisToCheck[e]);
             }
         }
 
-        console.log(emojisToAdd);
+        //console.log(emojisToAdd);
 
         checked = true;
     }
@@ -145,7 +145,7 @@ const searchBoxElement = document.getElementById("search-box");
 const deleteButtonElement = document.getElementById("delete-button");
 
 setLanguageFile();
-loadSettings(true);
+loadSettings(true, true);
 generateTitles();
 
 function loaded() {
@@ -188,6 +188,10 @@ function loaded() {
 
     let shortcuts = browserAgentSettings.commands.getAll();
     shortcuts.then(getCurrentShortcuts);
+
+    setTimeout(function () {
+        focusSearchBox();
+    }, 100);
 }
 
 function getCurrentShortcuts(commands) {
@@ -1641,7 +1645,7 @@ function loadSettings(resize_popup_ui = false, focus_search_box = false) {
     let jsonSettings = jsonSettingsDefaultValue;
     let nameOfSetting = "settings";
 
-    browserAgentSettings.storage.sync.get(nameOfSetting, function (value) {
+    browserAgentSettings.storage.sync.get(nameOfSetting).then(value => {
         if (value[nameOfSetting] != undefined) {
             jsonSettings = value[nameOfSetting];
             current_json_settings = jsonSettings;
@@ -1741,10 +1745,7 @@ function loadSettings(resize_popup_ui = false, focus_search_box = false) {
             resetAndSetTitle();
             generateEmojis(1);
         }
-
-        if (focus_search_box) {
-            focusSearchBox();
-        }
+        focusSearchBox();
     });
 }
 
@@ -2068,7 +2069,7 @@ function setLanguageFile() {
     all_emojis = emojis.slice();
     setSkinToneEmojis();
 
-    checkEmojis();
+    checkEmojis(); //TODO!for-test-only
 }
 
 function setLanguageUI() {
