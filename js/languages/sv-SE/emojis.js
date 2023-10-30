@@ -131,13 +131,13 @@ emojis_language[lang][2] = {
     ],
     '😍': [
         'Leende Ansikte med hjärt-ögon',
-        'love',
+        'kärlek',
         ':smiling_heart-eyes:',
         ':smiling_heart_eyes:',
         ':*.*:',
-        'Heart Eyes',
-        'Heart Face',
-        'Smiling Face with Heart-Shaped Eyes'
+        'Hjärta Ögon',
+        'Hjärta Ansikte',
+        'Leende Ansikte med hjärtformade ögon'
     ],
     '🤩': [
         'Stjärnstöt',
@@ -151,24 +151,24 @@ emojis_language[lang][2] = {
     ],
     '😘': [
         'Ansikte blåser en kyss',
-        'love',
+        'kärlek',
         ':kissing_face:',
         '::*:',
         '::-*:',
-        'Blow A Kiss',
-        'Blowing Kiss',
-        'Kissing',
-        'Face Throwing a Kiss'
+        'Blås en kyss',
+        'Blåsande kyss',
+        'Kyssar',
+        'Ansikte kasta en kyss'
     ],
     '😗': [
         'Kissar ansikte',
-        'kiss',
+        'kyss',
         ':kissing_face:',
         '::*:',
         '::-*:',
-        'Duck Face',
+        'Anka Ansikte',
         'Kissy Face',
-        'Whistling'
+        'Visslande'
     ],
     '☺️': [
         'Leende Ansikte',
@@ -282,14 +282,14 @@ emojis_language[lang][2] = {
     ],
     '🤐': [
         'Postnummer',
-        'silent',
-        'silence',
+        'tyst',
+        'tystnad',
         ':zip_face:',
-        'Zipper-Mouth Face',
-        'Lips Sealed',
-        'Sealed Lips',
-        'Zip It',
-        'Face With a Zipper Mouth'
+        'Blixtlås-mun-ansikte',
+        'Läppar förseglade',
+        'Förseglade Läppar',
+        'Postnummer det',
+        'Ansikte med en dragkedja'
     ],
     '🤨': [
         'Ansikte med Raised Eyebrow',
@@ -398,18 +398,18 @@ emojis_language[lang][2] = {
     ],
     '🥱': [
         'Yawning ansikte',
-        'tired',
+        'trött',
         ':yawning_face:'
     ],
     '😷': [
         'Ansikte med Medical Mask',
-        'sick',
-        'doc',
+        'sjuk',
+        'dokument',
         ':face_with_medical_mask:',
         'Coronavirus',
         'COVID-19',
-        'Mask Face',
-        'Surgical Mask',
+        'Mask Ansikte',
+        'Kirurgisk mask',
         'ill'
     ],
     '🤒': [
@@ -422,44 +422,44 @@ emojis_language[lang][2] = {
     ],
     '🤕': [
         'Ansikte med Huvud-Bandage',
-        'hospital',
-        'sick',
+        'sjukhus',
+        'sjuk',
         ':face_with_head-bandage:',
         ':face_with_head_bandage:',
-        'Bandaged Head',
-        'Clumsy',
-        'Injured',
+        'Bandat Huvud',
+        'Klumpig',
+        'Skadad',
         'ill'
     ],
     '🤢': [
         'Illamående ansikte',
-        'sick',
+        'sjuk',
         ':nauseated_face:',
-        'Disgust',
-        'Green Face',
-        'Vomit',
+        'Avsmak',
+        'Grönt ansikte',
+        'Kräkningar',
         ':green:',
         'ill'
     ],
     '🤮': [
         'Ansikte kräks',
-        'sick',
+        'sjuk',
         ':face_vomiting:',
-        'Spew',
+        'Speg',
         'Bleah',
         'Bleurgh',
         'Yuk',
         'Yuck',
-        'Ew',
-        'Spew',
-        'Throwing Up',
-        'Vomit',
-        'Face with Open Mouth Vomiting',
+        'Åt',
+        'Speg',
+        'Kastar upp',
+        'Kräkningar',
+        'Ansikte med öppen mun kräkningar',
         'ill'
     ],
     '🤧': [
         'Nysningar ansikte',
-        'sick',
+        'sjuk',
         ':sneezing_face:',
         'Gesundheit',
         'ill'
@@ -492,10 +492,10 @@ emojis_language[lang][2] = {
     ],
     '🤯': [
         'Exploderande huvud',
-        'boom',
+        'bom',
         ':exploding_head:',
-        'Mind Blown',
-        'Shocked Face with Exploding Head'
+        'Sinnet blåst',
+        'Chockat ansikte med exploderande huvud'
     ],
     '🤠': [
         'Cowboy Hatt ansikte',
@@ -699,10 +699,10 @@ emojis_language[lang][2] = {
         'Pouting ansikte',
         'fuck',
         ':pouting_face:',
-        'Angry Face',
-        'Grumpy Face',
-        'Mad Face',
-        'Red Face',
+        'Arg Ansikte',
+        'Grumpy ansikte',
+        'Mad ansikte',
+        'Rött Ansikte',
         ':red:'
     ],
     '😠': [
@@ -716,12 +716,12 @@ emojis_language[lang][2] = {
         'fuck',
         ':swearing:',
         '@#$%&!',
-        'Face with Symbols on Mouth',
-        'Cursing',
-        'Cussing',
+        'Ansikte med symboler i munnen',
+        'Förbannad',
+        'Kusslar',
         'Grawlix',
-        'Face With Symbols Over Mouth',
-        'Serious Face with Symbols Covering Mouth',
+        'Ansikte med symboler över munnen',
+        'Allvarligt ansikte med symboler Täckande mun',
         ':red:'
     ],
     '🥲': [
@@ -739,12 +739,12 @@ emojis_language[lang][2] = {
         'Dizzy Face'
     ],
     '😶‍🌫️': [
-        'Face in Clouds',
-        'smoke',
+        'Ansikte i moln',
+        'rök',
         ':face_in_clouds:',
         'Brain Fog',
-        'Forgetful',
-        'Haze'
+        'Glömmande',
+        'Dis'
     ],
     '🥸': [
         'Förklädd yta',
@@ -2459,21 +2459,21 @@ emojis_language[lang][3] = {
     ],
     '🛌{{skin_tone}}': [
         'Övernattning',
-        'tired',
+        'trött',
         ':sleeping_accommodation:',
-        'Person in Bed',
-        'Person Sleeping'
+        'Person i sängen',
+        'Person sovande'
     ],
     '🛀{{skin_tone}}': [
-        'Person Taking Bath',
-        'Bathing',
+        'Person tar bad',
+        'Badplats',
         ':bath:',
         ':person_taking_bath:',
-        'Hot Bath',
-        'Person Taking a Bath',
-        'Bath',
-        'Shower',
-        'Soap'
+        'Hett bad',
+        'Person att ta ett bad',
+        'Badkar',
+        'Dusch',
+        'Tvål'
     ],
     '🧌': [
         'Troll',
@@ -3294,15 +3294,15 @@ emojis_language[lang][5] = {
         ':red:'
     ],
     '❤️‍🩹': [
-        'Mending Heart',
+        'Lagning hjärta',
         ':mending_heart:',
-        'Bandaged Heart',
-        'Healing Heart',
-        'Unbroken Heart',
+        'Bandurerat hjärta',
+        'Helande hjärta',
+        'Obrutet hjärta',
         ':red:'
     ],
     '❤️‍🔥': [
-        'Heart on Fire',
+        'Hjärta på Eld',
         ':heart_on_fire:',
         ':red:'
     ],
@@ -10347,7 +10347,7 @@ emojis_language[lang][13] = {
     '🪓': [
         'Yxa',
         ':axe:',
-        'firefighter'
+        'brandman'
     ],
     '🪚': [
         'Snickarsåg',
@@ -10453,8 +10453,8 @@ emojis_language[lang][13] = {
         'Blodprov',
         'Nål',
         'Vaccination',
-        'blood',
-        'sick',
+        'blod',
+        'sjuk',
         'ill'
     ],
     '🧬': [
@@ -10811,7 +10811,7 @@ emojis_language[lang][13] = {
     '💣': [
         'Bomb',
         ':bomb:',
-        'boom'
+        'bom'
     ],
     '🔪': [
         'Kök kniv',
@@ -11171,7 +11171,7 @@ emojis_language[lang][13] = {
         ':white:'
     ],
     '🗨️': [
-        'Left Speech Bubble',
+        'Vänster talbubbla',
         ':left_speech_bubble:',
         ':speech_left:'
     ],
@@ -11181,7 +11181,7 @@ emojis_language[lang][13] = {
         'Kapsel',
         'Surfplatta',
         'Droger',
-        'Sick',
+        'Sjuk',
         'ill',
         ':yellow:',
         ':red:'
@@ -11312,9 +11312,9 @@ emojis_language[lang][13] = {
         ':shopping_bags:'
     ],
     '🛒': [
-        'Shopping Cart',
+        'Kundvagn',
         ':shopping_cart:',
-        'Shopping Trolley',
+        'Shopping vagn',
         ':shopping_trolley:',
         ':gray:',
         ':grey:'

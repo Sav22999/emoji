@@ -13,6 +13,7 @@ var supported_languages = sortSupportedLanguages({
     "it": "Italian",
     "ar": "Arabic",
     "zh-CN": "Chinese (Simplified)",
+    "zh-TW": "Chinese (Traditional)",
     "cs": "Czech",
     "da": "Danish",
     "nl": "Dutch",

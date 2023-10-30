@@ -2,19 +2,19 @@
 lang = 'zh-TW';
 //use i18n language code of the browser, more details: https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/i18n/LanguageCode
 titles_language[lang] = {
-    '🔍': 'Results',
-    '🕒': 'Most used emojis',
-    '😀': 'Smileys',
+    '🔍': '搜尋結果',
+    '🕒': '最常用的表情符號',
+    '😀': '表情',
     '🙋': '人類',
     '🦊': '動物',
     '🅰️': '符號',
     '🍎': '飲食',
     '🏳️‍🌈': '旗幟',
     '🏊': '運動',
-    '✈️': 'Travel and places',
-    '🖱️': 'Technologies and office',
-    '👗': 'Clothes and accessories',
-    '🖐️': 'Hands and parts of body',
+    '✈️': '旅遊和地標',
+    '🖱️': '科技和辦公',
+    '👗': '服飾和配件',
+    '🖐️': '手和身體部位',
     '🛎️': '其他'
 };
 emojis_language[lang] = [];
@@ -3515,7 +3515,7 @@ emojis_language[lang][5] = {
         ':prohibited:',
         'Banned',
         'Circle Backslash',
-        'No',
+        '否',
         'Red Circle Crossed',
         'Restricted',
         'No Entry Sign',
@@ -4303,7 +4303,7 @@ emojis_language[lang][5] = {
     '🔣': [
         'Input Symbol for Symbols',
         ':input_symbols:',
-        'Symbols',
+        '符號',
         'Symbol Input',
         ':blue:'
     ],

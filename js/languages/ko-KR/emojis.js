@@ -3210,13 +3210,13 @@ emojis_language[lang][4] = {
         'Empty Nest',
         ':empty_nest:',
         'Birds',
-        'Home'
+        '홈'
     ],
     '🪺': [
         'Nest with Eggs',
         ':nest_with_eggs:',
         'Birds',
-        'Home'
+        '홈'
     ]
 };
 /*symbols*/
@@ -3515,7 +3515,7 @@ emojis_language[lang][5] = {
         ':prohibited:',
         'Banned',
         'Circle Backslash',
-        'No',
+        '아니오',
         'Red Circle Crossed',
         'Restricted',
         'No Entry Sign',
@@ -4303,7 +4303,7 @@ emojis_language[lang][5] = {
     '🔣': [
         'Input Symbol for Symbols',
         ':input_symbols:',
-        'Symbols',
+        '기호',
         'Symbol Input',
         ':blue:'
     ],
