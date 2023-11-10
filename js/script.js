@@ -1811,6 +1811,26 @@ function setTheme() {
     removeThemeClassId("emoji-size-big", "-select");
     removeThemeClassId("emoji-size-very-big", "-select");
 
+    let n_elements_button_yes = document.getElementsByClassName("button-yes").length;
+    for (let i = 0; i < n_elements_button_yes; i++) {
+        if (document.getElementsByClassName("button-yes")[i].classList.contains("button-yes-no-dark")) document.getElementsByClassName("button-yes")[i].classList.remove("button-yes-no-dark");
+        if (document.getElementsByClassName("button-yes")[i].classList.contains("button-yes-no-light")) document.getElementsByClassName("button-yes")[i].classList.remove("button-yes-no-light");
+        document.getElementsByClassName("button-yes")[i].classList.add("button-yes-no-" + theme);
+    }
+    let n_elements_button_no = document.getElementsByClassName("button-no").length;
+    for (let i = 0; i < n_elements_button_no; i++) {
+        if (document.getElementsByClassName("button-no")[i].classList.contains("button-yes-no-dark")) document.getElementsByClassName("button-no")[i].classList.remove("button-yes-no-dark");
+        if (document.getElementsByClassName("button-no")[i].classList.contains("button-yes-no-light")) document.getElementsByClassName("button-no")[i].classList.remove("button-yes-no-light");
+        document.getElementsByClassName("button-no")[i].classList.add("button-yes-no-" + theme);
+    }
+
+    let n_elements_emoji_size_button = document.getElementsByClassName("emoji-size-button").length;
+    for (let i = 0; i < n_elements_emoji_size_button; i++) {
+        if (document.getElementsByClassName("emoji-size-button")[i].classList.contains("background-button-dark")) document.getElementsByClassName("emoji-size-button")[i].classList.remove("background-button-dark");
+        if (document.getElementsByClassName("emoji-size-button")[i].classList.contains("background-button-light")) document.getElementsByClassName("emoji-size-button")[i].classList.remove("background-button-light");
+        document.getElementsByClassName("emoji-size-button")[i].classList.add("background-button-" + theme);
+    }
+
     document.getElementById("popup-content").classList.add(theme);
     document.getElementById("emoji-skin-choose").classList.add(theme);
     searchBarInputElement.classList.add(theme + "-search-bar-input");
