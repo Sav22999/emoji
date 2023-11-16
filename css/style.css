@@ -207,15 +207,11 @@ body {
 }
 
 .section-title:hover, .letter:hover {
-    background-color: rgba(221, 222, 223, 0.3);
+    background-color: rgba(221, 222, 223, 0.5);
 }
 
-.section-title:focus {
-    background-color: rgba(231, 232, 233, 0.3);
-}
-
-.section-title:active {
-    background-color: rgba(201, 202, 203, 0.3);
+.section-title:focus, .section-title:active {
+    background-color: rgba(201, 202, 203, 0.5);
 }
 
 
@@ -1123,19 +1119,19 @@ div {
 }
 
 .section-title-selected {
-    background-color: rgba(10, 132, 255, 0.1);
-    border-radius: 5px;
-    border: 0px solid transparent;
-}
-
-.section-title-selected:hover {
     background-color: rgba(10, 132, 255, 0.2);
     border-radius: 5px;
     border: 0px solid transparent;
 }
 
-.section-title-selected:active, .section-title-selected:focus {
+.section-title-selected:hover {
     background-color: rgba(10, 132, 255, 0.3);
+    border-radius: 5px;
+    border: 0px solid transparent;
+}
+
+.section-title-selected:active, .section-title-selected:focus {
+    background-color: rgba(10, 132, 255, 0.45);
     border-radius: 5px;
     border: 0px solid transparent;
 }
