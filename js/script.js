@@ -1302,12 +1302,12 @@ function searchEmoji(value) {
         }
         //generateTitles(true, 0);
         emojisFound = all_emojis[0];
-        if (n_results == 0) {
+        if (n_results === 0) {
             emojisFound = 0;
             //emojisElement.innerHTML = "<div id='no_emojis_found'>" + strings["other"]["label-no-emojis-found"].replaceAll("{{properties}}", "class='font-" + font_family + " margin-right-10 font-size-25'") + "</div>";
         }
     } else {
-        if (this.selectedTitle == 0) {
+        if (this.selectedTitle === 0) {
             //if (valueToCheck.length == 0) generateTitles(false); //clear searchbox
             //else generateTitles(false, 1, false); //don't clear searchbox
         }
@@ -1372,9 +1372,10 @@ function generateRowsSettings(min, max, selected) {
 function generateOptionsSelectSettings(min, max, selected, element) {
     element.textContent = "";
     for (let i = min; i <= max; i++) {
-        let details = "";
-        if (selected == (i - min)) details = " selected";
-        element.innerHTML += "<option" + details + ">" + i + "</option>";
+        let elementToAdd = document.createElement("option");
+        elementToAdd.textContent = i;
+        if (selected == (i - min)) elementToAdd.selected = true;
+        element.appendChild(elementToAdd);
     }
 }
 
