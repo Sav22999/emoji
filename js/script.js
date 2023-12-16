@@ -214,7 +214,9 @@ function copyEmoji(text, tooltip) {
         textToCopyElement.style.display = "none";
         showMessageBottom(strings["other"]["label-copied"], copyText);
 
-        if (insert_directly_emoji === "yes") {
+        //TODO: improve this check in Chromium
+        if (insert_directly_emoji === "yes" && browserOrChromeIndex === 0) {
+            //if enabled AND it's Firefox
             browserAgentSettings.tabs.query({active: true, currentWindow: true}, function (tabs) {
                 requestNumber++;
                 browserAgentSettings.runtime.sendMessage({
@@ -248,10 +250,14 @@ function onError(error) {
 }
 
 function addToMostUsedCopyEmoji(nameOfSetting, emoji, tooltip) {
+    console.log("Adding ... <1>")
     browserAgentSettings.storage.sync.get(nameOfSetting, function (value) {
         if (value[nameOfSetting] != undefined) {
             //already exist, so set the array at saved status
+            console.log("Exists ... <1>")
             mostUsedEmojis = value[nameOfSetting];
+        } else {
+            console.log("NOT exists ... <1>")
         }
         addToMostUsed(emoji, tooltip);
         getMostUsedEmojisLength(selectedTitle);
@@ -282,6 +288,7 @@ function getMostUsedEmojisLength(titleToSet) {
 }
 
 function addToMostUsed(emoji, tooltip, occurrences = 1) {
+    console.log("Adding ... <2>")
     let emojiToAdd = {"emoji": emoji, "occurrences": occurrences, "tooltip": tooltip};
     let indexToUse = -1; // -1: not in the JSON
     for (let tempIndex = 0; tempIndex < mostUsedEmojis.length && indexToUse == -1; tempIndex++) {
