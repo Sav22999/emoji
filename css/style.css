@@ -122,6 +122,7 @@ body {
     transition: 0.1s;
     box-sizing: border-box;
     font-family: inherit;
+    text-align: center;
 }
 
 .emoji {
@@ -204,6 +205,7 @@ body {
     transition: 0.1s;
     border-radius: 5px;
     border: 0px solid transparent;
+    text-align: center;
 }
 
 .section-title:hover, .letter:hover {
