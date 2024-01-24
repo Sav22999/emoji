@@ -1088,8 +1088,30 @@ function showMessageTop(text, releaseNotes = true) {
     text_to_use = text_to_use.replace(/{{emoji}}/g, "<span class='font-" + font_family + " font-size-22 margin-right-5'>");
     text_to_use = text_to_use.replace(/{{\/emoji}}/g, "</span>");
     message_element.innerHTML = "";
-    if (releaseNotes) message_element.innerHTML = "<div id='title-release-notes'>Release notes</div>";
+    if (releaseNotes) {
+        message_element.innerHTML = "<div id='title-release-notes'>Release notes</div>";
+    }
     message_element.innerHTML += text_to_use;
+
+    if (releaseNotes) {
+        let all_links = message_element.querySelectorAll("a");
+        all_links.forEach(link => {
+            let openLink = link.classList.contains("open-link") || (link.href !== null && link.href !== undefined);
+            let closePopup = link.classList.contains("close-popup");
+
+            let url = link.href;
+
+            if (openLink || closePopup) {
+                link.onclick = function () {
+                    if (openLink) browserAgentSettings.tabs.create({url: url});
+
+                    if (closePopup) window.close();
+                };
+            }
+
+            link.removeAttribute("href");
+        });
+    }
 
     let buttons = document.createElement("div");
     buttons.className = "message-buttons-container";
@@ -2032,12 +2054,12 @@ function showNewsInRelease(forced = false) {
     let last_release_saved = "";
     let nameOfSetting = "release_notes";
     browserAgentSettings.storage.sync.get(nameOfSetting, function (value) {
-        if (value[nameOfSetting] != undefined) {
+        if (value[nameOfSetting] !== undefined) {
             last_release_saved = value[nameOfSetting];
         }
         let this_release = releaseNumber;
-        if (last_release_saved != this_release || forced) {
-            if (releaseNotes(this_release) != "") {
+        if (last_release_saved !== this_release || forced) {
+            if (releaseNotes(this_release) !== "") {
                 showMessageTop(releaseNotes(this_release));
             }
         }
