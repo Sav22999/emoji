@@ -27,107 +27,107 @@ emojis_language[lang][2] = {
         ':grinning:',
         ':grinning_face:',
         '::):',
-        'Happy Face',
-        'Smiley Face'
+        'صورت شاد',
+        'صورت لبخند زن'
     ],
     '😃': [
         'صورت پوزخند با چشمانی بزرگ',
         ':smiley:',
         ':grinning_face_with_big_eyes:',
         '::D:',
-        'Happy Face',
-        'Smiley Face',
-        'Smiling Face with Open Mouth'
+        'صورت شاد',
+        'صورت لبخند زن',
+        'صورت خندان با دهان باز'
     ],
     '😄': [
         'صورت پوزخند با چشمانی خندان',
         ':smile:',
         ':grinning_face_with_smiling_eyes:',
-        'Happy Face',
-        'Smiley Face',
-        'Grinning Face With Squinting Eyes',
-        'Smiling Face with Open Mouth and Smiling Eyes'
+        'صورت شاد',
+        'صورت لبخند زن',
+        'صورت پوزخند با چشمانی نیمه بسته',
+        'صورت خندان با دهان باز و چشمانی خندان'
     ],
     '😁': [
         'صورت با چشمانی خندان',
         ':grin:',
         ':beaming_face_with_smiling_eyes:',
-        'Grinning Face with Smiling Eyes'
+        'صورت پوزخند با چشمانی خندان'
     ],
     '😆': [
         'صورت پوزخند با چشمانی نیمه بسته',
         ':grinning_squinting_face:',
         ':xD:',
         ':><:',
-        'Big Grin',
-        'Closed-Eyes Smile',
-        'Laughing',
-        'Grinning Face With Tightly Closed Eyes',
-        'Smiling Face with Open Mouth and Tightly-Closed Eyes'
+        'لبخند بزرگ',
+        'لبخند چشم بسته',
+        'خندیدن',
+        'صورت پوزخند با چشمانی محکم بسته شده',
+        'صورت خندان با دهان باز و چشمانی محکم بسته شده'
     ],
     '😅': [
         'صورت پوزخند عرق کرده',
         ':happy_sweat:',
-        'Exercise',
-        'Happy Sweat',
-        'Grinning Face With Squinting Eyes and Sweat Drop',
-        'Smiling Face with Open Mouth and Cold Sweat'
+        'تمرین',
+        'لبخند عرق کرده',
+        'صورت پوزخند با چشمانی نیمه بسته شده و عرق کرده',
+        'صورت خندان با دهان باز و عرق سرد'
     ],
     '🤣': [
         'ROFL',
         ':rofl:',
-        'Rolling on the Floor Laughing'
+        'از شدت خنده روی زمین پیچ و تاب خوردن'
     ],
     '😂': [
         'صورت با اشک شوق',
         ':lol:',
-        'Laughing',
-        'Laughing Crying',
-        'Laughing Tears',
+        'خندیدن',
+        'گریه از شدت خنده',
+        'اشک شوق',
         'LOL'
     ],
     '🙂': [
         'صورت کمی خندان',
         ':smile:',
         '::):',
-        'Slightly Happy',
-        'This Is Fine'
+        'کمی خوشحال',
+        'این خوبه'
     ],
     '🙃': [
         'صورت برعکس',
         ':upside-down_face:',
         ':upside_down_face:',
-        'Sarcasm',
-        'Silly',
-        'Upside Down Face'
+        'طعنه',
+        'احمقانه',
+        'صورت برعکس'
     ],
     '😉': [
         'صورت چشمک زن',
         ':winking:',
         ':;):',
-        'Wink',
-        'Wink Face',
-        'Winky Face'
+        'چشمک',
+        'صورت چشمک',
+        'صورت چشمک زن'
     ],
     '😊': [
         'صورت خندان با چشمانی خندان',
         ':smiling_face:',
         ':^^:',
-        'Happy Face',
-        'Smile',
-        'Smiley Face'
+        'صورت شاد',
+        'لبخند',
+        'صورت لبخند زن'
     ],
     '😇': [
         'صورت خندان با هاله',
         ':smiling_angel:',
-        'Angel',
-        'Halo'
+        'فرشته',
+        'هاله'
     ],
     '🥰': [
         'صورت خندان با قلب ها',
         ':smiling_hearts:',
-        'In Love Face',
-        'Smiling Face with Smiling Eyes and Three Hearts'
+        'صورت عاشق',
+        'صورت خندان با چشمانی خندان و سه قلب'
     ],
     '😍': [
         'صورت خندان با چشمان قلبی',
@@ -142,12 +142,12 @@ emojis_language[lang][2] = {
     '🤩': [
         'ستاره زده',
         ':star_eyes:',
-        'Excited',
-        'Star Eyes',
-        'Starry Eyed',
-        'Wow Face',
-        'Face With Starry Eyes',
-        'Grinning Face with Star Eyes'
+        'هیجان زده',
+        'چشمان ستاره ای',
+        'چشم ستاره ای',
+        'صورت Wow',
+        'چهره با چشمان ستاره ای',
+        'چهره خندان با چشمان ستاره ای'
     ],
     '😘': [
         'صورت درحال بوسه زدن',
@@ -173,32 +173,32 @@ emojis_language[lang][2] = {
     '☺️': [
         'صورت خندان',
         ':smiling_face:',
-        'Happy Face',
-        'Smiley Face',
-        'Smiling',
-        'White Smiling Face'
+        'صورت شاد',
+        'صورت لبخند زن',
+        'لبخند زدن',
+        'صورت لبخند سفید'
     ],
     '😚': [
         'صورت بوسه زن با چشمانی بسته',
         ':kissing_face:',
-        'Kiss Face',
-        'Kissy Face'
+        'صورت بوسه',
+        'صورت بوسه زن'
     ],
     '😙': [
         'صورت در حال بوسه زدن با چشمانی خندان',
         ':kissing_face:',
-        'Kiss Face',
-        'Kissy',
-        'Whistle',
-        'Whistling'
+        'صورت بوسه',
+        'بوسه ای',
+        'سوت',
+        'سوت زدن'
     ],
     '😋': [
         'صورت غذای خوش طعم',
         ':savoring_face:',
-        'Goofy',
-        'Hungry',
-        'Smiling Face Licking Lips',
-        'Face Savouring Delicious Food',
+        'مسخره',
+        'گرسنه',
+        'صورت خندان درحال لیسیدن لب ها',
+        'صورت درحال چشیدن غذای لذیذ',
         'یام یام'
     ],
     '😛': [
@@ -206,79 +206,79 @@ emojis_language[lang][2] = {
         ':tongue_face:',
         '::P:',
         'پر رو',
-        'Tongue Face',
-        'Tongue-Out',
-        'Face with Stuck-Out Tongue'
+        'صورت زبان',
+        'زبان بیرون آمده',
+        'صورت با زبان بیرون گیر کرده'
     ],
     '😜': [
         'صورت چشمک زن با زبان',
         ':winking:',
         ':;P:',
-        'Crazy',
-        'Crazy Face',
-        'Winking Face With Stuck-Out Tongue',
-        'Face with Stuck-Out Tongue and Winking Eye'
+        'دیوانه',
+        'صورت دیوانه',
+        'صورت چشمک زن با زبان بیرون گیر کرده',
+        'صورت با زبان بیرون گیر کرده و چشم چشمک زن'
     ],
     '🤪': [
         'صورت مسخره',
         ':crazy_face:',
-        'Crazy Eyes',
-        'Excited',
-        'Wild',
-        'Goofy Face',
-        'Grinning Face with One Large and One Small Eye'
+        'صورت دیوانه',
+        'هیجان زده',
+        'وحشی',
+        'صورت مسخره',
+        'صورت پوزخند با یک چشم بزرگ و یک چشم کوچک'
     ],
     '😝': [
         'صورت چشم نیمه باز با زبان',
         ':tongue_face:',
         ':xP:',
-        'Tongue Out',
-        'Face With Stuck Out Tongue and Tightly-Closed Eyes',
-        'Face with Stuck-Out Tongue and Tightly-Closed Eyes'
+        'زبان بیرون آمده',
+        'صورت با زبان بیرون گیر کرده و چشم های محکم بسته شده',
+        'صورت با زبان بیرون گیر کرده و چشم های محکم بسته شده'
     ],
     '🤑': [
         'صورت با دهان پولی',
         ':money-mouth_face:',
         ':money_mouth_face:',
         '::$:',
-        'Dollar Sign Eyes',
-        'Money Face',
-        'Rich'
+        'چشمان علامت دلار',
+        'صورت پول',
+        'پولدار'
     ],
     '🤗': [
         'صورت بغل کردن',
         ':hugging_face:',
-        'Hug',
-        'Hugging',
-        'Hugs',
-        'Happy Face With Hugging Hands'
+        'بغل',
+        'بغل کردن',
+        'آغوش ها',
+        'صورت شاد با دستان درحال بغل کردن'
     ],
     '🤭': [
         'اوه',
         ':oops:',
-        'Face with Hand Over Mouth',
-        'Smiling Face with Smiling Eyes and Hand Covering Mouth'
+        'صورت با دست روی دهان',
+        'صورت لبخندزنان با چشمان لبخندزنان و دست درحال پوشیدن دهان'
     ],
     '🤫': [
         'هیس',
         ':shushing_face:',
-        'Shush',
-        'Shushing Face',
-        'Hush',
-        'Quiet',
-        'Silence',
-        'Silent',
-        'Face with Finger Covering Closed Lips'
+        'سکوت کن',
+        'صورت هیس',
+        'هیسس',
+        'ساکت',
+        'سکوت',
+        'ساکت',
+        'صورت با انگشت پوشاننده لب های بسته'
     ],
     '🤔': [
         'چی',
         ':thinking_face:',
         '?',
-        'Hmm',
-        'Thinking Face',
-        'Chin Thumb',
-        'Thinker',
-        'Throwing Shade'
+        'هومم',
+        'صورت درحال فکر کردن',
+        'انگشت شست روی چانه',
+        'متفکر',
+        'سایه انداختن'
     ],
     '🤐': [
         'زیپ',
@@ -294,107 +294,107 @@ emojis_language[lang][2] = {
     '🤨': [
         'صورت با ابروی بالا زده',
         ':face_with_raised_eyebrow:',
-        'Colbert',
-        'The Rock',
-        'Face With Raised Eyebrow',
-        'Face with One Eyebrow Raised'
+        'کولبرت',
+        'راک',
+        'صورت با ابروی بالا زده',
+        'صورت با یک ابروی بالازده'
     ],
     '😐': [
         'چهره خنثی',
         ':neutral_face:',
         ':|',
-        'Face With Straight Mouth',
-        'Straight Faced'
+        'صورت با دهان صاف',
+        'صورت صاف'
     ],
     '😑': [
         'چهره بی بیان',
         ':expressionless_face:',
         '-_-',
-        'Face With Straight Mouth',
-        'Straight Face'
+        'صورت با دهان صاف',
+        'صورت صاف'
     ],
     '😶': [
         'صورت بدون دهان',
         ':face_without_mouth:',
-        'Blank Face',
-        'Mouthless',
-        'Silence',
-        'Silent'
+        'صورت خالی',
+        'بی دهان',
+        'سکوت',
+        'ساکت'
     ],
     '😏': [
         'چهره پوزخند زنان',
         ':smirking_face:',
-        'Flirting',
-        'Sexual Face',
-        'Smug Face',
-        'Suggestive Smile'
+        'لاس زدن',
+        'صورت سکسی',
+        'چهره از خود راضی',
+        'لبخند وسوسه کننده'
     ],
     '😒': [
         'چهره بی حوصله',
         ':unamused_face:',
-        'Dissatisfied',
-        'Meh',
-        'Side-Eye',
-        'Unimpressed'
+        'ناراضی',
+        'هعی',
+        'چشم کناری',
+        'تحت تاثیر قرار نگرفته'
     ],
     '🙄': [
         'صورت با چشمان چرخان',
         ':face_with_rolling_eye:',
         ':eye_roll:',
-        'Eye Roll'
+        'چرخش چشم'
     ],
     '😬': [
         'صورت پوزخند',
         ':awkward:',
-        'Awkward',
+        'بی دست و پا',
         'Eek',
-        'Foot In Mounth',
-        'Nervous',
-        'Snapchat Mutual #1 Best Friend'
+        'پا در دهان',
+        'مضطرب',
+        'بهترین دوست شماره 1 اسنپ چت متقابل'
     ],
     '🤥': [
         'چهره دروغگو',
         ':lying_face:',
-        'Liar',
-        'Long Nose',
-        'Pinocchio'
+        'دروغ گو',
+        'بینی بلند',
+        'پینوکیو'
     ],
     '😌': [
         'صورت تسکین یافته',
         ':relieved_face:',
-        'Content',
-        'Pleased'
+        'محتوا',
+        'راضی'
     ],
     '😔': [
         'متأسفم',
         ':sad_face:',
-        'Pensive Face',
-        'Pensive',
-        'Sad',
-        'Sadface',
-        'Sorrowful',
-        'Sad Pensive Face'
+        'چهره افسرده',
+        'افسرده',
+        'ناراحت',
+        'چهره ناراحت',
+        'غمگین',
+        'چهره متفکر غمگین'
     ],
     '😪': [
         'صورت خواب آلود',
         ':sleepy_face:',
-        'Side-Tear',
-        'Snot Bubble'
+        'اشک جانبی',
+        'حباب آب بینی'
     ],
     '🤤': [
         'بزاق',
         ':saliva_face:',
-        'Drooling Face',
-        'Drool'
+        'صورت آب دهان',
+        'آب دهان'
     ],
     '😴': [
         'صورت خواب',
         ':sleeping_face:',
         ':zzz:',
-        'Zzz',
-        'Sleep Face',
-        'Snoring',
-        'Zzz Face'
+        'خروپف',
+        'صورت خواب',
+        'خروپف کردن',
+        'صورت خروپف کنان'
     ],
     '🥱': [
         'صورت خمیازه',
@@ -418,7 +418,7 @@ emojis_language[lang][2] = {
         ':sick:',
         ':ill:',
         'Ill',
-        'Sick'
+        'بیمار'
     ],
     '🤕': [
         'صورت با بانداژ سر',
@@ -467,28 +467,28 @@ emojis_language[lang][2] = {
     '🥵': [
         'صورت داغ',
         ':hot_face:',
-        'Overheated Face',
+        'صورت بیش از حد گرم شده',
         ':red:'
     ],
     '🥶': [
         'صورت سرد',
         ':cold_face:',
-        'Cool',
-        'Chill',
-        'Freezing Face',
+        'باحال',
+        'خنک',
+        'صورت یخ زده',
         ':blue:'
     ],
     '🥴': [
         'صورت گیج و منگ',
         ':woozy_face:',
-        'Drunk Face',
-        'Face with Uneven Eyes and Wavy Mouth'
+        'صورت مست',
+        'صورت با چشم های ناهموار و دهان موج دار'
     ],
     '😵': [
         'صورت گیج',
         ':dizzy_face:',
-        'Cross Eyes Face',
-        'Spiral Eyes Face'
+        'صورت چشم های متقاطع',
+        'صورت چشم های مارپیچی'
     ],
     '🤯': [
         'انفجار سر',
@@ -500,27 +500,27 @@ emojis_language[lang][2] = {
     '🤠': [
         'صورت کلاه کابوی',
         ':cowboy_hat_face:',
-        'Cowboy',
-        'Cowboy Face',
-        'Face with Cowboy Hat'
+        'کابوی',
+        'صورت کابوی',
+        'چهره با کلاه کابوی'
     ],
     '🥳': [
         'صورت جشن',
         ':partying_face:',
-        'Party Face',
-        'Face with Party Horn and Party Hat'
+        'صورت جشن',
+        'چهره با فوت فوتک و کلاه مهمانی'
     ],
     '😎': [
         'چهره خندان با عینک آفتابی',
         ':smiling_face_with_sunglasses:',
-        'Cool',
-        'Mutual Best Friends (Snapchat)',
-        'Sunglasses'
+        'باحال',
+        'بهترین دوستان متقابل (اسنپ چت)',
+        'عینک آفتابی'
     ],
     '🤓': [
         'صورت خرخون',
         ':nerd_face:',
-        'Nerdy'
+        'بی عرضه'
     ],
     '🧐': [
         'صورت با مونوکل',
@@ -531,169 +531,176 @@ emojis_language[lang][2] = {
         ':confused_face:',
         '::/:',
         '::S:',
-        'Nonplussed',
-        'Puzzled'
+        'بی حوصله',
+        'متحیر'
     ],
     '😟': [
         'چهره نگران',
         ':worried_face:',
         '::(:',
-        'Sad',
-        'Sadface'
+        'ناراحت',
+        'چهره ناراحت'
     ],
     '🙁': [
         'صورت کمی اخم کرده',
         ':slightly_frowning_face:',
         '::(:',
-        'Slightly Sad'
+        'کمی غمگین'
     ],
     '☹️': [
         'چهره اخم کرده',
         ':frowning_face:',
         '::(:',
-        'Megafrown',
-        'White Frowning Face'
+        'خیلی اخم کردن',
+        'صورت اخم سفید'
     ],
     '😮': [
         'واو',
         ':wow:',
         '::O:',
-        'Oh my!',
-        'Face with Open Mouth',
-        'Open Mouth',
-        'Surprised Face With Open Mouth'
+        'یا خدا!',
+        'چهره با دهان باز',
+        'دهان باز',
+        'صورت متعجب با دهان باز'
     ],
     '😯': [
         'چهره خاموش',
         ':husked_face:',
         '::O:',
-        'Surprise',
-        'Surprised Face'
+        'غافلگیری',
+        'چهره غافلگیر شده'
     ],
     '😲': [
         'چهره شوکه شده',
         ':shocked_face:',
         '::O:',
-        'Wow',
+        'واو',
         'چهره حیرت زده',
-        'Drunk Face',
-        'Gasping Face'
+        'صورت مست',
+        'صورت نفس زنان'
     ],
     '😳': [
         'صورت برافروخته',
         ':flushed_face:',
         '::$:',
-        'Blushing Face',
-        'Embarrassed',
-        'Shame',
-        'Face With Wide Open Eyes'
+        'صورت سرخ شده',
+        'خجالت زده',
+        'شرمنده',
+        'چهره با چشمان کاملا باز'
     ],
     '🥺': [
         'صورت ملتمسانه',
         ':pleading_face:',
         '::(:',
-        'Begging',
-        'Glossy Eyes',
-        'Simp',
-        'Face with Pleading Eyes'
+        'التماس کردن',
+        'چشم های براق',
+        'کصلیس',
+        'چهره ای با چشم های ملتمسانه'
     ],
     '😦': [
         'چهره اخم کرده با دهان باز',
         ':frowning_face_with_open_mouth:',
         ':D::',
-        'Yawning'
+        'خمیازه کشیدن'
+    ],
+    '😧': [
+        'Anguished Face',
+        ':anguished_face:',
+        ':anguished:',
+        ':D::',
+        'Pained Face'
     ],
     '😨': [
         'ترسیده',
         ':scared:',
         ':D::',
-        'Fearful Face',
-        'Surprised'
+        'چهره ترسیده',
+        'شگفت زده'
     ],
     '😰': [
         'چهره مضطرب با عرق',
         ':anxious_face_with_sweat:',
-        'Blue Face',
-        'Concerned Face',
-        'Nervous Face',
-        'Face with Open Mouth and Cold Sweat'
+        'صورت آبی',
+        'چهره نگران',
+        'صورت مضطرب',
+        'صورت با دهان باز و عرق سرد'
     ],
     '😥': [
         'چهره غمگین اما آسوده',
         ':sad_but_relieved_face:',
         '::(:',
-        'Eyebrow Sweat',
-        'Disappointed but Relieved Face'
+        'عرق ابرو',
+        'چهره ناامید اما آسوده'
     ],
     '😢': [
         'صورت گریان',
         ':crying_face:',
         '::(:',
-        'Crying',
-        'Tear'
+        'گریان',
+        'اشک'
     ],
     '😭': [
         'چهره گریان با صدای بلند',
         ':loudly_crying_face:',
-        'Bawling',
-        'Crying',
-        'Sad Tears',
-        'Sobbing'
+        'داد و بیداد کردن',
+        'گریان',
+        'اشک از روی غم',
+        'گریه کردن'
     ],
     '😱': [
         'فریاد چهره از ترس',
         ':face_screaming_in_fear:',
-        'Home Alone',
-        'Scream',
-        'Screaming Face'
+        'تنها در خانه',
+        'جیغ',
+        'صورت فریاد زنان'
     ],
     '😖': [
         'چهره گیج',
         ':confounded_face:',
-        'Quivering Mouth',
-        'Scrunched Face'
+        'دهان لرزان',
+        'صورت به هم فشرده شده'
     ],
     '😣': [
         'چهره ماندگار',
         ':persevering_face:',
-        'Helpless Face',
-        'Scrunched Eyes'
+        'صورت بیچاره',
+        'چشم های به هم فشرده شده'
     ],
     '😞': [
         'چهره ناامید',
         ':disappointed_face:',
         '::(:',
-        'Sad',
-        'Sadface'
+        'ناراحت',
+        'چهره ناراحت'
     ],
     '😓': [
         'چهره افسرده با عرق',
         ':downcast_face_with_sweat:',
-        'Hard Work',
-        'Sad Sweat Face',
-        'Face with Cold Sweat'
+        'کار سخت',
+        'صورت با عرق از روی ناراحتی',
+        'چهره با عرق سرد'
     ],
     '😩': [
         'چهره خسته',
         ':weary_face:',
-        'Distraught Face',
-        'Wailing'
+        'چهره پریشان',
+        'ناله کردن'
     ],
     '😫': [
         'چهره خسته',
         ':tired_face:',
-        'Exhausted',
-        'Fed Up',
-        'Distraught Face'
+        'خسته',
+        'خسته شده',
+        'چهره پریشان'
     ],
     '😤': [
         'صورت با بخار از بینی',
         ':face_with_steam_from_nose:',
-        'Airing of Grievances',
-        'Frustrated',
-        'Mad Face',
-        'Steaming',
-        'Huffing With Anger Face'
+        'بازدم عمیق از روی نارضایتی',
+        'ناامید',
+        'صورت عصبی',
+        'بازدم عمیق',
+        'صورت عصبی با بازدم عمیق'
     ],
     '😡': [
         'صورت اخم کرده',
@@ -708,8 +715,8 @@ emojis_language[lang][2] = {
     '😠': [
         'چهره عصبانی',
         ':angry_face:',
-        'Angry',
-        'Grumpy Face'
+        'عصبانی',
+        'چهره بداخلاق'
     ],
     '🤬': [
         'فحش دادن',
@@ -731,12 +738,12 @@ emojis_language[lang][2] = {
     '😮‍💨': [
         'صورت بازدم کنان',
         ':face_exhaling:',
-        'Sigh'
+        'آه'
     ],
     '😵‍💫': [
         'صورت با چشم های مارپیچ',
         ':face_with_spiral_eyes:',
-        'Dizzy Face'
+        'صورت گیج'
     ],
     '😶‍🌫️': [
         'Face in Clouds',
@@ -765,10 +772,10 @@ emojis_language[lang][2] = {
     '🫡': [
         'چهره سلام نظامی',
         ':saluting_face:',
-        'Military',
-        'Army',
-        'RAF',
-        'Navy'
+        'نظامی',
+        'ارتش',
+        'نیروی هوایی بریتانیای کبیر',
+        'نیروی دریایی'
     ],
     '🫥': [
         'صورت نقطه ای',
@@ -787,30 +794,30 @@ emojis_language[lang][2] = {
     '😈': [
         'چهره خنده شیطانی با شاخ ها',
         ':smiling_face_with_horns:',
-        'Devil',
-        'Devil Horns',
-        'Happy Devil',
-        'Purple Devil',
-        'Red Devil',
+        'شیطان',
+        'شاخ شیطانی',
+        'شیطان شاد',
+        'شیطان بنفش',
+        'شیطان قرمز',
         ':purple:'
     ],
     '👿': [
         'چهره عصبانی با شاخ',
         ':angry_face_with_horns:',
-        'Devil',
-        'Devil Horns',
-        'Purple Devil',
-        'Purple Goblin',
-        'Sad Devil',
-        'Imp',
+        'شیطان',
+        'شاخ شیطانی',
+        'شیطان بنفش',
+        'گابلین بنفش',
+        'شیطان ناراحت',
+        'بچه شیطان',
         ':purple:'
     ],
     '🤡': [
         'چهره دلقک',
         ':clown_face:',
-        'Creepy Clown',
-        'Evil Clown',
-        'Scary Clown'
+        'دلقک گوشت تلخ',
+        'دلقک شیطانی',
+        'دلقک ترسناک'
     ],
     '👽': [
         'آدم فضایی',
@@ -820,44 +827,44 @@ emojis_language[lang][2] = {
     '👾': [
         'آدم فضایی هیولا',
         ':alien_monster:',
-        'Space Invader',
-        'Video Game Monster'
+        'مهاجم فضایی',
+        'هیولای بازی ویدیویی'
     ],
     '🤖': [
         'ربات',
         ':robot:',
-        'Robot Face'
+        'صورت ربات'
     ],
     '👹': [
         'غول',
         ':ogre:',
-        'Mask Face',
+        'صورت ماسک',
         'اونی (افسانه ژاپنی)',
-        'Red Monster',
-        'Japanese Ogre',
+        'هیولای سرخ',
+        'هیولای ژاپنی',
         ':red:'
     ],
     '👻': [
         'روح',
         ':ghost:',
-        'Halloween'
+        'هالووین'
     ],
     '🗣️': [
         'سر درحال صحبت کردن',
         ':speaking_head:',
-        'Mansplaining',
-        'Shout',
-        'Shouting',
-        'Speaking Head in Silhouette',
+        'توضیح دادن',
+        'فریاد',
+        'داد زدن',
+        'سر درحال صحبت کردن در سایه نما',
         ':blue:'
     ],
     '👤': [
         'نیم تنه در سایه نما',
         ':bust_in_silhouette:',
-        'Shadow',
-        'Silhouette',
-        'User',
-        'Silhouette of Person',
+        'سایه',
+        'سایه نما',
+        'کاربر',
+        'سایه نمای شخص',
         ':blue:'
     ],
     '🫂': [
@@ -868,10 +875,10 @@ emojis_language[lang][2] = {
     '👥': [
         'نیم تنه ها در سایه نما',
         ':busts_in_silhouette:',
-        'Shadows',
-        'Silhouettes',
-        'Users',
-        'Silhouette of Two People',
+        'سایه ها',
+        'سایه نما ها',
+        'کاربران',
+        'سایه نمای دو شخص',
         ':blue:'
     ]
 };
@@ -880,13 +887,13 @@ emojis_language[lang][3] = {
     '👶{{skin_tone}}': [
         'کودک',
         ':baby:',
-        'Child',
-        'Toddler'
+        'بچه',
+        'کودک تازه به راه افتاده'
     ],
     '🧒{{skin_tone}}': [
         'بچه',
         ':child:',
-        'Gender Neutral Child'
+        'کودک جنسیت خنثی'
     ],
     '👧{{skin_tone}}': [
         'دختر',
@@ -896,16 +903,16 @@ emojis_language[lang][3] = {
     '🧑{{skin_tone}}': [
         'شخص',
         ':person:',
-        'Gender Neutral Adult',
-        'Adult',
+        'بزرگسال جنسیت خنثی',
+        'بزرگسال',
         ':person:'
     ],
     '🧑{{skin_tone}}': [
         'Person: Beard',
         ':person_beard:',
-        'Beard',
-        'Bearded Person',
-        'Bearded Person',
+        'ریش',
+        'شخص ریشو',
+        'شخص ریشو',
         ':person:'
     ],
     '🧑{{skin_tone}}‍🦰': [
@@ -943,133 +950,133 @@ emojis_language[lang][3] = {
     '👨{{skin_tone}}': [
         'مرد',
         ':man:',
-        'Male',
-        'Moustache Man',
+        'آقا',
+        'مرد سبیل',
         ':man:'
     ],
     '🧔{{skin_tone}}‍♂️': [
-        'Man: Beard',
+        'مرد: ریش',
         ':man_beard:',
-        'Beard',
-        'Bearded Man',
-        'Bearded Person',
+        'ریش',
+        'مرد ریشو',
+        'شخص ریشو',
         ':man:'
     ],
     '👨{{skin_tone}}‍🦰': [
         'مرد: موهای قرمز',
         ':man_red_hair:',
-        'Ginger Man',
-        'Man Redhead',
-        'Man With Red Hair',
+        'مرد زنجبیلی',
+        'مرد مو قرمز',
+        'مردی با موهای قرمز',
         ':man:'
     ],
     '👨{{skin_tone}}‍🦱': [
         'مرد: موهای مجعد',
         ':man_curly_hair:',
-        'Man With Curly Hair',
+        'مردی با موهای مجعد',
         ':man:'
     ],
     '👨{{skin_tone}}‍🦳': [
         'مرد: موهای سفید',
         ':man_white_hair:',
-        'Man With Gray Hair',
+        'مردی با موهای خاکستری',
         ':man:'
     ],
     '👨{{skin_tone}}‍🦲': [
         'مرد: کچل',
         ':man_bald:',
-        'Man With No Hair',
+        'مرد بدون مو',
         ':man:'
     ],
     '👱{{skin_tone}}‍♂️': [
         'مرد: موهای بلوند',
         ':man_blond_hair:',
-        'Man With Blonde Hair',
+        'مردی با موهای بلوند',
         ':man:'
     ],
     '👩{{skin_tone}}': [
         'زن',
         ':woman:',
-        'Female',
-        'Lady',
-        'Yellow Woman',
+        'زن',
+        'خانم',
+        'زن زرد',
         ':woman:'
     ],
     '🧔{{skin_tone}}‍♀️': [
         'Woman: Beard',
         ':woman_beard:',
-        'Beard',
+        'ریش',
         'Bearded Woman',
         ':woman:'
     ],
     '👩{{skin_tone}}‍🦰': [
         'زن: موهای قرمز',
         ':woman_red_hair:',
-        'Ginger Woman',
-        'Woman Redhead',
-        'Woman With Red Hair',
+        'زن زنجبیلی',
+        'زن مو قرمز',
+        'زن با موهای قرمز',
         ':woman:'
     ],
     '👩{{skin_tone}}‍🦱': [
         'زن: موهای مجعد',
         ':woman_curly_hair:',
-        'Woman With Curly Hair',
+        'زن با موهای مجعد',
         ':woman:'
     ],
     '👩{{skin_tone}}‍🦳': [
         'زن: موهای سفید',
         ':woman_white_hair:',
-        'Woman With Gray Hair',
+        'زن با موهای خاکستری',
         ':woman:'
     ],
     '👩{{skin_tone}}‍🦲': [
         'زن: کچل',
         ':woman_bald:',
-        'Woman With No Hair',
+        'زن بدون مو',
         ':woman:'
     ],
     '👱{{skin_tone}}‍♀️': [
         'زن: موهای بلوند',
         ':woman_blond_hair:',
-        'Woman With Blonde Hair',
+        'زن با موهای بلوند',
         ':woman:'
     ],
     '👴{{skin_tone}}': [
-        'Older Man',
+        'مرد مسن تر',
         ':older_man:',
         ':older:',
-        'Elderly Man',
-        'Grandpa',
-        'Old Man',
+        'مرد مسن',
+        'پدربزرگ',
+        'پیرمرد',
         ':man:'
     ],
     '👵{{skin_tone}}': [
-        'Older Woman',
+        'زن مسن تر',
         ':older_woman:',
         ':older:',
-        'Elderly Woman',
-        'Grandma',
-        'Nanna',
-        'Old Lady',
-        'Old Woman',
+        'زن مسن',
+        'مادربزرگ',
+        'مادربزرگ',
+        'خانم پیر',
+        'پیرزن',
         ':woman:'
     ],
     '🧓{{skin_tone}}': [
-        'Older Person',
+        'مسن تر',
         ':older_person:',
         ':older:',
-        'Gender Neutral Older Adult',
+        'بزرگسال پیر جنسیت خنثی',
         ':person:'
     ],
     '👼{{skin_tone}}': [
-        'Baby Angel',
+        'بچه فرشته',
         ':baby_angel:',
-        'Angel',
-        'Cherub',
-        'Cupid',
-        'Putto'
+        'فرشته',
+        'کروب',
+        'کوپیدو',
+        'پوتو'
     ],
-    '👨{{skin_tone}}‍🎄': [
+    '🎅{{skin_tone}}': [
         'Santa Claus',
         ':santa_claus:',
         'Saint Nicholas',
@@ -1077,7 +1084,7 @@ emojis_language[lang][3] = {
         'Father Christmas',
         ':man:'
     ],
-    '👩{{skin_tone}}‍🎄': [
+    '🤶{{skin_tone}}': [
         'Mrs Claus',
         ':mrs_claus:',
         'Mother Christmas',
@@ -1090,20 +1097,20 @@ emojis_language[lang][3] = {
         ':person:'
     ],
     '🤴{{skin_tone}}': [
-        'Prince',
+        'شاهزاده',
         ':price:',
         ':man:'
     ],
     '👸{{skin_tone}}': [
-        'Princess',
+        'شاهدخت',
         ':pricess:',
-        'Blonde Girl',
-        'Girl With Crown',
-        'Girl With Tiara',
+        'دختر بلوند',
+        'دختر با تاج',
+        'دختر با تاج',
         ':woman:'
     ],
     '🫅{{skin_tone}}': [
-        'Person with Crown',
+        'شخص با تاج',
         ':person_with_crown:',
         ':person:'
     ],
@@ -1138,52 +1145,52 @@ emojis_language[lang][3] = {
         ':person:'
     ],
     '👲{{skin_tone}}': [
-        'Person With Skullcap',
+        'شخص با کلاه',
         ':person_with_skullcap:',
-        'Asian Man',
-        'Man With Chinese Cap',
-        'Man with Gua Pi Mao',
+        'مرد آسیایی',
+        'مردی با کلاه چینی',
+        'مردی با گوا پی مائو',
         ':person:'
     ],
     '🧕{{skin_tone}}': [
-        'Woman with Headscarf',
+        'زنی با روسری',
         ':woman_with_headscarf:',
-        'Hijab',
-        'Person with Headscarf',
+        'حجاب',
+        'فرد با روسری',
         ':woman:'
     ],
     '🤵{{skin_tone}}‍♀️': [
-        'Man in Tuxedo',
+        'مرد اسموکینگ پوشیده',
         ':man_in_tuxedo:',
         ':tuxedo:',
-        'Groom',
-        'Man In Suit',
-        'Wedding',
+        'داماد',
+        'مرد با کت و شلوار',
+        'ازدواج',
         ':man:'
     ],
     '🤵{{skin_tone}}‍♂️': [
         'Woman in Tuxedo',
         ':woman_in_tuxedo:',
         ':tuxedo:',
-        'Groom',
+        'داماد',
         'Woman In Suit',
-        'Wedding',
+        'ازدواج',
         ':woman:'
     ],
     '🤵{{skin_tone}}': [
-        'Person in Tuxedo',
+        'شخصی با لباس تاکسیدو',
         ':person_in_tuxedo:',
         ':tuxedo:',
-        'Groom',
+        'داماد',
         'Person In Suit',
-        'Wedding',
+        'ازدواج',
         ':person:'
     ],
     '👰{{skin_tone}}‍♂️': [
         'مرد با پوشش عروس',
         ':man_with_veil:',
         ':veil:',
-        'Wedding',
+        'ازدواج',
         'Bridegroom',
         'Marriage',
         ':man:'
@@ -1192,17 +1199,17 @@ emojis_language[lang][3] = {
         'زن با پوشش عروس',
         ':woman_with_veil:',
         ':veil:',
-        'Wedding',
-        'Bride',
-        'Bride with Veil',
+        'ازدواج',
+        'عروس',
+        'عروس با پوشش',
         'Marriage',
         ':woman:'
     ],
     '👰{{skin_tone}}': [
-        'Person With Veil',
+        'شخص با پوشش عروس',
         ':person_with_veil:',
         ':veil:',
-        'Wedding',
+        'ازدواج',
         'Marriage',
         ':person:'
     ],
@@ -1229,29 +1236,29 @@ emojis_language[lang][3] = {
         ':ninja:'
     ],
     '🫃{{skin_tone}}': [
-        'Pregnant Man',
+        'مرد باردار',
         ':pregnant_man:',
         ':pregnant:',
-        'Pregnancy',
+        'بارداری',
         ':man:'
     ],
     '🤰{{skin_tone}}': [
-        'Pregnant Woman',
+        'زن باردار',
         ':pregnant_woman:',
         ':pregnant:',
-        'Pregnancy',
-        'Pregnant Lady',
+        'بارداری',
+        'خانم حامله',
         ':woman:'
     ],
     '🫄{{skin_tone}}': [
-        'Pregnant Person',
+        'فرد باردار',
         ':pregnant_person:',
         ':pregnant:',
-        'Pregnancy',
+        'بارداری',
         ':person:'
     ],
-    '🤱{{skin_tone}}‍': [
-        'شیر دادن',
+    '🤱{{skin_tone}}': [
+        'Breast-Feeding',
         ':breast-feeding:',
         ':breast_feeding:',
         'Breastfeeding'
@@ -1263,7 +1270,7 @@ emojis_language[lang][3] = {
         ':man:'
     ],
     '🦸{{skin_tone}}‍♀️': [
-        'Woman Superhero',
+        'ابرقهرمان زن',
         ':woman_superhero:',
         ':superhero:',
         ':woman:'
@@ -1275,13 +1282,13 @@ emojis_language[lang][3] = {
         ':person:'
     ],
     '🦹{{skin_tone}}‍♂️': [
-        'Man Supervillain',
+        'مرد ابرشرور',
         ':man_supervillain:',
         ':supervillain:',
         ':man:'
     ],
     '🦹{{skin_tone}}‍♀️': [
-        'Woman Supervillain',
+        'زن ابرشرور',
         ':woman_supervillain:',
         ':supervillain:',
         ':woman:'
@@ -1296,29 +1303,29 @@ emojis_language[lang][3] = {
         'Man Mage',
         ':man_mage:',
         ':mage:',
-        'Sorcerer',
-        'Wizard',
+        'جادوگر',
+        'جادوگر',
         ':man:'
     ],
     '🧙{{skin_tone}}‍♀️': [
-        'Woman Mage',
+        'زن جادوگر',
         ':woman_mage:',
         ':mage:',
-        'Witch',
-        'Sorceress',
-        'Wizard',
+        'جادوگر',
+        'جادوگر',
+        'جادوگر',
         ':woman:'
     ],
     '🧙{{skin_tone}}': [
         'Person Mage',
         ':person_mage:',
         ':mage:',
-        'Wizard',
+        'جادوگر',
         ':mage:',
         ':person:'
     ],
     '🧚{{skin_tone}}‍♂️': [
-        'Man Fairy',
+        'مرد پری',
         ':man_fairy:',
         ':fairy:',
         ':man:'
@@ -1339,7 +1346,7 @@ emojis_language[lang][3] = {
         'مرد خون آشام',
         ':man_vampire:',
         ':vampire:',
-        'Dracula',
+        'دراکولا',
         ':man:'
     ],
     '🧛{{skin_tone}}‍♀️': [
@@ -1411,89 +1418,89 @@ emojis_language[lang][3] = {
         'کارآگاه مرد',
         ':man_detective:',
         ':detective:',
-        'Private Eye',
-        'Sleuth',
-        'Spy',
-        'Man Sleuth',
-        'Sleuth or Spy',
+        'چشم خصوصی',
+        'کارآگاه',
+        'جاسوس',
+        'مرد کارآگاه',
+        'کاراگاه یا جاسوس',
         '007',
-        'Inspector',
+        'بازرس',
         ':man:'
     ],
     '🕵️{{skin_tone}}‍♀️': [
         'کارآگاه زن',
         ':woman_detective:',
         ':detective:',
-        'Private Eye',
-        'Sleuth',
-        'Spy',
+        'چشم خصوصی',
+        'کارآگاه',
+        'جاسوس',
         'Woman Sleuth',
-        'Sleuth or Spy',
+        'کاراگاه یا جاسوس',
         '007',
-        'Inspector',
+        'بازرس',
         ':woman:'
     ],
     '🕵{{skin_tone}}': [
         'Person Detective',
         ':person_detective:',
         ':detective:',
-        'Private Eye',
-        'Sleuth',
-        'Spy',
+        'چشم خصوصی',
+        'کارآگاه',
+        'جاسوس',
         'Person Sleuth',
-        'Sleuth or Spy',
+        'کاراگاه یا جاسوس',
         '007',
-        'Inspector',
+        'بازرس',
         ':person:'
     ],
     '💂{{skin_tone}}‍♂️': [
         'Man: Guard',
         ':man_guard:',
         ':guard:',
-        'British Guardsman',
-        'Foot Guard',
+        'نگهبان بریتانیایی',
+        'نگهبان پیاده‌رو',
         ':man:'
     ],
     '💂{{skin_tone}}‍♀️': [
         'Woman: Guard',
         ':woman_guard:',
         ':guard:',
-        'British Guardsman',
-        'Foot Guard',
+        'نگهبان بریتانیایی',
+        'نگهبان پیاده‌رو',
         ':woman:'
     ],
     '💂{{skin_tone}}': [
         'Person: Guard',
         ':person_guard:',
         ':guard:',
-        'British Guardsman',
-        'Foot Guard',
+        'نگهبان بریتانیایی',
+        'نگهبان پیاده‌رو',
         ':person:'
     ],
     '👮{{skin_tone}}‍♂️': [
-        'Police Officer',
+        'مامور پلیس',
         ':man_police_officer:',
         ':police_officer:',
-        'Cop',
-        'Police',
-        'Policeman',
+        'پلیس',
+        'پلیس',
+        'مرد پلیس',
         ':man:'
     ],
     '👮{{skin_tone}}‍♀️': [
-        'Woman Police Officer',
+        'زن افسر پلیس',
         ':woman_police_officer:',
         ':police_officer:',
-        'Cop',
-        'Police',
-        'Policewoman',
+        'پلیس',
+        'پلیس',
+        'زن پلیس',
         ':woman:'
     ],
     '👮{{skin_tone}}': [
-        'Police Officer',
+        'مامور پلیس',
         ':person_police_officer:',
         ':police_officer:',
-        'Cop',
-        'Police',
+        'پلیس',
+        'پلیس',
         ':person:'
     ],
     '👨{{skin_tone}}‍🚒': [
@@ -1515,13 +1522,13 @@ emojis_language[lang][3] = {
         ':person:'
     ],
     '👨{{skin_tone}}‍✈️': [
-        'Man Pilot',
+        'مرد خلبان',
         ':man_pilot:',
         ':pilot:',
         ':man:'
     ],
     '👩{{skin_tone}}‍✈️': [
-        'Woman Pilot',
+        'زن خلبان',
         ':woman_pilot:',
         ':pilot:',
         ':woman:'
@@ -1536,7 +1543,7 @@ emojis_language[lang][3] = {
         'مرد مختصص تکنولوژی',
         ':man_technologist:',
         ':technologist:',
-        'Man Technologist',
+        'مرد مختصص تکنولوژی',
         ':man:'
     ],
     '👩{{skin_tone}}‍💻': [
@@ -1555,8 +1562,8 @@ emojis_language[lang][3] = {
         'مرد خواننده',
         ':man_singer:',
         ':singer:',
-        'Bowie',
-        'Aladdin Sane',
+        'بووی',
+        'علاءالدین صانع',
         ':man:'
     ],
     '👩{{skin_tone}}‍🎤': [
@@ -1590,13 +1597,13 @@ emojis_language[lang][3] = {
         ':person:'
     ],
     '👷{{skin_tone}}‍♂️': [
-        'Man Construction Worker',
+        'مرد کارگر ساختمانی',
         ':man_contruction_worker:',
         ':contruction_worker:',
         ':man:'
     ],
     '👷{{skin_tone}}‍♀️': [
-        'Woman Construction Worker',
+        'زن کارگر ساختمانی',
         ':woman_contruction_worker:',
         ':contruction_worker:',
         ':woman:'
@@ -1608,17 +1615,17 @@ emojis_language[lang][3] = {
         ':person:'
     ],
     '👨{{skin_tone}}‍🚀': [
-        'Man Astronaut',
+        'مرد فضانورد',
         ':man_astronaut:',
         ':astronaut:',
-        'Man Cosmonaut',
+        'مرد فضانورد',
         ':man:'
     ],
     '👩{{skin_tone}}‍🚀': [
-        'Woman Astronaut',
+        'زن فضانورد',
         ':woman_astronaut:',
         ':astronaut:',
-        'Woman Cosmonaut',
+        'زن فضانورد',
         ':woman:'
     ],
     '🧑{{skin_tone}}‍🚀': [
@@ -1629,13 +1636,13 @@ emojis_language[lang][3] = {
         ':person:'
     ],
     '👨{{skin_tone}}‍🔬': [
-        'Man Scientist',
+        'مرد دانشمند',
         ':man_scientist:',
         ':scientist:',
         ':man:'
     ],
     '👩{{skin_tone}}‍🔬': [
-        'Woman Scientist',
+        'زن دانشمند',
         ':woman_scientist:',
         ':scientist:',
         ':woman:'
@@ -1650,16 +1657,16 @@ emojis_language[lang][3] = {
         'مرد کارمند اداری',
         ':man_office_worker:',
         ':office_worker:',
-        'CEO',
-        'Businessman',
+        'مدیر عامل',
+        'بازرگان',
         ':man:'
     ],
     '👩{{skin_tone}}‍💼': [
         'زن کارمند اداری',
         ':woman_office_worker:',
         ':office_worker:',
-        'Businesswoman',
-        'CEO',
+        'بازرگان زن',
+        'مدیر عامل',
         ':woman:'
     ],
     '🧑{{skin_tone}}‍💼': [
@@ -1667,7 +1674,7 @@ emojis_language[lang][3] = {
         ':person_office_worker:',
         ':office_worker:',
         'Business',
-        'CEO',
+        'مدیر عامل',
         ':person:'
     ],
     '👨{{skin_tone}}‍🏭': [
@@ -1677,7 +1684,7 @@ emojis_language[lang][3] = {
         ':man:'
     ],
     '👩{{skin_tone}}‍🏭': [
-        'Woman Factory Worker',
+        'زن کارگر کارخانه',
         ':woman_factory_worker:',
         ':factory_worker:',
         ':woman:'
@@ -1689,13 +1696,13 @@ emojis_language[lang][3] = {
         ':person:'
     ],
     '👨{{skin_tone}}‍🔧': [
-        'Man Mechanic',
+        'مرد مکانیک',
         ':man_mechanic:',
         ':mechanic:',
         ':man:'
     ],
     '👩{{skin_tone}}‍🔧': [
-        'Woman Mechanic',
+        'مکانیک زن',
         ':woman_mechanic:',
         ':mechanic:',
         ':woman:'
@@ -1707,19 +1714,19 @@ emojis_language[lang][3] = {
         ':person:'
     ],
     '👨{{skin_tone}}‍🍳': [
-        'Man Cook',
+        'مرد درحال پختن غذا',
         ':man_cook:',
         ':cook:',
-        'Man Chef',
-        'Male Chef',
+        'مرد آشپز',
+        'سرآشپز مرد',
         ':man:'
     ],
     '👩{{skin_tone}}‍🍳': [
-        'Woman Cook',
+        'زن درحال پختن غذا',
         ':woman_cook:',
         ':cook:',
-        'Woman Chef',
-        'Female Chef',
+        'زن آشپز',
+        'سرآشپز زن',
         ':woman:'
     ],
     '🧑{{skin_tone}}‍🍳': [
@@ -1730,13 +1737,13 @@ emojis_language[lang][3] = {
         ':person:'
     ],
     '👨{{skin_tone}}‍🌾': [
-        'Man Farmer',
+        'مرد کشاورز',
         ':man_farmer:',
         ':farmer:',
         ':man:'
     ],
     '👩{{skin_tone}}‍🌾': [
-        'Woman Farmer',
+        'زن کشاورز',
         ':woman_farmer:',
         ':farmer:',
         ':woman:'
@@ -1747,37 +1754,37 @@ emojis_language[lang][3] = {
         ':farmer:',
         ':person:'
     ],
-    '👨{{skin_tone}}‍‍⚖️': [
-        'مرد قاضی',
+    '👨{{skin_tone}}‍⚖️': [
+        'Man Judge',
         ':man_judge:',
         ':judge:',
         ':man:'
     ],
-    '👩{{skin_tone}}‍‍⚖️': [
-        'قاضی زن',
+    '👩‍{{skin_tone}}⚖️': [
+        'Woman Judge',
         ':woman_judge:',
         ':judge:',
         ':woman:'
     ],
-    '🧑{{skin_tone}}‍‍⚖️': [
+    '🧑{{skin_tone}}‍⚖️': [
         'Person Judge',
         ':person_judge:',
         ':judge:',
         ':person:'
     ],
-    '👨{{skin_tone}}‍‍🏫': [
-        'معلم مرد',
+    '👨{{skin_tone}}‍🏫': [
+        'Man Teacher',
         ':man_teacher:',
         ':teacher:',
         ':man:'
     ],
-    '👩{{skin_tone}}‍‍🏫': [
-        'معلم زن',
+    '👩{{skin_tone}}‍🏫': [
+        'Woman Teacher',
         ':woman_teacher:',
         ':teacher:',
         ':woman:'
     ],
-    '🧑‍{{skin_tone}}‍‍🏫': [
+    '🧑{{skin_tone}}‍🏫': [
         'Person Teacher',
         ':person_teacher:',
         ':teacher:',
@@ -1802,22 +1809,22 @@ emojis_language[lang][3] = {
         ':person:'
     ],
     '👨{{skin_tone}}‍⚕️': [
-        'Man Health Worker',
+        'کارمند بهداشت مرد',
         ':man_health_worker:',
         ':health_worker:',
-        'Male Doctor',
-        'Male Nurse',
+        'کارمند بهداشت مرد',
+        'پرستار مرد',
         ':man:'
     ],
     '👩{{skin_tone}}‍⚕️': [
         'کارمند بهداشت زن',
         ':woman_health_worker:',
         ':health_worker:',
-        'Female Doctor',
-        'Female Nurse',
+        'دکتر خانم',
+        'پرستار زن',
         ':woman:'
     ],
-    '🧑‍{{skin_tone}}‍⚕️': [
+    '🧑{{skin_tone}}‍⚕️': [
         'Person Health Worker',
         ':person_health_worker:',
         ':health_worker:',
@@ -1829,16 +1836,16 @@ emojis_language[lang][3] = {
         'مردی که شانه بالا می اندازد',
         ':man_shrugging:',
         ':shrugging:',
-        'idk man',
-        'dunno',
+        'مرد نمیدانم',
+        'نمیدانم',
         ':man:'
     ],
     '🤷{{skin_tone}}‍♀️': [
         'زنی که شانه بالا می اندازد',
         ':woman_shrugging:',
         ':shrugging:',
-        'idk woman',
-        'dunno',
+        'زن نمیدانم',
+        'نمیدانم',
         ':woman:'
     ],
     '🤷{{skin_tone}}': [
@@ -1846,7 +1853,7 @@ emojis_language[lang][3] = {
         ':person_shrugging:',
         ':shrugging:',
         'idk person',
-        'dunno',
+        'نمیدانم',
         ':person:'
     ],
     '🤦{{skin_tone}}‍♂️': [
@@ -1867,14 +1874,14 @@ emojis_language[lang][3] = {
         ':facepalming:',
         ':person:'
     ],
-    '🙇{{skin_tone}}‍‍♂️': [
-        'مرد درحال تعظیم',
+    '🙇{{skin_tone}}‍♂️': [
+        'Man Bowing',
         ':man_bowing:',
         ':bowing:',
         ':man:'
     ],
-    '🙇{{skin_tone}}‍‍♀️': [
-        'زن درحال تعظیم',
+    '🙇{{skin_tone}}‍♀️': [
+        'Woman Bowing',
         ':woman_bowing:',
         ':bowing:',
         ':woman:'
@@ -1891,8 +1898,8 @@ emojis_language[lang][3] = {
         ':deaf:',
         ':man:'
     ],
-    '🧏{{skin_tone}}‍‍♀️': [
-        'زن ناشنوا',
+    '🧏{{skin_tone}}‍♀️': [
+        'Deaf Woman',
         ':deaf_woman:',
         ':deaf:',
         ':woman:'
@@ -1903,8 +1910,8 @@ emojis_language[lang][3] = {
         ':deaf:',
         ':person:'
     ],
-    '🙋{{skin_tone}}‍‍♂️': [
-        'مرد بالا بردن دست',
+    '🙋{{skin_tone}}‍♂️': [
+        'Man Raising Hand',
         ':man_raising_hand:',
         'Happy Man Raising One Hand',
         ':raising_hand:',
@@ -1913,7 +1920,7 @@ emojis_language[lang][3] = {
     '🙋{{skin_tone}}‍♀️': [
         'زن در حال بالا بردن دست',
         ':woman_raising_hand:',
-        'Happy Woman Raising One Hand',
+        'زن شادی که یک دستش را بالا می برد',
         ':raising_hand:',
         ':woman:'
     ],
@@ -1927,14 +1934,14 @@ emojis_language[lang][3] = {
     '💁{{skin_tone}}‍♂️': [
         'مرد بالا بردن کف دست',
         ':man_tipping_hand:',
-        'Information Desk Man',
+        'مرد میز اطلاعات',
         ':tipping_hand:',
         ':man:'
     ],
     '💁{{skin_tone}}‍♀️': [
         'زن بالا بردن کف دست',
         ':woman_tipping_hand:',
-        'Information Desk Woman',
+        'زن میز اطلاعات',
         ':tipping_hand:',
         ':woman:'
     ],
@@ -1987,8 +1994,8 @@ emojis_language[lang][3] = {
         ':pouting:',
         ':man:'
     ],
-    '🙎{{skin_tone}}‍‍♀️': [
-        'زن درحال اخم کردن',
+    '🙎{{skin_tone}}‍♀️': [
+        'Woman Pouting',
         ':woman_pouting:',
         ':pouting:',
         ':woman:'
@@ -2000,13 +2007,13 @@ emojis_language[lang][3] = {
         ':person:'
     ],
     '🙍{{skin_tone}}‍♂️': [
-        'Man Frowning',
+        'مرد اخم کرده',
         ':man_frowining:',
         ':frowining:',
         ':man:'
     ],
     '🙍{{skin_tone}}‍♀️': [
-        'Woman Frowning',
+        'زن اخم کرده',
         ':woman_frowining:',
         ':frowining:',
         ':woman:'
@@ -2017,14 +2024,14 @@ emojis_language[lang][3] = {
         ':frowining:',
         ':person:'
     ],
-    '🧟‍‍♂️': [
-        'مرد زامبی',
+    '🧟‍♂️': [
+        'Man Zombie',
         ':man_zombie:',
         ':zombie:',
         ':man:'
     ],
-    '🧟‍‍♀️': [
-        'زن زامبی',
+    '🧟‍♀️': [
+        'Woman Zombie',
         ':woman_zombie:',
         ':zombie:',
         ':woman:'
@@ -2054,13 +2061,13 @@ emojis_language[lang][3] = {
         ':person:'
     ],
     '🧍{{skin_tone}}‍♂️': [
-        'Man Standing',
+        'مرد ایستاده',
         ':man_standing:',
         ':standing:',
         ':man:'
     ],
     '🧍{{skin_tone}}‍♀️': [
-        'Woman Standing',
+        'زن ایستاده',
         ':woman_standing:',
         ':standing:',
         ':woman:'
@@ -2078,7 +2085,7 @@ emojis_language[lang][3] = {
         ':man:'
     ],
     '🧎{{skin_tone}}‍♀️': [
-        'Woman Kneeling',
+        'زن زانو زده',
         ':woman_kneeling:',
         ':kneeling:',
         ':woman:'
@@ -2162,26 +2169,26 @@ emojis_language[lang][3] = {
         ':person:'
     ],
     '🕴️{{skin_tone}}': [
-        'Person in Suit Levitating',
+        'فرد معلق با کت و شلوار',
         ':person_in_suit_levitating:',
-        'Hovering Man',
-        'Rude Boy',
-        'Walt Jabsco',
-        'Man in Business Suit Levitating',
+        'مرد معلق',
+        'پسر بی‌ادب',
+        'والت جابسکو',
+        'مرد معلق با کت و شلوار رسمی',
         ':person:'
     ],
     '🧖{{skin_tone}}‍♂️': [
         'مردی در اتاق بخار',
         ':man_in_steamy_room:',
         ':steamy_room:',
-        'Man in Sauna',
+        'مردی در سونا',
         ':man:'
     ],
     '🧖{{skin_tone}}‍♀️': [
         'زنی در اتاق بخار',
         ':woman_in_steamy_room:',
         ':steamy_room:',
-        'Woman in Sauna',
+        'زن در سونا',
         ':woman:'
     ],
     '🧖{{skin_tone}}': [
@@ -2192,28 +2199,28 @@ emojis_language[lang][3] = {
         ':person:'
     ],
     '👫{{skin_tone}}': [
-        'Woman and Man Holding Hands',
+        'زن و مرد دست در دست',
         ':woman_and_man_holding_hands:',
         ':holding_hands:',
-        'Heterosexual Couple',
-        'Straight Couple',
-        'Man and Woman Holding Hands',
+        'زوج دگرجنسگرا',
+        'زوج استریت',
+        'مرد و زن دست در دست',
         ':woman:'
     ],
     '👬{{skin_tone}}': [
-        'Men Holding Hands',
+        'مردان دست در دست',
         ':holding_hands:',
         ':men_holding_hands:',
-        'Gay Couple',
-        'Two Men Holding Hands',
+        'زوج مرد همجنس گرا',
+        'دو مرد دست در دست',
         ':man:'
     ],
     '👭{{skin_tone}}': [
-        'Women Holding Hands',
+        'زنان دست در دست',
         ':holding_hands:',
         ':women_holding_hands:',
-        'Lesbian Couple',
-        'Two Women Holding Hands',
+        'زوج لزبین',
+        'دو زن دست در دست',
         ':woman:'
     ],
     '🧑‍🤝‍🧑': [
@@ -2229,12 +2236,12 @@ emojis_language[lang][3] = {
     '👨‍👩‍👦': [
         'خانواده با مادر، پدر و پسر',
         ':family_with_mother_father_and_son:',
-        'Family: Man, Woman, Boy'
+        'خانواده: مرد، زن، پسر'
     ],
     '👨‍👩‍👧': [
         'خانواده با مادر، پدر و دختر',
         ':family_with_mother_father_and_daughter:',
-        'Family: Man, Woman, Girl'
+        'خانواده: مرد، زن، دختر'
     ],
     '👨‍👩‍👧‍👦': [
         'خانواده با مادر، پدر، پسر و دختر',
@@ -2473,7 +2480,10 @@ emojis_language[lang][3] = {
         'Person Taking a Bath',
         'Bath',
         'Shower',
-        'Soap'
+        'Soap',
+        'Tidy',
+        'Clean',
+        'Scrub'
     ],
     '🧌': [
         'Troll',
@@ -3210,13 +3220,13 @@ emojis_language[lang][4] = {
         'Empty Nest',
         ':empty_nest:',
         'Birds',
-        'Home'
+        'خانه'
     ],
     '🪺': [
         'Nest with Eggs',
         ':nest_with_eggs:',
         'Birds',
-        'Home'
+        'خانه'
     ]
 };
 /*symbols*/
@@ -3467,7 +3477,7 @@ emojis_language[lang][5] = {
     '🔕': [
         'Bell with Slash',
         ':bell_with_slash:',
-        'Notifications',
+        'اعلان‌ها',
         'Ringer Disabled',
         'Muted Bell',
         'Bell with Cancellation Stroke',
@@ -3515,7 +3525,7 @@ emojis_language[lang][5] = {
         ':prohibited:',
         'Banned',
         'Circle Backslash',
-        'No',
+        'خیر',
         'Red Circle Crossed',
         'Restricted',
         'No Entry Sign',
@@ -4303,7 +4313,7 @@ emojis_language[lang][5] = {
     '🔣': [
         'Input Symbol for Symbols',
         ':input_symbols:',
-        'Symbols',
+        'نمادها',
         'Symbol Input',
         ':blue:'
     ],
@@ -4370,7 +4380,7 @@ emojis_language[lang][5] = {
     'ℹ️': [
         'Information',
         ':info_button:',
-        'Info',
+        'اطلاعات',
         'Lowercase I',
         'Tourist Information',
         'Information Source',
@@ -4405,7 +4415,7 @@ emojis_language[lang][5] = {
     '🆗': [
         'OK Button',
         ':ok_button:',
-        'OK',
+        'تأیید',
         'Okay',
         'Square',
         'OK Sign',
@@ -4429,7 +4439,7 @@ emojis_language[lang][5] = {
         'SOS',
         'SOS Sign',
         'Squared SOS',
-        'Help',
+        'راهنما',
         ':red:'
     ],
     '🆙': [
@@ -6005,13 +6015,18 @@ emojis_language[lang][7] = {
         'Transgender Flag',
         ':transgender_flag:',
         'Blue, Pink, and White Flag',
-        'Trans Flag'
+        'Trans Flag',
+        'Blue',
+        'Pink'
     ],
     '🏴‍☠️': [
         'Pirate Flag',
         ':pirate_flag:',
         'Jolly Roger',
-        ':black:'
+        ':black:',
+        'Corsair',
+        'Privateer',
+        'Buccaneer'
     ],
     '🇺🇳': [
         'Flag of United Nations',
@@ -6435,13 +6450,13 @@ emojis_language[lang][7] = {
         'Union Jack',
         'UK'
     ],
-    '🏴󠁧󠁢󠁥󠁮󠁧󠁿󠁧󠁢󠁥󠁮󠁧󠁿': [
+    '🏴󠁧󠁢󠁥󠁮󠁧󠁿': [
         'Flag of England',
         ':england:',
         'St Georges Cross',
         'English Flag'
     ],
-    '🏴󠁧󠁢󠁷󠁬󠁳󠁿󠁧󠁢󠁷󠁬󠁳󠁿': [
+    '🏴󠁧󠁢󠁷󠁬󠁳󠁿': [
         'Flag of Wales',
         ':wales:',
         'Welsh Flag',
@@ -6449,7 +6464,7 @@ emojis_language[lang][7] = {
         'Baner Cymru',
         'Y Ddraig Goch'
     ],
-    '🏴󠁧󠁢󠁳󠁣󠁴󠁿󠁧󠁢󠁳󠁣󠁴󠁿': [
+    '🏴󠁧󠁢󠁳󠁣󠁴󠁿': [
         'Flag of Scotland',
         ':scotland:',
         'Scottish Flag',
@@ -7365,7 +7380,7 @@ emojis_language[lang][8] = {
         'Skier',
         ':skier:'
     ],
-    '🏂{{skin_tone}}‍': [
+    '🏂{{skin_tone}}': [
         'Snowboarder',
         ':snowboarder:'
     ],
@@ -8592,7 +8607,8 @@ emojis_language[lang][10] = {
         ':mobile_phone:',
         'Smartphone',
         'iPhone',
-        'Cell Phone'
+        'Cell Phone',
+        'Device'
     ],
     '📲': [
         'Mobile Phone with Rightwards Arrow at Left',
@@ -8611,7 +8627,8 @@ emojis_language[lang][10] = {
         ':phone:',
         'Handset',
         'Phone',
-        ':black:'
+        ':black:',
+        'Device'
     ],
     '📟': [
         'Pager',
@@ -8641,25 +8658,31 @@ emojis_language[lang][10] = {
     '💻': [
         'Laptop',
         ':laptop:',
+        ':computer:',
         'Notebook',
         'Personal Computer',
         'PC',
         'MacBook',
-        'Surface'
+        'Surface',
+        'Device'
     ],
     '🖥️': [
         'Desktop Computer',
         ':desktop_computer:',
+        ':computer:',
         'iMac',
-        'PC'
+        'PC',
+        'Device'
     ],
     '🖨️': [
         'Printer',
-        ':printer:'
+        ':printer:',
+        'Device'
     ],
     '⌨️': [
-        'Keyboard',
-        ':keyboard:'
+        'Computer Keyboard',
+        ':keyboard:',
+        ':computer_keyboard:'
     ],
     '🖱️': [
         'Computer Mouse',
@@ -10545,7 +10568,10 @@ emojis_language[lang][13] = {
     ],
     '🧼': [
         'Bar of Soap',
-        ':bar_of_soap:'
+        ':bar_of_soap:',
+        'Tidy',
+        'Clean',
+        'Scrub'
     ],
     '🧽': [
         'Sponge',
@@ -11317,22 +11343,29 @@ emojis_language[lang][13] = {
         'Shopping Trolley',
         ':shopping_trolley:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Market'
     ],
     '🎟️': [
         'Admission Tickets',
-        ':admission_tickets:'
+        ':admission_tickets:',
+        'Theater',
+        'Theatre',
+        'Party'
     ],
     '🛎️': [
         'Bellhop Bell',
         ':bellhop_bell:',
         ':yellow:',
-        ':gold:'
+        ':gold:',
+        'Hotel',
+        'Reception'
     ],
     '🧾': [
         'Receipt',
         ':receipt:',
-        ':white:'
+        ':white:',
+        'Bill'
     ],
     '🧮': [
         'Abacus',
@@ -11347,7 +11380,9 @@ emojis_language[lang][13] = {
         ':broom:',
         'Brush',
         'Sweep',
-        ':yellow:'
+        ':yellow:',
+        'Tidy',
+        'Clean'
     ],
     '🎰': [
         'Slot Machine',
@@ -11389,7 +11424,8 @@ emojis_language[lang][13] = {
     ],
     '🪶': [
         'Feather',
-        ':feather:'
+        ':feather:',
+        'Animal'
     ],
     '🪤': [
         'Mouse Trap',
@@ -11519,7 +11555,11 @@ emojis_language[lang][13] = {
         ':low_battery:',
         ':red:',
         'Energy',
-        'Red'
+        'Red',
+        'Device',
+        'Smartphone',
+        'Computer',
+        'Console'
     ],
     '🩻': [
         'X-Ray',
@@ -11540,7 +11580,10 @@ emojis_language[lang][13] = {
         ':identification_card:',
         'Identity',
         'Passport',
-        'ID'
+        'ID',
+        'Country',
+        'Security',
+        'Travel'
     ],
     '🧿': [
         'Nazar Amulet',
@@ -11552,6 +11595,9 @@ emojis_language[lang][13] = {
         'Teddy Bear',
         ':teddy_bear:',
         'Toy',
-        ':brown:'
+        ':brown:',
+        'Baby',
+        'Child',
+        'Children'
     ]
 };

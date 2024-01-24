@@ -27,106 +27,106 @@ emojis_language[lang][2] = {
         ':grinning:',
         ':grinning_face:',
         '::):',
-        'Happy Face',
-        'Smiley Face'
+        'Vui vẻ',
+        'Mặt cười'
     ],
     '😃': [
         'Cười tươi với mắt to',
         ':smiley:',
         ':grinning_face_with_big_eyes:',
         '::D:',
-        'Happy Face',
-        'Smiley Face',
-        'Smiling Face with Open Mouth'
+        'Vui vẻ',
+        'Mặt cười',
+        'Mặt cười mở miệng'
     ],
     '😄': [
         'Cười tươi với mắt cười',
         ':smile:',
         ':grinning_face_with_smiling_eyes:',
-        'Happy Face',
-        'Smiley Face',
-        'Grinning Face With Squinting Eyes',
+        'Vui vẻ',
+        'Mặt cười',
+        'Cười toe toét với mắt nheo',
         'Mặt cười với miệng mở và mắt cười'
     ],
     '😁': [
         'Mặt rạng rỡ với mắt cười',
         ':grin:',
         ':beaming_face_with_smiling_eyes:',
-        'Grinning Face with Smiling Eyes'
+        'Cười tươi với mắt cười'
     ],
     '😆': [
         'Cười tươi với mắt nheo',
         ':grinning_squinting_face:',
         ':xD:',
         ':><:',
-        'Big Grin',
-        'Closed-Eyes Smile',
-        'Laughing',
-        'Grinning Face With Tightly Closed Eyes',
+        'Cười toe toét',
+        'Cười nhắm tịt mắt',
+        'Cười',
+        'Cười tươi với mắt nhắm tịt',
         'Mặt cười với miệng mở và mắt nhắm tịt'
     ],
     '😅': [
         'Cười tươi với mồ hôi',
         ':happy_sweat:',
-        'Exercise',
-        'Happy Sweat',
+        'Tập thể dục',
+        'Cười lo lắng',
         'Cười tươi với mắt nheo và mồ hôi',
         'Mặt cười với miệng mở và mồ hôi lạnh'
     ],
     '🤣': [
         'Cười lăn lộn',
         ':rofl:',
-        'Rolling on the Floor Laughing'
+        'Cười lăn lộn'
     ],
     '😂': [
         'Khóc trong hạnh phúc',
         ':lol:',
-        'Laughing',
-        'Laughing Crying',
-        'Laughing Tears',
+        'Cười',
+        'Cười chảy nước mắt',
+        'Nước mắt cười',
         'LOL'
     ],
     '🙂': [
         'Mỉm cười',
         ':smile:',
         '::):',
-        'Slightly Happy',
-        'This Is Fine'
+        'Hơi vui',
+        'Ổn'
     ],
     '🙃': [
         'Mặt lật ngược',
         ':upside-down_face:',
         ':upside_down_face:',
-        'Sarcasm',
-        'Silly',
-        'Upside Down Face'
+        'Mỉa mai',
+        'Ngớ ngẩn',
+        'Mặt lật ngược'
     ],
     '😉': [
         'Nháy mắt',
         ':winking:',
         ':;):',
-        'Wink',
-        'Wink Face',
-        'Winky Face'
+        'Nháy mắt',
+        'Nháy mắt',
+        'Nháy mắt'
     ],
     '😊': [
         'Mặt cười với mắt cười',
         ':smiling_face:',
         ':^^:',
-        'Happy Face',
-        'Smile',
-        'Smiley Face'
+        'Vui vẻ',
+        'Cười',
+        'Mặt cười'
     ],
     '😇': [
         'Mặt cười với hào quang',
         ':smiling_angel:',
-        'Angel',
-        'Halo'
+        'Thiên thần',
+        'Hào Quang'
     ],
     '🥰': [
         'Mặt cười với trái tim',
         ':smiling_hearts:',
-        'In Love Face',
+        'Mặt yêu',
         'Mặt cười với mắt cười và ba trái tim'
     ],
     '😍': [
@@ -142,12 +142,12 @@ emojis_language[lang][2] = {
     '🤩': [
         'Sét đánh',
         ':star_eyes:',
-        'Excited',
-        'Star Eyes',
-        'Starry Eyed',
+        'Phấn khích',
+        'Mắt sao',
+        'Mắt sáng như sao',
         'Mặt wow',
-        'Face With Starry Eyes',
-        'Grinning Face with Star Eyes'
+        'Mặt với mắt sao',
+        'Cười tươi với mắt sao'
     ],
     '😘': [
         'Hôn gió',
@@ -173,8 +173,8 @@ emojis_language[lang][2] = {
     '☺️': [
         'Mặt cười',
         ':smiling_face:',
-        'Happy Face',
-        'Smiley Face',
+        'Vui vẻ',
+        'Mặt cười',
         'Smiling',
         'White Smiling Face'
     ],
@@ -182,7 +182,7 @@ emojis_language[lang][2] = {
         'Kissing Face with Closed Eyes',
         ':kissing_face:',
         'Kiss Face',
-        'Kissy Face'
+        'Chu môi'
     ],
     '😙': [
         'Kissing Face with Smiling Eyes',
@@ -190,7 +190,7 @@ emojis_language[lang][2] = {
         'Kiss Face',
         'Kissy',
         'Whistle',
-        'Whistling'
+        'Thổi sáo'
     ],
     '😋': [
         'Face Savoring Food',
@@ -223,7 +223,7 @@ emojis_language[lang][2] = {
         'Zany Face',
         ':crazy_face:',
         'Crazy Eyes',
-        'Excited',
+        'Phấn khích',
         'Wild',
         'Goofy Face',
         'Grinning Face with One Large and One Small Eye'
@@ -256,29 +256,29 @@ emojis_language[lang][2] = {
     '🤭': [
         'Oops',
         ':oops:',
-        'Face with Hand Over Mouth',
+        'Che miệng',
         'Mặt cười với mắt cười và tay che miệng'
     ],
     '🤫': [
         'Xuỵt',
         ':shushing_face:',
-        'Shush',
-        'Shushing Face',
-        'Hush',
-        'Quiet',
-        'Silence',
-        'Silent',
-        'Face with Finger Covering Closed Lips'
+        'Xuỵt',
+        'Xuỵt',
+        'Xuỵt',
+        'Im',
+        'Im lặng',
+        'Im lặng',
+        'Xuỵt'
     ],
     '🤔': [
         'Cái gì',
         ':thinking_face:',
         '?',
         'Hmm',
-        'Thinking Face',
-        'Chin Thumb',
-        'Thinker',
-        'Throwing Shade'
+        'Mặt nghĩ ngợi',
+        'Mặt nghĩ ngợi',
+        'Mặt nghĩ ngợi',
+        'Mỉa mai'
     ],
     '🤐': [
         'Bịt môi',
@@ -296,30 +296,30 @@ emojis_language[lang][2] = {
         ':face_with_raised_eyebrow:',
         'Colbert',
         'The Rock',
-        'Face With Raised Eyebrow',
-        'Face with One Eyebrow Raised'
+        'Nheo mày',
+        'Nheo mày'
     ],
     '😐': [
         'Mặt trung tính',
         ':neutral_face:',
         ':|',
-        'Face With Straight Mouth',
-        'Straight Faced'
+        'Không cảm xúc',
+        'Mặt trung tính'
     ],
     '😑': [
         'Không cảm xúc',
         ':expressionless_face:',
         '-_-',
-        'Face With Straight Mouth',
-        'Straight Face'
+        'Không cảm xúc',
+        'Không cảm xúc'
     ],
     '😶': [
         'Không mồm',
         ':face_without_mouth:',
-        'Blank Face',
-        'Mouthless',
-        'Silence',
-        'Silent'
+        'Không mồm',
+        'Không mồm',
+        'Im lặng',
+        'Im lặng'
     ],
     '😏': [
         'Cười khỉnh',
@@ -602,6 +602,13 @@ emojis_language[lang][2] = {
         ':frowning_face_with_open_mouth:',
         ':D::',
         'Yawning'
+    ],
+    '😧': [
+        'Anguished Face',
+        ':anguished_face:',
+        ':anguished:',
+        ':D::',
+        'Pained Face'
     ],
     '😨': [
         'Scared',
@@ -1064,12 +1071,12 @@ emojis_language[lang][3] = {
     '👼{{skin_tone}}': [
         'Baby Angel',
         ':baby_angel:',
-        'Angel',
+        'Thiên thần',
         'Cherub',
         'Cupid',
         'Putto'
     ],
-    '👨{{skin_tone}}‍🎄': [
+    '🎅{{skin_tone}}': [
         'Santa Claus',
         ':santa_claus:',
         'Saint Nicholas',
@@ -1077,7 +1084,7 @@ emojis_language[lang][3] = {
         'Father Christmas',
         ':man:'
     ],
-    '👩{{skin_tone}}‍🎄': [
+    '🤶{{skin_tone}}': [
         'Mrs Claus',
         ':mrs_claus:',
         'Mother Christmas',
@@ -1250,7 +1257,7 @@ emojis_language[lang][3] = {
         'Pregnancy',
         ':person:'
     ],
-    '🤱{{skin_tone}}‍': [
+    '🤱{{skin_tone}}': [
         'Breast-Feeding',
         ':breast-feeding:',
         ':breast_feeding:',
@@ -1747,37 +1754,37 @@ emojis_language[lang][3] = {
         ':farmer:',
         ':person:'
     ],
-    '👨{{skin_tone}}‍‍⚖️': [
+    '👨{{skin_tone}}‍⚖️': [
         'Man Judge',
         ':man_judge:',
         ':judge:',
         ':man:'
     ],
-    '👩{{skin_tone}}‍‍⚖️': [
+    '👩‍{{skin_tone}}⚖️': [
         'Woman Judge',
         ':woman_judge:',
         ':judge:',
         ':woman:'
     ],
-    '🧑{{skin_tone}}‍‍⚖️': [
+    '🧑{{skin_tone}}‍⚖️': [
         'Person Judge',
         ':person_judge:',
         ':judge:',
         ':person:'
     ],
-    '👨{{skin_tone}}‍‍🏫': [
+    '👨{{skin_tone}}‍🏫': [
         'Man Teacher',
         ':man_teacher:',
         ':teacher:',
         ':man:'
     ],
-    '👩{{skin_tone}}‍‍🏫': [
+    '👩{{skin_tone}}‍🏫': [
         'Woman Teacher',
         ':woman_teacher:',
         ':teacher:',
         ':woman:'
     ],
-    '🧑‍{{skin_tone}}‍‍🏫': [
+    '🧑{{skin_tone}}‍🏫': [
         'Person Teacher',
         ':person_teacher:',
         ':teacher:',
@@ -1817,7 +1824,7 @@ emojis_language[lang][3] = {
         'Female Nurse',
         ':woman:'
     ],
-    '🧑‍{{skin_tone}}‍⚕️': [
+    '🧑{{skin_tone}}‍⚕️': [
         'Person Health Worker',
         ':person_health_worker:',
         ':health_worker:',
@@ -1867,13 +1874,13 @@ emojis_language[lang][3] = {
         ':facepalming:',
         ':person:'
     ],
-    '🙇{{skin_tone}}‍‍♂️': [
+    '🙇{{skin_tone}}‍♂️': [
         'Man Bowing',
         ':man_bowing:',
         ':bowing:',
         ':man:'
     ],
-    '🙇{{skin_tone}}‍‍♀️': [
+    '🙇{{skin_tone}}‍♀️': [
         'Woman Bowing',
         ':woman_bowing:',
         ':bowing:',
@@ -1891,7 +1898,7 @@ emojis_language[lang][3] = {
         ':deaf:',
         ':man:'
     ],
-    '🧏{{skin_tone}}‍‍♀️': [
+    '🧏{{skin_tone}}‍♀️': [
         'Deaf Woman',
         ':deaf_woman:',
         ':deaf:',
@@ -1903,7 +1910,7 @@ emojis_language[lang][3] = {
         ':deaf:',
         ':person:'
     ],
-    '🙋{{skin_tone}}‍‍♂️': [
+    '🙋{{skin_tone}}‍♂️': [
         'Man Raising Hand',
         ':man_raising_hand:',
         'Happy Man Raising One Hand',
@@ -1987,7 +1994,7 @@ emojis_language[lang][3] = {
         ':pouting:',
         ':man:'
     ],
-    '🙎{{skin_tone}}‍‍♀️': [
+    '🙎{{skin_tone}}‍♀️': [
         'Woman Pouting',
         ':woman_pouting:',
         ':pouting:',
@@ -2017,13 +2024,13 @@ emojis_language[lang][3] = {
         ':frowining:',
         ':person:'
     ],
-    '🧟‍‍♂️': [
+    '🧟‍♂️': [
         'Man Zombie',
         ':man_zombie:',
         ':zombie:',
         ':man:'
     ],
-    '🧟‍‍♀️': [
+    '🧟‍♀️': [
         'Woman Zombie',
         ':woman_zombie:',
         ':zombie:',
@@ -2473,7 +2480,10 @@ emojis_language[lang][3] = {
         'Person Taking a Bath',
         'Bath',
         'Shower',
-        'Soap'
+        'Soap',
+        'Tidy',
+        'Clean',
+        'Scrub'
     ],
     '🧌': [
         'Troll',
@@ -4303,7 +4313,7 @@ emojis_language[lang][5] = {
     '🔣': [
         'Input Symbol for Symbols',
         ':input_symbols:',
-        'Symbols',
+        'Biểu tượng',
         'Symbol Input',
         ':blue:'
     ],
@@ -6005,13 +6015,18 @@ emojis_language[lang][7] = {
         'Transgender Flag',
         ':transgender_flag:',
         'Blue, Pink, and White Flag',
-        'Trans Flag'
+        'Trans Flag',
+        'Blue',
+        'Pink'
     ],
     '🏴‍☠️': [
         'Pirate Flag',
         ':pirate_flag:',
         'Jolly Roger',
-        ':black:'
+        ':black:',
+        'Corsair',
+        'Privateer',
+        'Buccaneer'
     ],
     '🇺🇳': [
         'Flag of United Nations',
@@ -6435,13 +6450,13 @@ emojis_language[lang][7] = {
         'Union Jack',
         'UK'
     ],
-    '🏴󠁧󠁢󠁥󠁮󠁧󠁿󠁧󠁢󠁥󠁮󠁧󠁿': [
+    '🏴󠁧󠁢󠁥󠁮󠁧󠁿': [
         'Flag of England',
         ':england:',
         'St Georges Cross',
         'English Flag'
     ],
-    '🏴󠁧󠁢󠁷󠁬󠁳󠁿󠁧󠁢󠁷󠁬󠁳󠁿': [
+    '🏴󠁧󠁢󠁷󠁬󠁳󠁿': [
         'Flag of Wales',
         ':wales:',
         'Welsh Flag',
@@ -6449,7 +6464,7 @@ emojis_language[lang][7] = {
         'Baner Cymru',
         'Y Ddraig Goch'
     ],
-    '🏴󠁧󠁢󠁳󠁣󠁴󠁿󠁧󠁢󠁳󠁣󠁴󠁿': [
+    '🏴󠁧󠁢󠁳󠁣󠁴󠁿': [
         'Flag of Scotland',
         ':scotland:',
         'Scottish Flag',
@@ -7365,7 +7380,7 @@ emojis_language[lang][8] = {
         'Skier',
         ':skier:'
     ],
-    '🏂{{skin_tone}}‍': [
+    '🏂{{skin_tone}}': [
         'Snowboarder',
         ':snowboarder:'
     ],
@@ -8592,7 +8607,8 @@ emojis_language[lang][10] = {
         ':mobile_phone:',
         'Smartphone',
         'iPhone',
-        'Cell Phone'
+        'Cell Phone',
+        'Device'
     ],
     '📲': [
         'Mobile Phone with Rightwards Arrow at Left',
@@ -8611,7 +8627,8 @@ emojis_language[lang][10] = {
         ':phone:',
         'Handset',
         'Phone',
-        ':black:'
+        ':black:',
+        'Device'
     ],
     '📟': [
         'Pager',
@@ -8641,25 +8658,31 @@ emojis_language[lang][10] = {
     '💻': [
         'Laptop',
         ':laptop:',
+        ':computer:',
         'Notebook',
         'Personal Computer',
         'PC',
         'MacBook',
-        'Surface'
+        'Surface',
+        'Device'
     ],
     '🖥️': [
         'Desktop Computer',
         ':desktop_computer:',
+        ':computer:',
         'iMac',
-        'PC'
+        'PC',
+        'Device'
     ],
     '🖨️': [
         'Printer',
-        ':printer:'
+        ':printer:',
+        'Device'
     ],
     '⌨️': [
-        'Keyboard',
-        ':keyboard:'
+        'Computer Keyboard',
+        ':keyboard:',
+        ':computer_keyboard:'
     ],
     '🖱️': [
         'Computer Mouse',
@@ -10545,7 +10568,10 @@ emojis_language[lang][13] = {
     ],
     '🧼': [
         'Bar of Soap',
-        ':bar_of_soap:'
+        ':bar_of_soap:',
+        'Tidy',
+        'Clean',
+        'Scrub'
     ],
     '🧽': [
         'Sponge',
@@ -11317,22 +11343,29 @@ emojis_language[lang][13] = {
         'Shopping Trolley',
         ':shopping_trolley:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Market'
     ],
     '🎟️': [
         'Admission Tickets',
-        ':admission_tickets:'
+        ':admission_tickets:',
+        'Theater',
+        'Theatre',
+        'Party'
     ],
     '🛎️': [
         'Bellhop Bell',
         ':bellhop_bell:',
         ':yellow:',
-        ':gold:'
+        ':gold:',
+        'Hotel',
+        'Reception'
     ],
     '🧾': [
         'Receipt',
         ':receipt:',
-        ':white:'
+        ':white:',
+        'Bill'
     ],
     '🧮': [
         'Abacus',
@@ -11347,7 +11380,9 @@ emojis_language[lang][13] = {
         ':broom:',
         'Brush',
         'Sweep',
-        ':yellow:'
+        ':yellow:',
+        'Tidy',
+        'Clean'
     ],
     '🎰': [
         'Slot Machine',
@@ -11389,7 +11424,8 @@ emojis_language[lang][13] = {
     ],
     '🪶': [
         'Feather',
-        ':feather:'
+        ':feather:',
+        'Animal'
     ],
     '🪤': [
         'Mouse Trap',
@@ -11519,7 +11555,11 @@ emojis_language[lang][13] = {
         ':low_battery:',
         ':red:',
         'Energy',
-        'Red'
+        'Red',
+        'Device',
+        'Smartphone',
+        'Computer',
+        'Console'
     ],
     '🩻': [
         'X-Ray',
@@ -11540,7 +11580,10 @@ emojis_language[lang][13] = {
         ':identification_card:',
         'Identity',
         'Passport',
-        'ID'
+        'ID',
+        'Country',
+        'Security',
+        'Travel'
     ],
     '🧿': [
         'Nazar Amulet',
@@ -11552,6 +11595,9 @@ emojis_language[lang][13] = {
         'Teddy Bear',
         ':teddy_bear:',
         'Toy',
-        ':brown:'
+        ':brown:',
+        'Baby',
+        'Child',
+        'Children'
     ]
 };

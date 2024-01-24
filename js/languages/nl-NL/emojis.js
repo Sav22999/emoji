@@ -131,13 +131,13 @@ emojis_language[lang][2] = {
     ],
     '😍': [
         'Glimlachend Gezicht met Heart-Oyes',
-        'love',
+        'liefde',
         ':smiling_heart-eyes:',
         ':smiling_heart_eyes:',
         ':*.*:',
-        'Heart Eyes',
-        'Heart Face',
-        'Smiling Face with Heart-Shaped Eyes'
+        'Hart Ogen',
+        'Hart Gezicht',
+        'Glimlachend Gezicht met Heart-Shaped Ogen'
     ],
     '🤩': [
         'Sterrenschuur',
@@ -151,24 +151,24 @@ emojis_language[lang][2] = {
     ],
     '😘': [
         'Face Blowing een Kus',
-        'love',
+        'liefde',
         ':kissing_face:',
         '::*:',
         '::-*:',
-        'Blow A Kiss',
-        'Blowing Kiss',
-        'Kissing',
-        'Face Throwing a Kiss'
+        'Blow A Kus',
+        'Bloegende Kus',
+        'Kissend',
+        'Gezicht Gooien van een Kus'
     ],
     '😗': [
         'Kissend Gezicht',
-        'kiss',
+        'kus',
         ':kissing_face:',
         '::*:',
         '::-*:',
-        'Duck Face',
+        'Eend Gezicht',
         'Kissy Face',
-        'Whistling'
+        'Fluit'
     ],
     '☺️': [
         'Glimlachend Gezicht',
@@ -282,14 +282,14 @@ emojis_language[lang][2] = {
     ],
     '🤐': [
         'Postcode',
-        'silent',
-        'silence',
+        'stil',
+        'stilte',
         ':zip_face:',
-        'Zipper-Mouth Face',
-        'Lips Sealed',
-        'Sealed Lips',
-        'Zip It',
-        'Face With a Zipper Mouth'
+        'Zipper-Mouth Gezicht',
+        'Lippen Verzegeld',
+        'Verzegelde liften',
+        'Zip het',
+        'Gezicht met een rits muis'
     ],
     '🤨': [
         'Gezicht met Verhoogde Eyebrow',
@@ -398,18 +398,18 @@ emojis_language[lang][2] = {
     ],
     '🥱': [
         'Gelegen Gezicht',
-        'tired',
+        'moe',
         ':yawning_face:'
     ],
     '😷': [
         'Gezicht met medische masker',
-        'sick',
+        'ziek',
         'doc',
         ':face_with_medical_mask:',
         'Coronavirus',
         'COVID-19',
-        'Mask Face',
-        'Surgical Mask',
+        'Masker Gezicht',
+        'Surgische masker',
         'ill'
     ],
     '🤒': [
@@ -422,44 +422,44 @@ emojis_language[lang][2] = {
     ],
     '🤕': [
         'Gezicht met Hoofdband',
-        'hospital',
-        'sick',
+        'ziekenhuis',
+        'ziek',
         ':face_with_head-bandage:',
         ':face_with_head_bandage:',
-        'Bandaged Head',
-        'Clumsy',
-        'Injured',
+        'Geband Hoofd',
+        'Onhandig',
+        'Verwond',
         'ill'
     ],
     '🤢': [
         'Genaagd Gezicht',
-        'sick',
+        'ziek',
         ':nauseated_face:',
-        'Disgust',
-        'Green Face',
-        'Vomit',
+        'Afschuw',
+        'Groen Gezicht',
+        'Vuur',
         ':green:',
         'ill'
     ],
     '🤮': [
         'Gezicht omgeven',
-        'sick',
+        'ziek',
         ':face_vomiting:',
-        'Spew',
+        'Speer',
         'Bleah',
         'Bleurgh',
         'Yuk',
         'Yuck',
-        'Ew',
-        'Spew',
-        'Throwing Up',
-        'Vomit',
-        'Face with Open Mouth Vomiting',
+        'Ow',
+        'Speer',
+        'Gooien omhoog',
+        'Vuur',
+        'Gezicht met Open Mouth Vomiting',
         'ill'
     ],
     '🤧': [
         'Zichtbaar Gezicht',
-        'sick',
+        'ziek',
         ':sneezing_face:',
         'Gesundheit',
         'ill'
@@ -494,8 +494,8 @@ emojis_language[lang][2] = {
         'Uitbuitende Hoofd',
         'boom',
         ':exploding_head:',
-        'Mind Blown',
-        'Shocked Face with Exploding Head'
+        'Gedurfde Blown',
+        'Geschokt Gezicht met Exploderend Hoofd'
     ],
     '🤠': [
         'Koeienman Hoed Gezicht',
@@ -603,6 +603,13 @@ emojis_language[lang][2] = {
         ':D::',
         'Gooi'
     ],
+    '😧': [
+        'Anguished Face',
+        ':anguished_face:',
+        ':anguished:',
+        ':D::',
+        'Pained Face'
+    ],
     '😨': [
         'bangd',
         ':scared:',
@@ -699,10 +706,10 @@ emojis_language[lang][2] = {
         'Uitnodigend Gezicht',
         'fuck',
         ':pouting_face:',
-        'Angry Face',
-        'Grumpy Face',
-        'Mad Face',
-        'Red Face',
+        'Boos Gezicht',
+        'Grof Gezicht',
+        'Krankzinnig Gezicht',
+        'Rood Gezicht',
         ':red:'
     ],
     '😠': [
@@ -716,12 +723,12 @@ emojis_language[lang][2] = {
         'fuck',
         ':swearing:',
         '@#$%&!',
-        'Face with Symbols on Mouth',
-        'Cursing',
-        'Cussing',
+        'Gezicht met Symbolen op Mouth',
+        'vloeken',
+        'Cusseren',
         'Grawlix',
-        'Face With Symbols Over Mouth',
-        'Serious Face with Symbols Covering Mouth',
+        'Gezicht met Symbolen over Mond',
+        'Ernstig Gezicht met Symbolen Mouth',
         ':red:'
     ],
     '🥲': [
@@ -739,12 +746,12 @@ emojis_language[lang][2] = {
         'Dizzy Face'
     ],
     '😶‍🌫️': [
-        'Face in Clouds',
-        'smoke',
+        'Gezicht in wolken',
+        'rook',
         ':face_in_clouds:',
         'Brain Fog',
-        'Forgetful',
-        'Haze'
+        'Vergeten',
+        'Haast'
     ],
     '🥸': [
         'Vermomd gezicht',
@@ -1069,18 +1076,18 @@ emojis_language[lang][3] = {
         'Cupido',
         'Aanhef'
     ],
-    '👨{{skin_tone}}‍🎄': [
-        'Kerstman Claus',
+    '🎅{{skin_tone}}': [
+        'Santa Claus',
         ':santa_claus:',
-        'Sint Nicholas',
+        'Saint Nicholas',
         'Sinterklaas',
-        'Vader Kerstmis',
+        'Father Christmas',
         ':man:'
     ],
-    '👩{{skin_tone}}‍🎄': [
-        'Mevrouw Claus',
+    '🤶{{skin_tone}}': [
+        'Mrs Claus',
         ':mrs_claus:',
-        'Moeder Kerstmis',
+        'Mother Christmas',
         ':woman:'
     ],
     '🧑{{skin_tone}}‍🎄': [
@@ -1250,11 +1257,11 @@ emojis_language[lang][3] = {
         'Zwangerschap',
         ':person:'
     ],
-    '🤱{{skin_tone}}‍': [
-        'Borstvoeding',
+    '🤱{{skin_tone}}': [
+        'Breast-Feeding',
         ':breast-feeding:',
         ':breast_feeding:',
-        'Borstvoeding'
+        'Breastfeeding'
     ],
     '🦸{{skin_tone}}‍♂️': [
         'Man Superhero',
@@ -1747,38 +1754,38 @@ emojis_language[lang][3] = {
         ':farmer:',
         ':person:'
     ],
-    '👨{{skin_tone}}‍‍⚖️': [
-        'Man Rechter',
+    '👨{{skin_tone}}‍⚖️': [
+        'Man Judge',
         ':man_judge:',
         ':judge:',
         ':man:'
     ],
-    '👩{{skin_tone}}‍‍⚖️': [
-        'Vrouwelijke rechter',
+    '👩‍{{skin_tone}}⚖️': [
+        'Woman Judge',
         ':woman_judge:',
         ':judge:',
         ':woman:'
     ],
-    '🧑{{skin_tone}}‍‍⚖️': [
-        'Persoon rechter',
+    '🧑{{skin_tone}}‍⚖️': [
+        'Person Judge',
         ':person_judge:',
         ':judge:',
         ':person:'
     ],
-    '👨{{skin_tone}}‍‍🏫': [
-        'Man leraar',
+    '👨{{skin_tone}}‍🏫': [
+        'Man Teacher',
         ':man_teacher:',
         ':teacher:',
         ':man:'
     ],
-    '👩{{skin_tone}}‍‍🏫': [
-        'Leraar vrouw',
+    '👩{{skin_tone}}‍🏫': [
+        'Woman Teacher',
         ':woman_teacher:',
         ':teacher:',
         ':woman:'
     ],
-    '🧑‍{{skin_tone}}‍‍🏫': [
-        'Persoon Leraar',
+    '🧑{{skin_tone}}‍🏫': [
+        'Person Teacher',
         ':person_teacher:',
         ':teacher:',
         ':person:'
@@ -1817,12 +1824,12 @@ emojis_language[lang][3] = {
         'Vrouwelijke Verpleegster',
         ':woman:'
     ],
-    '🧑‍{{skin_tone}}‍⚕️': [
+    '🧑{{skin_tone}}‍⚕️': [
         'Person Health Worker',
         ':person_health_worker:',
         ':health_worker:',
-        'Persoon arts',
-        'Persoon verpleging',
+        'Person Doctor',
+        'Person Nurse',
         ':person:'
     ],
     '🤷{{skin_tone}}‍♂️': [
@@ -1867,14 +1874,14 @@ emojis_language[lang][3] = {
         ':facepalming:',
         ':person:'
     ],
-    '🙇{{skin_tone}}‍‍♂️': [
+    '🙇{{skin_tone}}‍♂️': [
         'Man Bowing',
         ':man_bowing:',
         ':bowing:',
         ':man:'
     ],
-    '🙇{{skin_tone}}‍‍♀️': [
-        'Vrouwelijke bogen',
+    '🙇{{skin_tone}}‍♀️': [
+        'Woman Bowing',
         ':woman_bowing:',
         ':bowing:',
         ':woman:'
@@ -1891,8 +1898,8 @@ emojis_language[lang][3] = {
         ':deaf:',
         ':man:'
     ],
-    '🧏{{skin_tone}}‍‍♀️': [
-        'Dafvaan vrouw',
+    '🧏{{skin_tone}}‍♀️': [
+        'Deaf Woman',
         ':deaf_woman:',
         ':deaf:',
         ':woman:'
@@ -1903,8 +1910,8 @@ emojis_language[lang][3] = {
         ':deaf:',
         ':person:'
     ],
-    '🙋{{skin_tone}}‍‍♂️': [
-        'Manan stijgende hand',
+    '🙋{{skin_tone}}‍♂️': [
+        'Man Raising Hand',
         ':man_raising_hand:',
         'Happy Man Raising One Hand',
         ':raising_hand:',
@@ -1987,8 +1994,8 @@ emojis_language[lang][3] = {
         ':pouting:',
         ':man:'
     ],
-    '🙎{{skin_tone}}‍‍♀️': [
-        'Bekken van vrouw',
+    '🙎{{skin_tone}}‍♀️': [
+        'Woman Pouting',
         ':woman_pouting:',
         ':pouting:',
         ':woman:'
@@ -2017,14 +2024,14 @@ emojis_language[lang][3] = {
         ':frowining:',
         ':person:'
     ],
-    '🧟‍‍♂️': [
+    '🧟‍♂️': [
         'Man Zombie',
         ':man_zombie:',
         ':zombie:',
         ':man:'
     ],
-    '🧟‍‍♀️': [
-        'Zombie vrouw',
+    '🧟‍♀️': [
+        'Woman Zombie',
         ':woman_zombie:',
         ':zombie:',
         ':woman:'
@@ -2459,21 +2466,24 @@ emojis_language[lang][3] = {
     ],
     '🛌{{skin_tone}}': [
         'Slaapplaats Accommodatie',
-        'tired',
+        'moe',
         ':sleeping_accommodation:',
-        'Person in Bed',
-        'Person Sleeping'
+        'Persoon in bed',
+        'Persoon Slapen'
     ],
     '🛀{{skin_tone}}': [
-        'Person Taking Bath',
-        'Bathing',
+        'Persoon nemen bad',
+        'Zegen',
         ':bath:',
         ':person_taking_bath:',
-        'Hot Bath',
-        'Person Taking a Bath',
-        'Bath',
-        'Shower',
-        'Soap'
+        'Hete bad',
+        'Persoon nemen van een bad',
+        'Pad',
+        'Douche',
+        'Zeep',
+        'Tidy',
+        'Clean',
+        'Scrub'
     ],
     '🧌': [
         'Troll',
@@ -3294,15 +3304,15 @@ emojis_language[lang][5] = {
         ':red:'
     ],
     '❤️‍🩹': [
-        'Mending Heart',
+        'Mend Hart',
         ':mending_heart:',
-        'Bandaged Heart',
-        'Healing Heart',
-        'Unbroken Heart',
+        'Geboden Hart',
+        'Hart genezen',
+        'Ongebroken Hart',
         ':red:'
     ],
     '❤️‍🔥': [
-        'Heart on Fire',
+        'Hart bij Vuur',
         ':heart_on_fire:',
         ':red:'
     ],
@@ -6005,13 +6015,18 @@ emojis_language[lang][7] = {
         'Transgender Vlag',
         ':transgender_flag:',
         'Blauw, roze en witte vlag',
-        'Trans Vlag'
+        'Trans Vlag',
+        'Blue',
+        'Pink'
     ],
     '🏴‍☠️': [
         'Piraten vlag',
         ':pirate_flag:',
         'Witte Roger',
-        ':black:'
+        ':black:',
+        'Corsair',
+        'Privateer',
+        'Buccaneer'
     ],
     '🇺🇳': [
         'Vlag van de Verenigde Naties',
@@ -6435,26 +6450,26 @@ emojis_language[lang][7] = {
         'Union Jack',
         'VK'
     ],
-    '🏴󠁧󠁢󠁥󠁮󠁧󠁿󠁧󠁢󠁥󠁮󠁧󠁿': [
-        'Vlag van Engeland',
+    '🏴󠁧󠁢󠁥󠁮󠁧󠁿': [
+        'Flag of England',
         ':england:',
-        'Saint Georges kruis',
-        'Engelse vlag'
+        'St Georges Cross',
+        'English Flag'
     ],
-    '🏴󠁧󠁢󠁷󠁬󠁳󠁿󠁧󠁢󠁷󠁬󠁳󠁿': [
-        'Vlag van Wales',
+    '🏴󠁧󠁢󠁷󠁬󠁳󠁿': [
+        'Flag of Wales',
         ':wales:',
-        'Welsh vlag',
-        'Rode Draak',
+        'Welsh Flag',
+        'Red Dragon',
         'Baner Cymru',
         'Y Ddraig Goch'
     ],
-    '🏴󠁧󠁢󠁳󠁣󠁴󠁿󠁧󠁢󠁳󠁣󠁴󠁿': [
-        'Vlag van Schotland',
+    '🏴󠁧󠁢󠁳󠁣󠁴󠁿': [
+        'Flag of Scotland',
         ':scotland:',
-        'Schotse vlag',
-        'St. Andrews Kruis',
-        'Saldo'
+        'Scottish Flag',
+        'St Andrews Cross',
+        'Saltire'
     ],
     '🇬🇩': [
         'Vlag van Grenada',
@@ -7365,7 +7380,7 @@ emojis_language[lang][8] = {
         'Skier',
         ':skier:'
     ],
-    '🏂{{skin_tone}}‍': [
+    '🏂{{skin_tone}}': [
         'Snowboarder',
         ':snowboarder:'
     ],
@@ -8592,7 +8607,8 @@ emojis_language[lang][10] = {
         ':mobile_phone:',
         'Smartphone',
         'iPhone',
-        'Mobiele telefoon'
+        'Mobiele telefoon',
+        'Device'
     ],
     '📲': [
         'Mobiele telefoon met pijltje rechts aan de linkerkant',
@@ -8611,7 +8627,8 @@ emojis_language[lang][10] = {
         ':phone:',
         'Handset',
         'Telefoonnummer',
-        ':black:'
+        ':black:',
+        'Device'
     ],
     '📟': [
         'Pager',
@@ -8641,25 +8658,31 @@ emojis_language[lang][10] = {
     '💻': [
         'Laptop',
         ':laptop:',
-        'Notitieboekje',
-        'Persoonlijke Computer',
-        'pc',
+        ':computer:',
+        'Notebook',
+        'Personal Computer',
+        'PC',
         'MacBook',
-        'Oppervlak'
+        'Surface',
+        'Device'
     ],
     '🖥️': [
         'Bureaublad Computer',
         ':desktop_computer:',
+        ':computer:',
         'iMac',
-        'pc'
+        'PC',
+        'Device'
     ],
     '🖨️': [
         'Printer',
-        ':printer:'
+        ':printer:',
+        'Device'
     ],
     '⌨️': [
-        'Keyboard',
-        ':keyboard:'
+        'Computer Keyboard',
+        ':keyboard:',
+        ':computer_keyboard:'
     ],
     '🖱️': [
         'Computer Muis',
@@ -10347,7 +10370,7 @@ emojis_language[lang][13] = {
     '🪓': [
         'Bijl',
         ':axe:',
-        'firefighter'
+        'brandweerman'
     ],
     '🪚': [
         'Timmerwerk Zaag',
@@ -10453,8 +10476,8 @@ emojis_language[lang][13] = {
         'Bloed Test',
         'Naald',
         'Vaccinatie',
-        'blood',
-        'sick',
+        'bloed',
+        'ziek',
         'ill'
     ],
     '🧬': [
@@ -10545,7 +10568,10 @@ emojis_language[lang][13] = {
     ],
     '🧼': [
         'Soap Balk',
-        ':bar_of_soap:'
+        ':bar_of_soap:',
+        'Tidy',
+        'Clean',
+        'Scrub'
     ],
     '🧽': [
         'Spons',
@@ -11171,7 +11197,7 @@ emojis_language[lang][13] = {
         ':white:'
     ],
     '🗨️': [
-        'Left Speech Bubble',
+        'Linker spraak Bubbel',
         ':left_speech_bubble:',
         ':speech_left:'
     ],
@@ -11181,7 +11207,7 @@ emojis_language[lang][13] = {
         'Capsule',
         'Telefoon',
         'Medicijnen',
-        'Sick',
+        'Ziek',
         'ill',
         ':yellow:',
         ':red:'
@@ -11312,27 +11338,34 @@ emojis_language[lang][13] = {
         ':shopping_bags:'
     ],
     '🛒': [
-        'Shopping Cart',
+        'Winkelwagen',
         ':shopping_cart:',
-        'Shopping Trolley',
+        'Winkelen Trolley',
         ':shopping_trolley:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Market'
     ],
     '🎟️': [
         'Toegangskaarten',
-        ':admission_tickets:'
+        ':admission_tickets:',
+        'Theater',
+        'Theatre',
+        'Party'
     ],
     '🛎️': [
         'Bellhop Bell',
         ':bellhop_bell:',
         ':yellow:',
-        ':gold:'
+        ':gold:',
+        'Hotel',
+        'Reception'
     ],
     '🧾': [
         'Bon',
         ':receipt:',
-        ':white:'
+        ':white:',
+        'Bill'
     ],
     '🧮': [
         'Abacus',
@@ -11347,7 +11380,9 @@ emojis_language[lang][13] = {
         ':broom:',
         'Borstel',
         'Vegen',
-        ':yellow:'
+        ':yellow:',
+        'Tidy',
+        'Clean'
     ],
     '🎰': [
         'Sleuf Machine',
@@ -11389,7 +11424,8 @@ emojis_language[lang][13] = {
     ],
     '🪶': [
         'Veer',
-        ':feather:'
+        ':feather:',
+        'Animal'
     ],
     '🪤': [
         'Muis Val',
@@ -11519,7 +11555,11 @@ emojis_language[lang][13] = {
         ':low_battery:',
         ':red:',
         'Energie',
-        'Rood'
+        'Rood',
+        'Device',
+        'Smartphone',
+        'Computer',
+        'Console'
     ],
     '🩻': [
         'X-Raai',
@@ -11540,7 +11580,10 @@ emojis_language[lang][13] = {
         ':identification_card:',
         'Identiteit',
         'Paspoort',
-        'ID'
+        'ID',
+        'Country',
+        'Security',
+        'Travel'
     ],
     '🧿': [
         'Nazar Amulet',
@@ -11552,6 +11595,9 @@ emojis_language[lang][13] = {
         'Teddy Beer',
         ':teddy_bear:',
         'Speelgoed',
-        ':brown:'
+        ':brown:',
+        'Baby',
+        'Child',
+        'Children'
     ]
 };
