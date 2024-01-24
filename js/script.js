@@ -2112,7 +2112,7 @@ function setLanguageFile() {
     all_emojis = emojis.slice();
     setSkinToneEmojis();
 
-    checkEmojis(); //TODO!for-test-only
+    //checkEmojis(); //TODO!for-test-only
 }
 
 function setLanguageUI() {
