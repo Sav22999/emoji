@@ -122,7 +122,6 @@ function checkEmojis() {
     }
 }
 
-const storeNameAbbr = ["MFA", "MEA", "GCWS"];//{MozillaFirefoxAddons, MicrosoftEdgeAddons, GoogleChromeWebStore}
 const releaseNumber = browserAgentSettings.runtime.getManifest().version;
 const addonName = browserAgentSettings.runtime.getManifest().name;
 const browserVersion = "--"
