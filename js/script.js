@@ -538,8 +538,7 @@ function setPopUpUI() {
     height_of_the_popup = document.body.offsetHeight;
     width_of_the_popup = document.body.offsetWidth;
 
-    if (browserOrChromeIndex == 1 || browserOrChromeIndex == 2) {
-        document.getElementById("extension-icon-section-container").style.display = "none";
+    if (browserOrChromeIndex === 1 || browserOrChromeIndex === 2 || browserOrChromeIndex === 3) {
         document.getElementById("key-shortcut-section-container").style.display = "none";
         document.getElementById("insert-emoji-container").style.display = "none";
     }
@@ -1772,7 +1771,7 @@ function loadSettings(resize_popup_ui = false, focus_search_box = false) {
         space_emoji = spaceEmojiElement.value.toLowerCase();
         insert_directly_emoji = alsoInsertEmojiElement.value.toLowerCase();
 
-        setExtensionIcon("../img/extension-icons/" + extension_icons[extension_icon_selected] + ".png");
+        setExtensionIcon("../img/extension-icons/" + extension_icons[extension_icon_selected] + ".png", "../img/extension-icons/size/16/" + extension_icons[extension_icon_selected] + ".png", "../img/extension-icons/size/48/" + extension_icons[extension_icon_selected] + ".png", "../img/extension-icons/size/128/" + extension_icons[extension_icon_selected] + ".png");
 
         setFontFamily();
 
@@ -2114,8 +2113,18 @@ function searchForTooltip(emojiToSearch) {
     return tooltipToReturn;
 }
 
-function setExtensionIcon(url) {
-    //browserAgentSettings.browserAction.setIcon({path: url});
+function setExtensionIcon(url, url16, url48, url128) {
+    if (browserOrChromeIndex === 1 || browserOrChromeIndex === 2 || browserOrChromeIndex === 3) {
+        browserAgentSettings.action.setIcon({
+            path: {
+                "16": url16,
+                "48": url48,
+                "128": url128
+            }
+        });
+    } else {
+        browserAgentSettings.browserAction.setIcon({path: url});
+    }
 }
 
 function setLanguageFile() {

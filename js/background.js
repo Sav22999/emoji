@@ -22,12 +22,22 @@ function loaded() {
         }
         extension_icon_selected = jsonSettings.extension_icon;
         if (extension_icon_selected === undefined) extension_icon_selected = 0;
-        setExtensionIcon("../img/extension-icons/" + extension_icons[extension_icon_selected] + ".png");
+        setExtensionIcon("../img/extension-icons/" + extension_icons[extension_icon_selected] + ".png", "../img/extension-icons/size/16/" + extension_icons[extension_icon_selected] + ".png", "../img/extension-icons/size/48/" + extension_icons[extension_icon_selected] + ".png", "../img/extension-icons/size/128/" + extension_icons[extension_icon_selected] + ".png");
     });
 }
 
-function setExtensionIcon(url) {
-    //browserAgentSettings.browserAction.setIcon({path: url});
+function setExtensionIcon(url, url16, url48, url128) {
+    if (browserOrChromeIndex === 1 || browserOrChromeIndex === 2 || browserOrChromeIndex === 3) {
+        browserAgentSettings.action.setIcon({
+            path: {
+                "16": url16,
+                "48": url48,
+                "128": url128
+            }
+        });
+    } else {
+        browserAgentSettings.browserAction.setIcon({path: url});
+    }
 }
 
 let requestNumber = 0;
