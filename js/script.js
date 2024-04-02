@@ -149,6 +149,46 @@ loadSettings(true, true);
 generateTitles();
 
 function loaded() {
+    for (let emoji in all_emojis[2]) {
+        all_emojis[2][emoji].push(titles["😀"]);
+    }
+    for (let emoji in all_emojis[3]) {
+        all_emojis[3][emoji].push(titles["😀"]);
+    }
+    for (let emoji in all_emojis[4]) {
+        all_emojis[4][emoji].push(titles["🙋"]);
+    }
+    for (let emoji in all_emojis[5]) {
+        all_emojis[5][emoji].push(titles["🦊"]);
+    }
+    for (let emoji in all_emojis[6]) {
+        all_emojis[6][emoji].push(titles["🅰️"]);
+    }
+    for (let emoji in all_emojis[7]) {
+        all_emojis[7][emoji].push(titles["🍎"]);
+    }
+    for (let emoji in all_emojis[8]) {
+        all_emojis[8][emoji].push(titles["🏳️‍🌈"]);
+    }
+    for (let emoji in all_emojis[9]) {
+        all_emojis[9][emoji].push(titles["🏊"]);
+    }
+    for (let emoji in all_emojis[10]) {
+        all_emojis[10][emoji].push(titles["✈️"]);
+    }
+    for (let emoji in all_emojis[11]) {
+        all_emojis[11][emoji].push(titles["🖱️"]);
+    }
+    for (let emoji in all_emojis[12]) {
+        all_emojis[12][emoji].push(titles["👗"]);
+    }
+    for (let emoji in all_emojis[13]) {
+        all_emojis[13][emoji].push(titles["🖐️"]);
+    }
+    for (let emoji in all_emojis[14]) {
+        all_emojis[14][emoji].push(titles["🛎️"]);
+    }
+
     searchBarInputElement.onkeyup = function (e) {
         let emojisToGenerate = searchEmoji(searchBarInputElement.value);
         //console.log(emojisToGenerate);
