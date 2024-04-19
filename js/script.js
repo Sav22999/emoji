@@ -1706,7 +1706,7 @@ function loadSettings(resize_popup_ui = false, focus_search_box = false) {
         if (jsonSettings.keyboard_shortcut !== undefined) {
             let splitKeyboardShortcut = jsonSettings.keyboard_shortcut.split("+");
             let letterNumberShortcut = splitKeyboardShortcut[splitKeyboardShortcut.length - 1];
-            let ctrlAltShiftShortcut = jsonSettings.keyboard_shortcut.substring(0, jsonSettings.keyboard_shortcut.length - 2);
+            let ctrlAltShiftShortcut = jsonSettings.keyboard_shortcut.substring(0, jsonSettings.keyboard_shortcut.length - (letterNumberShortcut.length + 1));
             keyboardShortcutLetterNumber.value = letterNumberShortcut;
             keyboardShortcutCtrlAltShift.value = ctrlAltShiftShortcut;
             currentShortcut = ctrlAltShiftShortcut + "+" + letterNumberShortcut;
