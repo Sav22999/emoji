@@ -1706,7 +1706,15 @@ function loadSettings(resize_popup_ui = false, focus_search_box = false) {
         if (jsonSettings.keyboard_shortcut !== undefined) {
             let splitKeyboardShortcut = jsonSettings.keyboard_shortcut.split("+");
             let letterNumberShortcut = splitKeyboardShortcut[splitKeyboardShortcut.length - 1];
-            let ctrlAltShiftShortcut = jsonSettings.keyboard_shortcut.substring(0, jsonSettings.keyboard_shortcut.length - 2);
+            let ctrlAltShiftShortcut = "";
+            if (splitKeyboardShortcut.length >= 2) {
+                for (let i = 0; i < splitKeyboardShortcut.length - 2; i++) {
+                    ctrlAltShiftShortcut += splitKeyboardShortcut[i] + "+";
+                }
+                ctrlAltShiftShortcut += splitKeyboardShortcut[splitKeyboardShortcut.length - 2];
+            } else {
+                ctrlAltShiftShortcut = splitKeyboardShortcut[0];
+            }
             keyboardShortcutLetterNumber.value = letterNumberShortcut;
             keyboardShortcutCtrlAltShift.value = ctrlAltShiftShortcut;
             currentShortcut = ctrlAltShiftShortcut + "+" + letterNumberShortcut;
