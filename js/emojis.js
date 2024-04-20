@@ -1559,7 +1559,7 @@ emojis_language[lang][11] = {
     "🤿": ["Diving Mask", ":diving_mask:"],
     "🦺": ["Safety Vest", ":safety_vest:"],
     "🥻": ["Sari", ":sari:", "Saree", "Shari"],
-    "🩲": ["Briefs", ":briefs:"],
+    "🩲": ["Briefs", ":briefs:", "Undies", "Underwear", "Underpants", "Jocks", "Panties"],
     "🩳": ["Shorts", ":shorts:"],
     "🛼": ["Roller Skate", ":roller_skate:", "Inline Skate", "Roller Derby"],
     "🩴": ["Flip Flop", ":flip_flop:", "Thong Sandal"],
