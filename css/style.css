@@ -870,10 +870,14 @@ div {
 
 #skin-tone-container, #auto-close-container, #multi-copy-container, #space-emoji-container, #insert-emoji-container, #theme-container, #extension-icon-container {
     position: relative;
-    height: 30px;
     display: inline-block;
     top: 0px;
     margin-left: 10px;
+    height: auto;
+}
+
+#insert-emoji-container {
+    display: block !important;
 }
 
 #extension-icon-section-container, #skin-tone-section-container {
@@ -882,6 +886,10 @@ div {
 
 #skin-tone-section-container > .title-subsection-settings, #extension-icon-section-container > .title-subsection-settings {
     margin-top: 3px;
+}
+
+#skin-tone-section-container {
+    margin-top: 7px;
 }
 
 #extension-icon-section-container > .title-subsection-settings {

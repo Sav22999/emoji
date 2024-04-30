@@ -7,6 +7,8 @@ if (browserOrChromeIndex === 0) {
 }
 var lastRequestNumber = -1;
 browserAgentSettings.runtime.onMessage.addListener(function (request, sender, sendResponse) {
+    console.info("inserting emoji: " + request.emoji + " - requestNumber: " + request.requestNumber);
+    console.info("lastRequestNumber: " + lastRequestNumber);
     if (request.type === "insert-emoji-by-injection" && request.requestNumber !== lastRequestNumber) {
         let active = document.activeElement;
         if (["input", "textarea"].includes(active.tagName.toLowerCase())) {

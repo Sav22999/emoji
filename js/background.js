@@ -52,29 +52,45 @@ function tabUpdated(tabId, changeInfo, tabInfo) {
     //nothing
 }
 
-browserAgentSettings.runtime.onMessage.addListener((request) => {
+browserAgentSettings.runtime.onMessage.addListener((request, sender, sendResponse) => {
     if (request.type === "inject") {
         //inject the script
+        console.info("injecting " + request.file);
         injectContentScript(request.file);
     } else if (request.type === "requestNumber") {
         //return the request number for the injection
-        return Promise.resolve({requestNumber: requestNumber++});
+        sendResponse({
+            requestNumber: requestNumber++
+        });
     } else {
         console.error("Request unknown");
     }
 });
 
-async function injectContentScript(file) {
+function injectContentScript(file) {
     //return await browserAgentSettings.tabs.executeScript({file: file, allFrames: true});
-    /*
-    return await browserAgentSettings.tabs.query({active: true, currentWindow: true}, function (tabs) {
+
+    /*return await browserAgentSettings.tabs.query({active: true, currentWindow: true}, function (tabs) {
         const activeTab = tabs[0];
         browserAgentSettings.scripting.executeScript({
             target: {tabId: activeTab.id, allFrames: true},
             files: [file],
         });
+    });*/
+
+    chrome.tabs.query({active: true, currentWindow: true}, function (tabs) {
+        const activeTab = tabs[0];
+        if (tabs !== undefined && tabs.length > 0) {
+            chrome.scripting.executeScript({
+                target: {tabId: activeTab.id, allFrames: true},
+                files: [file],
+            }).then(() => {
+                // Script executed successfully
+            }).catch((error) => {
+                console.error("E1: " + error + "\nin " + activeTab.url);
+            });
+        }
     });
-    */
 }
 
 loaded();

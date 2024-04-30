@@ -43,6 +43,7 @@ const skin_tones = ["", "🏻", "🏼", "🏽", "🏾", "🏿"]; //standard(yell
 
 var mostUsedEmojis = [];
 
+var injected = false;
 
 var browserAgentSettings = "";
 var currentOS = "";
@@ -249,15 +250,19 @@ function copyEmoji(text, tooltip) {
         showMessageBottom(strings["other"]["label-copied"], copyText);
 
         //TODO: improve this check in Chromium
-        if (insert_directly_emoji === "yes" && browserOrChromeIndex === 0) {
-            //if enabled AND it's Firefox
+        if (insert_directly_emoji === "yes") {
+            //if enabled, insert the emoji directly
             browserAgentSettings.tabs.query({active: true, currentWindow: true}, function (tabs) {
                 requestNumber++;
                 browserAgentSettings.runtime.sendMessage({
                     type: "requestNumber"
                 }).then((response) => {
+                    if (response === undefined) response = {};
+                    let rn = response.requestNumber;
+                    if (rn === undefined) rn = 0;
+                    requestNumber = rn;
                     browserAgentSettings.tabs.sendMessage(tabs[0].id, {
-                        type: "insert-emoji-by-injection", emoji: text, requestNumber: response.requestNumber
+                        type: "insert-emoji-by-injection", emoji: text, requestNumber: rn
                     }).catch(onError);
                     addToMostUsedCopyEmoji(nameOfSetting, text, tooltip);
                 }).catch(onError);
@@ -540,7 +545,7 @@ function setPopUpUI() {
 
     if (browserOrChromeIndex === 1 || browserOrChromeIndex === 2 || browserOrChromeIndex === 3) {
         document.getElementById("key-shortcut-section-container").style.display = "none";
-        document.getElementById("insert-emoji-container").style.display = "none";
+        //document.getElementById("insert-emoji-container").style.display = "none";
     }
 
     setLanguageSelector(language_to_show);
@@ -664,6 +669,11 @@ function setPopUpUI() {
     }
     selectYesNoSpaceEmoji(document.getElementById("space-emoji-selected").selectedIndex);
 
+    document.getElementById("insert-emoji-selected").onchange = function () {
+        selectYesNoInsertEmoji(document.getElementById("insert-emoji-selected").selectedIndex, onlyStatus = true);
+
+        saveSettings();
+    }
     selectYesNoInsertEmoji(document.getElementById("insert-emoji-selected").selectedIndex, onlyStatus = true);
 
     document.getElementById("auto-close-yes").onclick = function () {
@@ -715,12 +725,12 @@ function setPopUpUI() {
 
         saveSettings();
     }
-    document.getElementById("insert-emoji-yes").addEventListener("click", function () {
+    document.getElementById("insert-emoji-yes").onclick = function () {
         document.getElementById("insert-emoji-selected").selectedIndex = 0;
         selectYesNoInsertEmoji(0);
 
         saveSettings();
-    });
+    }
 
     document.getElementById("theme-light").onclick = function () {
         document.getElementById("theme-selected").selectedIndex = 0;
@@ -1769,6 +1779,7 @@ function loadSettings(resize_popup_ui = false, focus_search_box = false) {
         extension_icon_selected = extensionIconElement.selectedIndex;
         if (extension_icon_selected == undefined) extension_icon_selected = 0;
         space_emoji = spaceEmojiElement.value.toLowerCase();
+
         insert_directly_emoji = alsoInsertEmojiElement.value.toLowerCase();
 
         setExtensionIcon("../img/extension-icons/" + extension_icons[extension_icon_selected] + ".png", "../img/extension-icons/size/16/" + extension_icons[extension_icon_selected] + ".png", "../img/extension-icons/size/48/" + extension_icons[extension_icon_selected] + ".png", "../img/extension-icons/size/128/" + extension_icons[extension_icon_selected] + ".png");
@@ -2002,53 +2013,68 @@ function selectYesNoSpaceEmoji(index) {
 }
 
 function sendMessageForInjection(forced = false) {
-    browserAgentSettings.runtime.sendMessage({type: "inject", file: contestScriptJs[0].file, forced: forced});
+    if (!injected) {
+        injected = true;
+        browserAgentSettings.runtime.sendMessage({type: "inject", file: contestScriptJs[0].file, forced: forced});
+    }
 }
 
 let insertEmojiStatus = 0;
-let contestScriptMatches = ["<all_urls>"];
 let contestScriptJs = [{file: "./js/emoji-insert-directly.js"}];
 
 function selectYesNoInsertEmoji(index, onlyStatus = false) {
+    const permissionsToRequest = {
+        origins: ["<all_urls>"],
+        permissions: ["scripting"]
+    }
+
+    console.log("insertEmojiStatus: " + insertEmojiStatus + " - index: " + index + " - onlyStatus: " + onlyStatus)
+
     if (onlyStatus) {
         selectYesNoButton("insert-emoji-button", index);
-        try {
-            if (index === 1 && browserAgentSettings.permissions.contains({origins: ['<all_urls>']}) && browserAgentSettings.permissions.contains({permissions: ['activeTab']})) {
-                selectYesNoButton("insert-emoji-button", 0);
-                insert_directly_emoji = "yes";
+        chrome.permissions.contains({origins: ['<all_urls>']}, function (result) {
+            if (result) {
+                console.info("-1-" + result)
+                chrome.permissions.contains({permissions: ['activeTab']}, function (result) {
+                    console.info("-2-" + result)
+                    if (result) {
+                        selectYesNoButton("insert-emoji-button", 0);
+                        insert_directly_emoji = "yes";
+                    } else {
+                        selectYesNoButton("insert-emoji-button", 1);
+                        insert_directly_emoji = "no";
+                    }
+                });
             } else {
                 selectYesNoButton("insert-emoji-button", 1);
                 insert_directly_emoji = "no";
             }
-        } catch (e) {
-            //check permissions and in case force to "No"
-            selectYesNoButton("insert-emoji-button", 1);
-            insert_directly_emoji = "no";
-        }
+        });
     } else {
         insertEmojiStatus++;
         if (index === 0) {
             // yes
             if (insertEmojiStatus === 1) {
-                const permissionsToRequest = {
-                    permissions: ["activeTab"], origins: contestScriptMatches
+                // do this just when it's from "no" to "yes"
+                try {
+                    chrome.permissions.request(permissionsToRequest).then(response => {
+                        console.info("-3-" + response)
+                        if (response) {
+                            // Granted
+                            selectYesNoButton("insert-emoji-button", index);
+                            saveSettings();
+                            sendMessageForInjection(true); // Forced the injection the first time
+                        } else {
+                            // Rejected
+                            selectYesNoButton("insert-emoji-button", 1);
+                            saveSettings();
+                        }
+                    }).then(() => {
+                        //window.close();
+                    });
+                } catch (e) {
+                    console.error("E-P1 - " + e);
                 }
-
-                async function onResponse(response) {
-                    if (response) {
-                        //Granted
-                        selectYesNoButton("insert-emoji-button", index);
-                        saveSettings();
-                        sendMessageForInjection(true); //forced the injection the first time
-                    } else {
-                        //Refused
-                        selectYesNoButton("insert-emoji-button", 1);
-                        saveSettings();
-                    }
-                    return browserAgentSettings.permissions.getAll();
-                }
-
-                browserAgentSettings.permissions.request(permissionsToRequest, onResponse);
             }
         } else {
             insertEmojiStatus = 0;
@@ -2064,8 +2090,12 @@ function selectYesNoTheme(index) {
 }
 
 function selectYesNoButton(class_name, index) {
-    document.getElementsByClassName(class_name)[0].classList.remove("button-yes-no-selected"); //yes
-    document.getElementsByClassName(class_name)[1].classList.remove("button-yes-no-selected"); //no
+    if (document.getElementsByClassName(class_name)[0].classList.contains("button-yes-no-selected")) {
+        document.getElementsByClassName(class_name)[0].classList.remove("button-yes-no-selected"); //yes
+    }
+    if (document.getElementsByClassName(class_name)[1].classList.contains("button-yes-no-selected")) {
+        document.getElementsByClassName(class_name)[1].classList.remove("button-yes-no-selected"); //no
+    }
 
     document.getElementsByClassName(class_name)[index].classList.add("button-yes-no-selected");
 }
