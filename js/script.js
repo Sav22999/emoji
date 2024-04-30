@@ -58,7 +58,7 @@ const linkTranslate = "https://crowdin.com/project/emoji-sav";
 const linkNeedHelp = ["https://www.emojiaddon.com/help"];
 const fontFamily = ["twemoji", "notocoloremoji", "notocoloremoji", "twemoji-fix-macos", "joypixels"];
 
-var browserOrChromeIndex = 1; //TODO: change manually: {0: Firefox, 1: Microsoft Edge, 2: Chrome Web Store, 3: Opera add-ons}
+var browserOrChromeIndex = 2; //TODO: change manually: {0: Firefox, 1: Microsoft Edge, 2: Chrome Web Store, 3: Opera add-ons}
 const storeNameAbbr = ["MFA", "MEA", "GCWS", "OA"];//{MozillaFirefoxAddons, MicrosoftEdgeAddons, GoogleChromeWebStore, OperaAddons}
 const storeName = ["Firefox Add-ons", "Microsoft Edge Add-ons", "Google Chrome Web Store", "Opera add-ons"];
 const linkReview = ["https://addons.mozilla.org/firefox/addon/emoji-sav/", "https://microsoftedge.microsoft.com/addons/detail/emoji/ejcgfbaipbelddlbokgcfajefbnnagfm", "https://chrome.google.com/webstore/detail/emoji/kjepehkgbooeigeflhiogplnckadlife?hl=it&authuser=0", "https://addons.opera.com/en-gb/extensions/details/emoji/"];
@@ -88,7 +88,7 @@ const jsonSettingsDefaultValue = {
     "extension_icon": 0,
     "language": getLanguageCode(browserAgentSettings.i18n.getUILanguage().toString()),
     "space_emoji": 0,
-    "insert_directly_emoji": 0,
+    "insert_directly_emoji": 1,
     "keyboard_shortcut": "Ctrl+Alt+A",
 };
 
@@ -289,14 +289,14 @@ function onError(error) {
 }
 
 function addToMostUsedCopyEmoji(nameOfSetting, emoji, tooltip) {
-    console.log("Adding ... <1>")
+    //console.log("Adding ... <1>")
     browserAgentSettings.storage.sync.get(nameOfSetting, function (value) {
         if (value[nameOfSetting] != undefined) {
             //already exist, so set the array at saved status
-            console.log("Exists ... <1>")
+            //console.log("Exists ... <1>")
             mostUsedEmojis = value[nameOfSetting];
         } else {
-            console.log("NOT exists ... <1>")
+            //console.log("NOT exists ... <1>")
         }
         addToMostUsed(emoji, tooltip);
         getMostUsedEmojisLength(selectedTitle);
@@ -327,7 +327,7 @@ function getMostUsedEmojisLength(titleToSet) {
 }
 
 function addToMostUsed(emoji, tooltip, occurrences = 1) {
-    console.log("Adding ... <2>")
+    //console.log("Adding ... <2>")
     let emojiToAdd = {"emoji": emoji, "occurrences": occurrences, "tooltip": tooltip};
     let indexToUse = -1; // -1: not in the JSON
     for (let tempIndex = 0; tempIndex < mostUsedEmojis.length && indexToUse == -1; tempIndex++) {
@@ -1636,7 +1636,7 @@ function saveSettings(reset = false, jsonToUse = null) {
         if (jsonToUse["space_emoji"] === undefined) spaceEmoji = 0;
         else spaceEmoji = jsonToUse["space_emoji"];
 
-        if (jsonToUse["insert_directly_emoji"] === undefined) alsoInsertEmoji = 0;
+        if (jsonToUse["insert_directly_emoji"] === undefined) alsoInsertEmoji = 1;
         else alsoInsertEmoji = jsonToUse["insert_directly_emoji"];
 
         if (jsonToUse["keyboard_shortcut"] === undefined) keyboardShortcut = "Ctrl+Alt+A";
@@ -2028,25 +2028,27 @@ function selectYesNoInsertEmoji(index, onlyStatus = false) {
         permissions: ["scripting"]
     }
 
-    console.log("insertEmojiStatus: " + insertEmojiStatus + " - index: " + index + " - onlyStatus: " + onlyStatus)
-
+    selectYesNoButton("insert-emoji-button", index);
     if (onlyStatus) {
-        selectYesNoButton("insert-emoji-button", index);
         chrome.permissions.contains({origins: ['<all_urls>']}, function (result) {
-            if (result) {
-                console.info("-1-" + result)
+            if (result && index === 0) {
                 chrome.permissions.contains({permissions: ['activeTab']}, function (result) {
-                    console.info("-2-" + result)
                     if (result) {
-                        selectYesNoButton("insert-emoji-button", 0);
+                        if (index !== 0) {
+                            selectYesNoButton("insert-emoji-button", 0);
+                        }
                         insert_directly_emoji = "yes";
                     } else {
-                        selectYesNoButton("insert-emoji-button", 1);
+                        if (index !== 1) {
+                            selectYesNoButton("insert-emoji-button", 1);
+                        }
                         insert_directly_emoji = "no";
                     }
                 });
             } else {
-                selectYesNoButton("insert-emoji-button", 1);
+                if (index !== 1) {
+                    selectYesNoButton("insert-emoji-button", 1);
+                }
                 insert_directly_emoji = "no";
             }
         });
@@ -2058,11 +2060,10 @@ function selectYesNoInsertEmoji(index, onlyStatus = false) {
                 // do this just when it's from "no" to "yes"
                 try {
                     chrome.permissions.request(permissionsToRequest).then(response => {
-                        console.info("-3-" + response)
                         if (response) {
                             // Granted
-                            selectYesNoButton("insert-emoji-button", index);
-                            saveSettings();
+                            //selectYesNoButton("insert-emoji-button", index);
+                            //saveSettings();
                             sendMessageForInjection(true); // Forced the injection the first time
                         } else {
                             // Rejected
@@ -2079,8 +2080,8 @@ function selectYesNoInsertEmoji(index, onlyStatus = false) {
         } else {
             insertEmojiStatus = 0;
             // no
-            selectYesNoButton("insert-emoji-button", 1);
-            saveSettings();
+            //selectYesNoButton("insert-emoji-button", index);
+            //saveSettings();
         }
     }
 }

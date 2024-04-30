@@ -2,7 +2,7 @@ var extension_icon_selected = 0; //extension-icon-1
 var extension_icons = ["extension-icon-1", "extension-icon-2", "extension-icon-3", "extension-icon-4", "extension-icon-5", "extension-icon-6", "extension-icon-7", "extension-icon-8", "extension-icon-9", "extension-icon-10", "extension-icon-11"];
 
 var browserAgentSettings = "";
-var browserOrChromeIndex = 1; //TODO: change manually: {0: Firefox, 1: Microsoft Edge, 2: Chrome Web Store, 3: Opera add-ons}
+var browserOrChromeIndex = 2; //TODO: change manually: {0: Firefox, 1: Microsoft Edge, 2: Chrome Web Store, 3: Opera add-ons}
 if (browserOrChromeIndex === 0) {
     browserAgentSettings = browser;
 } else if (browserOrChromeIndex === 1 || browserOrChromeIndex === 2 || browserOrChromeIndex === 3) {
@@ -55,7 +55,6 @@ function tabUpdated(tabId, changeInfo, tabInfo) {
 browserAgentSettings.runtime.onMessage.addListener((request, sender, sendResponse) => {
     if (request.type === "inject") {
         //inject the script
-        console.info("injecting " + request.file);
         injectContentScript(request.file);
     } else if (request.type === "requestNumber") {
         //return the request number for the injection

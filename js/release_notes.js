@@ -153,6 +153,13 @@ function releaseNotes(release) {
             release_notes_text += "<br><div class='text-center'><a href='https://t.me/sav_projects' class='close-popup button-release'>Join now on Telegram!</a></div>";
             release_notes_text += "</ul>";
             break;
+
+            case "3.22":
+            release_notes_text = "<ul>";
+            release_notes_text += "<li>Now you can enable the <i>Insert directly the emoji</i> in Settings: when enabled, when you select the emoji, it's automatically inserted in the textbox focussed</li>";
+            release_notes_text += "<li>Some improvements backend</li>";
+            release_notes_text += "</ul>";
+            break;
     }
     return release_notes_text;
 }

@@ -1,5 +1,5 @@
 var browserAgentSettings = "";
-var browserOrChromeIndex = 1; //TODO: change manually: {0: Firefox, 1: Microsoft Edge, 2: Chrome Web Store, 3: Opera add-ons}
+var browserOrChromeIndex = 2; //TODO: change manually: {0: Firefox, 1: Microsoft Edge, 2: Chrome Web Store, 3: Opera add-ons}
 if (browserOrChromeIndex === 0) {
     browserAgentSettings = browser;
 } else if (browserOrChromeIndex === 1 || browserOrChromeIndex === 2 || browserOrChromeIndex === 3) {
@@ -7,8 +7,6 @@ if (browserOrChromeIndex === 0) {
 }
 var lastRequestNumber = -1;
 browserAgentSettings.runtime.onMessage.addListener(function (request, sender, sendResponse) {
-    console.info("inserting emoji: " + request.emoji + " - requestNumber: " + request.requestNumber);
-    console.info("lastRequestNumber: " + lastRequestNumber);
     if (request.type === "insert-emoji-by-injection" && request.requestNumber !== lastRequestNumber) {
         let active = document.activeElement;
         if (["input", "textarea"].includes(active.tagName.toLowerCase())) {

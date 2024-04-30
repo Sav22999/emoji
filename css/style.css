@@ -896,7 +896,7 @@ div {
     margin-top: 6px;
 }
 
-#auto-close-container, #multi-copy-container, #space-emoji-container, #insert-emoji-container, #theme-container {
+#auto-close-container, #multi-copy-container, #space-emoji-container, #insert-emoji-container, #theme-container, #insert-emoji-buttons-container {
     min-width: 100px;
     width: auto;
 }
