@@ -142,15 +142,24 @@ Created by Saverio Morelli - saveriomorelli.com
             </div>
             <div class="subsection-settings">
                 <span class="title-subsection-settings" id="label-font-family">Font family</span>
-                <select class="select select-extra-big" id="font-family-selected">
+                <select class="select select-extra-big hidden" id="font-family-selected">
                     <option value="twemoji" id="select-font-family-1">Twitter (Recommended)</option>
-                    <option value="notocoloremoji">Google</option>
+                    <option value="notocoloremoji" id="select-font-family-7">Google</option>
                     <option value="openmojicolor" id="select-font-family-2">OpenMoji (Color)</option>
                     <option value="openmojiblack" id="select-font-family-3">OpenMoji (Black)</option>
                     <option value="default" id="select-font-family-4">OS emoji font</option>
                     <!--<option value="twemoji-fix-macos" id="select-font-family-5">Twitter (Temporary fix)</option>-->
                     <option value="joypixels" id="select-font-family-6">JoyPixels</option>
                 </select>
+                <div id="font-family-container">
+                    <button class="font-family-button emoji size-emoji-button-40 font-twemoji" id="emoji-style-twemoji">😛</button>
+                    <button class="font-family-button emoji size-emoji-button-40 font-notocoloremoji" id="emoji-style-notocoloremoji">😛</button>
+                    <button class="font-family-button emoji size-emoji-button-40 font-openmojicolor" id="emoji-style-openmojicolor">😛</button>
+                    <button class="font-family-button emoji size-emoji-button-40 font-openmojiblack" id="emoji-style-openmojiblack">😛</button>
+                    <button class="font-family-button emoji size-emoji-button-40" id="emoji-style-default">😛</button>
+                    <!--<button class="font-family-button emoji size-emoji-button-35 font-twemoji-fix-macos">😛</button>-->
+                    <button class="font-family-button emoji size-emoji-button-40 font-joypixels" id="emoji-style-joypixels">😛</button>
+                </div>
                 <span class="description-subsection-settings" id="alert-font-pop-up">This font family could be shown not well. Use "Twitter" instead!</span>
             </div>
             <div class="subsection-settings" id="extension-icon-section-container">
