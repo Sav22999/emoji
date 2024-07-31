@@ -9316,7 +9316,12 @@ emojis_language[lang][11] = {
     ],
     '🩲': [
         '简介',
-        ':briefs:'
+        ':briefs:',
+        'Undies',
+        'Underwear',
+        'Underpants',
+        'Jocks',
+        'Panties'
     ],
     '🩳': [
         '短路',
@@ -10971,13 +10976,24 @@ emojis_language[lang][13] = {
         '小时已完成',
         ':hourglass:',
         ':hourglass_done:',
-        '小时数'
+        '小时数',
+        'Time',
+        'Egg timer',
+        'Empty',
+        'Ended',
+        'Finished',
+        'Sand Clock'
     ],
     '⏳': [
         '小时玻璃未完成',
         ':hourglass_flowing_sand:',
         ':hourglass_not_done:',
-        '带花子的小时玻璃板'
+        '带花子的小时玻璃板',
+        'Busy',
+        'Time',
+        'Egg timer',
+        'Flowing',
+        'Sand Clock'
     ],
     '🕐': [
         '一个 OClock',
@@ -10985,14 +11001,16 @@ emojis_language[lang][13] = {
         ':one_oclock:',
         '时钟脸One OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕜': [
         '一条时钟面',
         ':clock130:',
         ':one_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕑': [
         '两次OClock',
@@ -11000,14 +11018,16 @@ emojis_language[lang][13] = {
         ':two_oclock:',
         '时钟两面',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕝': [
         '时钟脸二十',
         ':clock230:',
         ':two_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕒': [
         '三个OClock',
@@ -11015,14 +11035,16 @@ emojis_language[lang][13] = {
         ':three_oclock:',
         '时钟三个OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕞': [
         '时钟三面',
         ':clock330:',
         ':three_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕓': [
         '四个OClock',
@@ -11030,14 +11052,16 @@ emojis_language[lang][13] = {
         ':four_oclock:',
         '时钟四面',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕟': [
         '时钟面 Four-30',
         ':clock430:',
         ':four_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕔': [
         '五个OClock',
@@ -11045,14 +11069,16 @@ emojis_language[lang][13] = {
         ':five_oclock:',
         '锁屏时钟的五面',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕠': [
         '时钟脸五-三十天',
         ':clock530:',
         ':five_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕕': [
         '6个OClock',
@@ -11060,14 +11086,16 @@ emojis_language[lang][13] = {
         ':size_oclock:',
         '时钟面 OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕡': [
         '时钟面',
         ':clock630:',
         ':six_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕖': [
         '七个OClock',
@@ -11075,14 +11103,16 @@ emojis_language[lang][13] = {
         ':seven_oclock:',
         '时钟脸7OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕢': [
         '七十三个时钟',
         ':clock730:',
         ':sever_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕗': [
         '八个OClock',
@@ -11090,14 +11120,16 @@ emojis_language[lang][13] = {
         ':eight_oclock:',
         '时钟脸八个OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕣': [
         '时钟脸八十',
         ':clock830:',
         ':eight_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕘': [
         '九个OClock',
@@ -11105,14 +11137,16 @@ emojis_language[lang][13] = {
         ':nine_clock:',
         '时钟脸九个OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕤': [
         '时钟面部九至三十点',
         ':clock930:',
         ':nine_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕙': [
         '十个OClock',
@@ -11120,14 +11154,16 @@ emojis_language[lang][13] = {
         ':ten_oclock:',
         '时钟脸部Ten OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕥': [
         '时钟脸部-三十度',
         ':clock1030:',
         ':ten_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕚': [
         'Eleven OClock',
@@ -11135,14 +11171,16 @@ emojis_language[lang][13] = {
         ':eleven_oclock:',
         '时钟脸十一 OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕦': [
         '时钟脸十一',
         ':clock1130:',
         ':eleven_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕛': [
         '十二个OClock',
@@ -11150,14 +11188,16 @@ emojis_language[lang][13] = {
         ':twelve_oclock:',
         '时钟脸T12 OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕧': [
         '时钟脸T12-30号',
         ':clock1230:',
         ':twelve_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '♨️': [
         '热泉子',

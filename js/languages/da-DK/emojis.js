@@ -9316,7 +9316,12 @@ emojis_language[lang][11] = {
     ],
     '🩲': [
         'Korte',
-        ':briefs:'
+        ':briefs:',
+        'Undies',
+        'Underwear',
+        'Underpants',
+        'Jocks',
+        'Panties'
     ],
     '🩳': [
         'Korte',
@@ -10971,13 +10976,24 @@ emojis_language[lang][13] = {
         'Timeglas Færdig',
         ':hourglass:',
         ':hourglass_done:',
-        'Timeglas'
+        'Timeglas',
+        'Time',
+        'Egg timer',
+        'Empty',
+        'Ended',
+        'Finished',
+        'Sand Clock'
     ],
     '⏳': [
         'Timeglas Ikke Færdig',
         ':hourglass_flowing_sand:',
         ':hourglass_not_done:',
-        'Time glas med Flowing Sand'
+        'Time glas med Flowing Sand',
+        'Busy',
+        'Time',
+        'Egg timer',
+        'Flowing',
+        'Sand Clock'
     ],
     '🕐': [
         'Én OClock',
@@ -10985,14 +11001,16 @@ emojis_language[lang][13] = {
         ':one_oclock:',
         'Ur Ansigt Én OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕜': [
         'Ur Ansigt Entredive',
         ':clock130:',
         ':one_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕑': [
         'To OClock',
@@ -11000,14 +11018,16 @@ emojis_language[lang][13] = {
         ':two_oclock:',
         'Ur Ansigt To Okkelås',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕝': [
         'Ur Ansigt To-Tredive',
         ':clock230:',
         ':two_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕒': [
         'Tre OClock',
@@ -11015,14 +11035,16 @@ emojis_language[lang][13] = {
         ':three_oclock:',
         'Ur Ansigt Tre Okkelås',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕞': [
         'Ur Ansigt Tre-Tredive',
         ':clock330:',
         ':three_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕓': [
         'Fire OClock',
@@ -11030,14 +11052,16 @@ emojis_language[lang][13] = {
         ':four_oclock:',
         'Ur Ansigt Fire Okkelås',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕟': [
         'Ur Ansigt Fire Tredive',
         ':clock430:',
         ':four_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕔': [
         'Fem OClock',
@@ -11045,14 +11069,16 @@ emojis_language[lang][13] = {
         ':five_oclock:',
         'Ur Ansigt Fem Okkelås',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕠': [
         'Ur Ansigt Fem Tredive',
         ':clock530:',
         ':five_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕕': [
         'Seks OClock',
@@ -11060,14 +11086,16 @@ emojis_language[lang][13] = {
         ':size_oclock:',
         'Ur Ansigt Seks OOClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕡': [
         'Ur Ansigt Seks-Tredive',
         ':clock630:',
         ':six_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕖': [
         'Syv OClock',
@@ -11075,14 +11103,16 @@ emojis_language[lang][13] = {
         ':seven_oclock:',
         'Ur Ansigt Syv Okkelås',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕢': [
         'Ur Ansigt Syv-Tredive',
         ':clock730:',
         ':sever_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕗': [
         'Otte OClock',
@@ -11090,14 +11120,16 @@ emojis_language[lang][13] = {
         ':eight_oclock:',
         'Ur Ansigt Otte Otte OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕣': [
         'Ur Ansigt Ott-Tredive',
         ':clock830:',
         ':eight_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕘': [
         'Ni OClock',
@@ -11105,14 +11137,16 @@ emojis_language[lang][13] = {
         ':nine_clock:',
         'Ur Ansigt Ni OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕤': [
         'Ur Ansigt Ni Tredive',
         ':clock930:',
         ':nine_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕙': [
         'Ti OClock',
@@ -11120,14 +11154,16 @@ emojis_language[lang][13] = {
         ':ten_oclock:',
         'Ur Ansigt Ti OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕥': [
         'Ur Ansigt Ten-Tredive',
         ':clock1030:',
         ':ten_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕚': [
         'Eleven OClock',
@@ -11135,14 +11171,16 @@ emojis_language[lang][13] = {
         ':eleven_oclock:',
         'Ur Ansigt Elleve Okkelås',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕦': [
         'Ur Ansigt Eleven-Tredive',
         ':clock1130:',
         ':eleven_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕛': [
         'Tolv OClock',
@@ -11150,14 +11188,16 @@ emojis_language[lang][13] = {
         ':twelve_oclock:',
         'Ur Ansigt Tolv OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕧': [
         'Ur Ansigt Tolv-Tredive',
         ':clock1230:',
         ':twelve_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '♨️': [
         'Varme Fjedre',

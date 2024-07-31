@@ -9316,7 +9316,12 @@ emojis_language[lang][11] = {
     ],
     '🩲': [
         'Lyhyet',
-        ':briefs:'
+        ':briefs:',
+        'Undies',
+        'Underwear',
+        'Underpants',
+        'Jocks',
+        'Panties'
     ],
     '🩳': [
         'Shortsit',
@@ -10971,13 +10976,24 @@ emojis_language[lang][13] = {
         'Hourglass Valmis',
         ':hourglass:',
         ':hourglass_done:',
-        'Hourglass'
+        'Hourglass',
+        'Time',
+        'Egg timer',
+        'Empty',
+        'Ended',
+        'Finished',
+        'Sand Clock'
     ],
     '⏳': [
         'Tuntilasi Ei Valmis',
         ':hourglass_flowing_sand:',
         ':hourglass_not_done:',
-        'Hourglass kanssa virtaava hiekka'
+        'Hourglass kanssa virtaava hiekka',
+        'Busy',
+        'Time',
+        'Egg timer',
+        'Flowing',
+        'Sand Clock'
     ],
     '🕐': [
         'Yksi Kello',
@@ -10985,14 +11001,16 @@ emojis_language[lang][13] = {
         ':one_oclock:',
         'Kello Kasvot Yksi Kello',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕜': [
         'Kello Kasvot Kolmekymmentä',
         ':clock130:',
         ':one_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕑': [
         'Kaksi OKelloa',
@@ -11000,14 +11018,16 @@ emojis_language[lang][13] = {
         ':two_oclock:',
         'Kello Kasvot Kaksi OKello',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕝': [
         'Kello Kasvot Kaksi-kolmekymmentä',
         ':clock230:',
         ':two_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕒': [
         'Kolme OClock',
@@ -11015,14 +11035,16 @@ emojis_language[lang][13] = {
         ':three_oclock:',
         'Kello Kasvot Kolme OKello',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕞': [
         'Kello Kasvot Kolme-kolmekymmentä',
         ':clock330:',
         ':three_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕓': [
         'Neljä OClock',
@@ -11030,14 +11052,16 @@ emojis_language[lang][13] = {
         ':four_oclock:',
         'Kello Kasvot Neljä OKello',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕟': [
         'Kello Kasvot Neljä-kolmekymmentä',
         ':clock430:',
         ':four_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕔': [
         'Viisi OKelloa',
@@ -11045,14 +11069,16 @@ emojis_language[lang][13] = {
         ':five_oclock:',
         'Kello Kasvot Viisi OKello',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕠': [
         'Kello Kasvot Viisi-kolmekymmentä',
         ':clock530:',
         ':five_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕕': [
         'Kuusi OKello',
@@ -11060,14 +11086,16 @@ emojis_language[lang][13] = {
         ':size_oclock:',
         'Kello Kasvot Kuusi OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕡': [
         'Kello Kasvot Kuusi Kolmaskymmenes',
         ':clock630:',
         ':six_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕖': [
         'Seitsemän OClock',
@@ -11075,14 +11103,16 @@ emojis_language[lang][13] = {
         ':seven_oclock:',
         'Kello Kasvot Seitsemän OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕢': [
         'Kello Kasvot Seitsemän-kolmekymmentä',
         ':clock730:',
         ':sever_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕗': [
         'Kahdeksan Kello',
@@ -11090,14 +11120,16 @@ emojis_language[lang][13] = {
         ':eight_oclock:',
         'Kello Kasvot Kahdeksan Kello',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕣': [
         'Kello Kasvot Kahdeksan–kolmekymmentä',
         ':clock830:',
         ':eight_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕘': [
         'Yhdeksän OClock',
@@ -11105,14 +11137,16 @@ emojis_language[lang][13] = {
         ':nine_clock:',
         'Kello Kasvot Yhdeksän OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕤': [
         'Kello Kasvot Yhdeksän-kolmekymmentä',
         ':clock930:',
         ':nine_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕙': [
         'Kymmenen OKello',
@@ -11120,14 +11154,16 @@ emojis_language[lang][13] = {
         ':ten_oclock:',
         'Kello Kymmenen Kasvoa Kello',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕥': [
         'Kello Kasvot Kymmenen Kolmekymmentä',
         ':clock1030:',
         ':ten_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕚': [
         'Eleven OClock',
@@ -11135,14 +11171,16 @@ emojis_language[lang][13] = {
         ':eleven_oclock:',
         'Kello Kasvot Yksin OKello',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕦': [
         'Kello Kasvot Eleven-kolmekymmentä',
         ':clock1130:',
         ':eleven_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕛': [
         'Kaksitoista OKello',
@@ -11150,14 +11188,16 @@ emojis_language[lang][13] = {
         ':twelve_oclock:',
         'Kello Kasvot Kaksitoista OKello',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕧': [
         'Kello Kasvot Kaksoiskolmekymmentä',
         ':clock1230:',
         ':twelve_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '♨️': [
         'Kuumat Lähteet',

@@ -9316,7 +9316,12 @@ emojis_language[lang][11] = {
     ],
     '🩲': [
         'ブリーフ',
-        ':briefs:'
+        ':briefs:',
+        'Undies',
+        'Underwear',
+        'Underpants',
+        'Jocks',
+        'Panties'
     ],
     '🩳': [
         'ショート',
@@ -10971,13 +10976,24 @@ emojis_language[lang][13] = {
         'Hourglass Done',
         ':hourglass:',
         ':hourglass_done:',
-        'Hourglass'
+        'Hourglass',
+        'Time',
+        'Egg timer',
+        'Empty',
+        'Ended',
+        'Finished',
+        'Sand Clock'
     ],
     '⏳': [
         'Hourglass Not Done',
         ':hourglass_flowing_sand:',
         ':hourglass_not_done:',
-        '流れる砂のある砂時計'
+        '流れる砂のある砂時計',
+        'Busy',
+        'Time',
+        'Egg timer',
+        'Flowing',
+        'Sand Clock'
     ],
     '🕐': [
         'OClock',
@@ -10985,14 +11001,16 @@ emojis_language[lang][13] = {
         ':one_oclock:',
         '時計 Face 1 OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕜': [
         '時計 Face 1 - 30',
         ':clock130:',
         ':one_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕑': [
         '2 OClock',
@@ -11000,14 +11018,16 @@ emojis_language[lang][13] = {
         ':two_oclock:',
         '時計 Face 2 OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕝': [
         '2/30時計',
         ':clock230:',
         ':two_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕒': [
         '3 OClock',
@@ -11015,14 +11035,16 @@ emojis_language[lang][13] = {
         ':three_oclock:',
         '時計 Face 3 OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕞': [
         '時計の顔 3 D',
         ':clock330:',
         ':three_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕓': [
         '4 OClock',
@@ -11030,14 +11052,16 @@ emojis_language[lang][13] = {
         ':four_oclock:',
         '時計の顔 4 OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕟': [
         '時計の顔 4-30',
         ':clock430:',
         ':four_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕔': [
         '5 OClock',
@@ -11045,14 +11069,16 @@ emojis_language[lang][13] = {
         ':five_oclock:',
         '時計の顔 5 OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕠': [
         '時計の顔 5-30',
         ':clock530:',
         ':five_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕕': [
         '6 OClock',
@@ -11060,14 +11086,16 @@ emojis_language[lang][13] = {
         ':size_oclock:',
         '時計が6個のOClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕡': [
         'クロックフェイス 6 x 30',
         ':clock630:',
         ':six_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕖': [
         '7 OClock',
@@ -11075,14 +11103,16 @@ emojis_language[lang][13] = {
         ':seven_oclock:',
         '時計 Face 7 OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕢': [
         '時計の顔 (セブン) - 30',
         ':clock730:',
         ':sever_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕗': [
         '8 OClock',
@@ -11090,14 +11120,16 @@ emojis_language[lang][13] = {
         ':eight_oclock:',
         '時計が8時に面しています',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕣': [
         '時計の顔 8-30',
         ':clock830:',
         ':eight_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕘': [
         '9 OClock',
@@ -11105,14 +11137,16 @@ emojis_language[lang][13] = {
         ':nine_clock:',
         '時計の顔 9 OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕤': [
         '時計の顔 9 - 30',
         ':clock930:',
         ':nine_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕙': [
         '10 OClock',
@@ -11120,14 +11154,16 @@ emojis_language[lang][13] = {
         ':ten_oclock:',
         '時計の顔 10 Oclock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕥': [
         '時計の顔 10 分',
         ':clock1030:',
         ':ten_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕚': [
         'Eleven OClock',
@@ -11135,14 +11171,16 @@ emojis_language[lang][13] = {
         ':eleven_oclock:',
         '時計の顔 11 OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕦': [
         '面11-30時計',
         ':clock1130:',
         ':eleven_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕛': [
         '12 OClock',
@@ -11150,14 +11188,16 @@ emojis_language[lang][13] = {
         ':twelve_oclock:',
         '時計の顔 12 Oクロック',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕧': [
         '時計 format@@0 12 - 30',
         ':clock1230:',
         ':twelve_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '♨️': [
         '温泉',

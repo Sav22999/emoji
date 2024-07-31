@@ -780,6 +780,7 @@ function setPopUpUI() {
     //document.getElementsByClassName("theme-button")[0].focus(); //after saveSettings get again focus of the first element in Settings
 
     setEmojiSizeButtons();
+    setEmojiStyleButtons();
     setSkinToneEmojis();
     setContextMenu();
 
@@ -805,6 +806,7 @@ function setEmojiSizeButtons() {
     });
 }
 
+
 function setEmojiSizeButtonsSelect(emoji_item) {
     let emoji_size_array = ["very-small", "small", "normal", "big", "very-big"];
     emoji_size_array.forEach(emoji_item => {
@@ -814,6 +816,34 @@ function setEmojiSizeButtonsSelect(emoji_item) {
     });
     setEmojiSizeButtons();
     document.getElementById("emoji-size-" + emoji_item).classList.add("blue-selected-button");
+}
+
+function setEmojiStyleButtons() {
+    let emoji_style_array = ["twemoji", "notocoloremoji", "openmojicolor", "openmojiblack", "default", "joypixels"];
+    let count = 0;
+    emoji_style_array.forEach(emoji_item => {
+        document.getElementById("emoji-style-" + emoji_item).onclick = function () {
+            if (document.getElementById("emoji-style-" + emoji_item).classList.contains("blue-selected-button")) {
+                document.getElementById("emoji-style-" + emoji_item).classList.add("blue-selected-button");
+            }
+            document.getElementById("font-family-selected").value = emoji_item;
+            saveSettings();
+        }
+        count++;
+    });
+}
+
+function setEmojiStyleButtonsSelect(emoji_item) {
+    let emoji_style_array = ["twemoji", "notocoloremoji", "openmojicolor", "openmojiblack", "default", "joypixels"];
+    emoji_style_array.forEach(emoji_item => {
+        if (document.getElementById("emoji-style-" + emoji_item).classList.contains("blue-selected-button")) {
+            document.getElementById("emoji-style-" + emoji_item).classList.remove("blue-selected-button");
+        }
+    });
+    setEmojiStyleButtons();
+    document.getElementById("emoji-style-" + emoji_item).classList.add("blue-selected-button");
+
+    document.getElementById("label-font-family").textContent = strings["settings"]["label-font-family"].replaceAll("{{font_family}}", strings["settings"]["select-" + emoji_item + "-emoji"]);
 }
 
 function setContextMenu() {
@@ -1685,7 +1715,7 @@ function loadSettings(resize_popup_ui = false, focus_search_box = false) {
         emojisSizeElement.selectedIndex = 2;
         if (jsonSettings.size !== undefined) emojisSizeElement.selectedIndex = jsonSettings.size;
         fontFamily.selectedIndex = 0;
-        if (jsonSettings.font !== undefined || jsonSettings.font < fontFamily.length) fontFamily.selectedIndex = jsonSettings.font;
+        if (jsonSettings.font !== undefined && jsonSettings.font < fontFamily.length && jsonSettings.font > 0) fontFamily.selectedIndex = jsonSettings.font;
         autoClosePopupElement.selectedIndex = 1;
         if (jsonSettings.auto_close !== undefined) autoClosePopupElement.selectedIndex = jsonSettings.auto_close;
         skinToneElement.selectedIndex = 0;
@@ -1732,6 +1762,7 @@ function loadSettings(resize_popup_ui = false, focus_search_box = false) {
         max_columns = columnsElement.value;
         max_rows = rowsElement.value;
         font_family = fontFamily.value;
+        setEmojiStyleButtonsSelect(fontFamily.value);
 
         auto_close = autoClosePopupElement.value.toLowerCase();
         /*
@@ -1862,6 +1893,13 @@ function setTheme() {
         document.getElementsByClassName("emoji-size-button")[i].classList.add("background-button-" + theme);
     }
 
+    let n_elements_emoji_style_button = document.getElementsByClassName("emoji-style-button").length;
+    for (let i = 0; i < n_elements_emoji_style_button; i++) {
+        if (document.getElementsByClassName("emoji-style-button")[i].classList.contains("background-button-dark")) document.getElementsByClassName("emoji-style-button")[i].classList.remove("background-button-dark");
+        if (document.getElementsByClassName("emoji-style-button")[i].classList.contains("background-button-light")) document.getElementsByClassName("emoji-style-button")[i].classList.remove("background-button-light");
+        document.getElementsByClassName("emoji-style-button")[i].classList.add("background-button-" + theme);
+    }
+
     document.getElementById("popup-content").classList.add(theme);
     document.getElementById("emoji-skin-choose").classList.add(theme);
     searchBarInputElement.classList.add(theme + "-search-bar-input");
@@ -1894,6 +1932,13 @@ function setTheme() {
     document.getElementById("emoji-size-normal").classList.add(theme + "-select");
     document.getElementById("emoji-size-big").classList.add(theme + "-select");
     document.getElementById("emoji-size-very-big").classList.add(theme + "-select");
+    document.getElementById("emoji-style-twemoji").classList.add(theme + "-select");
+    document.getElementById("emoji-style-notocoloremoji").classList.add(theme + "-select");
+    document.getElementById("emoji-style-openmojicolor").classList.add(theme + "-select");
+    document.getElementById("emoji-style-openmojiblack").classList.add(theme + "-select");
+    document.getElementById("emoji-style-default").classList.add(theme + "-select");
+    //document.getElementById("emoji-style-twemoji-fix-macos").classList.add(theme + "-select");
+    document.getElementById("emoji-style-joypixels").classList.add(theme + "-select");
 
     //TODO: change when add/remove an option in Settings -- separators
     for (let n = 0; n < 12; n++) {
@@ -2196,11 +2241,19 @@ function setLanguageUI() {
     document.getElementById("multi-copy-yes").textContent = strings["settings"]["button-yes"];
     document.getElementById("multi-copy-no").textContent = strings["settings"]["button-no"];
     document.getElementById("label-skin-tone").textContent = strings["settings"]["label-skin-tone"];
-    document.getElementById("label-font-family").textContent = strings["settings"]["label-font-family"];
-    document.getElementById("select-font-family-1").textContent = strings["settings"]["select-twitter"];
-    document.getElementById("select-font-family-2").textContent = strings["settings"]["select-openmoji-color"];
-    document.getElementById("select-font-family-3").textContent = strings["settings"]["select-openmoji-black"];
-    document.getElementById("select-font-family-4").textContent = strings["settings"]["select-os-emoji-font"];
+    //document.getElementById("label-font-family").textContent = strings["settings"]["label-font-family"]; //it's set in "setEmojiStyleButtonsSelect"
+    document.getElementById("select-font-family-1").textContent = strings["settings"]["select-twemoji-emoji"];
+    document.getElementById("emoji-style-twemoji").title = strings["settings"]["select-twemoji-emoji"];
+    document.getElementById("select-font-family-2").textContent = strings["settings"]["select-openmojicolor-emoji"];
+    document.getElementById("emoji-style-openmojicolor").title = strings["settings"]["select-openmojicolor-emoji"];
+    document.getElementById("select-font-family-3").textContent = strings["settings"]["select-openmojiblack-emoji"];
+    document.getElementById("emoji-style-openmojiblack").title = strings["settings"]["select-openmojiblack-emoji"];
+    document.getElementById("select-font-family-4").textContent = strings["settings"]["select-default-emoji"];
+    document.getElementById("emoji-style-default").title = strings["settings"]["select-default-emoji"];
+    document.getElementById("select-font-family-6").textContent = strings["settings"]["select-joypixels-emoji"];
+    document.getElementById("emoji-style-joypixels").title = strings["settings"]["select-joypixels-emoji"];
+    document.getElementById("select-font-family-7").textContent = strings["settings"]["select-notocoloremoji-emoji"];
+    document.getElementById("emoji-style-notocoloremoji").title = strings["settings"]["select-notocoloremoji-emoji"];
     document.getElementById("alert-font-pop-up").textContent = strings["settings"]["label-font-family-use-twitter"];
     document.getElementById("label-extension-icon").textContent = strings["settings"]["label-extension-icon"];
     document.getElementById("label-language").textContent = strings["settings"]["label-language"];

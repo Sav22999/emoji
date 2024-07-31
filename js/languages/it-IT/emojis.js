@@ -9316,7 +9316,12 @@ emojis_language[lang][11] = {
     ],
     '🩲': [
         'Slip',
-        ':briefs:'
+        ':briefs:',
+        'Undies',
+        'Underwear',
+        'Underpants',
+        'Jocks',
+        'Panties'
     ],
     '🩳': [
         'Shorts',
@@ -10971,13 +10976,24 @@ emojis_language[lang][13] = {
         'Vetro Orario Fatto',
         ':hourglass:',
         ':hourglass_done:',
-        'Hourglass'
+        'Hourglass',
+        'Time',
+        'Egg timer',
+        'Empty',
+        'Ended',
+        'Finished',
+        'Sand Clock'
     ],
     '⏳': [
         'Vetro Orario Non Fatto',
         ':hourglass_flowing_sand:',
         ':hourglass_not_done:',
-        'Vetro orario con sabbia fluente'
+        'Vetro orario con sabbia fluente',
+        'Busy',
+        'Time',
+        'Egg timer',
+        'Flowing',
+        'Sand Clock'
     ],
     '🕐': [
         'Un OClock',
@@ -10985,14 +11001,16 @@ emojis_language[lang][13] = {
         ':one_oclock:',
         'Orologio Faccia Un OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕜': [
         'Orologio Faccia Una Trenta',
         ':clock130:',
         ':one_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕑': [
         'Due OClock',
@@ -11000,14 +11018,16 @@ emojis_language[lang][13] = {
         ':two_oclock:',
         'Orologio Faccia Due OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕝': [
         'Orologio Faccia Due-Trenta',
         ':clock230:',
         ':two_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕒': [
         'Tre OClock',
@@ -11015,14 +11035,16 @@ emojis_language[lang][13] = {
         ':three_oclock:',
         'Orologio Faccia Tre OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕞': [
         'Volto Orologio Tre Trenta',
         ':clock330:',
         ':three_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕓': [
         'Quattro OClock',
@@ -11030,14 +11052,16 @@ emojis_language[lang][13] = {
         ':four_oclock:',
         'Orologio Faccia Quattro OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕟': [
         'Orologio Faccia Quattro-Trenta',
         ':clock430:',
         ':four_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕔': [
         'Cinque OClock',
@@ -11045,14 +11069,16 @@ emojis_language[lang][13] = {
         ':five_oclock:',
         'Orologio Face Cinque OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕠': [
         'Orologio Faccia Cinquementa',
         ':clock530:',
         ':five_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕕': [
         'Sei OClock',
@@ -11060,14 +11086,16 @@ emojis_language[lang][13] = {
         ':size_oclock:',
         'Orologio Faccia Sei OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕡': [
         'Volto Orologio Sessi-Trenta',
         ':clock630:',
         ':six_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕖': [
         'Sette OClock',
@@ -11075,14 +11103,16 @@ emojis_language[lang][13] = {
         ':seven_oclock:',
         'Orologio Faccia Sette OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕢': [
         'Orologio Faccia Sette-Trenta',
         ':clock730:',
         ':sever_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕗': [
         'Otto OClock',
@@ -11090,14 +11120,16 @@ emojis_language[lang][13] = {
         ':eight_oclock:',
         'Orologio Faccia Otto OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕣': [
         'Orologio Faccia Ottobre-Trenta',
         ':clock830:',
         ':eight_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕘': [
         'Nove OClock',
@@ -11105,14 +11137,16 @@ emojis_language[lang][13] = {
         ':nine_clock:',
         'Orologio Faccia Nove OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕤': [
         'Orologio Faccia Nove Trenta',
         ':clock930:',
         ':nine_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕙': [
         'Dieci OClock',
@@ -11120,14 +11154,16 @@ emojis_language[lang][13] = {
         ':ten_oclock:',
         'Orologio Viso Dieci OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕥': [
         'Orologio Faccia Ten-Trenta',
         ':clock1030:',
         ':ten_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕚': [
         'Eleven OClock',
@@ -11135,14 +11171,16 @@ emojis_language[lang][13] = {
         ':eleven_oclock:',
         'Orologio Viso Undici OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕦': [
         'Orologio Viso Undici Trenta',
         ':clock1130:',
         ':eleven_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕛': [
         'Dodici OClock',
@@ -11150,14 +11188,16 @@ emojis_language[lang][13] = {
         ':twelve_oclock:',
         'Orologio Faccia Dodici OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕧': [
         'Orologio Volto Dodici-Trenta',
         ':clock1230:',
         ':twelve_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '♨️': [
         'Molle Calde',
