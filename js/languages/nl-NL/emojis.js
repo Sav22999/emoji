@@ -9317,11 +9317,11 @@ emojis_language[lang][11] = {
     '🩲': [
         'Brieven',
         ':briefs:',
-        'Undies',
-        'Underwear',
-        'Underpants',
-        'Jocks',
-        'Panties'
+        'Ondergoed',
+        'Ondergoed',
+        'Onderbroek',
+        'Slip',
+        'Slip'
     ],
     '🩳': [
         'Kortingen',
@@ -10977,23 +10977,23 @@ emojis_language[lang][13] = {
         ':hourglass:',
         ':hourglass_done:',
         'Hourglass',
-        'Time',
-        'Egg timer',
-        'Empty',
-        'Ended',
-        'Finished',
-        'Sand Clock'
+        'Tijd',
+        'Ei timer',
+        'Leeg',
+        'Afgelopen',
+        'Voltooid',
+        'Zandloper'
     ],
     '⏳': [
         'Hourglass Niet Gereed',
         ':hourglass_flowing_sand:',
         ':hourglass_not_done:',
         'Hourglass met gloeiend Zand',
-        'Busy',
-        'Time',
-        'Egg timer',
-        'Flowing',
-        'Sand Clock'
+        'Druk',
+        'Tijd',
+        'Ei timer',
+        'Vloeien',
+        'Zandloper'
     ],
     '🕐': [
         'Een OClock',
@@ -11002,7 +11002,7 @@ emojis_language[lang][13] = {
         'Klok Gezicht Één Klok',
         ':gray:',
         ':grey:',
-        'Time'
+        'Tijd'
     ],
     '🕜': [
         'Klok Gezicht 1 30',
@@ -11010,7 +11010,7 @@ emojis_language[lang][13] = {
         ':one_thirty:',
         ':gray:',
         ':grey:',
-        'Time'
+        'Tijd'
     ],
     '🕑': [
         'Twee OClock',
@@ -11019,7 +11019,7 @@ emojis_language[lang][13] = {
         'Klok Gezicht Twee Klok',
         ':gray:',
         ':grey:',
-        'Time'
+        'Tijd'
     ],
     '🕝': [
         'Klok Gezicht Twee-Dertig',
@@ -11027,7 +11027,7 @@ emojis_language[lang][13] = {
         ':two_thirty:',
         ':gray:',
         ':grey:',
-        'Time'
+        'Tijd'
     ],
     '🕒': [
         'Drie OClock',
@@ -11036,7 +11036,7 @@ emojis_language[lang][13] = {
         'Klok Gezicht Drie OClock',
         ':gray:',
         ':grey:',
-        'Time'
+        'Tijd'
     ],
     '🕞': [
         'Klok Gezicht Drie-Dertig',
@@ -11044,7 +11044,7 @@ emojis_language[lang][13] = {
         ':three_thirty:',
         ':gray:',
         ':grey:',
-        'Time'
+        'Tijd'
     ],
     '🕓': [
         'Vier OClock',
@@ -11053,7 +11053,7 @@ emojis_language[lang][13] = {
         'Klok Gezicht OClock',
         ':gray:',
         ':grey:',
-        'Time'
+        'Tijd'
     ],
     '🕟': [
         'Klok Gezicht van Four-Dertig',
@@ -11061,7 +11061,7 @@ emojis_language[lang][13] = {
         ':four_thirty:',
         ':gray:',
         ':grey:',
-        'Time'
+        'Tijd'
     ],
     '🕔': [
         'Vijf OClock',
@@ -11070,7 +11070,7 @@ emojis_language[lang][13] = {
         'Klok Gezicht Five OClock',
         ':gray:',
         ':grey:',
-        'Time'
+        'Tijd'
     ],
     '🕠': [
         'Klok Gezicht Vijf-Dertig',
@@ -11078,7 +11078,7 @@ emojis_language[lang][13] = {
         ':five_thirty:',
         ':gray:',
         ':grey:',
-        'Time'
+        'Tijd'
     ],
     '🕕': [
         'Zes Klok',
@@ -11087,7 +11087,7 @@ emojis_language[lang][13] = {
         'Klok Zes Klok',
         ':gray:',
         ':grey:',
-        'Time'
+        'Tijd'
     ],
     '🕡': [
         'Klok Gezicht Zes Dertig',
@@ -11095,7 +11095,7 @@ emojis_language[lang][13] = {
         ':six_thirty:',
         ':gray:',
         ':grey:',
-        'Time'
+        'Tijd'
     ],
     '🕖': [
         'Zeven OClock',
@@ -11104,7 +11104,7 @@ emojis_language[lang][13] = {
         'Klok Gezicht Zeven OClock',
         ':gray:',
         ':grey:',
-        'Time'
+        'Tijd'
     ],
     '🕢': [
         'Klok Gezicht zeven-dertig',
@@ -11112,7 +11112,7 @@ emojis_language[lang][13] = {
         ':sever_thirty:',
         ':gray:',
         ':grey:',
-        'Time'
+        'Tijd'
     ],
     '🕗': [
         'Acht OClock',
@@ -11121,7 +11121,7 @@ emojis_language[lang][13] = {
         'Klok Gezicht Acht OClock',
         ':gray:',
         ':grey:',
-        'Time'
+        'Tijd'
     ],
     '🕣': [
         'Klok Gezicht Acht-Dertig',
@@ -11129,7 +11129,7 @@ emojis_language[lang][13] = {
         ':eight_thirty:',
         ':gray:',
         ':grey:',
-        'Time'
+        'Tijd'
     ],
     '🕘': [
         'Negen OClock',
@@ -11138,7 +11138,7 @@ emojis_language[lang][13] = {
         'Klok Gezicht Neine OClock',
         ':gray:',
         ':grey:',
-        'Time'
+        'Tijd'
     ],
     '🕤': [
         'Klok Gezicht Nine-Dertig',
@@ -11146,7 +11146,7 @@ emojis_language[lang][13] = {
         ':nine_thirty:',
         ':gray:',
         ':grey:',
-        'Time'
+        'Tijd'
     ],
     '🕙': [
         'Tien OClock',
@@ -11155,7 +11155,7 @@ emojis_language[lang][13] = {
         'Klok Gezicht Tien OClock',
         ':gray:',
         ':grey:',
-        'Time'
+        'Tijd'
     ],
     '🕥': [
         'Klok Gezicht Ten-Dertig',
@@ -11163,7 +11163,7 @@ emojis_language[lang][13] = {
         ':ten_thirty:',
         ':gray:',
         ':grey:',
-        'Time'
+        'Tijd'
     ],
     '🕚': [
         'Eleven OClock',
@@ -11172,7 +11172,7 @@ emojis_language[lang][13] = {
         'Klok Gezicht Elf OClock',
         ':gray:',
         ':grey:',
-        'Time'
+        'Tijd'
     ],
     '🕦': [
         'Klok Gezicht leven-Dertig',
@@ -11180,7 +11180,7 @@ emojis_language[lang][13] = {
         ':eleven_thirty:',
         ':gray:',
         ':grey:',
-        'Time'
+        'Tijd'
     ],
     '🕛': [
         'Twaalf OClock',
@@ -11189,7 +11189,7 @@ emojis_language[lang][13] = {
         'Klok Gezicht Twaalf OClock',
         ':gray:',
         ':grey:',
-        'Time'
+        'Tijd'
     ],
     '🕧': [
         'Klok Gezicht-Drie-Dertig',
@@ -11197,7 +11197,7 @@ emojis_language[lang][13] = {
         ':twelve_thirty:',
         ':gray:',
         ':grey:',
-        'Time'
+        'Tijd'
     ],
     '♨️': [
         'Populaire Bronnen',

@@ -11002,15 +11002,15 @@ emojis_language[lang][13] = {
         'Clock Face One OClock',
         ':gray:',
         ':grey:',
-        'Time'
+        'Idő'
     ],
     '🕜': [
-        'Fél kettő',
+        'Fél kettőt mutató számlap',
         ':clock130:',
         ':one_thirty:',
         ':gray:',
         ':grey:',
-        'Time'
+        'Idő'
     ],
     '🕑': [
         'Two OClock',
@@ -11019,15 +11019,15 @@ emojis_language[lang][13] = {
         'Clock Face Two OClock',
         ':gray:',
         ':grey:',
-        'Time'
+        'Idő'
     ],
     '🕝': [
-        'Fél három',
+        'Fél hármat mutató számlap',
         ':clock230:',
         ':two_thirty:',
         ':gray:',
         ':grey:',
-        'Time'
+        'Idő'
     ],
     '🕒': [
         'Three OClock',
@@ -11216,7 +11216,7 @@ emojis_language[lang][13] = {
         ':red:'
     ],
     '🎪': [
-        'Cirkusz sátor',
+        'Cirkuszi sátor',
         ':circus_tent:',
         'Big Top',
         'Circus'
@@ -11229,7 +11229,7 @@ emojis_language[lang][13] = {
         ':red:'
     ],
     '🗯️': [
-        'Jobboldali dühös szövegbuborék',
+        'Jobbra mutató dühös szövegbuborék',
         ':right_anger_bubble:',
         ':anger_right:',
         'Zig Zag Bubble',
@@ -11425,7 +11425,7 @@ emojis_language[lang][13] = {
         'Clean'
     ],
     '🎰': [
-        'Félkarú rabló',
+        'Nyerőgép',
         ':slot_machine:',
         'Casino',
         'Fruit Machine',
