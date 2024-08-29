@@ -58,7 +58,7 @@ const linkDonate = {
 const linkTranslate = "https://crowdin.com/project/emoji-sav";
 const linkNeedHelp = ["https://www.emojiaddon.com/help"];
 const storeName = ["Firefox Add-ons", "Microsoft Edge Add-ons", "Google Chrome Web Store"];
-const fontFamily = ["twemoji", "notocoloremoji", "notocoloremoji", "twemoji-fix-macos", "joypixels"];
+const fontFamily = ["twemoji", "notocoloremoji", "notocoloremoji", "twemoji-fix-macos"];
 
 if (browserOrChromeIndex === 0) {
     browserAgentSettings = browser;
@@ -819,7 +819,7 @@ function setEmojiSizeButtonsSelect(emoji_item) {
 }
 
 function setEmojiStyleButtons() {
-    let emoji_style_array = ["twemoji", "notocoloremoji", "openmojicolor", "openmojiblack", "default", "joypixels"];
+    let emoji_style_array = ["twemoji", "notocoloremoji", "openmojicolor", "openmojiblack", "default"];
     let count = 0;
     emoji_style_array.forEach(emoji_item => {
         document.getElementById("emoji-style-" + emoji_item).onclick = function () {
@@ -834,7 +834,7 @@ function setEmojiStyleButtons() {
 }
 
 function setEmojiStyleButtonsSelect(emoji_item) {
-    let emoji_style_array = ["twemoji", "notocoloremoji", "openmojicolor", "openmojiblack", "default", "joypixels"];
+    let emoji_style_array = ["twemoji", "notocoloremoji", "openmojicolor", "openmojiblack", "default"];
     emoji_style_array.forEach(emoji_item => {
         if (document.getElementById("emoji-style-" + emoji_item).classList.contains("blue-selected-button")) {
             document.getElementById("emoji-style-" + emoji_item).classList.remove("blue-selected-button");
@@ -1816,15 +1816,15 @@ function getLanguageCode(language) {
 }
 
 function setFontFamily() {
-    emojisElement.classList.remove("font-twemoji", "font-notocoloremoji", "font-openmojicolor", "font-openmojiblack", "font-default", "font-twemoji-fix-macos", "font-joypixels");
-    titlesElement.classList.remove("font-twemoji", "font-notocoloremoji", "font-openmojicolor", "font-openmojiblack", "font-default", "font-twemoji-fix-macos", "font-joypixels");
-    topSectionElement.classList.remove("font-twemoji", "font-notocoloremoji", "font-openmojicolor", "font-openmojiblack", "font-default", "font-twemoji-fix-macos", "font-joypixels");
-    document.getElementById("emoji-skin-choose").classList.remove("font-twemoji", "font-notocoloremoji", "font-openmojicolor", "font-openmojiblack", "font-default", "font-twemoji-fix-macos", "font-joypixels");
-    document.getElementById("emoji-size-very-small").classList.remove("font-twemoji", "font-notocoloremoji", "font-openmojicolor", "font-openmojiblack", "font-default", "font-twemoji-fix-macos", "font-joypixels");
-    document.getElementById("emoji-size-small").classList.remove("font-twemoji", "font-notocoloremoji", "font-openmojicolor", "font-openmojiblack", "font-default", "font-twemoji-fix-macos", "font-joypixels");
-    document.getElementById("emoji-size-normal").classList.remove("font-twemoji", "font-notocoloremoji", "font-openmojicolor", "font-openmojiblack", "font-default", "font-twemoji-fix-macos", "font-joypixels");
-    document.getElementById("emoji-size-big").classList.remove("font-twemoji", "font-notocoloremoji", "font-openmojicolor", "font-openmojiblack", "font-default", "font-twemoji-fix-macos", "font-joypixels");
-    document.getElementById("emoji-size-very-big").classList.remove("font-twemoji", "font-notocoloremoji", "font-openmojicolor", "font-openmojiblack", "font-default", "font-twemoji-fix-macos", "font-joypixels");
+    emojisElement.classList.remove("font-twemoji", "font-notocoloremoji", "font-openmojicolor", "font-openmojiblack", "font-default", "font-twemoji-fix-macos");
+    titlesElement.classList.remove("font-twemoji", "font-notocoloremoji", "font-openmojicolor", "font-openmojiblack", "font-default", "font-twemoji-fix-macos");
+    topSectionElement.classList.remove("font-twemoji", "font-notocoloremoji", "font-openmojicolor", "font-openmojiblack", "font-default", "font-twemoji-fix-macos");
+    document.getElementById("emoji-skin-choose").classList.remove("font-twemoji", "font-notocoloremoji", "font-openmojicolor", "font-openmojiblack", "font-default", "font-twemoji-fix-macos");
+    document.getElementById("emoji-size-very-small").classList.remove("font-twemoji", "font-notocoloremoji", "font-openmojicolor", "font-openmojiblack", "font-default", "font-twemoji-fix-macos");
+    document.getElementById("emoji-size-small").classList.remove("font-twemoji", "font-notocoloremoji", "font-openmojicolor", "font-openmojiblack", "font-default", "font-twemoji-fix-macos");
+    document.getElementById("emoji-size-normal").classList.remove("font-twemoji", "font-notocoloremoji", "font-openmojicolor", "font-openmojiblack", "font-default", "font-twemoji-fix-macos");
+    document.getElementById("emoji-size-big").classList.remove("font-twemoji", "font-notocoloremoji", "font-openmojicolor", "font-openmojiblack", "font-default", "font-twemoji-fix-macos");
+    document.getElementById("emoji-size-very-big").classList.remove("font-twemoji", "font-notocoloremoji", "font-openmojicolor", "font-openmojiblack", "font-default", "font-twemoji-fix-macos");
 
     emojisElement.classList.add("font-" + font_family);
     titlesElement.classList.add("font-" + font_family);
@@ -1938,7 +1938,7 @@ function setTheme() {
     document.getElementById("emoji-style-openmojiblack").classList.add(theme + "-select");
     document.getElementById("emoji-style-default").classList.add(theme + "-select");
     //document.getElementById("emoji-style-twemoji-fix-macos").classList.add(theme + "-select");
-    document.getElementById("emoji-style-joypixels").classList.add(theme + "-select");
+    //document.getElementById("emoji-style-joypixels").classList.add(theme + "-select");
 
     //TODO: change when add/remove an option in Settings -- separators
     for (let n = 0; n < 12; n++) {
@@ -2251,7 +2251,7 @@ function setLanguageUI() {
     document.getElementById("select-font-family-4").textContent = strings["settings"]["select-default-emoji"];
     document.getElementById("emoji-style-default").title = strings["settings"]["select-default-emoji"];
     document.getElementById("select-font-family-6").textContent = strings["settings"]["select-joypixels-emoji"];
-    document.getElementById("emoji-style-joypixels").title = strings["settings"]["select-joypixels-emoji"];
+    //document.getElementById("emoji-style-joypixels").title = strings["settings"]["select-joypixels-emoji"];
     document.getElementById("select-font-family-7").textContent = strings["settings"]["select-notocoloremoji-emoji"];
     document.getElementById("emoji-style-notocoloremoji").title = strings["settings"]["select-notocoloremoji-emoji"];
     document.getElementById("alert-font-pop-up").textContent = strings["settings"]["label-font-family-use-twitter"];

@@ -153,6 +153,13 @@ function releaseNotes(release) {
             release_notes_text += "<br><div class='text-center'><a href='https://t.me/sav_projects' class='close-popup button-release'>Join now on Telegram!</a></div>";
             release_notes_text += "</ul>";
             break;
+
+        case "3.22.2":
+                release_notes_text = "<ul>";
+                release_notes_text += "<li>Removed <span class='background-lightblue'>JoyPixels</span> font</li>";
+                release_notes_text += "<li>The current Twemoji version doesn't support the latest emojis (release 15.1), so if you want to use them, please, use another emoji font: change it in Settings</li>";
+                release_notes_text += "</ul>";
+                break;
     }
     return release_notes_text;
 }
