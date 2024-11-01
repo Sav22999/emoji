@@ -58,15 +58,18 @@ const linkDonate = {
 const linkTranslate = "https://crowdin.com/project/emoji-sav";
 const linkNeedHelp = ["https://www.emojiaddon.com/help"];
 const storeName = ["Firefox Add-ons", "Microsoft Edge Add-ons", "Google Chrome Web Store"];
-const fontFamily = ["twemoji", "notocoloremoji", "notocoloremoji", "twemoji-fix-macos"];
+const fontFamily = ["twemoji", "notocoloremoji"];
+var font_family_index = 0;
 
 if (browserOrChromeIndex === 0) {
     browserAgentSettings = browser;
+    font_family_index = 0;
 } else if (browserOrChromeIndex === 1 || browserOrChromeIndex === 2) {
     browserAgentSettings = chrome;
+    font_family_index = 1;
 }
 
-var font_family = fontFamily[browserOrChromeIndex]; //twemoji (Twitter), notocoloremoji (Google), openmojicolor (OpenMoji), openmojiblack, default
+var font_family = fontFamily[font_family_index]; //twemoji (Twitter), notocoloremoji (Google), openmojicolor (OpenMoji), openmojiblack, default
 
 const hideChooseSkinToneMiniPopUpAfterSeconds = 2 * 1000; //2 seconds
 const hideMessageBottomAfterSeconds = 1500;
@@ -507,9 +510,9 @@ function setPopUpUI() {
     all_emojis = emojis.slice();
 
     // selectedTitle==1 means you are in mostUsedEmojis
-    let n_emojis = selectedTitle == 1 ? (max_columns * max_rows) : Object.keys(all_emojis[selectedTitle]).length;
+    let n_emojis = selectedTitle === 1 ? (max_columns * max_rows) : Object.keys(all_emojis[selectedTitle]).length;
     let rows = parseInt(n_emojis / max_columns + "");
-    if ((n_emojis % max_columns) != 0) rows += 1;
+    if ((n_emojis % max_columns) !== 0) rows += 1;
 
     let versionNumberText = "Release #{{version-number}}::{{store-name}}";
     versionNumberText = versionNumberText.replaceAll("{{version-number}}", releaseNumber);
@@ -519,7 +522,8 @@ function setPopUpUI() {
     emojisElement.style.height = (max_rows * (size_emojis + marginToUse) + 4) + "px"; //10: 5margin * 2, 4: 2margin * 2
     document.getElementById("popup-content").style.height = (max_rows * (size_emojis + marginToUse) + 4 + 36 + (34 + 12)) + "px"; //36 is the height of titles, 34+12 because there is the search-box (and its margin)
 
-    let widthToSet = (max_columns * (size_emojis + marginToUse) + 4 + 10); //4 is the padding of emojis div, 10 is the width of scrollbar (customised), otherwise it would be 18
+    const additionalSpace = 5; //10 is an arbitrary value
+    let widthToSet = (max_columns * (size_emojis + marginToUse) + 4 + 10 + additionalSpace); //4 is the padding of emojis div, 10 is the width of scrollbar (customised), otherwise it would be 18 || addition space is for some extra space
 
     document.body.style.width = widthToSet + "px";
     emojisElement.style.overflowY = "auto";
@@ -976,11 +980,11 @@ function hideChooseSkinToneMiniPopUp() {
 }
 
 function checkFontFamily() {
-    if (document.getElementById("font-family-selected").selectedIndex != 0) {
-        document.getElementById("alert-font-pop-up").style.display = "inline-block";
-    } else {
-        document.getElementById("alert-font-pop-up").style.display = "none";
-    }
+    // if (document.getElementById("font-family-selected").selectedIndex != 0) {
+    //     document.getElementById("alert-font-pop-up").style.display = "inline-block";
+    // } else {
+    //     document.getElementById("alert-font-pop-up").style.display = "none";
+    // }
 }
 
 function setLanguageSelector(selected) {
@@ -2250,7 +2254,7 @@ function setLanguageUI() {
     document.getElementById("emoji-style-openmojiblack").title = strings["settings"]["select-openmojiblack-emoji"];
     document.getElementById("select-font-family-4").textContent = strings["settings"]["select-default-emoji"];
     document.getElementById("emoji-style-default").title = strings["settings"]["select-default-emoji"];
-    document.getElementById("select-font-family-6").textContent = strings["settings"]["select-joypixels-emoji"];
+    //document.getElementById("select-font-family-6").textContent = strings["settings"]["select-joypixels-emoji"];
     //document.getElementById("emoji-style-joypixels").title = strings["settings"]["select-joypixels-emoji"];
     document.getElementById("select-font-family-7").textContent = strings["settings"]["select-notocoloremoji-emoji"];
     document.getElementById("emoji-style-notocoloremoji").title = strings["settings"]["select-notocoloremoji-emoji"];
