@@ -71,7 +71,7 @@ if (browserOrChromeIndex === 0) {
 
 var font_family = fontFamily[font_family_index]; //twemoji (Twitter), notocoloremoji (Google), openmojicolor (OpenMoji), openmojiblack, default
 
-const hideChooseSkinToneMiniPopUpAfterSeconds = 2 * 1000; //2 seconds
+const hideChooseSkinToneMiniPopUpAfterSeconds = 500; //500 ms
 const hideMessageBottomAfterSeconds = 1500;
 
 var set_timeout_mini_popup = null;
@@ -496,6 +496,44 @@ function generateEmojis(title) {
     for (let i = 0; i < n_emojis; i++) {
         document.getElementsByClassName("emoji")[i].onclick = function (e) {
             copyEmoji(this.value, this.title);
+        };
+
+        document.getElementsByClassName("emoji")[i].onkeydown = function (e) {
+            //if arrow right, simulate the "tab" key, else if arrow left, simulate the "shift+tab" key
+            //if arrow down, check if there is a row below, if yes, focus the first emoji of the row below
+            //if arrow up, check if there is a row above, if yes, focus the first emoji of the row above
+            if (e.key === "ArrowRight") {
+                e.preventDefault();
+                let index = i + 1;
+                if (index >= n_emojis) {
+                    index = 0;
+                }
+
+                if (document.getElementsByClassName("emoji")[index]) {
+                    document.getElementsByClassName("emoji")[index].focus();
+                }
+            } else if (e.key === "ArrowLeft") {
+                e.preventDefault();
+                let index = i - 1;
+                if (index < 0) {
+                    index = n_emojis - 1;
+                }
+                if (document.getElementsByClassName("emoji")[index]) {
+                    document.getElementsByClassName("emoji")[index].focus();
+                }
+            } else if (e.key === "ArrowDown") {
+                e.preventDefault();
+                let index = i + (max_columns * 1);
+                if (document.getElementsByClassName("emoji")[index]) {
+                    document.getElementsByClassName("emoji")[index].focus();
+                }
+            } else if (e.key === "ArrowUp") {
+                e.preventDefault();
+                let index = i - (max_columns * 1);
+                if (document.getElementsByClassName("emoji")[index]) {
+                    document.getElementsByClassName("emoji")[index].focus();
+                }
+            }
         };
     }
     if (n_emojis > 0 && number_of_emojis_generations > 4) {
@@ -1871,11 +1909,8 @@ function setTheme() {
     removeThemeClassId("insert-emoji-selected", "-select");
     removeThemeClassId("key-shortcut-selected", "-select");
     removeThemeClassId("key-shortcut-ctrl-alt-shift-selected", "-select");
-    removeThemeClassId("emoji-size-very-small", "-select");
-    removeThemeClassId("emoji-size-small", "-select");
-    removeThemeClassId("emoji-size-normal", "-select");
-    removeThemeClassId("emoji-size-big", "-select");
-    removeThemeClassId("emoji-size-very-big", "-select");
+    removeThemeClassId("emoji-style-openmojiblack", "-text");
+
 
     let n_elements_button_yes = document.getElementsByClassName("button-yes").length;
     for (let i = 0; i < n_elements_button_yes; i++) {
@@ -1931,16 +1966,7 @@ function setTheme() {
     document.getElementById("insert-emoji-selected").classList.add(theme + "-select");
     document.getElementById("key-shortcut-selected").classList.add(theme + "-select");
     document.getElementById("key-shortcut-ctrl-alt-shift-selected").classList.add(theme + "-select");
-    document.getElementById("emoji-size-very-small").classList.add(theme + "-select");
-    document.getElementById("emoji-size-small").classList.add(theme + "-select");
-    document.getElementById("emoji-size-normal").classList.add(theme + "-select");
-    document.getElementById("emoji-size-big").classList.add(theme + "-select");
-    document.getElementById("emoji-size-very-big").classList.add(theme + "-select");
-    document.getElementById("emoji-style-twemoji").classList.add(theme + "-select");
-    document.getElementById("emoji-style-notocoloremoji").classList.add(theme + "-select");
-    document.getElementById("emoji-style-openmojicolor").classList.add(theme + "-select");
-    document.getElementById("emoji-style-openmojiblack").classList.add(theme + "-select");
-    document.getElementById("emoji-style-default").classList.add(theme + "-select");
+    document.getElementById("emoji-style-openmojiblack").classList.add(theme + "-text");
     //document.getElementById("emoji-style-twemoji-fix-macos").classList.add(theme + "-select");
     //document.getElementById("emoji-style-joypixels").classList.add(theme + "-select");
 
@@ -2288,7 +2314,7 @@ function setLanguageUI() {
     document.getElementById("donate-paypal-settings").value = strings["settings"]["button-paypal"];
     document.getElementById("donate-liberapay-settings").value = strings["settings"]["button-liberapay"];
     document.getElementById("translate-settings").value = strings["settings"]["button-translate"];
-    document.getElementById("made-in-basilicata-settings").innerHTML = strings["settings"]["label-made-with-heart-basilicata"].replaceAll("{{properties}}", "class='font-" + font_family + " font-size-16'");
+    document.getElementById("made-in-trentino-settings").innerHTML = strings["settings"]["label-made-with-heart-trentino"].replaceAll("{{properties}}", "class='font-" + font_family + " font-size-16'");
     document.getElementById("select-ctrl-shortcut").textContent = strings["settings"]["label-ctrl-" + currentOS];
     document.getElementById("select-alt-shortcut").textContent = strings["settings"]["label-alt-" + currentOS];
     document.getElementById("select-ctrl-alt-shortcut").textContent = strings["settings"]["label-ctrl-alt-" + currentOS];
