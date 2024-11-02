@@ -148,7 +148,7 @@ emojis_language[lang][3] = {
     "🧒{{skin_tone}}": ["Child", ":child:", "Gender Neutral Child"],
     "👧{{skin_tone}}": ["Girl", ":girl:", ":woman:"],
     "🧑{{skin_tone}}": ["Person", ":person:", "Gender Neutral Adult", "Adult", ":person:"],
-    "🧑{{skin_tone}}": ["Person: Beard", ":person_beard:", "Beard", "Bearded Person", "Bearded Person", ":person:"],
+    "🧔{{skin_tone}}": ["Person: Beard", ":person_beard:", "Beard", "Bearded Person", "Bearded Person", ":person:"],
     "🧑{{skin_tone}}‍🦰": ["Person: Red Hair", ":person_red_hair:", "Ginger Person", "Person Redhead", "Person With Red Hair", ":person:"],
     "🧑{{skin_tone}}‍🦱": ["Person: Curly Hair", ":person_curly_hair:", "Person With Curly Hair", ":person:"],
     "🧑{{skin_tone}}‍🦳": ["Person: White Hair", ":person_white_hair:", "Person With Gray Hair", ":person:"],
