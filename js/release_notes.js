@@ -154,7 +154,7 @@ function releaseNotes(release) {
             release_notes_text += "</ul>";
             break;
 
-        case "3.22.2":
+        case "3.23":
             release_notes_text = "<ul>";
             release_notes_text += "<li>Removed <span class='background-lightblue'>JoyPixels</span> font</li>";
             release_notes_text += "<li>Added new emojis</li>";
