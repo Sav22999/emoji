@@ -790,7 +790,18 @@ emojis_language[lang][2] = {
         'حمل الوجه الدموع الخلفية',
         ':face_holding_back_tears:'
     ],
-    //"🫨": ["Shaking Face", ":shaking_face:"],
+    '🫨': [
+        'Shaking Face',
+        ':shaking_face:'
+    ],
+    '🙂‍↔️': [
+        'Head Shaking Horizontally',
+        ':head_shaking_horizontally:'
+    ],
+    '🙂‍↕️': [
+        'Head Shaking Vertically',
+        ':head_shaking_vertically:'
+    ],
     '😈': [
         'ابتسامة الوجه مع القرون',
         ':smiling_face_with_horns:',
@@ -907,12 +918,12 @@ emojis_language[lang][3] = {
         'الكبار',
         ':person:'
     ],
-    '🧑{{skin_tone}}': [
-        'شخص: لعب',
+    '🧔{{skin_tone}}': [
+        'Person: Beard',
         ':person_beard:',
-        'لحم',
-        'شخص محبوس',
-        'شخص محبوس',
+        'Beard',
+        'Bearded Person',
+        'Bearded Person',
         ':person:'
     ],
     '🧑{{skin_tone}}‍🦰': [
@@ -2060,6 +2071,24 @@ emojis_language[lang][3] = {
         ':walking:',
         ':person:'
     ],
+    '🚶{{skin_tone}}‍♂️‍➡️': [
+        'Man Walking Facing Right',
+        ':man_walking_facing_right:',
+        ':walking:',
+        ':man:'
+    ],
+    '🚶{{skin_tone}}‍♀️‍➡️': [
+        'Woman Walking Facing Right',
+        ':woman_walking_facing_right:',
+        ':walking:',
+        ':woman'
+    ],
+    '🚶{{skin_tone}}‍➡️': [
+        'Person Walking Facing Right',
+        ':person_walking_facing_right:',
+        ':walking:',
+        ':person:'
+    ],
     '🧍{{skin_tone}}‍♂️': [
         'موقف الرجل',
         ':man_standing:',
@@ -2096,6 +2125,24 @@ emojis_language[lang][3] = {
         ':kneeling:',
         ':person:'
     ],
+    '🧎{{skin_tone}}‍♂️‍➡️': [
+        'Man Kneeling Facing Right',
+        ':man_kneeling_facing_right:',
+        ':kneeling:',
+        ':man:'
+    ],
+    '🧎{{skin_tone}}‍♀️‍➡️': [
+        'Woman Kneeling Facing Right',
+        ':woman_kneeling_facing_right:',
+        ':kneeling:',
+        ':woman:'
+    ],
+    '🧎{{skin_tone}}‍➡️': [
+        'Person Kneeling Facing Right',
+        ':person_kneeling_facing_right:',
+        ':kneeling:',
+        ':person:'
+    ],
     '👨{{skin_tone}}‍🦯': [
         'رجل مع قصب أبيض',
         ':man_with_white_cane:',
@@ -2111,6 +2158,24 @@ emojis_language[lang][3] = {
     '🧑{{skin_tone}}‍🦯': [
         'شخص مع قصب أبيض',
         ':person_with_white_cane:',
+        ':white_cane:',
+        ':person:'
+    ],
+    '👨{{skin_tone}}‍🦯‍➡️': [
+        'Man with White Cane Facing Right',
+        ':man_with_white_cane_facing_right:',
+        ':white_cane:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🦯‍➡️': [
+        'Woman with White Cane Facing Right',
+        ':woman_with_white_cane_facing_right:',
+        ':white_cane:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🦯‍➡️': [
+        'Person with White Cane Facing Right',
+        ':person_with_white_cane_facing_right:',
         ':white_cane:',
         ':person:'
     ],
@@ -2132,6 +2197,24 @@ emojis_language[lang][3] = {
         ':motorized_wheelchair:',
         ':person:'
     ],
+    '👨{{skin_tone}}‍🦼‍➡️': [
+        'Man in Motorized Wheelchair Facing Right',
+        ':man_in_motorized_wheelchair_facing_right:',
+        ':motorized_wheel:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🦼‍➡️': [
+        'Woman in Motorized Wheelchair Facing Right',
+        ':woman_in_motorized_wheelchair_facing_right:',
+        ':motorized_wheel:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🦼‍➡️': [
+        'Person in Motorized Wheelchair Facing Right',
+        ':person_in_motorized_wheelchair_facing_right:',
+        ':motorized_wheel:',
+        ':person:'
+    ],
     '👨{{skin_tone}}‍🦽': [
         'رجل في كرسي عجلة يدوي',
         ':man_manual_wheelchair:',
@@ -2147,6 +2230,24 @@ emojis_language[lang][3] = {
     '🧑{{skin_tone}}‍🦽': [
         'شخص في كرسي عجلة يدوي',
         ':person_manual_wheelchair:',
+        ':manual_wheelchair:',
+        ':person:'
+    ],
+    '👨{{skin_tone}}‍🦽‍➡️': [
+        'Man in Manual Wheelchair Facing Right',
+        ':man_manual_wheelchair_facing_right:',
+        ':manual_wheelchair:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🦽‍➡️': [
+        'Woman in Manual Wheelchair Facing Right',
+        ':woman_manual_wheelchair_facing_right:',
+        ':manual_wheelchair:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🦽‍➡️': [
+        'Person in Manual Wheelchair Facing Right',
+        ':person_manual_wheelchair_facing_right:',
         ':manual_wheelchair:',
         ':person:'
     ],
@@ -2233,6 +2334,11 @@ emojis_language[lang][3] = {
         'زوج غير متوافق مع نوع الجنس',
         ':person:'
     ],
+    '🧑‍🧑‍🧒': [
+        'Family: Adult, Adult, Child',
+        ':family_adult_adult_child:',
+        'Family: Person, Person, Child'
+    ],
     '👨‍👩‍👦': [
         'العائلة مع الأم والأب والأبن',
         ':family_with_mother_father_and_son:',
@@ -2242,6 +2348,35 @@ emojis_language[lang][3] = {
         'الأسرة مع الأم والأب والبنت',
         ':family_with_mother_father_and_daughter:',
         'العائلة: رجل، امرأة، فتاة'
+    ],
+    '👨‍👨‍👦': [
+        'العائلة مع والدين و ابن',
+        ':family_with_two_fathers_and_son:',
+        'العائلة: رجل، رجل، فتى',
+        ':man:'
+    ],
+    '👨‍👨‍👧': [
+        'الأسرة مع والدين وابنتين',
+        ':family_with_two_fathers_and_daughter:',
+        'العائلة: رجل، رجل، فتاة',
+        ':man:'
+    ],
+    '👩‍👩‍👦': [
+        'العائلة مع أمهات وأبناء',
+        ':family_with_two_mothers_and_son:',
+        'العائلة: امرأة، امرأة، فتى',
+        ':woman:'
+    ],
+    '👩‍👩‍👧': [
+        'الأسرة مع أمتين وابنتين',
+        ':family_with_two_mothers_and_daughter:',
+        'الأسرة: امرأة، امرأة، فتاة',
+        ':woman:'
+    ],
+    '🧑‍🧑‍🧒‍🧒': [
+        'Family: Adult, Adult, Child, Child',
+        ':family_adult_adult_child_child:',
+        'Family: Person, Person, Child, Child'
     ],
     '👨‍👩‍👧‍👦': [
         'الأسرة مع الأم والأب والبنت والبنت',
@@ -2257,18 +2392,6 @@ emojis_language[lang][3] = {
         'الأسرة مع الأم والأب والبنتين',
         ':family_with_mother_father_and_two_daughters:',
         'الأسرة: رجل وامرأة وفتاة وفتاة'
-    ],
-    '👨‍👨‍👦': [
-        'العائلة مع والدين و ابن',
-        ':family_with_two_fathers_and_son:',
-        'العائلة: رجل، رجل، فتى',
-        ':man:'
-    ],
-    '👨‍👨‍👧': [
-        'الأسرة مع والدين وابنتين',
-        ':family_with_two_fathers_and_daughter:',
-        'العائلة: رجل، رجل، فتاة',
-        ':man:'
     ],
     '👨‍👨‍👧‍👦': [
         'عائلة مع والدين وابن وابنتين',
@@ -2288,18 +2411,6 @@ emojis_language[lang][3] = {
         'الأسرة: رجل، فتاة، فتاة',
         ':man:'
     ],
-    '👩‍👩‍👦': [
-        'العائلة مع أمهات وأبناء',
-        ':family_with_two_mothers_and_son:',
-        'العائلة: امرأة، امرأة، فتى',
-        ':woman:'
-    ],
-    '👩‍👩‍👧': [
-        'الأسرة مع أمتين وابنتين',
-        ':family_with_two_mothers_and_daughter:',
-        'الأسرة: امرأة، امرأة، فتاة',
-        ':woman:'
-    ],
     '👩‍👩‍👧‍👦': [
         'العائلة مع أمتين، ابن وابنتين',
         ':family_with_two_mothers_son_and_daughter:',
@@ -2318,6 +2429,11 @@ emojis_language[lang][3] = {
         'الأسرة: امرأة، امرأة، فتاة، فتاة',
         ':woman:'
     ],
+    '🧑‍🧒': [
+        'Family: Adult, Child',
+        ':family_adult_child:',
+        'Family: Person, Child'
+    ],
     '👨‍👦': [
         'العائلة مع الأب و الابن',
         ':family_with_father_and_son:',
@@ -2329,6 +2445,23 @@ emojis_language[lang][3] = {
         ':family_with_father_and_daughter:',
         'الأسرة: رجل، فتاة',
         ':man:'
+    ],
+    '👩‍👧': [
+        'الأسرة مع الأم والبنت',
+        ':family_with_mother_and_daughter:',
+        'الأسرة: امرأة، فتاة',
+        ':woman:'
+    ],
+    '👨‍👧‍👧': [
+        'العائلة مع الأب والبنتين',
+        ':family_with_father_and_two_daughters:',
+        'الأسرة: رجل فتاة فتاة',
+        ':man:'
+    ],
+    '🧑‍🧒‍🧒': [
+        'Family: Adult, Child, Child',
+        ':family_adult_child_child:',
+        'Family: Person, Child, Child'
     ],
     '👨‍👦‍👦': [
         'العائلة مع الأب وولدين',
@@ -2342,22 +2475,10 @@ emojis_language[lang][3] = {
         'العائلة: رجل، فتاة، فتى',
         ':man:'
     ],
-    '👨‍👧‍👧': [
-        'العائلة مع الأب والبنتين',
-        ':family_with_father_and_two_daughters:',
-        'الأسرة: رجل فتاة فتاة',
-        ':man:'
-    ],
     '👩‍👦': [
         'العائلة مع الأم و الابن',
         ':family_with_mother_and_son:',
         'العائلة: امرأة، فتى',
-        ':woman:'
-    ],
-    '👩‍👧': [
-        'الأسرة مع الأم والبنت',
-        ':family_with_mother_and_daughter:',
-        'الأسرة: امرأة، فتاة',
         ':woman:'
     ],
     '👩‍👦‍👦': [
@@ -3227,6 +3348,44 @@ emojis_language[lang][4] = {
         ':nest_with_eggs:',
         'الطيور',
         'الرئيسية'
+    ],
+    '🫏': [
+        'Donkey',
+        ':donkey:',
+        ':grey:',
+        ':gray:'
+    ],
+    '🫎': [
+        'Moose',
+        ':moose:',
+        'Moose Face',
+        ':brown:'
+    ],
+    '🪿': [
+        'Goose',
+        ':goose:',
+        ':white:'
+    ],
+    '🪼': [
+        'Jellyfish',
+        ':jellyfish:',
+        ':blue:'
+    ],
+    '🐦‍⬛': [
+        'Black bird',
+        ':black_bird:',
+        ':raven:',
+        'Raven',
+        'Crow',
+        'Rook',
+        ':black:'
+    ],
+    '🐦‍🔥': [
+        'Phoenix',
+        'Fire',
+        'Reborn',
+        ':phoenix:',
+        ':red:'
     ]
 };
 /*symbols*/
@@ -3377,9 +3536,27 @@ emojis_language[lang][5] = {
         'أنا أحبك',
         ':brown:'
     ],
-    //"🩷": ["Pink Heart", ":pink_heart:", "I Love You", ":pink:"],
-    //"🩵": ["Light Blue Heart", ":lightblue_heart:", "I Love You", ":blue:"],
-    //"🩶": ["Grey Heart","Gray Heart", ":grey_heart:",":gray_heart:", "I Love You", ":gray:", ":grey:"],
+    '🩷': [
+        'Pink Heart',
+        ':pink_heart:',
+        'I Love You',
+        ':pink:'
+    ],
+    '🩵': [
+        'Light Blue Heart',
+        ':lightblue_heart:',
+        'I Love You',
+        ':blue:'
+    ],
+    '🩶': [
+        'Grey Heart',
+        'Gray Heart',
+        ':grey_heart:',
+        ':gray_heart:',
+        'I Love You',
+        ':gray:',
+        ':grey:'
+    ],
     '💯': [
         '100 نقطة',
         ':hundred_points:',
@@ -3835,7 +4012,12 @@ emojis_language[lang][5] = {
         'ستة نجوم ذات نقطة متوسطة',
         ':purple:'
     ],
-    //"🪯": ["Khanda", ":khanda:", "Sikhism", ":purple:"],
+    '🪯': [
+        'Khanda',
+        ':khanda:',
+        'Sikhism',
+        ':purple:'
+    ],
     '♈': [
         'أريز',
         ':aries:',
@@ -4696,7 +4878,16 @@ emojis_language[lang][5] = {
         'مراقبة الحدود',
         ':blue:'
     ],
-    //"🛜": ["Wireless", ":wireless:", ":wifi:", ":wi_fi:", "Wifi", "wi-fi", "wireless connection", ":blue:"],
+    '🛜': [
+        'Wireless',
+        ':wireless:',
+        ':wifi:',
+        ':wi_fi:',
+        'Wifi',
+        'wi-fi',
+        'wireless connection',
+        ':blue:'
+    ],
     '🚰': [
         'رمز المياه الصالحة للشرب',
         ':potable_water_symbol:',
@@ -5381,11 +5572,24 @@ emojis_language[lang][6] = {
         ':broccoli:',
         ':green:'
     ],
+    '🍋‍🟩': [
+        'Lime',
+        ':lime:',
+        ':green:'
+    ],
     '🍄': [
         'الفطر',
         ':mushroom:',
         'غرف',
         'Toadstool'
+    ],
+    '🍄‍🟫': [
+        'Brown Mushroom',
+        ':brown_mushroom:',
+        'Mushroom',
+        'Shroom',
+        'Toadstool',
+        ':brown:'
     ],
     '🥜': [
         'Peanuts',
@@ -7696,6 +7900,24 @@ emojis_language[lang][8] = {
         ':running:',
         ':person:'
     ],
+    '🏃{{skin_tone}}‍♂️‍➡️': [
+        'Man Running Facing Right',
+        ':man_running_facing_right:',
+        ':running:',
+        ':man:'
+    ],
+    '🏃{{skin_tone}}‍♀️‍➡️': [
+        'Woman Running Facing Right',
+        'woman_running_facing_right:',
+        ':running:',
+        ':woman:'
+    ],
+    '🏃{{skin_tone}}‍➡️': [
+        'Person Running Facing Right',
+        ':person_running_facing_right:',
+        ':running:',
+        ':person:'
+    ],
     '🕺{{skin_tone}}': [
         'رقص الإنسان',
         ':man_dancing:',
@@ -9709,6 +9931,14 @@ emojis_language[lang][12] = {
         ':selfie:',
         'كاميرا الهاتف',
         'سيلفي يد'
+    ],
+    '🫸{{skin_tone}}': [
+        'Rightwards Pushing Hand',
+        ':rightwards_pushing_hand:'
+    ],
+    '🫷{{skin_tone}}': [
+        'Leftwards Pushing Hand',
+        ':leftwards_pushing_hand:'
     ]
 };
 /*other*/
@@ -10345,9 +10575,24 @@ emojis_language[lang][13] = {
         'الهدوء',
         'الهدوء'
     ],
-    //"🪻": ["Hyacinth", ":hyacinth:", "Purple flower", ":purple:"],
-    //"🫛": ["Pea Pod", ":pea_pod:", ":green:"],
-    //"🫚": ["Ginger root", ":ginger:", "Spice", "Flavour", ":brown:"],
+    '🪻': [
+        'Hyacinth',
+        ':hyacinth:',
+        'Purple flower',
+        ':purple:'
+    ],
+    '🫛': [
+        'Pea Pod',
+        ':pea_pod:',
+        ':green:'
+    ],
+    '🫚': [
+        'Ginger root',
+        ':ginger:',
+        'Spice',
+        'Flavour',
+        ':brown:'
+    ],
     '🔑': [
         'المفتاح',
         ':key:',
@@ -10469,10 +10714,6 @@ emojis_language[lang][13] = {
         'المغناطيس',
         ':magnet:',
         ':red:'
-    ],
-    '⛓️': [
-        'السلاسل',
-        ':chains:'
     ],
     '💉': [
         'Syringe',
@@ -10622,12 +10863,26 @@ emojis_language[lang][13] = {
         ':balance_scale:',
         'مقاييس العدالة'
     ],
+    '⛓️': [
+        'السلاسل',
+        ':chains:'
+    ],
     '🔗': [
         'رابط',
         ':link:',
         'سلسلة',
         'رابط هائل',
         'سلسلة مرتبطة',
+        ':gray:',
+        ':grey:'
+    ],
+    '⛓️‍💥': [
+        'Broken chain',
+        ':broken_chain:',
+        'Chain',
+        'Hyperlink',
+        'Linked Chain',
+        'Unlinked chain',
         ':gray:',
         ':grey:'
     ],
@@ -11435,11 +11690,20 @@ emojis_language[lang][13] = {
     '🦽': [
         'كرسي عجلة يدوي',
         ':manual_wheelchair:',
-        ':wheelchair:'
+        ':wheelchair:',
+        'invalid',
+        'disability',
+        'accessibility',
+        'mobility'
     ],
     '🦼': [
         'كرسي عجلة محرك',
-        ':motorized_wheelchair:'
+        ':motorized_wheelchair:',
+        ':wheelchair:',
+        'invalid',
+        'disability',
+        'accessibility',
+        'mobility'
     ],
     '🪔': [
         'مصباح دييا',
@@ -11639,5 +11903,39 @@ emojis_language[lang][13] = {
         'Baby',
         'Child',
         'Children'
+    ],
+    '🪽': [
+        'Wing',
+        ':wing:',
+        'Fly',
+        ':white:'
+    ],
+    '🪭': [
+        'Folding Hand Fan',
+        ':folding_hand_fan:',
+        'Fan',
+        'Manual fan',
+        'Summer',
+        ':red:'
+    ],
+    '🪮': [
+        'Hair Pick',
+        ':hair_pick:',
+        'Black culture',
+        'Black pride',
+        ':black:'
+    ],
+    '🪈': [
+        'Flute',
+        ':flute:',
+        'Plastic flute',
+        'Metal plute',
+        'Bamboo flute',
+        'Musical instrument',
+        ':brown:'
+    ],
+    '🪇': [
+        'Maracas',
+        ':maracas:'
     ]
 };
