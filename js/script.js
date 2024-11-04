@@ -43,13 +43,10 @@ const skin_tones = ["", "🏻", "🏼", "🏽", "🏾", "🏿"]; //standard(yell
 
 var mostUsedEmojis = [];
 
-var browserOrChromeIndex = 0; //TODO: change manually: {0: Firefox, 1: Microsoft Edge, 2: Chrome Web Store}
-
 var browserAgentSettings = "";
 var currentOS = "";
 var currentShortcut = "";
 
-const linkReview = ["https://addons.mozilla.org/firefox/addon/emoji-sav/", "https://microsoftedge.microsoft.com/addons/detail/emoji/ejcgfbaipbelddlbokgcfajefbnnagfm", "https://chrome.google.com/webstore/detail/emoji/kjepehkgbooeigeflhiogplnckadlife?hl=it&authuser=0"];
 const linkDonate = {
     "paypal": "https://www.paypal.me/saveriomorelli",
     "liberapay": "https://liberapay.com/Sav22999/donate",
@@ -127,7 +124,6 @@ function checkEmojis() {
     }
 }
 
-const storeNameAbbr = ["MFA", "MEA", "GCWS"];//{MozillaFirefoxAddons, MicrosoftEdgeAddons, GoogleChromeWebStore}
 const releaseNumber = browserAgentSettings.runtime.getManifest().version;
 const addonName = browserAgentSettings.runtime.getManifest().name;
 const browserVersion = "--"
@@ -1672,7 +1668,7 @@ function saveSettings(reset = false, jsonToUse = null) {
         if (jsonToUse["space_emoji"] === undefined) spaceEmoji = 0;
         else spaceEmoji = jsonToUse["space_emoji"];
 
-        if (jsonToUse["insert_directly_emoji"] === undefined) alsoInsertEmoji = 0;
+        if (jsonToUse["insert_directly_emoji"] === undefined) alsoInsertEmoji = 1;
         else alsoInsertEmoji = jsonToUse["insert_directly_emoji"];
 
         if (jsonToUse["keyboard_shortcut"] === undefined) keyboardShortcut = "Ctrl+Alt+A";
@@ -1729,7 +1725,7 @@ function loadSettings(resize_popup_ui = false, focus_search_box = false) {
     let nameOfSetting = "settings";
 
     browserAgentSettings.storage.sync.get(nameOfSetting).then(value => {
-        if (value[nameOfSetting] != undefined) {
+        if (value[nameOfSetting] !== undefined) {
             jsonSettings = value[nameOfSetting];
             current_json_settings = jsonSettings;
         }
@@ -2102,10 +2098,10 @@ function selectYesNoSpaceEmoji(index) {
 }
 
 function sendMessageForInjection(forced = false) {
-    if (!injected) {
-        injected = true;
-        browserAgentSettings.runtime.sendMessage({type: "inject", file: contestScriptJs[0].file, forced: forced});
-    }
+    //if (!injected) {
+    //injected = true;
+    browserAgentSettings.runtime.sendMessage({type: "inject", file: contestScriptJs[0].file, forced: forced});
+    //}
 }
 
 let insertEmojiStatus = 0;
@@ -2310,7 +2306,7 @@ function setLanguageUI() {
     //document.getElementById("emoji-style-joypixels").title = strings["settings"]["select-joypixels-emoji"];
     document.getElementById("select-font-family-7").textContent = strings["settings"]["select-notocoloremoji-emoji"];
     document.getElementById("emoji-style-notocoloremoji").title = strings["settings"]["select-notocoloremoji-emoji"];
-    document.getElementById("label-font-family").textContent = strings["settings"]["label-font-family"];
+    //document.getElementById("label-font-family").textContent = strings["settings"]["label-font-family"];
     document.getElementById("select-font-family-1").textContent = strings["settings"]["select-google"];
     document.getElementById("select-font-family-2").textContent = strings["settings"]["select-openmoji-color"];
     document.getElementById("select-font-family-3").textContent = strings["settings"]["select-openmoji-black"];
