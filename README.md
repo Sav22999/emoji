@@ -58,7 +58,7 @@ Also, you can translate the extension (and the emojis description as well) on [C
 
 See folder <code>screenshots</code> to see screenshots also of the older versions.
 
-<img src="screenshots/3.17/1.png" width="400px"></img> <img src="screenshots/3.17/2.png" width="400px"></img> <img src="screenshots/3.17/3.png" width="400px"></img> <img src="screenshots/3.17/4.png" width="400px"></img>
+<img src="screenshots/3.22/1.png" width="400px"></img> <img src="screenshots/3.22/2.png" width="400px"></img> <img src="screenshots/3.22/3.png" width="400px"></img> <img src="screenshots/3.22/4.png" width="400px"></img>
 
 ## Licence
 

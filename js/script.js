@@ -43,12 +43,13 @@ const skin_tones = ["", "🏻", "🏼", "🏽", "🏾", "🏿"]; //standard(yell
 
 var mostUsedEmojis = [];
 
-var injected = false;
+var browserOrChromeIndex = 0; //TODO: change manually: {0: Firefox, 1: Microsoft Edge, 2: Chrome Web Store}
 
 var browserAgentSettings = "";
 var currentOS = "";
 var currentShortcut = "";
 
+const linkReview = ["https://addons.mozilla.org/firefox/addon/emoji-sav/", "https://microsoftedge.microsoft.com/addons/detail/emoji/ejcgfbaipbelddlbokgcfajefbnnagfm", "https://chrome.google.com/webstore/detail/emoji/kjepehkgbooeigeflhiogplnckadlife?hl=it&authuser=0"];
 const linkDonate = {
     "paypal": "https://www.paypal.me/saveriomorelli",
     "liberapay": "https://liberapay.com/Sav22999/donate",
@@ -56,7 +57,8 @@ const linkDonate = {
 }; //{paypal, liberapay}
 const linkTranslate = "https://crowdin.com/project/emoji-sav";
 const linkNeedHelp = ["https://www.emojiaddon.com/help"];
-const fontFamily = ["twemoji", "notocoloremoji", "notocoloremoji", "twemoji-fix-macos", "joypixels"];
+const fontFamily = ["twemoji", "notocoloremoji"];
+var font_family_index = 0;
 
 var browserOrChromeIndex = 2; //TODO: change manually: {0: Firefox, 1: Microsoft Edge, 2: Chrome Web Store, 3: Opera add-ons}
 const storeNameAbbr = ["MFA", "MEA", "GCWS", "OA"];//{MozillaFirefoxAddons, MicrosoftEdgeAddons, GoogleChromeWebStore, OperaAddons}
@@ -65,13 +67,15 @@ const linkReview = ["https://addons.mozilla.org/firefox/addon/emoji-sav/", "http
 
 if (browserOrChromeIndex === 0) {
     browserAgentSettings = browser;
+    font_family_index = 0;
 } else if (browserOrChromeIndex === 1 || browserOrChromeIndex === 2 || browserOrChromeIndex === 3) {
     browserAgentSettings = chrome;
+    font_family_index = 1;
 }
 
-var font_family = fontFamily[browserOrChromeIndex]; //twemoji (Twitter), notocoloremoji (Google), openmojicolor (OpenMoji), openmojiblack, default
+var font_family = fontFamily[font_family_index]; //twemoji (Twitter), notocoloremoji (Google), openmojicolor (OpenMoji), openmojiblack, default
 
-const hideChooseSkinToneMiniPopUpAfterSeconds = 2 * 1000; //2 seconds
+const hideChooseSkinToneMiniPopUpAfterSeconds = 500; //500 ms
 const hideMessageBottomAfterSeconds = 1500;
 
 var set_timeout_mini_popup = null;
@@ -123,6 +127,7 @@ function checkEmojis() {
     }
 }
 
+const storeNameAbbr = ["MFA", "MEA", "GCWS"];//{MozillaFirefoxAddons, MicrosoftEdgeAddons, GoogleChromeWebStore}
 const releaseNumber = browserAgentSettings.runtime.getManifest().version;
 const addonName = browserAgentSettings.runtime.getManifest().name;
 const browserVersion = "--"
@@ -262,7 +267,7 @@ function copyEmoji(text, tooltip) {
                     if (rn === undefined) rn = 0;
                     requestNumber = rn;
                     browserAgentSettings.tabs.sendMessage(tabs[0].id, {
-                        type: "insert-emoji-by-injection", emoji: text, requestNumber: rn
+                        type: "insert-emoji-by-injection", emoji: text, requestNumber: response.requestNumber
                     }).catch(onError);
                     addToMostUsedCopyEmoji(nameOfSetting, text, tooltip);
                 }).catch(onError);
@@ -521,9 +526,9 @@ function setPopUpUI() {
     all_emojis = emojis.slice();
 
     // selectedTitle==1 means you are in mostUsedEmojis
-    let n_emojis = selectedTitle == 1 ? (max_columns * max_rows) : Object.keys(all_emojis[selectedTitle]).length;
+    let n_emojis = selectedTitle === 1 ? (max_columns * max_rows) : Object.keys(all_emojis[selectedTitle]).length;
     let rows = parseInt(n_emojis / max_columns + "");
-    if ((n_emojis % max_columns) != 0) rows += 1;
+    if ((n_emojis % max_columns) !== 0) rows += 1;
 
     let versionNumberText = "Release #{{version-number}}::{{store-name}}";
     versionNumberText = versionNumberText.replaceAll("{{version-number}}", releaseNumber);
@@ -533,7 +538,8 @@ function setPopUpUI() {
     emojisElement.style.height = (max_rows * (size_emojis + marginToUse) + 4) + "px"; //10: 5margin * 2, 4: 2margin * 2
     document.getElementById("popup-content").style.height = (max_rows * (size_emojis + marginToUse) + 4 + 36 + (34 + 12)) + "px"; //36 is the height of titles, 34+12 because there is the search-box (and its margin)
 
-    let widthToSet = (max_columns * (size_emojis + marginToUse) + 4 + 10); //4 is the padding of emojis div, 10 is the width of scrollbar (customised), otherwise it would be 18
+    const additionalSpace = 5; //10 is an arbitrary value
+    let widthToSet = (max_columns * (size_emojis + marginToUse) + 4 + 10 + additionalSpace); //4 is the padding of emojis div, 10 is the width of scrollbar (customised), otherwise it would be 18 || addition space is for some extra space
 
     document.body.style.width = widthToSet + "px";
     emojisElement.style.overflowY = "auto";
@@ -804,6 +810,7 @@ function setPopUpUI() {
     //document.getElementsByClassName("theme-button")[0].focus(); //after saveSettings get again focus of the first element in Settings
 
     setEmojiSizeButtons();
+    setEmojiStyleButtons();
     setSkinToneEmojis();
     setContextMenu();
 
@@ -829,6 +836,7 @@ function setEmojiSizeButtons() {
     });
 }
 
+
 function setEmojiSizeButtonsSelect(emoji_item) {
     let emoji_size_array = ["very-small", "small", "normal", "big", "very-big"];
     emoji_size_array.forEach(emoji_item => {
@@ -838,6 +846,34 @@ function setEmojiSizeButtonsSelect(emoji_item) {
     });
     setEmojiSizeButtons();
     document.getElementById("emoji-size-" + emoji_item).classList.add("blue-selected-button");
+}
+
+function setEmojiStyleButtons() {
+    let emoji_style_array = ["twemoji", "notocoloremoji", "openmojicolor", "openmojiblack", "default"];
+    let count = 0;
+    emoji_style_array.forEach(emoji_item => {
+        document.getElementById("emoji-style-" + emoji_item).onclick = function () {
+            if (document.getElementById("emoji-style-" + emoji_item).classList.contains("blue-selected-button")) {
+                document.getElementById("emoji-style-" + emoji_item).classList.add("blue-selected-button");
+            }
+            document.getElementById("font-family-selected").value = emoji_item;
+            saveSettings();
+        }
+        count++;
+    });
+}
+
+function setEmojiStyleButtonsSelect(emoji_item) {
+    let emoji_style_array = ["twemoji", "notocoloremoji", "openmojicolor", "openmojiblack", "default"];
+    emoji_style_array.forEach(emoji_item => {
+        if (document.getElementById("emoji-style-" + emoji_item).classList.contains("blue-selected-button")) {
+            document.getElementById("emoji-style-" + emoji_item).classList.remove("blue-selected-button");
+        }
+    });
+    setEmojiStyleButtons();
+    document.getElementById("emoji-style-" + emoji_item).classList.add("blue-selected-button");
+
+    document.getElementById("label-font-family").textContent = strings["settings"]["label-font-family"].replaceAll("{{font_family}}", strings["settings"]["select-" + emoji_item + "-emoji"]);
 }
 
 function setContextMenu() {
@@ -970,11 +1006,11 @@ function hideChooseSkinToneMiniPopUp() {
 }
 
 function checkFontFamily() {
-    if (document.getElementById("font-family-selected").selectedIndex != 0) {
-        document.getElementById("alert-font-pop-up").style.display = "inline-block";
-    } else {
-        document.getElementById("alert-font-pop-up").style.display = "none";
-    }
+    // if (document.getElementById("font-family-selected").selectedIndex != 0) {
+    //     document.getElementById("alert-font-pop-up").style.display = "inline-block";
+    // } else {
+    //     document.getElementById("alert-font-pop-up").style.display = "none";
+    // }
 }
 
 function setLanguageSelector(selected) {
@@ -1636,7 +1672,7 @@ function saveSettings(reset = false, jsonToUse = null) {
         if (jsonToUse["space_emoji"] === undefined) spaceEmoji = 0;
         else spaceEmoji = jsonToUse["space_emoji"];
 
-        if (jsonToUse["insert_directly_emoji"] === undefined) alsoInsertEmoji = 1;
+        if (jsonToUse["insert_directly_emoji"] === undefined) alsoInsertEmoji = 0;
         else alsoInsertEmoji = jsonToUse["insert_directly_emoji"];
 
         if (jsonToUse["keyboard_shortcut"] === undefined) keyboardShortcut = "Ctrl+Alt+A";
@@ -1709,7 +1745,7 @@ function loadSettings(resize_popup_ui = false, focus_search_box = false) {
         emojisSizeElement.selectedIndex = 2;
         if (jsonSettings.size !== undefined) emojisSizeElement.selectedIndex = jsonSettings.size;
         fontFamily.selectedIndex = 0;
-        if (jsonSettings.font !== undefined || jsonSettings.font < fontFamily.length) fontFamily.selectedIndex = jsonSettings.font;
+        if (jsonSettings.font !== undefined && jsonSettings.font < fontFamily.length && jsonSettings.font > 0) fontFamily.selectedIndex = jsonSettings.font;
         autoClosePopupElement.selectedIndex = 1;
         if (jsonSettings.auto_close !== undefined) autoClosePopupElement.selectedIndex = jsonSettings.auto_close;
         skinToneElement.selectedIndex = 0;
@@ -1730,7 +1766,15 @@ function loadSettings(resize_popup_ui = false, focus_search_box = false) {
         if (jsonSettings.keyboard_shortcut !== undefined) {
             let splitKeyboardShortcut = jsonSettings.keyboard_shortcut.split("+");
             let letterNumberShortcut = splitKeyboardShortcut[splitKeyboardShortcut.length - 1];
-            let ctrlAltShiftShortcut = jsonSettings.keyboard_shortcut.substring(0, jsonSettings.keyboard_shortcut.length - 2);
+            let ctrlAltShiftShortcut = "";
+            if (splitKeyboardShortcut.length >= 2) {
+                for (let i = 0; i < splitKeyboardShortcut.length - 2; i++) {
+                    ctrlAltShiftShortcut += splitKeyboardShortcut[i] + "+";
+                }
+                ctrlAltShiftShortcut += splitKeyboardShortcut[splitKeyboardShortcut.length - 2];
+            } else {
+                ctrlAltShiftShortcut = splitKeyboardShortcut[0];
+            }
             keyboardShortcutLetterNumber.value = letterNumberShortcut;
             keyboardShortcutCtrlAltShift.value = ctrlAltShiftShortcut;
             currentShortcut = ctrlAltShiftShortcut + "+" + letterNumberShortcut;
@@ -1748,6 +1792,7 @@ function loadSettings(resize_popup_ui = false, focus_search_box = false) {
         max_columns = columnsElement.value;
         max_rows = rowsElement.value;
         font_family = fontFamily.value;
+        setEmojiStyleButtonsSelect(fontFamily.value);
 
         auto_close = autoClosePopupElement.value.toLowerCase();
         /*
@@ -1782,7 +1827,7 @@ function loadSettings(resize_popup_ui = false, focus_search_box = false) {
 
         insert_directly_emoji = alsoInsertEmojiElement.value.toLowerCase();
 
-        setExtensionIcon("../img/extension-icons/" + extension_icons[extension_icon_selected] + ".png", "../img/extension-icons/size/16/" + extension_icons[extension_icon_selected] + ".png", "../img/extension-icons/size/48/" + extension_icons[extension_icon_selected] + ".png", "../img/extension-icons/size/128/" + extension_icons[extension_icon_selected] + ".png");
+        setExtensionIcon("../img/extension-icons/" + extension_icons[extension_icon_selected] + ".png");
 
         setFontFamily();
 
@@ -1802,15 +1847,15 @@ function getLanguageCode(language) {
 }
 
 function setFontFamily() {
-    emojisElement.classList.remove("font-twemoji", "font-notocoloremoji", "font-openmojicolor", "font-openmojiblack", "font-default", "font-twemoji-fix-macos", "font-joypixels");
-    titlesElement.classList.remove("font-twemoji", "font-notocoloremoji", "font-openmojicolor", "font-openmojiblack", "font-default", "font-twemoji-fix-macos", "font-joypixels");
-    topSectionElement.classList.remove("font-twemoji", "font-notocoloremoji", "font-openmojicolor", "font-openmojiblack", "font-default", "font-twemoji-fix-macos", "font-joypixels");
-    document.getElementById("emoji-skin-choose").classList.remove("font-twemoji", "font-notocoloremoji", "font-openmojicolor", "font-openmojiblack", "font-default", "font-twemoji-fix-macos", "font-joypixels");
-    document.getElementById("emoji-size-very-small").classList.remove("font-twemoji", "font-notocoloremoji", "font-openmojicolor", "font-openmojiblack", "font-default", "font-twemoji-fix-macos", "font-joypixels");
-    document.getElementById("emoji-size-small").classList.remove("font-twemoji", "font-notocoloremoji", "font-openmojicolor", "font-openmojiblack", "font-default", "font-twemoji-fix-macos", "font-joypixels");
-    document.getElementById("emoji-size-normal").classList.remove("font-twemoji", "font-notocoloremoji", "font-openmojicolor", "font-openmojiblack", "font-default", "font-twemoji-fix-macos", "font-joypixels");
-    document.getElementById("emoji-size-big").classList.remove("font-twemoji", "font-notocoloremoji", "font-openmojicolor", "font-openmojiblack", "font-default", "font-twemoji-fix-macos", "font-joypixels");
-    document.getElementById("emoji-size-very-big").classList.remove("font-twemoji", "font-notocoloremoji", "font-openmojicolor", "font-openmojiblack", "font-default", "font-twemoji-fix-macos", "font-joypixels");
+    emojisElement.classList.remove("font-twemoji", "font-notocoloremoji", "font-openmojicolor", "font-openmojiblack", "font-default", "font-twemoji-fix-macos");
+    titlesElement.classList.remove("font-twemoji", "font-notocoloremoji", "font-openmojicolor", "font-openmojiblack", "font-default", "font-twemoji-fix-macos");
+    topSectionElement.classList.remove("font-twemoji", "font-notocoloremoji", "font-openmojicolor", "font-openmojiblack", "font-default", "font-twemoji-fix-macos");
+    document.getElementById("emoji-skin-choose").classList.remove("font-twemoji", "font-notocoloremoji", "font-openmojicolor", "font-openmojiblack", "font-default", "font-twemoji-fix-macos");
+    document.getElementById("emoji-size-very-small").classList.remove("font-twemoji", "font-notocoloremoji", "font-openmojicolor", "font-openmojiblack", "font-default", "font-twemoji-fix-macos");
+    document.getElementById("emoji-size-small").classList.remove("font-twemoji", "font-notocoloremoji", "font-openmojicolor", "font-openmojiblack", "font-default", "font-twemoji-fix-macos");
+    document.getElementById("emoji-size-normal").classList.remove("font-twemoji", "font-notocoloremoji", "font-openmojicolor", "font-openmojiblack", "font-default", "font-twemoji-fix-macos");
+    document.getElementById("emoji-size-big").classList.remove("font-twemoji", "font-notocoloremoji", "font-openmojicolor", "font-openmojiblack", "font-default", "font-twemoji-fix-macos");
+    document.getElementById("emoji-size-very-big").classList.remove("font-twemoji", "font-notocoloremoji", "font-openmojicolor", "font-openmojiblack", "font-default", "font-twemoji-fix-macos");
 
     emojisElement.classList.add("font-" + font_family);
     titlesElement.classList.add("font-" + font_family);
@@ -1853,11 +1898,8 @@ function setTheme() {
     removeThemeClassId("insert-emoji-selected", "-select");
     removeThemeClassId("key-shortcut-selected", "-select");
     removeThemeClassId("key-shortcut-ctrl-alt-shift-selected", "-select");
-    removeThemeClassId("emoji-size-very-small", "-select");
-    removeThemeClassId("emoji-size-small", "-select");
-    removeThemeClassId("emoji-size-normal", "-select");
-    removeThemeClassId("emoji-size-big", "-select");
-    removeThemeClassId("emoji-size-very-big", "-select");
+    removeThemeClassId("emoji-style-openmojiblack", "-text");
+
 
     let n_elements_button_yes = document.getElementsByClassName("button-yes").length;
     for (let i = 0; i < n_elements_button_yes; i++) {
@@ -1877,6 +1919,13 @@ function setTheme() {
         if (document.getElementsByClassName("emoji-size-button")[i].classList.contains("background-button-dark")) document.getElementsByClassName("emoji-size-button")[i].classList.remove("background-button-dark");
         if (document.getElementsByClassName("emoji-size-button")[i].classList.contains("background-button-light")) document.getElementsByClassName("emoji-size-button")[i].classList.remove("background-button-light");
         document.getElementsByClassName("emoji-size-button")[i].classList.add("background-button-" + theme);
+    }
+
+    let n_elements_emoji_style_button = document.getElementsByClassName("emoji-style-button").length;
+    for (let i = 0; i < n_elements_emoji_style_button; i++) {
+        if (document.getElementsByClassName("emoji-style-button")[i].classList.contains("background-button-dark")) document.getElementsByClassName("emoji-style-button")[i].classList.remove("background-button-dark");
+        if (document.getElementsByClassName("emoji-style-button")[i].classList.contains("background-button-light")) document.getElementsByClassName("emoji-style-button")[i].classList.remove("background-button-light");
+        document.getElementsByClassName("emoji-style-button")[i].classList.add("background-button-" + theme);
     }
 
     document.getElementById("popup-content").classList.add(theme);
@@ -1906,11 +1955,9 @@ function setTheme() {
     document.getElementById("insert-emoji-selected").classList.add(theme + "-select");
     document.getElementById("key-shortcut-selected").classList.add(theme + "-select");
     document.getElementById("key-shortcut-ctrl-alt-shift-selected").classList.add(theme + "-select");
-    document.getElementById("emoji-size-very-small").classList.add(theme + "-select");
-    document.getElementById("emoji-size-small").classList.add(theme + "-select");
-    document.getElementById("emoji-size-normal").classList.add(theme + "-select");
-    document.getElementById("emoji-size-big").classList.add(theme + "-select");
-    document.getElementById("emoji-size-very-big").classList.add(theme + "-select");
+    document.getElementById("emoji-style-openmojiblack").classList.add(theme + "-text");
+    //document.getElementById("emoji-style-twemoji-fix-macos").classList.add(theme + "-select");
+    //document.getElementById("emoji-style-joypixels").classList.add(theme + "-select");
 
     //TODO: change when add/remove an option in Settings -- separators
     for (let n = 0; n < 12; n++) {
@@ -1958,6 +2005,48 @@ function setSkinToneEmojis() {
     all_emojis[3] = JSON.parse(string[3]);
     all_emojis[8] = JSON.parse(string[8]);
     all_emojis[12] = JSON.parse(string[12]);
+
+    addDescriptionTitleToButtons();
+}
+
+function addDescriptionTitleToButtons() {
+    for (let emoji in all_emojis[2]) {
+        all_emojis[2][emoji].push(titles["😀"]);
+    }
+    for (let emoji in all_emojis[3]) {
+        all_emojis[3][emoji].push(titles["🙋"]);
+    }
+    for (let emoji in all_emojis[4]) {
+        all_emojis[4][emoji].push(titles["🦊"]);
+    }
+    for (let emoji in all_emojis[5]) {
+        all_emojis[5][emoji].push(titles["🅰️"]);
+    }
+    for (let emoji in all_emojis[6]) {
+        all_emojis[6][emoji].push(titles["🍎"]);
+    }
+    for (let emoji in all_emojis[7]) {
+        all_emojis[7][emoji].push(titles["🏳️‍🌈"]);
+    }
+    for (let emoji in all_emojis[8]) {
+
+        all_emojis[8][emoji].push(titles["🏊"]);
+    }
+    for (let emoji in all_emojis[9]) {
+        all_emojis[9][emoji].push(titles["✈️"]);
+    }
+    for (let emoji in all_emojis[10]) {
+        all_emojis[10][emoji].push(titles["🖱️"]);
+    }
+    for (let emoji in all_emojis[11]) {
+        all_emojis[11][emoji].push(titles["👗"]);
+    }
+    for (let emoji in all_emojis[12]) {
+        all_emojis[12][emoji].push(titles["🖐️"]);
+    }
+    for (let emoji in all_emojis[13]) {
+        all_emojis[13][emoji].push(titles["🛎️"]);
+    }
 }
 
 function editMode() {
@@ -2020,6 +2109,7 @@ function sendMessageForInjection(forced = false) {
 }
 
 let insertEmojiStatus = 0;
+let contestScriptMatches = ["<all_urls>"];
 let contestScriptJs = [{file: "./js/emoji-insert-directly.js"}];
 
 function selectYesNoInsertEmoji(index, onlyStatus = false) {
@@ -2080,8 +2170,8 @@ function selectYesNoInsertEmoji(index, onlyStatus = false) {
         } else {
             insertEmojiStatus = 0;
             // no
-            //selectYesNoButton("insert-emoji-button", index);
-            //saveSettings();
+            selectYesNoButton("insert-emoji-button", 1);
+            saveSettings();
         }
     }
 }
@@ -2207,6 +2297,19 @@ function setLanguageUI() {
     document.getElementById("multi-copy-yes").textContent = strings["settings"]["button-yes"];
     document.getElementById("multi-copy-no").textContent = strings["settings"]["button-no"];
     document.getElementById("label-skin-tone").textContent = strings["settings"]["label-skin-tone"];
+    //document.getElementById("label-font-family").textContent = strings["settings"]["label-font-family"]; //it's set in "setEmojiStyleButtonsSelect"
+    document.getElementById("select-font-family-1").textContent = strings["settings"]["select-twemoji-emoji"];
+    document.getElementById("emoji-style-twemoji").title = strings["settings"]["select-twemoji-emoji"];
+    document.getElementById("select-font-family-2").textContent = strings["settings"]["select-openmojicolor-emoji"];
+    document.getElementById("emoji-style-openmojicolor").title = strings["settings"]["select-openmojicolor-emoji"];
+    document.getElementById("select-font-family-3").textContent = strings["settings"]["select-openmojiblack-emoji"];
+    document.getElementById("emoji-style-openmojiblack").title = strings["settings"]["select-openmojiblack-emoji"];
+    document.getElementById("select-font-family-4").textContent = strings["settings"]["select-default-emoji"];
+    document.getElementById("emoji-style-default").title = strings["settings"]["select-default-emoji"];
+    //document.getElementById("select-font-family-6").textContent = strings["settings"]["select-joypixels-emoji"];
+    //document.getElementById("emoji-style-joypixels").title = strings["settings"]["select-joypixels-emoji"];
+    document.getElementById("select-font-family-7").textContent = strings["settings"]["select-notocoloremoji-emoji"];
+    document.getElementById("emoji-style-notocoloremoji").title = strings["settings"]["select-notocoloremoji-emoji"];
     document.getElementById("label-font-family").textContent = strings["settings"]["label-font-family"];
     document.getElementById("select-font-family-1").textContent = strings["settings"]["select-google"];
     document.getElementById("select-font-family-2").textContent = strings["settings"]["select-openmoji-color"];
@@ -2242,7 +2345,7 @@ function setLanguageUI() {
     document.getElementById("donate-paypal-settings").value = strings["settings"]["button-paypal"];
     document.getElementById("donate-liberapay-settings").value = strings["settings"]["button-liberapay"];
     document.getElementById("translate-settings").value = strings["settings"]["button-translate"];
-    document.getElementById("made-in-basilicata-settings").innerHTML = strings["settings"]["label-made-with-heart-basilicata"].replaceAll("{{properties}}", "class='font-" + font_family + " font-size-16'");
+    document.getElementById("made-in-trentino-settings").innerHTML = strings["settings"]["label-made-with-heart-trentino"].replaceAll("{{properties}}", "class='font-" + font_family + " font-size-16'");
     document.getElementById("select-ctrl-shortcut").textContent = strings["settings"]["label-ctrl-" + currentOS];
     document.getElementById("select-alt-shortcut").textContent = strings["settings"]["label-alt-" + currentOS];
     document.getElementById("select-ctrl-alt-shortcut").textContent = strings["settings"]["label-ctrl-alt-" + currentOS];

@@ -790,7 +790,18 @@ emojis_language[lang][2] = {
         'Twarz trzymanie pleców',
         ':face_holding_back_tears:'
     ],
-    //"🫨": ["Shaking Face", ":shaking_face:"],
+    '🫨': [
+        'Shaking Face',
+        ':shaking_face:'
+    ],
+    '🙂‍↔️': [
+        'Head Shaking Horizontally',
+        ':head_shaking_horizontally:'
+    ],
+    '🙂‍↕️': [
+        'Head Shaking Vertically',
+        ':head_shaking_vertically:'
+    ],
     '😈': [
         'Uśmiechnięcie twarzy z rogami',
         ':smiling_face_with_horns:',
@@ -907,12 +918,12 @@ emojis_language[lang][3] = {
         'Bearded Person',
         ':person:'
     ],
-    '🧑{{skin_tone}}': [
-        'Osoba: Broda',
+    '🧔{{skin_tone}}': [
+        'Person: Beard',
         ':person_beard:',
-        'Broda',
-        'Została osoba',
-        'Została osoba',
+        'Beard',
+        'Bearded Person',
+        'Bearded Person',
         ':person:'
     ],
     '🧑{{skin_tone}}‍🦰': [
@@ -2060,6 +2071,24 @@ emojis_language[lang][3] = {
         ':walking:',
         ':person:'
     ],
+    '🚶{{skin_tone}}‍♂️‍➡️': [
+        'Man Walking Facing Right',
+        ':man_walking_facing_right:',
+        ':walking:',
+        ':man:'
+    ],
+    '🚶{{skin_tone}}‍♀️‍➡️': [
+        'Woman Walking Facing Right',
+        ':woman_walking_facing_right:',
+        ':walking:',
+        ':woman'
+    ],
+    '🚶{{skin_tone}}‍➡️': [
+        'Person Walking Facing Right',
+        ':person_walking_facing_right:',
+        ':walking:',
+        ':person:'
+    ],
     '🧍{{skin_tone}}‍♂️': [
         'Stojący mężczyzna',
         ':man_standing:',
@@ -2096,6 +2125,24 @@ emojis_language[lang][3] = {
         ':kneeling:',
         ':person:'
     ],
+    '🧎{{skin_tone}}‍♂️‍➡️': [
+        'Man Kneeling Facing Right',
+        ':man_kneeling_facing_right:',
+        ':kneeling:',
+        ':man:'
+    ],
+    '🧎{{skin_tone}}‍♀️‍➡️': [
+        'Woman Kneeling Facing Right',
+        ':woman_kneeling_facing_right:',
+        ':kneeling:',
+        ':woman:'
+    ],
+    '🧎{{skin_tone}}‍➡️': [
+        'Person Kneeling Facing Right',
+        ':person_kneeling_facing_right:',
+        ':kneeling:',
+        ':person:'
+    ],
     '👨{{skin_tone}}‍🦯': [
         'Człowiek z białym paskiem',
         ':man_with_white_cane:',
@@ -2111,6 +2158,24 @@ emojis_language[lang][3] = {
     '🧑{{skin_tone}}‍🦯': [
         'Osoba z białą bańką',
         ':person_with_white_cane:',
+        ':white_cane:',
+        ':person:'
+    ],
+    '👨{{skin_tone}}‍🦯‍➡️': [
+        'Man with White Cane Facing Right',
+        ':man_with_white_cane_facing_right:',
+        ':white_cane:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🦯‍➡️': [
+        'Woman with White Cane Facing Right',
+        ':woman_with_white_cane_facing_right:',
+        ':white_cane:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🦯‍➡️': [
+        'Person with White Cane Facing Right',
+        ':person_with_white_cane_facing_right:',
         ':white_cane:',
         ':person:'
     ],
@@ -2132,6 +2197,24 @@ emojis_language[lang][3] = {
         ':motorized_wheelchair:',
         ':person:'
     ],
+    '👨{{skin_tone}}‍🦼‍➡️': [
+        'Man in Motorized Wheelchair Facing Right',
+        ':man_in_motorized_wheelchair_facing_right:',
+        ':motorized_wheel:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🦼‍➡️': [
+        'Woman in Motorized Wheelchair Facing Right',
+        ':woman_in_motorized_wheelchair_facing_right:',
+        ':motorized_wheel:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🦼‍➡️': [
+        'Person in Motorized Wheelchair Facing Right',
+        ':person_in_motorized_wheelchair_facing_right:',
+        ':motorized_wheel:',
+        ':person:'
+    ],
     '👨{{skin_tone}}‍🦽': [
         'Man w ręcznym wózku inwalidzkim',
         ':man_manual_wheelchair:',
@@ -2147,6 +2230,24 @@ emojis_language[lang][3] = {
     '🧑{{skin_tone}}‍🦽': [
         'Osoba na ręcznym wózku inwalidzkim',
         ':person_manual_wheelchair:',
+        ':manual_wheelchair:',
+        ':person:'
+    ],
+    '👨{{skin_tone}}‍🦽‍➡️': [
+        'Man in Manual Wheelchair Facing Right',
+        ':man_manual_wheelchair_facing_right:',
+        ':manual_wheelchair:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🦽‍➡️': [
+        'Woman in Manual Wheelchair Facing Right',
+        ':woman_manual_wheelchair_facing_right:',
+        ':manual_wheelchair:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🦽‍➡️': [
+        'Person in Manual Wheelchair Facing Right',
+        ':person_manual_wheelchair_facing_right:',
         ':manual_wheelchair:',
         ':person:'
     ],
@@ -2233,6 +2334,11 @@ emojis_language[lang][3] = {
         'Płeć Niezgodny Para',
         ':person:'
     ],
+    '🧑‍🧑‍🧒': [
+        'Family: Adult, Adult, Child',
+        ':family_adult_adult_child:',
+        'Family: Person, Person, Child'
+    ],
     '👨‍👩‍👦': [
         'Rodzina z matką, ojcem i synem',
         ':family_with_mother_father_and_son:',
@@ -2242,6 +2348,35 @@ emojis_language[lang][3] = {
         'Rodzina z matką, ojcem i córką',
         ':family_with_mother_father_and_daughter:',
         'Rodzina: mężczyźni, kobiety, dziewczęta'
+    ],
+    '👨‍👨‍👦': [
+        'Rodzina z dwoma piórami i synem',
+        ':family_with_two_fathers_and_son:',
+        'Rodzina: Man, Man, Chłopiec',
+        ':man:'
+    ],
+    '👨‍👨‍👧': [
+        'Rodzina z dwiema piórami i córką',
+        ':family_with_two_fathers_and_daughter:',
+        'Rodzina: mężczyzna, mężczyzna, Dziewczyna',
+        ':man:'
+    ],
+    '👩‍👩‍👦': [
+        'Rodzina z dwiema matkami i synem',
+        ':family_with_two_mothers_and_son:',
+        'Rodzina: kobiety, kobiety, chłopiec',
+        ':woman:'
+    ],
+    '👩‍👩‍👧': [
+        'Rodzina z dwiema matkami i córką',
+        ':family_with_two_mothers_and_daughter:',
+        'Rodzina: kobiety, dziewczęta',
+        ':woman:'
+    ],
+    '🧑‍🧑‍🧒‍🧒': [
+        'Family: Adult, Adult, Child, Child',
+        ':family_adult_adult_child_child:',
+        'Family: Person, Person, Child, Child'
     ],
     '👨‍👩‍👧‍👦': [
         'Rodzina z matką, ojcem, synem i córką',
@@ -2257,18 +2392,6 @@ emojis_language[lang][3] = {
         'Rodzina z matką, ojcem i dwiema córkami',
         ':family_with_mother_father_and_two_daughters:',
         'Rodzina: mężczyźni, kobiety, Dziewczęta, Dziewczyna'
-    ],
-    '👨‍👨‍👦': [
-        'Rodzina z dwoma piórami i synem',
-        ':family_with_two_fathers_and_son:',
-        'Rodzina: Man, Man, Chłopiec',
-        ':man:'
-    ],
-    '👨‍👨‍👧': [
-        'Rodzina z dwiema piórami i córką',
-        ':family_with_two_fathers_and_daughter:',
-        'Rodzina: mężczyzna, mężczyzna, Dziewczyna',
-        ':man:'
     ],
     '👨‍👨‍👧‍👦': [
         'Rodzina z dwoma ojcami, synem i córką',
@@ -2288,18 +2411,6 @@ emojis_language[lang][3] = {
         'Rodzina: Man, Man, Dziewka, Dziewczyna',
         ':man:'
     ],
-    '👩‍👩‍👦': [
-        'Rodzina z dwiema matkami i synem',
-        ':family_with_two_mothers_and_son:',
-        'Rodzina: kobiety, kobiety, chłopiec',
-        ':woman:'
-    ],
-    '👩‍👩‍👧': [
-        'Rodzina z dwiema matkami i córką',
-        ':family_with_two_mothers_and_daughter:',
-        'Rodzina: kobiety, dziewczęta',
-        ':woman:'
-    ],
     '👩‍👩‍👧‍👦': [
         'Rodzina z dwiema matkami, synem i córką',
         ':family_with_two_mothers_son_and_daughter:',
@@ -2318,6 +2429,11 @@ emojis_language[lang][3] = {
         'Rodzina: kobiety, dziewczęta, dziewczyna',
         ':woman:'
     ],
+    '🧑‍🧒': [
+        'Family: Adult, Child',
+        ':family_adult_child:',
+        'Family: Person, Child'
+    ],
     '👨‍👦': [
         'Rodzina z Ojcem i Synem',
         ':family_with_father_and_son:',
@@ -2329,6 +2445,23 @@ emojis_language[lang][3] = {
         ':family_with_father_and_daughter:',
         'Rodzina: Człowiek, Dziewczyna',
         ':man:'
+    ],
+    '👩‍👧': [
+        'Rodzina z matką i córką',
+        ':family_with_mother_and_daughter:',
+        'Rodzina: Kobiety, Dziewczyna',
+        ':woman:'
+    ],
+    '👨‍👧‍👧': [
+        'Rodzina z Ojcem i dwiema córkami',
+        ':family_with_father_and_two_daughters:',
+        'Rodzina: mężczyzna, Dziewka, Dziewczyna',
+        ':man:'
+    ],
+    '🧑‍🧒‍🧒': [
+        'Family: Adult, Child, Child',
+        ':family_adult_child_child:',
+        'Family: Person, Child, Child'
     ],
     '👨‍👦‍👦': [
         'Rodzina z Ojcem i dwoma Synem',
@@ -2342,22 +2475,10 @@ emojis_language[lang][3] = {
         'Rodzina: Man, Dziewka, Chłopiec',
         ':man:'
     ],
-    '👨‍👧‍👧': [
-        'Rodzina z Ojcem i dwiema córkami',
-        ':family_with_father_and_two_daughters:',
-        'Rodzina: mężczyzna, Dziewka, Dziewczyna',
-        ':man:'
-    ],
     '👩‍👦': [
         'Rodzina z matką i synem',
         ':family_with_mother_and_son:',
         'Rodzina: kobiety, chłopiec',
-        ':woman:'
-    ],
-    '👩‍👧': [
-        'Rodzina z matką i córką',
-        ':family_with_mother_and_daughter:',
-        'Rodzina: Kobiety, Dziewczyna',
         ':woman:'
     ],
     '👩‍👦‍👦': [
@@ -3227,6 +3348,44 @@ emojis_language[lang][4] = {
         ':nest_with_eggs:',
         'Ptaki',
         'Start'
+    ],
+    '🫏': [
+        'Donkey',
+        ':donkey:',
+        ':grey:',
+        ':gray:'
+    ],
+    '🫎': [
+        'Moose',
+        ':moose:',
+        'Moose Face',
+        ':brown:'
+    ],
+    '🪿': [
+        'Goose',
+        ':goose:',
+        ':white:'
+    ],
+    '🪼': [
+        'Jellyfish',
+        ':jellyfish:',
+        ':blue:'
+    ],
+    '🐦‍⬛': [
+        'Black bird',
+        ':black_bird:',
+        ':raven:',
+        'Raven',
+        'Crow',
+        'Rook',
+        ':black:'
+    ],
+    '🐦‍🔥': [
+        'Phoenix',
+        'Fire',
+        'Reborn',
+        ':phoenix:',
+        ':red:'
     ]
 };
 /*symbols*/
@@ -3377,9 +3536,27 @@ emojis_language[lang][5] = {
         'Kocham cię',
         ':brown:'
     ],
-    //"🩷": ["Pink Heart", ":pink_heart:", "I Love You", ":pink:"],
-    //"🩵": ["Light Blue Heart", ":lightblue_heart:", "I Love You", ":blue:"],
-    //"🩶": ["Grey Heart","Gray Heart", ":grey_heart:",":gray_heart:", "I Love You", ":gray:", ":grey:"],
+    '🩷': [
+        'Pink Heart',
+        ':pink_heart:',
+        'I Love You',
+        ':pink:'
+    ],
+    '🩵': [
+        'Light Blue Heart',
+        ':lightblue_heart:',
+        'I Love You',
+        ':blue:'
+    ],
+    '🩶': [
+        'Grey Heart',
+        'Gray Heart',
+        ':grey_heart:',
+        ':gray_heart:',
+        'I Love You',
+        ':gray:',
+        ':grey:'
+    ],
     '💯': [
         'Setki Punktów',
         ':hundred_points:',
@@ -3835,7 +4012,12 @@ emojis_language[lang][5] = {
         'Sześć Poinowanych Gwiazd ze środkową kropką',
         ':purple:'
     ],
-    //"🪯": ["Khanda", ":khanda:", "Sikhism", ":purple:"],
+    '🪯': [
+        'Khanda',
+        ':khanda:',
+        'Sikhism',
+        ':purple:'
+    ],
     '♈': [
         'Armia',
         ':aries:',
@@ -4696,7 +4878,16 @@ emojis_language[lang][5] = {
         'Kontrola graniczna',
         ':blue:'
     ],
-    //"🛜": ["Wireless", ":wireless:", ":wifi:", ":wi_fi:", "Wifi", "wi-fi", "wireless connection", ":blue:"],
+    '🛜': [
+        'Wireless',
+        ':wireless:',
+        ':wifi:',
+        ':wi_fi:',
+        'Wifi',
+        'wi-fi',
+        'wireless connection',
+        ':blue:'
+    ],
     '🚰': [
         'Symbol wody potencjalnej',
         ':potable_water_symbol:',
@@ -5381,11 +5572,24 @@ emojis_language[lang][6] = {
         ':broccoli:',
         ':green:'
     ],
+    '🍋‍🟩': [
+        'Lime',
+        ':lime:',
+        ':green:'
+    ],
     '🍄': [
         'Grzyb',
         ':mushroom:',
         'Sadzonka',
         'Toadstool'
+    ],
+    '🍄‍🟫': [
+        'Brown Mushroom',
+        ':brown_mushroom:',
+        'Mushroom',
+        'Shroom',
+        'Toadstool',
+        ':brown:'
     ],
     '🥜': [
         'Peanuts',
@@ -7696,6 +7900,24 @@ emojis_language[lang][8] = {
         ':running:',
         ':person:'
     ],
+    '🏃{{skin_tone}}‍♂️‍➡️': [
+        'Man Running Facing Right',
+        ':man_running_facing_right:',
+        ':running:',
+        ':man:'
+    ],
+    '🏃{{skin_tone}}‍♀️‍➡️': [
+        'Woman Running Facing Right',
+        'woman_running_facing_right:',
+        ':running:',
+        ':woman:'
+    ],
+    '🏃{{skin_tone}}‍➡️': [
+        'Person Running Facing Right',
+        ':person_running_facing_right:',
+        ':running:',
+        ':person:'
+    ],
     '🕺{{skin_tone}}': [
         'Mężczyzna Taniec',
         ':man_dancing:',
@@ -9316,7 +9538,12 @@ emojis_language[lang][11] = {
     ],
     '🩲': [
         'Odzież damska lub dziewczęca',
-        ':briefs:'
+        ':briefs:',
+        'Undies',
+        'Underwear',
+        'Underpants',
+        'Jocks',
+        'Panties'
     ],
     '🩳': [
         'Spodnie',
@@ -9704,6 +9931,14 @@ emojis_language[lang][12] = {
         ':selfie:',
         'Aparat telefoniczny',
         'Dłoń Selfie'
+    ],
+    '🫸{{skin_tone}}': [
+        'Rightwards Pushing Hand',
+        ':rightwards_pushing_hand:'
+    ],
+    '🫷{{skin_tone}}': [
+        'Leftwards Pushing Hand',
+        ':leftwards_pushing_hand:'
     ]
 };
 /*other*/
@@ -10340,9 +10575,24 @@ emojis_language[lang][13] = {
         'Spokojność',
         'Siedzisko'
     ],
-    //"🪻": ["Hyacinth", ":hyacinth:", "Purple flower", ":purple:"],
-    //"🫛": ["Pea Pod", ":pea_pod:", ":green:"],
-    //"🫚": ["Ginger root", ":ginger:", "Spice", "Flavour", ":brown:"],
+    '🪻': [
+        'Hyacinth',
+        ':hyacinth:',
+        'Purple flower',
+        ':purple:'
+    ],
+    '🫛': [
+        'Pea Pod',
+        ':pea_pod:',
+        ':green:'
+    ],
+    '🫚': [
+        'Ginger root',
+        ':ginger:',
+        'Spice',
+        'Flavour',
+        ':brown:'
+    ],
     '🔑': [
         'Klucz',
         ':key:',
@@ -10464,10 +10714,6 @@ emojis_language[lang][13] = {
         'Magnez',
         ':magnet:',
         ':red:'
-    ],
-    '⛓️': [
-        'Łańcuchy',
-        ':chains:'
     ],
     '💉': [
         'Syringe',
@@ -10617,12 +10863,26 @@ emojis_language[lang][13] = {
         ':balance_scale:',
         'Skala sprawiedliwości'
     ],
+    '⛓️': [
+        'Łańcuchy',
+        ':chains:'
+    ],
     '🔗': [
         'Link',
         ':link:',
         'Łańcuch',
         'Hiperlink',
         'Łańcuch połączonych',
+        ':gray:',
+        ':grey:'
+    ],
+    '⛓️‍💥': [
+        'Broken chain',
+        ':broken_chain:',
+        'Chain',
+        'Hyperlink',
+        'Linked Chain',
+        'Unlinked chain',
         ':gray:',
         ':grey:'
     ],
@@ -10971,13 +11231,24 @@ emojis_language[lang][13] = {
         'Hourglass Ukończone',
         ':hourglass:',
         ':hourglass_done:',
-        'Szkło godzinowe'
+        'Szkło godzinowe',
+        'Time',
+        'Egg timer',
+        'Empty',
+        'Ended',
+        'Finished',
+        'Sand Clock'
     ],
     '⏳': [
         'Hourglass nie ukończone',
         ':hourglass_flowing_sand:',
         ':hourglass_not_done:',
-        'Szklanka z Świecącym Piaskiem'
+        'Szklanka z Świecącym Piaskiem',
+        'Busy',
+        'Time',
+        'Egg timer',
+        'Flowing',
+        'Sand Clock'
     ],
     '🕐': [
         'Jeden OClock',
@@ -10985,14 +11256,16 @@ emojis_language[lang][13] = {
         ':one_oclock:',
         'Zegar Twarz One OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕜': [
         'Zegar na jedną trzydziestą',
         ':clock130:',
         ':one_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕑': [
         'Dwa OClock',
@@ -11000,14 +11273,16 @@ emojis_language[lang][13] = {
         ':two_oclock:',
         'Zegar dwóch OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕝': [
         'Zegar Dwa-Trzydzieści',
         ':clock230:',
         ':two_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕒': [
         'Trzy OClock',
@@ -11015,14 +11290,16 @@ emojis_language[lang][13] = {
         ':three_oclock:',
         'Zegar Trzy OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕞': [
         'Zegar Trzy Trzydzieści',
         ':clock330:',
         ':three_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕓': [
         'Cztery OClock',
@@ -11030,14 +11307,16 @@ emojis_language[lang][13] = {
         ':four_oclock:',
         'Czwarta obwódka zegara',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕟': [
         'Czterotrzydziesta ściana zegara',
         ':clock430:',
         ':four_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕔': [
         'Pięć OClock',
@@ -11045,14 +11324,16 @@ emojis_language[lang][13] = {
         ':five_oclock:',
         'Zegar 5 OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕠': [
         'Zegar Pięć-Trzydzieści',
         ':clock530:',
         ':five_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕕': [
         'Sześć OClock',
@@ -11060,14 +11341,16 @@ emojis_language[lang][13] = {
         ':size_oclock:',
         'Zegar Sześć OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕡': [
         'Zegar Sześć-Trzydzieści',
         ':clock630:',
         ':six_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕖': [
         'Siedem OClock',
@@ -11075,14 +11358,16 @@ emojis_language[lang][13] = {
         ':seven_oclock:',
         'Zegar Siedemnasta OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕢': [
         'Zegar Siedem-Trzydzieści',
         ':clock730:',
         ':sever_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕗': [
         'Osiem OClock',
@@ -11090,14 +11375,16 @@ emojis_language[lang][13] = {
         ':eight_oclock:',
         'Osiemnaście OClocków zegara',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕣': [
         'Zegar Ośmienita-Trzydzieści',
         ':clock830:',
         ':eight_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕘': [
         'Dziewięć OClock',
@@ -11105,14 +11392,16 @@ emojis_language[lang][13] = {
         ':nine_clock:',
         'Zegar dziewiątej twarzy OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕤': [
         'Zegar Dziewięciuna Trzydzieści',
         ':clock930:',
         ':nine_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕙': [
         'Dziesięć OClock',
@@ -11120,14 +11409,16 @@ emojis_language[lang][13] = {
         ':ten_oclock:',
         'Zegar Dziesięciowy OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕥': [
         'Zegar Ten-Trzydzieści',
         ':clock1030:',
         ':ten_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕚': [
         'Eleven OClock',
@@ -11135,14 +11426,16 @@ emojis_language[lang][13] = {
         ':eleven_oclock:',
         'Zegar z jedenastym OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕦': [
         'Zegar Podwójna Trzydzieści',
         ':clock1130:',
         ':eleven_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕛': [
         'Dwanaście OClock',
@@ -11150,14 +11443,16 @@ emojis_language[lang][13] = {
         ':twelve_oclock:',
         'Zegar Dwanaście OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕧': [
         'Zegar dwunastu trzydzieści',
         ':clock1230:',
         ':twelve_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '♨️': [
         'Sprężyny na gorąco',
@@ -11395,11 +11690,20 @@ emojis_language[lang][13] = {
     '🦽': [
         'Ręczne wózki inwalidzkie',
         ':manual_wheelchair:',
-        ':wheelchair:'
+        ':wheelchair:',
+        'invalid',
+        'disability',
+        'accessibility',
+        'mobility'
     ],
     '🦼': [
         'Motoryczny wózek inwalidzki',
-        ':motorized_wheelchair:'
+        ':motorized_wheelchair:',
+        ':wheelchair:',
+        'invalid',
+        'disability',
+        'accessibility',
+        'mobility'
     ],
     '🪔': [
         'Diya Lampa',
@@ -11599,5 +11903,39 @@ emojis_language[lang][13] = {
         'Baby',
         'Child',
         'Children'
+    ],
+    '🪽': [
+        'Wing',
+        ':wing:',
+        'Fly',
+        ':white:'
+    ],
+    '🪭': [
+        'Folding Hand Fan',
+        ':folding_hand_fan:',
+        'Fan',
+        'Manual fan',
+        'Summer',
+        ':red:'
+    ],
+    '🪮': [
+        'Hair Pick',
+        ':hair_pick:',
+        'Black culture',
+        'Black pride',
+        ':black:'
+    ],
+    '🪈': [
+        'Flute',
+        ':flute:',
+        'Plastic flute',
+        'Metal plute',
+        'Bamboo flute',
+        'Musical instrument',
+        ':brown:'
+    ],
+    '🪇': [
+        'Maracas',
+        ':maracas:'
     ]
 };

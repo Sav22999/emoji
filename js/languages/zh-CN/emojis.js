@@ -790,7 +790,18 @@ emojis_language[lang][2] = {
         '面部背部时钟',
         ':face_holding_back_tears:'
     ],
-    //"🫨": ["Shaking Face", ":shaking_face:"],
+    '🫨': [
+        'Shaking Face',
+        ':shaking_face:'
+    ],
+    '🙂‍↔️': [
+        'Head Shaking Horizontally',
+        ':head_shaking_horizontally:'
+    ],
+    '🙂‍↕️': [
+        'Head Shaking Vertically',
+        ':head_shaking_vertically:'
+    ],
     '😈': [
         '马上的微笑面具',
         ':smiling_face_with_horns:',
@@ -907,12 +918,12 @@ emojis_language[lang][3] = {
         '成年人',
         ':person:'
     ],
-    '🧑{{skin_tone}}': [
-        '个人：戴上',
+    '🧔{{skin_tone}}': [
+        'Person: Beard',
         ':person_beard:',
-        '碎心机',
-        '戴着手的人',
-        '戴着手的人',
+        'Beard',
+        'Bearded Person',
+        'Bearded Person',
         ':person:'
     ],
     '🧑{{skin_tone}}‍🦰': [
@@ -2060,6 +2071,24 @@ emojis_language[lang][3] = {
         ':walking:',
         ':person:'
     ],
+    '🚶{{skin_tone}}‍♂️‍➡️': [
+        'Man Walking Facing Right',
+        ':man_walking_facing_right:',
+        ':walking:',
+        ':man:'
+    ],
+    '🚶{{skin_tone}}‍♀️‍➡️': [
+        'Woman Walking Facing Right',
+        ':woman_walking_facing_right:',
+        ':walking:',
+        ':woman'
+    ],
+    '🚶{{skin_tone}}‍➡️': [
+        'Person Walking Facing Right',
+        ':person_walking_facing_right:',
+        ':walking:',
+        ':person:'
+    ],
     '🧍{{skin_tone}}‍♂️': [
         'Man Standard',
         ':man_standing:',
@@ -2096,6 +2125,24 @@ emojis_language[lang][3] = {
         ':kneeling:',
         ':person:'
     ],
+    '🧎{{skin_tone}}‍♂️‍➡️': [
+        'Man Kneeling Facing Right',
+        ':man_kneeling_facing_right:',
+        ':kneeling:',
+        ':man:'
+    ],
+    '🧎{{skin_tone}}‍♀️‍➡️': [
+        'Woman Kneeling Facing Right',
+        ':woman_kneeling_facing_right:',
+        ':kneeling:',
+        ':woman:'
+    ],
+    '🧎{{skin_tone}}‍➡️': [
+        'Person Kneeling Facing Right',
+        ':person_kneeling_facing_right:',
+        ':kneeling:',
+        ':person:'
+    ],
     '👨{{skin_tone}}‍🦯': [
         '带白色冠军的人',
         ':man_with_white_cane:',
@@ -2111,6 +2158,24 @@ emojis_language[lang][3] = {
     '🧑{{skin_tone}}‍🦯': [
         '白色Cane 的人',
         ':person_with_white_cane:',
+        ':white_cane:',
+        ':person:'
+    ],
+    '👨{{skin_tone}}‍🦯‍➡️': [
+        'Man with White Cane Facing Right',
+        ':man_with_white_cane_facing_right:',
+        ':white_cane:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🦯‍➡️': [
+        'Woman with White Cane Facing Right',
+        ':woman_with_white_cane_facing_right:',
+        ':white_cane:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🦯‍➡️': [
+        'Person with White Cane Facing Right',
+        ':person_with_white_cane_facing_right:',
         ':white_cane:',
         ':person:'
     ],
@@ -2132,6 +2197,24 @@ emojis_language[lang][3] = {
         ':motorized_wheelchair:',
         ':person:'
     ],
+    '👨{{skin_tone}}‍🦼‍➡️': [
+        'Man in Motorized Wheelchair Facing Right',
+        ':man_in_motorized_wheelchair_facing_right:',
+        ':motorized_wheel:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🦼‍➡️': [
+        'Woman in Motorized Wheelchair Facing Right',
+        ':woman_in_motorized_wheelchair_facing_right:',
+        ':motorized_wheel:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🦼‍➡️': [
+        'Person in Motorized Wheelchair Facing Right',
+        ':person_in_motorized_wheelchair_facing_right:',
+        ':motorized_wheel:',
+        ':person:'
+    ],
     '👨{{skin_tone}}‍🦽': [
         '手工轮椅中的人',
         ':man_manual_wheelchair:',
@@ -2147,6 +2230,24 @@ emojis_language[lang][3] = {
     '🧑{{skin_tone}}‍🦽': [
         '手工轮椅上的人',
         ':person_manual_wheelchair:',
+        ':manual_wheelchair:',
+        ':person:'
+    ],
+    '👨{{skin_tone}}‍🦽‍➡️': [
+        'Man in Manual Wheelchair Facing Right',
+        ':man_manual_wheelchair_facing_right:',
+        ':manual_wheelchair:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🦽‍➡️': [
+        'Woman in Manual Wheelchair Facing Right',
+        ':woman_manual_wheelchair_facing_right:',
+        ':manual_wheelchair:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🦽‍➡️': [
+        'Person in Manual Wheelchair Facing Right',
+        ':person_manual_wheelchair_facing_right:',
         ':manual_wheelchair:',
         ':person:'
     ],
@@ -2233,6 +2334,11 @@ emojis_language[lang][3] = {
         '不符合性别要求的伴侣关系',
         ':person:'
     ],
+    '🧑‍🧑‍🧒': [
+        'Family: Adult, Adult, Child',
+        ':family_adult_adult_child:',
+        'Family: Person, Person, Child'
+    ],
     '👨‍👩‍👦': [
         '与母亲、父亲和松族的家庭',
         ':family_with_mother_father_and_son:',
@@ -2242,6 +2348,35 @@ emojis_language[lang][3] = {
         '与母亲、父亲和女儿共同生活的家庭',
         ':family_with_mother_father_and_daughter:',
         '家庭： 男性、女性、女童'
+    ],
+    '👨‍👨‍👦': [
+        '有两名父亲和男人的家庭',
+        ':family_with_two_fathers_and_son:',
+        '家庭： 男性，男性，男生：',
+        ':man:'
+    ],
+    '👨‍👨‍👧': [
+        '有两个父亲和女儿的家庭',
+        ':family_with_two_fathers_and_daughter:',
+        '家庭： 男性，男性，女童',
+        ':man:'
+    ],
+    '👩‍👩‍👦': [
+        '有两个母亲和子女的家庭',
+        ':family_with_two_mothers_and_son:',
+        '家庭： 妇女、妇女',
+        ':woman:'
+    ],
+    '👩‍👩‍👧': [
+        '有两个母亲和女儿的家庭',
+        ':family_with_two_mothers_and_daughter:',
+        '家庭： 妇女、妇女',
+        ':woman:'
+    ],
+    '🧑‍🧑‍🧒‍🧒': [
+        'Family: Adult, Adult, Child, Child',
+        ':family_adult_adult_child_child:',
+        'Family: Person, Person, Child, Child'
     ],
     '👨‍👩‍👧‍👦': [
         '带有母亲、父亲、松子和女儿的家庭',
@@ -2257,18 +2392,6 @@ emojis_language[lang][3] = {
         '与母亲、父亲和两名女儿的家庭',
         ':family_with_mother_father_and_two_daughters:',
         '家庭： 男人、女人、女童'
-    ],
-    '👨‍👨‍👦': [
-        '有两名父亲和男人的家庭',
-        ':family_with_two_fathers_and_son:',
-        '家庭： 男性，男性，男生：',
-        ':man:'
-    ],
-    '👨‍👨‍👧': [
-        '有两个父亲和女儿的家庭',
-        ':family_with_two_fathers_and_daughter:',
-        '家庭： 男性，男性，女童',
-        ':man:'
     ],
     '👨‍👨‍👧‍👦': [
         '有两个父亲、僧侣和女儿的家庭',
@@ -2288,18 +2411,6 @@ emojis_language[lang][3] = {
         '家庭：男人，男人，女人，女童',
         ':man:'
     ],
-    '👩‍👩‍👦': [
-        '有两个母亲和子女的家庭',
-        ':family_with_two_mothers_and_son:',
-        '家庭： 妇女、妇女',
-        ':woman:'
-    ],
-    '👩‍👩‍👧': [
-        '有两个母亲和女儿的家庭',
-        ':family_with_two_mothers_and_daughter:',
-        '家庭： 妇女、妇女',
-        ':woman:'
-    ],
     '👩‍👩‍👧‍👦': [
         '有两名母亲、松子和女儿的家庭',
         ':family_with_two_mothers_son_and_daughter:',
@@ -2318,6 +2429,11 @@ emojis_language[lang][3] = {
         '家庭： 妇女、妇女、女童',
         ':woman:'
     ],
+    '🧑‍🧒': [
+        'Family: Adult, Child',
+        ':family_adult_child:',
+        'Family: Person, Child'
+    ],
     '👨‍👦': [
         '与神父和神父的家庭',
         ':family_with_father_and_son:',
@@ -2329,6 +2445,23 @@ emojis_language[lang][3] = {
         ':family_with_father_and_daughter:',
         '家庭：男性，女童',
         ':man:'
+    ],
+    '👩‍👧': [
+        '与母亲和女儿的家庭',
+        ':family_with_mother_and_daughter:',
+        '家庭： 妇女、女童',
+        ':woman:'
+    ],
+    '👨‍👧‍👧': [
+        '有父亲和两名女儿的家庭',
+        ':family_with_father_and_two_daughters:',
+        '家庭： 男性，女孩，',
+        ':man:'
+    ],
+    '🧑‍🧒‍🧒': [
+        'Family: Adult, Child, Child',
+        ':family_adult_child_child:',
+        'Family: Person, Child, Child'
     ],
     '👨‍👦‍👦': [
         '有父亲和两个儿子的家庭',
@@ -2342,22 +2475,10 @@ emojis_language[lang][3] = {
         '家庭： 男性，女孩，男孩：',
         ':man:'
     ],
-    '👨‍👧‍👧': [
-        '有父亲和两名女儿的家庭',
-        ':family_with_father_and_two_daughters:',
-        '家庭： 男性，女孩，',
-        ':man:'
-    ],
     '👩‍👦': [
         '与母子和女子的家庭',
         ':family_with_mother_and_son:',
         '家庭： 妇女、男孩；',
-        ':woman:'
-    ],
-    '👩‍👧': [
-        '与母亲和女儿的家庭',
-        ':family_with_mother_and_daughter:',
-        '家庭： 妇女、女童',
         ':woman:'
     ],
     '👩‍👦‍👦': [
@@ -3227,6 +3348,44 @@ emojis_language[lang][4] = {
         ':nest_with_eggs:',
         '鸟类',
         '主页'
+    ],
+    '🫏': [
+        'Donkey',
+        ':donkey:',
+        ':grey:',
+        ':gray:'
+    ],
+    '🫎': [
+        'Moose',
+        ':moose:',
+        'Moose Face',
+        ':brown:'
+    ],
+    '🪿': [
+        'Goose',
+        ':goose:',
+        ':white:'
+    ],
+    '🪼': [
+        'Jellyfish',
+        ':jellyfish:',
+        ':blue:'
+    ],
+    '🐦‍⬛': [
+        'Black bird',
+        ':black_bird:',
+        ':raven:',
+        'Raven',
+        'Crow',
+        'Rook',
+        ':black:'
+    ],
+    '🐦‍🔥': [
+        'Phoenix',
+        'Fire',
+        'Reborn',
+        ':phoenix:',
+        ':red:'
     ]
 };
 /*symbols*/
@@ -3377,9 +3536,27 @@ emojis_language[lang][5] = {
         '我喜欢你',
         ':brown:'
     ],
-    //"🩷": ["Pink Heart", ":pink_heart:", "I Love You", ":pink:"],
-    //"🩵": ["Light Blue Heart", ":lightblue_heart:", "I Love You", ":blue:"],
-    //"🩶": ["Grey Heart","Gray Heart", ":grey_heart:",":gray_heart:", "I Love You", ":gray:", ":grey:"],
+    '🩷': [
+        'Pink Heart',
+        ':pink_heart:',
+        'I Love You',
+        ':pink:'
+    ],
+    '🩵': [
+        'Light Blue Heart',
+        ':lightblue_heart:',
+        'I Love You',
+        ':blue:'
+    ],
+    '🩶': [
+        'Grey Heart',
+        'Gray Heart',
+        ':grey_heart:',
+        ':gray_heart:',
+        'I Love You',
+        ':gray:',
+        ':grey:'
+    ],
     '💯': [
         '百分',
         ':hundred_points:',
@@ -3835,7 +4012,12 @@ emojis_language[lang][5] = {
         '中点星六点星。',
         ':purple:'
     ],
-    //"🪯": ["Khanda", ":khanda:", "Sikhism", ":purple:"],
+    '🪯': [
+        'Khanda',
+        ':khanda:',
+        'Sikhism',
+        ':purple:'
+    ],
     '♈': [
         '阿里斯',
         ':aries:',
@@ -4696,7 +4878,16 @@ emojis_language[lang][5] = {
         '边境管制',
         ':blue:'
     ],
-    //"🛜": ["Wireless", ":wireless:", ":wifi:", ":wi_fi:", "Wifi", "wi-fi", "wireless connection", ":blue:"],
+    '🛜': [
+        'Wireless',
+        ':wireless:',
+        ':wifi:',
+        ':wi_fi:',
+        'Wifi',
+        'wi-fi',
+        'wireless connection',
+        ':blue:'
+    ],
     '🚰': [
         '饮用水符号',
         ':potable_water_symbol:',
@@ -5381,11 +5572,24 @@ emojis_language[lang][6] = {
         ':broccoli:',
         ':green:'
     ],
+    '🍋‍🟩': [
+        'Lime',
+        ':lime:',
+        ':green:'
+    ],
     '🍄': [
         '马歇尔室',
         ':mushroom:',
         '聊天室',
         'Toadstool'
+    ],
+    '🍄‍🟫': [
+        'Brown Mushroom',
+        ':brown_mushroom:',
+        'Mushroom',
+        'Shroom',
+        'Toadstool',
+        ':brown:'
     ],
     '🥜': [
         'Peanuts',
@@ -7696,6 +7900,24 @@ emojis_language[lang][8] = {
         ':running:',
         ':person:'
     ],
+    '🏃{{skin_tone}}‍♂️‍➡️': [
+        'Man Running Facing Right',
+        ':man_running_facing_right:',
+        ':running:',
+        ':man:'
+    ],
+    '🏃{{skin_tone}}‍♀️‍➡️': [
+        'Woman Running Facing Right',
+        'woman_running_facing_right:',
+        ':running:',
+        ':woman:'
+    ],
+    '🏃{{skin_tone}}‍➡️': [
+        'Person Running Facing Right',
+        ':person_running_facing_right:',
+        ':running:',
+        ':person:'
+    ],
     '🕺{{skin_tone}}': [
         '人舞蹈组织',
         ':man_dancing:',
@@ -9316,7 +9538,12 @@ emojis_language[lang][11] = {
     ],
     '🩲': [
         '简介',
-        ':briefs:'
+        ':briefs:',
+        'Undies',
+        'Underwear',
+        'Underpants',
+        'Jocks',
+        'Panties'
     ],
     '🩳': [
         '短路',
@@ -9704,6 +9931,14 @@ emojis_language[lang][12] = {
         ':selfie:',
         '手机相机',
         '自拍手'
+    ],
+    '🫸{{skin_tone}}': [
+        'Rightwards Pushing Hand',
+        ':rightwards_pushing_hand:'
+    ],
+    '🫷{{skin_tone}}': [
+        'Leftwards Pushing Hand',
+        ':leftwards_pushing_hand:'
     ]
 };
 /*other*/
@@ -10340,9 +10575,24 @@ emojis_language[lang][13] = {
         '均匀度',
         '安宁度'
     ],
-    //"🪻": ["Hyacinth", ":hyacinth:", "Purple flower", ":purple:"],
-    //"🫛": ["Pea Pod", ":pea_pod:", ":green:"],
-    //"🫚": ["Ginger root", ":ginger:", "Spice", "Flavour", ":brown:"],
+    '🪻': [
+        'Hyacinth',
+        ':hyacinth:',
+        'Purple flower',
+        ':purple:'
+    ],
+    '🫛': [
+        'Pea Pod',
+        ':pea_pod:',
+        ':green:'
+    ],
+    '🫚': [
+        'Ginger root',
+        ':ginger:',
+        'Spice',
+        'Flavour',
+        ':brown:'
+    ],
     '🔑': [
         '关键字',
         ':key:',
@@ -10464,10 +10714,6 @@ emojis_language[lang][13] = {
         '磁力网',
         ':magnet:',
         ':red:'
-    ],
-    '⛓️': [
-        '链条',
-        ':chains:'
     ],
     '💉': [
         'Syringe',
@@ -10617,12 +10863,26 @@ emojis_language[lang][13] = {
         ':balance_scale:',
         '司法比例'
     ],
+    '⛓️': [
+        '链条',
+        ':chains:'
+    ],
     '🔗': [
         '链接',
         ':link:',
         '链条',
         '超链接',
         '链接的链接',
+        ':gray:',
+        ':grey:'
+    ],
+    '⛓️‍💥': [
+        'Broken chain',
+        ':broken_chain:',
+        'Chain',
+        'Hyperlink',
+        'Linked Chain',
+        'Unlinked chain',
         ':gray:',
         ':grey:'
     ],
@@ -10971,13 +11231,24 @@ emojis_language[lang][13] = {
         '小时已完成',
         ':hourglass:',
         ':hourglass_done:',
-        '小时数'
+        '小时数',
+        'Time',
+        'Egg timer',
+        'Empty',
+        'Ended',
+        'Finished',
+        'Sand Clock'
     ],
     '⏳': [
         '小时玻璃未完成',
         ':hourglass_flowing_sand:',
         ':hourglass_not_done:',
-        '带花子的小时玻璃板'
+        '带花子的小时玻璃板',
+        'Busy',
+        'Time',
+        'Egg timer',
+        'Flowing',
+        'Sand Clock'
     ],
     '🕐': [
         '一个 OClock',
@@ -10985,14 +11256,16 @@ emojis_language[lang][13] = {
         ':one_oclock:',
         '时钟脸One OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕜': [
         '一条时钟面',
         ':clock130:',
         ':one_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕑': [
         '两次OClock',
@@ -11000,14 +11273,16 @@ emojis_language[lang][13] = {
         ':two_oclock:',
         '时钟两面',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕝': [
         '时钟脸二十',
         ':clock230:',
         ':two_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕒': [
         '三个OClock',
@@ -11015,14 +11290,16 @@ emojis_language[lang][13] = {
         ':three_oclock:',
         '时钟三个OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕞': [
         '时钟三面',
         ':clock330:',
         ':three_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕓': [
         '四个OClock',
@@ -11030,14 +11307,16 @@ emojis_language[lang][13] = {
         ':four_oclock:',
         '时钟四面',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕟': [
         '时钟面 Four-30',
         ':clock430:',
         ':four_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕔': [
         '五个OClock',
@@ -11045,14 +11324,16 @@ emojis_language[lang][13] = {
         ':five_oclock:',
         '锁屏时钟的五面',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕠': [
         '时钟脸五-三十天',
         ':clock530:',
         ':five_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕕': [
         '6个OClock',
@@ -11060,14 +11341,16 @@ emojis_language[lang][13] = {
         ':size_oclock:',
         '时钟面 OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕡': [
         '时钟面',
         ':clock630:',
         ':six_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕖': [
         '七个OClock',
@@ -11075,14 +11358,16 @@ emojis_language[lang][13] = {
         ':seven_oclock:',
         '时钟脸7OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕢': [
         '七十三个时钟',
         ':clock730:',
         ':sever_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕗': [
         '八个OClock',
@@ -11090,14 +11375,16 @@ emojis_language[lang][13] = {
         ':eight_oclock:',
         '时钟脸八个OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕣': [
         '时钟脸八十',
         ':clock830:',
         ':eight_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕘': [
         '九个OClock',
@@ -11105,14 +11392,16 @@ emojis_language[lang][13] = {
         ':nine_clock:',
         '时钟脸九个OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕤': [
         '时钟面部九至三十点',
         ':clock930:',
         ':nine_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕙': [
         '十个OClock',
@@ -11120,14 +11409,16 @@ emojis_language[lang][13] = {
         ':ten_oclock:',
         '时钟脸部Ten OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕥': [
         '时钟脸部-三十度',
         ':clock1030:',
         ':ten_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕚': [
         'Eleven OClock',
@@ -11135,14 +11426,16 @@ emojis_language[lang][13] = {
         ':eleven_oclock:',
         '时钟脸十一 OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕦': [
         '时钟脸十一',
         ':clock1130:',
         ':eleven_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕛': [
         '十二个OClock',
@@ -11150,14 +11443,16 @@ emojis_language[lang][13] = {
         ':twelve_oclock:',
         '时钟脸T12 OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕧': [
         '时钟脸T12-30号',
         ':clock1230:',
         ':twelve_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '♨️': [
         '热泉子',
@@ -11395,11 +11690,20 @@ emojis_language[lang][13] = {
     '🦽': [
         '手工轮椅子',
         ':manual_wheelchair:',
-        ':wheelchair:'
+        ':wheelchair:',
+        'invalid',
+        'disability',
+        'accessibility',
+        'mobility'
     ],
     '🦼': [
         '摩托化轮椅子',
-        ':motorized_wheelchair:'
+        ':motorized_wheelchair:',
+        ':wheelchair:',
+        'invalid',
+        'disability',
+        'accessibility',
+        'mobility'
     ],
     '🪔': [
         'Diya Lamp',
@@ -11599,5 +11903,39 @@ emojis_language[lang][13] = {
         'Baby',
         'Child',
         'Children'
+    ],
+    '🪽': [
+        'Wing',
+        ':wing:',
+        'Fly',
+        ':white:'
+    ],
+    '🪭': [
+        'Folding Hand Fan',
+        ':folding_hand_fan:',
+        'Fan',
+        'Manual fan',
+        'Summer',
+        ':red:'
+    ],
+    '🪮': [
+        'Hair Pick',
+        ':hair_pick:',
+        'Black culture',
+        'Black pride',
+        ':black:'
+    ],
+    '🪈': [
+        'Flute',
+        ':flute:',
+        'Plastic flute',
+        'Metal plute',
+        'Bamboo flute',
+        'Musical instrument',
+        ':brown:'
+    ],
+    '🪇': [
+        'Maracas',
+        ':maracas:'
     ]
 };

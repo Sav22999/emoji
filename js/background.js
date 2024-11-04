@@ -93,3 +93,4 @@ function injectContentScript(file) {
 }
 
 loaded();
+

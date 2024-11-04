@@ -96,7 +96,8 @@ body {
     overflow: hidden;
     overflow-y: auto;
     border-radius: 5px;
-    border: 2px solid #3399ff;
+    /*border: 2px solid #3399ff;*/
+    box-shadow: 0px 0px 5px 0px rgba(177, 214, 252, 0.4);
     z-index: 5;
     display: none;
     top: 0px;
@@ -126,6 +127,10 @@ body {
 }
 
 .emoji {
+    background: transparent;
+}
+
+.emoji {
     padding: 5px;
 }
 
@@ -138,7 +143,7 @@ body {
 .review-button:hover,
 .message-button:hover,
 .button:hover {
-    background-color: rgb(221, 222, 223);
+    background-color: rgba(221, 222, 223, 0.8);
 }
 
 .emoji:active,
@@ -146,7 +151,7 @@ body {
 .review-button:active,
 .message-button:active,
 .button:active, .button:focus {
-    box-shadow: 0px 0px 0px 2px #3399ff, 0px 0px 0px 5px #b1d6fc;
+    box-shadow: 0px 0px 0px 2px rgba(177, 214, 252, 0.8), 0px 0px 0px 5px rgba(51, 153, 255, 0.2);
     z-index: 9;
 }
 
@@ -318,7 +323,7 @@ div#top-message, div#import-message, div#export-message {
 }
 
 #top-message a.button-release:focus {
-    box-shadow: 0px 0px 0px 2px #3399ff, 0px 0px 0px 5px #b1d6fc;
+    box-shadow: 0px 0px 0px 2px rgba(177, 214, 252, 0.8), 0px 0px 0px 5px rgba(51, 153, 255, 0.2);
 }
 
 .font-twemoji {
@@ -505,8 +510,8 @@ div#review-message-buttons, div#top-message-buttons, div.message-buttons-contain
 }
 
 .import-export-textarea:focus, .import-export-textarea:active {
-    box-shadow: 0px 0px 0px 2px #3399ff, 0px 0px 0px 5px #b1d6fc;
-    border: 1px solid #3399ff;
+    box-shadow: 0px 0px 0px 2px rgba(177, 214, 252, 0.8), 0px 0px 0px 5px rgba(51, 153, 255, 0.2);
+    border: 1px solid rgba(177, 214, 252, 0.8);
     z-index: 2;
     transition: 0.5s;
 }
@@ -521,8 +526,8 @@ div#review-message-buttons, div#top-message-buttons, div.message-buttons-contain
 }
 
 #search-bar-input:focus {
-    border: 1px solid #3399ff;
-    box-shadow: 0px 0px 0px 2px #3399ff, 0px 0px 0px 5px #b1d6fc;
+    border: 1px solid rgba(177, 214, 252, 0.8);
+    box-shadow: 0px 0px 0px 2px rgba(177, 214, 252, 0.8), 0px 0px 0px 5px rgba(51, 153, 255, 0.2);
 }
 
 #search-box {
@@ -664,20 +669,20 @@ div {
     background-color: inherit;
 }
 
-#made-in-basilicata-settings, .text-in-settings {
+#made-in-trentino-settings, .text-in-settings {
     width: auto;
     text-align: center;
     font-size: 14px;
     margin: 0px;
     background-color: inherit;
-    border-top: 1px solid #3399ff;
+    border-top: 1px solid rgba(177, 214, 252, 0.8);
     box-sizing: border-box;
     padding: 10px;
     font-family: open-sans, sans-serif;
 }
 
 .border-top {
-    border-top: 1px solid #3399ff;
+    border-top: 1px solid rgba(177, 214, 252, 0.8);
     padding: 10px;
 }
 
@@ -748,7 +753,7 @@ div {
 }
 
 .select:focus, .select:active {
-    box-shadow: 0px 0px 0px 2px #3399ff, 0px 0px 0px 5px #b1d6fc;
+    box-shadow: 0px 0px 0px 2px rgba(177, 214, 252, 0.8), 0px 0px 0px 5px rgba(51, 153, 255, 0.2);
     z-index: 9;
 }
 
@@ -795,6 +800,10 @@ div {
     color: #EEEEEE;
 }
 
+.dark-button-emoji {
+    background: transparent;
+}
+
 .light-settings-button,
 .light-btn-settings-button,
 .light-delete-button,
@@ -806,7 +815,7 @@ div {
 .dark-btn-settings-button,
 .dark-delete-button,
 .dark-finish-edit-button {
-    background-color: rgb(70, 70, 70);
+    background-color: rgb(70, 70, 70, 0.8);
     color: #EEEEEE;
 }
 
@@ -818,6 +827,10 @@ div {
 
 .dark-select:hover {
     background-color: rgb(50, 50, 50);
+}
+
+.dark-text {
+    color: #EEEEEE;
 }
 
 .dark-search-bar-input, .textarea-dark {
@@ -918,12 +931,12 @@ div {
 }
 
 .skin-tone-button:active, .skin-tone-button:focus, .extension-icon-button:active, .extension-icon-button:focus {
-    box-shadow: 0px 0px 0px 1px #3399ff, 0px 0px 0px 4px #b1d6fc;
-    border: 1px solid #3399ff;
+    box-shadow: 0px 0px 0px 1px rgba(51, 153, 255, 0.8), 0px 0px 0px 4px rgba(177, 214, 252, 0.8);
+    border: 1px solid rgba(51, 153, 255, 0.8);
 }
 
 .skin-tone-button-selected, .extension-icon-button-selected {
-    border: 2px solid #3399ff;
+    border: 2px solid rgba(51, 153, 255, 0.8);
 }
 
 #skin-standard {
@@ -1066,7 +1079,7 @@ div {
 }
 
 .button-yes-no:hover {
-    background-color: #3399ff44;
+    background-color: rgba(177, 214, 252, 0.8);
 }
 
 .button-yes-no-selected {
@@ -1075,7 +1088,7 @@ div {
 }
 
 .button-yes-no-selected:hover {
-    background-color: #3399ff;
+    background-color: rgba(177, 214, 252, 0.8);
 }
 
 
@@ -1093,8 +1106,8 @@ div {
 }
 
 .button-yes-no:active, .button-yes-no:focus {
-    box-shadow: 0px 0px 0px 2px #3399ff, 0px 0px 0px 5px #b1d6fc;
-    border: 0px solid #3399ff;
+    box-shadow: 0px 0px 0px 2px rgba(177, 214, 252, 0.8), 0px 0px 0px 5px rgba(51, 153, 255, 0.2);
+    border: 0px solid rgba(177, 214, 252, 0.8);
     position: relative;
     z-index: 9;
     border-radius: 5px;
