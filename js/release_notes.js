@@ -153,6 +153,16 @@ function releaseNotes(release) {
             release_notes_text += "<br><div class='text-center'><a href='https://t.me/sav_projects' class='close-popup button-release'>Join now on Telegram!</a></div>";
             release_notes_text += "</ul>";
             break;
+
+        case "3.23":
+            release_notes_text = "<ul>";
+            release_notes_text += "<li>Removed <span class='background-lightblue'>JoyPixels</span> font</li>";
+            release_notes_text += "<li>Added new emojis</li>";
+            release_notes_text += "<li>The current Twemoji version doesn't support the latest emojis (Emoji 15.1 - 2023), so if you want to use them, please, use another emoji font: change it in Settings</li>";
+            release_notes_text += "<li>New Instagram account, follow it now! </li>";
+            release_notes_text += "<br><div class='text-center'><a href='https://www.instagram.com/emojiaddon/' class='close-popup button-release'>Follow now</a></div>";
+            release_notes_text += "</ul>";
+            break;
     }
     return release_notes_text;
 }
