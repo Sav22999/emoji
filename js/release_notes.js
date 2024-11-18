@@ -163,6 +163,12 @@ function releaseNotes(release) {
             release_notes_text += "<br><div class='text-center'><a href='https://www.instagram.com/emojiaddon/' class='close-popup button-release'>Follow now</a></div>";
             release_notes_text += "</ul>";
             break;
+
+        case "3.23.1":
+            release_notes_text = "<ul>";
+            release_notes_text += "<li>Updated <span class='background-lightblue'>Twemoji</span> font</li>";
+            release_notes_text += "</ul>";
+            break;
     }
     return release_notes_text;
 }
