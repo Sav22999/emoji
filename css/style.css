@@ -340,6 +340,11 @@ div#top-message, div#import-message, div#export-message {
 
 .font-openmojicolor {
     font-family: openmoji-color, sans-serif;
+    color: #000000 !important;
+
+    .emoji, .section-title {
+        color: #000000;
+    }
 }
 
 .font-openmojiblack {
