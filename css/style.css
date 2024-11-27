@@ -1180,3 +1180,32 @@ div {
 .forced-light-background {
     background-color: #F5F5F5;
 }
+
+
+/*The section in "Release notes" for the 5th birthday of the Emoji add-on*/
+.fifth-birthday {
+    margin: 5px;
+    background: padding-box;
+    padding: 10px;
+    background-color: rgba(177, 214, 252, 0.5);
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 600;
+
+    br {
+        display: block;
+        margin: 10px;
+    }
+
+    .thanks {
+        font-size: 1.5em;
+        font-weight: 600;
+    }
+
+    a {
+        font-weight: 500;
+        cursor: default;
+        padding: 2px 5px !important;
+        user-select: none;
+    }
+}
