@@ -3048,7 +3048,12 @@ emojis_language[lang][4] = {
         ':hatching_chick:',
         'Pui de pui',
         'Pălărie de pui',
+        'Egg',
         ':yellow:'
+    ],
+    '🥚': [
+        'Egg',
+        ':egg:'
     ],
     '🐤': [
         'Pui de bebeluș',
@@ -10981,7 +10986,8 @@ emojis_language[lang][13] = {
         'Notă £20',
         'Douăzeci de Note',
         'Bnot cu panou liră',
-        ':purple:'
+        ':purple:',
+        'Money'
     ],
     '💶': [
         'Euro Banknote',
@@ -10989,7 +10995,8 @@ emojis_language[lang][13] = {
         ':euro_banknote:',
         '100 € Notă',
         'Bnotă cu panou Euro',
-        ':blue:'
+        ':blue:',
+        'Money'
     ],
     '💵': [
         'Bancnote Dolar',
@@ -10999,7 +11006,8 @@ emojis_language[lang][13] = {
         'Panou cu Dolar',
         'Factura Dolar',
         'Dolar american',
-        ':green:'
+        ':green:',
+        'Money'
     ],
     '💴': [
         'Bancnota Yen',
@@ -11008,7 +11016,8 @@ emojis_language[lang][13] = {
         'Rata: 1000 Notă',
         'Notă Yen',
         'Bannote cu panou Yen',
-        ':yellow:'
+        ':yellow:',
+        'Money'
     ],
     '⛺': [
         'Cort de Campare',
