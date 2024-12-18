@@ -3048,7 +3048,12 @@ emojis_language[lang][4] = {
         ':hatching_chick:',
         'Dětské kuře',
         'Lovení kuřat',
+        'Egg',
         ':yellow:'
+    ],
+    '🥚': [
+        'Egg',
+        ':egg:'
     ],
     '🐤': [
         'Dětská kuřata',
@@ -10981,7 +10986,8 @@ emojis_language[lang][13] = {
         'Poznámka na míru',
         'Dvacet Quid Note',
         'Bankovky s liberijskou značkou',
-        ':purple:'
+        ':purple:',
+        'Money'
     ],
     '💶': [
         'Euro Banknote',
@@ -10989,7 +10995,8 @@ emojis_language[lang][13] = {
         ':euro_banknote:',
         '€100 Poznámka',
         'Bankovky s eurobankovkou',
-        ':blue:'
+        ':blue:',
+        'Money'
     ],
     '💵': [
         'Bankovky s dolarem',
@@ -10999,7 +11006,8 @@ emojis_language[lang][13] = {
         'Bankovka s dolarovou značkou',
         'Dolarový účet',
         'Americký dolar',
-        ':green:'
+        ':green:',
+        'Money'
     ],
     '💴': [
         'Yen Bankovka',
@@ -11008,7 +11016,8 @@ emojis_language[lang][13] = {
         '<unk> 1000 Poznámka',
         'Ano poznámka',
         'Bankovka s Yen Sign',
-        ':yellow:'
+        ':yellow:',
+        'Money'
     ],
     '⛺': [
         'Stan táboření',

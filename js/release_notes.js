@@ -180,6 +180,12 @@ function releaseNotes(release) {
             release_notes_text += "<br>➕ Many new features and events are coming soon to celebrate the 5th year!";
             release_notes_text += "</div>";
             break;
+
+        case "3.23.1.2":
+            release_notes_text = "<ul>";
+            release_notes_text += "<li>Added egg 🥚</li>";
+            release_notes_text += "</ul>";
+            break;
     }
     return release_notes_text;
 }

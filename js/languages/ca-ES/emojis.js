@@ -3048,7 +3048,12 @@ emojis_language[lang][4] = {
         ':hatching_chick:',
         'Baby Chicken',
         'Chick Hatching',
+        'Egg',
         ':yellow:'
+    ],
+    '🥚': [
+        'Egg',
+        ':egg:'
     ],
     '🐤': [
         'Baby Chick',
@@ -10981,7 +10986,8 @@ emojis_language[lang][13] = {
         '£20 Note',
         'Twenty Quid Note',
         'Banknote with Pound Sign',
-        ':purple:'
+        ':purple:',
+        'Money'
     ],
     '💶': [
         'Euro Banknote',
@@ -10989,7 +10995,8 @@ emojis_language[lang][13] = {
         ':euro_banknote:',
         '€100 Note',
         'Banknote with Euro Sign',
-        ':blue:'
+        ':blue:',
+        'Money'
     ],
     '💵': [
         'Dollar Banknote',
@@ -10999,7 +11006,8 @@ emojis_language[lang][13] = {
         'Banknote with Dollar Sign',
         'Dollar Bill',
         'American Dollar',
-        ':green:'
+        ':green:',
+        'Money'
     ],
     '💴': [
         'Yen Banknote',
@@ -11008,7 +11016,8 @@ emojis_language[lang][13] = {
         '¥1000 Note',
         'Yen Note',
         'Banknote with Yen Sign',
-        ':yellow:'
+        ':yellow:',
+        'Money'
     ],
     '⛺': [
         'Camping Tent',

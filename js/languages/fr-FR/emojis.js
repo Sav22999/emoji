@@ -3048,7 +3048,12 @@ emojis_language[lang][4] = {
         ':hatching_chick:',
         'Bébé Poulet',
         'Éclosion de poule',
+        'Egg',
         ':yellow:'
+    ],
+    '🥚': [
+        'Egg',
+        ':egg:'
     ],
     '🐤': [
         'Poulet de bébé',
@@ -10981,7 +10986,8 @@ emojis_language[lang][13] = {
         'Note de 20 £',
         'Note de Vingt Quid',
         'Billets de banque avec panneau livre sterling',
-        ':purple:'
+        ':purple:',
+        'Money'
     ],
     '💶': [
         'Euro Banknote',
@@ -10989,7 +10995,8 @@ emojis_language[lang][13] = {
         ':euro_banknote:',
         'Note de 100 €',
         'Billet de banque avec panneau Euro',
-        ':blue:'
+        ':blue:',
+        'Money'
     ],
     '💵': [
         'Billets en dollars',
@@ -10999,7 +11006,8 @@ emojis_language[lang][13] = {
         'Billets de banque avec panneau Dollar',
         'Facture en dollars',
         'Dollar américain',
-        ':green:'
+        ':green:',
+        'Money'
     ],
     '💴': [
         'Yen Banknote',
@@ -11008,7 +11016,8 @@ emojis_language[lang][13] = {
         'Note de 1000 yens',
         'Note de Yen',
         'Billet de banque avec panneau Yen',
-        ':yellow:'
+        ':yellow:',
+        'Money'
     ],
     '⛺': [
         'Tente de Camping',

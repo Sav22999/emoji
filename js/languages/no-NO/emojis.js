@@ -3048,7 +3048,12 @@ emojis_language[lang][4] = {
         ':hatching_chick:',
         'Baby kylling',
         'Kylling lukker',
+        'Egg',
         ':yellow:'
+    ],
+    '🥚': [
+        'Egg',
+        ':egg:'
     ],
     '🐤': [
         'Baby kylling',
@@ -10981,7 +10986,8 @@ emojis_language[lang][13] = {
         '500.20 merknad',
         'Tjuende Quid notat',
         'Banknotat med pund skilt',
-        ':purple:'
+        ':purple:',
+        'Money'
     ],
     '💶': [
         'Euro Banknote',
@@ -10989,7 +10995,8 @@ emojis_language[lang][13] = {
         ':euro_banknote:',
         '10000 notat',
         'Banknotat med Euro skilt',
-        ':blue:'
+        ':blue:',
+        'Money'
     ],
     '💵': [
         'Dollar Banknotat',
@@ -10999,7 +11006,8 @@ emojis_language[lang][13] = {
         'Banknotat med Dollar skilt',
         'Dollar Bill',
         'Amerikansk Dollar',
-        ':green:'
+        ':green:',
+        'Money'
     ],
     '💴': [
         'Jen Banknote',
@@ -11008,7 +11016,8 @@ emojis_language[lang][13] = {
         'ε1000 notat',
         'Jen notat',
         'Banknotat med Jen skilt',
-        ':yellow:'
+        ':yellow:',
+        'Money'
     ],
     '⛺': [
         'Camping Tent',
