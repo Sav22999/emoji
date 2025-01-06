@@ -177,21 +177,16 @@ function releaseNotes(release) {
             release_notes_text += "</ul>";
             break;
 
-        case "3.23.1.1":
+        case "3.23.1.2":
             release_notes_text = "<div class='fifth-birthday'>";
             release_notes_text += "<span class='thanks'>29 Nov</span>: the Emoji add-on turns <span class='thanks'>5 years old</span>! 🎉🎂";
-            release_notes_text += "<br><span class='thanks'>Thank you for your support! </span> 🙏";
             release_notes_text += "<br>🌐 New website has been published – totally renewed! <a href='https://emojiaddon.com' class='close-popup'>Visit the new website</a>";
             release_notes_text += "<br>📸 Follow the new Instagram account: <a href='https://www.instagram.com/emojiaddon/' class='close-popup'>Follow now</a>";
             release_notes_text += "<br>📰 Newsletter is here! <a href='https://emojiaddon.com/newsletter' class='close-popup'>Subscribe now</a>";
             release_notes_text += "<br>➕ Many new features and events are coming soon to celebrate the 5th year!";
+            release_notes_text += "<br><span class='thanks'>Thank you for your support! </span> 🙏";
+            release_notes_text += "<br><br><small>(scroll to the end to hide this message)</small>";
             release_notes_text += "</div>";
-            break;
-
-        case "3.23.1.2":
-            release_notes_text = "<ul>";
-            release_notes_text += "<li>Added egg 🥚</li>";
-            release_notes_text += "</ul>";
             break;
     }
     return release_notes_text;

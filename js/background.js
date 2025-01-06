@@ -78,16 +78,27 @@ function injectContentScript(file) {
     });*/
 
     chrome.tabs.query({active: true, currentWindow: true}, function (tabs) {
-        const activeTab = tabs[0];
         if (tabs !== undefined && tabs.length > 0) {
-            chrome.scripting.executeScript({
-                target: {tabId: activeTab.id, allFrames: true},
-                files: [file],
-            }).then(() => {
-                // Script executed successfully
-            }).catch((error) => {
-                console.error("E1: " + error + "\nin " + activeTab.url);
-            });
+            const activeTab = tabs[0];
+            if (activeTab !== undefined) {
+                if (chrome.scripting !== undefined) {
+                    chrome.scripting.executeScript({
+                        target: {tabId: activeTab.id, allFrames: true},
+                        files: [file],
+                    }).then(() => {
+                        // console.log("Script executed successfully");
+                        // Script executed successfully
+                    }).catch((error) => {
+                        console.error("E1: " + error + "\nin " + activeTab.url);
+                    });
+                } else {
+                    console.error("EB1: chrome.scripting is undefined");
+                }
+            } else {
+                console.error("E2: activeTab is undefined");
+            }
+        } else {
+            console.error("E3: tabs is undefined or empty");
         }
     });
 }
