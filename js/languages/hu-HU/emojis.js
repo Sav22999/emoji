@@ -8,7 +8,7 @@ titles_language[lang] = {
     '🙋': 'Emberek',
     '🦊': 'Állatok',
     '🅰️': 'Szimbólumok',
-    '🍎': 'Étel és Ital',
+    '🍎': 'Food and drinks',
     '🏳️‍🌈': 'Zászlók',
     '🏊': 'Sportok',
     '✈️': 'Utazás és helyek',
@@ -3048,7 +3048,12 @@ emojis_language[lang][4] = {
         ':hatching_chick:',
         'Csibe',
         'Kikelő csibe',
+        'Egg',
         ':yellow:'
+    ],
+    '🥚': [
+        'Egg',
+        ':egg:'
     ],
     '🐤': [
         'Csibe',
@@ -10981,7 +10986,8 @@ emojis_language[lang][13] = {
         '£20 Note',
         'Twenty Quid Note',
         'Banknote with Pound Sign',
-        ':purple:'
+        ':purple:',
+        'Money'
     ],
     '💶': [
         'Euro bankjegy',
@@ -10989,7 +10995,8 @@ emojis_language[lang][13] = {
         ':euro_banknote:',
         '€100 Note',
         'Banknote with Euro Sign',
-        ':blue:'
+        ':blue:',
+        'Money'
     ],
     '💵': [
         'Dollár bankjegy',
@@ -10999,7 +11006,8 @@ emojis_language[lang][13] = {
         'Banknote with Dollar Sign',
         'Dollar Bill',
         'American Dollar',
-        ':green:'
+        ':green:',
+        'Money'
     ],
     '💴': [
         'Yen bankjegy',
@@ -11008,7 +11016,8 @@ emojis_language[lang][13] = {
         '¥1000 Note',
         'Yen Note',
         'Banknote with Yen Sign',
-        ':yellow:'
+        ':yellow:',
+        'Money'
     ],
     '⛺': [
         'Kemping sátor',

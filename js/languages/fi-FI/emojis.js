@@ -3048,7 +3048,12 @@ emojis_language[lang][4] = {
         ':hatching_chick:',
         'Vauva Kana',
         'Chick Hatching',
+        'Egg',
         ':yellow:'
+    ],
+    '🥚': [
+        'Egg',
+        ':egg:'
     ],
     '🐤': [
         'Vauvan Chick',
@@ -10981,7 +10986,8 @@ emojis_language[lang][13] = {
         '20 £ Huomautus',
         'Kaksikymmentä Quid-muistiota',
         'Seteli, jossa on punta',
-        ':purple:'
+        ':purple:',
+        'Money'
     ],
     '💶': [
         'Euro Banknote',
@@ -10989,7 +10995,8 @@ emojis_language[lang][13] = {
         ':euro_banknote:',
         '100 € Muistiinpano',
         'Seteli, jossa on Euro Sign',
-        ':blue:'
+        ':blue:',
+        'Money'
     ],
     '💵': [
         'Dollari Banknote',
@@ -10999,7 +11006,8 @@ emojis_language[lang][13] = {
         'Seteli, jossa on dollarimerkki',
         'Dollarin Lasku',
         'American Dollari',
-        ':green:'
+        ':green:',
+        'Money'
     ],
     '💴': [
         'Yen Banknote',
@@ -11008,7 +11016,8 @@ emojis_language[lang][13] = {
         '¼ 1000 Huomautus',
         'Jeni Huomautus',
         'Seteli, jossa on Yen Sign',
-        ':yellow:'
+        ':yellow:',
+        'Money'
     ],
     '⛺': [
         'Teltta',

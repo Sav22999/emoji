@@ -3048,7 +3048,12 @@ emojis_language[lang][4] = {
         ':hatching_chick:',
         'Baby kyckling',
         'Kyckling Kyckling',
+        'Egg',
         ':yellow:'
+    ],
+    '🥚': [
+        'Egg',
+        ':egg:'
     ],
     '🐤': [
         'Bäbis Chick',
@@ -10981,7 +10986,8 @@ emojis_language[lang][13] = {
         '£20 Anteckning',
         'Tjugo Quid Note',
         'Sedel med pund',
-        ':purple:'
+        ':purple:',
+        'Money'
     ],
     '💶': [
         'Euro Banknote',
@@ -10989,7 +10995,8 @@ emojis_language[lang][13] = {
         ':euro_banknote:',
         '€100 Notering',
         'Sedel med euroskylt',
-        ':blue:'
+        ':blue:',
+        'Money'
     ],
     '💵': [
         'Dollar sedel',
@@ -10999,7 +11006,8 @@ emojis_language[lang][13] = {
         'Sedel med Dollarskylt',
         'Dollar Bill',
         'Amerikansk Dollar',
-        ':green:'
+        ':green:',
+        'Money'
     ],
     '💴': [
         'Yen sedel',
@@ -11008,7 +11016,8 @@ emojis_language[lang][13] = {
         '<unk> 1000 Anteckning',
         'Yen anteckning',
         'Sedel med Yen Sign',
-        ':yellow:'
+        ':yellow:',
+        'Money'
     ],
     '⛺': [
         'Camping Tält',

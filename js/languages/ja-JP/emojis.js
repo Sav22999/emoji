@@ -3048,7 +3048,12 @@ emojis_language[lang][4] = {
         ':hatching_chick:',
         '赤ちゃんニワトリformat@@0',
         'ひよこ孵化',
+        'Egg',
         ':yellow:'
+    ],
+    '🥚': [
+        'Egg',
+        ':egg:'
     ],
     '🐤': [
         '赤ちゃんひよこ',
@@ -10981,7 +10986,8 @@ emojis_language[lang][13] = {
         '£20ノート',
         '20クワッドノート',
         'ポンドサイン付き銀行券（ポンドサイン付き）',
-        ':purple:'
+        ':purple:',
+        'Money'
     ],
     '💶': [
         'Euro Banknote',
@@ -10989,7 +10995,8 @@ emojis_language[lang][13] = {
         ':euro_banknote:',
         '€100ノート',
         'ユーロ記号付き紙幣（ユーロ記号付き）',
-        ':blue:'
+        ':blue:',
+        'Money'
     ],
     '💵': [
         'ドル紙幣format@@0',
@@ -10999,7 +11006,8 @@ emojis_language[lang][13] = {
         'ドル記号付き紙幣format@@0',
         'ドル請求書',
         'アメリカ ドル',
-        ':green:'
+        ':green:',
+        'Money'
     ],
     '💴': [
         '円紙幣（円札）',
@@ -11008,7 +11016,8 @@ emojis_language[lang][13] = {
         '¥1000 注',
         '円ノート',
         '円サイン入り紙幣(円印付き)',
-        ':yellow:'
+        ':yellow:',
+        'Money'
     ],
     '⛺': [
         '駐屯テント（キャンプ）',

@@ -6,6 +6,8 @@
     <br>
 </h1>
 
+<a href="https://emojiaddon.com"><img src="/banners/banner.png" width="100%" alt="Image: Emoji add-on banner"/></a>
+
 Official website: https://emojiaddon.com.
 
 Official repo of https://addons.mozilla.org/firefox/addon/emoji-sav/.

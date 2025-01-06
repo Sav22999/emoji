@@ -3048,7 +3048,12 @@ emojis_language[lang][4] = {
         ':hatching_chick:',
         'Kurczak dla dziecka',
         'Wykrywanie piskląt',
+        'Egg',
         ':yellow:'
+    ],
+    '🥚': [
+        'Egg',
+        ':egg:'
     ],
     '🐤': [
         'Kurczęta dla dziecka',
@@ -10981,7 +10986,8 @@ emojis_language[lang][13] = {
         'Notatka X zł',
         'Dwadzieścia Quid Note',
         'Banknot ze znakiem funtowym',
-        ':purple:'
+        ':purple:',
+        'Money'
     ],
     '💶': [
         'Euro Banknote',
@@ -10989,7 +10995,8 @@ emojis_language[lang][13] = {
         ':euro_banknote:',
         'Notatka €100',
         'Banknoty z oznakowaniem euro',
-        ':blue:'
+        ':blue:',
+        'Money'
     ],
     '💵': [
         'Banknoty dolne',
@@ -10999,7 +11006,8 @@ emojis_language[lang][13] = {
         'Banknot ze znakiem dolara',
         'Rachunek Dolarów',
         'Dolar amerykański',
-        ':green:'
+        ':green:',
+        'Money'
     ],
     '💴': [
         'Banknoty Jen',
@@ -11008,7 +11016,8 @@ emojis_language[lang][13] = {
         '<unk> 1000 Notatka',
         'Yen Notatka',
         'Banknoty z znakiem Yen',
-        ':yellow:'
+        ':yellow:',
+        'Money'
     ],
     '⛺': [
         'Namiot kempingowy',
