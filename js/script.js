@@ -1495,55 +1495,59 @@ function importSettings() {
     let button_import = document.createElement("button");
     button_import.onclick = function () {
         // "addon_info" are useful only to check compatibility (notify incompatibility between different browsers)
-        if (confirm(some_translated_strings["confirmation-import-settings"]) === true) {
-            let error = false;
-            let messageToAdd = "";
-            try {
-                //{ addon_info: {name: -, version: -, store_edition: -, os: -, browser_version: -, browser_name: -, developer: -, manifest_version: -, exported_date : { day: -, month: -, year: - } },
-                //  settings: {"theme": -,"columns": -,"rows": -,"size": -,"font": -,"auto_close": -,"skin_tone": -,"multi_copy": -,"extension_icon": -,"language": -,"space_emoji": -,"insert_directly_emoji": -,"keyboard_shortcut": -}
-                // "most_used_emojis":[{"emoji": -,"occurrences": -,"tooltip": -}, -]
 
-                let jsonToCheck = JSON.parse(document.getElementById("json-import").value);
-                json_is_correct = true;
+        //if (confirm(some_translated_strings["confirmation-import-settings"]) === true) {
 
-                if (jsonToCheck["settings"] === undefined) {
-                    error = "true";
-                    messageToAdd += "<br>JSON error: settings not defined";
-                }
+        let error = false;
+        let messageToAdd = "";
+        try {
+            //{ addon_info: {name: -, version: -, store_edition: -, os: -, browser_version: -, browser_name: -, developer: -, manifest_version: -, exported_date : { day: -, month: -, year: - } },
+            //  settings: {"theme": -,"columns": -,"rows": -,"size": -,"font": -,"auto_close": -,"skin_tone": -,"multi_copy": -,"extension_icon": -,"language": -,"space_emoji": -,"insert_directly_emoji": -,"keyboard_shortcut": -}
+            // "most_used_emojis":[{"emoji": -,"occurrences": -,"tooltip": -}, -]
 
-                for (let i = 0; i < jsonToCheck["most_used_emojis"].length; i++) {
-                    if (jsonToCheck["most_used_emojis"][i].emoji === undefined || jsonToCheck["most_used_emojis"][i].occurrences === undefined || jsonToCheck["most_used_emojis"][i].tooltip === undefined) {
-                        error = true;
-                        messageToAdd += "<br>JSON error: most_used_emojis in a wrong form";
-                    }
-                }
+            let jsonToCheck = JSON.parse(document.getElementById("json-import").value);
+            json_is_correct = true;
 
-                if (json_is_correct) {
-                    //Checked the JSON and it's correct
-                    saveSettings(false, jsonToCheck["settings"]);
+            if (jsonToCheck["settings"] === undefined) {
+                error = "true";
+                messageToAdd += "<br>JSON error: settings not defined";
+            }
 
-                    //mostUsedEmojis = jsonToCheck["most_used_emojis"];
-                    for (let i = 0; i < jsonToCheck["most_used_emojis"].length; i++) {
-                        addToMostUsed(jsonToCheck["most_used_emojis"][i].emoji, jsonToCheck["most_used_emojis"][i].tooltip, jsonToCheck["most_used_emojis"][i].occurrences)
-                    }
-
-                    hideImportSettings();
-
-                    showMessageTop(some_translated_strings["data-imported"], false); //correctly imported
-                    loadSettings(true, false);
-                    setPopUpUI();
-                } else {
+            for (let i = 0; i < jsonToCheck["most_used_emojis"].length; i++) {
+                if (jsonToCheck["most_used_emojis"][i].emoji === undefined || jsonToCheck["most_used_emojis"][i].occurrences === undefined || jsonToCheck["most_used_emojis"][i].tooltip === undefined) {
                     error = true;
-                    messageToAdd += "";
+                    messageToAdd += "<br>JSON error: most_used_emojis in a wrong form";
                 }
-            } catch (e) {
+            }
+
+            if (json_is_correct) {
+
+                //Checked the JSON and it's correct
+                saveSettings(false, jsonToCheck["settings"]);
+
+                //mostUsedEmojis = jsonToCheck["most_used_emojis"];
+                for (let i = 0; i < jsonToCheck["most_used_emojis"].length; i++) {
+                    addToMostUsed(jsonToCheck["most_used_emojis"][i].emoji, jsonToCheck["most_used_emojis"][i].tooltip, jsonToCheck["most_used_emojis"][i].occurrences)
+                }
+
+                hideImportSettings();
+
+                showMessageTop(some_translated_strings["data-imported"], false); //correctly imported
+                loadSettings(true, false);
+                setPopUpUI();
+            } else {
                 error = true;
-                messageToAdd += "<br><br>" + e.toString();
+                messageToAdd += "";
             }
-            if (error) {
-                showMessageTop(some_translated_strings["error-importing"] + messageToAdd, false); //error occurred
-            }
+        } catch (e) {
+            error = true;
+            messageToAdd += "<br><br>" + e.toString();
         }
+        if (error) {
+            console.error("Error importing settings: ", messageToAdd);
+            showMessageTop(some_translated_strings["error-importing"] + messageToAdd, false); //error occurred
+        }
+        //}
     };
     button_import.className = "message-button";
     button_import.textContent = some_translated_strings["button-importing-import-settings"];

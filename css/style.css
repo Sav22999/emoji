@@ -265,6 +265,10 @@ div#top-message, div#import-message, div#export-message {
     font-family: open-sans, sans-serif;
 }
 
+div#top-message {
+    padding-bottom: 50px;
+}
+
 #top-message ul {
     list-style: none;
     margin: 0px;
@@ -470,6 +474,16 @@ div#review-message-buttons, div#top-message-buttons, div.message-buttons-contain
     text-align: right;
     margin: 0px;
     margin-top: 10px;
+}
+
+div.message-buttons-container {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    left: 5px;
+    padding: 0px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 #top-section {
