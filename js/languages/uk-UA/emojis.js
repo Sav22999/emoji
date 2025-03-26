@@ -131,13 +131,13 @@ emojis_language[lang][2] = {
     ],
     '😍': [
         'Посмішка з очима серця',
-        'love',
+        'любов',
         ':smiling_heart-eyes:',
         ':smiling_heart_eyes:',
         ':*.*:',
-        'Heart Eyes',
-        'Heart Face',
-        'Smiling Face with Heart-Shaped Eyes'
+        'Очі серця',
+        'Серце обличчя',
+        'Посмішка з обличчя з гострим очима'
     ],
     '🤩': [
         'Стар-Струк',
@@ -151,24 +151,24 @@ emojis_language[lang][2] = {
     ],
     '😘': [
         'Обличчя пронесіть поцілунок',
-        'love',
+        'любов',
         ':kissing_face:',
         '::*:',
         '::-*:',
-        'Blow A Kiss',
-        'Blowing Kiss',
-        'Kissing',
-        'Face Throwing a Kiss'
+        'Поцілунок Клоу A',
+        'Художній поцілунок',
+        'Поцілунок',
+        'Обличчя кидає поцілунок'
     ],
     '😗': [
         'Обличчя поцілунків',
-        'kiss',
+        'поцілунок',
         ':kissing_face:',
         '::*:',
         '::-*:',
-        'Duck Face',
+        'Обличчя качки',
         'Kissy Face',
-        'Whistling'
+        'Свист'
     ],
     '☺️': [
         'Обличчя посміхання',
@@ -282,14 +282,14 @@ emojis_language[lang][2] = {
     ],
     '🤐': [
         'Поштовий індекс',
-        'silent',
-        'silence',
+        'тихий',
+        'тиша',
         ':zip_face:',
-        'Zipper-Mouth Face',
-        'Lips Sealed',
-        'Sealed Lips',
-        'Zip It',
-        'Face With a Zipper Mouth'
+        'Ефект зіппер-Мута',
+        'На розверху',
+        'Запечатані губи',
+        'Поштовий індекс',
+        'Обличчя з зіппер-ротом'
     ],
     '🤨': [
         'Обличчя з червоним списом',
@@ -398,18 +398,18 @@ emojis_language[lang][2] = {
     ],
     '🥱': [
         'Зява',
-        'tired',
+        'втомлений',
         ':yawning_face:'
     ],
     '😷': [
         'Обличчя з медичною маскою',
-        'sick',
-        'doc',
+        'хворий',
+        'документація',
         ':face_with_medical_mask:',
-        'Coronavirus',
-        'COVID-19',
-        'Mask Face',
-        'Surgical Mask',
+        'Коронавірус',
+        'КОВІД-19',
+        'Обличчя маски',
+        'Маска хірургії',
         'ill'
     ],
     '🤒': [
@@ -422,44 +422,44 @@ emojis_language[lang][2] = {
     ],
     '🤕': [
         'Обличчя з Head-Bandage',
-        'hospital',
-        'sick',
+        'шпиталь',
+        'хворий',
         ':face_with_head-bandage:',
         ':face_with_head_bandage:',
-        'Bandaged Head',
-        'Clumsy',
-        'Injured',
+        'Руйнівник',
+        'Зневіра',
+        'Травмовано',
         'ill'
     ],
     '🤢': [
         'Нісенітниця',
-        'sick',
+        'хворий',
         ':nauseated_face:',
-        'Disgust',
-        'Green Face',
-        'Vomit',
+        'Відраза',
+        'Зелена обличчя',
+        'Воміт',
         ':green:',
         'ill'
     ],
     '🤮': [
         'Фокус на лиці',
-        'sick',
+        'хворий',
         ':face_vomiting:',
-        'Spew',
+        'Спів',
         'Bleah',
         'Bleurgh',
-        'Yuk',
-        'Yuck',
-        'Ew',
-        'Spew',
-        'Throwing Up',
-        'Vomit',
-        'Face with Open Mouth Vomiting',
+        'Юк',
+        'Юки',
+        'Ев',
+        'Спів',
+        'Покидання вгору',
+        'Воміт',
+        'Обличчя з відкритим ротом блювотами',
         'ill'
     ],
     '🤧': [
         'Чхання',
-        'sick',
+        'хворий',
         ':sneezing_face:',
         'Gesundheit',
         'ill'
@@ -492,10 +492,10 @@ emojis_language[lang][2] = {
     ],
     '🤯': [
         'Вибухова голова',
-        'boom',
+        'бум',
         ':exploding_head:',
-        'Mind Blown',
-        'Shocked Face with Exploding Head'
+        'Розумний Клоун',
+        'Закріплена обличчя з вибухом голови'
     ],
     '🤠': [
         'Ковбойський капелюх',
@@ -603,6 +603,13 @@ emojis_language[lang][2] = {
         ':D::',
         'Поява'
     ],
+    '😧': [
+        'Anguished Face',
+        ':anguished_face:',
+        ':anguished:',
+        ':D::',
+        'Pained Face'
+    ],
     '😨': [
         'Катарта',
         ':scared:',
@@ -699,10 +706,10 @@ emojis_language[lang][2] = {
         'Привид на лице',
         'fuck',
         ':pouting_face:',
-        'Angry Face',
-        'Grumpy Face',
-        'Mad Face',
-        'Red Face',
+        'Сердитий обличчя',
+        'Обличчя Ґрумпі',
+        'Божевільне обличчя',
+        'Червона поверхня',
         ':red:'
     ],
     '😠': [
@@ -716,12 +723,12 @@ emojis_language[lang][2] = {
         'fuck',
         ':swearing:',
         '@#$%&!',
-        'Face with Symbols on Mouth',
-        'Cursing',
-        'Cussing',
+        'Обличчя з символами роту',
+        'Лайка',
+        'Кюзінг',
         'Grawlix',
-        'Face With Symbols Over Mouth',
-        'Serious Face with Symbols Covering Mouth',
+        'Обличчя з символами над ротом',
+        'Серйозні обличчя з символами роту',
         ':red:'
     ],
     '🥲': [
@@ -739,12 +746,12 @@ emojis_language[lang][2] = {
         'Dizzy Face'
     ],
     '😶‍🌫️': [
-        'Face in Clouds',
-        'smoke',
+        'Обличчя в хмарах',
+        'дим',
         ':face_in_clouds:',
         'Brain Fog',
-        'Forgetful',
-        'Haze'
+        'Кувала',
+        'Імла'
     ],
     '🥸': [
         'Обличчя замасковані',
@@ -783,7 +790,18 @@ emojis_language[lang][2] = {
         'Обличчя, що не стримує сльози',
         ':face_holding_back_tears:'
     ],
-    //"🫨": ["Shaking Face", ":shaking_face:"],
+    '🫨': [
+        'Shaking Face',
+        ':shaking_face:'
+    ],
+    '🙂‍↔️': [
+        'Head Shaking Horizontally',
+        ':head_shaking_horizontally:'
+    ],
+    '🙂‍↕️': [
+        'Head Shaking Vertically',
+        ':head_shaking_vertically:'
+    ],
     '😈': [
         'Любовна лице з рогами',
         ':smiling_face_with_horns:',
@@ -900,12 +918,12 @@ emojis_language[lang][3] = {
         'Дорослий',
         ':person:'
     ],
-    '🧑{{skin_tone}}': [
-        'Персона: Борода',
+    '🧔{{skin_tone}}': [
+        'Person: Beard',
         ':person_beard:',
-        'Борода',
-        'Бородата людина',
-        'Бородата людина',
+        'Beard',
+        'Bearded Person',
+        'Bearded Person',
         ':person:'
     ],
     '🧑{{skin_tone}}‍🦰': [
@@ -1069,18 +1087,18 @@ emojis_language[lang][3] = {
         'Амур',
         'Путто'
     ],
-    '👨{{skin_tone}}‍🎄': [
-        'Санта-Клаус',
+    '🎅{{skin_tone}}': [
+        'Santa Claus',
         ':santa_claus:',
-        'Святий Миколай',
+        'Saint Nicholas',
         'Sinterklaas',
-        'Пан Клаус',
+        'Father Christmas',
         ':man:'
     ],
-    '👩{{skin_tone}}‍🎄': [
-        'Місіс Клаус',
+    '🤶{{skin_tone}}': [
+        'Mrs Claus',
         ':mrs_claus:',
-        'Пані Клаус',
+        'Mother Christmas',
         ':woman:'
     ],
     '🧑{{skin_tone}}‍🎄': [
@@ -1250,11 +1268,11 @@ emojis_language[lang][3] = {
         'Вагітність',
         ':person:'
     ],
-    '🤱{{skin_tone}}‍': [
-        'Годування груддю',
+    '🤱{{skin_tone}}': [
+        'Breast-Feeding',
         ':breast-feeding:',
         ':breast_feeding:',
-        'Годування груддю'
+        'Breastfeeding'
     ],
     '🦸{{skin_tone}}‍♂️': [
         'Чоловік Супергерой',
@@ -1747,38 +1765,38 @@ emojis_language[lang][3] = {
         ':farmer:',
         ':person:'
     ],
-    '👨{{skin_tone}}‍‍⚖️': [
-        'Суддя',
+    '👨{{skin_tone}}‍⚖️': [
+        'Man Judge',
         ':man_judge:',
         ':judge:',
         ':man:'
     ],
-    '👩{{skin_tone}}‍‍⚖️': [
-        'Жіночий суддя',
+    '👩‍{{skin_tone}}⚖️': [
+        'Woman Judge',
         ':woman_judge:',
         ':judge:',
         ':woman:'
     ],
-    '🧑{{skin_tone}}‍‍⚖️': [
-        'Персон Джадж',
+    '🧑{{skin_tone}}‍⚖️': [
+        'Person Judge',
         ':person_judge:',
         ':judge:',
         ':person:'
     ],
-    '👨{{skin_tone}}‍‍🏫': [
-        'Учителька',
+    '👨{{skin_tone}}‍🏫': [
+        'Man Teacher',
         ':man_teacher:',
         ':teacher:',
         ':man:'
     ],
-    '👩{{skin_tone}}‍‍🏫': [
-        'Учителька',
+    '👩{{skin_tone}}‍🏫': [
+        'Woman Teacher',
         ':woman_teacher:',
         ':teacher:',
         ':woman:'
     ],
-    '🧑‍{{skin_tone}}‍‍🏫': [
-        'Персон Тіхер',
+    '🧑{{skin_tone}}‍🏫': [
+        'Person Teacher',
         ':person_teacher:',
         ':teacher:',
         ':person:'
@@ -1817,12 +1835,12 @@ emojis_language[lang][3] = {
         'Жіноча сестра',
         ':woman:'
     ],
-    '🧑‍{{skin_tone}}‍⚕️': [
-        'Працівник',
+    '🧑{{skin_tone}}‍⚕️': [
+        'Person Health Worker',
         ':person_health_worker:',
         ':health_worker:',
-        'Персон Доктор',
-        'Персон Нерс',
+        'Person Doctor',
+        'Person Nurse',
         ':person:'
     ],
     '🤷{{skin_tone}}‍♂️': [
@@ -1867,14 +1885,14 @@ emojis_language[lang][3] = {
         ':facepalming:',
         ':person:'
     ],
-    '🙇{{skin_tone}}‍‍♂️': [
-        'Мен Баукс',
+    '🙇{{skin_tone}}‍♂️': [
+        'Man Bowing',
         ':man_bowing:',
         ':bowing:',
         ':man:'
     ],
-    '🙇{{skin_tone}}‍‍♀️': [
-        'Жінка-пляма',
+    '🙇{{skin_tone}}‍♀️': [
+        'Woman Bowing',
         ':woman_bowing:',
         ':bowing:',
         ':woman:'
@@ -1891,8 +1909,8 @@ emojis_language[lang][3] = {
         ':deaf:',
         ':man:'
     ],
-    '🧏{{skin_tone}}‍‍♀️': [
-        'Жінка-глухий',
+    '🧏{{skin_tone}}‍♀️': [
+        'Deaf Woman',
         ':deaf_woman:',
         ':deaf:',
         ':woman:'
@@ -1903,10 +1921,10 @@ emojis_language[lang][3] = {
         ':deaf:',
         ':person:'
     ],
-    '🙋{{skin_tone}}‍‍♂️': [
-        'Чоловік виховання рук',
+    '🙋{{skin_tone}}‍♂️': [
+        'Man Raising Hand',
         ':man_raising_hand:',
-        'Щасливий чоловік похитуючи одну руку',
+        'Happy Man Raising One Hand',
         ':raising_hand:',
         ':man:'
     ],
@@ -1987,8 +2005,8 @@ emojis_language[lang][3] = {
         ':pouting:',
         ':man:'
     ],
-    '🙎{{skin_tone}}‍‍♀️': [
-        'Жінка велірство',
+    '🙎{{skin_tone}}‍♀️': [
+        'Woman Pouting',
         ':woman_pouting:',
         ':pouting:',
         ':woman:'
@@ -2017,14 +2035,14 @@ emojis_language[lang][3] = {
         ':frowining:',
         ':person:'
     ],
-    '🧟‍‍♂️': [
-        'Чоловік Зомбі',
+    '🧟‍♂️': [
+        'Man Zombie',
         ':man_zombie:',
         ':zombie:',
         ':man:'
     ],
-    '🧟‍‍♀️': [
-        'Жінка-зомбі',
+    '🧟‍♀️': [
+        'Woman Zombie',
         ':woman_zombie:',
         ':zombie:',
         ':woman:'
@@ -2050,6 +2068,24 @@ emojis_language[lang][3] = {
     '🚶{{skin_tone}}': [
         'Персон йде',
         ':person_walking:',
+        ':walking:',
+        ':person:'
+    ],
+    '🚶{{skin_tone}}‍♂️‍➡️': [
+        'Man Walking Facing Right',
+        ':man_walking_facing_right:',
+        ':walking:',
+        ':man:'
+    ],
+    '🚶{{skin_tone}}‍♀️‍➡️': [
+        'Woman Walking Facing Right',
+        ':woman_walking_facing_right:',
+        ':walking:',
+        ':woman'
+    ],
+    '🚶{{skin_tone}}‍➡️': [
+        'Person Walking Facing Right',
+        ':person_walking_facing_right:',
         ':walking:',
         ':person:'
     ],
@@ -2089,6 +2125,24 @@ emojis_language[lang][3] = {
         ':kneeling:',
         ':person:'
     ],
+    '🧎{{skin_tone}}‍♂️‍➡️': [
+        'Man Kneeling Facing Right',
+        ':man_kneeling_facing_right:',
+        ':kneeling:',
+        ':man:'
+    ],
+    '🧎{{skin_tone}}‍♀️‍➡️': [
+        'Woman Kneeling Facing Right',
+        ':woman_kneeling_facing_right:',
+        ':kneeling:',
+        ':woman:'
+    ],
+    '🧎{{skin_tone}}‍➡️': [
+        'Person Kneeling Facing Right',
+        ':person_kneeling_facing_right:',
+        ':kneeling:',
+        ':person:'
+    ],
     '👨{{skin_tone}}‍🦯': [
         'Людина з білою палицею',
         ':man_with_white_cane:',
@@ -2104,6 +2158,24 @@ emojis_language[lang][3] = {
     '🧑{{skin_tone}}‍🦯': [
         'Особа з Білим Петром',
         ':person_with_white_cane:',
+        ':white_cane:',
+        ':person:'
+    ],
+    '👨{{skin_tone}}‍🦯‍➡️': [
+        'Man with White Cane Facing Right',
+        ':man_with_white_cane_facing_right:',
+        ':white_cane:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🦯‍➡️': [
+        'Woman with White Cane Facing Right',
+        ':woman_with_white_cane_facing_right:',
+        ':white_cane:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🦯‍➡️': [
+        'Person with White Cane Facing Right',
+        ':person_with_white_cane_facing_right:',
         ':white_cane:',
         ':person:'
     ],
@@ -2125,6 +2197,24 @@ emojis_language[lang][3] = {
         ':motorized_wheelchair:',
         ':person:'
     ],
+    '👨{{skin_tone}}‍🦼‍➡️': [
+        'Man in Motorized Wheelchair Facing Right',
+        ':man_in_motorized_wheelchair_facing_right:',
+        ':motorized_wheel:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🦼‍➡️': [
+        'Woman in Motorized Wheelchair Facing Right',
+        ':woman_in_motorized_wheelchair_facing_right:',
+        ':motorized_wheel:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🦼‍➡️': [
+        'Person in Motorized Wheelchair Facing Right',
+        ':person_in_motorized_wheelchair_facing_right:',
+        ':motorized_wheel:',
+        ':person:'
+    ],
     '👨{{skin_tone}}‍🦽': [
         'Людина в ручному візку',
         ':man_manual_wheelchair:',
@@ -2140,6 +2230,24 @@ emojis_language[lang][3] = {
     '🧑{{skin_tone}}‍🦽': [
         'Людина за допомогою ручного коліщатка',
         ':person_manual_wheelchair:',
+        ':manual_wheelchair:',
+        ':person:'
+    ],
+    '👨{{skin_tone}}‍🦽‍➡️': [
+        'Man in Manual Wheelchair Facing Right',
+        ':man_manual_wheelchair_facing_right:',
+        ':manual_wheelchair:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🦽‍➡️': [
+        'Woman in Manual Wheelchair Facing Right',
+        ':woman_manual_wheelchair_facing_right:',
+        ':manual_wheelchair:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🦽‍➡️': [
+        'Person in Manual Wheelchair Facing Right',
+        ':person_manual_wheelchair_facing_right:',
         ':manual_wheelchair:',
         ':person:'
     ],
@@ -2226,6 +2334,11 @@ emojis_language[lang][3] = {
         'Гендер пари неконформації',
         ':person:'
     ],
+    '🧑‍🧑‍🧒': [
+        'Family: Adult, Adult, Child',
+        ':family_adult_adult_child:',
+        'Family: Person, Person, Child'
+    ],
     '👨‍👩‍👦': [
         'Родина в Матері, отця і сина',
         ':family_with_mother_father_and_son:',
@@ -2235,6 +2348,35 @@ emojis_language[lang][3] = {
         'Родина з мамою, батьком і дочкою',
         ':family_with_mother_father_and_daughter:',
         'Сім\'я: Людина, жінка, дівчина'
+    ],
+    '👨‍👨‍👦': [
+        'Сім\'я з двома отцями і сином',
+        ':family_with_two_fathers_and_son:',
+        'Людина, чоловіче, хлопчик',
+        ':man:'
+    ],
+    '👨‍👨‍👧': [
+        'Родина з двома отцями і дочкою',
+        ':family_with_two_fathers_and_daughter:',
+        'Сім\'я: Людина, людина, дівчина',
+        ':man:'
+    ],
+    '👩‍👩‍👦': [
+        'Родина з двома матерями і сином',
+        ':family_with_two_mothers_and_son:',
+        'Сім\'я: Жінка, жінка',
+        ':woman:'
+    ],
+    '👩‍👩‍👧': [
+        'Родина з двома матерями та дочкою',
+        ':family_with_two_mothers_and_daughter:',
+        'Сім\'я: Жінка, Жінка, дівчина',
+        ':woman:'
+    ],
+    '🧑‍🧑‍🧒‍🧒': [
+        'Family: Adult, Adult, Child, Child',
+        ':family_adult_adult_child_child:',
+        'Family: Person, Person, Child, Child'
     ],
     '👨‍👩‍👧‍👦': [
         'Сімейство в матері, отче, син і дочка',
@@ -2250,18 +2392,6 @@ emojis_language[lang][3] = {
         'Родина в Мати й батька та дві дочки',
         ':family_with_mother_father_and_two_daughters:',
         'Сім\'я: Людина, Жінка, дівчина, дівчина'
-    ],
-    '👨‍👨‍👦': [
-        'Сім\'я з двома отцями і сином',
-        ':family_with_two_fathers_and_son:',
-        'Людина, чоловіче, хлопчик',
-        ':man:'
-    ],
-    '👨‍👨‍👧': [
-        'Родина з двома отцями і дочкою',
-        ':family_with_two_fathers_and_daughter:',
-        'Сім\'я: Людина, людина, дівчина',
-        ':man:'
     ],
     '👨‍👨‍👧‍👦': [
         'Сімейство з двома Отцями, сином і дочкою',
@@ -2281,18 +2411,6 @@ emojis_language[lang][3] = {
         'Сім\'я: Людина, дівчина, дівчина',
         ':man:'
     ],
-    '👩‍👩‍👦': [
-        'Родина з двома матерями і сином',
-        ':family_with_two_mothers_and_son:',
-        'Сім\'я: Жінка, жінка',
-        ':woman:'
-    ],
-    '👩‍👩‍👧': [
-        'Родина з двома матерями та дочкою',
-        ':family_with_two_mothers_and_daughter:',
-        'Сім\'я: Жінка, Жінка, дівчина',
-        ':woman:'
-    ],
     '👩‍👩‍👧‍👦': [
         'Сімейство з двома матерцями, сином і дочкою',
         ':family_with_two_mothers_son_and_daughter:',
@@ -2311,6 +2429,11 @@ emojis_language[lang][3] = {
         'Сім\'я: Жінка, жінка, дівчина, дівчина',
         ':woman:'
     ],
+    '🧑‍🧒': [
+        'Family: Adult, Child',
+        ':family_adult_child:',
+        'Family: Person, Child'
+    ],
     '👨‍👦': [
         'Родина з батьком і сином',
         ':family_with_father_and_son:',
@@ -2322,6 +2445,23 @@ emojis_language[lang][3] = {
         ':family_with_father_and_daughter:',
         'Сім\'я: Людина, дівчина',
         ':man:'
+    ],
+    '👩‍👧': [
+        'Родина з матір\'ю та дочкою',
+        ':family_with_mother_and_daughter:',
+        'Сім\'я: Жінка, дівчина',
+        ':woman:'
+    ],
+    '👨‍👧‍👧': [
+        'Сім\'я з батьком і двома дочками',
+        ':family_with_father_and_two_daughters:',
+        'Сім\'я: Людина, дівчина, дівчина',
+        ':man:'
+    ],
+    '🧑‍🧒‍🧒': [
+        'Family: Adult, Child, Child',
+        ':family_adult_child_child:',
+        'Family: Person, Child, Child'
     ],
     '👨‍👦‍👦': [
         'Сім\'я з батьком і двома синами',
@@ -2335,22 +2475,10 @@ emojis_language[lang][3] = {
         'Сім\'я: людина, дівчина, хлопця',
         ':man:'
     ],
-    '👨‍👧‍👧': [
-        'Сім\'я з батьком і двома дочками',
-        ':family_with_father_and_two_daughters:',
-        'Сім\'я: Людина, дівчина, дівчина',
-        ':man:'
-    ],
     '👩‍👦': [
         'Родина з матір\'ю і сином',
         ':family_with_mother_and_son:',
         'Сім\'я: Жінка, хлопчик',
-        ':woman:'
-    ],
-    '👩‍👧': [
-        'Родина з матір\'ю та дочкою',
-        ':family_with_mother_and_daughter:',
-        'Сім\'я: Жінка, дівчина',
         ':woman:'
     ],
     '👩‍👦‍👦': [
@@ -2459,21 +2587,24 @@ emojis_language[lang][3] = {
     ],
     '🛌{{skin_tone}}': [
         'Спляче житло',
-        'tired',
+        'втомлений',
         ':sleeping_accommodation:',
-        'Person in Bed',
-        'Person Sleeping'
+        'Особа в ліжку',
+        'Сплячий сон'
     ],
     '🛀{{skin_tone}}': [
-        'Person Taking Bath',
-        'Bathing',
+        'Купальні для персона',
+        'Купання',
         ':bath:',
         ':person_taking_bath:',
-        'Hot Bath',
-        'Person Taking a Bath',
-        'Bath',
-        'Shower',
-        'Soap'
+        'Гаряча ванна',
+        'Персон бере ванну',
+        'Лазня',
+        'Душ',
+        'Мило',
+        'Tidy',
+        'Clean',
+        'Scrub'
     ],
     '🧌': [
         'Троль',
@@ -2917,7 +3048,12 @@ emojis_language[lang][4] = {
         ':hatching_chick:',
         'Маленька курка',
         'Чік Гетчінг',
+        'Egg',
         ':yellow:'
+    ],
+    '🥚': [
+        'Egg',
+        ':egg:'
     ],
     '🐤': [
         'Бебі Чик',
@@ -3217,6 +3353,44 @@ emojis_language[lang][4] = {
         ':nest_with_eggs:',
         'Пташки',
         'Дім'
+    ],
+    '🫏': [
+        'Donkey',
+        ':donkey:',
+        ':grey:',
+        ':gray:'
+    ],
+    '🫎': [
+        'Moose',
+        ':moose:',
+        'Moose Face',
+        ':brown:'
+    ],
+    '🪿': [
+        'Goose',
+        ':goose:',
+        ':white:'
+    ],
+    '🪼': [
+        'Jellyfish',
+        ':jellyfish:',
+        ':blue:'
+    ],
+    '🐦‍⬛': [
+        'Black bird',
+        ':black_bird:',
+        ':raven:',
+        'Raven',
+        'Crow',
+        'Rook',
+        ':black:'
+    ],
+    '🐦‍🔥': [
+        'Phoenix',
+        'Fire',
+        'Reborn',
+        ':phoenix:',
+        ':red:'
     ]
 };
 /*symbols*/
@@ -3294,15 +3468,15 @@ emojis_language[lang][5] = {
         ':red:'
     ],
     '❤️‍🩹': [
-        'Mending Heart',
+        'Середнє серце',
         ':mending_heart:',
-        'Bandaged Heart',
-        'Healing Heart',
-        'Unbroken Heart',
+        'Порушене серце',
+        'Лікування серця',
+        'Неполамане серце',
         ':red:'
     ],
     '❤️‍🔥': [
-        'Heart on Fire',
+        'Серце у вогні',
         ':heart_on_fire:',
         ':red:'
     ],
@@ -3367,9 +3541,27 @@ emojis_language[lang][5] = {
         'Я тебе кохаю',
         ':brown:'
     ],
-    //"🩷": ["Pink Heart", ":pink_heart:", "I Love You", ":pink:"],
-    //"🩵": ["Light Blue Heart", ":lightblue_heart:", "I Love You", ":blue:"],
-    //"🩶": ["Grey Heart","Gray Heart", ":grey_heart:",":gray_heart:", "I Love You", ":gray:", ":grey:"],
+    '🩷': [
+        'Pink Heart',
+        ':pink_heart:',
+        'I Love You',
+        ':pink:'
+    ],
+    '🩵': [
+        'Light Blue Heart',
+        ':lightblue_heart:',
+        'I Love You',
+        ':blue:'
+    ],
+    '🩶': [
+        'Grey Heart',
+        'Gray Heart',
+        ':grey_heart:',
+        ':gray_heart:',
+        'I Love You',
+        ':gray:',
+        ':grey:'
+    ],
     '💯': [
         'Очки Сто',
         ':hundred_points:',
@@ -3825,7 +4017,12 @@ emojis_language[lang][5] = {
         'Шестизарядна зірка з середнім Дотом',
         ':purple:'
     ],
-    //"🪯": ["Khanda", ":khanda:", "Sikhism", ":purple:"],
+    '🪯': [
+        'Khanda',
+        ':khanda:',
+        'Sikhism',
+        ':purple:'
+    ],
     '♈': [
         'Овен',
         ':aries:',
@@ -4686,7 +4883,16 @@ emojis_language[lang][5] = {
         'Контроль кордону',
         ':blue:'
     ],
-    //"🛜": ["Wireless", ":wireless:", ":wifi:", ":wi_fi:", "Wifi", "wi-fi", "wireless connection", ":blue:"],
+    '🛜': [
+        'Wireless',
+        ':wireless:',
+        ':wifi:',
+        ':wi_fi:',
+        'Wifi',
+        'wi-fi',
+        'wireless connection',
+        ':blue:'
+    ],
     '🚰': [
         'Символ води з можливістю',
         ':potable_water_symbol:',
@@ -5371,11 +5577,24 @@ emojis_language[lang][6] = {
         ':broccoli:',
         ':green:'
     ],
+    '🍋‍🟩': [
+        'Lime',
+        ':lime:',
+        ':green:'
+    ],
     '🍄': [
         'Гриб',
         ':mushroom:',
         'Гриб',
         'Toadstool'
+    ],
+    '🍄‍🟫': [
+        'Brown Mushroom',
+        ':brown_mushroom:',
+        'Mushroom',
+        'Shroom',
+        'Toadstool',
+        ':brown:'
     ],
     '🥜': [
         'Peanuts',
@@ -6005,13 +6224,18 @@ emojis_language[lang][7] = {
         'Прапор трансгендеру',
         ':transgender_flag:',
         'Синій, рожевий та білий прапор',
-        'Транс-прапор'
+        'Транс-прапор',
+        'Blue',
+        'Pink'
     ],
     '🏴‍☠️': [
         'Піратський прапор',
         ':pirate_flag:',
         'Веселий Роджер',
-        ':black:'
+        ':black:',
+        'Corsair',
+        'Privateer',
+        'Buccaneer'
     ],
     '🇺🇳': [
         'Прапор Організації Об\'єднаних Націй',
@@ -6435,26 +6659,26 @@ emojis_language[lang][7] = {
         'Юніон Джек',
         'Великобританія'
     ],
-    '🏴󠁧󠁢󠁥󠁮󠁧󠁿󠁧󠁢󠁥󠁮󠁧󠁿': [
-        'Прапор Англії',
+    '🏴󠁧󠁢󠁥󠁮󠁧󠁿': [
+        'Flag of England',
         ':england:',
-        'Сент-Жорж Кросс',
-        'Англійський прапор'
+        'St Georges Cross',
+        'English Flag'
     ],
-    '🏴󠁧󠁢󠁷󠁬󠁳󠁿󠁧󠁢󠁷󠁬󠁳󠁿': [
-        'Прапор Уельсу',
+    '🏴󠁧󠁢󠁷󠁬󠁳󠁿': [
+        'Flag of Wales',
         ':wales:',
-        'Прапор Валлійсу',
-        'Червоний Дракон',
+        'Welsh Flag',
+        'Red Dragon',
         'Baner Cymru',
         'Y Ddraig Goch'
     ],
-    '🏴󠁧󠁢󠁳󠁣󠁴󠁿󠁧󠁢󠁳󠁣󠁴󠁿': [
-        'Прапор Шотландії',
+    '🏴󠁧󠁢󠁳󠁣󠁴󠁿': [
+        'Flag of Scotland',
         ':scotland:',
-        'Шотландський прапор',
-        'Сент-Ендрюс-Кросс',
-        'Сальтір'
+        'Scottish Flag',
+        'St Andrews Cross',
+        'Saltire'
     ],
     '🇬🇩': [
         'Прапор Гренади',
@@ -7365,7 +7589,7 @@ emojis_language[lang][8] = {
         'Скайер',
         ':skier:'
     ],
-    '🏂{{skin_tone}}‍': [
+    '🏂{{skin_tone}}': [
         'Snowboarder',
         ':snowboarder:'
     ],
@@ -7678,6 +7902,24 @@ emojis_language[lang][8] = {
     '🏃{{skin_tone}}': [
         'Персон Біг',
         ':person_running:',
+        ':running:',
+        ':person:'
+    ],
+    '🏃{{skin_tone}}‍♂️‍➡️': [
+        'Man Running Facing Right',
+        ':man_running_facing_right:',
+        ':running:',
+        ':man:'
+    ],
+    '🏃{{skin_tone}}‍♀️‍➡️': [
+        'Woman Running Facing Right',
+        'woman_running_facing_right:',
+        ':running:',
+        ':woman:'
+    ],
+    '🏃{{skin_tone}}‍➡️': [
+        'Person Running Facing Right',
+        ':person_running_facing_right:',
         ':running:',
         ':person:'
     ],
@@ -8592,7 +8834,8 @@ emojis_language[lang][10] = {
         ':mobile_phone:',
         'Смартфон',
         'iPhone',
-        'Мобільний телефон'
+        'Мобільний телефон',
+        'Device'
     ],
     '📲': [
         'Мобільний телефон з стрілою праворуч',
@@ -8611,7 +8854,8 @@ emojis_language[lang][10] = {
         ':phone:',
         'Handset',
         'Телефон',
-        ':black:'
+        ':black:',
+        'Device'
     ],
     '📟': [
         'Пейджер',
@@ -8641,25 +8885,31 @@ emojis_language[lang][10] = {
     '💻': [
         'Ноутбук',
         ':laptop:',
-        'Записник',
-        'Персональний комп\'ютер',
-        'ПК',
-        'Маккнига',
-        'Поверхня'
+        ':computer:',
+        'Notebook',
+        'Personal Computer',
+        'PC',
+        'MacBook',
+        'Surface',
+        'Device'
     ],
     '🖥️': [
         'Стільничний комп\'ютер',
         ':desktop_computer:',
+        ':computer:',
         'iMac',
-        'ПК'
+        'PC',
+        'Device'
     ],
     '🖨️': [
         'Принтер',
-        ':printer:'
+        ':printer:',
+        'Device'
     ],
     '⌨️': [
-        'Keyboard',
-        ':keyboard:'
+        'Computer Keyboard',
+        ':keyboard:',
+        ':computer_keyboard:'
     ],
     '🖱️': [
         'Комп\'ютерна Миша',
@@ -9293,7 +9543,12 @@ emojis_language[lang][11] = {
     ],
     '🩲': [
         'Брифи',
-        ':briefs:'
+        ':briefs:',
+        'Undies',
+        'Underwear',
+        'Underpants',
+        'Jocks',
+        'Panties'
     ],
     '🩳': [
         'Шорти',
@@ -9681,6 +9936,14 @@ emojis_language[lang][12] = {
         ':selfie:',
         'Камера телефону',
         'Селфі Рука'
+    ],
+    '🫸{{skin_tone}}': [
+        'Rightwards Pushing Hand',
+        ':rightwards_pushing_hand:'
+    ],
+    '🫷{{skin_tone}}': [
+        'Leftwards Pushing Hand',
+        ':leftwards_pushing_hand:'
     ]
 };
 /*other*/
@@ -10317,9 +10580,24 @@ emojis_language[lang][13] = {
         'Спокій',
         'Спокій'
     ],
-    //"🪻": ["Hyacinth", ":hyacinth:", "Purple flower", ":purple:"],
-    //"🫛": ["Pea Pod", ":pea_pod:", ":green:"],
-    //"🫚": ["Ginger root", ":ginger:", "Spice", "Flavour", ":brown:"],
+    '🪻': [
+        'Hyacinth',
+        ':hyacinth:',
+        'Purple flower',
+        ':purple:'
+    ],
+    '🫛': [
+        'Pea Pod',
+        ':pea_pod:',
+        ':green:'
+    ],
+    '🫚': [
+        'Ginger root',
+        ':ginger:',
+        'Spice',
+        'Flavour',
+        ':brown:'
+    ],
     '🔑': [
         'Ключ',
         ':key:',
@@ -10347,7 +10625,7 @@ emojis_language[lang][13] = {
     '🪓': [
         'Сокира',
         ':axe:',
-        'firefighter'
+        'пожежник'
     ],
     '🪚': [
         'Теслярна пилка',
@@ -10442,10 +10720,6 @@ emojis_language[lang][13] = {
         ':magnet:',
         ':red:'
     ],
-    '⛓️': [
-        'Ланцюжки',
-        ':chains:'
-    ],
     '💉': [
         'Syringe',
         ':syringe:',
@@ -10453,8 +10727,8 @@ emojis_language[lang][13] = {
         'Тест крові',
         'Голка',
         'Вакцина',
-        'blood',
-        'sick',
+        'кров',
+        'хворий',
         'ill'
     ],
     '🧬': [
@@ -10545,7 +10819,10 @@ emojis_language[lang][13] = {
     ],
     '🧼': [
         'Бар мила',
-        ':bar_of_soap:'
+        ':bar_of_soap:',
+        'Tidy',
+        'Clean',
+        'Scrub'
     ],
     '🧽': [
         'Губка',
@@ -10591,12 +10868,26 @@ emojis_language[lang][13] = {
         ':balance_scale:',
         'Луска справедливості'
     ],
+    '⛓️': [
+        'Ланцюжки',
+        ':chains:'
+    ],
     '🔗': [
         'Лінк',
         ':link:',
         'Ланцюг',
         'Гіперпосилання',
         'Зв\'язаний ланцюг',
+        ':gray:',
+        ':grey:'
+    ],
+    '⛓️‍💥': [
+        'Broken chain',
+        ':broken_chain:',
+        'Chain',
+        'Hyperlink',
+        'Linked Chain',
+        'Unlinked chain',
         ':gray:',
         ':grey:'
     ],
@@ -10695,7 +10986,8 @@ emojis_language[lang][13] = {
         'Примітка в £20',
         'Примітка Двадцять запитів',
         'Банкнот з фунтовим знаком',
-        ':purple:'
+        ':purple:',
+        'Money'
     ],
     '💶': [
         'Euro Banknote',
@@ -10703,7 +10995,8 @@ emojis_language[lang][13] = {
         ':euro_banknote:',
         'Примітка до €100',
         'Банкнот з табличкою євро',
-        ':blue:'
+        ':blue:',
+        'Money'
     ],
     '💵': [
         'Долар Банкнот',
@@ -10713,7 +11006,8 @@ emojis_language[lang][13] = {
         'Банкнот з Знаком долара',
         'Долар Білл',
         'Американський долар',
-        ':green:'
+        ':green:',
+        'Money'
     ],
     '💴': [
         'Банкнот Єн',
@@ -10722,7 +11016,8 @@ emojis_language[lang][13] = {
         '¥ 1000 Нотатка',
         'Примітка Єна',
         'Банкнот з підписом Єни',
-        ':yellow:'
+        ':yellow:',
+        'Money'
     ],
     '⛺': [
         'Таборський намет',
@@ -10811,7 +11106,7 @@ emojis_language[lang][13] = {
     '💣': [
         'Бомба',
         ':bomb:',
-        'boom'
+        'бум'
     ],
     '🔪': [
         'Кухонний ніж',
@@ -10945,13 +11240,24 @@ emojis_language[lang][13] = {
         'Годинник завершено',
         ':hourglass:',
         ':hourglass_done:',
-        'Пісковий годинник'
+        'Пісковий годинник',
+        'Time',
+        'Egg timer',
+        'Empty',
+        'Ended',
+        'Finished',
+        'Sand Clock'
     ],
     '⏳': [
         'Годинник не завершено',
         ':hourglass_flowing_sand:',
         ':hourglass_not_done:',
-        'Годинник із потоком піску'
+        'Годинник із потоком піску',
+        'Busy',
+        'Time',
+        'Egg timer',
+        'Flowing',
+        'Sand Clock'
     ],
     '🕐': [
         'Один OClock',
@@ -10959,14 +11265,16 @@ emojis_language[lang][13] = {
         ':one_oclock:',
         'Годинник обличчя один OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕜': [
         'Годинник - одна тридцята',
         ':clock130:',
         ':one_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕑': [
         'Два OClock',
@@ -10974,14 +11282,16 @@ emojis_language[lang][13] = {
         ':two_oclock:',
         'Годинник обличчя два OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕝': [
         'Годинник обличчя два тридцять',
         ':clock230:',
         ':two_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕒': [
         'Три околиці',
@@ -10989,14 +11299,16 @@ emojis_language[lang][13] = {
         ':three_oclock:',
         'Годинник обличчя три OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕞': [
         'Годинник три роки',
         ':clock330:',
         ':three_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕓': [
         'Чотири OClock',
@@ -11004,14 +11316,16 @@ emojis_language[lang][13] = {
         ':four_oclock:',
         'Годинник складається з чотирьох OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕟': [
         'Годинник чотири-тридцять',
         ':clock430:',
         ':four_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕔': [
         'П\'ять ударів',
@@ -11019,14 +11333,16 @@ emojis_language[lang][13] = {
         ':five_oclock:',
         'Годинник п\'ять разів',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕠': [
         'Годинник - п\'ять тридцять років',
         ':clock530:',
         ':five_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕕': [
         'Шість OClock',
@@ -11034,14 +11350,16 @@ emojis_language[lang][13] = {
         ':size_oclock:',
         'Годинник - шість разів',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕡': [
         'Годинник - шість - тридцять',
         ':clock630:',
         ':six_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕖': [
         'Сім Огодинників',
@@ -11049,14 +11367,16 @@ emojis_language[lang][13] = {
         ':seven_oclock:',
         'Годинник без вітрил',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕢': [
         'Годинник - Севен-Тридцять',
         ':clock730:',
         ':sever_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕗': [
         'Вісім годинник',
@@ -11064,14 +11384,16 @@ emojis_language[lang][13] = {
         ':eight_oclock:',
         'Годинник 8 разів',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕣': [
         'Годинник - вісімдесят три роки',
         ':clock830:',
         ':eight_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕘': [
         'Дев\'ять околиць',
@@ -11079,14 +11401,16 @@ emojis_language[lang][13] = {
         ':nine_clock:',
         'Годинник - Nine OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕤': [
         'Годинник дев\'ятидесяти років',
         ':clock930:',
         ':nine_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕙': [
         'Десять Очаси',
@@ -11094,14 +11418,16 @@ emojis_language[lang][13] = {
         ':ten_oclock:',
         'Годинник обличчя Ten OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕥': [
         'Годинник Тен-Тридті',
         ':clock1030:',
         ':ten_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕚': [
         'Eleven OClock',
@@ -11109,14 +11435,16 @@ emojis_language[lang][13] = {
         ':eleven_oclock:',
         'Годинник — одинадцять OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕦': [
         'Годинник - одинадцята тридцять',
         ':clock1130:',
         ':eleven_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕛': [
         'Дванадцять OClock',
@@ -11124,14 +11452,16 @@ emojis_language[lang][13] = {
         ':twelve_oclock:',
         'Годинник - дванадцять годинників',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕧': [
         'Годинник - дванадцять тридцять',
         ':clock1230:',
         ':twelve_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '♨️': [
         'Гот-Спрінгс',
@@ -11171,7 +11501,7 @@ emojis_language[lang][13] = {
         ':white:'
     ],
     '🗨️': [
-        'Left Speech Bubble',
+        'Лівий Булька Мови',
         ':left_speech_bubble:',
         ':speech_left:'
     ],
@@ -11181,7 +11511,7 @@ emojis_language[lang][13] = {
         'Капсула',
         'Планшет',
         'Ліки',
-        'Sick',
+        'Хворий',
         'ill',
         ':yellow:',
         ':red:'
@@ -11312,27 +11642,34 @@ emojis_language[lang][13] = {
         ':shopping_bags:'
     ],
     '🛒': [
-        'Shopping Cart',
+        'Кошик покупок',
         ':shopping_cart:',
-        'Shopping Trolley',
+        'Торгівля',
         ':shopping_trolley:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Market'
     ],
     '🎟️': [
         'Заявки для входу',
-        ':admission_tickets:'
+        ':admission_tickets:',
+        'Theater',
+        'Theatre',
+        'Party'
     ],
     '🛎️': [
         'Bellhop Bell',
         ':bellhop_bell:',
         ':yellow:',
-        ':gold:'
+        ':gold:',
+        'Hotel',
+        'Reception'
     ],
     '🧾': [
         'Чек',
         ':receipt:',
-        ':white:'
+        ':white:',
+        'Bill'
     ],
     '🧮': [
         'Abacus',
@@ -11347,7 +11684,9 @@ emojis_language[lang][13] = {
         ':broom:',
         'Щітка',
         'Змести',
-        ':yellow:'
+        ':yellow:',
+        'Tidy',
+        'Clean'
     ],
     '🎰': [
         'Слот-машина',
@@ -11360,11 +11699,20 @@ emojis_language[lang][13] = {
     '🦽': [
         'Ручний інвалідний візок',
         ':manual_wheelchair:',
-        ':wheelchair:'
+        ':wheelchair:',
+        'invalid',
+        'disability',
+        'accessibility',
+        'mobility'
     ],
     '🦼': [
         'Моторизований інвалідний візок',
-        ':motorized_wheelchair:'
+        ':motorized_wheelchair:',
+        ':wheelchair:',
+        'invalid',
+        'disability',
+        'accessibility',
+        'mobility'
     ],
     '🪔': [
         'Лампа Дія',
@@ -11389,7 +11737,8 @@ emojis_language[lang][13] = {
     ],
     '🪶': [
         'Перо',
-        ':feather:'
+        ':feather:',
+        'Animal'
     ],
     '🪤': [
         'Пастка миші',
@@ -11519,7 +11868,11 @@ emojis_language[lang][13] = {
         ':low_battery:',
         ':red:',
         'Енергія',
-        'Червоний'
+        'Червоний',
+        'Device',
+        'Smartphone',
+        'Computer',
+        'Console'
     ],
     '🩻': [
         'Рентген',
@@ -11540,7 +11893,10 @@ emojis_language[lang][13] = {
         ':identification_card:',
         'Тотожність',
         'Паспорт',
-        'ID'
+        'ID',
+        'Country',
+        'Security',
+        'Travel'
     ],
     '🧿': [
         'Nazar Amulet',
@@ -11552,6 +11908,43 @@ emojis_language[lang][13] = {
         'Тедді Ведмідь',
         ':teddy_bear:',
         'Іграшка',
+        ':brown:',
+        'Baby',
+        'Child',
+        'Children'
+    ],
+    '🪽': [
+        'Wing',
+        ':wing:',
+        'Fly',
+        ':white:'
+    ],
+    '🪭': [
+        'Folding Hand Fan',
+        ':folding_hand_fan:',
+        'Fan',
+        'Manual fan',
+        'Summer',
+        ':red:'
+    ],
+    '🪮': [
+        'Hair Pick',
+        ':hair_pick:',
+        'Black culture',
+        'Black pride',
+        ':black:'
+    ],
+    '🪈': [
+        'Flute',
+        ':flute:',
+        'Plastic flute',
+        'Metal plute',
+        'Bamboo flute',
+        'Musical instrument',
         ':brown:'
+    ],
+    '🪇': [
+        'Maracas',
+        ':maracas:'
     ]
 };

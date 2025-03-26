@@ -131,13 +131,13 @@ emojis_language[lang][2] = {
     ],
     '😍': [
         'Mletí obličeje se srdcem',
-        'love',
+        'láska',
         ':smiling_heart-eyes:',
         ':smiling_heart_eyes:',
         ':*.*:',
-        'Heart Eyes',
-        'Heart Face',
-        'Smiling Face with Heart-Shaped Eyes'
+        'Srdeční oči',
+        'Čtverce srdce',
+        'Mletí tváří se zaoblenými hranami'
     ],
     '🤩': [
         'Stolní pás',
@@ -151,24 +151,24 @@ emojis_language[lang][2] = {
     ],
     '😘': [
         'bubble raider',
-        'love',
+        'láska',
         ':kissing_face:',
         '::*:',
         '::-*:',
-        'Blow A Kiss',
-        'Blowing Kiss',
-        'Kissing',
-        'Face Throwing a Kiss'
+        'bubble raider',
+        'Šípky',
+        'Šíření',
+        'Šíření obličeje'
     ],
     '😗': [
         'Šíření obličeje',
-        'kiss',
+        'Polibek',
         ':kissing_face:',
         '::*:',
         '::-*:',
-        'Duck Face',
+        'Kachní plocha',
         'Kissy Face',
-        'Whistling'
+        'Pískování'
     ],
     '☺️': [
         'Prošívání tváře',
@@ -282,14 +282,14 @@ emojis_language[lang][2] = {
     ],
     '🤐': [
         'PSČ',
-        'silent',
-        'silence',
+        'ticho',
+        'ticho',
         ':zip_face:',
-        'Zipper-Mouth Face',
-        'Lips Sealed',
-        'Sealed Lips',
-        'Zip It',
-        'Face With a Zipper Mouth'
+        'Obličej Zippera',
+        'Lipce zapečetěné',
+        'Seed Lippy',
+        'Zip',
+        'Obličej se zipperem'
     ],
     '🤨': [
         'Obličej se zvednutou obličejem',
@@ -398,18 +398,18 @@ emojis_language[lang][2] = {
     ],
     '🥱': [
         'Vytváření tváře',
-        'tired',
+        'unavený',
         ':yawning_face:'
     ],
     '😷': [
         'Tváří v tvář lékařskému masku',
-        'sick',
+        'nemocný',
         'doc',
         ':face_with_medical_mask:',
-        'Coronavirus',
+        'koronavirus',
         'COVID-19',
-        'Mask Face',
-        'Surgical Mask',
+        'Maska obličej',
+        'Chirurgická maska',
         'ill'
     ],
     '🤒': [
@@ -422,44 +422,44 @@ emojis_language[lang][2] = {
     ],
     '🤕': [
         'Obličej s hlavou',
-        'hospital',
-        'sick',
+        'nemocnice',
+        'nemocný',
         ':face_with_head-bandage:',
         ':face_with_head_bandage:',
-        'Bandaged Head',
-        'Clumsy',
-        'Injured',
+        'Hlava pruhovaná',
+        'Česnek',
+        'Podrážděný',
         'ill'
     ],
     '🤢': [
         'Nauseated Obličej',
-        'sick',
+        'nemocný',
         ':nauseated_face:',
-        'Disgust',
-        'Green Face',
+        'Disrupce',
+        'Zelená tvář',
         'Vomit',
         ':green:',
         'ill'
     ],
     '🤮': [
         'Odraz obličeje',
-        'sick',
+        'nemocný',
         ':face_vomiting:',
-        'Spew',
+        'Oštěp',
         'Bleah',
         'Bleurgh',
-        'Yuk',
-        'Yuck',
+        'Vejce',
+        'Kokosové ořechy',
         'Ew',
-        'Spew',
-        'Throwing Up',
+        'Oštěp',
+        'Vrhání nahoru',
         'Vomit',
-        'Face with Open Mouth Vomiting',
+        'Obličej s otevřeným otvorem myši',
         'ill'
     ],
     '🤧': [
         'Plížení tváře',
-        'sick',
+        'nemocný',
         ':sneezing_face:',
         'Gesundheit',
         'ill'
@@ -495,7 +495,7 @@ emojis_language[lang][2] = {
         'boom',
         ':exploding_head:',
         'Mind Blown',
-        'Shocked Face with Exploding Head'
+        'Střílení obličeje s explozivní hlavou'
     ],
     '🤠': [
         'Cowboy čepice',
@@ -603,6 +603,13 @@ emojis_language[lang][2] = {
         ':D::',
         'Vytápění'
     ],
+    '😧': [
+        'Anguished Face',
+        ':anguished_face:',
+        ':anguished:',
+        ':D::',
+        'Pained Face'
+    ],
     '😨': [
         'Oblíbený',
         ':scared:',
@@ -699,10 +706,10 @@ emojis_language[lang][2] = {
         'Drůbeží tvar',
         'fuck',
         ':pouting_face:',
-        'Angry Face',
-        'Grumpy Face',
-        'Mad Face',
-        'Red Face',
+        'Rozzlobená tvář',
+        'Grumfatická tvář',
+        'Špatná tvář',
+        'Červená tvář',
         ':red:'
     ],
     '😠': [
@@ -716,12 +723,12 @@ emojis_language[lang][2] = {
         'fuck',
         ':swearing:',
         '@#$%&!',
-        'Face with Symbols on Mouth',
-        'Cursing',
-        'Cussing',
+        'Obličej se symboly na myši',
+        'Kurzíva',
+        'Kusující',
         'Grawlix',
-        'Face With Symbols Over Mouth',
-        'Serious Face with Symbols Covering Mouth',
+        'Obličej se symboly nad myší',
+        'Vážná tvář se symboly pokrytí myší',
         ':red:'
     ],
     '🥲': [
@@ -739,11 +746,11 @@ emojis_language[lang][2] = {
         'Dizzy Face'
     ],
     '😶‍🌫️': [
-        'Face in Clouds',
-        'smoke',
+        'Obličej v mrakech',
+        'kouř',
         ':face_in_clouds:',
         'Brain Fog',
-        'Forgetful',
+        'Zapomenutý',
         'Haze'
     ],
     '🥸': [
@@ -783,7 +790,18 @@ emojis_language[lang][2] = {
         'Tváří v tvář zadním rytím',
         ':face_holding_back_tears:'
     ],
-    //"🫨": ["Shaking Face", ":shaking_face:"],
+    '🫨': [
+        'Shaking Face',
+        ':shaking_face:'
+    ],
+    '🙂‍↔️': [
+        'Head Shaking Horizontally',
+        ':head_shaking_horizontally:'
+    ],
+    '🙂‍↕️': [
+        'Head Shaking Vertically',
+        ':head_shaking_vertically:'
+    ],
     '😈': [
         'Obličej se rohy',
         ':smiling_face_with_horns:',
@@ -900,12 +918,12 @@ emojis_language[lang][3] = {
         'Dospělý',
         ':person:'
     ],
-    '🧑{{skin_tone}}': [
-        'Osoba: Beard',
+    '🧔{{skin_tone}}': [
+        'Person: Beard',
         ':person_beard:',
         'Beard',
-        'Bezdrátová osoba',
-        'Bezdrátová osoba',
+        'Bearded Person',
+        'Bearded Person',
         ':person:'
     ],
     '🧑{{skin_tone}}‍🦰': [
@@ -1069,18 +1087,18 @@ emojis_language[lang][3] = {
         'Cupid',
         'Putto'
     ],
-    '👨{{skin_tone}}‍🎄': [
+    '🎅{{skin_tone}}': [
         'Santa Claus',
         ':santa_claus:',
-        'Svatý Kryštof',
+        'Saint Nicholas',
         'Sinterklaas',
-        'Otec Vánoce',
+        'Father Christmas',
         ':man:'
     ],
-    '👩{{skin_tone}}‍🎄': [
-        'paní Clausová',
+    '🤶{{skin_tone}}': [
+        'Mrs Claus',
         ':mrs_claus:',
-        'Matka Vánoce',
+        'Mother Christmas',
         ':woman:'
     ],
     '🧑{{skin_tone}}‍🎄': [
@@ -1250,11 +1268,11 @@ emojis_language[lang][3] = {
         'těhotenství',
         ':person:'
     ],
-    '🤱{{skin_tone}}‍': [
-        'Krmení prsu',
+    '🤱{{skin_tone}}': [
+        'Breast-Feeding',
         ':breast-feeding:',
         ':breast_feeding:',
-        'Kojení'
+        'Breastfeeding'
     ],
     '🦸{{skin_tone}}‍♂️': [
         'Man Superhero',
@@ -1747,38 +1765,38 @@ emojis_language[lang][3] = {
         ':farmer:',
         ':person:'
     ],
-    '👨{{skin_tone}}‍‍⚖️': [
-        'Man soudce',
+    '👨{{skin_tone}}‍⚖️': [
+        'Man Judge',
         ':man_judge:',
         ':judge:',
         ':man:'
     ],
-    '👩{{skin_tone}}‍‍⚖️': [
-        'Ženský soudce',
+    '👩‍{{skin_tone}}⚖️': [
+        'Woman Judge',
         ':woman_judge:',
         ':judge:',
         ':woman:'
     ],
-    '🧑{{skin_tone}}‍‍⚖️': [
-        'Osoba soudkyně',
+    '🧑{{skin_tone}}‍⚖️': [
+        'Person Judge',
         ':person_judge:',
         ':judge:',
         ':person:'
     ],
-    '👨{{skin_tone}}‍‍🏫': [
-        'Člověk učitel',
+    '👨{{skin_tone}}‍🏫': [
+        'Man Teacher',
         ':man_teacher:',
         ':teacher:',
         ':man:'
     ],
-    '👩{{skin_tone}}‍‍🏫': [
-        'Ženský učitel',
+    '👩{{skin_tone}}‍🏫': [
+        'Woman Teacher',
         ':woman_teacher:',
         ':teacher:',
         ':woman:'
     ],
-    '🧑‍{{skin_tone}}‍‍🏫': [
-        'Učitelé osoby',
+    '🧑{{skin_tone}}‍🏫': [
+        'Person Teacher',
         ':person_teacher:',
         ':teacher:',
         ':person:'
@@ -1817,12 +1835,12 @@ emojis_language[lang][3] = {
         'Ženský ošetřovatel',
         ':woman:'
     ],
-    '🧑‍{{skin_tone}}‍⚕️': [
-        'Zdravotnický pracovník',
+    '🧑{{skin_tone}}‍⚕️': [
+        'Person Health Worker',
         ':person_health_worker:',
         ':health_worker:',
-        'Osoba lékařka',
-        'Osoba zdravotní sestry',
+        'Person Doctor',
+        'Person Nurse',
         ':person:'
     ],
     '🤷{{skin_tone}}‍♂️': [
@@ -1867,14 +1885,14 @@ emojis_language[lang][3] = {
         ':facepalming:',
         ':person:'
     ],
-    '🙇{{skin_tone}}‍‍♂️': [
-        'Man bill',
+    '🙇{{skin_tone}}‍♂️': [
+        'Man Bowing',
         ':man_bowing:',
         ':bowing:',
         ':man:'
     ],
-    '🙇{{skin_tone}}‍‍♀️': [
-        'Ženský útěk',
+    '🙇{{skin_tone}}‍♀️': [
+        'Woman Bowing',
         ':woman_bowing:',
         ':bowing:',
         ':woman:'
@@ -1891,8 +1909,8 @@ emojis_language[lang][3] = {
         ':deaf:',
         ':man:'
     ],
-    '🧏{{skin_tone}}‍‍♀️': [
-        'hluchá žena',
+    '🧏{{skin_tone}}‍♀️': [
+        'Deaf Woman',
         ':deaf_woman:',
         ':deaf:',
         ':woman:'
@@ -1903,10 +1921,10 @@ emojis_language[lang][3] = {
         ':deaf:',
         ':person:'
     ],
-    '🙋{{skin_tone}}‍‍♂️': [
-        'Člověk na pěstování ruky',
+    '🙋{{skin_tone}}‍♂️': [
+        'Man Raising Hand',
         ':man_raising_hand:',
-        'Šťastný muž, který zvedá jednu ruku',
+        'Happy Man Raising One Hand',
         ':raising_hand:',
         ':man:'
     ],
@@ -1987,8 +2005,8 @@ emojis_language[lang][3] = {
         ':pouting:',
         ':man:'
     ],
-    '🙎{{skin_tone}}‍‍♀️': [
-        'Ženská drůbež',
+    '🙎{{skin_tone}}‍♀️': [
+        'Woman Pouting',
         ':woman_pouting:',
         ':pouting:',
         ':woman:'
@@ -2017,14 +2035,14 @@ emojis_language[lang][3] = {
         ':frowining:',
         ':person:'
     ],
-    '🧟‍‍♂️': [
-        'Člověk zombie',
+    '🧟‍♂️': [
+        'Man Zombie',
         ':man_zombie:',
         ':zombie:',
         ':man:'
     ],
-    '🧟‍‍♀️': [
-        'Ženská zombie',
+    '🧟‍♀️': [
+        'Woman Zombie',
         ':woman_zombie:',
         ':zombie:',
         ':woman:'
@@ -2050,6 +2068,24 @@ emojis_language[lang][3] = {
     '🚶{{skin_tone}}': [
         'Chůze osoby',
         ':person_walking:',
+        ':walking:',
+        ':person:'
+    ],
+    '🚶{{skin_tone}}‍♂️‍➡️': [
+        'Man Walking Facing Right',
+        ':man_walking_facing_right:',
+        ':walking:',
+        ':man:'
+    ],
+    '🚶{{skin_tone}}‍♀️‍➡️': [
+        'Woman Walking Facing Right',
+        ':woman_walking_facing_right:',
+        ':walking:',
+        ':woman'
+    ],
+    '🚶{{skin_tone}}‍➡️': [
+        'Person Walking Facing Right',
+        ':person_walking_facing_right:',
         ':walking:',
         ':person:'
     ],
@@ -2089,6 +2125,24 @@ emojis_language[lang][3] = {
         ':kneeling:',
         ':person:'
     ],
+    '🧎{{skin_tone}}‍♂️‍➡️': [
+        'Man Kneeling Facing Right',
+        ':man_kneeling_facing_right:',
+        ':kneeling:',
+        ':man:'
+    ],
+    '🧎{{skin_tone}}‍♀️‍➡️': [
+        'Woman Kneeling Facing Right',
+        ':woman_kneeling_facing_right:',
+        ':kneeling:',
+        ':woman:'
+    ],
+    '🧎{{skin_tone}}‍➡️': [
+        'Person Kneeling Facing Right',
+        ':person_kneeling_facing_right:',
+        ':kneeling:',
+        ':person:'
+    ],
     '👨{{skin_tone}}‍🦯': [
         'Člověk s bílou jehněčí',
         ':man_with_white_cane:',
@@ -2104,6 +2158,24 @@ emojis_language[lang][3] = {
     '🧑{{skin_tone}}‍🦯': [
         'Osoba s bílou jehněčí',
         ':person_with_white_cane:',
+        ':white_cane:',
+        ':person:'
+    ],
+    '👨{{skin_tone}}‍🦯‍➡️': [
+        'Man with White Cane Facing Right',
+        ':man_with_white_cane_facing_right:',
+        ':white_cane:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🦯‍➡️': [
+        'Woman with White Cane Facing Right',
+        ':woman_with_white_cane_facing_right:',
+        ':white_cane:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🦯‍➡️': [
+        'Person with White Cane Facing Right',
+        ':person_with_white_cane_facing_right:',
         ':white_cane:',
         ':person:'
     ],
@@ -2125,6 +2197,24 @@ emojis_language[lang][3] = {
         ':motorized_wheelchair:',
         ':person:'
     ],
+    '👨{{skin_tone}}‍🦼‍➡️': [
+        'Man in Motorized Wheelchair Facing Right',
+        ':man_in_motorized_wheelchair_facing_right:',
+        ':motorized_wheel:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🦼‍➡️': [
+        'Woman in Motorized Wheelchair Facing Right',
+        ':woman_in_motorized_wheelchair_facing_right:',
+        ':motorized_wheel:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🦼‍➡️': [
+        'Person in Motorized Wheelchair Facing Right',
+        ':person_in_motorized_wheelchair_facing_right:',
+        ':motorized_wheel:',
+        ':person:'
+    ],
     '👨{{skin_tone}}‍🦽': [
         'Člověk v manuálním invalidním vozíku',
         ':man_manual_wheelchair:',
@@ -2140,6 +2230,24 @@ emojis_language[lang][3] = {
     '🧑{{skin_tone}}‍🦽': [
         'Osoba v ručním invalidním vozíku',
         ':person_manual_wheelchair:',
+        ':manual_wheelchair:',
+        ':person:'
+    ],
+    '👨{{skin_tone}}‍🦽‍➡️': [
+        'Man in Manual Wheelchair Facing Right',
+        ':man_manual_wheelchair_facing_right:',
+        ':manual_wheelchair:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🦽‍➡️': [
+        'Woman in Manual Wheelchair Facing Right',
+        ':woman_manual_wheelchair_facing_right:',
+        ':manual_wheelchair:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🦽‍➡️': [
+        'Person in Manual Wheelchair Facing Right',
+        ':person_manual_wheelchair_facing_right:',
         ':manual_wheelchair:',
         ':person:'
     ],
@@ -2226,6 +2334,11 @@ emojis_language[lang][3] = {
         'Pohlaví nevyhovující',
         ':person:'
     ],
+    '🧑‍🧑‍🧒': [
+        'Family: Adult, Adult, Child',
+        ':family_adult_adult_child:',
+        'Family: Person, Person, Child'
+    ],
     '👨‍👩‍👦': [
         'Rodina s matkou, otcem a synem',
         ':family_with_mother_father_and_son:',
@@ -2235,6 +2348,35 @@ emojis_language[lang][3] = {
         'Rodina s matkou, otcem a dcerou',
         ':family_with_mother_father_and_daughter:',
         'Rodina: muž, žena, dívka'
+    ],
+    '👨‍👨‍👦': [
+        'Rodina se dvěma otci a synem',
+        ':family_with_two_fathers_and_son:',
+        'Rodina: Man, Man, Boy',
+        ':man:'
+    ],
+    '👨‍👨‍👧': [
+        'Rodina se dvěma otci a dcerou',
+        ':family_with_two_fathers_and_daughter:',
+        'Rodina: muž, muž, žirl',
+        ':man:'
+    ],
+    '👩‍👩‍👦': [
+        'Rodina se dvěma matkami a synem',
+        ':family_with_two_mothers_and_son:',
+        'Rodina: žena, žena, chlapec',
+        ':woman:'
+    ],
+    '👩‍👩‍👧': [
+        'Rodina se dvěma matkami a dcerou',
+        ':family_with_two_mothers_and_daughter:',
+        'Rodina: žena, žena, dívka',
+        ':woman:'
+    ],
+    '🧑‍🧑‍🧒‍🧒': [
+        'Family: Adult, Adult, Child, Child',
+        ':family_adult_adult_child_child:',
+        'Family: Person, Person, Child, Child'
     ],
     '👨‍👩‍👧‍👦': [
         'Rodina s matkami, otcem, synem a dcerou',
@@ -2250,18 +2392,6 @@ emojis_language[lang][3] = {
         'Rodina s matkou, otcem a dvěma dcerami',
         ':family_with_mother_father_and_two_daughters:',
         'Rodina: muž, žena, dívka, dívka'
-    ],
-    '👨‍👨‍👦': [
-        'Rodina se dvěma otci a synem',
-        ':family_with_two_fathers_and_son:',
-        'Rodina: Man, Man, Boy',
-        ':man:'
-    ],
-    '👨‍👨‍👧': [
-        'Rodina se dvěma otci a dcerou',
-        ':family_with_two_fathers_and_daughter:',
-        'Rodina: muž, muž, žirl',
-        ':man:'
     ],
     '👨‍👨‍👧‍👦': [
         'Rodina se dvěma otci, synem a dcerou',
@@ -2281,18 +2411,6 @@ emojis_language[lang][3] = {
         'Rodina: Man, Man, Girl, Girl',
         ':man:'
     ],
-    '👩‍👩‍👦': [
-        'Rodina se dvěma matkami a synem',
-        ':family_with_two_mothers_and_son:',
-        'Rodina: žena, žena, chlapec',
-        ':woman:'
-    ],
-    '👩‍👩‍👧': [
-        'Rodina se dvěma matkami a dcerou',
-        ':family_with_two_mothers_and_daughter:',
-        'Rodina: žena, žena, dívka',
-        ':woman:'
-    ],
     '👩‍👩‍👧‍👦': [
         'Rodina s dvěma matkami, synem a dcerou',
         ':family_with_two_mothers_son_and_daughter:',
@@ -2311,6 +2429,11 @@ emojis_language[lang][3] = {
         'Rodina: žena, žena, dívka, dívka',
         ':woman:'
     ],
+    '🧑‍🧒': [
+        'Family: Adult, Child',
+        ':family_adult_child:',
+        'Family: Person, Child'
+    ],
     '👨‍👦': [
         'Rodina s otcem a synem',
         ':family_with_father_and_son:',
@@ -2322,6 +2445,23 @@ emojis_language[lang][3] = {
         ':family_with_father_and_daughter:',
         'Rodina: Člověk, cívka',
         ':man:'
+    ],
+    '👩‍👧': [
+        'Rodina s matkou a dcerou',
+        ':family_with_mother_and_daughter:',
+        'Rodina: Ženy, želva',
+        ':woman:'
+    ],
+    '👨‍👧‍👧': [
+        'Rodina s otcem a dvěma dcerami',
+        ':family_with_father_and_two_daughters:',
+        'Rodina: Man, drol, děrovník',
+        ':man:'
+    ],
+    '🧑‍🧒‍🧒': [
+        'Family: Adult, Child, Child',
+        ':family_adult_child_child:',
+        'Family: Person, Child, Child'
     ],
     '👨‍👦‍👦': [
         'Rodina s otcem a dvěma syny',
@@ -2335,22 +2475,10 @@ emojis_language[lang][3] = {
         'Rodina: Man, Girl, Boy',
         ':man:'
     ],
-    '👨‍👧‍👧': [
-        'Rodina s otcem a dvěma dcerami',
-        ':family_with_father_and_two_daughters:',
-        'Rodina: Man, drol, děrovník',
-        ':man:'
-    ],
     '👩‍👦': [
         'Rodina s matkou a synem',
         ':family_with_mother_and_son:',
         'Rodina: Woman, Boy',
-        ':woman:'
-    ],
-    '👩‍👧': [
-        'Rodina s matkou a dcerou',
-        ':family_with_mother_and_daughter:',
-        'Rodina: Ženy, želva',
         ':woman:'
     ],
     '👩‍👦‍👦': [
@@ -2459,21 +2587,24 @@ emojis_language[lang][3] = {
     ],
     '🛌{{skin_tone}}': [
         'Spací okres',
-        'tired',
+        'unavený',
         ':sleeping_accommodation:',
-        'Person in Bed',
-        'Person Sleeping'
+        'Osoba v posteli',
+        'Spánek osoby'
     ],
     '🛀{{skin_tone}}': [
-        'Person Taking Bath',
-        'Bathing',
+        'Osoba bere koupelnu',
+        'Koupání',
         ':bath:',
         ':person_taking_bath:',
-        'Hot Bath',
-        'Person Taking a Bath',
-        'Bath',
-        'Shower',
-        'Soap'
+        'Horká lázeň',
+        'Osoba si bere cestu',
+        'Koupelna',
+        'sprcha',
+        'Mýdlo',
+        'Tidy',
+        'Clean',
+        'Scrub'
     ],
     '🧌': [
         'Troll',
@@ -2917,7 +3048,12 @@ emojis_language[lang][4] = {
         ':hatching_chick:',
         'Dětské kuře',
         'Lovení kuřat',
+        'Egg',
         ':yellow:'
+    ],
+    '🥚': [
+        'Egg',
+        ':egg:'
     ],
     '🐤': [
         'Dětská kuřata',
@@ -3217,6 +3353,44 @@ emojis_language[lang][4] = {
         ':nest_with_eggs:',
         'Ptáci',
         'Domů'
+    ],
+    '🫏': [
+        'Donkey',
+        ':donkey:',
+        ':grey:',
+        ':gray:'
+    ],
+    '🫎': [
+        'Moose',
+        ':moose:',
+        'Moose Face',
+        ':brown:'
+    ],
+    '🪿': [
+        'Goose',
+        ':goose:',
+        ':white:'
+    ],
+    '🪼': [
+        'Jellyfish',
+        ':jellyfish:',
+        ':blue:'
+    ],
+    '🐦‍⬛': [
+        'Black bird',
+        ':black_bird:',
+        ':raven:',
+        'Raven',
+        'Crow',
+        'Rook',
+        ':black:'
+    ],
+    '🐦‍🔥': [
+        'Phoenix',
+        'Fire',
+        'Reborn',
+        ':phoenix:',
+        ':red:'
     ]
 };
 /*symbols*/
@@ -3294,15 +3468,15 @@ emojis_language[lang][5] = {
         ':red:'
     ],
     '❤️‍🩹': [
-        'Mending Heart',
+        'Lesní srdce',
         ':mending_heart:',
-        'Bandaged Heart',
-        'Healing Heart',
-        'Unbroken Heart',
+        'Banded Srdce',
+        'Léčící srdce',
+        'Nezlomené srdce',
         ':red:'
     ],
     '❤️‍🔥': [
-        'Heart on Fire',
+        'Srdce při střelbě',
         ':heart_on_fire:',
         ':red:'
     ],
@@ -3367,9 +3541,27 @@ emojis_language[lang][5] = {
         'Miluji tě',
         ':brown:'
     ],
-    //"🩷": ["Pink Heart", ":pink_heart:", "I Love You", ":pink:"],
-    //"🩵": ["Light Blue Heart", ":lightblue_heart:", "I Love You", ":blue:"],
-    //"🩶": ["Grey Heart","Gray Heart", ":grey_heart:",":gray_heart:", "I Love You", ":gray:", ":grey:"],
+    '🩷': [
+        'Pink Heart',
+        ':pink_heart:',
+        'I Love You',
+        ':pink:'
+    ],
+    '🩵': [
+        'Light Blue Heart',
+        ':lightblue_heart:',
+        'I Love You',
+        ':blue:'
+    ],
+    '🩶': [
+        'Grey Heart',
+        'Gray Heart',
+        ':grey_heart:',
+        ':gray_heart:',
+        'I Love You',
+        ':gray:',
+        ':grey:'
+    ],
     '💯': [
         'Skryté body',
         ':hundred_points:',
@@ -3825,7 +4017,12 @@ emojis_language[lang][5] = {
         'Šest zvýrazněných hvězd se střední tečkou',
         ':purple:'
     ],
-    //"🪯": ["Khanda", ":khanda:", "Sikhism", ":purple:"],
+    '🪯': [
+        'Khanda',
+        ':khanda:',
+        'Sikhism',
+        ':purple:'
+    ],
     '♈': [
         'Armády',
         ':aries:',
@@ -4686,7 +4883,16 @@ emojis_language[lang][5] = {
         'Ovládání hranic',
         ':blue:'
     ],
-    //"🛜": ["Wireless", ":wireless:", ":wifi:", ":wi_fi:", "Wifi", "wi-fi", "wireless connection", ":blue:"],
+    '🛜': [
+        'Wireless',
+        ':wireless:',
+        ':wifi:',
+        ':wi_fi:',
+        'Wifi',
+        'wi-fi',
+        'wireless connection',
+        ':blue:'
+    ],
     '🚰': [
         'Symbol pitné vody',
         ':potable_water_symbol:',
@@ -5371,11 +5577,24 @@ emojis_language[lang][6] = {
         ':broccoli:',
         ':green:'
     ],
+    '🍋‍🟩': [
+        'Lime',
+        ':lime:',
+        ':green:'
+    ],
     '🍄': [
         'Houby',
         ':mushroom:',
         'Střih',
         'Toadstool'
+    ],
+    '🍄‍🟫': [
+        'Brown Mushroom',
+        ':brown_mushroom:',
+        'Mushroom',
+        'Shroom',
+        'Toadstool',
+        ':brown:'
     ],
     '🥜': [
         'Peanuts',
@@ -6005,13 +6224,18 @@ emojis_language[lang][7] = {
         'Transgenová vlajka',
         ':transgender_flag:',
         'Modrá, barva a bílá vlajka',
-        'Trans vlajka'
+        'Trans vlajka',
+        'Blue',
+        'Pink'
     ],
     '🏴‍☠️': [
         'Pirátská vlajka',
         ':pirate_flag:',
         'Jolly Roger',
-        ':black:'
+        ':black:',
+        'Corsair',
+        'Privateer',
+        'Buccaneer'
     ],
     '🇺🇳': [
         'Příznak Organizace spojených národů',
@@ -6435,25 +6659,25 @@ emojis_language[lang][7] = {
         'Unijní Jack',
         'Spojené království'
     ],
-    '🏴󠁧󠁢󠁥󠁮󠁧󠁿󠁧󠁢󠁥󠁮󠁧󠁿': [
-        'Vlajka Anglie',
+    '🏴󠁧󠁢󠁥󠁮󠁧󠁿': [
+        'Flag of England',
         ':england:',
-        'St. Georges kříž',
-        'Anglická vlajka'
+        'St Georges Cross',
+        'English Flag'
     ],
-    '🏴󠁧󠁢󠁷󠁬󠁳󠁿󠁧󠁢󠁷󠁬󠁳󠁿': [
-        'Vlajka Wales',
+    '🏴󠁧󠁢󠁷󠁬󠁳󠁿': [
+        'Flag of Wales',
         ':wales:',
-        'Velšská vlajka',
-        'Rudý drak',
+        'Welsh Flag',
+        'Red Dragon',
         'Baner Cymru',
         'Y Ddraig Goch'
     ],
-    '🏴󠁧󠁢󠁳󠁣󠁴󠁿󠁧󠁢󠁳󠁣󠁴󠁿': [
-        'Vlajka Skotska',
+    '🏴󠁧󠁢󠁳󠁣󠁴󠁿': [
+        'Flag of Scotland',
         ':scotland:',
-        'Skotská vlajka',
-        'St. Andrews kříž',
+        'Scottish Flag',
+        'St Andrews Cross',
         'Saltire'
     ],
     '🇬🇩': [
@@ -7365,7 +7589,7 @@ emojis_language[lang][8] = {
         'Lodní plachty',
         ':skier:'
     ],
-    '🏂{{skin_tone}}‍': [
+    '🏂{{skin_tone}}': [
         'Snowboarder',
         ':snowboarder:'
     ],
@@ -7678,6 +7902,24 @@ emojis_language[lang][8] = {
     '🏃{{skin_tone}}': [
         'Člověk běží',
         ':person_running:',
+        ':running:',
+        ':person:'
+    ],
+    '🏃{{skin_tone}}‍♂️‍➡️': [
+        'Man Running Facing Right',
+        ':man_running_facing_right:',
+        ':running:',
+        ':man:'
+    ],
+    '🏃{{skin_tone}}‍♀️‍➡️': [
+        'Woman Running Facing Right',
+        'woman_running_facing_right:',
+        ':running:',
+        ':woman:'
+    ],
+    '🏃{{skin_tone}}‍➡️': [
+        'Person Running Facing Right',
+        ':person_running_facing_right:',
         ':running:',
         ':person:'
     ],
@@ -8592,7 +8834,8 @@ emojis_language[lang][10] = {
         ':mobile_phone:',
         'Smartphone',
         'iPhone',
-        'Mobilní telefon'
+        'Mobilní telefon',
+        'Device'
     ],
     '📲': [
         'Mobilní telefon s šipkou vpravo',
@@ -8611,7 +8854,8 @@ emojis_language[lang][10] = {
         ':phone:',
         'Handset',
         'Telefon',
-        ':black:'
+        ':black:',
+        'Device'
     ],
     '📟': [
         'Stránka',
@@ -8641,25 +8885,31 @@ emojis_language[lang][10] = {
     '💻': [
         'Laper',
         ':laptop:',
-        'Sešit',
-        'Osobní počítač',
+        ':computer:',
+        'Notebook',
+        'Personal Computer',
         'PC',
         'MacBook',
-        'Povrch'
+        'Surface',
+        'Device'
     ],
     '🖥️': [
         'Stolní počítač',
         ':desktop_computer:',
+        ':computer:',
         'iMac',
-        'PC'
+        'PC',
+        'Device'
     ],
     '🖨️': [
         'Tiskárna',
-        ':printer:'
+        ':printer:',
+        'Device'
     ],
     '⌨️': [
-        'Keyboard',
-        ':keyboard:'
+        'Computer Keyboard',
+        ':keyboard:',
+        ':computer_keyboard:'
     ],
     '🖱️': [
         'Počítačové myši',
@@ -9293,7 +9543,12 @@ emojis_language[lang][11] = {
     ],
     '🩲': [
         'Zákazníci',
-        ':briefs:'
+        ':briefs:',
+        'Undies',
+        'Underwear',
+        'Underpants',
+        'Jocks',
+        'Panties'
     ],
     '🩳': [
         'Krátké',
@@ -9681,6 +9936,14 @@ emojis_language[lang][12] = {
         ':selfie:',
         'Telefonní kamera',
         'Ruka Selfie'
+    ],
+    '🫸{{skin_tone}}': [
+        'Rightwards Pushing Hand',
+        ':rightwards_pushing_hand:'
+    ],
+    '🫷{{skin_tone}}': [
+        'Leftwards Pushing Hand',
+        ':leftwards_pushing_hand:'
     ]
 };
 /*other*/
@@ -10317,9 +10580,24 @@ emojis_language[lang][13] = {
         'Chváněnost',
         'Serenita'
     ],
-    //"🪻": ["Hyacinth", ":hyacinth:", "Purple flower", ":purple:"],
-    //"🫛": ["Pea Pod", ":pea_pod:", ":green:"],
-    //"🫚": ["Ginger root", ":ginger:", "Spice", "Flavour", ":brown:"],
+    '🪻': [
+        'Hyacinth',
+        ':hyacinth:',
+        'Purple flower',
+        ':purple:'
+    ],
+    '🫛': [
+        'Pea Pod',
+        ':pea_pod:',
+        ':green:'
+    ],
+    '🫚': [
+        'Ginger root',
+        ':ginger:',
+        'Spice',
+        'Flavour',
+        ':brown:'
+    ],
     '🔑': [
         'Klíč',
         ':key:',
@@ -10347,7 +10625,7 @@ emojis_language[lang][13] = {
     '🪓': [
         'Sekera',
         ':axe:',
-        'firefighter'
+        'hasič'
     ],
     '🪚': [
         'Příze z karpólu',
@@ -10442,10 +10720,6 @@ emojis_language[lang][13] = {
         ':magnet:',
         ':red:'
     ],
-    '⛓️': [
-        'Řetězce',
-        ':chains:'
-    ],
     '💉': [
         'Syringe',
         ':syringe:',
@@ -10453,8 +10727,8 @@ emojis_language[lang][13] = {
         'Test krve',
         'Jehly',
         'Očkování',
-        'blood',
-        'sick',
+        'krev',
+        'nemocný',
         'ill'
     ],
     '🧬': [
@@ -10545,7 +10819,10 @@ emojis_language[lang][13] = {
     ],
     '🧼': [
         'Deska mýdla',
-        ':bar_of_soap:'
+        ':bar_of_soap:',
+        'Tidy',
+        'Clean',
+        'Scrub'
     ],
     '🧽': [
         'Sponge',
@@ -10591,12 +10868,26 @@ emojis_language[lang][13] = {
         ':balance_scale:',
         'Stupnice spravedlnosti'
     ],
+    '⛓️': [
+        'Řetězce',
+        ':chains:'
+    ],
     '🔗': [
         'Odkaz',
         ':link:',
         'Řetěz',
         'Hyperlink',
         'Propojený řetězec',
+        ':gray:',
+        ':grey:'
+    ],
+    '⛓️‍💥': [
+        'Broken chain',
+        ':broken_chain:',
+        'Chain',
+        'Hyperlink',
+        'Linked Chain',
+        'Unlinked chain',
         ':gray:',
         ':grey:'
     ],
@@ -10695,7 +10986,8 @@ emojis_language[lang][13] = {
         'Poznámka na míru',
         'Dvacet Quid Note',
         'Bankovky s liberijskou značkou',
-        ':purple:'
+        ':purple:',
+        'Money'
     ],
     '💶': [
         'Euro Banknote',
@@ -10703,7 +10995,8 @@ emojis_language[lang][13] = {
         ':euro_banknote:',
         '€100 Poznámka',
         'Bankovky s eurobankovkou',
-        ':blue:'
+        ':blue:',
+        'Money'
     ],
     '💵': [
         'Bankovky s dolarem',
@@ -10713,7 +11006,8 @@ emojis_language[lang][13] = {
         'Bankovka s dolarovou značkou',
         'Dolarový účet',
         'Americký dolar',
-        ':green:'
+        ':green:',
+        'Money'
     ],
     '💴': [
         'Yen Bankovka',
@@ -10722,7 +11016,8 @@ emojis_language[lang][13] = {
         '<unk> 1000 Poznámka',
         'Ano poznámka',
         'Bankovka s Yen Sign',
-        ':yellow:'
+        ':yellow:',
+        'Money'
     ],
     '⛺': [
         'Stan táboření',
@@ -10945,13 +11240,24 @@ emojis_language[lang][13] = {
         'Hodina hotova',
         ':hourglass:',
         ':hourglass_done:',
-        'Hodinové sklo'
+        'Hodinové sklo',
+        'Time',
+        'Egg timer',
+        'Empty',
+        'Ended',
+        'Finished',
+        'Sand Clock'
     ],
     '⏳': [
         'Hodina není hotova',
         ':hourglass_flowing_sand:',
         ':hourglass_not_done:',
-        'Chlazené sklo se zpomalujícím pískem'
+        'Chlazené sklo se zpomalujícím pískem',
+        'Busy',
+        'Time',
+        'Egg timer',
+        'Flowing',
+        'Sand Clock'
     ],
     '🕐': [
         'Jeden OClock',
@@ -10959,14 +11265,16 @@ emojis_language[lang][13] = {
         ':one_oclock:',
         'Hodiny s jedním OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕜': [
         'Čtyřicet hodin',
         ':clock130:',
         ':one_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕑': [
         'Dva OClock',
@@ -10974,14 +11282,16 @@ emojis_language[lang][13] = {
         ':two_oclock:',
         'Obličej dvě hodiny',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕝': [
         'Dvoutřetina hodin',
         ':clock230:',
         ':two_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕒': [
         'Tři OClock',
@@ -10989,14 +11299,16 @@ emojis_language[lang][13] = {
         ':three_oclock:',
         'Tři hodiny v OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕞': [
         'Třicet hodin',
         ':clock330:',
         ':three_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕓': [
         'Čtyři hodiny',
@@ -11004,14 +11316,16 @@ emojis_language[lang][13] = {
         ':four_oclock:',
         'Čtyři hodiny',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕟': [
         'Čtyřicet hodin',
         ':clock430:',
         ':four_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕔': [
         'Pět hodin',
@@ -11019,14 +11333,16 @@ emojis_language[lang][13] = {
         ':five_oclock:',
         'Obličej se pěti OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕠': [
         'Třicet hodin',
         ':clock530:',
         ':five_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕕': [
         'Šest OClock',
@@ -11034,14 +11350,16 @@ emojis_language[lang][13] = {
         ':size_oclock:',
         'Šest hodin',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕡': [
         'Čtyřicet třicet hodin',
         ':clock630:',
         ':six_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕖': [
         'Sedm OClock',
@@ -11049,14 +11367,16 @@ emojis_language[lang][13] = {
         ':seven_oclock:',
         'Hodinová obličej sedm OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕢': [
         'Třicet hodin',
         ':clock730:',
         ':sever_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕗': [
         'Osm hodin',
@@ -11064,14 +11384,16 @@ emojis_language[lang][13] = {
         ':eight_oclock:',
         'Hodiny s osmi hodinami',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕣': [
         'Osm třicet hodin',
         ':clock830:',
         ':eight_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕘': [
         'Devět hodin',
@@ -11079,14 +11401,16 @@ emojis_language[lang][13] = {
         ':nine_clock:',
         'Devět hodin',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕤': [
         'Třicet hodin',
         ':clock930:',
         ':nine_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕙': [
         'Deset OClock',
@@ -11094,14 +11418,16 @@ emojis_language[lang][13] = {
         ':ten_oclock:',
         'Časy Deset OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕥': [
         'Clock Face Ten-Thirty',
         ':clock1030:',
         ':ten_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕚': [
         'Eleven OClock',
@@ -11109,14 +11435,16 @@ emojis_language[lang][13] = {
         ':eleven_oclock:',
         'Hodiny s jedenácti OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕦': [
         'Třicet hodin',
         ':clock1130:',
         ':eleven_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕛': [
         'Dvanáct hodin',
@@ -11124,14 +11452,16 @@ emojis_language[lang][13] = {
         ':twelve_oclock:',
         'Dvanáct hodin obličeje',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕧': [
         'Třicet hodin',
         ':clock1230:',
         ':twelve_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '♨️': [
         'Horké pružiny',
@@ -11171,7 +11501,7 @@ emojis_language[lang][13] = {
         ':white:'
     ],
     '🗨️': [
-        'Left Speech Bubble',
+        'Levý řeč bublina',
         ':left_speech_bubble:',
         ':speech_left:'
     ],
@@ -11181,7 +11511,7 @@ emojis_language[lang][13] = {
         'Kapsle',
         'Tablet',
         'Drogy',
-        'Sick',
+        'Nemocný',
         'ill',
         ':yellow:',
         ':red:'
@@ -11312,27 +11642,34 @@ emojis_language[lang][13] = {
         ':shopping_bags:'
     ],
     '🛒': [
-        'Shopping Cart',
+        'Nákupní košík',
         ':shopping_cart:',
-        'Shopping Trolley',
+        'Nákupní vozík',
         ':shopping_trolley:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Market'
     ],
     '🎟️': [
         'Vstupenky',
-        ':admission_tickets:'
+        ':admission_tickets:',
+        'Theater',
+        'Theatre',
+        'Party'
     ],
     '🛎️': [
         'Bellhop Bell',
         ':bellhop_bell:',
         ':yellow:',
-        ':gold:'
+        ':gold:',
+        'Hotel',
+        'Reception'
     ],
     '🧾': [
         'Přijetí',
         ':receipt:',
-        ':white:'
+        ':white:',
+        'Bill'
     ],
     '🧮': [
         'Abacus',
@@ -11347,7 +11684,9 @@ emojis_language[lang][13] = {
         ':broom:',
         'Štětit',
         'Sweep',
-        ':yellow:'
+        ':yellow:',
+        'Tidy',
+        'Clean'
     ],
     '🎰': [
         'Vyhazovací stroj',
@@ -11360,11 +11699,20 @@ emojis_language[lang][13] = {
     '🦽': [
         'Ruční invalidní vozík',
         ':manual_wheelchair:',
-        ':wheelchair:'
+        ':wheelchair:',
+        'invalid',
+        'disability',
+        'accessibility',
+        'mobility'
     ],
     '🦼': [
         'Motorový invalidní křeslo',
-        ':motorized_wheelchair:'
+        ':motorized_wheelchair:',
+        ':wheelchair:',
+        'invalid',
+        'disability',
+        'accessibility',
+        'mobility'
     ],
     '🪔': [
         'Diya lampa',
@@ -11389,7 +11737,8 @@ emojis_language[lang][13] = {
     ],
     '🪶': [
         'Peří',
-        ':feather:'
+        ':feather:',
+        'Animal'
     ],
     '🪤': [
         'Past myši',
@@ -11519,7 +11868,11 @@ emojis_language[lang][13] = {
         ':low_battery:',
         ':red:',
         'Energie',
-        'Červená'
+        'Červená',
+        'Device',
+        'Smartphone',
+        'Computer',
+        'Console'
     ],
     '🩻': [
         'X-Ray',
@@ -11540,7 +11893,10 @@ emojis_language[lang][13] = {
         ':identification_card:',
         'Identita',
         'Cestovní pas',
-        'ID'
+        'ID',
+        'Country',
+        'Security',
+        'Travel'
     ],
     '🧿': [
         'Nazar Amulet',
@@ -11552,6 +11908,43 @@ emojis_language[lang][13] = {
         'Červený medvěd',
         ':teddy_bear:',
         'Hračka',
+        ':brown:',
+        'Baby',
+        'Child',
+        'Children'
+    ],
+    '🪽': [
+        'Wing',
+        ':wing:',
+        'Fly',
+        ':white:'
+    ],
+    '🪭': [
+        'Folding Hand Fan',
+        ':folding_hand_fan:',
+        'Fan',
+        'Manual fan',
+        'Summer',
+        ':red:'
+    ],
+    '🪮': [
+        'Hair Pick',
+        ':hair_pick:',
+        'Black culture',
+        'Black pride',
+        ':black:'
+    ],
+    '🪈': [
+        'Flute',
+        ':flute:',
+        'Plastic flute',
+        'Metal plute',
+        'Bamboo flute',
+        'Musical instrument',
         ':brown:'
+    ],
+    '🪇': [
+        'Maracas',
+        ':maracas:'
     ]
 };

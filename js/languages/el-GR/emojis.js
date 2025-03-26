@@ -131,13 +131,13 @@ emojis_language[lang][2] = {
     ],
     '😍': [
         'Χαμογελαστό πρόσωπο με τα μάτια καρδιάς',
-        'love',
+        'αγάπη',
         ':smiling_heart-eyes:',
         ':smiling_heart_eyes:',
         ':*.*:',
-        'Heart Eyes',
-        'Heart Face',
-        'Smiling Face with Heart-Shaped Eyes'
+        'Μάτια Καρδιάς',
+        'Καρδιά Πρόσωπο',
+        'Χαμογελώντας πρόσωπο με μάτια σε σχήμα καρδιάς'
     ],
     '🤩': [
         'Αστέρι-Δομή',
@@ -151,24 +151,24 @@ emojis_language[lang][2] = {
     ],
     '😘': [
         'Πρόσωπο που ρέει ένα φιλί',
-        'love',
+        'αγάπη',
         ':kissing_face:',
         '::*:',
         '::-*:',
-        'Blow A Kiss',
-        'Blowing Kiss',
-        'Kissing',
-        'Face Throwing a Kiss'
+        'Χτύπημα Ένα Φιλί',
+        'Blowing Φιλί',
+        'Φιλιά',
+        'Πρόσωπο ρίχνοντας ένα φιλί'
     ],
     '😗': [
         'Φιλί Πρόσωπο',
-        'kiss',
+        'φιλί',
         ':kissing_face:',
         '::*:',
         '::-*:',
-        'Duck Face',
+        'Πάπιες Πρόσωπο',
         'Kissy Face',
-        'Whistling'
+        'Σφυρίχτρα'
     ],
     '☺️': [
         'Χαμογελώντας Πρόσωπο',
@@ -282,14 +282,14 @@ emojis_language[lang][2] = {
     ],
     '🤐': [
         'Τ.Κ.',
-        'silent',
-        'silence',
+        'σιωπηλό',
+        'σίγαση',
         ':zip_face:',
-        'Zipper-Mouth Face',
-        'Lips Sealed',
-        'Sealed Lips',
-        'Zip It',
-        'Face With a Zipper Mouth'
+        'Πρόσωπο Φερμουάρ-Στόματος',
+        'Χείλη Σφραγισμένα',
+        'Σφραγισμένα Χείλη',
+        'Τ.Κ.',
+        'Πρόσωπο με στόμιο φερμουάρ'
     ],
     '🤨': [
         'Πρόσωπο με ενισχυμένο φρύδι',
@@ -398,18 +398,18 @@ emojis_language[lang][2] = {
     ],
     '🥱': [
         'Πρόσωπο Αυγής',
-        'tired',
+        'κουρασμένος',
         ':yawning_face:'
     ],
     '😷': [
         'Πρόσωπο με ιατρική μάσκα',
-        'sick',
+        'άρρωστος',
         'doc',
         ':face_with_medical_mask:',
         'Coronavirus',
         'COVID-19',
-        'Mask Face',
-        'Surgical Mask',
+        'Μάσκα Πρόσωπο',
+        'Χειρουργική Μάσκα',
         'ill'
     ],
     '🤒': [
@@ -422,44 +422,44 @@ emojis_language[lang][2] = {
     ],
     '🤕': [
         'Πρόσωπο με Επικεφαλής',
-        'hospital',
-        'sick',
+        'νοσοκομείο',
+        'άρρωστος',
         ':face_with_head-bandage:',
         ':face_with_head_bandage:',
-        'Bandaged Head',
-        'Clumsy',
-        'Injured',
+        'Κεφαλή Εξανδρωμένου',
+        'Αδέξιος',
+        'Λείπει',
         'ill'
     ],
     '🤢': [
         'Ναυτία Πρόσωπο',
-        'sick',
+        'άρρωστος',
         ':nauseated_face:',
-        'Disgust',
-        'Green Face',
-        'Vomit',
+        'Αηδία',
+        'Πράσινο Πρόσωπο',
+        'Έμβος',
         ':green:',
         'ill'
     ],
     '🤮': [
         'Πρόσωπο Έμετος',
-        'sick',
+        'άρρωστος',
         ':face_vomiting:',
-        'Spew',
+        'Σήκωσε',
         'Bleah',
         'Bleurgh',
         'Yuk',
-        'Yuck',
-        'Ew',
-        'Spew',
-        'Throwing Up',
-        'Vomit',
-        'Face with Open Mouth Vomiting',
+        'Γιουκ',
+        'EW',
+        'Σήκωσε',
+        'Πέτα Πάνω',
+        'Έμβος',
+        'Πρόσωπο με Ανοιχτό Στόμα Έμετος',
         'ill'
     ],
     '🤧': [
         'Φτάρνισμα Πρόσωπο',
-        'sick',
+        'άρρωστος',
         ':sneezing_face:',
         'Gesundheit',
         'ill'
@@ -492,10 +492,10 @@ emojis_language[lang][2] = {
     ],
     '🤯': [
         'Κεφαλή Εκρήξεως',
-        'boom',
+        'έκρηξη',
         ':exploding_head:',
-        'Mind Blown',
-        'Shocked Face with Exploding Head'
+        'Μυαλό Φυσητό',
+        'Σοκαρισμένο πρόσωπο με εκρηκτική κεφαλή'
     ],
     '🤠': [
         'Cowboy Καπέλο Πρόσωπο',
@@ -603,6 +603,13 @@ emojis_language[lang][2] = {
         ':D::',
         'Ιχθυοκαλλιέργεια'
     ],
+    '😧': [
+        'Anguished Face',
+        ':anguished_face:',
+        ':anguished:',
+        ':D::',
+        'Pained Face'
+    ],
     '😨': [
         'Νοσηλευμένο',
         ':scared:',
@@ -699,10 +706,10 @@ emojis_language[lang][2] = {
         'Προωθητικό Πρόσωπο',
         'fuck',
         ':pouting_face:',
-        'Angry Face',
-        'Grumpy Face',
-        'Mad Face',
-        'Red Face',
+        'Θυμωμένος Πρόσωπο',
+        'Grumpy Πρόσωπο',
+        'Mad Πρόσωπο',
+        'Κόκκινο Πρόσωπο',
         ':red:'
     ],
     '😠': [
@@ -716,12 +723,12 @@ emojis_language[lang][2] = {
         'fuck',
         ':swearing:',
         '@#$%&!',
-        'Face with Symbols on Mouth',
+        'Πρόσωπο με σύμβολα στο στόμα',
         'Cursing',
-        'Cussing',
+        'Μείωση',
         'Grawlix',
-        'Face With Symbols Over Mouth',
-        'Serious Face with Symbols Covering Mouth',
+        'Πρόσωπο Με Σύμβολα Πάνω Από Το Στόμα',
+        'Σοβαρό πρόσωπο με σύμβολα που καλύπτουν το στόμα',
         ':red:'
     ],
     '🥲': [
@@ -739,12 +746,12 @@ emojis_language[lang][2] = {
         'Dizzy Face'
     ],
     '😶‍🌫️': [
-        'Face in Clouds',
-        'smoke',
+        'Πρόσωπο στα σύννεφα',
+        'καπνός',
         ':face_in_clouds:',
         'Brain Fog',
-        'Forgetful',
-        'Haze'
+        'Συγχαρητήρια',
+        'Ομίχλη'
     ],
     '🥸': [
         'Μεταμφιεσμένο Πρόσωπο',
@@ -783,7 +790,18 @@ emojis_language[lang][2] = {
         'Πρόσωπο Κρατώντας Πίσω Δάκρυα',
         ':face_holding_back_tears:'
     ],
-    //"🫨": ["Shaking Face", ":shaking_face:"],
+    '🫨': [
+        'Shaking Face',
+        ':shaking_face:'
+    ],
+    '🙂‍↔️': [
+        'Head Shaking Horizontally',
+        ':head_shaking_horizontally:'
+    ],
+    '🙂‍↕️': [
+        'Head Shaking Vertically',
+        ':head_shaking_vertically:'
+    ],
     '😈': [
         'Χαμογελώντας πρόσωπο με κέρατα',
         ':smiling_face_with_horns:',
@@ -900,12 +918,12 @@ emojis_language[lang][3] = {
         'Ενήλικες',
         ':person:'
     ],
-    '🧑{{skin_tone}}': [
-        'Πρόσωπο: Beard',
+    '🧔{{skin_tone}}': [
+        'Person: Beard',
         ':person_beard:',
-        'Αρκούδα',
-        'Γενειοφόρος Άτομο',
-        'Γενειοφόρος Άτομο',
+        'Beard',
+        'Bearded Person',
+        'Bearded Person',
         ':person:'
     ],
     '🧑{{skin_tone}}‍🦰': [
@@ -1069,18 +1087,18 @@ emojis_language[lang][3] = {
         'Έρωτας',
         'Πούτο'
     ],
-    '👨{{skin_tone}}‍🎄': [
-        'Άγιος Βασίλης',
+    '🎅{{skin_tone}}': [
+        'Santa Claus',
         ':santa_claus:',
-        'Άγιος Νικόλαος',
+        'Saint Nicholas',
         'Sinterklaas',
-        'Πατέρας Χριστούγεννα',
+        'Father Christmas',
         ':man:'
     ],
-    '👩{{skin_tone}}‍🎄': [
-        'Κυρία Claus',
+    '🤶{{skin_tone}}': [
+        'Mrs Claus',
         ':mrs_claus:',
-        'Μητέρα Χριστούγεννα',
+        'Mother Christmas',
         ':woman:'
     ],
     '🧑{{skin_tone}}‍🎄': [
@@ -1250,11 +1268,11 @@ emojis_language[lang][3] = {
         'Κύηση',
         ':person:'
     ],
-    '🤱{{skin_tone}}‍': [
-        'Θηλασμός',
+    '🤱{{skin_tone}}': [
+        'Breast-Feeding',
         ':breast-feeding:',
         ':breast_feeding:',
-        'Θηλασμός'
+        'Breastfeeding'
     ],
     '🦸{{skin_tone}}‍♂️': [
         'Άνθρωπος Superhero',
@@ -1747,38 +1765,38 @@ emojis_language[lang][3] = {
         ':farmer:',
         ':person:'
     ],
-    '👨{{skin_tone}}‍‍⚖️': [
-        'Άνθρωπος Δικαστής',
+    '👨{{skin_tone}}‍⚖️': [
+        'Man Judge',
         ':man_judge:',
         ':judge:',
         ':man:'
     ],
-    '👩{{skin_tone}}‍‍⚖️': [
-        'Δικαστής Γυναίκας',
+    '👩‍{{skin_tone}}⚖️': [
+        'Woman Judge',
         ':woman_judge:',
         ':judge:',
         ':woman:'
     ],
-    '🧑{{skin_tone}}‍‍⚖️': [
-        'Δικαστής Πρόσωπο',
+    '🧑{{skin_tone}}‍⚖️': [
+        'Person Judge',
         ':person_judge:',
         ':judge:',
         ':person:'
     ],
-    '👨{{skin_tone}}‍‍🏫': [
-        'Δάσκαλος Του Ανθρώπου',
+    '👨{{skin_tone}}‍🏫': [
+        'Man Teacher',
         ':man_teacher:',
         ':teacher:',
         ':man:'
     ],
-    '👩{{skin_tone}}‍‍🏫': [
-        'Δάσκαλος Γυναίκας',
+    '👩{{skin_tone}}‍🏫': [
+        'Woman Teacher',
         ':woman_teacher:',
         ':teacher:',
         ':woman:'
     ],
-    '🧑‍{{skin_tone}}‍‍🏫': [
-        'Δάσκαλος Προσώπου',
+    '🧑{{skin_tone}}‍🏫': [
+        'Person Teacher',
         ':person_teacher:',
         ':teacher:',
         ':person:'
@@ -1817,12 +1835,12 @@ emojis_language[lang][3] = {
         'Γυναίκα Νοσοκόμα',
         ':woman:'
     ],
-    '🧑‍{{skin_tone}}‍⚕️': [
-        'Εργάτης Υγείας Πρόσωπο',
+    '🧑{{skin_tone}}‍⚕️': [
+        'Person Health Worker',
         ':person_health_worker:',
         ':health_worker:',
-        'Γιατρός Πρόσωπο',
-        'Νοσηλευτής Πρόσωπο',
+        'Person Doctor',
+        'Person Nurse',
         ':person:'
     ],
     '🤷{{skin_tone}}‍♂️': [
@@ -1867,14 +1885,14 @@ emojis_language[lang][3] = {
         ':facepalming:',
         ':person:'
     ],
-    '🙇{{skin_tone}}‍‍♂️': [
-        'Άνθρωπος Μπόουινγκ',
+    '🙇{{skin_tone}}‍♂️': [
+        'Man Bowing',
         ':man_bowing:',
         ':bowing:',
         ':man:'
     ],
-    '🙇{{skin_tone}}‍‍♀️': [
-        'Γυναίκα Bowing',
+    '🙇{{skin_tone}}‍♀️': [
+        'Woman Bowing',
         ':woman_bowing:',
         ':bowing:',
         ':woman:'
@@ -1891,8 +1909,8 @@ emojis_language[lang][3] = {
         ':deaf:',
         ':man:'
     ],
-    '🧏{{skin_tone}}‍‍♀️': [
-        'Κωφών Γυναίκας',
+    '🧏{{skin_tone}}‍♀️': [
+        'Deaf Woman',
         ':deaf_woman:',
         ':deaf:',
         ':woman:'
@@ -1903,10 +1921,10 @@ emojis_language[lang][3] = {
         ':deaf:',
         ':person:'
     ],
-    '🙋{{skin_tone}}‍‍♂️': [
-        'Άνθρωπος Αύξηση Χεριών',
+    '🙋{{skin_tone}}‍♂️': [
+        'Man Raising Hand',
         ':man_raising_hand:',
-        'Happy Man Raising Ένα Χέρι',
+        'Happy Man Raising One Hand',
         ':raising_hand:',
         ':man:'
     ],
@@ -1987,8 +2005,8 @@ emojis_language[lang][3] = {
         ':pouting:',
         ':man:'
     ],
-    '🙎{{skin_tone}}‍‍♀️': [
-        'Pouting Γυναίκας',
+    '🙎{{skin_tone}}‍♀️': [
+        'Woman Pouting',
         ':woman_pouting:',
         ':pouting:',
         ':woman:'
@@ -2017,14 +2035,14 @@ emojis_language[lang][3] = {
         ':frowining:',
         ':person:'
     ],
-    '🧟‍‍♂️': [
-        'Ο Άνθρωπος Ζόμπι',
+    '🧟‍♂️': [
+        'Man Zombie',
         ':man_zombie:',
         ':zombie:',
         ':man:'
     ],
-    '🧟‍‍♀️': [
-        'Ζόμπι Γυναίκας',
+    '🧟‍♀️': [
+        'Woman Zombie',
         ':woman_zombie:',
         ':zombie:',
         ':woman:'
@@ -2050,6 +2068,24 @@ emojis_language[lang][3] = {
     '🚶{{skin_tone}}': [
         'Περπάτημα Προσώπου',
         ':person_walking:',
+        ':walking:',
+        ':person:'
+    ],
+    '🚶{{skin_tone}}‍♂️‍➡️': [
+        'Man Walking Facing Right',
+        ':man_walking_facing_right:',
+        ':walking:',
+        ':man:'
+    ],
+    '🚶{{skin_tone}}‍♀️‍➡️': [
+        'Woman Walking Facing Right',
+        ':woman_walking_facing_right:',
+        ':walking:',
+        ':woman'
+    ],
+    '🚶{{skin_tone}}‍➡️': [
+        'Person Walking Facing Right',
+        ':person_walking_facing_right:',
         ':walking:',
         ':person:'
     ],
@@ -2089,6 +2125,24 @@ emojis_language[lang][3] = {
         ':kneeling:',
         ':person:'
     ],
+    '🧎{{skin_tone}}‍♂️‍➡️': [
+        'Man Kneeling Facing Right',
+        ':man_kneeling_facing_right:',
+        ':kneeling:',
+        ':man:'
+    ],
+    '🧎{{skin_tone}}‍♀️‍➡️': [
+        'Woman Kneeling Facing Right',
+        ':woman_kneeling_facing_right:',
+        ':kneeling:',
+        ':woman:'
+    ],
+    '🧎{{skin_tone}}‍➡️': [
+        'Person Kneeling Facing Right',
+        ':person_kneeling_facing_right:',
+        ':kneeling:',
+        ':person:'
+    ],
     '👨{{skin_tone}}‍🦯': [
         'Άνθρωπος με λευκό ζαχαροκάλαμο',
         ':man_with_white_cane:',
@@ -2104,6 +2158,24 @@ emojis_language[lang][3] = {
     '🧑{{skin_tone}}‍🦯': [
         'Άτομο με λευκό ζαχαροκάλαμο',
         ':person_with_white_cane:',
+        ':white_cane:',
+        ':person:'
+    ],
+    '👨{{skin_tone}}‍🦯‍➡️': [
+        'Man with White Cane Facing Right',
+        ':man_with_white_cane_facing_right:',
+        ':white_cane:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🦯‍➡️': [
+        'Woman with White Cane Facing Right',
+        ':woman_with_white_cane_facing_right:',
+        ':white_cane:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🦯‍➡️': [
+        'Person with White Cane Facing Right',
+        ':person_with_white_cane_facing_right:',
         ':white_cane:',
         ':person:'
     ],
@@ -2125,6 +2197,24 @@ emojis_language[lang][3] = {
         ':motorized_wheelchair:',
         ':person:'
     ],
+    '👨{{skin_tone}}‍🦼‍➡️': [
+        'Man in Motorized Wheelchair Facing Right',
+        ':man_in_motorized_wheelchair_facing_right:',
+        ':motorized_wheel:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🦼‍➡️': [
+        'Woman in Motorized Wheelchair Facing Right',
+        ':woman_in_motorized_wheelchair_facing_right:',
+        ':motorized_wheel:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🦼‍➡️': [
+        'Person in Motorized Wheelchair Facing Right',
+        ':person_in_motorized_wheelchair_facing_right:',
+        ':motorized_wheel:',
+        ':person:'
+    ],
     '👨{{skin_tone}}‍🦽': [
         'Ο άνθρωπος σε χειρωνακτική αναπηρική καρέκλα',
         ':man_manual_wheelchair:',
@@ -2140,6 +2230,24 @@ emojis_language[lang][3] = {
     '🧑{{skin_tone}}‍🦽': [
         'Πρόσωπο σε χειρωνακτική αναπηρική καρέκλα',
         ':person_manual_wheelchair:',
+        ':manual_wheelchair:',
+        ':person:'
+    ],
+    '👨{{skin_tone}}‍🦽‍➡️': [
+        'Man in Manual Wheelchair Facing Right',
+        ':man_manual_wheelchair_facing_right:',
+        ':manual_wheelchair:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🦽‍➡️': [
+        'Woman in Manual Wheelchair Facing Right',
+        ':woman_manual_wheelchair_facing_right:',
+        ':manual_wheelchair:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🦽‍➡️': [
+        'Person in Manual Wheelchair Facing Right',
+        ':person_manual_wheelchair_facing_right:',
         ':manual_wheelchair:',
         ':person:'
     ],
@@ -2226,6 +2334,11 @@ emojis_language[lang][3] = {
         'Φύλο Μη Συμμορφούμενο Ζευγάρι',
         ':person:'
     ],
+    '🧑‍🧑‍🧒': [
+        'Family: Adult, Adult, Child',
+        ':family_adult_adult_child:',
+        'Family: Person, Person, Child'
+    ],
     '👨‍👩‍👦': [
         'Οικογένεια με τη μητέρα, τον πατέρα και τον γιο',
         ':family_with_mother_father_and_son:',
@@ -2235,6 +2348,35 @@ emojis_language[lang][3] = {
         'Οικογένεια με μητέρα, πατέρα και κόρη',
         ':family_with_mother_father_and_daughter:',
         'Οικογένεια: Άνθρωπος, Γυναίκα, Κορίτσι'
+    ],
+    '👨‍👨‍👦': [
+        'Οικογένεια με δύο πατέρες και γιο',
+        ':family_with_two_fathers_and_son:',
+        'Οικογένεια: Άνθρωπος, Άνθρωπος, Αγόρι',
+        ':man:'
+    ],
+    '👨‍👨‍👧': [
+        'Οικογένεια με δύο πατέρες και κόρη',
+        ':family_with_two_fathers_and_daughter:',
+        'Οικογένεια: Άνθρωπος, Άνθρωπος, Κορίτσι',
+        ':man:'
+    ],
+    '👩‍👩‍👦': [
+        'Οικογένεια με δύο μητέρες και γιο',
+        ':family_with_two_mothers_and_son:',
+        'Οικογένεια: Γυναίκα, Γυναίκα, Αγόρι',
+        ':woman:'
+    ],
+    '👩‍👩‍👧': [
+        'Οικογένεια με δύο μητέρες και κόρη',
+        ':family_with_two_mothers_and_daughter:',
+        'Οικογένεια: Γυναίκα, Γυναίκα, Κορίτσι',
+        ':woman:'
+    ],
+    '🧑‍🧑‍🧒‍🧒': [
+        'Family: Adult, Adult, Child, Child',
+        ':family_adult_adult_child_child:',
+        'Family: Person, Person, Child, Child'
     ],
     '👨‍👩‍👧‍👦': [
         'Οικογένεια με τη μητέρα, τον πατέρα, τον γιο και την κόρη',
@@ -2250,18 +2392,6 @@ emojis_language[lang][3] = {
         'Οικογένεια με τη μητέρα, τον πατέρα και δύο κόρες',
         ':family_with_mother_father_and_two_daughters:',
         'Οικογένεια: Άνθρωπος, Γυναίκα, Κορίτσι, Κορίτσι'
-    ],
-    '👨‍👨‍👦': [
-        'Οικογένεια με δύο πατέρες και γιο',
-        ':family_with_two_fathers_and_son:',
-        'Οικογένεια: Άνθρωπος, Άνθρωπος, Αγόρι',
-        ':man:'
-    ],
-    '👨‍👨‍👧': [
-        'Οικογένεια με δύο πατέρες και κόρη',
-        ':family_with_two_fathers_and_daughter:',
-        'Οικογένεια: Άνθρωπος, Άνθρωπος, Κορίτσι',
-        ':man:'
     ],
     '👨‍👨‍👧‍👦': [
         'Οικογένεια με δύο πατέρες, τον γιο και την κόρη',
@@ -2281,18 +2411,6 @@ emojis_language[lang][3] = {
         'Οικογένεια: Άνθρωπος, Άνθρωπος, Κορίτσι, Κορίτσι',
         ':man:'
     ],
-    '👩‍👩‍👦': [
-        'Οικογένεια με δύο μητέρες και γιο',
-        ':family_with_two_mothers_and_son:',
-        'Οικογένεια: Γυναίκα, Γυναίκα, Αγόρι',
-        ':woman:'
-    ],
-    '👩‍👩‍👧': [
-        'Οικογένεια με δύο μητέρες και κόρη',
-        ':family_with_two_mothers_and_daughter:',
-        'Οικογένεια: Γυναίκα, Γυναίκα, Κορίτσι',
-        ':woman:'
-    ],
     '👩‍👩‍👧‍👦': [
         'Οικογένεια με δύο μητέρες, Υιός και κόρη',
         ':family_with_two_mothers_son_and_daughter:',
@@ -2311,6 +2429,11 @@ emojis_language[lang][3] = {
         'Οικογένεια: Γυναίκα, Γυναίκα, Κορίτσι, Κορίτσι',
         ':woman:'
     ],
+    '🧑‍🧒': [
+        'Family: Adult, Child',
+        ':family_adult_child:',
+        'Family: Person, Child'
+    ],
     '👨‍👦': [
         'Οικογένεια με τον πατέρα και τον γιο',
         ':family_with_father_and_son:',
@@ -2322,6 +2445,23 @@ emojis_language[lang][3] = {
         ':family_with_father_and_daughter:',
         'Οικογένεια: Άνθρωπος, Κορίτσι',
         ':man:'
+    ],
+    '👩‍👧': [
+        'Οικογένεια με τη μητέρα και την κόρη',
+        ':family_with_mother_and_daughter:',
+        'Οικογένεια: Γυναίκα, Κορίτσι',
+        ':woman:'
+    ],
+    '👨‍👧‍👧': [
+        'Οικογένεια με τον πατέρα και δύο κόρες',
+        ':family_with_father_and_two_daughters:',
+        'Οικογένεια: Άνθρωπος, Κορίτσι, Κορίτσι',
+        ':man:'
+    ],
+    '🧑‍🧒‍🧒': [
+        'Family: Adult, Child, Child',
+        ':family_adult_child_child:',
+        'Family: Person, Child, Child'
     ],
     '👨‍👦‍👦': [
         'Οικογένεια με τον πατέρα και δύο γιους',
@@ -2335,22 +2475,10 @@ emojis_language[lang][3] = {
         'Οικογένεια: Άνθρωπος, Κορίτσι, Αγόρι',
         ':man:'
     ],
-    '👨‍👧‍👧': [
-        'Οικογένεια με τον πατέρα και δύο κόρες',
-        ':family_with_father_and_two_daughters:',
-        'Οικογένεια: Άνθρωπος, Κορίτσι, Κορίτσι',
-        ':man:'
-    ],
     '👩‍👦': [
         'Οικογένεια με τη μητέρα και τον γιο',
         ':family_with_mother_and_son:',
         'Οικογένεια: Γυναίκα, Αγόρι',
-        ':woman:'
-    ],
-    '👩‍👧': [
-        'Οικογένεια με τη μητέρα και την κόρη',
-        ':family_with_mother_and_daughter:',
-        'Οικογένεια: Γυναίκα, Κορίτσι',
         ':woman:'
     ],
     '👩‍👦‍👦': [
@@ -2459,21 +2587,24 @@ emojis_language[lang][3] = {
     ],
     '🛌{{skin_tone}}': [
         'Καταλύματα Ύπνου',
-        'tired',
+        'κουρασμένος',
         ':sleeping_accommodation:',
-        'Person in Bed',
-        'Person Sleeping'
+        'Πρόσωπο σε κρεβάτι',
+        'Υπνηλία Άτομου'
     ],
     '🛀{{skin_tone}}': [
-        'Person Taking Bath',
-        'Bathing',
+        'Πρόσωπο Που Λαμβάνει Μπανιέρα',
+        'Κολύμβηση',
         ':bath:',
         ':person_taking_bath:',
-        'Hot Bath',
-        'Person Taking a Bath',
-        'Bath',
-        'Shower',
-        'Soap'
+        'Ζεστό Μπάνιο',
+        'Πρόσωπο που παίρνει ένα μπάνιο',
+        'Μπάνιο',
+        'Ντους',
+        'Σαπούνι',
+        'Tidy',
+        'Clean',
+        'Scrub'
     ],
     '🧌': [
         'Troll',
@@ -2917,7 +3048,12 @@ emojis_language[lang][4] = {
         ':hatching_chick:',
         'Παιδικό Κοτόπουλο',
         'Επεκκόλαψη Γκόμενα',
+        'Egg',
         ':yellow:'
+    ],
+    '🥚': [
+        'Egg',
+        ':egg:'
     ],
     '🐤': [
         'Μωρό Γκόμενα',
@@ -3217,6 +3353,44 @@ emojis_language[lang][4] = {
         ':nest_with_eggs:',
         'Πτηνά',
         'Αρχική'
+    ],
+    '🫏': [
+        'Donkey',
+        ':donkey:',
+        ':grey:',
+        ':gray:'
+    ],
+    '🫎': [
+        'Moose',
+        ':moose:',
+        'Moose Face',
+        ':brown:'
+    ],
+    '🪿': [
+        'Goose',
+        ':goose:',
+        ':white:'
+    ],
+    '🪼': [
+        'Jellyfish',
+        ':jellyfish:',
+        ':blue:'
+    ],
+    '🐦‍⬛': [
+        'Black bird',
+        ':black_bird:',
+        ':raven:',
+        'Raven',
+        'Crow',
+        'Rook',
+        ':black:'
+    ],
+    '🐦‍🔥': [
+        'Phoenix',
+        'Fire',
+        'Reborn',
+        ':phoenix:',
+        ':red:'
     ]
 };
 /*symbols*/
@@ -3294,15 +3468,15 @@ emojis_language[lang][5] = {
         ':red:'
     ],
     '❤️‍🩹': [
-        'Mending Heart',
+        'Καρδιά Mending',
         ':mending_heart:',
-        'Bandaged Heart',
-        'Healing Heart',
-        'Unbroken Heart',
+        'Καρδιά Με Συγκρατημένη',
+        'Καρδιά Θεραπείας',
+        'Αδιάσπαστη Καρδιά',
         ':red:'
     ],
     '❤️‍🔥': [
-        'Heart on Fire',
+        'Καρδιά στη φωτιά',
         ':heart_on_fire:',
         ':red:'
     ],
@@ -3367,9 +3541,27 @@ emojis_language[lang][5] = {
         'Σας Αγαπώ',
         ':brown:'
     ],
-    //"🩷": ["Pink Heart", ":pink_heart:", "I Love You", ":pink:"],
-    //"🩵": ["Light Blue Heart", ":lightblue_heart:", "I Love You", ":blue:"],
-    //"🩶": ["Grey Heart","Gray Heart", ":grey_heart:",":gray_heart:", "I Love You", ":gray:", ":grey:"],
+    '🩷': [
+        'Pink Heart',
+        ':pink_heart:',
+        'I Love You',
+        ':pink:'
+    ],
+    '🩵': [
+        'Light Blue Heart',
+        ':lightblue_heart:',
+        'I Love You',
+        ':blue:'
+    ],
+    '🩶': [
+        'Grey Heart',
+        'Gray Heart',
+        ':grey_heart:',
+        ':gray_heart:',
+        'I Love You',
+        ':gray:',
+        ':grey:'
+    ],
     '💯': [
         'Βαθμοί Εκατοντάδες',
         ':hundred_points:',
@@ -3825,7 +4017,12 @@ emojis_language[lang][5] = {
         'Έξι Σημεία Αστέρι με Middle Dot',
         ':purple:'
     ],
-    //"🪯": ["Khanda", ":khanda:", "Sikhism", ":purple:"],
+    '🪯': [
+        'Khanda',
+        ':khanda:',
+        'Sikhism',
+        ':purple:'
+    ],
     '♈': [
         'Κριός',
         ':aries:',
@@ -4686,7 +4883,16 @@ emojis_language[lang][5] = {
         'Έλεγχος Περιγράμματος',
         ':blue:'
     ],
-    //"🛜": ["Wireless", ":wireless:", ":wifi:", ":wi_fi:", "Wifi", "wi-fi", "wireless connection", ":blue:"],
+    '🛜': [
+        'Wireless',
+        ':wireless:',
+        ':wifi:',
+        ':wi_fi:',
+        'Wifi',
+        'wi-fi',
+        'wireless connection',
+        ':blue:'
+    ],
     '🚰': [
         'Σύμβολο Πόσιμου Νερού',
         ':potable_water_symbol:',
@@ -5371,11 +5577,24 @@ emojis_language[lang][6] = {
         ':broccoli:',
         ':green:'
     ],
+    '🍋‍🟩': [
+        'Lime',
+        ':lime:',
+        ':green:'
+    ],
     '🍄': [
         'Μανιτάρι',
         ':mushroom:',
         'Νεροκάρδαμο',
         'Toadstool'
+    ],
+    '🍄‍🟫': [
+        'Brown Mushroom',
+        ':brown_mushroom:',
+        'Mushroom',
+        'Shroom',
+        'Toadstool',
+        ':brown:'
     ],
     '🥜': [
         'Peanuts',
@@ -6005,13 +6224,18 @@ emojis_language[lang][7] = {
         'Σημαία Transgender',
         ':transgender_flag:',
         'Μπλε, ροζ, και άσπρη σημαία',
-        'Σημαία Trans'
+        'Σημαία Trans',
+        'Blue',
+        'Pink'
     ],
     '🏴‍☠️': [
         'Σημαία Πειρατών',
         ':pirate_flag:',
         'Jolly Roger',
-        ':black:'
+        ':black:',
+        'Corsair',
+        'Privateer',
+        'Buccaneer'
     ],
     '🇺🇳': [
         'Σημαία των Ηνωμένων Εθνών',
@@ -6435,25 +6659,25 @@ emojis_language[lang][7] = {
         'Union Jack',
         'UK'
     ],
-    '🏴󠁧󠁢󠁥󠁮󠁧󠁿󠁧󠁢󠁥󠁮󠁧󠁿': [
-        'Σημαία της Αγγλίας',
+    '🏴󠁧󠁢󠁥󠁮󠁧󠁿': [
+        'Flag of England',
         ':england:',
-        'Σταυρός Αγίου Γεωργίου',
-        'Σημαία Αγγλίας'
+        'St Georges Cross',
+        'English Flag'
     ],
-    '🏴󠁧󠁢󠁷󠁬󠁳󠁿󠁧󠁢󠁷󠁬󠁳󠁿': [
-        'Σημαία της Ουαλίας',
+    '🏴󠁧󠁢󠁷󠁬󠁳󠁿': [
+        'Flag of Wales',
         ':wales:',
-        'Ουαλική Σημαία',
-        'Κόκκινος Δράκος',
+        'Welsh Flag',
+        'Red Dragon',
         'Baner Cymru',
         'Y Ddraig Goch'
     ],
-    '🏴󠁧󠁢󠁳󠁣󠁴󠁿󠁧󠁢󠁳󠁣󠁴󠁿': [
-        'Σημαία της Σκωτίας',
+    '🏴󠁧󠁢󠁳󠁣󠁴󠁿': [
+        'Flag of Scotland',
         ':scotland:',
-        'Σημαία Σκωτίας',
-        'Σταυρός Αγίου Ανδρέα',
+        'Scottish Flag',
+        'St Andrews Cross',
         'Saltire'
     ],
     '🇬🇩': [
@@ -7365,7 +7589,7 @@ emojis_language[lang][8] = {
         'Σκιέρ',
         ':skier:'
     ],
-    '🏂{{skin_tone}}‍': [
+    '🏂{{skin_tone}}': [
         'Snowboarder',
         ':snowboarder:'
     ],
@@ -7678,6 +7902,24 @@ emojis_language[lang][8] = {
     '🏃{{skin_tone}}': [
         'Άτομο Που Εκτελείται',
         ':person_running:',
+        ':running:',
+        ':person:'
+    ],
+    '🏃{{skin_tone}}‍♂️‍➡️': [
+        'Man Running Facing Right',
+        ':man_running_facing_right:',
+        ':running:',
+        ':man:'
+    ],
+    '🏃{{skin_tone}}‍♀️‍➡️': [
+        'Woman Running Facing Right',
+        'woman_running_facing_right:',
+        ':running:',
+        ':woman:'
+    ],
+    '🏃{{skin_tone}}‍➡️': [
+        'Person Running Facing Right',
+        ':person_running_facing_right:',
         ':running:',
         ':person:'
     ],
@@ -8592,7 +8834,8 @@ emojis_language[lang][10] = {
         ':mobile_phone:',
         'Έξυπνο',
         'iPhone',
-        'Κινητό Τηλέφωνο'
+        'Κινητό Τηλέφωνο',
+        'Device'
     ],
     '📲': [
         'Κινητό τηλέφωνο με δεξιό βέλος στα αριστερά',
@@ -8611,7 +8854,8 @@ emojis_language[lang][10] = {
         ':phone:',
         'Handset',
         'Τηλέφωνο',
-        ':black:'
+        ':black:',
+        'Device'
     ],
     '📟': [
         'Βομβητής',
@@ -8641,25 +8885,31 @@ emojis_language[lang][10] = {
     '💻': [
         'Φορητό',
         ':laptop:',
-        'Σημειωματάριο',
-        'Προσωπικός Υπολογιστής',
+        ':computer:',
+        'Notebook',
+        'Personal Computer',
         'PC',
         'MacBook',
-        'Επιφάνεια'
+        'Surface',
+        'Device'
     ],
     '🖥️': [
         'Υπολογιστής Επιφάνειας Εργασίας',
         ':desktop_computer:',
+        ':computer:',
         'iMac',
-        'PC'
+        'PC',
+        'Device'
     ],
     '🖨️': [
         'Εκτυπωτές',
-        ':printer:'
+        ':printer:',
+        'Device'
     ],
     '⌨️': [
-        'Keyboard',
-        ':keyboard:'
+        'Computer Keyboard',
+        ':keyboard:',
+        ':computer_keyboard:'
     ],
     '🖱️': [
         'Ποντίκι Υπολογιστή',
@@ -9293,7 +9543,12 @@ emojis_language[lang][11] = {
     ],
     '🩲': [
         'Σλιπ',
-        ':briefs:'
+        ':briefs:',
+        'Undies',
+        'Underwear',
+        'Underpants',
+        'Jocks',
+        'Panties'
     ],
     '🩳': [
         'Σορτς',
@@ -9681,6 +9936,14 @@ emojis_language[lang][12] = {
         ':selfie:',
         'Κάμερα Τηλεφώνου',
         'Χέρι Selfie'
+    ],
+    '🫸{{skin_tone}}': [
+        'Rightwards Pushing Hand',
+        ':rightwards_pushing_hand:'
+    ],
+    '🫷{{skin_tone}}': [
+        'Leftwards Pushing Hand',
+        ':leftwards_pushing_hand:'
     ]
 };
 /*other*/
@@ -10317,9 +10580,24 @@ emojis_language[lang][13] = {
         'Ηρεμία',
         'Γενοκτονία'
     ],
-    //"🪻": ["Hyacinth", ":hyacinth:", "Purple flower", ":purple:"],
-    //"🫛": ["Pea Pod", ":pea_pod:", ":green:"],
-    //"🫚": ["Ginger root", ":ginger:", "Spice", "Flavour", ":brown:"],
+    '🪻': [
+        'Hyacinth',
+        ':hyacinth:',
+        'Purple flower',
+        ':purple:'
+    ],
+    '🫛': [
+        'Pea Pod',
+        ':pea_pod:',
+        ':green:'
+    ],
+    '🫚': [
+        'Ginger root',
+        ':ginger:',
+        'Spice',
+        'Flavour',
+        ':brown:'
+    ],
     '🔑': [
         'Κλειδί',
         ':key:',
@@ -10347,7 +10625,7 @@ emojis_language[lang][13] = {
     '🪓': [
         'Τσεκούρια',
         ':axe:',
-        'firefighter'
+        'πυροσβέστης'
     ],
     '🪚': [
         'Πριόνι Ξυλουργικής',
@@ -10442,10 +10720,6 @@ emojis_language[lang][13] = {
         ':magnet:',
         ':red:'
     ],
-    '⛓️': [
-        'Αλυσίδες',
-        ':chains:'
-    ],
     '💉': [
         'Syringe',
         ':syringe:',
@@ -10453,8 +10727,8 @@ emojis_language[lang][13] = {
         'Δοκιμή Αίματος',
         'Βελόνα',
         'Εμβολιασμός',
-        'blood',
-        'sick',
+        'αίμα',
+        'άρρωστος',
         'ill'
     ],
     '🧬': [
@@ -10545,7 +10819,10 @@ emojis_language[lang][13] = {
     ],
     '🧼': [
         'Ράβδος του σαπουνιού',
-        ':bar_of_soap:'
+        ':bar_of_soap:',
+        'Tidy',
+        'Clean',
+        'Scrub'
     ],
     '🧽': [
         'Σφουγγάρι',
@@ -10591,12 +10868,26 @@ emojis_language[lang][13] = {
         ':balance_scale:',
         'Κλίμακες της δικαιοσύνης'
     ],
+    '⛓️': [
+        'Αλυσίδες',
+        ':chains:'
+    ],
     '🔗': [
         'Σύνδεσμος',
         ':link:',
         'Αλυσίδα',
         'Υπερσύνδεσμος',
         'Συνδεδεμένη Αλυσίδα',
+        ':gray:',
+        ':grey:'
+    ],
+    '⛓️‍💥': [
+        'Broken chain',
+        ':broken_chain:',
+        'Chain',
+        'Hyperlink',
+        'Linked Chain',
+        'Unlinked chain',
         ':gray:',
         ':grey:'
     ],
@@ -10695,7 +10986,8 @@ emojis_language[lang][13] = {
         '£20 Σημείωση',
         'Είκοσι Γρήγορη Σημείωση',
         'Τραπεζογραμμάτιο με σημάδι λίρας',
-        ':purple:'
+        ':purple:',
+        'Money'
     ],
     '💶': [
         'Euro Banknote',
@@ -10703,7 +10995,8 @@ emojis_language[lang][13] = {
         ':euro_banknote:',
         '€100 Σημείωση',
         'Τραπεζογραμμάτιο με Ευρώ',
-        ':blue:'
+        ':blue:',
+        'Money'
     ],
     '💵': [
         'Τραπεζογραμμάτιο Δολαρίου',
@@ -10713,7 +11006,8 @@ emojis_language[lang][13] = {
         'Banknote with Dollar Sign',
         'Λογαριασμός Δολαρίου',
         'Δολάριο Αμερικής',
-        ':green:'
+        ':green:',
+        'Money'
     ],
     '💴': [
         'Τραπεζογραμμάτιο Γιεν',
@@ -10722,7 +11016,8 @@ emojis_language[lang][13] = {
         '◆ Σημείωση 1000',
         'Σημείωση Yen',
         'Banknote with Yen Sign',
-        ':yellow:'
+        ':yellow:',
+        'Money'
     ],
     '⛺': [
         'Σκηνή Κατασκήνωσης',
@@ -10811,7 +11106,7 @@ emojis_language[lang][13] = {
     '💣': [
         'Βόμβα',
         ':bomb:',
-        'boom'
+        'έκρηξη'
     ],
     '🔪': [
         'Μαχαίρι Κουζίνας',
@@ -10945,13 +11240,24 @@ emojis_language[lang][13] = {
         'Hourglass Done',
         ':hourglass:',
         ':hourglass_done:',
-        'Hourglass'
+        'Hourglass',
+        'Time',
+        'Egg timer',
+        'Empty',
+        'Ended',
+        'Finished',
+        'Sand Clock'
     ],
     '⏳': [
         'Hourglass Δεν Έγινε',
         ':hourglass_flowing_sand:',
         ':hourglass_not_done:',
-        'Hourglass με ρέοντας άμμο'
+        'Hourglass με ρέοντας άμμο',
+        'Busy',
+        'Time',
+        'Egg timer',
+        'Flowing',
+        'Sand Clock'
     ],
     '🕐': [
         'Ένα OClock',
@@ -10959,14 +11265,16 @@ emojis_language[lang][13] = {
         ':one_oclock:',
         'Ρολόι Πρόσωπο One OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕜': [
         'Ρολόι Πρόσωπο One-Thirty',
         ':clock130:',
         ':one_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕑': [
         'Δύο OClock',
@@ -10974,14 +11282,16 @@ emojis_language[lang][13] = {
         ':two_oclock:',
         'Ρολόι Πρόσωπο Δύο Oclock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕝': [
         'Ρολόι Πρόσωπο Δύο-Τριάντα',
         ':clock230:',
         ':two_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕒': [
         'Τρεις OClock',
@@ -10989,14 +11299,16 @@ emojis_language[lang][13] = {
         ':three_oclock:',
         'Ρολόι Πρόσωπο Τρεις OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕞': [
         'Ρολόι Πρόσωπο Τρία-Τριάντα',
         ':clock330:',
         ':three_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕓': [
         'Τέσσερις OClock',
@@ -11004,14 +11316,16 @@ emojis_language[lang][13] = {
         ':four_oclock:',
         'Ρολόι Πρόσωπο Τέσσερις Oclock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕟': [
         'Ρολόι Πρόσωπο Τέσσερι-Τριάντα',
         ':clock430:',
         ':four_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕔': [
         'Πέντε OClock',
@@ -11019,14 +11333,16 @@ emojis_language[lang][13] = {
         ':five_oclock:',
         'Ρολόι Πρόσωπο Πέντε OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕠': [
         'Πέντε-Τριάντα Πρόσωπο Ρολογιού',
         ':clock530:',
         ':five_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕕': [
         'Έξι OClock',
@@ -11034,14 +11350,16 @@ emojis_language[lang][13] = {
         ':size_oclock:',
         'Ρολόι Πρόσωπο Έξι OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕡': [
         'Πρόσωπο Ρολόι Έξι-Τριάντα',
         ':clock630:',
         ':six_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕖': [
         'Επτά OClock',
@@ -11049,14 +11367,16 @@ emojis_language[lang][13] = {
         ':seven_oclock:',
         'Ρολόι Πρόσωπο Επτά OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕢': [
         'Ρολόι Πρόσωπο Επτά-Τριάντα',
         ':clock730:',
         ':sever_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕗': [
         'Οκτώ OClock',
@@ -11064,14 +11384,16 @@ emojis_language[lang][13] = {
         ':eight_oclock:',
         'Οχτώ OClock Προσώπου Ρολογιού',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕣': [
         'Ογδόντα-Τριάντα Προσώπου Ρολογιού',
         ':clock830:',
         ':eight_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕘': [
         'Εννέα OClock',
@@ -11079,14 +11401,16 @@ emojis_language[lang][13] = {
         ':nine_clock:',
         'Πρόσωπο Ρολόι Εννέα OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕤': [
         'Πρόσωπο Ρολόι Εννοί-Τριάντα',
         ':clock930:',
         ':nine_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕙': [
         'Δέκα OClock',
@@ -11094,14 +11418,16 @@ emojis_language[lang][13] = {
         ':ten_oclock:',
         'Ρολόι Πρόσωπο Δέκα OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕥': [
         'Ρολόι Πρόσωπο Δεν-Τριάντα',
         ':clock1030:',
         ':ten_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕚': [
         'Eleven OClock',
@@ -11109,14 +11435,16 @@ emojis_language[lang][13] = {
         ':eleven_oclock:',
         'Ρολόι Πρόσωπο Έντεκα OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕦': [
         'Ρολόι Πρόσωπο Έντεκα Τριάντα',
         ':clock1130:',
         ':eleven_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕛': [
         'Δώδεκα OClock',
@@ -11124,14 +11452,16 @@ emojis_language[lang][13] = {
         ':twelve_oclock:',
         'Ρολόι Πρόσωπο Δώδεκα OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕧': [
         'Ρολόι Πρόσωπο Δώδεκα-Τριάντα',
         ':clock1230:',
         ':twelve_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '♨️': [
         'Καυτά ελατήρια',
@@ -11171,7 +11501,7 @@ emojis_language[lang][13] = {
         ':white:'
     ],
     '🗨️': [
-        'Left Speech Bubble',
+        'Αριστερή Φούσκα Ομιλίας',
         ':left_speech_bubble:',
         ':speech_left:'
     ],
@@ -11181,7 +11511,7 @@ emojis_language[lang][13] = {
         'Καψάκιο',
         'Δισκίο',
         'Ναρκωτικά',
-        'Sick',
+        'Άρωστο',
         'ill',
         ':yellow:',
         ':red:'
@@ -11312,27 +11642,34 @@ emojis_language[lang][13] = {
         ':shopping_bags:'
     ],
     '🛒': [
-        'Shopping Cart',
+        'Καλάθι Αγορών',
         ':shopping_cart:',
-        'Shopping Trolley',
+        'Καροτσάκι Αγορών',
         ':shopping_trolley:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Market'
     ],
     '🎟️': [
         'Αιτήματα Εισαγωγής',
-        ':admission_tickets:'
+        ':admission_tickets:',
+        'Theater',
+        'Theatre',
+        'Party'
     ],
     '🛎️': [
         'Bellhop Bell',
         ':bellhop_bell:',
         ':yellow:',
-        ':gold:'
+        ':gold:',
+        'Hotel',
+        'Reception'
     ],
     '🧾': [
         'Απόδειξη',
         ':receipt:',
-        ':white:'
+        ':white:',
+        'Bill'
     ],
     '🧮': [
         'Abacus',
@@ -11347,7 +11684,9 @@ emojis_language[lang][13] = {
         ':broom:',
         'Πινέλο',
         'Σάρωση',
-        ':yellow:'
+        ':yellow:',
+        'Tidy',
+        'Clean'
     ],
     '🎰': [
         'Κουλοχέρη',
@@ -11360,11 +11699,20 @@ emojis_language[lang][13] = {
     '🦽': [
         'Χειροκίνητη αναπηρική καρέκλα',
         ':manual_wheelchair:',
-        ':wheelchair:'
+        ':wheelchair:',
+        'invalid',
+        'disability',
+        'accessibility',
+        'mobility'
     ],
     '🦼': [
         'Μηχανοκίνητη Αναπηρική Καρέκλα',
-        ':motorized_wheelchair:'
+        ':motorized_wheelchair:',
+        ':wheelchair:',
+        'invalid',
+        'disability',
+        'accessibility',
+        'mobility'
     ],
     '🪔': [
         'Λαμπτήρας Diya',
@@ -11389,7 +11737,8 @@ emojis_language[lang][13] = {
     ],
     '🪶': [
         'Φτερό',
-        ':feather:'
+        ':feather:',
+        'Animal'
     ],
     '🪤': [
         'Παγίδα Ποντικιού',
@@ -11519,7 +11868,11 @@ emojis_language[lang][13] = {
         ':low_battery:',
         ':red:',
         'Ενέργεια',
-        'Κόκκινο'
+        'Κόκκινο',
+        'Device',
+        'Smartphone',
+        'Computer',
+        'Console'
     ],
     '🩻': [
         'X-Ray',
@@ -11540,7 +11893,10 @@ emojis_language[lang][13] = {
         ':identification_card:',
         'Ταυτότητα',
         'Διαβατήριο',
-        'ID'
+        'ID',
+        'Country',
+        'Security',
+        'Travel'
     ],
     '🧿': [
         'Nazar Amulet',
@@ -11552,6 +11908,43 @@ emojis_language[lang][13] = {
         'Αρκουδάκι',
         ':teddy_bear:',
         'Παιχνίδι',
+        ':brown:',
+        'Baby',
+        'Child',
+        'Children'
+    ],
+    '🪽': [
+        'Wing',
+        ':wing:',
+        'Fly',
+        ':white:'
+    ],
+    '🪭': [
+        'Folding Hand Fan',
+        ':folding_hand_fan:',
+        'Fan',
+        'Manual fan',
+        'Summer',
+        ':red:'
+    ],
+    '🪮': [
+        'Hair Pick',
+        ':hair_pick:',
+        'Black culture',
+        'Black pride',
+        ':black:'
+    ],
+    '🪈': [
+        'Flute',
+        ':flute:',
+        'Plastic flute',
+        'Metal plute',
+        'Bamboo flute',
+        'Musical instrument',
         ':brown:'
+    ],
+    '🪇': [
+        'Maracas',
+        ':maracas:'
     ]
 };

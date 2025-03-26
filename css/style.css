@@ -83,6 +83,8 @@ body {
     overflow: hidden;
     overflow-y: auto;
     z-index: 0;
+    border-top: 1px solid rgb(201, 202, 203);
+    margin-top: 1px;
 }
 
 #emoji-skin-choose {
@@ -94,7 +96,8 @@ body {
     overflow: hidden;
     overflow-y: auto;
     border-radius: 5px;
-    border: 2px solid #3399ff;
+    /*border: 2px solid #3399ff;*/
+    box-shadow: 0px 0px 5px 0px rgba(177, 214, 252, 0.4);
     z-index: 5;
     display: none;
     top: 0px;
@@ -120,6 +123,11 @@ body {
     transition: 0.1s;
     box-sizing: border-box;
     font-family: inherit;
+    text-align: center;
+}
+
+.emoji {
+    background: transparent;
 }
 
 .emoji {
@@ -135,7 +143,7 @@ body {
 .review-button:hover,
 .message-button:hover,
 .button:hover {
-    background-color: rgb(221, 222, 223);
+    background-color: rgba(221, 222, 223, 0.8);
 }
 
 .emoji:active,
@@ -143,7 +151,7 @@ body {
 .review-button:active,
 .message-button:active,
 .button:active, .button:focus {
-    box-shadow: 0px 0px 0px 2px #3399ff, 0px 0px 0px 5px #b1d6fc;
+    box-shadow: 0px 0px 0px 2px rgba(177, 214, 252, 0.8), 0px 0px 0px 5px rgba(51, 153, 255, 0.2);
     z-index: 9;
 }
 
@@ -193,30 +201,24 @@ body {
     padding: 3px;
     color: rgb(10, 132, 255);
     border: 0px;
-    border-radius: 0px;
     font-size: 16px;
-    /*border-top: 3px solid rgb(10, 132, 255);*/
-    border-top: 3px solid transparent;
-    border-bottom: 1px solid rgb(201, 202, 203);
     font-family: inherit;
     margin: 0px;
     cursor: pointer;
     position: relative;
     font-weight: bold;
     transition: 0.1s;
+    border-radius: 5px;
+    border: 0px solid transparent;
+    text-align: center;
 }
 
 .section-title:hover, .letter:hover {
-    background-color: rgba(221, 222, 223, 0.3);
+    background-color: rgba(221, 222, 223, 0.5);
 }
 
-.section-title:focus {
-    background-color: rgba(231, 232, 233, 0.3);
-    border-top: 3px solid rgba(201, 202, 203, 0.3);
-}
-
-.section-title:active {
-    background-color: rgba(201, 202, 203, 0.3);
+.section-title:focus, .section-title:active {
+    background-color: rgba(201, 202, 203, 0.5);
 }
 
 
@@ -321,7 +323,7 @@ div#top-message, div#import-message, div#export-message {
 }
 
 #top-message a.button-release:focus {
-    box-shadow: 0px 0px 0px 2px #3399ff, 0px 0px 0px 5px #b1d6fc;
+    box-shadow: 0px 0px 0px 2px rgba(177, 214, 252, 0.8), 0px 0px 0px 5px rgba(51, 153, 255, 0.2);
 }
 
 .font-twemoji {
@@ -338,6 +340,11 @@ div#top-message, div#import-message, div#export-message {
 
 .font-openmojicolor {
     font-family: openmoji-color, sans-serif;
+    color: #000000 !important;
+
+    .emoji, .section-title {
+        color: #000000;
+    }
 }
 
 .font-openmojiblack {
@@ -508,8 +515,8 @@ div#review-message-buttons, div#top-message-buttons, div.message-buttons-contain
 }
 
 .import-export-textarea:focus, .import-export-textarea:active {
-    box-shadow: 0px 0px 0px 2px #3399ff, 0px 0px 0px 5px #b1d6fc;
-    border: 1px solid #3399ff;
+    box-shadow: 0px 0px 0px 2px rgba(177, 214, 252, 0.8), 0px 0px 0px 5px rgba(51, 153, 255, 0.2);
+    border: 1px solid rgba(177, 214, 252, 0.8);
     z-index: 2;
     transition: 0.5s;
 }
@@ -524,8 +531,8 @@ div#review-message-buttons, div#top-message-buttons, div.message-buttons-contain
 }
 
 #search-bar-input:focus {
-    border: 1px solid #3399ff;
-    box-shadow: 0px 0px 0px 2px #3399ff, 0px 0px 0px 5px #b1d6fc;
+    border: 1px solid rgba(177, 214, 252, 0.8);
+    box-shadow: 0px 0px 0px 2px rgba(177, 214, 252, 0.8), 0px 0px 0px 5px rgba(51, 153, 255, 0.2);
 }
 
 #search-box {
@@ -667,20 +674,20 @@ div {
     background-color: inherit;
 }
 
-#made-in-basilicata-settings, .text-in-settings {
+#made-in-trentino-settings, .text-in-settings {
     width: auto;
     text-align: center;
     font-size: 14px;
     margin: 0px;
     background-color: inherit;
-    border-top: 1px solid #3399ff;
+    border-top: 1px solid rgba(177, 214, 252, 0.8);
     box-sizing: border-box;
     padding: 10px;
     font-family: open-sans, sans-serif;
 }
 
 .border-top {
-    border-top: 1px solid #3399ff;
+    border-top: 1px solid rgba(177, 214, 252, 0.8);
     padding: 10px;
 }
 
@@ -721,19 +728,20 @@ div {
 
 .select {
     width: 140px;
+    width: auto;
     font-size: 14px;
     height: 30px;
     background-color: #F5F5F5;
     padding: 5px;
     padding-left: 15px;
-    padding-right: 15px;
+    padding-right: 35px;
     color: black;
     border: 0px;
     border-radius: 5px;
     font-family: open-sans, sans-serif;
     background-image: url("../img/arrow-select.png");
     background-repeat: no-repeat;
-    background-position: 110px center;
+    background-position: center right 15px;
     background-size: 10px auto;
     margin: 5px;
     cursor: pointer;
@@ -750,23 +758,23 @@ div {
 }
 
 .select:focus, .select:active {
-    box-shadow: 0px 0px 0px 2px #3399ff, 0px 0px 0px 5px #b1d6fc;
+    box-shadow: 0px 0px 0px 2px rgba(177, 214, 252, 0.8), 0px 0px 0px 5px rgba(51, 153, 255, 0.2);
     z-index: 9;
 }
 
 .select-small {
-    width: 100px;
-    background-position: 70px center;
+    /*width: 100px;*/
+    /*background-position: 70px center;*/
 }
 
 .select-big {
-    width: 150px;
-    background-position: 120px center;
+    /*width: 150px;*/
+    /*background-position: 120px center;*/
 }
 
 .select-extra-big {
-    width: 250px;
-    background-position: 220px center;
+    /*width: 250px;*/
+    /*background-position: 220px center;*/
 }
 
 /*Dark and light themes*/
@@ -797,6 +805,10 @@ div {
     color: #EEEEEE;
 }
 
+.dark-button-emoji {
+    background: transparent;
+}
+
 .light-settings-button,
 .light-btn-settings-button,
 .light-delete-button,
@@ -808,7 +820,7 @@ div {
 .dark-btn-settings-button,
 .dark-delete-button,
 .dark-finish-edit-button {
-    background-color: rgb(70, 70, 70);
+    background-color: rgb(70, 70, 70, 0.8);
     color: #EEEEEE;
 }
 
@@ -820,6 +832,10 @@ div {
 
 .dark-select:hover {
     background-color: rgb(50, 50, 50);
+}
+
+.dark-text {
+    color: #EEEEEE;
 }
 
 .dark-search-bar-input, .textarea-dark {
@@ -912,12 +928,12 @@ div {
 }
 
 .skin-tone-button:active, .skin-tone-button:focus, .extension-icon-button:active, .extension-icon-button:focus {
-    box-shadow: 0px 0px 0px 1px #3399ff, 0px 0px 0px 4px #b1d6fc;
-    border: 1px solid #3399ff;
+    box-shadow: 0px 0px 0px 1px rgba(51, 153, 255, 0.8), 0px 0px 0px 4px rgba(177, 214, 252, 0.8);
+    border: 1px solid rgba(51, 153, 255, 0.8);
 }
 
 .skin-tone-button-selected, .extension-icon-button-selected {
-    border: 2px solid #3399ff;
+    border: 2px solid rgba(51, 153, 255, 0.8);
 }
 
 #skin-standard {
@@ -1018,7 +1034,8 @@ div {
 }
 
 .button-yes-no {
-    border: 2px solid #3399ff;
+    /*border: 2px solid #3399ff;*/
+    border: 0px solid transparent;
     background: transparent;
     min-width: 50px;
     width: auto;
@@ -1031,10 +1048,13 @@ div {
     transition: 0.2s;
     position: relative;
     z-index: 8;
+    padding: 0px 10px;
+    box-sizing: border-box;
 }
 
 .emoji-size-button {
-    border: 2px solid #3399ff;
+    /*border: 2px solid #3399ff;*/
+    border: 0px solid transparent;
     background: transparent;
     display: inline-block;
     opacity: 1;
@@ -1047,8 +1067,16 @@ div {
     padding: 0px;
 }
 
+.button-yes-no-dark, .background-button-dark {
+    background-color: rgb(70, 70, 70);
+}
+
+.button-yes-no-light, .background-button-light {
+    background-color: #F5F5F5;
+}
+
 .button-yes-no:hover {
-    background-color: #3399ff44;
+    background-color: rgba(177, 214, 252, 0.8);
 }
 
 .button-yes-no-selected {
@@ -1057,7 +1085,7 @@ div {
 }
 
 .button-yes-no-selected:hover {
-    background-color: #3399ff;
+    background-color: rgba(177, 214, 252, 0.8);
 }
 
 
@@ -1075,8 +1103,8 @@ div {
 }
 
 .button-yes-no:active, .button-yes-no:focus {
-    box-shadow: 0px 0px 0px 0px #3399ff, 0px 0px 0px 3px #b1d6fc;
-    border: 2px solid #3399ff;
+    box-shadow: 0px 0px 0px 2px rgba(177, 214, 252, 0.8), 0px 0px 0px 5px rgba(51, 153, 255, 0.2);
+    border: 0px solid rgba(177, 214, 252, 0.8);
     position: relative;
     z-index: 9;
     border-radius: 5px;
@@ -1111,18 +1139,21 @@ div {
 }
 
 .section-title-selected {
-    border-top: 3px solid rgb(10, 132, 255);
-    background-color: rgba(10, 132, 255, 0.1);
+    background-color: rgba(10, 132, 255, 0.2);
+    border-radius: 5px;
+    border: 0px solid transparent;
 }
 
 .section-title-selected:hover {
-    border-top: 3px solid rgb(10, 132, 255);
-    background-color: rgba(10, 132, 255, 0.2);
+    background-color: rgba(10, 132, 255, 0.3);
+    border-radius: 5px;
+    border: 0px solid transparent;
 }
 
 .section-title-selected:active, .section-title-selected:focus {
-    border-top: 3px solid rgb(10, 132, 255);
-    background-color: rgba(10, 132, 255, 0.3);
+    background-color: rgba(10, 132, 255, 0.45);
+    border-radius: 5px;
+    border: 0px solid transparent;
 }
 
 .margin-left-15 {
@@ -1148,4 +1179,33 @@ div {
 
 .forced-light-background {
     background-color: #F5F5F5;
+}
+
+
+/*The section in "Release notes" for the 5th birthday of the Emoji add-on*/
+.fifth-birthday {
+    margin: 5px;
+    background: padding-box;
+    padding: 10px;
+    background-color: rgba(177, 214, 252, 0.5);
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 600;
+
+    br {
+        display: block;
+        margin: 10px;
+    }
+
+    .thanks {
+        font-size: 1.5em;
+        font-weight: 600;
+    }
+
+    a {
+        font-weight: 500;
+        cursor: default;
+        padding: 2px 5px !important;
+        user-select: none;
+    }
 }

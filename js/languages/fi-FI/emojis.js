@@ -131,13 +131,13 @@ emojis_language[lang][2] = {
     ],
     '😍': [
         'Hymyilevä kasvot sydämen silmillä',
-        'love',
+        'rakkaus',
         ':smiling_heart-eyes:',
         ':smiling_heart_eyes:',
         ':*.*:',
-        'Heart Eyes',
-        'Heart Face',
-        'Smiling Face with Heart-Shaped Eyes'
+        'Sydän Silmät',
+        'Sydän Kasvot',
+        'Hymyilevä kasvot sydämen muotoisilla silmillä'
     ],
     '🤩': [
         'Tähtikuorma',
@@ -151,22 +151,22 @@ emojis_language[lang][2] = {
     ],
     '😘': [
         'Kasvojen kyntä suudella',
-        'love',
+        'rakkaus',
         ':kissing_face:',
         '::*:',
         '::-*:',
-        'Blow A Kiss',
-        'Blowing Kiss',
-        'Kissing',
-        'Face Throwing a Kiss'
+        'Blow Kiss',
+        'Kirjoitettava Suudelma',
+        'Suudella',
+        'Kasvot Suudella heittäminen'
     ],
     '😗': [
         'Suudella Kasvolla',
-        'kiss',
+        'suudella',
         ':kissing_face:',
         '::*:',
         '::-*:',
-        'Duck Face',
+        'Ankan Kasvot',
         'Kissy Face',
         'Whistling'
     ],
@@ -282,14 +282,14 @@ emojis_language[lang][2] = {
     ],
     '🤐': [
         'Postinumero',
-        'silent',
-        'silence',
+        'hiljainen',
+        'hiljaisuus',
         ':zip_face:',
-        'Zipper-Mouth Face',
-        'Lips Sealed',
-        'Sealed Lips',
-        'Zip It',
-        'Face With a Zipper Mouth'
+        'Zipper-Mouth Kasvot',
+        'Huulet Suljettu',
+        'Sinetöidyt Huulet',
+        'Postinumero',
+        'Kasvot Vetoketju suuhun'
     ],
     '🤨': [
         'Kasvot koholla kulmakarva',
@@ -398,18 +398,18 @@ emojis_language[lang][2] = {
     ],
     '🥱': [
         'Yawning Face',
-        'tired',
+        'väsynyt',
         ':yawning_face:'
     ],
     '😷': [
         'Kasvot lääketieteellisen naamio',
-        'sick',
+        'sairas',
         'doc',
         ':face_with_medical_mask:',
-        'Coronavirus',
+        'Koronavirus',
         'COVID-19',
-        'Mask Face',
-        'Surgical Mask',
+        'Maskin Kasvot',
+        'Kirurginen Maski',
         'ill'
     ],
     '🤒': [
@@ -422,28 +422,28 @@ emojis_language[lang][2] = {
     ],
     '🤕': [
         'Kasvot pääsiimalla',
-        'hospital',
-        'sick',
+        'sairaala',
+        'sairas',
         ':face_with_head-bandage:',
         ':face_with_head_bandage:',
-        'Bandaged Head',
-        'Clumsy',
+        'Silmukka Päätä',
+        'kömpelö',
         'Injured',
         'ill'
     ],
     '🤢': [
         'Pahoinvoitu Kasvot',
-        'sick',
+        'sairas',
         ':nauseated_face:',
-        'Disgust',
-        'Green Face',
+        'Hämmästyttää',
+        'Vihreä Kasvot',
         'Vomit',
         ':green:',
         'ill'
     ],
     '🤮': [
         'Face Oksentelu',
-        'sick',
+        'sairas',
         ':face_vomiting:',
         'Spew',
         'Bleah',
@@ -452,14 +452,14 @@ emojis_language[lang][2] = {
         'Yuck',
         'Ew',
         'Spew',
-        'Throwing Up',
+        'Heittää Ylöspäin',
         'Vomit',
-        'Face with Open Mouth Vomiting',
+        'Kasvot Open Mouth Oksentelu',
         'ill'
     ],
     '🤧': [
         'Aivastelu Kasvot',
-        'sick',
+        'sairas',
         ':sneezing_face:',
         'Gesundheit',
         'ill'
@@ -492,9 +492,9 @@ emojis_language[lang][2] = {
     ],
     '🤯': [
         'Räjähtävä Päähaara',
-        'boom',
+        'puomi',
         ':exploding_head:',
-        'Mind Blown',
+        'Mieli Blown',
         'Shocked Face with Exploding Head'
     ],
     '🤠': [
@@ -603,6 +603,13 @@ emojis_language[lang][2] = {
         ':D::',
         'Yawning'
     ],
+    '😧': [
+        'Anguished Face',
+        ':anguished_face:',
+        ':anguished:',
+        ':D::',
+        'Pained Face'
+    ],
     '😨': [
         'Pelottava',
         ':scared:',
@@ -699,10 +706,10 @@ emojis_language[lang][2] = {
         'Kiinnitä Kasvot',
         'fuck',
         ':pouting_face:',
-        'Angry Face',
+        'Vihainen Kasvot',
         'Grumpy Face',
-        'Mad Face',
-        'Red Face',
+        'Hullu Kasvot',
+        'Punaiset Kasvot',
         ':red:'
     ],
     '😠': [
@@ -716,12 +723,12 @@ emojis_language[lang][2] = {
         'fuck',
         ':swearing:',
         '@#$%&!',
-        'Face with Symbols on Mouth',
-        'Cursing',
-        'Cussing',
+        'Kasvot ja symbolit suun',
+        'Hoitotyö',
+        'Nostetaan',
         'Grawlix',
-        'Face With Symbols Over Mouth',
-        'Serious Face with Symbols Covering Mouth',
+        'Kasvot Symbolit Yli Suun',
+        'Vakava kasvot symbolit kaareva Suun',
         ':red:'
     ],
     '🥲': [
@@ -739,12 +746,12 @@ emojis_language[lang][2] = {
         'Dizzy Face'
     ],
     '😶‍🌫️': [
-        'Face in Clouds',
-        'smoke',
+        'Kasvot pilvissä',
+        'savua',
         ':face_in_clouds:',
         'Brain Fog',
-        'Forgetful',
-        'Haze'
+        'Unohtuisa',
+        'Sumua'
     ],
     '🥸': [
         'Peitetyt Kasvot',
@@ -783,7 +790,18 @@ emojis_language[lang][2] = {
         'Kasvot Pidossa Taaksepäin',
         ':face_holding_back_tears:'
     ],
-    //"🫨": ["Shaking Face", ":shaking_face:"],
+    '🫨': [
+        'Shaking Face',
+        ':shaking_face:'
+    ],
+    '🙂‍↔️': [
+        'Head Shaking Horizontally',
+        ':head_shaking_horizontally:'
+    ],
+    '🙂‍↕️': [
+        'Head Shaking Vertically',
+        ':head_shaking_vertically:'
+    ],
     '😈': [
         'Hymyilevä kasvot sarvten kanssa',
         ':smiling_face_with_horns:',
@@ -900,12 +918,12 @@ emojis_language[lang][3] = {
         'Aikuinen',
         ':person:'
     ],
-    '🧑{{skin_tone}}': [
-        'Henkilö: Suunta',
+    '🧔{{skin_tone}}': [
+        'Person: Beard',
         ':person_beard:',
-        'Koru',
-        'Suunta Henkilö',
-        'Suunta Henkilö',
+        'Beard',
+        'Bearded Person',
+        'Bearded Person',
         ':person:'
     ],
     '🧑{{skin_tone}}‍🦰': [
@@ -1069,18 +1087,18 @@ emojis_language[lang][3] = {
         'Cupid',
         'Putto'
     ],
-    '👨{{skin_tone}}‍🎄': [
+    '🎅{{skin_tone}}': [
         'Santa Claus',
         ':santa_claus:',
         'Saint Nicholas',
         'Sinterklaas',
-        'Isä Joulu',
+        'Father Christmas',
         ':man:'
     ],
-    '👩{{skin_tone}}‍🎄': [
-        'Claus',
+    '🤶{{skin_tone}}': [
+        'Mrs Claus',
         ':mrs_claus:',
-        'Äiti Joulu',
+        'Mother Christmas',
         ':woman:'
     ],
     '🧑{{skin_tone}}‍🎄': [
@@ -1250,11 +1268,11 @@ emojis_language[lang][3] = {
         'Raskaus',
         ':person:'
     ],
-    '🤱{{skin_tone}}‍': [
-        'Rintojen Ruokinta',
+    '🤱{{skin_tone}}': [
+        'Breast-Feeding',
         ':breast-feeding:',
         ':breast_feeding:',
-        'Imetys'
+        'Breastfeeding'
     ],
     '🦸{{skin_tone}}‍♂️': [
         'Man Supersankari',
@@ -1747,38 +1765,38 @@ emojis_language[lang][3] = {
         ':farmer:',
         ':person:'
     ],
-    '👨{{skin_tone}}‍‍⚖️': [
-        'Miehen Tuomari',
+    '👨{{skin_tone}}‍⚖️': [
+        'Man Judge',
         ':man_judge:',
         ':judge:',
         ':man:'
     ],
-    '👩{{skin_tone}}‍‍⚖️': [
-        'Naisen Tuomari',
+    '👩‍{{skin_tone}}⚖️': [
+        'Woman Judge',
         ':woman_judge:',
         ':judge:',
         ':woman:'
     ],
-    '🧑{{skin_tone}}‍‍⚖️': [
-        'Henkilön Tuomari',
+    '🧑{{skin_tone}}‍⚖️': [
+        'Person Judge',
         ':person_judge:',
         ':judge:',
         ':person:'
     ],
-    '👨{{skin_tone}}‍‍🏫': [
-        'Miehen Opettaja',
+    '👨{{skin_tone}}‍🏫': [
+        'Man Teacher',
         ':man_teacher:',
         ':teacher:',
         ':man:'
     ],
-    '👩{{skin_tone}}‍‍🏫': [
-        'Nainen Opettaja',
+    '👩{{skin_tone}}‍🏫': [
+        'Woman Teacher',
         ':woman_teacher:',
         ':teacher:',
         ':woman:'
     ],
-    '🧑‍{{skin_tone}}‍‍🏫': [
-        'Henkilön Opettaja',
+    '🧑{{skin_tone}}‍🏫': [
+        'Person Teacher',
         ':person_teacher:',
         ':teacher:',
         ':person:'
@@ -1817,12 +1835,12 @@ emojis_language[lang][3] = {
         'Naisen Sairaanhoitaja',
         ':woman:'
     ],
-    '🧑‍{{skin_tone}}‍⚕️': [
-        'Henkilö Terveydenhuollon Työntekijä',
+    '🧑{{skin_tone}}‍⚕️': [
+        'Person Health Worker',
         ':person_health_worker:',
         ':health_worker:',
-        'Henkilö Tohtori',
-        'Henkilö Sairaanhoitaja',
+        'Person Doctor',
+        'Person Nurse',
         ':person:'
     ],
     '🤷{{skin_tone}}‍♂️': [
@@ -1867,14 +1885,14 @@ emojis_language[lang][3] = {
         ':facepalming:',
         ':person:'
     ],
-    '🙇{{skin_tone}}‍‍♂️': [
-        'Mies Niittäminen',
+    '🙇{{skin_tone}}‍♂️': [
+        'Man Bowing',
         ':man_bowing:',
         ':bowing:',
         ':man:'
     ],
-    '🙇{{skin_tone}}‍‍♀️': [
-        'Nainen Leivonta',
+    '🙇{{skin_tone}}‍♀️': [
+        'Woman Bowing',
         ':woman_bowing:',
         ':bowing:',
         ':woman:'
@@ -1891,8 +1909,8 @@ emojis_language[lang][3] = {
         ':deaf:',
         ':man:'
     ],
-    '🧏{{skin_tone}}‍‍♀️': [
-        'Deaf Nainen',
+    '🧏{{skin_tone}}‍♀️': [
+        'Deaf Woman',
         ':deaf_woman:',
         ':deaf:',
         ':woman:'
@@ -1903,10 +1921,10 @@ emojis_language[lang][3] = {
         ':deaf:',
         ':person:'
     ],
-    '🙋{{skin_tone}}‍‍♂️': [
-        'Ihminen Käsien Ylösnostaminen',
+    '🙋{{skin_tone}}‍♂️': [
+        'Man Raising Hand',
         ':man_raising_hand:',
-        'Iloinen Mies Nousu Yhtä Kättä',
+        'Happy Man Raising One Hand',
         ':raising_hand:',
         ':man:'
     ],
@@ -1987,8 +2005,8 @@ emojis_language[lang][3] = {
         ':pouting:',
         ':man:'
     ],
-    '🙎{{skin_tone}}‍‍♀️': [
-        'Naisen Kiinnitys',
+    '🙎{{skin_tone}}‍♀️': [
+        'Woman Pouting',
         ':woman_pouting:',
         ':pouting:',
         ':woman:'
@@ -2017,14 +2035,14 @@ emojis_language[lang][3] = {
         ':frowining:',
         ':person:'
     ],
-    '🧟‍‍♂️': [
-        'Man Zombi',
+    '🧟‍♂️': [
+        'Man Zombie',
         ':man_zombie:',
         ':zombie:',
         ':man:'
     ],
-    '🧟‍‍♀️': [
-        'Nainen Zombi',
+    '🧟‍♀️': [
+        'Woman Zombie',
         ':woman_zombie:',
         ':zombie:',
         ':woman:'
@@ -2050,6 +2068,24 @@ emojis_language[lang][3] = {
     '🚶{{skin_tone}}': [
         'Henkilö Kävely',
         ':person_walking:',
+        ':walking:',
+        ':person:'
+    ],
+    '🚶{{skin_tone}}‍♂️‍➡️': [
+        'Man Walking Facing Right',
+        ':man_walking_facing_right:',
+        ':walking:',
+        ':man:'
+    ],
+    '🚶{{skin_tone}}‍♀️‍➡️': [
+        'Woman Walking Facing Right',
+        ':woman_walking_facing_right:',
+        ':walking:',
+        ':woman'
+    ],
+    '🚶{{skin_tone}}‍➡️': [
+        'Person Walking Facing Right',
+        ':person_walking_facing_right:',
         ':walking:',
         ':person:'
     ],
@@ -2089,6 +2125,24 @@ emojis_language[lang][3] = {
         ':kneeling:',
         ':person:'
     ],
+    '🧎{{skin_tone}}‍♂️‍➡️': [
+        'Man Kneeling Facing Right',
+        ':man_kneeling_facing_right:',
+        ':kneeling:',
+        ':man:'
+    ],
+    '🧎{{skin_tone}}‍♀️‍➡️': [
+        'Woman Kneeling Facing Right',
+        ':woman_kneeling_facing_right:',
+        ':kneeling:',
+        ':woman:'
+    ],
+    '🧎{{skin_tone}}‍➡️': [
+        'Person Kneeling Facing Right',
+        ':person_kneeling_facing_right:',
+        ':kneeling:',
+        ':person:'
+    ],
     '👨{{skin_tone}}‍🦯': [
         'Mies valkoisella ruokalajilla',
         ':man_with_white_cane:',
@@ -2104,6 +2158,24 @@ emojis_language[lang][3] = {
     '🧑{{skin_tone}}‍🦯': [
         'Henkilö jolla on valkoinen ruokalaji',
         ':person_with_white_cane:',
+        ':white_cane:',
+        ':person:'
+    ],
+    '👨{{skin_tone}}‍🦯‍➡️': [
+        'Man with White Cane Facing Right',
+        ':man_with_white_cane_facing_right:',
+        ':white_cane:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🦯‍➡️': [
+        'Woman with White Cane Facing Right',
+        ':woman_with_white_cane_facing_right:',
+        ':white_cane:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🦯‍➡️': [
+        'Person with White Cane Facing Right',
+        ':person_with_white_cane_facing_right:',
         ':white_cane:',
         ':person:'
     ],
@@ -2125,6 +2197,24 @@ emojis_language[lang][3] = {
         ':motorized_wheelchair:',
         ':person:'
     ],
+    '👨{{skin_tone}}‍🦼‍➡️': [
+        'Man in Motorized Wheelchair Facing Right',
+        ':man_in_motorized_wheelchair_facing_right:',
+        ':motorized_wheel:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🦼‍➡️': [
+        'Woman in Motorized Wheelchair Facing Right',
+        ':woman_in_motorized_wheelchair_facing_right:',
+        ':motorized_wheel:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🦼‍➡️': [
+        'Person in Motorized Wheelchair Facing Right',
+        ':person_in_motorized_wheelchair_facing_right:',
+        ':motorized_wheel:',
+        ':person:'
+    ],
     '👨{{skin_tone}}‍🦽': [
         'Miehen käsikäyttöinen pyörätuoli',
         ':man_manual_wheelchair:',
@@ -2140,6 +2230,24 @@ emojis_language[lang][3] = {
     '🧑{{skin_tone}}‍🦽': [
         'Henkilö, käsikäyttöinen pyörätuoli',
         ':person_manual_wheelchair:',
+        ':manual_wheelchair:',
+        ':person:'
+    ],
+    '👨{{skin_tone}}‍🦽‍➡️': [
+        'Man in Manual Wheelchair Facing Right',
+        ':man_manual_wheelchair_facing_right:',
+        ':manual_wheelchair:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🦽‍➡️': [
+        'Woman in Manual Wheelchair Facing Right',
+        ':woman_manual_wheelchair_facing_right:',
+        ':manual_wheelchair:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🦽‍➡️': [
+        'Person in Manual Wheelchair Facing Right',
+        ':person_manual_wheelchair_facing_right:',
         ':manual_wheelchair:',
         ':person:'
     ],
@@ -2226,6 +2334,11 @@ emojis_language[lang][3] = {
         'Sukupuoli Vaatimaton Pari',
         ':person:'
     ],
+    '🧑‍🧑‍🧒': [
+        'Family: Adult, Adult, Child',
+        ':family_adult_adult_child:',
+        'Family: Person, Person, Child'
+    ],
     '👨‍👩‍👦': [
         'Perhe Äitillä, Isällä ja Pojalla',
         ':family_with_mother_father_and_son:',
@@ -2235,6 +2348,35 @@ emojis_language[lang][3] = {
         'Perhe Äidin, Isän ja Tyttären kanssa',
         ':family_with_mother_father_and_daughter:',
         'Perhe: Mies, Nainen, Tyttö'
+    ],
+    '👨‍👨‍👦': [
+        'Perhe kahden Isän ja Pojan kanssa',
+        ':family_with_two_fathers_and_son:',
+        'Perhe: Mies, Mies, Poika',
+        ':man:'
+    ],
+    '👨‍👨‍👧': [
+        'Perhe kahden Isän ja Tyttären kanssa',
+        ':family_with_two_fathers_and_daughter:',
+        'Perhe: Mies, Mies, Tyttö',
+        ':man:'
+    ],
+    '👩‍👩‍👦': [
+        'Perhe kaksi äitiä ja poika',
+        ':family_with_two_mothers_and_son:',
+        'Perhe: Nainen, Nainen, Poika',
+        ':woman:'
+    ],
+    '👩‍👩‍👧': [
+        'Perhe kahden äidin ja tyttären kanssa',
+        ':family_with_two_mothers_and_daughter:',
+        'Perhe: Nainen, Nainen, Tyttö',
+        ':woman:'
+    ],
+    '🧑‍🧑‍🧒‍🧒': [
+        'Family: Adult, Adult, Child, Child',
+        ':family_adult_adult_child_child:',
+        'Family: Person, Person, Child, Child'
     ],
     '👨‍👩‍👧‍👦': [
         'Perhe Äitien, Isän, Pojan ja Tyttären kanssa',
@@ -2250,18 +2392,6 @@ emojis_language[lang][3] = {
         'Perhe Äidin, Isän ja kahden Tyttären kanssa',
         ':family_with_mother_father_and_two_daughters:',
         'Perhe: Mies, Nainen, Tyttö, Tyttö'
-    ],
-    '👨‍👨‍👦': [
-        'Perhe kahden Isän ja Pojan kanssa',
-        ':family_with_two_fathers_and_son:',
-        'Perhe: Mies, Mies, Poika',
-        ':man:'
-    ],
-    '👨‍👨‍👧': [
-        'Perhe kahden Isän ja Tyttären kanssa',
-        ':family_with_two_fathers_and_daughter:',
-        'Perhe: Mies, Mies, Tyttö',
-        ':man:'
     ],
     '👨‍👨‍👧‍👦': [
         'Perhe kahden Isän, Pojan ja Tyttären kanssa',
@@ -2281,18 +2411,6 @@ emojis_language[lang][3] = {
         'Perhe: Mies, Mies, Tyttö, Tyttö',
         ':man:'
     ],
-    '👩‍👩‍👦': [
-        'Perhe kaksi äitiä ja poika',
-        ':family_with_two_mothers_and_son:',
-        'Perhe: Nainen, Nainen, Poika',
-        ':woman:'
-    ],
-    '👩‍👩‍👧': [
-        'Perhe kahden äidin ja tyttären kanssa',
-        ':family_with_two_mothers_and_daughter:',
-        'Perhe: Nainen, Nainen, Tyttö',
-        ':woman:'
-    ],
     '👩‍👩‍👧‍👦': [
         'Perhe kahden äidin kanssa, poika ja tytär',
         ':family_with_two_mothers_son_and_daughter:',
@@ -2311,6 +2429,11 @@ emojis_language[lang][3] = {
         'Perhe: Nainen, Nainen, Tyttö, Tyttö',
         ':woman:'
     ],
+    '🧑‍🧒': [
+        'Family: Adult, Child',
+        ':family_adult_child:',
+        'Family: Person, Child'
+    ],
     '👨‍👦': [
         'Perhe Isän ja Pojan kanssa',
         ':family_with_father_and_son:',
@@ -2322,6 +2445,23 @@ emojis_language[lang][3] = {
         ':family_with_father_and_daughter:',
         'Perhe: Mies, Tyttö',
         ':man:'
+    ],
+    '👩‍👧': [
+        'Perhe Äiti ja tytär',
+        ':family_with_mother_and_daughter:',
+        'Perhe: Nainen, Tyttö',
+        ':woman:'
+    ],
+    '👨‍👧‍👧': [
+        'Perhe Isän ja kahden Tyttären kanssa',
+        ':family_with_father_and_two_daughters:',
+        'Perhe: Mies, Tyttö, Tyttö',
+        ':man:'
+    ],
+    '🧑‍🧒‍🧒': [
+        'Family: Adult, Child, Child',
+        ':family_adult_child_child:',
+        'Family: Person, Child, Child'
     ],
     '👨‍👦‍👦': [
         'Perhe Isän ja kahden Pojan kanssa',
@@ -2335,22 +2475,10 @@ emojis_language[lang][3] = {
         'Perhe: Mies, Tyttö, Poika',
         ':man:'
     ],
-    '👨‍👧‍👧': [
-        'Perhe Isän ja kahden Tyttären kanssa',
-        ':family_with_father_and_two_daughters:',
-        'Perhe: Mies, Tyttö, Tyttö',
-        ':man:'
-    ],
     '👩‍👦': [
         'Perhe Äidin ja Pojan kanssa',
         ':family_with_mother_and_son:',
         'Perhe: Nainen, Poika',
-        ':woman:'
-    ],
-    '👩‍👧': [
-        'Perhe Äiti ja tytär',
-        ':family_with_mother_and_daughter:',
-        'Perhe: Nainen, Tyttö',
         ':woman:'
     ],
     '👩‍👦‍👦': [
@@ -2459,21 +2587,24 @@ emojis_language[lang][3] = {
     ],
     '🛌{{skin_tone}}': [
         'Nukkuva Majoitus',
-        'tired',
+        'väsynyt',
         ':sleeping_accommodation:',
-        'Person in Bed',
-        'Person Sleeping'
+        'Henkilö sängyssä',
+        'Henkilö Nukkuminen'
     ],
     '🛀{{skin_tone}}': [
-        'Person Taking Bath',
-        'Bathing',
+        'Kylvöä Ottava Henkilö',
+        'Uiminen',
         ':bath:',
         ':person_taking_bath:',
-        'Hot Bath',
-        'Person Taking a Bath',
-        'Bath',
-        'Shower',
-        'Soap'
+        'Kuuma Kylpy',
+        'Henkilö joka ottaa kylvyn',
+        'Kylpy',
+        'Suihku',
+        'Saippua',
+        'Tidy',
+        'Clean',
+        'Scrub'
     ],
     '🧌': [
         'Troll',
@@ -2917,7 +3048,12 @@ emojis_language[lang][4] = {
         ':hatching_chick:',
         'Vauva Kana',
         'Chick Hatching',
+        'Egg',
         ':yellow:'
+    ],
+    '🥚': [
+        'Egg',
+        ':egg:'
     ],
     '🐤': [
         'Vauvan Chick',
@@ -3217,6 +3353,44 @@ emojis_language[lang][4] = {
         ':nest_with_eggs:',
         'Linnut',
         'Koti'
+    ],
+    '🫏': [
+        'Donkey',
+        ':donkey:',
+        ':grey:',
+        ':gray:'
+    ],
+    '🫎': [
+        'Moose',
+        ':moose:',
+        'Moose Face',
+        ':brown:'
+    ],
+    '🪿': [
+        'Goose',
+        ':goose:',
+        ':white:'
+    ],
+    '🪼': [
+        'Jellyfish',
+        ':jellyfish:',
+        ':blue:'
+    ],
+    '🐦‍⬛': [
+        'Black bird',
+        ':black_bird:',
+        ':raven:',
+        'Raven',
+        'Crow',
+        'Rook',
+        ':black:'
+    ],
+    '🐦‍🔥': [
+        'Phoenix',
+        'Fire',
+        'Reborn',
+        ':phoenix:',
+        ':red:'
     ]
 };
 /*symbols*/
@@ -3294,15 +3468,15 @@ emojis_language[lang][5] = {
         ':red:'
     ],
     '❤️‍🩹': [
-        'Mending Heart',
+        'Sydämen Meneminen',
         ':mending_heart:',
-        'Bandaged Heart',
-        'Healing Heart',
-        'Unbroken Heart',
+        'Kallistettu Sydän',
+        'Parantava Sydän',
+        'Murtumaton Sydän',
         ':red:'
     ],
     '❤️‍🔥': [
-        'Heart on Fire',
+        'Sydän tulessa',
         ':heart_on_fire:',
         ':red:'
     ],
@@ -3367,9 +3541,27 @@ emojis_language[lang][5] = {
         'Rakastan Sinua',
         ':brown:'
     ],
-    //"🩷": ["Pink Heart", ":pink_heart:", "I Love You", ":pink:"],
-    //"🩵": ["Light Blue Heart", ":lightblue_heart:", "I Love You", ":blue:"],
-    //"🩶": ["Grey Heart","Gray Heart", ":grey_heart:",":gray_heart:", "I Love You", ":gray:", ":grey:"],
+    '🩷': [
+        'Pink Heart',
+        ':pink_heart:',
+        'I Love You',
+        ':pink:'
+    ],
+    '🩵': [
+        'Light Blue Heart',
+        ':lightblue_heart:',
+        'I Love You',
+        ':blue:'
+    ],
+    '🩶': [
+        'Grey Heart',
+        'Gray Heart',
+        ':grey_heart:',
+        ':gray_heart:',
+        'I Love You',
+        ':gray:',
+        ':grey:'
+    ],
     '💯': [
         'Saavutetut Pisteet',
         ':hundred_points:',
@@ -3825,7 +4017,12 @@ emojis_language[lang][5] = {
         'Kuusi Pointed tähti keskipisteellä',
         ':purple:'
     ],
-    //"🪯": ["Khanda", ":khanda:", "Sikhism", ":purple:"],
+    '🪯': [
+        'Khanda',
+        ':khanda:',
+        'Sikhism',
+        ':purple:'
+    ],
     '♈': [
         'Oinas',
         ':aries:',
@@ -4686,7 +4883,16 @@ emojis_language[lang][5] = {
         'Reunan Ohjaus',
         ':blue:'
     ],
-    //"🛜": ["Wireless", ":wireless:", ":wifi:", ":wi_fi:", "Wifi", "wi-fi", "wireless connection", ":blue:"],
+    '🛜': [
+        'Wireless',
+        ':wireless:',
+        ':wifi:',
+        ':wi_fi:',
+        'Wifi',
+        'wi-fi',
+        'wireless connection',
+        ':blue:'
+    ],
     '🚰': [
         'Potable Water Symboli',
         ':potable_water_symbol:',
@@ -5371,11 +5577,24 @@ emojis_language[lang][6] = {
         ':broccoli:',
         ':green:'
     ],
+    '🍋‍🟩': [
+        'Lime',
+        ':lime:',
+        ':green:'
+    ],
     '🍄': [
         'Sieni',
         ':mushroom:',
         'Paikka',
         'Toadstool'
+    ],
+    '🍄‍🟫': [
+        'Brown Mushroom',
+        ':brown_mushroom:',
+        'Mushroom',
+        'Shroom',
+        'Toadstool',
+        ':brown:'
     ],
     '🥜': [
         'Peanuts',
@@ -6005,13 +6224,18 @@ emojis_language[lang][7] = {
         'Transsukupuolinen Lippu',
         ':transgender_flag:',
         'Sininen, vaaleanpunainen, valkoinen lippu',
-        'Trans Lippu'
+        'Trans Lippu',
+        'Blue',
+        'Pink'
     ],
     '🏴‍☠️': [
         'Merirosvo Lippu',
         ':pirate_flag:',
         'Jolly Roger',
-        ':black:'
+        ':black:',
+        'Corsair',
+        'Privateer',
+        'Buccaneer'
     ],
     '🇺🇳': [
         'Yhdistyneiden Kansakuntien lippu',
@@ -6435,26 +6659,26 @@ emojis_language[lang][7] = {
         'Union Jack',
         'Iso-Britannia'
     ],
-    '🏴󠁧󠁢󠁥󠁮󠁧󠁿󠁧󠁢󠁥󠁮󠁧󠁿': [
-        'Englannin lippu',
+    '🏴󠁧󠁢󠁥󠁮󠁧󠁿': [
+        'Flag of England',
         ':england:',
         'St Georges Cross',
-        'Englannin Lippu'
+        'English Flag'
     ],
-    '🏴󠁧󠁢󠁷󠁬󠁳󠁿󠁧󠁢󠁷󠁬󠁳󠁿': [
-        'Walesin lippu',
+    '🏴󠁧󠁢󠁷󠁬󠁳󠁿': [
+        'Flag of Wales',
         ':wales:',
-        'Walesin Lippu',
-        'Punainen Lohikäärme',
+        'Welsh Flag',
+        'Red Dragon',
         'Baner Cymru',
         'Y Ddraig Goch'
     ],
-    '🏴󠁧󠁢󠁳󠁣󠁴󠁿󠁧󠁢󠁳󠁣󠁴󠁿': [
-        'Skotlannin lippu',
+    '🏴󠁧󠁢󠁳󠁣󠁴󠁿': [
+        'Flag of Scotland',
         ':scotland:',
-        'Skotlannin Lippu',
+        'Scottish Flag',
         'St Andrews Cross',
-        'Saltiiri'
+        'Saltire'
     ],
     '🇬🇩': [
         'Grenadan lippu',
@@ -7365,7 +7589,7 @@ emojis_language[lang][8] = {
         'Hiihtäjä',
         ':skier:'
     ],
-    '🏂{{skin_tone}}‍': [
+    '🏂{{skin_tone}}': [
         'Snowboarder',
         ':snowboarder:'
     ],
@@ -7678,6 +7902,24 @@ emojis_language[lang][8] = {
     '🏃{{skin_tone}}': [
         'Henkilö Käynnissä',
         ':person_running:',
+        ':running:',
+        ':person:'
+    ],
+    '🏃{{skin_tone}}‍♂️‍➡️': [
+        'Man Running Facing Right',
+        ':man_running_facing_right:',
+        ':running:',
+        ':man:'
+    ],
+    '🏃{{skin_tone}}‍♀️‍➡️': [
+        'Woman Running Facing Right',
+        'woman_running_facing_right:',
+        ':running:',
+        ':woman:'
+    ],
+    '🏃{{skin_tone}}‍➡️': [
+        'Person Running Facing Right',
+        ':person_running_facing_right:',
         ':running:',
         ':person:'
     ],
@@ -8592,7 +8834,8 @@ emojis_language[lang][10] = {
         ':mobile_phone:',
         'Älypuhelin',
         'iPhone',
-        'Solun Puhelin'
+        'Solun Puhelin',
+        'Device'
     ],
     '📲': [
         'Matkapuhelin, jossa oikealla nuoli vasemmalla',
@@ -8611,7 +8854,8 @@ emojis_language[lang][10] = {
         ':phone:',
         'Handset',
         'Puhelin',
-        ':black:'
+        ':black:',
+        'Device'
     ],
     '📟': [
         'Hakulaite',
@@ -8641,25 +8885,31 @@ emojis_language[lang][10] = {
     '💻': [
         'Kannettava',
         ':laptop:',
-        'Muistikirja',
-        'Henkilökohtainen Tietokone',
+        ':computer:',
+        'Notebook',
+        'Personal Computer',
         'PC',
         'MacBook',
-        'Pinta'
+        'Surface',
+        'Device'
     ],
     '🖥️': [
         'Työpöydän Tietokone',
         ':desktop_computer:',
+        ':computer:',
         'iMac',
-        'PC'
+        'PC',
+        'Device'
     ],
     '🖨️': [
         'Tulostin',
-        ':printer:'
+        ':printer:',
+        'Device'
     ],
     '⌨️': [
-        'Keyboard',
-        ':keyboard:'
+        'Computer Keyboard',
+        ':keyboard:',
+        ':computer_keyboard:'
     ],
     '🖱️': [
         'Tietokoneen Hiiri',
@@ -9293,7 +9543,12 @@ emojis_language[lang][11] = {
     ],
     '🩲': [
         'Lyhyet',
-        ':briefs:'
+        ':briefs:',
+        'Undies',
+        'Underwear',
+        'Underpants',
+        'Jocks',
+        'Panties'
     ],
     '🩳': [
         'Shortsit',
@@ -9681,6 +9936,14 @@ emojis_language[lang][12] = {
         ':selfie:',
         'Puhelimen Kamera',
         'Selfie Käsi'
+    ],
+    '🫸{{skin_tone}}': [
+        'Rightwards Pushing Hand',
+        ':rightwards_pushing_hand:'
+    ],
+    '🫷{{skin_tone}}': [
+        'Leftwards Pushing Hand',
+        ':leftwards_pushing_hand:'
     ]
 };
 /*other*/
@@ -10317,9 +10580,24 @@ emojis_language[lang][13] = {
         'Rauhallisuus',
         'Tietoisuus'
     ],
-    //"🪻": ["Hyacinth", ":hyacinth:", "Purple flower", ":purple:"],
-    //"🫛": ["Pea Pod", ":pea_pod:", ":green:"],
-    //"🫚": ["Ginger root", ":ginger:", "Spice", "Flavour", ":brown:"],
+    '🪻': [
+        'Hyacinth',
+        ':hyacinth:',
+        'Purple flower',
+        ':purple:'
+    ],
+    '🫛': [
+        'Pea Pod',
+        ':pea_pod:',
+        ':green:'
+    ],
+    '🫚': [
+        'Ginger root',
+        ':ginger:',
+        'Spice',
+        'Flavour',
+        ':brown:'
+    ],
     '🔑': [
         'Avain',
         ':key:',
@@ -10347,7 +10625,7 @@ emojis_language[lang][13] = {
     '🪓': [
         'Kirves',
         ':axe:',
-        'firefighter'
+        'palomiehen'
     ],
     '🪚': [
         'Kirvesmiehen Saha',
@@ -10442,10 +10720,6 @@ emojis_language[lang][13] = {
         ':magnet:',
         ':red:'
     ],
-    '⛓️': [
-        'Ketjut',
-        ':chains:'
-    ],
     '💉': [
         'Syringe',
         ':syringe:',
@@ -10453,8 +10727,8 @@ emojis_language[lang][13] = {
         'Veren Testaus',
         'Neula',
         'Rokotus',
-        'blood',
-        'sick',
+        'veri',
+        'sairas',
         'ill'
     ],
     '🧬': [
@@ -10545,7 +10819,10 @@ emojis_language[lang][13] = {
     ],
     '🧼': [
         'Saippuan baari',
-        ':bar_of_soap:'
+        ':bar_of_soap:',
+        'Tidy',
+        'Clean',
+        'Scrub'
     ],
     '🧽': [
         'Sieni',
@@ -10591,12 +10868,26 @@ emojis_language[lang][13] = {
         ':balance_scale:',
         'Oikeusasioiden laajuus'
     ],
+    '⛓️': [
+        'Ketjut',
+        ':chains:'
+    ],
     '🔗': [
         'Linkki',
         ':link:',
         'Ketju',
         'Hyperlinkki',
         'Linkitetty Ketju',
+        ':gray:',
+        ':grey:'
+    ],
+    '⛓️‍💥': [
+        'Broken chain',
+        ':broken_chain:',
+        'Chain',
+        'Hyperlink',
+        'Linked Chain',
+        'Unlinked chain',
         ':gray:',
         ':grey:'
     ],
@@ -10695,7 +10986,8 @@ emojis_language[lang][13] = {
         '20 £ Huomautus',
         'Kaksikymmentä Quid-muistiota',
         'Seteli, jossa on punta',
-        ':purple:'
+        ':purple:',
+        'Money'
     ],
     '💶': [
         'Euro Banknote',
@@ -10703,7 +10995,8 @@ emojis_language[lang][13] = {
         ':euro_banknote:',
         '100 € Muistiinpano',
         'Seteli, jossa on Euro Sign',
-        ':blue:'
+        ':blue:',
+        'Money'
     ],
     '💵': [
         'Dollari Banknote',
@@ -10713,7 +11006,8 @@ emojis_language[lang][13] = {
         'Seteli, jossa on dollarimerkki',
         'Dollarin Lasku',
         'American Dollari',
-        ':green:'
+        ':green:',
+        'Money'
     ],
     '💴': [
         'Yen Banknote',
@@ -10722,7 +11016,8 @@ emojis_language[lang][13] = {
         '¼ 1000 Huomautus',
         'Jeni Huomautus',
         'Seteli, jossa on Yen Sign',
-        ':yellow:'
+        ':yellow:',
+        'Money'
     ],
     '⛺': [
         'Teltta',
@@ -10811,7 +11106,7 @@ emojis_language[lang][13] = {
     '💣': [
         'Pommi',
         ':bomb:',
-        'boom'
+        'puomi'
     ],
     '🔪': [
         'Keittiö Veitsi',
@@ -10945,13 +11240,24 @@ emojis_language[lang][13] = {
         'Hourglass Valmis',
         ':hourglass:',
         ':hourglass_done:',
-        'Hourglass'
+        'Hourglass',
+        'Time',
+        'Egg timer',
+        'Empty',
+        'Ended',
+        'Finished',
+        'Sand Clock'
     ],
     '⏳': [
         'Tuntilasi Ei Valmis',
         ':hourglass_flowing_sand:',
         ':hourglass_not_done:',
-        'Hourglass kanssa virtaava hiekka'
+        'Hourglass kanssa virtaava hiekka',
+        'Busy',
+        'Time',
+        'Egg timer',
+        'Flowing',
+        'Sand Clock'
     ],
     '🕐': [
         'Yksi Kello',
@@ -10959,14 +11265,16 @@ emojis_language[lang][13] = {
         ':one_oclock:',
         'Kello Kasvot Yksi Kello',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕜': [
         'Kello Kasvot Kolmekymmentä',
         ':clock130:',
         ':one_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕑': [
         'Kaksi OKelloa',
@@ -10974,14 +11282,16 @@ emojis_language[lang][13] = {
         ':two_oclock:',
         'Kello Kasvot Kaksi OKello',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕝': [
         'Kello Kasvot Kaksi-kolmekymmentä',
         ':clock230:',
         ':two_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕒': [
         'Kolme OClock',
@@ -10989,14 +11299,16 @@ emojis_language[lang][13] = {
         ':three_oclock:',
         'Kello Kasvot Kolme OKello',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕞': [
         'Kello Kasvot Kolme-kolmekymmentä',
         ':clock330:',
         ':three_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕓': [
         'Neljä OClock',
@@ -11004,14 +11316,16 @@ emojis_language[lang][13] = {
         ':four_oclock:',
         'Kello Kasvot Neljä OKello',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕟': [
         'Kello Kasvot Neljä-kolmekymmentä',
         ':clock430:',
         ':four_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕔': [
         'Viisi OKelloa',
@@ -11019,14 +11333,16 @@ emojis_language[lang][13] = {
         ':five_oclock:',
         'Kello Kasvot Viisi OKello',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕠': [
         'Kello Kasvot Viisi-kolmekymmentä',
         ':clock530:',
         ':five_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕕': [
         'Kuusi OKello',
@@ -11034,14 +11350,16 @@ emojis_language[lang][13] = {
         ':size_oclock:',
         'Kello Kasvot Kuusi OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕡': [
         'Kello Kasvot Kuusi Kolmaskymmenes',
         ':clock630:',
         ':six_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕖': [
         'Seitsemän OClock',
@@ -11049,14 +11367,16 @@ emojis_language[lang][13] = {
         ':seven_oclock:',
         'Kello Kasvot Seitsemän OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕢': [
         'Kello Kasvot Seitsemän-kolmekymmentä',
         ':clock730:',
         ':sever_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕗': [
         'Kahdeksan Kello',
@@ -11064,14 +11384,16 @@ emojis_language[lang][13] = {
         ':eight_oclock:',
         'Kello Kasvot Kahdeksan Kello',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕣': [
         'Kello Kasvot Kahdeksan–kolmekymmentä',
         ':clock830:',
         ':eight_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕘': [
         'Yhdeksän OClock',
@@ -11079,14 +11401,16 @@ emojis_language[lang][13] = {
         ':nine_clock:',
         'Kello Kasvot Yhdeksän OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕤': [
         'Kello Kasvot Yhdeksän-kolmekymmentä',
         ':clock930:',
         ':nine_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕙': [
         'Kymmenen OKello',
@@ -11094,14 +11418,16 @@ emojis_language[lang][13] = {
         ':ten_oclock:',
         'Kello Kymmenen Kasvoa Kello',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕥': [
         'Kello Kasvot Kymmenen Kolmekymmentä',
         ':clock1030:',
         ':ten_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕚': [
         'Eleven OClock',
@@ -11109,14 +11435,16 @@ emojis_language[lang][13] = {
         ':eleven_oclock:',
         'Kello Kasvot Yksin OKello',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕦': [
         'Kello Kasvot Eleven-kolmekymmentä',
         ':clock1130:',
         ':eleven_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕛': [
         'Kaksitoista OKello',
@@ -11124,14 +11452,16 @@ emojis_language[lang][13] = {
         ':twelve_oclock:',
         'Kello Kasvot Kaksitoista OKello',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕧': [
         'Kello Kasvot Kaksoiskolmekymmentä',
         ':clock1230:',
         ':twelve_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '♨️': [
         'Kuumat Lähteet',
@@ -11171,7 +11501,7 @@ emojis_language[lang][13] = {
         ':white:'
     ],
     '🗨️': [
-        'Left Speech Bubble',
+        'Vasemman Puheen Kupla',
         ':left_speech_bubble:',
         ':speech_left:'
     ],
@@ -11181,7 +11511,7 @@ emojis_language[lang][13] = {
         'Kapseli',
         'Tabletti',
         'Huumausaineet',
-        'Sick',
+        'Sairas',
         'ill',
         ':yellow:',
         ':red:'
@@ -11312,27 +11642,34 @@ emojis_language[lang][13] = {
         ':shopping_bags:'
     ],
     '🛒': [
-        'Shopping Cart',
+        'Ostoskori',
         ':shopping_cart:',
-        'Shopping Trolley',
+        'Ostosvaunu',
         ':shopping_trolley:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Market'
     ],
     '🎟️': [
         'Pääsylippuja',
-        ':admission_tickets:'
+        ':admission_tickets:',
+        'Theater',
+        'Theatre',
+        'Party'
     ],
     '🛎️': [
         'Bellhop Bell',
         ':bellhop_bell:',
         ':yellow:',
-        ':gold:'
+        ':gold:',
+        'Hotel',
+        'Reception'
     ],
     '🧾': [
         'Kuitti',
         ':receipt:',
-        ':white:'
+        ':white:',
+        'Bill'
     ],
     '🧮': [
         'Abacus',
@@ -11347,7 +11684,9 @@ emojis_language[lang][13] = {
         ':broom:',
         'Siveli',
         'Pyyhkäise',
-        ':yellow:'
+        ':yellow:',
+        'Tidy',
+        'Clean'
     ],
     '🎰': [
         'Paikka Kone',
@@ -11360,11 +11699,20 @@ emojis_language[lang][13] = {
     '🦽': [
         'Manuaalinen Pyörätuoli',
         ':manual_wheelchair:',
-        ':wheelchair:'
+        ':wheelchair:',
+        'invalid',
+        'disability',
+        'accessibility',
+        'mobility'
     ],
     '🦼': [
         'Moottoroitu Pyörätuoli',
-        ':motorized_wheelchair:'
+        ':motorized_wheelchair:',
+        ':wheelchair:',
+        'invalid',
+        'disability',
+        'accessibility',
+        'mobility'
     ],
     '🪔': [
         'Diya Lamppu',
@@ -11389,7 +11737,8 @@ emojis_language[lang][13] = {
     ],
     '🪶': [
         'Sulka',
-        ':feather:'
+        ':feather:',
+        'Animal'
     ],
     '🪤': [
         'Hiiren Ansa',
@@ -11519,7 +11868,11 @@ emojis_language[lang][13] = {
         ':low_battery:',
         ':red:',
         'Energia',
-        'Punainen'
+        'Punainen',
+        'Device',
+        'Smartphone',
+        'Computer',
+        'Console'
     ],
     '🩻': [
         'X-Ray',
@@ -11540,7 +11893,10 @@ emojis_language[lang][13] = {
         ':identification_card:',
         'Identiteetti',
         'Passi',
-        'ID'
+        'ID',
+        'Country',
+        'Security',
+        'Travel'
     ],
     '🧿': [
         'Nazar Amulet',
@@ -11552,6 +11908,43 @@ emojis_language[lang][13] = {
         'Teddy Karhu',
         ':teddy_bear:',
         'Lelu',
+        ':brown:',
+        'Baby',
+        'Child',
+        'Children'
+    ],
+    '🪽': [
+        'Wing',
+        ':wing:',
+        'Fly',
+        ':white:'
+    ],
+    '🪭': [
+        'Folding Hand Fan',
+        ':folding_hand_fan:',
+        'Fan',
+        'Manual fan',
+        'Summer',
+        ':red:'
+    ],
+    '🪮': [
+        'Hair Pick',
+        ':hair_pick:',
+        'Black culture',
+        'Black pride',
+        ':black:'
+    ],
+    '🪈': [
+        'Flute',
+        ':flute:',
+        'Plastic flute',
+        'Metal plute',
+        'Bamboo flute',
+        'Musical instrument',
         ':brown:'
+    ],
+    '🪇': [
+        'Maracas',
+        ':maracas:'
     ]
 };

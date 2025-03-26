@@ -131,13 +131,13 @@ emojis_language[lang][2] = {
     ],
     '😍': [
         'ابتسامة الوجه بالعين القلبية',
-        'love',
+        'حب',
         ':smiling_heart-eyes:',
         ':smiling_heart_eyes:',
         ':*.*:',
-        'Heart Eyes',
-        'Heart Face',
-        'Smiling Face with Heart-Shaped Eyes'
+        'عيون القلب',
+        'وجه القلب',
+        'ابتسامة الوجه بالعين على شكل القلب'
     ],
     '🤩': [
         'هيكل النجوم',
@@ -151,24 +151,24 @@ emojis_language[lang][2] = {
     ],
     '😘': [
         'زرع قبيلة بالوجه',
-        'love',
+        'حب',
         ':kissing_face:',
         '::*:',
         '::-*:',
-        'Blow A Kiss',
-        'Blowing Kiss',
-        'Kissing',
-        'Face Throwing a Kiss'
+        'قبلة قبيلة',
+        'قبيلة التوهج',
+        'كيس',
+        'وجه رمي قبيلة'
     ],
     '😗': [
         'كيس الوجه',
-        'kiss',
+        'قبيلة',
         ':kissing_face:',
         '::*:',
         '::-*:',
-        'Duck Face',
+        'وجه العربة',
         'Kissy Face',
-        'Whistling'
+        'تصفير'
     ],
     '☺️': [
         'وجه الابتسامة',
@@ -282,14 +282,14 @@ emojis_language[lang][2] = {
     ],
     '🤐': [
         'مضغوطة',
-        'silent',
-        'silence',
+        'صامت',
+        'صمت',
         ':zip_face:',
-        'Zipper-Mouth Face',
-        'Lips Sealed',
-        'Sealed Lips',
-        'Zip It',
-        'Face With a Zipper Mouth'
+        'وجه Zipper-Mouth',
+        'الشفائح المختومة',
+        'الشفافات المختومة',
+        'الرمز البريدي',
+        'وجه مع قالب زيبر'
     ],
     '🤨': [
         'وجه مع العيب المرتفع',
@@ -398,18 +398,18 @@ emojis_language[lang][2] = {
     ],
     '🥱': [
         'وجه الفتح',
-        'tired',
+        'متعب',
         ':yawning_face:'
     ],
     '😷': [
         'وجه مع قناع طبي',
-        'sick',
-        'doc',
+        'مريض',
+        'دوك',
         ':face_with_medical_mask:',
-        'Coronavirus',
+        'فيروس كورونا',
         'COVID-19',
-        'Mask Face',
-        'Surgical Mask',
+        'قناع الوجه',
+        'قناع جراحي',
         'ill'
     ],
     '🤒': [
@@ -422,44 +422,44 @@ emojis_language[lang][2] = {
     ],
     '🤕': [
         'وجه مع الضمادات الرئيسية',
-        'hospital',
-        'sick',
+        'المستشفى',
+        'مريض',
         ':face_with_head-bandage:',
         ':face_with_head_bandage:',
-        'Bandaged Head',
-        'Clumsy',
-        'Injured',
+        'رأس مقطوع',
+        'سحابة',
+        'مؤثر',
         'ill'
     ],
     '🤢': [
         'الوجه الموقوف',
-        'sick',
+        'مريض',
         ':nauseated_face:',
-        'Disgust',
-        'Green Face',
-        'Vomit',
+        'قسيس',
+        'الوجه الأخضر',
+        'فيميت',
         ':green:',
         'ill'
     ],
     '🤮': [
         'كسر الوجه',
-        'sick',
+        'مريض',
         ':face_vomiting:',
-        'Spew',
+        'سرعة',
         'Bleah',
         'Bleurgh',
-        'Yuk',
-        'Yuck',
-        'Ew',
-        'Spew',
-        'Throwing Up',
-        'Vomit',
-        'Face with Open Mouth Vomiting',
+        'يوك',
+        'عالقة',
+        'إيو',
+        'سرعة',
+        'الرمي للأعلى',
+        'فيميت',
+        'وجه مع كسر الفم المفتوح',
         'ill'
     ],
     '🤧': [
         'عطس الوجه',
-        'sick',
+        'مريض',
         ':sneezing_face:',
         'Gesundheit',
         'ill'
@@ -492,10 +492,10 @@ emojis_language[lang][2] = {
     ],
     '🤯': [
         'تفجير الرأس',
-        'boom',
+        'ازدهار',
         ':exploding_head:',
-        'Mind Blown',
-        'Shocked Face with Exploding Head'
+        'مهرج العقل',
+        'وجه صدم برأس التفجير'
     ],
     '🤠': [
         'وجه القبعة',
@@ -603,6 +603,13 @@ emojis_language[lang][2] = {
         ':D::',
         'النزول'
     ],
+    '😧': [
+        'Anguished Face',
+        ':anguished_face:',
+        ':anguished:',
+        ':D::',
+        'Pained Face'
+    ],
     '😨': [
         'عجبت',
         ':scared:',
@@ -699,10 +706,10 @@ emojis_language[lang][2] = {
         'وجه اللمس',
         'fuck',
         ':pouting_face:',
-        'Angry Face',
-        'Grumpy Face',
-        'Mad Face',
-        'Red Face',
+        'الوجه الغاضب',
+        'الوجه الكبير',
+        'الوجه المجنون',
+        'الوجه الأحمر',
         ':red:'
     ],
     '😠': [
@@ -716,12 +723,12 @@ emojis_language[lang][2] = {
         'fuck',
         ':swearing:',
         '@#$%&!',
-        'Face with Symbols on Mouth',
-        'Cursing',
-        'Cussing',
+        'وجه مع الرموز على الفم',
+        'اللعنة',
+        'خادم',
         'Grawlix',
-        'Face With Symbols Over Mouth',
-        'Serious Face with Symbols Covering Mouth',
+        'وجه مع الرموز عبر الفم',
+        'وجه جدي مع الرموز التي تغطي الفم',
         ':red:'
     ],
     '🥲': [
@@ -739,12 +746,12 @@ emojis_language[lang][2] = {
         'Dizzy Face'
     ],
     '😶‍🌫️': [
-        'Face in Clouds',
-        'smoke',
+        'الوجه في السحابة',
+        'دخان',
         ':face_in_clouds:',
         'Brain Fog',
-        'Forgetful',
-        'Haze'
+        'منسيّة',
+        'ضباب'
     ],
     '🥸': [
         'الوجه المخفي',
@@ -783,7 +790,18 @@ emojis_language[lang][2] = {
         'حمل الوجه الدموع الخلفية',
         ':face_holding_back_tears:'
     ],
-    //"🫨": ["Shaking Face", ":shaking_face:"],
+    '🫨': [
+        'Shaking Face',
+        ':shaking_face:'
+    ],
+    '🙂‍↔️': [
+        'Head Shaking Horizontally',
+        ':head_shaking_horizontally:'
+    ],
+    '🙂‍↕️': [
+        'Head Shaking Vertically',
+        ':head_shaking_vertically:'
+    ],
     '😈': [
         'ابتسامة الوجه مع القرون',
         ':smiling_face_with_horns:',
@@ -900,12 +918,12 @@ emojis_language[lang][3] = {
         'الكبار',
         ':person:'
     ],
-    '🧑{{skin_tone}}': [
-        'شخص: لعب',
+    '🧔{{skin_tone}}': [
+        'Person: Beard',
         ':person_beard:',
-        'لحم',
-        'شخص محبوس',
-        'شخص محبوس',
+        'Beard',
+        'Bearded Person',
+        'Bearded Person',
         ':person:'
     ],
     '🧑{{skin_tone}}‍🦰': [
@@ -1069,18 +1087,18 @@ emojis_language[lang][3] = {
         'الكبيل',
         'بوتو'
     ],
-    '👨{{skin_tone}}‍🎄': [
-        'بابا نويل',
+    '🎅{{skin_tone}}': [
+        'Santa Claus',
         ':santa_claus:',
-        'سانت نيكولاس',
+        'Saint Nicholas',
         'Sinterklaas',
-        'الأب عيد الميلاد',
+        'Father Christmas',
         ':man:'
     ],
-    '👩{{skin_tone}}‍🎄': [
-        'السيدة كلوس',
+    '🤶{{skin_tone}}': [
+        'Mrs Claus',
         ':mrs_claus:',
-        'عيد الميلاد الأم',
+        'Mother Christmas',
         ':woman:'
     ],
     '🧑{{skin_tone}}‍🎄': [
@@ -1250,11 +1268,11 @@ emojis_language[lang][3] = {
         'الحمل',
         ':person:'
     ],
-    '🤱{{skin_tone}}‍': [
-        'الرضاعة الطبيعية',
+    '🤱{{skin_tone}}': [
+        'Breast-Feeding',
         ':breast-feeding:',
         ':breast_feeding:',
-        'الرضاعة الطبيعية'
+        'Breastfeeding'
     ],
     '🦸{{skin_tone}}‍♂️': [
         'بطل خارق',
@@ -1747,38 +1765,38 @@ emojis_language[lang][3] = {
         ':farmer:',
         ':person:'
     ],
-    '👨{{skin_tone}}‍‍⚖️': [
-        'قاضية مان',
+    '👨{{skin_tone}}‍⚖️': [
+        'Man Judge',
         ':man_judge:',
         ':judge:',
         ':man:'
     ],
-    '👩{{skin_tone}}‍‍⚖️': [
-        'قاضية امرأة',
+    '👩‍{{skin_tone}}⚖️': [
+        'Woman Judge',
         ':woman_judge:',
         ':judge:',
         ':woman:'
     ],
-    '🧑{{skin_tone}}‍‍⚖️': [
-        'قاض شخصي',
+    '🧑{{skin_tone}}‍⚖️': [
+        'Person Judge',
         ':person_judge:',
         ':judge:',
         ':person:'
     ],
-    '👨{{skin_tone}}‍‍🏫': [
-        'المعلم',
+    '👨{{skin_tone}}‍🏫': [
+        'Man Teacher',
         ':man_teacher:',
         ':teacher:',
         ':man:'
     ],
-    '👩{{skin_tone}}‍‍🏫': [
-        'المعلمات',
+    '👩{{skin_tone}}‍🏫': [
+        'Woman Teacher',
         ':woman_teacher:',
         ':teacher:',
         ':woman:'
     ],
-    '🧑‍{{skin_tone}}‍‍🏫': [
-        'معلم شخصي',
+    '🧑{{skin_tone}}‍🏫': [
+        'Person Teacher',
         ':person_teacher:',
         ':teacher:',
         ':person:'
@@ -1817,12 +1835,12 @@ emojis_language[lang][3] = {
         'ممرضة',
         ':woman:'
     ],
-    '🧑‍{{skin_tone}}‍⚕️': [
-        'عامل صحة شخصي',
+    '🧑{{skin_tone}}‍⚕️': [
+        'Person Health Worker',
         ':person_health_worker:',
         ':health_worker:',
-        'طبيب شخصي',
-        'ممرضة',
+        'Person Doctor',
+        'Person Nurse',
         ':person:'
     ],
     '🤷{{skin_tone}}‍♂️': [
@@ -1867,14 +1885,14 @@ emojis_language[lang][3] = {
         ':facepalming:',
         ':person:'
     ],
-    '🙇{{skin_tone}}‍‍♂️': [
-        'انحناء الرجل',
+    '🙇{{skin_tone}}‍♂️': [
+        'Man Bowing',
         ':man_bowing:',
         ':bowing:',
         ':man:'
     ],
-    '🙇{{skin_tone}}‍‍♀️': [
-        'ضرب المرأة',
+    '🙇{{skin_tone}}‍♀️': [
+        'Woman Bowing',
         ':woman_bowing:',
         ':bowing:',
         ':woman:'
@@ -1891,8 +1909,8 @@ emojis_language[lang][3] = {
         ':deaf:',
         ':man:'
     ],
-    '🧏{{skin_tone}}‍‍♀️': [
-        'صم المرأة',
+    '🧏{{skin_tone}}‍♀️': [
+        'Deaf Woman',
         ':deaf_woman:',
         ':deaf:',
         ':woman:'
@@ -1903,10 +1921,10 @@ emojis_language[lang][3] = {
         ':deaf:',
         ':person:'
     ],
-    '🙋{{skin_tone}}‍‍♂️': [
-        'رعاة الإنسان يدوياً',
+    '🙋{{skin_tone}}‍♂️': [
+        'Man Raising Hand',
         ':man_raising_hand:',
-        'رجل سعيد يربي يد واحدة',
+        'Happy Man Raising One Hand',
         ':raising_hand:',
         ':man:'
     ],
@@ -1987,8 +2005,8 @@ emojis_language[lang][3] = {
         ':pouting:',
         ':man:'
     ],
-    '🙎{{skin_tone}}‍‍♀️': [
-        'قذف المرأة',
+    '🙎{{skin_tone}}‍♀️': [
+        'Woman Pouting',
         ':woman_pouting:',
         ':pouting:',
         ':woman:'
@@ -2017,14 +2035,14 @@ emojis_language[lang][3] = {
         ':frowining:',
         ':person:'
     ],
-    '🧟‍‍♂️': [
-        'زومبي الرجل',
+    '🧟‍♂️': [
+        'Man Zombie',
         ':man_zombie:',
         ':zombie:',
         ':man:'
     ],
-    '🧟‍‍♀️': [
-        'زومبي المرأة',
+    '🧟‍♀️': [
+        'Woman Zombie',
         ':woman_zombie:',
         ':zombie:',
         ':woman:'
@@ -2050,6 +2068,24 @@ emojis_language[lang][3] = {
     '🚶{{skin_tone}}': [
         'المشي الشخصي',
         ':person_walking:',
+        ':walking:',
+        ':person:'
+    ],
+    '🚶{{skin_tone}}‍♂️‍➡️': [
+        'Man Walking Facing Right',
+        ':man_walking_facing_right:',
+        ':walking:',
+        ':man:'
+    ],
+    '🚶{{skin_tone}}‍♀️‍➡️': [
+        'Woman Walking Facing Right',
+        ':woman_walking_facing_right:',
+        ':walking:',
+        ':woman'
+    ],
+    '🚶{{skin_tone}}‍➡️': [
+        'Person Walking Facing Right',
+        ':person_walking_facing_right:',
         ':walking:',
         ':person:'
     ],
@@ -2089,6 +2125,24 @@ emojis_language[lang][3] = {
         ':kneeling:',
         ':person:'
     ],
+    '🧎{{skin_tone}}‍♂️‍➡️': [
+        'Man Kneeling Facing Right',
+        ':man_kneeling_facing_right:',
+        ':kneeling:',
+        ':man:'
+    ],
+    '🧎{{skin_tone}}‍♀️‍➡️': [
+        'Woman Kneeling Facing Right',
+        ':woman_kneeling_facing_right:',
+        ':kneeling:',
+        ':woman:'
+    ],
+    '🧎{{skin_tone}}‍➡️': [
+        'Person Kneeling Facing Right',
+        ':person_kneeling_facing_right:',
+        ':kneeling:',
+        ':person:'
+    ],
     '👨{{skin_tone}}‍🦯': [
         'رجل مع قصب أبيض',
         ':man_with_white_cane:',
@@ -2104,6 +2158,24 @@ emojis_language[lang][3] = {
     '🧑{{skin_tone}}‍🦯': [
         'شخص مع قصب أبيض',
         ':person_with_white_cane:',
+        ':white_cane:',
+        ':person:'
+    ],
+    '👨{{skin_tone}}‍🦯‍➡️': [
+        'Man with White Cane Facing Right',
+        ':man_with_white_cane_facing_right:',
+        ':white_cane:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🦯‍➡️': [
+        'Woman with White Cane Facing Right',
+        ':woman_with_white_cane_facing_right:',
+        ':white_cane:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🦯‍➡️': [
+        'Person with White Cane Facing Right',
+        ':person_with_white_cane_facing_right:',
         ':white_cane:',
         ':person:'
     ],
@@ -2125,6 +2197,24 @@ emojis_language[lang][3] = {
         ':motorized_wheelchair:',
         ':person:'
     ],
+    '👨{{skin_tone}}‍🦼‍➡️': [
+        'Man in Motorized Wheelchair Facing Right',
+        ':man_in_motorized_wheelchair_facing_right:',
+        ':motorized_wheel:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🦼‍➡️': [
+        'Woman in Motorized Wheelchair Facing Right',
+        ':woman_in_motorized_wheelchair_facing_right:',
+        ':motorized_wheel:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🦼‍➡️': [
+        'Person in Motorized Wheelchair Facing Right',
+        ':person_in_motorized_wheelchair_facing_right:',
+        ':motorized_wheel:',
+        ':person:'
+    ],
     '👨{{skin_tone}}‍🦽': [
         'رجل في كرسي عجلة يدوي',
         ':man_manual_wheelchair:',
@@ -2140,6 +2230,24 @@ emojis_language[lang][3] = {
     '🧑{{skin_tone}}‍🦽': [
         'شخص في كرسي عجلة يدوي',
         ':person_manual_wheelchair:',
+        ':manual_wheelchair:',
+        ':person:'
+    ],
+    '👨{{skin_tone}}‍🦽‍➡️': [
+        'Man in Manual Wheelchair Facing Right',
+        ':man_manual_wheelchair_facing_right:',
+        ':manual_wheelchair:',
+        ':man:'
+    ],
+    '👩{{skin_tone}}‍🦽‍➡️': [
+        'Woman in Manual Wheelchair Facing Right',
+        ':woman_manual_wheelchair_facing_right:',
+        ':manual_wheelchair:',
+        ':woman:'
+    ],
+    '🧑{{skin_tone}}‍🦽‍➡️': [
+        'Person in Manual Wheelchair Facing Right',
+        ':person_manual_wheelchair_facing_right:',
         ':manual_wheelchair:',
         ':person:'
     ],
@@ -2226,6 +2334,11 @@ emojis_language[lang][3] = {
         'زوج غير متوافق مع نوع الجنس',
         ':person:'
     ],
+    '🧑‍🧑‍🧒': [
+        'Family: Adult, Adult, Child',
+        ':family_adult_adult_child:',
+        'Family: Person, Person, Child'
+    ],
     '👨‍👩‍👦': [
         'العائلة مع الأم والأب والأبن',
         ':family_with_mother_father_and_son:',
@@ -2235,6 +2348,35 @@ emojis_language[lang][3] = {
         'الأسرة مع الأم والأب والبنت',
         ':family_with_mother_father_and_daughter:',
         'العائلة: رجل، امرأة، فتاة'
+    ],
+    '👨‍👨‍👦': [
+        'العائلة مع والدين و ابن',
+        ':family_with_two_fathers_and_son:',
+        'العائلة: رجل، رجل، فتى',
+        ':man:'
+    ],
+    '👨‍👨‍👧': [
+        'الأسرة مع والدين وابنتين',
+        ':family_with_two_fathers_and_daughter:',
+        'العائلة: رجل، رجل، فتاة',
+        ':man:'
+    ],
+    '👩‍👩‍👦': [
+        'العائلة مع أمهات وأبناء',
+        ':family_with_two_mothers_and_son:',
+        'العائلة: امرأة، امرأة، فتى',
+        ':woman:'
+    ],
+    '👩‍👩‍👧': [
+        'الأسرة مع أمتين وابنتين',
+        ':family_with_two_mothers_and_daughter:',
+        'الأسرة: امرأة، امرأة، فتاة',
+        ':woman:'
+    ],
+    '🧑‍🧑‍🧒‍🧒': [
+        'Family: Adult, Adult, Child, Child',
+        ':family_adult_adult_child_child:',
+        'Family: Person, Person, Child, Child'
     ],
     '👨‍👩‍👧‍👦': [
         'الأسرة مع الأم والأب والبنت والبنت',
@@ -2250,18 +2392,6 @@ emojis_language[lang][3] = {
         'الأسرة مع الأم والأب والبنتين',
         ':family_with_mother_father_and_two_daughters:',
         'الأسرة: رجل وامرأة وفتاة وفتاة'
-    ],
-    '👨‍👨‍👦': [
-        'العائلة مع والدين و ابن',
-        ':family_with_two_fathers_and_son:',
-        'العائلة: رجل، رجل، فتى',
-        ':man:'
-    ],
-    '👨‍👨‍👧': [
-        'الأسرة مع والدين وابنتين',
-        ':family_with_two_fathers_and_daughter:',
-        'العائلة: رجل، رجل، فتاة',
-        ':man:'
     ],
     '👨‍👨‍👧‍👦': [
         'عائلة مع والدين وابن وابنتين',
@@ -2281,18 +2411,6 @@ emojis_language[lang][3] = {
         'الأسرة: رجل، فتاة، فتاة',
         ':man:'
     ],
-    '👩‍👩‍👦': [
-        'العائلة مع أمهات وأبناء',
-        ':family_with_two_mothers_and_son:',
-        'العائلة: امرأة، امرأة، فتى',
-        ':woman:'
-    ],
-    '👩‍👩‍👧': [
-        'الأسرة مع أمتين وابنتين',
-        ':family_with_two_mothers_and_daughter:',
-        'الأسرة: امرأة، امرأة، فتاة',
-        ':woman:'
-    ],
     '👩‍👩‍👧‍👦': [
         'العائلة مع أمتين، ابن وابنتين',
         ':family_with_two_mothers_son_and_daughter:',
@@ -2311,6 +2429,11 @@ emojis_language[lang][3] = {
         'الأسرة: امرأة، امرأة، فتاة، فتاة',
         ':woman:'
     ],
+    '🧑‍🧒': [
+        'Family: Adult, Child',
+        ':family_adult_child:',
+        'Family: Person, Child'
+    ],
     '👨‍👦': [
         'العائلة مع الأب و الابن',
         ':family_with_father_and_son:',
@@ -2322,6 +2445,23 @@ emojis_language[lang][3] = {
         ':family_with_father_and_daughter:',
         'الأسرة: رجل، فتاة',
         ':man:'
+    ],
+    '👩‍👧': [
+        'الأسرة مع الأم والبنت',
+        ':family_with_mother_and_daughter:',
+        'الأسرة: امرأة، فتاة',
+        ':woman:'
+    ],
+    '👨‍👧‍👧': [
+        'العائلة مع الأب والبنتين',
+        ':family_with_father_and_two_daughters:',
+        'الأسرة: رجل فتاة فتاة',
+        ':man:'
+    ],
+    '🧑‍🧒‍🧒': [
+        'Family: Adult, Child, Child',
+        ':family_adult_child_child:',
+        'Family: Person, Child, Child'
     ],
     '👨‍👦‍👦': [
         'العائلة مع الأب وولدين',
@@ -2335,22 +2475,10 @@ emojis_language[lang][3] = {
         'العائلة: رجل، فتاة، فتى',
         ':man:'
     ],
-    '👨‍👧‍👧': [
-        'العائلة مع الأب والبنتين',
-        ':family_with_father_and_two_daughters:',
-        'الأسرة: رجل فتاة فتاة',
-        ':man:'
-    ],
     '👩‍👦': [
         'العائلة مع الأم و الابن',
         ':family_with_mother_and_son:',
         'العائلة: امرأة، فتى',
-        ':woman:'
-    ],
-    '👩‍👧': [
-        'الأسرة مع الأم والبنت',
-        ':family_with_mother_and_daughter:',
-        'الأسرة: امرأة، فتاة',
         ':woman:'
     ],
     '👩‍👦‍👦': [
@@ -2459,21 +2587,24 @@ emojis_language[lang][3] = {
     ],
     '🛌{{skin_tone}}': [
         'السكن النوم',
-        'tired',
+        'متعب',
         ':sleeping_accommodation:',
-        'Person in Bed',
-        'Person Sleeping'
+        'شخص في السرير',
+        'نوم الشخص'
     ],
     '🛀{{skin_tone}}': [
-        'Person Taking Bath',
-        'Bathing',
+        'شخص يأخذ الحمام',
+        'الاستحمام',
         ':bath:',
         ':person_taking_bath:',
-        'Hot Bath',
-        'Person Taking a Bath',
-        'Bath',
-        'Shower',
-        'Soap'
+        'حمام ساخن',
+        'شخص يأخذ حمام',
+        'حمام',
+        'مشاهدة',
+        'الصابون',
+        'Tidy',
+        'Clean',
+        'Scrub'
     ],
     '🧌': [
         'Troll',
@@ -2917,7 +3048,12 @@ emojis_language[lang][4] = {
         ':hatching_chick:',
         'دجاج طفل',
         'تشويش',
+        'Egg',
         ':yellow:'
+    ],
+    '🥚': [
+        'Egg',
+        ':egg:'
     ],
     '🐤': [
         'شيك الطفل',
@@ -3217,6 +3353,44 @@ emojis_language[lang][4] = {
         ':nest_with_eggs:',
         'الطيور',
         'الرئيسية'
+    ],
+    '🫏': [
+        'Donkey',
+        ':donkey:',
+        ':grey:',
+        ':gray:'
+    ],
+    '🫎': [
+        'Moose',
+        ':moose:',
+        'Moose Face',
+        ':brown:'
+    ],
+    '🪿': [
+        'Goose',
+        ':goose:',
+        ':white:'
+    ],
+    '🪼': [
+        'Jellyfish',
+        ':jellyfish:',
+        ':blue:'
+    ],
+    '🐦‍⬛': [
+        'Black bird',
+        ':black_bird:',
+        ':raven:',
+        'Raven',
+        'Crow',
+        'Rook',
+        ':black:'
+    ],
+    '🐦‍🔥': [
+        'Phoenix',
+        'Fire',
+        'Reborn',
+        ':phoenix:',
+        ':red:'
     ]
 };
 /*symbols*/
@@ -3294,15 +3468,15 @@ emojis_language[lang][5] = {
         ':red:'
     ],
     '❤️‍🩹': [
-        'Mending Heart',
+        'قلب الصنع',
         ':mending_heart:',
-        'Bandaged Heart',
-        'Healing Heart',
-        'Unbroken Heart',
+        'قلب مضطرب',
+        'علاج القلب',
+        'قلب بلا انقطاع',
         ':red:'
     ],
     '❤️‍🔥': [
-        'Heart on Fire',
+        'قلب النار',
         ':heart_on_fire:',
         ':red:'
     ],
@@ -3367,9 +3541,27 @@ emojis_language[lang][5] = {
         'أنا أحبك',
         ':brown:'
     ],
-    //"🩷": ["Pink Heart", ":pink_heart:", "I Love You", ":pink:"],
-    //"🩵": ["Light Blue Heart", ":lightblue_heart:", "I Love You", ":blue:"],
-    //"🩶": ["Grey Heart","Gray Heart", ":grey_heart:",":gray_heart:", "I Love You", ":gray:", ":grey:"],
+    '🩷': [
+        'Pink Heart',
+        ':pink_heart:',
+        'I Love You',
+        ':pink:'
+    ],
+    '🩵': [
+        'Light Blue Heart',
+        ':lightblue_heart:',
+        'I Love You',
+        ':blue:'
+    ],
+    '🩶': [
+        'Grey Heart',
+        'Gray Heart',
+        ':grey_heart:',
+        ':gray_heart:',
+        'I Love You',
+        ':gray:',
+        ':grey:'
+    ],
     '💯': [
         '100 نقطة',
         ':hundred_points:',
@@ -3825,7 +4017,12 @@ emojis_language[lang][5] = {
         'ستة نجوم ذات نقطة متوسطة',
         ':purple:'
     ],
-    //"🪯": ["Khanda", ":khanda:", "Sikhism", ":purple:"],
+    '🪯': [
+        'Khanda',
+        ':khanda:',
+        'Sikhism',
+        ':purple:'
+    ],
     '♈': [
         'أريز',
         ':aries:',
@@ -4686,7 +4883,16 @@ emojis_language[lang][5] = {
         'مراقبة الحدود',
         ':blue:'
     ],
-    //"🛜": ["Wireless", ":wireless:", ":wifi:", ":wi_fi:", "Wifi", "wi-fi", "wireless connection", ":blue:"],
+    '🛜': [
+        'Wireless',
+        ':wireless:',
+        ':wifi:',
+        ':wi_fi:',
+        'Wifi',
+        'wi-fi',
+        'wireless connection',
+        ':blue:'
+    ],
     '🚰': [
         'رمز المياه الصالحة للشرب',
         ':potable_water_symbol:',
@@ -5371,11 +5577,24 @@ emojis_language[lang][6] = {
         ':broccoli:',
         ':green:'
     ],
+    '🍋‍🟩': [
+        'Lime',
+        ':lime:',
+        ':green:'
+    ],
     '🍄': [
         'الفطر',
         ':mushroom:',
         'غرف',
         'Toadstool'
+    ],
+    '🍄‍🟫': [
+        'Brown Mushroom',
+        ':brown_mushroom:',
+        'Mushroom',
+        'Shroom',
+        'Toadstool',
+        ':brown:'
     ],
     '🥜': [
         'Peanuts',
@@ -6005,13 +6224,18 @@ emojis_language[lang][7] = {
         'نقل العلم',
         ':transgender_flag:',
         'أزرق، وردي، وعلم أبيض',
-        'عبر العلم'
+        'عبر العلم',
+        'Blue',
+        'Pink'
     ],
     '🏴‍☠️': [
         'علم القراصنة',
         ':pirate_flag:',
         'جولي روجر',
-        ':black:'
+        ':black:',
+        'Corsair',
+        'Privateer',
+        'Buccaneer'
     ],
     '🇺🇳': [
         'علم الأمم المتحدة',
@@ -6435,26 +6659,26 @@ emojis_language[lang][7] = {
         'اتحاد جاك',
         'المملكة المتحدة'
     ],
-    '🏴󠁧󠁢󠁥󠁮󠁧󠁿󠁧󠁢󠁥󠁮󠁧󠁿': [
-        'علم إنكلترا',
+    '🏴󠁧󠁢󠁥󠁮󠁧󠁿': [
+        'Flag of England',
         ':england:',
-        'سانت جورج كروس',
-        'العلم الإنجليزي'
+        'St Georges Cross',
+        'English Flag'
     ],
-    '🏴󠁧󠁢󠁷󠁬󠁳󠁿󠁧󠁢󠁷󠁬󠁳󠁿': [
-        'علم ويلز',
+    '🏴󠁧󠁢󠁷󠁬󠁳󠁿': [
+        'Flag of Wales',
         ':wales:',
-        'العلم الويلزي',
-        'التنين الاحمر',
+        'Welsh Flag',
+        'Red Dragon',
         'Baner Cymru',
         'Y Ddraig Goch'
     ],
-    '🏴󠁧󠁢󠁳󠁣󠁴󠁿󠁧󠁢󠁳󠁣󠁴󠁿': [
-        'علم اسكتلندا',
+    '🏴󠁧󠁢󠁳󠁣󠁴󠁿': [
+        'Flag of Scotland',
         ':scotland:',
-        'العلم الاسكتلندي',
-        'سان أندروز الصليب',
-        'المربع'
+        'Scottish Flag',
+        'St Andrews Cross',
+        'Saltire'
     ],
     '🇬🇩': [
         'علم غرينادا',
@@ -7365,7 +7589,7 @@ emojis_language[lang][8] = {
         'تزلج',
         ':skier:'
     ],
-    '🏂{{skin_tone}}‍': [
+    '🏂{{skin_tone}}': [
         'Snowboarder',
         ':snowboarder:'
     ],
@@ -7678,6 +7902,24 @@ emojis_language[lang][8] = {
     '🏃{{skin_tone}}': [
         'تشغيل الشخص',
         ':person_running:',
+        ':running:',
+        ':person:'
+    ],
+    '🏃{{skin_tone}}‍♂️‍➡️': [
+        'Man Running Facing Right',
+        ':man_running_facing_right:',
+        ':running:',
+        ':man:'
+    ],
+    '🏃{{skin_tone}}‍♀️‍➡️': [
+        'Woman Running Facing Right',
+        'woman_running_facing_right:',
+        ':running:',
+        ':woman:'
+    ],
+    '🏃{{skin_tone}}‍➡️': [
+        'Person Running Facing Right',
+        ':person_running_facing_right:',
         ':running:',
         ':person:'
     ],
@@ -8592,7 +8834,8 @@ emojis_language[lang][10] = {
         ':mobile_phone:',
         'الهاتف الذكي',
         'أيفون',
-        'الهاتف الخلوي'
+        'الهاتف الخلوي',
+        'Device'
     ],
     '📲': [
         'الهاتف المحمول مع السهم الأيمن على اليسار',
@@ -8611,7 +8854,8 @@ emojis_language[lang][10] = {
         ':phone:',
         'Handset',
         'الهاتف',
-        ':black:'
+        ':black:',
+        'Device'
     ],
     '📟': [
         'صمغ',
@@ -8641,25 +8885,31 @@ emojis_language[lang][10] = {
     '💻': [
         'كمبيوتر',
         ':laptop:',
-        'الحواشي',
-        'كمبيوتر شخصي',
-        'الحواسيب',
-        'ماك بوك',
-        'السطح'
+        ':computer:',
+        'Notebook',
+        'Personal Computer',
+        'PC',
+        'MacBook',
+        'Surface',
+        'Device'
     ],
     '🖥️': [
         'كمبيوتر سطح المكتب',
         ':desktop_computer:',
-        'آي ماك',
-        'الحواسيب'
+        ':computer:',
+        'iMac',
+        'PC',
+        'Device'
     ],
     '🖨️': [
         'طابعة',
-        ':printer:'
+        ':printer:',
+        'Device'
     ],
     '⌨️': [
-        'Keyboard',
-        ':keyboard:'
+        'Computer Keyboard',
+        ':keyboard:',
+        ':computer_keyboard:'
     ],
     '🖱️': [
         'فأرة الكمبيوتر',
@@ -9293,7 +9543,12 @@ emojis_language[lang][11] = {
     ],
     '🩲': [
         'موجز',
-        ':briefs:'
+        ':briefs:',
+        'Undies',
+        'Underwear',
+        'Underpants',
+        'Jocks',
+        'Panties'
     ],
     '🩳': [
         'الاختصارات',
@@ -9681,6 +9936,14 @@ emojis_language[lang][12] = {
         ':selfie:',
         'كاميرا الهاتف',
         'سيلفي يد'
+    ],
+    '🫸{{skin_tone}}': [
+        'Rightwards Pushing Hand',
+        ':rightwards_pushing_hand:'
+    ],
+    '🫷{{skin_tone}}': [
+        'Leftwards Pushing Hand',
+        ':leftwards_pushing_hand:'
     ]
 };
 /*other*/
@@ -10317,9 +10580,24 @@ emojis_language[lang][13] = {
         'الهدوء',
         'الهدوء'
     ],
-    //"🪻": ["Hyacinth", ":hyacinth:", "Purple flower", ":purple:"],
-    //"🫛": ["Pea Pod", ":pea_pod:", ":green:"],
-    //"🫚": ["Ginger root", ":ginger:", "Spice", "Flavour", ":brown:"],
+    '🪻': [
+        'Hyacinth',
+        ':hyacinth:',
+        'Purple flower',
+        ':purple:'
+    ],
+    '🫛': [
+        'Pea Pod',
+        ':pea_pod:',
+        ':green:'
+    ],
+    '🫚': [
+        'Ginger root',
+        ':ginger:',
+        'Spice',
+        'Flavour',
+        ':brown:'
+    ],
     '🔑': [
         'المفتاح',
         ':key:',
@@ -10347,7 +10625,7 @@ emojis_language[lang][13] = {
     '🪓': [
         'فأس',
         ':axe:',
-        'firefighter'
+        'طاقم الإطفاء'
     ],
     '🪚': [
         'صهر النجارة',
@@ -10442,10 +10720,6 @@ emojis_language[lang][13] = {
         ':magnet:',
         ':red:'
     ],
-    '⛓️': [
-        'السلاسل',
-        ':chains:'
-    ],
     '💉': [
         'Syringe',
         ':syringe:',
@@ -10453,8 +10727,8 @@ emojis_language[lang][13] = {
         'اختبار الدم',
         'إحتياطي',
         'التطعيم',
-        'blood',
-        'sick',
+        'دم',
+        'مريض',
         'ill'
     ],
     '🧬': [
@@ -10545,7 +10819,10 @@ emojis_language[lang][13] = {
     ],
     '🧼': [
         'شريط الصابون',
-        ':bar_of_soap:'
+        ':bar_of_soap:',
+        'Tidy',
+        'Clean',
+        'Scrub'
     ],
     '🧽': [
         'سبونج',
@@ -10591,12 +10868,26 @@ emojis_language[lang][13] = {
         ':balance_scale:',
         'مقاييس العدالة'
     ],
+    '⛓️': [
+        'السلاسل',
+        ':chains:'
+    ],
     '🔗': [
         'رابط',
         ':link:',
         'سلسلة',
         'رابط هائل',
         'سلسلة مرتبطة',
+        ':gray:',
+        ':grey:'
+    ],
+    '⛓️‍💥': [
+        'Broken chain',
+        ':broken_chain:',
+        'Chain',
+        'Hyperlink',
+        'Linked Chain',
+        'Unlinked chain',
         ':gray:',
         ':grey:'
     ],
@@ -10695,7 +10986,8 @@ emojis_language[lang][13] = {
         'ملاحظة 20 جنيه استرليني',
         'ملاحظة عشرون حالة',
         'بانقود مع تسجيل الجنيه الأسترليني',
-        ':purple:'
+        ':purple:',
+        'Money'
     ],
     '💶': [
         'Euro Banknote',
@@ -10703,7 +10995,8 @@ emojis_language[lang][13] = {
         ':euro_banknote:',
         '100 يورو ملاحظة',
         'بنك عقدة مع علامة اليورو',
-        ':blue:'
+        ':blue:',
+        'Money'
     ],
     '💵': [
         'عملة بالدولار',
@@ -10713,7 +11006,8 @@ emojis_language[lang][13] = {
         'بانكوك مع علامة الدولار',
         'فاتورة الدولار',
         'دولار أمريكي',
-        ':green:'
+        ':green:',
+        'Money'
     ],
     '💴': [
         'ين بانبورت',
@@ -10722,7 +11016,8 @@ emojis_language[lang][13] = {
         'Y 1000 ملاحظة',
         'ين نوتس',
         'بنك عقدة مع عين توقيع',
-        ':yellow:'
+        ':yellow:',
+        'Money'
     ],
     '⛺': [
         'خيمة المخيم',
@@ -10811,7 +11106,7 @@ emojis_language[lang][13] = {
     '💣': [
         'قنبلة',
         ':bomb:',
-        'boom'
+        'ازدهار'
     ],
     '🔪': [
         'سكين المطبخ',
@@ -10945,13 +11240,24 @@ emojis_language[lang][13] = {
         'تمهيد الزجاج',
         ':hourglass:',
         ':hourglass_done:',
-        'زجاج'
+        'زجاج',
+        'Time',
+        'Egg timer',
+        'Empty',
+        'Ended',
+        'Finished',
+        'Sand Clock'
     ],
     '⏳': [
         'الزجاج غير منجز',
         ':hourglass_flowing_sand:',
         ':hourglass_not_done:',
-        'زجاج بالزجاج مع الرمال المتدفقة'
+        'زجاج بالزجاج مع الرمال المتدفقة',
+        'Busy',
+        'Time',
+        'Egg timer',
+        'Flowing',
+        'Sand Clock'
     ],
     '🕐': [
         'ساعة واحدة',
@@ -10959,14 +11265,16 @@ emojis_language[lang][13] = {
         ':one_oclock:',
         'ساعة الوجه واحد OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕜': [
         'الساعة ثلاثون',
         ':clock130:',
         ':one_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕑': [
         'ساعتان OClock',
@@ -10974,14 +11282,16 @@ emojis_language[lang][13] = {
         ':two_oclock:',
         'ساعة الوجه 2 ساعة',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕝': [
         'الساعة الثانية والثلاثون',
         ':clock230:',
         ':two_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕒': [
         'ثلاث ساعات',
@@ -10989,14 +11299,16 @@ emojis_language[lang][13] = {
         ':three_oclock:',
         'ساعة الواجهه الثالث',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕞': [
         'الساعة الثالثة والثلاثون',
         ':clock330:',
         ':three_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕓': [
         'أربع ساعات',
@@ -11004,14 +11316,16 @@ emojis_language[lang][13] = {
         ':four_oclock:',
         'ساعة الواجهة اربعة ساعات',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕟': [
         'الساعة أربع-30',
         ':clock430:',
         ':four_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕔': [
         'خمس ساعات',
@@ -11019,14 +11333,16 @@ emojis_language[lang][13] = {
         ':five_oclock:',
         'ساعة الوجه 5 ساعة',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕠': [
         'ساعة الوجه الخمس-30',
         ':clock530:',
         ':five_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕕': [
         'ست ساعات',
@@ -11034,14 +11350,16 @@ emojis_language[lang][13] = {
         ':size_oclock:',
         'ساعة الوجه 6 ساعة',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕡': [
         'الساعة السادس-30',
         ':clock630:',
         ':six_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕖': [
         'سبعة OClock',
@@ -11049,14 +11367,16 @@ emojis_language[lang][13] = {
         ':seven_oclock:',
         'ساعة الواجهة السابعة OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕢': [
         'الساعة السابعة والثلاثون',
         ':clock730:',
         ':sever_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕗': [
         'ثماني ساعات',
@@ -11064,14 +11384,16 @@ emojis_language[lang][13] = {
         ':eight_oclock:',
         'الساعة الساعة 8 OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕣': [
         'الساعة 8 - 30',
         ':clock830:',
         ':eight_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕘': [
         'تسعة OClock',
@@ -11079,14 +11401,16 @@ emojis_language[lang][13] = {
         ':nine_clock:',
         'ساعة الوجه 9 OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕤': [
         'واجهة 9 - 30 ساعة',
         ':clock930:',
         ':nine_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕙': [
         '10 OClock',
@@ -11094,14 +11418,16 @@ emojis_language[lang][13] = {
         ':ten_oclock:',
         'الساعة 10 OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕥': [
         'الساعة 10 - 30',
         ':clock1030:',
         ':ten_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕚': [
         'Eleven OClock',
@@ -11109,14 +11435,16 @@ emojis_language[lang][13] = {
         ':eleven_oclock:',
         'ساعة الوجه 11 OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕦': [
         'الوجه 11-30',
         ':clock1130:',
         ':eleven_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕛': [
         'اثنا عشر ساعة',
@@ -11124,14 +11452,16 @@ emojis_language[lang][13] = {
         ':twelve_oclock:',
         'ساعة الوجه 12 ساعة OClock',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '🕧': [
         'واجهة اثنتين-30',
         ':clock1230:',
         ':twelve_thirty:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Time'
     ],
     '♨️': [
         'الربيع الساخن',
@@ -11171,7 +11501,7 @@ emojis_language[lang][13] = {
         ':white:'
     ],
     '🗨️': [
-        'Left Speech Bubble',
+        'فقاعة الكلام اليسرى',
         ':left_speech_bubble:',
         ':speech_left:'
     ],
@@ -11181,7 +11511,7 @@ emojis_language[lang][13] = {
         'كابسول',
         'لوحي',
         'المخدرات',
-        'Sick',
+        'مريض',
         'ill',
         ':yellow:',
         ':red:'
@@ -11312,27 +11642,34 @@ emojis_language[lang][13] = {
         ':shopping_bags:'
     ],
     '🛒': [
-        'Shopping Cart',
+        'سلة التسوق',
         ':shopping_cart:',
-        'Shopping Trolley',
+        'ترولّي التسوق',
         ':shopping_trolley:',
         ':gray:',
-        ':grey:'
+        ':grey:',
+        'Market'
     ],
     '🎟️': [
         'تذاكر القبول',
-        ':admission_tickets:'
+        ':admission_tickets:',
+        'Theater',
+        'Theatre',
+        'Party'
     ],
     '🛎️': [
         'Bellhop Bell',
         ':bellhop_bell:',
         ':yellow:',
-        ':gold:'
+        ':gold:',
+        'Hotel',
+        'Reception'
     ],
     '🧾': [
         'الإيصال',
         ':receipt:',
-        ':white:'
+        ':white:',
+        'Bill'
     ],
     '🧮': [
         'Abacus',
@@ -11347,7 +11684,9 @@ emojis_language[lang][13] = {
         ':broom:',
         'فرشاة',
         'تفكيك',
-        ':yellow:'
+        ':yellow:',
+        'Tidy',
+        'Clean'
     ],
     '🎰': [
         'خانة آلة',
@@ -11360,11 +11699,20 @@ emojis_language[lang][13] = {
     '🦽': [
         'كرسي عجلة يدوي',
         ':manual_wheelchair:',
-        ':wheelchair:'
+        ':wheelchair:',
+        'invalid',
+        'disability',
+        'accessibility',
+        'mobility'
     ],
     '🦼': [
         'كرسي عجلة محرك',
-        ':motorized_wheelchair:'
+        ':motorized_wheelchair:',
+        ':wheelchair:',
+        'invalid',
+        'disability',
+        'accessibility',
+        'mobility'
     ],
     '🪔': [
         'مصباح دييا',
@@ -11389,7 +11737,8 @@ emojis_language[lang][13] = {
     ],
     '🪶': [
         'الريشة',
-        ':feather:'
+        ':feather:',
+        'Animal'
     ],
     '🪤': [
         'فخ الفأر',
@@ -11519,7 +11868,11 @@ emojis_language[lang][13] = {
         ':low_battery:',
         ':red:',
         'الطاقة',
-        'أحمر'
+        'أحمر',
+        'Device',
+        'Smartphone',
+        'Computer',
+        'Console'
     ],
     '🩻': [
         'أشعة',
@@ -11540,7 +11893,10 @@ emojis_language[lang][13] = {
         ':identification_card:',
         'الهوية',
         'جواز السفر',
-        'ID'
+        'ID',
+        'Country',
+        'Security',
+        'Travel'
     ],
     '🧿': [
         'Nazar Amulet',
@@ -11552,6 +11908,43 @@ emojis_language[lang][13] = {
         'دب تيدي',
         ':teddy_bear:',
         'لعبة',
+        ':brown:',
+        'Baby',
+        'Child',
+        'Children'
+    ],
+    '🪽': [
+        'Wing',
+        ':wing:',
+        'Fly',
+        ':white:'
+    ],
+    '🪭': [
+        'Folding Hand Fan',
+        ':folding_hand_fan:',
+        'Fan',
+        'Manual fan',
+        'Summer',
+        ':red:'
+    ],
+    '🪮': [
+        'Hair Pick',
+        ':hair_pick:',
+        'Black culture',
+        'Black pride',
+        ':black:'
+    ],
+    '🪈': [
+        'Flute',
+        ':flute:',
+        'Plastic flute',
+        'Metal plute',
+        'Bamboo flute',
+        'Musical instrument',
         ':brown:'
+    ],
+    '🪇': [
+        'Maracas',
+        ':maracas:'
     ]
 };

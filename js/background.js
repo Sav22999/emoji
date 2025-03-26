@@ -42,13 +42,13 @@ function tabUpdated(tabId, changeInfo, tabInfo) {
     //nothing
 }
 
-browserAgentSettings.runtime.onMessage.addListener((request) => {
+browserAgentSettings.runtime.onMessage.addListener((request, sender, sendResponse) => {
     if (request.type === "inject") {
         //inject the script
         injectContentScript(request.file);
     } else if (request.type === "requestNumber") {
         //return the request number for the injection
-        return Promise.resolve({requestNumber: requestNumber++});
+        sendResponse({requestNumber: requestNumber++});
     } else {
         console.error("Request unknown");
     }
