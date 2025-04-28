@@ -108,6 +108,8 @@ function checkEmojis() {
             }
         }
 
+        //console.log("The addon contains " + myEmojis.length + " emojis.");
+
         //console.log(myEmojis);
         //console.log(emojisToCheck);
 
@@ -227,14 +229,23 @@ function focusSearchBox() {
     searchBarInputElement.focus();
 }
 
-function copyEmoji(text, tooltip) {
+function copyEmoji(emoji, tooltip) {
     hideChooseSkinToneMiniPopUp();
     let nameOfSetting = "mostUsed";
     if (!deleting) {
         incrementCopiedEmojisNoParam();
 
+        //removed the "Matched: {{something}}" row in tooltip if it is present
+        //(this because in the search feature it is added the second row as "Matched: {{something}}")
+        if (tooltip != undefined && tooltip != "") {
+            let matched = tooltip.indexOf("Matched: ");
+            if (matched != -1) {
+                tooltip = tooltip.substring(0, matched);
+            }
+        }
+
         textToCopyElement.style.display = "block";
-        let copyEmojiTemp = text;
+        let copyEmojiTemp = emoji;
         if (multi_copy == "no") {
             copyText = copyEmojiTemp;
         } else {
@@ -256,17 +267,17 @@ function copyEmoji(text, tooltip) {
                     type: "requestNumber"
                 }).then((response) => {
                     browserAgentSettings.tabs.sendMessage(tabs[0].id, {
-                        type: "insert-emoji-by-injection", emoji: text, requestNumber: response.requestNumber
+                        type: "insert-emoji-by-injection", emoji: emoji, requestNumber: response.requestNumber
                     }).catch(onError);
-                    addToMostUsedCopyEmoji(nameOfSetting, text, tooltip);
+                    addToMostUsedCopyEmoji(nameOfSetting, emoji, tooltip);
                 }).catch(onError);
             });
         } else {
-            addToMostUsedCopyEmoji(nameOfSetting, text, tooltip);
+            addToMostUsedCopyEmoji(nameOfSetting, emoji, tooltip);
         }
     } else {
-        removeFromMostUsed(text);
-        showMessageBottom(strings["other"]["label-removed-correctly"], text);
+        removeFromMostUsed(emoji);
+        showMessageBottom(strings["other"]["label-removed-correctly"], emoji);
 
         browserAgentSettings.storage.sync.get(nameOfSetting, function (value) {
             if (value[nameOfSetting] != undefined) {
@@ -1372,10 +1383,13 @@ function searchEmoji(value) {
                         if (tmp_str.includes(valueToUse) || valueToUse.includes(tmp_str)) {
                             if (n_results < max_results) {
                                 tmp_all_emojis_similar[emoji] = [all_emojis[title][emoji][0]]; //add emoji to the list
+                                //change the tooltip with the "matching" string
+                                tmp_all_emojis_similar[emoji] = [all_emojis[title][emoji][0] + "\nMatched: " + all_emojis[title][emoji][description]];
                                 n_results++;
                             }
 
                             if (tmp_str === valueToUse) {
+                                //console.log("Value to search: ", valueToUse, " value found in: ", tmp_str);
                                 tmp_all_emojis_equals[emoji] = [all_emojis[title][emoji][0]]; //add emoji to the list
                                 n_results++;
                             }
@@ -1393,6 +1407,7 @@ function searchEmoji(value) {
                 //Show the emojis similar to the search
                 all_emojis[0][item] = tmp_all_emojis_similar[item];
             }
+            //console.log(all_emojis[0]);
         }
         //generateTitles(true, 0);
         emojisFound = all_emojis[0];
