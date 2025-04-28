@@ -6,7 +6,7 @@
     <br>
 </h1>
 
-<a href="https://emojiaddon.com"><img src="/banners/banner.png" width="100%" alt="Image: Emoji add-on banner"/></a>
+[<img src="./banners/banner.png" width="100%" alt="Image: Emoji add-on banner"/>](https://emojiaddon.com)
 
 Official website: https://emojiaddon.com.
 
@@ -22,7 +22,7 @@ To support me, you can do a donation :smile: with **PayPal** or **LiberaPay**:
 
 ## Description
 
-This extension permits you to copy an emoji in the clipboard. There are many emojis, more than **1703**!
+This extension permits you to copy an emoji in the clipboard. There are many emojis, more than **1900**!
 
 Emojis are divided in some sections, to help you find the correct emoji quickly (in order):
 
