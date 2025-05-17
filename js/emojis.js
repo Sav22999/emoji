@@ -129,6 +129,7 @@ emojis_language[lang][2] = {
     "🫨": ["Shaking Face", ":shaking_face:"],
     "🙂‍↔️": ["Head Shaking Horizontally", ":head_shaking_horizontally:"],
     "🙂‍↕️": ["Head Shaking Vertically", ":head_shaking_vertically:"],
+    //"🫩": ["Face with Bags Under Eyes", ":face_with_bags_under_eyes:"], //Emoji 16.0
     "😈": ["Smiling Face with Horns", ":smiling_face_with_horns:", "Devil", "Devil Horns", "Happy Devil", "Purple Devil", "Red Devil", ":purple:"],
     "👿": ["Angry Face with Horns", ":angry_face_with_horns:", "Devil", "Devil Horns", "Purple Devil", "Purple Goblin", "Sad Devil", "Imp", ":purple:"],
     "🤡": ["Clown Face", ":clown_face:", "Creepy Clown", "Evil Clown", "Scary Clown"],
@@ -870,6 +871,7 @@ emojis_language[lang][6] = {
     "🥬": ["Leafy Green", ":leafy_green:", "Bok Choy", "Chinese Cabbage", "Cos Lettuce", "Romaine Lettuce", "Leafy Greens", ":green:", "Vegetable"],
     "🥦": ["Broccoli", ":broccoli:", ":green:", "Vegetable"],
     "🍋‍🟩": ["Lime", ":lime:", ":green:", "Fruit", "Lime Green"],
+    //"🫜": ["Root Vegetable", ":root_vegetable:"], //Emoji 16.0
     "🍄": ["Mushroom", ":mushroom:", "Shroom", "Toadstool", "Fungi", "Fungus", "Mushroom Cap", ":red:"],
     "🍄‍🟫": ["Brown Mushroom", ":brown_mushroom:", "Mushroom", "Shroom", "Toadstool", ":brown:", "Fungi", "Fungus", "Mushroom Cap"],
     "🥜": ["Peanuts", ":peanuts:", "Nuts", ":brown:", "Nut", "Peanut", "Groundnut", "Legume", ":brown:"],
@@ -1191,6 +1193,7 @@ emojis_language[lang][7] = {
     "🇸🇮": ["Flag of Slovenia", ":si:", "Slovenian Flag"],
     "🇸🇯": ["Flag of Svalbard & Jan Mayen", ":sj:"],
     "🇸🇰": ["Flag of Slovakia", ":sk:", "Slovak Flag", "Slovakian Flag"],
+    //"🇨🇶": ["Flag of Sark", ":sark:", "Sark Flag"], //Emoji 16.0
     "🇸🇱": ["Flag of Sierra Leone", ":sl:", "Sierra Leonean Flag"],
     "🇸🇲": ["Flag of San Marino", ":sm:", "Sammarinese Flag"],
     "🇸🇳": ["Flag of Senegal", ":sn:", "Sengalese Flag"],
@@ -1657,6 +1660,7 @@ emojis_language[lang][12] = {
     "🤳{{skin_tone}}": ["Selfie", ":selfie:", "Phone Camera", "Selfie Hand"],
     "🫸{{skin_tone}}": ["Rightwards Pushing Hand", ":rightwards_pushing_hand:"],
     "🫷{{skin_tone}}": ["Leftwards Pushing Hand", ":leftwards_pushing_hand:"],
+    //"🫆": ["Fingerprint", ":fingerprint:"], //Emoji 16.0
 };
 /*other*/
 emojis_language[lang][13] = {
@@ -1723,6 +1727,7 @@ emojis_language[lang][13] = {
     "🔥": ["Fire", ":fire:", "Flame", "Hot", "Lit", "Snapstreak", ":red:"],
     "💧": ["Droplet", ":droplet:", "Water", "Water Drop", ":blue:"],
     "✨": ["Sparkles", ":sparkles:", "Glitter", "Shiny", "New"],
+    //"🫟": ["Splatter", ":splatter:"], //Emoji 16.0
     "🌊": ["Water Wave", ":water_wave:", "Beach", "Ocean Wave", "Sea", ":blue:"],
     "🎄": ["Christmas Tree", "christmas_tree", "Merry Christmas", "Xmas Tree", ":green:"],
     "🎃": ["Jack-O-Lantern", "jack_o_lantern", "Halloween", "Pumpkin", ":orange:"],
@@ -1740,6 +1745,7 @@ emojis_language[lang][13] = {
     "🌱": ["Seedling", ":seedling:", "Spring", "Sprout", "Sprouting", ":green:"],
     "🌲": ["Evergreen Tree", ":evergreen_tree:", "Fir Tree", "Pine Tree", ":green:"],
     "🌳": ["Deciduous Tree", ":deciduous_tree:", "Rounded Tree", ":green:"],
+    //"🪾": ["Leafless Tree", ":leafless_tree:"], //Emoji 16.0
     "🌴": ["Palm Tree", ":palm_tree:", "Coconut Tree", ":green:"],
     "🎋": ["Tanabata Tree", ":tanabata_tree:", "Tanabata", "Wish Tree"],
     "🎍": ["Pine Decoration", ":pine_decoration:", "Bamboo", "Kadomatsu", "New Year Decoration"],
@@ -1759,6 +1765,7 @@ emojis_language[lang][13] = {
     "🗝️": ["Old Key", ":old_key:", ":brown:"],
     "🔨": ["Hammer", ":hammer:", "Claw Hammer", "Handyman", "Tool"],
     "⛏️": ["Pick", ":pick:", "Pickaxe"],
+    //"🪏": ["Shovel", ":shovel"], //Emoji 16.0
     "🪓": ["Axe", ":axe:", "firefighter"],
     "🪚": ["Carpentry Saw", ":carpentry_saw:"],
     "🪛": ["Screwdriver", ":screwdriver:"],
@@ -1853,6 +1860,7 @@ emojis_language[lang][13] = {
     "🪕": ["Banjo", ":banjo:"],
     "🪗": ["Accordion", ":accordion:"],
     "🪘": ["Long Drum", ":long_drum:"],
+    //"🪉": ["Harp", ":harp:"], //Emoji 16.0
     "🎨": ["Artist Palette", ":artist_palette:", "Art", "Painting"],
     "🧩": ["Puzzle Piece", ":puzzle_piece:", "Jigsaw Puzzle Piece", ":green:"],
     "🎲": ["Game Die", ":game_die:", "Dice", ":white:"],
