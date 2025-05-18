@@ -2329,7 +2329,6 @@ function setLanguageUI() {
     document.getElementById("donate-paypal-settings").value = strings["settings"]["button-paypal"];
     document.getElementById("donate-liberapay-settings").value = strings["settings"]["button-liberapay"];
     document.getElementById("translate-settings").value = strings["settings"]["button-translate"];
-    document.getElementById("made-in-trentino-settings").innerHTML = strings["settings"]["label-made-with-heart-trentino"].replaceAll("{{properties}}", "class='font-" + font_family + " font-size-16'");
     document.getElementById("select-ctrl-shortcut").textContent = strings["settings"]["label-ctrl-" + currentOS];
     document.getElementById("select-alt-shortcut").textContent = strings["settings"]["label-alt-" + currentOS];
     document.getElementById("select-ctrl-alt-shortcut").textContent = strings["settings"]["label-ctrl-alt-" + currentOS];
