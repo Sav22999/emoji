@@ -33,6 +33,15 @@
     src: url("../font/openmojiblack.ttf");
 }
 
+/*If it's enabled the Auto theme colour*/
+@media (prefers-color-scheme: dark) {
+    /* Dark theme styles go here */
+}
+
+@media (prefers-color-scheme: light) {
+    /* Light theme styles go here */
+}
+
 * {
     scrollbar-color: rgb(10, 132, 255) rgba(150, 150, 150, 0);
     scrollbar-width: thin;
