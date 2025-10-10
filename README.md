@@ -1,3 +1,35 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=Sav22999&project=emoji&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sav22999&project=emoji&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sav22999&project=emoji&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sav22999&project=emoji&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sav22999&project=emoji&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sav22999&project=emoji&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sav22999&project=emoji&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sav22999&project=emoji&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sav22999&project=emoji&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sav22999&project=emoji&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sav22999&project=emoji&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sav22999&project=emoji&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sav22999&project=emoji&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sav22999&project=emoji&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sav22999&project=emoji&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sav22999&project=emoji&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sav22999&project=emoji&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sav22999&project=emoji&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sav22999&project=emoji&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sav22999&project=emoji&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=Sav22999&project=emoji&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 <h1 align="center">
     <br>
     <img width="70" src="img/icon-dark-128.png" alt="Emoji icon" />
